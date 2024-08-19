@@ -1,4 +1,4 @@
-# Guía de Scripting para EPLAN en español
+# Guía de Scripting para EPLAN
 
 ## Introducción
 
