@@ -38,7 +38,7 @@ public class MiPrimerScript
 ### Cómo ejecutar:
 
 - Guarda este código en un archivo con extensión .cs, por ejemplo, MiPrimerScript.cs.
-- En EPLAN, ve a [Utilidades] > [Scripts] > [Ejecutar] en 2.9 y en 2022 o superior busca Ejecutar
+- Fichero > Extras > grupo de comandos Ampliaciones > Interfaces > grupo de comandos Scripts > Ejecutar.
 - Selecciona tu archivo MiPrimerScript.cs.
 - Verás un cuadro de mensaje que dice "¡Hola, mundo! Este es mi primer script en EPLAN."
 
