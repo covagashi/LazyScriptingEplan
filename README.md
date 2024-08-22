@@ -13,12 +13,6 @@ Este repositorio incluye:
 3. Técnicas para trabajar con macros, generar informes y manipular proyectos.
 4. Consejos y mejores prácticas para el scripting en EPLAN.
 
-## Cómo usar este repositorio
-
-- Aunque actualmente está bajo construcción, intentaré terminarlo lo mas rápido posible.
-- Comienza con el archivo `Introduccion-Scripting-EPLAN.md` para una visión general.
-- Sigue con `Primeros-Pasos-Scripting-EPLAN.md` para empezar a crear tus primeros scripts.
-
 ## Requisitos previos
 
 - EPLAN Electric P8 2022 (u otra versión compatible)
