@@ -18,7 +18,6 @@ Este repositorio incluye:
 - Aunque actualmente está bajo construcción, intentaré terminarlo lo mas rápido posible.
 - Comienza con el archivo `Introduccion-Scripting-EPLAN.md` para una visión general.
 - Sigue con `Primeros-Pasos-Scripting-EPLAN.md` para empezar a crear tus primeros scripts.
-- Explora los demás archivos .md para temas específicos y ejemplos avanzados.
 
 ## Requisitos previos
 
@@ -26,17 +25,9 @@ Este repositorio incluye:
 - Conocimientos básicos de C#
 - Un editor de texto o IDE (se recomienda Visual Studio o Visual Studio Code)
 
-## Contribuciones
-
-¡Las contribuciones son bienvenidas! Si tienes ejemplos de scripts, mejoras o correcciones, no dudes en abrir un pull request o un issue.
-
 ## Descargo de responsabilidad
 
 Este proyecto no está afiliado oficialmente con EPLAN. Todos los scripts y ejemplos se proporcionan "tal cual", sin garantías. Úsalos bajo tu propia responsabilidad y siempre prueba en un entorno seguro antes de aplicar en proyectos reales.
-
-## Licencia
-
-Este proyecto está bajo la licencia [MIT](LICENSE).
 
 ---
 

@@ -57,3 +57,67 @@ EPLAN proporciona varias API que podemos usar en nuestros scripts. Algunas de la
 - `Eplan.EplApi.Scripting:` Proporciona funcionalidades para la ejecución de scripts.
 - `Eplan.EplApi.DataModel:` Permite acceder y manipular datos del proyecto.
 
+## 4. Trabajando con acciones en EPLAN
+
+Las acciones son una forma poderosa de extender la funcionalidad de EPLAN. Veamos cómo crear una acción personalizada.
+
+### Ejemplo: Creando una acción personalizada
+
+```csharp
+using System.Windows.Forms;
+using Eplan.EplApi.Scripting;
+
+public class MiAccionPersonalizada
+{
+    [DeclareAction("MiPrimeraAccion")]
+    public void EjecutarAccion()
+    {
+        MessageBox.Show("¡Has ejecutado tu primera acción personalizada en EPLAN!");
+    }
+}
+```
+
+### Explicación:
+
+1. Usamos el atributo [DeclareAction] para registrar nuestra función como una acción en EPLAN.
+2. El nombre "MiPrimeraAccion" es el identificador que usaremos para llamar a esta acción desde EPLAN.
+3. La función EjecutarAccion() contiene el código que se ejecutará cuando se llame a la acción.
+
+### Cómo usar:
+
+- Guarda y carga este script en EPLAN.
+- Ahora puedes llamar a "MiPrimeraAccion" desde cualquier lugar en EPLAN donde puedas ejecutar acciones, como la línea de comandos o asignándola a un botón personalizado.
+
+## 5. Creación de una interfaz de usuario simple
+
+Aunque los cuadros de mensaje son útiles, a veces necesitamos interfaces más complejas. Veamos cómo crear un formulario simple.
+```csharp
+using System;
+using System.Windows.Forms;
+using Eplan.EplApi.Scripting;
+
+public class InterfazUsuarioSimple
+{
+    [Start]
+    public void MostrarFormulario()
+    {
+        Form formulario = new Form();
+        formulario.Text = "Mi Formulario EPLAN";
+        formulario.Size = new System.Drawing.Size(300, 200);
+
+        Button boton = new Button();
+        boton.Text = "Haz clic aquí";
+        boton.Location = new System.Drawing.Point(100, 50);
+        boton.Click += (sender, e) => MessageBox.Show("¡Botón clicado!");
+
+        formulario.Controls.Add(boton);
+        formulario.ShowDialog();
+    }
+}
+```
+### Explicación:
+
+1. Creamos un nuevo objeto Form para nuestro formulario.
+2. Añadimos un botón al formulario.
+3. Usamos un evento Click para el botón, que muestra un mensaje cuando se hace clic en él.
+4. Mostramos el formulario con ShowDialog().
