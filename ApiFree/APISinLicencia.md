@@ -3,7 +3,7 @@
 ## Eplan.EplApi.Baseu 
 
 ### Namespace Eplan.EplApi.Base
-[https://www.eplan.help/en-US/infoportal/content/api/2022/Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html](https://www.eplan.help/en-US/infoportal/content/api/2025/Eplan.EplApi.Baseu.html)
+https://www.eplan.help/en-US/infoportal/content/api/2025/Eplan.EplApi.Baseu.html
 
 ## Eplan.EplApi.AFu Assembly
 ### Eplan.EplApi.ApplicationFramework Namespace
