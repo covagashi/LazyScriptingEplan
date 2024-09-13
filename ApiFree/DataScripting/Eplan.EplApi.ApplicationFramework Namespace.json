@@ -1,0 +1,754 @@
+[
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.AFu Assembly\n"
+    },
+    {
+        "title": "Action",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.Action\nC#\nC++/CLI\npublicclassAction\npublicclassAction\npublicrefclassAction\npublicrefclassAction\nReference\nAction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionCallingContext",
+        "content": "System.ObjectEplan.EplApi.Base.ContextEplan.EplApi.ApplicationFramework.ActionCallingContextEplan.EplApi.DataModel.StorableObjectContext\nC#\nC++/CLI\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicclassActionCallingContext :Eplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicclassActionCallingContext :Eplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicrefclassActionCallingContext :publicEplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicrefclassActionCallingContext :publicEplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\nReference\nActionCallingContext MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionManager",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.ActionManager\nC#\nC++/CLI\npublicclassActionManager\npublicclassActionManager\npublicrefclassActionManager\npublicrefclassActionManager\nC#\nAction oAction = m_ActionManager.FindAction(null);\r\nAssert.IsNull(oAction);\r\nActionCallingContext oACC =newActionCallingContext();\r\noAction.Execute(oACC);\nReference\nActionManager MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionParameterProperties",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.ActionParameterProperties\nC#\nC++/CLI\npublicclassActionParameterProperties\npublicclassActionParameterProperties\npublicrefclassActionParameterProperties\npublicrefclassActionParameterProperties\nC#\nActionManager oMng =newActionManager();\r\nAction oAction = oMng.FindAction(m_strActionName);\r\nlabelDescription.Text = oAction.ActionProperties.Description;\r\n\r\nArrayList lst= oAction.ActionProperties.GetParameterProperties();if(lst.Count== 0)\r\n{\r\n   listViewParameter.Hide();\r\n}else{foreach(ActionParameterProperties oPropertiesinlst)\r\n   {\r\n        String strParamName         = oProperties.Name;\r\n        String strParamDescription  = oProperties.Description;\r\n\r\n        System.Windows.Forms.ListViewItem listItem=newSystem.Windows.Forms.ListViewItem(strParamName);\r\n        listItem.SubItems.Add(strParamDescription);\r\n\r\n        listViewParameter.Items.Add(listItem);\r\n\r\n    }\r\n    listViewParameter.Show();\r\n}\nReference\nActionParameterProperties MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionProperties",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.ActionProperties\nC#\nC++/CLI\npublicclassActionProperties\npublicclassActionProperties\npublicrefclassActionProperties\npublicrefclassActionProperties\nReference\nActionProperties MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "BatchActionManager",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.BatchActionManager\nC#\nC++/CLI\npublicclassBatchActionManager\npublicclassBatchActionManager\npublicrefclassBatchActionManager\npublicrefclassBatchActionManager\nReference\nBatchActionManager MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "CommandLineInterpreter",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.CommandLineInterpreter\nC#\nC++/CLI\n[ClassInterface(ClassInterfaceType.None)]publicclassCommandLineInterpreter :ICommandLineInterpreter\n[ClassInterface(ClassInterfaceType.None)]publicclassCommandLineInterpreter :ICommandLineInterpreter\n[ClassInterface(ClassInterfaceType.None)]publicrefclassCommandLineInterpreter :publicICommandLineInterpreter\n[ClassInterface(ClassInterfaceType.None)]publicrefclassCommandLineInterpreter :publicICommandLineInterpreter\nC#\nString strAction=@\"XPrjActionProjectOpen /PROJECT:\";boolbRet= CommandLineInterpreter().Execute(strAction + ProjectName);if(!bRet)\r\n{newDecider().Decide(EnumDecisionType.eOkDecision,\"P8 command does not work\",\"OpenProjectAndPage\", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);\r\n   CommandLineInterpreter.Execute(\"SystemErrDialog\");return-1;\r\n}\nReference\nCommandLineInterpreter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandler",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventHandler\nC#\nC++/CLI\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicclassEventHandler\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicclassEventHandler\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicrefclassEventHandler\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicrefclassEventHandler\nReference\nEventHandler MembersEplan.EplApi.ApplicationFramework NamespaceEvents.html\n"
+    },
+    {
+        "title": "EventHandlerWrapper",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventHandlerWrapper\nC#\nC++/CLI\npublicclassEventHandlerWrapper\npublicclassEventHandlerWrapper\npublicrefclassEventHandlerWrapper\npublicrefclassEventHandlerWrapper\nC#\nEplan.EplApi.ApplicationFramework.EventHandler oEventHandler =newEplan.EplApi.ApplicationFramework.EventHandler();\r\noEventHandler.SetEvent(\"onActionStart.String.*\");\r\n       \r\nEplan.EplApi.ApplicationFramework.EventHandlerWrapper oWrapper=newEplan.EplApi.ApplicationFramework.EventHandlerWrapper();\r\noWrapper.EplanEventLocally +=newEplan.EplApi.ApplicationFramework.EventHandlerFunction(oWrapper_EventHandlerFunctionLocally);\r\n          \r\noEventHandler.EplanEvent +=newEplan.EplApi.ApplicationFramework.EventHandlerFunction(oWrapper.LocallyEventHandlerFunction);\nReference\nEventHandlerWrapper MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventManager",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventManager\nC#\nC++/CLI\npublicclassEventManager\npublicclassEventManager\npublicrefclassEventManager\npublicrefclassEventManager\nReference\nEventManager MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventParameter",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventParameter\nC#\nC++/CLI\npublicclassEventParameter :IEventParameter\npublicclassEventParameter :IEventParameter\npublicrefclassEventParameter :publicIEventParameter\npublicrefclassEventParameter :publicIEventParameter\nReference\nEventParameter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventParameterString",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventParameterString\nC#\nC++/CLI\npublicclassEventParameterString :IEventParameter\npublicclassEventParameterString :IEventParameter\npublicrefclassEventParameterString :publicIEventParameter\npublicrefclassEventParameterString :publicIEventParameter\nReference\nEventParameterString MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "License",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.License\nC#\nC++/CLI\npublicclassLicense\npublicclassLicense\npublicrefclassLicense\npublicrefclassLicense\nReference\nLicense MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "QuietModeStep",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.QuietModeStep\nC#\nC++/CLI\npublicclassQuietModeStep\npublicclassQuietModeStep\npublicrefclassQuietModeStep\npublicrefclassQuietModeStep\nReference\nQuietModeStep MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "UserRights",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.UserRights\nC#\nC++/CLI\npublicclassUserRights\npublicclassUserRights\npublicrefclassUserRights\npublicrefclassUserRights\nReference\nUserRights MembersEplan.EplApi.ApplicationFramework NamespaceQueryUserRights.html\n"
+    },
+    {
+        "title": "LicenseOptions",
+        "content": "C#\nC++/CLI\npublicenumLicenseOptions :System.Enum\npublicenumLicenseOptions :System.Enum\npublicenumclassLicenseOptions :publicSystem.Enum\npublicenumclassLicenseOptions :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.LicenseOptions\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "LicenseType",
+        "content": "C#\nC++/CLI\npublicenumLicenseType :System.Enum\npublicenumLicenseType :System.Enum\npublicenumclassLicenseType :publicSystem.Enum\npublicenumclassLicenseType :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.LicenseType\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ProjectOpenRequirement",
+        "content": "C#\nC++/CLI\npublicenumProjectOpenRequirement :System.Enum\npublicenumProjectOpenRequirement :System.Enum\npublicenumclassProjectOpenRequirement :publicSystem.Enum\npublicenumclassProjectOpenRequirement :publicSystem.Enum\nc#\nclassActionSetPropOnAllPagesBatch : IEplActionBatchExtension, IInterface\r\n{\r\n\t/#regionIEplActionBatchExtension Members// get the display name of this batch action. This is displayed in autoproc dialog.publicstringGetBatchActionDisplayName()\r\n{return\"raise value of page property custom supplementaryfield 1\";\r\n}// Get the name of the action to execute.publicstringGetBatchActionName()\r\n{return\"ActionSetPropOnAllPages\";\r\n}// get the parameters.\r\n// when a dialog should popup to ask the user for the parameters.\r\n// handling is stopped when false is returned.publicboolGetParameters(ActionCallingContext pCallingContext)\r\n{stringparam1 =\"\";\r\n\tpCallingContext.GetParameter(\"param1\",refparam1);stringparam2 =\"\";\r\n\tpCallingContext.GetParameter(\"param2\",refparam2);boolbOk = InputBox.ShowInputBox(refparam1,refparam2);\r\n\r\n\tpCallingContext.AddParameter(\"param1\", param1);\r\n\tpCallingContext.AddParameter(\"param2\", param2);returnbOk;\r\n}// Remember this params in script scheme. They are restored when reopeing a dialogpublicstring[] GetPersistentParameters()\r\n{string[] strParamList =newstring[2];\r\n\tstrParamList[0] =\"param1\";\r\n\tstrParamList[1] =\"param2\";returnstrParamList;\r\n}// return the needed Settings. Note: this settings has to exist on the client!\r\n// on server the settings are imported before the action is executed.publicstring[] GetListOfSettings()\r\n{string[] strSettingList =newstring[2];\r\n\tstrSettingList[0] =\"User.Eplan@EplAddIn@MyAddIn10.param3\";\r\n\tstrSettingList[1] =\"User.Eplan@EplAddIn@MyAddIn10.param4\";returnstrSettingList;\r\n}// This param is used in scripts. The actual project will set to it.publicstringGetProjectParameterInContext()\r\n{return\"ProjectName\";\r\n}publicProjectOpenRequirement GetProjectRequirement()\r\n{returnProjectOpenRequirement.ProjectExclusive;\r\n}\r\n\r\n\t/#endregion/#regionIInterface Members// AutoProcActionInterface is needed to attach to the autoproc dialogpublicstringInterfaceName\r\n{get{return\"ActionSetPropOnAllPagesBatch:AutoProcActionInterface\"; }\r\n}\r\n\r\n/#endregion}\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.ProjectOpenRequirement\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "QuietModes",
+        "content": "C#\nC++/CLI\npublicenumQuietModes :System.Enum\npublicenumQuietModes :System.Enum\npublicenumclassQuietModes :publicSystem.Enum\npublicenumclassQuietModes :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.QuietModes\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IActionCallingContext",
+        "content": "C#\nC++/CLI\npublicinterfaceIActionCallingContext\npublicinterfaceIActionCallingContext\npublicinterfaceclassIActionCallingContext\npublicinterfaceclassIActionCallingContext\nReference\nIActionCallingContext MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ICommandLineInterpreter",
+        "content": "C#\nC++/CLI\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceICommandLineInterpreter\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceICommandLineInterpreter\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceclassICommandLineInterpreter\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceclassICommandLineInterpreter\nReference\nICommandLineInterpreter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplAction",
+        "content": "C#\nC++/CLI\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceIEplAction\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceIEplAction\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceclassIEplAction\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceclassIEplAction\nReference\nIEplAction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplActionBatchExtension",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplActionBatchExtension :IInterface\npublicinterfaceIEplActionBatchExtension :IInterface\npublicinterfaceclassIEplActionBatchExtension :publicIInterface\npublicinterfaceclassIEplActionBatchExtension :publicIInterface\nReference\nIEplActionBatchExtension MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplActionChecked",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplActionChecked\npublicinterfaceIEplActionChecked\npublicinterfaceclassIEplActionChecked\npublicinterfaceclassIEplActionChecked\nc#\npublicclassTestAction : Eplan.EplApi.ApplicationFramework.IEplAction, Eplan.EplApi.ApplicationFramework.IEplActionChecked\r\n    {//IEplAction Members\\#regionIEplActionChecked MemberspublicintChecked(stringstrActionName, Eplan.EplApi.ApplicationFramework.ActionCallingContext actionContext)\r\n        {if(strActionName ==\"TESTACTIONMIXED\")\r\n            {return2;\r\n            }elseif(strActionName ==\"TESTACTION\")\r\n            {return1;\r\n            }else{return0;\r\n            }\r\n\r\n        }\r\n\r\n        \\#endregion}\nReference\nIEplActionChecked MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplActionEnable",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplActionEnable\npublicinterfaceIEplActionEnable\npublicinterfaceclassIEplActionEnable\npublicinterfaceclassIEplActionEnable\nc#\npublicclassTestAction : Eplan.EplApi.ApplicationFramework.IEplAction, Eplan.EplApi.ApplicationFramework.IEplActionEnable\r\n    {//IEplAction Members#regionIEplActionEnable MemberspublicboolEnabled(stringstrActionName, Eplan.EplApi.ApplicationFramework.ActionCallingContext actionContext)\r\n        {if(strActionName ==\"TESTACTION\")\r\n            {returnfalse;\r\n            }else{returntrue;\r\n            }\r\n        }#endregion}\nReference\nIEplActionEnable MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplAddIn",
+        "content": "C#\nC++/CLI\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceIEplAddIn\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceIEplAddIn\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceclassIEplAddIn\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceclassIEplAddIn\nReference\nIEplAddIn MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplAddInShadowCopy",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplAddInShadowCopy\npublicinterfaceIEplAddInShadowCopy\npublicinterfaceclassIEplAddInShadowCopy\npublicinterfaceclassIEplAddInShadowCopy\nC#\n///<summary>///  That is an example for using IEplAddInShadowCopy in EPLAN Add-in.  \r\n///</summary>publicclassAddInModule: IEplAddIn, IEplAddInShadowCopy\r\n{///<summary>/// This function is called once the Add-ins through the Framework in the registering.\r\n    ///</summary>///<param name=\"bLoadOnStart\">True:  The Add-in is loaded in the future in system start and the function<seealso cref=\"OnInit\"/>is called.</param>///<returns></returns>publicboolOnRegister(refSystem.Boolean bLoadOnStart)\r\n    {\r\n        bLoadOnStart =true;returntrue;\r\n    }///<summary>/// This function will remove from called once the Add-ins through the Framework in that the system. \r\n    ///</summary>///<returns></returns>publicboolOnUnregister()\r\n    {returntrue;\r\n    }///<summary>/// Called by the framework before<see cref=\"Eplan::EplApi::ApplicationFramework::IEplAddIn.OnInit\" text=\"OnInit\"/>and passes the\r\n    /// location from which add-in assembly has been registered.\r\n    ///</summary>publicvoidOnBeforeInit(stringstrOriginalAssemblyPath)\r\n    {\r\n        m_strOriginalAssemblyPath = strOriginalAssemblyPath;\r\n    }publicString GetOriginalAssemblyPath()\r\n    {returnm_strOriginalAssemblyPath;\r\n    }///<summary>/// This function is called in system start if the Add-in is supposed to be loaded in system start.<seealso cref=\"OnRegister\"/>///</summary>publicboolOnInit()\r\n    {returntrue;\r\n    }///<summary>/// This function is called of the Framework if the Framework has initializes already its waiter specialties and the Add-in can modify this surface.  \r\n    /// Only is called if the Add-in is loaded also in system system start.  \r\n    ///</summary>publicboolOnInitGui()\r\n    {returntrue;\r\n    }///<summary>///This function is called through the Framework in Programmedne if the Add-in was loaded in system start.<seealso cref=\"OnRegister\"/>///</summary>publicboolOnExit()\r\n    {returntrue;\r\n    }privateString m_strOriginalAssemblyPath;\r\n}\nReference\nIEplAddInShadowCopy MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplanEvents",
+        "content": "C#\nC++/CLI\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceIEplanEvents\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceIEplanEvents\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceclassIEplanEvents\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceclassIEplanEvents\nReference\nIEplanEvents MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplanEventsWrapper",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplanEventsWrapper\npublicinterfaceIEplanEventsWrapper\npublicinterfaceclassIEplanEventsWrapper\npublicinterfaceclassIEplanEventsWrapper\nReference\nIEplanEventsWrapper MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEventParameter",
+        "content": "C#\nC++/CLI\npublicinterfaceIEventParameter\npublicinterfaceIEventParameter\npublicinterfaceclassIEventParameter\npublicinterfaceclassIEventParameter\nReference\nIEventParameter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IExtendedProcessor",
+        "content": "C#\nC++/CLI\npublicinterfaceIExtendedProcessor :IInterface\npublicinterfaceIExtendedProcessor :IInterface\npublicinterfaceclassIExtendedProcessor :publicIInterface\npublicinterfaceclassIExtendedProcessor :publicIInterface\nReference\nIExtendedProcessor MembersEplan.EplApi.ApplicationFramework NamespaceXMLProcessor.html\n"
+    },
+    {
+        "title": "IInterface",
+        "content": "C#\nC++/CLI\npublicinterfaceIInterface\npublicinterfaceIInterface\npublicinterfaceclassIInterface\npublicinterfaceclassIInterface\nReference\nIInterface MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IOptions",
+        "content": "C#\nC++/CLI\npublicinterfaceIOptions\npublicinterfaceIOptions\npublicinterfaceclassIOptions\npublicinterfaceclassIOptions\nReference\nIOptions MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IXMLProcessor",
+        "content": "C#\nC++/CLI\npublicinterfaceIXMLProcessor :IInterface\npublicinterfaceIXMLProcessor :IInterface\npublicinterfaceclassIXMLProcessor :publicIInterface\npublicinterfaceclassIXMLProcessor :publicIInterface\nReference\nIXMLProcessor MembersEplan.EplApi.ApplicationFramework NamespaceXMLProcessor.html\n"
+    },
+    {
+        "title": "EventHandlerFunction",
+        "content": "C#\nC++/CLI\npublicdelegatevoidEventHandlerFunction(IEventParameterpIEventParameter)\npublicdelegatevoidEventHandlerFunction(IEventParameterpIEventParameter)\npublicdelegatevoidEventHandlerFunction(IEventParameter^pIEventParameter)\npublicdelegatevoidEventHandlerFunction(IEventParameter^pIEventParameter)\nParameters\nReference\nEventHandlerFunction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandlerNameFunction",
+        "content": "C#\nC++/CLI\npublicdelegatevoidEventHandlerNameFunction(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegatevoidEventHandlerNameFunction(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegatevoidEventHandlerNameFunction(IEventParameter^pIEventParameter,String^strNameOfEvent)\npublicdelegatevoidEventHandlerNameFunction(IEventParameter^pIEventParameter,String^strNameOfEvent)\nParameters\nReference\nEventHandlerNameFunction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandlerNameFunctionResult",
+        "content": "C#\nC++/CLI\npublicdelegatelongEventHandlerNameFunctionResult(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegatelongEventHandlerNameFunctionResult(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegateint64EventHandlerNameFunctionResult(IEventParameter^pIEventParameter,String^strNameOfEvent)\npublicdelegateint64EventHandlerNameFunctionResult(IEventParameter^pIEventParameter,String^strNameOfEvent)\nParameters\nReturn Value\nReference\nEventHandlerNameFunctionResult MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.AFu Assembly\n"
+    },
+    {
+        "title": "Action",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.Action\nC#\nC++/CLI\npublicclassAction\npublicclassAction\npublicrefclassAction\npublicrefclassAction\nReference\nAction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionCallingContext",
+        "content": "System.ObjectEplan.EplApi.Base.ContextEplan.EplApi.ApplicationFramework.ActionCallingContextEplan.EplApi.DataModel.StorableObjectContext\nC#\nC++/CLI\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicclassActionCallingContext :Eplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicclassActionCallingContext :Eplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicrefclassActionCallingContext :publicEplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicrefclassActionCallingContext :publicEplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\nReference\nActionCallingContext MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionManager",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.ActionManager\nC#\nC++/CLI\npublicclassActionManager\npublicclassActionManager\npublicrefclassActionManager\npublicrefclassActionManager\nC#\nAction oAction = m_ActionManager.FindAction(null);\r\nAssert.IsNull(oAction);\r\nActionCallingContext oACC =newActionCallingContext();\r\noAction.Execute(oACC);\nReference\nActionManager MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionParameterProperties",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.ActionParameterProperties\nC#\nC++/CLI\npublicclassActionParameterProperties\npublicclassActionParameterProperties\npublicrefclassActionParameterProperties\npublicrefclassActionParameterProperties\nC#\nActionManager oMng =newActionManager();\r\nAction oAction = oMng.FindAction(m_strActionName);\r\nlabelDescription.Text = oAction.ActionProperties.Description;\r\n\r\nArrayList lst= oAction.ActionProperties.GetParameterProperties();if(lst.Count== 0)\r\n{\r\n   listViewParameter.Hide();\r\n}else{foreach(ActionParameterProperties oPropertiesinlst)\r\n   {\r\n        String strParamName         = oProperties.Name;\r\n        String strParamDescription  = oProperties.Description;\r\n\r\n        System.Windows.Forms.ListViewItem listItem=newSystem.Windows.Forms.ListViewItem(strParamName);\r\n        listItem.SubItems.Add(strParamDescription);\r\n\r\n        listViewParameter.Items.Add(listItem);\r\n\r\n    }\r\n    listViewParameter.Show();\r\n}\nReference\nActionParameterProperties MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionProperties",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.ActionProperties\nC#\nC++/CLI\npublicclassActionProperties\npublicclassActionProperties\npublicrefclassActionProperties\npublicrefclassActionProperties\nReference\nActionProperties MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "BatchActionManager",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.BatchActionManager\nC#\nC++/CLI\npublicclassBatchActionManager\npublicclassBatchActionManager\npublicrefclassBatchActionManager\npublicrefclassBatchActionManager\nReference\nBatchActionManager MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "CommandLineInterpreter",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.CommandLineInterpreter\nC#\nC++/CLI\n[ClassInterface(ClassInterfaceType.None)]publicclassCommandLineInterpreter :ICommandLineInterpreter\n[ClassInterface(ClassInterfaceType.None)]publicclassCommandLineInterpreter :ICommandLineInterpreter\n[ClassInterface(ClassInterfaceType.None)]publicrefclassCommandLineInterpreter :publicICommandLineInterpreter\n[ClassInterface(ClassInterfaceType.None)]publicrefclassCommandLineInterpreter :publicICommandLineInterpreter\nC#\nString strAction=@\"XPrjActionProjectOpen /PROJECT:\";boolbRet= CommandLineInterpreter().Execute(strAction + ProjectName);if(!bRet)\r\n{newDecider().Decide(EnumDecisionType.eOkDecision,\"P8 command does not work\",\"OpenProjectAndPage\", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);\r\n   CommandLineInterpreter.Execute(\"SystemErrDialog\");return-1;\r\n}\nReference\nCommandLineInterpreter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandler",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventHandler\nC#\nC++/CLI\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicclassEventHandler\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicclassEventHandler\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicrefclassEventHandler\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicrefclassEventHandler\nReference\nEventHandler MembersEplan.EplApi.ApplicationFramework NamespaceEvents.html\n"
+    },
+    {
+        "title": "EventHandlerWrapper",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventHandlerWrapper\nC#\nC++/CLI\npublicclassEventHandlerWrapper\npublicclassEventHandlerWrapper\npublicrefclassEventHandlerWrapper\npublicrefclassEventHandlerWrapper\nC#\nEplan.EplApi.ApplicationFramework.EventHandler oEventHandler =newEplan.EplApi.ApplicationFramework.EventHandler();\r\noEventHandler.SetEvent(\"onActionStart.String.*\");\r\n       \r\nEplan.EplApi.ApplicationFramework.EventHandlerWrapper oWrapper=newEplan.EplApi.ApplicationFramework.EventHandlerWrapper();\r\noWrapper.EplanEventLocally +=newEplan.EplApi.ApplicationFramework.EventHandlerFunction(oWrapper_EventHandlerFunctionLocally);\r\n          \r\noEventHandler.EplanEvent +=newEplan.EplApi.ApplicationFramework.EventHandlerFunction(oWrapper.LocallyEventHandlerFunction);\nReference\nEventHandlerWrapper MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventManager",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventManager\nC#\nC++/CLI\npublicclassEventManager\npublicclassEventManager\npublicrefclassEventManager\npublicrefclassEventManager\nReference\nEventManager MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventParameter",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventParameter\nC#\nC++/CLI\npublicclassEventParameter :IEventParameter\npublicclassEventParameter :IEventParameter\npublicrefclassEventParameter :publicIEventParameter\npublicrefclassEventParameter :publicIEventParameter\nReference\nEventParameter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventParameterString",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventParameterString\nC#\nC++/CLI\npublicclassEventParameterString :IEventParameter\npublicclassEventParameterString :IEventParameter\npublicrefclassEventParameterString :publicIEventParameter\npublicrefclassEventParameterString :publicIEventParameter\nReference\nEventParameterString MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "License",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.License\nC#\nC++/CLI\npublicclassLicense\npublicclassLicense\npublicrefclassLicense\npublicrefclassLicense\nReference\nLicense MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "QuietModeStep",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.QuietModeStep\nC#\nC++/CLI\npublicclassQuietModeStep\npublicclassQuietModeStep\npublicrefclassQuietModeStep\npublicrefclassQuietModeStep\nReference\nQuietModeStep MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "UserRights",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.UserRights\nC#\nC++/CLI\npublicclassUserRights\npublicclassUserRights\npublicrefclassUserRights\npublicrefclassUserRights\nReference\nUserRights MembersEplan.EplApi.ApplicationFramework NamespaceQueryUserRights.html\n"
+    },
+    {
+        "title": "LicenseOptions",
+        "content": "C#\nC++/CLI\npublicenumLicenseOptions :System.Enum\npublicenumLicenseOptions :System.Enum\npublicenumclassLicenseOptions :publicSystem.Enum\npublicenumclassLicenseOptions :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.LicenseOptions\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "LicenseType",
+        "content": "C#\nC++/CLI\npublicenumLicenseType :System.Enum\npublicenumLicenseType :System.Enum\npublicenumclassLicenseType :publicSystem.Enum\npublicenumclassLicenseType :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.LicenseType\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ProjectOpenRequirement",
+        "content": "C#\nC++/CLI\npublicenumProjectOpenRequirement :System.Enum\npublicenumProjectOpenRequirement :System.Enum\npublicenumclassProjectOpenRequirement :publicSystem.Enum\npublicenumclassProjectOpenRequirement :publicSystem.Enum\nc#\nclassActionSetPropOnAllPagesBatch : IEplActionBatchExtension, IInterface\r\n{\r\n\t/#regionIEplActionBatchExtension Members// get the display name of this batch action. This is displayed in autoproc dialog.publicstringGetBatchActionDisplayName()\r\n{return\"raise value of page property custom supplementaryfield 1\";\r\n}// Get the name of the action to execute.publicstringGetBatchActionName()\r\n{return\"ActionSetPropOnAllPages\";\r\n}// get the parameters.\r\n// when a dialog should popup to ask the user for the parameters.\r\n// handling is stopped when false is returned.publicboolGetParameters(ActionCallingContext pCallingContext)\r\n{stringparam1 =\"\";\r\n\tpCallingContext.GetParameter(\"param1\",refparam1);stringparam2 =\"\";\r\n\tpCallingContext.GetParameter(\"param2\",refparam2);boolbOk = InputBox.ShowInputBox(refparam1,refparam2);\r\n\r\n\tpCallingContext.AddParameter(\"param1\", param1);\r\n\tpCallingContext.AddParameter(\"param2\", param2);returnbOk;\r\n}// Remember this params in script scheme. They are restored when reopeing a dialogpublicstring[] GetPersistentParameters()\r\n{string[] strParamList =newstring[2];\r\n\tstrParamList[0] =\"param1\";\r\n\tstrParamList[1] =\"param2\";returnstrParamList;\r\n}// return the needed Settings. Note: this settings has to exist on the client!\r\n// on server the settings are imported before the action is executed.publicstring[] GetListOfSettings()\r\n{string[] strSettingList =newstring[2];\r\n\tstrSettingList[0] =\"User.Eplan@EplAddIn@MyAddIn10.param3\";\r\n\tstrSettingList[1] =\"User.Eplan@EplAddIn@MyAddIn10.param4\";returnstrSettingList;\r\n}// This param is used in scripts. The actual project will set to it.publicstringGetProjectParameterInContext()\r\n{return\"ProjectName\";\r\n}publicProjectOpenRequirement GetProjectRequirement()\r\n{returnProjectOpenRequirement.ProjectExclusive;\r\n}\r\n\r\n\t/#endregion/#regionIInterface Members// AutoProcActionInterface is needed to attach to the autoproc dialogpublicstringInterfaceName\r\n{get{return\"ActionSetPropOnAllPagesBatch:AutoProcActionInterface\"; }\r\n}\r\n\r\n/#endregion}\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.ProjectOpenRequirement\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "QuietModes",
+        "content": "C#\nC++/CLI\npublicenumQuietModes :System.Enum\npublicenumQuietModes :System.Enum\npublicenumclassQuietModes :publicSystem.Enum\npublicenumclassQuietModes :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.QuietModes\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IActionCallingContext",
+        "content": "C#\nC++/CLI\npublicinterfaceIActionCallingContext\npublicinterfaceIActionCallingContext\npublicinterfaceclassIActionCallingContext\npublicinterfaceclassIActionCallingContext\nReference\nIActionCallingContext MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ICommandLineInterpreter",
+        "content": "C#\nC++/CLI\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceICommandLineInterpreter\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceICommandLineInterpreter\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceclassICommandLineInterpreter\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceclassICommandLineInterpreter\nReference\nICommandLineInterpreter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplAction",
+        "content": "C#\nC++/CLI\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceIEplAction\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceIEplAction\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceclassIEplAction\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceclassIEplAction\nReference\nIEplAction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplActionBatchExtension",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplActionBatchExtension :IInterface\npublicinterfaceIEplActionBatchExtension :IInterface\npublicinterfaceclassIEplActionBatchExtension :publicIInterface\npublicinterfaceclassIEplActionBatchExtension :publicIInterface\nReference\nIEplActionBatchExtension MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplActionChecked",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplActionChecked\npublicinterfaceIEplActionChecked\npublicinterfaceclassIEplActionChecked\npublicinterfaceclassIEplActionChecked\nc#\npublicclassTestAction : Eplan.EplApi.ApplicationFramework.IEplAction, Eplan.EplApi.ApplicationFramework.IEplActionChecked\r\n    {//IEplAction Members\\#regionIEplActionChecked MemberspublicintChecked(stringstrActionName, Eplan.EplApi.ApplicationFramework.ActionCallingContext actionContext)\r\n        {if(strActionName ==\"TESTACTIONMIXED\")\r\n            {return2;\r\n            }elseif(strActionName ==\"TESTACTION\")\r\n            {return1;\r\n            }else{return0;\r\n            }\r\n\r\n        }\r\n\r\n        \\#endregion}\nReference\nIEplActionChecked MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplActionEnable",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplActionEnable\npublicinterfaceIEplActionEnable\npublicinterfaceclassIEplActionEnable\npublicinterfaceclassIEplActionEnable\nc#\npublicclassTestAction : Eplan.EplApi.ApplicationFramework.IEplAction, Eplan.EplApi.ApplicationFramework.IEplActionEnable\r\n    {//IEplAction Members#regionIEplActionEnable MemberspublicboolEnabled(stringstrActionName, Eplan.EplApi.ApplicationFramework.ActionCallingContext actionContext)\r\n        {if(strActionName ==\"TESTACTION\")\r\n            {returnfalse;\r\n            }else{returntrue;\r\n            }\r\n        }#endregion}\nReference\nIEplActionEnable MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplAddIn",
+        "content": "C#\nC++/CLI\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceIEplAddIn\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceIEplAddIn\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceclassIEplAddIn\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceclassIEplAddIn\nReference\nIEplAddIn MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplAddInShadowCopy",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplAddInShadowCopy\npublicinterfaceIEplAddInShadowCopy\npublicinterfaceclassIEplAddInShadowCopy\npublicinterfaceclassIEplAddInShadowCopy\nC#\n///<summary>///  That is an example for using IEplAddInShadowCopy in EPLAN Add-in.  \r\n///</summary>publicclassAddInModule: IEplAddIn, IEplAddInShadowCopy\r\n{///<summary>/// This function is called once the Add-ins through the Framework in the registering.\r\n    ///</summary>///<param name=\"bLoadOnStart\">True:  The Add-in is loaded in the future in system start and the function<seealso cref=\"OnInit\"/>is called.</param>///<returns></returns>publicboolOnRegister(refSystem.Boolean bLoadOnStart)\r\n    {\r\n        bLoadOnStart =true;returntrue;\r\n    }///<summary>/// This function will remove from called once the Add-ins through the Framework in that the system. \r\n    ///</summary>///<returns></returns>publicboolOnUnregister()\r\n    {returntrue;\r\n    }///<summary>/// Called by the framework before<see cref=\"Eplan::EplApi::ApplicationFramework::IEplAddIn.OnInit\" text=\"OnInit\"/>and passes the\r\n    /// location from which add-in assembly has been registered.\r\n    ///</summary>publicvoidOnBeforeInit(stringstrOriginalAssemblyPath)\r\n    {\r\n        m_strOriginalAssemblyPath = strOriginalAssemblyPath;\r\n    }publicString GetOriginalAssemblyPath()\r\n    {returnm_strOriginalAssemblyPath;\r\n    }///<summary>/// This function is called in system start if the Add-in is supposed to be loaded in system start.<seealso cref=\"OnRegister\"/>///</summary>publicboolOnInit()\r\n    {returntrue;\r\n    }///<summary>/// This function is called of the Framework if the Framework has initializes already its waiter specialties and the Add-in can modify this surface.  \r\n    /// Only is called if the Add-in is loaded also in system system start.  \r\n    ///</summary>publicboolOnInitGui()\r\n    {returntrue;\r\n    }///<summary>///This function is called through the Framework in Programmedne if the Add-in was loaded in system start.<seealso cref=\"OnRegister\"/>///</summary>publicboolOnExit()\r\n    {returntrue;\r\n    }privateString m_strOriginalAssemblyPath;\r\n}\nReference\nIEplAddInShadowCopy MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplanEvents",
+        "content": "C#\nC++/CLI\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceIEplanEvents\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceIEplanEvents\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceclassIEplanEvents\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceclassIEplanEvents\nReference\nIEplanEvents MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplanEventsWrapper",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplanEventsWrapper\npublicinterfaceIEplanEventsWrapper\npublicinterfaceclassIEplanEventsWrapper\npublicinterfaceclassIEplanEventsWrapper\nReference\nIEplanEventsWrapper MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEventParameter",
+        "content": "C#\nC++/CLI\npublicinterfaceIEventParameter\npublicinterfaceIEventParameter\npublicinterfaceclassIEventParameter\npublicinterfaceclassIEventParameter\nReference\nIEventParameter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IExtendedProcessor",
+        "content": "C#\nC++/CLI\npublicinterfaceIExtendedProcessor :IInterface\npublicinterfaceIExtendedProcessor :IInterface\npublicinterfaceclassIExtendedProcessor :publicIInterface\npublicinterfaceclassIExtendedProcessor :publicIInterface\nReference\nIExtendedProcessor MembersEplan.EplApi.ApplicationFramework NamespaceXMLProcessor.html\n"
+    },
+    {
+        "title": "IInterface",
+        "content": "C#\nC++/CLI\npublicinterfaceIInterface\npublicinterfaceIInterface\npublicinterfaceclassIInterface\npublicinterfaceclassIInterface\nReference\nIInterface MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IOptions",
+        "content": "C#\nC++/CLI\npublicinterfaceIOptions\npublicinterfaceIOptions\npublicinterfaceclassIOptions\npublicinterfaceclassIOptions\nReference\nIOptions MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IXMLProcessor",
+        "content": "C#\nC++/CLI\npublicinterfaceIXMLProcessor :IInterface\npublicinterfaceIXMLProcessor :IInterface\npublicinterfaceclassIXMLProcessor :publicIInterface\npublicinterfaceclassIXMLProcessor :publicIInterface\nReference\nIXMLProcessor MembersEplan.EplApi.ApplicationFramework NamespaceXMLProcessor.html\n"
+    },
+    {
+        "title": "EventHandlerFunction",
+        "content": "C#\nC++/CLI\npublicdelegatevoidEventHandlerFunction(IEventParameterpIEventParameter)\npublicdelegatevoidEventHandlerFunction(IEventParameterpIEventParameter)\npublicdelegatevoidEventHandlerFunction(IEventParameter^pIEventParameter)\npublicdelegatevoidEventHandlerFunction(IEventParameter^pIEventParameter)\nParameters\nReference\nEventHandlerFunction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandlerNameFunction",
+        "content": "C#\nC++/CLI\npublicdelegatevoidEventHandlerNameFunction(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegatevoidEventHandlerNameFunction(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegatevoidEventHandlerNameFunction(IEventParameter^pIEventParameter,String^strNameOfEvent)\npublicdelegatevoidEventHandlerNameFunction(IEventParameter^pIEventParameter,String^strNameOfEvent)\nParameters\nReference\nEventHandlerNameFunction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandlerNameFunctionResult",
+        "content": "C#\nC++/CLI\npublicdelegatelongEventHandlerNameFunctionResult(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegatelongEventHandlerNameFunctionResult(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegateint64EventHandlerNameFunctionResult(IEventParameter^pIEventParameter,String^strNameOfEvent)\npublicdelegateint64EventHandlerNameFunctionResult(IEventParameter^pIEventParameter,String^strNameOfEvent)\nParameters\nReturn Value\nReference\nEventHandlerNameFunctionResult MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.AFu Assembly\n"
+    },
+    {
+        "title": "Action",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.Action\nC#\nC++/CLI\npublicclassAction\npublicclassAction\npublicrefclassAction\npublicrefclassAction\nReference\nAction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionCallingContext",
+        "content": "System.ObjectEplan.EplApi.Base.ContextEplan.EplApi.ApplicationFramework.ActionCallingContextEplan.EplApi.DataModel.StorableObjectContext\nC#\nC++/CLI\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicclassActionCallingContext :Eplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicclassActionCallingContext :Eplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicrefclassActionCallingContext :publicEplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicrefclassActionCallingContext :publicEplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\nReference\nActionCallingContext MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionManager",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.ActionManager\nC#\nC++/CLI\npublicclassActionManager\npublicclassActionManager\npublicrefclassActionManager\npublicrefclassActionManager\nC#\nAction oAction = m_ActionManager.FindAction(null);\r\nAssert.IsNull(oAction);\r\nActionCallingContext oACC =newActionCallingContext();\r\noAction.Execute(oACC);\nReference\nActionManager MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionParameterProperties",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.ActionParameterProperties\nC#\nC++/CLI\npublicclassActionParameterProperties\npublicclassActionParameterProperties\npublicrefclassActionParameterProperties\npublicrefclassActionParameterProperties\nC#\nActionManager oMng =newActionManager();\r\nAction oAction = oMng.FindAction(m_strActionName);\r\nlabelDescription.Text = oAction.ActionProperties.Description;\r\n\r\nArrayList lst= oAction.ActionProperties.GetParameterProperties();if(lst.Count== 0)\r\n{\r\n   listViewParameter.Hide();\r\n}else{foreach(ActionParameterProperties oPropertiesinlst)\r\n   {\r\n        String strParamName         = oProperties.Name;\r\n        String strParamDescription  = oProperties.Description;\r\n\r\n        System.Windows.Forms.ListViewItem listItem=newSystem.Windows.Forms.ListViewItem(strParamName);\r\n        listItem.SubItems.Add(strParamDescription);\r\n\r\n        listViewParameter.Items.Add(listItem);\r\n\r\n    }\r\n    listViewParameter.Show();\r\n}\nReference\nActionParameterProperties MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionProperties",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.ActionProperties\nC#\nC++/CLI\npublicclassActionProperties\npublicclassActionProperties\npublicrefclassActionProperties\npublicrefclassActionProperties\nReference\nActionProperties MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "BatchActionManager",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.BatchActionManager\nC#\nC++/CLI\npublicclassBatchActionManager\npublicclassBatchActionManager\npublicrefclassBatchActionManager\npublicrefclassBatchActionManager\nReference\nBatchActionManager MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "CommandLineInterpreter",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.CommandLineInterpreter\nC#\nC++/CLI\n[ClassInterface(ClassInterfaceType.None)]publicclassCommandLineInterpreter :ICommandLineInterpreter\n[ClassInterface(ClassInterfaceType.None)]publicclassCommandLineInterpreter :ICommandLineInterpreter\n[ClassInterface(ClassInterfaceType.None)]publicrefclassCommandLineInterpreter :publicICommandLineInterpreter\n[ClassInterface(ClassInterfaceType.None)]publicrefclassCommandLineInterpreter :publicICommandLineInterpreter\nC#\nString strAction=@\"XPrjActionProjectOpen /PROJECT:\";boolbRet= CommandLineInterpreter().Execute(strAction + ProjectName);if(!bRet)\r\n{newDecider().Decide(EnumDecisionType.eOkDecision,\"P8 command does not work\",\"OpenProjectAndPage\", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);\r\n   CommandLineInterpreter.Execute(\"SystemErrDialog\");return-1;\r\n}\nReference\nCommandLineInterpreter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandler",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventHandler\nC#\nC++/CLI\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicclassEventHandler\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicclassEventHandler\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicrefclassEventHandler\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicrefclassEventHandler\nReference\nEventHandler MembersEplan.EplApi.ApplicationFramework NamespaceEvents.html\n"
+    },
+    {
+        "title": "EventHandlerWrapper",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventHandlerWrapper\nC#\nC++/CLI\npublicclassEventHandlerWrapper\npublicclassEventHandlerWrapper\npublicrefclassEventHandlerWrapper\npublicrefclassEventHandlerWrapper\nC#\nEplan.EplApi.ApplicationFramework.EventHandler oEventHandler =newEplan.EplApi.ApplicationFramework.EventHandler();\r\noEventHandler.SetEvent(\"onActionStart.String.*\");\r\n       \r\nEplan.EplApi.ApplicationFramework.EventHandlerWrapper oWrapper=newEplan.EplApi.ApplicationFramework.EventHandlerWrapper();\r\noWrapper.EplanEventLocally +=newEplan.EplApi.ApplicationFramework.EventHandlerFunction(oWrapper_EventHandlerFunctionLocally);\r\n          \r\noEventHandler.EplanEvent +=newEplan.EplApi.ApplicationFramework.EventHandlerFunction(oWrapper.LocallyEventHandlerFunction);\nReference\nEventHandlerWrapper MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventManager",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventManager\nC#\nC++/CLI\npublicclassEventManager\npublicclassEventManager\npublicrefclassEventManager\npublicrefclassEventManager\nReference\nEventManager MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventParameter",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventParameter\nC#\nC++/CLI\npublicclassEventParameter :IEventParameter\npublicclassEventParameter :IEventParameter\npublicrefclassEventParameter :publicIEventParameter\npublicrefclassEventParameter :publicIEventParameter\nReference\nEventParameter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventParameterString",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventParameterString\nC#\nC++/CLI\npublicclassEventParameterString :IEventParameter\npublicclassEventParameterString :IEventParameter\npublicrefclassEventParameterString :publicIEventParameter\npublicrefclassEventParameterString :publicIEventParameter\nReference\nEventParameterString MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "License",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.License\nC#\nC++/CLI\npublicclassLicense\npublicclassLicense\npublicrefclassLicense\npublicrefclassLicense\nReference\nLicense MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "QuietModeStep",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.QuietModeStep\nC#\nC++/CLI\npublicclassQuietModeStep\npublicclassQuietModeStep\npublicrefclassQuietModeStep\npublicrefclassQuietModeStep\nReference\nQuietModeStep MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "UserRights",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.UserRights\nC#\nC++/CLI\npublicclassUserRights\npublicclassUserRights\npublicrefclassUserRights\npublicrefclassUserRights\nReference\nUserRights MembersEplan.EplApi.ApplicationFramework NamespaceQueryUserRights.html\n"
+    },
+    {
+        "title": "Action",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.Action\nC#\nC++/CLI\npublicclassAction\npublicclassAction\npublicrefclassAction\npublicrefclassAction\nReference\nAction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionCallingContext",
+        "content": "System.ObjectEplan.EplApi.Base.ContextEplan.EplApi.ApplicationFramework.ActionCallingContextEplan.EplApi.DataModel.StorableObjectContext\nC#\nC++/CLI\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicclassActionCallingContext :Eplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicclassActionCallingContext :Eplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicrefclassActionCallingContext :publicEplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicrefclassActionCallingContext :publicEplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\nReference\nActionCallingContext MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionManager",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.ActionManager\nC#\nC++/CLI\npublicclassActionManager\npublicclassActionManager\npublicrefclassActionManager\npublicrefclassActionManager\nC#\nAction oAction = m_ActionManager.FindAction(null);\r\nAssert.IsNull(oAction);\r\nActionCallingContext oACC =newActionCallingContext();\r\noAction.Execute(oACC);\nReference\nActionManager MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionParameterProperties",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.ActionParameterProperties\nC#\nC++/CLI\npublicclassActionParameterProperties\npublicclassActionParameterProperties\npublicrefclassActionParameterProperties\npublicrefclassActionParameterProperties\nC#\nActionManager oMng =newActionManager();\r\nAction oAction = oMng.FindAction(m_strActionName);\r\nlabelDescription.Text = oAction.ActionProperties.Description;\r\n\r\nArrayList lst= oAction.ActionProperties.GetParameterProperties();if(lst.Count== 0)\r\n{\r\n   listViewParameter.Hide();\r\n}else{foreach(ActionParameterProperties oPropertiesinlst)\r\n   {\r\n        String strParamName         = oProperties.Name;\r\n        String strParamDescription  = oProperties.Description;\r\n\r\n        System.Windows.Forms.ListViewItem listItem=newSystem.Windows.Forms.ListViewItem(strParamName);\r\n        listItem.SubItems.Add(strParamDescription);\r\n\r\n        listViewParameter.Items.Add(listItem);\r\n\r\n    }\r\n    listViewParameter.Show();\r\n}\nReference\nActionParameterProperties MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionProperties",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.ActionProperties\nC#\nC++/CLI\npublicclassActionProperties\npublicclassActionProperties\npublicrefclassActionProperties\npublicrefclassActionProperties\nReference\nActionProperties MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "BatchActionManager",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.BatchActionManager\nC#\nC++/CLI\npublicclassBatchActionManager\npublicclassBatchActionManager\npublicrefclassBatchActionManager\npublicrefclassBatchActionManager\nReference\nBatchActionManager MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "CommandLineInterpreter",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.CommandLineInterpreter\nC#\nC++/CLI\n[ClassInterface(ClassInterfaceType.None)]publicclassCommandLineInterpreter :ICommandLineInterpreter\n[ClassInterface(ClassInterfaceType.None)]publicclassCommandLineInterpreter :ICommandLineInterpreter\n[ClassInterface(ClassInterfaceType.None)]publicrefclassCommandLineInterpreter :publicICommandLineInterpreter\n[ClassInterface(ClassInterfaceType.None)]publicrefclassCommandLineInterpreter :publicICommandLineInterpreter\nC#\nString strAction=@\"XPrjActionProjectOpen /PROJECT:\";boolbRet= CommandLineInterpreter().Execute(strAction + ProjectName);if(!bRet)\r\n{newDecider().Decide(EnumDecisionType.eOkDecision,\"P8 command does not work\",\"OpenProjectAndPage\", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);\r\n   CommandLineInterpreter.Execute(\"SystemErrDialog\");return-1;\r\n}\nReference\nCommandLineInterpreter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandler",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventHandler\nC#\nC++/CLI\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicclassEventHandler\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicclassEventHandler\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicrefclassEventHandler\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicrefclassEventHandler\nReference\nEventHandler MembersEplan.EplApi.ApplicationFramework NamespaceEvents.html\n"
+    },
+    {
+        "title": "EventHandlerWrapper",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventHandlerWrapper\nC#\nC++/CLI\npublicclassEventHandlerWrapper\npublicclassEventHandlerWrapper\npublicrefclassEventHandlerWrapper\npublicrefclassEventHandlerWrapper\nC#\nEplan.EplApi.ApplicationFramework.EventHandler oEventHandler =newEplan.EplApi.ApplicationFramework.EventHandler();\r\noEventHandler.SetEvent(\"onActionStart.String.*\");\r\n       \r\nEplan.EplApi.ApplicationFramework.EventHandlerWrapper oWrapper=newEplan.EplApi.ApplicationFramework.EventHandlerWrapper();\r\noWrapper.EplanEventLocally +=newEplan.EplApi.ApplicationFramework.EventHandlerFunction(oWrapper_EventHandlerFunctionLocally);\r\n          \r\noEventHandler.EplanEvent +=newEplan.EplApi.ApplicationFramework.EventHandlerFunction(oWrapper.LocallyEventHandlerFunction);\nReference\nEventHandlerWrapper MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventManager",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventManager\nC#\nC++/CLI\npublicclassEventManager\npublicclassEventManager\npublicrefclassEventManager\npublicrefclassEventManager\nReference\nEventManager MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventParameter",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventParameter\nC#\nC++/CLI\npublicclassEventParameter :IEventParameter\npublicclassEventParameter :IEventParameter\npublicrefclassEventParameter :publicIEventParameter\npublicrefclassEventParameter :publicIEventParameter\nReference\nEventParameter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventParameterString",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventParameterString\nC#\nC++/CLI\npublicclassEventParameterString :IEventParameter\npublicclassEventParameterString :IEventParameter\npublicrefclassEventParameterString :publicIEventParameter\npublicrefclassEventParameterString :publicIEventParameter\nReference\nEventParameterString MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "License",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.License\nC#\nC++/CLI\npublicclassLicense\npublicclassLicense\npublicrefclassLicense\npublicrefclassLicense\nReference\nLicense MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "QuietModeStep",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.QuietModeStep\nC#\nC++/CLI\npublicclassQuietModeStep\npublicclassQuietModeStep\npublicrefclassQuietModeStep\npublicrefclassQuietModeStep\nReference\nQuietModeStep MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "UserRights",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.UserRights\nC#\nC++/CLI\npublicclassUserRights\npublicclassUserRights\npublicrefclassUserRights\npublicrefclassUserRights\nReference\nUserRights MembersEplan.EplApi.ApplicationFramework NamespaceQueryUserRights.html\n"
+    },
+    {
+        "title": "Action",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.Action\nC#\nC++/CLI\npublicclassAction\npublicclassAction\npublicrefclassAction\npublicrefclassAction\nReference\nAction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionCallingContext",
+        "content": "System.ObjectEplan.EplApi.Base.ContextEplan.EplApi.ApplicationFramework.ActionCallingContextEplan.EplApi.DataModel.StorableObjectContext\nC#\nC++/CLI\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicclassActionCallingContext :Eplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicclassActionCallingContext :Eplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicrefclassActionCallingContext :publicEplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\n[Guid(\"B44C4085-E6B8-3622-A1EF-50DF81A26485\")]publicrefclassActionCallingContext :publicEplan.EplApi.Base.Context,IActionCallingContext,Eplan.EplApi.Base.IContext\nReference\nActionCallingContext MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionManager",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.ActionManager\nC#\nC++/CLI\npublicclassActionManager\npublicclassActionManager\npublicrefclassActionManager\npublicrefclassActionManager\nC#\nAction oAction = m_ActionManager.FindAction(null);\r\nAssert.IsNull(oAction);\r\nActionCallingContext oACC =newActionCallingContext();\r\noAction.Execute(oACC);\nReference\nActionManager MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionParameterProperties",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.ActionParameterProperties\nC#\nC++/CLI\npublicclassActionParameterProperties\npublicclassActionParameterProperties\npublicrefclassActionParameterProperties\npublicrefclassActionParameterProperties\nC#\nActionManager oMng =newActionManager();\r\nAction oAction = oMng.FindAction(m_strActionName);\r\nlabelDescription.Text = oAction.ActionProperties.Description;\r\n\r\nArrayList lst= oAction.ActionProperties.GetParameterProperties();if(lst.Count== 0)\r\n{\r\n   listViewParameter.Hide();\r\n}else{foreach(ActionParameterProperties oPropertiesinlst)\r\n   {\r\n        String strParamName         = oProperties.Name;\r\n        String strParamDescription  = oProperties.Description;\r\n\r\n        System.Windows.Forms.ListViewItem listItem=newSystem.Windows.Forms.ListViewItem(strParamName);\r\n        listItem.SubItems.Add(strParamDescription);\r\n\r\n        listViewParameter.Items.Add(listItem);\r\n\r\n    }\r\n    listViewParameter.Show();\r\n}\nReference\nActionParameterProperties MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ActionProperties",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.ActionProperties\nC#\nC++/CLI\npublicclassActionProperties\npublicclassActionProperties\npublicrefclassActionProperties\npublicrefclassActionProperties\nReference\nActionProperties MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "BatchActionManager",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.BatchActionManager\nC#\nC++/CLI\npublicclassBatchActionManager\npublicclassBatchActionManager\npublicrefclassBatchActionManager\npublicrefclassBatchActionManager\nReference\nBatchActionManager MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "CommandLineInterpreter",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.CommandLineInterpreter\nC#\nC++/CLI\n[ClassInterface(ClassInterfaceType.None)]publicclassCommandLineInterpreter :ICommandLineInterpreter\n[ClassInterface(ClassInterfaceType.None)]publicclassCommandLineInterpreter :ICommandLineInterpreter\n[ClassInterface(ClassInterfaceType.None)]publicrefclassCommandLineInterpreter :publicICommandLineInterpreter\n[ClassInterface(ClassInterfaceType.None)]publicrefclassCommandLineInterpreter :publicICommandLineInterpreter\nC#\nString strAction=@\"XPrjActionProjectOpen /PROJECT:\";boolbRet= CommandLineInterpreter().Execute(strAction + ProjectName);if(!bRet)\r\n{newDecider().Decide(EnumDecisionType.eOkDecision,\"P8 command does not work\",\"OpenProjectAndPage\", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);\r\n   CommandLineInterpreter.Execute(\"SystemErrDialog\");return-1;\r\n}\nReference\nCommandLineInterpreter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandler",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventHandler\nC#\nC++/CLI\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicclassEventHandler\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicclassEventHandler\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicrefclassEventHandler\n[ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]publicrefclassEventHandler\nReference\nEventHandler MembersEplan.EplApi.ApplicationFramework NamespaceEvents.html\n"
+    },
+    {
+        "title": "EventHandlerWrapper",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventHandlerWrapper\nC#\nC++/CLI\npublicclassEventHandlerWrapper\npublicclassEventHandlerWrapper\npublicrefclassEventHandlerWrapper\npublicrefclassEventHandlerWrapper\nC#\nEplan.EplApi.ApplicationFramework.EventHandler oEventHandler =newEplan.EplApi.ApplicationFramework.EventHandler();\r\noEventHandler.SetEvent(\"onActionStart.String.*\");\r\n       \r\nEplan.EplApi.ApplicationFramework.EventHandlerWrapper oWrapper=newEplan.EplApi.ApplicationFramework.EventHandlerWrapper();\r\noWrapper.EplanEventLocally +=newEplan.EplApi.ApplicationFramework.EventHandlerFunction(oWrapper_EventHandlerFunctionLocally);\r\n          \r\noEventHandler.EplanEvent +=newEplan.EplApi.ApplicationFramework.EventHandlerFunction(oWrapper.LocallyEventHandlerFunction);\nReference\nEventHandlerWrapper MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventManager",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventManager\nC#\nC++/CLI\npublicclassEventManager\npublicclassEventManager\npublicrefclassEventManager\npublicrefclassEventManager\nReference\nEventManager MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventParameter",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventParameter\nC#\nC++/CLI\npublicclassEventParameter :IEventParameter\npublicclassEventParameter :IEventParameter\npublicrefclassEventParameter :publicIEventParameter\npublicrefclassEventParameter :publicIEventParameter\nReference\nEventParameter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventParameterString",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.EventParameterString\nC#\nC++/CLI\npublicclassEventParameterString :IEventParameter\npublicclassEventParameterString :IEventParameter\npublicrefclassEventParameterString :publicIEventParameter\npublicrefclassEventParameterString :publicIEventParameter\nReference\nEventParameterString MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "License",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.License\nC#\nC++/CLI\npublicclassLicense\npublicclassLicense\npublicrefclassLicense\npublicrefclassLicense\nReference\nLicense MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "QuietModeStep",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.QuietModeStep\nC#\nC++/CLI\npublicclassQuietModeStep\npublicclassQuietModeStep\npublicrefclassQuietModeStep\npublicrefclassQuietModeStep\nReference\nQuietModeStep MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "UserRights",
+        "content": "System.ObjectEplan.EplApi.ApplicationFramework.UserRights\nC#\nC++/CLI\npublicclassUserRights\npublicclassUserRights\npublicrefclassUserRights\npublicrefclassUserRights\nReference\nUserRights MembersEplan.EplApi.ApplicationFramework NamespaceQueryUserRights.html\n"
+    },
+    {
+        "title": "LicenseOptions",
+        "content": "C#\nC++/CLI\npublicenumLicenseOptions :System.Enum\npublicenumLicenseOptions :System.Enum\npublicenumclassLicenseOptions :publicSystem.Enum\npublicenumclassLicenseOptions :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.LicenseOptions\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "LicenseType",
+        "content": "C#\nC++/CLI\npublicenumLicenseType :System.Enum\npublicenumLicenseType :System.Enum\npublicenumclassLicenseType :publicSystem.Enum\npublicenumclassLicenseType :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.LicenseType\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ProjectOpenRequirement",
+        "content": "C#\nC++/CLI\npublicenumProjectOpenRequirement :System.Enum\npublicenumProjectOpenRequirement :System.Enum\npublicenumclassProjectOpenRequirement :publicSystem.Enum\npublicenumclassProjectOpenRequirement :publicSystem.Enum\nc#\nclassActionSetPropOnAllPagesBatch : IEplActionBatchExtension, IInterface\r\n{\r\n\t/#regionIEplActionBatchExtension Members// get the display name of this batch action. This is displayed in autoproc dialog.publicstringGetBatchActionDisplayName()\r\n{return\"raise value of page property custom supplementaryfield 1\";\r\n}// Get the name of the action to execute.publicstringGetBatchActionName()\r\n{return\"ActionSetPropOnAllPages\";\r\n}// get the parameters.\r\n// when a dialog should popup to ask the user for the parameters.\r\n// handling is stopped when false is returned.publicboolGetParameters(ActionCallingContext pCallingContext)\r\n{stringparam1 =\"\";\r\n\tpCallingContext.GetParameter(\"param1\",refparam1);stringparam2 =\"\";\r\n\tpCallingContext.GetParameter(\"param2\",refparam2);boolbOk = InputBox.ShowInputBox(refparam1,refparam2);\r\n\r\n\tpCallingContext.AddParameter(\"param1\", param1);\r\n\tpCallingContext.AddParameter(\"param2\", param2);returnbOk;\r\n}// Remember this params in script scheme. They are restored when reopeing a dialogpublicstring[] GetPersistentParameters()\r\n{string[] strParamList =newstring[2];\r\n\tstrParamList[0] =\"param1\";\r\n\tstrParamList[1] =\"param2\";returnstrParamList;\r\n}// return the needed Settings. Note: this settings has to exist on the client!\r\n// on server the settings are imported before the action is executed.publicstring[] GetListOfSettings()\r\n{string[] strSettingList =newstring[2];\r\n\tstrSettingList[0] =\"User.Eplan@EplAddIn@MyAddIn10.param3\";\r\n\tstrSettingList[1] =\"User.Eplan@EplAddIn@MyAddIn10.param4\";returnstrSettingList;\r\n}// This param is used in scripts. The actual project will set to it.publicstringGetProjectParameterInContext()\r\n{return\"ProjectName\";\r\n}publicProjectOpenRequirement GetProjectRequirement()\r\n{returnProjectOpenRequirement.ProjectExclusive;\r\n}\r\n\r\n\t/#endregion/#regionIInterface Members// AutoProcActionInterface is needed to attach to the autoproc dialogpublicstringInterfaceName\r\n{get{return\"ActionSetPropOnAllPagesBatch:AutoProcActionInterface\"; }\r\n}\r\n\r\n/#endregion}\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.ProjectOpenRequirement\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "QuietModes",
+        "content": "C#\nC++/CLI\npublicenumQuietModes :System.Enum\npublicenumQuietModes :System.Enum\npublicenumclassQuietModes :publicSystem.Enum\npublicenumclassQuietModes :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.QuietModes\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "LicenseOptions",
+        "content": "C#\nC++/CLI\npublicenumLicenseOptions :System.Enum\npublicenumLicenseOptions :System.Enum\npublicenumclassLicenseOptions :publicSystem.Enum\npublicenumclassLicenseOptions :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.LicenseOptions\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "LicenseType",
+        "content": "C#\nC++/CLI\npublicenumLicenseType :System.Enum\npublicenumLicenseType :System.Enum\npublicenumclassLicenseType :publicSystem.Enum\npublicenumclassLicenseType :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.LicenseType\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ProjectOpenRequirement",
+        "content": "C#\nC++/CLI\npublicenumProjectOpenRequirement :System.Enum\npublicenumProjectOpenRequirement :System.Enum\npublicenumclassProjectOpenRequirement :publicSystem.Enum\npublicenumclassProjectOpenRequirement :publicSystem.Enum\nc#\nclassActionSetPropOnAllPagesBatch : IEplActionBatchExtension, IInterface\r\n{\r\n\t/#regionIEplActionBatchExtension Members// get the display name of this batch action. This is displayed in autoproc dialog.publicstringGetBatchActionDisplayName()\r\n{return\"raise value of page property custom supplementaryfield 1\";\r\n}// Get the name of the action to execute.publicstringGetBatchActionName()\r\n{return\"ActionSetPropOnAllPages\";\r\n}// get the parameters.\r\n// when a dialog should popup to ask the user for the parameters.\r\n// handling is stopped when false is returned.publicboolGetParameters(ActionCallingContext pCallingContext)\r\n{stringparam1 =\"\";\r\n\tpCallingContext.GetParameter(\"param1\",refparam1);stringparam2 =\"\";\r\n\tpCallingContext.GetParameter(\"param2\",refparam2);boolbOk = InputBox.ShowInputBox(refparam1,refparam2);\r\n\r\n\tpCallingContext.AddParameter(\"param1\", param1);\r\n\tpCallingContext.AddParameter(\"param2\", param2);returnbOk;\r\n}// Remember this params in script scheme. They are restored when reopeing a dialogpublicstring[] GetPersistentParameters()\r\n{string[] strParamList =newstring[2];\r\n\tstrParamList[0] =\"param1\";\r\n\tstrParamList[1] =\"param2\";returnstrParamList;\r\n}// return the needed Settings. Note: this settings has to exist on the client!\r\n// on server the settings are imported before the action is executed.publicstring[] GetListOfSettings()\r\n{string[] strSettingList =newstring[2];\r\n\tstrSettingList[0] =\"User.Eplan@EplAddIn@MyAddIn10.param3\";\r\n\tstrSettingList[1] =\"User.Eplan@EplAddIn@MyAddIn10.param4\";returnstrSettingList;\r\n}// This param is used in scripts. The actual project will set to it.publicstringGetProjectParameterInContext()\r\n{return\"ProjectName\";\r\n}publicProjectOpenRequirement GetProjectRequirement()\r\n{returnProjectOpenRequirement.ProjectExclusive;\r\n}\r\n\r\n\t/#endregion/#regionIInterface Members// AutoProcActionInterface is needed to attach to the autoproc dialogpublicstringInterfaceName\r\n{get{return\"ActionSetPropOnAllPagesBatch:AutoProcActionInterface\"; }\r\n}\r\n\r\n/#endregion}\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.ProjectOpenRequirement\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "QuietModes",
+        "content": "C#\nC++/CLI\npublicenumQuietModes :System.Enum\npublicenumQuietModes :System.Enum\npublicenumclassQuietModes :publicSystem.Enum\npublicenumclassQuietModes :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.QuietModes\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "LicenseOptions",
+        "content": "C#\nC++/CLI\npublicenumLicenseOptions :System.Enum\npublicenumLicenseOptions :System.Enum\npublicenumclassLicenseOptions :publicSystem.Enum\npublicenumclassLicenseOptions :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.LicenseOptions\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "LicenseType",
+        "content": "C#\nC++/CLI\npublicenumLicenseType :System.Enum\npublicenumLicenseType :System.Enum\npublicenumclassLicenseType :publicSystem.Enum\npublicenumclassLicenseType :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.LicenseType\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ProjectOpenRequirement",
+        "content": "C#\nC++/CLI\npublicenumProjectOpenRequirement :System.Enum\npublicenumProjectOpenRequirement :System.Enum\npublicenumclassProjectOpenRequirement :publicSystem.Enum\npublicenumclassProjectOpenRequirement :publicSystem.Enum\nc#\nclassActionSetPropOnAllPagesBatch : IEplActionBatchExtension, IInterface\r\n{\r\n\t/#regionIEplActionBatchExtension Members// get the display name of this batch action. This is displayed in autoproc dialog.publicstringGetBatchActionDisplayName()\r\n{return\"raise value of page property custom supplementaryfield 1\";\r\n}// Get the name of the action to execute.publicstringGetBatchActionName()\r\n{return\"ActionSetPropOnAllPages\";\r\n}// get the parameters.\r\n// when a dialog should popup to ask the user for the parameters.\r\n// handling is stopped when false is returned.publicboolGetParameters(ActionCallingContext pCallingContext)\r\n{stringparam1 =\"\";\r\n\tpCallingContext.GetParameter(\"param1\",refparam1);stringparam2 =\"\";\r\n\tpCallingContext.GetParameter(\"param2\",refparam2);boolbOk = InputBox.ShowInputBox(refparam1,refparam2);\r\n\r\n\tpCallingContext.AddParameter(\"param1\", param1);\r\n\tpCallingContext.AddParameter(\"param2\", param2);returnbOk;\r\n}// Remember this params in script scheme. They are restored when reopeing a dialogpublicstring[] GetPersistentParameters()\r\n{string[] strParamList =newstring[2];\r\n\tstrParamList[0] =\"param1\";\r\n\tstrParamList[1] =\"param2\";returnstrParamList;\r\n}// return the needed Settings. Note: this settings has to exist on the client!\r\n// on server the settings are imported before the action is executed.publicstring[] GetListOfSettings()\r\n{string[] strSettingList =newstring[2];\r\n\tstrSettingList[0] =\"User.Eplan@EplAddIn@MyAddIn10.param3\";\r\n\tstrSettingList[1] =\"User.Eplan@EplAddIn@MyAddIn10.param4\";returnstrSettingList;\r\n}// This param is used in scripts. The actual project will set to it.publicstringGetProjectParameterInContext()\r\n{return\"ProjectName\";\r\n}publicProjectOpenRequirement GetProjectRequirement()\r\n{returnProjectOpenRequirement.ProjectExclusive;\r\n}\r\n\r\n\t/#endregion/#regionIInterface Members// AutoProcActionInterface is needed to attach to the autoproc dialogpublicstringInterfaceName\r\n{get{return\"ActionSetPropOnAllPagesBatch:AutoProcActionInterface\"; }\r\n}\r\n\r\n/#endregion}\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.ProjectOpenRequirement\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "QuietModes",
+        "content": "C#\nC++/CLI\npublicenumQuietModes :System.Enum\npublicenumQuietModes :System.Enum\npublicenumclassQuietModes :publicSystem.Enum\npublicenumclassQuietModes :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.ApplicationFramework.QuietModes\nReference\nEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IActionCallingContext",
+        "content": "C#\nC++/CLI\npublicinterfaceIActionCallingContext\npublicinterfaceIActionCallingContext\npublicinterfaceclassIActionCallingContext\npublicinterfaceclassIActionCallingContext\nReference\nIActionCallingContext MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ICommandLineInterpreter",
+        "content": "C#\nC++/CLI\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceICommandLineInterpreter\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceICommandLineInterpreter\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceclassICommandLineInterpreter\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceclassICommandLineInterpreter\nReference\nICommandLineInterpreter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplAction",
+        "content": "C#\nC++/CLI\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceIEplAction\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceIEplAction\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceclassIEplAction\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceclassIEplAction\nReference\nIEplAction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplActionBatchExtension",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplActionBatchExtension :IInterface\npublicinterfaceIEplActionBatchExtension :IInterface\npublicinterfaceclassIEplActionBatchExtension :publicIInterface\npublicinterfaceclassIEplActionBatchExtension :publicIInterface\nReference\nIEplActionBatchExtension MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplActionChecked",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplActionChecked\npublicinterfaceIEplActionChecked\npublicinterfaceclassIEplActionChecked\npublicinterfaceclassIEplActionChecked\nc#\npublicclassTestAction : Eplan.EplApi.ApplicationFramework.IEplAction, Eplan.EplApi.ApplicationFramework.IEplActionChecked\r\n    {//IEplAction Members\\#regionIEplActionChecked MemberspublicintChecked(stringstrActionName, Eplan.EplApi.ApplicationFramework.ActionCallingContext actionContext)\r\n        {if(strActionName ==\"TESTACTIONMIXED\")\r\n            {return2;\r\n            }elseif(strActionName ==\"TESTACTION\")\r\n            {return1;\r\n            }else{return0;\r\n            }\r\n\r\n        }\r\n\r\n        \\#endregion}\nReference\nIEplActionChecked MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplActionEnable",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplActionEnable\npublicinterfaceIEplActionEnable\npublicinterfaceclassIEplActionEnable\npublicinterfaceclassIEplActionEnable\nc#\npublicclassTestAction : Eplan.EplApi.ApplicationFramework.IEplAction, Eplan.EplApi.ApplicationFramework.IEplActionEnable\r\n    {//IEplAction Members#regionIEplActionEnable MemberspublicboolEnabled(stringstrActionName, Eplan.EplApi.ApplicationFramework.ActionCallingContext actionContext)\r\n        {if(strActionName ==\"TESTACTION\")\r\n            {returnfalse;\r\n            }else{returntrue;\r\n            }\r\n        }#endregion}\nReference\nIEplActionEnable MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplAddIn",
+        "content": "C#\nC++/CLI\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceIEplAddIn\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceIEplAddIn\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceclassIEplAddIn\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceclassIEplAddIn\nReference\nIEplAddIn MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplAddInShadowCopy",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplAddInShadowCopy\npublicinterfaceIEplAddInShadowCopy\npublicinterfaceclassIEplAddInShadowCopy\npublicinterfaceclassIEplAddInShadowCopy\nC#\n///<summary>///  That is an example for using IEplAddInShadowCopy in EPLAN Add-in.  \r\n///</summary>publicclassAddInModule: IEplAddIn, IEplAddInShadowCopy\r\n{///<summary>/// This function is called once the Add-ins through the Framework in the registering.\r\n    ///</summary>///<param name=\"bLoadOnStart\">True:  The Add-in is loaded in the future in system start and the function<seealso cref=\"OnInit\"/>is called.</param>///<returns></returns>publicboolOnRegister(refSystem.Boolean bLoadOnStart)\r\n    {\r\n        bLoadOnStart =true;returntrue;\r\n    }///<summary>/// This function will remove from called once the Add-ins through the Framework in that the system. \r\n    ///</summary>///<returns></returns>publicboolOnUnregister()\r\n    {returntrue;\r\n    }///<summary>/// Called by the framework before<see cref=\"Eplan::EplApi::ApplicationFramework::IEplAddIn.OnInit\" text=\"OnInit\"/>and passes the\r\n    /// location from which add-in assembly has been registered.\r\n    ///</summary>publicvoidOnBeforeInit(stringstrOriginalAssemblyPath)\r\n    {\r\n        m_strOriginalAssemblyPath = strOriginalAssemblyPath;\r\n    }publicString GetOriginalAssemblyPath()\r\n    {returnm_strOriginalAssemblyPath;\r\n    }///<summary>/// This function is called in system start if the Add-in is supposed to be loaded in system start.<seealso cref=\"OnRegister\"/>///</summary>publicboolOnInit()\r\n    {returntrue;\r\n    }///<summary>/// This function is called of the Framework if the Framework has initializes already its waiter specialties and the Add-in can modify this surface.  \r\n    /// Only is called if the Add-in is loaded also in system system start.  \r\n    ///</summary>publicboolOnInitGui()\r\n    {returntrue;\r\n    }///<summary>///This function is called through the Framework in Programmedne if the Add-in was loaded in system start.<seealso cref=\"OnRegister\"/>///</summary>publicboolOnExit()\r\n    {returntrue;\r\n    }privateString m_strOriginalAssemblyPath;\r\n}\nReference\nIEplAddInShadowCopy MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplanEvents",
+        "content": "C#\nC++/CLI\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceIEplanEvents\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceIEplanEvents\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceclassIEplanEvents\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceclassIEplanEvents\nReference\nIEplanEvents MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplanEventsWrapper",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplanEventsWrapper\npublicinterfaceIEplanEventsWrapper\npublicinterfaceclassIEplanEventsWrapper\npublicinterfaceclassIEplanEventsWrapper\nReference\nIEplanEventsWrapper MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEventParameter",
+        "content": "C#\nC++/CLI\npublicinterfaceIEventParameter\npublicinterfaceIEventParameter\npublicinterfaceclassIEventParameter\npublicinterfaceclassIEventParameter\nReference\nIEventParameter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IExtendedProcessor",
+        "content": "C#\nC++/CLI\npublicinterfaceIExtendedProcessor :IInterface\npublicinterfaceIExtendedProcessor :IInterface\npublicinterfaceclassIExtendedProcessor :publicIInterface\npublicinterfaceclassIExtendedProcessor :publicIInterface\nReference\nIExtendedProcessor MembersEplan.EplApi.ApplicationFramework NamespaceXMLProcessor.html\n"
+    },
+    {
+        "title": "IInterface",
+        "content": "C#\nC++/CLI\npublicinterfaceIInterface\npublicinterfaceIInterface\npublicinterfaceclassIInterface\npublicinterfaceclassIInterface\nReference\nIInterface MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IOptions",
+        "content": "C#\nC++/CLI\npublicinterfaceIOptions\npublicinterfaceIOptions\npublicinterfaceclassIOptions\npublicinterfaceclassIOptions\nReference\nIOptions MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IXMLProcessor",
+        "content": "C#\nC++/CLI\npublicinterfaceIXMLProcessor :IInterface\npublicinterfaceIXMLProcessor :IInterface\npublicinterfaceclassIXMLProcessor :publicIInterface\npublicinterfaceclassIXMLProcessor :publicIInterface\nReference\nIXMLProcessor MembersEplan.EplApi.ApplicationFramework NamespaceXMLProcessor.html\n"
+    },
+    {
+        "title": "IActionCallingContext",
+        "content": "C#\nC++/CLI\npublicinterfaceIActionCallingContext\npublicinterfaceIActionCallingContext\npublicinterfaceclassIActionCallingContext\npublicinterfaceclassIActionCallingContext\nReference\nIActionCallingContext MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ICommandLineInterpreter",
+        "content": "C#\nC++/CLI\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceICommandLineInterpreter\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceICommandLineInterpreter\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceclassICommandLineInterpreter\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceclassICommandLineInterpreter\nReference\nICommandLineInterpreter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplAction",
+        "content": "C#\nC++/CLI\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceIEplAction\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceIEplAction\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceclassIEplAction\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceclassIEplAction\nReference\nIEplAction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplActionBatchExtension",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplActionBatchExtension :IInterface\npublicinterfaceIEplActionBatchExtension :IInterface\npublicinterfaceclassIEplActionBatchExtension :publicIInterface\npublicinterfaceclassIEplActionBatchExtension :publicIInterface\nReference\nIEplActionBatchExtension MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplActionChecked",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplActionChecked\npublicinterfaceIEplActionChecked\npublicinterfaceclassIEplActionChecked\npublicinterfaceclassIEplActionChecked\nc#\npublicclassTestAction : Eplan.EplApi.ApplicationFramework.IEplAction, Eplan.EplApi.ApplicationFramework.IEplActionChecked\r\n    {//IEplAction Members\\#regionIEplActionChecked MemberspublicintChecked(stringstrActionName, Eplan.EplApi.ApplicationFramework.ActionCallingContext actionContext)\r\n        {if(strActionName ==\"TESTACTIONMIXED\")\r\n            {return2;\r\n            }elseif(strActionName ==\"TESTACTION\")\r\n            {return1;\r\n            }else{return0;\r\n            }\r\n\r\n        }\r\n\r\n        \\#endregion}\nReference\nIEplActionChecked MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplActionEnable",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplActionEnable\npublicinterfaceIEplActionEnable\npublicinterfaceclassIEplActionEnable\npublicinterfaceclassIEplActionEnable\nc#\npublicclassTestAction : Eplan.EplApi.ApplicationFramework.IEplAction, Eplan.EplApi.ApplicationFramework.IEplActionEnable\r\n    {//IEplAction Members#regionIEplActionEnable MemberspublicboolEnabled(stringstrActionName, Eplan.EplApi.ApplicationFramework.ActionCallingContext actionContext)\r\n        {if(strActionName ==\"TESTACTION\")\r\n            {returnfalse;\r\n            }else{returntrue;\r\n            }\r\n        }#endregion}\nReference\nIEplActionEnable MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplAddIn",
+        "content": "C#\nC++/CLI\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceIEplAddIn\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceIEplAddIn\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceclassIEplAddIn\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceclassIEplAddIn\nReference\nIEplAddIn MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplAddInShadowCopy",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplAddInShadowCopy\npublicinterfaceIEplAddInShadowCopy\npublicinterfaceclassIEplAddInShadowCopy\npublicinterfaceclassIEplAddInShadowCopy\nC#\n///<summary>///  That is an example for using IEplAddInShadowCopy in EPLAN Add-in.  \r\n///</summary>publicclassAddInModule: IEplAddIn, IEplAddInShadowCopy\r\n{///<summary>/// This function is called once the Add-ins through the Framework in the registering.\r\n    ///</summary>///<param name=\"bLoadOnStart\">True:  The Add-in is loaded in the future in system start and the function<seealso cref=\"OnInit\"/>is called.</param>///<returns></returns>publicboolOnRegister(refSystem.Boolean bLoadOnStart)\r\n    {\r\n        bLoadOnStart =true;returntrue;\r\n    }///<summary>/// This function will remove from called once the Add-ins through the Framework in that the system. \r\n    ///</summary>///<returns></returns>publicboolOnUnregister()\r\n    {returntrue;\r\n    }///<summary>/// Called by the framework before<see cref=\"Eplan::EplApi::ApplicationFramework::IEplAddIn.OnInit\" text=\"OnInit\"/>and passes the\r\n    /// location from which add-in assembly has been registered.\r\n    ///</summary>publicvoidOnBeforeInit(stringstrOriginalAssemblyPath)\r\n    {\r\n        m_strOriginalAssemblyPath = strOriginalAssemblyPath;\r\n    }publicString GetOriginalAssemblyPath()\r\n    {returnm_strOriginalAssemblyPath;\r\n    }///<summary>/// This function is called in system start if the Add-in is supposed to be loaded in system start.<seealso cref=\"OnRegister\"/>///</summary>publicboolOnInit()\r\n    {returntrue;\r\n    }///<summary>/// This function is called of the Framework if the Framework has initializes already its waiter specialties and the Add-in can modify this surface.  \r\n    /// Only is called if the Add-in is loaded also in system system start.  \r\n    ///</summary>publicboolOnInitGui()\r\n    {returntrue;\r\n    }///<summary>///This function is called through the Framework in Programmedne if the Add-in was loaded in system start.<seealso cref=\"OnRegister\"/>///</summary>publicboolOnExit()\r\n    {returntrue;\r\n    }privateString m_strOriginalAssemblyPath;\r\n}\nReference\nIEplAddInShadowCopy MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplanEvents",
+        "content": "C#\nC++/CLI\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceIEplanEvents\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceIEplanEvents\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceclassIEplanEvents\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceclassIEplanEvents\nReference\nIEplanEvents MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplanEventsWrapper",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplanEventsWrapper\npublicinterfaceIEplanEventsWrapper\npublicinterfaceclassIEplanEventsWrapper\npublicinterfaceclassIEplanEventsWrapper\nReference\nIEplanEventsWrapper MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEventParameter",
+        "content": "C#\nC++/CLI\npublicinterfaceIEventParameter\npublicinterfaceIEventParameter\npublicinterfaceclassIEventParameter\npublicinterfaceclassIEventParameter\nReference\nIEventParameter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IExtendedProcessor",
+        "content": "C#\nC++/CLI\npublicinterfaceIExtendedProcessor :IInterface\npublicinterfaceIExtendedProcessor :IInterface\npublicinterfaceclassIExtendedProcessor :publicIInterface\npublicinterfaceclassIExtendedProcessor :publicIInterface\nReference\nIExtendedProcessor MembersEplan.EplApi.ApplicationFramework NamespaceXMLProcessor.html\n"
+    },
+    {
+        "title": "IInterface",
+        "content": "C#\nC++/CLI\npublicinterfaceIInterface\npublicinterfaceIInterface\npublicinterfaceclassIInterface\npublicinterfaceclassIInterface\nReference\nIInterface MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IOptions",
+        "content": "C#\nC++/CLI\npublicinterfaceIOptions\npublicinterfaceIOptions\npublicinterfaceclassIOptions\npublicinterfaceclassIOptions\nReference\nIOptions MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IXMLProcessor",
+        "content": "C#\nC++/CLI\npublicinterfaceIXMLProcessor :IInterface\npublicinterfaceIXMLProcessor :IInterface\npublicinterfaceclassIXMLProcessor :publicIInterface\npublicinterfaceclassIXMLProcessor :publicIInterface\nReference\nIXMLProcessor MembersEplan.EplApi.ApplicationFramework NamespaceXMLProcessor.html\n"
+    },
+    {
+        "title": "IActionCallingContext",
+        "content": "C#\nC++/CLI\npublicinterfaceIActionCallingContext\npublicinterfaceIActionCallingContext\npublicinterfaceclassIActionCallingContext\npublicinterfaceclassIActionCallingContext\nReference\nIActionCallingContext MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "ICommandLineInterpreter",
+        "content": "C#\nC++/CLI\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceICommandLineInterpreter\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceICommandLineInterpreter\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceclassICommandLineInterpreter\n[Guid(\"68175996-AC53-3881-81F4-3C1A25B897C9\")]publicinterfaceclassICommandLineInterpreter\nReference\nICommandLineInterpreter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplAction",
+        "content": "C#\nC++/CLI\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceIEplAction\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceIEplAction\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceclassIEplAction\n[Guid(\"83FAA39E-2215-3984-982F-29FFB4B3F5F2\")]publicinterfaceclassIEplAction\nReference\nIEplAction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplActionBatchExtension",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplActionBatchExtension :IInterface\npublicinterfaceIEplActionBatchExtension :IInterface\npublicinterfaceclassIEplActionBatchExtension :publicIInterface\npublicinterfaceclassIEplActionBatchExtension :publicIInterface\nReference\nIEplActionBatchExtension MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplActionChecked",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplActionChecked\npublicinterfaceIEplActionChecked\npublicinterfaceclassIEplActionChecked\npublicinterfaceclassIEplActionChecked\nc#\npublicclassTestAction : Eplan.EplApi.ApplicationFramework.IEplAction, Eplan.EplApi.ApplicationFramework.IEplActionChecked\r\n    {//IEplAction Members\\#regionIEplActionChecked MemberspublicintChecked(stringstrActionName, Eplan.EplApi.ApplicationFramework.ActionCallingContext actionContext)\r\n        {if(strActionName ==\"TESTACTIONMIXED\")\r\n            {return2;\r\n            }elseif(strActionName ==\"TESTACTION\")\r\n            {return1;\r\n            }else{return0;\r\n            }\r\n\r\n        }\r\n\r\n        \\#endregion}\nReference\nIEplActionChecked MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplActionEnable",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplActionEnable\npublicinterfaceIEplActionEnable\npublicinterfaceclassIEplActionEnable\npublicinterfaceclassIEplActionEnable\nc#\npublicclassTestAction : Eplan.EplApi.ApplicationFramework.IEplAction, Eplan.EplApi.ApplicationFramework.IEplActionEnable\r\n    {//IEplAction Members#regionIEplActionEnable MemberspublicboolEnabled(stringstrActionName, Eplan.EplApi.ApplicationFramework.ActionCallingContext actionContext)\r\n        {if(strActionName ==\"TESTACTION\")\r\n            {returnfalse;\r\n            }else{returntrue;\r\n            }\r\n        }#endregion}\nReference\nIEplActionEnable MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplAddIn",
+        "content": "C#\nC++/CLI\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceIEplAddIn\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceIEplAddIn\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceclassIEplAddIn\n[Guid(\"772B6E84-84D0-3597-8397-363C01BB41B6\")]publicinterfaceclassIEplAddIn\nReference\nIEplAddIn MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplAddInShadowCopy",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplAddInShadowCopy\npublicinterfaceIEplAddInShadowCopy\npublicinterfaceclassIEplAddInShadowCopy\npublicinterfaceclassIEplAddInShadowCopy\nC#\n///<summary>///  That is an example for using IEplAddInShadowCopy in EPLAN Add-in.  \r\n///</summary>publicclassAddInModule: IEplAddIn, IEplAddInShadowCopy\r\n{///<summary>/// This function is called once the Add-ins through the Framework in the registering.\r\n    ///</summary>///<param name=\"bLoadOnStart\">True:  The Add-in is loaded in the future in system start and the function<seealso cref=\"OnInit\"/>is called.</param>///<returns></returns>publicboolOnRegister(refSystem.Boolean bLoadOnStart)\r\n    {\r\n        bLoadOnStart =true;returntrue;\r\n    }///<summary>/// This function will remove from called once the Add-ins through the Framework in that the system. \r\n    ///</summary>///<returns></returns>publicboolOnUnregister()\r\n    {returntrue;\r\n    }///<summary>/// Called by the framework before<see cref=\"Eplan::EplApi::ApplicationFramework::IEplAddIn.OnInit\" text=\"OnInit\"/>and passes the\r\n    /// location from which add-in assembly has been registered.\r\n    ///</summary>publicvoidOnBeforeInit(stringstrOriginalAssemblyPath)\r\n    {\r\n        m_strOriginalAssemblyPath = strOriginalAssemblyPath;\r\n    }publicString GetOriginalAssemblyPath()\r\n    {returnm_strOriginalAssemblyPath;\r\n    }///<summary>/// This function is called in system start if the Add-in is supposed to be loaded in system start.<seealso cref=\"OnRegister\"/>///</summary>publicboolOnInit()\r\n    {returntrue;\r\n    }///<summary>/// This function is called of the Framework if the Framework has initializes already its waiter specialties and the Add-in can modify this surface.  \r\n    /// Only is called if the Add-in is loaded also in system system start.  \r\n    ///</summary>publicboolOnInitGui()\r\n    {returntrue;\r\n    }///<summary>///This function is called through the Framework in Programmedne if the Add-in was loaded in system start.<seealso cref=\"OnRegister\"/>///</summary>publicboolOnExit()\r\n    {returntrue;\r\n    }privateString m_strOriginalAssemblyPath;\r\n}\nReference\nIEplAddInShadowCopy MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplanEvents",
+        "content": "C#\nC++/CLI\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceIEplanEvents\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceIEplanEvents\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceclassIEplanEvents\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]publicinterfaceclassIEplanEvents\nReference\nIEplanEvents MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEplanEventsWrapper",
+        "content": "C#\nC++/CLI\npublicinterfaceIEplanEventsWrapper\npublicinterfaceIEplanEventsWrapper\npublicinterfaceclassIEplanEventsWrapper\npublicinterfaceclassIEplanEventsWrapper\nReference\nIEplanEventsWrapper MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IEventParameter",
+        "content": "C#\nC++/CLI\npublicinterfaceIEventParameter\npublicinterfaceIEventParameter\npublicinterfaceclassIEventParameter\npublicinterfaceclassIEventParameter\nReference\nIEventParameter MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IExtendedProcessor",
+        "content": "C#\nC++/CLI\npublicinterfaceIExtendedProcessor :IInterface\npublicinterfaceIExtendedProcessor :IInterface\npublicinterfaceclassIExtendedProcessor :publicIInterface\npublicinterfaceclassIExtendedProcessor :publicIInterface\nReference\nIExtendedProcessor MembersEplan.EplApi.ApplicationFramework NamespaceXMLProcessor.html\n"
+    },
+    {
+        "title": "IInterface",
+        "content": "C#\nC++/CLI\npublicinterfaceIInterface\npublicinterfaceIInterface\npublicinterfaceclassIInterface\npublicinterfaceclassIInterface\nReference\nIInterface MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IOptions",
+        "content": "C#\nC++/CLI\npublicinterfaceIOptions\npublicinterfaceIOptions\npublicinterfaceclassIOptions\npublicinterfaceclassIOptions\nReference\nIOptions MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "IXMLProcessor",
+        "content": "C#\nC++/CLI\npublicinterfaceIXMLProcessor :IInterface\npublicinterfaceIXMLProcessor :IInterface\npublicinterfaceclassIXMLProcessor :publicIInterface\npublicinterfaceclassIXMLProcessor :publicIInterface\nReference\nIXMLProcessor MembersEplan.EplApi.ApplicationFramework NamespaceXMLProcessor.html\n"
+    },
+    {
+        "title": "EventHandlerFunction",
+        "content": "C#\nC++/CLI\npublicdelegatevoidEventHandlerFunction(IEventParameterpIEventParameter)\npublicdelegatevoidEventHandlerFunction(IEventParameterpIEventParameter)\npublicdelegatevoidEventHandlerFunction(IEventParameter^pIEventParameter)\npublicdelegatevoidEventHandlerFunction(IEventParameter^pIEventParameter)\nParameters\nReference\nEventHandlerFunction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandlerNameFunction",
+        "content": "C#\nC++/CLI\npublicdelegatevoidEventHandlerNameFunction(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegatevoidEventHandlerNameFunction(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegatevoidEventHandlerNameFunction(IEventParameter^pIEventParameter,String^strNameOfEvent)\npublicdelegatevoidEventHandlerNameFunction(IEventParameter^pIEventParameter,String^strNameOfEvent)\nParameters\nReference\nEventHandlerNameFunction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandlerNameFunctionResult",
+        "content": "C#\nC++/CLI\npublicdelegatelongEventHandlerNameFunctionResult(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegatelongEventHandlerNameFunctionResult(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegateint64EventHandlerNameFunctionResult(IEventParameter^pIEventParameter,String^strNameOfEvent)\npublicdelegateint64EventHandlerNameFunctionResult(IEventParameter^pIEventParameter,String^strNameOfEvent)\nParameters\nReturn Value\nReference\nEventHandlerNameFunctionResult MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandlerFunction",
+        "content": "C#\nC++/CLI\npublicdelegatevoidEventHandlerFunction(IEventParameterpIEventParameter)\npublicdelegatevoidEventHandlerFunction(IEventParameterpIEventParameter)\npublicdelegatevoidEventHandlerFunction(IEventParameter^pIEventParameter)\npublicdelegatevoidEventHandlerFunction(IEventParameter^pIEventParameter)\nParameters\nReference\nEventHandlerFunction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandlerNameFunction",
+        "content": "C#\nC++/CLI\npublicdelegatevoidEventHandlerNameFunction(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegatevoidEventHandlerNameFunction(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegatevoidEventHandlerNameFunction(IEventParameter^pIEventParameter,String^strNameOfEvent)\npublicdelegatevoidEventHandlerNameFunction(IEventParameter^pIEventParameter,String^strNameOfEvent)\nParameters\nReference\nEventHandlerNameFunction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandlerNameFunctionResult",
+        "content": "C#\nC++/CLI\npublicdelegatelongEventHandlerNameFunctionResult(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegatelongEventHandlerNameFunctionResult(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegateint64EventHandlerNameFunctionResult(IEventParameter^pIEventParameter,String^strNameOfEvent)\npublicdelegateint64EventHandlerNameFunctionResult(IEventParameter^pIEventParameter,String^strNameOfEvent)\nParameters\nReturn Value\nReference\nEventHandlerNameFunctionResult MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandlerFunction",
+        "content": "C#\nC++/CLI\npublicdelegatevoidEventHandlerFunction(IEventParameterpIEventParameter)\npublicdelegatevoidEventHandlerFunction(IEventParameterpIEventParameter)\npublicdelegatevoidEventHandlerFunction(IEventParameter^pIEventParameter)\npublicdelegatevoidEventHandlerFunction(IEventParameter^pIEventParameter)\nParameters\nReference\nEventHandlerFunction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandlerNameFunction",
+        "content": "C#\nC++/CLI\npublicdelegatevoidEventHandlerNameFunction(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegatevoidEventHandlerNameFunction(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegatevoidEventHandlerNameFunction(IEventParameter^pIEventParameter,String^strNameOfEvent)\npublicdelegatevoidEventHandlerNameFunction(IEventParameter^pIEventParameter,String^strNameOfEvent)\nParameters\nReference\nEventHandlerNameFunction MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    },
+    {
+        "title": "EventHandlerNameFunctionResult",
+        "content": "C#\nC++/CLI\npublicdelegatelongEventHandlerNameFunctionResult(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegatelongEventHandlerNameFunctionResult(IEventParameterpIEventParameter,stringstrNameOfEvent)\npublicdelegateint64EventHandlerNameFunctionResult(IEventParameter^pIEventParameter,String^strNameOfEvent)\npublicdelegateint64EventHandlerNameFunctionResult(IEventParameter^pIEventParameter,String^strNameOfEvent)\nParameters\nReturn Value\nReference\nEventHandlerNameFunctionResult MembersEplan.EplApi.ApplicationFramework Namespace\n"
+    }
+]
