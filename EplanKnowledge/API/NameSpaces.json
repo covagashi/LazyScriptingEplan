@@ -1,5 +1,5 @@
 [
-  {    
+  {
     "namespace": "Eplan.EplApi.ApplicationFramework",
     "description": "Contains core classes and interfaces for EPLAN application development.",
     "members": [
@@ -590,6 +590,1429 @@
       {
         "name": "IdentityStatusCode",
         "description": "Enumerates status codes for identity operations in EPLAN.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "namespace",
+    "name": "Eplan.EplApi.MasterData",
+    "description": "Contains classes and interfaces for working with EPLAN master data.",
+    "members": [
+      {
+        "type": "class",
+        "name": "MasterDataException",
+        "description": "Exception class for master data related errors.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.ApplicationException",
+          "Eplan.EplApi.Base.BaseException",
+          "Eplan.EplApi.MasterData.MasterDataException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDAccessoryList",
+        "description": "Represents an accessory list in the parts database.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.PropertiesAndHandleObject",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItem",
+          "Eplan.EplApi.MasterData.MDAccessoryList"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDAccessoryListPosition",
+        "description": "Represents a position in an accessory list.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDAccessoryListPosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDAccessoryPlacement",
+        "description": "Represents the placement of an accessory.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.PropertiesAndHandleObject",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItem",
+          "Eplan.EplApi.MasterData.MDAccessoryPlacement"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDAccessoryPlacementPosition",
+        "description": "Represents a position for accessory placement.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDAccessoryPlacementPosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDAccessoryPosition",
+        "description": "Represents the position of an accessory.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDAccessoryPosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDAddress",
+        "description": "Represents an address in the parts database.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.PropertiesAndHandleObject",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItem",
+          "Eplan.EplApi.MasterData.MDAddress"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDAnyPropertyId",
+        "description": "Represents any property ID in the master data.",
+        "modifiers": [
+          "sealed"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDArgumentNullException",
+        "description": "Exception thrown when a null argument is passed to a method that does not accept it.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.SystemException",
+          "System.ArgumentException",
+          "System.ArgumentNullException",
+          "Eplan.EplApi.MasterData.MDArgumentNullException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDCableTemplatePosition",
+        "description": "Represents a position for a cable template.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDFunctionTemplatePosition",
+          "Eplan.EplApi.MasterData.MDCableTemplatePosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDCanNotAddSymbolPosition",
+        "description": "Exception thrown when a symbol position cannot be added.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.ApplicationException",
+          "Eplan.EplApi.Base.BaseException",
+          "Eplan.EplApi.MasterData.MasterDataException",
+          "Eplan.EplApi.MasterData.MDCanNotAddSymbolPosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDComponentTemplatePosition",
+        "description": "Represents a position for a component template.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDFunctionTemplatePosition",
+          "Eplan.EplApi.MasterData.MDComponentTemplatePosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDConnectionPointInfo",
+        "description": "Represents information about a connection point.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.PropertiesAndHandleObject",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItem",
+          "Eplan.EplApi.MasterData.MDConnectionPointInfo"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDConnectionPointPosition",
+        "description": "Represents the position of a connection point.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDConnectionPointPosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDConstruction",
+        "description": "Represents a construction in the parts database.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.PropertiesAndHandleObject",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItem",
+          "Eplan.EplApi.MasterData.MDConstruction"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDContourElement",
+        "description": "Represents a contour element in the master data."
+      },
+      {
+        "type": "class",
+        "name": "MDDatabaseConnectionException",
+        "description": "Exception thrown when there's an issue with the database connection.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.ApplicationException",
+          "Eplan.EplApi.Base.BaseException",
+          "Eplan.EplApi.MasterData.MasterDataException",
+          "Eplan.EplApi.MasterData.MDDatabaseConnectionException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDDatabaseReadOnlyException",
+        "description": "Exception thrown when attempting to write to a read-only database.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.ApplicationException",
+          "Eplan.EplApi.Base.BaseException",
+          "Eplan.EplApi.MasterData.MasterDataException",
+          "Eplan.EplApi.MasterData.MDDatabaseReadOnlyException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDDoorPosition",
+        "description": "Represents the position of a door in the master data.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDDoorPosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDDrillingPosition",
+        "description": "Represents the position of a drilling in the master data.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDDrillingPosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDElectricalRelayTemplatePosition",
+        "description": "Represents a position for an electrical relay template.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDFunctionTemplatePosition",
+          "Eplan.EplApi.MasterData.MDElectricalRelayTemplatePosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDEmptyPropertyException",
+        "description": "Exception thrown when a property is empty.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.ApplicationException",
+          "Eplan.EplApi.Base.BaseException",
+          "Eplan.EplApi.MasterData.MasterDataException",
+          "Eplan.EplApi.MasterData.MDEmptyPropertyException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDFunctionTemplatePosition",
+        "description": "Represents a position for a function template.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDFunctionTemplatePosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDIncorrectNameFormatException",
+        "description": "Exception thrown when a name format is incorrect.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.ApplicationException",
+          "Eplan.EplApi.Base.BaseException",
+          "Eplan.EplApi.MasterData.MasterDataException",
+          "Eplan.EplApi.MasterData.MDIncorrectNameFormatException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDIndexedPropertyException",
+        "description": "Exception thrown for issues with indexed properties.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.ApplicationException",
+          "Eplan.EplApi.Base.BaseException",
+          "Eplan.EplApi.MasterData.MasterDataException",
+          "Eplan.EplApi.MasterData.MDIndexedPropertyException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDInvalidArgumentException",
+        "description": "Exception thrown when an invalid argument is provided.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.SystemException",
+          "System.ArgumentException",
+          "Eplan.EplApi.MasterData.MDInvalidArgumentException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDInvalidHandleException",
+        "description": "Exception thrown when an invalid handle is used.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.SystemException",
+          "System.ArgumentException",
+          "Eplan.EplApi.MasterData.MDInvalidArgumentException",
+          "Eplan.EplApi.MasterData.MDInvalidHandleException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDInvalidIndexException",
+        "description": "Exception thrown when an invalid index is used.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.SystemException",
+          "System.ArgumentException",
+          "Eplan.EplApi.MasterData.MDInvalidArgumentException",
+          "Eplan.EplApi.MasterData.MDInvalidIndexException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDInvalidTimeValueException",
+        "description": "Exception thrown when an invalid time value is used.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.SystemException",
+          "System.ArgumentException",
+          "Eplan.EplApi.MasterData.MDInvalidArgumentException",
+          "Eplan.EplApi.MasterData.MDInvalidTimeValueException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDMechanicsFunctionDefinition",
+        "description": "Represents a mechanics function definition.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDFunctionTemplatePosition",
+          "Eplan.EplApi.MasterData.MDMechanicsFunctionDefinition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDNotIndexedPropertyException",
+        "description": "Exception thrown when a property is not indexed.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.ApplicationException",
+          "Eplan.EplApi.Base.BaseException",
+          "Eplan.EplApi.MasterData.MasterDataException",
+          "Eplan.EplApi.MasterData.MDNotIndexedPropertyException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDObjectCreationException",
+        "description": "Exception thrown when object creation fails.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.ApplicationException",
+          "Eplan.EplApi.Base.BaseException",
+          "Eplan.EplApi.MasterData.MasterDataException",
+          "Eplan.EplApi.MasterData.MDObjectCreationException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDObjectFilter",
+        "description": "Represents a filter for master data objects."
+      },
+      {
+        "type": "class",
+        "name": "MDObjectNotCreatedException",
+        "description": "Exception thrown when an object could not be created.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.ApplicationException",
+          "Eplan.EplApi.Base.BaseException",
+          "Eplan.EplApi.MasterData.MasterDataException",
+          "Eplan.EplApi.MasterData.MDObjectCreationException",
+          "Eplan.EplApi.MasterData.MDObjectNotCreatedException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPart",
+        "description": "Represents a part in the master data.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.PropertiesAndHandleObject",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItem",
+          "Eplan.EplApi.MasterData.MDPart"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPartAssemblyPosition",
+        "description": "Represents the position of a part assembly.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDPartHierarchyPosition",
+          "Eplan.EplApi.MasterData.MDPartAssemblyPosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPartHierarchyPosition",
+        "description": "Represents a position in the part hierarchy.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDPartHierarchyPosition"
+        ],
+        "modifiers": [
+          "abstract"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPartLockedMountingAreaPosition",
+        "description": "Represents a locked mounting area position for a part.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDPartLockedMountingAreaPosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPartModulePosition",
+        "description": "Represents the position of a part module.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDPartHierarchyPosition",
+          "Eplan.EplApi.MasterData.MDPartModulePosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPartMountingPanelPosition",
+        "description": "Represents the mounting panel position for a part.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDPartMountingPanelPosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPartPartConstructionPosition",
+        "description": "Represents the construction position for a part.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDPartPartConstructionPosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPartSafetyRelatedValuePosition",
+        "description": "Represents a safety-related value position for a part.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDPartSafetyRelatedValuePosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPartsDatabase",
+        "description": "Represents the parts database."
+      },
+      {
+        "type": "class",
+        "name": "MDPartsDatabaseItem",
+        "description": "Represents an item in the parts database.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.PropertiesAndHandleObject",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItem"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPartsDatabaseItem.Enums",
+        "description": "Contains enumerations for MDPartsDatabaseItem."
+      },
+      {
+        "type": "class",
+        "name": "MDPartsDatabaseItemChildData",
+        "description": "Represents child data for a parts database item."
+      },
+      {
+        "type": "class",
+        "name": "MDPartsDatabaseItemPropertyList",
+        "description": "Represents a property list for a parts database item.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemPropertyList"
+        ],
+        "attributes": [
+          {
+            "name": "DefaultMember",
+            "value": "Property"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPartsDatabaseTransaction",
+        "description": "Represents a transaction in the parts database."
+      },
+      {
+        "type": "class",
+        "name": "MDPartsDatabaseTransactionManager",
+        "description": "Manages transactions in the parts database.",
+        "modifiers": [
+          "internal"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPartsManagement",
+        "description": "Manages parts in the master data."
+      },
+      {
+        "type": "class",
+        "name": "MDPartSupportBarPosition",
+        "description": "Represents the support bar position for a part.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDPartSupportBarPosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPermissionException",
+        "description": "Exception thrown for permission-related issues.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.ApplicationException",
+          "Eplan.EplApi.Base.BaseException",
+          "Eplan.EplApi.MasterData.MasterDataException",
+          "Eplan.EplApi.MasterData.MDSettingValueFailedException",
+          "Eplan.EplApi.MasterData.MDPermissionException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPlcTemplatePosition",
+        "description": "Represents a position for a PLC template.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDFunctionTemplatePosition",
+          "Eplan.EplApi.MasterData.MDPlcTemplatePosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPlugTemplatePosition",
+        "description": "Represents a position for a plug template.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDFunctionTemplatePosition",
+          "Eplan.EplApi.MasterData.MDPlugTemplatePosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPropertyAlreadyExistsException",
+        "description": "Exception thrown when a property already exists.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.ApplicationException",
+          "Eplan.EplApi.Base.BaseException",
+          "Eplan.EplApi.MasterData.MasterDataException",
+          "Eplan.EplApi.MasterData.MDPropertyAlreadyExistsException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPropertyDefinition",
+        "description": "Defines a property in the master data."
+      },
+      {
+        "type": "class",
+        "name": "MDPropertyNotFoundException",
+        "description": "Exception thrown when a property is not found.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.SystemException",
+          "System.ArgumentException",
+          "Eplan.EplApi.MasterData.MDInvalidArgumentException",
+          "Eplan.EplApi.MasterData.MDPropertyNotFoundException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPropertyReadOnlyException",
+        "description": "Exception thrown when attempting to modify a read-only property.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.ApplicationException",
+          "Eplan.EplApi.Base.BaseException",
+          "Eplan.EplApi.MasterData.MasterDataException",
+          "Eplan.EplApi.MasterData.MDSettingValueFailedException",
+          "Eplan.EplApi.MasterData.MDPermissionException",
+          "Eplan.EplApi.MasterData.MDPropertyReadOnlyException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPropertyValue",
+        "description": "Represents a property value in the master data.",
+        "modifiers": [
+          "sealed"
+        ],
+        "attributes": [
+          {
+            "name": "DefaultMember",
+            "value": "Item"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDPropertyValueOutOfRangeException",
+        "description": "Exception thrown when a property value is out of range.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.SystemException",
+          "System.ArgumentException",
+          "Eplan.EplApi.MasterData.MDInvalidArgumentException",
+          "Eplan.EplApi.MasterData.MDPropertyValueOutOfRangeException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDSettingValueFailedException",
+        "description": "Exception thrown when setting a value fails.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.ApplicationException",
+          "Eplan.EplApi.Base.BaseException",
+          "Eplan.EplApi.MasterData.MasterDataException",
+          "Eplan.EplApi.MasterData.MDSettingValueFailedException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDSymbol",
+        "description": "Represents a symbol in the master data.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.PropertiesAndHandleObject",
+          "Eplan.EplApi.MasterData.MDSymbol"
+        ],
+        "attributes": [
+          {
+            "name": "DefaultMember",
+            "value": "Variant"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDSymbol.Enums",
+        "description": "Contains enumerations for MDSymbol."
+      },
+      {
+        "type": "class",
+        "name": "MDSymbol.MDPropertyPlacementsSchema",
+        "description": "Represents a schema for property placements in a symbol."
+      },
+      {
+        "type": "class",
+        "name": "MDSymbol.MDPropertyPlacementsSchemasList",
+        "description": "Represents a list of property placement schemas for a symbol."
+      },
+      {
+        "type": "class",
+        "name": "MDSymbolConnectionPoint",
+        "description": "Represents a connection point in a symbol."
+      },
+      {
+        "type": "class",
+        "name": "MDSymbolLibrary",
+        "description": "Represents a symbol library.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.PropertiesAndHandleObject",
+          "Eplan.EplApi.MasterData.MDSymbolLibrary"
+        ],
+        "attributes": [
+          {
+            "name": "DefaultMember",
+            "value": "Symbol"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDSymbolLibraryPropertyList",
+        "description": "Represents a property list for a symbol library.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList",
+          "Eplan.EplApi.MasterData.MDSymbolLibraryPropertyList"
+        ],
+        "attributes": [
+          {
+            "name": "DefaultMember",
+            "value": "Property"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDSymbolPosition",
+        "description": "Represents the position of a symbol."
+      },
+      {
+        "type": "class",
+        "name": "MDSymbolPropertyList",
+        "description": "Represents a property list for a symbol.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList",
+          "Eplan.EplApi.MasterData.MDSymbolPropertyList"
+        ],
+        "attributes": [
+          {
+            "name": "DefaultMember",
+            "value": "Property"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDSymbolVariant",
+        "description": "Represents a variant of a symbol.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.PropertiesAndHandleObject",
+          "Eplan.EplApi.MasterData.MDSymbolVariant"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDSymbolVariantPropertyList",
+        "description": "Represents a property list for a symbol variant.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList",
+          "Eplan.EplApi.MasterData.MDSymbolVariantPropertyList"
+        ],
+        "attributes": [
+          {
+            "name": "DefaultMember",
+            "value": "Property"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDTerminalTemplatePosition",
+        "description": "Represents a position for a terminal template.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDFunctionTemplatePosition",
+          "Eplan.EplApi.MasterData.MDTerminalTemplatePosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDTranslationDatabase",
+        "description": "Represents the translation database for master data."
+      },
+      {
+        "type": "class",
+        "name": "MDUserDefinedPropertyDefinition",
+        "description": "Represents a user-defined property definition."
+      },
+      {
+        "type": "class",
+        "name": "MDUserDefinedPropertyDefinition.Enums",
+        "description": "Contains enumerations for MDUserDefinedPropertyDefinition."
+      },
+      {
+        "type": "class",
+        "name": "MDUserDefinedPropertyPosition",
+        "description": "Represents the position of a user-defined property.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDUserDefinedPropertyPosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MDWireTemplatePosition",
+        "description": "Represents a position for a wire template.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData",
+          "Eplan.EplApi.MasterData.MDFunctionTemplatePosition",
+          "Eplan.EplApi.MasterData.MDWireTemplatePosition"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "Properties",
+        "description": "Contains property definitions for the master data."
+      },
+      {
+        "type": "class",
+        "name": "PropertiesAndHandleObject",
+        "description": "Base class for objects with properties and handles.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.MasterData.PropertiesAndHandleObject"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "PropertiesAndHandleObjectPropertyList",
+        "description": "Represents a property list for objects with properties and handles.",
+        "attributes": [
+          {
+            "name": "DefaultMember",
+            "value": "Property"
+          }
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDAccessoryPlacementPosition.BasePoint",
+        "description": "Enumeration for base points of accessory placement positions.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDConnectionPointPosition.ConnectionPointDirection",
+        "description": "Enumeration for connection point directions.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDContourElement.ContureType",
+        "description": "Enumeration for contour types.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDDrillingPosition.DrillingSubType",
+        "description": "Enumeration for drilling subtypes.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDDrillingPosition.DrillingType",
+        "description": "Enumeration for drilling types.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDFunctionTemplatePosition.TerminalFunctionType",
+        "description": "Enumeration for terminal function types.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDObjectFilter.CompareOperator",
+        "description": "Enumeration for comparison operators in object filters.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDPartLockedMountingAreaPosition.LockedMountingAreaType",
+        "description": "Enumeration for locked mounting area types.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDPartsDatabase.DataFormat",
+        "description": "Enumeration for data formats in the parts database.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDPartsDatabase.MDPartsDatabaseType",
+        "description": "Enumeration for parts database types.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDPartsDatabaseItem.Enums.ProductGroup",
+        "description": "Enumeration for product groups.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDPartsDatabaseItem.Enums.ProductSubGroup",
+        "description": "Enumeration for product subgroups.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDPartsDatabaseItem.Enums.ProductTopGroup",
+        "description": "Enumeration for product top groups.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDPartsDatabaseItem.Enums.Type",
+        "description": "Enumeration for parts database item types.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDPartsManagement.ImportIdentifier",
+        "description": "Enumeration for import identifiers.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDPartsManagement.ImportMode",
+        "description": "Enumeration for import modes.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDPropertyDefinition.MDPropertyType",
+        "description": "Enumeration for property types.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDSymbol.Enums.SymbolType",
+        "description": "Enumeration for symbol types.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDSymbolLibrary.Mode",
+        "description": "Enumeration for symbol library modes.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDUserDefinedPropertyDefinition.Enums.CategoryType",
+        "description": "Enumeration for category types of user-defined properties.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDUserDefinedPropertyDefinition.Enums.ClientType",
+        "description": "Enumeration for client types of user-defined properties.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MDUserDefinedPropertyDefinition.Enums.InputAidType",
+        "description": "Enumeration for input aid types of user-defined properties.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "Properties.MDPartsDatabaseItem",
+        "description": "Enumeration for parts database item properties.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "Properties.MDSymbol",
+        "description": "Enumeration for symbol properties.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "Properties.MDSymbolLibrary",
+        "description": "Enumeration for symbol library properties.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "Properties.MDSymbolVariant",
+        "description": "Enumeration for symbol variant properties.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "struct",
+        "name": "MDConnectionCategory",
+        "description": "Represents a connection category in the master data.",
+        "inheritance": [
+          "System.ValueType"
+        ]
+      },
+      {
+        "type": "delegate",
+        "name": "PropertySetNotification",
+        "description": "Delegate for property set notifications.",
+        "modifiers": [
+          "internal"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "namespace",
+    "name": "Eplan.EplApi.Base",
+    "description": "Contains core classes and interfaces for EPLAN base functionality.",
+    "members": [
+      {
+        "type": "class",
+        "name": "BaseException",
+        "description": "Base exception class for EPLAN-specific exceptions.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.ApplicationException",
+          "Eplan.EplApi.Base.BaseException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "Context",
+        "description": "Provides context information for EPLAN operations.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.Base.Context"
+        ],
+        "interfaces": [
+          "IContext"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "ContextParameterBlock",
+        "description": "Represents a block of context parameters."
+      },
+      {
+        "type": "class",
+        "name": "Decider",
+        "description": "Handles decision-making processes in EPLAN.",
+        "codeExample": "Decider eDecision = new Decider();\r\nEnumDecisionReturn eAnswer = eDecision.Decide(eOkCancelDecision, \"Show some dialog text\", \"Eplan Decider\", eOK, eOK);\nif (eAnswer == eOK)\r\n{\n    // Do your work\n}"
+      },
+      {
+        "type": "class",
+        "name": "EplAssert",
+        "description": "Provides assertion functionality for EPLAN.",
+        "codeExample": "object testObject = null;\r\nEplan.EplApi.Base.EplAssert oAssert = new Eplan.EplApi.Base.EplAssert();\r\noAssert.Assert(testObject != null, \"The testobject must not be null!\");"
+      },
+      {
+        "type": "class",
+        "name": "EplTrace",
+        "description": "Provides tracing functionality for EPLAN.",
+        "codeExample": "Eplan.EplApi.Base.EplTrace oTrace = new Eplan.EplApi.Base.EplTrace();\r\noTrace.Trace(\"Eplan.EplApi.Base\", \"Start executing function abc\");"
+      },
+      {
+        "type": "class",
+        "name": "FileSelectDecisionContext",
+        "description": "Provides context for file selection decisions.",
+        "codeExample": "FileSelectDecisionContext fileContext = new FileSelectDecisionContext(\"ExlSheetSelector\", EnumDecisionReturn.eCANCEL);\r\nfileContext.Title = \"Select Excel file\";\r\nfileContext.AllowMultiSelect = false;\r\nfileContext.DefaultExtension = \"xls\";\r\nfileContext.AddFilter(\"Excel 97 files (*.xls)\", \"*.xls\");\r\nfileContext.AddFilter(\"Excel files (*.xlsx)\", \"*.xlsx\");\r\nfileContext.AddFilter(\"Fenstermakro, Symbolmakro (*.ema, *.ems)\", \"*.ema;*.ems\");\r\nfileContext.AddFilter(\"All files (*.*)\", \"*.*\");\r\n\r\nDecider oDecision = new Decider();\r\nEnumDecisionReturn eAnswer = oDecision.Decide(fileContext);\nif (eAnswer != EnumDecisionReturn.eOK)\r\n{\n    return true;\r\n}\nstring sExlFile = fileContext.GetFiles()[0];"
+      },
+      {
+        "type": "class",
+        "name": "ISOCode",
+        "description": "Represents ISO codes in EPLAN."
+      },
+      {
+        "type": "class",
+        "name": "LanguageList",
+        "description": "Represents a list of languages.",
+        "inheritance": [
+          "System.Object",
+          "System.Collections.ArrayList",
+          "Eplan.EplApi.Base.LanguageList"
+        ],
+        "attributes": [
+          {
+            "name": "DefaultMember",
+            "value": "Item"
+          },
+          {
+            "name": "DebuggerTypeProxy",
+            "value": "System.Collections.ArrayList/ArrayListDebugView"
+          },
+          {
+            "name": "DebuggerDisplay",
+            "value": "Count = {Count}"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "Languages",
+        "description": "Provides functionality related to languages in EPLAN."
+      },
+      {
+        "type": "class",
+        "name": "LockingException",
+        "description": "Exception thrown for locking-related issues.",
+        "inheritance": [
+          "System.Object",
+          "System.Exception",
+          "System.ApplicationException",
+          "Eplan.EplApi.Base.BaseException",
+          "Eplan.EplApi.Base.LockingException"
+        ]
+      },
+      {
+        "type": "class",
+        "name": "MultiLangString",
+        "description": "Represents a multi-language string."
+      },
+      {
+        "type": "class",
+        "name": "ParserParameter",
+        "description": "Represents parameters for parsing operations."
+      },
+      {
+        "type": "class",
+        "name": "PathMap",
+        "description": "Manages path mappings in EPLAN."
+      },
+      {
+        "type": "class",
+        "name": "Progress",
+        "description": "Provides functionality for progress reporting.",
+        "codeExample": "Progress oProgress = new Progress(\"SimpleProgress\");\r\noProgress.ShowImmediately();\r\n//part 1\r\noProgress.BeginPart(25.0, \"\");\r\noProgress.SetActionText(\"part1\");\r\noProgress.SetNeededSteps(1);\r\noProgress.Step(1);\r\nSystem.Threading.Thread.Sleep(2500); // TODO: Some processing\r\noProgress.EndPart(false);\r\n//part 2\r\noProgress.BeginPart(30.0, \"\");\r\noProgress.SetNeededSteps(3);\r\n// call SetNeededSteps with the count of steps following\r\noProgress.SetActionText(\"part2 step1\");\r\noProgress.Step(1);\r\nSystem.Threading.Thread.Sleep(1000); // TODO: Some processing\r\noProgress.SetActionText(\"part2 step2\");\r\noProgress.Step(1);\r\nSystem.Threading.Thread.Sleep(1000); // TODO: Some processing\r\noProgress.SetActionText(\"part2 step3\");\r\noProgress.Step(1);\r\nSystem.Threading.Thread.Sleep(1000); // TODO: Some processing\r\noProgress.EndPart(false);\r\n//part 3\r\noProgress.BeginPart(45.0, \"\"); // Here is a sum of 100% reached!\r\noProgress.SetActionText(\"part3\");\r\noProgress.SetNeededSteps(1);\r\noProgress.Step(1);\r\nSystem.Threading.Thread.Sleep(4500); // TODO: Some processing\r\noProgress.EndPart(true); // The window is destroyed with the call EndPart(true) and the progress is prepared to be destroyed."
+      },
+      {
+        "type": "class",
+        "name": "ProgressFactory",
+        "description": "Factory class for creating Progress objects."
+      },
+      {
+        "type": "class",
+        "name": "Range",
+        "description": "Represents a range of values."
+      },
+      {
+        "type": "class",
+        "name": "SchemeSetting",
+        "description": "Manages scheme settings in EPLAN.",
+        "codeExample": "SchemeSetting oSchemeSetting = new SchemeSetting();\r\noSchemeSetting.Init(\"USER.DXF.SCHEMES\");\r\nstring strSchemeName = \"DXFSchemeToSelect\";\r\nif (oSchemeSetting.CheckIfSchemeExists(strSchemeName))\r\n{\r\n    oSchemeSetting.SetScheme(strSchemeName);\r\n    int iExportFormatVersion = oSchemeSetting.GetNumericSetting(\"EXPORT.FORMAT_VERSION\", 0);\r\n}"
+      },
+      {
+        "type": "class",
+        "name": "SettingNode",
+        "description": "Represents a node in the settings hierarchy.",
+        "codeExample": "SettingNode oSettingNode = new SettingNode(\"STATION.AF.Modules\");\r\nStringCollection oSubnodes = new StringCollection();\r\noSettingNode.GetListOfNodes(ref oSubnodes, false);\r\nforeach (string sSubNode in oSubnodes)\r\n{\r\n    SettingNode oSubNode = oSettingNode.GetSubNode(sSubNode);\r\n    Console.WriteLine(oSubNode.GetNodePath());\r\n}"
+      },
+      {
+        "type": "class",
+        "name": "Settings",
+        "description": "Manages EPLAN settings.",
+        "inheritance": [
+          "System.Object",
+          "Eplan.EplApi.Base.Settings"
+        ],
+        "interfaces": [
+          "ISettings"
+        ],
+        "codeExample": "try {\r\n  String strGuiLanguage = new Settings().GetStringSetting(\"USER.SYSTEM.GUI.LANGUAGE\", 0);\r\n  new Decider().Decide(EnumDecisionType.eOkDecision, \"The user interface language is set to: \" + strGuiLanguage, \"\", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);\r\n} catch (BaseException exc) {\r\n  String strMessage = exc.Message;\r\n  new Decider().Decide(EnumDecisionType.eOkDecision, \"Exception: \" + strMessage, \"\", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);\r\n}"
+      },
+      {
+        "type": "class",
+        "name": "SysMessagesCollection",
+        "description": "Represents a collection of system messages.",
+        "codeExample": "int nBookmark = new Eplan.EplApi.Base.BaseException().GetBookmarkID();\r\nEplan.EplApi.Base.SysMessagesCollection colSysMsg = new Eplan.EplApi.Base.SysMessagesCollection(nBookmark, Eplan.EplApi.Base.MessageLevel.Error);\r\nforeach (Eplan.EplApi.Base.BaseException osysMsg in colSysMsg)\r\n{\r\n    if (osysMsg != null)\r\n    {\r\n        Console.WriteLine(\"Fehler: \" + osysMsg.ToString());\r\n    }\r\n}"
+      },
+      {
+        "type": "class",
+        "name": "SysMessagesEnumerator",
+        "description": "Enumerates system messages.",
+        "codeExample": "SysMessagesCollection colSysMsg = new SysMessagesCollection();\r\nSysMessagesEnumerator itSysMsg = colSysMsg.GetSysMsgEnumerator();\r\nint nNr = 0;\r\n\r\nitSysMsg.MoveNext(); // move to first item in collection\r\ndo {\r\n    BaseException osysMsg = itSysMsg.Current as BaseException;\r\n    if (osysMsg != null)\r\n    {\r\n        nNr++;\r\n    }\r\n} while (itSysMsg.MoveNext());"
+      },
+      {
+        "type": "class",
+        "name": "TraceListener",
+        "description": "Listens to trace messages in EPLAN.",
+        "inheritance": [
+          "System.Object",
+          "System.MarshalByRefObject",
+          "System.Diagnostics.TraceListener",
+          "Eplan.EplApi.Base.TraceListener"
+        ],
+        "codeExample": "Eplan.EplApi.Base.TraceListener oTrace = new Eplan.EplApi.Base.TraceListener();\r\nSystem.Diagnostics.Trace.Listeners.Add(oTrace);\r\n// When new trace listeners are created and added, they must be removed again later!\r\noTrace.WriteLine(\"Begin Execute\"); // Only write to the EPLAN system message management.\r\nSystem.Diagnostics.Trace.WriteLine(\"Begin Execute\"); // Send to all trace listeners.\r\noTrace.Close();\r\nSystem.Diagnostics.Trace.Listeners.Remove(oTrace);"
+      },
+      {
+        "type": "class",
+        "name": "UnitParser",
+        "description": "Parses and converts units.",
+        "codeExample": "UnitParser oUnitParser = new UnitParser();\r\n\r\nParserParameter oParserParameter = new ParserParameter();\r\noParserParameter.UnitID = Unit.Length_cm; //Set value in cm\r\noUnitParser.Set(\"200 cm\", oParserParameter);\r\n\r\n//Get value in mm\r\nParserParameter oParserParameter_mm = new ParserParameter();\r\noParserParameter_mm.UnitID = Unit.Length_mm;\r\ndouble dValue_mm = oUnitParser.ValueToUnit(oParserParameter_mm);\r\n\r\n//Get value in m\r\nParserParameter oParserParameter_m = new ParserParameter();\r\noParserParameter_m.UnitID = Unit.Length_m;\r\ndouble dValue_m = oUnitParser.ValueToUnit(oParserParameter_m);"
+      },
+      {
+        "type": "class",
+        "name": "ListSelectDecisionContext",
+        "description": "Provides context for list selection decisions.",
+        "codeExample": "StringCollection collection = new StringCollection();\r\ncollection.Add(\"Content 1\");\r\ncollection.Add(\"Content 2\");\r\ncollection.Add(\"Content 3\");\r\n\r\nListSelectDecisionContext listSelectDecisionContext = new ListSelectDecisionContext(collection, \"Content 2\", \"Dialog Title\");\r\n\r\nDecider oDecision = new Decider();\r\nEnumDecisionReturn eAnswer = oDecision.Decide(listSelectDecisionContext);\r\nif (eAnswer != EnumDecisionReturn.eOK)\r\n{\r\n    return false;\r\n}\r\nif (listSelectDecisionContext.AllowMultiSelect)\r\n{\r\n    StringCollection selectedEntries = listSelectDecisionContext.SelectedEntries;\r\n}\r\nelse\r\n{\r\n    long index = listSelectDecisionContext.SelectedIndex;\r\n    string strEntry = listSelectDecisionContext.SelectedEntry;\r\n}"
+      },
+      {
+        "type": "enum",
+        "name": "EnumDecisionIcon",
+        "description": "Enumeration of decision icons.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "EnumDecisionReturn",
+        "description": "Enumeration of decision return values.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "EnumDecisionType",
+        "description": "Enumeration of decision types.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "ISettings.CreationFlag",
+        "description": "Enumeration of creation flags for settings.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "ISettings.SettingType",
+        "description": "Enumeration of setting types.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "ISOCode.Language",
+        "description": "Enumeration of ISO language codes.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "MessageLevel",
+        "description": "Enumeration of message levels.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "Unit",
+        "description": "Enumeration of units.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "UnitGroup",
+        "description": "Enumeration of unit groups.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "struct",
+        "name": "PointD",
+        "description": "Represents a point with double-precision floating-point coordinates.",
+        "inheritance": [
+          "System.ValueType"
+        ]
+      },
+      {
+        "type": "struct",
+        "name": "PointD3D",
+        "description": "Represents a 3D point with double-precision floating-point coordinates.",
+        "inheritance": [
+          "System.ValueType"
+        ]
+      },
+      {
+        "type": "struct",
+        "name": "RectangleD",
+        "description": "Represents a rectangle with double-precision floating-point coordinates.",
+        "inheritance": [
+          "System.ValueType"
+        ]
+      },
+      {
+        "type": "interface",
+        "name": "IContext",
+        "description": "Interface for context objects in EPLAN."
+      },
+      {
+        "type": "interface",
+        "name": "IEplProgress",
+        "description": "Interface for progress reporting in EPLAN."
+      },
+      {
+        "type": "interface",
+        "name": "ISettings",
+        "description": "Interface for managing settings in EPLAN."
+      }
+    ]
+  },
+  {
+    "type": "namespace",
+    "name": "Eplan.EplApi.Base.Enums",
+    "description": "Contains enumerations used in EPLAN base functionality.",
+    "members": [
+      {
+        "type": "enum",
+        "name": "BusSystemType",
+        "description": "Enumeration of bus system types.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "FunctionCategory",
+        "description": "Enumeration of function categories.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "ItemType",
+        "description": "Enumeration of item types.",
+        "inheritance": [
+          "System.Enum"
+        ]
+      },
+      {
+        "type": "enum",
+        "name": "PinPotentialType",
+        "description": "Enumeration of pin potential types.",
         "inheritance": [
           "System.Enum"
         ]
