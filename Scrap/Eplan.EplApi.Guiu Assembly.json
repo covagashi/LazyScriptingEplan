@@ -1,0 +1,682 @@
+[
+    {
+        "title": "Overview",
+        "content": ""
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.Guiu Assembly\n"
+    },
+    {
+        "title": "ContextMenu",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenu\nC#\nC++/CLI\npublicclassContextMenu\npublicclassContextMenu\npublicrefclassContextMenu\npublicrefclassContextMenu\nc#\nContextMenuLocation oLocation =newContextMenuLocation();\r\noLocation.DialogName =\"Editor\";\r\noLocation.ContextMenuName =\"Ged\";\r\nContextMenu oTestMenu =newContextMenu();\r\noTestMenu.AddMenuItem(oLocation,\"My Contextmenuname\",\"MyFavoriteActionName\",true,false));\nReference\nContextMenu MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "ContextMenuLocation",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenuLocation\nC#\nC++/CLI\npublicclassContextMenuLocation\npublicclassContextMenuLocation\npublicrefclassContextMenuLocation\npublicrefclassContextMenuLocation\nReference\nContextMenuLocation MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MRUList",
+        "content": "System.ObjectEplan.EplApi.Gui.MRUList\nC#\nC++/CLI\npublicclassMRUList\npublicclassMRUList\npublicrefclassMRUList\npublicrefclassMRUList\nReference\nMRUList MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBar",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBar\nC#\nC++/CLI\npublicclassRibbonBar\npublicclassRibbonBar\npublicrefclassRibbonBar\npublicrefclassRibbonBar\nC#\nusing(varribbonBar =newRibbonBar(true))\r\n{varribbonTab = ribbonBar.AddTab(\"MyTab1\") ?? ribbonBar.GetTab(\"MyTab1\");varcommandGroup = ribbonTab.AddCommandGroup(\"MyExampleActions\");\r\n    commandGroup.AddCommand(\"MyExampleAction1\",\"ExampleAction /PARAM:1\");\r\n    commandGroup.AddCommand(\"MyExampleAction2\",\"ExampleAction /PARAM:2\");\r\n    commandGroup.AddCommand(\"MyExampleAction3\",\"ExampleAction /PARAM:3\");\r\n}\nc#\nRibbonBar ribbonBar =newRibbonBar();\r\nribbonBar.AddCommand(\"New ribbon button text\",\"XPartsManagementStart\",newRibbonIcon(CommandIcon.Circle_0));\nc#\nvarnewTab =newEplan.EplApi.Gui.RibbonBar().AddTab(\"New API tab\");varcommandGroup = newTab.AddCommandGroup(\"New API command group\");varcommand = commandGroup.AddCommand(\"New API command\",\"XPartsManagementStart\");\nReference\nRibbonBar MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBarRegistration",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBarRegistration\nC#\nC++/CLI\ninternalsealedclassRibbonBarRegistration\ninternalsealedclassRibbonBarRegistration\ninternalrefclassRibbonBarRegistrationsealed\ninternalrefclassRibbonBarRegistrationsealed\nReference\nRibbonBarRegistration MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommand",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommand\nC#\nC++/CLI\npublicclassRibbonCommand\npublicclassRibbonCommand\npublicrefclassRibbonCommand\npublicrefclassRibbonCommand\nReference\nRibbonCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandGroup",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandGroup\nC#\nC++/CLI\npublicclassRibbonCommandGroup\npublicclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\nReference\nRibbonCommandGroup MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandInfo",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandInfo\nC#\nC++/CLI\npublicclassRibbonCommandInfo\npublicclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\nReference\nRibbonCommandInfo MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonIcon",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonIcon\nC#\nC++/CLI\npublicclassRibbonIcon\npublicclassRibbonIcon\npublicrefclassRibbonIcon\npublicrefclassRibbonIcon\nReference\nRibbonIcon MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonTab\nC#\nC++/CLI\npublicclassRibbonTab\npublicclassRibbonTab\npublicrefclassRibbonTab\npublicrefclassRibbonTab\nReference\nRibbonTab MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "CommandIcon",
+        "content": "C#\nC++/CLI\npublicenumCommandIcon :System.Enum\npublicenumCommandIcon :System.Enum\npublicenumclassCommandIcon :publicSystem.Enum\npublicenumclassCommandIcon :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.CommandIcon\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Menu.MainMenuName",
+        "content": "C#\nC++/CLI\npublicenumMenu.MainMenuName :System.Enum\npublicenumMenu.MainMenuName :System.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Menu.MainMenuName\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab.DefaultRibbonTabs",
+        "content": "C#\nC++/CLI\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.RibbonTab.DefaultRibbonTabs\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Toolbar.ToolBarDockPos",
+        "content": "C#\nC++/CLI\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Toolbar.ToolBarDockPos\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MFRibbonCategory",
+        "content": "System.ObjectSystem.ValueTypeEplan.EplApi.Gui.MFRibbonCategory\nC#\nC++/CLI\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\nReference\nMFRibbonCategory MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "IRibbonRegistrationCommand",
+        "content": "C#\nC++/CLI\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\nReference\nIRibbonRegistrationCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.Guiu Assembly\n"
+    },
+    {
+        "title": "DeclareMenu",
+        "content": "System.ObjectSystem.AttributeEplan.EplApi.Scripting.DeclareMenu\nC#\nC++/CLI\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\nReference\nDeclareMenu MembersEplan.EplApi.Scripting Namespacescript_menu.html\n"
+    },
+    {
+        "title": "Overview",
+        "content": ""
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.Guiu Assembly\n"
+    },
+    {
+        "title": "ContextMenu",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenu\nC#\nC++/CLI\npublicclassContextMenu\npublicclassContextMenu\npublicrefclassContextMenu\npublicrefclassContextMenu\nc#\nContextMenuLocation oLocation =newContextMenuLocation();\r\noLocation.DialogName =\"Editor\";\r\noLocation.ContextMenuName =\"Ged\";\r\nContextMenu oTestMenu =newContextMenu();\r\noTestMenu.AddMenuItem(oLocation,\"My Contextmenuname\",\"MyFavoriteActionName\",true,false));\nReference\nContextMenu MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "ContextMenuLocation",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenuLocation\nC#\nC++/CLI\npublicclassContextMenuLocation\npublicclassContextMenuLocation\npublicrefclassContextMenuLocation\npublicrefclassContextMenuLocation\nReference\nContextMenuLocation MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MRUList",
+        "content": "System.ObjectEplan.EplApi.Gui.MRUList\nC#\nC++/CLI\npublicclassMRUList\npublicclassMRUList\npublicrefclassMRUList\npublicrefclassMRUList\nReference\nMRUList MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBar",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBar\nC#\nC++/CLI\npublicclassRibbonBar\npublicclassRibbonBar\npublicrefclassRibbonBar\npublicrefclassRibbonBar\nC#\nusing(varribbonBar =newRibbonBar(true))\r\n{varribbonTab = ribbonBar.AddTab(\"MyTab1\") ?? ribbonBar.GetTab(\"MyTab1\");varcommandGroup = ribbonTab.AddCommandGroup(\"MyExampleActions\");\r\n    commandGroup.AddCommand(\"MyExampleAction1\",\"ExampleAction /PARAM:1\");\r\n    commandGroup.AddCommand(\"MyExampleAction2\",\"ExampleAction /PARAM:2\");\r\n    commandGroup.AddCommand(\"MyExampleAction3\",\"ExampleAction /PARAM:3\");\r\n}\nc#\nRibbonBar ribbonBar =newRibbonBar();\r\nribbonBar.AddCommand(\"New ribbon button text\",\"XPartsManagementStart\",newRibbonIcon(CommandIcon.Circle_0));\nc#\nvarnewTab =newEplan.EplApi.Gui.RibbonBar().AddTab(\"New API tab\");varcommandGroup = newTab.AddCommandGroup(\"New API command group\");varcommand = commandGroup.AddCommand(\"New API command\",\"XPartsManagementStart\");\nReference\nRibbonBar MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBarRegistration",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBarRegistration\nC#\nC++/CLI\ninternalsealedclassRibbonBarRegistration\ninternalsealedclassRibbonBarRegistration\ninternalrefclassRibbonBarRegistrationsealed\ninternalrefclassRibbonBarRegistrationsealed\nReference\nRibbonBarRegistration MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommand",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommand\nC#\nC++/CLI\npublicclassRibbonCommand\npublicclassRibbonCommand\npublicrefclassRibbonCommand\npublicrefclassRibbonCommand\nReference\nRibbonCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandGroup",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandGroup\nC#\nC++/CLI\npublicclassRibbonCommandGroup\npublicclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\nReference\nRibbonCommandGroup MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandInfo",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandInfo\nC#\nC++/CLI\npublicclassRibbonCommandInfo\npublicclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\nReference\nRibbonCommandInfo MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonIcon",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonIcon\nC#\nC++/CLI\npublicclassRibbonIcon\npublicclassRibbonIcon\npublicrefclassRibbonIcon\npublicrefclassRibbonIcon\nReference\nRibbonIcon MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonTab\nC#\nC++/CLI\npublicclassRibbonTab\npublicclassRibbonTab\npublicrefclassRibbonTab\npublicrefclassRibbonTab\nReference\nRibbonTab MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "CommandIcon",
+        "content": "C#\nC++/CLI\npublicenumCommandIcon :System.Enum\npublicenumCommandIcon :System.Enum\npublicenumclassCommandIcon :publicSystem.Enum\npublicenumclassCommandIcon :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.CommandIcon\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Menu.MainMenuName",
+        "content": "C#\nC++/CLI\npublicenumMenu.MainMenuName :System.Enum\npublicenumMenu.MainMenuName :System.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Menu.MainMenuName\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab.DefaultRibbonTabs",
+        "content": "C#\nC++/CLI\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.RibbonTab.DefaultRibbonTabs\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Toolbar.ToolBarDockPos",
+        "content": "C#\nC++/CLI\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Toolbar.ToolBarDockPos\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MFRibbonCategory",
+        "content": "System.ObjectSystem.ValueTypeEplan.EplApi.Gui.MFRibbonCategory\nC#\nC++/CLI\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\nReference\nMFRibbonCategory MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "IRibbonRegistrationCommand",
+        "content": "C#\nC++/CLI\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\nReference\nIRibbonRegistrationCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.Guiu Assembly\n"
+    },
+    {
+        "title": "DeclareMenu",
+        "content": "System.ObjectSystem.AttributeEplan.EplApi.Scripting.DeclareMenu\nC#\nC++/CLI\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\nReference\nDeclareMenu MembersEplan.EplApi.Scripting Namespacescript_menu.html\n"
+    },
+    {
+        "title": "Overview",
+        "content": ""
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.Guiu Assembly\n"
+    },
+    {
+        "title": "ContextMenu",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenu\nC#\nC++/CLI\npublicclassContextMenu\npublicclassContextMenu\npublicrefclassContextMenu\npublicrefclassContextMenu\nc#\nContextMenuLocation oLocation =newContextMenuLocation();\r\noLocation.DialogName =\"Editor\";\r\noLocation.ContextMenuName =\"Ged\";\r\nContextMenu oTestMenu =newContextMenu();\r\noTestMenu.AddMenuItem(oLocation,\"My Contextmenuname\",\"MyFavoriteActionName\",true,false));\nReference\nContextMenu MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "ContextMenuLocation",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenuLocation\nC#\nC++/CLI\npublicclassContextMenuLocation\npublicclassContextMenuLocation\npublicrefclassContextMenuLocation\npublicrefclassContextMenuLocation\nReference\nContextMenuLocation MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MRUList",
+        "content": "System.ObjectEplan.EplApi.Gui.MRUList\nC#\nC++/CLI\npublicclassMRUList\npublicclassMRUList\npublicrefclassMRUList\npublicrefclassMRUList\nReference\nMRUList MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBar",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBar\nC#\nC++/CLI\npublicclassRibbonBar\npublicclassRibbonBar\npublicrefclassRibbonBar\npublicrefclassRibbonBar\nC#\nusing(varribbonBar =newRibbonBar(true))\r\n{varribbonTab = ribbonBar.AddTab(\"MyTab1\") ?? ribbonBar.GetTab(\"MyTab1\");varcommandGroup = ribbonTab.AddCommandGroup(\"MyExampleActions\");\r\n    commandGroup.AddCommand(\"MyExampleAction1\",\"ExampleAction /PARAM:1\");\r\n    commandGroup.AddCommand(\"MyExampleAction2\",\"ExampleAction /PARAM:2\");\r\n    commandGroup.AddCommand(\"MyExampleAction3\",\"ExampleAction /PARAM:3\");\r\n}\nc#\nRibbonBar ribbonBar =newRibbonBar();\r\nribbonBar.AddCommand(\"New ribbon button text\",\"XPartsManagementStart\",newRibbonIcon(CommandIcon.Circle_0));\nc#\nvarnewTab =newEplan.EplApi.Gui.RibbonBar().AddTab(\"New API tab\");varcommandGroup = newTab.AddCommandGroup(\"New API command group\");varcommand = commandGroup.AddCommand(\"New API command\",\"XPartsManagementStart\");\nReference\nRibbonBar MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBarRegistration",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBarRegistration\nC#\nC++/CLI\ninternalsealedclassRibbonBarRegistration\ninternalsealedclassRibbonBarRegistration\ninternalrefclassRibbonBarRegistrationsealed\ninternalrefclassRibbonBarRegistrationsealed\nReference\nRibbonBarRegistration MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommand",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommand\nC#\nC++/CLI\npublicclassRibbonCommand\npublicclassRibbonCommand\npublicrefclassRibbonCommand\npublicrefclassRibbonCommand\nReference\nRibbonCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandGroup",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandGroup\nC#\nC++/CLI\npublicclassRibbonCommandGroup\npublicclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\nReference\nRibbonCommandGroup MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandInfo",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandInfo\nC#\nC++/CLI\npublicclassRibbonCommandInfo\npublicclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\nReference\nRibbonCommandInfo MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonIcon",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonIcon\nC#\nC++/CLI\npublicclassRibbonIcon\npublicclassRibbonIcon\npublicrefclassRibbonIcon\npublicrefclassRibbonIcon\nReference\nRibbonIcon MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonTab\nC#\nC++/CLI\npublicclassRibbonTab\npublicclassRibbonTab\npublicrefclassRibbonTab\npublicrefclassRibbonTab\nReference\nRibbonTab MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "CommandIcon",
+        "content": "C#\nC++/CLI\npublicenumCommandIcon :System.Enum\npublicenumCommandIcon :System.Enum\npublicenumclassCommandIcon :publicSystem.Enum\npublicenumclassCommandIcon :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.CommandIcon\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Menu.MainMenuName",
+        "content": "C#\nC++/CLI\npublicenumMenu.MainMenuName :System.Enum\npublicenumMenu.MainMenuName :System.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Menu.MainMenuName\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab.DefaultRibbonTabs",
+        "content": "C#\nC++/CLI\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.RibbonTab.DefaultRibbonTabs\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Toolbar.ToolBarDockPos",
+        "content": "C#\nC++/CLI\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Toolbar.ToolBarDockPos\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MFRibbonCategory",
+        "content": "System.ObjectSystem.ValueTypeEplan.EplApi.Gui.MFRibbonCategory\nC#\nC++/CLI\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\nReference\nMFRibbonCategory MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "IRibbonRegistrationCommand",
+        "content": "C#\nC++/CLI\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\nReference\nIRibbonRegistrationCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.Guiu Assembly\n"
+    },
+    {
+        "title": "DeclareMenu",
+        "content": "System.ObjectSystem.AttributeEplan.EplApi.Scripting.DeclareMenu\nC#\nC++/CLI\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\nReference\nDeclareMenu MembersEplan.EplApi.Scripting Namespacescript_menu.html\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.Guiu Assembly\n"
+    },
+    {
+        "title": "ContextMenu",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenu\nC#\nC++/CLI\npublicclassContextMenu\npublicclassContextMenu\npublicrefclassContextMenu\npublicrefclassContextMenu\nc#\nContextMenuLocation oLocation =newContextMenuLocation();\r\noLocation.DialogName =\"Editor\";\r\noLocation.ContextMenuName =\"Ged\";\r\nContextMenu oTestMenu =newContextMenu();\r\noTestMenu.AddMenuItem(oLocation,\"My Contextmenuname\",\"MyFavoriteActionName\",true,false));\nReference\nContextMenu MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "ContextMenuLocation",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenuLocation\nC#\nC++/CLI\npublicclassContextMenuLocation\npublicclassContextMenuLocation\npublicrefclassContextMenuLocation\npublicrefclassContextMenuLocation\nReference\nContextMenuLocation MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MRUList",
+        "content": "System.ObjectEplan.EplApi.Gui.MRUList\nC#\nC++/CLI\npublicclassMRUList\npublicclassMRUList\npublicrefclassMRUList\npublicrefclassMRUList\nReference\nMRUList MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBar",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBar\nC#\nC++/CLI\npublicclassRibbonBar\npublicclassRibbonBar\npublicrefclassRibbonBar\npublicrefclassRibbonBar\nC#\nusing(varribbonBar =newRibbonBar(true))\r\n{varribbonTab = ribbonBar.AddTab(\"MyTab1\") ?? ribbonBar.GetTab(\"MyTab1\");varcommandGroup = ribbonTab.AddCommandGroup(\"MyExampleActions\");\r\n    commandGroup.AddCommand(\"MyExampleAction1\",\"ExampleAction /PARAM:1\");\r\n    commandGroup.AddCommand(\"MyExampleAction2\",\"ExampleAction /PARAM:2\");\r\n    commandGroup.AddCommand(\"MyExampleAction3\",\"ExampleAction /PARAM:3\");\r\n}\nc#\nRibbonBar ribbonBar =newRibbonBar();\r\nribbonBar.AddCommand(\"New ribbon button text\",\"XPartsManagementStart\",newRibbonIcon(CommandIcon.Circle_0));\nc#\nvarnewTab =newEplan.EplApi.Gui.RibbonBar().AddTab(\"New API tab\");varcommandGroup = newTab.AddCommandGroup(\"New API command group\");varcommand = commandGroup.AddCommand(\"New API command\",\"XPartsManagementStart\");\nReference\nRibbonBar MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBarRegistration",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBarRegistration\nC#\nC++/CLI\ninternalsealedclassRibbonBarRegistration\ninternalsealedclassRibbonBarRegistration\ninternalrefclassRibbonBarRegistrationsealed\ninternalrefclassRibbonBarRegistrationsealed\nReference\nRibbonBarRegistration MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommand",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommand\nC#\nC++/CLI\npublicclassRibbonCommand\npublicclassRibbonCommand\npublicrefclassRibbonCommand\npublicrefclassRibbonCommand\nReference\nRibbonCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandGroup",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandGroup\nC#\nC++/CLI\npublicclassRibbonCommandGroup\npublicclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\nReference\nRibbonCommandGroup MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandInfo",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandInfo\nC#\nC++/CLI\npublicclassRibbonCommandInfo\npublicclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\nReference\nRibbonCommandInfo MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonIcon",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonIcon\nC#\nC++/CLI\npublicclassRibbonIcon\npublicclassRibbonIcon\npublicrefclassRibbonIcon\npublicrefclassRibbonIcon\nReference\nRibbonIcon MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonTab\nC#\nC++/CLI\npublicclassRibbonTab\npublicclassRibbonTab\npublicrefclassRibbonTab\npublicrefclassRibbonTab\nReference\nRibbonTab MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "CommandIcon",
+        "content": "C#\nC++/CLI\npublicenumCommandIcon :System.Enum\npublicenumCommandIcon :System.Enum\npublicenumclassCommandIcon :publicSystem.Enum\npublicenumclassCommandIcon :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.CommandIcon\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Menu.MainMenuName",
+        "content": "C#\nC++/CLI\npublicenumMenu.MainMenuName :System.Enum\npublicenumMenu.MainMenuName :System.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Menu.MainMenuName\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab.DefaultRibbonTabs",
+        "content": "C#\nC++/CLI\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.RibbonTab.DefaultRibbonTabs\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Toolbar.ToolBarDockPos",
+        "content": "C#\nC++/CLI\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Toolbar.ToolBarDockPos\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MFRibbonCategory",
+        "content": "System.ObjectSystem.ValueTypeEplan.EplApi.Gui.MFRibbonCategory\nC#\nC++/CLI\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\nReference\nMFRibbonCategory MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "IRibbonRegistrationCommand",
+        "content": "C#\nC++/CLI\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\nReference\nIRibbonRegistrationCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.Guiu Assembly\n"
+    },
+    {
+        "title": "DeclareMenu",
+        "content": "System.ObjectSystem.AttributeEplan.EplApi.Scripting.DeclareMenu\nC#\nC++/CLI\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\nReference\nDeclareMenu MembersEplan.EplApi.Scripting Namespacescript_menu.html\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.Guiu Assembly\n"
+    },
+    {
+        "title": "ContextMenu",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenu\nC#\nC++/CLI\npublicclassContextMenu\npublicclassContextMenu\npublicrefclassContextMenu\npublicrefclassContextMenu\nc#\nContextMenuLocation oLocation =newContextMenuLocation();\r\noLocation.DialogName =\"Editor\";\r\noLocation.ContextMenuName =\"Ged\";\r\nContextMenu oTestMenu =newContextMenu();\r\noTestMenu.AddMenuItem(oLocation,\"My Contextmenuname\",\"MyFavoriteActionName\",true,false));\nReference\nContextMenu MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "ContextMenuLocation",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenuLocation\nC#\nC++/CLI\npublicclassContextMenuLocation\npublicclassContextMenuLocation\npublicrefclassContextMenuLocation\npublicrefclassContextMenuLocation\nReference\nContextMenuLocation MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MRUList",
+        "content": "System.ObjectEplan.EplApi.Gui.MRUList\nC#\nC++/CLI\npublicclassMRUList\npublicclassMRUList\npublicrefclassMRUList\npublicrefclassMRUList\nReference\nMRUList MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBar",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBar\nC#\nC++/CLI\npublicclassRibbonBar\npublicclassRibbonBar\npublicrefclassRibbonBar\npublicrefclassRibbonBar\nC#\nusing(varribbonBar =newRibbonBar(true))\r\n{varribbonTab = ribbonBar.AddTab(\"MyTab1\") ?? ribbonBar.GetTab(\"MyTab1\");varcommandGroup = ribbonTab.AddCommandGroup(\"MyExampleActions\");\r\n    commandGroup.AddCommand(\"MyExampleAction1\",\"ExampleAction /PARAM:1\");\r\n    commandGroup.AddCommand(\"MyExampleAction2\",\"ExampleAction /PARAM:2\");\r\n    commandGroup.AddCommand(\"MyExampleAction3\",\"ExampleAction /PARAM:3\");\r\n}\nc#\nRibbonBar ribbonBar =newRibbonBar();\r\nribbonBar.AddCommand(\"New ribbon button text\",\"XPartsManagementStart\",newRibbonIcon(CommandIcon.Circle_0));\nc#\nvarnewTab =newEplan.EplApi.Gui.RibbonBar().AddTab(\"New API tab\");varcommandGroup = newTab.AddCommandGroup(\"New API command group\");varcommand = commandGroup.AddCommand(\"New API command\",\"XPartsManagementStart\");\nReference\nRibbonBar MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBarRegistration",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBarRegistration\nC#\nC++/CLI\ninternalsealedclassRibbonBarRegistration\ninternalsealedclassRibbonBarRegistration\ninternalrefclassRibbonBarRegistrationsealed\ninternalrefclassRibbonBarRegistrationsealed\nReference\nRibbonBarRegistration MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommand",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommand\nC#\nC++/CLI\npublicclassRibbonCommand\npublicclassRibbonCommand\npublicrefclassRibbonCommand\npublicrefclassRibbonCommand\nReference\nRibbonCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandGroup",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandGroup\nC#\nC++/CLI\npublicclassRibbonCommandGroup\npublicclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\nReference\nRibbonCommandGroup MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandInfo",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandInfo\nC#\nC++/CLI\npublicclassRibbonCommandInfo\npublicclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\nReference\nRibbonCommandInfo MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonIcon",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonIcon\nC#\nC++/CLI\npublicclassRibbonIcon\npublicclassRibbonIcon\npublicrefclassRibbonIcon\npublicrefclassRibbonIcon\nReference\nRibbonIcon MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonTab\nC#\nC++/CLI\npublicclassRibbonTab\npublicclassRibbonTab\npublicrefclassRibbonTab\npublicrefclassRibbonTab\nReference\nRibbonTab MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "CommandIcon",
+        "content": "C#\nC++/CLI\npublicenumCommandIcon :System.Enum\npublicenumCommandIcon :System.Enum\npublicenumclassCommandIcon :publicSystem.Enum\npublicenumclassCommandIcon :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.CommandIcon\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Menu.MainMenuName",
+        "content": "C#\nC++/CLI\npublicenumMenu.MainMenuName :System.Enum\npublicenumMenu.MainMenuName :System.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Menu.MainMenuName\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab.DefaultRibbonTabs",
+        "content": "C#\nC++/CLI\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.RibbonTab.DefaultRibbonTabs\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Toolbar.ToolBarDockPos",
+        "content": "C#\nC++/CLI\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Toolbar.ToolBarDockPos\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MFRibbonCategory",
+        "content": "System.ObjectSystem.ValueTypeEplan.EplApi.Gui.MFRibbonCategory\nC#\nC++/CLI\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\nReference\nMFRibbonCategory MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "IRibbonRegistrationCommand",
+        "content": "C#\nC++/CLI\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\nReference\nIRibbonRegistrationCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.Guiu Assembly\n"
+    },
+    {
+        "title": "ContextMenu",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenu\nC#\nC++/CLI\npublicclassContextMenu\npublicclassContextMenu\npublicrefclassContextMenu\npublicrefclassContextMenu\nc#\nContextMenuLocation oLocation =newContextMenuLocation();\r\noLocation.DialogName =\"Editor\";\r\noLocation.ContextMenuName =\"Ged\";\r\nContextMenu oTestMenu =newContextMenu();\r\noTestMenu.AddMenuItem(oLocation,\"My Contextmenuname\",\"MyFavoriteActionName\",true,false));\nReference\nContextMenu MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "ContextMenuLocation",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenuLocation\nC#\nC++/CLI\npublicclassContextMenuLocation\npublicclassContextMenuLocation\npublicrefclassContextMenuLocation\npublicrefclassContextMenuLocation\nReference\nContextMenuLocation MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MRUList",
+        "content": "System.ObjectEplan.EplApi.Gui.MRUList\nC#\nC++/CLI\npublicclassMRUList\npublicclassMRUList\npublicrefclassMRUList\npublicrefclassMRUList\nReference\nMRUList MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBar",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBar\nC#\nC++/CLI\npublicclassRibbonBar\npublicclassRibbonBar\npublicrefclassRibbonBar\npublicrefclassRibbonBar\nC#\nusing(varribbonBar =newRibbonBar(true))\r\n{varribbonTab = ribbonBar.AddTab(\"MyTab1\") ?? ribbonBar.GetTab(\"MyTab1\");varcommandGroup = ribbonTab.AddCommandGroup(\"MyExampleActions\");\r\n    commandGroup.AddCommand(\"MyExampleAction1\",\"ExampleAction /PARAM:1\");\r\n    commandGroup.AddCommand(\"MyExampleAction2\",\"ExampleAction /PARAM:2\");\r\n    commandGroup.AddCommand(\"MyExampleAction3\",\"ExampleAction /PARAM:3\");\r\n}\nc#\nRibbonBar ribbonBar =newRibbonBar();\r\nribbonBar.AddCommand(\"New ribbon button text\",\"XPartsManagementStart\",newRibbonIcon(CommandIcon.Circle_0));\nc#\nvarnewTab =newEplan.EplApi.Gui.RibbonBar().AddTab(\"New API tab\");varcommandGroup = newTab.AddCommandGroup(\"New API command group\");varcommand = commandGroup.AddCommand(\"New API command\",\"XPartsManagementStart\");\nReference\nRibbonBar MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBarRegistration",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBarRegistration\nC#\nC++/CLI\ninternalsealedclassRibbonBarRegistration\ninternalsealedclassRibbonBarRegistration\ninternalrefclassRibbonBarRegistrationsealed\ninternalrefclassRibbonBarRegistrationsealed\nReference\nRibbonBarRegistration MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommand",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommand\nC#\nC++/CLI\npublicclassRibbonCommand\npublicclassRibbonCommand\npublicrefclassRibbonCommand\npublicrefclassRibbonCommand\nReference\nRibbonCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandGroup",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandGroup\nC#\nC++/CLI\npublicclassRibbonCommandGroup\npublicclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\nReference\nRibbonCommandGroup MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandInfo",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandInfo\nC#\nC++/CLI\npublicclassRibbonCommandInfo\npublicclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\nReference\nRibbonCommandInfo MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonIcon",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonIcon\nC#\nC++/CLI\npublicclassRibbonIcon\npublicclassRibbonIcon\npublicrefclassRibbonIcon\npublicrefclassRibbonIcon\nReference\nRibbonIcon MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonTab\nC#\nC++/CLI\npublicclassRibbonTab\npublicclassRibbonTab\npublicrefclassRibbonTab\npublicrefclassRibbonTab\nReference\nRibbonTab MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "CommandIcon",
+        "content": "C#\nC++/CLI\npublicenumCommandIcon :System.Enum\npublicenumCommandIcon :System.Enum\npublicenumclassCommandIcon :publicSystem.Enum\npublicenumclassCommandIcon :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.CommandIcon\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Menu.MainMenuName",
+        "content": "C#\nC++/CLI\npublicenumMenu.MainMenuName :System.Enum\npublicenumMenu.MainMenuName :System.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Menu.MainMenuName\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab.DefaultRibbonTabs",
+        "content": "C#\nC++/CLI\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.RibbonTab.DefaultRibbonTabs\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Toolbar.ToolBarDockPos",
+        "content": "C#\nC++/CLI\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Toolbar.ToolBarDockPos\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MFRibbonCategory",
+        "content": "System.ObjectSystem.ValueTypeEplan.EplApi.Gui.MFRibbonCategory\nC#\nC++/CLI\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\nReference\nMFRibbonCategory MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "IRibbonRegistrationCommand",
+        "content": "C#\nC++/CLI\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\nReference\nIRibbonRegistrationCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.Guiu Assembly\n"
+    },
+    {
+        "title": "ContextMenu",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenu\nC#\nC++/CLI\npublicclassContextMenu\npublicclassContextMenu\npublicrefclassContextMenu\npublicrefclassContextMenu\nc#\nContextMenuLocation oLocation =newContextMenuLocation();\r\noLocation.DialogName =\"Editor\";\r\noLocation.ContextMenuName =\"Ged\";\r\nContextMenu oTestMenu =newContextMenu();\r\noTestMenu.AddMenuItem(oLocation,\"My Contextmenuname\",\"MyFavoriteActionName\",true,false));\nReference\nContextMenu MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "ContextMenuLocation",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenuLocation\nC#\nC++/CLI\npublicclassContextMenuLocation\npublicclassContextMenuLocation\npublicrefclassContextMenuLocation\npublicrefclassContextMenuLocation\nReference\nContextMenuLocation MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MRUList",
+        "content": "System.ObjectEplan.EplApi.Gui.MRUList\nC#\nC++/CLI\npublicclassMRUList\npublicclassMRUList\npublicrefclassMRUList\npublicrefclassMRUList\nReference\nMRUList MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBar",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBar\nC#\nC++/CLI\npublicclassRibbonBar\npublicclassRibbonBar\npublicrefclassRibbonBar\npublicrefclassRibbonBar\nC#\nusing(varribbonBar =newRibbonBar(true))\r\n{varribbonTab = ribbonBar.AddTab(\"MyTab1\") ?? ribbonBar.GetTab(\"MyTab1\");varcommandGroup = ribbonTab.AddCommandGroup(\"MyExampleActions\");\r\n    commandGroup.AddCommand(\"MyExampleAction1\",\"ExampleAction /PARAM:1\");\r\n    commandGroup.AddCommand(\"MyExampleAction2\",\"ExampleAction /PARAM:2\");\r\n    commandGroup.AddCommand(\"MyExampleAction3\",\"ExampleAction /PARAM:3\");\r\n}\nc#\nRibbonBar ribbonBar =newRibbonBar();\r\nribbonBar.AddCommand(\"New ribbon button text\",\"XPartsManagementStart\",newRibbonIcon(CommandIcon.Circle_0));\nc#\nvarnewTab =newEplan.EplApi.Gui.RibbonBar().AddTab(\"New API tab\");varcommandGroup = newTab.AddCommandGroup(\"New API command group\");varcommand = commandGroup.AddCommand(\"New API command\",\"XPartsManagementStart\");\nReference\nRibbonBar MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBarRegistration",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBarRegistration\nC#\nC++/CLI\ninternalsealedclassRibbonBarRegistration\ninternalsealedclassRibbonBarRegistration\ninternalrefclassRibbonBarRegistrationsealed\ninternalrefclassRibbonBarRegistrationsealed\nReference\nRibbonBarRegistration MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommand",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommand\nC#\nC++/CLI\npublicclassRibbonCommand\npublicclassRibbonCommand\npublicrefclassRibbonCommand\npublicrefclassRibbonCommand\nReference\nRibbonCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandGroup",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandGroup\nC#\nC++/CLI\npublicclassRibbonCommandGroup\npublicclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\nReference\nRibbonCommandGroup MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandInfo",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandInfo\nC#\nC++/CLI\npublicclassRibbonCommandInfo\npublicclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\nReference\nRibbonCommandInfo MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonIcon",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonIcon\nC#\nC++/CLI\npublicclassRibbonIcon\npublicclassRibbonIcon\npublicrefclassRibbonIcon\npublicrefclassRibbonIcon\nReference\nRibbonIcon MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonTab\nC#\nC++/CLI\npublicclassRibbonTab\npublicclassRibbonTab\npublicrefclassRibbonTab\npublicrefclassRibbonTab\nReference\nRibbonTab MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "ContextMenu",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenu\nC#\nC++/CLI\npublicclassContextMenu\npublicclassContextMenu\npublicrefclassContextMenu\npublicrefclassContextMenu\nc#\nContextMenuLocation oLocation =newContextMenuLocation();\r\noLocation.DialogName =\"Editor\";\r\noLocation.ContextMenuName =\"Ged\";\r\nContextMenu oTestMenu =newContextMenu();\r\noTestMenu.AddMenuItem(oLocation,\"My Contextmenuname\",\"MyFavoriteActionName\",true,false));\nReference\nContextMenu MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "ContextMenuLocation",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenuLocation\nC#\nC++/CLI\npublicclassContextMenuLocation\npublicclassContextMenuLocation\npublicrefclassContextMenuLocation\npublicrefclassContextMenuLocation\nReference\nContextMenuLocation MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MRUList",
+        "content": "System.ObjectEplan.EplApi.Gui.MRUList\nC#\nC++/CLI\npublicclassMRUList\npublicclassMRUList\npublicrefclassMRUList\npublicrefclassMRUList\nReference\nMRUList MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBar",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBar\nC#\nC++/CLI\npublicclassRibbonBar\npublicclassRibbonBar\npublicrefclassRibbonBar\npublicrefclassRibbonBar\nC#\nusing(varribbonBar =newRibbonBar(true))\r\n{varribbonTab = ribbonBar.AddTab(\"MyTab1\") ?? ribbonBar.GetTab(\"MyTab1\");varcommandGroup = ribbonTab.AddCommandGroup(\"MyExampleActions\");\r\n    commandGroup.AddCommand(\"MyExampleAction1\",\"ExampleAction /PARAM:1\");\r\n    commandGroup.AddCommand(\"MyExampleAction2\",\"ExampleAction /PARAM:2\");\r\n    commandGroup.AddCommand(\"MyExampleAction3\",\"ExampleAction /PARAM:3\");\r\n}\nc#\nRibbonBar ribbonBar =newRibbonBar();\r\nribbonBar.AddCommand(\"New ribbon button text\",\"XPartsManagementStart\",newRibbonIcon(CommandIcon.Circle_0));\nc#\nvarnewTab =newEplan.EplApi.Gui.RibbonBar().AddTab(\"New API tab\");varcommandGroup = newTab.AddCommandGroup(\"New API command group\");varcommand = commandGroup.AddCommand(\"New API command\",\"XPartsManagementStart\");\nReference\nRibbonBar MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBarRegistration",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBarRegistration\nC#\nC++/CLI\ninternalsealedclassRibbonBarRegistration\ninternalsealedclassRibbonBarRegistration\ninternalrefclassRibbonBarRegistrationsealed\ninternalrefclassRibbonBarRegistrationsealed\nReference\nRibbonBarRegistration MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommand",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommand\nC#\nC++/CLI\npublicclassRibbonCommand\npublicclassRibbonCommand\npublicrefclassRibbonCommand\npublicrefclassRibbonCommand\nReference\nRibbonCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandGroup",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandGroup\nC#\nC++/CLI\npublicclassRibbonCommandGroup\npublicclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\nReference\nRibbonCommandGroup MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandInfo",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandInfo\nC#\nC++/CLI\npublicclassRibbonCommandInfo\npublicclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\nReference\nRibbonCommandInfo MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonIcon",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonIcon\nC#\nC++/CLI\npublicclassRibbonIcon\npublicclassRibbonIcon\npublicrefclassRibbonIcon\npublicrefclassRibbonIcon\nReference\nRibbonIcon MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonTab\nC#\nC++/CLI\npublicclassRibbonTab\npublicclassRibbonTab\npublicrefclassRibbonTab\npublicrefclassRibbonTab\nReference\nRibbonTab MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "ContextMenu",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenu\nC#\nC++/CLI\npublicclassContextMenu\npublicclassContextMenu\npublicrefclassContextMenu\npublicrefclassContextMenu\nc#\nContextMenuLocation oLocation =newContextMenuLocation();\r\noLocation.DialogName =\"Editor\";\r\noLocation.ContextMenuName =\"Ged\";\r\nContextMenu oTestMenu =newContextMenu();\r\noTestMenu.AddMenuItem(oLocation,\"My Contextmenuname\",\"MyFavoriteActionName\",true,false));\nReference\nContextMenu MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "ContextMenuLocation",
+        "content": "System.ObjectEplan.EplApi.Gui.ContextMenuLocation\nC#\nC++/CLI\npublicclassContextMenuLocation\npublicclassContextMenuLocation\npublicrefclassContextMenuLocation\npublicrefclassContextMenuLocation\nReference\nContextMenuLocation MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MRUList",
+        "content": "System.ObjectEplan.EplApi.Gui.MRUList\nC#\nC++/CLI\npublicclassMRUList\npublicclassMRUList\npublicrefclassMRUList\npublicrefclassMRUList\nReference\nMRUList MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBar",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBar\nC#\nC++/CLI\npublicclassRibbonBar\npublicclassRibbonBar\npublicrefclassRibbonBar\npublicrefclassRibbonBar\nC#\nusing(varribbonBar =newRibbonBar(true))\r\n{varribbonTab = ribbonBar.AddTab(\"MyTab1\") ?? ribbonBar.GetTab(\"MyTab1\");varcommandGroup = ribbonTab.AddCommandGroup(\"MyExampleActions\");\r\n    commandGroup.AddCommand(\"MyExampleAction1\",\"ExampleAction /PARAM:1\");\r\n    commandGroup.AddCommand(\"MyExampleAction2\",\"ExampleAction /PARAM:2\");\r\n    commandGroup.AddCommand(\"MyExampleAction3\",\"ExampleAction /PARAM:3\");\r\n}\nc#\nRibbonBar ribbonBar =newRibbonBar();\r\nribbonBar.AddCommand(\"New ribbon button text\",\"XPartsManagementStart\",newRibbonIcon(CommandIcon.Circle_0));\nc#\nvarnewTab =newEplan.EplApi.Gui.RibbonBar().AddTab(\"New API tab\");varcommandGroup = newTab.AddCommandGroup(\"New API command group\");varcommand = commandGroup.AddCommand(\"New API command\",\"XPartsManagementStart\");\nReference\nRibbonBar MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonBarRegistration",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonBarRegistration\nC#\nC++/CLI\ninternalsealedclassRibbonBarRegistration\ninternalsealedclassRibbonBarRegistration\ninternalrefclassRibbonBarRegistrationsealed\ninternalrefclassRibbonBarRegistrationsealed\nReference\nRibbonBarRegistration MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommand",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommand\nC#\nC++/CLI\npublicclassRibbonCommand\npublicclassRibbonCommand\npublicrefclassRibbonCommand\npublicrefclassRibbonCommand\nReference\nRibbonCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandGroup",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandGroup\nC#\nC++/CLI\npublicclassRibbonCommandGroup\npublicclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\npublicrefclassRibbonCommandGroup\nReference\nRibbonCommandGroup MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonCommandInfo",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonCommandInfo\nC#\nC++/CLI\npublicclassRibbonCommandInfo\npublicclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\npublicrefclassRibbonCommandInfo\nReference\nRibbonCommandInfo MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonIcon",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonIcon\nC#\nC++/CLI\npublicclassRibbonIcon\npublicclassRibbonIcon\npublicrefclassRibbonIcon\npublicrefclassRibbonIcon\nReference\nRibbonIcon MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab",
+        "content": "System.ObjectEplan.EplApi.Gui.RibbonTab\nC#\nC++/CLI\npublicclassRibbonTab\npublicclassRibbonTab\npublicrefclassRibbonTab\npublicrefclassRibbonTab\nReference\nRibbonTab MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "CommandIcon",
+        "content": "C#\nC++/CLI\npublicenumCommandIcon :System.Enum\npublicenumCommandIcon :System.Enum\npublicenumclassCommandIcon :publicSystem.Enum\npublicenumclassCommandIcon :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.CommandIcon\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Menu.MainMenuName",
+        "content": "C#\nC++/CLI\npublicenumMenu.MainMenuName :System.Enum\npublicenumMenu.MainMenuName :System.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Menu.MainMenuName\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab.DefaultRibbonTabs",
+        "content": "C#\nC++/CLI\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.RibbonTab.DefaultRibbonTabs\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Toolbar.ToolBarDockPos",
+        "content": "C#\nC++/CLI\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Toolbar.ToolBarDockPos\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "CommandIcon",
+        "content": "C#\nC++/CLI\npublicenumCommandIcon :System.Enum\npublicenumCommandIcon :System.Enum\npublicenumclassCommandIcon :publicSystem.Enum\npublicenumclassCommandIcon :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.CommandIcon\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Menu.MainMenuName",
+        "content": "C#\nC++/CLI\npublicenumMenu.MainMenuName :System.Enum\npublicenumMenu.MainMenuName :System.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Menu.MainMenuName\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab.DefaultRibbonTabs",
+        "content": "C#\nC++/CLI\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.RibbonTab.DefaultRibbonTabs\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Toolbar.ToolBarDockPos",
+        "content": "C#\nC++/CLI\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Toolbar.ToolBarDockPos\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "CommandIcon",
+        "content": "C#\nC++/CLI\npublicenumCommandIcon :System.Enum\npublicenumCommandIcon :System.Enum\npublicenumclassCommandIcon :publicSystem.Enum\npublicenumclassCommandIcon :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.CommandIcon\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Menu.MainMenuName",
+        "content": "C#\nC++/CLI\npublicenumMenu.MainMenuName :System.Enum\npublicenumMenu.MainMenuName :System.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\npublicenumclassMenu.MainMenuName :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Menu.MainMenuName\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "RibbonTab.DefaultRibbonTabs",
+        "content": "C#\nC++/CLI\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumRibbonTab.DefaultRibbonTabs :System.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\npublicenumclassRibbonTab.DefaultRibbonTabs :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.RibbonTab.DefaultRibbonTabs\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Toolbar.ToolBarDockPos",
+        "content": "C#\nC++/CLI\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumToolbar.ToolBarDockPos :System.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\npublicenumclassToolbar.ToolBarDockPos :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.EplApi.Gui.Toolbar.ToolBarDockPos\nReference\nEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MFRibbonCategory",
+        "content": "System.ObjectSystem.ValueTypeEplan.EplApi.Gui.MFRibbonCategory\nC#\nC++/CLI\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\nReference\nMFRibbonCategory MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MFRibbonCategory",
+        "content": "System.ObjectSystem.ValueTypeEplan.EplApi.Gui.MFRibbonCategory\nC#\nC++/CLI\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\nReference\nMFRibbonCategory MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "MFRibbonCategory",
+        "content": "System.ObjectSystem.ValueTypeEplan.EplApi.Gui.MFRibbonCategory\nC#\nC++/CLI\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalstructMFRibbonCategory :System.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\n[NativeCppClass()]\r\n[UnsafeValueType()]internalvalueclassMFRibbonCategory :publicSystem.ValueType\nReference\nMFRibbonCategory MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "IRibbonRegistrationCommand",
+        "content": "C#\nC++/CLI\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\nReference\nIRibbonRegistrationCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "IRibbonRegistrationCommand",
+        "content": "C#\nC++/CLI\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\nReference\nIRibbonRegistrationCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "IRibbonRegistrationCommand",
+        "content": "C#\nC++/CLI\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\ninternalinterfaceclassIRibbonRegistrationCommand\nReference\nIRibbonRegistrationCommand MembersEplan.EplApi.Gui Namespace\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.Guiu Assembly\n"
+    },
+    {
+        "title": "DeclareMenu",
+        "content": "System.ObjectSystem.AttributeEplan.EplApi.Scripting.DeclareMenu\nC#\nC++/CLI\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\nReference\nDeclareMenu MembersEplan.EplApi.Scripting Namespacescript_menu.html\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.Guiu Assembly\n"
+    },
+    {
+        "title": "DeclareMenu",
+        "content": "System.ObjectSystem.AttributeEplan.EplApi.Scripting.DeclareMenu\nC#\nC++/CLI\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\nReference\nDeclareMenu MembersEplan.EplApi.Scripting Namespacescript_menu.html\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.EplApi.Guiu Assembly\n"
+    },
+    {
+        "title": "DeclareMenu",
+        "content": "System.ObjectSystem.AttributeEplan.EplApi.Scripting.DeclareMenu\nC#\nC++/CLI\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\nReference\nDeclareMenu MembersEplan.EplApi.Scripting Namespacescript_menu.html\n"
+    },
+    {
+        "title": "DeclareMenu",
+        "content": "System.ObjectSystem.AttributeEplan.EplApi.Scripting.DeclareMenu\nC#\nC++/CLI\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\nReference\nDeclareMenu MembersEplan.EplApi.Scripting Namespacescript_menu.html\n"
+    },
+    {
+        "title": "DeclareMenu",
+        "content": "System.ObjectSystem.AttributeEplan.EplApi.Scripting.DeclareMenu\nC#\nC++/CLI\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicclassDeclareMenu :System.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\n[AttributeUsage(AttributeTargets.Method)]publicrefclassDeclareMenu :publicSystem.Attribute\nReference\nDeclareMenu MembersEplan.EplApi.Scripting Namespacescript_menu.html\n"
+    }
+]

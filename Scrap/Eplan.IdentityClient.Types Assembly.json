@@ -1,0 +1,222 @@
+[
+    {
+        "title": "Overview",
+        "content": ""
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.IdentityClient.Types Assembly\n"
+    },
+    {
+        "title": "AuthenticationData",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassAuthenticationData :IdentityClientResponse\npublicclassAuthenticationData :IdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\nReference\nAuthenticationData MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "EProxySettings",
+        "content": "System.ObjectEplan.IdentityClient.EProxySettings\nC#\nC++/CLI\npublicclassEProxySettings\npublicclassEProxySettings\npublicrefclassEProxySettings\npublicrefclassEProxySettings\nReference\nEProxySettings MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityClientResponse",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassIdentityClientResponse\npublicclassIdentityClientResponse\npublicrefclassIdentityClientResponse\npublicrefclassIdentityClientResponse\nReference\nIdentityClientResponse MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "ApplicationMode",
+        "content": "C#\nC++/CLI\npublicenumApplicationMode :System.Enum\npublicenumApplicationMode :System.Enum\npublicenumclassApplicationMode :publicSystem.Enum\npublicenumclassApplicationMode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.ApplicationMode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityStatusCode",
+        "content": "C#\nC++/CLI\npublicenumIdentityStatusCode :System.Enum\npublicenumIdentityStatusCode :System.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.IdentityStatusCode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "Overview",
+        "content": ""
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.IdentityClient.Types Assembly\n"
+    },
+    {
+        "title": "AuthenticationData",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassAuthenticationData :IdentityClientResponse\npublicclassAuthenticationData :IdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\nReference\nAuthenticationData MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "EProxySettings",
+        "content": "System.ObjectEplan.IdentityClient.EProxySettings\nC#\nC++/CLI\npublicclassEProxySettings\npublicclassEProxySettings\npublicrefclassEProxySettings\npublicrefclassEProxySettings\nReference\nEProxySettings MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityClientResponse",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassIdentityClientResponse\npublicclassIdentityClientResponse\npublicrefclassIdentityClientResponse\npublicrefclassIdentityClientResponse\nReference\nIdentityClientResponse MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "ApplicationMode",
+        "content": "C#\nC++/CLI\npublicenumApplicationMode :System.Enum\npublicenumApplicationMode :System.Enum\npublicenumclassApplicationMode :publicSystem.Enum\npublicenumclassApplicationMode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.ApplicationMode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityStatusCode",
+        "content": "C#\nC++/CLI\npublicenumIdentityStatusCode :System.Enum\npublicenumIdentityStatusCode :System.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.IdentityStatusCode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "Overview",
+        "content": ""
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.IdentityClient.Types Assembly\n"
+    },
+    {
+        "title": "AuthenticationData",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassAuthenticationData :IdentityClientResponse\npublicclassAuthenticationData :IdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\nReference\nAuthenticationData MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "EProxySettings",
+        "content": "System.ObjectEplan.IdentityClient.EProxySettings\nC#\nC++/CLI\npublicclassEProxySettings\npublicclassEProxySettings\npublicrefclassEProxySettings\npublicrefclassEProxySettings\nReference\nEProxySettings MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityClientResponse",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassIdentityClientResponse\npublicclassIdentityClientResponse\npublicrefclassIdentityClientResponse\npublicrefclassIdentityClientResponse\nReference\nIdentityClientResponse MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "ApplicationMode",
+        "content": "C#\nC++/CLI\npublicenumApplicationMode :System.Enum\npublicenumApplicationMode :System.Enum\npublicenumclassApplicationMode :publicSystem.Enum\npublicenumclassApplicationMode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.ApplicationMode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityStatusCode",
+        "content": "C#\nC++/CLI\npublicenumIdentityStatusCode :System.Enum\npublicenumIdentityStatusCode :System.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.IdentityStatusCode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.IdentityClient.Types Assembly\n"
+    },
+    {
+        "title": "AuthenticationData",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassAuthenticationData :IdentityClientResponse\npublicclassAuthenticationData :IdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\nReference\nAuthenticationData MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "EProxySettings",
+        "content": "System.ObjectEplan.IdentityClient.EProxySettings\nC#\nC++/CLI\npublicclassEProxySettings\npublicclassEProxySettings\npublicrefclassEProxySettings\npublicrefclassEProxySettings\nReference\nEProxySettings MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityClientResponse",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassIdentityClientResponse\npublicclassIdentityClientResponse\npublicrefclassIdentityClientResponse\npublicrefclassIdentityClientResponse\nReference\nIdentityClientResponse MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "ApplicationMode",
+        "content": "C#\nC++/CLI\npublicenumApplicationMode :System.Enum\npublicenumApplicationMode :System.Enum\npublicenumclassApplicationMode :publicSystem.Enum\npublicenumclassApplicationMode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.ApplicationMode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityStatusCode",
+        "content": "C#\nC++/CLI\npublicenumIdentityStatusCode :System.Enum\npublicenumIdentityStatusCode :System.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.IdentityStatusCode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.IdentityClient.Types Assembly\n"
+    },
+    {
+        "title": "AuthenticationData",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassAuthenticationData :IdentityClientResponse\npublicclassAuthenticationData :IdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\nReference\nAuthenticationData MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "EProxySettings",
+        "content": "System.ObjectEplan.IdentityClient.EProxySettings\nC#\nC++/CLI\npublicclassEProxySettings\npublicclassEProxySettings\npublicrefclassEProxySettings\npublicrefclassEProxySettings\nReference\nEProxySettings MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityClientResponse",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassIdentityClientResponse\npublicclassIdentityClientResponse\npublicrefclassIdentityClientResponse\npublicrefclassIdentityClientResponse\nReference\nIdentityClientResponse MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "ApplicationMode",
+        "content": "C#\nC++/CLI\npublicenumApplicationMode :System.Enum\npublicenumApplicationMode :System.Enum\npublicenumclassApplicationMode :publicSystem.Enum\npublicenumclassApplicationMode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.ApplicationMode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityStatusCode",
+        "content": "C#\nC++/CLI\npublicenumIdentityStatusCode :System.Enum\npublicenumIdentityStatusCode :System.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.IdentityStatusCode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.IdentityClient.Types Assembly\n"
+    },
+    {
+        "title": "AuthenticationData",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassAuthenticationData :IdentityClientResponse\npublicclassAuthenticationData :IdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\nReference\nAuthenticationData MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "EProxySettings",
+        "content": "System.ObjectEplan.IdentityClient.EProxySettings\nC#\nC++/CLI\npublicclassEProxySettings\npublicclassEProxySettings\npublicrefclassEProxySettings\npublicrefclassEProxySettings\nReference\nEProxySettings MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityClientResponse",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassIdentityClientResponse\npublicclassIdentityClientResponse\npublicrefclassIdentityClientResponse\npublicrefclassIdentityClientResponse\nReference\nIdentityClientResponse MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "ApplicationMode",
+        "content": "C#\nC++/CLI\npublicenumApplicationMode :System.Enum\npublicenumApplicationMode :System.Enum\npublicenumclassApplicationMode :publicSystem.Enum\npublicenumclassApplicationMode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.ApplicationMode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityStatusCode",
+        "content": "C#\nC++/CLI\npublicenumIdentityStatusCode :System.Enum\npublicenumIdentityStatusCode :System.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.IdentityStatusCode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "Overview",
+        "content": "Reference\nEplan.IdentityClient.Types Assembly\n"
+    },
+    {
+        "title": "AuthenticationData",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassAuthenticationData :IdentityClientResponse\npublicclassAuthenticationData :IdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\nReference\nAuthenticationData MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "EProxySettings",
+        "content": "System.ObjectEplan.IdentityClient.EProxySettings\nC#\nC++/CLI\npublicclassEProxySettings\npublicclassEProxySettings\npublicrefclassEProxySettings\npublicrefclassEProxySettings\nReference\nEProxySettings MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityClientResponse",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassIdentityClientResponse\npublicclassIdentityClientResponse\npublicrefclassIdentityClientResponse\npublicrefclassIdentityClientResponse\nReference\nIdentityClientResponse MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "AuthenticationData",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassAuthenticationData :IdentityClientResponse\npublicclassAuthenticationData :IdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\nReference\nAuthenticationData MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "EProxySettings",
+        "content": "System.ObjectEplan.IdentityClient.EProxySettings\nC#\nC++/CLI\npublicclassEProxySettings\npublicclassEProxySettings\npublicrefclassEProxySettings\npublicrefclassEProxySettings\nReference\nEProxySettings MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityClientResponse",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassIdentityClientResponse\npublicclassIdentityClientResponse\npublicrefclassIdentityClientResponse\npublicrefclassIdentityClientResponse\nReference\nIdentityClientResponse MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "AuthenticationData",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassAuthenticationData :IdentityClientResponse\npublicclassAuthenticationData :IdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\npublicrefclassAuthenticationData :publicIdentityClientResponse\nReference\nAuthenticationData MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "EProxySettings",
+        "content": "System.ObjectEplan.IdentityClient.EProxySettings\nC#\nC++/CLI\npublicclassEProxySettings\npublicclassEProxySettings\npublicrefclassEProxySettings\npublicrefclassEProxySettings\nReference\nEProxySettings MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityClientResponse",
+        "content": "System.ObjectEplan.IdentityClient.IdentityClientResponseEplan.IdentityClient.AuthenticationData\nC#\nC++/CLI\npublicclassIdentityClientResponse\npublicclassIdentityClientResponse\npublicrefclassIdentityClientResponse\npublicrefclassIdentityClientResponse\nReference\nIdentityClientResponse MembersEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "ApplicationMode",
+        "content": "C#\nC++/CLI\npublicenumApplicationMode :System.Enum\npublicenumApplicationMode :System.Enum\npublicenumclassApplicationMode :publicSystem.Enum\npublicenumclassApplicationMode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.ApplicationMode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityStatusCode",
+        "content": "C#\nC++/CLI\npublicenumIdentityStatusCode :System.Enum\npublicenumIdentityStatusCode :System.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.IdentityStatusCode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "ApplicationMode",
+        "content": "C#\nC++/CLI\npublicenumApplicationMode :System.Enum\npublicenumApplicationMode :System.Enum\npublicenumclassApplicationMode :publicSystem.Enum\npublicenumclassApplicationMode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.ApplicationMode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityStatusCode",
+        "content": "C#\nC++/CLI\npublicenumIdentityStatusCode :System.Enum\npublicenumIdentityStatusCode :System.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.IdentityStatusCode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "ApplicationMode",
+        "content": "C#\nC++/CLI\npublicenumApplicationMode :System.Enum\npublicenumApplicationMode :System.Enum\npublicenumclassApplicationMode :publicSystem.Enum\npublicenumclassApplicationMode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.ApplicationMode\nReference\nEplan.IdentityClient Namespace\n"
+    },
+    {
+        "title": "IdentityStatusCode",
+        "content": "C#\nC++/CLI\npublicenumIdentityStatusCode :System.Enum\npublicenumIdentityStatusCode :System.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\npublicenumclassIdentityStatusCode :publicSystem.Enum\nSystem.ObjectSystem.ValueTypeSystem.EnumEplan.IdentityClient.IdentityStatusCode\nReference\nEplan.IdentityClient Namespace\n"
+    }
+]
