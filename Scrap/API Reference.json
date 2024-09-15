@@ -319,6 +319,19 @@
                 "command": "compress /PROJECTNAME:C:\\Projects\\EPLAN\\EPLAN_Sample_Project.elk /FILTERSCHEME:\"filter_scheme\""
             }
         ]
+    },
+    {
+        "type":"",
+        "name":"",
+        "description":"",
+        "parameters":[
+            {
+                "name":"",
+                "description":""
+            }
+        ],
+        "notes":[],
+        "examples":[]
     }
 
     
@@ -327,19 +340,7 @@
   ]
 
 
-  {
-    "type":"",
-    "name":"",
-    "description":"",
-    "parameters":[
-        {
-            "name":"",
-            "description":""
-        }
-    ],
-    "notes":[],
-    "examples":[]
-}
+
 {
     "type":"",
     "name":"",
