@@ -8,7 +8,7 @@ Lazy Eplan Scripting is a project aimed at simplifying and automating the proces
 
 ## 🚀 Getting Started
 
-As this project is still under development.
+This project is still under development.
 Currently collecting the best data.
 
 
