@@ -1,0 +1,149 @@
+{
+    "scriptTemplate": {
+        "baseImports": [
+            "using Eplan.EplApi.ApplicationFramework;",
+            "using Eplan.EplApi.Scripting;"
+        ],
+        "classStructure": {
+            "className": "Class",
+            "methodAttribute": "[Start]",
+            "methodName": "Function",
+            "methodReturnType": "void",
+            "baseCode": {
+                "initialization": [
+                    "CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+                    "ActionCallingContext acc = new ActionCallingContext();"
+                ],
+                "execution": "oCLI.Execute(\"{actionName}\", acc);",
+                "return": "return;"
+            }
+        },
+        "codeStyle": {
+            "doNotInclude": [
+                "try-catch blocks",
+                "error logging",
+                "custom error handling",
+                "message boxes",
+                "console outputs"
+            ],
+            "reasoning": [
+                "EPLAN handles all error management internally",
+                "EPLAN provides its own logging system",
+                "Exceptions are handled by EPLAN's BaseException system",
+                "User notifications are managed by EPLAN"
+            ],
+            "bestPractices": [
+                "Keep scripts minimal and focused",
+                "Use only necessary parameters",
+                "Follow EPLAN's command structure exactly",
+                "Use full paths with @ prefix for strings",
+                "Don't use $ for message boxes"
+            ]
+        },
+        "parameterHandling": {
+            "method": "acc.AddParameter(\"{parameterName}\", \"{parameterValue}\");",
+            "parameterTypes": {
+                "string": {
+                    "format": "@\"{value}\"",
+                    "needsQuotes": true,
+                    "pathHandling": "Use @ prefix for paths"
+                },
+                "integer": {
+                    "format": "{value}",
+                    "needsQuotes": false
+                },
+                "number": {
+                    "format": "{value}",
+                    "needsQuotes": false
+                }
+            }
+        }
+    },
+    "scriptGeneration": {
+        "minimumStructure": {
+            "required": [
+                "Base imports",
+                "Class definition",
+                "Start attribute",
+                "Function definition",
+                "CLI and ACC initialization",
+                "Parameter addition",
+                "Action execution",
+                "Return statement"
+            ],
+            "template": [
+                "using Eplan.EplApi.ApplicationFramework;",
+                "using Eplan.EplApi.Scripting;",
+                "",
+                "public class Class",
+                "{",
+                "    [Start]",
+                "    public void Function()",
+                "    {",
+                "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+                "        ActionCallingContext acc = new ActionCallingContext();",
+                "",
+                "        {parameters}",
+                "",
+                "        oCLI.Execute(\"{actionName}\", acc);",
+                "",
+                "        return;",
+                "    }",
+                "}"
+            ]
+        }
+    },
+    "examples": {
+        "partslist": {
+            "export": {
+                "description": "Export parts list to CSV",
+                "parameters": {
+                    "TYPE": "EXPORT",
+                    "PROJECTNAME": "C:\\Projects\\EPLAN\\EPLAN_Sample_Project.elk",
+                    "FORMAT": "XPalCSVConverter",
+                    "EXPORTFILE": "C:\\temp\\PartsList.csv"
+                },
+                "resultingScript": [
+                    "using Eplan.EplApi.ApplicationFramework;",
+                    "using Eplan.EplApi.Scripting;",
+                    "",
+                    "public class Class",
+                    "{",
+                    "    [Start]",
+                    "    public void Function()",
+                    "    {",
+                    "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+                    "        ActionCallingContext acc = new ActionCallingContext();",
+                    "",
+                    "        acc.AddParameter(\"TYPE\", \"EXPORT\");",
+                    "        acc.AddParameter(\"PROJECTNAME\", @\"C:\\Projects\\EPLAN\\EPLAN_Sample_Project.elk\");",
+                    "        acc.AddParameter(\"FORMAT\", \"XPalCSVConverter\");",
+                    "        acc.AddParameter(\"EXPORTFILE\", @\"C:\\temp\\PartsList.csv\");",
+                    "",
+                    "        oCLI.Execute(\"partslist\", acc);",
+                    "",
+                    "        return;",
+                    "    }",
+                    "}"
+                ]
+            }
+        }
+    },
+    "parameterValidation": {
+        "rules": {
+            "TYPE": {
+                "required": true,
+                "mustBeFirstParameter": true,
+                "validValues": ["IMPORT", "EXPORT", "IMPORTTOSYSTEM", "EXPORTFROMSYSTEM", "DELETESTOREDPROPERTIES"]
+            },
+            "general": {
+                "orderingRules": [
+                    "TYPE must be first parameter",
+                    "PROJECTNAME should be second when included",
+                    "Format-related parameters should follow",
+                    "Specific action parameters last"
+                ]
+            }
+        }
+    }
+}
