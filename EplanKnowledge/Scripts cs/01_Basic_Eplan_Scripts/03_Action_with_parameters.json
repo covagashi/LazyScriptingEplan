@@ -1,0 +1,95 @@
+{
+    "script": {
+        "id": "03_Action_with_parameters",
+        "name": "Project Detail Update Action",
+        "type": "Parameter Usage",
+        "description": "Demonstrates executing XPlaUpdateDetailAction with multiple parameters using ActionCallingContext",
+        "filename": "03_Action_with_parameters.cs",
+        "source": {
+            "code": "using Eplan.EplApi.ApplicationFramework;\nusing Eplan.EplApi.Scripting;\n\npublic class ProjectDetailUpdater\n{\n    [Start]\n    public void Function()\n    {\n        CommandLineInterpreter oCLI = new CommandLineInterpreter();\n        ActionCallingContext acc = new ActionCallingContext();\n\n        // Project path with proper string literal formatting\n        acc.AddParameter(\"PROJECTNAME\", @\"C:\\Projects\\EPLAN\\EPLAN_Sample_Project.elk\");\n        \n        // Update settings\n        acc.AddParameter(\"UpdateMacros\", \"1\");\n        acc.AddParameter(\"UpdateIdentifier\", \"1\");\n\n        // Execute detail update action\n        oCLI.Execute(\"XPlaUpdateDetailAction\", acc);\n\n        return;\n    }\n}",
+            "imports": [
+                {
+                    "namespace": "Eplan.EplApi.ApplicationFramework",
+                    "purpose": "Required for CommandLineInterpreter and ActionCallingContext"
+                },
+                {
+                    "namespace": "Eplan.EplApi.Scripting",
+                    "purpose": "Required for [Start] decorator"
+                }
+            ]
+        },
+        "analysis": {
+            "components": {
+                "mainAction": "XPlaUpdateDetailAction",
+                "parameters": [
+                    {
+                        "name": "PROJECTNAME",
+                        "type": "string",
+                        "format": "File path with @ prefix",
+                        "description": "Full path to the target project"
+                    },
+                    {
+                        "name": "UpdateMacros",
+                        "type": "string",
+                        "value": "1",
+                        "description": "Enable macro updates (1=true, 0=false)"
+                    },
+                    {
+                        "name": "UpdateIdentifier",
+                        "type": "string",
+                        "value": "1",
+                        "description": "Enable identifier updates (1=true, 0=false)"
+                    }
+                ]
+            },
+            "bestPractices": [
+                {
+                    "pattern": "Descriptive class naming",
+                    "example": "ProjectDetailUpdater reflects purpose"
+                },
+                {
+                    "pattern": "Path string formatting",
+                    "example": "Using @ prefix for file paths"
+                },
+                {
+                    "pattern": "Code organization",
+                    "example": "Grouped parameter addition with comments"
+                }
+            ]
+        },
+        "educational": {
+            "concepts": [
+                {
+                    "topic": "Parameter Setting",
+                    "description": "How to set different types of parameters in EPLAN actions",
+                    "examples": [
+                        "File paths",
+                        "Boolean flags (as strings)",
+                        "Configuration parameters"
+                    ]
+                },
+                {
+                    "topic": "Action Execution",
+                    "description": "Process of executing EPLAN actions with parameters",
+                    "steps": [
+                        "Create CommandLineInterpreter",
+                        "Create ActionCallingContext",
+                        "Add parameters",
+                        "Execute action"
+                    ]
+                }
+            ]
+        },
+        "metadata": {
+            "created": "2024-03-15",
+            "category": "Project Management",
+            "difficulty": "Intermediate",
+            "tags": [
+                "project-update",
+                "parameters",
+                "action-execution",
+                "detail-engineering"
+            ]
+        }
+    }
+}

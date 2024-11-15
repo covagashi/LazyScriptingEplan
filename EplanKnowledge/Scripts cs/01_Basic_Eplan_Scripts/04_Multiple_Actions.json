@@ -1,0 +1,114 @@
+{
+    "script": {
+        "id": "04_Multiple_Actions",
+        "name": "Multiple Sequential Actions",
+        "type": "Action Execution",
+        "description": "Demonstrates how to execute multiple EPLAN actions sequentially in a simple script",
+        "filename": "04_Multiple_Actions.cs",
+        "source": {
+            "code": [
+                "using System.Windows.Forms;",
+                "using Eplan.EplApi.ApplicationFramework;",
+                "using Eplan.EplApi.Scripting;",
+                "",
+                "public class Class",
+                "{",
+                "    [Start]",
+                "    public void Function()",
+                "    {",
+                "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+                "",
+                "        oCLI.Execute(\"gedRedraw\");",
+                "        oCLI.Execute(\"UpdateSegmentsFilling\");",
+                "        oCLI.Execute(\"XGedClosePage\");",
+                "",
+                "        return;",
+                "    }",
+                "}"
+            ],
+            "imports": [
+                {
+                    "namespace": "System.Windows.Forms",
+                    "purpose": "Not used in script - can be removed",
+                    "status": "Unnecessary"
+                },
+                {
+                    "namespace": "Eplan.EplApi.ApplicationFramework",
+                    "purpose": "Required for CommandLineInterpreter",
+                    "status": "Essential"
+                },
+                {
+                    "namespace": "Eplan.EplApi.Scripting",
+                    "purpose": "Required for [Start] decorator",
+                    "status": "Essential"
+                }
+            ]
+        },
+        "analysis": {
+            "structure": {
+                "decorator": "[Start]",
+                "className": "Class",
+                "methodName": "Function",
+                "returnType": "void"
+            },
+            "actions": [
+                {
+                    "name": "gedRedraw",
+                    "purpose": "Refreshes the graphical editor display",
+                    "parameters": "None required"
+                },
+                {
+                    "name": "UpdateSegmentsFilling",
+                    "purpose": "Updates the filling calculations for segments in the project",
+                    "parameters": "None required"
+                },
+                {
+                    "name": "XGedClosePage",
+                    "purpose": "Closes the currently active page in the graphical editor",
+                    "parameters": "None required"
+                }
+            ],
+            "improvements": [
+                {
+                    "issue": "Unnecessary Windows.Forms import",
+                    "fix": "Remove unused using directive"
+                },
+                {
+                    "issue": "Generic class name",
+                    "fix": "Use more descriptive name like 'PageUpdateManager'"
+                }
+            ]
+        },        
+        "educational": {
+            "concepts": [
+                {
+                    "topic": "Sequential Action Execution",
+                    "description": "Shows how to run multiple EPLAN actions one after another",
+                    "importance": "Basic pattern for automation scripts"
+                },
+                {
+                    "topic": "CommandLineInterpreter",
+                    "description": "Central class for executing EPLAN actions",
+                    "usage": "Create once, reuse for multiple actions"
+                }
+            ],
+            "bestPractices": [
+                "Keep scripts focused on a single task",
+                "Remove unused imports",
+                "Use descriptive class names",
+                "Consider action execution order"
+            ]
+        },
+        "metadata": {
+            "created": "2024-03-15",
+            "category": "Basic Action Execution",
+            "difficulty": "Beginner",
+            "tags": [
+                "multiple-actions",
+                "sequential-execution",
+                "page-management",
+                "graphical-editor"
+            ]
+        }
+    }
+}
