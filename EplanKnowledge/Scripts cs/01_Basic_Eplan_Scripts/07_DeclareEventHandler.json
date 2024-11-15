@@ -1,0 +1,118 @@
+{
+    "script": {
+        "id": "07_DeclareEventHandler",
+        "name": "Project Close Event Handler",
+        "type": "Event Handler",
+        "description": "Demonstrates how to handle the project close action event in EPLAN",
+        "source": {
+            "code": [
+                "using System.Windows.Forms;",
+                "using Eplan.EplApi.Scripting;",
+                "",
+                "public class Class",
+                "{",
+                "    [DeclareEventHandler(\"onActionStart.String.XPrjActionProjectClose\")]",
+                "    public void Function()",
+                "    {",
+                "        MessageBox.Show(\"Hello world called by event\");",
+                "",
+                "        return;",
+                "    }",
+                "}"
+            ],
+            "imports": [
+                {
+                    "namespace": "System.Windows.Forms",
+                    "purpose": "For MessageBox usage (not recommended)",
+                    "status": "Should be avoided"
+                },
+                {
+                    "namespace": "Eplan.EplApi.Scripting",
+                    "purpose": "Required for event handler decorator",
+                    "status": "Essential"
+                }
+            ]
+        },
+        "analysis": {
+            "decorator": {
+                "name": "[DeclareEventHandler]",
+                "event": "onActionStart.String.XPrjActionProjectClose",
+                "description": "Triggered when a project close action begins",
+                "timing": "Before project is closed"
+            },
+            "antiPatterns": [
+                {
+                    "issue": "MessageBox.Show usage",
+                    "reason": "Windows Forms dependency not recommended",
+                    "betterAlternative": "Use EPLAN's native messaging system"
+                },
+                {
+                    "issue": "Generic class name",
+                    "reason": "\"Class\" is not descriptive",
+                    "betterAlternative": "Use meaningful name like 'ProjectCloseHandler'"
+                }
+            ]
+        },
+        "improvedVersion": {
+            "code": [
+                "using Eplan.EplApi.ApplicationFramework;",
+                "using Eplan.EplApi.Scripting;",
+                "",
+                "public class ProjectCloseHandler",
+                "{",
+                "    [DeclareEventHandler(\"onActionStart.String.XPrjActionProjectClose\")]",
+                "    public void Function()",
+                "    {",
+                "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+                "        ActionCallingContext acc = new ActionCallingContext();",
+                "        acc.AddParameter(\"TEXT\", \"Project closing event triggered\");",
+                "        oCLI.Execute(\"MessageShow\", acc);",
+                "",
+                "        return;",
+                "    }",
+                "}"
+            ],
+            "improvements": [
+                "Uses EPLAN's native messaging",
+                "Descriptive class name",
+                "Removes Windows.Forms dependency",
+                "Clear event purpose"
+            ]
+        },
+        "educational": {
+            "concepts": [
+                {
+                    "topic": "Event Handlers",
+                    "description": "Methods that respond to EPLAN system events",
+                    "usage": "Monitor and react to system actions"
+                },
+                {
+                    "topic": "Event Types",
+                    "examples": [
+                        "onActionStart - Before action execution",
+                        "onActionEnd - After action completion",
+                        "onMainEnd - EPLAN shutdown",
+                        "onMainStart - EPLAN startup"
+                    ]
+                }
+            ],
+            "commonUses": [
+                "Project state monitoring",
+                "Custom validation",
+                "Automated actions",
+                "Data cleanup"
+            ]
+        },
+        "metadata": {
+            "created": "2024-03-15",
+            "category": "Event Handling",
+            "difficulty": "Intermediate",
+            "tags": [
+                "event-handler",
+                "project-close",
+                "action-monitoring",
+                "automation"
+            ]
+        }
+    }
+}
