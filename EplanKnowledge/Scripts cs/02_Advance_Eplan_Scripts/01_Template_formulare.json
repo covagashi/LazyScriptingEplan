@@ -1,0 +1,70 @@
+{
+    "script": {
+        "id": "windows_form_template",
+        "name": "EPLAN Windows Form Template",
+        "type": "Windows Forms",
+        "description": "Basic Windows Form template for EPLAN scripting",
+        "source": {
+            "imports": [
+                {
+                    "namespace": "System.Windows.Forms",
+                    "purpose": "Windows Forms functionality"
+                },
+                {
+                    "namespace": "Eplan.EplApi.Scripting",
+                    "purpose": "EPLAN scripting support"
+                }
+            ],
+            "class": {
+                "name": "frmTemplate",
+                "inheritance": "System.Windows.Forms.Form",
+                "isPartial": true,
+                "components": {
+                    "dimensions": {
+                        "width": 292,
+                        "height": 273,
+                        "scale": {
+                            "x": 6,
+                            "y": 13
+                        }
+                    },
+                    "properties": {
+                        "startPosition": "CenterScreen",
+                        "title": "Template",
+                        "autoScale": "Font"
+                    }
+                },
+                "methods": [
+                    {
+                        "name": "Dispose",
+                        "purpose": "Resource cleanup",
+                        "parameters": [
+                            {
+                                "name": "disposing",
+                                "type": "bool",
+                                "description": "Indicates if managed resources should be disposed"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "InitializeComponent",
+                        "purpose": "Designer initialization",
+                        "isDesignerGenerated": true
+                    },
+                    {
+                        "name": "Function",
+                        "decorator": "[Start]",
+                        "purpose": "EPLAN entry point",
+                        "implementation": "Creates and shows form dialog"
+                    }
+                ]
+            }
+        },
+        "bestPractices": [
+            "Implements proper resource disposal",
+            "Uses standard Windows Forms patterns",
+            "Centers form on screen",
+            "Follows EPLAN script conventions"
+        ]
+    }
+}
