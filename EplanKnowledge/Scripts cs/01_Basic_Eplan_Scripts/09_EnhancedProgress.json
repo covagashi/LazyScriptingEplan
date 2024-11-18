@@ -1,0 +1,60 @@
+{
+    "script": {
+        "id": "enhanced_progress",
+        "name": "Enhanced Progress Example",
+        "type": "Progress Tracking",
+        "description": "Demonstrates the use of EPLAN Progress class with multiple operations",
+        "source": {
+            "imports": [
+                {
+                    "namespace": "Eplan.EplApi.ApplicationFramework",
+                    "purpose": "CommandLineInterpreter usage"
+                },
+                {
+                    "namespace": "Eplan.EplApi.Base",
+                    "purpose": "Progress functionality"
+                },
+                {
+                    "namespace": "Eplan.EplApi.Scripting",
+                    "purpose": "[Start] decorator"
+                }
+            ],
+            "progress": {
+                "name": "EnhancedProgress",
+                "settings": {
+                    "allowCancel": false,
+                    "showImmediately": true
+                },
+                "parts": [
+                    {
+                        "percentage": 33,
+                        "label": "Part 1",
+                        "action": "generate /TYPE:CONNECTIONS"
+                    },
+                    {
+                        "percentage": 33,
+                        "label": "Part 2",
+                        "action": "reports"
+                    },
+                    {
+                        "percentage": 33,
+                        "label": "Part 3",
+                        "action": "compress /FILTERSCHEME:Standard"
+                    }
+                ]
+            }
+        },
+        "features": {
+            "progressTracking": {
+                "totalParts": 3,
+                "equalDistribution": true,
+                "visualFeedback": true
+            },
+            "actions": [
+                "Connection generation",
+                "Report creation",
+                "Project compression"
+            ]
+        }
+    }
+}
