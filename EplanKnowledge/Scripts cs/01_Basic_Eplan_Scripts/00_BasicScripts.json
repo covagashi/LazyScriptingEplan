@@ -1,0 +1,996 @@
+[
+    {
+      "id": "00_start",
+      "name": "Hello World Script",
+      "category": "basic", 
+      "description": "Basic script showing how to display a message box using Decider",
+      "purpose": "Demonstrate basic message display in EPLAN",
+      "code": [
+        "using Eplan.EplApi.Base;",
+        "using Eplan.EplApi.Scripting;",
+        "",
+        "public class Class",
+        "{",
+        "    [Start]",
+        "    public void Function()",
+        "    {",
+        "        new Decider().Decide(",
+        "            EnumDecisionType.eOkDecision,", 
+        "            \"Hello world\",",
+        "            \"Mensaje\"",
+        "        );",
+        "    }",
+        "}"
+      ],
+      "keyPoints": [
+        {
+          "concept": "Decider Class",
+          "explanation": "Used to show dialog boxes and messages to users"
+        },
+        {
+          "concept": "EnumDecisionType",
+          "explanation": "Defines the type of dialog box to display"
+        }
+      ]
+    },
+    {
+      "id": "01_action",
+      "name": "Basic Action Script", 
+      "category": "basic",
+      "description": "Script showing how to execute a basic EPLAN command",
+      "purpose": "Demonstrate running built-in EPLAN actions",
+      "code": [
+        "using Eplan.EplApi.ApplicationFramework;",
+        "using Eplan.EplApi.Scripting;",
+        "",
+        "public class Class", 
+        "{",
+        "    [Start]",
+        "    public void Function()",
+        "    {",
+        "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+        "",
+        "        oCLI.Execute(\"gedRedraw\");",
+        "",
+        "        return;",
+        "    }",
+        "}"
+      ],
+      "keyPoints": [
+        {
+          "concept": "CommandLineInterpreter",
+          "explanation": "Main class used to execute EPLAN commands and actions"
+        },
+        {
+          "concept": "gedRedraw Action",
+          "explanation": "Built-in EPLAN command to refresh the graphical editor"
+        }
+      ]
+    },
+    {
+        "id": "02_declare_action",
+        "name": "Declare Action Script",
+        "category": "basic",
+        "description": "Script demonstrating how to declare a custom EPLAN action",
+        "purpose": "Show how to create callable custom actions in EPLAN",
+        "code": [
+          "using Eplan.EplApi.Base;",
+          "using Eplan.EplApi.Scripting;",
+          "",
+          "public class FClass", 
+          "{",
+          "    [DeclareAction(\"Actionname\")]",
+          "    public void Function()",
+          "    {",
+          "        new Decider().Decide(",
+          "            EnumDecisionType.eOkDecision,",
+          "            \"Hello world called by action\",",
+          "            \"Mensaje\"",
+          "        );",
+          "",
+          "        return;",
+          "    }",
+          "}"
+        ],
+        "keyPoints": [
+          {
+            "concept": "DeclareAction Attribute",
+            "explanation": "Required decorator to register a custom action with EPLAN"
+          },
+          {
+            "concept": "Action Name",
+            "explanation": "Unique identifier that allows calling this action from EPLAN"
+          }
+        ]
+    },
+    {
+      "id": "03_action_parameters",
+      "name": "Action with Parameters Script",
+      "category": "basic",
+      "description": "Script demonstrating how to execute an EPLAN action with parameters",
+      "purpose": "Show how to pass parameters to EPLAN actions using ActionCallingContext",
+      "code": [
+          "using Eplan.EplApi.ApplicationFramework;",
+          "using Eplan.EplApi.Scripting;",
+          "",
+          "public class ProjectDetailUpdater",
+          "{",
+          "    [Start]",
+          "    public void Function()",
+          "    {",
+          "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+          "        ActionCallingContext acc = new ActionCallingContext();",
+          "",
+          "        // Project path with proper string literal formatting", 
+          "        acc.AddParameter(\"PROJECTNAME\", @\"C:\\Projects\\EPLAN\\EPLAN_Sample_Project.elk\");",
+          "",
+          "        // Update settings",
+          "        acc.AddParameter(\"UpdateMacros\", \"1\");", 
+          "        acc.AddParameter(\"UpdateIdentifier\", \"1\");",
+          "",
+          "        // Execute detail update action",
+          "        oCLI.Execute(\"XPlaUpdateDetailAction\", acc);",
+          "",
+          "        return;",
+          "    }",
+          "}"
+      ],
+      "keyPoints": [
+          {
+              "concept": "ActionCallingContext",
+              "explanation": "Used to pass named parameters to EPLAN actions"
+          },
+          {
+              "concept": "Parameter Addition",
+              "explanation": "Parameters are added as name-value pairs using AddParameter"
+          },
+          {
+              "concept": "Action Execution",
+              "explanation": "CLI.Execute can take both an action name and a context object"
+          }
+      ]
+    },
+    {
+      "id": "04_multiple_actions",
+      "name": "Multiple Actions Script",
+      "category": "basic",
+      "description": "Script showing how to execute multiple EPLAN actions sequentially",
+      "purpose": "Demonstrate chaining multiple EPLAN commands in sequence",
+      "code": [
+          "using System.Windows.Forms;",
+          "using Eplan.EplApi.ApplicationFramework;",
+          "using Eplan.EplApi.Scripting;",
+          "",
+          "public class Class",
+          "{",
+          "    [Start]",
+          "    public void Function()",
+          "    {",
+          "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+          "",
+          "        oCLI.Execute(\"gedRedraw\");",
+          "        oCLI.Execute(\"UpdateSegmentsFilling\");", 
+          "        oCLI.Execute(\"XGedClosePage\");",
+          "",
+          "        return;",
+          "    }",
+          "}"
+      ],
+      "keyPoints": [
+          {
+              "concept": "Action Sequencing",
+              "explanation": "Multiple actions can be executed in order using the same CLI instance"
+          },
+          {
+              "concept": "Action Flow",
+              "explanation": "Actions are processed synchronously in the order they are called"
+          }
+      ]
+    },
+    {
+      "id": "05_register_unregister",
+      "name": "Register and Unregister Script",
+      "category": "basic",
+      "description": "Script demonstrating registration and unregistration handlers",
+      "purpose": "Show how to handle script loading and unloading events in EPLAN",
+      "code": [
+          "using Eplan.EplApi.Base;",
+          "using Eplan.EplApi.Scripting;",
+          "",
+          "public class Class",
+          "{",
+          "    [DeclareRegister]",
+          "    public void Register()",
+          "    {",
+          "        new Decider().Decide(",
+          "            EnumDecisionType.eOkDecision,",
+          "            \"Script loaded.\",",
+          "            \"Register\",",
+          "            EnumDecisionReturn.eOK,",
+          "            EnumDecisionReturn.eOK",
+          "        );",
+          "",
+          "        return;",
+          "    }",
+          "",
+          "    [DeclareUnregister]",
+          "    public void UnRegister()",
+          "    {",
+          "        new Decider().Decide(",
+          "            EnumDecisionType.eOkDecision,",
+          "            \"Unload script.\",", 
+          "            \"UnRegister\",",
+          "            EnumDecisionReturn.eOK,",
+          "            EnumDecisionReturn.eOK",
+          "        );",
+          "",
+          "        return;",
+          "    }",
+          "}"
+      ],
+      "keyPoints": [
+          {
+              "concept": "DeclareRegister Attribute",
+              "explanation": "Method called when script is loaded/registered in EPLAN"
+          },
+          {
+              "concept": "DeclareUnregister Attribute", 
+              "explanation": "Method called when script is unloaded/unregistered from EPLAN"
+          },
+          {
+              "concept": "Lifecycle Events",
+              "explanation": "Allows handling script initialization and cleanup"
+          }
+      ]
+    },
+    {
+      "id": "06_path_variables",
+      "name": "Path Variables Script",
+      "category": "basic", 
+      "description": "Script demonstrating how to use EPLAN path variables",
+      "purpose": "Show how to retrieve and use EPLAN system path variables with PathMap",
+      "code": [
+          "using Eplan.EplApi.Base;",
+          "using Eplan.EplApi.Scripting;",
+          "",
+          "public class Class",
+          "{",
+          "    [Start]",
+          "    public void Function()",
+          "    {",
+          "        string strProjectname = PathMap.SubstitutePath(\"$(PROJECTNAME)\");",
+          "",
+          "        new Decider().Decide(",
+          "            EnumDecisionType.eOkDecision,",
+          "            strProjectname,",
+          "            \"Project Name\",",
+          "            EnumDecisionReturn.eOK,",
+          "            EnumDecisionReturn.eOK",
+          "        );",
+          "",
+          "        return;",
+          "    }",
+          "}"
+      ],
+      "keyPoints": [
+          {
+              "concept": "PathMap Class",
+              "explanation": "Used to resolve EPLAN system path variables"
+          },
+          {
+              "concept": "Path Variables",
+              "explanation": "System variables in EPLAN that start with $ and are enclosed in parentheses"
+          },
+          {
+              "concept": "SubstitutePath Method",
+              "explanation": "Converts path variables into their actual system paths"
+          }
+      ]
+    },
+    {
+      "id": "07_event_handler",
+      "name": "Event Handler Script",
+      "category": "basic",
+      "description": "Script showing how to create an event handler for EPLAN actions",
+      "purpose": "Demonstrate handling EPLAN events using DeclareEventHandler attribute",
+      "code": [
+          "using Eplan.EplApi.Base;",
+          "using Eplan.EplApi.Scripting;",
+          "",
+          "public class Class",
+          "{",
+          "    [DeclareEventHandler(\"onActionStart.String.XPrjActionProjectClose\")]",
+          "    public void Function()",
+          "    {",
+          "        new Decider().Decide(",
+          "            EnumDecisionType.eOkDecision,",
+          "            \"Hello world called by event.\",",
+          "            \"Event Triggered\",",
+          "            EnumDecisionReturn.eOK,",
+          "            EnumDecisionReturn.eOK",
+          "        );",
+          "",
+          "        return;",
+          "    }",
+          "}"
+      ],
+      "keyPoints": [
+          {
+              "concept": "DeclareEventHandler Attribute",
+              "explanation": "Specifies which EPLAN event this method will handle"
+          },
+          {
+              "concept": "Event String Format",
+              "explanation": "Uses pattern 'onActionStart.String.[ActionName]' to identify specific events"
+          },
+          {
+              "concept": "Event Response",
+              "explanation": "Code executed automatically when the specified event occurs"
+          }
+      ]
+    },
+    {
+      "id": "08_simple_progress",
+      "name": "Progress Bar Script",
+      "category": "basic",
+      "description": "Script demonstrating how to create and control a progress bar in EPLAN",
+      "purpose": "Show how to implement a progress indicator for long-running operations",
+      "code": [
+          "using Eplan.EplApi.Base;",
+          "using Eplan.EplApi.Scripting;",
+          "using System.Threading;",
+          "",
+          "public class Class",
+          "{",
+          "    [Start]",
+          "    public void Function()",
+          "    {",
+          "        Progress oProgress = new Progress(\"SimpleProgress\");",
+          "        oProgress.SetAllowCancel(true);",
+          "        oProgress.SetAskOnCancel(true);",
+          "        oProgress.SetNeededSteps(3);",
+          "        oProgress.SetTitle(\"My Progress Bar\");",
+          "        oProgress.ShowImmediately();",
+          "",
+          "        if (!oProgress.Canceled())",
+          "        {",
+          "            oProgress.SetActionText(\"Step 1\");",
+          "            oProgress.SetTitle(\"Title line 1\");",
+          "            oProgress.Step(1);",
+          "",
+          "            Thread.Sleep(1000);",
+          "        }",
+          "",
+          "        if (!oProgress.Canceled())",
+          "        {",
+          "            oProgress.SetActionText(\"Step 2\");",
+          "            oProgress.SetTitle(\"Title line 2\");",
+          "            oProgress.Step(1);",
+          "",
+          "            Thread.Sleep(1000);",
+          "        }",
+          "",
+          "        if (!oProgress.Canceled())",
+          "        {",
+          "            oProgress.SetActionText(\"Step 3\");",
+          "            oProgress.SetTitle(\"Title line 3\");",
+          "            oProgress.Step(1);",
+          "",
+          "            Thread.Sleep(1000);",
+          "        }",
+          "",
+          "        oProgress.EndPart(true);",
+          "",
+          "        return;",
+          "    }",
+          "}"
+      ],
+      "keyPoints": [
+          {
+              "concept": "Progress Class",
+              "explanation": "EPLAN's built-in class for creating progress indicators"
+          },
+          {
+              "concept": "Progress Configuration",
+              "explanation": "Setup of steps, titles, and cancellation options"
+          },
+          {
+              "concept": "Step Control",
+              "explanation": "Managing progress updates and checking for user cancellation"
+          }
+      ]
+    },
+    {
+      "id": "09_enhanced_progress",
+      "name": "Enhanced Progress Script",
+      "category": "basic",
+      "description": "Script showing how to combine progress bar with EPLAN actions",
+      "purpose": "Demonstrate a progress bar that tracks multiple EPLAN operations",
+      "code": [
+          "using Eplan.EplApi.ApplicationFramework;",
+          "using Eplan.EplApi.Base;",
+          "using Eplan.EplApi.Scripting;",
+          "",
+          "public class Class",
+          "{",
+          "    [Start]",
+          "    public void Function()",
+          "    {",
+          "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+          "",
+          "        Progress oProgress = new Progress(\"EnhancedProgress\");",
+          "        oProgress.SetAllowCancel(false);",
+          "        oProgress.ShowImmediately();",
+          "",
+          "        oProgress.BeginPart(33, \"Part 1\");",
+          "        oCLI.Execute(\"generate /TYPE:CONNECTIONS\");",
+          "        oProgress.EndPart();",
+          "",
+          "        oProgress.BeginPart(33, \"Part 2\");",
+          "        oCLI.Execute(\"reports\");",
+          "        oProgress.EndPart();",
+          "",
+          "        oProgress.BeginPart(33, \"Part 3\");",
+          "        oCLI.Execute(\"compress /FILTERSCHEME:Standard\");",
+          "        oProgress.EndPart();",
+          "",
+          "        oProgress.EndPart(true);",
+          "",
+          "        return;",
+          "    }",
+          "}"
+      ],
+      "keyPoints": [
+          {
+              "concept": "Progress Parts",
+              "explanation": "Dividing progress into weighted sections using BeginPart and EndPart"
+          },
+          {
+              "concept": "Action Integration",
+              "explanation": "Running EPLAN commands while tracking progress"
+          },
+          {
+              "concept": "Progress Weighting",
+              "explanation": "Using percentages to divide progress bar into equal sections"
+          }
+      ]
+    },
+    {
+      "id": "10_compress",
+      "name": "Compress Action Script",
+      "category": "basic",
+      "description": "Script demonstrating how to execute EPLAN's compress action with parameters",
+      "purpose": "Show how to compress a project using specific configuration and filter schemes",
+      "code": [
+          "using Eplan.EplApi.ApplicationFramework;",
+          "using Eplan.EplApi.Base;",
+          "using Eplan.EplApi.Scripting;",
+          "",
+          "public class Class",
+          "{",
+          "    [Start]",
+          "    public void Function()",
+          "    {",
+          "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+          "        ActionCallingContext acc = new ActionCallingContext();",
+          "",
+          "        acc.AddParameter(\"CONFIGSCHEME\", \"Standard\");",
+          "        acc.AddParameter(\"FILTERSCHEME\", \"All-pole\");",
+          "",
+          "        oCLI.Execute(\"compress\", acc);",
+          "",
+          "        new Decider().Decide(",
+          "            EnumDecisionType.eOkDecision,",
+          "            \"Action executed.\",",
+          "            \"Execution\",",
+          "            EnumDecisionReturn.eOK,",
+          "            EnumDecisionReturn.eOK",
+          "        );",
+          "",
+          "        return;",
+          "    }",
+          "}"
+      ],
+      "keyPoints": [
+          {
+              "concept": "Compress Action",
+              "explanation": "EPLAN command for compressing project data"
+          },
+          {
+              "concept": "Configuration Parameters",
+              "explanation": "Using specific schemes for compression and filtering"
+          },
+          {
+              "concept": "Execution Feedback",
+              "explanation": "Notifying user when compression is complete"
+          }
+      ]
+    },
+    {
+      "id": "11_devicelist",
+      "name": "Device List Export Script",
+      "category": "basic",
+      "description": "Script showing how to export a device list using EPLAN path variables",
+      "purpose": "Demonstrate exporting a device list to a text file in the project directory",
+      "code": [
+          "using Eplan.EplApi.ApplicationFramework;",
+          "using Eplan.EplApi.Base;",
+          "using Eplan.EplApi.Scripting;",
+          "",
+          "public class Class",
+          "{",
+          "    [Start]",
+          "    public void Function()",
+          "    {",
+          "        string strProjectpath =",
+          "            PathMap.SubstitutePath(\"$(PROJECTPATH)\") + @\"\\\";",
+          "",
+          "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+          "        ActionCallingContext acc = new ActionCallingContext();",
+          "",
+          "        acc.AddParameter(\"TYPE\", \"EXPORT\");",
+          "        acc.AddParameter(\"EXPORTFILE\", strProjectpath + \"Devicelist.txt\");",
+          "        acc.AddParameter(\"FORMAT\", \"XDLTxtImporterExporter\");",
+          "",
+          "        oCLI.Execute(\"devicelist\", acc);",
+          "",
+          "        new Decider().Decide(",
+          "            EnumDecisionType.eOkDecision,",
+          "            \"Action executed.\",",
+          "            \"Execution Completed\",",
+          "            EnumDecisionReturn.eOK,",
+          "            EnumDecisionReturn.eOK",
+          "        );",
+          "",
+          "        return;",
+          "    }",
+          "}"
+      ],
+      "keyPoints": [
+          {
+              "concept": "Project Path Variable",
+              "explanation": "Using $(PROJECTPATH) to get the current project directory"
+          },
+          {
+              "concept": "Device List Export",
+              "explanation": "Setting parameters for exporting project device data"
+          },
+          {
+              "concept": "Export Format",
+              "explanation": "Using XDLTxtImporterExporter for text file output"
+          }
+      ]
+    },
+    {
+      "id": "12_edit",
+      "name": "Edit Page and Device Script",
+      "category": "basic",
+      "description": "Script demonstrating how to navigate to a specific page and device",
+      "purpose": "Show how to use EPLAN's edit action to open and locate project elements",
+      "code": [
+          "using Eplan.EplApi.ApplicationFramework;",
+          "using Eplan.EplApi.Scripting;",
+          "",
+          "public class Class",
+          "{",
+          "    [Start]",
+          "    public void Function()",
+          "    {",
+          "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+          "        ActionCallingContext acc = new ActionCallingContext();",
+          "",
+          "        acc.AddParameter(\"PAGENAME\", \"=+/1\");",
+          "        acc.AddParameter(\"DEVICENAME\", \"=+-1K1\");",
+          "        acc.AddParameter(\"FORMAT\", \"XDLTxtImporterExporter\");",
+          "",
+          "        oCLI.Execute(\"edit\", acc);",
+          "",
+          "        return;",
+          "    }",
+          "}"
+      ],
+      "keyPoints": [
+          {
+              "concept": "Edit Action",
+              "explanation": "EPLAN command for navigating to specific elements"
+          },
+          {
+              "concept": "Page Navigation",
+              "explanation": "Using page designations to open specific project pages"
+          },
+          {
+              "concept": "Device Location",
+              "explanation": "Finding and selecting specific devices by their identifier"
+          }
+      ]
+    },
+    {
+      "id": "13_execute_script",
+      "name": "Execute Script Action",
+      "category": "basic",
+      "description": "Script showing how to execute another script file using EPLAN's ExecuteScript action",
+      "purpose": "Demonstrate running external script files programmatically",
+      "code": [
+          "using Eplan.EplApi.ApplicationFramework;",
+          "using Eplan.EplApi.Scripting;",
+          "",
+          "public class Class",
+          "{",
+          "    [Start]",
+          "    public void Function()",
+          "    {",
+          "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+          "        ActionCallingContext acc = new ActionCallingContext();",
+          "",
+          "        acc.AddParameter(\"ScriptFile\",",
+          "            @\"C:\\EPLAN Scripting Project\\test\\01_Start.cs\");",
+          "",
+          "        oCLI.Execute(\"ExecuteScript\", acc);",
+          "",
+          "        return;",
+          "    }",
+          "}"
+      ],
+      "keyPoints": [
+          {
+              "concept": "ExecuteScript Action",
+              "explanation": "EPLAN command for running external script files"
+          },
+          {
+              "concept": "Script Path",
+              "explanation": "Specifying full path to the script file to be executed"
+          },
+          {
+              "concept": "Script Chaining",
+              "explanation": "Ability to call one script from another script"
+          }
+      ]
+    },
+    {
+      "id": "14_generate",
+      "name": "Generate Cables Action",
+      "category": "basic",
+      "description": "Script demonstrating how to generate cables using standard schemes",
+      "purpose": "Show how to automate cable generation with specific parameters",
+      "code": [
+          "using Eplan.EplApi.ApplicationFramework;",
+          "using Eplan.EplApi.Base;",
+          "using Eplan.EplApi.Scripting;",
+          "",
+          "public class Class",
+          "{",
+          "    [Start]",
+          "    public void Function()",
+          "    {",
+          "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+          "        ActionCallingContext acc = new ActionCallingContext();",
+          "",
+          "        acc.AddParameter(\"TYPE\", \"CABLES\");",
+          "        acc.AddParameter(\"CREATIONSCHEME\", \"Standard\");",
+          "        acc.AddParameter(\"NUMBERINGSCHEME\", \"Standard\");",
+          "        acc.AddParameter(\"AUTOSELECTSCHEME\", \"Standard\");",
+          "        acc.AddParameter(\"REGENERATECONNS\", \"1\");",
+          "        acc.AddParameter(\"KEEPOLDNAMES\", \"1\");",
+          "        acc.AddParameter(\"STARTVALUE\", \"1\");",
+          "        acc.AddParameter(\"STEPVALUE\", \"1\");",
+          "        acc.AddParameter(\"ONLYAUTOCABLES\", \"1\");",
+          "        acc.AddParameter(\"REBUILDALLCONNECTIONS\", \"1\");",
+          "",
+          "        oCLI.Execute(\"generate\", acc);",
+          "",
+          "        new Decider().Decide(",
+          "            EnumDecisionType.eOkDecision,",
+          "            \"Action executed.\",",
+          "            \"Execution Completed\",",
+          "            EnumDecisionReturn.eOK,",
+          "            EnumDecisionReturn.eOK",
+          "        );",
+          "",
+          "        return;",
+          "    }",
+          "}"
+      ],
+      "keyPoints": [
+          {
+              "concept": "Generate Action",
+              "explanation": "Using EPLAN's generate command for cable creation"
+          },
+          {
+              "concept": "Standard Schemes",
+              "explanation": "Applying standard schemes for creation, numbering, and selection"
+          },
+          {
+              "concept": "Cable Parameters",
+              "explanation": "Setting specific options for cable generation and numbering"
+          }
+      ]
+    },
+    {
+      "id": "15_import",
+      "name": "Import DXF Page Script",
+      "category": "basic",
+      "description": "Script demonstrating how to import a DXF file into EPLAN",
+      "purpose": "Show how to import external DXF drawings into EPLAN pages",
+      "code": [
+          "using Eplan.EplApi.ApplicationFramework;",
+          "using Eplan.EplApi.Scripting;",
+          "",
+          "public class Class",
+          "{",
+          "    [Start]",
+          "    public void Function()",
+          "    {",
+          "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+          "        ActionCallingContext acc = new ActionCallingContext();",
+          "",
+          "        acc.AddParameter(\"TYPE\", \"DXFPAGE\");",
+          "        acc.AddParameter(\"IMPORTFILE\", @\"C:\\DXF\\Smile.dxf\");",
+          "",
+          "        oCLI.Execute(\"import\", acc);",
+          "",
+          "        return;",
+          "    }",
+          "}"
+      ],
+      "keyPoints": [
+          {
+              "concept": "Import Action",
+              "explanation": "EPLAN command for importing external files"
+          },
+          {
+              "concept": "DXF Import",
+              "explanation": "Specifically importing DXF format drawings into EPLAN pages"
+          },
+          {
+              "concept": "File Path",
+              "explanation": "Using escaped file paths for Windows file system access"
+          }
+      ]
+    },
+    {
+      "id": "16_partslist",
+      "name": "Parts List Export Script",
+      "category": "basic",
+      "description": "Script demonstrating how to export a parts list to CSV format",
+      "purpose": "Show how to export project parts list to a text file using the project path variable",
+      "code": [
+          "using Eplan.EplApi.ApplicationFramework;",
+          "using Eplan.EplApi.Base;",
+          "using Eplan.EplApi.Scripting;",
+          "",
+          "public class Class",
+          "{",
+          "    [Start]",
+          "    public void Function()",
+          "    {",
+          "        string strProjectpath =",
+          "            PathMap.SubstitutePath(\"$(PROJECTPATH)\") + @\"\\\";",
+          "",
+          "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+          "        ActionCallingContext acc = new ActionCallingContext();",
+          "",
+          "        acc.AddParameter(\"TYPE\", \"EXPORT\");",
+          "        acc.AddParameter(\"EXPORTFILE\", strProjectpath + \"Partlist.txt\");",
+          "        acc.AddParameter(\"FORMAT\", \"XPalCSVConverter\");",
+          "",
+          "        oCLI.Execute(\"partslist\", acc);",
+          "",
+          "        new Decider().Decide(",
+          "            EnumDecisionType.eOkDecision,",
+          "            \"Action executed.\",",
+          "            \"Execution Completed\",",
+          "            EnumDecisionReturn.eOK,",
+          "            EnumDecisionReturn.eOK",
+          "        );",
+          "",
+          "        return;",
+          "    }",
+          "}"
+      ],
+      "keyPoints": [
+          {
+              "concept": "Parts List Export",
+              "explanation": "Using partslist action to export project components"  
+          },
+          {
+              "concept": "Project Path Variable",
+              "explanation": "Getting current project directory using $(PROJECTPATH)"
+          },
+          {
+              "concept": "CSV Format",
+              "explanation": "Exporting data using XPalCSVConverter format for structured output"
+          }
+      ]
+    },
+    {
+        "id": "17_print",
+        "name": "Print Project Script",
+        "category": "basic",
+        "description": "Script demonstrating how to print a project in EPLAN",
+        "purpose": "Show how to print a complete project using basic print parameters",
+        "code": [
+            "using Eplan.EplApi.ApplicationFramework;",
+            "using Eplan.EplApi.Base;",
+            "using Eplan.EplApi.Scripting;",
+            "",
+            "public class Class",
+            "{",
+            "    [Start]",
+            "    public void Function()",
+            "    {",
+            "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+            "        ActionCallingContext acc = new ActionCallingContext();",
+            "",
+            "        acc.AddParameter(\"TYPE\", \"PROJECT\");",
+            "",
+            "        oCLI.Execute(\"print\", acc);",
+            "",
+            "        new Decider().Decide(",
+            "            EnumDecisionType.eOkDecision,",
+            "            \"Action executed.\",",
+            "            \"Execution Completed\",",
+            "            EnumDecisionReturn.eOK,",
+            "            EnumDecisionReturn.eOK",
+            "        );",
+            "",
+            "        return;",
+            "    }",
+            "}"
+        ],
+        "keyPoints": [
+            {
+                "concept": "Print Action",
+                "explanation": "Using the print action to output project documentation"
+            },
+            {
+                "concept": "Project Printing",
+                "explanation": "Setting type parameter to PROJECT to print entire project"
+            },
+            {
+                "concept": "Basic Printing",
+                "explanation": "Demonstrating minimal parameters needed for project printing"
+            }
+        ]
+    },
+    {
+        "id": "18_project_action",
+        "name": "Project Action Script",
+        "category": "basic",
+        "description": "Script demonstrating how to execute a project action in EPLAN",
+        "purpose": "Show how to perform actions on a specific project",
+        "code": [
+            "using Eplan.EplApi.ApplicationFramework;",
+            "using Eplan.EplApi.Base;",
+            "using Eplan.EplApi.Scripting;",
+            "",
+            "public class Class",
+            "{",
+            "    [Start]",
+            "    public void Function()",
+            "    {",
+            "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+            "        ActionCallingContext acc = new ActionCallingContext();",
+            "",
+            "        acc.AddParameter(\"Project\", @\"C:\\Project\\example.elk\");",
+            "        acc.AddParameter(\"Action\", \"reports\");",
+            "        acc.AddParameter(\"NOCLOSE\", \"1\");",
+            "",
+            "        oCLI.Execute(\"ProjectAction\", acc);",
+            "",
+            "        new Decider().Decide(",
+            "            EnumDecisionType.eOkDecision,",
+            "            \"Action executed.\",",
+            "            \"Execution Completed\",",
+            "            EnumDecisionReturn.eOK,",
+            "            EnumDecisionReturn.eOK",
+            "        );",
+            "",
+            "        return;",
+            "    }",
+            "}"
+        ],
+        "keyPoints": [
+            {
+                "concept": "Project Action",
+                "explanation": "Using ProjectAction to execute commands on specific projects"
+            },
+            {
+                "concept": "Project Path",
+                "explanation": "Specifying full project path to target a specific project file"
+            },
+            {
+                "concept": "NoClose Parameter",
+                "explanation": "Using NOCLOSE=1 to keep project open after action execution"
+            }
+        ]
+    },
+    {
+        "id": "19_project_backup",
+        "name": "Project Backup Script",
+        "category": "basic",
+        "description": "Script demonstrating how to create a backup of an EPLAN project with progress tracking",
+        "purpose": "Show how to perform a full project backup with progress bar, using current date and time for naming",
+        "code": [
+            "using System;",
+            "using Eplan.EplApi.ApplicationFramework;",
+            "using Eplan.EplApi.Base;",
+            "using Eplan.EplApi.Scripting;",
+            "",
+            "public class Class",
+            "{",
+            "    [Start]",
+            "    public void Function()",
+            "    {",
+            "        string strProjectpath =",
+            "            PathMap.SubstitutePath(\"$(PROJECTPATH)\");",
+            "        string strProjectname = PathMap.SubstitutePath(\"$(PROJECTNAME)\");",
+            "        string strFullProjectname = PathMap.SubstitutePath(\"$(P)\");",
+            "",
+            "        string strDate = DateTime.Now.ToString(\"yyyy-MM-dd\");",
+            "        string strTime = DateTime.Now.ToString(\"hh-mm-ss\");",
+            "        string strBackupDirectory = strProjectpath + @\"\\Backup\\\";",
+            "        string strBackupFilename = strProjectname + \"_Backup_\"",
+            "            + strDate + \"_\" + strTime;",
+            "",
+            "        if (!System.IO.Directory.Exists(strBackupDirectory))",
+            "        {",
+            "            System.IO.Directory.CreateDirectory(strBackupDirectory);",
+            "        }",
+            "",
+            "        Progress oProgress = new Progress(\"SimpleProgress\");",
+            "        oProgress.SetAllowCancel(true);",
+            "        oProgress.SetAskOnCancel(true);",
+            "        oProgress.BeginPart(100, \"\");",
+            "        oProgress.SetTitle(\"Backup\");",
+            "        oProgress.ShowImmediately();",
+            "",
+            "        if (!oProgress.Canceled())",
+            "        {",
+            "            CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+            "            ActionCallingContext acc = new ActionCallingContext();",
+            "",
+            "            acc.AddParameter(\"BACKUPMEDIA\", \"DISK\");",
+            "            acc.AddParameter(\"ARCHIVENAME\", strBackupFilename);",
+            "            acc.AddParameter(\"BACKUPMETHOD\", \"BACKUP\");",
+            "            acc.AddParameter(\"COMPRESSPRJ\", \"1\");",
+            "            acc.AddParameter(\"INCLEXTDOCS\", \"1\");",
+            "            acc.AddParameter(\"BACKUPAMOUNT\", \"BACKUPAMOUNT_ALL\");",
+            "            acc.AddParameter(\"INCLIMAGES\", \"1\");",
+            "            acc.AddParameter(\"LogMsgActionDone\", \"true\");",
+            "            acc.AddParameter(\"DESTINATIONPATH\", strBackupDirectory);",
+            "            acc.AddParameter(\"PROJECTNAME\", strFullProjectname);",
+            "            acc.AddParameter(\"TYPE\", \"PROJECT\");",
+            "",
+            "            oCLI.Execute(\"backup\", acc);",
+            "        }",
+            "",
+            "        oProgress.EndPart(true);",
+            "",
+            "        new Decider().Decide(",
+            "            EnumDecisionType.eOkDecision,",
+            "            \"Backup was created successfully:\\n\" + strBackupFilename,",
+            "            \"Notice\",",
+            "            EnumDecisionReturn.eOK,",
+            "            EnumDecisionReturn.eOK",
+            "        );",
+            "",
+            "        return;",
+            "    }",
+            "}"
+        ],
+        "keyPoints": [
+            {
+                "concept": "Backup Action",
+                "explanation": "Using backup action with comprehensive parameters to create complete project backup"
+            },
+            {
+                "concept": "Progress Bar",
+                "explanation": "Implementing a progress indicator with cancel option for user feedback"
+            },
+            {
+                "concept": "Dynamic Naming",
+                "explanation": "Creating backup files with timestamp-based names and organizing them in a Backup folder"
+            }
+        ]
+    }
+   ]

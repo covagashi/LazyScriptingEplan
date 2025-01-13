@@ -2018,5 +2018,449 @@
         ]
       }
     ]
-  }
+  },
+  {
+    "namespace": "Eplan.EplApi.Base",
+    "classes": {
+      "SysMessagesCollection": {
+        "description": "System-wide message tree containing BaseException objects",
+        "inheritance": [
+          "System.Object"
+        ],
+        "remarks": [
+          "Each message (BaseException) may contain a further inner exception",
+          "Only Message, Warning, Error, and Fatal Error types are listed",
+          "Assert and Trace are not added to SysMessagesCollection",
+          "Consecutive messages with same text are joined into one item",
+          "Collection content independent of logging mode",
+          "Advanced logging mode includes Asserts and Traces in EplLog.txt",
+          "In immediate mode, identical messages are not joined"
+        ],
+        "constructors": {
+          "SysMessagesCollection()": {
+            "description": "Default constructor - contains all existing system messages"
+          },
+          "SysMessagesCollection(Int32, MessageLevel)": {
+            "description": "Constructor with bookmark filter and error level",
+            "parameters": {
+              "nBookmarkID": "Only messages with this value or higher. 0 means no filter",
+              "nErrLevel": "Minimum severity level to include. MessageLevel.Trace includes all"
+            }
+          },
+          "SysMessagesCollection(Int32, Int32, MessageLevel)": {
+            "description": "Constructor with start/end bookmarks and error level",
+            "parameters": {
+              "nBookmarkIDStart": "Starting bookmark value for messages",
+              "nBookmarkIDEnd": "Ending bookmark value for messages",
+              "nErrLevel": "Minimum severity level to include"
+            }
+          }
+        },
+        "properties": {
+          "BookmarkIDEnd": {
+            "type": "Int32",
+            "description": "End bookmark identifier"
+          },
+          "BookmarkIDStart": {
+            "type": "Int32",
+            "description": "Start bookmark identifier"
+          },
+          "Count": {
+            "type": "Int32",
+            "description": "Number of elements in collection"
+          }
+        },
+        "methods": {
+          "GetEnumerator": {
+            "returns": "IEnumerator",
+            "description": "Returns standard collection enumerator"
+          },
+          "GetSysMsgEnumerator": {
+            "returns": "SysMessagesEnumerator",
+            "description": "Returns typed message enumerator"
+          }
+        },
+        "examples": {
+          "error_check": {
+            "description": "Check for errors example",
+            "code": [
+              "int nBookmark = new Eplan.EplApi.Base.BaseException().GetBookmarkID();",
+              "Eplan.EplApi.Base.SysMessagesCollection colSysMsg = new Eplan.EplApi.Base.SysMessagesCollection(nBookmark, Eplan.EplApi.Base.MessageLevel.Error);",
+              "foreach(Eplan.EplApi.Base.BaseException osysMsg in colSysMsg)",
+              "{",
+              "    if (osysMsg != null)",
+              "    {",
+              "        Console.WriteLine(\"Fehler: \" + osysMsg.ToString());",
+              "    }",
+              "}"
+            ]
+          }
+        }
+      },
+      "SysMessagesEnumerator": {
+        "description": "Supports iteration over SysMessagesCollection",
+        "inheritance": [
+          "System.Object"
+        ],
+        "constructors": {
+          "SysMessagesEnumerator()": {
+            "description": "Default constructor"
+          }
+        },
+        "properties": {
+          "Current": {
+            "type": "object",
+            "description": "Gets current element in collection"
+          }
+        },
+        "methods": {
+          "Dispose": {
+            "returns": "void",
+            "description": "Releases resources"
+          },
+          "GetCount": {
+            "returns": "int",
+            "description": "Gets number of messages"
+          },
+          "MoveNext": {
+            "returns": "bool",
+            "description": "Advances to next element"
+          },
+          "Reset": {
+            "returns": "void",
+            "description": "Returns to start position"
+          }
+        },
+        "examples": {
+          "full_iteration": {
+            "description": "Iterate complete message tree",
+            "code": [
+              "SysMessagesCollection colSysMsg = new SysMessagesCollection();",
+              "SysMessagesEnumerator itSysMsg = colSysMsg.GetSysMsgEnumerator();",
+              "int nNr=0;",
+              "itSysMsg.MoveNext();",
+              "do",
+              "{",
+              "    BaseException osysMsg = itSysMsg.Current as BaseException;",
+              "    if (osysMsg != null)",
+              "    {",
+              "        nNr++;",
+              "    }",
+              "} while(itSysMsg.MoveNext());"
+            ]
+          },
+          "error_iteration": {
+            "description": "Iterate errors since bookmark",
+            "code": [
+              "SysMessagesCollection colSysMsg = new SysMessagesCollection(nBookmark, Eplan.EplApi.Base.MessageLevel.Error);",
+              "SysMessagesEnumerator itSysMsg = colSysMsg.GetSysMsgEnumerator();",
+              "int nNr=0;",
+              "itSysMsg.MoveNext();",
+              "do",
+              "{",
+              "    BaseException osysMsg = itSysMsg.Current as BaseException;",
+              "    if (osysMsg != null)",
+              "    {",
+              "        nNr++;",
+              "    }",
+              "} while(itSysMsg.MoveNext());"
+            ]
+          }
+        }
+      },
+      "BaseException": {
+        "methods": {
+          "GetBookmarkID": {
+            "returns": "int",
+            "description": "Sets label in system message management",
+            "example": {
+              "description": "Get messages since bookmark",
+              "code": [
+                "int nBookmark = new Eplan.EplApi.Base.BaseException().GetBookmarkID();",
+                "BaseException oBaseException = new BaseException(\"Exception message\", MessageLevel.Error);",
+                "oBaseException.FixMessage();",
+                "SysMessagesCollection colSysMsg = new SysMessagesCollection(nBookmark, Eplan.EplApi.Base.MessageLevel.Error);",
+                "SysMessagesEnumerator itSysMsg = colSysMsg.GetSysMsgEnumerator();"
+              ]
+            }
+          },
+          "GetMessageIndex": {
+            "returns": "string",
+            "description": "Returns S-number of message. Returns 'S000000' if no ID defined"
+          },
+          "GetMessageText": {
+            "returns": "string",
+            "description": "Returns message text without index"
+          }
+        },
+        "properties": {
+          "MessageLevel": {
+            "type": "MessageLevel",
+            "description": "Message severity level"
+          },
+          "NumberOfOccurrences": {
+            "type": "int",
+            "description": "Number of consecutive identical messages joined together"
+          }
+        }
+      }
+    },
+    "enums": {
+      "MessageLevel": {
+        "type": "System.Enum",
+        "members": {
+          "Trace": {
+            "value": 0,
+            "description": "Trace message for developers, appears in EplLog with Advanced mode"
+          },
+          "Message": {
+            "value": 1,
+            "description": "Note"
+          },
+          "Warning": {
+            "value": 2,
+            "description": "Warning"
+          },
+          "Assert": {
+            "value": 3,
+            "description": "Lowest error level, not visible in GUI"
+          },
+          "Error": {
+            "value": 4,
+            "description": "Error"
+          },
+          "FatalError": {
+            "value": 5,
+            "description": "Fatal Error"
+          }
+        }
+      }
+    },
+    "configuration_notes": {
+      "logging_modes": {
+        "normal": "Standard logging to EplLog.txt",
+        "advanced": "Includes Assert and Trace messages",
+        "immediate": "Prevents message joining"
+      },
+      "configuration_tools": [
+        "EPLAN Diagnose dialog",
+        "ELogFileConfigToolu.exe in bin folder"
+      ]
+    }
+  },
+  {
+    "scriptTemplate": {
+        "baseImports": [
+            "using Eplan.EplApi.ApplicationFramework;",
+            "using Eplan.EplApi.Scripting;"
+        ],
+        "classStructure": {
+            "className": "Class",
+            "methodAttribute": "[Start]",
+            "methodName": "Function",
+            "methodReturnType": "void",
+            "baseCode": {
+                "initialization": [
+                    "CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+                    "ActionCallingContext acc = new ActionCallingContext();"
+                ],
+                "execution": "oCLI.Execute(\"{actionName}\", acc);",
+                "return": "return;"
+            }
+        },
+        "codeStyle": {
+            "doNotInclude": [
+                "try-catch blocks",
+                "error logging",
+                "custom error handling",
+                "message boxes",
+                "console outputs"
+            ],
+            "reasoning": [
+                "EPLAN handles all error management internally",
+                "EPLAN provides its own logging system",
+                "Exceptions are handled by EPLAN's BaseException system",
+                "User notifications are managed by EPLAN"
+            ],
+            "bestPractices": [
+                "Keep scripts minimal and focused",
+                "Use only necessary parameters",
+                "Follow EPLAN's command structure exactly",
+                "Use full paths with @ prefix for strings",
+                "Don't use $ for message boxes"
+            ]
+        },
+        "parameterHandling": {
+            "method": "acc.AddParameter(\"{parameterName}\", \"{parameterValue}\");",
+            "parameterTypes": {
+                "string": {
+                    "format": "@\"{value}\"",
+                    "needsQuotes": true,
+                    "pathHandling": "Use @ prefix for paths"
+                },
+                "integer": {
+                    "format": "{value}",
+                    "needsQuotes": false
+                },
+                "number": {
+                    "format": "{value}",
+                    "needsQuotes": false
+                }
+            }
+        }
+    },
+    "scriptGeneration": {
+        "minimumStructure": {
+            "required": [
+                "Base imports",
+                "Class definition",
+                "Start attribute",
+                "Function definition",
+                "CLI and ACC initialization",
+                "Parameter addition",
+                "Action execution",
+                "Return statement"
+            ],
+            "template": [
+                "using Eplan.EplApi.ApplicationFramework;",
+                "using Eplan.EplApi.Scripting;",
+                "",
+                "public class Class",
+                "{",
+                "    [Start]",
+                "    public void Function()",
+                "    {",
+                "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+                "        ActionCallingContext acc = new ActionCallingContext();",
+                "",
+                "        {parameters}",
+                "",
+                "        oCLI.Execute(\"{actionName}\", acc);",
+                "",
+                "        return;",
+                "    }",
+                "}"
+            ]
+        }
+    },
+    "examples": {
+        "partslist": {
+            "export": {
+                "description": "Export parts list to CSV",
+                "parameters": {
+                    "TYPE": "EXPORT",
+                    "PROJECTNAME": "C:\\Projects\\EPLAN\\EPLAN_Sample_Project.elk",
+                    "FORMAT": "XPalCSVConverter",
+                    "EXPORTFILE": "C:\\temp\\PartsList.csv"
+                },
+                "resultingScript": [
+                    "using Eplan.EplApi.ApplicationFramework;",
+                    "using Eplan.EplApi.Scripting;",
+                    "",
+                    "public class Class",
+                    "{",
+                    "    [Start]",
+                    "    public void Function()",
+                    "    {",
+                    "        CommandLineInterpreter oCLI = new CommandLineInterpreter();",
+                    "        ActionCallingContext acc = new ActionCallingContext();",
+                    "",
+                    "        acc.AddParameter(\"TYPE\", \"EXPORT\");",
+                    "        acc.AddParameter(\"PROJECTNAME\", @\"C:\\Projects\\EPLAN\\EPLAN_Sample_Project.elk\");",
+                    "        acc.AddParameter(\"FORMAT\", \"XPalCSVConverter\");",
+                    "        acc.AddParameter(\"EXPORTFILE\", @\"C:\\temp\\PartsList.csv\");",
+                    "",
+                    "        oCLI.Execute(\"partslist\", acc);",
+                    "",
+                    "        return;",
+                    "    }",
+                    "}"
+                ]
+            }
+        }
+    },
+    "parameterValidation": {
+        "rules": {
+            "TYPE": {
+                "required": true,
+                "mustBeFirstParameter": true,
+                "validValues": ["IMPORT", "EXPORT", "IMPORTTOSYSTEM", "EXPORTFROMSYSTEM", "DELETESTOREDPROPERTIES"]
+            },
+            "general": {
+                "orderingRules": [
+                    "TYPE must be first parameter",
+                    "PROJECTNAME should be second when included",
+                    "Format-related parameters should follow",
+                    "Specific action parameters last"
+                ]
+            }
+        }
+    }
+  },
+  {
+    "namespace": "Eplan.EplApi.Base",
+    "classes": [
+      {
+        "name": "PathMap",
+        "description": "Class for managing path variables in EPLAN.",
+        "methods": [
+          {
+            "name": "SubstitutePath",
+            "description": "Replaces path variables with their current values.",
+            "parameters": [
+              {
+                "name": "path",
+                "type": "string",
+                "description": "The path string containing variables to be replaced."
+              }
+            ],
+            "returnType": "string",
+            "example": "string fullPath = PathMap.SubstitutePath(\"$(PROJECTPATH)\");"
+          }
+        ],
+        "pathVariables": [
+          {
+            "variable": "$(PROJECTNAME)",
+            "description": "The name of the current project without directory path or file extension.",
+            "example": "R0048767E5IMS105-02.03"
+          },
+          {
+            "variable": "$(PROJECTPATH)",
+            "description": "The full directory path of the current project.",
+            "example": "Y:\\Projects\\EPLAN\\"
+          },
+          {
+            "variable": "$(LOCALDATE)",
+            "description": "Current date in the format YYYYMMDD.",
+            "example": "20241218"
+          },
+          {
+            "variable": "$(LOCALTIME)",
+            "description": "Current time in the format HHMMSS.",
+            "example": "123456"
+          },
+          {
+            "variable": "$(TMP)",
+            "description": "The directory used by the operating system for temporary files.",
+            "example": "C:\\Users\\User\\AppData\\Local\\Temp\\"
+          },
+          {
+            "variable": "$(MD_DOCUMENTS)",
+            "description": "A user-defined directory for documents specified in the settings.",
+            "example": "C:\\EPLAN\\Documents\\"
+          },
+          {
+            "variable": "$(ENVVAR_<Variable_Name>)",
+            "description": "Custom environment variable defined in the operating system.",
+            "example": "$(ENVVAR_USERNAME)"
+          }
+        ],
+        "notes": [
+          "Path variables standardize and simplify references within EPLAN.",
+          "It is recommended to validate the generated path before using it for critical operations.",
+          "Environment variables can be defined and manipulated using the EPLAN API."
+        ]
+      }
+    ]
+  }  
 ]
