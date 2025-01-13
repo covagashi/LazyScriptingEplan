@@ -8,9 +8,7 @@ Lazy Eplan Scripting is a project aimed at simplifying and automating the proces
 
 ## 🚀 Getting Started
 
-This project is still under development.
-Currently collecting the best data.
-
+Feed the LLM with the JSON files and it will help to create the scripts with the "free" API of Eplan.
 
 
 ---
