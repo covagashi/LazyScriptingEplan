@@ -1,0 +1,43 @@
+# config/agents.yaml
+agents:
+  conversation:
+    enabled: true
+    intent_threshold: 0.7
+
+
+  knowledge:
+    enabled: true
+    rag:
+      top_k: 2
+      github_repo: "covagashi/LazyScriptingEplan"
+      folders: ["API", "Scripts cs"]
+    
+  code_generator:
+    enabled: true
+    output_dir: "C:\\temp\\Agent"
+    filename: "eplan_script.cs"
+    validation:
+      check_syntax: true
+      check_start_attribute: true
+
+  project_manager:
+    enabled: true
+    validation:
+      check_dollar_syntax: true
+      check_braces: true
+      inject_logs: true
+    
+  execution:
+    enabled: true
+    eplan:
+      host: "localhost"
+      port: "49152"
+      timeout: 5
+      synchronous_mode: true
+    
+  feedback:
+    enabled: true
+    log_path: "C:\\temp\\Agent\\EplanLog\\Events.csv"
+    analysis:
+      recent_lines: 10
+      wait_time: 2

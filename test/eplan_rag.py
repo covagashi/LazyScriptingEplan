@@ -1,20 +1,23 @@
-# eplan_rag.py
+# eplan_rag_gemini.py
 import os
 import json
 import requests
 from pathlib import Path
 from typing import List, Dict
-import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
+import google.generativeai as genai
 from sklearn.feature_extraction.text import TfidfVectorizer
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 class EplanRAG:
     def __init__(self):
         self.github_api_url = "https://api.github.com/repos/covagashi/LazyScriptingEplan/contents/EplanKnowledge"
         
-        # Use simple TF-IDF instead of transformers
+        # TF-IDF vectorizer
         print("Setting up TF-IDF vectorizer...")
-        self.vectorizer = TfidfVectorizer(max_features=1000, stop_words='english')
+        self.vectorizer = TfidfVectorizer(max_features=1000, stop_words='english', ngram_range=(1,2))
         
         # Storage
         self.documents = []
@@ -27,7 +30,6 @@ class EplanRAG:
         """Build knowledge base from GitHub repo"""
         print("Loading from GitHub...")
         
-        # Load directly from each folder URL
         self._load_github_folder("https://api.github.com/repos/covagashi/LazyScriptingEplan/contents/EplanKnowledge/API", "api")
         self._load_github_folder("https://api.github.com/repos/covagashi/LazyScriptingEplan/contents/EplanKnowledge/Scripts%20cs", "scripts")
         
@@ -42,7 +44,10 @@ class EplanRAG:
     def _load_github_folder(self, folder_url: str, folder_type: str):
         """Load files from GitHub folder URL"""
         try:
-            response = requests.get(folder_url)
+            session = requests.Session()
+            session.verify = False
+            
+            response = session.get(folder_url)
             items = response.json()
             
             print(f"Loading from: {folder_url}")
@@ -52,8 +57,7 @@ class EplanRAG:
                 print(f"Processing: {item['name']} - type: {item['type']}")
                 if item['type'] == 'file' and item['name'].endswith('.json'):
                     print(f"  -> Downloading JSON file")
-                    # Download file content
-                    file_response = requests.get(item['download_url'])
+                    file_response = session.get(item['download_url'])
                     if file_response.status_code == 200:
                         data = file_response.json()
                         content = self._json_to_text(data)
@@ -70,7 +74,6 @@ class EplanRAG:
         except Exception as e:
             print(f"Error loading folder: {e}")
 
-    
     def _json_to_text(self, data) -> str:  
         """Convert JSON to searchable text"""
         if isinstance(data, dict):
@@ -85,34 +88,32 @@ class EplanRAG:
             return json.dumps(data, indent=2)
     
     def search(self, query: str, top_k: int = 3) -> List[Dict]:
-        """Search for relevant documents using TF-IDF"""
-        if not self.documents or self.doc_vectors is None:
-            return []
-        
-        # Transform query
-        query_vector = self.vectorizer.transform([query])
-        
-        # Calculate similarities
-        similarities = cosine_similarity(query_vector, self.doc_vectors)[0]
-        
-        # Get top matches
-        top_indices = np.argsort(similarities)[::-1][:top_k]
-        
         results = []
-        for idx in top_indices:
-            if similarities[idx] > 0.1: 
+        query_lower = query.lower()
+        
+        for i, doc in enumerate(self.documents):
+            content_lower = doc['content'].lower()
+            
+            if any(word in content_lower for word in query_lower.split() if len(word) > 2):
                 results.append({
-                    'document': self.documents[idx],
-                    'similarity': float(similarities[idx])
+                    'document': doc,
+                    'similarity': 1.0,
+                    'score': '1.000'
                 })
         
-        return results
+        print(f"Query: '{query}' - Found {len(results)} matches")
+        return results[:top_k]
 
-class EplanAIAssistant:
-    def __init__(self):
+class EplanGeminiAssistant:
+    def __init__(self, api_key: str):
+        # Configure Gemini API
+        genai.configure(api_key=api_key)
+        self.model = genai.GenerativeModel('gemini-1.5-flash')
+        
+        # Initialize RAG
         self.rag = EplanRAG()
-        self.ollama_url = "http://localhost:11434/api/generate"
-        self.model = "qwen2.5-coder:7b-instruct-q4_K_M"
+        
+        print("✓ Gemini 1.5-flash initialized")
     
     def ask(self, user_query: str) -> str:
         """Ask AI with RAG context"""
@@ -122,36 +123,74 @@ class EplanAIAssistant:
         # Build context
         context = ""
         if relevant_docs:
-            context = "\n## Relevant EPLAN Examples:\n"
+            context = "\n## EPLAN API Examples:\n"
             for doc in relevant_docs:
                 context += f"\n### {doc['document']['file']}:\n"
-                context += f"{doc['document']['content'][:800]}...\n"
+                context += f"{doc['document']['content'][:600]}...\n"
         
-        # Build prompt
-        prompt = f"""You are an EPLAN automation expert. Help with EPLAN scripting using C#.
+        # Enhanced prompt for Gemini
+        prompt = f"""You are an expert EPLAN automation assistant. Generate precise C# code using EPLAN Remoting API.
 
+AVAILABLE CONTEXT:
 {context}
 
-User question: {user_query}
+USER REQUEST: {user_query}
 
-Provide a direct, practical answer focused on EPLAN automation."""
+INSTRUCTIONS:
+- Generate clean, working C# code for EPLAN Remoting API
+- Use ActionCallingContext and CommandLineInterpreter patterns
+- Include necessary using statements
+- Focus on practical, executable solutions
+- If generating macro insertion, use proper file paths
+- For project operations, use standard EPLAN commands
 
-        # Send to AI
+RESPONSE FORMAT:
+```csharp
+// Generated EPLAN code
+[your code here]
+```
+
+Brief explanation of what the code does."""
+
         try:
-            response = requests.post(self.ollama_url, json={
-                "model": self.model,
-                "prompt": prompt,
-                "stream": False
-            })
-            return response.json()['response']
+            response = self.model.generate_content(prompt)
+            return response.text
         except Exception as e:
-            return f"Error: {e}"
-
-# Usage
-def main():
-    assistant = EplanAIAssistant()
+            return f"Gemini API Error: {e}"
     
-    print("🤖 EPLAN AI Assistant with RAG")
+    def generate_eplan_script(self, task_description: str) -> str:
+        """Generate specific EPLAN script"""
+        prompt = f"""Generate C# code for EPLAN Remoting API based on this task:
+
+TASK: {task_description}
+
+Requirements:
+- Use EPLAN Remoting API patterns
+- Include ActionCallingContext setup
+- Use CommandLineInterpreter.Execute()
+- Add error handling
+- Make it ready to execute
+
+Return only the C# code block."""
+
+        try:
+            response = self.model.generate_content(prompt)
+            return response.text
+        except Exception as e:
+            return f"Error generating script: {e}"
+
+# Usage example
+def main():
+    # Load API key from .env file
+    api_key = os.getenv('GEMINI_API_KEY')
+    
+    if not api_key:
+        print("Please set GEMINI_API_KEY in .env file!")
+        return
+    
+    assistant = EplanGeminiAssistant(api_key)
+    
+    print("🤖 EPLAN Gemini Assistant with RAG")
     print("Type 'quit' to exit\n")
     
     while True:

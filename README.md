@@ -6,9 +6,7 @@ I am doing this project inspired with manus. In my head is posible but I need to
 
 ##  Getting Started
 
-Feed the LLM with the JSON files and it will help to create the scripts.
-Remember to give the right instructions to the agents for prevent failures.
-For example, to dont created message box or use "$" for variable, only for pathmaps.
+Still long way to finish this.... check Dev-log for more info
 
 ## 🗺️ Roadmap
 
@@ -30,6 +28,8 @@ For example, to dont created message box or use "$" for variable, only for pathm
 
 
 ---
+# Dev-Log
+
 30/07/2025
 My first idea was to build it with C# but I really had difficulties when I try to use a local LLM.
 I did a quick test and EplanRemoting works fine with python. So I will use python because is more friendly
@@ -38,6 +38,10 @@ when comes with LLM
 02/08/2025
 I am stuck with the RAG system, I am not sure if the qwen is nnot enought.
 I am thinking to pivote towards Geminis 1.5 API instead of a local LLM
+
+04/08/2025
+I moved to geminis and it's better but I still struggling with the RAG
+
 
 ---
 
