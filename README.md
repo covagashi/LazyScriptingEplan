@@ -11,7 +11,7 @@ Still long way to finish this.... check Dev-log for more info
 ## 🗺️ Roadmap
 
 ### **Phase 1**: Core Infrastructure 
-- [] RAG service with LazyScriptingEplan knowledge base ---> stuck here
+- [x] RAG service with LazyScriptingEplan knowledge base
 - [x] JSON examples collection from Suplanus repository
 - [x] EPLAN API patterns and templates
 - [X] LLM integration for natural language processing
@@ -42,6 +42,11 @@ I am thinking to pivote towards Geminis 1.5 API instead of a local LLM
 04/08/2025
 I moved to geminis and it's better but I still struggling with the RAG
 
+05/08/2025
+Instead of using a parsing all the json, I changed into 'sentence-transformers/all-MiniLM-L6-v2' 
+So the RAG is more effective. Now the  knowledgeAgent find the information and ManagerAgent give the context.
+- One of the pending task would be, clean the information of the json. 
+- Next step will improve the conversationAgent and text the codeGeneratorAgent.
 
 ---
 
