@@ -8,76 +8,70 @@ class KnowledgeAgent(BaseAgent):
     
     def __init__(self, orchestrator):
         super().__init__(orchestrator)
+        from ..ai.rag import EplanRAG
         self.rag = EplanRAG()
     
     async def process(self, context: TaskContext) -> AgentMessage:
-        # Search RAG for relevant documents
-        results = self.rag.search(context.user_query, top_k=2)
+        # Extract action name if present
+        query = context.user_query.lower().strip()
+        action_name = None
         
-        if results:
-            knowledge = "\n## Relevant EPLAN Documentation:\n"
-            action_found = None
-            
-            for result in results:
-                doc = result['document']
-                knowledge += f"\n### {doc['file']} (relevance: {result['score']}):\n"
-                
-                # Extract action info if available
-                if 'data' in doc and isinstance(doc['data'], dict):
-                    action_data = doc['data']
-                    
-                    if 'name' in action_data:
-                        action_found = action_data
-                        knowledge += f"**Action**: {action_data.get('name', 'Unknown')}\n"
-                        knowledge += f"**Description**: {action_data.get('description', 'No description')}\n"
-                        
-                        # Show only relevant parameters
-                        params = action_data.get('parameters', [])
-                        if params:
-                            knowledge += f"**Parameters**:\n"
-                            for param in params[:3]:  # Show only first 3 params
-                                if isinstance(param, dict):
-                                    name = param.get('name', 'Unknown')
-                                    desc = param.get('description', 'No description')
-                                    optional = param.get('optional', True)
-                                    knowledge += f"- {name}: {desc} {'(optional)' if optional else '(required)'}\n"
-                else:
-                    # Fallback to content preview
-                    content_preview = doc['content'][:300]
-                    knowledge += f"{content_preview}...\n"
-            
-            # Determine if we have enough info
-            needs_clarification = not action_found or self._missing_critical_params(context.user_query, action_found)
-            
-            return AgentMessage(
-                agent_type=AgentType.KNOWLEDGE,
-                content=knowledge,
-                metadata={
-                    'docs_found': len(results),
-                    'action_found': action_found.get('name') if action_found else None,
-                    'needs_clarification': needs_clarification,
-                    'missing_params': []  # Clear the garbled params
-                }
-            )
+        if "projectopen" in query:
+            action_name = "projectopen"
+        
+        # Try exact search first
+        if action_name:
+            print(f"DEBUG: Searching exact for '{action_name}'")
+            results = self.rag.search_exact(action_name)
+            print(f"DEBUG: Exact results: {len(results)}")
+            if not results:
+                print("DEBUG: Fallback to semantic search")
+                results = self.rag.search(context.user_query, top_k=2)
         else:
+            results = self.rag.search(context.user_query, top_k=2)
+        
+        print(f"DEBUG: Final results count: {len(results)}")
+        
+        if not results:
             return AgentMessage(
                 agent_type=AgentType.KNOWLEDGE,
-                content="No relevant EPLAN documentation found for this query.",
-                metadata={'needs_clarification': False}
+                content="No se encontró documentación EPLAN.",
+                metadata={'docs_found': 0}
             )
-    
-    def _missing_critical_params(self, user_query: str, action_data: dict) -> bool:
-        """Check if critical parameters are missing for action execution"""
-        if not action_data:
-            return False
         
-        # Check if action has required parameters
-        params = action_data.get('parameters', [])
-        required_params = [p for p in params if isinstance(p, dict) and not p.get('optional', True)]
+        # Format response
+        knowledge = "## Información EPLAN encontrada:\n"
         
-        if not required_params:
-            return False  # No required params
+        for result in results:
+            doc = result['document']
+            action_data = doc.get('action', {})
+            
+            knowledge += f"\n### {action_data.get('name', 'Unknown')}:\n"
+            knowledge += f"**Descripción**: {action_data.get('description', 'Sin descripción')}\n"
+            
+            # Parameters
+            params = action_data.get('parameters', [])
+            if params:
+                knowledge += "\n**Parámetros**:\n"
+                for param in params:
+                    if isinstance(param, dict):
+                        name = param.get('name', 'Unknown')
+                        desc = param.get('description', 'Sin descripción')
+                        optional = param.get('optional', True)
+                        knowledge += f"- **/{name}**: {desc} {'(opcional)' if optional else '(requerido)'}\n"
+            
+            # Examples
+            examples = action_data.get('examples', [])
+            if examples:
+                knowledge += "\n**Ejemplos**:\n"
+                for ex in examples[:2]:
+                    if isinstance(ex, dict):
+                        cmd = ex.get('command', '')
+                        if cmd:
+                            knowledge += f"```\n{cmd}\n```\n"
         
-        # Simple check: if user query is very short and action has required params
-        query_words = user_query.strip().split()
-        return len(query_words) <= 3 and len(required_params) > 0
+        return AgentMessage(
+            agent_type=AgentType.KNOWLEDGE,
+            content=knowledge,
+            metadata={'docs_found': len(results)}
+        )

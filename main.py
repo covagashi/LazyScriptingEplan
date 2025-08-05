@@ -51,6 +51,12 @@ async def main():
     
     print("🤖 EPLAN Multi-Agent System")
     print("Workflows: Generation | Execution")
+
+    # Force rebuild RAG cache to pick up latest JSON files
+    print("Rebuilding RAG cache...")
+    from src.ai.rag import EplanRAG
+    rag = EplanRAG()
+    rag.rebuild_cache()
     
     while True:
         user_input = input("\nYou: ")
