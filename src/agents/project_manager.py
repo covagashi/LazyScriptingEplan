@@ -9,63 +9,28 @@ class ProjectManagerAgent(BaseAgent):
         super().__init__(orchestrator)
     
     async def process(self, context: TaskContext) -> AgentMessage:
-        # Get knowledge first
         knowledge_result = await self.get_peer_result(AgentType.KNOWLEDGE)
+        knowledge_content = knowledge_result.content if hasattr(knowledge_result, 'content') else str(knowledge_result)
         
-        # Handle case where knowledge_result might be string or AgentMessage
-        if isinstance(knowledge_result, str):
-            knowledge_content = knowledge_result
-        else:
-            knowledge_content = knowledge_result.content
-        
-        # Verify knowledge quality
-        if not self._is_useful_response(knowledge_content, context):
-            return AgentMessage(
-                agent_type=AgentType.PROJECT_MANAGER,
-                content="❌ No encontré información útil para tu consulta.",
-                metadata={'status': 'no_useful_info'}
-            )
-        
-        # Enrich response with AI context
-        enriched_content = await self._enrich_response(knowledge_content, context)
+        # AI processes everything - filters irrelevant info and gives focused answer
+        smart_response = await self._ai_process_response(knowledge_content, context.user_query)
         
         return AgentMessage(
             agent_type=AgentType.PROJECT_MANAGER,
-            content=enriched_content,
-            metadata={'status': 'info_provided'}
+            content=smart_response,
+            metadata={'status': 'processed'}
         )
     
-    def _is_useful_response(self, content: str, context: TaskContext) -> bool:
-        """Verify if knowledge response is useful"""
-        # Check for empty or error responses
-        if not content or len(content.strip()) < 50:
-            return False
-        
-        # Check for negative indicators
-        negative_phrases = [
-            "No se encontró", "No encontré", "not found", 
-            "Unknown", "Sin descripción", "No description"
-        ]
-        
-        return not any(phrase in content for phrase in negative_phrases)
-    
-    async def _enrich_response(self, knowledge_content: str, context: TaskContext) -> str:
-        """Intelligently enrich knowledge response based on content"""
-        # Use AI to add relevant context
-        prompt = f"""The user asked: "{context.user_query}"
+    async def _ai_process_response(self, knowledge_content: str, user_query: str) -> str:
+        """AI reads user intent and knowledge, returns focused answer"""
+        prompt = f"""User question: "{user_query}"
 
-Knowledge response:
+Knowledge documentation:
 {knowledge_content}
 
-Add helpful context about this EPLAN action. Be concise and practical. Focus on:
-- Key usage tips
-- Common scenarios  
-- Important considerations
-
-Keep it brief (2-3 bullet points max)."""
+You are an EPLAN expert. The user asked a specific question. Read the documentation, understand what they want to know, and give them a direct, intelligent answer about only what they asked for. Filter out irrelevant information."""
 
         try:
-            enrichment = await self.ai_client.generate(prompt)
-            return f"{knowledge_content}\n\n💡 **Contexto adicional:**\n{enrichment}"
+            return await self.ai_client.generate(prompt)
         except:
             return knowledge_content

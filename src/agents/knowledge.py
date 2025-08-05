@@ -1,7 +1,6 @@
 # src/agents/knowledge.py
 from .base import BaseAgent
 from ..orchestrator.types import AgentMessage, TaskContext, AgentType
-from ..ai import EplanRAG
 
 class KnowledgeAgent(BaseAgent):
     """EPLAN knowledge agent using RAG service"""
@@ -12,58 +11,41 @@ class KnowledgeAgent(BaseAgent):
         self.rag = EplanRAG()
     
     async def process(self, context: TaskContext) -> AgentMessage:
-        # Extract action name if present
-        query = context.user_query.lower().strip()
-        action_name = None
-        
-        if "projectopen" in query:
-            action_name = "projectopen"
-        
-        # Try exact search first
-        if action_name:
-            print(f"DEBUG: Searching exact for '{action_name}'")
-            results = self.rag.search_exact(action_name)
-            print(f"DEBUG: Exact results: {len(results)}")
-            if not results:
-                print("DEBUG: Fallback to semantic search")
-                results = self.rag.search(context.user_query, top_k=2)
-        else:
-            results = self.rag.search(context.user_query, top_k=2)
-        
-        print(f"DEBUG: Final results count: {len(results)}")
+        # Pure semantic search
+        results = self.rag.search(context.user_query, top_k=2)
         
         if not results:
             return AgentMessage(
                 agent_type=AgentType.KNOWLEDGE,
-                content="No se encontró documentación EPLAN.",
+                content="No EPLAN documentation found.",
                 metadata={'docs_found': 0}
             )
         
-        # Format response
-        knowledge = "## Información EPLAN encontrada:\n"
+        # Format all results
+        knowledge = "## EPLAN Documentation Found:\n"
         
         for result in results:
             doc = result['document']
             action_data = doc.get('action', {})
             
             knowledge += f"\n### {action_data.get('name', 'Unknown')}:\n"
-            knowledge += f"**Descripción**: {action_data.get('description', 'Sin descripción')}\n"
+            knowledge += f"**Description**: {action_data.get('description', 'No description')}\n"
             
             # Parameters
             params = action_data.get('parameters', [])
             if params:
-                knowledge += "\n**Parámetros**:\n"
+                knowledge += "\n**Parameters**:\n"
                 for param in params:
                     if isinstance(param, dict):
                         name = param.get('name', 'Unknown')
-                        desc = param.get('description', 'Sin descripción')
+                        desc = param.get('description', 'No description')
                         optional = param.get('optional', True)
-                        knowledge += f"- **/{name}**: {desc} {'(opcional)' if optional else '(requerido)'}\n"
+                        knowledge += f"- **/{name}**: {desc} {'(optional)' if optional else '(required)'}\n"
             
             # Examples
             examples = action_data.get('examples', [])
             if examples:
-                knowledge += "\n**Ejemplos**:\n"
+                knowledge += "\n**Examples**:\n"
                 for ex in examples[:2]:
                     if isinstance(ex, dict):
                         cmd = ex.get('command', '')
@@ -73,5 +55,9 @@ class KnowledgeAgent(BaseAgent):
         return AgentMessage(
             agent_type=AgentType.KNOWLEDGE,
             content=knowledge,
-            metadata={'docs_found': len(results)}
+            metadata={
+                'docs_found': len(results),
+                'score': result['score'],
+                'action_name': action_data.get('name')
+            }
         )
