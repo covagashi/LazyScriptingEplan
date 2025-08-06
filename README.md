@@ -2,7 +2,7 @@
 
 ## Intro
 
-I am doing this project inspired with manus. In my head is posible but I need to put on practice.
+I am doing this project inspired with the agents. In my head is posible but I need to put on practice.
 
 ##  Getting Started
 
@@ -20,7 +20,7 @@ Still long way to finish this.... check Dev-log for more info
 - [ ] Conversation Agent
 - [ ] Execution Agent
 - [ ] Feedback Agent
-- [X] Knowledge Agent
+- [ ] Knowledge Agent
 - [ ] ProjectManager Agent
 
 ### **Phase 3**: EPLAN Integration 
@@ -48,6 +48,13 @@ Instead of using a parsing all the json, I changed into 'sentence-transformers/a
 So the RAG is more effective. Now the  knowledgeAgent find the information and ManagerAgent give the context.
 - One of the pending task would be, clean the information of the json. 
 - Next step will improve the conversationAgent and text the codeGeneratorAgent.
+
+06/08/2025
+After some test, the workflow is not smart and after all if working with case words and small changes
+broke others agents. So my desition is change the architecture.
+
+I did recreate the new agents so... the knowledge agent is broke again (RAG) and I need to improve this
+new system and findout a balance. 
 
 ---
 
