@@ -53,7 +53,7 @@ async def main():
     print("Workflows: Generation | Execution")
 
     # Force rebuild RAG cache to pick up latest JSON files
-    print("Rebuilding RAG cache...")
+    #print("Rebuilding RAG cache...")
     from src.ai.rag import EplanRAG
     rag = EplanRAG()
     rag.rebuild_cache()
@@ -65,7 +65,7 @@ async def main():
         
         try:
             response = await orchestrator.process_user_input(user_input)
-            print(f"\nSystem:\n{response}")
+            #print(f"\nSystem:\n{response}")
         except Exception as e:
             logger.error(f"Processing error: {e}")
             print(f"Error: {e}")

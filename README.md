@@ -17,10 +17,11 @@ Still long way to finish this.... check Dev-log for more info
 - [X] LLM integration for natural language processing
 
 ### **Phase 2**: Intelligence Layer 
-- [ ] Context-aware script generation
-- [ ] Actioname script for eplan
-- [ ] Smartlog Eplan
-- [ ] EPLAN API code validation
+- [ ] Conversation Agent
+- [ ] Execution Agent
+- [ ] Feedback Agent
+- [X] Knowledge Agent
+- [ ] ProjectManager Agent
 
 ### **Phase 3**: EPLAN Integration 
 

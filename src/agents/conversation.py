@@ -3,34 +3,67 @@ from .base import BaseAgent
 from ..orchestrator.types import AgentMessage, TaskContext, AgentType
 
 class ConversationAgent(BaseAgent):
-    """Conversational AI that understands user intent"""
-    
-    def __init__(self, orchestrator):
-        super().__init__(orchestrator)
+    """Natural conversation + EPLAN intent detection"""
     
     async def process(self, context: TaskContext) -> AgentMessage:
-        response = await self.ai_client.generate(f"""
-User: "{context.user_query}"
+        # AI detects if this needs EPLAN workflow
+        needs_eplan_workflow = await self._detect_eplan_workflow_needed(context.user_query)
+        
+        if needs_eplan_workflow:
+            # Send to ProjectManager for coordination
+            pm_result = await self.get_peer_result(AgentType.PROJECT_MANAGER)
+            pm_content = pm_result.content if hasattr(pm_result, 'content') else str(pm_result)
+            return AgentMessage(
+                agent_type=AgentType.CONVERSATION,
+                content=pm_content,
+                metadata={'workflow_used': True}
+            )
+        
+        # Handle normal conversation
+        return await self._handle_normal_chat(context)
+    
+    async def _detect_eplan_workflow_needed(self, query: str) -> bool:
+        """AI detects if query needs EPLAN workflow coordination"""
+        prompt = f"""Does this query require EPLAN script generation, execution, or technical coordination?
 
-You're an EPLAN 2023 assistant. Respond naturally. 
+Query: "{query}"
 
-At the end, add exactly one line:
-WORKFLOW: eplan (if EPLAN-related) or chat (if general conversation)
-""")
+Answer YES if user wants:
+- Script creation/generation  
+- EPLAN execution/automation
+- Complex EPLAN technical help
+
+Answer NO if it's:
+- Simple greeting
+- General chat
+- Basic questions
+
+Answer only: YES or NO"""
         
-        # Extract workflow from AI response
-        lines = response.strip().split('\n')
-        workflow_line = [line for line in lines if line.startswith('WORKFLOW:')]
+        try:
+            response = await self.ai_client.generate(prompt)
+            return 'YES' in response.upper()
+        except:
+            return False
+    
+    async def _handle_normal_chat(self, context: TaskContext) -> AgentMessage:
+        """Natural conversation for non-workflow queries"""
+        prompt = f"""You are an EPLAN assistant. Have a natural conversation.
+
+User said: "{context.user_query}"
+
+If unclear what they want, ask for clarification. Be helpful and conversational."""
         
-        if workflow_line:
-            workflow = 'eplan' if 'eplan' in workflow_line[0].lower() else 'chat'
-            content = '\n'.join([line for line in lines if not line.startswith('WORKFLOW:')])
-        else:
-            workflow = 'chat'
-            content = response
-        
-        return AgentMessage(
-            agent_type=AgentType.CONVERSATION,
-            content=content.strip(),
-            metadata={'workflow': workflow}
-        )
+        try:
+            response = await self.ai_client.generate(prompt)
+            return AgentMessage(
+                agent_type=AgentType.CONVERSATION,
+                content=response,
+                metadata={'workflow_used': False}
+            )
+        except:
+            return AgentMessage(
+                agent_type=AgentType.CONVERSATION,
+                content="¿En qué te puedo ayudar?",
+                metadata={'workflow_used': False}
+            )

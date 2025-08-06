@@ -46,7 +46,7 @@ class EplanRAG:
                     self.documents = cache_data['documents']
                     self.embeddings = cache_data['embeddings']
                     self.action_index = cache_data['action_index']
-                    print(f"Loaded {len(self.documents)} documents from cache")
+                    #print(f"Loaded {len(self.documents)} documents from cache")
                     return
             except:
                 print("Cache corrupted, rebuilding...")
@@ -94,7 +94,7 @@ class EplanRAG:
             except Exception as e:
                 print(f"Error loading {json_file.name}: {e}")
         
-        print(f"Extracted {len(self.documents)} actions from JSON files")
+        #print(f"Extracted {len(self.documents)} actions from JSON files")
     
     def _extract_all_actions(self, data: Any) -> List[Dict]:
         """Recursively extract all action objects from JSON"""
@@ -152,10 +152,10 @@ class EplanRAG:
         if not self.documents:
             return
         
-        print("Building embeddings...")
+        #print("Building embeddings...")
         texts = [doc['searchable_text'] for doc in self.documents]
         self.embeddings = self.model.encode(texts, show_progress_bar=True)
-        print(f"✓ Built embeddings for {len(texts)} documents")
+        #print(f"✓ Built embeddings for {len(texts)} documents")
     
     def _save_cache(self, cache_file: Path):
         """Save embeddings and documents to cache"""
@@ -167,7 +167,7 @@ class EplanRAG:
             }
             with open(cache_file, 'wb') as f:
                 pickle.dump(cache_data, f)
-            print("Saved embeddings cache")
+            #print("Saved embeddings cache")
         except Exception as e:
             print(f"Failed to save cache: {e}")
     
