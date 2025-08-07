@@ -1,16 +1,26 @@
 # src/agents/planning_agent.py
 import asyncio
 import json
+import time
 from typing import Dict, List, Any, Optional
-from .mini_agent import EnhancedMiniAgent
-from ..core.message_bus import AgentMessage
+from .mini_agent import MiniAgent
+from ..core.message_bus import ObservableMessageBus, AgentMessage
 
-class PlanningAgent(EnhancedMiniAgent):
-    """Specialist agent for complex task decomposition and planning"""
+class PlanningAgent(MiniAgent):
+    """Enhanced Planning Agent with observability integration"""
     
-    def __init__(self, message_bus):
+    def __init__(self, message_bus: ObservableMessageBus):
         super().__init__("planning", message_bus)
         self.active_plans = {}
+        
+        self.planning_metrics = {
+            "total_plans": 0,
+            "completed_plans": 0,
+            "failed_plans": 0,
+            "average_plan_duration": 0,
+            "template_usage": {}
+        }
+        
         self.plan_templates = {
             "script_creation_and_execution": [
                 {"step": 1, "agent": "knowledge", "action": "research_documentation"},
@@ -56,14 +66,39 @@ class PlanningAgent(EnhancedMiniAgent):
         return "Complex task decomposition, multi-step workflow planning, agent coordination"
     
     async def _get_current_capabilities(self) -> str:
+        """Current capabilities with planning metrics"""
         active_plans_count = len(self.active_plans)
         templates_count = len(self.plan_templates)
-        return f"{active_plans_count} active plans, {templates_count} plan templates"
+        success_rate = 0
+        if self.planning_metrics["total_plans"] > 0:
+            success_rate = (self.planning_metrics["completed_plans"] / 
+                           self.planning_metrics["total_plans"]) * 100
+        
+        return f"{active_plans_count} active plans, {templates_count} templates, success rate: {success_rate:.1f}%"
+    
+    async def _get_current_state(self) -> Dict:
+        """Enhanced state with planning metrics"""
+        base_state = await super()._get_current_state()
+        base_state.update({
+            "planning_metrics": self.planning_metrics,
+            "active_plans_count": len(self.active_plans),
+            "plan_templates": list(self.plan_templates.keys())
+        })
+        return base_state
+    
+    async def _restore_from_state(self, state: Dict):
+        """Restore with planning metrics"""
+        if "planning_metrics" in state:
+            self.planning_metrics = state["planning_metrics"]
+        
+        await self._log_structured_event({
+            "event_type": "state_restored",
+            "metrics_restored": self.planning_metrics
+        })
     
     async def can_handle(self, intent: str) -> float:
         """Specialized routing for planning tasks"""
         
-        # High confidence indicators
         planning_patterns = [
             "create and execute", "generate then run", "step by step",
             "comprehensive", "complete workflow", "multiple steps"
@@ -72,9 +107,13 @@ class PlanningAgent(EnhancedMiniAgent):
         intent_lower = intent.lower()
         for pattern in planning_patterns:
             if pattern in intent_lower:
+                await self._log_structured_event({
+                    "event_type": "routing_high_confidence",
+                    "pattern": pattern,
+                    "confidence": 0.9
+                })
                 return 0.9
         
-        # Count complexity indicators
         complexity_indicators = [
             "and", "then", "after", "first", "next", "finally",
             "also", "additionally", "furthermore"
@@ -83,7 +122,6 @@ class PlanningAgent(EnhancedMiniAgent):
         complexity_score = sum(0.1 for indicator in complexity_indicators 
                              if indicator in intent_lower)
         
-        # Base confidence from hybrid system
         base_confidence, method = await self.hybrid_handler.can_handle(intent, self.get_specialty())
         
         final_confidence = min(1.0, base_confidence + complexity_score)
@@ -98,43 +136,53 @@ class PlanningAgent(EnhancedMiniAgent):
     async def process_message_with_context(self, message: AgentMessage, contexts: Dict[str, Any]):
         """Process planning requests with context"""
         
-        if message.intent in ["enhanced_user_request", "planning_request"]:
-            query = message.payload.get("query", "")
+        async with await self.measure_performance("message_processing"):
             
-            # Get enriched context
-            enriched_context = None
-            for context_data in contexts.values():
-                if "user_query" in context_data:
-                    query = context_data["user_query"]
-                    enriched_context = context_data
-                    break
+            await self._log_structured_event({
+                "event_type": "planning_request_start",
+                "correlation_id": message.correlation_id,
+                "intent": message.intent,
+                "has_context": len(contexts) > 0
+            })
             
-            await self.log_to_scratchpad(f"Planning task: {query[:100]}", "processing")
+            if message.intent in ["enhanced_user_request", "planning_request"]:
+                query = message.payload.get("query", "")
+                
+                enriched_context = None
+                for context_data in contexts.values():
+                    if "user_query" in context_data:
+                        query = context_data["user_query"]
+                        enriched_context = context_data
+                        break
+                
+                await self.log_to_scratchpad(f"Planning task: {query[:100]}", "processing")
+                
+                plan = await self._create_execution_plan(query, enriched_context)
+                
+                if plan:
+                    plan_id = await self._store_plan(plan, query)
+                    await self._execute_plan(plan_id, plan, enriched_context)
+                else:
+                    await self._handle_simple_task(query, message)
             
-            # Analyze and create plan
-            plan = await self._create_execution_plan(query, enriched_context)
-            
-            if plan:
-                plan_id = await self._store_plan(plan, query)
-                await self._execute_plan(plan_id, plan, enriched_context)
-            else:
-                await self._handle_simple_task(query, message)
+            elif message.intent == "step_completed":
+                await self._handle_step_completion(message, contexts)
+                
+            elif message.intent == "plan_status_request":
+                await self._handle_status_request(message, contexts)
     
     async def _create_execution_plan(self, query: str, context: Dict = None) -> Optional[Dict]:
         """Create execution plan for complex queries"""
         
-        # First, analyze task complexity
         complexity_analysis = await self._analyze_task_complexity(query, context)
         
         if complexity_analysis["complexity_level"] == "simple":
-            return None  # Let other agents handle directly
+            return None  
         
-        # Check for template match
         template_match = self._find_template_match(query, complexity_analysis)
         if template_match:
             return await self._customize_template(template_match, query, complexity_analysis)
         
-        # Generate custom plan
         return await self._generate_custom_plan(query, complexity_analysis)
     
     async def _analyze_task_complexity(self, query: str, context: Dict = None) -> Dict:
@@ -161,7 +209,7 @@ Return JSON:"""
             await self.update_scratchpad("last_complexity_analysis", {
                 "query": query,
                 "analysis": analysis,
-                "timestamp": asyncio.get_event_loop().time()
+                "timestamp": time.time()
             })
             
             return analysis
@@ -181,7 +229,6 @@ Return JSON:"""
         task_type = analysis.get("task_type", "general")
         required_agents = set(analysis.get("required_agents", []))
         
-        # Direct template matches
         if task_type == "script_creation" and "execution" in required_agents:
             return "script_creation_and_execution"
         elif task_type == "documentation_research" and "codecraft" in required_agents:
@@ -196,13 +243,17 @@ Return JSON:"""
         
         base_steps = self.plan_templates[template_name].copy()
         
-        # Customize based on analysis
+        if template_name not in self.planning_metrics["template_usage"]:
+            self.planning_metrics["template_usage"][template_name] = 0
+        self.planning_metrics["template_usage"][template_name] += 1
+        
         customized_plan = {
-            "plan_id": f"plan_{int(asyncio.get_event_loop().time() * 1000)}",
+            "plan_id": f"plan_{int(time.time() * 1000)}",
             "template": template_name,
             "original_query": query,
             "complexity": analysis.get("complexity_level"),
             "estimated_duration": len(base_steps) * 30,  # 30s per step estimate
+            "created_at": time.time(),
             "steps": []
         }
         
@@ -248,11 +299,12 @@ Return JSON plan:
             plan_data = json.loads(response.strip())
             
             custom_plan = {
-                "plan_id": f"custom_{int(asyncio.get_event_loop().time() * 1000)}",
+                "plan_id": f"custom_{int(time.time() * 1000)}",
                 "template": "custom",
                 "original_query": query,
                 "complexity": analysis.get("complexity_level"),
                 "estimated_duration": len(plan_data.get("steps", [])) * 45,
+                "created_at": time.time(),
                 "steps": []
             }
             
@@ -274,24 +326,33 @@ Return JSON plan:
         plan_id = plan["plan_id"]
         self.active_plans[plan_id] = plan
         
-        # Store in filesystem for persistence
+        self.planning_metrics["total_plans"] += 1
+        
         context_ref = await self.store_heavy_context(
             plan,
             context_id=f"plan_{plan_id}",
             metadata={"type": "execution_plan", "query": query}
         )
         
-        await self.log_to_scratchpad(
-            f"Created plan {plan_id} with {len(plan['steps'])} steps",
-            "planning"
-        )
+        await self._log_structured_event({
+            "event_type": "plan_created",
+            "plan_id": plan_id,
+            "template": plan.get("template", "custom"),
+            "steps_count": len(plan["steps"]),
+            "estimated_duration": plan.get("estimated_duration", 0)
+        })
         
         return plan_id
     
     async def _execute_plan(self, plan_id: str, plan: Dict, context: Dict):
         """Execute the plan by coordinating agents"""
         
-        await self.log_to_scratchpad(f"Executing plan {plan_id}", "execution")
+        plan_start_time = time.time()
+        
+        await self._log_structured_event({
+            "event_type": "plan_execution_start",
+            "plan_id": plan_id
+        })
         
         for step in plan["steps"]:
             step_num = step.get("step", 0)
@@ -299,7 +360,6 @@ Return JSON plan:
             action = step.get("action")
             depends_on = step.get("depends_on", [])
             
-            # Check dependencies
             if not self._dependencies_satisfied(plan_id, depends_on):
                 await self.log_to_scratchpad(
                     f"Step {step_num} waiting for dependencies: {depends_on}",
@@ -307,12 +367,13 @@ Return JSON plan:
                 )
                 continue
             
-            # Execute step
             step["status"] = "executing"
             await self._execute_step(plan_id, step, context)
             
-            # Small delay between steps
             await asyncio.sleep(1)
+        
+        plan_duration = time.time() - plan_start_time
+        self._update_plan_metrics(plan_duration)
         
         await self._finalize_plan(plan_id)
     
@@ -323,11 +384,17 @@ Return JSON plan:
         agent_id = step.get("agent")
         action = step.get("action")
         
-        if agent_id == "planning":
-            # Self-execution step
+        await self._log_structured_event({
+            "event_type": "plan_step_start",
+            "plan_id": plan_id,
+            "step_number": step_num,
+            "agent": agent_id,
+            "action": action
+        })
+        
+        if agent_id == "planning":           
             await self._execute_planning_step(step, context)
         else:
-            # Delegate to other agent
             step_context = {
                 "plan_id": plan_id,
                 "step_number": step_num,
@@ -348,25 +415,28 @@ Return JSON plan:
             )
         
         step["status"] = "completed"
-        await self.log_to_scratchpad(
-            f"Completed step {step_num}: {action} via {agent_id}",
-            "execution"
-        )
+        step["completed_at"] = time.time()
+        
+        await self._log_structured_event({
+            "event_type": "plan_step_complete",
+            "plan_id": plan_id,
+            "step_number": step_num,
+            "agent": agent_id
+        })
     
     async def _execute_planning_step(self, step: Dict, context: Dict):
         """Execute planning-specific steps"""
         
         action = step.get("action")
         
-        if action == "analyze_requirements":
-            # Detailed analysis
+        if action == "analyze_requirements":           
             query = context.get("user_query") if context else step.get("query_context")
             analysis = await self._analyze_task_complexity(query, context)
             
             await self.update_scratchpad("requirement_analysis", {
                 "query": query,
                 "analysis": analysis,
-                "timestamp": asyncio.get_event_loop().time()
+                "timestamp": time.time()
             })
     
     def _dependencies_satisfied(self, plan_id: str, depends_on: List) -> bool:
@@ -399,26 +469,30 @@ Return JSON plan:
         total_steps = len(plan.get("steps", []))
         
         if completed_steps == total_steps:
+            self.planning_metrics["completed_plans"] += 1
             status = "✅ Plan completed successfully"
         else:
+            self.planning_metrics["failed_plans"] += 1
             status = f"⚠️ Plan partially completed: {completed_steps}/{total_steps} steps"
-        
-        # Send completion notification
+       
         await self.send_message(
             ["conversation"],
             "response_to_user",
             {
                 "content": f"🎯 **Plan Execution Complete**\n{status}\n\nOriginal request: {plan.get('original_query', 'N/A')}",
-                "plan_id": plan_id
+                "plan_id": plan_id,
+                "completion_status": completed_steps == total_steps
             }
         )
         
-        await self.log_to_scratchpad(
-            f"Finalized plan {plan_id}: {completed_steps}/{total_steps} completed",
-            "completion"
-        )
+        await self._log_structured_event({
+            "event_type": "plan_finalized",
+            "plan_id": plan_id,
+            "completed_steps": completed_steps,
+            "total_steps": total_steps,
+            "success": completed_steps == total_steps
+        })
         
-        # Archive completed plan
         if plan_id in self.active_plans:
             del self.active_plans[plan_id]
     
@@ -431,7 +505,8 @@ Return JSON plan:
             {
                 "content": f"This seems like a straightforward task. I'll let the specialized agents handle it directly rather than creating a complex plan.",
                 "suggestion": "Try asking the specific agents directly for faster results."
-            }
+            },
+            parent_message=original_message
         )
         
         await self.log_to_scratchpad(
@@ -439,26 +514,28 @@ Return JSON plan:
             "delegation"
         )
     
-    # === Message Processing ===
-    async def process_message(self, message: AgentMessage):
-        """Basic message processing"""
+    async def _handle_step_completion(self, message: AgentMessage, contexts: Dict[str, Any]):
+        """Handle step completion notifications"""
         
-        if message.intent == "step_completed":
-            plan_id = message.payload.get("plan_id")
-            step_number = message.payload.get("step_number")
-            success = message.payload.get("success", True)
-            
-            await self._update_step_status(plan_id, step_number, "completed" if success else "failed")
+        plan_id = message.payload.get("plan_id")
+        step_number = message.payload.get("step_number")
+        success = message.payload.get("success", True)
         
-        elif message.intent == "plan_status_request":
-            plan_id = message.payload.get("plan_id")
-            await self._send_plan_status(plan_id, message.sender)
+        await self._update_step_status(plan_id, step_number, "completed" if success else "failed")
         
-        else:
-            await self.log_to_scratchpad(
-                f"Received message: {message.intent} from {message.sender}",
-                "message_processing"
-            )
+        await self._log_structured_event({
+            "event_type": "step_completion_received",
+            "plan_id": plan_id,
+            "step_number": step_number,
+            "success": success,
+            "sender": message.sender
+        })
+    
+    async def _handle_status_request(self, message: AgentMessage, contexts: Dict[str, Any]):
+        """Handle plan status requests"""
+        
+        plan_id = message.payload.get("plan_id")
+        await self._send_plan_status(plan_id, message.sender)
     
     async def _update_step_status(self, plan_id: str, step_number: int, status: str):
         """Update step status in active plan"""
@@ -467,6 +544,7 @@ Return JSON plan:
             for step in self.active_plans[plan_id].get("steps", []):
                 if step.get("step") == step_number:
                     step["status"] = status
+                    step["updated_at"] = time.time()
                     break
             
             await self.log_to_scratchpad(
@@ -501,3 +579,15 @@ Return JSON plan:
             "plan_status",
             status_summary
         )
+    
+    def _update_plan_metrics(self, duration: float):
+        """Update plan duration metrics"""
+        current_avg = self.planning_metrics["average_plan_duration"]
+        total_plans = self.planning_metrics["total_plans"]
+        
+        if total_plans == 1:
+            self.planning_metrics["average_plan_duration"] = duration
+        else:
+            self.planning_metrics["average_plan_duration"] = (
+                (current_avg * (total_plans - 1) + duration) / total_plans
+            )

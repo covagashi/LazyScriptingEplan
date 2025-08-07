@@ -8,7 +8,7 @@ from datetime import datetime
 from pathlib import Path
 
 @dataclass
-class EnhancedAgentMessage:
+class AgentMessage:
     sender: str
     recipients: List[str]
     intent: str
@@ -22,7 +22,7 @@ class EnhancedAgentMessage:
     
     def create_child_message(self, sender: str, recipients: List[str], intent: str, payload: dict):
         """Create child message maintaining correlation chain"""
-        return EnhancedAgentMessage(
+        return AgentMessage(
             sender=sender,
             recipients=recipients,
             intent=intent,
@@ -41,7 +41,7 @@ class MessageFlow:
     agents_involved: Set[str] = field(default_factory=set)
     current_status: str = "active"
     
-    def add_message_event(self, message: EnhancedAgentMessage, event_type: str, agent_id: str):
+    def add_message_event(self, message: AgentMessage, event_type: str, agent_id: str):
         event = {
             "timestamp": time.time(),
             "correlation_id": message.correlation_id,
@@ -72,7 +72,7 @@ class ObservabilityDashboard:
         
         print("📊 ObservabilityDashboard initialized")
     
-    def track_message_sent(self, message: EnhancedAgentMessage, sender_agent: str):
+    def track_message_sent(self, message: AgentMessage, sender_agent: str):
         """Track when message is sent"""
         # Ensure flow exists
         if message.trace_id not in self.active_flows:
@@ -103,7 +103,7 @@ class ObservabilityDashboard:
             "intent": message.intent
         })
     
-    def track_message_received(self, message: EnhancedAgentMessage, receiver_agent: str):
+    def track_message_received(self, message: AgentMessage, receiver_agent: str):
         """Track when message is received"""
         if message.trace_id in self.active_flows:
             flow = self.active_flows[message.trace_id]
@@ -118,7 +118,7 @@ class ObservabilityDashboard:
             "intent": message.intent
         })
     
-    def track_message_processed(self, message: EnhancedAgentMessage, processor_agent: str, 
+    def track_message_processed(self, message: AgentMessage, processor_agent: str, 
                               processing_time: float):
         """Track when message processing completes"""
         if message.trace_id in self.active_flows:
@@ -369,7 +369,7 @@ class ObservableMessageBus:
     """Enhanced MessageBus with full observability"""
     
     def __init__(self):
-        self.agents: Dict[str, 'EnhancedMiniAgent'] = {}
+        self.agents: Dict[str, 'MiniAgent'] = {}
         self.running = True
         
         # Observability
@@ -380,13 +380,13 @@ class ObservableMessageBus:
         
         print("📨 Observable MessageBus initialized")
     
-    async def register_agent(self, agent_id: str, agent: 'EnhancedMiniAgent'):
+    async def register_agent(self, agent_id: str, agent: 'MiniAgent'):
         """Register agent with observability setup"""
         self.agents[agent_id] = agent
         agent._set_observability_dashboard(self.dashboard)  # Inject dashboard
         print(f"✅ Agent {agent_id} registered with observability")
     
-    async def broadcast(self, message: EnhancedAgentMessage):
+    async def broadcast(self, message: AgentMessage):
         """Enhanced broadcast with full tracking"""
         # Track message sent
         self.dashboard.track_message_sent(message, message.sender)
@@ -418,7 +418,7 @@ class ObservableMessageBus:
                 "delivered" if successful == len(message.recipients) else "partial"
             )
     
-    async def _deliver_with_tracking(self, recipient: str, message: EnhancedAgentMessage):
+    async def _deliver_with_tracking(self, recipient: str, message: AgentMessage):
         """Deliver message with observability tracking"""
         agent = self.agents[recipient]
         

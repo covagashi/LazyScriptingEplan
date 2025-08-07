@@ -24,7 +24,6 @@ class DocumentationRAG:
             self.model = SentenceTransformer(str(model_path))
         print("✓ Documentation model loaded")
         
-        # Storage para documentación
         self.docs = []
         self.doc_embeddings = None
         self.doc_index = {}
@@ -36,7 +35,6 @@ class DocumentationRAG:
         """Upload and index documentation"""
         cache_file = self.cache_path / "doc_cache.pkl"
         
-        # Intentar cargar desde cache
         if cache_file.exists():
             try:
                 with open(cache_file, 'rb') as f:

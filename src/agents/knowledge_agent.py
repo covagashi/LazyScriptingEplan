@@ -1,18 +1,17 @@
 # src/agents/knowledge_agent.py
 import time
 from typing import Dict, List, Any
-from .mini_agent import EnhancedMiniAgent
+from .mini_agent import MiniAgent
 from ..ai.documentation_rag import DocumentationRAG
-from ..core.message_bus import EnhancedAgentMessage, ObservableMessageBus
+from ..core.message_bus import AgentMessage, ObservableMessageBus
 
-class EplanKnowledgeAgent(EnhancedMiniAgent):
+class EplanKnowledgeAgent(MiniAgent):
     """Knowledge Agent with full observability integration"""
     
     def __init__(self, message_bus: ObservableMessageBus):
         super().__init__("knowledge", message_bus)
         self.doc_rag = DocumentationRAG() 
         
-        # Observability-specific metrics
         self.search_metrics = {
             "total_searches": 0,
             "successful_searches": 0,
@@ -40,7 +39,6 @@ class EplanKnowledgeAgent(EnhancedMiniAgent):
             ]
         }
         
-        # Update router with specific keywords (if using hybrid routing)
         if hasattr(self, 'router') and hasattr(self.router, 'agent_keywords'):
             self.router.agent_keywords["knowledge"] = custom_keywords
     
@@ -84,13 +82,11 @@ class EplanKnowledgeAgent(EnhancedMiniAgent):
             "metrics_restored": self.search_metrics
         })
     
-    async def process_message_with_context(self, message: EnhancedAgentMessage, contexts: Dict[str, Any]):
+    async def process_message_with_context(self, message: AgentMessage, contexts: Dict[str, Any]):
         """Enhanced processing with full observability tracking"""
         
-        # Start performance monitoring
         async with await self.measure_performance("message_processing"):
             
-            # Track message processing start
             await self._log_structured_event({
                 "event_type": "knowledge_request_start",
                 "correlation_id": message.correlation_id,
@@ -114,7 +110,7 @@ class EplanKnowledgeAgent(EnhancedMiniAgent):
                     "correlation_id": message.correlation_id
                 })
     
-    async def _handle_knowledge_request(self, message: EnhancedAgentMessage, contexts: Dict[str, Any]):
+    async def _handle_knowledge_request(self, message: AgentMessage, contexts: Dict[str, Any]):
         """Handle knowledge request with observability"""
         
         # Extract query
@@ -131,7 +127,6 @@ class EplanKnowledgeAgent(EnhancedMiniAgent):
             await self._send_error_response("No query provided", message)
             return
         
-        # Log search start
         await self._log_structured_event({
             "event_type": "documentation_search_start",
             "query": query[:100],  # Limit for privacy
@@ -139,20 +134,16 @@ class EplanKnowledgeAgent(EnhancedMiniAgent):
             "search_id": f"search_{int(time.time() * 1000)}"
         })
         
-        # Performance-monitored search
         async with await self.measure_performance("documentation_search"):
             results = await self._perform_enhanced_search(query)
         
-        # Update search metrics
         self.search_metrics["total_searches"] += 1
         
         if results:
             self.search_metrics["successful_searches"] += 1
             
-            # Analyze if code collaboration is needed
             needs_code = await self._analyze_code_needs(query, enriched_context)
             
-            # Log search result
             await self._log_structured_event({
                 "event_type": "documentation_search_complete",
                 "query": query[:100],
@@ -169,7 +160,7 @@ class EplanKnowledgeAgent(EnhancedMiniAgent):
             self.search_metrics["empty_results"] += 1
             await self._handle_no_results(query, message)
     
-    async def _handle_code_assistance(self, message: EnhancedAgentMessage, contexts: Dict[str, Any]):
+    async def _handle_code_assistance(self, message: AgentMessage, contexts: Dict[str, Any]):
         """Handle code assistance collaboration"""
         
         query = message.payload.get("user_query", "")
@@ -182,10 +173,8 @@ class EplanKnowledgeAgent(EnhancedMiniAgent):
             "correlation_id": message.correlation_id
         })
         
-        # Search for relevant documentation
         results = await self._perform_enhanced_search(query)
         
-        # Send results back to CodeCraft
         await self.send_message(
             ["codecraft"],
             "knowledge_results",
@@ -204,7 +193,7 @@ class EplanKnowledgeAgent(EnhancedMiniAgent):
             parent_message=message
         )
     
-    async def _handle_planned_task(self, message: EnhancedAgentMessage, contexts: Dict[str, Any]):
+    async def _handle_planned_task(self, message: AgentMessage, contexts: Dict[str, Any]):
         """Handle planned task from PlanningAgent"""
         
         step_number = message.payload.get("step_number")
@@ -219,7 +208,6 @@ class EplanKnowledgeAgent(EnhancedMiniAgent):
             "correlation_id": message.correlation_id
         })
         
-        # Extract query from context
         query = None
         for context_data in contexts.values():
             if "original_query" in context_data:
@@ -230,11 +218,9 @@ class EplanKnowledgeAgent(EnhancedMiniAgent):
             await self._send_error_response("No query in planned task", message)
             return
         
-        # Perform the planned action
         if action == "research_documentation" or action == "find_documentation":
             results = await self._perform_enhanced_search(query)
             
-            # Send results to conversation or next step
             await self.send_message(
                 ["conversation"],
                 "planned_task_result",
@@ -248,7 +234,6 @@ class EplanKnowledgeAgent(EnhancedMiniAgent):
             )
             
         elif action == "gather_resources":
-            # Comprehensive resource gathering
             results = await self._perform_enhanced_search(query)
             related = self.doc_rag.find_related_concepts(query, top_k=5)
             
@@ -273,7 +258,6 @@ class EplanKnowledgeAgent(EnhancedMiniAgent):
                 parent_message=message
             )
         
-        # Notify completion
         await self.send_message(
             ["planning"],
             "step_completed",
@@ -291,7 +275,6 @@ class EplanKnowledgeAgent(EnhancedMiniAgent):
         search_start = time.time()
         
         try:
-            # Primary search
             results = self.doc_rag.search_documentation(query, top_k=3)
             
             search_time = time.time() - search_start
@@ -304,9 +287,7 @@ class EplanKnowledgeAgent(EnhancedMiniAgent):
                 "search_type": "semantic"
             })
             
-            # If no results, try alternative searches
             if not results:
-                # Try action-specific search
                 action_results = self.doc_rag.find_action_documentation(query)
                 if action_results:
                     results = action_results
@@ -343,13 +324,11 @@ class EplanKnowledgeAgent(EnhancedMiniAgent):
         query_lower = query.lower()
         has_code_indicators = any(indicator in query_lower for indicator in code_indicators)
         
-        # Check context intent
         context_suggests_code = False
         if context and "intent_analysis" in context:
             intent = context["intent_analysis"]
             context_suggests_code = intent.get("primary_intent") == "code_generation"
         
-        # LLM fallback for complex cases
         llm_suggests_code = False
         if not has_code_indicators and not context_suggests_code:
             try:
@@ -376,7 +355,6 @@ Answer YES or NO:"""
         analysis_time = time.time() - analysis_start
         final_decision = has_code_indicators or context_suggests_code or llm_suggests_code
         
-        # Log analysis
         await self._log_structured_event({
             "event_type": "code_needs_analysis",
             "query": query[:50],
@@ -390,7 +368,7 @@ Answer YES or NO:"""
         return final_decision
     
     async def _initiate_code_collaboration(self, query: str, knowledge_results: List, 
-                                         context: Dict, original_message: EnhancedAgentMessage):
+                                         context: Dict, original_message: AgentMessage):
         """Enhanced collaboration with observability tracking"""
         
         self.search_metrics["collaboration_requests"] += 1
@@ -403,7 +381,6 @@ Answer YES or NO:"""
             "collaboration_id": f"collab_{int(time.time() * 1000)}"
         }
         
-        # Log collaboration start
         await self._log_structured_event({
             "event_type": "collaboration_initiated",
             "target_agent": "codecraft",
@@ -412,7 +389,6 @@ Answer YES or NO:"""
             "correlation_id": original_message.correlation_id
         })
         
-        # Send collaboration message using enhanced messaging
         await self.send_message(
             ["codecraft"],
             "knowledge_for_code",
@@ -426,12 +402,11 @@ Answer YES or NO:"""
             parent_message=original_message
         )
     
-    async def _send_knowledge_response(self, results: List, query: str, original_message: EnhancedAgentMessage):
+    async def _send_knowledge_response(self, results: List, query: str, original_message: AgentMessage):
         """Send knowledge response with tracking"""
         
         content = await self._format_knowledge_response(results, query)
         
-        # Log response preparation
         await self._log_structured_event({
             "event_type": "knowledge_response_prepared",
             "response_length": len(content),
@@ -439,7 +414,6 @@ Answer YES or NO:"""
             "correlation_id": original_message.correlation_id
         })
         
-        # Send response
         await self.send_message(
             ["conversation"],
             "response_to_user",
@@ -470,7 +444,7 @@ Answer YES or NO:"""
             
             if 'parameters' in item and item['parameters']:
                 content += "**Parameters:**\n"
-                for param in item['parameters'][:3]:  # Limit parameters
+                for param in item['parameters'][:13]:  # Limit parameters
                     if isinstance(param, dict):
                         content += f"- `{param.get('name', '')}`: {param.get('description', '')}\n"
             
@@ -487,7 +461,7 @@ Answer YES or NO:"""
         
         return content
     
-    async def _handle_no_results(self, query: str, original_message: EnhancedAgentMessage):
+    async def _handle_no_results(self, query: str, original_message: AgentMessage):
         """Handle no results with enhanced logging"""
         
         await self._log_structured_event({
@@ -516,7 +490,7 @@ Available topics include EPLAN API actions, parameters, and electrical automatio
             parent_message=original_message
         )
     
-    async def _send_error_response(self, error_msg: str, original_message: EnhancedAgentMessage):
+    async def _send_error_response(self, error_msg: str, original_message: AgentMessage):
         """Send error response with logging"""
         
         await self._log_structured_event({
@@ -542,7 +516,6 @@ Available topics include EPLAN API actions, parameters, and electrical automatio
         
         routing_start = time.time()
         
-        # High-confidence patterns
         always_handle_patterns = [
             "eplan documentation", "api reference", "xafactionsetting",
             "eplan examples", "electrical documentation"
@@ -560,13 +533,10 @@ Available topics include EPLAN API actions, parameters, and electrical automatio
                 })
                 return 0.95
         
-        # Use base routing with fallback
         try:
-            # If hybrid routing is available
             if hasattr(self, 'hybrid_handler'):
                 confidence, method = await self.hybrid_handler.can_handle(intent, self.get_specialty())
             else:
-                # Fallback to basic LLM routing
                 confidence = await self._basic_can_handle(intent)
                 method = "basic_llm"
             

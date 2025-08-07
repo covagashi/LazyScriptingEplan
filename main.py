@@ -7,9 +7,9 @@ import json
 
 # Import enhanced observability
 from src.core.message_bus import ObservableMessageBus
-from src.agents.mini_agent import EnhancedMiniAgent
+from src.agents.mini_agent import MiniAgent
 from src.agents.filesystem_agent import FileSystemAgent
-from src.agents.conversation_agent import EnhancedConversationAgent
+from src.agents.conversation_agent import ConversationAgent
 from src.agents.knowledge_agent import EplanKnowledgeAgent
 from src.agents.codecraft_agent import CodeCraftAgent
 from src.agents.execution_agent import ExecutionAgent
@@ -20,14 +20,12 @@ class EnhancedEplanAgentSystem:
     """Enhanced system with full P2P observability"""
     
     def __init__(self):
-        self.bus = ObservableMessageBus()  # Enhanced bus
+        self.bus = ObservableMessageBus() 
         self.agents = {}
         self.running = True
         
-        # Observability dashboard
         self.dashboard = self.bus.get_dashboard()
         
-        # Auto-save dashboard snapshots every 5 minutes
         self._dashboard_task = None
         
         signal.signal(signal.SIGINT, self._signal_handler)
@@ -38,7 +36,6 @@ class EnhancedEplanAgentSystem:
         print("\n🛑 Shutting down enhanced system...")
         self.running = False
         
-        # Save final dashboard snapshot
         if self.dashboard:
             self.dashboard.save_dashboard_snapshot()
     
@@ -65,7 +62,7 @@ class EnhancedEplanAgentSystem:
         
         # 3. Enhanced ConversationAgent
         print("💬 Initializing Enhanced ConversationAgent...")
-        conversation = EnhancedConversationAgent(self.bus)
+        conversation = ConversationAgent(self.bus)
         await self.bus.register_agent("conversation", conversation)
         self.agents["conversation"] = conversation
         await conversation.startup()
@@ -100,10 +97,8 @@ class EnhancedEplanAgentSystem:
         print("📊 Real-time P2P dashboard active")
         print("=" * 60)
         
-        # Start dashboard auto-save
         self._start_dashboard_monitoring()
         
-        # Test enhanced system
         await self._run_enhanced_system_tests()
     
     def _start_dashboard_monitoring(self):
@@ -114,12 +109,10 @@ class EnhancedEplanAgentSystem:
         """Background loop for dashboard monitoring"""
         while self.running:
             try:
-                # Save snapshot every 5 minutes
                 await asyncio.sleep(300)
                 if self.running:
                     self.dashboard.save_dashboard_snapshot()
                     
-                    # Check for anomalies
                     anomalies = self.dashboard.detect_anomalies()
                     if anomalies:
                         print(f"\n⚠️ Dashboard Alert: {len(anomalies)} anomalies detected")
@@ -135,30 +128,25 @@ class EnhancedEplanAgentSystem:
         print("\n🧪 Running Enhanced System Tests...")
         
         try:
-            # Test enhanced message flow
-            from src.core.enhanced_message_bus import EnhancedAgentMessage
+            from src.core.message_bus import AgentMessage
             
-            test_message = EnhancedAgentMessage(
+            test_message = AgentMessage(
                 sender="system_test",
                 recipients=["conversation"],
                 intent="test_observability",
                 payload={"test": "observability_integration"}
             )
             
-            # This should show up in dashboard
             self.dashboard.track_message_sent(test_message, "system_test")
             print("✅ Enhanced Message Tracking: Working")
             
-            # Test performance metrics
             conv_agent = self.agents["conversation"]
             metrics = conv_agent.get_performance_metrics()
             print(f"✅ Performance Metrics: {len(metrics)} operation types tracked")
             
-            # Test dashboard status
             status = self.dashboard.get_real_time_status()
             print(f"✅ Real-time Dashboard: {status['active_flows']['count']} flows tracked")
             
-            # Test interaction map
             interaction_map = self.dashboard.get_interaction_map()
             total_interactions = interaction_map.get('total_interactions', 0)
             print(f"✅ Interaction Mapping: {total_interactions} total interactions")
@@ -217,7 +205,6 @@ class EnhancedEplanAgentSystem:
                 
                 print("🤔 Processing...", end="", flush=True)
                 
-                # Process with enhanced tracking
                 response = await conversation_agent.handle_user_input(user_input)
                 
                 print("\r" + " " * 20 + "\r", end="")
@@ -235,13 +222,11 @@ class EnhancedEplanAgentSystem:
         print("\n📊 Enhanced System Status:")
         print("=" * 45)
         
-        # Agent status
         for agent_id, agent in self.agents.items():
             status = "🟢 Active"
             if hasattr(agent, 'working') and agent.working:
                 status = "🟡 Working"
             
-            # Performance metrics
             metrics = ""
             if hasattr(agent, 'get_performance_metrics'):
                 perf_metrics = agent.get_performance_metrics()
@@ -252,17 +237,14 @@ class EnhancedEplanAgentSystem:
             
             print(f"{agent_id:15} {status}{metrics}")
         
-        # Dashboard summary
         status = self.dashboard.get_real_time_status()
         print(f"\n📊 P2P Dashboard:")
         print(f"   Active Flows: {status['active_flows']['count']}")
         print(f"   Recent Events: {status['recent_activity']['events_last_60s']}")
         
-        # Interaction summary
         interaction_map = self.dashboard.get_interaction_map()
         print(f"   Total Interactions: {interaction_map['total_interactions']}")
         
-        # Anomalies
         anomalies = self.dashboard.detect_anomalies()
         print(f"   Anomalies: {len(anomalies)}")
         
@@ -301,14 +283,12 @@ class EnhancedEplanAgentSystem:
         print(f"Total Interactions: {interaction_map['total_interactions']}")
         print("-" * 40)
         
-        # Top pairs
         top_pairs = interaction_map['most_active_pairs']
         print("Top Agent Pairs:")
         for sender, receiver, count in top_pairs[:8]:
             percentage = (count / interaction_map['total_interactions']) * 100
             print(f"  {sender} → {receiver}: {count} ({percentage:.1f}%)")
         
-        # Agent centrality
         centrality = interaction_map['agent_centrality']
         if centrality:
             print(f"\nMost Active Agents:")
@@ -400,22 +380,18 @@ class EnhancedEplanAgentSystem:
         """Enhanced shutdown with observability cleanup"""
         print("\n🛑 Shutting down Enhanced EPLAN Agent System...")
         
-        # Stop dashboard monitoring
         if self._dashboard_task:
             self._dashboard_task.cancel()
         
-        # Save final dashboard snapshot
         print("📸 Saving final dashboard snapshot...")
         final_snapshot = self.dashboard.save_dashboard_snapshot()
         
-        # Print final stats
         status = self.dashboard.get_real_time_status()
         interaction_map = self.dashboard.get_interaction_map()
         print(f"📊 Final Statistics:")
         print(f"   Total Interactions: {interaction_map['total_interactions']}")
         print(f"   Completed Flows: {len(self.dashboard.completed_flows)}")
         
-        # Shutdown agents
         for agent_id in reversed(list(self.agents.keys())):
             agent = self.agents[agent_id]
             try:
@@ -432,14 +408,12 @@ class EnhancedEplanAgentSystem:
 async def main():
     """Enhanced main with full observability"""
     
-    # Check dependencies
     try:
         import watchdog
     except ImportError:
         print("❌ Missing dependency: watchdog")
         return 1
     
-    # Create required directories
     required_paths = [
         Path("C:/temp/Agent/Observability"),
         Path("C:/temp/Agent/Context"),
@@ -452,7 +426,6 @@ async def main():
             print(f"⚠️ Creating directory: {path}")
             path.mkdir(parents=True, exist_ok=True)
     
-    # Initialize enhanced system
     system = EnhancedEplanAgentSystem()
     
     try:

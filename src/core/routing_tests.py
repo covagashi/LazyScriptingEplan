@@ -257,14 +257,12 @@ class RoutingTestSuite:
         consistency_tests = results["consistency_tests"]
         performance_tests = results["performance_tests"]
         
-        # Consistency metrics
         consistent_count = sum(1 for r in consistency_tests if r["consistent"])
         consistency_rate = consistent_count / len(consistency_tests)
         
         expected_met_count = sum(1 for r in consistency_tests if r["meets_expected"])
         expected_rate = expected_met_count / len(consistency_tests)
         
-        # Performance metrics
         det_avg = performance_tests["deterministic"]["avg_ms"]
         meets_100ms_target = det_avg < 100
         
@@ -326,7 +324,6 @@ class RoutingMonitor:
         elif "llm" in method or "hybrid" in method:
             self.routing_stats["llm_fallback_decisions"] += 1
         
-        # Stats por agente
         if agent_id not in self.routing_stats["agent_stats"]:
             self.routing_stats["agent_stats"][agent_id] = {
                 "decisions": 0,
@@ -337,7 +334,6 @@ class RoutingMonitor:
         agent_stats = self.routing_stats["agent_stats"][agent_id]
         agent_stats["decisions"] += 1
         
-        # Update moving average confidence
         prev_avg = agent_stats["avg_confidence"]
         new_count = agent_stats["decisions"]
         agent_stats["avg_confidence"] = (prev_avg * (new_count - 1) + confidence) / new_count
@@ -346,7 +342,6 @@ class RoutingMonitor:
         if len(agent_stats["response_times"]) > 100:  # Keep last 100
             agent_stats["response_times"].pop(0)
         
-        # Recent decisions (last 20)
         decision_record = {
             "timestamp": time.time(),
             "agent_id": agent_id,
@@ -369,11 +364,9 @@ class RoutingMonitor:
         if total_decisions == 0:
             return {"error": "No routing decisions recorded yet"}
         
-        # Calculate rates
         decisions_per_minute = (total_decisions / uptime) * 60 if uptime > 0 else 0
         deterministic_rate = self.routing_stats["deterministic_decisions"] / total_decisions
         
-        # Agent performance
         agent_performance = {}
         for agent_id, stats in self.routing_stats["agent_stats"].items():
             avg_response_time = sum(stats["response_times"]) / len(stats["response_times"]) if stats["response_times"] else 0
@@ -400,12 +393,11 @@ class RoutingMonitor:
     def _calculate_health_status(self, deterministic_rate: float, agent_performance: Dict) -> str:
         """Calcular estado de salud del sistema de routing"""
         
-        # Criterios de salud
-        healthy_deterministic_rate = deterministic_rate > 0.7  # >70% determinístico
+        healthy_deterministic_rate = deterministic_rate > 0.7  
         
         healthy_response_times = True
         for agent_stats in agent_performance.values():
-            if agent_stats["avg_response_time_ms"] > 200:  # >200ms es preocupante
+            if agent_stats["avg_response_time_ms"] > 200:  
                 healthy_response_times = False
                 break
         
@@ -441,21 +433,17 @@ class RoutingMonitor:
         print("=" * 50)
 
 
-# Integration example
 async def test_routing_system():
     """Función de test principal"""
     
     print("🚀 Starting Routing System Tests")
     
-    # Initialize components
     router = DeterministicRouter()
     test_suite = RoutingTestSuite(router)
     monitor = RoutingMonitor()
     
-    # Run comprehensive tests
     results = await test_suite.run_comprehensive_tests()
     
-    # Print summary
     summary = results["summary"]
     print(f"\n📋 Test Results Summary:")
     print(f"Consistency Rate: {summary['consistency_rate']:.1%}")

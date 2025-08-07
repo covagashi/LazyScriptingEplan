@@ -180,39 +180,33 @@ class HybridCanHandle:
         self.agent_id = agent_id
         self.ai_client = ai_client
         self.router = router
-        self.fallback_threshold = 0.4  # Si confianza < 0.4, usar LLM
+        self.fallback_threshold = 0.4  
         
     async def can_handle(self, intent: str, specialty: str) -> Tuple[float, str]:
         """
         hybrid can_handle() method 
         Returns: (confidence, method_used)
         """
-        
-        # Paso 1: Intentar routing determinístico
+               
         deterministic_confidence = self.router.calculate_confidence(self.agent_id, intent)
         
-        # Si la confianza determinística es alta, usarla directamente
         if deterministic_confidence >= 0.7:
             explanation = self.router.get_routing_explanation(
                 self.agent_id, intent, deterministic_confidence
             )
             return deterministic_confidence, f"deterministic: {explanation}"
         
-        # Si la confianza es muy baja, rechazar directamente
         if deterministic_confidence <= 0.2:
             return deterministic_confidence, "deterministic: low confidence"
         
-        # Paso 2: LLM fallback para casos ambiguos
         try:
             llm_confidence = await self._llm_fallback(intent, specialty)
             
-            # Combinar ambas puntuaciones (promedio ponderado)
             final_confidence = (deterministic_confidence * 0.6) + (llm_confidence * 0.4)
             
             return final_confidence, f"hybrid: det={deterministic_confidence:.2f}, llm={llm_confidence:.2f}"
             
         except Exception as e:
-            # Si LLM falla, usar solo determinístico
             return deterministic_confidence, f"deterministic_fallback: llm_error={str(e)[:50]}"
     
     async def _llm_fallback(self, intent: str, specialty: str) -> float:
@@ -237,7 +231,7 @@ Return ONLY a number between 0.0 and 1.0:"""
         
         try:
             confidence = float(response.strip())
-            return max(0.0, min(1.0, confidence))  # Clamp to [0,1]
+            return max(0.0, min(1.0, confidence)) 
         except:
             return 0.3  # Conservative fallback
 

@@ -4,10 +4,10 @@ import time
 from abc import ABC, abstractmethod
 from typing import List, Dict, Any, Optional
 from ..ai import GeminiClient
-from ..core.message_bus import ObservableMessageBus, EnhancedAgentMessage, ObservabilityDashboard
+from ..core.message_bus import ObservableMessageBus, AgentMessage, ObservabilityDashboard
 from ..core.filesystem_helpers import FileSystemHelper, ContextReference
 
-class EnhancedMiniAgent(ABC):
+class MiniAgent(ABC):
     """Enhanced mini-agent with full observability support"""
     
     def __init__(self, agent_id: str, message_bus: ObservableMessageBus):
@@ -17,13 +17,11 @@ class EnhancedMiniAgent(ABC):
         self.working = False
         self.message_queue = asyncio.Queue()
         
-        # FileSystem integration
         self.fs_helper = FileSystemHelper(agent_id, message_bus)
         self.context_cache = {}
         self.state_loaded = False
         
-        # Observability
-        self.dashboard = None  # Will be injected by MessageBus
+        self.dashboard = None  
         self.current_conversation_id = None
         self.processing_metrics = {}
         
@@ -35,11 +33,10 @@ class EnhancedMiniAgent(ABC):
         self.dashboard = dashboard
     
     # === Enhanced Message Handling ===
-    async def receive_message(self, message: EnhancedAgentMessage):
+    async def receive_message(self, message: AgentMessage):
         """Enhanced receive with observability tracking"""
         await self.message_queue.put(message)
         
-        # Set conversation context
         if message.conversation_id:
             self.current_conversation_id = message.conversation_id
         
@@ -56,7 +53,6 @@ class EnhancedMiniAgent(ABC):
                 start_time = time.time()
                 
                 try:
-                    # Log structured message
                     await self._log_structured_event({
                         "event_type": "message_processing_start",
                         "correlation_id": message.correlation_id,
@@ -64,18 +60,14 @@ class EnhancedMiniAgent(ABC):
                         "sender": message.sender
                     })
                     
-                    # Resolve contexts
                     resolved_contexts = await self.resolve_context_refs(message)
                     
-                    # Process message
                     await self.process_message_with_context(message, resolved_contexts)
                     
-                    # Complete flow tracking if this ends the conversation
                     if self._should_complete_flow(message):
                         self.dashboard.complete_flow(message.trace_id, True)
                     
                 except Exception as e:
-                    # Log error and mark flow as failed
                     await self._log_structured_event({
                         "event_type": "message_processing_error",
                         "correlation_id": message.correlation_id,
@@ -95,9 +87,8 @@ class EnhancedMiniAgent(ABC):
         finally:
             self.working = False
     
-    def _should_complete_flow(self, message: EnhancedAgentMessage) -> bool:
+    def _should_complete_flow(self, message: AgentMessage) -> bool:
         """Determine if this message completes a flow"""
-        # Complete flow if it's a response to user or final result
         return message.intent in ["response_to_user", "final_result", "task_completed"]
     
     def _update_processing_metrics(self, intent: str, processing_time: float):
@@ -107,14 +98,13 @@ class EnhancedMiniAgent(ABC):
         
         self.processing_metrics[intent].append(processing_time)
         
-        # Keep only last 100 measurements per intent
         if len(self.processing_metrics[intent]) > 100:
             self.processing_metrics[intent] = self.processing_metrics[intent][-100:]
     
     # === Enhanced Message Sending ===
     async def send_message(self, recipients: List[str], intent: str, payload: dict, 
                           heavy_context: Any = None, context_metadata: Dict = None,
-                          parent_message: EnhancedAgentMessage = None):
+                          parent_message: AgentMessage = None):
         """Enhanced send with correlation chain tracking"""
         
         context_refs = []
@@ -126,11 +116,10 @@ class EnhancedMiniAgent(ABC):
             if context_ref:
                 context_refs.append(context_ref.get_id())
         
-        # Create message with proper correlation chain
         if parent_message:
             message = parent_message.create_child_message(self.id, recipients, intent, payload)
         else:
-            message = EnhancedAgentMessage(
+            message = AgentMessage(
                 sender=self.id,
                 recipients=recipients,
                 intent=intent,
@@ -138,15 +127,12 @@ class EnhancedMiniAgent(ABC):
                 conversation_id=self.current_conversation_id
             )
         
-        # Add context refs
         if context_refs:
             message.payload["context_refs"] = context_refs
             message.payload["has_heavy_context"] = True
         
-        # Send via observable bus
         await self.bus.broadcast(message)
         
-        # Log structured event
         await self._log_structured_event({
             "event_type": "message_sent",
             "correlation_id": message.correlation_id,
@@ -166,10 +152,8 @@ class EnhancedMiniAgent(ABC):
             **event_data
         }
         
-        # Log to scratchpad
         await self.log_to_scratchpad(structured_event, "structured_event")
         
-        # Also log to filesystem for aggregation
         if hasattr(self.fs_helper, 'log_structured_event'):
             await self.fs_helper.log_structured_event(structured_event)
     
@@ -205,11 +189,11 @@ class EnhancedMiniAgent(ABC):
     
     async def measure_performance(self, operation_name: str):
         """Enhanced performance monitoring context manager"""
-        return EnhancedPerformanceMonitor(self, operation_name)
+        return PerformanceMonitor(self, operation_name)
     
     # === Collaboration with Observability ===
     async def collaborate_with_agent(self, agent_id: str, task: str, context_data: Any = None,
-                                   parent_message: EnhancedAgentMessage = None) -> bool:
+                                   parent_message: AgentMessage = None) -> bool:
         """Enhanced collaboration with correlation tracking"""
         await self.send_message(
             [agent_id],
@@ -229,7 +213,7 @@ class EnhancedMiniAgent(ABC):
     
     # === Abstract Methods ===
     @abstractmethod
-    async def process_message_with_context(self, message: EnhancedAgentMessage, contexts: Dict[str, Any]):
+    async def process_message_with_context(self, message: AgentMessage, contexts: Dict[str, Any]):
         """Process message with resolved contexts"""
         pass
     
@@ -241,11 +225,10 @@ class EnhancedMiniAgent(ABC):
     # === Compatibility Methods ===
     async def process_message(self, message):
         """Compatibility method for old message format"""
-        if isinstance(message, EnhancedAgentMessage):
+        if isinstance(message, AgentMessage):
             await self.process_message_with_context(message, {})
         else:
-            # Convert old format to enhanced
-            enhanced_message = EnhancedAgentMessage(
+            enhanced_message = AgentMessage(
                 sender=getattr(message, 'sender', 'unknown'),
                 recipients=getattr(message, 'recipients', []),
                 intent=getattr(message, 'intent', 'unknown'),
@@ -289,7 +272,7 @@ class EnhancedMiniAgent(ABC):
         result = await self.fs_helper.store_context(data, context_id, metadata)
         if result.get("success"):
             ref = result.get("reference", {})
-                            context_id = ref.get("context_id")
+            context_id = ref.get("context_id")
             if context_id:
                 context_ref = ContextReference(self.fs_helper, context_id)
                 self.context_cache[context_id] = context_ref
@@ -300,7 +283,7 @@ class EnhancedMiniAgent(ABC):
         """Getting full data from a context reference"""
         return await context_ref.load()
     
-    async def resolve_context_refs(self, message: EnhancedAgentMessage) -> Dict[str, Any]:
+    async def resolve_context_refs(self, message: AgentMessage) -> Dict[str, Any]:
         """Resolving context references in a received message"""
         resolved_contexts = {}
         
@@ -356,10 +339,10 @@ class EnhancedMiniAgent(ABC):
         await self.fs_helper.update_scratchpad({key: value}, "merge")
 
 
-class EnhancedPerformanceMonitor:
+class PerformanceMonitor:
     """Enhanced context manager for performance monitoring with observability"""
     
-    def __init__(self, agent: EnhancedMiniAgent, operation: str):
+    def __init__(self, agent: MiniAgent, operation: str):
         self.agent = agent
         self.operation = operation
         self.start_time = None
@@ -378,10 +361,8 @@ class EnhancedPerformanceMonitor:
         duration = time.time() - self.start_time
         success = exc_type is None
         
-        # Update metrics
         self.agent._update_processing_metrics(f"operation_{self.operation}", duration)
         
-        # Log structured event
         await self.agent._log_structured_event({
             "event_type": "operation_complete",
             "operation": self.operation,
@@ -390,7 +371,6 @@ class EnhancedPerformanceMonitor:
             "error": str(exc_val) if exc_val else None
         })
         
-        # Update scratchpad
         await self.agent.update_scratchpad("performance_metrics", {
             self.operation: {
                 "duration": duration,

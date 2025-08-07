@@ -2,20 +2,19 @@
 import time
 import asyncio
 from typing import Dict, Any, List
-from .mini_agent import EnhancedMiniAgent
-from ..core.message_bus import AgentMessage
+from .mini_agent import MiniAgent
+from ..core.message_bus import ObservableMessageBus, AgentMessage
 
-class EnhancedConversationAgent(EnhancedMiniAgent):
+class EnhancedConversationAgent(MiniAgent):
     """Enhanced ConversationAgent with persistent context and conversation management"""
     
-    def __init__(self, message_bus):
+    def __init__(self, message_bus: ObservableMessageBus):
         super().__init__("conversation", message_bus)
         
-        # status of the conversation
         self.current_conversation = None
         self.user_response = None
         self.conversation_history = []
-        self.active_requests = {}  # Tracking de requests pendientes
+        self.active_requests = {}  
         
     async def _restore_from_state(self, state: Dict):
         """Restore conversation status"""
@@ -56,7 +55,6 @@ class EnhancedConversationAgent(EnhancedMiniAgent):
             "conversation_id": self._get_conversation_id()
         }
         
-        # Store in heavy context if the query is complex
         if len(user_query) > 200:
             context_ref = await self.store_heavy_context(
                 {"user_query": user_query, "metadata": conversation_entry},
@@ -115,7 +113,6 @@ Return JSON:"""
         
         try:
             response = await self.ai_client.generate(prompt)
-            # Parse JSON response
             import json
             intent_data = json.loads(response.strip())
             
@@ -179,14 +176,13 @@ Return JSON:"""
             agents,
             "enhanced_user_request",
             {
-                "query": query[:100],  # Solo preview
+                "query": query[:100],  
                 "complexity": intent_analysis.get("complexity"),
                 "request_id": request_id
             },
             heavy_context=enriched_context
         )
         
-        # Track request
         self.active_requests[request_id] = {
             "timestamp": time.time(),
             "agents": agents,
@@ -214,7 +210,6 @@ Return JSON:"""
             
             await asyncio.sleep(0.1)
         
-        # Timeout
         if request_id in self.active_requests:
             self.active_requests[request_id]["status"] = "timeout"
             agents = self.active_requests[request_id]["agents"]
@@ -237,14 +232,14 @@ Conversation context:
 {conversation_context}
 
 If this is about:
-- Complex EPLAN technical actions
-- EPLAN script generation  
-- EPLAN API documentation lookup
+- Complex EPLAN 2025 technical actions
+- EPLAN 2025 script generation  
+- EPLAN 2025 API documentation lookup
 Return: "DELEGATE"
 
 If this is:
 - Simple greeting/chat
-- Basic EPLAN questions I can answer directly
+- Basic EPLAN 2025 questions I can answer directly
 - Follow-up to previous conversation
 
 Respond naturally considering the conversation context."""
@@ -323,7 +318,6 @@ Respond naturally considering the conversation context."""
             await self.fs_helper.handle_filesystem_response(message)
             return
         
-        # others messages...
         await self.log_to_scratchpad(
             f"Processed message: {message.intent} from {message.sender}",
             "message_processing"
@@ -354,4 +348,4 @@ Respond naturally considering the conversation context."""
         if any(keyword in intent.lower() for keyword in technical_keywords):
             return 0.2 
         
-        return 0.3  
+        return 0.3
