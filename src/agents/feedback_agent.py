@@ -19,7 +19,6 @@ class FeedbackAgent(MiniAgent):
             result = message.payload.get("result", "")
             action = message.payload.get("action", "Unknown")
             
-            # Esperar logs
             await asyncio.sleep(2)
             
             log_analysis = self._analyze_logs()
@@ -27,7 +26,7 @@ class FeedbackAgent(MiniAgent):
             
             report = f"✅ Success" if final_success else f"❌ Issues: {log_analysis['errors']}"
             
-            # Responder directamente al usuario
+            # Respond directly to the user
             await self.send_message(
                 ["conversation"],
                 "response_to_user",
@@ -42,7 +41,7 @@ class FeedbackAgent(MiniAgent):
         
         try:
             with open(self.log_path, 'r', encoding='utf-8') as f:
-                lines = f.readlines()[-5:]  # Últimas 5 líneas
+                lines = f.readlines()[-5:]  
                 
                 for line in lines:
                     if 'error' in line.lower():

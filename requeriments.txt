@@ -7,6 +7,10 @@ PyYAML==6.0.2
 # ML/Data processing
 scikit-learn==1.4.2
 numpy==1.26.4
+sentence-transformers==2.7.0
+
+# FileSystem monitoring (NEW)
+watchdog==4.0.0
 
 # .NET integration for EPLAN
 pythonnet==3.0.4
@@ -15,3 +19,7 @@ pythonnet==3.0.4
 pytest==8.2.2
 black==24.4.2
 flake8==7.1.0
+
+# Additional utilities for enhanced functionality
+aiofiles==23.2.1  # Async file operations
+psutil==5.9.8      # System monitoring

@@ -1,7 +1,6 @@
 # src/ai/__init__.py
-"""AI services module"""
-
-from .rag import EplanRAG
+from .script_rag import ScriptRAG
+from .documentation_rag import DocumentationRAG
 from .gemini_client import GeminiClient
 
-__all__ = ['EplanRAG', 'GeminiClient']
+__all__ = ['ScriptRAG', 'DocumentationRAG', 'GeminiClient']
