@@ -1,6 +1,7 @@
 # src/agents/filesystem_agent.py
 import os
 import json
+from datetime import datetime
 import time
 import asyncio
 from pathlib import Path
@@ -60,6 +61,29 @@ class FileSystemAgent(MiniAgent):
             await self._save_state(sender, payload)
         elif intent == "cleanup":
             await self._cleanup_old_files()
+        elif intent == "get_agent_logs":
+            agent_id = payload.get("agent_id", sender)
+            limit = payload.get("limit", 100)
+            logs = await self.get_agent_logs(agent_id, limit)            
+            await self.send_message(
+                [sender],
+                "agent_logs",
+                {"logs": logs, "agent_id": agent_id, "count": len(logs)}
+            )
+        elif intent == "generate_observability_report":
+            time_range = payload.get("time_range_hours", 24)
+            report = await self.generate_observability_report(time_range)          
+            report_file = self.base_path / "reports" / f"observability_report_{int(time.time())}.json"
+            report_file.parent.mkdir(exist_ok=True)
+            with open(report_file, 'w', encoding='utf-8') as f:
+                json.dump(report, f, indent=2, ensure_ascii=False)
+            
+            await self.send_message(
+                [sender],
+                "observability_report_ready",
+                {"report_file": str(report_file), "report": report}
+            )
+    
     
     # === Context Management ===
     async def _store_context(self, sender: str, payload: Dict[str, Any]):
@@ -355,12 +379,161 @@ class FileSystemAgent(MiniAgent):
         """Get lightweight reference for MessageBus"""
         return self.context_refs.get(context_id)
     
+
+   
+    async def log_structured_event(self, event_data: Dict):
+        """Log structured event for observability aggregation"""
+        logs_path = self.base_path / "logs"
+        logs_path.mkdir(exist_ok=True)
+        
+        # Create daily log file
+        today = datetime.now().strftime("%Y%m%d")
+        log_file = logs_path / f"structured_events_{today}.jsonl"
+        
+        try:
+            # Append to JSONL file
+            with open(log_file, 'a', encoding='utf-8') as f:
+                json.dump(event_data, f, ensure_ascii=False)
+                f.write('\n')
+        except Exception as e:
+            print(f"⚠️ Failed to log structured event: {e}")
+
+    async def get_agent_logs(self, agent_id: str, limit: int = 100) -> List[Dict]:
+        """Get recent structured logs for an agent"""
+        logs_path = self.base_path / "logs"
+        
+        if not logs_path.exists():
+            return []
+        
+        # Read from recent log files
+        agent_events = []
+        
+        # Check last 3 days of logs
+        for i in range(3):
+            date_offset = datetime.now() - timedelta(days=i)
+            date_str = date_offset.strftime("%Y%m%d")
+            log_file = logs_path / f"structured_events_{date_str}.jsonl"
+            
+            if log_file.exists():
+                try:
+                    with open(log_file, 'r', encoding='utf-8') as f:
+                        for line in f:
+                            event = json.loads(line.strip())
+                            if event.get("agent_id") == agent_id:
+                                agent_events.append(event)
+                except Exception as e:
+                    continue
+        
+        # Sort by timestamp and return recent
+        agent_events.sort(key=lambda x: x.get("timestamp", 0), reverse=True)
+        return agent_events[:limit]
+
+    async def generate_observability_report(self, time_range_hours: int = 24) -> Dict:
+        """Generate observability report from structured logs"""
+        logs_path = self.base_path / "logs"
+        
+        if not logs_path.exists():
+            return {"error": "No logs directory found"}
+        
+        cutoff_time = time.time() - (time_range_hours * 3600)
+        
+        report = {
+            "time_range_hours": time_range_hours,
+            "generated_at": datetime.now().isoformat(),
+            "agent_activity": {},
+            "message_flows": {},
+            "error_summary": [],
+            "performance_summary": {}
+        }
+        
+        # Read recent log files
+        for log_file in logs_path.glob("structured_events_*.jsonl"):
+            try:
+                with open(log_file, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        event = json.loads(line.strip())
+                        
+                        if event.get("timestamp", 0) < cutoff_time:
+                            continue
+                        
+                        agent_id = event.get("agent_id", "unknown")
+                        event_type = event.get("event_type", "unknown")
+                        
+                        # Agent activity
+                        if agent_id not in report["agent_activity"]:
+                            report["agent_activity"][agent_id] = {
+                                "events": 0,
+                                "event_types": {},
+                                "errors": 0
+                            }
+                        
+                        report["agent_activity"][agent_id]["events"] += 1
+                        report["agent_activity"][agent_id]["event_types"][event_type] = \
+                            report["agent_activity"][agent_id]["event_types"].get(event_type, 0) + 1
+                        
+                        # Error tracking
+                        if "error" in event or event_type.endswith("_error"):
+                            report["agent_activity"][agent_id]["errors"] += 1
+                            report["error_summary"].append({
+                                "agent": agent_id,
+                                "timestamp": event.get("timestamp"),
+                                "error": event.get("error", "Unknown error")
+                            })
+                        
+                        # Message flow tracking
+                        correlation_id = event.get("correlation_id")
+                        if correlation_id and event_type in ["message_sent", "message_received"]:
+                            if correlation_id not in report["message_flows"]:
+                                report["message_flows"][correlation_id] = {
+                                    "events": [],
+                                    "agents_involved": set()
+                                }
+                            
+                            report["message_flows"][correlation_id]["events"].append(event)
+                            report["message_flows"][correlation_id]["agents_involved"].add(agent_id)
+                        
+                        # Performance tracking
+                        if "duration" in event:
+                            operation = event.get("operation", "unknown")
+                            if operation not in report["performance_summary"]:
+                                report["performance_summary"][operation] = {
+                                    "count": 0,
+                                    "total_time": 0,
+                                    "min_time": float('inf'),
+                                    "max_time": 0
+                                }
+                            
+                            duration = event["duration"]
+                            perf = report["performance_summary"][operation]
+                            perf["count"] += 1
+                            perf["total_time"] += duration
+                            perf["min_time"] = min(perf["min_time"], duration)
+                            perf["max_time"] = max(perf["max_time"], duration)
+            
+            except Exception as e:
+                continue
+        
+        # Convert sets to lists for JSON serialization
+        for flow in report["message_flows"].values():
+            flow["agents_involved"] = list(flow["agents_involved"])
+        
+        # Calculate averages
+        for operation, stats in report["performance_summary"].items():
+            if stats["count"] > 0:
+                stats["avg_time"] = stats["total_time"] / stats["count"]
+        
+        return report
+
+   
+
+
+        
+
     def __del__(self):
         """Cleanup al destruir el agente"""
         if hasattr(self, 'observer'):
             self.observer.stop()
             self.observer.join()
-
 
 class FileSystemWatcher(FileSystemEventHandler):
     """Reactive monitor of filesystem changes"""

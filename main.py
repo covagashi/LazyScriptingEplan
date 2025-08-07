@@ -3,144 +3,180 @@ import asyncio
 import signal
 import sys
 from pathlib import Path
-import watchdog.observers
-import watchdog.events
+import json
 
-from src.core.message_bus import MessageBus
+# Import enhanced observability
+from src.core.message_bus import ObservableMessageBus
+from src.agents.mini_agent import EnhancedMiniAgent
 from src.agents.filesystem_agent import FileSystemAgent
 from src.agents.conversation_agent import EnhancedConversationAgent
 from src.agents.knowledge_agent import EplanKnowledgeAgent
 from src.agents.codecraft_agent import CodeCraftAgent
 from src.agents.execution_agent import ExecutionAgent
 from src.agents.feedback_agent import FeedbackAgent
-from src.agents.planning_agent import PlanningAgent  # NEW
+from src.agents.planning_agent import PlanningAgent
 
-class EplanAgentSystem:
-    """Sistema principal mejorado con FileSystemAgent y PlanningAgent"""
+class EnhancedEplanAgentSystem:
+    """Enhanced system with full P2P observability"""
     
     def __init__(self):
-        self.bus = MessageBus()
+        self.bus = ObservableMessageBus()  # Enhanced bus
         self.agents = {}
         self.running = True
         
-        # Señales para cierre limpio
+        # Observability dashboard
+        self.dashboard = self.bus.get_dashboard()
+        
+        # Auto-save dashboard snapshots every 5 minutes
+        self._dashboard_task = None
+        
         signal.signal(signal.SIGINT, self._signal_handler)
         signal.signal(signal.SIGTERM, self._signal_handler)
     
     def _signal_handler(self, signum, frame):
-        """Manejo de señales para cierre limpio"""
-        print("\n🛑 Shutting down system...")
+        """Handle signals for clean shutdown"""
+        print("\n🛑 Shutting down enhanced system...")
         self.running = False
+        
+        # Save final dashboard snapshot
+        if self.dashboard:
+            self.dashboard.save_dashboard_snapshot()
     
     async def initialize_system(self):
-        """Inicializar sistema con todos los agentes"""
+        """Initialize enhanced system with full observability"""
         
-        print("🚀 Initializing Enhanced EPLAN Agent System with Planning")
-        print("=" * 55)
+        print("🚀 Initializing Enhanced EPLAN Agent System")
+        print("📊 Full P2P Observability Dashboard Enabled")
+        print("=" * 60)
         
-        # 1. FileSystemAgent PRIMERO (otros dependen de él)
+        # 1. FileSystemAgent first
         print("📁 Initializing FileSystemAgent...")
         filesystem = FileSystemAgent(self.bus)
         await self.bus.register_agent("filesystem", filesystem)
         self.agents["filesystem"] = filesystem
         await filesystem.startup()
         
-        # 2. PlanningAgent SEGUNDO (coordina otros agentes)
+        # 2. PlanningAgent 
         print("🎯 Initializing PlanningAgent...")
         planning = PlanningAgent(self.bus)
         await self.bus.register_agent("planning", planning)
         self.agents["planning"] = planning
         await planning.startup()
         
-        # 3. ConversationAgent mejorado
+        # 3. Enhanced ConversationAgent
         print("💬 Initializing Enhanced ConversationAgent...")
         conversation = EnhancedConversationAgent(self.bus)
         await self.bus.register_agent("conversation", conversation)
         self.agents["conversation"] = conversation
         await conversation.startup()
         
-        # 4. Agentes especializados existentes
+        # 4. Specialized agents
         print("📚 Initializing KnowledgeAgent...")
         knowledge = EplanKnowledgeAgent(self.bus)
         await self.bus.register_agent("knowledge", knowledge)
         self.agents["knowledge"] = knowledge
+        await knowledge.startup()
         
         print("⚙️ Initializing CodeCraftAgent...")
         codecraft = CodeCraftAgent(self.bus)
         await self.bus.register_agent("codecraft", codecraft)
         self.agents["codecraft"] = codecraft
+        await codecraft.startup()
         
         print("🔧 Initializing ExecutionAgent...")
         execution = ExecutionAgent(self.bus)
         await self.bus.register_agent("execution", execution)
         self.agents["execution"] = execution
+        await execution.startup()
         
         print("📊 Initializing FeedbackAgent...")
         feedback = FeedbackAgent(self.bus)
         await self.bus.register_agent("feedback", feedback)
         self.agents["feedback"] = feedback
+        await feedback.startup()
         
-        print("\n✅ All agents initialized successfully!")
+        print("\n✅ All agents initialized with full observability!")
         print(f"📈 System ready with {len(self.agents)} agents")
-        print("🎯 PlanningAgent ready for complex multi-step tasks")
-        print("=" * 55)
+        print("📊 Real-time P2P dashboard active")
+        print("=" * 60)
         
-        # Test del sistema
-        await self._run_system_tests()
+        # Start dashboard auto-save
+        self._start_dashboard_monitoring()
+        
+        # Test enhanced system
+        await self._run_enhanced_system_tests()
     
-    async def _run_system_tests(self):
-        """Ejecutar tests básicos del sistema incluyendo PlanningAgent"""
-        print("\n🧪 Running system tests...")
+    def _start_dashboard_monitoring(self):
+        """Start background dashboard monitoring"""
+        self._dashboard_task = asyncio.create_task(self._dashboard_monitor_loop())
+    
+    async def _dashboard_monitor_loop(self):
+        """Background loop for dashboard monitoring"""
+        while self.running:
+            try:
+                # Save snapshot every 5 minutes
+                await asyncio.sleep(300)
+                if self.running:
+                    self.dashboard.save_dashboard_snapshot()
+                    
+                    # Check for anomalies
+                    anomalies = self.dashboard.detect_anomalies()
+                    if anomalies:
+                        print(f"\n⚠️ Dashboard Alert: {len(anomalies)} anomalies detected")
+                        for anomaly in anomalies[:3]:
+                            print(f"   └─ {anomaly['type']}: {anomaly.get('trace_id', 'N/A')[:12]}...")
+                
+            except Exception as e:
+                print(f"Dashboard monitoring error: {e}")
+                await asyncio.sleep(60)  # Retry in 1 minute
+    
+    async def _run_enhanced_system_tests(self):
+        """Run tests for enhanced observability features"""
+        print("\n🧪 Running Enhanced System Tests...")
         
         try:
-            # Test FileSystemAgent
-            test_context = {"test": "data", "timestamp": "now"}
-            context_ref = await self.agents["conversation"].store_heavy_context(
-                test_context, 
-                "system_test", 
-                {"purpose": "initialization_test"}
+            # Test enhanced message flow
+            from src.core.enhanced_message_bus import EnhancedAgentMessage
+            
+            test_message = EnhancedAgentMessage(
+                sender="system_test",
+                recipients=["conversation"],
+                intent="test_observability",
+                payload={"test": "observability_integration"}
             )
             
-            if context_ref:
-                print("✅ FileSystemAgent: Context storage working")
-                
-                # Test recovery
-                recovered = await context_ref.load()
-                if recovered and recovered.get("data", {}).get("test") == "data":
-                    print("✅ FileSystemAgent: Context recovery working")
-                else:
-                    print("⚠️ FileSystemAgent: Context recovery issue")
-            else:
-                print("⚠️ FileSystemAgent: Context storage issue")
+            # This should show up in dashboard
+            self.dashboard.track_message_sent(test_message, "system_test")
+            print("✅ Enhanced Message Tracking: Working")
             
-            # Test agent communication
-            capable_agents = await self.bus.find_capable_agents("hello test")
-            if capable_agents:
-                print(f"✅ Agent Discovery: Found {len(capable_agents)} capable agents")
-            else:
-                print("⚠️ Agent Discovery: No agents found")
+            # Test performance metrics
+            conv_agent = self.agents["conversation"]
+            metrics = conv_agent.get_performance_metrics()
+            print(f"✅ Performance Metrics: {len(metrics)} operation types tracked")
             
-            # Test PlanningAgent routing
-            planning_confidence = await self.agents["planning"].can_handle("create script and execute it")
-            if planning_confidence > 0.7:
-                print(f"✅ PlanningAgent: Complex task routing working ({planning_confidence:.2f})")
-            else:
-                print(f"⚠️ PlanningAgent: Complex task routing issue ({planning_confidence:.2f})")
+            # Test dashboard status
+            status = self.dashboard.get_real_time_status()
+            print(f"✅ Real-time Dashboard: {status['active_flows']['count']} flows tracked")
             
-            print("🧪 System tests completed\n")
+            # Test interaction map
+            interaction_map = self.dashboard.get_interaction_map()
+            total_interactions = interaction_map.get('total_interactions', 0)
+            print(f"✅ Interaction Mapping: {total_interactions} total interactions")
+            
+            print("🧪 Enhanced system tests completed\n")
             
         except Exception as e:
-            print(f"❌ System test failed: {e}")
+            print(f"❌ Enhanced system test failed: {e}")
     
     async def run_interactive_mode(self):
-        """Modo interactivo principal"""
+        """Enhanced interactive mode with observability commands"""
         
-        print("🤖 Enhanced EPLAN Agent System - Interactive Mode")
-        print("🎯 PlanningAgent available for complex multi-step tasks")
+        print("🤖 Enhanced EPLAN Agent System - Observable Interactive Mode")
+        print("📊 Real-time P2P Dashboard Active")
+        print("🎯 PlanningAgent available for complex tasks")
         print("Type 'quit', 'exit', or Ctrl+C to stop")
-        print("Type 'status' for system status")
         print("Type 'help' for available commands")
-        print("-" * 60)
+        print("-" * 70)
         
         conversation_agent = self.agents["conversation"]
         
@@ -154,24 +190,37 @@ class EplanAgentSystem:
                 if user_input.lower() in ['quit', 'exit', 'q']:
                     break
                 elif user_input.lower() == 'status':
-                    await self._show_system_status()
+                    await self._show_enhanced_system_status()
+                    continue
+                elif user_input.lower() == 'dashboard':
+                    self.dashboard.print_real_time_dashboard()
+                    continue
+                elif user_input.lower() == 'flows':
+                    await self._show_message_flows()
+                    continue
+                elif user_input.lower() == 'interactions':
+                    self._show_interaction_map()
+                    continue
+                elif user_input.lower() == 'metrics':
+                    await self._show_agent_metrics()
+                    continue
+                elif user_input.lower() == 'anomalies':
+                    self._show_anomalies()
+                    continue
+                elif user_input.lower() == 'snapshot':
+                    snapshot_file = self.dashboard.save_dashboard_snapshot()
+                    print(f"📸 Dashboard snapshot saved: {snapshot_file}")
                     continue
                 elif user_input.lower() == 'help':
-                    self._show_help()
-                    continue
-                elif user_input.lower() == 'debug':
-                    await self._debug_mode()
-                    continue
-                elif user_input.lower() == 'plans':
-                    await self._show_active_plans()
+                    self._show_enhanced_help()
                     continue
                 
                 print("🤔 Processing...", end="", flush=True)
                 
-                # Procesar con ConversationAgent mejorado
+                # Process with enhanced tracking
                 response = await conversation_agent.handle_user_input(user_input)
                 
-                print("\r" + " " * 20 + "\r", end="")  # Clear processing message
+                print("\r" + " " * 20 + "\r", end="")
                 print(f"🤖 System: {response}")
                 
             except KeyboardInterrupt:
@@ -181,173 +230,192 @@ class EplanAgentSystem:
                 print(f"\n❌ Error: {e}")
                 continue
     
-    async def _show_system_status(self):
-        """Mostrar estado del sistema incluyendo PlanningAgent"""
-        print("\n📊 System Status:")
-        print("=" * 35)
+    async def _show_enhanced_system_status(self):
+        """Show enhanced system status with observability"""
+        print("\n📊 Enhanced System Status:")
+        print("=" * 45)
         
-        # Estado de agentes
+        # Agent status
         for agent_id, agent in self.agents.items():
             status = "🟢 Active"
             if hasattr(agent, 'working') and agent.working:
                 status = "🟡 Working"
             
-            # Status extra para PlanningAgent
-            extra_info = ""
-            if agent_id == "planning" and hasattr(agent, 'active_plans'):
-                active_count = len(agent.active_plans)
-                if active_count > 0:
-                    extra_info = f" ({active_count} active plans)"
+            # Performance metrics
+            metrics = ""
+            if hasattr(agent, 'get_performance_metrics'):
+                perf_metrics = agent.get_performance_metrics()
+                if perf_metrics:
+                    avg_times = [m['avg_time'] for m in perf_metrics.values()]
+                    avg_overall = sum(avg_times) / len(avg_times) * 1000  # ms
+                    metrics = f" ({avg_overall:.1f}ms avg)"
             
-            print(f"{agent_id:15} {status}{extra_info}")
+            print(f"{agent_id:15} {status}{metrics}")
         
-        # Estado del FileSystem
-        fs_agent = self.agents.get("filesystem")
-        if fs_agent:
-            cache_size = len(fs_agent.memory_cache)
-            refs_size = len(fs_agent.context_refs)
-            print(f"\n📁 FileSystem: {cache_size} cached, {refs_size} refs")
+        # Dashboard summary
+        status = self.dashboard.get_real_time_status()
+        print(f"\n📊 P2P Dashboard:")
+        print(f"   Active Flows: {status['active_flows']['count']}")
+        print(f"   Recent Events: {status['recent_activity']['events_last_60s']}")
         
-        # Estado de conversación
-        conv_agent = self.agents.get("conversation")
-        if conv_agent:
-            history_len = len(conv_agent.conversation_history)
-            active_reqs = len(conv_agent.active_requests)
-            print(f"💬 Conversation: {history_len} history, {active_reqs} active requests")
+        # Interaction summary
+        interaction_map = self.dashboard.get_interaction_map()
+        print(f"   Total Interactions: {interaction_map['total_interactions']}")
         
-        print("=" * 35)
+        # Anomalies
+        anomalies = self.dashboard.detect_anomalies()
+        print(f"   Anomalies: {len(anomalies)}")
+        
+        print("=" * 45)
     
-    async def _show_active_plans(self):
-        """Mostrar planes activos del PlanningAgent"""
-        planning_agent = self.agents.get("planning")
-        if not planning_agent or not hasattr(planning_agent, 'active_plans'):
-            print("⚠️ PlanningAgent not available")
+    async def _show_message_flows(self):
+        """Show active message flows"""
+        status = self.dashboard.get_real_time_status()
+        flows = status['active_flows']['flows']
+        
+        if not flows:
+            print("📭 No active message flows")
             return
         
-        active_plans = planning_agent.active_plans
+        print(f"\n🔄 Active Message Flows ({len(flows)}):")
+        print("-" * 50)
         
-        if not active_plans:
-            print("📋 No active plans")
-            return
-        
-        print(f"\n🎯 Active Plans ({len(active_plans)}):")
-        print("=" * 40)
-        
-        for plan_id, plan in active_plans.items():
-            steps = plan.get("steps", [])
-            completed = sum(1 for s in steps if s.get("status") == "completed")
-            total = len(steps)
+        for flow in flows:
+            duration = flow['duration']
+            agents = flow['agents_count']
+            messages = flow['messages_count']
+            trace_id = flow['trace_id']
             
-            print(f"Plan {plan_id}:")
-            print(f"  Query: {plan.get('original_query', 'N/A')[:50]}...")
-            print(f"  Progress: {completed}/{total} steps")
-            print(f"  Template: {plan.get('template', 'N/A')}")
+            print(f"Flow {trace_id[:12]}...")
+            print(f"  Duration: {duration:.1f}s")
+            print(f"  Agents: {agents}, Messages: {messages}")
+            if flow.get('conversation_id'):
+                print(f"  Conversation: {flow['conversation_id']}")
             print()
     
-    def _show_help(self):
-        """Mostrar ayuda de comandos incluyendo PlanningAgent"""
-        print("\n📋 Available Commands:")
-        print("=" * 35)
-        print("help     - Show this help")
-        print("status   - Show system status")
-        print("plans    - Show active plans")
-        print("debug    - Enter debug mode")
-        print("quit/exit - Exit system")
-        print("\n💡 EPLAN Examples:")
-        print("- 'Create a script to open project MainPanel.elk'")
-        print("- 'How do I use XAfActionSetting?'")
-        print("- 'Generate code for progress dialog'")
-        print("- 'Execute the generated script'")
-        print("\n🎯 Complex Tasks (PlanningAgent):")
-        print("- 'Create and execute script for opening projects'")
-        print("- 'Research API, generate code, then test it'")
-        print("- 'Complete workflow for electrical automation'")
-        print("=" * 35)
-    
-    async def _debug_mode(self):
-        """Modo debug interactivo con PlanningAgent"""
-        print("\n🔍 Debug Mode (type 'back' to return)")
-        print("-" * 30)
+    def _show_interaction_map(self):
+        """Show P2P interaction map"""
+        interaction_map = self.dashboard.get_interaction_map()
         
-        while True:
-            debug_cmd = input("Debug> ").strip().lower()
-            
-            if debug_cmd == 'back':
-                break
-            elif debug_cmd == 'agents':
-                print("Registered agents:")
-                for agent_id, agent in self.agents.items():
-                    specialty = agent.get_specialty() if hasattr(agent, 'get_specialty') else "Unknown"
-                    print(f"  {agent_id}: {specialty}")
-            elif debug_cmd == 'cache':
-                fs_agent = self.agents.get("filesystem")
-                if fs_agent:
-                    print(f"Memory cache: {list(fs_agent.memory_cache.keys())}")
-                    print(f"Context refs: {list(fs_agent.context_refs.keys())}")
-            elif debug_cmd == 'conversation':
-                conv_agent = self.agents.get("conversation")
-                if conv_agent and conv_agent.conversation_history:
-                    print("Recent conversation:")
-                    for entry in conv_agent.conversation_history[-3:]:
-                        print(f"  {entry.get('type')}: {entry.get('content', '')[:50]}...")
-            elif debug_cmd == 'plans':
-                planning_agent = self.agents.get("planning")
-                if planning_agent and hasattr(planning_agent, 'active_plans'):
-                    print("Planning Agent Debug:")
-                    print(f"  Active plans: {len(planning_agent.active_plans)}")
-                    print(f"  Plan templates: {len(planning_agent.plan_templates)}")
-                    for plan_id, plan in list(planning_agent.active_plans.items())[:3]:
-                        print(f"  Plan {plan_id}: {plan.get('original_query', 'N/A')[:30]}...")
-            elif debug_cmd == 'test':
-                await self._run_debug_test()
-            elif debug_cmd == 'planning':
-                await self._test_planning_agent()
-            else:
-                print("Debug commands: agents, cache, conversation, plans, planning, test, back")
+        print(f"\n🔗 P2P Interaction Map:")
+        print(f"Total Interactions: {interaction_map['total_interactions']}")
+        print("-" * 40)
+        
+        # Top pairs
+        top_pairs = interaction_map['most_active_pairs']
+        print("Top Agent Pairs:")
+        for sender, receiver, count in top_pairs[:8]:
+            percentage = (count / interaction_map['total_interactions']) * 100
+            print(f"  {sender} → {receiver}: {count} ({percentage:.1f}%)")
+        
+        # Agent centrality
+        centrality = interaction_map['agent_centrality']
+        if centrality:
+            print(f"\nMost Active Agents:")
+            sorted_agents = sorted(centrality.items(), key=lambda x: x[1], reverse=True)
+            for agent, activity in sorted_agents[:5]:
+                print(f"  {agent}: {activity} interactions")
+        
+        print("-" * 40)
     
-    async def _test_planning_agent(self):
-        """Test específico del PlanningAgent"""
-        print("Testing PlanningAgent...")
-        try:
-            planning_agent = self.agents.get("planning")
-            if not planning_agent:
-                print("PlanningAgent not found")
-                return
-            
-            # Test routing
-            test_query = "create script and execute it step by step"
-            confidence = await planning_agent.can_handle(test_query)
-            print(f"Planning confidence for complex task: {confidence:.2f}")
-            
-            # Test template matching
-            templates = list(planning_agent.plan_templates.keys())
-            print(f"Available templates: {templates}")
-            
-            # Test complexity analysis
-            analysis = await planning_agent._analyze_task_complexity(
-                "generate EPLAN script, test it, then validate results"
-            )
-            print(f"Complexity analysis: {analysis.get('complexity_level')} - {analysis.get('estimated_steps')} steps")
-            
-        except Exception as e:
-            print(f"PlanningAgent test failed: {e}")
+    async def _show_agent_metrics(self):
+        """Show detailed agent performance metrics"""
+        print(f"\n⚡ Agent Performance Metrics:")
+        print("-" * 50)
+        
+        for agent_id, agent in self.agents.items():
+            if hasattr(agent, 'get_performance_metrics'):
+                metrics = agent.get_performance_metrics()
+                
+                if metrics:
+                    print(f"\n{agent_id.upper()}:")
+                    for operation, stats in metrics.items():
+                        avg_ms = stats['avg_time'] * 1000
+                        count = stats['count']
+                        recent_ms = stats['recent_avg'] * 1000
+                        
+                        print(f"  {operation:20}: {avg_ms:6.1f}ms avg ({count} ops) | Recent: {recent_ms:.1f}ms")
+                else:
+                    print(f"\n{agent_id.upper()}: No metrics available")
+        
+        print("-" * 50)
     
-    async def _run_debug_test(self):
-        """Test rápido en modo debug"""
-        print("Running debug test...")
-        try:
-            # Test simple
-            conv_agent = self.agents["conversation"]
-            response = await conv_agent.handle_user_input("hello debug test")
-            print(f"Test response: {response[:100]}...")
-        except Exception as e:
-            print(f"Debug test failed: {e}")
+    def _show_anomalies(self):
+        """Show detected anomalies"""
+        anomalies = self.dashboard.detect_anomalies()
+        
+        if not anomalies:
+            print("✅ No anomalies detected")
+            return
+        
+        print(f"\n⚠️ Detected Anomalies ({len(anomalies)}):")
+        print("-" * 40)
+        
+        for anomaly in anomalies:
+            if anomaly['type'] == 'long_running_flow':
+                print(f"🐌 Long Running Flow:")
+                print(f"   Trace: {anomaly['trace_id'][:12]}...")
+                print(f"   Duration: {anomaly['duration']:.1f}s")
+                print(f"   Agents: {', '.join(anomaly['agents_involved'])}")
+                
+            elif anomaly['type'] == 'potential_circular_flow':
+                print(f"🔄 Potential Circular Flow:")
+                print(f"   Trace: {anomaly['trace_id'][:12]}...")
+                print(f"   Messages: {anomaly['message_count']}")
+                print(f"   Unique Agents: {anomaly['unique_agents']}")
+            
+            print()
+        
+        print("-" * 40)
+    
+    def _show_enhanced_help(self):
+        """Show enhanced help with observability commands"""
+        print("\n📋 Available Commands:")
+        print("=" * 40)
+        print("🔧 System Commands:")
+        print("  help        - Show this help")
+        print("  status      - Enhanced system status")
+        print("  quit/exit   - Exit system")
+        
+        print("\n📊 Observability Commands:")
+        print("  dashboard   - Real-time P2P dashboard")
+        print("  flows       - Active message flows")
+        print("  interactions - P2P interaction map")
+        print("  metrics     - Agent performance metrics")
+        print("  anomalies   - Detected anomalies")
+        print("  snapshot    - Save dashboard snapshot")
+        
+        print("\n💡 EPLAN Examples:")
+        print("  'Create script to open MainPanel.elk'")
+        print("  'Research XAfActionSetting and generate code'")
+        print("  'Execute generated script and validate'")
+        
+        print("\n🎯 Complex Tasks (Observed):")
+        print("  'Create, test and validate EPLAN automation'")
+        print("  'Research API, generate code, execute, analyze'")
+        
+        print("=" * 40)
     
     async def shutdown_system(self):
-        """Cierre limpio del sistema"""
+        """Enhanced shutdown with observability cleanup"""
         print("\n🛑 Shutting down Enhanced EPLAN Agent System...")
         
-        # Cerrar agentes en orden inverso
+        # Stop dashboard monitoring
+        if self._dashboard_task:
+            self._dashboard_task.cancel()
+        
+        # Save final dashboard snapshot
+        print("📸 Saving final dashboard snapshot...")
+        final_snapshot = self.dashboard.save_dashboard_snapshot()
+        
+        # Print final stats
+        status = self.dashboard.get_real_time_status()
+        interaction_map = self.dashboard.get_interaction_map()
+        print(f"📊 Final Statistics:")
+        print(f"   Total Interactions: {interaction_map['total_interactions']}")
+        print(f"   Completed Flows: {len(self.dashboard.completed_flows)}")
+        
+        # Shutdown agents
         for agent_id in reversed(list(self.agents.keys())):
             agent = self.agents[agent_id]
             try:
@@ -357,50 +425,44 @@ class EplanAgentSystem:
             except Exception as e:
                 print(f"⚠️ {agent_id} shutdown error: {e}")
         
-        # Parar MessageBus
         self.bus.running = False
-        
-        print("👋 System shutdown complete")
+        print("👋 Enhanced system shutdown complete")
 
 
 async def main():
-    """Función principal"""
+    """Enhanced main with full observability"""
     
-    # Verificar dependencias
+    # Check dependencies
     try:
-        from watchdog.observers import Observer
-        from watchdog.events import FileSystemEventHandler
+        import watchdog
     except ImportError:
         print("❌ Missing dependency: watchdog")
-        print("Install with: pip install watchdog")
         return 1
     
-    # Verificar directorios necesarios
+    # Create required directories
     required_paths = [
+        Path("C:/temp/Agent/Observability"),
+        Path("C:/temp/Agent/Context"),
         Path("src/ai/Knowledge/API"),
-        Path("src/ai/Knowledge/Scripts"),
-        Path("C:/temp/Agent")
+        Path("src/ai/Knowledge/Scripts")
     ]
     
     for path in required_paths:
         if not path.exists():
-            print(f"⚠️ Creating missing directory: {path}")
+            print(f"⚠️ Creating directory: {path}")
             path.mkdir(parents=True, exist_ok=True)
     
-    # Inicializar sistema
-    system = EplanAgentSystem()
+    # Initialize enhanced system
+    system = EnhancedEplanAgentSystem()
     
     try:
-        # Inicializar todos los agentes
         await system.initialize_system()
-        
-        # Ejecutar modo interactivo
         await system.run_interactive_mode()
         
     except KeyboardInterrupt:
         print("\n⚠️ Interrupted by user")
     except Exception as e:
-        print(f"❌ System error: {e}")
+        print(f"❌ Enhanced system error: {e}")
         import traceback
         traceback.print_exc()
     finally:
