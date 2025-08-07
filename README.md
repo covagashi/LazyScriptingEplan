@@ -56,6 +56,14 @@ broke others agents. So my desition is change the architecture.
 I did recreate the new agents so... the knowledge agent is broke again (RAG) and I need to improve this
 new system and findout a balance. 
 
+07/08/2025
+Right now I enhanced the agents and I havent test yet everything but probably is not working.
+I separated the RAG for improve the search of docs api and example scripts.
+There is a new agent for planning but doesnt act as coordinator.
+I am not sure if start testing or implement the fallback loop and add the learning from 
+feedback.
+
+
 ---
 
 ## 🔗 Resources
