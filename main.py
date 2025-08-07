@@ -1,4 +1,4 @@
-# main_enhanced.py
+# main.py
 import asyncio
 import signal
 import sys
@@ -13,9 +13,10 @@ from src.agents.knowledge_agent import EplanKnowledgeAgent
 from src.agents.codecraft_agent import CodeCraftAgent
 from src.agents.execution_agent import ExecutionAgent
 from src.agents.feedback_agent import FeedbackAgent
+from src.agents.planning_agent import PlanningAgent  # NEW
 
 class EplanAgentSystem:
-    """Sistema principal mejorado con FileSystemAgent"""
+    """Sistema principal mejorado con FileSystemAgent y PlanningAgent"""
     
     def __init__(self):
         self.bus = MessageBus()
@@ -34,8 +35,8 @@ class EplanAgentSystem:
     async def initialize_system(self):
         """Inicializar sistema con todos los agentes"""
         
-        print("🚀 Initializing Enhanced EPLAN Agent System")
-        print("=" * 50)
+        print("🚀 Initializing Enhanced EPLAN Agent System with Planning")
+        print("=" * 55)
         
         # 1. FileSystemAgent PRIMERO (otros dependen de él)
         print("📁 Initializing FileSystemAgent...")
@@ -44,14 +45,21 @@ class EplanAgentSystem:
         self.agents["filesystem"] = filesystem
         await filesystem.startup()
         
-        # 2. ConversationAgent mejorado
+        # 2. PlanningAgent SEGUNDO (coordina otros agentes)
+        print("🎯 Initializing PlanningAgent...")
+        planning = PlanningAgent(self.bus)
+        await self.bus.register_agent("planning", planning)
+        self.agents["planning"] = planning
+        await planning.startup()
+        
+        # 3. ConversationAgent mejorado
         print("💬 Initializing Enhanced ConversationAgent...")
         conversation = EnhancedConversationAgent(self.bus)
         await self.bus.register_agent("conversation", conversation)
         self.agents["conversation"] = conversation
         await conversation.startup()
         
-        # 3. Agentes especializados existentes
+        # 4. Agentes especializados existentes
         print("📚 Initializing KnowledgeAgent...")
         knowledge = EplanKnowledgeAgent(self.bus)
         await self.bus.register_agent("knowledge", knowledge)
@@ -74,13 +82,14 @@ class EplanAgentSystem:
         
         print("\n✅ All agents initialized successfully!")
         print(f"📈 System ready with {len(self.agents)} agents")
-        print("=" * 50)
+        print("🎯 PlanningAgent ready for complex multi-step tasks")
+        print("=" * 55)
         
         # Test del sistema
         await self._run_system_tests()
     
     async def _run_system_tests(self):
-        """Ejecutar tests básicos del sistema"""
+        """Ejecutar tests básicos del sistema incluyendo PlanningAgent"""
         print("\n🧪 Running system tests...")
         
         try:
@@ -111,6 +120,13 @@ class EplanAgentSystem:
             else:
                 print("⚠️ Agent Discovery: No agents found")
             
+            # Test PlanningAgent routing
+            planning_confidence = await self.agents["planning"].can_handle("create script and execute it")
+            if planning_confidence > 0.7:
+                print(f"✅ PlanningAgent: Complex task routing working ({planning_confidence:.2f})")
+            else:
+                print(f"⚠️ PlanningAgent: Complex task routing issue ({planning_confidence:.2f})")
+            
             print("🧪 System tests completed\n")
             
         except Exception as e:
@@ -120,10 +136,11 @@ class EplanAgentSystem:
         """Modo interactivo principal"""
         
         print("🤖 Enhanced EPLAN Agent System - Interactive Mode")
+        print("🎯 PlanningAgent available for complex multi-step tasks")
         print("Type 'quit', 'exit', or Ctrl+C to stop")
         print("Type 'status' for system status")
         print("Type 'help' for available commands")
-        print("-" * 50)
+        print("-" * 60)
         
         conversation_agent = self.agents["conversation"]
         
@@ -145,6 +162,9 @@ class EplanAgentSystem:
                 elif user_input.lower() == 'debug':
                     await self._debug_mode()
                     continue
+                elif user_input.lower() == 'plans':
+                    await self._show_active_plans()
+                    continue
                 
                 print("🤔 Processing...", end="", flush=True)
                 
@@ -162,16 +182,24 @@ class EplanAgentSystem:
                 continue
     
     async def _show_system_status(self):
-        """Mostrar estado del sistema"""
+        """Mostrar estado del sistema incluyendo PlanningAgent"""
         print("\n📊 System Status:")
-        print("=" * 30)
+        print("=" * 35)
         
         # Estado de agentes
         for agent_id, agent in self.agents.items():
             status = "🟢 Active"
             if hasattr(agent, 'working') and agent.working:
                 status = "🟡 Working"
-            print(f"{agent_id:15} {status}")
+            
+            # Status extra para PlanningAgent
+            extra_info = ""
+            if agent_id == "planning" and hasattr(agent, 'active_plans'):
+                active_count = len(agent.active_plans)
+                if active_count > 0:
+                    extra_info = f" ({active_count} active plans)"
+            
+            print(f"{agent_id:15} {status}{extra_info}")
         
         # Estado del FileSystem
         fs_agent = self.agents.get("filesystem")
@@ -187,14 +215,42 @@ class EplanAgentSystem:
             active_reqs = len(conv_agent.active_requests)
             print(f"💬 Conversation: {history_len} history, {active_reqs} active requests")
         
-        print("=" * 30)
+        print("=" * 35)
+    
+    async def _show_active_plans(self):
+        """Mostrar planes activos del PlanningAgent"""
+        planning_agent = self.agents.get("planning")
+        if not planning_agent or not hasattr(planning_agent, 'active_plans'):
+            print("⚠️ PlanningAgent not available")
+            return
+        
+        active_plans = planning_agent.active_plans
+        
+        if not active_plans:
+            print("📋 No active plans")
+            return
+        
+        print(f"\n🎯 Active Plans ({len(active_plans)}):")
+        print("=" * 40)
+        
+        for plan_id, plan in active_plans.items():
+            steps = plan.get("steps", [])
+            completed = sum(1 for s in steps if s.get("status") == "completed")
+            total = len(steps)
+            
+            print(f"Plan {plan_id}:")
+            print(f"  Query: {plan.get('original_query', 'N/A')[:50]}...")
+            print(f"  Progress: {completed}/{total} steps")
+            print(f"  Template: {plan.get('template', 'N/A')}")
+            print()
     
     def _show_help(self):
-        """Mostrar ayuda de comandos"""
+        """Mostrar ayuda de comandos incluyendo PlanningAgent"""
         print("\n📋 Available Commands:")
-        print("=" * 30)
+        print("=" * 35)
         print("help     - Show this help")
         print("status   - Show system status")
+        print("plans    - Show active plans")
         print("debug    - Enter debug mode")
         print("quit/exit - Exit system")
         print("\n💡 EPLAN Examples:")
@@ -202,10 +258,14 @@ class EplanAgentSystem:
         print("- 'How do I use XAfActionSetting?'")
         print("- 'Generate code for progress dialog'")
         print("- 'Execute the generated script'")
-        print("=" * 30)
+        print("\n🎯 Complex Tasks (PlanningAgent):")
+        print("- 'Create and execute script for opening projects'")
+        print("- 'Research API, generate code, then test it'")
+        print("- 'Complete workflow for electrical automation'")
+        print("=" * 35)
     
     async def _debug_mode(self):
-        """Modo debug interactivo"""
+        """Modo debug interactivo con PlanningAgent"""
         print("\n🔍 Debug Mode (type 'back' to return)")
         print("-" * 30)
         
@@ -230,10 +290,47 @@ class EplanAgentSystem:
                     print("Recent conversation:")
                     for entry in conv_agent.conversation_history[-3:]:
                         print(f"  {entry.get('type')}: {entry.get('content', '')[:50]}...")
+            elif debug_cmd == 'plans':
+                planning_agent = self.agents.get("planning")
+                if planning_agent and hasattr(planning_agent, 'active_plans'):
+                    print("Planning Agent Debug:")
+                    print(f"  Active plans: {len(planning_agent.active_plans)}")
+                    print(f"  Plan templates: {len(planning_agent.plan_templates)}")
+                    for plan_id, plan in list(planning_agent.active_plans.items())[:3]:
+                        print(f"  Plan {plan_id}: {plan.get('original_query', 'N/A')[:30]}...")
             elif debug_cmd == 'test':
                 await self._run_debug_test()
+            elif debug_cmd == 'planning':
+                await self._test_planning_agent()
             else:
-                print("Debug commands: agents, cache, conversation, test, back")
+                print("Debug commands: agents, cache, conversation, plans, planning, test, back")
+    
+    async def _test_planning_agent(self):
+        """Test específico del PlanningAgent"""
+        print("Testing PlanningAgent...")
+        try:
+            planning_agent = self.agents.get("planning")
+            if not planning_agent:
+                print("PlanningAgent not found")
+                return
+            
+            # Test routing
+            test_query = "create script and execute it step by step"
+            confidence = await planning_agent.can_handle(test_query)
+            print(f"Planning confidence for complex task: {confidence:.2f}")
+            
+            # Test template matching
+            templates = list(planning_agent.plan_templates.keys())
+            print(f"Available templates: {templates}")
+            
+            # Test complexity analysis
+            analysis = await planning_agent._analyze_task_complexity(
+                "generate EPLAN script, test it, then validate results"
+            )
+            print(f"Complexity analysis: {analysis.get('complexity_level')} - {analysis.get('estimated_steps')} steps")
+            
+        except Exception as e:
+            print(f"PlanningAgent test failed: {e}")
     
     async def _run_debug_test(self):
         """Test rápido en modo debug"""
@@ -307,14 +404,12 @@ async def main():
         import traceback
         traceback.print_exc()
     finally:
-        # Cierre limpio
         await system.shutdown_system()
     
     return 0
 
 
 if __name__ == "__main__":
-    # Configurar event loop para Windows si es necesario
     if sys.platform == "win32":
         asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
     
