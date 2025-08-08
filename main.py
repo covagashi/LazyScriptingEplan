@@ -16,6 +16,7 @@ from src.agents.execution_agent import ExecutionAgent
 from src.agents.feedback_agent import FeedbackAgent
 from src.agents.planning_agent import PlanningAgent
 from src.agents.validation_agent import ValidationAgent
+from src.core.memory_manager import AutoMemoryManager
 
 class EnhancedEplanAgentSystem:
     """Enhanced system with full P2P observability"""
@@ -25,12 +26,14 @@ class EnhancedEplanAgentSystem:
         self.agents = {}
         self.running = True
         
+        
         self.dashboard = self.bus.get_dashboard()
         
         self._dashboard_task = None
         
         signal.signal(signal.SIGINT, self._signal_handler)
         signal.signal(signal.SIGTERM, self._signal_handler)
+        
     
     def _signal_handler(self, signum, frame):
         """Handle signals for clean shutdown"""
@@ -42,6 +45,8 @@ class EnhancedEplanAgentSystem:
     
     async def initialize_system(self):
         """Initialize enhanced system with full observability"""
+        self.memory_manager = AutoMemoryManager(memory_limit_mb=800)
+        await self.memory_manager.start_monitoring()
         
         print("🚀 Initializing Enhanced EPLAN Agent System")
         print("📊 Full P2P Observability Dashboard Enabled")
@@ -439,6 +444,7 @@ class EnhancedEplanAgentSystem:
         print("  cache       - Cache statistics")
         print("  parallel    - Parallel processing stats")
 
+        print("  memory      - Memory usage stats")
                 
         print("=" * 40)
     

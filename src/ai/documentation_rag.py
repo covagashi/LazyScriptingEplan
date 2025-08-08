@@ -7,8 +7,9 @@ from typing import List, Dict, Any
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import pickle
+from .optimized_rag import OptimizedRAG  
 
-class DocumentationRAG:
+class DocumentationRAG(OptimizedRAG):
     """RAG specialized in EPLAN documentation, concepts and explanations"""
     
     def __init__(self):

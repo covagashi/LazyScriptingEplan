@@ -7,9 +7,9 @@ from typing import List, Dict, Any
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import pickle
-from ..ai.lazy_embeddings import LazyRAG
+from .optimized_rag import OptimizedRAG  
 
-class ScriptRAG(LazyRAG):
+class ScriptRAG(OptimizedRAG):
     """RAG specialized in C# EPLAN code and scripts"""
     
     def __init__(self):
