@@ -7,6 +7,9 @@ from ..ai import GeminiClient
 from ..core.message_bus import ObservableMessageBus, AgentMessage, ObservabilityDashboard
 from ..core.filesystem_helpers import FileSystemHelper, ContextReference
 from ..core.error_handling import ErrorHandler
+from ..core.intelligent_cache import cache_manager
+from ..core.parallel_processor import parallel_processor, batch_processor
+
 
 class MiniAgent(ABC):
     """Enhanced mini-agent with full observability support"""
@@ -16,6 +19,8 @@ class MiniAgent(ABC):
         self.bus = message_bus
         self.ai_client = GeminiClient()
         self.error_handler = ErrorHandler()
+        self.agent_cache = cache_manager.get_cache(agent_id)
+        self.parallel_processor = parallel_processor
         self.working = False
         self.message_queue = asyncio.Queue()
         

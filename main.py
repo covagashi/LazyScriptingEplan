@@ -214,6 +214,12 @@ class EnhancedEplanAgentSystem:
                     status = "enabled" if conv_agent.reflection_enabled else "disabled"
                     print(f"🧠 Observation-Action-Reflection loop {status}")
                     continue
+                elif user_input.lower() == 'cache':
+                    await self._show_cache_stats()
+                    continue
+                elif user_input.lower() == 'parallel':
+                    await self._show_parallel_stats()
+                    continue
                 
                 print("🤔 Processing...", end="", flush=True)
                 
@@ -229,6 +235,30 @@ class EnhancedEplanAgentSystem:
                 print(f"\n❌ Error: {e}")
                 continue
     
+    async def _show_cache_stats(self):
+        """Show cache statistics"""
+        from src.core.intelligent_cache import cache_manager
+        stats = cache_manager.get_global_stats()
+        
+        print(f"\n💾 Cache Statistics:")
+        print(f"Total entries: {stats['global_stats']['total_entries']}")
+        print(f"Total size: {stats['global_stats']['total_size_mb']:.1f}MB")
+        print(f"Global hit rate: {stats['global_stats']['global_hit_rate']:.1f}%")
+        
+        for agent_id, agent_stats in stats['agent_stats'].items():
+            print(f"  {agent_id}: {agent_stats['hit_rate']:.1f}% hit rate")
+
+    async def _show_parallel_stats(self):
+        """Show parallel processing statistics"""
+        from src.core.parallel_processor import parallel_processor
+        stats = parallel_processor.get_metrics()
+        
+        print(f"\n⚡ Parallel Processing:")
+        print(f"Success rate: {stats['success_rate']:.1f}%")
+        print(f"Concurrent peak: {stats['concurrent_peak']}")
+        print(f"Avg execution: {stats['average_execution_time']:.2f}s")
+
+
     async def _show_enhanced_system_status(self):
         """Show enhanced system status with observability"""
         print("\n📊 Enhanced System Status:")
@@ -404,6 +434,11 @@ class EnhancedEplanAgentSystem:
         print("\n🧠 Reflection Commands:")
         print("  reflection  - Show reflection history")
         print("  toggle-oar  - Toggle observation loop")
+
+        print("\n⚡ Performance Commands:")
+        print("  cache       - Cache statistics")
+        print("  parallel    - Parallel processing stats")
+
                 
         print("=" * 40)
     

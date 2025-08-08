@@ -7,6 +7,8 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
 from .error_handling import ErrorHandler
+from ..core.parallel_processor import batch_processor
+
 
 @dataclass
 class AgentMessage:
@@ -374,7 +376,7 @@ class ObservableMessageBus:
         self.agents: Dict[str, 'MiniAgent'] = {}
         self.running = True
         self.error_handler = ErrorHandler()
-        
+        self.batch_processor = batch_processor
         # Observability
         self.dashboard = ObservabilityDashboard()
         
@@ -390,13 +392,12 @@ class ObservableMessageBus:
         print(f"✅ Agent {agent_id} registered with observability")
     
     async def broadcast(self, message: AgentMessage):
-        """Enhanced broadcast with error handling"""
         for recipient in message.recipients:
             if recipient in self.agents:
-                success, result = await self.error_handler.safe_call(
-                    self.agents[recipient].receive_message,
-                    f"broadcast_{recipient}",
-                    message
+                await self.batch_processor.add_message_to_batch(
+                    recipient, 
+                    message, 
+                    self.agents[recipient].receive_message
                 )
                 
                 if not success:

@@ -408,7 +408,11 @@ class CodeCraftAgent(MiniAgent):
             await self._send_error_response("Failed to generate enhanced script", original_message)
     
     async def _create_script_content(self, query: str, examples: List) -> str:
-        """Create script content using examples"""
+        # Check cache first
+        cache_key = f"script_{query}_{len(examples)}"
+        cached = self.agent_cache.get(key=cache_key)
+        if cached:
+            return cached
         
         prompt = f"""Generate C# EPLAN script for: "{query}"
 
@@ -431,7 +435,13 @@ Generate only the C# code:"""
             )
             if not success:
                 return self._get_fallback_response(response)
-            return self._clean_generated_code(response)
+            
+            result = self._clean_generated_code(response)
+            
+            # Cache result for 30 minutes
+            self.agent_cache.put(result, key=cache_key, ttl=1800)
+            
+            return result
         except Exception as e:
             await self._log_structured_event({
                 "event_type": "script_generation_error",

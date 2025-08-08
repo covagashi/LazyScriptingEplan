@@ -21,5 +21,7 @@ black==24.4.2
 flake8==7.1.0
 
 # Additional utilities for enhanced functionality
-aiofiles==23.2.1  # Async file operations
-psutil==5.9.8      # System monitoring
+aiofiles==23.2.1  
+psutil==5.9.8      
+numpy==1.26.4
+faiss-cpu==1.7.4

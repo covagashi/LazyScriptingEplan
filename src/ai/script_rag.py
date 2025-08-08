@@ -7,48 +7,55 @@ from typing import List, Dict, Any
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import pickle
+from ..ai.lazy_embeddings import LazyRAG
 
-class ScriptRAG:
+class ScriptRAG(LazyRAG):
     """RAG specialized in C# EPLAN code and scripts"""
     
     def __init__(self):
+        super().__init__("scripts")
         self.scripts_path = Path("src/ai/Knowledge/Scripts")
         self.cache_path = Path("src/ai/cache/scripts")
         self.cache_path.mkdir(exist_ok=True, parents=True)
         
-        print("Loading code embedding model...")
-        try:
-            self.model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2', local_files_only=True)
-        except:
-            model_path = Path("C:/Users/cd.lopez/.cache/huggingface/transformers/sentence-transformers--all-MiniLM-L6-v2")
-            self.model = SentenceTransformer(str(model_path))
-        print("✓ Code model loaded")
-        
-        self.scripts = []
-        self.script_embeddings = None
-        self.script_index = {}
-        
+        print("✓ Lazy ScriptRAG initialized")
         self.load_scripts()
     
-    def load_scripts(self):
-        """Load and index only C# scripts"""
-        cache_file = self.cache_path / "script_cache.pkl"
+    async def load_scripts(self):
+        """Load scripts with lazy embeddings"""
+        if not self.scripts_path.exists():
+            return
         
-        if cache_file.exists():
+        scripts = []
+        for json_file in self.scripts_path.glob("*.json"):
             try:
-                with open(cache_file, 'rb') as f:
-                    cache_data = pickle.load(f)
-                    self.scripts = cache_data['scripts']
-                    self.script_embeddings = cache_data['embeddings']
-                    self.script_index = cache_data['index']
-                    print(f"Loaded {len(self.scripts)} scripts from cache")
-                    return
-            except:
-                print("Script cache corrupted, rebuilding...")
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    
+                script_examples = self._extract_code_examples(data)
+                
+                for example in script_examples:
+                    script_id = len(scripts)
+                    code_text = self._create_code_searchable_text(example)
+                    
+                    script_doc = {
+                        'id': script_id,
+                        'filename': json_file.name,
+                        'example': example,
+                        'searchable_text': code_text,  # Cambiado de 'code_text'
+                        'type': 'script'
+                    }
+                    scripts.append(script_doc)
+                    
+            except Exception as e:
+                print(f"Error loading script file {json_file.name}: {e}")
         
-        self._load_script_documents()
-        self._build_script_embeddings()
-        self._save_script_cache(cache_file)
+        await self.add_documents_lazy(scripts)
+        print(f"Loaded {len(scripts)} scripts with lazy embeddings")
+    
+    async def search_scripts(self, query: str, top_k: int = 3, threshold: float = 0.3):
+        return await self.search_async(query, top_k, threshold)
+
     
     def _load_script_documents(self):
         """Load only documents with C# scripts"""
