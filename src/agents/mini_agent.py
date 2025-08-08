@@ -352,6 +352,12 @@ class MiniAgent(ABC):
         
         await self.save_state()
     
+    async def start_observation_loop(self):
+        """Default empty observation loop - can be overridden by agents"""
+        # Default implementation does nothing
+        # ConversationAgent will override this with actual O-A-R loop
+        pass
+
     # === Scratchpad Operations (unchanged) ===
     async def init_scratchpad(self, initial_data: Dict = None):
         """Initialize personal scratchpad"""

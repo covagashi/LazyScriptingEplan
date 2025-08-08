@@ -36,17 +36,19 @@ class FileSystemHelper:
         request_id = f"store_{context_id}"
         self.pending_requests[request_id] = asyncio.Future()
         
-        await self.bus.broadcast({
-            "sender": self.agent_id,
-            "recipients": ["filesystem"],
-            "intent": "store_context",
-            "payload": {
+        from ..core.message_bus import AgentMessage
+        message = AgentMessage(
+            sender=self.agent_id,
+            recipients=["filesystem"],
+            intent="store_context",
+            payload={
                 "context_id": context_id,
                 "data": data,
                 "metadata": metadata or {},
                 "request_id": request_id
             }
-        })
+        )
+        await self.bus.broadcast(message)
         
         try:
             result = await asyncio.wait_for(self.pending_requests[request_id], timeout=5.0)
@@ -59,21 +61,131 @@ class FileSystemHelper:
         request_id = f"get_{context_id}"
         self.pending_requests[request_id] = asyncio.Future()
         
-        await self.bus.broadcast({
-            "sender": self.agent_id,
-            "recipients": ["filesystem"],
-            "intent": "get_context",
-            "payload": {
+        from ..core.message_bus import AgentMessage
+        message = AgentMessage(
+            sender=self.agent_id,
+            recipients=["filesystem"],
+            intent="get_context",
+            payload={
                 "context_id": context_id,
                 "request_id": request_id
             }
-        })
+        )
+        await self.bus.broadcast(message)
         
         try:
             result = await asyncio.wait_for(self.pending_requests[request_id], timeout=5.0)
             return result.get("context", {}).get("data") if result else None
         except asyncio.TimeoutError:
             return None
+    
+    
+    
+    async def create_scratchpad(self, initial_data: Dict = None):
+        """Create scratchpad for agent"""
+        request_id = f"create_scratchpad_{self.agent_id}"
+        self.pending_requests[request_id] = asyncio.Future()
+        
+        from ..core.message_bus import AgentMessage
+        message = AgentMessage(
+            sender=self.agent_id,
+            recipients=["filesystem"],
+            intent="create_scratchpad",
+            payload={
+                "agent_id": self.agent_id,
+                "data": initial_data or {},
+                "request_id": request_id
+            }
+        )
+        await self.bus.broadcast(message)
+        
+        try:
+            await asyncio.wait_for(self.pending_requests[request_id], timeout=5.0)
+        except asyncio.TimeoutError:
+            print(f"⚠️ Timeout creating scratchpad for {self.agent_id}")
+    
+    async def update_scratchpad(self, data: Dict, operation: str = "merge"):
+        """Update scratchpad data"""
+        request_id = f"update_scratchpad_{self.agent_id}"
+        self.pending_requests[request_id] = asyncio.Future()
+        
+        from ..core.message_bus import AgentMessage
+        message = AgentMessage(
+            sender=self.agent_id,
+            recipients=["filesystem"],
+            intent="update_scratchpad",
+            payload={
+                "agent_id": self.agent_id,
+                "data": data,
+                "operation": operation,
+                "request_id": request_id
+            }
+        )
+        await self.bus.broadcast(message)
+        
+        try:
+            await asyncio.wait_for(self.pending_requests[request_id], timeout=5.0)
+        except asyncio.TimeoutError:
+            print(f"⚠️ Timeout updating scratchpad for {self.agent_id}")
+    
+    async def load_agent_state(self) -> Optional[Dict]:
+        """Load agent state from filesystem"""
+        request_id = f"load_state_{self.agent_id}"
+        self.pending_requests[request_id] = asyncio.Future()
+        
+        from ..core.message_bus import AgentMessage
+        message = AgentMessage(
+            sender=self.agent_id,
+            recipients=["filesystem"],
+            intent="get_state",
+            payload={
+                "state_id": f"{self.agent_id}_state",
+                "request_id": request_id
+            }
+        )
+        await self.bus.broadcast(message)
+        
+        try:
+            result = await asyncio.wait_for(self.pending_requests[request_id], timeout=5.0)
+            return result.get("state", {}).get("data") if result else None
+        except asyncio.TimeoutError:
+            return None
+    
+    async def save_agent_state(self, state: Dict) -> bool:
+        """Save agent state to filesystem"""
+        request_id = f"save_state_{self.agent_id}"
+        self.pending_requests[request_id] = asyncio.Future()
+        
+        from ..core.message_bus import AgentMessage
+        message = AgentMessage(
+            sender=self.agent_id,
+            recipients=["filesystem"],
+            intent="save_state",
+            payload={
+                "state_id": f"{self.agent_id}_state",
+                "state": state,
+                "request_id": request_id
+            }
+        )
+        await self.bus.broadcast(message)
+        
+        try:
+            result = await asyncio.wait_for(self.pending_requests[request_id], timeout=5.0)
+            return result.get("success", False)
+        except asyncio.TimeoutError:
+            return False
+    
+    async def log_structured_event(self, event_data: Dict):
+        """Log structured event via filesystem agent"""
+        # Send to filesystem agent for logging
+        from ..core.message_bus import AgentMessage
+        message = AgentMessage(
+            sender=self.agent_id,
+            recipients=["filesystem"],
+            intent="log_event",
+            payload=event_data
+        )
+        await self.bus.broadcast(message)
     
     def handle_filesystem_response(self, message):
         """Handling FileSystemAgent responses"""
@@ -83,5 +195,13 @@ class FileSystemHelper:
                 self.pending_requests[request_id].set_result(message.payload)
             elif message.intent == "context_retrieved":
                 self.pending_requests[request_id].set_result(message.payload)
-            elif message.intent in ["context_error", "context_not_found"]:
+            elif message.intent == "scratchpad_created":
+                self.pending_requests[request_id].set_result({"success": True})
+            elif message.intent == "scratchpad_updated":
+                self.pending_requests[request_id].set_result({"success": True})
+            elif message.intent == "state_retrieved":
+                self.pending_requests[request_id].set_result(message.payload)
+            elif message.intent == "state_saved":
+                self.pending_requests[request_id].set_result(message.payload)
+            elif message.intent in ["context_error", "context_not_found", "scratchpad_error", "state_error", "state_not_found"]:
                 self.pending_requests[request_id].set_result({"success": False, "error": message.payload.get("error")})
