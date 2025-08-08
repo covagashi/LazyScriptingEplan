@@ -2,6 +2,7 @@
 import clr
 import sys
 import time
+import asyncio
 from typing import Dict, Any
 from .mini_agent import MiniAgent
 from ..core.message_bus import ObservableMessageBus, AgentMessage

@@ -24,6 +24,11 @@ class MiniAgent(ABC):
         self.working = False
         self.message_queue = asyncio.Queue()
         
+        # Initialize routing components safely
+        self.router = None
+        self.hybrid_handler = None
+        self._init_routing()
+        
         self.fs_helper = FileSystemHelper(agent_id, message_bus)
         self.context_cache = {}
         self.state_loaded = False
@@ -34,6 +39,17 @@ class MiniAgent(ABC):
         
         asyncio.create_task(self._load_persistent_state())
         print(f"🤖 {agent_id} initialized with observability support")
+    
+    def _init_routing(self):
+        """Initialize routing components - can be overridden by subclasses"""
+        try:
+            from ..core.agent_routing import DeterministicRouter, HybridCanHandle
+            self.router = DeterministicRouter()
+            self.hybrid_handler = HybridCanHandle(self.id, self.ai_client, self.router)
+        except ImportError:
+            print(f"⚠️ Routing components not available for {self.id}")
+            self.router = None
+            self.hybrid_handler = None
     
     def _set_observability_dashboard(self, dashboard: ObservabilityDashboard):
         """Inject observability dashboard (called by MessageBus)"""
@@ -83,7 +99,8 @@ class MiniAgent(ABC):
         await self.process_message_with_context(message, resolved_contexts)
         
         if self._should_complete_flow(message):
-            self.dashboard.complete_flow(message.trace_id, True)
+            if self.dashboard:
+                self.dashboard.complete_flow(message.trace_id, True)
         
         processing_time = time.time() - start_time
         self._update_processing_metrics(message.intent, processing_time)
@@ -233,6 +250,51 @@ class MiniAgent(ABC):
         
         return True
     
+    # === Enhanced can_handle with safe routing ===
+    async def can_handle(self, intent: str) -> float:
+        """Enhanced can_handle with safe routing fallback"""
+        
+        # Try hybrid handler if available
+        if self.hybrid_handler:
+            try:
+                confidence, method = await self.hybrid_handler.can_handle(intent, self.get_specialty())
+                return confidence
+            except Exception as e:
+                await self._log_structured_event({
+                    "event_type": "routing_error",
+                    "error": str(e),
+                    "fallback_to_basic": True
+                })
+        
+        # Basic fallback routing
+        return await self._basic_can_handle(intent)
+    
+    async def _basic_can_handle(self, intent: str) -> float:
+        """Basic fallback routing when hybrid handler fails"""
+        
+        # Simple keyword matching based on specialty
+        specialty_lower = self.get_specialty().lower()
+        intent_lower = intent.lower()
+        
+        # Count matching keywords
+        specialty_words = set(specialty_lower.split())
+        intent_words = set(intent_lower.split())
+        
+        matches = len(specialty_words.intersection(intent_words))
+        total_specialty_words = len(specialty_words)
+        
+        if total_specialty_words == 0:
+            return 0.3  # Default confidence
+        
+        base_confidence = min(0.8, matches / total_specialty_words)
+        
+        # Boost for agent-specific terms
+        agent_boost = 0.0
+        if self.id in intent_lower:
+            agent_boost = 0.1
+        
+        return min(1.0, base_confidence + agent_boost)
+    
     # === Abstract Methods ===
     @abstractmethod
     async def process_message_with_context(self, message: AgentMessage, contexts: Dict[str, Any]):
@@ -258,7 +320,7 @@ class MiniAgent(ABC):
             )
             await self.process_message_with_context(enhanced_message, {})
     
-    # === State Management (unchanged) ===
+    # === State Management ===
     async def _load_persistent_state(self):
         """Load persistent state at startup"""
         try:
@@ -288,7 +350,7 @@ class MiniAgent(ABC):
         current_state = await self._get_current_state()
         return await self.fs_helper.save_agent_state(current_state)
     
-    # === Context Management (unchanged) ===
+    # === Context Management ===
     async def store_heavy_context(self, data: Any, context_id: str = None, metadata: Dict = None) -> ContextReference:
         """Store heavy context and get light reference"""
         result = await self.fs_helper.store_context(data, context_id, metadata)
@@ -358,7 +420,7 @@ class MiniAgent(ABC):
         # ConversationAgent will override this with actual O-A-R loop
         pass
 
-    # === Scratchpad Operations (unchanged) ===
+    # === Scratchpad Operations ===
     async def init_scratchpad(self, initial_data: Dict = None):
         """Initialize personal scratchpad"""
         await self.fs_helper.create_scratchpad(initial_data)

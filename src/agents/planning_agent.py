@@ -5,12 +5,18 @@ import time
 from typing import Dict, List, Any, Optional
 from .mini_agent import MiniAgent
 from ..core.message_bus import ObservableMessageBus, AgentMessage
+from ..core.agent_routing import DeterministicRouter, HybridCanHandle
 
 class PlanningAgent(MiniAgent):
     """Enhanced Planning Agent with observability integration"""
     
     def __init__(self, message_bus: ObservableMessageBus):
         super().__init__("planning", message_bus)
+        
+        # Initialize router first
+        self.router = DeterministicRouter()
+        self.hybrid_handler = HybridCanHandle("planning", self.ai_client, self.router)
+        
         self.active_plans = {}
         
         self.planning_metrics = {
@@ -43,6 +49,7 @@ class PlanningAgent(MiniAgent):
             ]
         }
         
+        # Setup custom routing after router is initialized
         self._setup_custom_routing()
     
     def _setup_custom_routing(self):
@@ -61,7 +68,9 @@ class PlanningAgent(MiniAgent):
             ]
         }
         
-        self.router.agent_keywords["planning"] = custom_keywords
+        # Now router exists, so we can access it safely
+        if hasattr(self.router, 'agent_keywords'):
+            self.router.agent_keywords["planning"] = custom_keywords
     
     def get_specialty(self) -> str:
         return "Complex task decomposition, multi-step workflow planning, agent coordination"
@@ -123,6 +132,7 @@ class PlanningAgent(MiniAgent):
         complexity_score = sum(0.1 for indicator in complexity_indicators 
                              if indicator in intent_lower)
         
+        # Use hybrid handler safely
         base_confidence, method = await self.hybrid_handler.can_handle(intent, self.get_specialty())
         
         final_confidence = min(1.0, base_confidence + complexity_score)
@@ -210,7 +220,8 @@ Return JSON:"""
                 prompt
             )
             if not success:
-                return self._get_fallback_response(response)
+                return self._get_fallback_analysis()
+                
             analysis = json.loads(response.strip())
             
             await self.update_scratchpad("last_complexity_analysis", {
@@ -222,13 +233,17 @@ Return JSON:"""
             return analysis
         except Exception as e:
             await self.log_to_scratchpad(f"Complexity analysis error: {e}", "error")
-            return {
-                "complexity_level": "moderate",
-                "required_agents": ["knowledge", "codecraft"],
-                "task_type": "general",
-                "dependencies": [],
-                "estimated_steps": 2
-            }
+            return self._get_fallback_analysis()
+    
+    def _get_fallback_analysis(self) -> Dict:
+        """Fallback analysis when LLM fails"""
+        return {
+            "complexity_level": "moderate",
+            "required_agents": ["knowledge", "codecraft"],
+            "task_type": "general",
+            "dependencies": [],
+            "estimated_steps": 2
+        }
     
     def _find_template_match(self, query: str, analysis: Dict) -> Optional[str]:
         """Find matching plan template"""
@@ -308,7 +323,8 @@ Return JSON plan:
                 prompt
             )
             if not success:
-                return self._get_fallback_response(response)
+                return None
+                
             plan_data = json.loads(response.strip())
             
             custom_plan = {
@@ -333,10 +349,6 @@ Return JSON plan:
             await self.log_to_scratchpad(f"Custom plan generation error: {e}", "error")
             return None
     
-    def _get_fallback_response(self, error: str) -> str:
-        """Fallback response for this agent"""
-        return f"I'm temporarily unavailable ({error[:50]}...). Please try again."
-
     async def _store_plan(self, plan: Dict, query: str) -> str:
         """Store execution plan"""
         

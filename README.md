@@ -66,7 +66,7 @@ feedback.
 08/08/205
 In the end I decided to add everything and then start to debug. When everything is working I will
 try to add the self learn.
-
+Currently is half working,  there is a big leak of flows and FileSystemAgent can't handle everything.
 ---
 
 ## 🔗 Resources

@@ -30,6 +30,7 @@ class ValidationAgent(MiniAgent):
             "using System;"
         ]
         
+        # Setup custom routing after parent initialization
         self._setup_custom_routing()
     
     def _setup_custom_routing(self):
@@ -48,7 +49,8 @@ class ValidationAgent(MiniAgent):
             ]
         }
         
-        if hasattr(self, 'router') and hasattr(self.router, 'agent_keywords'):
+        # Safely set routing keywords if router is available
+        if self.router and hasattr(self.router, 'agent_keywords'):
             self.router.agent_keywords["validation"] = custom_keywords
     
     def get_specialty(self) -> str:
@@ -486,20 +488,5 @@ class ValidationAgent(MiniAgent):
                 })
                 return 0.9
         
-        if hasattr(self, 'hybrid_handler'):
-            base_confidence, method = await self.hybrid_handler.can_handle(intent, self.get_specialty())
-        else:
-            base_confidence = 0.3
-            method = "fallback"
-        
-        validation_terms = ["validate", "check", "verify", "syntax", "compile"]
-        boost = sum(0.05 for term in validation_terms if term in intent_lower)
-        
-        final_confidence = min(1.0, base_confidence + boost)
-        
-        await self.log_to_scratchpad(
-            f"Validation routing: {final_confidence:.2f} (base: {base_confidence:.2f}, boost: {boost:.2f})",
-            "routing"
-        )
-        
-        return final_confidence
+        # Use parent's enhanced can_handle method
+        return await super().can_handle(intent)
