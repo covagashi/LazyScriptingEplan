@@ -7,7 +7,6 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
 from .error_handling import ErrorHandler
-from ..core.parallel_processor import batch_processor
 
 
 @dataclass
@@ -376,7 +375,11 @@ class ObservableMessageBus:
         self.agents: Dict[str, 'MiniAgent'] = {}
         self.running = True
         self.error_handler = ErrorHandler()
+        
+        # Import batch_processor here to avoid circular import
+        from .parallel_processor import batch_processor
         self.batch_processor = batch_processor
+        
         # Observability
         self.dashboard = ObservabilityDashboard()
         
@@ -392,9 +395,16 @@ class ObservableMessageBus:
         print(f"✅ Agent {agent_id} registered with observability")
     
     async def broadcast(self, message: AgentMessage):
+        """Broadcast message with tracking"""
+        # Track sent
+        self.dashboard.track_message_sent(message, message.sender)
+        
+        # Broadcast to recipients
         for recipient in message.recipients:
             if recipient in self.agents:
-                await self.batch_processor.add_message_to_batch(
+                success, result = await self.error_handler.safe_call(
+                    self.batch_processor.add_message_to_batch,
+                    f"broadcast_to_{recipient}",
                     recipient, 
                     message, 
                     self.agents[recipient].receive_message
@@ -402,7 +412,7 @@ class ObservableMessageBus:
                 
                 if not success:
                     await self._handle_broadcast_error(recipient, message, result)
-
+    
     async def _handle_broadcast_error(self, recipient: str, message: AgentMessage, error: str):
         """Handle broadcast errors without breaking the flow"""
         print(f"⚠️ Agent {recipient} failed to receive message: {error[:100]}")
@@ -442,6 +452,21 @@ class ObservableMessageBus:
             processing_time = time.time() - start_time
             self.dashboard.track_message_processed(message, recipient, processing_time)
             raise
+    
+    async def find_capable_agents(self, query: str) -> List[str]:
+        """Find agents capable of handling a query"""
+        capable_agents = []
+        
+        for agent_id, agent in self.agents.items():
+            if hasattr(agent, 'can_handle'):
+                try:
+                    confidence = await agent.can_handle(query)
+                    if confidence > 0.5:  # Threshold
+                        capable_agents.append(agent_id)
+                except Exception as e:
+                    print(f"Error checking {agent_id} capability: {e}")
+        
+        return capable_agents
     
     def get_dashboard(self) -> ObservabilityDashboard:
         """Get observability dashboard"""

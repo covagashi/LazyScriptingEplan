@@ -63,6 +63,9 @@ There is a new agent for planning but doesnt act as coordinator.
 I am not sure if start testing or implement the fallback loop and add the learning from 
 feedback.
 
+08/08/205
+In the end I decided to add everything and then start to debug. When everything is working I will
+try to add the self learn.
 
 ---
 

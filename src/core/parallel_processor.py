@@ -1,10 +1,13 @@
 # src/core/parallel_processor.py
 import asyncio
 import time
-from typing import List, Dict, Any, Callable, Optional
+from typing import List, Dict, Any, Callable, Optional, TYPE_CHECKING
 from dataclasses import dataclass
 from concurrent.futures import ThreadPoolExecutor
-from ..core.message_bus import AgentMessage
+
+# Use TYPE_CHECKING to avoid circular import
+if TYPE_CHECKING:
+    from .message_bus import AgentMessage
 
 @dataclass
 class ParallelTask:
@@ -181,12 +184,11 @@ class MessageBatchProcessor:
     def __init__(self, max_batch_size: int = 10, batch_timeout: float = 0.5):
         self.max_batch_size = max_batch_size
         self.batch_timeout = batch_timeout
-        self.message_batches: Dict[str, List[AgentMessage]] = {}
+        self.message_batches: Dict[str, List] = {}  # Generic typing to avoid circular import
         self.batch_timers: Dict[str, asyncio.Task] = {}
         self.processor = ParallelProcessor(max_concurrent=8)
     
-    async def add_message_to_batch(self, agent_id: str, message: AgentMessage, 
-                                 process_func: Callable):
+    async def add_message_to_batch(self, agent_id: str, message, process_func: Callable):
         """Agregar mensaje a lote para procesamiento paralelo"""
         
         if agent_id not in self.message_batches:
@@ -232,10 +234,13 @@ class MessageBatchProcessor:
         # Crear tareas paralelas
         tasks = []
         for i, (message, process_func) in enumerate(batch):
+            # Get priority safely
+            priority = getattr(message, 'priority', 1)
+            
             task = ParallelTask(
                 task_id=f"{agent_id}_msg_{i}",
                 coroutine=process_func(message),
-                priority=message.priority,
+                priority=priority,
                 timeout=15.0
             )
             tasks.append(task)
