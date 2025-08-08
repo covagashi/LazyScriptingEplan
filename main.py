@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 import json
 
+
 # Import enhanced observability
 from src.core.message_bus import ObservableMessageBus
 from src.agents.mini_agent import MiniAgent
@@ -15,6 +16,7 @@ from src.agents.codecraft_agent import CodeCraftAgent
 from src.agents.execution_agent import ExecutionAgent
 from src.agents.feedback_agent import FeedbackAgent
 from src.agents.planning_agent import PlanningAgent
+from src.agents.validation_agent import ValidationAgent
 
 class EnhancedEplanAgentSystem:
     """Enhanced system with full P2P observability"""
@@ -46,28 +48,24 @@ class EnhancedEplanAgentSystem:
         print("📊 Full P2P Observability Dashboard Enabled")
         print("=" * 60)
         
-        # 1. FileSystemAgent first
         print("📁 Initializing FileSystemAgent...")
         filesystem = FileSystemAgent(self.bus)
         await self.bus.register_agent("filesystem", filesystem)
         self.agents["filesystem"] = filesystem
         await filesystem.startup()
         
-        # 2. PlanningAgent 
         print("🎯 Initializing PlanningAgent...")
         planning = PlanningAgent(self.bus)
         await self.bus.register_agent("planning", planning)
         self.agents["planning"] = planning
         await planning.startup()
         
-        # 3. Enhanced ConversationAgent
         print("💬 Initializing Enhanced ConversationAgent...")
         conversation = ConversationAgent(self.bus)
         await self.bus.register_agent("conversation", conversation)
         self.agents["conversation"] = conversation
         await conversation.startup()
         
-        # 4. Specialized agents
         print("📚 Initializing KnowledgeAgent...")
         knowledge = EplanKnowledgeAgent(self.bus)
         await self.bus.register_agent("knowledge", knowledge)
@@ -79,6 +77,12 @@ class EnhancedEplanAgentSystem:
         await self.bus.register_agent("codecraft", codecraft)
         self.agents["codecraft"] = codecraft
         await codecraft.startup()
+               
+        print("✅ Initializing ValidationAgent...")
+        validation = ValidationAgent(self.bus)
+        await self.bus.register_agent("validation", validation)
+        self.agents["validation"] = validation
+        await validation.startup()
         
         print("🔧 Initializing ExecutionAgent...")
         execution = ExecutionAgent(self.bus)
@@ -202,6 +206,15 @@ class EnhancedEplanAgentSystem:
                 elif user_input.lower() == 'help':
                     self._show_enhanced_help()
                     continue
+                elif user_input.lower() == 'reflection':
+                    await self._show_reflection_status()
+                    continue
+                elif user_input.lower() == 'toggle-oar':
+                    conv_agent = self.agents["conversation"]
+                    conv_agent.reflection_enabled = not conv_agent.reflection_enabled
+                    status = "enabled" if conv_agent.reflection_enabled else "disabled"
+                    print(f"🧠 Observation-Action-Reflection loop {status}")
+                    continue
                 
                 print("🤔 Processing...", end="", flush=True)
                 
@@ -250,6 +263,21 @@ class EnhancedEplanAgentSystem:
         
         print("=" * 45)
     
+    async def _show_reflection_status(self):
+        """Mostrar estado de reflexión"""
+        conv_agent = self.agents["conversation"]
+        
+        print(f"\n🧠 Reflection Status:")
+        print(f"Loop enabled: {conv_agent.reflection_enabled}")
+        print(f"Reflection history: {len(conv_agent.reflection_history)} entries")
+        
+        if conv_agent.reflection_history:
+            print("\nRecent reflections:")
+            for reflection in conv_agent.reflection_history[-3:]:
+                timestamp = time.strftime('%H:%M:%S', time.localtime(reflection['timestamp']))
+                action_type = reflection['action'].get('type', 'unknown')
+                print(f"  {timestamp}: {action_type}")
+
     async def _show_message_flows(self):
         """Show active message flows"""
         status = self.dashboard.get_real_time_status()
@@ -374,6 +402,10 @@ class EnhancedEplanAgentSystem:
         print("  'Create, test and validate EPLAN automation'")
         print("  'Research API, generate code, execute, analyze'")
         
+        print("\n🧠 Reflection Commands:")
+        print("  reflection  - Show reflection history")
+        print("  toggle-oar  - Toggle observation loop")
+                
         print("=" * 40)
     
     async def shutdown_system(self):

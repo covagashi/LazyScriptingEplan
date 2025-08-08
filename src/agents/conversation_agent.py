@@ -1,11 +1,12 @@
 # src/agents/conversation_agent.py
 import time
 import asyncio
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional 
 from .mini_agent import MiniAgent
 from ..core.message_bus import ObservableMessageBus, AgentMessage
 
-class EnhancedConversationAgent(MiniAgent):
+
+class ConversationAgent(MiniAgent):
     """Enhanced ConversationAgent with persistent context and conversation management"""
     
     def __init__(self, message_bus: ObservableMessageBus):
@@ -14,7 +15,11 @@ class EnhancedConversationAgent(MiniAgent):
         self.current_conversation = None
         self.user_response = None
         self.conversation_history = []
-        self.active_requests = {}  
+        self.active_requests = {} 
+        self.reflection_enabled = True
+        self.observation_interval = 30  
+        self.reflection_history = []
+        self._observation_task = None 
         
     async def _restore_from_state(self, state: Dict):
         """Restore conversation status"""
@@ -22,6 +27,8 @@ class EnhancedConversationAgent(MiniAgent):
         active_conv = state.get("current_conversation")
         if active_conv:
             self.current_conversation = active_conv
+        self.reflection_history = state.get("reflection_history", [])
+        self.reflection_enabled = state.get("reflection_enabled", True)
         
         await self.log_to_scratchpad(
             f"Restored {len(self.conversation_history)} conversation entries",
@@ -34,7 +41,9 @@ class EnhancedConversationAgent(MiniAgent):
         base_state.update({
             "conversation_history": self.conversation_history[-50:],  # last 50 entries
             "current_conversation": self.current_conversation,
-            "active_requests_count": len(self.active_requests)
+            "active_requests_count": len(self.active_requests),
+            "reflection_history": self.reflection_history[-20:],  
+            "reflection_enabled": self.reflection_enabled  
         })
         return base_state
     
@@ -312,6 +321,19 @@ Respond naturally considering the conversation context."""
         else:
             await self.process_message(message)
     
+    async def startup(self):
+        """Enhanced startup with O-A-R loop"""
+        await super().startup()  
+        await self.start_observation_loop()
+
+    async def shutdown(self):
+        """Enhanced shutdown with O-A-R cleanup"""
+        self.reflection_enabled = False
+        if self._observation_task:
+            self._observation_task.cancel()
+        await super().shutdown() 
+
+
     async def process_message(self, message: AgentMessage):
         """Basic message processing"""
         if message.sender == "filesystem":
@@ -323,6 +345,70 @@ Respond naturally considering the conversation context."""
             "message_processing"
         )
     
+    async def start_observation_loop(self):
+        """Start proactive loop"""
+        self._observation_task = asyncio.create_task(self._observation_action_reflection_loop())
+
+    async def _observation_action_reflection_loop(self):
+        """Main loop O-A-R"""
+        while self.reflection_enabled:
+            try:
+                # Observar
+                observations = await self._observe_system_state()
+                
+                # Decidir acción proactiva
+                if observations.get("needs_proactive_action"):
+                    action = await self._decide_proactive_action(observations)
+                    if action:
+                        await self._execute_proactive_action(action)
+                        await self._reflect_on_action(action, observations)
+                
+                await asyncio.sleep(self.observation_interval)
+            except Exception as e:
+                await self.log_to_scratchpad(f"O-A-R loop error: {e}", "error")
+
+    async def _observe_system_state(self) -> Dict:
+        """Observe system status"""
+        observations = {
+            "recent_conversations": len(self.conversation_history[-10:]),
+            "active_requests": len(self.active_requests),
+            "last_interaction_time": self.conversation_history[-1]["timestamp"] if self.conversation_history else 0,
+            "needs_proactive_action": False
+        }
+        
+        if time.time() - observations["last_interaction_time"] > 300:  # 5 min
+            observations["needs_proactive_action"] = True
+            observations["suggested_action"] = "offer_help"
+        
+        return observations
+
+    async def _decide_proactive_action(self, observations: Dict) -> Optional[Dict]:
+        """Decide on proactive action based on observations"""
+        if observations.get("suggested_action") == "offer_help":
+            return {
+                "type": "proactive_help",
+                "message": "I notice you haven't interacted in a while. Do you need help with EPLAN tasks?"
+            }
+        return None
+
+    async def _execute_proactive_action(self, action: Dict):
+        """Take proactive action"""
+        if action["type"] == "proactive_help":
+            print(f"\n🤖 {action['message']}")
+
+    async def _reflect_on_action(self, action: Dict, observations: Dict):
+        """Reflect on the results of the action"""
+        reflection = {
+            "timestamp": time.time(),
+            "action": action,
+            "observations": observations,
+            "outcome": "executed"  # Simplified
+        }
+        
+        self.reflection_history.append(reflection)
+        if len(self.reflection_history) > 50:
+            self.reflection_history.pop(0)
+
     async def can_handle(self, intent: str) -> float:
         """Enhanced capacity with conversational context"""
         

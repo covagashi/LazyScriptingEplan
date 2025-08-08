@@ -319,6 +319,7 @@ class MiniAgent(ABC):
             "event_type": "agent_started",
             "specialty": self.get_specialty()
         })
+        await self.start_observation_loop()
     
     async def shutdown(self):
         """Clean closing with observability"""

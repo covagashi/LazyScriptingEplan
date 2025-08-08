@@ -25,8 +25,9 @@ class PlanningAgent(MiniAgent):
             "script_creation_and_execution": [
                 {"step": 1, "agent": "knowledge", "action": "research_documentation"},
                 {"step": 2, "agent": "codecraft", "action": "generate_script"},
-                {"step": 3, "agent": "execution", "action": "execute_script"},
-                {"step": 4, "agent": "feedback", "action": "validate_results"}
+                {"step": 3, "agent": "validation", "action": "validate_script"},
+                {"step": 4, "agent": "execution", "action": "execute_script"},
+                {"step": 5, "agent": "feedback", "action": "validate_results"}
             ],
             "api_research_with_examples": [
                 {"step": 1, "agent": "knowledge", "action": "find_documentation"},

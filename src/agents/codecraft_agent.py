@@ -131,6 +131,8 @@ class CodeCraftAgent(MiniAgent):
                 
             elif message.intent == "planned_task":
                 await self._handle_planned_task(message, contexts)
+            elif message.intent == "execute_validated_script":
+                await self._handle_validated_script_execution(message, contexts)
                 
             else:
                 await self._log_structured_event({
@@ -170,6 +172,46 @@ class CodeCraftAgent(MiniAgent):
         else:
             await self._generate_script_direct(query, enriched_context, message)
     
+    async def _handle_validated_script_execution(self, message: AgentMessage, contexts: Dict[str, Any]):
+        validated_script = None
+        for context_data in contexts.values():
+            if "validated_script" in context_data:
+                validated_script = context_data["validated_script"]
+                break
+        
+        if validated_script:
+            temp_file = await self._save_validated_script(validated_script)
+            success, result = await self._execute_script("ValidatedScript")
+            
+            self.execution_metrics["total_executions"] += 1
+            if success:
+                self.execution_metrics["successful_executions"] += 1
+            else:
+                self.execution_metrics["failed_executions"] += 1
+            
+            await self._log_structured_event({
+                "event_type": "validated_script_execution_complete",
+                "success": success,
+                "result": result[:100] if result else None
+            })
+            
+            await self.send_message(
+                ["feedback"],
+                "analyze_execution",
+                {
+                    "success": success,
+                    "result": result,
+                    "action": "ValidatedScript",
+                    "validation_enhanced": True
+                },
+                parent_message=message
+            )
+            
+            if temp_file:
+                temp_file.unlink(missing_ok=True)
+
+
+
     async def _handle_knowledge_assisted_generation(self, message: AgentMessage, contexts: Dict[str, Any]):
         """Handle code generation with knowledge assistance"""
         
@@ -303,12 +345,11 @@ class CodeCraftAgent(MiniAgent):
                 response_content = f"✅ **Generated C# Script**\n\n```csharp\n{script_content}\n```\n\n📁 Saved to: `{script_file}`"
                 
                 await self.send_message(
-                    ["conversation"],
-                    "response_to_user",
+                    ["validation"],
+                    "validate_script",
                     {
-                        "content": response_content,
-                        "script_file": str(script_file),
-                        "source": "codecraft_agent"
+                        "script_content": script_content,
+                        "script_purpose": f"Generated for: {query}"
                     },
                     parent_message=original_message
                 )
@@ -344,13 +385,11 @@ class CodeCraftAgent(MiniAgent):
             response_content = f"✅ **Generated Enhanced C# Script** (with EPLAN documentation)\n\n```csharp\n{script_content}\n```\n\n📁 Saved to: `{script_file}`\n\n*Generated using EPLAN API documentation and code examples*"
             
             await self.send_message(
-                ["conversation"],
-                "response_to_user",
+                ["validation"],
+                "validate_script",
                 {
-                    "content": response_content,
-                    "script_file": str(script_file),
-                    "source": "codecraft_agent",
-                    "knowledge_assisted": True
+                    "script_content": script_content,
+                    "script_purpose": f"Generated for: {query}"
                 },
                 parent_message=original_message
             )
