@@ -424,7 +424,13 @@ Requirements:
 Generate only the C# code:"""
         
         try:
-            response = await self.ai_client.generate(prompt)
+            success, response = await self.error_handler.safe_call(
+                self.ai_client.generate,
+                f"{self.id}_ai_generation",
+                prompt
+            )
+            if not success:
+                return self._get_fallback_response(response)
             return self._clean_generated_code(response)
         except Exception as e:
             await self._log_structured_event({
@@ -450,7 +456,13 @@ Code Examples:
 Create a complete, well-documented C# script using the EPLAN API correctly:"""
         
         try:
-            response = await self.ai_client.generate(prompt)
+            success, response = await self.error_handler.safe_call(
+                self.ai_client.generate,
+                f"{self.id}_ai_generation",
+                prompt
+            )
+            if not success:
+                return self._get_fallback_response(response)
             return self._clean_generated_code(response)
         except Exception as e:
             await self._log_structured_event({
@@ -459,6 +471,10 @@ Create a complete, well-documented C# script using the EPLAN API correctly:"""
             })
             return None
     
+    def _get_fallback_response(self, error: str) -> str:
+        """Fallback response for this agent"""
+        return f"I'm temporarily unavailable ({error[:50]}...). Please try again."
+
     def _format_examples_for_prompt(self, examples: List) -> str:
         """Format script examples for prompt"""
         formatted = []

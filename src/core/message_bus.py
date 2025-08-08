@@ -6,6 +6,7 @@ from typing import Dict, List, Optional, Tuple, Set
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
+from .error_handling import ErrorHandler
 
 @dataclass
 class AgentMessage:
@@ -60,6 +61,7 @@ class ObservabilityDashboard:
     def __init__(self, output_path: Path = None):
         self.output_path = output_path or Path("C:/temp/Agent/Observability")
         self.output_path.mkdir(exist_ok=True, parents=True)
+        
         
         self.active_flows: Dict[str, MessageFlow] = {}
         self.completed_flows: List[MessageFlow] = []
@@ -371,6 +373,7 @@ class ObservableMessageBus:
     def __init__(self):
         self.agents: Dict[str, 'MiniAgent'] = {}
         self.running = True
+        self.error_handler = ErrorHandler()
         
         # Observability
         self.dashboard = ObservabilityDashboard()
@@ -387,35 +390,34 @@ class ObservableMessageBus:
         print(f"✅ Agent {agent_id} registered with observability")
     
     async def broadcast(self, message: AgentMessage):
-        """Enhanced broadcast with full tracking"""
-        # Track message sent
-        self.dashboard.track_message_sent(message, message.sender)
-        
-        # Store in pending
-        self.pending_messages[message.correlation_id] = {
-            "message": message,
-            "sent_at": time.time(),
-            "status": "pending",
-            "deliveries": {}
-        }
-        
-        # Deliver to recipients
-        delivery_tasks = []
+        """Enhanced broadcast with error handling"""
         for recipient in message.recipients:
             if recipient in self.agents:
-                task = asyncio.create_task(
-                    self._deliver_with_tracking(recipient, message)
+                success, result = await self.error_handler.safe_call(
+                    self.agents[recipient].receive_message,
+                    f"broadcast_{recipient}",
+                    message
                 )
-                delivery_tasks.append(task)
+                
+                if not success:
+                    await self._handle_broadcast_error(recipient, message, result)
+
+    async def _handle_broadcast_error(self, recipient: str, message: AgentMessage, error: str):
+        """Handle broadcast errors without breaking the flow"""
+        print(f"⚠️ Agent {recipient} failed to receive message: {error[:100]}")
         
-        # Wait for all deliveries
-        deliveries = await asyncio.gather(*delivery_tasks, return_exceptions=True)
-        
-        # Update status
-        successful = sum(1 for d in deliveries if not isinstance(d, Exception))
-        if message.correlation_id in self.pending_messages:
-            self.pending_messages[message.correlation_id]["status"] = (
-                "delivered" if successful == len(message.recipients) else "partial"
+        if message.sender != "conversation":
+            await self.agents["conversation"].receive_message(
+                AgentMessage(
+                    sender="system",
+                    recipients=["conversation"],
+                    intent="agent_error",
+                    payload={
+                        "failed_agent": recipient,
+                        "error": error,
+                        "original_message": message.intent
+                    }
+                )
             )
     
     async def _deliver_with_tracking(self, recipient: str, message: AgentMessage):

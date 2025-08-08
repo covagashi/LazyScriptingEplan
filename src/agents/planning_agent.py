@@ -204,7 +204,13 @@ Determine:
 Return JSON:"""
         
         try:
-            response = await self.ai_client.generate(prompt)
+            success, response = await self.error_handler.safe_call(
+                self.ai_client.generate,
+                f"{self.id}_ai_generation",
+                prompt
+            )
+            if not success:
+                return self._get_fallback_response(response)
             analysis = json.loads(response.strip())
             
             await self.update_scratchpad("last_complexity_analysis", {
@@ -296,7 +302,13 @@ Return JSON plan:
 }}"""
         
         try:
-            response = await self.ai_client.generate(prompt)
+            success, response = await self.error_handler.safe_call(
+                self.ai_client.generate,
+                f"{self.id}_ai_generation",
+                prompt
+            )
+            if not success:
+                return self._get_fallback_response(response)
             plan_data = json.loads(response.strip())
             
             custom_plan = {
@@ -321,6 +333,10 @@ Return JSON plan:
             await self.log_to_scratchpad(f"Custom plan generation error: {e}", "error")
             return None
     
+    def _get_fallback_response(self, error: str) -> str:
+        """Fallback response for this agent"""
+        return f"I'm temporarily unavailable ({error[:50]}...). Please try again."
+
     async def _store_plan(self, plan: Dict, query: str) -> str:
         """Store execution plan"""
         

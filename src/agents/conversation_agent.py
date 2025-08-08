@@ -121,7 +121,13 @@ Determine:
 Return JSON:"""
         
         try:
-            response = await self.ai_client.generate(prompt)
+            success, response = await self.error_handler.safe_call(
+                self.ai_client.generate,
+                f"{self.id}_ai_generation",
+                prompt
+            )
+            if not success:
+                return self._get_fallback_response(response)
             import json
             intent_data = json.loads(response.strip())
             
@@ -253,13 +259,23 @@ If this is:
 
 Respond naturally considering the conversation context."""
         
-        response = await self.ai_client.generate(prompt)
+        success, response = await self.error_handler.safe_call(
+            self.ai_client.generate,
+            f"{self.id}_ai_generation",
+            prompt
+        )
+        if not success:
+            return self._get_fallback_response(response)
         
         if "DELEGATE" in response:
             return None
         
         return response
     
+    def _get_fallback_response(self, error: str) -> str:
+        """Fallback response for this agent"""
+        return f"I'm temporarily unavailable ({error[:50]}...). Please try again."
+
     def _get_recent_conversation_context(self, limit: int = 5) -> str:
         """Get context of recent conversation"""
         if not self.conversation_history:

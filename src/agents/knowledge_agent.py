@@ -342,7 +342,13 @@ Documentation indicators: explain, what is, how to, documentation
 
 Answer YES or NO:"""
                 
-                response = await self.ai_client.generate(prompt)
+                success, response = await self.error_handler.safe_call(
+                    self.ai_client.generate,
+                    f"{self.id}_ai_generation",
+                    prompt
+                )
+                if not success:
+                    return self._get_fallback_response(response)
                 llm_suggests_code = "YES" in response.upper()
                 
             except Exception as e:
@@ -549,7 +555,13 @@ Available topics include EPLAN API actions, parameters, and electrical automatio
                 "routing_time": routing_time,
                 "intent": intent[:50]
             })
-            
+            success, response = await self.error_handler.safe_call(
+                self.ai_client.generate,
+                f"{self.id}_ai_generation",
+                prompt
+            )
+            if not success:
+                return self._get_fallback_response(response)
             return confidence
             
         except Exception as e:
@@ -574,8 +586,18 @@ My current capabilities: {await self._get_current_capabilities()}
 Return confidence 0.0-1.0:"""
         
         try:
-            response = await self.ai_client.generate(prompt)
+            success, response = await self.error_handler.safe_call(
+                self.ai_client.generate,
+                f"{self.id}_ai_generation",
+                prompt
+            )
+            if not success:
+                return self._get_fallback_response(response)
             confidence = float(response.strip())
             return max(0.0, min(1.0, confidence))
         except:
             return 0.3
+        
+    def _get_fallback_response(self, error: str) -> str:
+        """Fallback response for this agent"""
+        return f"I'm temporarily unavailable ({error[:50]}...). Please try again."

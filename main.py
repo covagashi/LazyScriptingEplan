@@ -6,7 +6,6 @@ from pathlib import Path
 import json
 
 
-# Import enhanced observability
 from src.core.message_bus import ObservableMessageBus
 from src.agents.mini_agent import MiniAgent
 from src.agents.filesystem_agent import FileSystemAgent

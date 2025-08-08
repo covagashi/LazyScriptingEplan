@@ -6,6 +6,7 @@ from typing import List, Dict, Any, Optional
 from ..ai import GeminiClient
 from ..core.message_bus import ObservableMessageBus, AgentMessage, ObservabilityDashboard
 from ..core.filesystem_helpers import FileSystemHelper, ContextReference
+from ..core.error_handling import ErrorHandler
 
 class MiniAgent(ABC):
     """Enhanced mini-agent with full observability support"""
@@ -14,6 +15,7 @@ class MiniAgent(ABC):
         self.id = agent_id
         self.bus = message_bus
         self.ai_client = GeminiClient()
+        self.error_handler = ErrorHandler()
         self.working = False
         self.message_queue = asyncio.Queue()
         
@@ -44,48 +46,63 @@ class MiniAgent(ABC):
             asyncio.create_task(self._process_queue())
     
     async def _process_queue(self):
-        """Process message queue with timing metrics"""
+        """Process message queue with robust error handling"""
         self.working = True
         try:
             while not self.message_queue.empty():
                 message = await self.message_queue.get()
                 
-                start_time = time.time()
+                success, result = await self.error_handler.safe_call(
+                    self._process_single_message,
+                    f"{self.id}_message_processing",
+                    message
+                )
                 
-                try:
-                    await self._log_structured_event({
-                        "event_type": "message_processing_start",
-                        "correlation_id": message.correlation_id,
-                        "intent": message.intent,
-                        "sender": message.sender
-                    })
-                    
-                    resolved_contexts = await self.resolve_context_refs(message)
-                    
-                    await self.process_message_with_context(message, resolved_contexts)
-                    
-                    if self._should_complete_flow(message):
-                        self.dashboard.complete_flow(message.trace_id, True)
-                    
-                except Exception as e:
-                    await self._log_structured_event({
-                        "event_type": "message_processing_error",
-                        "correlation_id": message.correlation_id,
-                        "error": str(e)
-                    })
-                    
-                    if self.dashboard:
-                        self.dashboard.complete_flow(message.trace_id, False)
-                    
-                    raise
-                finally:
-                    processing_time = time.time() - start_time
-                    self._update_processing_metrics(message.intent, processing_time)
-                    
-        except Exception as e:
-            await self.log_to_scratchpad(f"Queue processing error: {e}", "error")
+                if not success:
+                    await self._handle_processing_error(message, result)
         finally:
             self.working = False
+
+    async def _process_single_message(self, message: AgentMessage):
+        """Process single message with error tracking"""
+        start_time = time.time()
+        
+        await self._log_structured_event({
+            "event_type": "message_processing_start",
+            "correlation_id": message.correlation_id,
+            "intent": message.intent,
+            "sender": message.sender
+        })
+        
+        resolved_contexts = await self.resolve_context_refs(message)
+        await self.process_message_with_context(message, resolved_contexts)
+        
+        if self._should_complete_flow(message):
+            self.dashboard.complete_flow(message.trace_id, True)
+        
+        processing_time = time.time() - start_time
+        self._update_processing_metrics(message.intent, processing_time)
+
+    async def _handle_processing_error(self, message: AgentMessage, error: str):
+        """Handle processing errors gracefully"""
+        await self._log_structured_event({
+            "event_type": "message_processing_error",
+            "correlation_id": message.correlation_id,
+            "error": error,
+            "fallback_triggered": True
+        })
+        
+        # Graceful fallback
+        await self.send_message(
+            ["conversation"],
+            "response_to_user",
+            {
+                "content": f"I encountered an issue processing your request: {error[:100]}... Please try again.",
+                "source": self.id,
+                "status": "error_fallback"
+            },
+            parent_message=message
+        )
     
     def _should_complete_flow(self, message: AgentMessage) -> bool:
         """Determine if this message completes a flow"""
