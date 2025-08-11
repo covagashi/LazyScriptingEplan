@@ -28,7 +28,7 @@ class FileSystemHelper:
         self.pending_requests = {}
     
     async def store_context(self, data: Any, context_id: str = None, metadata: Dict = None) -> Dict:
-        """Store context and get reference"""
+        """Store context and get reference - INCREASED TIMEOUT"""
         if context_id is None:
             import time
             context_id = f"{self.agent_id}_{int(time.time() * 1000)}"

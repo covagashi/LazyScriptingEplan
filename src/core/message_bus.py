@@ -446,27 +446,33 @@ class ObservableMessageBus:
                 )
             )
     
+    
     async def _deliver_with_tracking(self, recipient: str, message: AgentMessage):
-        """Deliver message with observability tracking"""
+        """Deliver message with observability tracking - FIXED"""
         agent = self.agents[recipient]
         
         # Track received
         self.dashboard.track_message_received(message, recipient)
         
-        # Deliver and track processing time
-        start_time = time.time()
+        # Deliver using batch processor with proper error handling
         try:
-            await agent.receive_message(message)
-            processing_time = time.time() - start_time
+            success, result = await self.error_handler.safe_call(
+                self.batch_processor.add_message_to_batch,
+                f"deliver_to_{recipient}",
+                recipient, 
+                message, 
+                agent.receive_message
+            )
             
-            # Track processed
-            self.dashboard.track_message_processed(message, recipient, processing_time)
+            if not success:
+                await self._handle_delivery_error(recipient, message, result)
+                return False
             
             return True
+            
         except Exception as e:
-            processing_time = time.time() - start_time
-            self.dashboard.track_message_processed(message, recipient, processing_time)
-            raise
+            await self._handle_delivery_error(recipient, message, str(e))
+            return False
     
     async def find_capable_agents(self, query: str) -> List[str]:
         """Find agents capable of handling a query"""

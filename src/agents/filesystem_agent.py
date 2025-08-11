@@ -24,6 +24,7 @@ class FileSystemAgent(MiniAgent):
         self.outputs_path = self.base_path / "outputs"
         self.state_path = self.base_path / "state"
         
+        
         # File operation metrics
         self.fs_metrics = {
             "contexts_stored": 0,
@@ -35,16 +36,33 @@ class FileSystemAgent(MiniAgent):
         
         for path in [self.scratchpads_path, self.context_path, self.outputs_path, self.state_path]:
             path.mkdir(exist_ok=True)
-        
+
+
+        self.file_handler = FileSystemWatcher(self)        
         self.observer = Observer()
-        self.file_handler = FileSystemWatcher(self)
         self.observer.schedule(self.file_handler, str(self.base_path), recursive=True)
-        self.observer.start()
+
         
         self.memory_cache = {}
         self.context_refs = {}
         
         print(f"📁 Enhanced FileSystemAgent initialized at {self.base_path}")
+
+
+   
+    async def startup(self):
+        """Start with proper event loop setup"""
+        await super().startup()
+        
+        # Set the current event loop in the watcher
+        current_loop = asyncio.get_running_loop()
+        self.file_handler.set_event_loop(current_loop)
+        
+        # Now start the observer
+        self.observer.start()
+        print("📁 FileSystem observer started with proper event loop")
+
+
     
     def get_specialty(self) -> str:
         return "Persistent context storage, filesystem operations, agent scratchpads, observability logging"
@@ -726,11 +744,21 @@ class FileSystemWatcher(FileSystemEventHandler):
     
     def __init__(self, fs_agent):
         self.fs_agent = fs_agent
+        self.loop = None
         super().__init__()
     
+    def set_event_loop(self, loop):
+        """Set the main event loop reference"""
+        self.loop = loop
+
     def on_created(self, event):
-        if not event.is_directory and event.src_path.endswith('.json'):            
-            asyncio.create_task(self._notify_file_created(event.src_path))
+        if not event.is_directory and event.src_path.endswith('.json'):
+            # Use thread-safe way to schedule coroutine
+            if self.loop and not self.loop.is_closed():
+                asyncio.run_coroutine_threadsafe(
+                    self._notify_file_created(event.src_path), 
+                    self.loop
+                )
     
     def on_modified(self, event):
         if not event.is_directory and event.src_path.endswith('.json'):           
@@ -742,8 +770,11 @@ class FileSystemWatcher(FileSystemEventHandler):
     
     async def _notify_file_created(self, file_path: str):
         """Notify agents about new files"""
-        await self.fs_agent.send_message(
-            ["conversation", "feedback"],  
-            "file_created",
-            {"file_path": file_path, "timestamp": time.time()}
-        )
+        try:
+            await self.fs_agent.send_message(
+                ["conversation", "feedback"],  
+                "file_created",
+                {"file_path": file_path, "timestamp": time.time()}
+            )
+        except Exception as e:
+            print(f"Error notifying file creation: {e}")

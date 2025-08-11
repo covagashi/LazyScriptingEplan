@@ -188,34 +188,40 @@ class MessageBatchProcessor:
         self.batch_timers: Dict[str, asyncio.Task] = {}
         self.processor = ParallelProcessor(max_concurrent=8)
     
-    async def add_message_to_batch(self, agent_id: str, message, process_func: Callable):
-        """Agregar mensaje a lote para procesamiento paralelo"""
+    async def add_message_to_batch(self, agent_id: str, message, process_func):
+        """FIXED: Proper async handling"""
         
         if agent_id not in self.message_batches:
             self.message_batches[agent_id] = []
         
         self.message_batches[agent_id].append((message, process_func))
         
-        # Procesar si alcanza el tamaño máximo
+        # Process if reaches max size
         if len(self.message_batches[agent_id]) >= self.max_batch_size:
             await self._process_batch(agent_id)
         else:
-            # Configurar timer para procesamiento automático
-            if agent_id not in self.batch_timers:
-                self.batch_timers[agent_id] = asyncio.create_task(
-                    self._batch_timer(agent_id)
-                )
+            # Cancel existing timer
+            if agent_id in self.batch_timers:
+                self.batch_timers[agent_id].cancel()
+            
+            # Set new timer
+            self.batch_timers[agent_id] = asyncio.create_task(
+                self._batch_timer(agent_id)
+            )
     
     async def _batch_timer(self, agent_id: str):
-        """Timer para procesamiento automático del lote"""
-        await asyncio.sleep(self.batch_timeout)
-        
-        if agent_id in self.message_batches and self.message_batches[agent_id]:
-            await self._process_batch(agent_id)
-        
-        # Limpiar timer
-        if agent_id in self.batch_timers:
-            del self.batch_timers[agent_id]
+        """Timer for automatic batch processing"""
+        try:
+            await asyncio.sleep(self.batch_timeout)
+            
+            if agent_id in self.message_batches and self.message_batches[agent_id]:
+                await self._process_batch(agent_id)
+        except asyncio.CancelledError:
+            pass  # Normal cancellation
+        finally:
+            # Clean up timer reference
+            if agent_id in self.batch_timers:
+                del self.batch_timers[agent_id]
     
     async def _process_batch(self, agent_id: str):
         """Procesar lote de mensajes en paralelo"""

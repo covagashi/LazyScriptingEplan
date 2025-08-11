@@ -1,4 +1,4 @@
-# main.py
+# main.py - FIXED VERSION mantiene tu estructura original
 import asyncio
 import signal
 import sys
@@ -15,8 +15,16 @@ from src.agents.execution_agent import ExecutionAgent
 from src.agents.feedback_agent import FeedbackAgent
 from src.core.memory_manager import AutoMemoryManager
 
-# Import fixed agents from artifacts
-import importlib.util
+# FIXES: Import agents that need fixes
+try:
+    from src.agents.planning_agent import PlanningAgent
+except ImportError:
+    PlanningAgent = None
+
+try:
+    from src.agents.validation_agent import ValidationAgent
+except ImportError:
+    ValidationAgent = None
 
 def load_agent_from_artifact(artifact_name, class_name):
     """Load agent class from artifact file"""
@@ -56,7 +64,7 @@ class FixedEplanAgentSystem:
             self.dashboard.save_dashboard_snapshot()
     
     async def initialize_system(self):
-        """Initialize system with fixed agents"""
+        """Initialize system with fixed agents - SEQUENCED STARTUP"""
         self.memory_manager = AutoMemoryManager(memory_limit_mb=800)
         await self.memory_manager.start_monitoring()
         
@@ -64,9 +72,12 @@ class FixedEplanAgentSystem:
         print("🔧 Router initialization fixes applied")
         print("=" * 60)
         
-        # Initialize agents in dependency order
+        # FIX 1: Initialize agents in dependency order with delays
         await self._initialize_core_agents()
+        await asyncio.sleep(1.0)  # Let core agents settle
+        
         await self._initialize_specialized_agents()
+        await asyncio.sleep(0.5)  # Final settling time
         
         print("\n✅ All agents initialized with fixed routing!")
         print(f"📈 System ready with {len(self.agents)} agents")
@@ -74,76 +85,117 @@ class FixedEplanAgentSystem:
         print("=" * 60)
         
         self._start_dashboard_monitoring()
-        await self._run_system_tests()
+        
+        # FIX 2: Optional system tests (not blocking)
+        try:
+            await asyncio.wait_for(self._run_system_tests(), timeout=10.0)
+        except asyncio.TimeoutError:
+            print("⚠️ System tests timed out, continuing...")
     
-    async def periodic_cleanup():
+    async def periodic_cleanup(self):
         """Background task para limpiar flows obsoletos"""
-        while True:
-            await asyncio.sleep(60)  
-            cleaned = self.dashboard.cleanup_stale_flows(300) 
-            if cleaned > 0:
-                print(f"🧹 Cleaned {cleaned} stale flows")
-
+        while self.running:
+            try:
+                await asyncio.sleep(60)  
+                if self.running:
+                    cleaned = self.dashboard.cleanup_stale_flows(300) 
+                    if cleaned > 0:
+                        print(f"🧹 Cleaned {cleaned} stale flows")
+            except Exception as e:
+                print(f"Cleanup error: {e}")
 
     async def _initialize_core_agents(self):
-        """Initialize core infrastructure agents"""
+        """Initialize core infrastructure agents - FIXED ORDER"""
         
+        # FIX 3: FileSystem MUST be first and fully ready
         print("📁 Initializing FileSystemAgent...")
         filesystem = FileSystemAgent(self.bus)
-        await self._register_agent("filesystem", filesystem)
+        await self._register_agent_with_retry("filesystem", filesystem)
+        await asyncio.sleep(0.5)  # Let filesystem fully initialize
         
         print("💬 Initializing ConversationAgent...")
         conversation = ConversationAgent(self.bus)
-        await self._register_agent("conversation", conversation)
+        await self._register_agent_with_retry("conversation", conversation)
     
     async def _initialize_specialized_agents(self):
         """Initialize specialized agents with proper error handling"""
         
-        # Try to load fixed PlanningAgent
+        # FIX 4: PlanningAgent with safe import
         print("🎯 Initializing PlanningAgent...")
-        PlanningAgent = load_agent_from_artifact("fixed_planning_agent", "PlanningAgent")
         if PlanningAgent:
-            planning = PlanningAgent(self.bus)
-            await self._register_agent("planning", planning)
+            try:
+                planning = PlanningAgent(self.bus)
+                await self._register_agent_with_retry("planning", planning)
+            except Exception as e:
+                print(f"⚠️ PlanningAgent failed, continuing: {e}")
         else:
-            print("⚠️ Using fallback for PlanningAgent")
-            # Could add a basic fallback here
+            print("⚠️ PlanningAgent not available, skipping...")
         
         print("📚 Initializing KnowledgeAgent...")
         knowledge = EplanKnowledgeAgent(self.bus)
-        await self._register_agent("knowledge", knowledge)
+        await self._register_agent_with_retry("knowledge", knowledge)
         
+        # FIX 5: CodeCraft with async loading fix
         print("⚙️ Initializing CodeCraftAgent...")
         codecraft = CodeCraftAgent(self.bus)
-        await self._register_agent("codecraft", codecraft)
+        # Ensure ScriptRAG is properly loaded
+        if hasattr(codecraft, 'script_rag') and hasattr(codecraft.script_rag, 'ensure_loaded'):
+            try:
+                await codecraft.script_rag.ensure_loaded()
+            except Exception as e:
+                print(f"⚠️ ScriptRAG loading issue (non-critical): {e}")
+        await self._register_agent_with_retry("codecraft", codecraft)
         
-        # Try to load fixed ValidationAgent
+        # FIX 6: ValidationAgent with safe import
         print("✅ Initializing ValidationAgent...")
-        ValidationAgent = load_agent_from_artifact("fixed_validation_agent", "ValidationAgent")
         if ValidationAgent:
-            validation = ValidationAgent(self.bus)
-            await self._register_agent("validation", validation)
+            try:
+                validation = ValidationAgent(self.bus)
+                await self._register_agent_with_retry("validation", validation)
+            except Exception as e:
+                print(f"⚠️ ValidationAgent failed, continuing: {e}")
         else:
-            print("⚠️ ValidationAgent artifact not found, skipping...")
+            print("⚠️ ValidationAgent not available, skipping...")
         
         print("🔧 Initializing ExecutionAgent...")
-        execution = ExecutionAgent(self.bus)
-        await self._register_agent("execution", execution)
+        try:
+            execution = ExecutionAgent(self.bus)
+            await self._register_agent_with_retry("execution", execution)
+        except Exception as e:
+            print(f"⚠️ ExecutionAgent failed (EPLAN not available?): {e}")
         
         print("📊 Initializing FeedbackAgent...")
         feedback = FeedbackAgent(self.bus)
-        await self._register_agent("feedback", feedback)
+        await self._register_agent_with_retry("feedback", feedback)
     
-    async def _register_agent(self, agent_id: str, agent):
-        """Register agent with enhanced error handling"""
-        try:
-            await self.bus.register_agent(agent_id, agent)
-            self.agents[agent_id] = agent
-            await agent.startup()
-            print(f"  ✅ {agent_id} registered and started")
-        except Exception as e:
-            print(f"  ❌ {agent_id} failed to register: {e}")
-            # Continue with other agents instead of failing completely
+    async def _register_agent_with_retry(self, agent_id: str, agent, max_retries: int = 3):
+        """FIX 7: Register agent with retry logic for robustness"""
+        
+        for attempt in range(max_retries):
+            try:
+                await self.bus.register_agent(agent_id, agent)
+                self.agents[agent_id] = agent
+                
+                # FIX 8: Startup with timeout to prevent hanging
+                startup_task = asyncio.create_task(agent.startup())
+                await asyncio.wait_for(startup_task, timeout=15.0)
+                
+                print(f"  ✅ {agent_id} registered and started")
+                return
+                
+            except asyncio.TimeoutError:
+                print(f"  ⚠️ {agent_id} startup timeout (attempt {attempt + 1}/{max_retries})")
+                if attempt == max_retries - 1:
+                    print(f"  ❌ {agent_id} failed after {max_retries} attempts")
+                else:
+                    await asyncio.sleep(1.0)  # Wait before retry
+                    
+            except Exception as e:
+                print(f"  ❌ {agent_id} registration error: {e}")
+                if attempt == max_retries - 1:
+                    print(f"  ❌ {agent_id} failed permanently")
+                else:
+                    await asyncio.sleep(0.5)
     
     def _start_dashboard_monitoring(self):
         """Start background dashboard monitoring"""
@@ -168,7 +220,7 @@ class FixedEplanAgentSystem:
                 await asyncio.sleep(60)  # Retry in 1 minute
     
     async def _run_system_tests(self):
-        """Run basic system tests"""
+        """Run basic system tests - FIX 9: Non-blocking with timeout"""
         print("\n🧪 Running System Verification Tests...")
         
         try:
@@ -181,12 +233,18 @@ class FixedEplanAgentSystem:
             routing_working = 0
             for query in test_queries:
                 try:
-                    capable_agents = await self.bus.find_capable_agents(query)
+                    # FIX 10: Timeout per query to prevent hanging
+                    capable_agents = await asyncio.wait_for(
+                        self.bus.find_capable_agents(query), 
+                        timeout=2.0
+                    )
                     if capable_agents:
                         routing_working += 1
                         print(f"✅ '{query}' -> {capable_agents}")
                     else:
                         print(f"⚠️ '{query}' -> No capable agents")
+                except asyncio.TimeoutError:
+                    print(f"⏱️ '{query}' -> Timeout")
                 except Exception as e:
                     print(f"❌ '{query}' -> Error: {e}")
             
@@ -196,7 +254,7 @@ class FixedEplanAgentSystem:
             status = self.dashboard.get_real_time_status()
             print(f"✅ Dashboard: {status['active_flows']['count']} flows, {len(self.agents)} agents")
             
-            # Test 3: Message flow
+            # Test 3: Message flow (lightweight test)
             from src.core.message_bus import AgentMessage
             test_message = AgentMessage(
                 sender="system_test",
@@ -225,6 +283,7 @@ class FixedEplanAgentSystem:
         
         if "conversation" not in self.agents:
             print("⚠️ ConversationAgent not available, using basic mode")
+            await self._run_basic_mode()
             return
         
         conversation_agent = self.agents["conversation"]
@@ -257,9 +316,18 @@ class FixedEplanAgentSystem:
                 print("🤔 Processing...", end="", flush=True)
                 
                 try:
-                    response = await conversation_agent.handle_user_input(user_input)
+                    # FIX 11: Timeout user queries to prevent hanging
+                    response_task = asyncio.create_task(
+                        conversation_agent.handle_user_input(user_input)
+                    )
+                    response = await asyncio.wait_for(response_task, timeout=30.0)
+                    
                     print("\r" + " " * 20 + "\r", end="")
                     print(f"🤖 System: {response}")
+                    
+                except asyncio.TimeoutError:
+                    print("\r" + " " * 20 + "\r", end="")
+                    print("⏱️ Request timed out. The system may be busy. Try again.")
                 except Exception as e:
                     print("\r" + " " * 20 + "\r", end="")
                     print(f"⚠️ Processing error: {e}")
@@ -271,6 +339,26 @@ class FixedEplanAgentSystem:
             except Exception as e:
                 print(f"\n❌ Error: {e}")
                 continue
+    
+    async def _run_basic_mode(self):
+        """FIX 12: Basic mode when ConversationAgent fails"""
+        print("🔧 Running in basic mode...")
+        
+        while self.running:
+            try:
+                user_input = input("\nBasic> ").strip()
+                
+                if user_input.lower() in ['quit', 'exit', 'q']:
+                    break
+                elif user_input.lower() == 'agents':
+                    self._show_agent_status()
+                elif user_input.lower() == 'dashboard':
+                    self.dashboard.print_real_time_dashboard()
+                else:
+                    print("Basic mode: Try 'agents', 'dashboard', or 'quit'")
+                    
+            except KeyboardInterrupt:
+                break
     
     def _show_agent_status(self):
         """Show status of all agents"""
@@ -336,27 +424,53 @@ class FixedEplanAgentSystem:
         """Enhanced shutdown with proper cleanup"""
         print("\n🛑 Shutting down Fixed EPLAN Agent System...")
         
+        self.running = False
+        
         if self._dashboard_task:
             self._dashboard_task.cancel()
+            try:
+                await self._dashboard_task
+            except asyncio.CancelledError:
+                pass
         
         print("📸 Saving final dashboard snapshot...")
-        final_snapshot = self.dashboard.save_dashboard_snapshot()
+        try:
+            final_snapshot = self.dashboard.save_dashboard_snapshot()
+        except Exception as e:
+            print(f"⚠️ Dashboard snapshot error: {e}")
         
-        # Shutdown agents in reverse order
+        # FIX 13: Shutdown agents with timeout
+        shutdown_tasks = []
         for agent_id in reversed(list(self.agents.keys())):
             agent = self.agents[agent_id]
+            if hasattr(agent, 'shutdown'):
+                task = asyncio.create_task(self._shutdown_agent(agent_id, agent))
+                shutdown_tasks.append(task)
+        
+        if shutdown_tasks:
             try:
-                if hasattr(agent, 'shutdown'):
-                    await agent.shutdown()
-                print(f"✅ {agent_id} shut down")
-            except Exception as e:
-                print(f"⚠️ {agent_id} shutdown error: {e}")
+                await asyncio.wait_for(
+                    asyncio.gather(*shutdown_tasks, return_exceptions=True),
+                    timeout=10.0
+                )
+            except asyncio.TimeoutError:
+                print("⚠️ Some agents didn't shutdown cleanly")
         
         if hasattr(self, 'memory_manager'):
             self.memory_manager.monitoring = False
         
         self.bus.running = False
         print("👋 Fixed system shutdown complete")
+    
+    async def _shutdown_agent(self, agent_id: str, agent):
+        """FIX 14: Individual agent shutdown with timeout"""
+        try:
+            await asyncio.wait_for(agent.shutdown(), timeout=5.0)
+            print(f"✅ {agent_id} shut down")
+        except asyncio.TimeoutError:
+            print(f"⚠️ {agent_id} shutdown timeout")
+        except Exception as e:
+            print(f"⚠️ {agent_id} shutdown error: {e}")
 
 
 async def main():
@@ -366,7 +480,7 @@ async def main():
     print("Version: Fixed Router Initialization")
     print("=" * 60)
     
-    # Check required directories
+    # FIX 15: Check required directories
     required_paths = [
         Path("C:/temp/Agent/Observability"),
         Path("C:/temp/Agent/Context"),
@@ -377,7 +491,10 @@ async def main():
     for path in required_paths:
         if not path.exists():
             print(f"⚠️ Creating directory: {path}")
-            path.mkdir(parents=True, exist_ok=True)
+            try:
+                path.mkdir(parents=True, exist_ok=True)
+            except Exception as e:
+                print(f"❌ Failed to create {path}: {e}")
     
     system = FixedEplanAgentSystem()
     
@@ -398,8 +515,13 @@ async def main():
 
 
 if __name__ == "__main__":
+    # FIX 16: Windows event loop policy for stability
     if sys.platform == "win32":
         asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
     
-    exit_code = asyncio.run(main())
-    sys.exit(exit_code)
+    try:
+        exit_code = asyncio.run(main())
+        sys.exit(exit_code)
+    except Exception as e:
+        print(f"❌ Fatal error: {e}")
+        sys.exit(1)

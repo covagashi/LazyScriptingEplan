@@ -10,7 +10,7 @@ import pickle
 from .optimized_rag import OptimizedRAG  
 
 class ScriptRAG(OptimizedRAG):
-    """RAG specialized in C# EPLAN code and scripts"""
+    """RAG specialized in C# EPLAN code and scripts - FIXED"""
     
     def __init__(self):
         super().__init__("scripts")
@@ -19,9 +19,11 @@ class ScriptRAG(OptimizedRAG):
         self.cache_path.mkdir(exist_ok=True, parents=True)
         
         print("✓ Lazy ScriptRAG initialized")
+        # Don't call async method from __init__
         self.load_scripts()
     
-    async def load_scripts(self):
+  
+    def load_scripts(self):  # Cambiar de async def a def
         """Load scripts with lazy embeddings"""
         if not self.scripts_path.exists():
             return
@@ -42,7 +44,7 @@ class ScriptRAG(OptimizedRAG):
                         'id': script_id,
                         'filename': json_file.name,
                         'example': example,
-                        'searchable_text': code_text,  # Cambiado de 'code_text'
+                        'searchable_text': code_text,
                         'type': 'script'
                     }
                     scripts.append(script_doc)
@@ -50,8 +52,17 @@ class ScriptRAG(OptimizedRAG):
             except Exception as e:
                 print(f"Error loading script file {json_file.name}: {e}")
         
-        await self.add_documents_lazy(scripts)
-        print(f"Loaded {len(scripts)} scripts with lazy embeddings")
+        self._pending_scripts = scripts
+        print(f"Loaded {len(scripts)} scripts for lazy processing")
+    
+
+    async def ensure_loaded(self):
+        """Ensure scripts are loaded with embeddings"""
+        if hasattr(self, '_pending_scripts') and self._pending_scripts:
+            await self.add_documents_lazy(self._pending_scripts)
+            del self._pending_scripts
+            print(f"Scripts loaded with lazy embeddings")
+
     
     async def search_scripts(self, query: str, top_k: int = 3, threshold: float = 0.3):
         return await self.search_async(query, top_k, threshold)
