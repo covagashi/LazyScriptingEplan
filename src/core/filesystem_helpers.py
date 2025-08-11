@@ -105,7 +105,7 @@ class FileSystemHelper:
         await self.bus.broadcast(message)
         
         try:
-            await asyncio.wait_for(self.pending_requests[request_id], timeout=5.0)
+            await asyncio.wait_for(self.pending_requests[request_id], timeout=15.0)
         except asyncio.TimeoutError:
             print(f"⚠️ Timeout creating scratchpad for {self.agent_id}")
     
@@ -129,7 +129,7 @@ class FileSystemHelper:
         await self.bus.broadcast(message)
         
         try:
-            await asyncio.wait_for(self.pending_requests[request_id], timeout=5.0)
+            await asyncio.wait_for(self.pending_requests[request_id], timeout=15.0)
         except asyncio.TimeoutError:
             print(f"⚠️ Timeout updating scratchpad for {self.agent_id}")
     

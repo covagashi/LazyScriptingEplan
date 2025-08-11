@@ -207,7 +207,7 @@ class MiniAgent(ABC):
             "message": message if isinstance(message, (str, dict)) else str(message)
         }
         
-        await self.fs_helper.update_scratchpad({"logs": [log_entry]}, "append")
+        await self.fs_helper.update_scratchpad({"logs": [log_entry]}, "merge")
     
     # === Performance Monitoring ===
     def get_performance_metrics(self) -> Dict:

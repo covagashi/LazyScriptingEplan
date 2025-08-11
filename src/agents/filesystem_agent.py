@@ -132,6 +132,8 @@ class FileSystemAgent(MiniAgent):
                     await self._handle_agent_logs_request(sender, payload, message)
                 elif intent == "generate_observability_report":
                     await self._handle_observability_report_request(sender, payload, message)
+                elif intent == "log_event":
+                    await self.log_structured_event(payload)
                 else:
                     await self._log_structured_event({
                         "event_type": "unhandled_filesystem_intent",
