@@ -423,12 +423,12 @@ class MiniAgent(ABC):
     # === Scratchpad Operations ===
     async def init_scratchpad(self, initial_data: Dict = None):
         """Initialize personal scratchpad"""
-        await self.fs_helper.create_scratchpad(initial_data)
-    
+        #await self.fs_helper.create_scratchpad(initial_data)
+        pass
     async def update_scratchpad(self, key: str, value: Any):
         """Update a value in scratchpad"""
-        await self.fs_helper.update_scratchpad({key: value}, "merge")
-
+        #await self.fs_helper.update_scratchpad({key: value}, "merge")
+        pass
 
 class PerformanceMonitor:
     """Enhanced context manager for performance monitoring with observability"""

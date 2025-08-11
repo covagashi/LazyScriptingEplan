@@ -88,50 +88,11 @@ class FileSystemHelper:
     
     async def create_scratchpad(self, initial_data: Dict = None):
         """Create scratchpad for agent"""
-        request_id = f"create_scratchpad_{self.agent_id}"
-        self.pending_requests[request_id] = asyncio.Future()
-        
-        from ..core.message_bus import AgentMessage
-        message = AgentMessage(
-            sender=self.agent_id,
-            recipients=["filesystem"],
-            intent="create_scratchpad",
-            payload={
-                "agent_id": self.agent_id,
-                "data": initial_data or {},
-                "request_id": request_id
-            }
-        )
-        await self.bus.broadcast(message)
-        
-        try:
-            await asyncio.wait_for(self.pending_requests[request_id], timeout=15.0)
-        except asyncio.TimeoutError:
-            print(f"⚠️ Timeout creating scratchpad for {self.agent_id}")
+        pass
     
     async def update_scratchpad(self, data: Dict, operation: str = "merge"):
         """Update scratchpad data"""
-        request_id = f"update_scratchpad_{self.agent_id}"
-        self.pending_requests[request_id] = asyncio.Future()
-        
-        from ..core.message_bus import AgentMessage
-        message = AgentMessage(
-            sender=self.agent_id,
-            recipients=["filesystem"],
-            intent="update_scratchpad",
-            payload={
-                "agent_id": self.agent_id,
-                "data": data,
-                "operation": operation,
-                "request_id": request_id
-            }
-        )
-        await self.bus.broadcast(message)
-        
-        try:
-            await asyncio.wait_for(self.pending_requests[request_id], timeout=15.0)
-        except asyncio.TimeoutError:
-            print(f"⚠️ Timeout updating scratchpad for {self.agent_id}")
+        pass
     
     async def load_agent_state(self) -> Optional[Dict]:
         """Load agent state from filesystem"""

@@ -14,6 +14,7 @@ class ScriptRAG(OptimizedRAG):
     
     def __init__(self):
         super().__init__("scripts")
+        self.preload_threshold = getattr(self, 'preload_threshold', 50)
         self.scripts_path = Path("src/ai/Knowledge/Scripts")
         self.cache_path = Path("src/ai/cache/scripts")
         self.cache_path.mkdir(exist_ok=True, parents=True)

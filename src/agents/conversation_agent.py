@@ -392,7 +392,7 @@ Respond naturally considering the conversation context."""
             "needs_proactive_action": False
         }
         
-        if time.time() - observations["last_interaction_time"] > 300:  # 5 min
+        if time.time() - observations["last_interaction_time"] > 600:  # 5 min
             observations["needs_proactive_action"] = True
             observations["suggested_action"] = "offer_help"
         
