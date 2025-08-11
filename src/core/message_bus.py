@@ -17,10 +17,10 @@ class AgentMessage:
     payload: dict
     priority: int = 1
     timestamp: float = field(default_factory=time.time)
-    correlation_id: str = field(default_factory=lambda: f"msg_{int(time.time() * 1000)}")
+    correlation_id: str = field(default_factory=lambda: f"msg_{int(time.time())}")
     parent_correlation_id: Optional[str] = None
     conversation_id: Optional[str] = None
-    trace_id: str = field(default_factory=lambda: f"trace_{int(time.time() * 1000)}")
+    trace_id: str = field(default_factory=lambda: f"trace_{int(time.time())}")
     
     def create_child_message(self, sender: str, recipients: List[str], intent: str, payload: dict):
         """Create child message maintaining correlation chain"""
@@ -257,6 +257,21 @@ class ObservabilityDashboard:
             }
         }
     
+    def cleanup_stale_flows(self, max_age_seconds: int = 300):
+        """Remove flows older than max_age_seconds"""
+        current_time = time.time()
+        stale_trace_ids = []
+        
+        for trace_id, flow in self.active_flows.items():
+            if current_time - flow.start_time > max_age_seconds:
+                stale_trace_ids.append(trace_id)
+        
+        for trace_id in stale_trace_ids:
+            self.complete_flow(trace_id, success=False)
+            print(f"🧹 Cleaned stale flow: {trace_id[:12]}...")
+        
+        return len(stale_trace_ids)
+
     def detect_anomalies(self) -> List[Dict]:
         """Detect potential issues in message flows"""
         anomalies = []

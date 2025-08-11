@@ -17,7 +17,7 @@ class ConversationAgent(MiniAgent):
         self.conversation_history = []
         self.active_requests = {} 
         self.reflection_enabled = True
-        self.observation_interval = 30  
+        self.observation_interval = 600  
         self.reflection_history = []
         self._observation_task = None 
         

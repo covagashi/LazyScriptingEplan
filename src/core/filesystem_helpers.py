@@ -51,10 +51,13 @@ class FileSystemHelper:
         await self.bus.broadcast(message)
         
         try:
-            result = await asyncio.wait_for(self.pending_requests[request_id], timeout=5.0)
+            result = await asyncio.wait_for(self.pending_requests[request_id], timeout=30.0)
             return result
         except asyncio.TimeoutError:
             return {"success": False, "error": "Timeout"}
+        finally:
+            if request_id in self.pending_requests:
+                del self.pending_requests[request_id]
     
     async def get_context(self, context_id: str) -> Optional[Dict]:
         """Get context by ID"""
@@ -74,11 +77,13 @@ class FileSystemHelper:
         await self.bus.broadcast(message)
         
         try:
-            result = await asyncio.wait_for(self.pending_requests[request_id], timeout=5.0)
+            result = await asyncio.wait_for(self.pending_requests[request_id], timeout=30.0)
             return result.get("context", {}).get("data") if result else None
         except asyncio.TimeoutError:
             return None
-    
+        finally:
+            if request_id in self.pending_requests:
+                del self.pending_requests[request_id]
     
     
     async def create_scratchpad(self, initial_data: Dict = None):
@@ -146,10 +151,13 @@ class FileSystemHelper:
         await self.bus.broadcast(message)
         
         try:
-            result = await asyncio.wait_for(self.pending_requests[request_id], timeout=5.0)
+            result = await asyncio.wait_for(self.pending_requests[request_id], timeout=30.0)
             return result.get("state", {}).get("data") if result else None
         except asyncio.TimeoutError:
             return None
+        finally:
+            if request_id in self.pending_requests:
+                del self.pending_requests[request_id]
     
     async def save_agent_state(self, state: Dict) -> bool:
         """Save agent state to filesystem"""
@@ -170,10 +178,13 @@ class FileSystemHelper:
         await self.bus.broadcast(message)
         
         try:
-            result = await asyncio.wait_for(self.pending_requests[request_id], timeout=5.0)
+            result = await asyncio.wait_for(self.pending_requests[request_id], timeout=30.0)
             return result.get("success", False)
         except asyncio.TimeoutError:
             return False
+        finally:
+            if request_id in self.pending_requests:
+                del self.pending_requests[request_id]
     
     async def log_structured_event(self, event_data: Dict):
         """Log structured event via filesystem agent"""

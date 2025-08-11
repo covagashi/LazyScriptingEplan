@@ -76,6 +76,15 @@ class FixedEplanAgentSystem:
         self._start_dashboard_monitoring()
         await self._run_system_tests()
     
+    async def periodic_cleanup():
+        """Background task para limpiar flows obsoletos"""
+        while True:
+            await asyncio.sleep(60)  
+            cleaned = self.dashboard.cleanup_stale_flows(300) 
+            if cleaned > 0:
+                print(f"🧹 Cleaned {cleaned} stale flows")
+
+
     async def _initialize_core_agents(self):
         """Initialize core infrastructure agents"""
         
