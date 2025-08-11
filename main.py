@@ -15,16 +15,7 @@ from src.agents.execution_agent import ExecutionAgent
 from src.agents.feedback_agent import FeedbackAgent
 from src.core.memory_manager import AutoMemoryManager
 
-# FIXES: Import agents that need fixes
-try:
-    from src.agents.planning_agent import PlanningAgent
-except ImportError:
-    PlanningAgent = None
 
-try:
-    from src.agents.validation_agent import ValidationAgent
-except ImportError:
-    ValidationAgent = None
 
 def load_agent_from_artifact(artifact_name, class_name):
     """Load agent class from artifact file"""
@@ -109,8 +100,23 @@ class FixedEplanAgentSystem:
         
         # FIX 3: FileSystem MUST be first and fully ready
         print("📁 Initializing FileSystemAgent...")
-        filesystem = FileSystemAgent(self.bus)
-        await self._register_agent_with_retry("filesystem", filesystem)
+        try:
+            filesystem = FileSystemAgent(self.bus)
+            await self.bus.register_agent("filesystem", filesystem) 
+            self.agents["filesystem"] = filesystem
+            
+            # Startup seguro sin timeout estricto
+            filesystem_ready = await self._safe_agent_startup(filesystem)
+            if filesystem_ready:
+                print("  ✅ filesystem ready")
+            else:
+                print("  ⚠️ filesystem partial ready")
+                
+            await asyncio.sleep(1.0)  # Dar tiempo para settling
+            
+        except Exception as e:
+            print(f"  ❌ filesystem failed: {e}")
+            
         await asyncio.sleep(0.5)  # Let filesystem fully initialize
         
         print("💬 Initializing ConversationAgent...")
@@ -169,26 +175,23 @@ class FixedEplanAgentSystem:
         await self._register_agent_with_retry("feedback", feedback)
     
     async def _register_agent_with_retry(self, agent_id: str, agent, max_retries: int = 3):
-        """FIX 7: Register agent with retry logic for robustness"""
+        """Register agent with retry logic for robustness"""
         
         for attempt in range(max_retries):
             try:
                 await self.bus.register_agent(agent_id, agent)
                 self.agents[agent_id] = agent
                 
-                # FIX 8: Startup with timeout to prevent hanging
-                startup_task = asyncio.create_task(agent.startup())
-                await asyncio.wait_for(startup_task, timeout=15.0)
-                
-                print(f"  ✅ {agent_id} registered and started")
-                return
-                
-            except asyncio.TimeoutError:
-                print(f"  ⚠️ {agent_id} startup timeout (attempt {attempt + 1}/{max_retries})")
-                if attempt == max_retries - 1:
-                    print(f"  ❌ {agent_id} failed after {max_retries} attempts")
-                else:
-                    await asyncio.sleep(1.0)  # Wait before retry
+                # STARTUP SIN TIMEOUT ESTRICTO
+                try:
+                    await agent.startup()
+                    print(f"  ✅ {agent_id} registered and started")
+                    return
+                except Exception as startup_error:
+                    print(f"  ⚠️ {agent_id} startup issue: {startup_error}")
+                    # Continúa - el agente puede funcionar parcialmente
+                    print(f"  ✅ {agent_id} registered (partial startup)")
+                    return
                     
             except Exception as e:
                 print(f"  ❌ {agent_id} registration error: {e}")
@@ -317,10 +320,11 @@ class FixedEplanAgentSystem:
                 
                 try:
                     # FIX 11: Timeout user queries to prevent hanging
-                    response_task = asyncio.create_task(
-                        conversation_agent.handle_user_input(user_input)
-                    )
-                    response = await asyncio.wait_for(response_task, timeout=30.0)
+                    try:
+                        response = await conversation_agent.handle_user_input(user_input)
+                    except Exception as e:
+                        print(f"\r❌ Error: {e}")
+                        continue
                     
                     print("\r" + " " * 20 + "\r", end="")
                     print(f"🤖 System: {response}")
@@ -472,6 +476,34 @@ class FixedEplanAgentSystem:
         except Exception as e:
             print(f"⚠️ {agent_id} shutdown error: {e}")
 
+    async def _safe_agent_startup(self, agent):
+        """Safe agent startup without strict timeouts"""
+        try:
+            if hasattr(agent, '_state_loading'):
+                # Wait for state loading to complete
+                max_wait = 10
+                wait_count = 0
+                while not agent._state_loading and wait_count < max_wait:
+                    await asyncio.sleep(0.5)
+                    wait_count += 1
+            
+            # Call startup
+            await agent.startup()
+            return True
+        except Exception as e:
+            print(f"Safe startup error: {e}")
+            return False
+
+# FIXES: Import agents that need fixes
+try:
+    from src.agents.planning_agent import PlanningAgent
+except ImportError:
+    PlanningAgent = None
+
+try:
+    from src.agents.validation_agent import ValidationAgent
+except ImportError:
+    ValidationAgent = None
 
 async def main():
     """Main function with enhanced error handling"""
@@ -480,6 +512,27 @@ async def main():
     print("Version: Fixed Router Initialization")
     print("=" * 60)
     
+    if sys.platform == "win32":
+        try:
+            asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
+            print("✅ Windows event loop policy set")
+        except Exception as e:
+            print(f"⚠️ Event loop policy warning: {e}")
+
+    required_dirs = [
+        Path("C:/temp/Agent/Context"),
+        Path("C:/temp/Agent/Context/context"), 
+        Path("C:/temp/Agent/Context/scratchpads"),
+        Path("C:/temp/Agent/Observability")
+    ]
+
+    for directory in required_dirs:
+        try:
+            directory.mkdir(parents=True, exist_ok=True)
+            print(f"📁 Created: {directory}")
+        except Exception as e:
+            print(f"⚠️ Directory error: {e}")
+
     # FIX 15: Check required directories
     required_paths = [
         Path("C:/temp/Agent/Observability"),

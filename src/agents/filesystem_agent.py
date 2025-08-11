@@ -23,7 +23,7 @@ class FileSystemAgent(MiniAgent):
         self.context_path = self.base_path / "context"
         self.outputs_path = self.base_path / "outputs"
         self.state_path = self.base_path / "state"
-        
+        self._enable_file_watcher = False
         
         # File operation metrics
         self.fs_metrics = {
@@ -54,13 +54,13 @@ class FileSystemAgent(MiniAgent):
         """Start with proper event loop setup"""
         await super().startup()
         
-        # Set the current event loop in the watcher
-        current_loop = asyncio.get_running_loop()
-        self.file_handler.set_event_loop(current_loop)
-        
-        # Now start the observer
-        self.observer.start()
-        print("📁 FileSystem observer started with proper event loop")
+        if self._enable_file_watcher:
+            current_loop = asyncio.get_running_loop()
+            self.file_handler.set_event_loop(current_loop)
+            self.observer.start()
+            print("📁 FileSystem observer started with proper event loop")
+        else:
+            print("📁 FileSystem observer disabled (prevents runtime warnings)")
 
 
     
@@ -751,22 +751,10 @@ class FileSystemWatcher(FileSystemEventHandler):
         """Set the main event loop reference"""
         self.loop = loop
 
+
     def on_created(self, event):
-        if not event.is_directory and event.src_path.endswith('.json'):
-            # Use thread-safe way to schedule coroutine
-            if self.loop and not self.loop.is_closed():
-                asyncio.run_coroutine_threadsafe(
-                    self._notify_file_created(event.src_path), 
-                    self.loop
-                )
-    
-    def on_modified(self, event):
-        if not event.is_directory and event.src_path.endswith('.json'):           
-            file_path = Path(event.src_path)
-            for context_id, cached_data in list(self.fs_agent.memory_cache.items()):
-                if file_path.name == f"{context_id}.json":
-                    del self.fs_agent.memory_cache[context_id]
-                    break
+        # Disabled to prevent runtime warnings
+        pass
     
     async def _notify_file_created(self, file_path: str):
         """Notify agents about new files"""
