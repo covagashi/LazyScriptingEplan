@@ -5,7 +5,7 @@ from typing import List, Dict, Any, Callable, Optional, TYPE_CHECKING
 from dataclasses import dataclass
 from concurrent.futures import ThreadPoolExecutor
 
-# Use TYPE_CHECKING to avoid circular import
+
 if TYPE_CHECKING:
     from .message_bus import AgentMessage
 
@@ -19,7 +19,7 @@ class ParallelTask:
     dependencies: List[str] = None
 
 class ParallelProcessor:
-    """Procesador paralelo para operaciones de agentes"""
+    """Parallel processor for agent operations"""
     
     def __init__(self, max_concurrent: int = 5):
         self.max_concurrent = max_concurrent
@@ -27,13 +27,13 @@ class ParallelProcessor:
         self.completed_tasks: Dict[str, Any] = {}
         self.failed_tasks: Dict[str, str] = {}
         
-        # Thread pool para operaciones CPU-intensive
+
         self.thread_pool = ThreadPoolExecutor(max_workers=3)
         
-        # Semaforo para limitar concurrencia
+
         self.semaphore = asyncio.Semaphore(max_concurrent)
         
-        # Métricas
+
         self.metrics = {
             "tasks_executed": 0,
             "tasks_failed": 0,
@@ -42,26 +42,26 @@ class ParallelProcessor:
         }
     
     async def execute_parallel_tasks(self, tasks: List[ParallelTask]) -> Dict[str, Any]:
-        """Ejecutar múltiples tareas en paralelo respetando dependencias"""
+        """Run multiple tasks in parallel while respecting dependencies"""
         
         start_time = time.time()
         
-        # Organizar tareas por dependencias
+
         ready_tasks = [task for task in tasks if not task.dependencies]
         waiting_tasks = [task for task in tasks if task.dependencies]
         
         results = {}
         
-        # Ejecutar tareas listas
+
         while ready_tasks or waiting_tasks:
             
-            # Ejecutar tareas sin dependencias
+
             if ready_tasks:
                 batch_results = await self._execute_batch(ready_tasks)
                 results.update(batch_results)
                 ready_tasks.clear()
             
-            # Revisar tareas esperando
+
             newly_ready = []
             for task in waiting_tasks[:]:
                 if all(dep_id in results for dep_id in task.dependencies):
@@ -70,9 +70,7 @@ class ParallelProcessor:
             
             ready_tasks.extend(newly_ready)
             
-            # Evitar loop infinito
             if not ready_tasks and waiting_tasks:
-                # Forzar ejecución de tareas restantes
                 ready_tasks = waiting_tasks[:]
                 waiting_tasks.clear()
         
@@ -82,12 +80,10 @@ class ParallelProcessor:
         return results
     
     async def _execute_batch(self, tasks: List[ParallelTask]) -> Dict[str, Any]:
-        """Ejecutar lote de tareas en paralelo"""
+        """Run batch of tasks in parallel"""
         
-        # Ordenar por prioridad
         tasks.sort(key=lambda t: t.priority, reverse=True)
         
-        # Crear tareas asyncio
         async_tasks = []
         for task in tasks:
             async_task = asyncio.create_task(
@@ -95,12 +91,10 @@ class ParallelProcessor:
             )
             async_tasks.append((task.task_id, async_task))
         
-        # Actualizar pico de concurrencia
         current_concurrent = len(async_tasks)
         if current_concurrent > self.metrics["concurrent_peak"]:
             self.metrics["concurrent_peak"] = current_concurrent
         
-        # Esperar resultados
         results = {}
         for task_id, async_task in async_tasks:
             try:
@@ -114,13 +108,12 @@ class ParallelProcessor:
         return results
     
     async def _execute_single_task(self, task: ParallelTask) -> Any:
-        """Ejecutar tarea individual con retry y timeout"""
+        """Execute individual task with retry and timeout"""
         
-        async with self.semaphore:  # Limitar concurrencia
+        async with self.semaphore:  
             
             for attempt in range(task.max_retries + 1):
                 try:
-                    # Ejecutar con timeout
                     result = await asyncio.wait_for(
                         task.coroutine,
                         timeout=task.timeout

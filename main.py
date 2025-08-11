@@ -46,15 +46,14 @@ class NonHangingEplanSystem:
         """Handle signals for clean shutdown"""
         print("\n🛑 Emergency shutdown triggered...")
         self.running = False
-        sys.exit(0)  # Force exit if hanging
+        sys.exit(0) 
     
     async def initialize_system(self):
         """Initialize system with timeout protection"""
         print("🚀 Initializing Non-Hanging EPLAN System")
         print("🔧 Anti-hanging protection active")
-        print("=" * 60)
+        print("=" * 60)        
         
-        # Memory manager with timeout
         try:
             self.memory_manager = AutoMemoryManager(memory_limit_mb=600)
             await asyncio.wait_for(
@@ -63,8 +62,7 @@ class NonHangingEplanSystem:
             )
         except asyncio.TimeoutError:
             print("⚠️ Memory manager timeout, continuing...")
-        
-        # Initialize agents with strict timeouts
+                
         await self._initialize_core_agents_safe()
         await self._initialize_specialized_agents_safe()
         
@@ -76,8 +74,7 @@ class NonHangingEplanSystem:
     
     async def _initialize_core_agents_safe(self):
         """Initialize core agents with timeout protection"""
-        
-        # FileSystem with timeout
+                
         print("📁 Initializing FileSystemAgent...")
         try:
             filesystem = FileSystemAgent(self.bus)
@@ -86,12 +83,10 @@ class NonHangingEplanSystem:
                 timeout=15.0
             )
         except asyncio.TimeoutError:
-            print("⚠️ FileSystemAgent timeout - using minimal mode")
-            # Continue without filesystem agent
+            print("⚠️ FileSystemAgent timeout - using minimal mode")            
         except Exception as e:
             print(f"⚠️ FileSystemAgent error: {e}")
-        
-        # Conversation with timeout  
+         
         print("💬 Initializing ConversationAgent...")
         try:
             conversation = ConversationAgent(self.bus)
@@ -109,8 +104,8 @@ class NonHangingEplanSystem:
         
         agents_to_init = [
             ("planning", PlanningAgent, 8.0),
-            ("knowledge", EplanKnowledgeAgent, 20.0),  # Higher timeout for embeddings
-            ("codecraft", CodeCraftAgent, 15.0),       # Higher timeout for RAG loading
+            ("knowledge", EplanKnowledgeAgent, 20.0),  
+            ("codecraft", CodeCraftAgent, 20.0),       
             ("validation", ValidationAgent, 5.0),
             ("execution", ExecutionAgent, 10.0),
             ("feedback", FeedbackAgent, 5.0),
@@ -125,7 +120,6 @@ class NonHangingEplanSystem:
             try:
                 agent = agent_class(self.bus)
                 
-                # Special handling for CodeCraft hanging issue
                 if agent_id == "codecraft":
                     await self._init_codecraft_safe(agent, timeout)
                 else:
@@ -142,12 +136,10 @@ class NonHangingEplanSystem:
     async def _init_codecraft_safe(self, agent, timeout):
         """Special safe initialization for CodeCraftAgent"""
         try:
-            # Register first without startup
             await self.bus.register_agent("codecraft", agent)
             self.agents["codecraft"] = agent
             print("  ✅ codecraft registered")
             
-            # Async RAG loading with timeout
             if hasattr(agent, 'script_rag'):
                 try:
                     await asyncio.wait_for(
@@ -160,7 +152,6 @@ class NonHangingEplanSystem:
                 except Exception as e:
                     print(f"  ⚠️ ScriptRAG error: {e}")
             
-            # Startup with timeout
             try:
                 await asyncio.wait_for(agent.startup(), timeout=5.0)
                 print("  ✅ codecraft started")
@@ -172,12 +163,8 @@ class NonHangingEplanSystem:
     
     async def _register_agent_with_timeout(self, agent_id: str, agent):
         """Register agent with timeout protection"""
-        
-        # Registration step
         await self.bus.register_agent(agent_id, agent)
         self.agents[agent_id] = agent
-        
-        # Startup step with timeout
         try:
             await asyncio.wait_for(agent.startup(), timeout=5.0)
             print(f"  ✅ {agent_id} ready")
@@ -194,11 +181,11 @@ class NonHangingEplanSystem:
         """Lightweight dashboard monitoring"""
         while self.running:
             try:
-                await asyncio.sleep(300)  # 5 minutes
+                await asyncio.sleep(600)  
                 if self.running:
                     self.dashboard.save_dashboard_snapshot()
             except Exception:
-                pass  # Silent error handling
+                pass  
     
     async def run_interactive_mode(self):
         """Non-hanging interactive mode"""
@@ -207,7 +194,6 @@ class NonHangingEplanSystem:
         print("Type 'quit' to exit, 'help' for commands")
         print("-" * 50)
         
-        # Check if conversation agent is available
         if "conversation" not in self.agents:
             print("⚠️ Running in basic mode (no conversation agent)")
             await self._run_basic_mode()
@@ -239,14 +225,13 @@ class NonHangingEplanSystem:
                     except Exception as e:
                         print(f"Dashboard error: {e}")
                     continue
-                
-                # Process user input with timeout
+
                 print("🤔 Processing...", end="", flush=True)
                 
                 try:
                     response = await asyncio.wait_for(
                         conversation_agent.handle_user_input(user_input),
-                        timeout=30.0  # 30 second timeout
+                        timeout=30.0 
                     )
                     
                     print("\r" + " " * 20 + "\r", end="")
@@ -305,19 +290,16 @@ class NonHangingEplanSystem:
         """Show system status"""
         print("\n📊 System Status:")
         print("=" * 30)
-        
-        # Agents
+
         print(f"Agents: {len(self.agents)} active")
-        
-        # Dashboard
+
         try:
             status = self.dashboard.get_real_time_status()
             print(f"Active flows: {status['active_flows']['count']}")
             print(f"Recent events: {status['recent_activity']['events_last_60s']}")
         except Exception:
             print("Dashboard: Error")
-        
-        # Memory
+
         if hasattr(self, 'memory_manager'):
             try:
                 memory_stats = self.memory_manager.get_memory_stats()
@@ -350,19 +332,17 @@ class NonHangingEplanSystem:
         print("\n🛑 Shutting down...")
         
         self.running = False
-        
-        # Cancel dashboard task
+
         if self._dashboard_task:
             self._dashboard_task.cancel()
-        
-        # Quick agent shutdown
+
         for agent_id in list(self.agents.keys()):
             try:
                 agent = self.agents[agent_id]
                 if hasattr(agent, 'shutdown'):
                     await asyncio.wait_for(agent.shutdown(), timeout=2.0)
             except:
-                pass  # Silent failures during shutdown
+                pass 
         
         print("👋 Shutdown complete")
 
@@ -373,15 +353,13 @@ async def main():
     print("🔧 Non-Hanging EPLAN Multi-Agent System")
     print("Version: Anti-Hang Protection")
     print("=" * 50)
-    
-    # Windows event loop setup
+
     if sys.platform == "win32":
         try:
             asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
         except Exception:
             pass
-    
-    # Create required directories
+
     required_dirs = [
         Path("C:/temp/Agent/Context"),
         Path("C:/temp/Agent/Observability"),
@@ -398,10 +376,9 @@ async def main():
     system = NonHangingEplanSystem()
     
     try:
-        # Total system initialization timeout
         await asyncio.wait_for(
             system.initialize_system(),
-            timeout=120.0  # 2 minute max
+            timeout=120.0  
         )
         
         await system.run_interactive_mode()

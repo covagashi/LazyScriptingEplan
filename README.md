@@ -63,10 +63,14 @@ There is a new agent for planning but doesnt act as coordinator.
 I am not sure if start testing or implement the fallback loop and add the learning from 
 feedback.
 
-08/08/205
+08/08/2025
 In the end I decided to add everything and then start to debug. When everything is working I will
 try to add the self learn.
 Currently is half working,  there is a big leak of flows and FileSystemAgent can't handle everything.
+
+11/08/2025
+The mini agents is not working at all, there is some failures, I will investigate more about how
+to build an A2A instead of re-invent the wheel
 ---
 
 ## 🔗 Resources

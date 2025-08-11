@@ -8,50 +8,44 @@ from .agent_routing import DeterministicRouter, HybridCanHandle
 from ..ai.gemini_client import GeminiClient
 
 class RoutingTestSuite:
-    """Test suite para validar routing consistency y performance"""
+    """Test suite for validate routing consistency and performance"""
     
     def __init__(self, router: DeterministicRouter):
         self.router = router
         self.ai_client = GeminiClient()
         self.test_results = []
         
-        # Test cases representativos
+       
         self.test_cases = [
-            # ConversationAgent cases
             ("hello there", "conversation", 0.9),
             ("help me with eplan", "conversation", 0.6),
             ("general question about software", "conversation", 0.5),
-            
-            # KnowledgeAgent cases  
+             
             ("explain actions parameters", "knowledge", 0.9),
             ("eplan api documentation", "knowledge", 0.9),
             ("how to use eplan actions", "knowledge", 0.8),
             ("what is electrical automation", "knowledge", 0.6),
             
-            # CodeCraftAgent cases
             ("generate script to open project", "codecraft", 0.9),
             ("create c# code for eplan", "codecraft", 0.9),
             ("write script", "codecraft", 0.8),
             ("programming help", "codecraft", 0.7),
             
-            # ExecutionAgent cases
             ("execute the generated script", "execution", 0.9),
             ("run eplan action", "execution", 0.8),
             ("eplan remoting connection", "execution", 0.7),
             
-            # FeedbackAgent cases
             ("check execution results", "feedback", 0.9),
             ("analyze eplan logs", "feedback", 0.8),
             ("validate script execution", "feedback", 0.8),
             
-            # Ambiguous cases (should route to best agent)
             ("eplan script generation and execution", "codecraft", 0.7),
             ("explain and generate code", "knowledge", 0.6),
             ("help with eplan", "conversation", 0.5),
         ]
     
     async def run_comprehensive_tests(self) -> Dict[str, Any]:
-        """Ejecutar suite completa de tests"""
+        """Run full suite of tests"""
         
         print("🧪 Running Routing Test Suite...")
         
@@ -63,34 +57,29 @@ class RoutingTestSuite:
             "summary": {}
         }
         
-        # Calcular métricas generales
         results["summary"] = self._calculate_summary_metrics(results)
-        
-        # Guardar resultados
+   
         await self._save_test_results(results)
         
         return results
     
     async def _test_routing_consistency(self) -> List[Dict]:
-        """Test de consistencia: misma query debe dar mismos resultados"""
+        """Consistency test: same query must give same results"""
         
         print("Testing routing consistency...")
         consistency_results = []
         
         for query, expected_agent, expected_min_confidence in self.test_cases:
-            # Ejecutar la misma query 5 veces
             confidences = []
             
             for i in range(5):
                 confidence = self.router.calculate_confidence(expected_agent, query)
                 confidences.append(confidence)
-                await asyncio.sleep(0.01)  # Small delay
+                await asyncio.sleep(0.01) 
             
-            # Calcular variabilidad
             variance = max(confidences) - min(confidences)
             avg_confidence = sum(confidences) / len(confidences)
             
-            # Test result
             result = {
                 "query": query,
                 "expected_agent": expected_agent,
@@ -98,7 +87,7 @@ class RoutingTestSuite:
                 "avg_confidence": avg_confidence,
                 "variance": variance,
                 "confidences": confidences,
-                "consistent": variance < 0.01,  # Variance should be near 0
+                "consistent": variance < 0.01,  
                 "meets_expected": avg_confidence >= expected_min_confidence
             }
             
@@ -110,22 +99,21 @@ class RoutingTestSuite:
         return consistency_results
     
     async def _test_routing_performance(self) -> Dict[str, Any]:
-        """Test de performance: tiempo de respuesta"""
+        """Performance test: response time"""
         
         print("Testing routing performance...")
-        
-        # Test determinístico
+
         det_times = []
-        for query, agent, _ in self.test_cases[:10]:  # Sample
+        for query, agent, _ in self.test_cases[:10]:  
             start = time.time()
             self.router.calculate_confidence(agent, query)
-            det_times.append((time.time() - start) * 1000)  # ms
+            det_times.append((time.time() - start) * 2000)  # ms
         
-        # Test híbrido (simulando LLM)
+
         hybrid_handler = HybridCanHandle("test", self.ai_client, self.router)
         hybrid_times = []
         
-        for query, agent, _ in self.test_cases[:5]:  # Smaller sample for LLM
+        for query, agent, _ in self.test_cases[:5]: 
             start = time.time()
             try:
                 confidence, method = await hybrid_handler.can_handle(query, "test specialty")
@@ -173,7 +161,6 @@ class RoutingTestSuite:
         
         for query, test_type in edge_cases:
             try:
-                # Test each agent
                 agent_results = {}
                 for agent in ["conversation", "knowledge", "codecraft", "execution", "feedback"]:
                     confidence = self.router.calculate_confidence(agent, query)
@@ -204,7 +191,7 @@ class RoutingTestSuite:
         return edge_results
     
     async def _test_circular_prevention(self) -> Dict[str, Any]:
-        """Test prevención de routing circular"""
+        """Circular routing prevention test"""
         
         print("Testing circular routing prevention...")
         
@@ -234,7 +221,6 @@ class RoutingTestSuite:
             
             circular_results["min_confidences"].append(min_confidence)
             
-            # Detectar posible loop circular (todas las confidencias muy bajas)
             if max_confidence < 0.3:
                 circular_results["circular_loops_detected"] += 1
                 print(f"⚠️ Potential circular routing for: {query}")
@@ -252,7 +238,7 @@ class RoutingTestSuite:
         return circular_results
     
     def _calculate_summary_metrics(self, results: Dict) -> Dict[str, Any]:
-        """Calcular métricas de resumen"""
+        """Calculate summary metrics"""
         
         consistency_tests = results["consistency_tests"]
         performance_tests = results["performance_tests"]
@@ -283,7 +269,7 @@ class RoutingTestSuite:
         return summary
     
     async def _save_test_results(self, results: Dict):
-        """Guardar resultados de tests"""
+        """Save test results"""
         
         results_dir = Path("C:/temp/Agent/TestResults")
         results_dir.mkdir(exist_ok=True, parents=True)
@@ -300,7 +286,7 @@ class RoutingTestSuite:
 
 
 class RoutingMonitor:
-    """Monitor en tiempo real del sistema de routing"""
+    """Real-time monitoring of the routing system"""
     
     def __init__(self):
         self.routing_stats = {
@@ -315,7 +301,7 @@ class RoutingMonitor:
     
     def record_routing_decision(self, agent_id: str, query: str, confidence: float, 
                              method: str, response_time_ms: float):
-        """Registrar decisión de routing"""
+        """Record routing decision"""
         
         self.routing_stats["total_decisions"] += 1
         
@@ -356,7 +342,7 @@ class RoutingMonitor:
             self.routing_stats["recent_decisions"].pop(0)
     
     def get_performance_summary(self) -> Dict[str, Any]:
-        """Obtener resumen de performance"""
+        """Get performance summary"""
         
         uptime = time.time() - self.start_time
         total_decisions = self.routing_stats["total_decisions"]
@@ -391,7 +377,7 @@ class RoutingMonitor:
         return summary
     
     def _calculate_health_status(self, deterministic_rate: float, agent_performance: Dict) -> str:
-        """Calcular estado de salud del sistema de routing"""
+        """Calculate the health status of the routing system"""
         
         healthy_deterministic_rate = deterministic_rate > 0.7  
         
@@ -409,7 +395,7 @@ class RoutingMonitor:
             return "CRITICAL"
     
     def print_status(self):
-        """Imprimir estado actual"""
+        """Print current status"""
         
         summary = self.get_performance_summary()
         
@@ -434,7 +420,7 @@ class RoutingMonitor:
 
 
 async def test_routing_system():
-    """Función de test principal"""
+    """Main test function"""
     
     print("🚀 Starting Routing System Tests")
     
