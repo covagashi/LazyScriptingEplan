@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import List, Dict, Any
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
+from src.core.model_config import ModelManager
 import pickle
 
 
@@ -16,14 +17,15 @@ class DocumentationRAG():
         self.api_path = Path("src/ai/Knowledge/API")
         self.cache_path = Path("src/ai/cache/docs")
         self.cache_path.mkdir(exist_ok=True, parents=True)
+        self.model_manager = ModelManager()
         
-        print("Loading documentation embedding model...")
+        print("Loading embedding model...")
         try:
-            self.model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2', local_files_only=True)
-        except:
-            model_path = Path("C:/Users/cd.lopez/.cache/huggingface/transformers/sentence-transformers--all-MiniLM-L6-v2") #static path
-            self.model = SentenceTransformer(str(model_path))
-        print("✓ Documentation model loaded")
+            self.model = self.model_manager.load_sentence_transformer()
+            print("✓ Model loaded successfully")
+        except Exception as e:
+            print(f"✗ Model loading failed: {e}")
+            raise
         
         self.docs = []
         self.doc_embeddings = None

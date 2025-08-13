@@ -24,7 +24,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional). If not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). If called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional). If not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). If called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true
                 },
                 {
@@ -190,7 +190,7 @@
             "parameters": [
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional). If not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). If called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional). If not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). If called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true
                 },
                 {
@@ -305,7 +305,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional). If not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). If called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional). If not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). If called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true
                 },
                 {
@@ -789,7 +789,7 @@
                 }
             ],
             "notes": [
-                "See also \"XAfActionSettingProject\" to change project settings."
+                ""
             ],
             "examples": [
                 {
@@ -843,7 +843,7 @@
                 }
             ],
             "notes": [
-                "See also \"XAfActionSetting\" to change other than project settings."
+                ""
             ],
             "examples": [
                 {
@@ -896,7 +896,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true
                 },
                 {
@@ -942,7 +942,7 @@
             "parameters": [
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or the ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or the ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true
                 },
                 {
@@ -1049,8 +1049,7 @@
             "notes": [
                 "Any further parameter will be passed on to the function of the script which is marked with the \"[Start]\" attribute.",
                 "Only scripts with the \"[Start]\" attribute can be run.",
-                "It is possible to use scripts with ActionCallingContext as a parameter. The specified ActionCallingContext will be passed on to the script (just as any other further parameter). See also \"Eplan.EplApi.ApplicationFramework.ActionCallingContext\".",
-                "For more information see also \"User Guide\" > \"API Framework\" > \"Scripts\" > \"Simple script with parameters\"."
+                "It is possible to use scripts with ActionCallingContext as a parameter. The specified ActionCallingContext will be passed on to the script (just as any other further parameter)."
             ],
             "examples": [
                 {
@@ -1119,7 +1118,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional). \r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional). \r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true
                 },
                 {
@@ -1427,7 +1426,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true
                 },
                 {
@@ -1621,7 +1620,7 @@
             "parameters": [
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -1670,7 +1669,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -1841,7 +1840,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -1992,7 +1991,7 @@
             "parameters": [
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -2074,7 +2073,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -2141,7 +2140,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path. Is required for the following values of the TYPE parameter: \"PDFCOMMENTS\".\r\nIs optional if the TYPE parameter has the following values: \"PXFPROJECT\", \"DXFDWGFILES\", \"DXFPAGE\" and \"DWGPAGE\". \r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar).\r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path. Is required for the following values of the TYPE parameter: \"PDFCOMMENTS\".\r\nIs optional if the TYPE parameter has the following values: \"PXFPROJECT\", \"DXFDWGFILES\", \"DXFPAGE\" and \"DWGPAGE\". \r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar).\r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -2332,7 +2331,7 @@
             "parameters": [
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -2454,7 +2453,7 @@
             "parameters": [
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -2482,7 +2481,7 @@
             "parameters": [
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional). \r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional). \r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -2732,7 +2731,7 @@
             "parameters": [
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -2855,7 +2854,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 }
@@ -2904,7 +2903,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -2922,7 +2921,7 @@
                 },
                 {
                     "name": "FORMAT",
-                    "description": "File format (\"XPalXmlExporter\",\"XPalCSVConverter\", or user-defined format) (optional). \r\nFor parts management (\"XPamImportXml\" and \"XPamExportXml\")\r\n\"XPalXmlExporter\" is the default format value for tasks of TYPE \"IMPORT\" and \"EXPORT\".\r\n\"XPamExportXml\" is the default format value for tasks of TYPE \"IMPORTTOSYSTEM\" and \"EXPORTFROMSYSTEM\".\r\nSee also \"XMLConverter\" and \"XMLConverterCategories\" namespace.",
+                    "description": "File format (\"XPalXmlExporter\",\"XPalCSVConverter\", or user-defined format) (optional). \r\nFor parts management (\"XPamImportXml\" and \"XPamExportXml\")\r\n\"XPalXmlExporter\" is the default format value for tasks of TYPE \"IMPORT\" and \"EXPORT\".\r\n\"XPamExportXml\" is the default format value for tasks of TYPE \"IMPORTTOSYSTEM\" and \"EXPORTFROMSYSTEM\".",
                     "optional": true,
                     "type": "string"
                 },
@@ -3426,7 +3425,7 @@
             "parameters": [
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -3522,7 +3521,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -3751,7 +3750,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is call from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is call from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -4048,7 +4047,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").\r\nThis parameter is only effective with the following values of the TYPE parameter: \"DEVICES\", \"PAGES\", \"TERMINALS\", \"CABLES\", \"CONNECTIONS\".",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first, otherwise an exception is thrown.\r\nThis parameter is only effective with the following values of the TYPE parameter: \"DEVICES\", \"PAGES\", \"TERMINALS\", \"CABLES\", \"CONNECTIONS\".",
                     "optional": true,
                     "type": "string"
                 },
@@ -4589,7 +4588,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used, in case the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used, in case the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -4784,7 +4783,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction (see also \"XEsProjectAction\") must be used first, otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction.",
                     "optional": true,
                     "type": "string"
                 },
@@ -5106,7 +5105,7 @@
             "parameters": [
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected  project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected  project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -5171,7 +5170,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -5216,7 +5215,7 @@
             "parameters": [
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar).\r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar).\r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 },
@@ -5294,7 +5293,7 @@
                 },
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction (see also \"XEsProjectAction\") must be used first, otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction.",
                     "optional": true,
                     "type": "string"
                 },
@@ -5402,7 +5401,7 @@
             "parameters": [
                 {
                     "name": "PROJECTNAME",
-                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first (see also \"ProjectAction\"), otherwise an exception is thrown (see also \"System.ArgumentException\").",
+                    "description": "Project name with full path (optional).\r\nIf not entered, the selected project is used when the action is called from GUI (like from a script or ribbon bar). \r\nIf called from the windows command line, the PROJECTNAME must be set or the ProjectAction must be used first.",
                     "optional": true,
                     "type": "string"
                 }
@@ -7410,7 +7409,7 @@
                 }
             ],
             "notes": [
-                "See also chapter \"Basic Projects instead of Project Templates\" in the \"News 2022\" section of the EPLAN Platform Help."
+                ""
             ],
             "examples": [
                 {

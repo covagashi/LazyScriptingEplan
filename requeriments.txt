@@ -1,4 +1,5 @@
 # Core dependencies
+google-adk>=0.1.0
 google-generativeai==0.8.5
 python-dotenv==1.0.1
 requests==2.32.3
@@ -9,7 +10,7 @@ scikit-learn==1.4.2
 numpy==1.26.4
 sentence-transformers==2.7.0
 
-# FileSystem monitoring (NEW)
+# FileSystem monitoring
 watchdog==4.0.0
 
 # .NET integration for EPLAN
@@ -20,8 +21,7 @@ pytest==8.2.2
 black==24.4.2
 flake8==7.1.0
 
-# Additional utilities for enhanced functionality
+# Additional utilities
 aiofiles==23.2.1  
 psutil==5.9.8      
-numpy==1.26.4
 faiss-cpu==1.7.4

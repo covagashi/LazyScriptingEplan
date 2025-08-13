@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
+from src.core.model_config import ModelManager
 import pickle
 import numpy as np
 import threading
@@ -19,6 +20,7 @@ class ScriptRAG:
         self.scripts_path = Path("src/ai/Knowledge/Scripts")
         self.cache_path = Path("src/ai/cache/scripts")
         self.cache_path.mkdir(exist_ok=True, parents=True)
+        self.model_manager = ModelManager()
         
         self.model = None
         self.scripts = []
@@ -64,18 +66,13 @@ class ScriptRAG:
     
     def _ensure_model(self):
         """Lazy load the model only when needed"""
-        if self.model is None:
-            print("Loading script embedding model...")
-            try:
-                self.model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2', local_files_only=True)
-            except:
-                model_path = Path("C:/Users/cd.lopez/.cache/huggingface/transformers/sentence-transformers--all-MiniLM-L6-v2")
-                if model_path.exists():
-                    self.model = SentenceTransformer(str(model_path))
-                else:
-                    # Fallback to download if local not found
-                    self.model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-            print("✓ Script model loaded")
+        print("Loading embedding model...")
+        try:
+            self.model = self.model_manager.load_sentence_transformer()
+            print("✓ Model loaded successfully")
+        except Exception as e:
+            print(f"✗ Model loading failed: {e}")
+            raise
     
     def search_scripts_sync(self, query: str, top_k: int = 3, threshold: float = 0.3) -> List[Dict[str, Any]]:
         """Synchronous search wrapper for tools that can't handle async"""
