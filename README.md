@@ -2,6 +2,8 @@
 
 Multi-agent system for EPLAN scripting automation using natural language. Built with Google's Agent Development Kit.
 
+**This still under development**
+
 ## Setup
 
 **Prerequisites:**
@@ -16,10 +18,9 @@ pip install google-adk
 ```
 
 **Configure:**
-Create `eplan_coordinator/.env`:
-```
-GEMINI_API_KEY=your_api_key_here
-```
+Create `eplan_coordinator/.env`
+
+Download `sentence-transformers--all-MiniLM-L6-v2`
 
 **Run:**
 ```bash

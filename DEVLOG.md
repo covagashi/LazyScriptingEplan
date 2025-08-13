@@ -8,7 +8,6 @@
 ## 2025-08-12: Another architecture pivot
 - Testing google ADK and CrewAI
 
-
 ## 2025-08-11: Agent Architecture Challenges
 - Mini-agents approach showed significant flow issues
 - FileSystemAgent couldn't handle complex coordination
