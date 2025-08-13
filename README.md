@@ -1,87 +1,55 @@
-# Lazy Eplan Scripting
+# EPLAN Multi-Agent Automation
 
-## Intro
+Multi-agent system for EPLAN scripting automation using natural language. Built with Google's Agent Development Kit.
 
-I am doing this project inspired with the agents. In my head is posible but I need to put on practice.
+## Setup
 
-##  Getting Started
+**Prerequisites:**
+- Python 3.10+
+- EPLAN 2023+ Electric P8
 
-Still long way to finish this.... check Dev-log for more info
+**Install:**
+```bash
+git clone <repo>
+cd LazyScriptingEplan
+pip install google-adk
+```
 
-## 🗺️ Roadmap
+**Configure:**
+Create `eplan_coordinator/.env`:
+```
+GEMINI_API_KEY=your_api_key_here
+```
 
-### **Phase 1**: Core Infrastructure 
-- [x] RAG service with LazyScriptingEplan knowledge base
-- [x] JSON examples collection from Suplanus repository
-- [x] EPLAN API patterns and templates
-- [X] LLM integration for natural language processing
+**Run:**
+```bash
+adk web
+```
+Access at http://localhost:8000
 
-### **Phase 2**: Intelligence Layer 
-- [ ] Conversation Agent
-- [ ] Execution Agent
-- [ ] Feedback Agent
-- [ ] Knowledge Agent
-- [ ] ProjectManager Agent
+## What it does
 
-### **Phase 3**: EPLAN Integration 
+- **Documentation search**: Find EPLAN API info
+- **Script generation**: Natural language → C# code  
+- **Code validation**: Syntax and security checks
+- **Direct execution**: Run scripts via EPLAN Remoting
 
-### **Phase 4**: User Interface 
+## Usage
 
+Ask the coordinator:
+- "Generate a script to export project data"
+- "Find documentation for ProjectManager class"
+- "Validate this script for security issues"
 
----
-# Dev-Log
+## Architecture
 
-30/07/2025
-My first idea was to build it with C# but I really had difficulties when I try to use a local LLM.
-I did a quick test and EplanRemoting works fine with python. So I will use python because is more friendly
-when comes with LLM
-
-02/08/2025
-I am stuck with the RAG system, I am not sure if the qwen is nnot enought.
-I am thinking to pivote towards Geminis 1.5 API instead of a local LLM
-
-04/08/2025
-I moved to geminis and it's better but I still struggling with the RAG
-
-05/08/2025
-Instead of using a parsing all the json, I changed into 'sentence-transformers/all-MiniLM-L6-v2' 
-So the RAG is more effective. Now the  knowledgeAgent find the information and ManagerAgent give the context.
-- One of the pending task would be, clean the information of the json. 
-- Next step will improve the conversationAgent and text the codeGeneratorAgent.
-
-06/08/2025
-After some test, the workflow is not smart and after all if working with case words and small changes
-broke others agents. So my desition is change the architecture.
-
-I did recreate the new agents so... the knowledge agent is broke again (RAG) and I need to improve this
-new system and findout a balance. 
-
-07/08/2025
-Right now I enhanced the agents and I havent test yet everything but probably is not working.
-I separated the RAG for improve the search of docs api and example scripts.
-There is a new agent for planning but doesnt act as coordinator.
-I am not sure if start testing or implement the fallback loop and add the learning from 
-feedback.
-
-08/08/2025
-In the end I decided to add everything and then start to debug. When everything is working I will
-try to add the self learn.
-Currently is half working,  there is a big leak of flows and FileSystemAgent can't handle everything.
-
-11/08/2025
-The mini agents is not working at all, there is some failures, I will investigate more about how
-to build an A2A instead of re-invent the wheel
----
-
-## 🔗 Resources
-
-- **Original Source**: [Suplanus EPLAN Scripting](https://github.com/Suplanus/EPLAN-Scripting/tree/master)
-- **EPLAN API Documentation**: Official EPLAN developer resources
-
-## 🙏 Acknowledgments
-
-Special thanks to [Suplanus](https://github.com/Suplanus) for the foundational examples and EPLAN scripting community contributions.
+- `eplan_coordinator`: Main orchestrator
+- `knowledge_agent`: API documentation search
+- `examples_agent`: Script pattern matching
+- `codecraft_agent`: Code generation
+- `validation_agent`: Code validation
+- `execution_agent`: EPLAN integration
 
 ---
 
-Created with ❤️ by covagashi
+Thanks to [Suplanus](https://github.com/Suplanus) for EPLAN examples.
