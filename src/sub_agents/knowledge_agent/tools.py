@@ -1,5 +1,5 @@
 # src/sub_agents/knowledge_agent/tools.py
-from src.ai.documentation_rag import DocumentationRAG
+from src.ai.documentation_rag import OptimizedDocumentationRAG
 import logging
 
 logger = logging.getLogger(__name__)
@@ -10,60 +10,86 @@ _doc_rag = None
 def _get_doc_rag():
     global _doc_rag
     if _doc_rag is None:
-        _doc_rag = DocumentationRAG()
+        _doc_rag = OptimizedDocumentationRAG()
     return _doc_rag
 
 def search_eplan_docs(query: str, top_k: int = 3) -> str:
-    """Search EPLAN API documentation with error handling"""
+    """Search EPLAN API documentation with strict RAG-only responses"""
     try:
         doc_rag = _get_doc_rag()
         results = doc_rag.search_documentation(query, top_k=top_k)
         
         if not results:
-            return f"No documentation found for '{query}'. Try rephrasing your search terms."
+            return f"❌ No se encontró documentación para '{query}' en la base de datos RAG. Verifica que los datos estén cargados correctamente."
         
-        response = f"## EPLAN Documentation: {query}\n\n"
+        response = f"## Documentación EPLAN: {query}\n\n"
         for i, result in enumerate(results, 1):
             item = result['document'].get('item', {})
             score = result['score']
             
-            response += f"**{i}. {item.get('name', 'API Reference')}**\n"
-            response += f"{item.get('description', 'No description available')}\n"
+            # Only show RAG data, no additional interpretation
+            response += f"**{i}. {item.get('name', 'Referencia API')}**\n"
+            response += f"**Tipo:** {item.get('type', 'N/A')}\n"
+            response += f"**Categoría:** {item.get('category', 'N/A')}\n"
+            response += f"**Descripción:** {item.get('description', 'Sin descripción disponible')}\n"
             
             if 'parameters' in item and item['parameters']:
-                response += "\n**Parameters:**\n"
-                for param in item['parameters'][:3]:
+                response += "\n**Parámetros:**\n"
+                for param in item['parameters']:
                     if isinstance(param, dict):
-                        param_name = param.get('name', 'Unknown')
-                        param_desc = param.get('description', 'No description')
-                        response += f"- `{param_name}`: {param_desc}\n"
+                        param_name = param.get('name', 'Desconocido')
+                        param_desc = param.get('description', 'Sin descripción')
+                        param_type = param.get('type', 'N/A')
+                        optional = " (opcional)" if param.get('optional', False) else ""
+                        response += f"- `{param_name}` ({param_type}){optional}: {param_desc}\n"
             
-            response += f"\n*Relevance: {score:.2f}*\n\n"
+            if 'examples' in item and item['examples']:
+                response += "\n**Ejemplos:**\n"
+                for example in item['examples']:
+                    if isinstance(example, dict):
+                        if 'command' in example:
+                            response += f"```\n{example['command']}\n```\n"
+                        if 'description' in example:
+                            response += f"{example['description']}\n"
+            
+            if 'notes' in item and item['notes']:
+                response += "\n**Notas:**\n"
+                for note in item['notes']:
+                    response += f"- {note}\n"
+            
+            response += f"\n*Relevancia: {score:.2f}*\n\n"
+        
+        response += "\n⚠️ **IMPORTANTE**: Esta información proviene directamente de la base de datos RAG. No se ha añadido información adicional."
         
         return response
         
     except Exception as e:
         logger.error(f"Error in search_eplan_docs: {e}")
-        return f"Error searching documentation: {str(e)}. Please try again with different search terms."
+        return f"❌ Error buscando documentación: {str(e)}"
 
 def find_action_docs(action_name: str) -> str:
-    """Find documentation for specific EPLAN action with error handling"""
+    """Find documentation for specific EPLAN action - RAG only"""
     try:
         doc_rag = _get_doc_rag()
         results = doc_rag.find_action_documentation(action_name)
         
         if not results:
-            return f"No action documentation found for '{action_name}'. Verify the action name is correct."
+            return f"❌ No se encontró documentación para la acción '{action_name}' en la base de datos RAG."
         
-        response = f"## Action Documentation: {action_name}\n\n"
+        response = f"## Documentación de Acción: {action_name}\n\n"
         for result in results:
             item = result['document'].get('item', {})
-            response += f"**{item.get('name', action_name)}**\n"
-            response += f"{item.get('description', 'No description available')}\n\n"
+            response += f"**Nombre:** {item.get('name', action_name)}\n"
+            response += f"**Tipo:** {item.get('type', 'acción')}\n"
+            response += f"**Descripción:** {item.get('description', 'Sin descripción disponible')}\n"
+            
+            # Show exact RAG data structure
+            response += f"\n**Datos RAG completos:**\n```json\n{item}\n```\n"
+        
+        response += "\n⚠️ **IMPORTANTE**: Solo se muestra información presente en la base de datos RAG."
         
         return response
         
     except Exception as e:
         logger.error(f"Error in find_action_docs: {e}")
-        return f"Error finding action documentation: {str(e)}. Please verify the action name."
-
+        return f"❌ Error buscando documentación de acción: {str(e)}"

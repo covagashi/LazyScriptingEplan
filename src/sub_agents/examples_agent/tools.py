@@ -1,5 +1,5 @@
 # src/sub_agents/examples_agent/tools.py
-from src.ai.script_rag import ScriptRAG
+from ai.optimized_rag import OptimizedScriptRAG
 import logging
 
 logger = logging.getLogger(__name__)
@@ -10,7 +10,7 @@ _script_rag = None
 def _get_script_rag():
     global _script_rag
     if _script_rag is None:
-        _script_rag = ScriptRAG()
+        _script_rag = OptimizedScriptRAG()
     return _script_rag
 
 def search_script_examples(functionality: str, top_k: int = 3) -> str:

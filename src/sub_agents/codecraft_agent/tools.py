@@ -1,5 +1,5 @@
 # src/sub_agents/codecraft_agent/tools.py
-from src.ai.script_rag import ScriptRAG
+from ai.optimized_rag import ScriptRAG
 from src.ai.documentation_rag import DocumentationRAG
 import time
 from pathlib import Path
@@ -79,10 +79,10 @@ def _generate_implementation_code(examples, docs, requirements):
     
     return f"// Implementation for: {requirements}\n            // Add your EPLAN automation logic here"
 
-def save_script_to_file(content: str, filename: str = None) -> str:
+def save_script_to_file(content: str, filename: str = "") -> str:
     """Save generated script to filesystem"""
     try:
-        if not filename:
+        if not filename: 
             timestamp = int(time.time())
             filename = f"generated_script_{timestamp}.cs"
         

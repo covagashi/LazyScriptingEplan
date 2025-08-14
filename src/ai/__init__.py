@@ -1,6 +1,6 @@
 # src/ai/__init__.py
-from .script_rag import ScriptRAG
-from .documentation_rag import DocumentationRAG
+from .optimized_rag import OptimizedScriptRAG
+from .documentation_rag import OptimizedDocumentationRAG
 
 
-__all__ = ['ScriptRAG', 'DocumentationRAG']
+__all__ = ['OptimizedScriptRAG', 'OptimizedDocumentationRAG']
