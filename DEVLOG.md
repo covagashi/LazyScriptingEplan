@@ -1,5 +1,12 @@
 # Development Log
 
+## 2025-08-14: Basic scheme working!
+- Finally I can say that the agents are working.
+- I would love to improve the execution_agent but for the moment is just trigger actions
+- I need API license for do more, not unless I use some "actioname" script for execute scripts.
+- Codecraft_agent still need to be refine.
+- For some reason, execute_agent can receive error messages from Eplan, check test_failed.json
+
 ## 2025-08-13: ADK Integration
 - Migrated from custom agent architecture to Google's Agent Development Kit
 - Restructured project for ADK compatibility
