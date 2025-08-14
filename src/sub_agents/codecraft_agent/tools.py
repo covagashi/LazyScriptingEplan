@@ -1,6 +1,6 @@
 # src/sub_agents/codecraft_agent/tools.py
-from ai.optimized_rag import ScriptRAG
-from src.ai.documentation_rag import DocumentationRAG
+from src.ai.optimized_rag import OptimizedScriptRAG
+from src.ai.documentation_rag import OptimizedDocumentationRAG
 import time
 from pathlib import Path
 import logging
@@ -14,13 +14,13 @@ _doc_rag = None
 def _get_script_rag():
     global _script_rag
     if _script_rag is None:
-        _script_rag = ScriptRAG()
+        _script_rag = OptimizedScriptRAG()
     return _script_rag
 
 def _get_doc_rag():
     global _doc_rag
     if _doc_rag is None:
-        _doc_rag = DocumentationRAG()
+        _doc_rag = OptimizedDocumentationRAG()
     return _doc_rag
 
 def generate_eplan_script(requirements: str, context: str = "") -> str:

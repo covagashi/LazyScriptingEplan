@@ -7,6 +7,8 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional
 from sentence_transformers import SentenceTransformer
 import logging
+import os
+
 
 logger = logging.getLogger(__name__)
 
@@ -24,7 +26,19 @@ class OptimizedRAG:
         self.nprobe = 10
         
     def _init_model(self):
+        """Load model from correct cache path"""
         if self.model is None:
+            # Check environment variable first
+            cache_path = os.getenv('HUGGINGFACE_HUB_CACHE')
+            if cache_path:
+                model_path = Path(cache_path) / "sentence-transformers--all-MiniLM-L6-v2"
+                if model_path.exists():
+                    from sentence_transformers import SentenceTransformer
+                    self.model = SentenceTransformer(str(model_path))
+                    return
+            
+            # Fallback to downloading
+            from sentence_transformers import SentenceTransformer
             self.model = SentenceTransformer('all-MiniLM-L6-v2')
             
     def _create_index(self, vectors: np.ndarray) -> faiss.Index:

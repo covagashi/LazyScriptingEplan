@@ -1,5 +1,5 @@
 # src/sub_agents/examples_agent/tools.py
-from ai.optimized_rag import OptimizedScriptRAG
+from src.ai.optimized_rag import OptimizedScriptRAG
 import logging
 
 logger = logging.getLogger(__name__)

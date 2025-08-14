@@ -1,6 +1,7 @@
 # src/ai/optimized_rag.py
 import numpy as np
 import faiss
+import os
 import pickle
 from pathlib import Path
 from typing import List, Dict, Any, Optional
@@ -25,8 +26,19 @@ class OptimizedRAG:
         self.nprobe = 10  # Search clusters
         
     def _init_model(self):
-        """Lazy load model"""
+        """Load model from correct cache path"""
         if self.model is None:
+            # Check environment variable first
+            cache_path = os.getenv('HUGGINGFACE_HUB_CACHE')
+            if cache_path:
+                model_path = Path(cache_path) / "sentence-transformers--all-MiniLM-L6-v2"
+                if model_path.exists():
+                    from sentence_transformers import SentenceTransformer
+                    self.model = SentenceTransformer(str(model_path))
+                    return
+            
+            # Fallback to downloading
+            from sentence_transformers import SentenceTransformer
             self.model = SentenceTransformer('all-MiniLM-L6-v2')
             
     def _create_index(self, vectors: np.ndarray) -> faiss.Index:
@@ -275,12 +287,11 @@ class OptimizedScriptRAG(OptimizedRAG):
     def search_scripts(self, query: str, top_k: int = 3) -> List[Dict]:
         """Search scripts with optimized index"""
         return self.search(query, top_k, threshold=0.3)
-
-
-# Usage example
-if __name__ == "__main__":
-    # Replace ScriptRAG with OptimizedScriptRAG
-    script_rag = OptimizedScriptRAG()
-    results = script_rag.search_scripts("export project", top_k=3)
-    print(f"Found {len(results)} results")
-    print(script_rag.get_stats())
+    
+    def search_scripts_sync(self, query: str, top_k: int = 3) -> List[Dict]:
+        """Synchronous wrapper for search_scripts"""
+        return self.search_scripts(query, top_k)
+    
+    def find_by_pattern(self, pattern: str) -> List[Dict]:
+        """Find examples by specific pattern"""
+        return self.search_scripts(pattern, top_k=3)
