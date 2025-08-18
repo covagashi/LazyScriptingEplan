@@ -1,5 +1,11 @@
 # Development Log
 
+## 2025-08-18
+- The json was clean up.
+- The coodinator was fixed
+- optimized knowledge and examples agent
+- This works and is a basic example
+
 ## 2025-08-14: Basic scheme working!
 - Finally I can say that the agents are working.
 - I would love to improve the execution_agent but for the moment is just trigger actions
