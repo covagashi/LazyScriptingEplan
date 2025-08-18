@@ -1,6 +1,5 @@
 # eplan_coordinator/agent.py
 from google.adk.agents import Agent
-from google.adk.tools.agent_tool import AgentTool
 from google.adk.agents.callback_context import CallbackContext
 from .eplan_startup import initialize_eplan
 from .prompt import EPLAN_COORDINATOR_PROMPT
@@ -20,12 +19,12 @@ root_agent = Agent(
     model="gemini-2.5-flash",
     name="eplan_coordinator", 
     instruction=EPLAN_COORDINATOR_PROMPT,
-    tools=[
-        AgentTool(agent=knowledge_agent),
-        AgentTool(agent=examples_agent),
-        AgentTool(agent=codecraft_agent),
-        AgentTool(agent=validation_agent),
-        AgentTool(agent=execution_agent),
+    sub_agents=[  
+        knowledge_agent,
+        examples_agent,
+        codecraft_agent,
+        validation_agent,
+        execution_agent,
     ],
     before_agent_callback=setup_eplan_on_startup,
 )
