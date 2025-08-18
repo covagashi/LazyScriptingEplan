@@ -5,7 +5,7 @@ from .tools import search_eplan_docs, find_action_docs
 from . import prompt
 
 knowledge_agent = Agent(
-    model="gemini-2.5-pro",
+    model="gemini-2.0-flash-lite",
     name="knowledge_agent",
     instruction=prompt.KNOWLEDGE_AGENT_PROMPT,
     output_key="knowledge_output",

@@ -17,7 +17,7 @@ def setup_eplan_on_startup(callback_context: CallbackContext):
         callback_context.state["eplan_initialized"] = True
 
 root_agent = Agent(  
-    model="gemini-2.5-pro",
+    model="gemini-2.5-flash",
     name="eplan_coordinator", 
     instruction=EPLAN_COORDINATOR_PROMPT,
     tools=[

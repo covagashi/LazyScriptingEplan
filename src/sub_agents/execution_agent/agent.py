@@ -5,7 +5,7 @@ from .tools import check_eplan_connection, execute_eplan_action
 from . import prompt
 
 execution_agent = Agent(
-    model="gemini-2.5-pro",
+    model="gemini-2.0-flash-lite",
     name="execution_agent",
     instruction=prompt.EXECUTION_AGENT_PROMPT,
     output_key="execution_output",

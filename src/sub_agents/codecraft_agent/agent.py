@@ -5,7 +5,7 @@ from .tools import generate_eplan_script, save_script_to_file, enhance_script_wi
 from . import prompt
 
 codecraft_agent = Agent(
-    model="gemini-2.5-pro",
+    model="gemini-2.5-flash-lite",
     name="codecraft_agent",
     instruction=prompt.CODECRAFT_AGENT_PROMPT,
     output_key="script_output",

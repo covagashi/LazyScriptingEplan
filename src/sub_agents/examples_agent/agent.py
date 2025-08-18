@@ -5,7 +5,7 @@ from .tools import search_script_examples, find_pattern_examples
 from . import prompt
 
 examples_agent = Agent(
-    model="gemini-2.5-pro",
+    model="gemini-2.0-flash-lite",
     name="examples_agent",
     instruction=prompt.EXAMPLES_AGENT_PROMPT,
     output_key="examples_output",

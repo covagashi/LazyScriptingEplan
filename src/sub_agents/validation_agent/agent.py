@@ -5,7 +5,7 @@ from .tools import validate_csharp_syntax, security_audit, check_eplan_best_prac
 from . import prompt
 
 validation_agent = Agent(
-    model="gemini-2.5-pro",
+    model="gemini-2.5-flash-lite",
     name="validation_agent",
     instruction=prompt.VALIDATION_AGENT_PROMPT,
     output_key="validation_output",
