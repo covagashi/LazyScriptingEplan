@@ -9,6 +9,7 @@ PyYAML==6.0.2
 scikit-learn==1.4.2
 numpy==1.26.4
 sentence-transformers==2.7.0
+rank-bm25==0.2.2
 
 # FileSystem monitoring
 watchdog==4.0.0

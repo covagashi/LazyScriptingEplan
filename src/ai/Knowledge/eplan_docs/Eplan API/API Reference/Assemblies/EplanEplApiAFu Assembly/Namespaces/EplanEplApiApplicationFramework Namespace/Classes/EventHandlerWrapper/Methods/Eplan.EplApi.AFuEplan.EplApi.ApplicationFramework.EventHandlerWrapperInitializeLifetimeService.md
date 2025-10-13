@@ -1,0 +1,33 @@
+This object should live "forever."
+
+Syntax
+
+* [C#](#i-syntax-CS)
+* [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public virtual object InitializeLifetimeService()
+```
+```
+
+```
+```
+public:
+virtual Object^ InitializeLifetimeService();
+```
+```
+
+#### Return Value
+
+Returns always `null`.
+
+
+
+See Also
+
+#### Reference
+
+[EventHandlerWrapper Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerWrapper.html)
+  
+[EventHandlerWrapper Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerWrapper_members.html)

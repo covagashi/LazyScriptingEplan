@@ -1,0 +1,29 @@
+This event is raised whenever an event with the desired name occurs in EPLAN. The original name of the event is also given.
+
+Syntax
+
+* [C#](#i-syntax-CS)
+* [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public EventHandlerNameFunction EplanNameEvent
+```
+```
+
+```
+```
+public:
+EventHandlerNameFunction^ EplanNameEvent
+```
+```
+
+
+
+See Also
+
+#### Reference
+
+[EventHandler Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler.html)
+  
+[EventHandler Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler_members.html)

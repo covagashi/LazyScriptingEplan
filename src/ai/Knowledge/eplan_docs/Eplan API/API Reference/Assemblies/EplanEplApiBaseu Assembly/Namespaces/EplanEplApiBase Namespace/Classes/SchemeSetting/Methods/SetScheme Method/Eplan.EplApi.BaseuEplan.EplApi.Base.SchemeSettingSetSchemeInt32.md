@@ -1,0 +1,40 @@
+Sets a scheme by its number (LastUsed remains unchanged!)
+
+Syntax
+
+* [C#](#i-syntax-CS)
+* [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public void SetScheme( 
+   int i
+)
+```
+```
+
+```
+```
+public:
+void SetScheme( 
+   int i
+)
+```
+```
+
+#### Parameters
+
+*i*
+:   Index of the requested scheme.
+
+
+
+See Also
+
+#### Reference
+
+[SchemeSetting Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting.html)
+  
+[SchemeSetting Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting_members.html)
+  
+[Overload List](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting~SetScheme.html)

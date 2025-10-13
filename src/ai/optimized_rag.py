@@ -3,44 +3,171 @@ import numpy as np
 import faiss
 import os
 import pickle
+import re
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 from sentence_transformers import SentenceTransformer
+from rank_bm25 import BM25Okapi
 import logging
 
 logger = logging.getLogger(__name__)
 
+# Common English stopwords for technical documentation
+STOPWORDS = {
+    'a', 'an', 'and', 'are', 'as', 'at', 'be', 'by', 'for', 'from', 'has', 'he',
+    'in', 'is', 'it', 'its', 'of', 'on', 'that', 'the', 'to', 'was', 'will', 'with'
+}
+
 class OptimizedRAG:
     """High-performance RAG with quantization and FAISS indexing"""
-    
-    def __init__(self, embedding_dim: int = 384):
+
+    def __init__(self, embedding_dim: int = 384, use_reranker: bool = True):
         self.embedding_dim = embedding_dim
         self.model = None
+        self.reranker_model = None
+        self.use_reranker = use_reranker
         self.documents = []
         self.index = None
+        self.bm25_index = None
         self.doc_map = {}  # ID to document mapping
-        
+
         # Quantization settings
         self.use_quantization = True
         self.nlist = 100  # Number of clusters for IVF
         self.nprobe = 10  # Search clusters
+
+        # Re-ranking settings
+        self.rerank_candidates = 20  # Number of candidates to retrieve before re-ranking
+        self.rerank_final = 5  # Number of final results after re-ranking
+
+    @staticmethod
+    def tokenize(text: str) -> List[str]:
+        """Advanced tokenization for BM25 with stopword removal"""
+        # Convert to lowercase and extract alphanumeric tokens
+        # This handles punctuation and preserves technical terms like "API" or "C#"
+        tokens = re.findall(r'\b\w+\b', text.lower())
+
+        # Remove stopwords and very short tokens (len < 2)
+        tokens = [t for t in tokens if len(t) > 2 and t not in STOPWORDS]
+
+        return tokens
+
+    @staticmethod
+    def chunk_text(text: str, chunk_size: int = 512, overlap: int = 50) -> List[str]:
+        """
+        Split text into overlapping chunks for better semantic search.
+
+        Args:
+            text: Text to chunk
+            chunk_size: Approximate number of words per chunk
+            overlap: Number of words to overlap between chunks
+
+        Returns:
+            List of text chunks
+        """
+        # Split by words while preserving structure
+        words = text.split()
+
+        if len(words) <= chunk_size:
+            return [text]
+
+        chunks = []
+        start = 0
+
+        while start < len(words):
+            end = start + chunk_size
+            chunk_words = words[start:end]
+            chunks.append(' '.join(chunk_words))
+
+            # Move start forward with overlap
+            start = end - overlap
+
+            # Prevent infinite loop
+            if start >= len(words):
+                break
+
+        return chunks
         
     def _init_model(self):
-        """Load model from correct cache path"""
+        """
+        Initializes the SentenceTransformer model with offline-first strategy.
+
+        Priority:
+        1. Local cache in project directory (src/ai/models/)
+        2. System-wide HuggingFace cache
+        3. Download from HuggingFace (if internet available)
+        4. Fallback to TF-IDF if no model available
+        """
         if self.model is None:
-            # Check environment variable first
-            cache_path = os.getenv('HUGGINGFACE_HUB_CACHE')
-            if cache_path:
-                model_path = Path(cache_path) / "sentence-transformers--all-MiniLM-L6-v2"
-                if model_path.exists():
-                    from sentence_transformers import SentenceTransformer
-                    self.model = SentenceTransformer(str(model_path))
-                    return
-            
-            # Fallback to downloading
             from sentence_transformers import SentenceTransformer
-            self.model = SentenceTransformer('all-MiniLM-L6-v2')
-            
+            import os
+
+            # Define local model path within project
+            local_model_path = Path("src/ai/models/all-MiniLM-L6-v2")
+
+            try:
+                # Try loading from local project directory first
+                if local_model_path.exists():
+                    logger.info(f"Loading model from local cache: {local_model_path}")
+                    self.model = SentenceTransformer(str(local_model_path), local_files_only=True)
+                    logger.info("✓ Model loaded successfully from local cache")
+                else:
+                    # Try loading from system cache or download
+                    logger.info("Attempting to load model (will use system cache if available)...")
+                    try:
+                        self.model = SentenceTransformer('all-MiniLM-L6-v2')
+                        logger.info("✓ Model loaded successfully")
+                    except Exception as e:
+                        logger.warning(f"Could not download model (possibly offline): {e}")
+                        # Try one more time with local_files_only
+                        logger.info("Attempting to load from system cache only...")
+                        self.model = SentenceTransformer('all-MiniLM-L6-v2', local_files_only=True)
+                        logger.info("✓ Model loaded from system cache")
+
+            except Exception as e:
+                logger.error(f"Failed to load embedding model: {e}")
+                logger.warning("⚠️  Falling back to BM25-only search (no vector embeddings)")
+                self.model = None  # Will use BM25-only mode
+
+    def _init_reranker(self):
+        """
+        Initializes the Cross-Encoder model for re-ranking.
+
+        Uses a lightweight Cross-Encoder that's more accurate than bi-encoders
+        for relevance scoring, but slower (so we use it on a smaller candidate set).
+        """
+        if not self.use_reranker or self.reranker_model is not None:
+            return
+
+        try:
+            from sentence_transformers import CrossEncoder
+
+            # Define local reranker path
+            local_reranker_path = Path("src/ai/models/ms-marco-MiniLM-L-6-v2")
+
+            # Try loading from local cache first
+            if local_reranker_path.exists():
+                logger.info(f"Loading re-ranker from local cache: {local_reranker_path}")
+                self.reranker_model = CrossEncoder(str(local_reranker_path), max_length=512)
+                logger.info("✓ Re-ranker loaded from local cache")
+            else:
+                # Try downloading or loading from system cache
+                logger.info("Loading re-ranker model (cross-encoder/ms-marco-MiniLM-L-6-v2)...")
+                try:
+                    self.reranker_model = CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2', max_length=512)
+                    logger.info("✓ Re-ranker loaded successfully")
+                except Exception as e:
+                    logger.warning(f"Could not download re-ranker (possibly offline): {e}")
+                    logger.info("Attempting to load from system cache only...")
+                    self.reranker_model = CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2', max_length=512, local_files_only=True)
+                    logger.info("✓ Re-ranker loaded from system cache")
+
+        except Exception as e:
+            logger.warning(f"Failed to load re-ranker model: {e}")
+            logger.info("⚠️  Re-ranking disabled - will use hybrid search only")
+            self.reranker_model = None
+            self.use_reranker = False
+
     def _create_index(self, vectors: np.ndarray) -> faiss.Index:
         """Create optimized FAISS index with quantization"""
         n_docs = vectors.shape[0]
@@ -77,66 +204,194 @@ class OptimizedRAG:
         return index
     
     def build_index(self, documents: List[Dict], texts: List[str]):
-        """Build optimized vector index"""
+        """
+        Build optimized vector index and BM25 index.
+
+        Falls back to BM25-only mode if embedding model is unavailable.
+        """
+        if not documents or not texts:
+            logger.warning("No documents or texts provided for indexing")
+            return
+
         self._init_model()
-        
-        logger.info(f"Encoding {len(texts)} documents...")
-        embeddings = self.model.encode(
-            texts, 
-            batch_size=32,
-            show_progress_bar=True,
-            convert_to_numpy=True
-        )
-        
-        # Normalize for cosine similarity
-        faiss.normalize_L2(embeddings)
-        
-        # Create FAISS index
-        self.index = self._create_index(embeddings)
-        self.index.add(embeddings.astype(np.float32))
-        
+
+        # Vector index (only if model available)
+        if self.model is not None:
+            logger.info(f"Encoding {len(texts)} documents for vector search...")
+            try:
+                embeddings = self.model.encode(
+                    texts,
+                    batch_size=32,
+                    show_progress_bar=True,
+                    convert_to_numpy=True
+                )
+                faiss.normalize_L2(embeddings)
+                self.index = self._create_index(embeddings)
+                self.index.add(embeddings.astype(np.float32))
+                logger.info(f"✓ Built FAISS vector index with {self.index.ntotal} vectors")
+            except Exception as e:
+                logger.error(f"Failed to build vector index: {e}")
+                logger.warning("⚠️  Vector search disabled, using BM25-only mode")
+                self.index = None
+        else:
+            logger.warning("⚠️  No embedding model available - Vector search disabled")
+            logger.info("📝 Using BM25-only mode (keyword search)")
+            self.index = None
+
+        # BM25 index with improved tokenization (always available)
+        logger.info(f"Creating BM25 index for keyword search...")
+        tokenized_corpus = [self.tokenize(doc) for doc in texts]
+        self.bm25_index = BM25Okapi(tokenized_corpus)
+        logger.info(f"✓ Built BM25 index with {len(tokenized_corpus)} documents")
+
         # Store documents
         self.documents = documents
         self.doc_map = {i: doc for i, doc in enumerate(documents)}
+
+        # Summary
+        if self.index is not None:
+            logger.info(f"🚀 Hybrid search ready: FAISS ({self.index.ntotal} vectors) + BM25 ({len(tokenized_corpus)} docs)")
+        else:
+            logger.info(f"🔍 BM25-only search ready with {len(tokenized_corpus)} documents")
         
-        logger.info(f"Built index with {self.index.ntotal} vectors")
-        
-    def search(self, query: str, top_k: int = 5, threshold: float = 0.3) -> List[Dict]:
-        """Optimized search with FAISS"""
-        if self.index is None:
+    def search(self, query: str, top_k: int = 5, use_reranking: bool = None) -> List[Dict]:
+        """
+        Performs hybrid search using FAISS (vector) and BM25 (keyword),
+        with optional Cross-Encoder re-ranking for improved precision.
+
+        Args:
+            query: Search query
+            top_k: Number of final results to return
+            use_reranking: Override default re-ranking behavior (None = use default)
+
+        Returns:
+            List of documents with scores
+        """
+        if self.bm25_index is None:
+            logger.warning("Search attempted before indexes were built.")
             return []
-            
-        self._init_model()
-        
-        # Encode query
-        query_embedding = self.model.encode([query], convert_to_numpy=True)
-        faiss.normalize_L2(query_embedding)
-        
-        # Search
-        scores, indices = self.index.search(
-            query_embedding.astype(np.float32), 
-            min(top_k * 2, len(self.documents))  # Get more candidates
-        )
-        
-        # Filter and format results
-        results = []
-        for score, idx in zip(scores[0], indices[0]):
-            if idx == -1 or score < threshold:
-                continue
-                
-            results.append({
-                'document': self.doc_map[idx],
-                'score': float(score),
-                'match_type': 'vector_search'
+
+        # Determine if we should use re-ranking
+        enable_reranking = self.use_reranker if use_reranking is None else use_reranking
+
+        # If re-ranking is enabled, retrieve more candidates first
+        search_k = self.rerank_candidates if enable_reranking else top_k
+
+        result_sets = []
+
+        # 1. Vector Search (FAISS) - if available
+        if self.index is not None and self.model is not None:
+            try:
+                self._init_model()
+                query_embedding = self.model.encode([query], convert_to_numpy=True)
+                faiss.normalize_L2(query_embedding)
+                vector_scores, vector_indices = self.index.search(query_embedding.astype(np.float32), search_k)
+
+                vector_results = list(zip(vector_indices[0], vector_scores[0]))
+                result_sets.append(vector_results)
+            except Exception as e:
+                logger.warning(f"Vector search failed: {e}. Using BM25-only mode.")
+
+        # 2. Keyword Search (BM25) - always available
+        tokenized_query = self.tokenize(query)
+        bm25_scores = self.bm25_index.get_scores(tokenized_query)
+        bm25_indices = np.argsort(bm25_scores)[::-1][:search_k]
+        bm25_results = list(zip(bm25_indices, [bm25_scores[i] for i in bm25_indices]))
+        result_sets.append(bm25_results)
+
+        # 3. Fuse results (or just use BM25 if only one result set)
+        if len(result_sets) > 1:
+            # Hybrid: RRF fusion
+            fused_results = self._rrf_fusion(result_sets)
+        else:
+            # BM25-only mode
+            fused_results = bm25_results
+
+        # 4. Format candidate documents
+        candidate_docs = []
+        for doc_id, score in fused_results[:search_k]:
+            candidate_docs.append({
+                'document': self.doc_map[doc_id],
+                'score': score
             })
-            
-            if len(results) >= top_k:
-                break
-                
-        return results
+
+        # 5. Apply Cross-Encoder re-ranking if enabled
+        if enable_reranking and len(candidate_docs) > 0:
+            self._init_reranker()  # Lazy load re-ranker
+            final_docs = self._rerank_results(query, candidate_docs)
+            return final_docs[:top_k]  # Return top_k after re-ranking
+        else:
+            return candidate_docs[:top_k]  # Return top_k without re-ranking
+
+    def _rrf_fusion(self, result_sets: List[List], k: int = 60) -> List:
+        """Performs Reciprocal Rank Fusion on multiple result sets."""
+        fused_scores = {}
+        for doc_set in result_sets:
+            for rank, (doc_id, _) in enumerate(doc_set):
+                if doc_id not in fused_scores:
+                    fused_scores[doc_id] = 0
+                fused_scores[doc_id] += 1 / (k + rank + 1)
+
+        reranked_results = sorted(fused_scores.items(), key=lambda x: x[1], reverse=True)
+        return reranked_results
+
+    def _rerank_results(self, query: str, candidate_docs: List[Dict]) -> List[Dict]:
+        """
+        Re-rank candidate documents using Cross-Encoder for improved precision.
+
+        Args:
+            query: The search query
+            candidate_docs: List of candidate documents with scores
+
+        Returns:
+            Re-ranked list of documents
+        """
+        if not self.use_reranker or self.reranker_model is None:
+            # Re-ranking disabled, return candidates as-is
+            return candidate_docs
+
+        try:
+            # Prepare query-document pairs for Cross-Encoder
+            pairs = []
+            for doc_data in candidate_docs:
+                doc = doc_data['document']
+                # Create text representation for re-ranking
+                if doc.get('type') == 'script':
+                    # For scripts: use name + description
+                    example = doc.get('example', {})
+                    text = f"{example.get('name', '')} {example.get('description', '')}"
+                else:
+                    # For documentation: use content (truncated if needed)
+                    text = doc.get('content', '')[:500]  # Truncate to 500 chars for efficiency
+
+                pairs.append([query, text])
+
+            # Score all pairs with Cross-Encoder
+            logger.debug(f"Re-ranking {len(pairs)} candidates with Cross-Encoder...")
+            scores = self.reranker_model.predict(pairs)
+
+            # Combine original documents with new scores
+            reranked = []
+            for doc_data, new_score in zip(candidate_docs, scores):
+                reranked.append({
+                    'document': doc_data['document'],
+                    'score': float(new_score),  # Cross-Encoder score
+                    'original_score': doc_data['score']  # Keep original for reference
+                })
+
+            # Sort by new Cross-Encoder scores
+            reranked.sort(key=lambda x: x['score'], reverse=True)
+
+            logger.info(f"✓ Re-ranked {len(reranked)} results with Cross-Encoder")
+            return reranked
+
+        except Exception as e:
+            logger.warning(f"Re-ranking failed: {e}. Returning original results.")
+            return candidate_docs
+
     
     def save_cache(self, cache_path: Path):
-        """Save optimized cache"""
+        """Save optimized FAISS and BM25 caches"""
         cache_data = {
             'documents': self.documents,
             'doc_map': self.doc_map,
@@ -152,10 +407,15 @@ class OptimizedRAG:
         if self.index is not None:
             faiss.write_index(self.index, str(cache_path / "faiss.index"))
             
-        logger.info(f"Saved optimized cache to {cache_path}")
+        # Save BM25 index
+        if self.bm25_index is not None:
+            with open(cache_path / "bm25.pkl", 'wb') as f_out:
+                pickle.dump(self.bm25_index, f_out)
+            
+        logger.info(f"Saved optimized caches to {cache_path}")
     
     def load_cache(self, cache_path: Path) -> bool:
-        """Load optimized cache"""
+        """Load optimized FAISS and BM25 caches"""
         try:
             # Load metadata
             with open(cache_path / "metadata.pkl", 'rb') as f:
@@ -166,11 +426,19 @@ class OptimizedRAG:
             self.embedding_dim = cache_data['embedding_dim']
             
             # Load FAISS index
-            index_path = cache_path / "faiss.index"
-            if index_path.exists() and cache_data['index_trained']:
-                self.index = faiss.read_index(str(index_path))
-                logger.info(f"Loaded optimized cache with {len(self.documents)} docs")
-                return True
+            faiss_path = cache_path / "faiss.index"
+            if not faiss_path.exists() or not cache_data['index_trained']:
+                return False
+            self.index = faiss.read_index(str(faiss_path))
+
+            # Load BM25 index
+            bm25_path = cache_path / "bm25.pkl"
+            if bm25_path.exists():
+                with open(bm25_path, 'rb') as f_in:
+                    self.bm25_index = pickle.load(f_in)
+
+            logger.info(f"Loaded optimized caches with {len(self.documents)} docs")
+            return True
                 
         except Exception as e:
             logger.error(f"Failed to load cache: {e}")
@@ -188,7 +456,8 @@ class OptimizedRAG:
             'index_type': index_type,
             'embedding_dim': self.embedding_dim,
             'quantized': self.use_quantization,
-            'memory_efficient': True
+            'memory_efficient': True,
+            'bm25_ready': self.bm25_index is not None
         }
 
 
@@ -286,7 +555,7 @@ class OptimizedScriptRAG(OptimizedRAG):
     
     def search_scripts(self, query: str, top_k: int = 3) -> List[Dict]:
         """Search scripts with optimized index"""
-        return self.search(query, top_k, threshold=0.3)
+        return self.search(query, top_k)
     
     def search_scripts_sync(self, query: str, top_k: int = 3) -> List[Dict]:
         """Synchronous wrapper for search_scripts"""

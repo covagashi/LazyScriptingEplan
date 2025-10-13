@@ -1,0 +1,42 @@
+Functions of this type can be registered as event handlers in the class [EventHandler](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler.html).
+
+Syntax
+
+* [C#](#i-syntax-CS)
+* [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public delegate void EventHandlerNameFunction( 
+   IEventParameter pIEventParameter,
+   string strNameOfEvent
+)
+```
+```
+
+```
+```
+public delegate void EventHandlerNameFunction( 
+   IEventParameter^ pIEventParameter,
+   String^ strNameOfEvent
+)
+```
+```
+
+#### Parameters
+
+*pIEventParameter*
+
+
+*strNameOfEvent*
+:   The original name of the send event. Can be useful when I was registered for an wildcard event, p.e. "Test\*"
+
+
+
+See Also
+
+#### Reference
+
+[EventHandlerNameFunction Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerNameFunction.html)
+  
+[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

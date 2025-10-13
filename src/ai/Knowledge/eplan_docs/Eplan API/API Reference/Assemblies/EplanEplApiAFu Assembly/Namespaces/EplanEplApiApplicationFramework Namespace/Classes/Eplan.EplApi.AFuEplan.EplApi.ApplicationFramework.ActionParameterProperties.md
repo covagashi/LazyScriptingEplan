@@ -1,0 +1,87 @@
+Description of a parameter that can be passed to an ActionCallingContext. This class only serves for documentation purposes.
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   **Eplan.EplApi.ApplicationFramework.ActionParameterProperties**
+
+Syntax
+
+* [C#](#i-syntax-CS)
+* [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public class ActionParameterProperties
+```
+```
+
+```
+```
+public ref class ActionParameterProperties
+```
+```
+
+Example
+
+Example of listing action parameters
+
+* [C#](#i-tab-content-3d7e6ec0-66db-443a-ac18-1b0284bd8955)
+
+```
+ActionManager actionManager = new ActionManager();
+EplApi.ApplicationFramework.Action foundAction = actionManager.FindAction("ActionExample");
+
+ArrayList listOfParameterProperties = foundAction.ActionProperties.GetParameterProperties();
+
+if (listOfParameterProperties.Count > 0)
+{
+
+    foreach (ActionParameterProperties parameterProperty in listOfParameterProperties)
+    {
+        string strParamName = parameterProperty.Name;
+        Debug.WriteLine(strParamName);
+
+    }
+}
+
+```
+
+Public Constructors
+
+|  | Name | Description |
+| --- | --- | --- |
+| Public Constructor | [ActionParameterProperties Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties~_ctor.html) | Overloaded. |
+
+[Top](#top)
+
+
+
+Public Properties
+
+|  | Name | Description |
+| --- | --- | --- |
+| Public Property | [Name](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties~Name.html) | Name of a parameter. |
+
+[Top](#top)
+
+Public Methods
+
+|  | Name | Description |
+| --- | --- | --- |
+| Public Method | [Dispose](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties~Dispose().html) | Destructor for deterministic finalization of ActionParameterProperties object. |
+| Public Method | [GetAfActionParameter](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties~GetAfActionParameter.html) | For internal use only. |
+| Public Method | [Set](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties~Set.html) | Description text of a parameter. Sets name and description text of a parameter. |
+
+[Top](#top)
+
+
+
+
+See Also
+
+#### Reference
+
+[ActionParameterProperties Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties_members.html)
+  
+[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

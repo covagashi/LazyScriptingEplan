@@ -1,0 +1,40 @@
+License type: local, network (remote) or borrowed
+
+Syntax
+
+* [C#](#i-syntax-CS)
+* [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public enum LicenseType : System.Enum
+```
+```
+
+```
+```
+public enum class LicenseType : public System.Enum
+```
+```
+
+Members
+
+| Member | Value | Description |
+| --- | --- | --- |
+| **Borrowed** | 5 | borrowed license |
+| **Local** | 1 | local license |
+| **NoLicense** | 0 | No license |
+| **Remote** | 2 | network license |
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   [System.ValueType](#)  
+      [System.Enum](#)  
+         **Eplan.EplApi.ApplicationFramework.LicenseType**
+
+See Also
+
+#### Reference
+
+[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

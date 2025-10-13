@@ -1,5 +1,39 @@
 # Environment variables
 .env
+
 # Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# RAG Caches (auto-generated)
+src/ai/cache/
 cache/
+
+# Embedding Model (optional, 90MB, can be downloaded via setup script)
+src/ai/models/
+
+# Personal development files
+.claude/
+.cursor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/

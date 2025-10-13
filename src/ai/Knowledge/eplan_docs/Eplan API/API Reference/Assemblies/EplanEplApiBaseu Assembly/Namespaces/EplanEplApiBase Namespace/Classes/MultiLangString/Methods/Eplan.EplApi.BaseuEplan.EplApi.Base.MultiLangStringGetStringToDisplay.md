@@ -1,0 +1,42 @@
+Returns the string that is to be displayed in accordance with the passed language. This may be the string saved for this language or, if there is no such string, a language-independent string.
+
+Syntax
+
+* [C#](#i-syntax-CS)
+* [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public string GetStringToDisplay( 
+   ISOCode.Language lang
+)
+```
+```
+
+```
+```
+public:
+String^ GetStringToDisplay( 
+   ISOCode.Language lang
+)
+```
+```
+
+#### Parameters
+
+*lang*
+:   Language to be returned
+
+#### Return Value
+
+Returns the string in the requested language
+
+
+
+See Also
+
+#### Reference
+
+[MultiLangString Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString.html)
+  
+[MultiLangString Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString_members.html)

@@ -1,0 +1,29 @@
+Sets LastUsed as the current scheme.
+
+Syntax
+
+* [C#](#i-syntax-CS)
+* [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public void ResetScheme()
+```
+```
+
+```
+```
+public:
+void ResetScheme();
+```
+```
+
+
+
+See Also
+
+#### Reference
+
+[SchemeSetting Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting.html)
+  
+[SchemeSetting Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting_members.html)

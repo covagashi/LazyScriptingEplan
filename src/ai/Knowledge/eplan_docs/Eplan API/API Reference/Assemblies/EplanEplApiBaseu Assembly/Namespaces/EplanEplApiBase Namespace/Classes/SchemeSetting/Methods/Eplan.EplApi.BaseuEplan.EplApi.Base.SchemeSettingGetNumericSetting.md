@@ -1,0 +1,54 @@
+Reads numeric value from settings. It can be 16 bit or 32 bit, signed or unsigned setting.
+
+Syntax
+
+* [C#](#i-syntax-CS)
+* [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public int GetNumericSetting( 
+   string strSettingPath,
+   int nIdx
+)
+```
+```
+
+```
+```
+public:
+int GetNumericSetting( 
+   String^ strSettingPath,
+   int nIdx
+)
+```
+```
+
+#### Parameters
+
+*strSettingPath*
+:   Indicates the path of the setting (relative to scheme, path starts after scheme name).
+
+*nIdx*
+:   0-based index.
+
+#### Return Value
+
+value read from settings
+
+Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [BaseException](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException.html) | Thrown when the value cannot be read from settings |
+| [System.ArgumentNullException](#) | Thrown when `strSettingsPath` is `null`. |
+
+
+
+See Also
+
+#### Reference
+
+[SchemeSetting Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting.html)
+  
+[SchemeSetting Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting_members.html)

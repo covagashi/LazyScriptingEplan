@@ -1,0 +1,42 @@
+Number of additional settings existing under the specified setting name.
+
+Syntax
+
+* [C#](#i-syntax-CS)
+* [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public int CountSetting( 
+   string strSettingPath
+)
+```
+```
+
+```
+```
+public:
+int CountSetting( 
+   String^ strSettingPath
+)
+```
+```
+
+#### Parameters
+
+*strSettingPath*
+:   Indicates the path of the setting (relative to scheme, path starts after scheme name).
+
+#### Return Value
+
+Number of indexed settings of this setting in the scheme.
+
+
+
+See Also
+
+#### Reference
+
+[SchemeSetting Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting.html)
+  
+[SchemeSetting Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting_members.html)
