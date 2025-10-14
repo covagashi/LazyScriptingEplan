@@ -33,7 +33,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [DeclareEventHandler Constructor](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareEventHandler~_ctor.html) | This function of the script is registered as an event handler in the system. |
 
-[Top](#top)
+
 
 
 
@@ -44,7 +44,7 @@ Public Properties
 | Public Property | [Name](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareEventHandler~Name.html) |  |
 | Public Property | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -55,17 +55,4 @@ Public Methods
 | Public Method | [IsDefaultAttribute](#) | (Inherited from [System.Attribute](#)) |
 | Public Method | [Match](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
 
-
-
-
-See Also
-
-#### Reference
-
-[DeclareEventHandler Members](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareEventHandler_members.html)
-  
-[Eplan.EplApi.Scripting Namespace](Eplan.EplApi.AFu~Eplan.EplApi.Scripting_namespace.html)
-  
-**Script\_EventHandling.html**

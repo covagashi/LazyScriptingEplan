@@ -12,7 +12,32 @@ Every Eplan add-in, including the C# add-in we are going to create, requires a c
 
 | C# | Copy Code |
 | --- | --- |
-| ```  public class AddInModule: Eplan.EplApi.ApplicationFramework.IEplAddIn        {             public bool OnRegister(ref System.Boolean bLoadOnStart)             {                   bLoadOnStart=true;                   return true;              }             public bool OnUnregister()             {                   return true;             }             public bool OnInit()             {                   return true;             }             public bool OnInitGui()             {                   return true;             }             public bool OnExit()             {                   return true;             }       } ``` | |
+| ``` 
+ public class AddInModule: Eplan.EplApi.ApplicationFramework.IEplAddIn
+        {
+             public bool OnRegister(ref System.Boolean bLoadOnStart)
+             {
+                   bLoadOnStart=true;
+                   return true;
+              }
+             public bool OnUnregister()
+             {
+                   return true;
+             }
+             public bool OnInit()
+             {
+                   return true;
+             }
+             public bool OnInitGui()
+             {
+                   return true;
+             }
+             public bool OnExit()
+             {
+                   return true;
+             }
+       }
+ ``` | |
 
 Now save this source code in the folder "SimpleCSharpAddIn" as a file named "AddInModule.cs".
 
@@ -52,7 +77,24 @@ Therefore, create a second source file and save it as "SimpleCSharpAction.cs" in
 
 | C# | Copy Code |
 | --- | --- |
-| ```  using Eplan.EplApi.ApplicationFramework; public class CSharpAction: IEplAction {       public bool Execute(ActionCallingContext ctx )       {             new Decider().Decide(EnumDecisionType.eOkDecision, "CSharpAction was called!", "", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);             return true;       }       public bool OnRegister(ref string Name, ref int Ordinal)       {                    return true;       }       public  void GetActionProperties(ref ActionProperties actionProperties)       {                         } } ``` | |
+| ``` 
+ using Eplan.EplApi.ApplicationFramework;
+ public class CSharpAction: IEplAction
+ {
+       public bool Execute(ActionCallingContext ctx )
+       {
+             new Decider().Decide(EnumDecisionType.eOkDecision, "CSharpAction was called!", "", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);
+             return true;
+       }
+       public bool OnRegister(ref string Name, ref int Ordinal)
+       {       
+             return true;
+       }
+       public  void GetActionProperties(ref ActionProperties actionProperties)
+       {                  
+       }
+ }
+ ``` | |
 
 Now the compiler call needs to be slightly extended:
 
@@ -72,6 +114,3 @@ When you start the action, the  Execute()  function of the  CSharpAction  is
 
 Please mind that users may start Eplan in QUIET mode using  W3u.exe /Quiet  or the API could be initialized by an [offline program](UsingEplanAssemblies.html). Because of this, it is not recommended to show any message boxes in the methods of the  IEplAddIn  interface. If you encounter some problem during registering or initializing an add-in, just create and throw a  BaseException  or use  BaseException.FixMessage(...)  to add the message to the system messages list.
 
-See Also
-
-[Creating add-ins in Visual Basic .NET](VisualBasicAddins.html)

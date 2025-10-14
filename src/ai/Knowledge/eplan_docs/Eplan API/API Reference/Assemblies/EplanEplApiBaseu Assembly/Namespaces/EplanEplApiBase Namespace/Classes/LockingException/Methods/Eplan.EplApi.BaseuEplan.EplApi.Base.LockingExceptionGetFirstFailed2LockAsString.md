@@ -18,12 +18,3 @@ virtual String^ GetFirstFailed2LockAsString();
 ```
 ```
 
-
-
-See Also
-
-#### Reference
-
-[LockingException Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.LockingException.html)
-  
-[LockingException Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.LockingException_members.html)

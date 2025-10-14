@@ -27,12 +27,3 @@ Action(
 *pAction*
 :   For internal use only.
 
-
-
-See Also
-
-#### Reference
-
-[Action Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action.html)
-  
-[Action Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action_members.html)

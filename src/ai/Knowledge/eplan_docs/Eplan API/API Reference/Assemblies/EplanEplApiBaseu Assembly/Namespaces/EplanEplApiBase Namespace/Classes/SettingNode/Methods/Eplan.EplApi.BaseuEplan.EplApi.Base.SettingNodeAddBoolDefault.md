@@ -52,11 +52,3 @@ Remarks
 Default definition settings are provided for settings that use default values such as FALSE, TRUE, 0, or spaces and that do not require ranges of values.
 
 
-
-See Also
-
-#### Reference
-
-[SettingNode Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SettingNode.html)
-  
-[SettingNode Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SettingNode_members.html)

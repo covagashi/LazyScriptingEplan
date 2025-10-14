@@ -27,12 +27,3 @@ void DeleteAllStringsExceptFor(
 *goodLanguages*
 :   Languages that are to be kept in the string.
 
-
-
-See Also
-
-#### Reference
-
-[MultiLangString Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString.html)
-  
-[MultiLangString Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString_members.html)

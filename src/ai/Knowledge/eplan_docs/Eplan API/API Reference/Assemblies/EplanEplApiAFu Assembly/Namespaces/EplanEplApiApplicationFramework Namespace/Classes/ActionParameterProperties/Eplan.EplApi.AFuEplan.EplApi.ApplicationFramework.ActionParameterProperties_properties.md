@@ -6,12 +6,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Name](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties~Name.html) | Name of a parameter. |
 
-[Top](#top)
 
-See Also
-
-#### Reference
-
-[ActionParameterProperties Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

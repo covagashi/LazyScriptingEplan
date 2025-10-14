@@ -41,12 +41,3 @@ Remarks
 
 Exceptions, which occur during the execution of an action can be retrieved from the ActionCallingContext by the GetException() method.
 
-
-
-See Also
-
-#### Reference
-
-[Action Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action.html)
-  
-[Action Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action_members.html)

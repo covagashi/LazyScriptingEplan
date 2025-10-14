@@ -77,14 +77,3 @@ Public Class SimpleEventHandler
 End Class 'SimpleEventHandler
 ```
 
-
-
-See Also
-
-#### API Framework
-
-[Events](Events.html)
-
-#### Events
-
-[Events](API Events.html)

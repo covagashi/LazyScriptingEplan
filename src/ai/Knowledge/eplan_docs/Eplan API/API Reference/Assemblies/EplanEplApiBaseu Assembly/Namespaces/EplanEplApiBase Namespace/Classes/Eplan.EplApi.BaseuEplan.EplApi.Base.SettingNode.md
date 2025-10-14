@@ -128,15 +128,4 @@ Public Methods
 | Public Method | [SetStringSetting](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SettingNode~SetStringSetting.html) | Sets the value of a setting. If a setting is made and an index is specified that exceeds the number of values, the corresponding values are created, based on the predefined value. The index starts at 0. |
 | Public Method | [Write](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SettingNode~Write.html) | Writes all settings to a file. |
 
-[Top](#top)
 
-
-
-
-See Also
-
-#### Reference
-
-[SettingNode Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SettingNode_members.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)

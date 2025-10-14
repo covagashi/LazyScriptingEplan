@@ -27,7 +27,7 @@ Public Properties
 | --- | --- | --- |
 | Property | [InterfaceName](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IInterface~InterfaceName.html) | This name is used to register the type as an interface. (Inherited from [Eplan.EplApi.ApplicationFramework.IInterface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IInterface.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -39,17 +39,3 @@ Public Methods
 | Method | [GetExtendedOptions](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IExtendedProcessor~GetExtendedOptions.html) | Function for extended Options. Set the parameters in the context |
 | Method | [ImportDirect](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IExtendedProcessor~ImportDirect.html) | Imports the file to the system EContext may point to an EProgress object to support a progress bar. Returns true if successful. |
 
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[IExtendedProcessor Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IExtendedProcessor_members.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)
-  
-**XMLProcessor.html**

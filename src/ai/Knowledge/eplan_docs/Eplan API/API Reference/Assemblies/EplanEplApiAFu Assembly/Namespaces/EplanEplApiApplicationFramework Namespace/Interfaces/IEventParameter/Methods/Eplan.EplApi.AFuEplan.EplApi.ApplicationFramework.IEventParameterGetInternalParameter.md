@@ -21,12 +21,3 @@ AfEventParameter GetInternalParameter();
 
 For internal use only.
 
-
-
-See Also
-
-#### Reference
-
-[IEventParameter Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEventParameter.html)
-  
-[IEventParameter Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEventParameter_members.html)

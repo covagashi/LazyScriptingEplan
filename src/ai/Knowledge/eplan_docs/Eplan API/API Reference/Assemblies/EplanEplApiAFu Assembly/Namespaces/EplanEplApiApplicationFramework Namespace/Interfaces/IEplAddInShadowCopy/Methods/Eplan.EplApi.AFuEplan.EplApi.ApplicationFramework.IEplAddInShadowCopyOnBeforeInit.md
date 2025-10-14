@@ -30,12 +30,3 @@ Remarks
 
 Any exception thrown by this method don't influence the initialization process. Such exception is wrapped and logged into System messages.
 
-
-
-See Also
-
-#### Reference
-
-[IEplAddInShadowCopy Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddInShadowCopy.html)
-  
-[IEplAddInShadowCopy Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddInShadowCopy_members.html)

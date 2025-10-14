@@ -45,10 +45,3 @@ Let's assume that you use the  Write  library of version 1.0.0 in one project 
 
 **Solution**: To work around this behavior, sign the library versions independently of each other. You can then use the library with different versions at will. Signing gives the library a specific key token or "strong name" that helps distinguish the libraries.
 
-See Also
-
-[Microsoft Learn: Shadow Copying Assemblies](https://learn.microsoft.com/en-us/dotnet/framework/app-domains/shadow-copy-assemblies?redirectedfrom=MSDN)
-
-#### Addins
-
-[Shadow copying for add-ins](ShadowCopyingAPIAssemblies.html)

@@ -19,12 +19,3 @@ property String^ InterfaceName {
 ```
 ```
 
-
-
-See Also
-
-#### Reference
-
-[IInterface Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IInterface.html)
-  
-[IInterface Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IInterface_members.html)

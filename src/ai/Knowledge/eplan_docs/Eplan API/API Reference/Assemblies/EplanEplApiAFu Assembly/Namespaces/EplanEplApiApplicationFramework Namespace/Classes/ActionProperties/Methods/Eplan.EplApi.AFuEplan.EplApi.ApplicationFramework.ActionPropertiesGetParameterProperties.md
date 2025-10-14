@@ -23,13 +23,3 @@ ArrayList^ GetParameterProperties();
 List of description objects
 
 
-
-See Also
-
-#### Reference
-
-[ActionProperties Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionProperties.html)
-  
-[ActionProperties Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionProperties_members.html)
-  
-[ActionParameterProperties Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties.html)

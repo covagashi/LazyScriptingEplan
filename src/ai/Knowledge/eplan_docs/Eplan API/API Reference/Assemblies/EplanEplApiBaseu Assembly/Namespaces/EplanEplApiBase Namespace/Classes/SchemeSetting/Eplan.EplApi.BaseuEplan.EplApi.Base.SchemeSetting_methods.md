@@ -35,14 +35,3 @@ Public Methods
 | Public Method | [SetScheme](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting~SetScheme.html) | Overloaded. Sets a scheme by its name (LastUsed remains unchanged!) |
 | Public Method | [SetStringSetting](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting~SetStringSetting.html) | Sets the value of a setting. If a setting is made and an index is specified that exceeds the number of values, the corresponding values are created, based on the predefined value. The index starts at 0. |
 
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[SchemeSetting Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)
-  
-**WorkingWithSettings**

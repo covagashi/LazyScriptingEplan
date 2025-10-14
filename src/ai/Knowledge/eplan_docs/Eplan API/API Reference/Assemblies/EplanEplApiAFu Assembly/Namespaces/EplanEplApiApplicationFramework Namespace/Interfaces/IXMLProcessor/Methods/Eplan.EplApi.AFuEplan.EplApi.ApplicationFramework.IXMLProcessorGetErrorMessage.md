@@ -20,13 +20,3 @@ String^ GetErrorMessage();
 #### Return Value
 
 Error message
-
-
-
-See Also
-
-#### Reference
-
-[IXMLProcessor Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor.html)
-  
-[IXMLProcessor Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor_members.html)

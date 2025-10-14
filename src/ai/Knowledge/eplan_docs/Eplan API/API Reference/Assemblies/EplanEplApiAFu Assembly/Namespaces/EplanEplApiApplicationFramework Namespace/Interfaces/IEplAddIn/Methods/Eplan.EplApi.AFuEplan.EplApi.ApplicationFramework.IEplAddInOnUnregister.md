@@ -17,12 +17,3 @@ bool OnUnregister();
 ```
 ```
 
-
-
-See Also
-
-#### Reference
-
-[IEplAddIn Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddIn.html)
-  
-[IEplAddIn Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddIn_members.html)

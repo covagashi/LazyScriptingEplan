@@ -6,12 +6,3 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Languages~Dispose().html) | Destructor for deterministic finalization of Languages object. |
 
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[Languages Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Languages.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)

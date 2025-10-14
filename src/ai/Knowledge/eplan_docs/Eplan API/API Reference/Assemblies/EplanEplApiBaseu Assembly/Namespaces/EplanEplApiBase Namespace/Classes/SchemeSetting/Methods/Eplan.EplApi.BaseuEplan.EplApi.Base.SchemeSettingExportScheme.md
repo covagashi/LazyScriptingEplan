@@ -40,12 +40,3 @@ Exceptions
 | [System.ArgumentException](#) | Thrown when a parameter is empty. |
 | [BaseException](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException.html) | Thrown when strName is not a valid last used scheme. The scheme with this strSettingsNodeName does not exist |
 
-
-
-See Also
-
-#### Reference
-
-[SchemeSetting Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting.html)
-  
-[SchemeSetting Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting_members.html)

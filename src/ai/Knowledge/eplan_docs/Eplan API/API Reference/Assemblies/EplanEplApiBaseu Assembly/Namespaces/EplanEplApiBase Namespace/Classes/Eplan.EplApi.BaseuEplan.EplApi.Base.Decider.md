@@ -43,7 +43,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Decider Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Decider~_ctor.html) | Create a new Decider Object. |
 
-[Top](#top)
+
 
 
 
@@ -55,15 +55,3 @@ Public Methods
 | Public Method | [Decide](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Decider~Decide.html) | Overloaded. Decide shows a list select dialog. |
 | Public Method | [Dispose](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Decider~Dispose().html) | Destructor for deterministic finalization of Decider object. |
 
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[Decider Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Decider_members.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)

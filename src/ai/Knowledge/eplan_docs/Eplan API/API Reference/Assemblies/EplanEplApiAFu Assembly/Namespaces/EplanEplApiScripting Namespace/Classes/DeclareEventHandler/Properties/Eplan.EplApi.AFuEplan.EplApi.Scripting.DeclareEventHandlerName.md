@@ -18,12 +18,3 @@ property String^ Name {
 ```
 ```
 
-
-
-See Also
-
-#### Reference
-
-[DeclareEventHandler Class](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareEventHandler.html)
-  
-[DeclareEventHandler Members](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareEventHandler_members.html)

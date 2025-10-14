@@ -27,12 +27,3 @@ void SetList(
 *pList*
 :   the list to set.
 
-
-
-See Also
-
-#### Reference
-
-[ContextParameterBlock Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ContextParameterBlock.html)
-  
-[ContextParameterBlock Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ContextParameterBlock_members.html)

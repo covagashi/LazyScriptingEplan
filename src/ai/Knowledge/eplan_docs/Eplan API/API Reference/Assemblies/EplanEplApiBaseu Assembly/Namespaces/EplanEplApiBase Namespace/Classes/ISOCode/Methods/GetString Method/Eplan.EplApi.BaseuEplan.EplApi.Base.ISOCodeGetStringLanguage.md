@@ -32,13 +32,3 @@ String^ GetString(
 Language code as a string.
 
 
-
-See Also
-
-#### Reference
-
-[ISOCode Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ISOCode.html)
-  
-[ISOCode Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ISOCode_members.html)
-  
-[Overload List](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ISOCode~GetString.html)

@@ -40,7 +40,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ActionManager Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionManager~_ctor.html) |  |
 
-[Top](#top)
+
 
 
 
@@ -53,15 +53,3 @@ Public Methods
 | Public Method | [FindBaseAction](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionManager~FindBaseAction.html) | This function searches the base action for an existing action the base action has the same name, but a lower ordinal. |
 | Public Method | [FindBaseActionFromFunctionAction](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionManager~FindBaseActionFromFunctionAction.html) | This function searches the base action for an existing action in scripting. the base action has the same name, but a lower ordinal. |
 
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[ActionManager Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionManager_members.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

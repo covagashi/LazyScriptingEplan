@@ -16,9 +16,3 @@ The diagram below shows the hierarchy of the most important classes in the Pro 
 
 ![]()
 
-
-See Also
-
-#### Reference
-
-[Eplan.EplApi.DataModel.E3D Namespace](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D_namespace.html)

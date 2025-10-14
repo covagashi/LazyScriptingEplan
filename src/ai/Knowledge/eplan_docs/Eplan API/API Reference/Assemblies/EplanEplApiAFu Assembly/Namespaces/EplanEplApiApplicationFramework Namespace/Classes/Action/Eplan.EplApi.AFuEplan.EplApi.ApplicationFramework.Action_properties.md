@@ -8,12 +8,3 @@ Public Properties
 | Public Property | [ModuleName](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action~ModuleName.html) | Name of the module in which this action is implemented. |
 | Public Property | [Name](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action~Name.html) | Name used to identify this action in the system. |
 
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[Action Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

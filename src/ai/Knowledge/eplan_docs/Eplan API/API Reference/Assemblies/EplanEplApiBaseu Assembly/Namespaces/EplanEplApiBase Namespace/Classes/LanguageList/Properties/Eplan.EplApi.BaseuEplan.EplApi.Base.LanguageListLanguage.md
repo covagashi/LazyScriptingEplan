@@ -27,12 +27,3 @@ virtual property ISOCode.Language Language {
 *index*
 :   Index.
 
-
-
-See Also
-
-#### Reference
-
-[LanguageList Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.LanguageList.html)
-  
-[LanguageList Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.LanguageList_members.html)

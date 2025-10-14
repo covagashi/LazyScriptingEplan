@@ -6,12 +6,3 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [String](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString~String.html) | Event parameter of the String type. |
 
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[EventParameterString Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

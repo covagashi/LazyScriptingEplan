@@ -36,7 +36,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [EventHandler Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -46,7 +46,7 @@ Public Fields
 | Public Field | [EplanNameEvent](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler~EplanNameEvent.html) | This event is raised whenever an event with the desired name occurs in EPLAN. The original name of the event is also given. |
 | Public Field | [EplanNameEventResult](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler~EplanNameEventResult.html) | This event is raised whenever an event with the desired name occurs in EPLAN. The original name of the event is also given. Additional a return value is supported. |
 
-[Top](#top)
+
 
 
 
@@ -59,24 +59,10 @@ Public Methods
 | Public Method | [RaiseEventResult](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler~RaiseEventResult.html) | For internal use only. |
 | Public Method | [SetEvent](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler~SetEvent.html) | Defines for which event the [IEplanEvents](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplanEvents.html) is raised. |
 
-[Top](#top)
+
 
 Public Events
 
 |  | Name | Description |
 | --- | --- | --- |
 | Public Event | [NameEvent](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler~NameEvent_EV.html) | This event is raised whenever an event with the desired name occurs in EPLAN. |
-
-[Top](#top)
-
-
-
-See Also
-
-#### Reference
-
-[EventHandler Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler_members.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)
-  
-**Events.html**

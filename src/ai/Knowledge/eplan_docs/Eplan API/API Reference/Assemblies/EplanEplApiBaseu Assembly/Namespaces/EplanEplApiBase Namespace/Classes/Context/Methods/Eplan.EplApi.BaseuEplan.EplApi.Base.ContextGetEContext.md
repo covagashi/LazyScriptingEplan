@@ -22,12 +22,3 @@ EContext GetEContext();
 
 For internal use only.
 
-
-
-See Also
-
-#### Reference
-
-[Context Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context.html)
-  
-[Context Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context_members.html)

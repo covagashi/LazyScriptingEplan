@@ -45,12 +45,3 @@ Exceptions
 | [System.ArgumentException](#) | Thrown when a parameter is empty. |
 | [BaseException](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException.html) | The file passed to strFileName does not contain scheme with name from strSettingsNodeName parameter. Or scheme already exists but bOverwriteExisting is set to false. |
 
-
-
-See Also
-
-#### Reference
-
-[SchemeSetting Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting.html)
-  
-[SchemeSetting Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting_members.html)

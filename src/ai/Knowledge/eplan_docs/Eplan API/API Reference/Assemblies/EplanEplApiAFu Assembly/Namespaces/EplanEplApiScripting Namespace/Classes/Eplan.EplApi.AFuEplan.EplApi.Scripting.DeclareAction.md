@@ -33,7 +33,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [DeclareAction Constructor](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareAction~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 
 
@@ -45,7 +45,7 @@ Public Properties
 | Public Property | [Ordinal](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareAction~Ordinal.html) | Overload level of the action. |
 | Public Property | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -55,18 +55,3 @@ Public Methods
 | Public Method | [GetHashCode](#) | (Inherited from [System.Attribute](#)) |
 | Public Method | [IsDefaultAttribute](#) | (Inherited from [System.Attribute](#)) |
 | Public Method | [Match](#) | (Inherited from [System.Attribute](#)) |
-
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[DeclareAction Members](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareAction_members.html)
-  
-[Eplan.EplApi.Scripting Namespace](Eplan.EplApi.AFu~Eplan.EplApi.Scripting_namespace.html)
-  
-**Eplan.EplApi.Scripting.Action**

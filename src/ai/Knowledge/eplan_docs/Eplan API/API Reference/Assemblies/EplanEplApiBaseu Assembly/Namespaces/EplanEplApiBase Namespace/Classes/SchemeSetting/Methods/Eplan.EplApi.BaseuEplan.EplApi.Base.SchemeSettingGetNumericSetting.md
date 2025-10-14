@@ -43,12 +43,3 @@ Exceptions
 | [BaseException](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException.html) | Thrown when the value cannot be read from settings |
 | [System.ArgumentNullException](#) | Thrown when `strSettingsPath` is `null`. |
 
-
-
-See Also
-
-#### Reference
-
-[SchemeSetting Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting.html)
-  
-[SchemeSetting Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting_members.html)

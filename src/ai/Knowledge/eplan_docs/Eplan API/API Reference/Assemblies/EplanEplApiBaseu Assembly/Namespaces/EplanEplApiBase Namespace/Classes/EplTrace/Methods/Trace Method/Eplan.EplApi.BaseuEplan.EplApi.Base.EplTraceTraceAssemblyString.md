@@ -32,14 +32,3 @@ virtual void Trace(
 *strMessage*
 :   The message to be traced to epllog.txt
 
-
-
-See Also
-
-#### Reference
-
-[EplTrace Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.EplTrace.html)
-  
-[EplTrace Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.EplTrace_members.html)
-  
-[Overload List](Eplan.EplApi.Baseu~Eplan.EplApi.Base.EplTrace~Trace.html)

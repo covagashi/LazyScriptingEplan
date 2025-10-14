@@ -33,7 +33,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Start Constructor](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.Start~_ctor.html) |  |
 
-[Top](#top)
+
 
 
 
@@ -43,7 +43,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -54,15 +54,3 @@ Public Methods
 | Public Method | [IsDefaultAttribute](#) | (Inherited from [System.Attribute](#)) |
 | Public Method | [Match](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[Start Members](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.Start_members.html)
-  
-[Eplan.EplApi.Scripting Namespace](Eplan.EplApi.AFu~Eplan.EplApi.Scripting_namespace.html)

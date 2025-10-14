@@ -10,8 +10,3 @@ Please take into account that generally data model objects store length values i
 
 
 
-See Also
-
-#### Reference
-
-[Eplan.EplApi.DataModelu Assembly](Eplan.EplApi.DataModelu.html)

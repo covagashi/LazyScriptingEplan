@@ -27,12 +27,3 @@ DeclareEventHandler(
 *strEventName*
 :   The event handler responds to this event.
 
-
-
-See Also
-
-#### Reference
-
-[DeclareEventHandler Class](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareEventHandler.html)
-  
-[DeclareEventHandler Members](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareEventHandler_members.html)

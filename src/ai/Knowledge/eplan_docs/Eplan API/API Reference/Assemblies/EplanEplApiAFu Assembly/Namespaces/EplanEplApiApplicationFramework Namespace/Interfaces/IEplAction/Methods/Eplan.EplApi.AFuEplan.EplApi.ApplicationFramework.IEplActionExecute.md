@@ -30,12 +30,3 @@ bool Execute(
 
 true, if the action was successfully performed; true, if the action was successfully registered in the system.
 
-
-
-See Also
-
-#### Reference
-
-[IEplAction Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAction.html)
-  
-[IEplAction Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAction_members.html)

@@ -61,7 +61,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ListSelectDecisionContext Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ListSelectDecisionContext~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 
 
@@ -76,23 +76,10 @@ Public Properties
 | Public Property | [SelectedIndex](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ListSelectDecisionContext~SelectedIndex.html) | Gets the selected index from Entries |
 | Public Property | [Title](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ListSelectDecisionContext~Title.html) | The title for the decider. |
 
-[Top](#top)
+
 
 Public Methods
 
 |  | Name | Description |
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ListSelectDecisionContext~Dispose().html) | Destructor for deterministic finalization of ListSelectDecisionContext object. |
-
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[ListSelectDecisionContext Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ListSelectDecisionContext_members.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)

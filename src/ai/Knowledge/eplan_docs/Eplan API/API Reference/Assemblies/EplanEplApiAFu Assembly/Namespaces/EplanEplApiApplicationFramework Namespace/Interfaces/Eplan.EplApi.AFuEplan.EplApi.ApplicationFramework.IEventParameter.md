@@ -28,15 +28,4 @@ Public Methods
 | --- | --- | --- |
 | Method | [GetInternalParameter](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEventParameter~GetInternalParameter.html) | For internal use only. |
 
-[Top](#top)
 
-
-
-
-See Also
-
-#### Reference
-
-[IEventParameter Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEventParameter_members.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

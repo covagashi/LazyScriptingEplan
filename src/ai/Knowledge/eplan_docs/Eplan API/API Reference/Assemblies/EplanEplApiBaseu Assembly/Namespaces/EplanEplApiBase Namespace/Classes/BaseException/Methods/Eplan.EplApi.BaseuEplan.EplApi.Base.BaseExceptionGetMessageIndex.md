@@ -23,11 +23,3 @@ String^ GetMessageIndex();
 the index as string; if the string is 'S000000' there is no ID defined until now
 
 
-
-See Also
-
-#### Reference
-
-[BaseException Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException.html)
-  
-[BaseException Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException_members.html)

@@ -55,12 +55,3 @@ The function  AddCommand(text, command line)  adds a button (i.e ribbon comman
 
 Ribbon commands are always assigned to an action. This can be either a custom action (created using the API) or an already existing action.
 
-See Also
-
-#### Scripts
-
-[Adding ribbon items by a script](script_ribbon.html)
-
-#### API Miscellaneous
-
-[Ribbon bar](TheRibbon.html)

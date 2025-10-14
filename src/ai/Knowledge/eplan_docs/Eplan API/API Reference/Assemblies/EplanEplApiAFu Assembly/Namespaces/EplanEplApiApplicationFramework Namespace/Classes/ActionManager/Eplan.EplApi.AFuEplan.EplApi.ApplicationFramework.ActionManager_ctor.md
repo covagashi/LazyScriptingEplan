@@ -15,13 +15,3 @@ public:
 ActionManager();
 ```
 ```
-
-
-
-See Also
-
-#### Reference
-
-[ActionManager Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionManager.html)
-  
-[ActionManager Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionManager_members.html)

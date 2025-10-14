@@ -28,13 +28,3 @@ Progress(
 :   Type of the progress bar to be created. "SimpleProgress" or "EnhancedProgress"
 
 
-
-See Also
-
-#### Reference
-
-[Progress Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress.html)
-  
-[Progress Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress_members.html)
-  
-[Overload List](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress~_ctor.html)

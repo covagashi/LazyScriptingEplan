@@ -39,12 +39,3 @@ Remarks
 
 This function is called often and should work fast.
 
-
-
-See Also
-
-#### Reference
-
-[IEplActionChecked Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplActionChecked.html)
-  
-[IEplActionChecked Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplActionChecked_members.html)

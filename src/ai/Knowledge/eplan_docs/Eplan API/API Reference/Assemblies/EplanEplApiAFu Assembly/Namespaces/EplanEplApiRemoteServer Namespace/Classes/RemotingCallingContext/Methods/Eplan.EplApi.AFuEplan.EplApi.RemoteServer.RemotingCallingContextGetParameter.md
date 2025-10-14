@@ -34,12 +34,3 @@ Remarks
 
 If the parameter exists, strParameterValue contains its value after executing this method. If the parameter is not found, strParameterValue is set to nullptr.
 
-
-
-See Also
-
-#### Reference
-
-[RemotingCallingContext Class](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext.html)
-  
-[RemotingCallingContext Members](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext_members.html)

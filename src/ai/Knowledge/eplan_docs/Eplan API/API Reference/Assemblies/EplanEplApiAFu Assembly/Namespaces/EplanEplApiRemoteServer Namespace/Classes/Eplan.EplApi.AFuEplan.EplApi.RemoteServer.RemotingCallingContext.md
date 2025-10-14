@@ -28,7 +28,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [RemotingCallingContext Constructor](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -40,7 +40,7 @@ Public Fields
 | Public Field | [m\_strOperationType](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~m_strOperationType.html) |  |
 | Public Field | [m\_strProjectName](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~m_strProjectName.html) |  |
 
-[Top](#top)
+
 
 
 
@@ -57,16 +57,3 @@ Public Methods
 | Public Method | [IsValid](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~IsValid.html) |  |
 | Public Method | [RemoveParameter](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~RemoveParameter.html) |  |
 | Public Method | [SetValid](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~SetValid.html) |  |
-
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[RemotingCallingContext Members](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext_members.html)
-  
-[Eplan.EplApi.RemoteServer Namespace](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer_namespace.html)

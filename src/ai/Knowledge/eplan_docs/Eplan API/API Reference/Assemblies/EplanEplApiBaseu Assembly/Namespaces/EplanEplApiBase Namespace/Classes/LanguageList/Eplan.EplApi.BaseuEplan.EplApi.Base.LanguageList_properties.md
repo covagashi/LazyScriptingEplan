@@ -12,13 +12,3 @@ Public Properties
 | Public Property | [Item](#) | (Inherited from [System.Collections.ArrayList](#)) |
 | Public Property | [Language](Eplan.EplApi.Baseu~Eplan.EplApi.Base.LanguageList~Language.html) | Determines the ISO code of the given index. |
 | Public Property | [SyncRoot](#) | (Inherited from [System.Collections.ArrayList](#)) |
-
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[LanguageList Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.LanguageList.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)

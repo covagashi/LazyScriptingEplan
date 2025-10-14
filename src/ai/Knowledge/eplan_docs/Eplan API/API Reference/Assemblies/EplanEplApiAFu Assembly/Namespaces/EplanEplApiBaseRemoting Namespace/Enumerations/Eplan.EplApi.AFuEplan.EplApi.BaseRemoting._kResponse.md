@@ -36,9 +36,3 @@ Inheritance Hierarchy
    [System.ValueType](#)  
       [System.Enum](#)  
          **Eplan.EplApi.BaseRemoting.\_kResponse**
-
-See Also
-
-#### Reference
-
-[Eplan.EplApi.BaseRemoting Namespace](Eplan.EplApi.AFu~Eplan.EplApi.BaseRemoting_namespace.html)

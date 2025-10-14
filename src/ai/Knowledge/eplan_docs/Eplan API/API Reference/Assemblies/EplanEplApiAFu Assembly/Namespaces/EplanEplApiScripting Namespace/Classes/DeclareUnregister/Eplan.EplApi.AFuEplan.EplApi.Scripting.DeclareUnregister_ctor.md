@@ -18,12 +18,3 @@ DeclareUnregister();
 ```
 ```
 
-
-
-See Also
-
-#### Reference
-
-[DeclareUnregister Class](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareUnregister.html)
-  
-[DeclareUnregister Members](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareUnregister_members.html)

@@ -8,14 +8,5 @@ Public Properties
 | Public Property | [MLangName](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting~MLangName.html) | Returns a multilingual scheme name. |
 | Public Property | [ReadOnly](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting~ReadOnly.html) | Gives write permission to settings of this scheme. |
 
-[Top](#top)
 
-See Also
 
-#### Reference
-
-[SchemeSetting Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)
-  
-**WorkingWithSettings**

@@ -20,13 +20,3 @@ String^ GetName();
 #### Return Value
 
 Name of converter, is shown in selection list.
-
-
-
-See Also
-
-#### Reference
-
-[IXMLProcessor Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor.html)
-  
-[IXMLProcessor Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor_members.html)

@@ -89,8 +89,3 @@ End Class 'ScriptWithActionCallingContext
 
 Using this feature, you can extend the scope of the Eplan command line by your own parameters. If you need to call some API functionality via command line, just create a script. The start function of this script may take parameters and can call other functions with these parameters.
 
-See Also
-
-#### Actions
-
-[ExecuteScript](ExecuteScript.html)

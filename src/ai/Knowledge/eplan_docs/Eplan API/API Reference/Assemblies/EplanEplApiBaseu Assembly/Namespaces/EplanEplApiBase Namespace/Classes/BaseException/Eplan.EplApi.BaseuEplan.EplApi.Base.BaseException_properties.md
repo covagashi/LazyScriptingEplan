@@ -15,12 +15,3 @@ Public Properties
 | Public Property | [StackTrace](#) | (Inherited from [System.Exception](#)) |
 | Public Property | [TargetSite](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[BaseException Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)

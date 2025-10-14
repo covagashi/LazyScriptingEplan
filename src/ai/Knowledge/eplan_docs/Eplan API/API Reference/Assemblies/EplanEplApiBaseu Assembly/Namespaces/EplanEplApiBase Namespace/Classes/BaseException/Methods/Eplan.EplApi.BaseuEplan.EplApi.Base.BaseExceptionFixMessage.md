@@ -29,11 +29,3 @@ Eplan.EplApi.Base.BaseException exc= new Eplan.EplApi.Base.BaseException("Error 
                                                                           Eplan.EplApi.Base.MessageLevel.Error);
 exc.FixMessage();
 ```
-
-See Also
-
-#### Reference
-
-[BaseException Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException.html)
-  
-[BaseException Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException_members.html)

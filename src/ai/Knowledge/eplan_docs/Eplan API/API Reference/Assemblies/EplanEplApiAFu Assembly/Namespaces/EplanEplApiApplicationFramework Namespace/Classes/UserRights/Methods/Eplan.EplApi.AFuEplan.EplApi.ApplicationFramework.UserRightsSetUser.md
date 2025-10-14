@@ -34,13 +34,3 @@ bool SetUser(
 #### Return Value
 
 True: User was changed. False: User was not changed.
-
-
-
-See Also
-
-#### Reference
-
-[UserRights Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights.html)
-  
-[UserRights Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights_members.html)

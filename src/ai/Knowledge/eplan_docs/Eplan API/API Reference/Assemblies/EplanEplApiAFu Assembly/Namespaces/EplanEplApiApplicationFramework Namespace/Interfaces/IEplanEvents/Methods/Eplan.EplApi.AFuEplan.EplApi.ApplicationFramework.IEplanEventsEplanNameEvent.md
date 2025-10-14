@@ -31,12 +31,3 @@ void EplanNameEvent(
 *strNameOfEvent*
 :   The original name of the event. This is useful when registered for more events with wildcards.
 
-
-
-See Also
-
-#### Reference
-
-[IEplanEvents Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplanEvents.html)
-  
-[IEplanEvents Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplanEvents_members.html)

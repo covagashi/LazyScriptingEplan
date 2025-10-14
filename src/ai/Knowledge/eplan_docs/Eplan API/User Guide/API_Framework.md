@@ -2,8 +2,3 @@ The API Framework provides all necessary functionality to integrate API [add-ins
 
 No electrotechnical functions are made available by the framework.
 
-See Also
-
-#### Reference
-
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

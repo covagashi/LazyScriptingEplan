@@ -30,7 +30,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ActionProperties Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionProperties~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 
 
@@ -44,15 +44,4 @@ Public Methods
 | Public Method | [GetAfActionProp](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionProperties~GetAfActionProp.html) | For internal use only. |
 | Public Method | [GetParameterProperties](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionProperties~GetParameterProperties.html) | Returns all descriptions of the context parameters. |
 
-[Top](#top)
 
-
-
-
-See Also
-
-#### Reference
-
-[ActionProperties Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionProperties_members.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

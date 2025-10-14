@@ -6,12 +6,3 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Trace](Eplan.EplApi.Baseu~Eplan.EplApi.Base.EplTrace~Trace.html) | Overloaded. Writes the text to EplLog.txt when Trace is on. |
 
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[EplTrace Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.EplTrace.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)

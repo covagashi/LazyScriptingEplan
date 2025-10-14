@@ -35,12 +35,3 @@ Remarks
 
 The currently logged-in user must have the URShowAdministrationDialog right, this is the right to work on user rights. Any group assignments of this right are removed.
 
-
-
-See Also
-
-#### Reference
-
-[UserRights Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights.html)
-  
-[UserRights Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights_members.html)

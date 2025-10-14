@@ -21,7 +21,13 @@ Mates can be retrieved from a  Placement3D  using methods:
 
 | C# | Copy Code |
 | --- | --- |
-| ```           PointMate[] GetSourceMates(Mate.Enums.PlacementOptions ePlacementOptions) PointMate FindSourceMate(string name, Mate.Enums.PlacementOptions ePlacementOptions) Mate[] GetTargetMates(bool bConsiderMountingClearance) Mate FindTargetMate(string name, bool bConsiderMountingClearance) ``` | |
+| ``` 
+         
+ PointMate[] GetSourceMates(Mate.Enums.PlacementOptions ePlacementOptions)
+ PointMate FindSourceMate(string name, Mate.Enums.PlacementOptions ePlacementOptions)
+ Mate[] GetTargetMates(bool bConsiderMountingClearance)
+ Mate FindTargetMate(string name, bool bConsiderMountingClearance)
+ ``` | |
 
 ### Snapping
 
@@ -29,13 +35,36 @@ Snapping mates causes one object to be positioned close to the other, i.e. a 
 
 | C# | Copy Code |
 | --- | --- |
-| ```  Cabinet oCabinet2 = new Cabinet(); oCabinet2.Create(oProject, "TS 8886.500", "1"); // Placing a cabinet next to another cabinet with 0.0 offset oCabinet2.FindSourceMate("C3", Mate.Enums.PlacementOptions.None) .SnapTo(oCabinet.FindTargetMate("CUB4", false), 0.0); ``` | |
+| ``` 
+ Cabinet oCabinet2 = new Cabinet();
+ oCabinet2.Create(oProject, "TS 8886.500", "1");
+ // Placing a cabinet next to another cabinet with 0.0 offset
+ oCabinet2.FindSourceMate("C3", Mate.Enums.PlacementOptions.None)
+ .SnapTo(oCabinet.FindTargetMate("CUB4", false), 0.0);
+ ``` | |
 
 Here are also examples of snapping to a line and a plane mate. They both are base mates, which means that snapping to them will automatically sets a source object as a child of a target. Also, the orientation of a source item is adjusted to a target:
 
 | C# | Copy Code |
 | --- | --- |
-| ```  // Get front plane of mounting panel MountingPanel oMountingPanel = oCabinet.Children[1] as MountingPanel; Plane oFrontPlace = oCabinet.Planes[0]; // Create a mounting rail with a length of 150 MountingRail oRail = new MountingRail(); oRail.Create(oProject, "TS 110_15", "1", 500.0); // Placing a rail by using a plane mate as a target (located 100,200 from start of mounting panel,  // Without any rotation) oRail.GetSourceMates(Mate.Enums.PlacementOptions.None)[2] .SnapTo(oFrontPlace.BaseMate, 0.0, 100.0, 200.0); // Creating a terminal Component oTerminal = new Component(); oTerminal.Create(oProject, "SIE.4AV2400-2EB00-0A", "1"); // Placing it on a mounting rail with offset 100 from the beginning of it.  // Target (oRail.BaseMate) is a line mate. oTerminal.FindSourceMate("M4", false).SnapTo(oRail.BaseMate, 100.0); ``` | |
+| ``` 
+ // Get front plane of mounting panel
+ MountingPanel oMountingPanel = oCabinet.Children[1] as MountingPanel;
+ Plane oFrontPlace = oCabinet.Planes[0];
+ // Create a mounting rail with a length of 150
+ MountingRail oRail = new MountingRail();
+ oRail.Create(oProject, "TS 110_15", "1", 500.0);
+ // Placing a rail by using a plane mate as a target (located 100,200 from start of mounting panel, 
+ // Without any rotation)
+ oRail.GetSourceMates(Mate.Enums.PlacementOptions.None)[2]
+ .SnapTo(oFrontPlace.BaseMate, 0.0, 100.0, 200.0);
+ // Creating a terminal
+ Component oTerminal = new Component();
+ oTerminal.Create(oProject, "SIE.4AV2400-2EB00-0A", "1");
+ // Placing it on a mounting rail with offset 100 from the beginning of it. 
+ // Target (oRail.BaseMate) is a line mate.
+ oTerminal.FindSourceMate("M4", false).SnapTo(oRail.BaseMate, 100.0);
+ ``` | |
 
 ```
 
@@ -50,7 +79,41 @@ It is also possible to create a custom mate, for example a mounting point or a h
 
 | C# | Copy Code |
 | --- | --- |
-| ```  // Create a handle relative to placement area var transformationToPlacementArea = new Matrix3D(); transformationToPlacementArea.Translate(new Vector3D(50.0, 500.0, 0.0)); var transformation = transformationToPlacementArea * placement3D.PlacementArea.RelativeTransformation; var handle = new HandleMate(); handle.Create(new MultiLangString(), transformation); placement3D.AddMatePersistent(handle);  // Create a handle with extended logic  var handleWithExtendedLogic = new HandleMate(); handleWithExtendedLogic.Create(new[] {"V1", "V2"}, new MultiLangString(), new Matrix3D()); placement3D.AddMatePersistent(handleWithExtendedLogic);  // Create a base point var basePoint = new BasePointMate(); basePoint.Create(BasePointMate.Enums.Name.FrameProfileDownLeftRear,  new MultiLangString(), new Matrix3D {OffsetX = 200.0, OffsetY = 300.0}); placement3D.AddMatePersistent(basePoint);  // Create a mounting point var mountingPoint = new MountingPointMate(); mountingPoint.Create("Test mounting point",  new MultiLangString(), new Matrix3D{OffsetY = 100.0, OffsetZ = 400.0}); placement3D.AddMatePersistent(mountingPoint);  // Create a mounting line var mountingLineMate = new MountingLineMate(); mountingLineMate.Create("Test mounting line", new MultiLangString(), new PointD3D(10.0, 10.0, 10.0), new PointD3D(110.0, 210.0, 310.0)); placement3D.AddMatePersistent(mountingLineMate); ``` | |
+| ``` 
+ // Create a handle relative to placement area
+ var transformationToPlacementArea = new Matrix3D();
+ transformationToPlacementArea.Translate(new Vector3D(50.0, 500.0, 0.0));
+ var transformation = transformationToPlacementArea * placement3D.PlacementArea.RelativeTransformation;
+ var handle = new HandleMate();
+ handle.Create(new MultiLangString(), transformation);
+ placement3D.AddMatePersistent(handle);
+ 
+ // Create a handle with extended logic 
+ var handleWithExtendedLogic = new HandleMate();
+ handleWithExtendedLogic.Create(new[] {"V1", "V2"}, new MultiLangString(), new Matrix3D());
+ placement3D.AddMatePersistent(handleWithExtendedLogic);
+ 
+ // Create a base point
+ var basePoint = new BasePointMate();
+ basePoint.Create(BasePointMate.Enums.Name.FrameProfileDownLeftRear, 
+ new MultiLangString(),
+ new Matrix3D {OffsetX = 200.0, OffsetY = 300.0});
+ placement3D.AddMatePersistent(basePoint);
+ 
+ // Create a mounting point
+ var mountingPoint = new MountingPointMate();
+ mountingPoint.Create("Test mounting point", 
+ new MultiLangString(),
+ new Matrix3D{OffsetY = 100.0, OffsetZ = 400.0});
+ placement3D.AddMatePersistent(mountingPoint);
+ 
+ // Create a mounting line
+ var mountingLineMate = new MountingLineMate();
+ mountingLineMate.Create("Test mounting line",
+ new MultiLangString(),
+ new PointD3D(10.0, 10.0, 10.0), new PointD3D(110.0, 210.0, 310.0));
+ placement3D.AddMatePersistent(mountingLineMate);
+ ``` | |
 
 ```
 
@@ -59,6 +122,3 @@ It is also possible to create a custom mate, for example a mounting point or a h
 
 Please be aware that the coordinates of a mate are relative until it is not persistent, i.e. without a [Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~Placement.html) set. After calling [Placement3D::AddMatePersistent](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D~AddMatePersistent.html), they are recalculated and become absolute.
 
-See Also
-
-[Transformations in 3D space](Transformations_in_3D_space.html)

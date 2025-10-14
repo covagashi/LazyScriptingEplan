@@ -20,13 +20,3 @@ property UnitGroup Group {
 }
 ```
 ```
-
-
-
-See Also
-
-#### Reference
-
-[ParserParameter Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ParserParameter.html)
-  
-[ParserParameter Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ParserParameter_members.html)

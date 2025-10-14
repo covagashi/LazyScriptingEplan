@@ -28,13 +28,3 @@ ActionProperties(
 :   For internal use only.
 
 
-
-See Also
-
-#### Reference
-
-[ActionProperties Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionProperties.html)
-  
-[ActionProperties Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionProperties_members.html)
-  
-[Overload List](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionProperties~_ctor.html)

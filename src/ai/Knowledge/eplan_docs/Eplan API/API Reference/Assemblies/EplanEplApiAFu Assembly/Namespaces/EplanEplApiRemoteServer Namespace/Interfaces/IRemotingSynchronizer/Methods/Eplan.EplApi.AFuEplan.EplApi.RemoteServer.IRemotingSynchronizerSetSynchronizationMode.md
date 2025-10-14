@@ -23,12 +23,3 @@ void SetSynchronizationMode(
 
 *nMode*
 
-
-
-See Also
-
-#### Reference
-
-[IRemotingSynchronizer Interface](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.IRemotingSynchronizer.html)
-  
-[IRemotingSynchronizer Members](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.IRemotingSynchronizer_members.html)

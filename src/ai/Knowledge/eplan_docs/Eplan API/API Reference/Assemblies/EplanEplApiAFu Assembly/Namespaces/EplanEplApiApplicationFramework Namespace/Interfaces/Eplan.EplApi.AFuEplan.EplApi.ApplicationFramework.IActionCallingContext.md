@@ -16,19 +16,3 @@ public interface IActionCallingContext
 public interface class IActionCallingContext
 ```
 ```
-
-
-
-
-
-
-
-
-
-See Also
-
-#### Reference
-
-[IActionCallingContext Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IActionCallingContext_members.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

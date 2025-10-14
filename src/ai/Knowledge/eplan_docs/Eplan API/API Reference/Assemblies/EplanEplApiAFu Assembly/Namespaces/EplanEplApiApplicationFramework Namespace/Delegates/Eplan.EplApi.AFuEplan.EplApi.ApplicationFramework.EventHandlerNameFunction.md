@@ -31,12 +31,3 @@ public delegate void EventHandlerNameFunction(
 *strNameOfEvent*
 :   The original name of the send event. Can be useful when I was registered for an wildcard event, p.e. "Test\*"
 
-
-
-See Also
-
-#### Reference
-
-[EventHandlerNameFunction Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerNameFunction.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

@@ -56,7 +56,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [FileSelectDecisionContext Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 
 
@@ -71,7 +71,7 @@ Public Properties
 | Public Property | [OpenFileFlag](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext~OpenFileFlag.html) | Set or get the openfileflag. Set this flag when you want to open a file Do not set it when you want to save a file. |
 | Public Property | [Title](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext~Title.html) | The title for the decider. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -81,15 +81,3 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext~Dispose().html) | Destructor for deterministic finalization of FileSelectDecisionContext object. |
 | Public Method | [GetFiles](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext~GetFiles.html) | Get all the files the user has selected in the decider dialog. |
 
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[FileSelectDecisionContext Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext_members.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)

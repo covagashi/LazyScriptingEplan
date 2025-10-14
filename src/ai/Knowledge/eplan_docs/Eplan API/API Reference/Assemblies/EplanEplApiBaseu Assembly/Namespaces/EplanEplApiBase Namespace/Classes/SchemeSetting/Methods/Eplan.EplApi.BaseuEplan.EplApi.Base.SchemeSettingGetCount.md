@@ -22,12 +22,3 @@ int GetCount();
 
 The number of individual scheme groups in the initialized scheme [Init](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting~Init.html).
 
-
-
-See Also
-
-#### Reference
-
-[SchemeSetting Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting.html)
-  
-[SchemeSetting Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting_members.html)

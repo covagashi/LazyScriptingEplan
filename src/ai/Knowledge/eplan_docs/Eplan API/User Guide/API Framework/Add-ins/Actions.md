@@ -183,13 +183,3 @@ Implements Eplan.EplApi.ApplicationFramework.IEplActionEnable.Enabled
    End Function 'Enabled
 End Class 'TestAction
 ```
-
-
-
-See Also
-
-[Calling actions](CallingActions.html)
-
-#### Reference
-
-[Action Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action.html)

@@ -17,15 +17,3 @@ public:
 Context();
 ```
 ```
-
-
-
-See Also
-
-#### Reference
-
-[Context Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context.html)
-  
-[Context Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context_members.html)
-  
-[Overload List](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~_ctor.html)

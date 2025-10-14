@@ -30,15 +30,3 @@ EnumDecisionReturn Decide(
 #### Return Value
 
 The return value is the pressed button or error.
-
-
-
-See Also
-
-#### Reference
-
-[Decider Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Decider.html)
-  
-[Decider Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Decider_members.html)
-  
-[Overload List](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Decider~Decide.html)

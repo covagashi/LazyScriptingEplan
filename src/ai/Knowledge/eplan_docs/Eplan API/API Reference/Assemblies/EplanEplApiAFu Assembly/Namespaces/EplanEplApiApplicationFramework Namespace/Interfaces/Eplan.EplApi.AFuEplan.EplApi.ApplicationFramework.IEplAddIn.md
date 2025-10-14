@@ -33,16 +33,3 @@ Public Methods
 | Method | [OnInitGui](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddIn~OnInitGui.html) | Called by the framework if the user interface was initialized and the add-in can modify the user interface. Is only called if the add-in is loaded at system startup! |
 | Method | [OnRegister](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddIn~OnRegister.html) | Is called once when a new add-in is selected. |
 | Method | [OnUnregister](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddIn~OnUnregister.html) | Is called once, when the add-in is removed from the system. |
-
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[IEplAddIn Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddIn_members.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

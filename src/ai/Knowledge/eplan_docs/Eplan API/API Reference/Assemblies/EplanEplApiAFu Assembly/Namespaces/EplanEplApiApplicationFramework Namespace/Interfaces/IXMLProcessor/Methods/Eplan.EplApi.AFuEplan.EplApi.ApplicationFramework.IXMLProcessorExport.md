@@ -39,13 +39,3 @@ bool Export(
 #### Return Value
 
 Returns true if successful.
-
-
-
-See Also
-
-#### Reference
-
-[IXMLProcessor Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor.html)
-  
-[IXMLProcessor Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor_members.html)

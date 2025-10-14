@@ -17,13 +17,3 @@ public:
 void Dispose();
 ```
 ```
-
-
-
-See Also
-
-#### Reference
-
-[Decider Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Decider.html)
-  
-[Decider Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Decider_members.html)

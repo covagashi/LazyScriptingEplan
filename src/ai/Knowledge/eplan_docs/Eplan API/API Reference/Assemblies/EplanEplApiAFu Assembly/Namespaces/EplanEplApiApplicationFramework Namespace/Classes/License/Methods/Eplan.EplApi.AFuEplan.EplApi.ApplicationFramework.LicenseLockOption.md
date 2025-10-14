@@ -32,11 +32,3 @@ bool LockOption(
 true: A license has been successfully assigned to this option. false: No license has been assigned to this option.
 
 
-
-See Also
-
-#### Reference
-
-[License Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.License.html)
-  
-[License Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.License_members.html)

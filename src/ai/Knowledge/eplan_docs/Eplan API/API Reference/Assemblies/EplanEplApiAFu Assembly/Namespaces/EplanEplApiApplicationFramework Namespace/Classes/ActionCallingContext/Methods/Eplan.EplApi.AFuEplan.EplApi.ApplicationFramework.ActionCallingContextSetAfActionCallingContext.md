@@ -26,12 +26,3 @@ void SetAfActionCallingContext(
 
 *pAfActionCallingContext*
 
-
-
-See Also
-
-#### Reference
-
-[ActionCallingContext Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionCallingContext.html)
-  
-[ActionCallingContext Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionCallingContext_members.html)

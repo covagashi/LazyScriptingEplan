@@ -32,12 +32,3 @@ virtual void GetParameter(
 *strParameterValue*
 :   Value of the parameter you search for.
 
-
-
-See Also
-
-#### Reference
-
-[Context Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context.html)
-  
-[Context Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context_members.html)

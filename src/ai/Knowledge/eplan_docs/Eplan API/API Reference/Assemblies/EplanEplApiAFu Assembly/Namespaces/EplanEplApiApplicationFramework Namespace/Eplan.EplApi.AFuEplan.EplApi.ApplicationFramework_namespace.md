@@ -54,8 +54,3 @@ Enumerations
 | Enumeration | [LicenseType](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.LicenseType.html) | License type: local, network (remote) or borrowed |
 | Enumeration | [QuietModes](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.QuietModes.html) | Quiet modes |
 
-See Also
-
-#### Reference
-
-[Eplan.EplApi.AFu Assembly](Eplan.EplApi.AFu.html)

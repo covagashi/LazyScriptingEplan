@@ -102,16 +102,3 @@ Public Methods
 |  | Name | Description |
 | --- | --- | --- |
 | Method | [OnBeforeInit](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddInShadowCopy~OnBeforeInit.html) | Called by the framework before [IEplAddIn.OnInit](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddIn~OnInit.html) and passes the location from which add-in assembly has been registered. |
-
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[IEplAddInShadowCopy Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddInShadowCopy_members.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

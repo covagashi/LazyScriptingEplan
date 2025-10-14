@@ -31,14 +31,3 @@ ActionCallingContext(
 
 *bDelete*
 
-
-
-See Also
-
-#### Reference
-
-[ActionCallingContext Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionCallingContext.html)
-  
-[ActionCallingContext Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionCallingContext_members.html)
-  
-[Overload List](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionCallingContext~_ctor.html)

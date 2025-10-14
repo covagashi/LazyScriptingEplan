@@ -28,11 +28,3 @@ static void UnRegisterProgress(
 :   The progress object to unregister
 
 
-
-See Also
-
-#### Reference
-
-[ProgressFactory Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ProgressFactory.html)
-  
-[ProgressFactory Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ProgressFactory_members.html)

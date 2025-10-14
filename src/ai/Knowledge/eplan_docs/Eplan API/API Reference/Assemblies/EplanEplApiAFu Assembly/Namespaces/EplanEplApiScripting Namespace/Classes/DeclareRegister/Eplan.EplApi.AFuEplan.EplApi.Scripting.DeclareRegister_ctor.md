@@ -17,13 +17,3 @@ public:
 DeclareRegister();
 ```
 ```
-
-
-
-See Also
-
-#### Reference
-
-[DeclareRegister Class](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareRegister.html)
-  
-[DeclareRegister Members](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareRegister_members.html)

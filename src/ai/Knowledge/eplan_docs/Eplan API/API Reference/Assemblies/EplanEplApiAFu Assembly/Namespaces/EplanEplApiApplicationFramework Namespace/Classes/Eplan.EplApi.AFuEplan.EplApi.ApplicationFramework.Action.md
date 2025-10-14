@@ -34,7 +34,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Action Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action~_ctor(AfAction).html) | For internal use only. |
 
-[Top](#top)
+
 
 
 
@@ -46,7 +46,7 @@ Public Properties
 | Public Property | [ModuleName](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action~ModuleName.html) | Name of the module in which this action is implemented. |
 | Public Property | [Name](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action~Name.html) | Name used to identify this action in the system. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -56,15 +56,4 @@ Public Methods
 | Public Method | [GetChecked](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action~GetChecked.html) | Returns 'checked' state of an action |
 | Public Method | [GetEnabled](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action~GetEnabled.html) | Returns whether an action is enabled |
 
-[Top](#top)
 
-
-
-
-See Also
-
-#### Reference
-
-[Action Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action_members.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

@@ -24,12 +24,3 @@ property int Ordinal {
 
 Returns the overload level of the action.
 
-
-
-See Also
-
-#### Reference
-
-[DeclareAction Class](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareAction.html)
-  
-[DeclareAction Members](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareAction_members.html)

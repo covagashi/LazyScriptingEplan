@@ -35,12 +35,3 @@ bool OnRegister(
 
 true: the return parameters are valid. false: the action is registered under the name of the class that implements this interface;
 
-
-
-See Also
-
-#### Reference
-
-[IEplAction Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAction.html)
-  
-[IEplAction Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAction_members.html)

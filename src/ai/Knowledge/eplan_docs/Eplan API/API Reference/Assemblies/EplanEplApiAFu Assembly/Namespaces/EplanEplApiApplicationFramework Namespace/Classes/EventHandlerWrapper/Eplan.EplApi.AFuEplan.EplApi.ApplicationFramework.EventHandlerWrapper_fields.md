@@ -6,12 +6,3 @@ Public Fields
 | --- | --- | --- |
 | Public Field | [EplanEventLocally](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerWrapper~EplanEventLocally.html) | Local event handler |
 
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[EventHandlerWrapper Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerWrapper.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

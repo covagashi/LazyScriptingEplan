@@ -27,14 +27,3 @@ EventParameterString(
 *pIEventParameter*
 :   This interface should point to an EventParameter object that is an EventParameterString.
 
-
-
-See Also
-
-#### Reference
-
-[EventParameterString Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString.html)
-  
-[EventParameterString Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString_members.html)
-  
-[Overload List](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString~_ctor.html)

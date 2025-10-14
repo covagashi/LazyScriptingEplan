@@ -35,13 +35,3 @@ Action^ FindBaseAction(
 #### Return Value
 
 Returns a reference to a [Action](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action.html) or NULL in case no action with this name exists in the system.
-
-
-
-See Also
-
-#### Reference
-
-[ActionManager Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionManager.html)
-  
-[ActionManager Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionManager_members.html)

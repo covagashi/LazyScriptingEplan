@@ -42,6 +42,3 @@ SW isometric viewpoint :
 
 ![](images/ProPanelAPI/orientation_without_pa2.jpg)
 
-See Also
-
-[API Pro Panel](API_Pro_Panel.html)

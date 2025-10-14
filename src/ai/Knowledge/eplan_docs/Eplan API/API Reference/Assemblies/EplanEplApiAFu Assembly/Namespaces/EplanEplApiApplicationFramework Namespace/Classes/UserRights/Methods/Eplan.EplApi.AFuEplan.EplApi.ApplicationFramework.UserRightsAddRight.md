@@ -47,13 +47,3 @@ Exceptions
 Remarks
 
 The currently logged-in user must have the URShowAdministrationDialog right, this is the right to work on user rights. The custom user rights will be saved to the file "$(EPLAN\_DATA)\\Administration\\customrights.erm". The system administrator needs to protect this file from changes by unauthorized persons.
-
-
-
-See Also
-
-#### Reference
-
-[UserRights Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights.html)
-  
-[UserRights Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights_members.html)

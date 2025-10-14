@@ -53,7 +53,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ActionParameterProperties Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 
 
@@ -63,7 +63,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Name](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties~Name.html) | Name of a parameter. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -73,15 +73,3 @@ Public Methods
 | Public Method | [GetAfActionParameter](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties~GetAfActionParameter.html) | For internal use only. |
 | Public Method | [Set](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties~Set.html) | Description text of a parameter. Sets name and description text of a parameter. |
 
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[ActionParameterProperties Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties_members.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

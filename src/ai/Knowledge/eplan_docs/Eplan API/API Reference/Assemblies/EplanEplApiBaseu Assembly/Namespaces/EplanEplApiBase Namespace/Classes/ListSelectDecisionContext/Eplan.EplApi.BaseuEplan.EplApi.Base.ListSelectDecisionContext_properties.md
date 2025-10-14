@@ -11,12 +11,3 @@ Public Properties
 | Public Property | [SelectedIndex](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ListSelectDecisionContext~SelectedIndex.html) | Gets the selected index from Entries |
 | Public Property | [Title](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ListSelectDecisionContext~Title.html) | The title for the decider. |
 
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[ListSelectDecisionContext Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ListSelectDecisionContext.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)

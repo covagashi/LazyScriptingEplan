@@ -229,12 +229,3 @@ Our UI libraries provide  SVG  support with the following limitations:
 It is strongly recommended to use only simplified ("optimized")  SVG: All elements such as text or shapes should be converted to paths and all paths should be combined.  
 The simplified  SVG  is small and fast-drawing. In addition, it will be very difficult to "reverse engineer" your media in this case.
 
-See Also
-
-#### Scripts
-
-[Adding ribbon items by a script](script_ribbon.html)
-
-#### Addins
-
-[Adding ribbon commands](AddingRibbonCommand.html)

@@ -18,12 +18,3 @@ DeclareMenu();
 ```
 ```
 
-
-
-See Also
-
-#### Reference
-
-[DeclareMenu Class](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareMenu.html)
-  
-[DeclareMenu Members](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareMenu_members.html)

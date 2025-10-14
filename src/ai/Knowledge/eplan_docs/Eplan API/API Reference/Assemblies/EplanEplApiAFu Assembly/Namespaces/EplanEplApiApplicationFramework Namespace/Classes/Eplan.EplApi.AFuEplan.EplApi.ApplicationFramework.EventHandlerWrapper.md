@@ -44,7 +44,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [EventHandlerWrapper Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerWrapper~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -52,7 +52,7 @@ Public Fields
 | --- | --- | --- |
 | Public Field | [EplanEventLocally](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerWrapper~EplanEventLocally.html) | Local event handler |
 
-[Top](#top)
+
 
 
 
@@ -63,15 +63,3 @@ Public Methods
 | Public Method | [InitializeLifetimeService](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerWrapper~InitializeLifetimeService.html) | This object should live "forever." |
 | Public Method | [LocallyEventHandlerFunction](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerWrapper~LocallyEventHandlerFunction.html) | This function of the local event handler is registered as a handler function of the remote event handler [EventHandler](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler.html). |
 
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[EventHandlerWrapper Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerWrapper_members.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

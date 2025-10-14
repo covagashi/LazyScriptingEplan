@@ -28,8 +28,3 @@ As a replacement, use classes from Eplan.EplApi.DataModel.Planning namespace and
 
 Please note also, there will be no further development of the Eplan PPE system.
 
-See Also
-
-#### Reference
-
-[Eplan.EplApi.DataModel.Planning Namespace](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning_namespace.html)

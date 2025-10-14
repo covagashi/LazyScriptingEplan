@@ -31,12 +31,3 @@ virtual bool IsExecutable(
 
 true, if command line expression is valid false, if command line expression cannot be executed.
 
-
-
-See Also
-
-#### Reference
-
-[CommandLineInterpreter Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.CommandLineInterpreter.html)
-  
-[CommandLineInterpreter Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.CommandLineInterpreter_members.html)

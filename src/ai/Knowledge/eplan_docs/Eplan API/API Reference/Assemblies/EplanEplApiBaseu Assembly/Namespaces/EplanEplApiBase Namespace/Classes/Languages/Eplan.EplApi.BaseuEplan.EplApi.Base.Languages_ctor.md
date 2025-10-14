@@ -18,12 +18,3 @@ Languages();
 ```
 ```
 
-
-
-See Also
-
-#### Reference
-
-[Languages Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Languages.html)
-  
-[Languages Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Languages_members.html)

@@ -25,12 +25,3 @@ Remarks
 
 When the strCustomDefaultPath is empty, the system fills it automatically again.
 
-
-
-See Also
-
-#### Reference
-
-[FileSelectDecisionContext Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext.html)
-  
-[FileSelectDecisionContext Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext_members.html)

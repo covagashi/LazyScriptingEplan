@@ -28,12 +28,3 @@ void Execute(
 
 *pRemotingDataOut*
 
-
-
-See Also
-
-#### Reference
-
-[IRemotePostServer Interface](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.IRemotePostServer.html)
-  
-[IRemotePostServer Members](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.IRemotePostServer_members.html)

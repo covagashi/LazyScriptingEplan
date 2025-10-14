@@ -32,12 +32,3 @@ void Assert(
 *strInformation*
 :   The message to be traced to epllog.txt
 
-
-
-See Also
-
-#### Reference
-
-[EplAssert Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.EplAssert.html)
-  
-[EplAssert Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.EplAssert_members.html)

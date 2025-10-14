@@ -22,12 +22,3 @@ virtual ContextParameterBlock^ GetContextParameter();
 
 The Context Parameter Block when available.
 
-
-
-See Also
-
-#### Reference
-
-[Context Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context.html)
-  
-[Context Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context_members.html)

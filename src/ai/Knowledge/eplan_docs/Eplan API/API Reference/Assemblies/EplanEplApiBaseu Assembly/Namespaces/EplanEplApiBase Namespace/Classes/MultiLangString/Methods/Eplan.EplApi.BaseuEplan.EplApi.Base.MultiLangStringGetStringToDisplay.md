@@ -32,11 +32,3 @@ String^ GetStringToDisplay(
 Returns the string in the requested language
 
 
-
-See Also
-
-#### Reference
-
-[MultiLangString Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString.html)
-  
-[MultiLangString Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString_members.html)

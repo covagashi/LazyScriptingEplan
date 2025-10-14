@@ -49,11 +49,3 @@ oEventParamString.String = "ParameterAusCSharpAddIn";
 long lRetVal = oEventManager.Send("EventAusCSharpAddIn", oEventParamString);
 
 ```
-
-See Also
-
-#### Reference
-
-[EventManager Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventManager.html)
-  
-[EventManager Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventManager_members.html)

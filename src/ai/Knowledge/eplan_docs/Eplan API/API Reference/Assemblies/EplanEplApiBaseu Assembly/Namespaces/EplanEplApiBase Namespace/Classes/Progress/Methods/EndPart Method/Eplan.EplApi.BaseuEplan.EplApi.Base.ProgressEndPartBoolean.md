@@ -26,14 +26,3 @@ void EndPart(
 
 *bCloseWindow*
 
-
-
-See Also
-
-#### Reference
-
-[Progress Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress.html)
-  
-[Progress Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress_members.html)
-  
-[Overload List](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress~EndPart.html)

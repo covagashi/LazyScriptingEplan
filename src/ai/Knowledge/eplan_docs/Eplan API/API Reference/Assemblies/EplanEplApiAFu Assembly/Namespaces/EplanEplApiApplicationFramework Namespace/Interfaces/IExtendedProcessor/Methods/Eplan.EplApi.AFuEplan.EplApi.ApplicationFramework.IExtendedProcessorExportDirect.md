@@ -35,12 +35,3 @@ bool ExportDirect(
 
 Returns true if successful.
 
-
-
-See Also
-
-#### Reference
-
-[IExtendedProcessor Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IExtendedProcessor.html)
-  
-[IExtendedProcessor Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IExtendedProcessor_members.html)

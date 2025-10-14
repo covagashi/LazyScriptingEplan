@@ -30,7 +30,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ISOCode Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ISOCode~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 
 
@@ -48,16 +48,3 @@ Public Methods
 | Public Method | [IsValid](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ISOCode~IsValid.html) | Determines whether a valid language has been set. |
 | Public Method | [SetNumber](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ISOCode~SetNumber.html) | Sets the language. |
 | Public Method | [SetString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ISOCode~SetString.html) | Sets the language. |
-
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[ISOCode Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ISOCode_members.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)

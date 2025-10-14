@@ -3,7 +3,7 @@ Eplan expects system errors to be handled by exceptions. For this resason, the i
 The  fixMessage()  function of the exception adds the message to the Eplan system messages.
 
 * [C#](#i-tab-content-CS)
-* [VB](#i-tab-content-VB)
+
 
 ```
 
@@ -12,11 +12,3 @@ Eplan.EplApi.Base.BaseException exc = new Eplan.EplApi.Base.BaseException("CShar
 exc.FixMessage();
 ```
 
-```
-
-Dim exc As Eplan.EplApi.Base.BaseException = New ("CSharpAction really failed!!", _
-                                             Eplan.EplApi.Base.MessageLevel.Error)
-exc.FixMessage
-```
-
-![](images/SystemMessage.jpg)

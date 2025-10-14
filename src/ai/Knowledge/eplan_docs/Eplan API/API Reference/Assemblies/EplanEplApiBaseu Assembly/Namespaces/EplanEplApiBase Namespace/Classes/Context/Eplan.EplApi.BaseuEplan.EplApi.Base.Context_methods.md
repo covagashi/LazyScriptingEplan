@@ -15,13 +15,3 @@ Public Methods
 | Public Method | [SetContextParameter](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~SetContextParameter.html) | Sets a block of context parameters (as ContextParameterBlock object). |
 | Public Method | [SetEContext](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~SetEContext.html) | For internal use only. |
 | Public Method | [SetStrings](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~SetStrings.html) | Sets the array filled with strings from the context. (Additional to the parameters) |
-
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[Context Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)

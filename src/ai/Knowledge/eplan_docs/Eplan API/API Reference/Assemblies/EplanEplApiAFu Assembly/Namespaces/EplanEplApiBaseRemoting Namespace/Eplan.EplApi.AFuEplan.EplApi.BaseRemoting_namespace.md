@@ -7,8 +7,3 @@ Enumerations
 | Enumeration | [\_kResponse](Eplan.EplApi.AFu~Eplan.EplApi.BaseRemoting._kResponse.html) |  |
 | Enumeration | [\_SynchronizationMode](Eplan.EplApi.AFu~Eplan.EplApi.BaseRemoting._SynchronizationMode.html) |  |
 
-See Also
-
-#### Reference
-
-[Eplan.EplApi.AFu Assembly](Eplan.EplApi.AFu.html)

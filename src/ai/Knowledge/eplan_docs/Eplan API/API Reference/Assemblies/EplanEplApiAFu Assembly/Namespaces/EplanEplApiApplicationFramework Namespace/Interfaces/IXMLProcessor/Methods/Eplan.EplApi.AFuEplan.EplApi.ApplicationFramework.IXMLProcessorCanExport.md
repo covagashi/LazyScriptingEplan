@@ -34,13 +34,3 @@ bool CanExport(
 #### Return Value
 
 true: export is possible; false: export is not possible
-
-
-
-See Also
-
-#### Reference
-
-[IXMLProcessor Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor.html)
-  
-[IXMLProcessor Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor_members.html)

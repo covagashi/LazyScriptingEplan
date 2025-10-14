@@ -6,12 +6,3 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Send](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventManager~Send.html) | Sends an event to the system. |
 
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[EventManager Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventManager.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

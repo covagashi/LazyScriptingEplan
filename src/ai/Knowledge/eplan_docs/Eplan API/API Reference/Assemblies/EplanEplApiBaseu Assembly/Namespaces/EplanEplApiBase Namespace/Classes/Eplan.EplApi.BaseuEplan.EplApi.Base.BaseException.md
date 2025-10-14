@@ -35,7 +35,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [BaseException Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 
 
@@ -54,7 +54,7 @@ Public Properties
 | Public Property | [StackTrace](#) | (Inherited from [System.Exception](#)) |
 | Public Property | [TargetSite](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -70,15 +70,3 @@ Public Methods
 | Public Method | [GetType](#) | (Inherited from [System.Exception](#)) |
 | Public Method | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[BaseException Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException_members.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)

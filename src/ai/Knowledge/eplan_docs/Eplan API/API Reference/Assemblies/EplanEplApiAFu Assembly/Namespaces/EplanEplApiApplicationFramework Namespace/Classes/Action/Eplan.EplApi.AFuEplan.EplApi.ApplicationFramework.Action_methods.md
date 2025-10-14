@@ -8,12 +8,3 @@ Public Methods
 | Public Method | [GetChecked](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action~GetChecked.html) | Returns 'checked' state of an action |
 | Public Method | [GetEnabled](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action~GetEnabled.html) | Returns whether an action is enabled |
 
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[Action Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

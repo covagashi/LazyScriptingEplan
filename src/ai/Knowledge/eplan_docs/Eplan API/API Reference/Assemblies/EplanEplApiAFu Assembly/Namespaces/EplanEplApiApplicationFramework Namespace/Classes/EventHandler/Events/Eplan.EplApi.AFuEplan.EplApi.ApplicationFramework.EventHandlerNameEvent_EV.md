@@ -18,12 +18,3 @@ event EventHandlerFunction^ NameEvent
 ```
 ```
 
-
-
-See Also
-
-#### Reference
-
-[EventHandler Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler.html)
-  
-[EventHandler Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler_members.html)

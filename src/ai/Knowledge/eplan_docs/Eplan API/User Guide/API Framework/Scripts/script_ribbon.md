@@ -170,17 +170,3 @@ public class RegisterRibbonItems
     }  
 }
 ```
-
-See Also
-
-#### Addins
-
-[Adding ribbon commands](AddingRibbonCommand.html)
-
-#### API Miscellaneous
-
-[Ribbon bar](TheRibbon.html)
-
-#### Reference
-
-[RibbonBar Constructor](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBar~_ctor.html)

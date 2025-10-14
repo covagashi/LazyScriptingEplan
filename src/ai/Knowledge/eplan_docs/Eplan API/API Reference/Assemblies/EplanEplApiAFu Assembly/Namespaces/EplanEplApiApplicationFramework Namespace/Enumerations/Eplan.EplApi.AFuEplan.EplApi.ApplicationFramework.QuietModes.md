@@ -36,9 +36,3 @@ Inheritance Hierarchy
    [System.ValueType](#)  
       [System.Enum](#)  
          **Eplan.EplApi.ApplicationFramework.QuietModes**
-
-See Also
-
-#### Reference
-
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

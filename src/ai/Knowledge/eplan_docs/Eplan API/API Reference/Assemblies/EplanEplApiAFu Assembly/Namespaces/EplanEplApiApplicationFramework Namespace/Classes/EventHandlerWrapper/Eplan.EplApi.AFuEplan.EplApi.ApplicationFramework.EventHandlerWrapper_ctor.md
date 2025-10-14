@@ -16,12 +16,3 @@ EventHandlerWrapper();
 ```
 ```
 
-
-
-See Also
-
-#### Reference
-
-[EventHandlerWrapper Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerWrapper.html)
-  
-[EventHandlerWrapper Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerWrapper_members.html)

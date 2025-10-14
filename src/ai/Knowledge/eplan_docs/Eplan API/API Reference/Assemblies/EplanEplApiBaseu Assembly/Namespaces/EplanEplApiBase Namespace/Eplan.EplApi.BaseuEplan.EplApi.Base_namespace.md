@@ -60,8 +60,3 @@ Enumerations
 | Enumeration | [Unit](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Unit.html) | A unit. Every unit enum starts with the group name. |
 | Enumeration | [UnitGroup](Eplan.EplApi.Baseu~Eplan.EplApi.Base.UnitGroup.html) | The group of one unit. Conversion is only possible inside groups |
 
-See Also
-
-#### Reference
-
-[Eplan.EplApi.Baseu Assembly](Eplan.EplApi.Baseu.html)

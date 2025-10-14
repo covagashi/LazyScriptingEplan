@@ -6,12 +6,3 @@ Public Methods
 | --- | --- | --- |
 | Method | [Checked](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplActionChecked~Checked.html) | One action can have the state on off or mixed. Return 0 for off, 1 for on, and 2 for mixed. |
 
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[IEplActionChecked Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplActionChecked.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

@@ -26,11 +26,3 @@ public delegate void EventHandlerFunction(
 *pIEventParameter*
 
 
-
-See Also
-
-#### Reference
-
-[EventHandlerFunction Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerFunction.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

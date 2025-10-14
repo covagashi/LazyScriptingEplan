@@ -31,15 +31,3 @@ Public Methods
 | Method | [EplanEvent](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplanEvents~EplanEvent.html) | this is the function prototype called when an Eplan event is raised. |
 | Method | [EplanNameEvent](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplanEvents~EplanNameEvent.html) | this is the function prototype called when an Eplan event is raised. |
 
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[IEplanEvents Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplanEvents_members.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

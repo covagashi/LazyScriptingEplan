@@ -33,7 +33,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [DeclareMenu Constructor](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareMenu~_ctor.html) | Creates a new attribute. |
 
-[Top](#top)
+
 
 
 
@@ -43,7 +43,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -54,15 +54,4 @@ Public Methods
 | Public Method | [IsDefaultAttribute](#) | (Inherited from [System.Attribute](#)) |
 | Public Method | [Match](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
 
-
-
-
-See Also
-
-#### Reference
-
-[DeclareMenu Members](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareMenu_members.html)
-  
-[Eplan.EplApi.Scripting Namespace](Eplan.EplApi.AFu~Eplan.EplApi.Scripting_namespace.html)

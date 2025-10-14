@@ -33,13 +33,3 @@ DeclareAction(
 :   This overload level is used when registering the action in the system.
 
 
-
-See Also
-
-#### Reference
-
-[DeclareAction Class](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareAction.html)
-  
-[DeclareAction Members](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareAction_members.html)
-  
-[Overload List](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareAction~_ctor.html)

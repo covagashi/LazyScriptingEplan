@@ -22,7 +22,7 @@ public class EDataPreImportAction : IEplAction
         MessageBox.Show($"This is the path to the imported part: {filename}");
         return true;
     }
-â¦
+
 }
 ```
 

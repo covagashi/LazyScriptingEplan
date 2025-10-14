@@ -27,11 +27,3 @@ void GetActionProperties(
 :   The data structure [ActionProperties](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionProperties.html) is filled with the properties.
 
 
-
-See Also
-
-#### Reference
-
-[IEplAction Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAction.html)
-  
-[IEplAction Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAction_members.html)

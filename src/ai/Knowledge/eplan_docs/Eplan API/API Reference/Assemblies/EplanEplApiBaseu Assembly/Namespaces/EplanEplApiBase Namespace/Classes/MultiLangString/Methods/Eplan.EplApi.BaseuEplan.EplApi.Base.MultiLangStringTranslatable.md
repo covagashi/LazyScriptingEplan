@@ -25,11 +25,3 @@ True: MultiLanguageString can be translated.
 False: MultiLanguageString cannot be translated.
 
 
-
-See Also
-
-#### Reference
-
-[MultiLangString Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString.html)
-  
-[MultiLangString Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString_members.html)

@@ -16,12 +16,3 @@ EventManager();
 ```
 ```
 
-
-
-See Also
-
-#### Reference
-
-[EventManager Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventManager.html)
-  
-[EventManager Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventManager_members.html)

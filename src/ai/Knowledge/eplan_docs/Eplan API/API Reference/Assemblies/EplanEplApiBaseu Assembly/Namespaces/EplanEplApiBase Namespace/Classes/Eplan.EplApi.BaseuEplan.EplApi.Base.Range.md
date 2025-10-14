@@ -30,7 +30,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Range Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Range~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -39,17 +39,5 @@ Public Fields
 | Public Field | [FromValue](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Range~FromValue.html) | Minimal value(begin, start) |
 | Public Field | [ToValue](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Range~ToValue.html) | Maximal value(end, stop) |
 
-[Top](#top)
 
 
-
-
-
-
-See Also
-
-#### Reference
-
-[Range Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Range_members.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)

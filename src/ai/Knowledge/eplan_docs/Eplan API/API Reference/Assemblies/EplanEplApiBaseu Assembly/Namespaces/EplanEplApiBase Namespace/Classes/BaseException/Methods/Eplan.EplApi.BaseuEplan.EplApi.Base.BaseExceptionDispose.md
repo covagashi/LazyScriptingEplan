@@ -17,13 +17,3 @@ public:
 void Dispose();
 ```
 ```
-
-
-
-See Also
-
-#### Reference
-
-[BaseException Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException.html)
-  
-[BaseException Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException_members.html)

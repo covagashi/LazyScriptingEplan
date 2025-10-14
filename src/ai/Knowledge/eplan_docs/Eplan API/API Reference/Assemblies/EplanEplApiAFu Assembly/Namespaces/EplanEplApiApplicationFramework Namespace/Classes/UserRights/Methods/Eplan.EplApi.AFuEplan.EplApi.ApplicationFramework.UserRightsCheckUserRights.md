@@ -26,12 +26,3 @@ Remarks
 
 This method does not change the current mode of rights management. It only checks, whether the rights management is active or not.
 
-
-
-See Also
-
-#### Reference
-
-[UserRights Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights.html)
-  
-[UserRights Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights_members.html)

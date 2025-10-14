@@ -20,13 +20,3 @@ bool PostExport();
 #### Return Value
 
 If true, an Information dialog box is displayed.
-
-
-
-See Also
-
-#### Reference
-
-[IXMLProcessor Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor.html)
-  
-[IXMLProcessor Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor_members.html)

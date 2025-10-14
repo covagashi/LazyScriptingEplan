@@ -8,11 +8,3 @@ Overload List
 | [SetScheme(Int32)](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting~SetScheme(Int32).html) | Sets a scheme by its number (LastUsed remains unchanged!) |
 
 
-
-See Also
-
-#### Reference
-
-[SchemeSetting Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting.html)
-  
-[SchemeSetting Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting_members.html)

@@ -2,7 +2,7 @@ This chapter shows how to work with the  Eplan.IdentityClient.Authentification�
 
 First create an  IEIdentityClient  object and make sure you are signed in to the Eplan Cloud:
 
-* [C#](#i-tab-content-3dfe2b7c-67de-4a42-ac0c-16f8f7f8014e)
+* [C#]
 
 ```
 
@@ -20,7 +20,7 @@ if (signInResult.IsSuccess)
 
 Get example information from the user cloud profile:
 
-* [C#](#i-tab-content-aabbbd09-c5b3-4025-9669-bcfb78909cb0)
+* [C#]
 
 ```
 
@@ -38,7 +38,7 @@ if (getUserProfileResult.IsSuccess)
 
 Set the  **ClientId**  name to work with a specific API service in the Eplan Cloud:
 
-* [C#](#i-tab-content-e4938a2e-cf6a-4589-80a9-9cf12125d8e0)
+* [C#]
 
 ```
 
@@ -49,11 +49,11 @@ string ClientId = "Proper_Client_Id_Name";
 Notice:  
 **ClientId**  is case-sensitive and can be found on [Eplan Cloud Developer Portal](https://developer.eplan.com/) inside tooltip of product tag:
 
-![](images/ClientID_ToolTip.png)
+
 
 Use the  GetHttpClient()  method to work with Eplan Cloud API endpoints:
 
-* [C#](#i-tab-content-56c5a54c-f3fb-4437-9bf1-01973e8249be)
+* [C#]
 
 ```
 
@@ -73,7 +73,7 @@ if (httpClientRespone.IsSuccess)
 
 The  GetAccessToken()  is called internally by  GetHttpClient(), but it is still possible to use this method directly:
 
-* [C#](#i-tab-content-c6adcdb6-197d-47a0-9673-e6d4c7f623d8)
+* [C#]
 
 ```
 
@@ -83,7 +83,7 @@ IdentityClientResponse tokenResponse = IdentityClient.GetAccessToken(strClientId
 
 Sign out and exit:
 
-* [C#](#i-tab-content-04046b69-3a3f-4906-9068-36d52ebc63d4)
+* [C#]
 
 ```
 
@@ -106,11 +106,11 @@ if (exitResponse.IsSuccess)
 
 To receive a warning when a deprecated URL is addressed, the  EplanCloudResourceDeprecationEvent  must be subscribed to. In the following example, a message box will pop up as soon as a deprecated endpoint is addressed:
 
-![](images/Identity_Client/message-deprecated-endpoint.png)
+
 
 For this purpose, an event handler is registered for the EplanCloudResourceDeprecationEvent.
 
-* [C#](#i-tab-content-81805604-16b7-4b4c-9155-291a0a488760)
+* [C#]
 
 ```
 

@@ -30,7 +30,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [UserRights Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights~_ctor.html) |  |
 
-[Top](#top)
+
 
 
 
@@ -49,18 +49,3 @@ Public Methods
 | Public Method | [GetUserSID](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights~GetUserSID.html) | Gets the user SID. |
 | Public Method | [IsRightExisting](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights~IsRightExisting.html) |  |
 | Public Method | [SetUser](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights~SetUser.html) | Sets the user. |
-
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[UserRights Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights_members.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)
-  
-**QueryUserRights.html**

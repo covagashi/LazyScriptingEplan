@@ -27,12 +27,3 @@ void CreateFrom(
 *pIEventParameter*
 :   The EventParameterString object is created from this interface. This interface should point to an EventParameter object that is an EventParameterString.
 
-
-
-See Also
-
-#### Reference
-
-[EventParameterString Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString.html)
-  
-[EventParameterString Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString_members.html)

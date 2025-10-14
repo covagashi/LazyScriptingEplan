@@ -7,12 +7,3 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameter~Dispose().html) | For internal use only. |
 | Public Method | [GetInternalParameter](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameter~GetInternalParameter.html) | For internal use only. |
 
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[EventParameter Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameter.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

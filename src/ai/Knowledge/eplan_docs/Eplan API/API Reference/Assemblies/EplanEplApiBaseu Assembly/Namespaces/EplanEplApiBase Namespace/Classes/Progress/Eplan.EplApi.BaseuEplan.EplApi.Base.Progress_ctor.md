@@ -6,11 +6,3 @@ Overload List
 | [Progress Constructor(String)](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress~_ctor(String).html) | Creates a new progress bar. |
 
 
-
-See Also
-
-#### Reference
-
-[Progress Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress.html)
-  
-[Progress Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress_members.html)

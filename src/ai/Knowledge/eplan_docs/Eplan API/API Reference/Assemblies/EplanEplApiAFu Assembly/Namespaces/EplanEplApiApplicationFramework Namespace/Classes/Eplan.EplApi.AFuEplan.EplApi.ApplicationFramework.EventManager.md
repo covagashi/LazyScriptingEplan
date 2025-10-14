@@ -30,7 +30,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [EventManager Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventManager~_ctor.html) |  |
 
-[Top](#top)
+
 
 
 
@@ -41,15 +41,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Send](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventManager~Send.html) | Sends an event to the system. |
 
-[Top](#top)
 
-
-
-
-See Also
-
-#### Reference
-
-[EventManager Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventManager_members.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

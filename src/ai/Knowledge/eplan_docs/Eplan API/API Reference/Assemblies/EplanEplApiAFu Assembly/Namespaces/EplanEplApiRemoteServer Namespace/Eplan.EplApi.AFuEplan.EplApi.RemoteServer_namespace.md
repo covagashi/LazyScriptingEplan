@@ -12,9 +12,3 @@ Interfaces
 | --- | --- | --- |
 | Interface | [IRemotePostServer](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.IRemotePostServer.html) |  |
 | Interface | [IRemotingSynchronizer](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.IRemotingSynchronizer.html) |  |
-
-See Also
-
-#### Reference
-
-[Eplan.EplApi.AFu Assembly](Eplan.EplApi.AFu.html)

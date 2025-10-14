@@ -31,14 +31,3 @@ virtual bool Execute(
 
 true: The command line operation was successfully completed. false: One or more errors occured while executing the command line operation.
 
-
-
-See Also
-
-#### Reference
-
-[CommandLineInterpreter Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.CommandLineInterpreter.html)
-  
-[CommandLineInterpreter Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.CommandLineInterpreter_members.html)
-  
-[Overload List](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.CommandLineInterpreter~Execute.html)

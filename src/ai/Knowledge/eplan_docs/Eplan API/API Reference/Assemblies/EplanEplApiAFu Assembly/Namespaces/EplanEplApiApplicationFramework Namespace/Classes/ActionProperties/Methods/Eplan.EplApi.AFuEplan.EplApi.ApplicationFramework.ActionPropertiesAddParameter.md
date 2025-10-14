@@ -28,11 +28,3 @@ void AddParameter(
 :   Description parameter to be added.
 
 
-
-See Also
-
-#### Reference
-
-[ActionProperties Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionProperties.html)
-  
-[ActionProperties Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionProperties_members.html)

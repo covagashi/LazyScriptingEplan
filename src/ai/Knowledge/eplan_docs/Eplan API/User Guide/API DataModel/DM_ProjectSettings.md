@@ -4,7 +4,24 @@ Example for project related settings Projects > <project name> > Connections > G
 
 | Example Title | Copy Code |
 | --- | --- |
-| ```  <?xml version="1.0" encoding="utf-8" ?> <Settings ver="2.4.1" format="2">  <CAT name="PROJECT">   <MOD name="EsConnection">    <Setting name="ManageConnectionsInNDPDialog" type="bool">     <Val>0</Val>    </Setting>    <Setting name="ManageSaddleJumperConnPointsInNDPDialog" type="bool">     <Val>0</Val>    </Setting>    <Setting name="SortConnectionsByPlacement" type="bool" desc="2058">     <Val>0</Val>    </Setting>   </MOD>  </CAT> </Settings> ``` | |
+| ``` 
+ <?xml version="1.0" encoding="utf-8" ?>
+ <Settings ver="2.4.1" format="2">
+  <CAT name="PROJECT">
+   <MOD name="EsConnection">
+    <Setting name="ManageConnectionsInNDPDialog" type="bool">
+     <Val>0</Val>
+    </Setting>
+    <Setting name="ManageSaddleJumperConnPointsInNDPDialog" type="bool">
+     <Val>0</Val>
+    </Setting>
+    <Setting name="SortConnectionsByPlacement" type="bool" desc="2058">
+     <Val>0</Val>
+    </Setting>
+   </MOD>
+  </CAT>
+ </Settings>
+ ``` | |
 
 The following example shows how to get the project setting for the project display languages.
 
@@ -25,11 +42,3 @@ Dim languages As String
 languages = projectSettings.GetExpandedStringSetting("TRANSLATEGUI.DISPLAYED_LANGUAGES", _
                                                        System.Convert.ToUInt32(0))
 ```
-
-
-
-See Also
-
-#### API Miscellaneous
-
-[Working with settings](WorkingWithSettings.html)

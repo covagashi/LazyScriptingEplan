@@ -16,13 +16,3 @@ void ShowOptions()
 void ShowOptions();
 ```
 ```
-
-
-
-See Also
-
-#### Reference
-
-[IOptions Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IOptions.html)
-  
-[IOptions Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IOptions_members.html)

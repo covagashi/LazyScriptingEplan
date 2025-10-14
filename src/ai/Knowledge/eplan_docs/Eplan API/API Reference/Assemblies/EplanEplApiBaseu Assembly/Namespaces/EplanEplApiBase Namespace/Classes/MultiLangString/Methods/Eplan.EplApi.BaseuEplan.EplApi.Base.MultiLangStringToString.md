@@ -22,12 +22,3 @@ String^ ToString(); override
 
 A string that represents the current object.
 
-
-
-See Also
-
-#### Reference
-
-[MultiLangString Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString.html)
-  
-[MultiLangString Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString_members.html)

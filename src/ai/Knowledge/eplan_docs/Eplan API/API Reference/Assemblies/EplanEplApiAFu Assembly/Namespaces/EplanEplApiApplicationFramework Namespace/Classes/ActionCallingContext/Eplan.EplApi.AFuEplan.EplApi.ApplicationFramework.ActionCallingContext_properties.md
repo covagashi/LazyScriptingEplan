@@ -5,13 +5,3 @@ Public Properties
 |  | Name | Description |
 | --- | --- | --- |
 | Public Property | [SysMessages](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionCallingContext~SysMessages.html) | Gets system messages |
-
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[ActionCallingContext Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionCallingContext.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

@@ -31,14 +31,3 @@ EnumDecisionReturn Decide(
 
 The return value is EnumDecisionReturn::eOK or EnumDecisionReturn::eCancel.
 
-
-
-See Also
-
-#### Reference
-
-[Decider Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Decider.html)
-  
-[Decider Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Decider_members.html)
-  
-[Overload List](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Decider~Decide.html)

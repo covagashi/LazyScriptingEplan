@@ -9,13 +9,3 @@ Public Fields
 | Public Field | [m\_StringDictionary](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~m_StringDictionary.html) |  |
 | Public Field | [m\_strOperationType](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~m_strOperationType.html) |  |
 | Public Field | [m\_strProjectName](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~m_strProjectName.html) |  |
-
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[RemotingCallingContext Class](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext.html)
-  
-[Eplan.EplApi.RemoteServer Namespace](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer_namespace.html)

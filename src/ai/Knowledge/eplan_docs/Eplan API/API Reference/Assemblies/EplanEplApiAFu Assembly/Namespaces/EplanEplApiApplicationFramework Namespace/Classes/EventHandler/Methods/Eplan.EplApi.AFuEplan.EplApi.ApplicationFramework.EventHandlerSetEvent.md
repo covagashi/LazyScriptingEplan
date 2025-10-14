@@ -39,11 +39,3 @@ Eplan.EplApi.ApplicationFramework.EventHandler myHandler= new Eplan.EplApi.Appli
 // The program should respond to this event
 myHandler.SetEvent("onActionStart.String.*");
 ```
-
-See Also
-
-#### Reference
-
-[EventHandler Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler.html)
-  
-[EventHandler Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler_members.html)

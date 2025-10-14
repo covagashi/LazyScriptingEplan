@@ -38,7 +38,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ActionCallingContext Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionCallingContext~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 
 
@@ -48,7 +48,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [SysMessages](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionCallingContext~SysMessages.html) | Gets system messages |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -69,15 +69,4 @@ Public Methods
 | Public Method | [SetEContext](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~SetEContext.html) | For internal use only. (Inherited from [Eplan.EplApi.Base.Context](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context.html)) |
 | Public Method | [SetStrings](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~SetStrings.html) | Sets the array filled with strings from the context. (Additional to the parameters) (Inherited from [Eplan.EplApi.Base.Context](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context.html)) |
 
-[Top](#top)
 
-
-
-
-See Also
-
-#### Reference
-
-[ActionCallingContext Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionCallingContext_members.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

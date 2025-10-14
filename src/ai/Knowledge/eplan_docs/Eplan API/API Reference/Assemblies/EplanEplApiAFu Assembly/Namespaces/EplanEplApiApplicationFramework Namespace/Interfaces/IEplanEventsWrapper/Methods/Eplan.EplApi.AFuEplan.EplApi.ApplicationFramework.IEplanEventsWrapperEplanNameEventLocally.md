@@ -29,13 +29,3 @@ void EplanNameEventLocally(
 
 
 *strNameOfEvent*
-
-
-
-See Also
-
-#### Reference
-
-[IEplanEventsWrapper Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplanEventsWrapper.html)
-  
-[IEplanEventsWrapper Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplanEventsWrapper_members.html)

@@ -31,12 +31,3 @@ bool HasOption(
 
 true: This options is licensed on the system. false: This options is not licensed on the system.
 
-
-
-See Also
-
-#### Reference
-
-[License Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.License.html)
-  
-[License Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.License_members.html)

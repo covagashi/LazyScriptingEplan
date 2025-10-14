@@ -21,12 +21,3 @@ property String^ String {
 ```
 ```
 
-
-
-See Also
-
-#### Reference
-
-[EventParameterString Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString.html)
-  
-[EventParameterString Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString_members.html)

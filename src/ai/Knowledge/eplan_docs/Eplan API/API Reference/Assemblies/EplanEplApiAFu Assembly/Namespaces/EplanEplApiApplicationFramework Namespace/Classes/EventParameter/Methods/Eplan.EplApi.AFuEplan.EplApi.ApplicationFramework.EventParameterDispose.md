@@ -18,12 +18,3 @@ void Dispose();
 ```
 ```
 
-
-
-See Also
-
-#### Reference
-
-[EventParameter Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameter.html)
-  
-[EventParameter Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameter_members.html)

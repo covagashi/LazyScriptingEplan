@@ -20,13 +20,3 @@ property bool AllowMultiSelect {
 }
 ```
 ```
-
-
-
-See Also
-
-#### Reference
-
-[FileSelectDecisionContext Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext.html)
-  
-[FileSelectDecisionContext Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext_members.html)

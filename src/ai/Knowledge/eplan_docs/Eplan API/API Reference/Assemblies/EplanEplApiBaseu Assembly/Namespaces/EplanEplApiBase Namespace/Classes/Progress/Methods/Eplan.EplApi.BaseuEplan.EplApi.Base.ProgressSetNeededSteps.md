@@ -32,11 +32,3 @@ Remarks
 Caution: Keep in mind to call this function after having created a new segment ([BeginPart](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress~BeginPart.html)). Otherwise no steps are implemented.
 
 
-
-See Also
-
-#### Reference
-
-[Progress Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress.html)
-  
-[Progress Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress_members.html)

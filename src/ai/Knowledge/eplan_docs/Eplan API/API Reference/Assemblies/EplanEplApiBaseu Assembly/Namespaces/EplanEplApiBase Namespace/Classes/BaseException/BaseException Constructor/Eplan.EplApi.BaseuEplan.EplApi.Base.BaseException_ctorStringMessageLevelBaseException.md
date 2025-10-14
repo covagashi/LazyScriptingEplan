@@ -36,15 +36,3 @@ BaseException(
 
 *innerException*
 :   The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.
-
-
-
-See Also
-
-#### Reference
-
-[BaseException Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException.html)
-  
-[BaseException Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException_members.html)
-  
-[Overload List](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException~_ctor.html)

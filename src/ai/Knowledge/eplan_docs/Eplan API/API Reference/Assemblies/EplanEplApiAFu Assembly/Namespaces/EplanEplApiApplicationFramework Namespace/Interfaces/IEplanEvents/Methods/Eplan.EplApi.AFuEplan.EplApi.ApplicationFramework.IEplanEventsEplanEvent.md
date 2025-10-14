@@ -26,12 +26,3 @@ void EplanEvent(
 *pIEventParameter*
 :   The eventparameter for this event
 
-
-
-See Also
-
-#### Reference
-
-[IEplanEvents Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplanEvents.html)
-  
-[IEplanEvents Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplanEvents_members.html)

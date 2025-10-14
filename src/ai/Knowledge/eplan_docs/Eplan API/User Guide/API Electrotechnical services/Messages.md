@@ -123,12 +123,27 @@ The following example shows how to override the existing message 007005 "Device 
 
 | C# | Copy Code |
 | --- | --- |
-| ```  /// This function returns the message text. /// One verification needs always exactly one message text public string GetMessageText() {    return "This device has absolutely no main function!!!!"; }  /// This is the registration function of the message belonging to the verification. /// Parameters: ///   message region ///   message number ///   classification: error, message or info. ///   overload priority public void OnRegister(ref String strCreator, ref Eplan.EplApi.EServices.IMessage.Region eRegion, ref int iMessageId, ref Eplan.EplApi.EServices.IMessage.Classification eClassification, ref int iOrdinal) {    strCreator = "de.Eplan.Demo";    eRegion = IMessage.Region.Devices;    iMessageId = 5;    eClassification = IMessage.Classification.Error;    iOrdinal = 50; // Higher than 20 } ``` | |
+| ``` 
+ /// This function returns the message text.
+ /// One verification needs always exactly one message text
+ public string GetMessageText()
+ {
+    return "This device has absolutely no main function!!!!";
+ }
+ 
+ /// This is the registration function of the message belonging to the verification.
+ /// Parameters:
+ ///   message region
+ ///   message number
+ ///   classification: error, message or info.
+ ///   overload priority
+ public void OnRegister(ref String strCreator, ref Eplan.EplApi.EServices.IMessage.Region eRegion, ref int iMessageId, ref Eplan.EplApi.EServices.IMessage.Classification eClassification, ref int iOrdinal)
+ {
+    strCreator = "de.Eplan.Demo";
+    eRegion = IMessage.Region.Devices;
+    iMessageId = 5;
+    eClassification = IMessage.Classification.Error;
+    iOrdinal = 50; // Higher than 20
+ }
+ ``` | |
 
-See Also
-
-#### Reference
-
-[Message Class](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Message.html)
-
-[IMessage Interface](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.IMessage.html)

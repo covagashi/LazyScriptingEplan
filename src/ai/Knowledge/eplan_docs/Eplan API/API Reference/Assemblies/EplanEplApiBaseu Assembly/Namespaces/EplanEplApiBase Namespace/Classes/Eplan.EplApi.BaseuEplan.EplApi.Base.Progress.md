@@ -110,7 +110,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Progress Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 
 
@@ -135,15 +135,7 @@ Public Methods
 | Public Method | [ShowLevel](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress~ShowLevel.html) | Specifies the nesting level up to which a display is made. |
 | Public Method | [Step](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress~Step.html) | Uses a step |
 
-[Top](#top)
 
 
 
 
-See Also
-
-#### Reference
-
-[Progress Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress_members.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)

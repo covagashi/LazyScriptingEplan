@@ -37,11 +37,3 @@ oBaseException.FixMessage(); //This error will be saved under nBookmark
 SysMessagesCollection colSysMsg = new SysMessagesCollection(nBookmark, Eplan.EplApi.Base.MessageLevel.Error);
 SysMessagesEnumerator itSysMsg = colSysMsg.GetSysMsgEnumerator();
 ```
-
-See Also
-
-#### Reference
-
-[BaseException Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException.html)
-  
-[BaseException Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException_members.html)

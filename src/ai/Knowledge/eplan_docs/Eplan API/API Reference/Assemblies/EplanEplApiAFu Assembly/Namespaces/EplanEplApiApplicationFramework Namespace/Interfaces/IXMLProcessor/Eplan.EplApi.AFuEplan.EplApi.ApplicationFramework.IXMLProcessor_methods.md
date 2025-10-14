@@ -14,15 +14,3 @@ Public Methods
 | Method | [Import](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor~Import.html) | Conversion from sImportFile to sXmlFile. sXmlFile might be passed as "". In this case, the converter must set a file name. EContext may point to an EProgress object to support a progress bar. Returns true if successful. |
 | Method | [PostExport](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor~PostExport.html) | Is called after export has been completed. |
 | Method | [PostImport](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor~PostImport.html) | Is called after import has been completed. |
-
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[IXMLProcessor Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)
-  
-**XMLProcessor.html**

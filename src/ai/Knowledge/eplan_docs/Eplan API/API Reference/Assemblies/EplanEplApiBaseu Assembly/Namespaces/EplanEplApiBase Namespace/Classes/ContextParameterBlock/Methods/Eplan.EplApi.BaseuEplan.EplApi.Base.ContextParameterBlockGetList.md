@@ -22,12 +22,3 @@ List<Object^>^ GetList();
 
 the list of objects.
 
-
-
-See Also
-
-#### Reference
-
-[ContextParameterBlock Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ContextParameterBlock.html)
-  
-[ContextParameterBlock Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ContextParameterBlock_members.html)

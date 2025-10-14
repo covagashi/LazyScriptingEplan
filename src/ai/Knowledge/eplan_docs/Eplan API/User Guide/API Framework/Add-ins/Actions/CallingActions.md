@@ -117,8 +117,3 @@ End Function 'Execute
 
  Warning: When starting Eplan from the command line with an action, then no previously opened projects are opened at the beginning of the session.
 
-See Also
-
-#### API Miscellaneous
-
-[Command line parameters](Command line parameters.html)

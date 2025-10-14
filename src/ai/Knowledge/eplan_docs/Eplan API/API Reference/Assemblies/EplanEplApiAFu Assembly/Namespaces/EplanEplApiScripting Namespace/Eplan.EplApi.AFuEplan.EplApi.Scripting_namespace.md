@@ -11,8 +11,3 @@ Classes
 | Class | [DeclareUnregister](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareUnregister.html) | When a new script is unloaded from P8, this function is called before removing it. |
 | Class | [Start](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.Start.html) | Used to mark a function of a class in a [Scripts](Scripts.html). Once the script is run, this function is called. This function may also have [SimpleScriptWithParameters](SimpleScriptWithParameters.html). |
 
-See Also
-
-#### Reference
-
-[Eplan.EplApi.AFu Assembly](Eplan.EplApi.AFu.html)

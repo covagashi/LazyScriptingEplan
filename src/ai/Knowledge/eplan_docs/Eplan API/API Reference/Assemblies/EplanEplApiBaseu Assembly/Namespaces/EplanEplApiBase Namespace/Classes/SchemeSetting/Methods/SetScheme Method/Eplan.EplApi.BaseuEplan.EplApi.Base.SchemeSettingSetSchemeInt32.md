@@ -28,13 +28,3 @@ void SetScheme(
 :   Index of the requested scheme.
 
 
-
-See Also
-
-#### Reference
-
-[SchemeSetting Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting.html)
-  
-[SchemeSetting Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting_members.html)
-  
-[Overload List](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting~SetScheme.html)

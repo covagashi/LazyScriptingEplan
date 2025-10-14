@@ -22,12 +22,3 @@ String^ GetAsString();
 
 The contents of the multi-language string as a simple string (e.g. 'de\_DE@Winkelstahl;en\_US@Angular steel;')
 
-
-
-See Also
-
-#### Reference
-
-[MultiLangString Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString.html)
-  
-[MultiLangString Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString_members.html)

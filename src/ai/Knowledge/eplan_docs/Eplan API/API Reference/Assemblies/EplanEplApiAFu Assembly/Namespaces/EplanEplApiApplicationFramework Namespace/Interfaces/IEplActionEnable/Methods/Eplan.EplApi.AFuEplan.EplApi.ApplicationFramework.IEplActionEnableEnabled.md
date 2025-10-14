@@ -39,12 +39,3 @@ Remarks
 
 This function is called often and should work efficiently .
 
-
-
-See Also
-
-#### Reference
-
-[IEplActionEnable Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplActionEnable.html)
-  
-[IEplActionEnable Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplActionEnable_members.html)

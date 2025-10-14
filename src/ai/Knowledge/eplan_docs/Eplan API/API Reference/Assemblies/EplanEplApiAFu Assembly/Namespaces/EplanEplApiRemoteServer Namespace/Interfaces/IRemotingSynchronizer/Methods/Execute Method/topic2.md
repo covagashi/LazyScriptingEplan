@@ -28,14 +28,3 @@ _kResponse Execute(
 
 *pRemotingDataOut*
 
-
-
-See Also
-
-#### Reference
-
-[IRemotingSynchronizer Interface](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.IRemotingSynchronizer.html)
-  
-[IRemotingSynchronizer Members](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.IRemotingSynchronizer_members.html)
-  
-[Overload List](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.IRemotingSynchronizer~Execute.html)

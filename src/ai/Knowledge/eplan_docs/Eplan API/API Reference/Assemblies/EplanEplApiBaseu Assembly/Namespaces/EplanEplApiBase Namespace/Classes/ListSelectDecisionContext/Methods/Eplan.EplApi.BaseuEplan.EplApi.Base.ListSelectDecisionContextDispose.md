@@ -18,12 +18,3 @@ void Dispose();
 ```
 ```
 
-
-
-See Also
-
-#### Reference
-
-[ListSelectDecisionContext Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ListSelectDecisionContext.html)
-  
-[ListSelectDecisionContext Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ListSelectDecisionContext_members.html)

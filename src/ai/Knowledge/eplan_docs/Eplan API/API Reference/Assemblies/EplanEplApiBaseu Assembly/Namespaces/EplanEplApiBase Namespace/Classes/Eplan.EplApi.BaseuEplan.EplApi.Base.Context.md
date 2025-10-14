@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Context Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 
 
@@ -53,15 +53,3 @@ Public Methods
 | Public Method | [SetEContext](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~SetEContext.html) | For internal use only. |
 | Public Method | [SetStrings](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~SetStrings.html) | Sets the array filled with strings from the context. (Additional to the parameters) |
 
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[Context Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context_members.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)

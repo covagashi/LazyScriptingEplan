@@ -34,11 +34,11 @@ This topic describes how to use the API parts selection interface.
 
 To be able to use the API parts selection interface, you first have to enable and configure it. To do this, you open the Settings dialog in Eplan and select User > Management > Parts. In this dialog you create a new scheme and activate the API radio button.
 
-![](images/Setting_Partselection.gif)
+
 
 By clicking the ellipsis [...] button next to the API radio button, you can open a dialog with further settings for the API interface.
 
-![](images/API_PartSelection.gif)
+
 
 In this dialog you enter the name of an API action that is called by Eplan when the parts selection is started.
 
@@ -48,7 +48,7 @@ The following describes how to develop the action and set its parameters.
 
 Please create an action with the name that was set in Settings dialog. The best way is to use the Visual Studio wizard:
 
-![](images/API_PartSelectionAction.gif)
+
 
 ### c) Handling action parameters
 
@@ -76,7 +76,12 @@ In this way, it is possible to have an access to properties of a selected part, 
 
 | C# | Copy Code |
 | --- | --- |
-| ```  string sMode = ""; ctx.GetParameter("Modus", ref sMode); string sProp00 = "(int)Properties.Article.ARTICLE_DEPTH" + sSeparator + "1"; ctx.AddParameter(sProp00, "44.0"); ``` | |
+| ``` 
+ string sMode = "";
+ ctx.GetParameter("Modus", ref sMode);
+ string sProp00 = "(int)Properties.Article.ARTICLE_DEPTH" + sSeparator + "1";
+ ctx.AddParameter(sProp00, "44.0");
+ ``` | |
 
 ```
 
@@ -118,7 +123,82 @@ The following example shows an API parts selection action that displays the Fo
 
 | C# | Copy Code |
 | --- | --- |
-| ```  public class MyPartSelectionAction : IEplAction {     public bool Execute(ActionCallingContext oActionCallingContext)     {         // Object ID from which part selection is started         string sObjectId = "";         oActionCallingContext.GetParameter("ObjectId", ref sObjectId);         // Get Function object         Function oFunction = getFunction(sObjectId);         FormPartSelection frm = new FormPartSelection();         frm.Description = "";         frm.Typenumber = "";         frm.Partnumber = "new part";         // Start part selection dialog         if (frm.ShowDialog() == DialogResult.OK)         {             string sTypenumber = frm.Typenumber;             string sPartnumber = frm.Partnumber;             string sDescription = frm.Description;             // Count of parts             oActionCallingContext.addParameter("count", "1");             // Get separator between property and index             string sSeparator = "";             oActionCallingContext.GetParameter("Separator", ref sSeparator);             int prop;             int idx = 1;             string sProp;             // Set part number             prop = (int)Properties.Article.ARTICLE_PARTNR;             sProp = prop.ToString() + sSeparator + idx.ToString();             oActionCallingContext.AddParameter(sProp, sPartnumber);             // Set type number             prop = (int)Properties.Article.ARTICLE_TYPENR;             sProp = prop.ToString() + sSeparator + idx.ToString();             oActionCallingContext.AddParameter(sProp, sTypenumber);             // Set description 1             prop = (int)Properties.Article.ARTICLE_DESCR1;             sProp = prop.ToString() + sSeparator + idx.ToString();             oActionCallingContext.AddParameter(sProp, sDescription);             if ((oFunction != null))             {                string strArticleCharacteristics = (int)Properties.Article.ARTICLE_CHARACTERISTICS + sSeparator + "1";                ctx.AddParameter(strArticleCharacteristics, "5,5kW");      // Set characteristics to 5,5 kW             }         }         return true;     }     // Locate the function by its object ID         private Function getFunction(string sObjectId)         {             ProjectManager projectManager = new ProjectManager();             Project project = projectManager.CurrentProject;             DMObjectsFinder objectFinder = new DMObjectsFinder(project);             FunctionPropertyList functionPropertyList = new FunctionPropertyList();             functionPropertyList[Properties.StorableObject.PROPUSER_DBOBJECTID] = sObjectId;             FunctionsFilter functionsFilter = new FunctionsFilter();             functionsFilter.SetFilteredPropertyList(functionPropertyList);             Function[] aFunction = objectFinder.GetFunctions(functionsFilter);             if (aFunction.Length > 0)             {                 return aFunction[0];             }             return null;         }      public bool OnRegister(ref string Name, ref int Ordinal)     {         Name = "MyPartSelectionAction";         Ordinal = 20;         return true;     }     public MyPartSelectionAction()     {} } ``` | |
+| ``` 
+ public class MyPartSelectionAction : IEplAction
+ {
+     public bool Execute(ActionCallingContext oActionCallingContext)
+     {
+         // Object ID from which part selection is started
+         string sObjectId = "";
+         oActionCallingContext.GetParameter("ObjectId", ref sObjectId);
+         // Get Function object
+         Function oFunction = getFunction(sObjectId);
+         FormPartSelection frm = new FormPartSelection();
+         frm.Description = "";
+         frm.Typenumber = "";
+         frm.Partnumber = "new part";
+         // Start part selection dialog
+         if (frm.ShowDialog() == DialogResult.OK)
+         {
+             string sTypenumber = frm.Typenumber;
+             string sPartnumber = frm.Partnumber;
+             string sDescription = frm.Description;
+             // Count of parts
+             oActionCallingContext.addParameter("count", "1");
+             // Get separator between property and index
+             string sSeparator = "";
+             oActionCallingContext.GetParameter("Separator", ref sSeparator);
+             int prop;
+             int idx = 1;
+             string sProp;
+             // Set part number
+             prop = (int)Properties.Article.ARTICLE_PARTNR;
+             sProp = prop.ToString() + sSeparator + idx.ToString();
+             oActionCallingContext.AddParameter(sProp, sPartnumber);
+             // Set type number
+             prop = (int)Properties.Article.ARTICLE_TYPENR;
+             sProp = prop.ToString() + sSeparator + idx.ToString();
+             oActionCallingContext.AddParameter(sProp, sTypenumber);
+             // Set description 1
+             prop = (int)Properties.Article.ARTICLE_DESCR1;
+             sProp = prop.ToString() + sSeparator + idx.ToString();
+             oActionCallingContext.AddParameter(sProp, sDescription);
+             if ((oFunction != null))
+             {
+                string strArticleCharacteristics = (int)Properties.Article.ARTICLE_CHARACTERISTICS + sSeparator + "1";
+                ctx.AddParameter(strArticleCharacteristics, "5,5kW");      // Set characteristics to 5,5 kW
+             }
+         }
+         return true;
+     }
+     // Locate the function by its object ID
+         private Function getFunction(string sObjectId)
+         {
+             ProjectManager projectManager = new ProjectManager();
+             Project project = projectManager.CurrentProject;
+             DMObjectsFinder objectFinder = new DMObjectsFinder(project);
+             FunctionPropertyList functionPropertyList = new FunctionPropertyList();
+             functionPropertyList[Properties.StorableObject.PROPUSER_DBOBJECTID] = sObjectId;
+             FunctionsFilter functionsFilter = new FunctionsFilter();
+             functionsFilter.SetFilteredPropertyList(functionPropertyList);
+             Function[] aFunction = objectFinder.GetFunctions(functionsFilter);
+             if (aFunction.Length > 0)
+             {
+                 return aFunction[0];
+             }
+             return null;
+         }
+ 
+     public bool OnRegister(ref string Name, ref int Ordinal)
+     {
+         Name = "MyPartSelectionAction";
+         Ordinal = 20;
+         return true;
+     }
+     public MyPartSelectionAction()
+     {}
+ }
+ ``` | |
 
 ```
 

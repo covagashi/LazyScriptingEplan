@@ -6,12 +6,3 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [InternalString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString~InternalString.html) | Sets internal string representation with format validation. |
 
-[Top](#top)
-
-See Also
-
-#### Reference
-
-[MultiLangString Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString.html)
-  
-[Eplan.EplApi.Base Namespace](Eplan.EplApi.Baseu~Eplan.EplApi.Base_namespace.html)

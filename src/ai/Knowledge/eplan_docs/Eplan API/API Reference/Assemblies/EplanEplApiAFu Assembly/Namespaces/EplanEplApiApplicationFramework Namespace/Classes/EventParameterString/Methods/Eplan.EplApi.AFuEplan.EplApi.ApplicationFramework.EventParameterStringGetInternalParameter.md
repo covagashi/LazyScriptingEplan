@@ -22,12 +22,3 @@ virtual AfEventParameter GetInternalParameter();
 
 For internal use only.
 
-
-
-See Also
-
-#### Reference
-
-[EventParameterString Class](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString.html)
-  
-[EventParameterString Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString_members.html)

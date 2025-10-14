@@ -52,16 +52,3 @@ Public Methods
 |  | Name | Description |
 | --- | --- | --- |
 | Method | [Enabled](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplActionEnable~Enabled.html) | One action can be enabled or disabled. Return true when it is enabled. |
-
-[Top](#top)
-
-
-
-
-See Also
-
-#### Reference
-
-[IEplActionEnable Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplActionEnable_members.html)
-  
-[Eplan.EplApi.ApplicationFramework Namespace](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework_namespace.html)

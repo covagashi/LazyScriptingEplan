@@ -31,15 +31,3 @@ FileSelectDecisionContext(
 
 *eDefaultDecision*
 :   A default decision, this one is preselected in the dialog.
-
-
-
-See Also
-
-#### Reference
-
-[FileSelectDecisionContext Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext.html)
-  
-[FileSelectDecisionContext Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext_members.html)
-  
-[Overload List](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext~_ctor.html)
