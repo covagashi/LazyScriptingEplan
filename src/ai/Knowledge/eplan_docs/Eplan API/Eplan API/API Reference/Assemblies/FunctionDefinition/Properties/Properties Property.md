@@ -1,0 +1,45 @@
+# Properties Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionDefinition~Properties.html
+
+---
+
+.NET Property enabling access to P8 properties of the FunctionDefinition object.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public new FunctionDefinitionPropertyList Properties {get;}
+```
+```
+
+```
+```
+public:
+new property FunctionDefinitionPropertyList^ Properties {
+   FunctionDefinitionPropertyList^ get();
+}
+```
+```
+
+#### Property Value
+
+P8 properties of the FunctionDefinition.
+
+
+
+See Also
+
+#### Reference
+
+[FunctionDefinition Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionDefinition.html)
+  
+[FunctionDefinition Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionDefinition_members.html)
+  
+[FunctionDefinitionPropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionDefinitionPropertyList.html)
+  
+[FunctionDefinition Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionDefinition.html)

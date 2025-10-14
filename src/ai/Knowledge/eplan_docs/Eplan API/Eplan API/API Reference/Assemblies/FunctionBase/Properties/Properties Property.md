@@ -1,0 +1,64 @@
+# Properties Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBase~Properties.html
+
+---
+
+.NET Property enabling access to P8 properties of the FunctionBase object.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public new FunctionBasePropertyList Properties {get;}
+```
+```
+
+```
+```
+public:
+new property FunctionBasePropertyList^ Properties {
+   FunctionBasePropertyList^ get();
+}
+```
+```
+
+#### Property Value
+
+P8 properties of the FunctionBase.
+
+Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [ForbiddenOperationException](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ForbiddenOperationException.html) | Thrown when this property is used for [Eplan.EplApi.DataModel.EObjects.TerminalStrip](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.TerminalStrip.html) or [Eplan.EplApi.DataModel.EObjects.PlugStrip](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.PlugStrip.html) objects |
+
+Remarks
+
+Do NOT use this function for `TerminalStrip` and `PlugStrip` objects.
+
+Example
+
+- [C#](#i-tab-content-b525e891-8c09-4f54-b704-3866709e9860)
+
+```
+FunctionBase func;
+func.Properties[Properties.FunctionBase.DESIGNATION_PLANT] = "AP";
+func.Properties[Properties.FunctionBase.FUNC_COMMENT] = "that is a good function";
+string s = func.Properties[Properties.FunctionBase.FUNC_DEVICETAG_FULL];
+```
+
+See Also
+
+#### Reference
+
+[FunctionBase Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBase.html)
+  
+[FunctionBase Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBase_members.html)
+  
+[FunctionBasePropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBasePropertyList.html)
+  
+[FunctionBase Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBase.html)

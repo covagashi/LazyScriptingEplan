@@ -1,0 +1,35 @@
+# GetValidItemTypes Method
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Function3D~GetValidItemTypes.html
+
+---
+
+Returns an array of item types valid for this Function3D.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public ItemType[] GetValidItemTypes()
+```
+```
+
+```
+```
+public:
+array<ItemType>^ GetValidItemTypes();
+```
+```
+
+
+
+See Also
+
+#### Reference
+
+[Function3D Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Function3D.html)
+  
+[Function3D Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Function3D_members.html)

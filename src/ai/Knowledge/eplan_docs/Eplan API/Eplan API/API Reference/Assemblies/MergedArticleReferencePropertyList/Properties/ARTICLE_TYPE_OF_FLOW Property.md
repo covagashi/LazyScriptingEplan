@@ -1,0 +1,48 @@
+# ARTICLE_TYPE_OF_FLOW Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MergedArticleReferencePropertyList~ARTICLE_TYPE_OF_FLOW().html
+
+---
+
+Type of flow # 26219.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PropertyValue ARTICLE_TYPE_OF_FLOW {get; set;}
+```
+```
+
+```
+```
+public:
+property PropertyValue^ ARTICLE_TYPE_OF_FLOW {
+   PropertyValue^ get();
+   void set (    PropertyValue^ value);
+}
+```
+```
+
+#### Property Value
+
+Returns property value of type System.String.
+
+Remarks
+
+The way in which a medium (e.g., liquid or gas) flows through a system or component. The value can be specified as mass flow or volume flow.
+
+
+
+See Also
+
+#### Reference
+
+[MergedArticleReferencePropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MergedArticleReferencePropertyList.html)
+  
+[MergedArticleReferencePropertyList Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MergedArticleReferencePropertyList_members.html)
+  
+[Overload List](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MergedArticleReferencePropertyList~ARTICLE_TYPE_OF_FLOW.html)

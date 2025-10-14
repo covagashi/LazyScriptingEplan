@@ -1,0 +1,48 @@
+# DMDELETEDOBJECTINFO_PROJECTREVISION_NAME Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/topic198.html
+
+---
+
+Associated revision name # 36604.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PropertyValue DMDELETEDOBJECTINFO_PROJECTREVISION_NAME {get; set;}
+```
+```
+
+```
+```
+public:
+property PropertyValue^ DMDELETEDOBJECTINFO_PROJECTREVISION_NAME {
+   PropertyValue^ get();
+   void set (    PropertyValue^ value);
+}
+```
+```
+
+#### Property Value
+
+Returns property value of type System.String.
+
+Remarks
+
+Outputs the name of the associated project revision at the deletion marker for the deleted page.
+
+
+
+See Also
+
+#### Reference
+
+[DeletedObjectInfoPropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DeletedObjectInfoPropertyList.html)
+  
+[DeletedObjectInfoPropertyList Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DeletedObjectInfoPropertyList_members.html)
+  
+[Overload List](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DeletedObjectInfoPropertyList~DMDELETEDOBJECTINFO_PROJECTREVISION_NAME.html)

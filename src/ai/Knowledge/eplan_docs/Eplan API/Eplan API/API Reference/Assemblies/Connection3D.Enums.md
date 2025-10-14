@@ -1,0 +1,53 @@
+# Connection3D.Enums
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Connection3D+Enums.html
+
+---
+
+This class is used only as container for enumerations, like a namespace.
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   **Eplan.EplApi.DataModel.E3D.Connection3D.Enums**
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public class Connection3D.Enums
+```
+```
+
+```
+```
+public ref class Connection3D.Enums
+```
+```
+
+
+
+Public Constructors
+
+|  | Name | Description |
+| --- | --- | --- |
+| Public Constructor | [Connection3D.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Connection3D+Enums~_ctor.html) |  |
+
+[Top](#top)
+
+
+
+
+
+
+
+See Also
+
+#### Reference
+
+[Connection3D.Enums Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Connection3D+Enums_members.html)
+  
+[Eplan.EplApi.DataModel.E3D Namespace](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D_namespace.html)

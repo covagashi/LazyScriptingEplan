@@ -1,0 +1,48 @@
+# FUNCTION3D_ID_EEC_ONE Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList~FUNCTION3D_ID_EEC_ONE().html
+
+---
+
+Variable for placeable functions (EEC One) # 36041.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PropertyValue FUNCTION3D_ID_EEC_ONE {get; set;}
+```
+```
+
+```
+```
+public:
+property PropertyValue^ FUNCTION3D_ID_EEC_ONE {
+   PropertyValue^ get();
+   void set (    PropertyValue^ value);
+}
+```
+```
+
+#### Property Value
+
+Returns property value of type System.String.
+
+Remarks
+
+The property serves to identify 3D part placements in EEC One, so that specific other 3D part placements can be placed automatically on them during the automatic generation of a layout space.
+
+
+
+See Also
+
+#### Reference
+
+[Placement3DPropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList.html)
+  
+[Placement3DPropertyList Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList_members.html)
+  
+[Overload List](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList~FUNCTION3D_ID_EEC_ONE.html)

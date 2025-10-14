@@ -1,0 +1,56 @@
+# FUNC_LOGDEF_BRIDGECOUNT Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList~FUNC_LOGDEF_BRIDGECOUNT(Int32).html
+
+---
+
+Connection point logic: Number of saddle jumpers allowed # 20325.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PropertyValue FUNC_LOGDEF_BRIDGECOUNT( 
+   int index
+) {get; set;}
+```
+```
+
+```
+```
+public:
+property PropertyValue^ FUNC_LOGDEF_BRIDGECOUNT {
+   PropertyValue^ get(int index);
+   void set (int index, PropertyValue^ value);
+}
+```
+```
+
+#### Parameters
+
+*index*
+
+#### Property Value
+
+Returns property value of type System.Int64.
+
+Remarks
+
+Property is indexed. Possible indexes are from 1 to 1000.
+
+Number of possible saddle jumpers for terminals. Using the index, you can differentiate between up to 100 settings.
+
+
+
+See Also
+
+#### Reference
+
+[Placement3DPropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList.html)
+  
+[Placement3DPropertyList Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList_members.html)
+  
+[Overload List](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList~FUNC_LOGDEF_BRIDGECOUNT.html)

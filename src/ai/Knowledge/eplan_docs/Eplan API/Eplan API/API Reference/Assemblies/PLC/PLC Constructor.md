@@ -1,0 +1,35 @@
+# PLC Constructor
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.PLC~_ctor().html
+
+---
+
+Constructor
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PLC()
+```
+```
+
+```
+```
+public:
+PLC();
+```
+```
+
+
+
+See Also
+
+#### Reference
+
+[PLC Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.PLC.html)
+  
+[PLC Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.PLC_members.html)

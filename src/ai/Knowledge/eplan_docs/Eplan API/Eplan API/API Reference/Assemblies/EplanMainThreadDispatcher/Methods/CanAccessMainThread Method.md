@@ -1,0 +1,45 @@
+# CanAccessMainThread Method
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.Baseu~Eplan.EplApi.Base.Internal.EplanMainThreadDispatcher~CanAccessMainThread.html
+
+---
+
+Allows the user to access the main thread both synchronously and asynchronously.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public static bool CanAccessMainThread()
+```
+```
+
+```
+```
+public:
+static bool CanAccessMainThread();
+```
+```
+
+#### Return Value
+
+True then execution is possible.
+
+Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Eplan.EplApi.Base.BaseException](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException.html) | Thrown when no MainThreadDispatcher was set. |
+
+
+
+See Also
+
+#### Reference
+
+[EplanMainThreadDispatcher Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Internal.EplanMainThreadDispatcher.html)
+  
+[EplanMainThreadDispatcher Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Internal.EplanMainThreadDispatcher_members.html)

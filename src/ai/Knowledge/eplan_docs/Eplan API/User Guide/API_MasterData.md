@@ -1,1 +1,0 @@
-The API MasterData (Eplan.EplApi.MasterData) namespace provides functionality to access parts database items and symbol libraries.

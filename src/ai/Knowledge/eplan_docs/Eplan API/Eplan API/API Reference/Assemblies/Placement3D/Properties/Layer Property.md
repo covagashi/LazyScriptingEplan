@@ -1,0 +1,44 @@
+# Layer Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D~Layer.html
+
+---
+
+Returns the [Eplan.EplApi.DataModel.Graphics.GraphicalLayer](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayer.html) of the Placement3D.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public GraphicalLayer Layer {get; set;}
+```
+```
+
+```
+```
+public:
+property GraphicalLayer^ Layer {
+   GraphicalLayer^ get();
+   void set (    GraphicalLayer^ value);
+}
+```
+```
+
+#### Property Value
+
+Placement3D's [Eplan.EplApi.DataModel.Graphics.GraphicalLayer](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayer.html) or NULL if Placement3D doesn't have FunctionDefinition.
+
+
+
+See Also
+
+#### Reference
+
+[Placement3D Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D.html)
+  
+[Placement3D Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D_members.html)
+  
+[FunctionDefinition Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionDefinition.html)

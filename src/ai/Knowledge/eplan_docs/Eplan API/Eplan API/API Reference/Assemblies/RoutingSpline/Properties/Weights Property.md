@@ -1,0 +1,38 @@
+# Weights Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.RoutingSpline~Weights.html
+
+---
+
+Array of weights on nodes of spline.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public double[] Weights {get; set;}
+```
+```
+
+```
+```
+public:
+property array<double>^ Weights {
+   array<double>^ get();
+   void set (    array<double>^ value);
+}
+```
+```
+
+
+
+See Also
+
+#### Reference
+
+[RoutingSpline Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.RoutingSpline.html)
+  
+[RoutingSpline Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.RoutingSpline_members.html)

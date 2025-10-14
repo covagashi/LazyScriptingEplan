@@ -1,0 +1,35 @@
+# HyperLink Constructor
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.HyperLink~_ctor().html
+
+---
+
+Constructor. When object created with this constructor, its `create` method must be call.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public HyperLink()
+```
+```
+
+```
+```
+public:
+HyperLink();
+```
+```
+
+
+
+See Also
+
+#### Reference
+
+[HyperLink Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.HyperLink.html)
+  
+[HyperLink Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.HyperLink_members.html)

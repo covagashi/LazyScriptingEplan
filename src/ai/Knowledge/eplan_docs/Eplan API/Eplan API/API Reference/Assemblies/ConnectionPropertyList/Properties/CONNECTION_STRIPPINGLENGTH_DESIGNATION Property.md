@@ -1,0 +1,48 @@
+# CONNECTION_STRIPPINGLENGTH_DESIGNATION Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPropertyList~CONNECTION_STRIPPINGLENGTH_DESIGNATION().html
+
+---
+
+Stripping length target # 31056.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PropertyValue CONNECTION_STRIPPINGLENGTH_DESIGNATION {get; set;}
+```
+```
+
+```
+```
+public:
+property PropertyValue^ CONNECTION_STRIPPINGLENGTH_DESIGNATION {
+   PropertyValue^ get();
+   void set (    PropertyValue^ value);
+}
+```
+```
+
+#### Property Value
+
+Returns property value of type System.String.
+
+Remarks
+
+Here you specify the length of the connection insulation to be removed. This property is required for the transfer to packaging machines.
+
+
+
+See Also
+
+#### Reference
+
+[ConnectionPropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPropertyList.html)
+  
+[ConnectionPropertyList Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPropertyList_members.html)
+  
+[Overload List](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPropertyList~CONNECTION_STRIPPINGLENGTH_DESIGNATION.html)

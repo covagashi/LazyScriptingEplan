@@ -1,0 +1,40 @@
+# NumberOfRecords Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IPlaceHolder~NumberOfRecords.html
+
+---
+
+Count of records.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+int NumberOfRecords {get;}
+```
+```
+
+```
+```
+property int NumberOfRecords {
+   int get();
+}
+```
+```
+
+#### Property Value
+
+Count of records.
+
+
+
+See Also
+
+#### Reference
+
+[IPlaceHolder Interface](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IPlaceHolder.html)
+  
+[IPlaceHolder Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IPlaceHolder_members.html)

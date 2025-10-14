@@ -1,0 +1,41 @@
+# ParentFunction Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin~ParentFunction.html
+
+---
+
+Returns a function that this connection point belongs to.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public Function ParentFunction {get;}
+```
+```
+
+```
+```
+public:
+property Function^ ParentFunction {
+   Function^ get();
+}
+```
+```
+
+Remarks
+
+Returns `NULL` if this Pin object has been obtained from a FunctionDefinition object.
+
+
+
+See Also
+
+#### Reference
+
+[Pin Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin.html)
+  
+[Pin Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin_members.html)

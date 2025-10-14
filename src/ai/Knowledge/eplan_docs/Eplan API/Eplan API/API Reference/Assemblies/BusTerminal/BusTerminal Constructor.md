@@ -1,0 +1,35 @@
+# BusTerminal Constructor
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.BusTerminal~_ctor().html
+
+---
+
+Default constructor.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public BusTerminal()
+```
+```
+
+```
+```
+public:
+BusTerminal();
+```
+```
+
+
+
+See Also
+
+#### Reference
+
+[BusTerminal Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.BusTerminal.html)
+  
+[BusTerminal Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.BusTerminal_members.html)

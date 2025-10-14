@@ -1,0 +1,38 @@
+# GetOption Method
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor~GetOption.html
+
+---
+
+Returns a settings dialog for this processor. Dialog is only created, but not displayed!
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+IOptions GetOption()
+```
+```
+
+```
+```
+IOptions^ GetOption();
+```
+```
+
+#### Return Value
+
+Interface of the created dialog.
+
+
+
+See Also
+
+#### Reference
+
+[IXMLProcessor Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor.html)
+  
+[IXMLProcessor Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor_members.html)

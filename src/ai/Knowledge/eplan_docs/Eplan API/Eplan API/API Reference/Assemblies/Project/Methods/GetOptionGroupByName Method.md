@@ -1,0 +1,55 @@
+# GetOptionGroupByName Method
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project~GetOptionGroupByName.html
+
+---
+
+Method for finding [OptionGroup](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.OptionGroup.html) assigned to the `Project` with a given name.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public OptionGroup GetOptionGroupByName( 
+   string strName
+)
+```
+```
+
+```
+```
+public:
+OptionGroup^ GetOptionGroupByName( 
+   String^ strName
+)
+```
+```
+
+#### Parameters
+
+*strName*
+:   name of the OptionGroup
+
+#### Return Value
+
+[OptionGroup](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.OptionGroup.html) assigned to the `Project` with a given name.
+
+Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System.ArgumentNullException](#) | Thrown when `strName` is `null`. |
+| [System.ArgumentException](#) | Thrown when `strName` is `empty`. |
+
+
+
+See Also
+
+#### Reference
+
+[Project Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project.html)
+  
+[Project Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project_members.html)

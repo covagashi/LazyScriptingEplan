@@ -1,0 +1,49 @@
+# ArticleReferences Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project~ArticleReferences.html
+
+---
+
+Returns [ArticleReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference.html)s that are referenced by Project.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public virtual ArticleReference[] ArticleReferences {get;}
+```
+```
+
+```
+```
+public:
+virtual property array<ArticleReference^>^ ArticleReferences {
+   array<ArticleReference^>^ get();
+}
+```
+```
+
+#### Property Value
+
+ArticleReferences related with the Project
+
+Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Eplan.EplApi.Base.BaseException](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException.html) | Thrown when internal query for Projects throws exception |
+
+
+
+See Also
+
+#### Reference
+
+[Project Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project.html)
+  
+[Project Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project_members.html)
+  
+[ArticleReference Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference.html)

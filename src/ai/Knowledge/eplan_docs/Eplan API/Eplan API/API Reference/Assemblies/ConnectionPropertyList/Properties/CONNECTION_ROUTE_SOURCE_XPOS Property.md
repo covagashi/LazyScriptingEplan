@@ -1,0 +1,50 @@
+# CONNECTION_ROUTE_SOURCE_XPOS Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPropertyList~CONNECTION_ROUTE_SOURCE_XPOS().html
+
+---
+
+Routing track source: X coordinate # 31148.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PropertyValue CONNECTION_ROUTE_SOURCE_XPOS {get; set;}
+```
+```
+
+```
+```
+public:
+property PropertyValue^ CONNECTION_ROUTE_SOURCE_XPOS {
+   PropertyValue^ get();
+   void set (    PropertyValue^ value);
+}
+```
+```
+
+#### Property Value
+
+Returns property value of type System.Double.
+
+Remarks
+
+This property is read-only..
+
+X coordinate for the source of the routing track.
+
+
+
+See Also
+
+#### Reference
+
+[ConnectionPropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPropertyList.html)
+  
+[ConnectionPropertyList Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPropertyList_members.html)
+  
+[Overload List](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPropertyList~CONNECTION_ROUTE_SOURCE_XPOS.html)

@@ -1,0 +1,43 @@
+# HierarchyId Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Location~HierarchyId.html
+
+---
+
+Gets hierarchy level of location.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public Project.Hierarchy HierarchyId {get;}
+```
+```
+
+```
+```
+public:
+property Project.Hierarchy HierarchyId {
+   Project.Hierarchy get();
+}
+```
+```
+
+Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [ObjectNotCreatedException](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ObjectNotCreatedException.html) | Thrown when location is not created. |
+
+
+
+See Also
+
+#### Reference
+
+[Location Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Location.html)
+  
+[Location Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Location_members.html)

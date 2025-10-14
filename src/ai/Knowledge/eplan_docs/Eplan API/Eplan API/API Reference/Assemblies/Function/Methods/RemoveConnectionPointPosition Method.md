@@ -1,0 +1,53 @@
+# RemoveConnectionPointPosition Method
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function~RemoveConnectionPointPosition.html
+
+---
+
+Removes connection point data stored under given index.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public void RemoveConnectionPointPosition( 
+   short iIndex
+)
+```
+```
+
+```
+```
+public:
+void RemoveConnectionPointPosition( 
+   short iIndex
+)
+```
+```
+
+#### Parameters
+
+*iIndex*
+
+Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System.ArgumentException](#) | Thrown when `iIndex` value is less then `0`. |
+
+Remarks
+
+Index starts from 0.
+
+
+
+See Also
+
+#### Reference
+
+[Function Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function.html)
+  
+[Function Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function_members.html)

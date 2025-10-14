@@ -1,0 +1,41 @@
+# Id Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionDefinition~Id.html
+
+---
+
+FunctionDefinition's ID.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public short Id {get;}
+```
+```
+
+```
+```
+public:
+property short Id {
+   short get();
+}
+```
+```
+
+#### Property Value
+
+ID of FunctionDefinition as integer value.
+
+
+
+See Also
+
+#### Reference
+
+[FunctionDefinition Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionDefinition.html)
+  
+[FunctionDefinition Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionDefinition_members.html)

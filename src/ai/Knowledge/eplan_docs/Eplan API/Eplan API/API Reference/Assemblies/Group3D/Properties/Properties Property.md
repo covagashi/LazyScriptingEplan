@@ -1,0 +1,45 @@
+# Properties Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Group3D~Properties.html
+
+---
+
+.NET Property enabling access to P8 properties of the Group3D object.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public new Group3DPropertyList Properties {get;}
+```
+```
+
+```
+```
+public:
+new property Group3DPropertyList^ Properties {
+   Group3DPropertyList^ get();
+}
+```
+```
+
+#### Property Value
+
+P8 properties of the 3D group.
+
+
+
+See Also
+
+#### Reference
+
+[Group3D Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Group3D.html)
+  
+[Group3D Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Group3D_members.html)
+  
+[Group3DPropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Group3DPropertyList.html)
+  
+[Group3D Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Group3D.html)

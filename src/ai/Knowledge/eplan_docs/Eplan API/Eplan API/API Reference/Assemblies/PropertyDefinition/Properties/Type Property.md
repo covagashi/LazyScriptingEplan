@@ -1,0 +1,41 @@
+# Type Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition~Type.html
+
+---
+
+Returns information about the type of the property.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PropertyDefinition.PropertyType Type {get;}
+```
+```
+
+```
+```
+public:
+property PropertyDefinition.PropertyType Type {
+   PropertyDefinition.PropertyType get();
+}
+```
+```
+
+#### Property Value
+
+Type of the property
+
+
+
+See Also
+
+#### Reference
+
+[PropertyDefinition Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition.html)
+  
+[PropertyDefinition Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition_members.html)

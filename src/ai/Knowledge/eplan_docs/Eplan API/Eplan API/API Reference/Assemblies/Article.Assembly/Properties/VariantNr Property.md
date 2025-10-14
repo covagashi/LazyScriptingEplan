@@ -1,0 +1,41 @@
+# VariantNr Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article+Assembly~VariantNr.html
+
+---
+
+Returns variant number of the assembly.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public string VariantNr {get;}
+```
+```
+
+```
+```
+public:
+property String^ VariantNr {
+   String^ get();
+}
+```
+```
+
+#### Property Value
+
+Variant nr of the assembly article.
+
+
+
+See Also
+
+#### Reference
+
+[Article.Assembly Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article+Assembly.html)
+  
+[Article.Assembly Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article+Assembly_members.html)

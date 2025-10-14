@@ -1,0 +1,37 @@
+# Group Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement~Group.html
+
+---
+
+Returns a group that the Placement object belongs to. If the Placement object doesn't belong to any group, NULL is returned.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public virtual Group Group {get;}
+```
+```
+
+```
+```
+public:
+virtual property Group^ Group {
+   Group^ get();
+}
+```
+```
+
+
+
+See Also
+
+#### Reference
+
+[Placement Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement.html)
+  
+[Placement Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement_members.html)

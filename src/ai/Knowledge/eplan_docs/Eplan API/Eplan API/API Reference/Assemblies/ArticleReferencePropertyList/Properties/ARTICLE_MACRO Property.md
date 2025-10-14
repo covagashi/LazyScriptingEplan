@@ -1,0 +1,48 @@
+# ARTICLE_MACRO Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReferencePropertyList~ARTICLE_MACRO().html
+
+---
+
+Graphical macro # 22010.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PropertyValue ARTICLE_MACRO {get; set;}
+```
+```
+
+```
+```
+public:
+property PropertyValue^ ARTICLE_MACRO {
+   PropertyValue^ get();
+   void set (    PropertyValue^ value);
+}
+```
+```
+
+#### Property Value
+
+Returns property value of type System.String.
+
+Remarks
+
+3D macro that can be placed in the 3D mounting layout / in layout spaces. This macro can be stored at a part.
+
+
+
+See Also
+
+#### Reference
+
+[ArticleReferencePropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReferencePropertyList.html)
+  
+[ArticleReferencePropertyList Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReferencePropertyList_members.html)
+  
+[Overload List](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReferencePropertyList~ARTICLE_MACRO.html)

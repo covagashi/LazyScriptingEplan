@@ -1,0 +1,42 @@
+# MinCrossSectionAWG Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPointPosition~MinCrossSectionAWG.html
+
+---
+
+Minimum cross section AWG that can be connected to this connection point.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public string MinCrossSectionAWG {get; set;}
+```
+```
+
+```
+```
+public:
+property String^ MinCrossSectionAWG {
+   String^ get();
+   void set (    String^ value);
+}
+```
+```
+
+Remarks
+
+AWG stands for "American Wire Gauge" and designates the conductor cross-section of cables.
+
+
+
+See Also
+
+#### Reference
+
+[ConnectionPointPosition Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPointPosition.html)
+  
+[ConnectionPointPosition Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPointPosition_members.html)

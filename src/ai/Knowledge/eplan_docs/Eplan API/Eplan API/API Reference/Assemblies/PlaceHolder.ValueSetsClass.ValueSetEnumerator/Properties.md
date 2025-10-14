@@ -1,0 +1,24 @@
+# Properties
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass+ValueSetEnumerator_properties.html
+
+---
+
+For a list of all members of this type, see [PlaceHolder.ValueSetsClass.ValueSetEnumerator members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass+ValueSetEnumerator_members.html).
+
+Public Properties
+
+|  | Name | Description |
+| --- | --- | --- |
+| Public Property | [Current](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass+ValueSetEnumerator~Current.html) |  |
+| Public Property | [Current2](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass+ValueSetEnumerator~Current2.html) |  |
+
+[Top](#top)
+
+See Also
+
+#### Reference
+
+[PlaceHolder.ValueSetsClass.ValueSetEnumerator Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass+ValueSetEnumerator.html)
+  
+[Eplan.EplApi.DataModel.Graphics Namespace](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics_namespace.html)

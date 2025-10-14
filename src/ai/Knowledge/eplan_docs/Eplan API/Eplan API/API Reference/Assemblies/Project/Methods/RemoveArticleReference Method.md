@@ -1,0 +1,57 @@
+# RemoveArticleReference Method
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project~RemoveArticleReference.html
+
+---
+
+Removes the ArticleReference from the Project
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public virtual void RemoveArticleReference( 
+   ArticleReference artRef
+)
+```
+```
+
+```
+```
+public:
+virtual void RemoveArticleReference( 
+   ArticleReference^ artRef
+)
+```
+```
+
+#### Parameters
+
+*artRef*
+:   The articlereference to remove
+
+Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System.ArgumentNullException](#) | Thrown when `artRef` is `null`. |
+| [DataModelException](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DataModelException.html) | Thrown when the object in the articlereference is not this Project |
+
+Remarks
+
+The articlereference must belong to the Project.
+
+
+
+See Also
+
+#### Reference
+
+[Project Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project.html)
+  
+[Project Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project_members.html)
+  
+[ArticleReference Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference.html)

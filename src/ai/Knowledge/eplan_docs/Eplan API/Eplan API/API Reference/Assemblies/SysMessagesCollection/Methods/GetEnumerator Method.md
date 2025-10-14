@@ -1,0 +1,35 @@
+# GetEnumerator Method
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection~GetEnumerator.html
+
+---
+
+Returns an enumerator that can iterate through a collection.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public virtual IEnumerator GetEnumerator()
+```
+```
+
+```
+```
+public:
+virtual IEnumerator^ GetEnumerator();
+```
+```
+
+
+
+See Also
+
+#### Reference
+
+[SysMessagesCollection Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection.html)
+  
+[SysMessagesCollection Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection_members.html)

@@ -1,0 +1,37 @@
+# Designation Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin~Designation.html
+
+---
+
+Returns internal designation of this pin.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public string Designation {get;}
+```
+```
+
+```
+```
+public:
+property String^ Designation {
+   String^ get();
+}
+```
+```
+
+
+
+See Also
+
+#### Reference
+
+[Pin Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin.html)
+  
+[Pin Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin_members.html)

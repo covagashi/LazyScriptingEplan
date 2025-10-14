@@ -1,0 +1,45 @@
+# Properties.HyperLink
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Properties+HyperLink.html
+
+---
+
+Identificators of properties owned by HyperLink class.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public enum Properties.HyperLink : System.Enum
+```
+```
+
+```
+```
+public enum class Properties.HyperLink : public System.Enum
+```
+```
+
+Members
+
+| Member | Value | Description |
+| --- | --- | --- |
+| **DESCRIPTION** | 19305 | Description (Hyperlink) # 19305. |
+| **FILE** | 19304 | File / Document # 19304. |
+| **TEXT\_CONTENTS** | 19201 | Text contents # 19201. |
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   [System.ValueType](#)  
+      [System.Enum](#)  
+         **Eplan.EplApi.DataModel.Properties.HyperLink**
+
+See Also
+
+#### Reference
+
+[Eplan.EplApi.DataModel Namespace](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel_namespace.html)

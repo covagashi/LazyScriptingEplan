@@ -1,0 +1,46 @@
+# GetSourceMates(PlacementOptions) Method
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D~GetSourceMates(PlacementOptions).html
+
+---
+
+Get array of all source mates from this object. Placement options
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PointMate[] GetSourceMates( 
+   Mate.Enums.PlacementOptions ePlacementOptions
+)
+```
+```
+
+```
+```
+public:
+array<PointMate^>^ GetSourceMates( 
+   Mate.Enums.PlacementOptions ePlacementOptions
+)
+```
+```
+
+#### Parameters
+
+*ePlacementOptions*
+:   Placement options
+
+
+
+See Also
+
+#### Reference
+
+[Placement3D Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D.html)
+  
+[Placement3D Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D_members.html)
+  
+[Overload List](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D~GetSourceMates.html)

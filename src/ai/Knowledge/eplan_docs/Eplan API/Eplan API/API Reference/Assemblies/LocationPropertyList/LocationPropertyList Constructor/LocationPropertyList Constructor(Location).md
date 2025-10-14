@@ -1,0 +1,46 @@
+# LocationPropertyList Constructor(Location)
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LocationPropertyList~_ctor(Location).html
+
+---
+
+Should be used internal only
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public LocationPropertyList( 
+   Location obj
+)
+```
+```
+
+```
+```
+public:
+LocationPropertyList( 
+   Location^ obj
+)
+```
+```
+
+#### Parameters
+
+*obj*
+:   Location object whose properties will be affected.
+
+
+
+See Also
+
+#### Reference
+
+[LocationPropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LocationPropertyList.html)
+  
+[LocationPropertyList Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LocationPropertyList_members.html)
+  
+[Overload List](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LocationPropertyList~_ctor.html)

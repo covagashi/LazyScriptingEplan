@@ -1,0 +1,44 @@
+# InheritDrills Method
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.BusBar~InheritDrills.html
+
+---
+
+Inherit drills from this bended bus bar to the target plane of another bus bar.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public void InheritDrills( 
+   Plane pPlane
+)
+```
+```
+
+```
+```
+public:
+void InheritDrills( 
+   Plane^ pPlane
+)
+```
+```
+
+#### Parameters
+
+*pPlane*
+:   The target plane.
+
+
+
+See Also
+
+#### Reference
+
+[BusBar Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.BusBar.html)
+  
+[BusBar Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.BusBar_members.html)

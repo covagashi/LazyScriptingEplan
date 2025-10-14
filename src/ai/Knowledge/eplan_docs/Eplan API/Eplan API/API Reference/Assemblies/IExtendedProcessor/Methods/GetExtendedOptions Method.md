@@ -1,0 +1,47 @@
+# GetExtendedOptions Method
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IExtendedProcessor~GetExtendedOptions.html
+
+---
+
+Function for extended Options. Set the parameters in the context
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+bool GetExtendedOptions( 
+   Context oContext
+)
+```
+```
+
+```
+```
+bool GetExtendedOptions( 
+   Context^ oContext
+)
+```
+```
+
+#### Parameters
+
+*oContext*
+:   Context with parameters
+
+#### Return Value
+
+Returns true if successful.
+
+
+
+See Also
+
+#### Reference
+
+[IExtendedProcessor Interface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IExtendedProcessor.html)
+  
+[IExtendedProcessor Members](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IExtendedProcessor_members.html)

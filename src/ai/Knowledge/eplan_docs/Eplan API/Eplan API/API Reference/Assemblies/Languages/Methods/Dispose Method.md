@@ -1,0 +1,35 @@
+# Dispose Method
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.Baseu~Eplan.EplApi.Base.Languages~Dispose().html
+
+---
+
+Destructor for deterministic finalization of Languages object.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public void Dispose()
+```
+```
+
+```
+```
+public:
+void Dispose();
+```
+```
+
+
+
+See Also
+
+#### Reference
+
+[Languages Class](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Languages.html)
+  
+[Languages Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Languages_members.html)

@@ -1,0 +1,43 @@
+# Current Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.FunctionDefinitionEnumerator~Current.html
+
+---
+
+Gets the element in the collection at the current position of the enumerator.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public virtual object Current {get;}
+```
+```
+
+```
+```
+public:
+virtual property Object^ Current {
+   Object^ get();
+}
+```
+```
+
+Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [System.InvalidOperationException](#) | The enumerator is positioned before the first element of the collection or after the last element. |
+
+
+
+See Also
+
+#### Reference
+
+[FunctionDefinitionEnumerator Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.FunctionDefinitionEnumerator.html)
+  
+[FunctionDefinitionEnumerator Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.FunctionDefinitionEnumerator_members.html)

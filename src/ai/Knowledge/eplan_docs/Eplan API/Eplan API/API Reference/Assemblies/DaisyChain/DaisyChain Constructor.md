@@ -1,0 +1,35 @@
+# DaisyChain Constructor
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DaisyChain~_ctor().html
+
+---
+
+Default constructor.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public DaisyChain()
+```
+```
+
+```
+```
+public:
+DaisyChain();
+```
+```
+
+
+
+See Also
+
+#### Reference
+
+[DaisyChain Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DaisyChain.html)
+  
+[DaisyChain Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DaisyChain_members.html)

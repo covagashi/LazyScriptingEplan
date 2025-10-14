@@ -1,0 +1,49 @@
+# Size Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page~Size.html
+
+---
+
+Returns the exact size of the page, takes into account page scale. The size is calculated from center of border lines.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PointD Size {get;}
+```
+```
+
+```
+```
+public:
+property PointD Size {
+   PointD get();
+}
+```
+```
+
+#### Property Value
+
+Size of a page which is calculated from center of border lines.
+
+Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Eplan.EplApi.Base.BaseException](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException.html) | Thrown when a page has no frame. |
+
+
+
+See Also
+
+#### Reference
+
+[Page Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html)
+  
+[Page Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page_members.html)
+  
+[PointD Structure](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD.html)

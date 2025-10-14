@@ -1,0 +1,41 @@
+# GroupName Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionDefinition~GroupName.html
+
+---
+
+Name of the FunctionDefinition's Group.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public MultiLangString GroupName {get;}
+```
+```
+
+```
+```
+public:
+property MultiLangString^ GroupName {
+   MultiLangString^ get();
+}
+```
+```
+
+#### Property Value
+
+Name of the Group as [Eplan.EplApi.Base.MultiLangString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString.html).
+
+
+
+See Also
+
+#### Reference
+
+[FunctionDefinition Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionDefinition.html)
+  
+[FunctionDefinition Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionDefinition_members.html)

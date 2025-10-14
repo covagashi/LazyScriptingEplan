@@ -1,0 +1,46 @@
+# SymbolLibraryPropertyList Constructor(SymbolLibrary)
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.SymbolLibraryPropertyList~_ctor(SymbolLibrary).html
+
+---
+
+Should be used internal only
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public SymbolLibraryPropertyList( 
+   SymbolLibrary obj
+)
+```
+```
+
+```
+```
+public:
+SymbolLibraryPropertyList( 
+   SymbolLibrary^ obj
+)
+```
+```
+
+#### Parameters
+
+*obj*
+:   SymbolLibrary object whose properties will be affected.
+
+
+
+See Also
+
+#### Reference
+
+[SymbolLibraryPropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.SymbolLibraryPropertyList.html)
+  
+[SymbolLibraryPropertyList Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.SymbolLibraryPropertyList_members.html)
+  
+[Overload List](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.SymbolLibraryPropertyList~_ctor.html)

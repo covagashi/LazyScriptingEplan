@@ -1,0 +1,48 @@
+# SetTitle Method
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.Baseu~Eplan.EplApi.Base.IEplProgress~SetTitle.html
+
+---
+
+Set the Title of the progress window.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+void SetTitle( 
+   string strTitle,
+   bool bSetOnlyIfEmpty
+)
+```
+```
+
+```
+```
+void SetTitle( 
+   String^ strTitle,
+   bool bSetOnlyIfEmpty
+)
+```
+```
+
+#### Parameters
+
+*strTitle*
+:   The new title of the window.
+
+*bSetOnlyIfEmpty*
+:   Please, set only the title if not set before!
+
+
+
+See Also
+
+#### Reference
+
+[IEplProgress Interface](Eplan.EplApi.Baseu~Eplan.EplApi.Base.IEplProgress.html)
+  
+[IEplProgress Members](Eplan.EplApi.Baseu~Eplan.EplApi.Base.IEplProgress_members.html)

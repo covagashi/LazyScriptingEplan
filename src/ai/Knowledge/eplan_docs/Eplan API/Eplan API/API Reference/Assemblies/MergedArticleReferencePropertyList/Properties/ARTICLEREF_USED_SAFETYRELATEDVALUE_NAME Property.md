@@ -1,0 +1,50 @@
+# ARTICLEREF_USED_SAFETYRELATEDVALUE_NAME Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/topic342.html
+
+---
+
+Safety-related values: Use case in use (name) # 40346.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PropertyValue ARTICLEREF_USED_SAFETYRELATEDVALUE_NAME {get; set;}
+```
+```
+
+```
+```
+public:
+property PropertyValue^ ARTICLEREF_USED_SAFETYRELATEDVALUE_NAME {
+   PropertyValue^ get();
+   void set (    PropertyValue^ value);
+}
+```
+```
+
+#### Property Value
+
+Returns property value of type [Eplan.EplApi.Base.MultiLangString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString.html).
+
+Remarks
+
+This property is read-only..
+
+Indicates the use case that is used for the safety-related values of a part.
+
+
+
+See Also
+
+#### Reference
+
+[MergedArticleReferencePropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MergedArticleReferencePropertyList.html)
+  
+[MergedArticleReferencePropertyList Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MergedArticleReferencePropertyList_members.html)
+  
+[Overload List](topic1926.html)

@@ -1,0 +1,48 @@
+# FUNC_CABLE_STRIPPINGLENGTHDESTINATION Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionPropertyList~FUNC_CABLE_STRIPPINGLENGTHDESTINATION().html
+
+---
+
+Cable / Conduit: Target: Stripping length # 20082.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PropertyValue FUNC_CABLE_STRIPPINGLENGTHDESTINATION {get; set;}
+```
+```
+
+```
+```
+public:
+property PropertyValue^ FUNC_CABLE_STRIPPINGLENGTHDESTINATION {
+   PropertyValue^ get();
+   void set (    PropertyValue^ value);
+}
+```
+```
+
+#### Property Value
+
+Returns property value of type System.String.
+
+Remarks
+
+Here you specify the length of the connection insulation to be removed. This property is required for the transfer to packaging machines.
+
+
+
+See Also
+
+#### Reference
+
+[FunctionPropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionPropertyList.html)
+  
+[FunctionPropertyList Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionPropertyList_members.html)
+  
+[Overload List](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionPropertyList~FUNC_CABLE_STRIPPINGLENGTHDESTINATION.html)

@@ -1,0 +1,48 @@
+# ARTICLE_SAFETYRELATED_TMT1 Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MergedArticleReferencePropertyList~ARTICLE_SAFETYRELATED_TMT1().html
+
+---
+
+Safety-related values: TMT1 # 40332.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PropertyValue ARTICLE_SAFETYRELATED_TMT1 {get; set;}
+```
+```
+
+```
+```
+public:
+property PropertyValue^ ARTICLE_SAFETYRELATED_TMT1 {
+   PropertyValue^ get();
+   void set (    PropertyValue^ value);
+}
+```
+```
+
+#### Property Value
+
+Returns property value of type System.Double.
+
+Remarks
+
+Duration of use, Mission Time; proof-test interval.
+
+
+
+See Also
+
+#### Reference
+
+[MergedArticleReferencePropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MergedArticleReferencePropertyList.html)
+  
+[MergedArticleReferencePropertyList Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MergedArticleReferencePropertyList_members.html)
+  
+[Overload List](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MergedArticleReferencePropertyList~ARTICLE_SAFETYRELATED_TMT1.html)

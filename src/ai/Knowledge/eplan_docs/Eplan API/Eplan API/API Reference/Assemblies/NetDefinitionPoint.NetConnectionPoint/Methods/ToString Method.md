@@ -1,0 +1,39 @@
+# ToString Method
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.NetDefinitionPoint+NetConnectionPoint~ToString.html
+
+---
+
+Returns a string that represents the current object.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public override string ToString()
+```
+```
+
+```
+```
+public:
+String^ ToString(); override
+```
+```
+
+#### Return Value
+
+A string that represents the current object.
+
+
+
+See Also
+
+#### Reference
+
+[NetDefinitionPoint.NetConnectionPoint Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.NetDefinitionPoint+NetConnectionPoint.html)
+  
+[NetDefinitionPoint.NetConnectionPoint Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.NetDefinitionPoint+NetConnectionPoint_members.html)

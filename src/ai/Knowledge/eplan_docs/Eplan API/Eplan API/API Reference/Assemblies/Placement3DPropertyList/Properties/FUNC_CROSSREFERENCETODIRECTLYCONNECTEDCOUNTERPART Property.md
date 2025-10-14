@@ -1,0 +1,50 @@
+# FUNC_CROSSREFERENCETODIRECTLYCONNECTEDCOUNTERPART Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/topic621.html
+
+---
+
+Cross-reference to plug counterpiece # 20304.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PropertyValue FUNC_CROSSREFERENCETODIRECTLYCONNECTEDCOUNTERPART {get; set;}
+```
+```
+
+```
+```
+public:
+property PropertyValue^ FUNC_CROSSREFERENCETODIRECTLYCONNECTEDCOUNTERPART {
+   PropertyValue^ get();
+   void set (    PropertyValue^ value);
+}
+```
+```
+
+#### Property Value
+
+Returns property value of type System.String.
+
+Remarks
+
+This property is read-only..
+
+A cross-reference to the counterpart is displayed at the plug definition (i.e. the assigned plug definition representing the receptacle / coupling). For a combined representation of male and female pins in one function, no cross-reference is displayed. A cross-reference to the matching pin is displayed at the pins. If male and female pins have the same DT, only the position of the matching pin is displayed. For non-placed direct connections, the cross-reference shows the name and position of the connected counterpart.
+
+
+
+See Also
+
+#### Reference
+
+[Placement3DPropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList.html)
+  
+[Placement3DPropertyList Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList_members.html)
+  
+[Overload List](topic2055.html)

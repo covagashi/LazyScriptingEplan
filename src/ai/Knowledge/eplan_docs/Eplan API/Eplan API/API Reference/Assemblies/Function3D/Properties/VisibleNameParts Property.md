@@ -1,0 +1,42 @@
+# VisibleNameParts Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Function3D~VisibleNameParts.html
+
+---
+
+Returns visible name of the Function3D.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public virtual FunctionBasePropertyList VisibleNameParts {get; set;}
+```
+```
+
+```
+```
+public:
+virtual property FunctionBasePropertyList^ VisibleNameParts {
+   FunctionBasePropertyList^ get();
+   void set (    FunctionBasePropertyList^ value);
+}
+```
+```
+
+#### Property Value
+
+Visible name of the Function3D by FunctionBasePropertyList.
+
+
+
+See Also
+
+#### Reference
+
+[Function3D Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Function3D.html)
+  
+[Function3D Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Function3D_members.html)

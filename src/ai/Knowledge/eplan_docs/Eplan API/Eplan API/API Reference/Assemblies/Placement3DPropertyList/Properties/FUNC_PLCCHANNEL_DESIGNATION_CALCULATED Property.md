@@ -1,0 +1,48 @@
+# FUNC_PLCCHANNEL_DESIGNATION_CALCULATED Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList~FUNC_PLCCHANNEL_DESIGNATION_CALCULATED().html
+
+---
+
+Channel designation (determined) # 20436.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PropertyValue FUNC_PLCCHANNEL_DESIGNATION_CALCULATED {get; set;}
+```
+```
+
+```
+```
+public:
+property PropertyValue^ FUNC_PLCCHANNEL_DESIGNATION_CALCULATED {
+   PropertyValue^ get();
+   void set (    PropertyValue^ value);
+}
+```
+```
+
+#### Property Value
+
+Returns property value of type System.String.
+
+Remarks
+
+PLC channel designation for PLC connection points and channels. The channel designation can be manually or automatically assigned. A channel must be unique within a PLC card. For power supply connection points, the assignment is usually graphical.
+
+
+
+See Also
+
+#### Reference
+
+[Placement3DPropertyList Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList.html)
+  
+[Placement3DPropertyList Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList_members.html)
+  
+[Overload List](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList~FUNC_PLCCHANNEL_DESIGNATION_CALCULATED.html)

@@ -1,0 +1,48 @@
+# InternalMateContainer
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.InternalMateContainer.html
+
+---
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   [System.ValueType](#)  
+      **Eplan.EplApi.DataModel.E3D.InternalMateContainer**
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+[CLSCompliant(false)]
+[NativeCppClass()]
+public struct InternalMateContainer : System.ValueType
+```
+```
+
+```
+```
+[CLSCompliant(false)]
+[NativeCppClass()]
+public value class InternalMateContainer : public System.ValueType
+```
+```
+
+
+
+
+
+
+
+
+
+See Also
+
+#### Reference
+
+[InternalMateContainer Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.InternalMateContainer_members.html)
+  
+[Eplan.EplApi.DataModel.E3D Namespace](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D_namespace.html)

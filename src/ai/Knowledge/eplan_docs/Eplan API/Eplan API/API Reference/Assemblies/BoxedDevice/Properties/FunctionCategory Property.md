@@ -1,0 +1,47 @@
+# FunctionCategory Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.BoxedDevice~FunctionCategory.html
+
+---
+
+Returns the category of a Function.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public override FunctionCategory FunctionCategory {set;}
+```
+```
+
+```
+```
+public:
+property FunctionCategory FunctionCategory {
+   void set (    FunctionCategory value) override;
+}
+```
+```
+
+#### Property Value
+
+Function's category
+
+Exceptions
+
+| Exception | Description |
+| --- | --- |
+| [Eplan.EplApi.Base.BaseException](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException.html) | The category cannot be retrieved or set. |
+
+
+
+See Also
+
+#### Reference
+
+[BoxedDevice Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.BoxedDevice.html)
+  
+[BoxedDevice Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.BoxedDevice_members.html)

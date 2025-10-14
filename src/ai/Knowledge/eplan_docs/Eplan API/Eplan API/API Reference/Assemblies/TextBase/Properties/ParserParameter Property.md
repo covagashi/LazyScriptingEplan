@@ -1,0 +1,38 @@
+# ParserParameter Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextBase~ParserParameter.html
+
+---
+
+Set / Get Parameters of the text
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public ProjectParserParameter ParserParameter {get; set;}
+```
+```
+
+```
+```
+public:
+property ProjectParserParameter^ ParserParameter {
+   ProjectParserParameter^ get();
+   void set (    ProjectParserParameter^ value);
+}
+```
+```
+
+
+
+See Also
+
+#### Reference
+
+[TextBase Class](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextBase.html)
+  
+[TextBase Members](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextBase_members.html)
