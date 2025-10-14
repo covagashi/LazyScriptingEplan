@@ -2,9 +2,7 @@ You can use an Eplan API add-in to add new verifications (in GUI called "**check
 
 For a new verification, the add-in must  implement the  IVerification  interface.
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
+ ``` 
  public class NewVerification : Eplan.EplApi.EServices.Verification
  {
      private int m_iMessageId = 30;
@@ -104,17 +102,9 @@ For a new verification, the add-in must  implement the  IVerification  interf
          iOrdinal = 20;
      }
  }
- ``` | |
+ ``` 
 
-```
 
- 
-```
-
-```
-
- 
-```
 
 In order to simplify the creation of a verification, the Eplan API has some base classes that provide some service functions.
 
@@ -137,37 +127,28 @@ Please take into account that compared to 1.9 version, verifications inheriting 
 
 Verifications can be invoked from API or GUI in 3 modes:
 
-* **Online mode** â This is called when a change was done and the  UndoStep  was disposed:
+* **Online mode**  This is called when a change was done and the  UndoStep  was disposed:
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
+
+ ``` 
  using (UndoStep oUndo = new UndoManager().CreateUndoStep())
  {
      oFunction.Location = new PointD(oFunction.Location.X + 10.0, oFunction.Location.Y + 10.0);
  }
- ``` | |
-
-```
+ ``` 
 
 
-```
 
-* **Prevent errors mode** (restrictive mode) â This is similar to the online mode, but if  DoErrorMessage()  is called, the last  UndoStep  is automatically undone, so the last changes are reverted. For the "Prevent errors mode" you should set the following options in the  OnRegister  method of the verification:
+* **Prevent errors mode** (restrictive mode)  This is similar to the online mode, but if  DoErrorMessage()  is called, the last  UndoStep  is automatically undone, so the last changes are reverted. For the "Prevent errors mode" you should set the following options in the  OnRegister  method of the verification:
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
+
+ ``` 
  this.VerificationPermission = IVerification.Permission.RestrictivePermitted;
  this.VerificationState = IVerification.VerificationState.RestrictiveState;
- ``` | |
-
-```
+ ``` 
 
 
-```
-
-* **Offline mode** â This can be done using:
+* **Offline mode**  This can be done using:
   + the  check  action
   + the  Check  class (VerifyProject  and  VerifyPages  methods)
   + the Check project dialog for project verification and the Parts management dialog for parts verification

@@ -19,9 +19,8 @@ The settings database is organized in a tree structure: Particular branches refe
 
 Using the export functionality we can access their values, even those that are not visible in the Options > Settings dialog. The format of the file is  XML, and here is its XML scheme definition:
 
-|  | Copy Code |
-| --- | --- |
-| ``` 
+
+``` 
  <?xml version="1.0" encoding="utf-8"?>
  <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <xs:group name="levlSettingGroup">
@@ -201,37 +200,33 @@ Using the export functionality we can access their values, even those that are n
      </xs:complexType>
    </xs:element>
  </xs:schema>
- ``` | |
+ ``` 
 
-```
 
- 
-```
 
 Here is a simplified description of the settings file:
 
-* **name**  â The name of a setting that must be always unique within a setting node.
-* **Settings**  â This is the root node.
-* **CAT**  â Then there are 0-5 possible  CAT  nodes with the  name  attribute one of the following:  COMPANY,  PROJECT,  STATION,  USER,  INSTALL.
-* **MOD**  â Then there is a subnode  MOD, which is a kind of namespace for a setting.
-* **LEV**  â Then there are subnodes  LEV1  up to  LEV10  that specify a path to a leaf node.
-* **Setting**  â Next there is a leaf node  Setting  which stores the following data:
-  + **Val**  â The setting value in the  Val  node. There can be more such nodes, each of them is accessible by individual index parameter.
-  + **type**  â Defines the expected settings type.
-  + **range**  â The range of values
+* **name**   The name of a setting that must be always unique within a setting node.
+* **Settings**   This is the root node.
+* **CAT**   Then there are 0-5 possible  CAT  nodes with the  name  attribute one of the following:  COMPANY,  PROJECT,  STATION,  USER,  INSTALL.
+* **MOD**   Then there is a subnode  MOD, which is a kind of namespace for a setting.
+* **LEV**   Then there are subnodes  LEV1  up to  LEV10  that specify a path to a leaf node.
+* **Setting**   Next there is a leaf node  Setting  which stores the following data:
+  + **Val**   The setting value in the  Val  node. There can be more such nodes, each of them is accessible by individual index parameter.
+  + **type**   Defines the expected settings type.
+  + **range**   The range of values
     - ... does not concern Boolean data types
     - ... can consist of a token list for strings: (for example "arial/courier/tahoma")
     - ... can have a upper and lower bound for numbers in the format "from/to" (separated by slash): "1/10;20/100"
 
-### 
+
 
 ### Example of settings in XML format
 
 Here is an example of a simple user setting from the User > Display > Identifier branch:
 
-|  | Copy Code |
-| --- | --- |
-| ``` 
+
+ ``` 
  <?xml version="1.0" encoding="utf-8" ?>
  <Settings ver="2.4.1" format="2">
   <CAT name="USER">
@@ -242,13 +237,12 @@ Here is an example of a simple user setting from the User > Display > Identifier
    </MOD>
   </CAT>
  </Settings>
- ``` | |
+ ``` 
 
 Below is another example of workstation settings (Workstation > Graphical editing > Print):
 
-|  | Copy Code |
-| --- | --- |
-| ``` 
+
+ ``` 
  <?xml version="1.0" encoding="utf-8" ?>
  <Settings ver="2.4.1" format="2">
   <CAT name="STATION">
@@ -289,13 +283,12 @@ Below is another example of workstation settings (Workstation > Graphical editin
    </MOD>
   </CAT>
  </Settings>
- ``` | |
+``` 
 
 Here is example of indexed settings from Company > Graphical editing > Fonts.
 
-|  | Copy Code |
-| --- | --- |
-| ``` 
+
+``` 
  <?xml version="1.0" encoding="utf-8" ?>
  <Settings ver="2.4.3" format="2">
   <CAT name="COMPANY">
@@ -315,28 +308,28 @@ Here is example of indexed settings from Company > Graphical editing > Fonts.
    </MOD>
   </CAT>
  </Settings>
- ``` | |
+``` 
 
 ### API classes for working with settings
 
-Settings  â functions for reading, writing and creating User, Company or Workstation settings.
+Settings   functions for reading, writing and creating User, Company or Workstation settings.
 
-ProjectSettings  â functions for reading, writing and creating project dependant settings. Refer to the "See Also" section.
+ProjectSettings   functions for reading, writing and creating project dependant settings. Refer to the "See Also" section.
 
-SettingNode  â functions for managing the settings hierarchy (only User, Company or Workstation settings).
+SettingNode   functions for managing the settings hierarchy (only User, Company or Workstation settings).
 
-SchemeSetting  â functions for managing a settings group (scheme). Only for User, Company or Workstation settings.
+SchemeSetting   functions for managing a settings group (scheme). Only for User, Company or Workstation settings.
 
-ProjectSchemeSetting  â the same as  SchemeSetting  but for project settings.
+ProjectSchemeSetting   the same as  SchemeSetting  but for project settings.
 
-ProjectSettingNode  â the same as  SettingNode  but for project settings.
+ProjectSettingNode   the same as  SettingNode  but for project settings.
 
 ### Examples
 
 Adding, setting and getting settings:
 
-* [C#](#i-tab-content-CS)
-* [VB](#i-tab-content-VB)
+* [C#]
+
 
 ```
 
@@ -351,24 +344,11 @@ Adding, setting and getting settings:
          Console.Out.WriteLine("SetGetAddSetting not OK!");
 ```
 
-```
-
-Dim oSettings As New Settings()
-oSettings.AddStringSetting("USER.DEMOSETTINGS.TEST1", New String() {}, New String() {}, ISettings.CreationFlag.Insert)
-oSettings.SetStringSetting("USER.DEMOSETTINGS.TEST1", "Testwert1", 0)
-Dim strTest1 As [String] = oSettings.GetStringSetting("USER.DEMOSETTINGS.TEST1", 0)
-Dim dec As Decider = New Decider
-If strTest1 = "Testwert1" Then
-    dec.Decide(EnumDecisionType.eOkDecision,"SetGetAddSetting OK!","", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)
-Else
-    dec.Decide(EnumDecisionType.eOkDecision,"SetGetAddSetting not OK!","",EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);
-End If
-```
 
 Example of merging nodes using  SettingNode:
 
-* [C#](#i-tab-content-CS)
-* [VB](#i-tab-content-VB)
+* [C#]
+
 
 ```
 
@@ -395,30 +375,10 @@ Example of merging nodes using  SettingNode:
         oNew.SetStringSetting("ActionName", "TestAction1", 0);
 ```
 
-```
 
-Dim oSettingNode As New SettingNode("STATION.AF.Interfaces")
-Dim uiCountOfSettings As UInteger = oSettingNode.GetCountOfSettings()
-Dim uiCountOfNodes As UInteger = oSettingNode.GetCountOfNodes()
-Dim strColl1 As New StringCollection()
-oSettingNode.GetListOfAllSettings(strColl1, False)
-Dim strColl2 As New StringCollection()
-oSettingNode.GetListOfNodes(strColl2, False)
-Dim strColl3 As New StringCollection()
-oSettingNode.GetListOfSettings(strColl3, False)
-Dim oMuster As New SettingNode("STATION.AF.DefaultSetting.ActionInterface")
-Dim ownSetting As New SettingNode("STATION.AF.ActionTestInterfaces")
-Dim oNew As SettingNode = ownSetting.GetSubNode("TestNode1")
-oNew.MergeWithNode(oMuster)
-oNew.SetStringSetting("ModuleName", "Test1Value1", 0)
-oNew.SetBoolSetting("IsAddIn", True, 0)
-oNew.SetStringSetting("ActionName", "TestAction1", 0)
-```
+You can also combine settings into a group under a specific name  it is called a "scheme". It is possible to have multiple groups under different names, but with the same settings structure. One of the groups is an active scheme.
 
-You can also combine settings into a group under a specific name â it is called a "scheme". It is possible to have multiple groups under different names, but with the same settings structure. One of the groups is an active scheme.
-
-* [C#](#i-tab-content-CS)
-* [VB](#i-tab-content-VB)
+* [C#]
 
 ```
 
@@ -429,19 +389,10 @@ You can also combine settings into a group under a specific name â it is c
     int iExportFormatVersion = oSchemeSetting.GetNumericSetting("EXPORT.FORMAT_VERSION", 0);
 ```
 
-```
-
-Dim oSchemeSetting As New SchemeSetting()
-oSchemeSetting.Init("USER.DXF.SCHEMES")
-Dim iCount As Integer = oSchemeSetting.GetCount()
-Dim strName As [String] = oSchemeSetting.GetName()
-Dim iExportFormatVersion As Integer = oSchemeSetting.GetNumericSetting("EXPORT.FORMAT_VERSION", 0)
-```
-
 As mentioned above, each setting has a default value. To return a setting to its default value, you must get the setting's default value and set it to the setting:
 
-* [C#](#i-tab-content-CS)
-* [VB](#i-tab-content-VB)
+* [C#]
+
 
 ```
 
@@ -452,14 +403,6 @@ As mentioned above, each setting has a default value. To return a setting to 
     oSettings.SetStringSetting("USER.TrDMProject.Masterdata.Pathnames.Projects", sProjectsPath, 0);
 ```
 
-```
-
-Dim oSettings As New Settings()
-' Set the path for projects back to its default
-Dim sProjectsPath As String = ""
-sProjectsPath = oSettings.GetStringDefault("USER.TrDMProject.Masterdata.Pathnames.Projects", 0)
-oSettings.SetStringSetting("USER.TrDMProject.Masterdata.Pathnames.Projects", sProjectsPath, 0)
-```
 
 To make it easier for the API user to find a particular settings key, the settings dialog provides a hidden feature. If you set the Boolean setting  USER.EnfMVC.ContextMenuSetting.ShowExtended  to "true", you will get an additional context menu item in the settings dialog that shows you the path of the selected setting.
 

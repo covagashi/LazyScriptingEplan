@@ -6,7 +6,7 @@ The following steps must be perfomed to use it in an API program:
 
 Each labeling scheme now contains a property, where you can set an action name:
 
-![](images/Label_Settings_Action.jpg)
+
 
 If an action with this name is registered in Eplan, it is called during label generation.
 
@@ -16,11 +16,11 @@ The action is called from the template with the following parameters:
 
 Parameters:
 
-project  â Input parameter; value: ID of a project
+project   Input parameter; value: ID of a project
 
-mode  â Input parameter; value: "ModifyObjectList"
+mode   Input parameter; value: "ModifyObjectList"
 
-objects  â Input / output parameter; value: IDs of objects that will be evaluated separated by semicolon
+objects   Input / output parameter; value: IDs of objects that will be evaluated separated by semicolon
 
 This list can be modified (but not the objects themselves!). You can add or remove object IDs from the list or change their order in the list.
 
@@ -28,13 +28,13 @@ This list can be modified (but not the objects themselves!). You can add or remo
 
 You can now add an action to a label:
 
-![](images/Label_Label_Action.jpg)
+
 
 This action will be called, when the label is created. The action is called with the following parameters:
 
-objects â Input parameter; value: main object for the line (can be more than one).
+objects  Input parameter; value: main object for the line (can be more than one).
 
-ActionCallingContext.SetStrings()  â Output parameter; call  SetStrings()  of the calling context to set the result text. More than one result text will generate new lines.
+ActionCallingContext.SetStrings()   Output parameter; call  SetStrings()  of the calling context to set the result text. More than one result text will generate new lines.
 
 Please set only one string in the string array you pass to  SetStrings().
 

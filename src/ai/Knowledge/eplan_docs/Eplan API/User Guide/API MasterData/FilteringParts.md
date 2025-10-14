@@ -1,6 +1,6 @@
 The following example shows how to filter the parts database using the  MDObjectFilter()  class:
 
-* [C#](#i-tab-content-64e7d839-1c8f-473e-ab4c-fd84a8e150a6)
+* [C#]
 
 ```
 
@@ -16,7 +16,7 @@ using (MDPartsDatabase partsDatabase = new MDPartsManagement().OpenDatabase())
 
 Filtering the parts database using a  Linq  query:
 
-* [C#](#i-tab-content-24dc2efc-462e-4d55-ad5a-b4c159bdef3f)
+* [C#]
 
 ```
 

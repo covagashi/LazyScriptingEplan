@@ -1,6 +1,6 @@
 The following example shows how to work with parts in the parts database:
 
-* [C#](#i-tab-content-2953e87d-a42e-4720-ae04-be76746b44fb)
+* [C#]
 
 ```
 
@@ -50,7 +50,7 @@ These operations are also available for  AccessoryPlacement,  ConnectionInfoPo
 
 For example, to add or remove  AccessortList  use:
 
-* [C#](#i-tab-content-db838397-11b5-4f7a-82fb-4ded0b23bfad)
+* [C#]
 
 ```
 

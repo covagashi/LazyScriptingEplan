@@ -1,4 +1,4 @@
-This topic describes the automatic actions for the Eplan command line â we also call them "**command line actions**". In contrast to a normal ribbon action, an automatic action does a complete task without any user interaction. It will show no dialogs.
+This topic describes the automatic actions for the Eplan command line  we also call them "**command line actions**". In contrast to a normal ribbon action, an automatic action does a complete task without any user interaction. It will show no dialogs.
 
 ### How do automatic actions work?
 
@@ -6,7 +6,6 @@ A command line action first checks, whether all parameters passed to it are vali
 
 A command line action has either the complete or a subset of the functionality of the respective  HEServices  class. The following figure shows the principle:
 
-![](images/AutoAction.jpg)
 
 These are some of the available command line actions:
 

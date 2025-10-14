@@ -10,8 +10,8 @@ The  DrawingService  class also provides the possibility to influence the app
 
 The following example creates a preview of a macro. The first code snippet shows the creation of the display list:
 
-* [C#](#i-tab-content-CS)
-* [VB](#i-tab-content-VB)
+* [C#]
+
 
 ```
 
@@ -38,29 +38,10 @@ if (!(gProject == null))
 }
 ```
 
-```
-
-If oDs Is Nothing Then
-   oDs = New Eplan.EplApi.HEServices.DrawingService
-End If
-If Not gProject Is Nothing Then
-   Try
-      oDs.DrawConnections = True
-      oDs.MacroPreview = True
-      oDs.CreateDisplayList(strObj, "", 0, gProject)
-   Catch ex As System.Exception
-      Dim dec As Decider = New Decider
-      dec.Decide(EnumDecisionType.eOkDecision, "Can't create display list:" & vbCrLf & ex.Message, "", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)
-   End Try
-   'raise the Paint event
-   oForm.Picture1.Invalidate()
-End If
-```
-
  The next piece of source code shows drawing the display list in the  Paint  method of a picture box:
 
-* [C#](#i-tab-content-CS)
-* [VB](#i-tab-content-VB)
+* [C#]
+
 
 ```
 
@@ -76,19 +57,6 @@ private void Picture1_Paint(object sender, System.Windows.Forms.PaintEventArgs e
 }
 ```
 
-```
-
-Private Sub Picture1_Paint(ByVal sender As Object, ByVal e As System.Windows.Forms.PaintEventArgs) Handles Picture1.Paint
-    If Not m_DS Is Nothing Then
-        Try
-            m_DS.DrawDisplayList(e)
-        Catch ex As System.Exception
-            Dim dec As Decider = New Decider
-            dec.Decide(EnumDecisionType.eOkDecision, "Can't draw display list:" & vbCrLf & ex.Message, "", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)
-        End Try
-    End If
-End Sub
-```
 
 ### 
 
@@ -98,13 +66,13 @@ To draw more complex images, it may be necessary to set the resolution and a vi
 
 A viewport is a polygon that represents a part of a page that will be rendered:
 
-![](images/viewport.png)
+
 
 This can be done using the  SetViewport  method. The coordinates should be passed in the graphical coordinate system.
 
 If the given dimensions are not proportional to the drawing area, they are automatically adjusted to keep the aspect ratio:
 
-* [C#](#i-tab-content-24586b06-0aa8-4a75-b468-494121461af1)
+* [C#]
 
 ```
 
@@ -113,7 +81,7 @@ If the given dimensions are not proportional to the drawing area, they are autom
 
 In case of 3D drawings, it is also necessary to set the image size, otherwise its quality may be worse than in the Eplan GED:
 
-* [C#](#i-tab-content-f1d2f1cc-d522-41c4-83b1-2014f2db5e14)
+* [C#]
 
 ```
 

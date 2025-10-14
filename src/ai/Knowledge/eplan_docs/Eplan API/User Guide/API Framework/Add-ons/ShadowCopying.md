@@ -14,7 +14,7 @@ For add-ons, the **entire  bin  directory** of the add-on with its subdirector
 
 Example:
 
-![](images/shadow_copying_addons.png)
+
 
 This means that all files (\*.dll  and  \*.exe) and all  bin  subdirectories (language subdirectories, etc.) are also copied. This is done when Eplan is started and an add-on is registered or when an add-on is registered manually from the Add-ons dialog.
 

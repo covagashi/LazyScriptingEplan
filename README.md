@@ -299,9 +299,7 @@ def your_custom_tool(param: str) -> str:
 
 ---
 
-## 📄 License
 
-[Add your license here]
 
 ---
 

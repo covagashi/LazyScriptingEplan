@@ -6,8 +6,8 @@ Most importantly, you can get any set of objects selected from any focused (non-
 
 The following example shows how to access the selection.
 
-* [C#](#i-tab-content-CS)
-* [VB](#i-tab-content-VB)
+* [C#]
+
 
 ```
 
@@ -27,22 +27,4 @@ else
             Console.WriteLine(" StorableObject: " + so.ToString());
     }
 }
-```
-
-```
-
-Dim selectionSet As New SelectionSet()
-Dim storableObjects As StorableObject() = selectionSet.Selection
-If storableObjects.Length = 0 Then
-   Console.WriteLine("No current selection!")
-Else
-   Dim so As StorableObject
-   For Each so In  storableObjects
-      If TypeOf so Is Function Then
-         Console.WriteLine((" StorableObject is a function: " + CType(so, Function).Name))
-      Else
-         Console.WriteLine((" StorableObject: " + so.ToString()))
-      End If
-   Next so
-End If
 ```

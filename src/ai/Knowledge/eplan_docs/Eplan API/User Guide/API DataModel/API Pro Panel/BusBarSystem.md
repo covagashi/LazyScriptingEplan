@@ -2,7 +2,7 @@ BusBarSystem  class represent "Busbar system" items in Pro Panel.
 
 ### 
 
-* [C#](#i-tab-content-fb671f88-b18f-41a0-8344-e50d8cfc933a)
+* [C#]
 
 ```
 
@@ -25,4 +25,3 @@ oBusBarSystem.Create(oProject, article, variant, numberOfHolders, length);
 oBusBarSystem.Parent = copperBundle;
 ```
 
-![](images/ProPanelAPI/BusBarSystem.jpg)

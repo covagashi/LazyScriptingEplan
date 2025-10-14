@@ -1,6 +1,5 @@
 As with other master data, all the information about parts that is required to work independently with a project is stored in the project itself. There are always two parts databases (redundant data management): the central parts database for all projects and the project internal parts database, which only contains parts placed into the project. The central parts database (system parts) can be either an Eplan database (\*.alk) or an SQL database. The following image represents this situation:
 
-![](images/Parts1.svg)
 
 Within a project, the parts from the parts project database are referenced, i.e. a part that is used 10 times â by a  Function, a  Connection, or as a project part by the project itself - is stored only once, and is referenced 10 times in the project (via the part number). Parts data can therefore be easily changed or synchronized via the central parts database.
 
@@ -18,11 +17,14 @@ To fill an  Article  with properties of the master data, please use the explic
 
 The following example shows how to add and reference an  Article  in Project, Function and Connection:
 
-| C# | Copy Code |
-| --- | --- |
-| ```      Article oArticle = new Article();     oArticle.Create(oProject, "KUKA.KR30-3", "1");            // An empty Article is created in a Project     bool bResult = oArticle.LoadFromMasterdata();             // Article is filled with data from system parts database      oProject.AddArticleReference("KUKA.KR30-3", "1", 1);      // Reference to the Article is created on a Project     oFunction.AddArticleReference("KUKA.KR30-3", "1", 1);     // Reference to the Article is created on a Function     oConnection.AddArticleReference("KUKA.KR30-3", "1", 1);   // Reference to the Article is created on a Connection ``` | |
 
-```
+ ``` 
+     Article oArticle = new Article();
+     oArticle.Create(oProject, "KUKA.KR30-3", "1");            // An empty Article is created in a Project
+     bool bResult = oArticle.LoadFromMasterdata();             // Article is filled with data from system parts database
+ 
+     oProject.AddArticleReference("KUKA.KR30-3", "1", 1);      // Reference to the Article is created on a Project
+     oFunction.AddArticleReference("KUKA.KR30-3", "1", 1);     // Reference to the Article is created on a Function
+     oConnection.AddArticleReference("KUKA.KR30-3", "1", 1);   // Reference to the Article is created on a Connection
+ ``` 
 
-
-```

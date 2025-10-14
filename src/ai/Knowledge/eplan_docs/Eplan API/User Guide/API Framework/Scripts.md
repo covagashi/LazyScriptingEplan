@@ -2,7 +2,7 @@ You can run scripts in Eplan without having licensed the Eplan API. Scripts are 
 
 For scripting, go to the ribbon item File > Extras > Interfaces. You will find the category Scripts.
 
-![](images/ScriptMenu.png)
+
 
 After calling File > Extras > Interfaces > Scripts > Run, a file dialog appears and a script file to execute can be selected.
 

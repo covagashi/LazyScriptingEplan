@@ -18,9 +18,8 @@ Please note that interactions work only in the context of the currently open pa
 
 The Eplan API enables programmers to create their own custom interactions.
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
+
+ ``` 
  public class DeleteTerminalsInteraction : Interaction
  {
     public override RequestCode OnStart(InteractionContext pContext)
@@ -68,12 +67,9 @@ The Eplan API enables programmers to create their own custom interactions.
     State m_state;
     Terminal[] m_Terminals;
  }
- ``` | |
+ ``` 
 
-```
 
-    
-```
 
 To add an interaction to Eplan, it must be included in an API add-in or add-on. The interaction is registered under the name of its class when the API add-in containing it is loaded.
 
@@ -87,9 +83,8 @@ as the name of the new interaction,  NameOfBaseInteraction  as the name of t
 
 The following example shows how to create a new interaction derived from a standard symbol insertion interaction:
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
+
+ ``` 
      [Interaction(Name = "DerivedSymbolInsertInteraction", NameOfBaseInteraction = "XEGedIaInsertSymRef", Ordinal = 50)]
      class DerivedSymbolInsertInteraction : InsertInteraction
      {
@@ -114,7 +109,7 @@ The following example shows how to create a new interaction derived from a stand
              }
          }
      }
- ``` | |
+ ``` 
 
 ### Overriding default interactions
 

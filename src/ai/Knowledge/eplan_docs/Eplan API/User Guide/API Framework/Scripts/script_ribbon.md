@@ -1,6 +1,6 @@
 A script can add one or more items to the Elpan ribbon. The convenient place to add these items is a function with  [DeclareRegister]  attribute, then the items are registered until the script is unloaded:
 
-* [C#](#i-tab-content-e608ccad-9848-44b6-8cf7-005725ad0a56)
+* [C#]
 
 ```
 
@@ -44,8 +44,8 @@ Please mind that users may start Eplan in QUIET mode using  W3u.exe /Quiet  or
 
 The following example shows a script, which registers an action and a ribbon command.
 
-* [C#](#i-tab-content-CS)
-* [VB](#i-tab-content-VB)
+* [C#]
+
 
 ```
 
@@ -75,32 +75,6 @@ public class ButtonWithAction
 }
 ```
 
-```
-
-Public Class ButtonWithAction
-
-   <DeclareAction("HelloWorldAction")>  _
-   Public Sub MyFunctionAsAction()
-      Dim dec As Decider = New Decider
-      dec.Decide(EnumDecisionType.eOkDecision, "Hello World!", "HelloWorldAction title", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)
-      Return
-   End Sub 'MyFunctionAsAction
-
-   <DeclareRegister()>  _
-   Public Sub registerButtonWithAction()
-      Dim ribbonBar As New Eplan.EplApi.Gui.RibbonBar()
-      ribbonBar.AddCommand("MyMenuText", "HelloWorldAction", 2)
-   End Sub 'registerButtonWithAction
-
-   <DeclareUnregister()>  _
-   Public Sub unRegisterButtonWithAction()
-      Dim ribbonBar As New Eplan.EplApi.Gui.RibbonBar()
-      ribbonBar.RemoveCommand("HelloWorldAction")
-   End Sub 'unRegisterButtonWithAction
-
-
-End Class 'ButtonWithAction
-```
 
 The  [DeclareRegister]  attribute calls the function  buttonWithAction()  when the script is loaded. The function creates a new ribbon command "MyMenuText" and binds the action "HelloWorldAction" to it.
 
@@ -111,7 +85,7 @@ When loading or unloading a script in which many ribbon items (tabs, command gr
 First, create a new RibbonBar object using the constructor that takes the boolean  executeApplyAfterChanges  parameter and set this parameter to "true".  
 Then, add all of your custom tabs, command groups and commands to this RibbonBar object, as in the following example:
 
-* [C#](#i-tab-content-b27fff78-54c8-470f-b475-91110773d30a)
+* [C#]
 
 ```
 

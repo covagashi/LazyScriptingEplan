@@ -14,9 +14,3 @@ An add-in is an assembly, written in one of the .NET Framework programming langu
 
 Add-in assemblies should be named like  <YourCompanyName>.EplAddin.<NameOfTheProject>.dll.   
 The add-in and all its references should be stored in a separate folder.
-
-See Also
-
-#### Development environment
-
-[Development environment](DevelopmentEnvironment.html)

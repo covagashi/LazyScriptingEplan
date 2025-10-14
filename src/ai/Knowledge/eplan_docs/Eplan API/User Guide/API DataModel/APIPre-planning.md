@@ -12,7 +12,6 @@ The Eplan API now provides full access to pre-planning data. The following ex
 
 Pre-Planning related objects are stored in the  Eplan.EplApi.DataModel.Planning  namespace. Here is an UML class diagram that shows their inheritance hierarchy:
 
-![]()
 
 ### Migration of PPE API to Preplanning
 

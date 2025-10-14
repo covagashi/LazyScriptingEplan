@@ -19,8 +19,7 @@ There are also navigational properties with a one-to-one relationship, like  Pa
 
 The following code snippet shows how to loop over the functions on a page and get the name of the function:
 
-* [C#](#i-tab-content-CS)
-* [VB](#i-tab-content-VB)
+* [C#]
 
 ```
 
@@ -34,27 +33,11 @@ foreach(Function oF in arrFuncs)
 }
 ```
 
-```
-
-' Get an array with all functions on the page
-Dim arrFuncs As Function() = oPage.Functions
-' Loop over the functions and get their names
-Dim oF As Function
-For Each oF In  arrFuncs
-   Dim sName As String = oF.Name
-   ' Do something with the Name
-Next
-```
-
-```
-
- 
-```
 
 You can even filter these lists before getting them. The following example sets a filter to get only the functions that have the function category "PLUG".
 
-* [C#](#i-tab-content-CS)
-* [VB](#i-tab-content-VB)
+* [C#]
+
 
 ```
 
@@ -70,19 +53,6 @@ foreach(Function oF in arrFuncs)
 }
 ```
 
-```
-
-' Set filter category to "PLUG"
-oPage.Filter.resetFilter()
-oPage.Filter.Category = Function.Enums.Category.PLUG
-' Get all functions filtered by category=PLUG
-Dim arrFuncs As Function() = oPage.Functions
-Dim oF As Function
-For Each oF In  arrFuncs
-   Dim sPlugName As String = oF.Name
-   ' Do something with the Name
-Next
-```
 
 Please mind that using navigation properties in order to set properties of an object in a nested way (e.g.  oRectangle.Pen.ColorId = 5) will not work. In the example you need to first get the  Pen  object from the rectangle and then change the color ID and afterwards set the changed  Pen  object back to the  Rectangle  class.
 
@@ -90,8 +60,8 @@ Please mind that using navigation properties in order to set properties of an ob
 
 The  DMObjectsFinder  object is always initialized with a project. Starting with the project, it can get nearly any list of objects of a given type. Before getting the lists, they can be filtered by different means like a distinct set of properties. The following example gets all functions with a given device tag ("name"):
 
-* [C#](#i-tab-content-CS)
-* [VB](#i-tab-content-VB)
+* [C#]
+
 
 ```
 
@@ -110,36 +80,14 @@ foreach(Function oF in arrFuncs)
 }
 ```
 
-```
-
-Dim strFuncName As String = "=AP+PT1-X4"
-' Initialize the DMObjectsFinder with a project
-Dim oFinder As New DMObjectsFinder(m_oProject)
-Dim oFunctionsFilter As New FunctionsFilter()
-oFunctionsFilter.ExactNameMatching = True
-oFunctionsFilter.Name = strFuncName
-' Get function with given name from project
-Dim arrFuncs As Function() = oFinder.GetFunctions(oFunctionsFilter)
-
-Dim oF As Function
-For Each oF In  arrFuncs
-   Console.Out.WriteLine("Function name: '{0}'", oF.Name)
-Next oF
-```
-
-```
-
- 
-```
-
 ### Search class
 
 The  Eplan.EplApi.HEServices.Search  class offers another way for finding objects in a project. The class corresponds to the dialogs Find > Find... and Find > Show Results... in the GUI of Eplan. As in this dialogs, you have two result lists to store your search results.
 
 Using this class, you can search for any string in a specified range of objects. The following example demonstrates the usage of the  Search  class.
 
-* [C#](#i-tab-content-CS)
-* [VB](#i-tab-content-VB)
+* [C#]
+
 
 ```
 
@@ -168,23 +116,4 @@ else
     oSearch.Project(oProject, Name);
 }
 StorableObject[] oResults = oSearch.GetAllSearchDBEntries(oProject);
-```
-
-```
-
-Dim oSearch As Search = New Search
-oSearch.SearchDatabaseNr = 0
-oSearch.ClearSearchDB(oProject, 0)
-oSearch(Search.Settings.AllProperties) = True
-oSearch(Search.Settings.CaseSensitive) = False
-oSearch(Search.Settings.DeviceTag) = True
-oSearch(Search.Settings.LogicPages) = True
-oSearch(Search.Settings.GraphicPages) = False
-oSearch(Search.Settings.EvalutionPages) = False
-oSearch(Search.Settings.NotPlaced) = False
-oSearch(Search.Settings.WholeTexts) = False
-oSearch(Search.Settings.PageData) = True
-oSearch(Search.Settings.ProjectData) = True
-oSearch.Project(oProject, txtSearch.Text)
-Dim oFoundObjects As StorableObject() = oSearch.GetAllSearchDBEntries(oProject, 0)
 ```

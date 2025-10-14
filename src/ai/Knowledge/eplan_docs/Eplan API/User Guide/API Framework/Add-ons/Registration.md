@@ -2,13 +2,13 @@
 
 Start Eplan now. In ribbon item File > Extras > Interfaces you will find the category Add-ons > Manage.
 
-![](images/Addons_files/image004.jpg)
+
 
 *Figure 1: Ribbon option Add-ons*
 
-After clicking on Manage, a dialog â as shown below â will appear. By pressing the button ![](images/Addons_files/image005.png) you can select the  install.xml  file from the  CFG  directory.
+After clicking on Manage, a dialog  as shown below  will appear. By pressing the button you can select the  install.xml  file from the  CFG  directory.
 
-![](images/Addons_files/image006.jpg)
+
 
 *Figure 2: Manual registration of an add-on*
 
@@ -16,9 +16,8 @@ The add-on now appears in the add-on list. To register it, you have to check the
 
 ### Registration of an add-on via an action
 
-It is also possible to register an add-on via an action call. This is based on automatic actions for the Eplan command line functionalities â also called "command line actions".
+It is also possible to register an add-on via an action call. This is based on automatic actions for the Eplan command line functionalities  also called "command line actions".
 
-![](images/Addons_files/image003.gif)Tip:
 
 For further information about "[Automatic actions](AutomaticActions.html)" see our API Help.
 
@@ -30,7 +29,7 @@ For the proper use of that command line action, it is necessary to pass further 
 | Path | The path where the add-on is located |
 | InstallFile | The complete path to the  install.xml |
 
-![](images/Addons_files/image007.gif)Example:
+Example:
 
 Registering Add-ons:
 
@@ -46,11 +45,11 @@ There are two ways to initiate the automatic registration of an add-on when Epla
 
 ### Automatic registration with registry settings
 
-In the Registry Editor â see figure 3 â all Eplan installation can be found at:
+In the Registry Editor  see figure 3  all Eplan installation can be found at:
 
 HKEY\_LOCAL\_MACHINE / SOFTWARE / EPLAN / EPLAN W3
 
-![](images/Addons_files/image008.jpg)
+
 
 *Figure 3: Automatic registration with registry settings in the Registry Editor*
 
@@ -68,9 +67,9 @@ Autoreg: When this flag is "TRUE", the add-on can register automatically.
 
 XMLPath: The path to  install.xml  of the add-on.
 
-After double clicking on  Autoreg, a dialog â as shown below â will appear.
+After double clicking on  Autoreg, a dialog  as shown below  will appear.
 
-![](images/Addons_files/image009.png)
+
 
 *Figure 4: Value editor*
 
@@ -80,13 +79,13 @@ Now you can set the value for the automatic registration to "TRUE" or "FALSE".
 
 Start Eplan now. Select the ribbon item File and select the option Settingsâ¦.
 
-![](images/Addons_files/image010.png)
+
 
 *Figure 5: Option Settings...*
 
-After clicking on Settings..., the settings service dialog â as shown below â will appear. By navigating to Company > Management > Add-ons you can then register a server path to Eplan.
+After clicking on Settings..., the settings service dialog  as shown below  will appear. By navigating to Company > Management > Add-ons you can then register a server path to Eplan.
 
-![](images/Addons_files/image011.jpg)
+
 
 *Figure 6: Settings: Add-ons*
 

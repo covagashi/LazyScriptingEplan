@@ -2,7 +2,7 @@ Eplan expects system errors to be handled by exceptions. For this resason, the i
 
 The  fixMessage()  function of the exception adds the message to the Eplan system messages.
 
-* [C#](#i-tab-content-CS)
+* [C#]
 
 
 ```

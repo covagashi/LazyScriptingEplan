@@ -2,7 +2,7 @@ You can influence the parts import process from the Eplan Data Portal by changin
 
 The following example uses a custom add-in to show the part path in a message box before importing from the Data Portal using the  EDataPreImportAction:
 
-* [C#](#i-tab-content-9beb5ea7-9b38-4f19-b12e-1e533a30f9c0)
+* [C#]
 
 ```
 

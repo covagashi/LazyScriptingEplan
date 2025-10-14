@@ -6,17 +6,32 @@ Please take into account that API locking only wraps P8 locking techniques. For 
 
 ### What can be locked "automatically"?
 
-* **All project data** â This can be done by getting the project from the  SelectionSet  (in add-ins) or by opening it via the  ProjectManager. This depends on the  LockProjectByDefault  property, which is set to "true" by default. Also getting the selected project by the  HeServices.SelectionSet.GetCurrentProject  method locks the project (and its data) completely. Please note that read-only access is still possible from other P8 instances.
-* **Exclusive project locking** â This is done by setting the  USER.TrDMProject.OperationMode.OpenProjectsExclusive  setting to "true" before opening the project. As mentioned above, some project-wide operations require such an exclusive lock of a project, where it can be used by only one single P8 instance.
-* **Selected elements** â This is possible by setting the  SelectionSet.LockSelectionByDefault  property  to "true". By default, the option is enabled (set to "true"), so when getting selected items of a project, they can be changed in the API without setting this property.
+* **All project data**  This can be done by getting the project from the  SelectionSet  (in add-ins) or by opening it via the  ProjectManager. This depends on the  LockProjectByDefault  property, which is set to "true" by default. Also getting the selected project by the  HeServices.SelectionSet.GetCurrentProject  method locks the project (and its data) completely. Please note that read-only access is still possible from other P8 instances.
+* **Exclusive project locking**  This is done by setting the  USER.TrDMProject.OperationMode.OpenProjectsExclusive  setting to "true" before opening the project. As mentioned above, some project-wide operations require such an exclusive lock of a project, where it can be used by only one single P8 instance.
+* **Selected elements**  This is possible by setting the  SelectionSet.LockSelectionByDefault  property  to "true". By default, the option is enabled (set to "true"), so when getting selected items of a project, they can be changed in the API without setting this property.
 
 ### SafetyPoint
 
 The  SafetyPoint  class provides automatic locking of data model objects. The mechanism is enabled from the time a  SafetyPoint  object is created until it is distroyed, so it is recommended to use it with the  using  keyword:
 
-| C# | Copy Code |
-| --- | --- |
-| ```  var project = new ProjectManager {LockProjectByDefault = false}.OpenProject(@"$(MD_PROJECTS)\EPLAN-DEMO.elk"); // View placement '8' (on page =EB3+ETM/4) ViewPlacement viewPlacement8 = project .Pages[42] .AllFirstLevelPlacements .OfType<ViewPlacement>() .FirstOrDefault(item => item.Properties.DMG_VIEWPLACEMENT_DESIGNATION.ToString() == "8"); using (SafetyPoint safetyPoint = SafetyPoint.Create()) {                    Console.WriteLine(viewPlacement8.IsLocked);     // False     viewPlacement8.Scale = 44.44;                   // Set another scale     Console.WriteLine(viewPlacement8.IsLocked);     // True                       safetyPoint.Commit();                           // Necessary, otherwise changes are rolled back } Console.WriteLine(viewPlacement8.IsLocked);         // Again false ``` | |
+
+ ``` 
+ var project = new ProjectManager {LockProjectByDefault = false}.OpenProject(@"$(MD_PROJECTS)\EPLAN-DEMO.elk");
+ // View placement '8' (on page =EB3+ETM/4)
+ ViewPlacement viewPlacement8 = project
+ .Pages[42]
+ .AllFirstLevelPlacements
+ .OfType<ViewPlacement>()
+ .FirstOrDefault(item => item.Properties.DMG_VIEWPLACEMENT_DESIGNATION.ToString() == "8");
+ using (SafetyPoint safetyPoint = SafetyPoint.Create())
+ {               
+     Console.WriteLine(viewPlacement8.IsLocked);     // False
+     viewPlacement8.Scale = 44.44;                   // Set another scale
+     Console.WriteLine(viewPlacement8.IsLocked);     // True                  
+     safetyPoint.Commit();                           // Necessary, otherwise changes are rolled back
+ }
+ Console.WriteLine(viewPlacement8.IsLocked);         // Again false
+ ``` 
 
 "Automatic" means that they are locked internally before any change is made and unlocked after  SafetyPoint  is disposed of. This way is recommended when you need to lock as little as possible and it is not clear which objects need to be locked to perform a change. After the SafetyPoint block, please call the  Commit  method, otherwise the changes will be rolled back.
 
@@ -24,11 +39,15 @@ The  SafetyPoint  class provides automatic locking of data model objects. The 
 
 A  LockingStep  is an object used to automatically unlock API resources (such as projects, functions, etc). There are 2 ways to create this object:
 
-* **Explicitly** â Must be done in modeless dialog boxes and in offline API applications:
+* **Explicitly**  Must be done in modeless dialog boxes and in offline API applications:
 
-| C# | Copy Code |
-| --- | --- |
-| ```  using(LockingStep oLockingStep = new LockingStep()) {    .... } ``` | |
+
+ ``` 
+ using(LockingStep oLockingStep = new LockingStep())
+ {
+    ....
+ }
+ ``` 
 
 When there is necessary access to some resources and the LockingStep is not created, an exception will be thrown (NoLockingStepException).
 
@@ -42,13 +61,13 @@ In rare cases, however, it may be necessary to switch off  LockingStep  creati
 
 In addition to the automatic locking mechanism, it is also possible to call locking methods directly on the required objects. This low-level type of locking can be used concurrently with "automatic" locking or as the only locking.
 
-* **Locking single StorableObject** â This is done by calling  LockObject  on the required object. Please note that only properties directly connected with objects can be locked this way (such as internal / normal properties, sub-functions or sub-placements are excluded).
+* **Locking single StorableObject**  This is done by calling  LockObject  on the required object. Please note that only properties directly connected with objects can be locked this way (such as internal / normal properties, sub-functions or sub-placements are excluded).
 
-* **Locking all placements of a page in exclusive mode** â This can be done by calling  Page::LockAllObjects. Please consider that it is different than calling  Page::LockObject, which locks only properties of a page.
+* **Locking all placements of a page in exclusive mode**  This can be done by calling  Page::LockAllObjects. Please consider that it is different than calling  Page::LockObject, which locks only properties of a page.
 
-* **Locking all objects of a project** â This can be done with  Project::LockAllObjects.
+* **Locking all objects of a project**  This can be done with  Project::LockAllObjects.
 
-* **Locking all objects of a device** â This is done with  Function::LockDevice. Calling this method also locks all functions placed on the same page as functions of a device.
+* **Locking all objects of a device**  This is done with  Function::LockDevice. Calling this method also locks all functions placed on the same page as functions of a device.
 
 ### Guideline to Locking of data model objects
 

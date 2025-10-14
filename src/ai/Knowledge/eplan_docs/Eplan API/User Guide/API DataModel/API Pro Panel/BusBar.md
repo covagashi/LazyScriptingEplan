@@ -2,7 +2,7 @@ The  BusBar  class represents "Busbar (bending)" items in Pro Panel.
 
 BusBar  object using an article with a graphical macro.
 
-* [C#](#i-tab-content-31955c4d-15af-4727-a6cb-0968ff602223)
+* [C#]
 
 ```
 
@@ -21,13 +21,13 @@ var variant = "1";
 BusBar.Create(copperBundle, article, variant);
 ```
 
-![](images/ProPanelAPI/BusBar_Connector.jpg)
+
 
   
 
 BusBar  object with more parameters, e.g. bending radius and a path to a  \*.fp1  file containing copper form.
 
-* [C#](#i-tab-content-19682cf1-9b81-4768-9248-72e0e1b9214a)
+* [C#]
 
 ```
 
@@ -49,11 +49,11 @@ var listOfAdditionalObjects = new List<Placement3D>();
 BusBar.Create(oProject, article, variant, fp1Path, bendingRadius, copperBundle, listOfAdditionalObjects);
 ```
 
-![](images/ProPanelAPI/BusBar_RIT.jpg)
+
 
 BusBar with flat bendings set by API
 
-* [C#](#i-tab-content-55de2e85-9f84-41a5-b2fa-3288c7573b19)
+* [C#]
 
 ```
 
@@ -79,7 +79,7 @@ BusBar with flat bendings set by API
 
 BusBar with edgewise bendings set by API
 
-* [C#](#i-tab-content-2b2dd77e-a76f-40b9-be7d-745164d80c24)
+* [C#]
 
 ```
 

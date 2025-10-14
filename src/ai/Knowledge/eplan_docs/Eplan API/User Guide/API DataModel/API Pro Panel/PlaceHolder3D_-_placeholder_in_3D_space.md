@@ -2,9 +2,8 @@ A new placeholder object has been created in EPLAN Pro Panel. A corresponding cl
 
 The methods are similar to those of the standard  PlaceHolder:
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
+
+ ``` 
  PlaceHolder3D oNewPlaceHolder3D = new PlaceHolder3D();
  oNewPlaceHolder3D.Create(m_oTestInstallationSpace);
  oNewPlaceHolder3D.Name = "016PlaceHolder3DService_Test008";
@@ -24,5 +23,5 @@ The methods are similar to those of the standard  PlaceHolder:
  oNewPlaceHolder3D.set_Value("Record1", "Test123_de", "Wert 1");
  oNewPlaceHolder3D.set_Value("Record2", "Test123_de", "Wert 2");
  oNewPlaceHolder3D.ApplyRecord("Record1");
- ``` | |
+ ``` 
 

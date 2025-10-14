@@ -6,15 +6,17 @@ To create a project, use the  CreateProject  method. It takes two parameters, 
 
 The following example shows how to create a project.
 
-| C# | Copy Code |
-| --- | --- |
-| ```  Project oProject = new ProjectManager().CreateProject("$(MD_PROJECTS)\\Example_003.elk", "$(MD_TEMPLATES)\\IEC_bas003.zw9"); ``` | |
+
+ ``` 
+ Project oProject = new ProjectManager().CreateProject("$(MD_PROJECTS)\\Example_003.elk", "$(MD_TEMPLATES)\\IEC_bas003.zw9");
+ ``` 
 
 To open a project, use the  OpenProject  method. Its only parameter is the full name and path of the project link file.
 
-| C# | Copy Code |
-| --- | --- |
-| ```  Project oProject = new ProjectManager().OpenProject("$(MD_PROJECTS)\\EPLAN_Sample_Project.elk"); ``` | |
+
+ ``` 
+ Project oProject = new ProjectManager().OpenProject("$(MD_PROJECTS)\\EPLAN_Sample_Project.elk");
+ ``` 
 
 ### Remarks
 

@@ -9,11 +9,11 @@ The ribbon is divided into tabs and these tabs into command groups and commands
 
 All ribbon related classes are stored in the  Eplan.EplApi.Gui  namespace. They correspond to the types of ribbon items from the GUI:
 
-![](images/userinterface_ribbon_structure_ls_en_US_new.png)
+
 
 Here is an example of listing ribbon items (tabs, command groups and commands):
 
-* [C#](#i-tab-content-365e6b2e-8660-4752-a6a5-05da4a3dde80)
+* [C#]
 
 ```
 
@@ -44,7 +44,6 @@ Please keep it in mind that some tabs are context sensitive, i.e they are open o
 
 The old menu and toolbars are no longer accessible. The equivalent of the old menu point / toolbar button is now the ribbon command:
 
-![](images/RibbonCommand.jpg)
 
 In the API, commands can be created in following places:
 
@@ -93,7 +92,7 @@ Furthermore, below examples present also how to use custom icons, which can be a
 
 Adding standard icons
 
-* [C#](#i-tab-content-edcbfd9d-ac7e-4e5a-8a6a-1bcd81284414)
+* [C#]
 
 ```
 
@@ -117,8 +116,7 @@ commandGroup.AddCommand("Button6", "action6", new RibbonIcon(181));
 
 Adding custom icons
 
-* [C#](#i-tab-content-256b1684-619f-4397-9fa6-68b6c6298c67)
-
+* [C#]
 ```
 
 // Adding new custom icons to a command action using the path to the file
@@ -159,7 +157,6 @@ commandGroup.AddCommand("Button13", "action13", ribbonIcon);
 
 The above examples result in this RibbonBar:
 
-![](images/RibbonIcons.jpg)
 
 **RibbonCommandInfo**
 
@@ -171,7 +168,7 @@ The multilanguage properties are used over the non-multilanguage properties if t
 
 The IndexButtonPosition is used to specify the position in a  RibbonCommandGroup.
 
-* [C#](#i-tab-content-5e2549ca-5553-4c25-8f82-82e1f77c330d)
+* [C#]
 
 ```
 
@@ -187,7 +184,7 @@ It is possible to add existing Eplan ribbon command actions to a custom  Comman
 
 The corresponding internal icon is automatically added to the action.
 
-* [C#](#i-tab-content-f04fc3ce-802e-4c39-b84b-a97617c33915)
+* [C#]
 
 ```
 
@@ -200,7 +197,7 @@ var commandAction = commandGroup.AddCommandWithId(commandId);
 
 To find the correct  Command.ID  value for the command, you can check the description log in the Eplan Diagnostics dialog after calling this action from the ribbon (to show the Diagnostics Dialog press [Ctrl] + [VK\_OEM\_5]. [VK\_OEM\_5] corresponds to the [^] key on a German keyboard or to the [\] on a United States 101 keyboard.):
 
-![](images/MenuID_DiagnosticTool.PNG)
+
 
 **SVG Icons limitations**
 

@@ -4,8 +4,8 @@ In order to create an  Action  object, you need to know the action by its name
 
 To pass and evaluate action parameters, you need the  ActionCallingContext  class:
 
-* [C#](#i-tab-content-CS)
-* [VB](#i-tab-content-VB)
+* [C#]
+
 
 ```
 
@@ -27,22 +27,6 @@ if (oAction != null)
 }
 ```
 
-```
-
-Dim strAction As String = "TestAction"
-Dim oAMnr As New ActionManager()
-Dim oAction As Action = oAMnr.FindAction(strAction)
-Dim dec As Decider = New Decider
-If Not (oAction Is Nothing) Then
-   Dim ctx As New ActionCallingContext()
-   Dim bRet As Boolean = oAction.Execute(ctx)
-   If bRet Then
-      dec.Decide(EnumDecisionType.eOkDecision, "The Action " + strAction + " ended successfully!", "", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)              
-   Else
-      dec.Decide(EnumDecisionType.eOkDecision, "The Action " + strAction + " ended with errors!", "", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)
-   End If
-End If
-```
 
 To find out which action is linked to which ribbon button, you can evaluate the  onActionStart.String.\*  event. Alternatively, after clicking the ribbon button, press [Ctrl] + [VK\_OEM\_5] to show the Diagnostics Dialog. [VK\_OEM\_5] corresponds to the [^] key on a German keyboard or to the [\] on a United States 101 keyboard.
 
@@ -85,8 +69,8 @@ Any command line parameter after the action name is passed as parameter to the
 
 EPLAN.EXE /Variant:"Electric P8" action /Param1:value1 /Param2:value2 /Param3:value3 
 
-* [C#](#i-tab-content-CS)
-* [VB](#i-tab-content-VB)
+* [C#]
+
 
 ```
 
@@ -102,18 +86,6 @@ public bool Execute(ActionCallingContext ctx )
 }
 ```
 
-```
-
-Public Function Execute(ctx As ActionCallingContext) As Boolean Implements IEplAction
-   Dim strParamValue1 As String = Nothing
-   ctx.GetParameter("Param1", strParamValue1)
-   Dim strParamValue2 As String = Nothing
-   ctx.GetParameter("Param2", strParamValue2)
-   Dim strParamValue3 As String = Nothing
-   ctx.GetParameter("Param3", strParamValue3)
-   Return True
-End Function 'Execute
-```
 
  Warning: When starting Eplan from the command line with an action, then no previously opened projects are opened at the beginning of the session.
 

@@ -20,9 +20,8 @@ In order to use it, the check run must be registered / loaded in Eplan. It can
 
 For further information on verifications, please take a look at the [Verifications](Verifications.html) chapter. In the example below, an error message is created if the ERP number is not empty:
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
+
+ ``` 
  public class ERPNumberFoundVerification : Eplan.EplApi.EServices.PartVerification, Eplan.EplApi.EServices.IVerificationBase, Eplan.EplApi.EServices.IMessage
  {
      private int m_iMessageId = 530;
@@ -144,5 +143,5 @@ For further information on verifications, please take a look at the [Verificat
  
      #endregion // #region IMessage Members
  }
- ``` | |
+ ```
 

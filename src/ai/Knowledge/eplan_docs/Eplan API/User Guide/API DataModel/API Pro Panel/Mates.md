@@ -2,10 +2,10 @@ It is also possible to transform 3D objects by snapping, i.e. by using auxili
 
 There are 2 kinds of mates:
 
-* **Source mates** â Points of a source object that we want to transform. In the GUI they are grey.
-* **Target mates** â The ones that we snap to. In the GUI they are blue.
+* **Source mates**  Points of a source object that we want to transform. In the GUI they are grey.
+* **Target mates**  The ones that we snap to. In the GUI they are blue.
 
-![](images/ProPanelAPI/Mates.jpg)
+
 
 Another division is based on the purpose and the shape of the mates:
 
@@ -13,41 +13,35 @@ Another division is based on the purpose and the shape of the mates:
 * **Line mates** (classes [LineMate](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.LineMate.html), [MountingLineMate](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.MountingLineMate.html))
 * **Plane mates** (class [PlaneMate](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.PlaneMate.html))
 
-![](images/ProPanelAPI/Mates2.jpg)
+
 
 ### Getting mates
 
 Mates can be retrieved from a  Placement3D  using methods:
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
+ ``` 
          
  PointMate[] GetSourceMates(Mate.Enums.PlacementOptions ePlacementOptions)
  PointMate FindSourceMate(string name, Mate.Enums.PlacementOptions ePlacementOptions)
  Mate[] GetTargetMates(bool bConsiderMountingClearance)
  Mate FindTargetMate(string name, bool bConsiderMountingClearance)
- ``` | |
+ ``` 
 
 ### Snapping
 
 Snapping mates causes one object to be positioned close to the other, i.e. a source mate of one object is at the position of a target mate of another object. In this case, we need to find the relevant mates from both objects and then perform snapping usingm the SnapTo method. Here is an example of how to snap a cabinet to another one through a point target mate:
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
+ ``` 
  Cabinet oCabinet2 = new Cabinet();
  oCabinet2.Create(oProject, "TS 8886.500", "1");
  // Placing a cabinet next to another cabinet with 0.0 offset
  oCabinet2.FindSourceMate("C3", Mate.Enums.PlacementOptions.None)
  .SnapTo(oCabinet.FindTargetMate("CUB4", false), 0.0);
- ``` | |
+ ``` 
 
 Here are also examples of snapping to a line and a plane mate. They both are base mates, which means that snapping to them will automatically sets a source object as a child of a target. Also, the orientation of a source item is adjusted to a target:
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
+ ``` 
  // Get front plane of mounting panel
  MountingPanel oMountingPanel = oCabinet.Children[1] as MountingPanel;
  Plane oFrontPlace = oCabinet.Planes[0];
@@ -64,12 +58,9 @@ Here are also examples of snapping to a line and a plane mate. They both are bas
  // Placing it on a mounting rail with offset 100 from the beginning of it. 
  // Target (oRail.BaseMate) is a line mate.
  oTerminal.FindSourceMate("M4", false).SnapTo(oRail.BaseMate, 100.0);
- ``` | |
-
-```
+ ``` 
 
 
-```
 
 Please be aware that not all mates can be snapped to each other. This is determined by the [Mate.MatchingMateNames](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~MatchingMateNames.html) property. To make sure that one mate can be snapped to another, please use the [PointMate::CanSnapTo](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.PointMate~CanSnapTo.html) method.
 
@@ -77,9 +68,7 @@ Please be aware that not all mates can be snapped to each other. This is determ
 
 It is also possible to create a custom mate, for example a mounting point or a handle. In this case, a mate is first created as a transient object and then needs to be saved on a Placement3D:
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
+ ``` 
  // Create a handle relative to placement area
  var transformationToPlacementArea = new Matrix3D();
  transformationToPlacementArea.Translate(new Vector3D(50.0, 500.0, 0.0));
@@ -113,12 +102,9 @@ It is also possible to create a custom mate, for example a mounting point or a h
  new MultiLangString(),
  new PointD3D(10.0, 10.0, 10.0), new PointD3D(110.0, 210.0, 310.0));
  placement3D.AddMatePersistent(mountingLineMate);
- ``` | |
-
-```
+ ``` 
 
 
-```
 
 Please be aware that the coordinates of a mate are relative until it is not persistent, i.e. without a [Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~Placement.html) set. After calling [Placement3D::AddMatePersistent](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D~AddMatePersistent.html), they are recalculated and become absolute.
 

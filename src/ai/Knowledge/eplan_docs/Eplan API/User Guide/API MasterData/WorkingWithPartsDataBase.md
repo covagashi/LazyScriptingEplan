@@ -1,6 +1,6 @@
 The following example shows how to open the default parts database:
 
-* [C#](#i-tab-content-f61f5169-d738-4dd6-a177-da8cc2e02a34)
+* [C#]
 
 ```
 
@@ -10,7 +10,7 @@ MDPartsDatabase partsDatabase = oPartsManagement.OpenDatabase();
 
 It is also possible to open a selected parts database from a file:
 
-* [C#](#i-tab-content-f9c56d80-135d-4161-b539-4ffea77765f7)
+* [C#]
 
 ```
 
@@ -19,7 +19,7 @@ MDPartsDatabase partsDatabase = new MDPartsManagement().OpenDatabase("C:\\PathTo
 
 Then you can check information about the open database:
 
-* [C#](#i-tab-content-d4e41da8-ce6b-4b1d-aa75-a6f2bd1c2f75)
+* [C#]
 
 ```
 
@@ -48,7 +48,7 @@ if (partsDatabase.IsSchemeUpToDate) ;
 
 Finally, close the database:
 
-* [C#](#i-tab-content-b6eeb556-34e4-4991-955e-92e56bdb7107)
+* [C#]
 
 ```
 

@@ -2,8 +2,7 @@ You can load and unload scripts in Eplan. In this case, not the start function i
 
 The following example shows a script that registers a new action. Therefore, a function is marked by the attribute  [DeclareAction]. The parameter of the attribute defines the name of the new action in Eplan.
 
-* [C#](#i-tab-content-CS)
-* [VB](#i-tab-content-VB)
+* [C#]
 
 ```
 
@@ -18,17 +17,6 @@ public class SimpleScriptAction
 }
 ```
 
-```
-
-Public Class SimpleScriptAction
-
-   <DeclareAction("MyScriptAction")>  _
-   Public Sub MyFunctionAsAction()
-      Dim dec As Decider = New Decider
-      dec.Decide(EnumDecisionType.eOkDecision, "MyFunctionAsAction was called!", "RegisterScriptAction", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)
-   End Sub 'MyFunctionAsAction
-End Class 'SimpleScriptAction
-```
 
 When a script with the above code is loaded, the function "MyFunctionAsAction" is registered in Eplan as action by the name "MyScriptAction". The new action can now be used like any other action in Eplan. For example, it can be called from the command line or assigned to a button.
 
@@ -36,4 +24,3 @@ Once the script has been loaded, it will be automatically loaded during the Sta
 
 To unload or unregister a script, you just call the ribbon File > Extras > Interfaces > [Scripts](Scripts.html) > Unload and select the respective script in the dialog:
 
-![](images/UnloadScript.png)
