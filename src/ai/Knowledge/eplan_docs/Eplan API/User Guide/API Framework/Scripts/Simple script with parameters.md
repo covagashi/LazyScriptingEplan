@@ -15,11 +15,7 @@ Example
 In the following example, the script (i.e. the script function) requires 3 string parameters "Param1", "Param2" and "Param3":
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 public class SimpleScriptWithParameters
 
  {
@@ -42,20 +38,9 @@ Public Class SimpleScriptWithParameters
 
    <Start>  _
 
-   Public Function FunctionWithParameters(ByVal Param1 As String, ByVal Param2 As String, _
-
-                                            ByVal Param3 As String) as Boolean
-
-      Dim dec As Decider = New Decider
-
       dec.Decide(EnumDecisionType.eOkDecision, Param1 + Param2 + Param3, "SimpleScriptWithParams", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)
 
       Return True
-
-   End Sub 'FunctionWithParameters
-
-End Class 'SimpleScriptWithParameters
-
 ```
 
 It is important, that the identifiers (in this example "Param1", "Param2", "Param3") are exactly matching in the command line and in the function!
@@ -63,11 +48,7 @@ It is important, that the identifiers (in this example "Param1", "Param2", "Para
 It is possible to use scripts with  ActionCallingContext  as a parameter. To do that, please look at the following example:
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 public class ScriptWithActionCallingContext
 
 {
@@ -108,32 +89,13 @@ Public Class ScriptWithActionCallingContext
 
 <Start>  _
 
-    Public Sub FunctionWithActionCallingContext (ByVal oActionCallingContext As ActionCallingContext)
-
-        Dim strFirstParam As [String] = ""
-
-        Dim strSecondParam As [String] = ""
-
         oActionCallingContext.GetParameter("strFirstParam", strFirstParam)
 
         oActionCallingContext.GetParameter("strSecondParam", strSecondParam)
 
-        Dim strNewParam As [String] = ""
-
         oActionCallingContext.AddParameter("strNewParam", strFirstParam + strSecondParam)
 
         oActionCallingContext.GetParameter("strNewParam", strNewParam)
-
-        If strNewParam = strFirstParam + strSecondParam Then       
-
-            ' TODO: Add some functionality here
-
-        End If
-
-    End Sub 'FunctionWithActionCallingContext
-
-End Class 'ScriptWithActionCallingContext
-
 ```
 
 Using this feature, you can extend the scope of the Eplan command line by your own parameters. If you need to call some API functionality via command line, just create a script. The start function of this script may take parameters and can call other functions with these parameters.

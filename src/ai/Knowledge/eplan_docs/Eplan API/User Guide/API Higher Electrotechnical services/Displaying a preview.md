@@ -17,11 +17,7 @@ The  DrawingService  class also provides the possibility to influence the app
 The following example creates a preview of a macro. The first code snippet shows the creation of the display list:
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 Eplan.EplApi.HEServices.DrawingService oDs = new DrawingService();
 
 // ...
@@ -64,13 +60,7 @@ if (!(gProject == null))
 
 }
 
-If oDs Is Nothing Then
-
    oDs = New Eplan.EplApi.HEServices.DrawingService
-
-End If
-
-If Not gProject Is Nothing Then
 
    Try
 
@@ -80,30 +70,13 @@ If Not gProject Is Nothing Then
 
       oDs.CreateDisplayList(strObj, "", 0, gProject)
 
-   Catch ex As System.Exception
-
-      Dim dec As Decider = New Decider
-
-      dec.Decide(EnumDecisionType.eOkDecision, "Can't create display list:" & vbCrLf & ex.Message, "", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)
-
-   End Try
-
-   'raise the Paint event
-
    oForm.Picture1.Invalidate()
-
-End If
-
 ```
 
  The next piece of source code shows drawing the display list in the  Paint  method of a picture box:
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 private void Picture1_Paint(object sender, System.Windows.Forms.PaintEventArgs e)
 
 {
@@ -124,26 +97,9 @@ private void Picture1_Paint(object sender, System.Windows.Forms.PaintEventArgs e
 
 }
 
-Private Sub Picture1_Paint(ByVal sender As Object, ByVal e As System.Windows.Forms.PaintEventArgs) Handles Picture1.Paint
-
-    If Not m_DS Is Nothing Then
-
         Try
 
             m_DS.DrawDisplayList(e)
-
-        Catch ex As System.Exception
-
-            Dim dec As Decider = New Decider
-
-            dec.Decide(EnumDecisionType.eOkDecision, "Can't draw display list:" & vbCrLf & ex.Message, "", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)
-
-        End Try
-
-    End If
-
-End Sub
-
 ```
 
 ### 

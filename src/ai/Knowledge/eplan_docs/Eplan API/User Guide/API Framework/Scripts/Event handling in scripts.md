@@ -15,11 +15,7 @@ The script in the first example reacts to the  onMainStart  event. The functio
 The second example shows an event handler script that catches any  onActionStart.String  event. There is an event parameter for the name of the action.
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 public class SimpleEventHandler
 
 {
@@ -80,15 +76,7 @@ Public Class SimpleEventHandler
 
    <DeclareEventHandler("onMainStart")>  _
 
-   Public Sub MyEventHandlerFunction()
-
-      Dim dec As Decider = New Decider
-
       dec.Decide(EnumDecisionType.eOkDecision, "MyEventHandlerFunction was called!", "SimpleEventHandler", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)
-
-   End Sub 'MyEventHandlerFunction
-
-End Class 'SimpleEventHandler
 
 Public Class SimpleEventHandler
 
@@ -96,28 +84,11 @@ Public Class SimpleEventHandler
 
    Public Function MyEventHandlerFunction2(iEventParameter As IEventParameter) As Long
 
-   Dim dec As Decider = New Decider
-
       Try
-
-         Dim oEventParameterString As New EventParameterString(iEventParameter)
-
-         Dim strActionName As [String] = oEventParameterString.String
 
          dec.Decide(EnumDecisionType.eOkDecision, "Action " + strActionName + " was started!", "MyEventHandler", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)
 
-      Catch exc As System.InvalidCastException
-
-         Dim strExc As [String] = exc.Message
-
          dec.Decide(EnumDecisionType.eOkDecision, "Parameter error: " + strExc, "MyEventHandler", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)
 
-      End Try
-
       Return 0
-
-   End Function 'MyEventHandlerFunction2
-
-End Class 'SimpleEventHandler
-
 ```

@@ -9,11 +9,7 @@ You can load and unload scripts in Eplan. In this case, not the start function i
 The following example shows a script that registers a new action. Therefore, a function is marked by the attribute  [DeclareAction]. The parameter of the attribute defines the name of the new action in Eplan.
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 public class SimpleScriptAction
 
 {
@@ -36,16 +32,7 @@ Public Class SimpleScriptAction
 
    <DeclareAction("MyScriptAction")>  _
 
-   Public Sub MyFunctionAsAction()
-
-      Dim dec As Decider = New Decider
-
       dec.Decide(EnumDecisionType.eOkDecision, "MyFunctionAsAction was called!", "RegisterScriptAction", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)
-
-   End Sub 'MyFunctionAsAction
-
-End Class 'SimpleScriptAction
-
 ```
 
 When a script with the above code is loaded, the function "MyFunctionAsAction" is registered in Eplan as action by the name "MyScriptAction". The new action can now be used like any other action in Eplan. For example, it can be called from the command line or assigned to a button.

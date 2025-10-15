@@ -9,11 +9,7 @@ The easiest way to use Eplan API objects in your program is to directly use the 
 Then ' in the appropriate place (e.g. in the main form) ' you create an instance of the  Eplan.EplApi.System.EplApplication  class and initialize it:
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 private Eplan.EplApi.System.EplApplication m_oEplApp;
 
 public MainForm()
@@ -38,24 +34,11 @@ public MainForm()
 
 Private m_oEplApp As Eplan.EplApi.System.EplApplication
 
-Public Sub New()
-
-   '
-
-   ' Required for Windows Form Designer support
-
-   '
-
    InitializeComponent()
 
    m_oEplApp = New Eplan.EplApi.System.EplApplication()
 
-   Dim strAppModifier As System.String = ""
-
    m_oEplApp.Init(strAppModifier)
-
-End Sub 'New MainForm
-
 ```
 
 The string parameter  strAppModifier  determines, which configuration file is used and thus which modules will be loaded. If you pass an empty string like in the above example, the  eplset.xml  of the standard version of the current user will be loaded.

@@ -337,12 +337,8 @@ ProjectSettingNode  ' the same as  SettingNode  but for project settings.
 Adding, setting and getting settings:
 
 **C#**
-**VB**
-
-```
-
-
-    Eplan.EplApi.Base.Settings oSettings = new Eplan.EplApi.Base.Settings();
+```csharp
+Eplan.EplApi.Base.Settings oSettings = new Eplan.EplApi.Base.Settings();
 
     oSettings.AddStringSetting("USER.DEMOSETTINGS.TEST1", new string[] { },
 
@@ -360,37 +356,22 @@ Adding, setting and getting settings:
 
          Console.Out.WriteLine("SetGetAddSetting not OK!");
 
-Dim oSettings As New Settings()
-
 oSettings.AddStringSetting("USER.DEMOSETTINGS.TEST1", New String() {}, New String() {}, ISettings.CreationFlag.Insert)
 
 oSettings.SetStringSetting("USER.DEMOSETTINGS.TEST1", "Testwert1", 0)
-
-Dim strTest1 As [String] = oSettings.GetStringSetting("USER.DEMOSETTINGS.TEST1", 0)
-
-Dim dec As Decider = New Decider
-
-If strTest1 = "Testwert1" Then
 
     dec.Decide(EnumDecisionType.eOkDecision,"SetGetAddSetting OK!","", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)
 
 Else
 
     dec.Decide(EnumDecisionType.eOkDecision,"SetGetAddSetting not OK!","",EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);
-
-End If
-
 ```
 
 Example of merging nodes using  SettingNode:
 
 **C#**
-**VB**
-
-```
-
-
-        Eplan.EplApi.Base.SettingNode oSettingNode = new Eplan.EplApi.Base.SettingNode("STATION.AF.Interfaces");
+```csharp
+Eplan.EplApi.Base.SettingNode oSettingNode = new Eplan.EplApi.Base.SettingNode("STATION.AF.Interfaces");
 
         uint uiCountOfSettings = oSettingNode.GetCountOfSettings();
 
@@ -432,29 +413,11 @@ Example of merging nodes using  SettingNode:
 
         oNew.SetStringSetting("ActionName", "TestAction1", 0);
 
-Dim oSettingNode As New SettingNode("STATION.AF.Interfaces")
-
-Dim uiCountOfSettings As UInteger = oSettingNode.GetCountOfSettings()
-
-Dim uiCountOfNodes As UInteger = oSettingNode.GetCountOfNodes()
-
-Dim strColl1 As New StringCollection()
-
 oSettingNode.GetListOfAllSettings(strColl1, False)
-
-Dim strColl2 As New StringCollection()
 
 oSettingNode.GetListOfNodes(strColl2, False)
 
-Dim strColl3 As New StringCollection()
-
 oSettingNode.GetListOfSettings(strColl3, False)
-
-Dim oMuster As New SettingNode("STATION.AF.DefaultSetting.ActionInterface")
-
-Dim ownSetting As New SettingNode("STATION.AF.ActionTestInterfaces")
-
-Dim oNew As SettingNode = ownSetting.GetSubNode("TestNode1")
 
 oNew.MergeWithNode(oMuster)
 
@@ -463,18 +426,13 @@ oNew.SetStringSetting("ModuleName", "Test1Value1", 0)
 oNew.SetBoolSetting("IsAddIn", True, 0)
 
 oNew.SetStringSetting("ActionName", "TestAction1", 0)
-
 ```
 
 You can also combine settings into a group under a specific name ' it is called a "scheme". It is possible to have multiple groups under different names, but with the same settings structure. One of the groups is an active scheme.
 
 **C#**
-**VB**
-
-```
-
-
-    SchemeSetting oSchemeSetting = new SchemeSetting();
+```csharp
+SchemeSetting oSchemeSetting = new SchemeSetting();
 
     oSchemeSetting.Init("USER.DXF.SCHEMES");
 
@@ -484,27 +442,14 @@ You can also combine settings into a group under a specific name ' it is ca
 
     int iExportFormatVersion = oSchemeSetting.GetNumericSetting("EXPORT.FORMAT_VERSION", 0);
 
-Dim oSchemeSetting As New SchemeSetting()
-
 oSchemeSetting.Init("USER.DXF.SCHEMES")
-
-Dim iCount As Integer = oSchemeSetting.GetCount()
-
-Dim strName As [String] = oSchemeSetting.GetName()
-
-Dim iExportFormatVersion As Integer = oSchemeSetting.GetNumericSetting("EXPORT.FORMAT_VERSION", 0)
-
 ```
 
 As mentioned above, each setting has a default value. To return a setting to its default value, you must get the setting's default value and set it to the setting:
 
 **C#**
-**VB**
-
-```
-
-
-    Eplan.EplApi.Base.Settings oSettings = new Eplan.EplApi.Base.Settings();
+```csharp
+Eplan.EplApi.Base.Settings oSettings = new Eplan.EplApi.Base.Settings();
 
     // Set the path for projects back to its default
 
@@ -514,16 +459,9 @@ As mentioned above, each setting has a default value. To return a setting to 
 
     oSettings.SetStringSetting("USER.TrDMProject.Masterdata.Pathnames.Projects", sProjectsPath, 0);
 
-Dim oSettings As New Settings()
-
-' Set the path for projects back to its default
-
-Dim sProjectsPath As String = ""
-
 sProjectsPath = oSettings.GetStringDefault("USER.TrDMProject.Masterdata.Pathnames.Projects", 0)
 
 oSettings.SetStringSetting("USER.TrDMProject.Masterdata.Pathnames.Projects", sProjectsPath, 0)
-
 ```
 
 To make it easier for the API user to find a particular settings key, the settings dialog provides a hidden feature. If you set the Boolean setting  USER.EnfMVC.ContextMenuSetting.ShowExtended  to "true", you will get an additional context menu item in the settings dialog that shows you the path of the selected setting.

@@ -55,17 +55,12 @@ Please create an action with the name that was set in Settings dialog. The bes
 The part data is passed through the  ActionCallingContext  of the action. The object contains a set of input and output parameters that are passed as strings.
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 public bool Execute(ActionCallingContext oActionCallingContext)
 
     Public Function Execute(oActionCallingContext As Eplan.EplApi.ApplicationFramework.ActionCallingContext) As Boolean _
 
         Implements Eplan.EplApi.ApplicationFramework.IEplAction.Execute
-
 ```
 
 In this way, it is possible to have an access to properties of a selected part, for example:

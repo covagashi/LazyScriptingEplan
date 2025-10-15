@@ -74,11 +74,7 @@ Please mind that users may start Eplan in QUIET mode using  W3u.exe /Quiet  or
 The following example shows a script, which registers an action and a ribbon command.
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 public class ButtonWithAction
 
 {
@@ -125,38 +121,17 @@ Public Class ButtonWithAction
 
    <DeclareAction("HelloWorldAction")>  _
 
-   Public Sub MyFunctionAsAction()
-
-      Dim dec As Decider = New Decider
-
       dec.Decide(EnumDecisionType.eOkDecision, "Hello World!", "HelloWorldAction title", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)
 
       Return
 
-   End Sub 'MyFunctionAsAction
-
    <DeclareRegister()>  _
-
-   Public Sub registerButtonWithAction()
-
-      Dim ribbonBar As New Eplan.EplApi.Gui.RibbonBar()
 
       ribbonBar.AddCommand("MyMenuText", "HelloWorldAction", 2)
 
-   End Sub 'registerButtonWithAction
-
    <DeclareUnregister()>  _
 
-   Public Sub unRegisterButtonWithAction()
-
-      Dim ribbonBar As New Eplan.EplApi.Gui.RibbonBar()
-
       ribbonBar.RemoveCommand("HelloWorldAction")
-
-   End Sub 'unRegisterButtonWithAction
-
-End Class 'ButtonWithAction
-
 ```
 
 The  [DeclareRegister]  attribute calls the function  buttonWithAction()  when the script is loaded. The function creates a new ribbon command "MyMenuText" and binds the action "HelloWorldAction" to it.

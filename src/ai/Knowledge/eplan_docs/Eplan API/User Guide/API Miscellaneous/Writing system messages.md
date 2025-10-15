@@ -9,22 +9,15 @@ Eplan expects system errors to be handled by exceptions. For this resason, the i
 The  fixMessage()  function of the exception adds the message to the Eplan system messages.
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 Eplan.EplApi.Base.BaseException exc = new Eplan.EplApi.Base.BaseException("CSharpAction really failed!!",
 
                                       Eplan.EplApi.Base.MessageLevel.Error);
 
 exc.FixMessage();
 
-Dim exc As Eplan.EplApi.Base.BaseException = New ("CSharpAction really failed!!", _
-
                                              Eplan.EplApi.Base.MessageLevel.Error)
 
 exc.FixMessage
-
 ```
 

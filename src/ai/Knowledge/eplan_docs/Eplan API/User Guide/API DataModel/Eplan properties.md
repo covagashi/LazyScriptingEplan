@@ -38,15 +38,8 @@ With help of the PropertyDefinition.PropertyType, you can determine the type of 
 The following example gets the type of a page property:
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 PropertyDefinition.PropertyType oPropType = oPage.Properties[Properties.Page.DESIGNATION_PLANT].Definition.Type;
-
-Dim oPropType As PropertyDefinition.PropertyType = oPage.Properties(Properties.Page.DESIGNATION_PLANT).Definition.Type
-
 ```
 
 ### Setting and getting a property
@@ -54,54 +47,31 @@ Dim oPropType As PropertyDefinition.PropertyType = oPage.Properties(Properties.P
 The following example shows how to set a  bool  property:
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 oFunction.Properties[Properties.Function.FUNC_ARTICLE_SUPPRESSINPARTSLIST] = true;
 
 oFunction.Properties(Properties.Function.FUNC_ARTICLE_SUPPRESSINPARTSLIST) = PropertyValue.op_Implicit(True)
-
 ```
 
 The following example shows how to get a  MultiLangString  property (project description):
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 MultiLangString mlTest = oProject.Properties[Properties.Project.PROJ_INSTALLATIONNAME];
-
-Dim mlTest As MultiLangString = oProject.Properties(Properties.Project.PROJ_INSTALLATIONNAME).ToMultiLangString()
-
 ```
 
 As an alternative syntax, you can also write:
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 MultiLangString mlTest = oProject.Properties.PROJ_INSTALLATIONNAME;
-
-Dim mlTest As MultiLangString = oProject.Properties.PROJ_INSTALLATIONNAME.ToMultiLangString()
-
 ```
 
 Finally an example that loops over all  string  properties of a project:
 
 **C#**
-**VB**
-
-```
-
-
- string strTmp = string.Empty;
+```csharp
+string strTmp = string.Empty;
 
  PropertyValue oPropValue;
 
@@ -133,34 +103,13 @@ Finally an example that loops over all  string  properties of a project:
 
  }
 
-Dim strTmp As String = String.Empty
-
-Dim oPropValue As PropertyValue
-
-' Iterate over all project properties
-
-Dim hPProp As AnyPropertyId
-
 For Each hPProp In  Eplan.EplApi.DataModel.Properties.AllProjectPropIDs
-
-   ' Check if exists
-
-   If Not m_oProject.Properties(hPProp).IsEmpty Then
-
-      If m_oProject.Properties(hPProp).Definition.Type = PropertyDefinition.PropertyType.String Then
-
-         ' Read string property
 
          oPropValue = m_oProject.Properties(hPProp)
 
          strTmp = oPropValue.ToString()
 
-      End If
-
-   End If
-
 Next hPProp
-
 ```
 
 ### Setting name properties
@@ -227,29 +176,19 @@ Here is a table that shows which conversions are allowed:
 Properties can have more than one value. In this case, we call it an "**indexed property**". The index is passed after the property designation. The example gets the index 1 of the function property  FUNC\_CONNECTIONDESIGNATION:
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 strConnDes1 = oFunction.Properties[Properties.Function.FUNC_CONNECTIONDESIGNATION, 1].ToString();
 
 strConnDes1 = oFunction.Properties(Properties.Function.FUNC_CONNECTIONDESIGNATION, 1).ToString()
-
 ```
 
 Alternatively:
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 strConnDes1 = oFunction.Properties.FUNC_CONNECTIONDESIGNATION[1].ToString();
 
 strConnDes1 = oFunction.FUNC_CONNECTIONDESIGNATION(1).ToString()
-
 ```
 
 ### User-defined properties

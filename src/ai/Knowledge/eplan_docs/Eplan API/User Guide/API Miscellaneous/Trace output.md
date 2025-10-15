@@ -9,11 +9,7 @@ For debugging purposes (or program logging in the release version) it is useful 
 In your API program, you simply add your own trace listener to the  System.Diagnostics.Trace.Listeners:
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 private Eplan.EplApi.Base.TraceListener m_oTrace;
 
 //.
@@ -44,22 +40,11 @@ public bool Execute(ActionCallingContext ctx )
 
 }
 
-Dim m_oTrace As Eplan.EplApi.Base.TraceListener
-
-'...
-
    m_oTrace= New Eplan.EplApi.Base.TraceListener()
-
-Public Function Execute(ByVal ctx as ActionCallingContext)as Boolean Implements IEplAction.Execute
 
     System.Diagnostics.Trace.Listeners.Add(m_oTrace)
 
     System.Diagnostics.Trace.WriteLine(" Begin Execute ")
-
-'...
-
-'...
-
 ```
 
 As a result, all further trace outputs are visible in the Windows trace management and ' as the case may be ' written to the Eplan log database at the end of the program.

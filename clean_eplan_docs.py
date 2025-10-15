@@ -170,6 +170,106 @@ def clean_duplicate_tab_links(content: str) -> Tuple[str, bool]:
     return cleaned_content, modified
 
 
+def remove_vb_keep_csharp(content: str) -> Tuple[str, bool]:
+    """
+    Elimina código VB de bloques mixtos C#/VB, manteniendo solo C#.
+
+    Detecta patrones como:
+    **C#**
+    **VB**
+    ```
+    código mezclado C# y VB
+    ```
+
+    Y los convierte a:
+    **C#**
+    ```csharp
+    solo código C#
+    ```
+
+    Args:
+        content: Contenido del archivo markdown
+
+    Returns:
+        Tupla de (contenido limpio, fue_modificado)
+    """
+    modified = False
+
+    # Patrón para detectar bloques mixtos: **C#** seguido de **VB** y luego un bloque de código
+    pattern = r'\*\*C#\*\*\s*\n\*\*VB\*\*\s*\n\s*```\s*\n(.*?)\n```'
+
+    def extract_csharp_only(match):
+        nonlocal modified
+        modified = True
+
+        mixed_code = match.group(1)
+        lines = mixed_code.split('\n')
+
+        csharp_lines = []
+        in_vb_section = False
+
+        for line in lines:
+            # Detectar líneas VB que deben eliminarse siempre
+            if any([
+                line.strip().startswith('Dim '),
+                line.strip().startswith('Private Sub '),
+                line.strip().startswith('Public Sub '),
+                line.strip().startswith('Function '),
+                line.strip().startswith('End Sub'),
+                line.strip().startswith('End Function'),
+                line.strip().startswith('End If'),
+                line.strip().startswith('End Class \''),  # Comentario VB al final
+                line.strip().startswith('End '),
+                ((' As ' in line or ' as ' in line) and
+                 (line.strip().startswith('Dim ') or 'ByVal ' in line or 'ByRef ' in line)),
+                'ByVal ' in line and '(' in line,
+                'Handles ' in line,
+                line.strip().startswith('If Not ') and ' Is Nothing Then' in line,
+                line.strip().endswith(' Then'),
+                line.strip().startswith("'") and not line.strip().startswith("'//"),
+                ' & vbCrLf' in line,
+                'Is Nothing' in line,
+                line.strip().startswith('Catch ') and ' As ' in line and not '{' in line,
+            ]):
+                in_vb_section = True
+                continue  # Saltar esta línea VB
+
+            # Si estamos en VB, saltar hasta encontrar línea vacía o código C#
+            if in_vb_section:
+                # Detectar si volvemos a C# (línea vacía seguida de código C# o claramente C#)
+                if line.strip() == '':
+                    # Línea vacía, posible cambio a C#
+                    in_vb_section = False
+                    continue
+                elif any([
+                    line.strip().startswith('//'),
+                    '{' in line or '}' in line,
+                    line.strip().endswith(';'),
+                    ' new ' in line and '(' in line,
+                ]):
+                    in_vb_section = False
+                    # No continuar, procesar esta línea como C#
+                else:
+                    continue  # Seguimos en VB, saltar línea
+
+            # Agregar línea C# (si no está vacía o es relevante)
+            if not in_vb_section:
+                csharp_lines.append(line)
+
+        # Limpiar líneas vacías del inicio y final
+        csharp_code = '\n'.join(csharp_lines).strip()
+
+        # Si hay código C#, crear bloque
+        if csharp_code:
+            return f'**C#**\n```csharp\n{csharp_code}\n```'
+        else:
+            return '**C#**\n```csharp\n// Code removed\n```'
+
+    cleaned_content = re.sub(pattern, extract_csharp_only, content, flags=re.DOTALL)
+
+    return cleaned_content, modified
+
+
 def clean_corrupted_characters(content: str) -> Tuple[str, bool]:
     """
     Elimina o reemplaza caracteres especiales corruptos.
@@ -241,6 +341,7 @@ def process_file(file_path: Path) -> dict:
             'empty_blocks_removed': False,
             'empty_lines_cleaned': False,
             'tab_links_cleaned': False,
+            'vb_code_removed': False,
             'corrupted_chars_fixed': False
         }
 
@@ -258,6 +359,9 @@ def process_file(file_path: Path) -> dict:
 
         # Limpiar enlaces de tabs duplicados
         content, stats['tab_links_cleaned'] = clean_duplicate_tab_links(content)
+
+        # Eliminar código VB, mantener solo C#
+        content, stats['vb_code_removed'] = remove_vb_keep_csharp(content)
 
         # Limpiar caracteres corruptos
         content, stats['corrupted_chars_fixed'] = clean_corrupted_characters(content)
@@ -323,6 +427,7 @@ def main():
         'empty_blocks_removed': 0,
         'empty_lines_cleaned': 0,
         'tab_links_cleaned': 0,
+        'vb_code_removed': 0,
         'corrupted_chars_fixed': 0,
         'errors': 0
     }
@@ -365,6 +470,8 @@ def main():
                     stats['empty_lines_cleaned'] += 1
                 if result.get('tab_links_cleaned'):
                     stats['tab_links_cleaned'] += 1
+                if result.get('vb_code_removed'):
+                    stats['vb_code_removed'] += 1
                 if result.get('corrupted_chars_fixed'):
                     stats['corrupted_chars_fixed'] += 1
 
@@ -380,6 +487,7 @@ def main():
     print(f"  - Bloques vacíos eliminados: {stats['empty_blocks_removed']}")
     print(f"  - Líneas vacías limpiadas: {stats['empty_lines_cleaned']}")
     print(f"  - Enlaces de tabs convertidos a títulos: {stats['tab_links_cleaned']}")
+    print(f"  - Código VB eliminado (solo C#): {stats['vb_code_removed']}")
     print(f"  - Caracteres corruptos corregidos: {stats['corrupted_chars_fixed']}")
     print(f"Errores: {stats['errors']}")
     print()

@@ -15,11 +15,7 @@ The  Eplan.EplApi.EServices.Message class declares 3 functions:
 3. The  DoHelp()  function is called by the system if Eplan requests help on the message.
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 public class Message1 : Eplan.EplApi.EServices.Message
 
 {
@@ -70,10 +66,6 @@ Public Class Message1
 
    Implements Eplan.EplApi.EServices.Message
 
-   Public Sub OnRegister(ByRef creator As System.String, ByRef eRegionId As IMessage.Region, ByRef iMessageId As Integer, _
-
-                          ByRef eClassification As IMessage.Classification, ByRef iOrdinal As Integer) _
-
                           Implements Eplan.EplApi.EServices.IMessage.OnRegister
 
       creator = "Creator name"
@@ -88,26 +80,11 @@ Public Class Message1
 
       Return
 
-   End Sub 'OnRegister
-
    Public Function GetMessageText() As System.String Implements Eplan.EplApi.EServices.IMessage.GetMessageText
-
-      ' TODO: Provide text from resource in active GUI language
 
       Return "Message text for %1!s! from Eplan.EplAddIn.Demo.Messages"
 
-   End Function 'GetMessageText
-
-   Public Sub DoHelp() Eplan.EplApi.EServices.IMessage.DoHelp
-
-      Dim dec As Decider = New Decider
-
       dec.Decide(EnumDecisionType.eOkDecision, "DoHelp was called!", "Eplan.EplAddIn.Demo.Messages", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK)
-
-   End Sub 'DoHelp ' TODO: activate help for this message
-
-End Class 'Message
-
 ```
 
 It is also possible to create such classes automatically using the Eplan API Add-in Wizard.
@@ -117,11 +94,7 @@ It is also possible to create such classes automatically using the Eplan API Add
 A registered message can be now added to the message management of Eplan using the PrjMessagesCollection class.
 
 **C#**
-**VB**
-
-```
-
-
+```csharp
 var projectMessageCollection = new PrjMessagesCollection(myProject);
 
 IMessage.Region region = IMessage.Region.Externals;
@@ -156,22 +129,9 @@ var newMessage = new BaseProjectMessage(region, messageId, "param text 2", "BECK
 
 projectMessageCollection.Add(newMessage);
 
-Dim projectMessageCollection = New PrjMessagesCollection(myProject)
-
-Dim region As IMessage.Region = IMessage.Region.Externals
-
-Dim messageId As Integer = 25
-
-Dim storableObject1 = TryCast(myProjectPage.Functions(0), StorableObject)
-
-Dim storableObject2 = TryCast(myProjectPage.Functions(1), StorableObject)
-
 projectMessageCollection.AddMessage(region, messageId, "param text 1", storableObject1, True, storableObject2, "additional info 2")
 
-Dim newMessage = New BaseProjectMessage(region, messageId, "param text 2", "BECK.BK3100", "additional info 2")
-
 projectMessageCollection.Add(newMessage)
-
 ```
 
 ### Overriding the text of an existing message
