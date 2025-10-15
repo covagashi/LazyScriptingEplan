@@ -8,11 +8,10 @@ Initializes the SymbolVariant object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Initialize( 
 
    Symbol symbol,
@@ -20,11 +19,7 @@ public void Initialize(
    int variantNr
 
 )
-```
-```
 
-```
-```
 public:
 
 void Initialize( 
@@ -34,8 +29,7 @@ void Initialize(
    int variantNr
 
 )
-```
-```
+
 
 #### Parameters
 

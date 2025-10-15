@@ -8,25 +8,13 @@ Interface declaration for an electrotechnical message in EPLAN. If an add-in wan
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IMessage
-```
-```
 
-```
-```
 public interface class IMessage
-```
-```
-
-
-
-
-
 
 Public Methods
 

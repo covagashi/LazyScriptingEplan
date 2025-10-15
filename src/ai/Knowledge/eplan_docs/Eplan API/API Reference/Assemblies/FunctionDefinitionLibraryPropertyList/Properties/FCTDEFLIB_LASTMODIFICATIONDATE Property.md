@@ -8,17 +8,12 @@ Modification date # 15501.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FCTDEFLIB_LASTMODIFICATIONDATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FCTDEFLIB_LASTMODIFICATIONDATE {
@@ -28,8 +23,7 @@ property PropertyValue^ FCTDEFLIB_LASTMODIFICATIONDATE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

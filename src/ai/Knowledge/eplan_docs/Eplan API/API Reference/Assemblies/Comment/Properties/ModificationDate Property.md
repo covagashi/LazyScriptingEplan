@@ -8,17 +8,12 @@ Shows when the PDF comment was last changed by the author.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DateTime ModificationDate {get;}
-```
-```
 
-```
-```
 public:
 
 property DateTime ModificationDate {
@@ -26,8 +21,7 @@ property DateTime ModificationDate {
    DateTime get();
 
 }
-```
-```
+
 
 Remarks
 

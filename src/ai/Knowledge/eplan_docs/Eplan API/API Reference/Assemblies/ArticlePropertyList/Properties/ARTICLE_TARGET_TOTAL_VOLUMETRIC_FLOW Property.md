@@ -8,17 +8,12 @@ Target total flow rate # 26139.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TARGET_TOTAL_VOLUMETRIC_FLOW {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TARGET_TOTAL_VOLUMETRIC_FLOW {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TARGET_TOTAL_VOLUMETRIC_FLOW {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

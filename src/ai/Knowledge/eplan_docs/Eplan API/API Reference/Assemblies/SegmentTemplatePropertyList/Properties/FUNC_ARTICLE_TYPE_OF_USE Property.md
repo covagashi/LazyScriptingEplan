@@ -8,21 +8,16 @@ Operating mode # 26284.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_TYPE_OF_USE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_TYPE_OF_USE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_TYPE_OF_USE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

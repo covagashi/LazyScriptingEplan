@@ -8,17 +8,12 @@ Gets/Sets the actual visibility state of the function's graphical representation
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsVisible {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsVisible {
@@ -28,8 +23,7 @@ property bool IsVisible {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

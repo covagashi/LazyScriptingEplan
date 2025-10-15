@@ -8,11 +8,10 @@ Scans directory for projects to add them into the project management.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void LoadDirectory( 
 
    string strProjectsDirectory,
@@ -20,11 +19,7 @@ public void LoadDirectory(
    bool bWithSubDirs
 
 )
-```
-```
 
-```
-```
 public:
 
 void LoadDirectory( 
@@ -34,8 +29,7 @@ void LoadDirectory(
    bool bWithSubDirs
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ The connection dimension of the PLC template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ConnectionDimension {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ConnectionDimension {
@@ -28,5 +23,4 @@ property String^ ConnectionDimension {
    void set (    String^ value);
 
 }
-```
-```
+

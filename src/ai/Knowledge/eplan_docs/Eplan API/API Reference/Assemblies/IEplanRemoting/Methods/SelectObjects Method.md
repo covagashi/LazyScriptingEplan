@@ -8,11 +8,10 @@ Select Objects in Ged.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 EplanResponse SelectObjects( 
 
    string strFullProjectName,
@@ -22,11 +21,7 @@ EplanResponse SelectObjects(
    bool bDeselectAll
 
 )
-```
-```
 
-```
-```
 EplanResponse^ SelectObjects( 
 
    String^ strFullProjectName,
@@ -36,8 +31,7 @@ EplanResponse^ SelectObjects(
    bool bDeselectAll
 
 )
-```
-```
+
 
 #### Parameters
 

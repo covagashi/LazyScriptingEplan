@@ -8,11 +8,10 @@ Constructor with parameter name and message.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDArgumentNullException( 
 
    string paramName,
@@ -20,11 +19,7 @@ public MDArgumentNullException(
    string message
 
 )
-```
-```
 
-```
-```
 public:
 
 MDArgumentNullException( 
@@ -34,8 +29,7 @@ MDArgumentNullException(
    String^ message
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Terminal with LED # 20231.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TERMINAL_HAS_LED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TERMINAL_HAS_LED {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TERMINAL_HAS_LED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

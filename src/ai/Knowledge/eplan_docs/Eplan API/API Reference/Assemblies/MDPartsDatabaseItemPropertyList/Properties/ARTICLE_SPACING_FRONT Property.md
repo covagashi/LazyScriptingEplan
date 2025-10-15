@@ -8,17 +8,12 @@ Mounting clearance Depth: Front # 22156.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SPACING_FRONT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SPACING_FRONT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SPACING_FRONT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

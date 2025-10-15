@@ -8,17 +8,12 @@ Project structure: Higher-level function number # 10005.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_HIERARCHY_INSTALLATIONNUMBER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_HIERARCHY_INSTALLATIONNUMBER {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_HIERARCHY_INSTALLATIONNUMBER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

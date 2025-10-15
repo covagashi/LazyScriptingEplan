@@ -8,17 +8,12 @@ Structure format for terminal strips # 10059.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_HIERARCHY_TERMINALSTRIP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_HIERARCHY_TERMINALSTRIP {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_HIERARCHY_TERMINALSTRIP {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

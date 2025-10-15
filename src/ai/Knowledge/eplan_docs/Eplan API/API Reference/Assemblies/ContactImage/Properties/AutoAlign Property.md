@@ -8,17 +8,12 @@ If `true` properties [Location](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.G
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AutoAlign {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool AutoAlign {
@@ -28,8 +23,7 @@ property bool AutoAlign {
    void set (    bool value);
 
 }
-```
-```
+
 
 Exceptions
 

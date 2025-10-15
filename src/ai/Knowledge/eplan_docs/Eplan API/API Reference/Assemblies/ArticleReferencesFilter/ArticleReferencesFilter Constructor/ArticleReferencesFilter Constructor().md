@@ -8,19 +8,13 @@ Default constructor. Creates Filter that matches all [ArticleReference](Eplan.Ep
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ArticleReferencesFilter()
-```
-```
 
-```
-```
 public:
 
 ArticleReferencesFilter();
-```
-```
+

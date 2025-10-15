@@ -8,17 +8,12 @@ Model view: Scale # 36510.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_SCALE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_SCALE {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_SCALE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

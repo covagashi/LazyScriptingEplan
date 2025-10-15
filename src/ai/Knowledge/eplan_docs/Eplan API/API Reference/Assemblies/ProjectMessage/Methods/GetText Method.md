@@ -8,19 +8,13 @@ Returns the the complete text of the message. Parameters has been substituted.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string GetText()
-```
-```
 
-```
-```
 public:
 
 String^ GetText();
-```
-```
+

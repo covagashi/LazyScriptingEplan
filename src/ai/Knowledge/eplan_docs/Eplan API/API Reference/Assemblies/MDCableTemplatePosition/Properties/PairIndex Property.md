@@ -8,17 +8,12 @@ It defines the Cable property Pairindex
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PairIndex {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PairIndex {
@@ -28,5 +23,4 @@ property String^ PairIndex {
    void set (    String^ value);
 
 }
-```
-```
+

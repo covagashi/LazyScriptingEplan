@@ -8,20 +8,14 @@ Identificators of properties owned by SegmentDefinition class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.SegmentDefinition : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.SegmentDefinition : public System.Enum
-```
-```
+
 
 Members
 

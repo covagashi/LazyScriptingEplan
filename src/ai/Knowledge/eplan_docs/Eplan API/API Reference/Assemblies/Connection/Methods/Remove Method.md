@@ -8,22 +8,16 @@ Removes the connection from the [Project](Eplan.EplApi.DataModelu~Eplan.EplApi.D
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Remove()
-```
-```
 
-```
-```
 public:
 
 virtual void Remove();
-```
-```
+
 
 Exceptions
 

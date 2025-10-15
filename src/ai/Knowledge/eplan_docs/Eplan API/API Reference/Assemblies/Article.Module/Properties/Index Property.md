@@ -8,17 +8,12 @@ Index of module in article array of modules.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int Index {get;}
-```
-```
 
-```
-```
 public:
 
 property int Index {
@@ -26,5 +21,4 @@ property int Index {
    int get();
 
 }
-```
-```
+

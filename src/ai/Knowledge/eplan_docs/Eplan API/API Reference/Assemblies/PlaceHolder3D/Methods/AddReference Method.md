@@ -8,21 +8,16 @@ Adds the reference of a Placement3D object to the Placeholder3D.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void AddReference( 
 
    Placement3D pObject
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void AddReference( 
@@ -30,8 +25,7 @@ virtual void AddReference(
    Placement3D^ pObject
 
 )
-```
-```
+
 
 #### Parameters
 

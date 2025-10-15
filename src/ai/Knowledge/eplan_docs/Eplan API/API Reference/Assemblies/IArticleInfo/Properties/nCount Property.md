@@ -8,17 +8,12 @@ Returns the count of the Article.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 uint nCount {get; set;}
-```
-```
 
-```
-```
 property uint nCount {
 
    uint get();
@@ -26,5 +21,4 @@ property uint nCount {
    void set (    uint value);
 
 }
-```
-```
+

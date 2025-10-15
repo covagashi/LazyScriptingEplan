@@ -8,17 +8,12 @@ Length of stroke # 22129.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_STROKELENGTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_STROKELENGTH {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_STROKELENGTH {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

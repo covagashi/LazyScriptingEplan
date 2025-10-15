@@ -8,21 +8,16 @@ Creates embedded report. This method starts an interaction so the report is atta
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ReportBlockReference CreateEmbeddedReport( 
 
    ReportBlock oReportBlock
 
 )
-```
-```
 
-```
-```
 public:
 
 ReportBlockReference^ CreateEmbeddedReport( 
@@ -30,8 +25,7 @@ ReportBlockReference^ CreateEmbeddedReport(
    ReportBlock^ oReportBlock
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -64,20 +58,16 @@ Example
 
 Example shows how to create an embedded report:
 
-- [C#](#i-tab-content-077967d3-19d1-4772-bab0-80d92d3c6deb)
+**C#**
 
 ```
 string strForm = "F01_002.f01";
-
-
 
 StringCollection oProjectNewEntries = new StringCollection();
 
 oProjectNewEntries.Add(strForm);
 
 new Masterdata().AddToProjectEx(m_oTestProject, oProjectNewEntries);
-
-
 
 PointD oPoint = new PointD(100.0, 30.0);
 
@@ -89,10 +79,6 @@ oReport.FormName = System.IO.Path.GetFileNameWithoutExtension(strForm);
 
 oReport.Type = DocumentTypeManager.DocumentType.DeviceConnectionDiagram;
 
-
-
 ReportBlockReference oReportBlockReference = new Reports().CreateEmbeddedReport(oReport, m_oTestProject.Pages[14], oPoint);
-
-
 
 ```

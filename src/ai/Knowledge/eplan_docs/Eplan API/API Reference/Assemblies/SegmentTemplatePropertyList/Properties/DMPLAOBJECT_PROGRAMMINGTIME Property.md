@@ -8,17 +8,12 @@ Expenditure software # 44016.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_PROGRAMMINGTIME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_PROGRAMMINGTIME {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_PROGRAMMINGTIME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Functions of this type can be registered as event handlers in the class [EventHa
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public delegate long EventHandlerNameFunctionResult( 
 
    IEventParameter pIEventParameter,
@@ -20,11 +19,7 @@ public delegate long EventHandlerNameFunctionResult(
    string strNameOfEvent
 
 )
-```
-```
 
-```
-```
 public delegate int64 EventHandlerNameFunctionResult( 
 
    IEventParameter^ pIEventParameter,
@@ -32,8 +27,7 @@ public delegate int64 EventHandlerNameFunctionResult(
    String^ strNameOfEvent
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public sealed class AnyPropertyId
-```
-```
 
-```
-```
 public ref class AnyPropertyId sealed
-```
-```
+
 
 Remarks
 
 The class contains also methods to convert between id number and corresponding [Properties](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Properties.html).
-
-
 
 Public Constructors
 
@@ -41,8 +33,6 @@ Public Constructors
 | Public Constructor | [AnyPropertyId Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.AnyPropertyId~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 
@@ -126,8 +116,6 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.AnyPropertyId~Dispose().html) | Destructor for deterministic finalization of AnyPropertyId object. |
 
 [Top](#top)
-
-
 
 Public Operators
 

@@ -8,17 +8,12 @@ The sub name of the outline, if type is FreeOutline
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string OutlineName {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ OutlineName {
@@ -28,5 +23,4 @@ property String^ OutlineName {
    void set (    String^ value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Plugs: Number of pins (male and female pin) # 35212.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PLUGSTRIP_COUNTOFJOINED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PLUGSTRIP_COUNTOFJOINED {
@@ -28,8 +23,7 @@ property PropertyValue^ PLUGSTRIP_COUNTOFJOINED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns the Designation1 property from the corresponding part
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Designation1 {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Designation1 {
@@ -26,5 +21,4 @@ property String^ Designation1 {
    String^ get();
 
 }
-```
-```
+

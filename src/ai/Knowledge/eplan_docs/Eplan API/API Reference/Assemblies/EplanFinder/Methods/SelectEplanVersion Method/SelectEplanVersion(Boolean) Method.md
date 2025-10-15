@@ -8,21 +8,16 @@ Select one EPLAN application installed on this machine. When there are more than
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SelectEplanVersion( 
 
    bool b64bit
 
 )
-```
-```
 
-```
-```
 public:
 
 String^ SelectEplanVersion( 
@@ -30,8 +25,7 @@ String^ SelectEplanVersion(
    bool b64bit
 
 )
-```
-```
+
 
 #### Parameters
 

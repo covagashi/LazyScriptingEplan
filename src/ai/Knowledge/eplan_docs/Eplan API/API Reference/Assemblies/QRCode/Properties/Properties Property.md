@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new QRCodePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property QRCodePropertyList^ Properties {
@@ -26,8 +21,7 @@ new property QRCodePropertyList^ Properties {
    QRCodePropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Associated connections: Connection: Color / number # 31031.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CDP_CON_WIRENUMBER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CDP_CON_WIRENUMBER {
@@ -28,8 +23,7 @@ property PropertyValue^ CDP_CON_WIRENUMBER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,19 +8,13 @@ Returns the error level of the message.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public IMDMessage.Classification GetCategory()
-```
-```
 
-```
-```
 public:
 
 IMDMessage.Classification GetCategory();
-```
-```
+

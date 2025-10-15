@@ -8,22 +8,16 @@ Converts this MDPropertyValue object to [Eplan.EplApi.Base.MultiLangString](Epla
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString ToMultiLangString()
-```
-```
 
-```
-```
 public:
 
 MultiLangString^ ToMultiLangString();
-```
-```
+
 
 #### Return Value
 

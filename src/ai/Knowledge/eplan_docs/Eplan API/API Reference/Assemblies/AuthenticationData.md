@@ -14,30 +14,21 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [NullableContext(1)]
 
 [Nullable(0)]
 
 public class AuthenticationData : IdentityClientResponse
-```
-```
 
-```
-```
 [NullableContext(1)]
 
 [Nullable(0)]
 
 public ref class AuthenticationData : public IdentityClientResponse
-```
-```
-
-
 
 Public Constructors
 
@@ -46,8 +37,6 @@ Public Constructors
 | Public Constructor | [AuthenticationData Constructor](Eplan.IdentityClient.Types~Eplan.IdentityClient.AuthenticationData~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

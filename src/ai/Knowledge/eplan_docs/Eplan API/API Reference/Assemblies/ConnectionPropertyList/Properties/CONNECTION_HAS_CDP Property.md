@@ -8,17 +8,12 @@ Connection definition point exists # 31089.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_HAS_CDP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_HAS_CDP {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_HAS_CDP {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

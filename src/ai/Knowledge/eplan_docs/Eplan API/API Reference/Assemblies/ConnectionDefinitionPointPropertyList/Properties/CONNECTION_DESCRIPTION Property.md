@@ -8,17 +8,12 @@ Connection description # 31009.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_DESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_DESCRIPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_DESCRIPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

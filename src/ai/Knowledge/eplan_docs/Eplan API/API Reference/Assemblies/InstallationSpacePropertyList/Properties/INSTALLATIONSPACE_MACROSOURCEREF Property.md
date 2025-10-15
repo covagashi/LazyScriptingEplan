@@ -8,17 +8,12 @@ Macro: Source / reference # 11026.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTALLATIONSPACE_MACROSOURCEREF {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTALLATIONSPACE_MACROSOURCEREF {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTALLATIONSPACE_MACROSOURCEREF {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

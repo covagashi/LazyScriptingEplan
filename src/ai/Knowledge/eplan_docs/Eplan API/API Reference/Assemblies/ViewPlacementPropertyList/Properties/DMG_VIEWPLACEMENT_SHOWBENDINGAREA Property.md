@@ -8,17 +8,12 @@ Show bending extents # 36521.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_SHOWBENDINGAREA {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_SHOWBENDINGAREA {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_SHOWBENDINGAREA {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

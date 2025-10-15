@@ -8,17 +8,12 @@ Naming format for busbars # 10073.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_NAMEFORMAT_BUSBAR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_NAMEFORMAT_BUSBAR {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_NAMEFORMAT_BUSBAR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

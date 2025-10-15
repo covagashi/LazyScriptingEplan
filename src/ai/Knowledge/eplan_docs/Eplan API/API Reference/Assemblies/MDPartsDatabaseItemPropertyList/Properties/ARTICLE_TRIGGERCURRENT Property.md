@@ -8,17 +8,12 @@ Tripping current # 22075.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TRIGGERCURRENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TRIGGERCURRENT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TRIGGERCURRENT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Nominal flow rate # 26506.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_NOMINAL_VOLUME_FLOW {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_NOMINAL_VOLUME_FLOW {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_NOMINAL_VOLUME_FLOW {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Flow rate measured under defined nominal conditions. These are the conditions for which a device was designed with regard to its application when it is not under load. The nominal flow rate indicates how many volumes of a medium (e.g., air, water) flow through a system or a component per unit of time. These are usually specified in cubic meters per hour (mÂ³/h) or liters per minute (l/min).
+Flow rate measured under defined nominal conditions. These are the conditions for which a device was designed with regard to its application when it is not under load. The nominal flow rate indicates how many volumes of a medium (e.g., air, water) flow through a system or a component per unit of time. These are usually specified in cubic meters per hour (m³/h) or liters per minute (l/min).

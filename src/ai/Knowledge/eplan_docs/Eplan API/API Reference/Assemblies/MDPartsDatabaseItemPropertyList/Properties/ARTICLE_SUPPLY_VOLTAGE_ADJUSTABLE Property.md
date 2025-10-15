@@ -8,17 +8,12 @@ Supply voltage adjustable # 26171.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SUPPLY_VOLTAGE_ADJUSTABLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SUPPLY_VOLTAGE_ADJUSTABLE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SUPPLY_VOLTAGE_ADJUSTABLE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

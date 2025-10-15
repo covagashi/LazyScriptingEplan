@@ -8,17 +8,12 @@ Manufacturing date # 10042.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_MANUFACTURINGDATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_MANUFACTURINGDATE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_MANUFACTURINGDATE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

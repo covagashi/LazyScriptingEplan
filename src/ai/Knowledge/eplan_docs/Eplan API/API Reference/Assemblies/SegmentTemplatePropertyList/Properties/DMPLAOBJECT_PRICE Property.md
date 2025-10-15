@@ -8,17 +8,12 @@ Calculation value # 44018.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_PRICE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_PRICE {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_PRICE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

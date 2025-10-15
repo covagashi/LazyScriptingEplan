@@ -17,26 +17,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MountingRail : BarBase, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class MountingRail : public BarBase, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
+
 
 Remarks
 
 Corresponding FunctionCategory for this class is CabMechBodyAccessoryInside.
-
-
 
 Public Constructors
 
@@ -45,8 +37,6 @@ Public Constructors
 | Public Constructor | [MountingRail Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.MountingRail~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

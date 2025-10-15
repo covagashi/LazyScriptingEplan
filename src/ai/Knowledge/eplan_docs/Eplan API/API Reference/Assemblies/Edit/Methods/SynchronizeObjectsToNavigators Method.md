@@ -8,21 +8,16 @@ Synchronize objects selected in GUI navigators. Groups will not be resolved, eac
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SynchronizeObjectsToNavigators( 
 
    StorableObject[] objects
 
 )
-```
-```
 
-```
-```
 public:
 
 void SynchronizeObjectsToNavigators( 
@@ -30,8 +25,7 @@ void SynchronizeObjectsToNavigators(
    array<StorableObject^>^ objects
 
 )
-```
-```
+
 
 #### Parameters
 

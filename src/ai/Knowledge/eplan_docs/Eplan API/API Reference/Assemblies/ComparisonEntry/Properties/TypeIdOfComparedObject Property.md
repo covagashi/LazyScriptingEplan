@@ -8,17 +8,12 @@ Returns type id of compared object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public uint TypeIdOfComparedObject {get;}
-```
-```
 
-```
-```
 public:
 
 property uint TypeIdOfComparedObject {
@@ -26,8 +21,7 @@ property uint TypeIdOfComparedObject {
    uint get();
 
 }
-```
-```
+
 
 #### Property Value
 

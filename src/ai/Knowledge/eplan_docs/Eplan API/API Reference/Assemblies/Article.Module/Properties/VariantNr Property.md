@@ -8,17 +8,12 @@ Returns variant number of the Module.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string VariantNr {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ VariantNr {
@@ -28,8 +23,7 @@ property String^ VariantNr {
    void set (    String^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Creates transient and not placed PlaceHolder3D object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateTransient( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateTransient( 
@@ -30,8 +25,7 @@ void CreateTransient(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

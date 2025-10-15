@@ -8,21 +8,16 @@ Storage, transport and packaging (requirement) # 26410.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_STORAGE_TRANSPORT_AND_PACKAGING_REQUIREMENT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_STORAGE_TRANSPORT_AND_PACKAGING_REQUIREMENT {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_STORAGE_TRANSPORT_AND_PACKAGING_REQUIREMENT
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

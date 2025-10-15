@@ -8,11 +8,10 @@ Copy an existing scheme.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CopyScheme( 
 
    string strSettingsSourceNodeName,
@@ -24,11 +23,7 @@ public void CopyScheme(
    MultiLangString mlTargetDescription
 
 )
-```
-```
 
-```
-```
 public:
 
 void CopyScheme( 
@@ -42,8 +37,7 @@ void CopyScheme(
    MultiLangString^ mlTargetDescription
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,20 +8,14 @@ This are the different types of a Symobol
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MDSymbol.Enums.SymbolType : System.Enum
-```
-```
 
-```
-```
 public enum class MDSymbol.Enums.SymbolType : public System.Enum
-```
-```
+
 
 Members
 

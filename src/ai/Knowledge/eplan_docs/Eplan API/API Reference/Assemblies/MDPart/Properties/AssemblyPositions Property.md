@@ -8,17 +8,12 @@ Get all Assembly positions of the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartAssemblyPosition[] AssemblyPositions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDPartAssemblyPosition^>^ AssemblyPositions {
@@ -26,8 +21,7 @@ property array<MDPartAssemblyPosition^>^ AssemblyPositions {
    array<MDPartAssemblyPosition^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

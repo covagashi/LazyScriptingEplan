@@ -8,17 +8,12 @@ Feedback contact available # 26061.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_FEEDBACK_CONTACT_PRESENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_FEEDBACK_CONTACT_PRESENT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_FEEDBACK_CONTACT_PRESENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

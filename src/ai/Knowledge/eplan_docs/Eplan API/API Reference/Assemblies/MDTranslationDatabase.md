@@ -13,26 +13,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDTranslationDatabase
-```
-```
 
-```
-```
 public ref class MDTranslationDatabase
-```
-```
+
 
 Example
 
 Following example shows how to use TranslationDatabase class.
 
-- [C#](#i-tab-content-74fb8bf1-6f63-4519-8a0a-9f0da41701e6)
+**C#**
 
 ```
 private static bool ReplaceText(string strSearchedText, ISOCode.Language eSearchedLang, string strTextToChange, ISOCode.Language eLangToChange)
@@ -45,15 +39,11 @@ private static bool ReplaceText(string strSearchedText, ISOCode.Language eSearch
 
     oTrDB.Open(false);
 
-
-
     MultiLangString oMLS = new MultiLangString();
 
     oMLS.AddString(eSearchedLang, strSearchedText);
 
     string strComment = "";
-
-
 
     bRetVal = oTrDB.FindKeyword(eSearchedLang, ref oMLS, ref strComment);
 
@@ -65,13 +55,9 @@ private static bool ReplaceText(string strSearchedText, ISOCode.Language eSearch
 
         oMLS.AddString(eLangToChange, strTextToChange);
 
-
-
         LanguageList lstLangs = new LanguageList();
 
         lstLangs.Add(eLangToChange);
-
-
 
         bRetVal = oTrDB.EditKeyword(strSearchedText, eSearchedLang, oMLS, lstLangs);
 
@@ -83,8 +69,6 @@ private static bool ReplaceText(string strSearchedText, ISOCode.Language eSearch
 
 }
 
-
-
 ```
 
 Public Constructors
@@ -94,8 +78,6 @@ Public Constructors
 | Public Constructor | [MDTranslationDatabase Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDTranslationDatabase~_ctor.html) | Constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

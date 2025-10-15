@@ -8,17 +8,12 @@ Get all Module positions of the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartModulePosition[] ModulePositions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDPartModulePosition^>^ ModulePositions {
@@ -26,8 +21,7 @@ property array<MDPartModulePosition^>^ ModulePositions {
    array<MDPartModulePosition^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

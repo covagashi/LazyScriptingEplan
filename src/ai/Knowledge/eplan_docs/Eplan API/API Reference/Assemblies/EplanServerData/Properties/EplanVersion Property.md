@@ -8,17 +8,12 @@ Eplan version
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string EplanVersion {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ EplanVersion {
@@ -28,5 +23,4 @@ property String^ EplanVersion {
    void set (    String^ value);
 
 }
-```
-```
+

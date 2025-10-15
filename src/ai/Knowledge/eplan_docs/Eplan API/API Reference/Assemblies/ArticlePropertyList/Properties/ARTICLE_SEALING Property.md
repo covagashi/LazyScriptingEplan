@@ -8,17 +8,12 @@ Sealing # 26000.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SEALING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SEALING {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SEALING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

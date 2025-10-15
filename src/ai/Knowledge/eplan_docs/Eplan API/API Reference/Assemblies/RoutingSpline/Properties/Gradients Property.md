@@ -8,17 +8,12 @@ Array of gradients an nodes of spline.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D[] Gradients {get; set;}
-```
-```
 
-```
-```
 public:
 
 property array<PointD3D>^ Gradients {
@@ -28,5 +23,4 @@ property array<PointD3D>^ Gradients {
    void set (    array<PointD3D>^ value);
 
 }
-```
-```
+

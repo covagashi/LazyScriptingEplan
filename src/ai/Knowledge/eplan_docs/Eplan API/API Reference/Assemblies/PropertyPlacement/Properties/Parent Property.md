@@ -6,17 +6,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual StorableObject Parent {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property StorableObject^ Parent {
@@ -24,5 +19,4 @@ virtual property StorableObject^ Parent {
    StorableObject^ get();
 
 }
-```
-```
+

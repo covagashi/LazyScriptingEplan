@@ -8,22 +8,16 @@ Default constructor. Creates the PropertyValue object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue()
-```
-```
 
-```
-```
 public:
 
 PropertyValue();
-```
-```
+
 
 Exceptions
 

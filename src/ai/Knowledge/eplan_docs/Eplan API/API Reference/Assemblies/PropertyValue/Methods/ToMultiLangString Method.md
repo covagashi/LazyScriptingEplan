@@ -8,22 +8,16 @@ Used in conversion of the PropertyValue object to [Eplan.EplApi.Base.MultiLangSt
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString ToMultiLangString()
-```
-```
 
-```
-```
 public:
 
 MultiLangString^ ToMultiLangString();
-```
-```
+
 
 #### Return Value
 

@@ -8,17 +8,12 @@ Get flag whether signal is separated
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsSignalSeparated {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsSignalSeparated {
@@ -26,5 +21,4 @@ property bool IsSignalSeparated {
    bool get();
 
 }
-```
-```
+

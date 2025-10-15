@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDEmptyPropertyException : MasterDataException
-```
-```
 
-```
-```
 public ref class MDEmptyPropertyException : public MasterDataException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [MDEmptyPropertyException Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDEmptyPropertyException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Settings : ISettings
-```
-```
 
-```
-```
 public ref class Settings : public ISettings
-```
-```
+
 
 Remarks
 
@@ -36,7 +30,7 @@ Example
 
 Access to a setting of the system
 
-- [C#](#i-tab-content-2ea6081b-b78a-42ff-a122-d825f8462986)
+**C#**
 
 ```
 try
@@ -67,9 +61,6 @@ Public Constructors
 | Public Constructor | [Settings Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Settings~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

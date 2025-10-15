@@ -8,21 +8,16 @@ Attributes # 22051.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_ATTRIBUTE_VALUE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_ATTRIBUTE_VALUE {
@@ -32,8 +27,7 @@ property PropertyValue^ ARTICLE_ATTRIBUTE_VALUE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

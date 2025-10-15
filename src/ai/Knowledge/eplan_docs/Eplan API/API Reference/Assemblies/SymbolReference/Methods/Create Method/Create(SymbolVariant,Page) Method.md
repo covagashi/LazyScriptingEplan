@@ -8,11 +8,10 @@ Creates a SymbolReference or more specialized object derived from it, depending 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static SymbolReference Create( 
 
    SymbolVariant symbVariant,
@@ -20,11 +19,7 @@ public static SymbolReference Create(
    Page page
 
 )
-```
-```
 
-```
-```
 public:
 
 static SymbolReference^ Create( 
@@ -34,8 +29,7 @@ static SymbolReference^ Create(
    Page^ page
 
 )
-```
-```
+
 
 #### Parameters
 

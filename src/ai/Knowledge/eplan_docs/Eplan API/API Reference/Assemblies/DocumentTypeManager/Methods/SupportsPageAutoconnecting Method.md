@@ -8,21 +8,16 @@ Determines if a page supports auto-connecting.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static bool SupportsPageAutoconnecting( 
 
    DocumentTypeManager.DocumentType nPageType
 
 )
-```
-```
 
-```
-```
 public:
 
 static bool SupportsPageAutoconnecting( 
@@ -30,8 +25,7 @@ static bool SupportsPageAutoconnecting(
    DocumentTypeManager.DocumentType nPageType
 
 )
-```
-```
+
 
 #### Parameters
 

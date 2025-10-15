@@ -8,17 +8,12 @@ Position and rotation relative to the parent placement represented by transforma
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Matrix3D RelativeTransformation {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Matrix3D RelativeTransformation {
@@ -28,9 +23,8 @@ property Matrix3D RelativeTransformation {
    void set (    Matrix3D value);
 
 }
-```
-```
+
 
 Remarks
 
-Calculated in relation to origin of parent placementÃ¢â¬â¢s coordinate system. For more information see the chapter: [API\_Pro\_Panel](API_Pro_Panel.html). Currently scaling 3d objects in P8 is not supported, therefore setting cell `M33` to value different then `1` may cause incorrect result.
+Calculated in relation to origin of parent placementÃ¢'¬'¢s coordinate system. For more information see the chapter: [API\_Pro\_Panel](API_Pro_Panel.html). Currently scaling 3d objects in P8 is not supported, therefore setting cell `M33` to value different then `1` may cause incorrect result.

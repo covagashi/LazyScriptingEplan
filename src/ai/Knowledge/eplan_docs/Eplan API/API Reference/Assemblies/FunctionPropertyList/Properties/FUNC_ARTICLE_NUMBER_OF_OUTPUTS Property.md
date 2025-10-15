@@ -8,21 +8,16 @@ Number of outputs # 31177.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_NUMBER_OF_OUTPUTS( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_NUMBER_OF_OUTPUTS {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_NUMBER_OF_OUTPUTS {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Maximum number of wires that can be connected.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int MaxWireCount {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int MaxWireCount {
@@ -28,5 +23,4 @@ property int MaxWireCount {
    void set (    int value);
 
 }
-```
-```
+

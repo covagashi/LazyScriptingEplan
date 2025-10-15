@@ -13,26 +13,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class EplAssert
-```
-```
 
-```
-```
 public ref class EplAssert
-```
-```
+
 
 Example
 
 Example of EplAssert:
 
-- [C#](#i-tab-content-d5cb8262-2c45-4a0d-ab1c-3e96a3f5b8a3)
+**C#**
 
 ```
 object testObject = null;
@@ -49,9 +43,6 @@ Public Constructors
 | Public Constructor | [EplAssert Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.EplAssert~_ctor.html) |  |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

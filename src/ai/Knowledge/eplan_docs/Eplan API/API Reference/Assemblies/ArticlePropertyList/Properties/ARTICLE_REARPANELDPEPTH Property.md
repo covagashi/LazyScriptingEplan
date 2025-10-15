@@ -8,17 +8,12 @@ Rear panel: Depth # 22174.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_REARPANELDPEPTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_REARPANELDPEPTH {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_REARPANELDPEPTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

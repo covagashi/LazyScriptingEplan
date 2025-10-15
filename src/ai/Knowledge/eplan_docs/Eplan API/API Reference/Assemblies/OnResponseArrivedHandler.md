@@ -8,28 +8,22 @@ Represents the method that will be invoked when Eplan Server sends a response to
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public delegate void OnResponseArrivedHandler( 
 
    EplanResponse response
 
 )
-```
-```
 
-```
-```
 public delegate void OnResponseArrivedHandler( 
 
    EplanResponse^ response
 
 )
-```
-```
+
 
 #### Parameters
 

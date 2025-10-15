@@ -8,17 +8,12 @@ Model view: Description # 36500.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_DESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_DESCRIPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_DESCRIPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

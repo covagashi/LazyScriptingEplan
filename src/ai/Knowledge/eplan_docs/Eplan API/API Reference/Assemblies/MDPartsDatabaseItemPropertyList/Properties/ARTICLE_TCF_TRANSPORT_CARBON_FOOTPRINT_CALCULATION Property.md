@@ -8,17 +8,12 @@ TCF: Calculation # 26604.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TCF_TRANSPORT_CARBON_FOOTPRINT_CALCULATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TCF_TRANSPORT_CARBON_FOOTPRINT_CALCULATION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TCF_TRANSPORT_CARBON_FOOTPRINT_CALCULATION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Gets property id value as [Properties.RoutedConnection](Eplan.EplApi.DataModelu~
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.RoutedConnection AsRoutedConnection {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.RoutedConnection AsRoutedConnection {
@@ -26,5 +21,4 @@ property Properties.RoutedConnection AsRoutedConnection {
    Properties.RoutedConnection get();
 
 }
-```
-```
+

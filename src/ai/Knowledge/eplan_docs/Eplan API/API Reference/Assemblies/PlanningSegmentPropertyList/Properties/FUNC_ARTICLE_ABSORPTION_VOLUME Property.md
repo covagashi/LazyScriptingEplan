@@ -8,21 +8,16 @@ Dynamic viscosity: Accuracy # 26363.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_ACCURACY_FOR_DYNAMIC_VISCOSITY( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_ACCURACY_FOR_DYNAMIC_VISCOSITY {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_ACCURACY_FOR_DYNAMIC_VISCOSITY {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

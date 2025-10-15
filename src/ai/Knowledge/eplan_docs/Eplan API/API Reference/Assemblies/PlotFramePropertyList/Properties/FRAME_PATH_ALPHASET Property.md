@@ -8,21 +8,16 @@ String for column designation # 12027.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_PATH_ALPHASET( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_PATH_ALPHASET {
@@ -32,8 +27,7 @@ property PropertyValue^ FRAME_PATH_ALPHASET {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

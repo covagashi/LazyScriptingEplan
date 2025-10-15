@@ -8,17 +8,12 @@ Part number that the distributed main terminal with 'PE' potential will get. If 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PartNumberTerminalPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PartNumberTerminalPE {
@@ -28,5 +23,4 @@ property String^ PartNumberTerminalPE {
    void set (    String^ value);
 
 }
-```
-```
+

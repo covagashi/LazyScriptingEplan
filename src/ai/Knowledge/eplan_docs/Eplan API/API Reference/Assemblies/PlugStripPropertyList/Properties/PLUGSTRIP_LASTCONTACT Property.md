@@ -8,17 +8,12 @@ Plugs: Last pin # 35204.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PLUGSTRIP_LASTCONTACT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PLUGSTRIP_LASTCONTACT {
@@ -28,8 +23,7 @@ property PropertyValue^ PLUGSTRIP_LASTCONTACT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

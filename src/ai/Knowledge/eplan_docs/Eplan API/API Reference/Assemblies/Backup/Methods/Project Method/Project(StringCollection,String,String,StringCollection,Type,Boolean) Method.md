@@ -8,11 +8,10 @@ All wires in cable are assigned to a matching template of the cable or shielding
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DoReassignWires( 
 
    Function oFunction,
@@ -24,11 +23,7 @@ public void DoReassignWires(
    AnyPropertyId[] arrListOfExcludedAnyPropertyIds
 
 )
-```
-```
 
-```
-```
 public:
 
 void DoReassignWires( 
@@ -42,8 +37,7 @@ void DoReassignWires(
    array<AnyPropertyId^>^ arrListOfExcludedAnyPropertyIds
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -17,24 +17,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class IndexedPropertyException : DataModelException
-```
-```
 
-```
-```
 public ref class IndexedPropertyException : public DataModelException
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-64b96343-b984-44c9-a6a3-5f6900bebbf1)
+**C#**
 
 ```
 ProperyList x = ... ;
@@ -42,7 +36,7 @@ ProperyList x = ... ;
 string value = x[ INDEXED_PROPERTY ] ; // throws IndexedPropertyException
 ```
 
-- [C#](#i-tab-content-02465545-610c-41cc-93a8-6be5a3e97429)
+**C#**
 
 ```
 PropertyList x = ... ;
@@ -50,7 +44,7 @@ PropertyList x = ... ;
 string value = x[ INDEXED_PROPERTY , 1 ]; // if such property hasn' t such index (1) exception PropertyNotFoundException will be thrown.
 ```
 
-- [C#](#i-tab-content-de07fa34-5412-4939-a058-cc395c9f9962)
+**C#**
 
 ```
 PropertyValue x = ...;
@@ -58,7 +52,7 @@ PropertyValue x = ...;
 string value = x; // throws IndexedPropertyException
 ```
 
-- [C#](#i-tab-content-1c5d852c-7c89-40ec-8dd3-29a097189a14)
+**C#**
 
 ```
 PropertyValue x = ... ;
@@ -73,8 +67,6 @@ Public Constructors
 | Public Constructor | [IndexedPropertyException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IndexedPropertyException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ Address range (SIEMENS STEP 7 Classic) # 20432.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCADDRESSRANGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCADDRESSRANGE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCADDRESSRANGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Surface coating # 26056.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SURFACE_COATING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SURFACE_COATING {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SURFACE_COATING {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

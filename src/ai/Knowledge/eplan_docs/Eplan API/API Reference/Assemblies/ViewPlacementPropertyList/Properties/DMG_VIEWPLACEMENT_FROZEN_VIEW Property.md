@@ -8,17 +8,12 @@ Model view: Frozen # 36502.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_FROZEN_VIEW {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_FROZEN_VIEW {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_FROZEN_VIEW {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,28 +8,22 @@ For internal use only.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool IsExecutable( 
 
    string strExpression
 
 )
-```
-```
 
-```
-```
 bool IsExecutable( 
 
    String^ strExpression
 
 )
-```
-```
+
 
 #### Parameters
 

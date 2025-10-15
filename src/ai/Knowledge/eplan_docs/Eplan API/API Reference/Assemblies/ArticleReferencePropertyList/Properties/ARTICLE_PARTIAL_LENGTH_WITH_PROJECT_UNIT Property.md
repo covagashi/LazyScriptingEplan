@@ -8,17 +8,12 @@ Subset / length with unit of project # 20506.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PARTIAL_LENGTH_WITH_PROJECT_UNIT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PARTIAL_LENGTH_WITH_PROJECT_UNIT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PARTIAL_LENGTH_WITH_PROJECT_UNIT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

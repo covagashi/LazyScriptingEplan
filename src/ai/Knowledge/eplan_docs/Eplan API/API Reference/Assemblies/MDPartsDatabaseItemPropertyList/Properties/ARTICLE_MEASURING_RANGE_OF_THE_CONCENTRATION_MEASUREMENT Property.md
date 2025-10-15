@@ -8,17 +8,12 @@ Measuring range: Concentration measurement # 26448.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_MEASURING_RANGE_OF_THE_CONCENTRATION_MEASUREMENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_MEASURING_RANGE_OF_THE_CONCENTRATION_MEASUREMENT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_MEASURING_RANGE_OF_THE_CONCENTRATION_MEASUREME
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

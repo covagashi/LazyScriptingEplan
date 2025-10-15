@@ -8,17 +8,12 @@ Design of attachment point # 26226.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_DESIGN_OF_THE_FIXING_POINT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_DESIGN_OF_THE_FIXING_POINT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_DESIGN_OF_THE_FIXING_POINT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Project structure: Product # 10099.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_HIERARCHY_PRODUCT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_HIERARCHY_PRODUCT {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_HIERARCHY_PRODUCT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Permissible cable outer temperature (fixed installation), max. # 26177.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PERMISSIBLE_EXTERNAL_CABLE_TEMPERATURE_FIXED_INSTALLATION_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PERMISSIBLE_EXTERNAL_CABLE_TEMPERATURE_FIXED_INSTALLATION_MAX {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PERMISSIBLE_EXTERNAL_CABLE_TEMPERATURE_FIXED_I
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

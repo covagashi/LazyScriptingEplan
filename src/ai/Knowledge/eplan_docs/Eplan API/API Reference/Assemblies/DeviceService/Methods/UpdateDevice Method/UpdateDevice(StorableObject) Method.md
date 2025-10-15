@@ -8,21 +8,16 @@ Updates a given device or a connection with data from the referenced article(s).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool UpdateDevice( 
 
    StorableObject oObject
 
 )
-```
-```
 
-```
-```
 public:
 
 bool UpdateDevice( 
@@ -30,8 +25,7 @@ bool UpdateDevice(
    StorableObject^ oObject
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -57,7 +51,7 @@ Component-specific data will be transfered from article to main-function, functi
 
 Example
 
-- [C#](#i-tab-content-14d6b348-7a3f-4a0d-9ed1-b29ebaec5dd7)
+**C#**
 
 ```
 //create main cable
@@ -70,30 +64,18 @@ oCable.Properties.FUNC_CABLETYPE = "Unknown type";
 
 oCable.Location = new PointD(60.00, 70.00);
 
-
-
 //structure part of cable name can't be empty
 
 oCable.Name = "=EB3+ET1-W1";
-
-
 
 //add part to cable
 
 ArticleReference oArticleReference = oCable.AddArticleReference(partName);
 
-
-
 //update the cable with properties from new part
 
 new DeviceService().UpdateDevice(oCable);
 
-
-
 //oCable.Properties.FUNC_CABLETYPE == 'ZB3200'
-
-
-
-
 
 ```

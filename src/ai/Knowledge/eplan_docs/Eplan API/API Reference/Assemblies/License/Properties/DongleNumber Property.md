@@ -8,17 +8,12 @@ Get the dongle number
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string DongleNumber {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ DongleNumber {
@@ -26,8 +21,7 @@ property String^ DongleNumber {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

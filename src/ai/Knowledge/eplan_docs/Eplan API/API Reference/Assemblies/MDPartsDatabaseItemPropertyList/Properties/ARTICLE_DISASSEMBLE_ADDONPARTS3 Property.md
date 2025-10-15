@@ -8,17 +8,12 @@ Include supplemental parts (summarized parts list / manufacturing data) # 22419.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_DISASSEMBLE_ADDONPARTS3 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_DISASSEMBLE_ADDONPARTS3 {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_DISASSEMBLE_ADDONPARTS3 {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

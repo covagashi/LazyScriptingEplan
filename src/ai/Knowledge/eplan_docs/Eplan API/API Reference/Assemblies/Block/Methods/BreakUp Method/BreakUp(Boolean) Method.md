@@ -8,21 +8,16 @@ Breaks up the block into its individual elements, also recursively.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement[] BreakUp( 
 
    bool bRecursively
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Placement^>^ BreakUp( 
@@ -30,8 +25,7 @@ array<Placement^>^ BreakUp(
    bool bRecursively
 
 )
-```
-```
+
 
 #### Parameters
 

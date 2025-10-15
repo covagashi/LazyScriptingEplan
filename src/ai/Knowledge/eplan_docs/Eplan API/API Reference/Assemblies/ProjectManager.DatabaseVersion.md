@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ProjectManager.DatabaseVersion
-```
-```
 
-```
-```
 public ref class ProjectManager.DatabaseVersion
-```
-```
-
-
 
 Public Constructors
 
@@ -38,9 +29,6 @@ Public Constructors
 
 [Top](#top)
 
-
-
-
 Public Methods
 
 |  | Name | Description |
@@ -49,8 +37,6 @@ Public Methods
 | Public Method | [ToString](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager+DatabaseVersion~ToString.html) | Returns a string that represents the current object. |
 
 [Top](#top)
-
-
 
 Public Operators
 

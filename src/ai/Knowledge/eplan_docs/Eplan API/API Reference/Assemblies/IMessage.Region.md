@@ -8,20 +8,14 @@ Predefined regions for project messages; every project message must be assigned 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum IMessage.Region : System.Enum
-```
-```
 
-```
-```
 public enum class IMessage.Region : public System.Enum
-```
-```
+
 
 Members
 

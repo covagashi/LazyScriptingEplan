@@ -8,17 +8,12 @@ If true, the viewplacement is still uptodate
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsUpToDate {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsUpToDate {
@@ -26,5 +21,4 @@ property bool IsUpToDate {
    bool get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Allows to check maximal index value of given property.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override int MaxIndex {get;}
-```
-```
 
-```
-```
 public:
 
 property int MaxIndex {
@@ -26,8 +21,7 @@ property int MaxIndex {
    int get() override;
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -45,12 +39,10 @@ Should be called only on MDPropertyDefiniton objects with valid Id.
 
 Example
 
-- [C#](#i-tab-content-b4dba539-262e-41fb-9a86-a6c9ab84164e)
+**C#**
 
 ```
 MDPart oPart = m_MDPartsDatabase.Parts[0]; //a valid part object
-
-
 
 //a valid call
 

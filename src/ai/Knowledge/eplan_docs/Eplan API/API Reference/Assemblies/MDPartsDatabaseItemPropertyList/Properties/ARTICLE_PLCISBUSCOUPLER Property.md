@@ -8,17 +8,12 @@ Bus coupler / head station # 22019.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PLCISBUSCOUPLER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PLCISBUSCOUPLER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PLCISBUSCOUPLER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

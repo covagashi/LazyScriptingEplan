@@ -8,17 +8,12 @@ PLC subdevice 9: PLC type designation # 22348.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PLCGROUP_TYPIDENTIFIER_9 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PLCGROUP_TYPIDENTIFIER_9 {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PLCGROUP_TYPIDENTIFIER_9 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Creates new rectangle drilling in project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateRectangle( 
 
    Project pProject,
@@ -22,11 +21,7 @@ public void CreateRectangle(
    double dHeight
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateRectangle( 
@@ -38,8 +33,7 @@ void CreateRectangle(
    double dHeight
 
 )
-```
-```
+
 
 #### Parameters
 

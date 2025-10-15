@@ -8,11 +8,10 @@ Creates transient and not placed routing accessory object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateTransient( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public void CreateTransient(
    double dDiameter
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateTransient( 
@@ -42,8 +37,7 @@ void CreateTransient(
    double dDiameter
 
 )
-```
-```
+
 
 #### Parameters
 

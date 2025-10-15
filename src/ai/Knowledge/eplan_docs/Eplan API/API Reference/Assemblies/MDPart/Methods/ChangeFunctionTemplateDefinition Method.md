@@ -8,11 +8,10 @@ Changes function definition of a function template position
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ChangeFunctionTemplateDefinition( 
 
    ref MDFunctionTemplatePosition functionTemplatePosition,
@@ -24,11 +23,7 @@ public void ChangeFunctionTemplateDefinition(
    short id
 
 )
-```
-```
 
-```
-```
 public:
 
 void ChangeFunctionTemplateDefinition( 
@@ -42,8 +37,7 @@ void ChangeFunctionTemplateDefinition(
    short id
 
 )
-```
-```
+
 
 #### Parameters
 

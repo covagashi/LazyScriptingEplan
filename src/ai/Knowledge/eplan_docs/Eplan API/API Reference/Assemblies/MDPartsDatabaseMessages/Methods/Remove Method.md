@@ -8,21 +8,16 @@ Removes the first occurrence of a message from the `MDPartsDatabaseMessages`.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool Remove( 
 
    MDPartsMessage msg
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual bool Remove( 
@@ -30,8 +25,7 @@ virtual bool Remove(
    MDPartsMessage^ msg
 
 )
-```
-```
+
 
 #### Parameters
 

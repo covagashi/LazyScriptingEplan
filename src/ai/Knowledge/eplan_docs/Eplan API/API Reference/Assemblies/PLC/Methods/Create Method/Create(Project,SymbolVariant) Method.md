@@ -8,11 +8,10 @@ Creates a Function. It is not placed on any [Eplan.EplApi.DataModel.Page](Eplan.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override void Create( 
 
    Project prj,
@@ -20,11 +19,7 @@ public override void Create(
    SymbolVariant variant
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -34,8 +29,7 @@ void Create(
    SymbolVariant^ variant
 
 ) override
-```
-```
+
 
 #### Parameters
 

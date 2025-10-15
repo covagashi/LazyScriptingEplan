@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class TransactionManager
-```
-```
 
-```
-```
 public ref class TransactionManager
-```
-```
+
 
 Remarks
 
@@ -36,7 +30,7 @@ Example
 
 Transaction manager usage example.
 
-- [C#](#i-tab-content-393e4942-fc6b-4347-abe0-0ac96c4ff189)
+**C#**
 
 ```
 using (Transaction txn = new TransactionManager().CreateTransaction())
@@ -59,8 +53,6 @@ Public Constructors
 | Public Constructor | [TransactionManager Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.TransactionManager~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

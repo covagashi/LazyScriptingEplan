@@ -14,8 +14,8 @@ The  Eplan.EplApi.EServices.Message class declares 3 functions:
 2. The  GetMessageText()  function returns the message text that is displayed in dialogs if requested by Eplan.
 3. The  DoHelp()  function is called by the system if Eplan requests help on the message.
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
@@ -66,11 +66,6 @@ public class Message1 : Eplan.EplApi.EServices.Message
 
 }
 
-```
-
-```
-
-
 Public Class Message1
 
    Implements Eplan.EplApi.EServices.Message
@@ -95,8 +90,6 @@ Public Class Message1
 
    End Sub 'OnRegister
 
-
-
    Public Function GetMessageText() As System.String Implements Eplan.EplApi.EServices.IMessage.GetMessageText
 
       ' TODO: Provide text from resource in active GUI language
@@ -104,8 +97,6 @@ Public Class Message1
       Return "Message text for %1!s! from Eplan.EplAddIn.Demo.Messages"
 
    End Function 'GetMessageText
-
-
 
    Public Sub DoHelp() Eplan.EplApi.EServices.IMessage.DoHelp
 
@@ -125,27 +116,21 @@ It is also possible to create such classes automatically using the Eplan API Add
 
 A registered message can be now added to the message management of Eplan using the PrjMessagesCollection class.
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
 
 var projectMessageCollection = new PrjMessagesCollection(myProject);
 
-
-
 IMessage.Region region = IMessage.Region.Externals;
 
 int messageId = 25;
 
-
-
 var storableObject1 = myProjectPage.Functions[0] as StorableObject;
 
 var storableObject2 = myProjectPage.Functions[1] as StorableObject;
-
-
 
 //Add new message using AddMessage method
 
@@ -165,38 +150,23 @@ projectMessageCollection.AddMessage(
 
     "additional info 2");
 
-
-
 //or using BaseProjectMessage class
 
 var newMessage = new BaseProjectMessage(region, messageId, "param text 2", "BECK.BK3100", "additional info 2");
 
 projectMessageCollection.Add(newMessage);
 
-```
-
-```
-
-
 Dim projectMessageCollection = New PrjMessagesCollection(myProject)
-
-
 
 Dim region As IMessage.Region = IMessage.Region.Externals
 
 Dim messageId As Integer = 25
 
-
-
 Dim storableObject1 = TryCast(myProjectPage.Functions(0), StorableObject)
 
 Dim storableObject2 = TryCast(myProjectPage.Functions(1), StorableObject)
 
-
-
 projectMessageCollection.AddMessage(region, messageId, "param text 1", storableObject1, True, storableObject2, "additional info 2")
-
-
 
 Dim newMessage = New BaseProjectMessage(region, messageId, "param text 2", "BECK.BK3100", "additional info 2")
 
@@ -210,10 +180,8 @@ It is **not** possible to change an existing verification by overriding it via A
 
 The following example shows how to override the existing message 007005 "Device without main function.":
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- /// This function returns the message text.
+```csharp
+/// This function returns the message text.
  /// One verification needs always exactly one message text
  public string GetMessageText()
  {
@@ -234,4 +202,4 @@ The following example shows how to override the existing message 007005 "Device 
     eClassification = IMessage.Classification.Error;
     iOrdinal = 50; // Higher than 20
  }
- ``` | |
+```

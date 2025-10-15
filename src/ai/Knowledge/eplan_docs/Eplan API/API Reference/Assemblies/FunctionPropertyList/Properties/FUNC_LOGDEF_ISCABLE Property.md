@@ -8,21 +8,16 @@ Connection point logic: Cable connection point # 20322.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_LOGDEF_ISCABLE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_LOGDEF_ISCABLE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_LOGDEF_ISCABLE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

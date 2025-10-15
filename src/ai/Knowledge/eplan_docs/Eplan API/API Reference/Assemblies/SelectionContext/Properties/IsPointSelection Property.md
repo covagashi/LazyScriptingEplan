@@ -8,17 +8,12 @@ Returns true, if point has been selected.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsPointSelection {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsPointSelection {
@@ -26,5 +21,4 @@ property bool IsPointSelection {
    bool get();
 
 }
-```
-```
+

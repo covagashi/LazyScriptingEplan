@@ -8,11 +8,10 @@ Exports given installation spaces into files in STEP format.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool InstallationSpacesToStep( 
 
    IEnumerable<InstallationSpace> listInstallationSpaces,
@@ -24,11 +23,7 @@ public bool InstallationSpacesToStep(
    string strScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 bool InstallationSpacesToStep( 
@@ -42,8 +37,7 @@ bool InstallationSpacesToStep(
    String^ strScheme
 
 )
-```
-```
+
 
 #### Parameters
 

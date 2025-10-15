@@ -8,17 +8,12 @@ Control range (full) # 22231.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_ADJUSTRANGE_FULL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_ADJUSTRANGE_FULL {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_ADJUSTRANGE_FULL {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

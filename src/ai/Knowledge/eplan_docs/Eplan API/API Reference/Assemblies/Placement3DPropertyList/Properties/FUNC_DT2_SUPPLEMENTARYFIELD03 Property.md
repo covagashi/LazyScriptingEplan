@@ -8,17 +8,12 @@ DT (subordinate): Supplementary field 3 # 20178.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DT2_SUPPLEMENTARYFIELD03 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DT2_SUPPLEMENTARYFIELD03 {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DT2_SUPPLEMENTARYFIELD03 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Connection point logic: Transfer potential to # 20326.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_LOGDEF_POTENTIALTRANSFER( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_LOGDEF_POTENTIALTRANSFER {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_LOGDEF_POTENTIALTRANSFER {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

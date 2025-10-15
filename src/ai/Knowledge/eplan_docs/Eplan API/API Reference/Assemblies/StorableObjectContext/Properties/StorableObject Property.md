@@ -8,17 +8,12 @@ Set or get a Storable Object for this context
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject StorableObject {get; set;}
-```
-```
 
-```
-```
 public:
 
 property StorableObject^ StorableObject {
@@ -28,5 +23,4 @@ property StorableObject^ StorableObject {
    void set (    StorableObject^ value);
 
 }
-```
-```
+

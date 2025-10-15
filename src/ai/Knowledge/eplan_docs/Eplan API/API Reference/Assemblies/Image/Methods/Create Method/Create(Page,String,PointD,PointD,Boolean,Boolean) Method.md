@@ -8,11 +8,10 @@ Creates the Image object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Page page,
@@ -28,11 +27,7 @@ public void Create(
    bool bOverWrite
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -50,8 +45,7 @@ void Create(
    bool bOverWrite
 
 )
-```
-```
+
 
 #### Parameters
 

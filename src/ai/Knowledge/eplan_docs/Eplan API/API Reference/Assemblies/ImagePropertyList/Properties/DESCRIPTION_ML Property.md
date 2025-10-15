@@ -8,17 +8,12 @@ Image file: Description # 19306.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESCRIPTION_ML {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESCRIPTION_ML {
@@ -28,8 +23,7 @@ property PropertyValue^ DESCRIPTION_ML {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

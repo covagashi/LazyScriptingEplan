@@ -8,19 +8,13 @@ Called by EPLAN when the help text to the message should be shown. the function 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public abstract void DoHelp()
-```
-```
 
-```
-```
 public:
 
 abstract void DoHelp();
-```
-```
+

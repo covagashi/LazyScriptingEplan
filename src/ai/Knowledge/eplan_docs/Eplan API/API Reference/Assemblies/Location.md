@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Location : StorableObject, IWriteProtection
-```
-```
 
-```
-```
 public ref class Location : public StorableObject, IWriteProtection
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [Location Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Location~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

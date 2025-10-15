@@ -6,17 +6,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new PlcIOPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property PlcIOPropertyList^ Properties {
@@ -24,5 +19,4 @@ new property PlcIOPropertyList^ Properties {
    PlcIOPropertyList^ get();
 
 }
-```
-```
+

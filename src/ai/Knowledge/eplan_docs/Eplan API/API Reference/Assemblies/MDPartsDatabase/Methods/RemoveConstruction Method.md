@@ -8,21 +8,16 @@ Removes a construction out of the parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveConstruction( 
 
    MDConstruction construction
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveConstruction( 
@@ -30,8 +25,7 @@ void RemoveConstruction(
    MDConstruction^ construction
 
 )
-```
-```
+
 
 #### Parameters
 

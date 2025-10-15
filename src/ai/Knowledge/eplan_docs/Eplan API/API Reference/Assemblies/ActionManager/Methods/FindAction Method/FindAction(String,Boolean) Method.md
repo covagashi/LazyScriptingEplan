@@ -8,11 +8,10 @@ This function searches for an action registered in the system.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Action FindAction( 
 
    string strNameOfAction,
@@ -20,11 +19,7 @@ public Action FindAction(
    bool bSilent
 
 )
-```
-```
 
-```
-```
 public:
 
 Action^ FindAction( 
@@ -34,8 +29,7 @@ Action^ FindAction(
    bool bSilent
 
 )
-```
-```
+
 
 #### Parameters
 

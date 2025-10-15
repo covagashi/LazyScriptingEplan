@@ -8,21 +8,16 @@ Returns a list of PLC config. projects included in the EPLAN P8's project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string[] GetPLCConfigurationProjects( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 array<String^>^ GetPLCConfigurationProjects( 
@@ -30,8 +25,7 @@ array<String^>^ GetPLCConfigurationProjects(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

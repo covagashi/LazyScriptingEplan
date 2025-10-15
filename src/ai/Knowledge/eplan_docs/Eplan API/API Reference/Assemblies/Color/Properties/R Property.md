@@ -8,17 +8,12 @@ Gets or sets the red channel value of color (0-255)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public byte R {get; set;}
-```
-```
 
-```
-```
 public:
 
 property byte R {
@@ -28,5 +23,4 @@ property byte R {
    void set (    byte value);
 
 }
-```
-```
+

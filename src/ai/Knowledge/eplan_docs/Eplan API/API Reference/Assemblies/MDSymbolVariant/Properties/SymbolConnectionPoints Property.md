@@ -8,17 +8,12 @@ A read only list of all MDSymbolConnectionPoints from the variant.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDSymbolConnectionPoint[] SymbolConnectionPoints {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDSymbolConnectionPoint^>^ SymbolConnectionPoints {
@@ -26,8 +21,7 @@ property array<MDSymbolConnectionPoint^>^ SymbolConnectionPoints {
    array<MDSymbolConnectionPoint^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

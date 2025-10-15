@@ -8,17 +8,12 @@ Functional assignment (sub-identifier 9) # 1309.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_SUBFUNCTIONALASSIGNMENT9 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_SUBFUNCTIONALASSIGNMENT9 {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_SUBFUNCTIONALASSIGNMENT9 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

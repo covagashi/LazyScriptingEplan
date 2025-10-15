@@ -8,17 +8,12 @@ Returns [TerminalStrip](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TerminalStrip TerminalStrip {get;}
-```
-```
 
-```
-```
 public:
 
 property TerminalStrip^ TerminalStrip {
@@ -26,8 +21,7 @@ property TerminalStrip^ TerminalStrip {
    TerminalStrip^ get();
 
 }
-```
-```
+
 
 Exceptions
 

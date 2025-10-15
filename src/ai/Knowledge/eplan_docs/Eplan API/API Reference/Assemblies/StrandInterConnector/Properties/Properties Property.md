@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new StrandInterConnectorPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property StrandInterConnectorPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property StrandInterConnectorPropertyList^ Properties {
    StrandInterConnectorPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

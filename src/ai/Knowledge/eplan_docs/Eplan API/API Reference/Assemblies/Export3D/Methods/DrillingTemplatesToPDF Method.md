@@ -8,11 +8,10 @@ Exports drillings of a 3d objects as templates into PDF files.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool DrillingTemplatesToPDF( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public bool DrillingTemplatesToPDF(
    IEnumerable<Placement3D> oCollection
 
 )
-```
-```
 
-```
-```
 public:
 
 bool DrillingTemplatesToPDF( 
@@ -46,8 +41,7 @@ bool DrillingTemplatesToPDF(
    IEnumerable<Placement3D^>^ oCollection
 
 )
-```
-```
+
 
 #### Parameters
 

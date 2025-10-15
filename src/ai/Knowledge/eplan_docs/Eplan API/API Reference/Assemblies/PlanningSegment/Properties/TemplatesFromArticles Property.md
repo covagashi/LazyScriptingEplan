@@ -8,17 +8,12 @@ Returns set of templates from articles assigned to this object or to its segment
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] TemplatesFromArticles {get;}
-```
-```
 
-```
-```
 public:
 
 property array<StorableObject^>^ TemplatesFromArticles {
@@ -26,8 +21,7 @@ property array<StorableObject^>^ TemplatesFromArticles {
    array<StorableObject^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

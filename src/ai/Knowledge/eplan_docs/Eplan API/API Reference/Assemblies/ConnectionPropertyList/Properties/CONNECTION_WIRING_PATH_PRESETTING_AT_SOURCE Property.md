@@ -8,17 +8,12 @@ Layout space: Specification for entry into routing path network (source) # 31100
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_WIRING_PATH_PRESETTING_AT_SOURCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_WIRING_PATH_PRESETTING_AT_SOURCE {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_WIRING_PATH_PRESETTING_AT_SOURCE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

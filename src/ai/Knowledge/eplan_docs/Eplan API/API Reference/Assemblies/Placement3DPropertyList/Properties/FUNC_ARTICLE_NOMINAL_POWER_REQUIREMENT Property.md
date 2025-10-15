@@ -8,21 +8,16 @@ Nominal power requirement # 26485.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_NOMINAL_POWER_REQUIREMENT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_NOMINAL_POWER_REQUIREMENT {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_NOMINAL_POWER_REQUIREMENT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

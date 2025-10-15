@@ -8,17 +8,12 @@ Enables access to P8 properties of the project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new ProjectPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property ProjectPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property ProjectPropertyList^ Properties {
    ProjectPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

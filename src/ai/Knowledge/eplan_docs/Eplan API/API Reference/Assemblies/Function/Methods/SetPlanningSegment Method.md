@@ -8,11 +8,10 @@ Assigns [Eplan.EplApi.DataModel.Planning.PlanningSegment](Eplan.EplApi.DataModel
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetPlanningSegment( 
 
    PlanningSegment pPlanningSegment,
@@ -20,11 +19,7 @@ public void SetPlanningSegment(
    bool bWriteArticleRefToFunction
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetPlanningSegment( 
@@ -34,8 +29,7 @@ void SetPlanningSegment(
    bool bWriteArticleRefToFunction
 
 )
-```
-```
+
 
 #### Parameters
 

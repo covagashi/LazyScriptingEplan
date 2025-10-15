@@ -8,17 +8,12 @@ Data transfer rate # 20313.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLC_TRANSMISSIONRATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLC_TRANSMISSIONRATE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLC_TRANSMISSIONRATE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

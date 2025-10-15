@@ -8,17 +8,12 @@ Gets Layer Id.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short Id {get;}
-```
-```
 
-```
-```
 public:
 
 property short Id {
@@ -26,8 +21,7 @@ property short Id {
    short get();
 
 }
-```
-```
+
 
 #### Property Value
 

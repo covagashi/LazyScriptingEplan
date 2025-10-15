@@ -8,17 +8,12 @@ Set or get the openfileflag. Set this flag when you want to open a file Do not s
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool OpenFileFlag {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool OpenFileFlag {
@@ -28,5 +23,4 @@ property bool OpenFileFlag {
    void set (    bool value);
 
 }
-```
-```
+

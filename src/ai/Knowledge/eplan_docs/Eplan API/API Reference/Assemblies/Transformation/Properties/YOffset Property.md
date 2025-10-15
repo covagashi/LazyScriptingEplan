@@ -8,17 +8,12 @@ Set offset in y-direction
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double YOffset {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double YOffset {
@@ -28,5 +23,4 @@ property double YOffset {
    void set (    double value);
 
 }
-```
-```
+

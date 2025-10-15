@@ -8,17 +8,12 @@ Cable / Conduit: Length with unit # 20041.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLELENGTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLELENGTH {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLELENGTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Creates and insert into page ContextPropertyPlacement which displays page proper
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateFromPageProperties( 
 
    Page oPage,
@@ -22,11 +21,7 @@ public void CreateFromPageProperties(
    AnyPropertyId oAnyPropertyId
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateFromPageProperties( 
@@ -38,8 +33,7 @@ void CreateFromPageProperties(
    AnyPropertyId^ oAnyPropertyId
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -64,13 +58,11 @@ Exceptions
 
 Example
 
-- [C#](#i-tab-content-e8502165-6806-4800-bbb5-20a7ca396751)
+**C#**
 
 ```
 ContextPropertyPlacement oContextPropertyPlacement = new ContextPropertyPlacement();
 
 oContextPropertyPlacement.CreateFromPageProperties(oNewPage, new PointD(100.0, 100.0), oNewPage.Properties["EPLAN.Page.UserSupplementaryField1"].Id);
-
-
 
 ```

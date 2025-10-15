@@ -8,11 +8,10 @@ Is called, when the placement below the mouse pointer changes as result of mouse
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void OnElementFound( 
 
    Position oPosition,
@@ -20,11 +19,7 @@ public virtual void OnElementFound(
    StorableObject oStorableObject
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void OnElementFound( 
@@ -34,8 +29,7 @@ virtual void OnElementFound(
    StorableObject^ oStorableObject
 
 )
-```
-```
+
 
 #### Parameters
 

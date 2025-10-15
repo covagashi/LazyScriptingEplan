@@ -8,17 +8,12 @@ Returns pages, which are contained in the macro.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override Page[] Pages {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Page^>^ Pages {
@@ -26,8 +21,7 @@ property array<Page^>^ Pages {
    array<Page^>^ get() override;
 
 }
-```
-```
+
 
 #### Property Value
 

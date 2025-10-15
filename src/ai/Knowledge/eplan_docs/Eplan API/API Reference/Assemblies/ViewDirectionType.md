@@ -8,20 +8,14 @@ Directions from which objects can be seen.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ViewDirectionType : System.Enum
-```
-```
 
-```
-```
 public enum class ViewDirectionType : public System.Enum
-```
-```
+
 
 Members
 

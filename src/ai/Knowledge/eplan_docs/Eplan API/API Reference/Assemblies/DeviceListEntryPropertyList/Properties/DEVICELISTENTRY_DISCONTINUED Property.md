@@ -8,17 +8,12 @@ Discontinued part # 23215.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DEVICELISTENTRY_DISCONTINUED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DEVICELISTENTRY_DISCONTINUED {
@@ -28,8 +23,7 @@ property PropertyValue^ DEVICELISTENTRY_DISCONTINUED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

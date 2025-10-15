@@ -8,17 +8,12 @@ Door: Usable height # 22119.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_DOORHEIGHT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_DOORHEIGHT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_DOORHEIGHT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

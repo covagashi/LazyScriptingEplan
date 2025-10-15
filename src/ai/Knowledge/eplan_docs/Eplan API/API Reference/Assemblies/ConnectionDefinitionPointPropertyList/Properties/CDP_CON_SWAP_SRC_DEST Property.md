@@ -8,17 +8,12 @@ Associated connections: Exchange source and target # 31036.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CDP_CON_SWAP_SRC_DEST {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CDP_CON_SWAP_SRC_DEST {
@@ -28,8 +23,7 @@ property PropertyValue^ CDP_CON_SWAP_SRC_DEST {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

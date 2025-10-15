@@ -8,17 +8,12 @@ Gets/Sets the unit of the dimension circle.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DimensionCircle.Enums.DimensionUnit DimensionUnit {get; set;}
-```
-```
 
-```
-```
 public:
 
 property DimensionCircle.Enums.DimensionUnit DimensionUnit {
@@ -28,5 +23,4 @@ property DimensionCircle.Enums.DimensionUnit DimensionUnit {
    void set (    DimensionCircle.Enums.DimensionUnit value);
 
 }
-```
-```
+

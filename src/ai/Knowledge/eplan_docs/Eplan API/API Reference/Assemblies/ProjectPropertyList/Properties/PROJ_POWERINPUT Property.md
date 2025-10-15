@@ -8,17 +8,12 @@ Feed-in # 10039.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_POWERINPUT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_POWERINPUT {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_POWERINPUT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Optimize all distributed terminals of the selected terminals
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool OptimizeDistributedTerminals( 
 
    Terminal[] arrTerminals,
@@ -20,11 +19,7 @@ public bool OptimizeDistributedTerminals(
    TerminalsService.OptimizeDistributedTerminalsConfig settings
 
 )
-```
-```
 
-```
-```
 public:
 
 bool OptimizeDistributedTerminals( 
@@ -34,8 +29,7 @@ bool OptimizeDistributedTerminals(
    TerminalsService.OptimizeDistributedTerminalsConfig^ settings
 
 )
-```
-```
+
 
 #### Parameters
 

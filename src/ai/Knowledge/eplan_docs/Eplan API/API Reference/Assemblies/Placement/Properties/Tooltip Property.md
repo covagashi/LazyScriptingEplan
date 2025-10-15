@@ -8,17 +8,12 @@ Gets the tooltips of the object as can be seen in the GED
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Tooltip {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Tooltip {
@@ -26,5 +21,4 @@ property String^ Tooltip {
    String^ get();
 
 }
-```
-```
+

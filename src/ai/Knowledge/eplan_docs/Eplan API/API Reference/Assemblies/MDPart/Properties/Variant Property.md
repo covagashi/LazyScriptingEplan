@@ -8,17 +8,12 @@ Returns the variant of the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Variant {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Variant {
@@ -28,8 +23,7 @@ property String^ Variant {
    void set (    String^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

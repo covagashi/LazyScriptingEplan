@@ -8,21 +8,16 @@ Adds new icon to the ribbon bar
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonIcon AddIcon( 
 
    string svgSource
 
 )
-```
-```
 
-```
-```
 public:
 
 RibbonIcon^ AddIcon( 
@@ -30,8 +25,7 @@ RibbonIcon^ AddIcon(
    String^ svgSource
 
 )
-```
-```
+
 
 #### Parameters
 

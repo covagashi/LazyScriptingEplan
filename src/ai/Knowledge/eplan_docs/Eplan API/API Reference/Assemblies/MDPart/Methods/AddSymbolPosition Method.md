@@ -8,11 +8,10 @@ Add a new symbol position to the part. Symbol is added at the first available in
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDSymbolPosition AddSymbolPosition( 
 
    string strSymbolLibraryName,
@@ -22,11 +21,7 @@ public MDSymbolPosition AddSymbolPosition(
    int iSymbolVariantId
 
 )
-```
-```
 
-```
-```
 public:
 
 MDSymbolPosition^ AddSymbolPosition( 
@@ -38,8 +33,7 @@ MDSymbolPosition^ AddSymbolPosition(
    int iSymbolVariantId
 
 )
-```
-```
+
 
 #### Parameters
 

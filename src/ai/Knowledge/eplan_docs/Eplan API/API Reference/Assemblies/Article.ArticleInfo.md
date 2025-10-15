@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public struct Article.ArticleInfo : System.ValueType, IArticleInfo
-```
-```
 
-```
-```
 public value class Article.ArticleInfo : public System.ValueType, IArticleInfo
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [Article.ArticleInfo Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article+ArticleInfo~_ctor.html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

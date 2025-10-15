@@ -8,21 +8,16 @@ ERP / PDM number 7 # 31172.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_ERPNR_7( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_ERPNR_7 {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_ERPNR_7 {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

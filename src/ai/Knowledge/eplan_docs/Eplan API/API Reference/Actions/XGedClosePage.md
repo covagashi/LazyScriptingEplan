@@ -5,6 +5,6 @@
 ---
 
 ```
- Closes all selected pages.
- 
+ Closes all selected pages.
+
 ```

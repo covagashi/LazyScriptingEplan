@@ -8,17 +8,12 @@ Gets/Sets a cable's name to the connection.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FunctionBasePropertyList CableNameParts {get; set;}
-```
-```
 
-```
-```
 public:
 
 property FunctionBasePropertyList^ CableNameParts {
@@ -28,8 +23,7 @@ property FunctionBasePropertyList^ CableNameParts {
    void set (    FunctionBasePropertyList^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

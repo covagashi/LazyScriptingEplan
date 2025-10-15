@@ -8,11 +8,10 @@ Imports segment definitions from file to project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ImportSegmentDefinitions( 
 
    Project pProject,
@@ -20,11 +19,7 @@ public bool ImportSegmentDefinitions(
    string strFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ImportSegmentDefinitions( 
@@ -34,8 +29,7 @@ bool ImportSegmentDefinitions(
    String^ strFileName
 
 )
-```
-```
+
 
 #### Parameters
 

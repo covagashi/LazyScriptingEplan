@@ -8,17 +8,12 @@ Gets or sets the location of this object relative to the parent.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD RelativeLocation {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PointD RelativeLocation {
@@ -28,8 +23,7 @@ property PointD RelativeLocation {
    void set (    PointD value);
 
 }
-```
-```
+
 
 Exceptions
 

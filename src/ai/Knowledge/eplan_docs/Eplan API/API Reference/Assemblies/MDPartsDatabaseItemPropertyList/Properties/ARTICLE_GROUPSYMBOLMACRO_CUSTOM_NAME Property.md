@@ -8,21 +8,16 @@ Schematic macro: Name for company standard # 22880.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_GROUPSYMBOLMACRO_CUSTOM_NAME( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_GROUPSYMBOLMACRO_CUSTOM_NAME {
@@ -32,8 +27,7 @@ property MDPropertyValue^ ARTICLE_GROUPSYMBOLMACRO_CUSTOM_NAME {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

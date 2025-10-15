@@ -8,17 +8,12 @@ Number of connecting points # 16902.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBVAR_CONPOINTSCOUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBVAR_CONPOINTSCOUNT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMBVAR_CONPOINTSCOUNT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

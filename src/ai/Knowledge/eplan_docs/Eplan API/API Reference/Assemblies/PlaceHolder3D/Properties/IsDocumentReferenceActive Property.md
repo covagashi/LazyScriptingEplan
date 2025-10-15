@@ -8,17 +8,12 @@ Activates the properties of the installation space for the place holder object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool IsDocumentReferenceActive {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool IsDocumentReferenceActive {
@@ -28,8 +23,7 @@ virtual property bool IsDocumentReferenceActive {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

@@ -8,21 +8,16 @@ Returns the right existance
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsRightExisting( 
 
    string strRightname
 
 )
-```
-```
 
-```
-```
 public:
 
 bool IsRightExisting( 
@@ -30,8 +25,7 @@ bool IsRightExisting(
    String^ strRightname
 
 )
-```
-```
+
 
 #### Parameters
 

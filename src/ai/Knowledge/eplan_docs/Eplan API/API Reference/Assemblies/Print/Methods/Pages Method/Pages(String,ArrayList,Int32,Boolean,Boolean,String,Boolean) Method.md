@@ -8,11 +8,10 @@ Prints pages on the specified printer.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Pages( 
 
    string strPrinterName,
@@ -30,11 +29,7 @@ public void Pages(
    bool bPrintChangedPages
 
 )
-```
-```
 
-```
-```
 public:
 
 void Pages( 
@@ -54,8 +49,7 @@ void Pages(
    bool bPrintChangedPages
 
 )
-```
-```
+
 
 #### Parameters
 

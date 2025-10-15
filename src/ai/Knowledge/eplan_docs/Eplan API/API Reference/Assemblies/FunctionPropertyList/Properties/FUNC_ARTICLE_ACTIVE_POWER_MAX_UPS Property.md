@@ -8,21 +8,16 @@ Active power (uninterruptible power supply), max. # 26648.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_ACTIVE_POWER_MAX_UPS( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_ACTIVE_POWER_MAX_UPS {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_ACTIVE_POWER_MAX_UPS {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

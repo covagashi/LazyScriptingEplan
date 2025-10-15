@@ -8,17 +8,12 @@ Representation of XDtcDeviceTagCheck.Hierarchy.UserCharacters setting value. In 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string UserCharacters {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ UserCharacters {
@@ -28,8 +23,7 @@ property String^ UserCharacters {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Remarks
 

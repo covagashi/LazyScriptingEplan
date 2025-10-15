@@ -8,21 +8,16 @@ Block property: Format (terminal strip definition) # 10601.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BLOCKFORMAT_TERMINAL_DEF_TEXT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BLOCKFORMAT_TERMINAL_DEF_TEXT {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_BLOCKFORMAT_TERMINAL_DEF_TEXT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

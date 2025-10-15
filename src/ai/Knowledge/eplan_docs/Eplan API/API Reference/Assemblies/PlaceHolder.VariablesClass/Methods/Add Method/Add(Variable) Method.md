@@ -8,21 +8,16 @@ Adds new variable
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Add( 
 
    PlaceHolder.Variable item
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void Add( 
@@ -30,8 +25,7 @@ virtual void Add(
    PlaceHolder.Variable^ item
 
 )
-```
-```
+
 
 #### Parameters
 

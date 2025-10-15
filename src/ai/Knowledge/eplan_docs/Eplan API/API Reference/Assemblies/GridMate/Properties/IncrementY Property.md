@@ -8,17 +8,12 @@ Increment in Y direction
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double IncrementY {get;}
-```
-```
 
-```
-```
 public:
 
 property double IncrementY {
@@ -26,5 +21,4 @@ property double IncrementY {
    double get();
 
 }
-```
-```
+

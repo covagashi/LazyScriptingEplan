@@ -8,17 +8,12 @@ Project's property which return full project's directory name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ProjectDirectoryPath {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ ProjectDirectoryPath {
@@ -26,8 +21,7 @@ property String^ ProjectDirectoryPath {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

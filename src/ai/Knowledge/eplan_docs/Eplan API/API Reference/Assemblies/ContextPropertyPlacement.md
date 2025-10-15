@@ -19,26 +19,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ContextPropertyPlacement : Eplan.EplApi.DataModel.Graphics.PropertyPlacement
-```
-```
 
-```
-```
 public ref class ContextPropertyPlacement : public Eplan.EplApi.DataModel.Graphics.PropertyPlacement
-```
-```
+
 
 Remarks
 
 It is not possible to change property placements of SymbolVariant because symbols library database is read-only. In this case BaseException will be thrown (e.g. when changing IsVisible property). PropertyPlacement must be embedded in another datamodel object and can show a property or a related property of this datamodel object. ContextPropertyPlacement can be placed on page and show a property from the source object, from which the property is taken e.g. the following objects are possible: \* A property from the page, that is currently drawn. \* A Property of the Project, where the PropertyInstance belongs to.
-
-
 
 Public Constructors
 
@@ -47,8 +39,6 @@ Public Constructors
 | Public Constructor | [ContextPropertyPlacement Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ContextPropertyPlacement~_ctor().html) | Constructor. When object created with this constructor, its `create` method must be call. |
 
 [Top](#top)
-
-
 
 Public Properties
 

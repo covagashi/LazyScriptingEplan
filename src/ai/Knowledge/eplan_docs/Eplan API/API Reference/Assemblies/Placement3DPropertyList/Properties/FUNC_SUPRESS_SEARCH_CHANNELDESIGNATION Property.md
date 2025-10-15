@@ -8,17 +8,12 @@ Channel designation (automatic): Suppress search # 20578.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_SUPRESS_SEARCH_CHANNELDESIGNATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_SUPRESS_SEARCH_CHANNELDESIGNATION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_SUPRESS_SEARCH_CHANNELDESIGNATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

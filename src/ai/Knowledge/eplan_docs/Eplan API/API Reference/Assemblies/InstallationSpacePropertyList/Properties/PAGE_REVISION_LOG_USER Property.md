@@ -8,21 +8,16 @@ Revision created by (change tracking) # 11070.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_REVISION_LOG_USER( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_REVISION_LOG_USER {
@@ -32,8 +27,7 @@ property PropertyValue^ PAGE_REVISION_LOG_USER {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Masterdata
-```
-```
 
-```
-```
 public ref class Masterdata
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [Masterdata Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Masterdata~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

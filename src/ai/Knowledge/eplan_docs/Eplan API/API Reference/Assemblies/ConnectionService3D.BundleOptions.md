@@ -6,20 +6,14 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ConnectionService3D.BundleOptions : System.Enum
-```
-```
 
-```
-```
 public enum class ConnectionService3D.BundleOptions : public System.Enum
-```
-```
+
 
 Members
 

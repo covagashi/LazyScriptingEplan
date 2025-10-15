@@ -8,17 +8,12 @@ Gets/Sets pipe class of object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PipeClass {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PipeClass {
@@ -28,5 +23,4 @@ property String^ PipeClass {
    void set (    String^ value);
 
 }
-```
-```
+

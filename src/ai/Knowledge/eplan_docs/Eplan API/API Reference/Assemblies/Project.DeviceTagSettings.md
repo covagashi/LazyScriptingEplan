@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Project.DeviceTagSettings
-```
-```
 
-```
-```
 public ref class Project.DeviceTagSettings
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [Project.DeviceTagSettings Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project+DeviceTagSettings~_ctor.html) | Constructor for DeviceTagSettings class which allow to access specified settings values for DeviceTag syntax configuration. |
 
 [Top](#top)
-
-
 
 Public Properties
 

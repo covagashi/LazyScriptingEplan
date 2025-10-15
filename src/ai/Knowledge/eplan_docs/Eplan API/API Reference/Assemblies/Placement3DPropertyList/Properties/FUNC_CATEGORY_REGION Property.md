@@ -8,17 +8,12 @@ Function definition: Area # 20088.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CATEGORY_REGION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CATEGORY_REGION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CATEGORY_REGION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

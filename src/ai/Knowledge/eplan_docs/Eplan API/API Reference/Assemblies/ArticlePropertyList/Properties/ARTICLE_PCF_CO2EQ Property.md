@@ -8,17 +8,12 @@ PCF: CO2-eq # 26526.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PCF_CO2EQ {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PCF_CO2EQ {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PCF_CO2EQ {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

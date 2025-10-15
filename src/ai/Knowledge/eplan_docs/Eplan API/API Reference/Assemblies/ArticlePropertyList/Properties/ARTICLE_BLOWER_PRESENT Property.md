@@ -8,17 +8,12 @@ Blower available # 26352.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_BLOWER_PRESENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_BLOWER_PRESENT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_BLOWER_PRESENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

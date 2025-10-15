@@ -8,17 +8,12 @@ If true, additional bending texts of bended bus bars will displayed
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ShowBendingText {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool ShowBendingText {
@@ -28,8 +23,7 @@ property bool ShowBendingText {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

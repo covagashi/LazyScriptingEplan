@@ -8,22 +8,16 @@ Add a new assembly position to the part. That position is added to the end of th
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartAssemblyPosition AddAssemblyPosition()
-```
-```
 
-```
-```
 public:
 
 MDPartAssemblyPosition^ AddAssemblyPosition();
-```
-```
+
 
 Remarks
 

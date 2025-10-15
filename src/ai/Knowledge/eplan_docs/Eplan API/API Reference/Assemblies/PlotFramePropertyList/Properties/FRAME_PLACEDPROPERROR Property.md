@@ -8,21 +8,16 @@ Error: Property placement # 12101.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_PLACEDPROPERROR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_PLACEDPROPERROR {
@@ -32,8 +27,7 @@ property PropertyValue^ FRAME_PLACEDPROPERROR {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

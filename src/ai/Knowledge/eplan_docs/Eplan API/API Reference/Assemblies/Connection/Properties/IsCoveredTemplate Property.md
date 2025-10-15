@@ -8,17 +8,12 @@ Returns true if this is a Connection object that covers a wire's template in the
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool IsCoveredTemplate {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool IsCoveredTemplate {
@@ -26,5 +21,4 @@ virtual property bool IsCoveredTemplate {
    bool get();
 
 }
-```
-```
+

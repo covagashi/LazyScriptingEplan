@@ -8,17 +8,12 @@ Gets/Sets list of default values for selection list.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public IList<MultiLangString> DefaultValuesSelectionList {get; set;}
-```
-```
 
-```
-```
 public:
 
 property IList<MultiLangString^>^ DefaultValuesSelectionList {
@@ -28,5 +23,4 @@ property IList<MultiLangString^>^ DefaultValuesSelectionList {
    void set (    IList<MultiLangString^>^ value);
 
 }
-```
-```
+

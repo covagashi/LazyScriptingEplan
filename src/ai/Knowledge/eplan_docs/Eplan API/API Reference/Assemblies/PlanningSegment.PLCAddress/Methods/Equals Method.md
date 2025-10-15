@@ -8,21 +8,16 @@ Operator of comparison implementation. Checks if two PLCAddresses refer to the s
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override bool Equals( 
 
    object obj
 
 )
-```
-```
 
-```
-```
 public:
 
 bool Equals( 
@@ -30,8 +25,7 @@ bool Equals(
    Object^ obj
 
 ) override
-```
-```
+
 
 #### Parameters
 

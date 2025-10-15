@@ -14,26 +14,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class GridMate : Mate
-```
-```
 
-```
-```
 public ref class GridMate : public Mate
-```
-```
+
 
 Remarks
 
 GridMate object is only a container of information, that describes the grid (like size, increment, start position, etc) but 3d objects will snap only on a GridLineMate objects.
-
-
 
 Public Constructors
 
@@ -42,8 +34,6 @@ Public Constructors
 | Public Constructor | [GridMate Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.GridMate~_ctor().html) |  |
 
 [Top](#top)
-
-
 
 Public Properties
 

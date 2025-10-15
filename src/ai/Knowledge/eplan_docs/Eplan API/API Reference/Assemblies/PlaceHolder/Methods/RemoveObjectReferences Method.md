@@ -8,21 +8,16 @@ Removes object references from a PlaceHolder.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void RemoveObjectReferences( 
 
    StorableObject[] pObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void RemoveObjectReferences( 
@@ -30,8 +25,7 @@ virtual void RemoveObjectReferences(
    array<StorableObject^>^ pObjects
 
 )
-```
-```
+
 
 #### Parameters
 

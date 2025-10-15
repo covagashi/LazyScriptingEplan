@@ -8,11 +8,10 @@ Interconnect devices like in dialog "Interconnect devices".
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Connection[] InterconnectDevices( 
 
    ArrayList arrPinsSource,
@@ -22,11 +21,7 @@ public Connection[] InterconnectDevices(
    Function cable
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Connection^>^ InterconnectDevices( 
@@ -38,8 +33,7 @@ array<Connection^>^ InterconnectDevices(
    Function^ cable
 
 )
-```
-```
+
 
 #### Parameters
 

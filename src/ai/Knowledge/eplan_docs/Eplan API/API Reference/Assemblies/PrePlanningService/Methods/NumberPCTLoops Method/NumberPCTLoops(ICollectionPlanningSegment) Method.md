@@ -8,21 +8,16 @@ Numbers given PCTLoops. It is possible to number all PCTLoops in a given Structu
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void NumberPCTLoops( 
 
    ICollection<PlanningSegment> colObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 void NumberPCTLoops( 
@@ -30,8 +25,7 @@ void NumberPCTLoops(
    ICollection<PlanningSegment^>^ colObjects
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -54,24 +48,20 @@ Example
 
 The following examples shows how to use method NumberPCTLoops.
 
-- [C#](#i-tab-content-02d6ee98-f0e6-4907-9011-fb183949bfc3)
+**C#**
 
 ```
 //Numerate all PCTLoops in oStructureSegment1                
 
 new PrePlanningService().NumberPCTLoops(new List<PlanningSegment>() { oStructureSegment1 });
 
-
-
 ```
 
-- [C#](#i-tab-content-8c35e755-63d8-4731-be50-86f8d96e6161)
+**C#**
 
 ```
 //Numerate two PCTLoops             
 
 new PrePlanningService().NumberPCTLoops(new List<PlanningSegment>() { oPCTLoop2_1, oPCTLoop2_2 });
-
-
 
 ```

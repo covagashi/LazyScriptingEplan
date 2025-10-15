@@ -8,17 +8,12 @@ Bus interface: Main bus port (indirect) # 20391.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLC_BUS_INTERFACENAME_MASTER_INDIRECT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLC_BUS_INTERFACENAME_MASTER_INDIRECT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLC_BUS_INTERFACENAME_MASTER_INDIRECT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

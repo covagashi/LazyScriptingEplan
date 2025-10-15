@@ -8,11 +8,10 @@ Places a window macro with snapping source mate to a target mate from another ob
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement3D[] WindowMacro( 
 
    WindowMacro oMacro,
@@ -34,11 +33,7 @@ public Placement3D[] WindowMacro(
    WindowMacro.Enums.NumerationMode nNumerationMode
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Placement3D^>^ WindowMacro( 
@@ -62,8 +57,7 @@ array<Placement3D^>^ WindowMacro(
    WindowMacro.Enums.NumerationMode nNumerationMode
 
 )
-```
-```
+
 
 #### Parameters
 

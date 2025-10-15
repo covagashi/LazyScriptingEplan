@@ -6,11 +6,10 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString this[ 
 
    string strVariable,
@@ -18,11 +17,7 @@ public MultiLangString this[
    string strValueSet
 
 ]; {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ default [String^,String^] {
@@ -32,8 +27,7 @@ property MultiLangString^ default [String^,String^] {
    void set (String^ strVariable, String^ strValueSet, MultiLangString^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

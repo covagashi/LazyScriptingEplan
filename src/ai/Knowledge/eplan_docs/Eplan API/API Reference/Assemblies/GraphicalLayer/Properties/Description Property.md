@@ -8,17 +8,12 @@ Layer's description
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString Description {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ Description {
@@ -28,5 +23,4 @@ property MultiLangString^ Description {
    void set (    MultiLangString^ value);
 
 }
-```
-```
+

@@ -8,11 +8,10 @@ Creates new graphical layer in graphical table. This function calls Eplan.EplApi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    GraphicalLayerTable table,
@@ -22,11 +21,7 @@ public void Create(
    MultiLangString description
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -38,8 +33,7 @@ void Create(
    MultiLangString^ description
 
 )
-```
-```
+
 
 #### Parameters
 

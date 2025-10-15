@@ -8,21 +8,16 @@ Index operator to get a variant by its name. Valid names are "A" or "a" through 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDSymbolVariant this[ 
 
    string variantName
 
 ]; {get;}
-```
-```
 
-```
-```
 public:
 
 property MDSymbolVariant^ default [String^] {
@@ -30,8 +25,7 @@ property MDSymbolVariant^ default [String^] {
    MDSymbolVariant^ get(String^ variantName);
 
 }
-```
-```
+
 
 #### Parameters
 

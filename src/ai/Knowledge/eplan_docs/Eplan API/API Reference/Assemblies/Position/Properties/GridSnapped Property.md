@@ -8,17 +8,12 @@ Returns true, if grid-snap was found.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool GridSnapped {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool GridSnapped {
@@ -26,5 +21,4 @@ virtual property bool GridSnapped {
    bool get();
 
 }
-```
-```
+

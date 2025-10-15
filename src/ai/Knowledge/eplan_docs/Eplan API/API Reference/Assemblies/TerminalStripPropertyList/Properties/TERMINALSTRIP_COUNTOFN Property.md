@@ -8,17 +8,12 @@ Terminal strips: Number of N terminals # 35003.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue TERMINALSTRIP_COUNTOFN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ TERMINALSTRIP_COUNTOFN {
@@ -28,8 +23,7 @@ property PropertyValue^ TERMINALSTRIP_COUNTOFN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Overhang: Cover left # 22175.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TOPPANELPROJECTIONLEFT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TOPPANELPROJECTIONLEFT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TOPPANELPROJECTIONLEFT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

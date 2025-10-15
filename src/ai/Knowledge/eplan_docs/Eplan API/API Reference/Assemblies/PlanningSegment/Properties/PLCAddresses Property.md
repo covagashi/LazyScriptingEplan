@@ -8,17 +8,12 @@ Returns array of PLC inputs and outputs for this planning object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningSegment.PLCAddress[] PLCAddresses {get;}
-```
-```
 
-```
-```
 public:
 
 property array<PlanningSegment.PLCAddress^>^ PLCAddresses {
@@ -26,5 +21,4 @@ property array<PlanningSegment.PLCAddress^>^ PLCAddresses {
    array<PlanningSegment.PLCAddress^>^ get();
 
 }
-```
-```
+

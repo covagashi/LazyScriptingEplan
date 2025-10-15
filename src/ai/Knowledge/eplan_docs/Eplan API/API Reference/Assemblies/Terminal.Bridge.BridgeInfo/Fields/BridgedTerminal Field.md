@@ -8,19 +8,13 @@ A terminal on the other side of the bridge connection.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Terminal BridgedTerminal
-```
-```
 
-```
-```
 public:
 
 Terminal^ BridgedTerminal
-```
-```
+

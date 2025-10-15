@@ -8,17 +8,12 @@ Overload level of interaction.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int Ordinal {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int Ordinal {
@@ -28,8 +23,7 @@ property int Ordinal {
    void set (    int value);
 
 }
-```
-```
+
 
 Remarks
 

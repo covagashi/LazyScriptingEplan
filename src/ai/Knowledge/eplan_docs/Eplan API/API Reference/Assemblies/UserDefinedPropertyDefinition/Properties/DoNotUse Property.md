@@ -8,17 +8,12 @@ Gets/Sets a flag which indicates if property will not be longer displayed in pro
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool DoNotUse {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool DoNotUse {
@@ -28,5 +23,4 @@ property bool DoNotUse {
    void set (    bool value);
 
 }
-```
-```
+

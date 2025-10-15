@@ -8,17 +8,12 @@ Returns an object used to manage project sections.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ProjectSections Sections {get;}
-```
-```
 
-```
-```
 public:
 
 property ProjectSections^ Sections {
@@ -26,5 +21,4 @@ property ProjectSections^ Sections {
    ProjectSections^ get();
 
 }
-```
-```
+

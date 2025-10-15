@@ -8,11 +8,10 @@ Places a window macro onto a given position of a page. You can set whether absol
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] WindowMacro( 
 
    WindowMacro oMacro,
@@ -32,11 +31,7 @@ public StorableObject[] WindowMacro(
    bool bDontResolveGroups
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ WindowMacro( 
@@ -58,8 +53,7 @@ array<StorableObject^>^ WindowMacro(
    bool bDontResolveGroups
 
 )
-```
-```
+
 
 #### Parameters
 

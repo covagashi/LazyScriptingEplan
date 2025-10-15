@@ -8,21 +8,16 @@ Index operator to get a symbol by its name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDSymbol this[ 
 
    string symbolName
 
 ]; {get;}
-```
-```
 
-```
-```
 public:
 
 property MDSymbol^ default [String^] {
@@ -30,8 +25,7 @@ property MDSymbol^ default [String^] {
    MDSymbol^ get(String^ symbolName);
 
 }
-```
-```
+
 
 #### Parameters
 

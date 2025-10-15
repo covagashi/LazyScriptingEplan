@@ -8,11 +8,10 @@ Selects objects in GED
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 EplanResponse SelectEplanObjects( 
 
    string strFullProjectName,
@@ -22,11 +21,7 @@ EplanResponse SelectEplanObjects(
    bool bDeselectAll
 
 )
-```
-```
 
-```
-```
 EplanResponse^ SelectEplanObjects( 
 
    String^ strFullProjectName,
@@ -36,8 +31,7 @@ EplanResponse^ SelectEplanObjects(
    bool bDeselectAll
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -58,7 +52,7 @@ Example
 
 The following examples shows a method to mark all the motors on a given schematic page.
 
-- [C#](#i-tab-content-4752080a-b24c-497f-b424-4f9b0697f694)
+**C#**
 
 ```
 private static void MarkMotorsOnPage(Page page)
@@ -90,8 +84,6 @@ private static void MarkMotorsOnPage(Page page)
 			scFuncIds.Add(objectIdWithoutProjectId);
 
 		}
-
-            
 
      // Connect to server via a remoting client
 

@@ -8,21 +8,16 @@ Removes the given AccessoryList position from the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveAccessoryListPosition( 
 
    MDAccessoryListPosition doorPos
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveAccessoryListPosition( 
@@ -30,8 +25,7 @@ void RemoveAccessoryListPosition(
    MDAccessoryListPosition^ doorPos
 
 )
-```
-```
+
 
 #### Parameters
 

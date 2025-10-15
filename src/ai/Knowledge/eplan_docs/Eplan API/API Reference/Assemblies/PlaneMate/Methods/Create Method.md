@@ -8,11 +8,10 @@ Create a PlaneMate.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    string strName,
@@ -28,11 +27,7 @@ public void Create(
    double dSizeY
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -50,8 +45,7 @@ void Create(
    double dSizeY
 
 )
-```
-```
+
 
 #### Parameters
 

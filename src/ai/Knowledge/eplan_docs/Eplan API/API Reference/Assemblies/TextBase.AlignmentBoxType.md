@@ -8,20 +8,14 @@ Alignment box type
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum TextBase.AlignmentBoxType : System.Enum
-```
-```
 
-```
-```
 public enum class TextBase.AlignmentBoxType : public System.Enum
-```
-```
+
 
 Members
 

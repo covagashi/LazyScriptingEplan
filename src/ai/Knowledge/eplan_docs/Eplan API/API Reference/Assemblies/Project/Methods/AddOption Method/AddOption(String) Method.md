@@ -8,21 +8,16 @@ Adds [Option](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Option.html) to the
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Option AddOption( 
 
    string strName
 
 )
-```
-```
 
-```
-```
 public:
 
 Option^ AddOption( 
@@ -30,8 +25,7 @@ Option^ AddOption(
    String^ strName
 
 )
-```
-```
+
 
 #### Parameters
 

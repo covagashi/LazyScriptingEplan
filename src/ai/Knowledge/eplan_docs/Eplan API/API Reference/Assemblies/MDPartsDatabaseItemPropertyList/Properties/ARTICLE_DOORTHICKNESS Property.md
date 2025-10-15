@@ -8,17 +8,12 @@ Door: Wall thickness # 22194.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_DOORTHICKNESS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_DOORTHICKNESS {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_DOORTHICKNESS {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

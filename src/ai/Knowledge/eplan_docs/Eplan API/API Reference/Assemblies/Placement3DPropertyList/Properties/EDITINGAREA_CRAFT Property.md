@@ -8,17 +8,12 @@ Trade (Defined working sections) # 25000.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue EDITINGAREA_CRAFT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ EDITINGAREA_CRAFT {
@@ -28,8 +23,7 @@ property PropertyValue^ EDITINGAREA_CRAFT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

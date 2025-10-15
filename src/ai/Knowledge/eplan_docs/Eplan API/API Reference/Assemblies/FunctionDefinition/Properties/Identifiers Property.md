@@ -8,17 +8,12 @@ Gets/sets all identifiers (i.e. for all available standards)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string[] Identifiers {get; set;}
-```
-```
 
-```
-```
 public:
 
 property array<String^>^ Identifiers {
@@ -28,5 +23,4 @@ property array<String^>^ Identifiers {
    void set (    array<String^>^ value);
 
 }
-```
-```
+

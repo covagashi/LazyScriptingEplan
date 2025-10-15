@@ -8,20 +8,14 @@ Types of mates.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Mate.Enums.Type : System.Enum
-```
-```
 
-```
-```
 public enum class Mate.Enums.Type : public System.Enum
-```
-```
+
 
 Members
 

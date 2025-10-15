@@ -8,17 +8,12 @@ Type of project To change this property project will be reopened temporarily in 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Project.ProjectType TypeOfProject {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Project.ProjectType TypeOfProject {
@@ -28,8 +23,7 @@ property Project.ProjectType TypeOfProject {
    void set (    Project.ProjectType value);
 
 }
-```
-```
+
 
 #### Property Value
 

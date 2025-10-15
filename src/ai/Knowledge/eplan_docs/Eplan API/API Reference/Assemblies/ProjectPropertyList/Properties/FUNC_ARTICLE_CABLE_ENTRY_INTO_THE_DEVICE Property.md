@@ -8,21 +8,16 @@ Cable entry into device # 26396.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_CABLE_ENTRY_INTO_THE_DEVICE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_CABLE_ENTRY_INTO_THE_DEVICE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_CABLE_ENTRY_INTO_THE_DEVICE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

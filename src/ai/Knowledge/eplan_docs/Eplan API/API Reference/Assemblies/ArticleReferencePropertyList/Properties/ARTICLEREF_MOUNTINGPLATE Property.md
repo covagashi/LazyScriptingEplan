@@ -8,17 +8,12 @@ Mounting panel # 20485.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_MOUNTINGPLATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_MOUNTINGPLATE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_MOUNTINGPLATE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

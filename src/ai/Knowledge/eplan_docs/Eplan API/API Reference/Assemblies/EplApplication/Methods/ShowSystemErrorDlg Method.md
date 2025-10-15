@@ -8,22 +8,16 @@ Displays the Eplan System error messages dialog.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ShowSystemErrorDlg()
-```
-```
 
-```
-```
 public:
 
 void ShowSystemErrorDlg();
-```
-```
+
 
 Remarks
 

@@ -8,17 +8,12 @@ Gets the kind of arc object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Arc.Enums.Type Kind {get;}
-```
-```
 
-```
-```
 public:
 
 property Arc.Enums.Type Kind {
@@ -26,5 +21,4 @@ property Arc.Enums.Type Kind {
    Arc.Enums.Type get();
 
 }
-```
-```
+

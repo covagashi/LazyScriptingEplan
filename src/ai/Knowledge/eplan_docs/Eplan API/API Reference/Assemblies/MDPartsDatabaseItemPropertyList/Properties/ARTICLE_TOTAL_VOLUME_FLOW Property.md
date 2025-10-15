@@ -8,17 +8,12 @@ Total flow rate # 26106.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TOTAL_VOLUME_FLOW {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TOTAL_VOLUME_FLOW {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TOTAL_VOLUME_FLOW {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

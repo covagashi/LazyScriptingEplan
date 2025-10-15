@@ -8,17 +8,12 @@ Gets property id value as [Properties.PlugStrip](Eplan.EplApi.DataModelu~Eplan.E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.PlugStrip AsPlugStrip {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.PlugStrip AsPlugStrip {
@@ -26,5 +21,4 @@ property Properties.PlugStrip AsPlugStrip {
    Properties.PlugStrip get();
 
 }
-```
-```
+

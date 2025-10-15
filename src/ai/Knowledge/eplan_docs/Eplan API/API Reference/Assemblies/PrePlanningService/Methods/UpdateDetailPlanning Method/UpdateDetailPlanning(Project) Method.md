@@ -8,21 +8,16 @@ Updates data to ensure that the property values in all planning objects from pro
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void UpdateDetailPlanning( 
 
    Project pProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void UpdateDetailPlanning( 
@@ -30,8 +25,7 @@ void UpdateDetailPlanning(
    Project^ pProject
 
 )
-```
-```
+
 
 #### Parameters
 

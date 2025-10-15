@@ -8,17 +8,12 @@ Gets or sets the fill pattern of the PolyLine. Pattern types Bitmap, Eplan and S
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public GraphicalPlacement.FillPatternType FillPattern {get; set;}
-```
-```
 
-```
-```
 public:
 
 property GraphicalPlacement.FillPatternType FillPattern {
@@ -28,8 +23,7 @@ property GraphicalPlacement.FillPatternType FillPattern {
    void set (    GraphicalPlacement.FillPatternType value);
 
 }
-```
-```
+
 
 Exceptions
 

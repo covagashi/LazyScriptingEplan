@@ -8,17 +8,12 @@ Length (prefabricated) # 22055.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CABLELENGTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CABLELENGTH {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CABLELENGTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

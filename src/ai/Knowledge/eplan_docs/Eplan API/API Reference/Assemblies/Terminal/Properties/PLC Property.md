@@ -8,17 +8,12 @@ Returns [PLC](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.PLC.html) 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PLC PLC {get;}
-```
-```
 
-```
-```
 public:
 
 property PLC^ PLC {
@@ -26,8 +21,7 @@ property PLC^ PLC {
    PLC^ get();
 
 }
-```
-```
+
 
 Exceptions
 

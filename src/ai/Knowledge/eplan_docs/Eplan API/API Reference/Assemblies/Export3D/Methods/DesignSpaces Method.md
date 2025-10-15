@@ -8,11 +8,10 @@ Exports components of design space as xml and step data.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool DesignSpaces( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public bool DesignSpaces(
    string strScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 bool DesignSpaces( 
@@ -46,8 +41,7 @@ bool DesignSpaces(
    String^ strScheme
 
 )
-```
-```
+
 
 #### Parameters
 

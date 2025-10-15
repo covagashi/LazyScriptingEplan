@@ -8,21 +8,16 @@ Weight (in kg/1000 m) # 26375.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_WEIGHT_KG_1000_M( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_WEIGHT_KG_1000_M {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_WEIGHT_KG_1000_M {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

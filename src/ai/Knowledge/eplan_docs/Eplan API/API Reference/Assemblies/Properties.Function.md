@@ -8,20 +8,14 @@ Identificators of properties owned by Function class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.Function : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.Function : public System.Enum
-```
-```
+
 
 Members
 

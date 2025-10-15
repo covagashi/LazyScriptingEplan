@@ -8,17 +8,12 @@ Profile vertical: Width # 22189.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_VPROFILEWIDTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_VPROFILEWIDTH {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_VPROFILEWIDTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

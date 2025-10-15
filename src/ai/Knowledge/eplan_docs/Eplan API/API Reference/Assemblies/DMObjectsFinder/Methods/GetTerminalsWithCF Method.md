@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.EObjects.Terminal](Eplan.EplApi.DataModelu~Eplan
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Terminal[] GetTerminalsWithCF( 
 
    ICustomFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Terminal^>^ GetTerminalsWithCF( 
@@ -30,8 +25,7 @@ array<Terminal^>^ GetTerminalsWithCF(
    ICustomFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

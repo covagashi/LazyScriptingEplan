@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDDatabaseConnectionException : MasterDataException
-```
-```
 
-```
-```
 public ref class MDDatabaseConnectionException : public MasterDataException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [MDDatabaseConnectionException Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDDatabaseConnectionException~_ctor.html) | Standard constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

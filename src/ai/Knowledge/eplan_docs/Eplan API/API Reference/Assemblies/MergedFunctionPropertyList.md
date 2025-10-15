@@ -15,24 +15,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Property")]
 
 public class MergedFunctionPropertyList : StorableObjectPropertyList
-```
-```
 
-```
-```
 [DefaultMember("Property")]
 
 public ref class MergedFunctionPropertyList : public StorableObjectPropertyList
-```
-```
+
 
 Remarks
 
@@ -44,7 +38,7 @@ Example
 
 Example shows usage of online an offline property list:
 
-- [C#](#i-tab-content-741f9d5c-405b-494a-895b-ec818d9758c4)
+**C#**
 
 ```
 // creation of persistent property list
@@ -55,15 +49,11 @@ oPersistentPropertyList1.FUNC_COMMENT = "Comment";
 
 // now oFunction.Properties.FUNC_COMMENT is equal "Comment"
 
-
-
 FunctionPropertyList oPersistentPropertyList2 = new FunctionPropertyList(oFunction);
 
 oPersistentPropertyList2.FUNC_COMMENT = "Test";
 
 // now oFunction.Properties.FUNC_COMMENT is equal "Test"
-
-
 
 // creation of transient property list
 
@@ -77,8 +67,6 @@ oTransientPropertyList.FUNC_COMMENT = "Transient comment";
 
 // now oTransientPropertyList.FUNC_COMMENT is equal "Test comment"
 
-
-
 ```
 
 Public Constructors
@@ -88,8 +76,6 @@ Public Constructors
 | Public Constructor | [MergedFunctionPropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MergedFunctionPropertyList~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

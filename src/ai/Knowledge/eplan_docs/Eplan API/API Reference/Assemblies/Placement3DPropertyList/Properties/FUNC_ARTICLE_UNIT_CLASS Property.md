@@ -8,21 +8,16 @@ Device class # 26367.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_UNIT_CLASS( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_UNIT_CLASS {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_UNIT_CLASS {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

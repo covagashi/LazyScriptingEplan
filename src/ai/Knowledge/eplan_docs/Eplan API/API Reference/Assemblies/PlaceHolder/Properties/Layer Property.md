@@ -8,17 +8,12 @@ Gets PlaceHolder graphical layer.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new GraphicalLayer Layer {get; set;}
-```
-```
 
-```
-```
 public:
 
 new property GraphicalLayer^ Layer {
@@ -28,5 +23,4 @@ new property GraphicalLayer^ Layer {
    void set (    GraphicalLayer^ value);
 
 }
-```
-```
+

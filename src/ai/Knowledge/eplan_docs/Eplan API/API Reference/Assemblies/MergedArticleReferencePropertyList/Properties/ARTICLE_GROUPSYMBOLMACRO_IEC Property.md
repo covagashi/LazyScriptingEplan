@@ -8,17 +8,12 @@ Schematic macro: IEC # 22870.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_GROUPSYMBOLMACRO_IEC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_GROUPSYMBOLMACRO_IEC {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_GROUPSYMBOLMACRO_IEC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

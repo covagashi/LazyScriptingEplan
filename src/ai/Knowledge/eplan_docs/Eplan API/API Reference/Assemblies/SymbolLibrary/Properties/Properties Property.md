@@ -8,17 +8,12 @@ Internal properties list.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new SymbolLibraryPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property SymbolLibraryPropertyList^ Properties {
@@ -26,5 +21,4 @@ new property SymbolLibraryPropertyList^ Properties {
    SymbolLibraryPropertyList^ get();
 
 }
-```
-```
+

@@ -8,25 +8,13 @@ Base interface declaration for a check in EPLAN. If an add-in wants to add an un
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IVerificationBase : IMessage
-```
-```
 
-```
-```
 public interface class IVerificationBase : public IMessage
-```
-```
-
-
-
-
-
 
 Public Methods
 

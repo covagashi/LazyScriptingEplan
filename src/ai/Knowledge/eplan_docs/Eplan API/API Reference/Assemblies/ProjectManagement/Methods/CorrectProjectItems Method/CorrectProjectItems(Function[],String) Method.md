@@ -8,11 +8,10 @@ Corrects project items.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CorrectProjectItems( 
 
    Function[] arrFunctions,
@@ -20,11 +19,7 @@ public void CorrectProjectItems(
    string strScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 void CorrectProjectItems( 
@@ -34,8 +29,7 @@ void CorrectProjectItems(
    String^ strScheme
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ The action can be registered under a name determined by the action and an overlo
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool OnRegister( 
 
    ref string Name,
@@ -20,11 +19,7 @@ bool OnRegister(
    ref int Ordinal
 
 )
-```
-```
 
-```
-```
 bool OnRegister( 
 
    String^% Name,
@@ -32,8 +27,7 @@ bool OnRegister(
    int% Ordinal
 
 )
-```
-```
+
 
 #### Parameters
 

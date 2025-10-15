@@ -8,17 +8,12 @@ BACnet: Number of hardware interfaces # 26214.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_NUMBER_OF_HW_INTERFACES_BACNET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_NUMBER_OF_HW_INTERFACES_BACNET {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_NUMBER_OF_HW_INTERFACES_BACNET {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

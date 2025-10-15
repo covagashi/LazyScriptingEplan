@@ -8,11 +8,10 @@ Checks whether two 3d objects collides each other.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CheckIfPlacementsCollide( 
 
    Placement3D pPlacementA,
@@ -24,11 +23,7 @@ public bool CheckIfPlacementsCollide(
    bool bExcludeAllowedCollisions
 
 )
-```
-```
 
-```
-```
 public:
 
 bool CheckIfPlacementsCollide( 
@@ -42,8 +37,7 @@ bool CheckIfPlacementsCollide(
    bool bExcludeAllowedCollisions
 
 )
-```
-```
+
 
 #### Parameters
 

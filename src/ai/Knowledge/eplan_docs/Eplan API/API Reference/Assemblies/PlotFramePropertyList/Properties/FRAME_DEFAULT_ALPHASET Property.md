@@ -8,17 +8,12 @@ String for alphanumeric # 12032.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_DEFAULT_ALPHASET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_DEFAULT_ALPHASET {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_DEFAULT_ALPHASET {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

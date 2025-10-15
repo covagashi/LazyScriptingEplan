@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.EObjects.Harness](Eplan.EplApi.DataModelu~Eplan.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Harness[] GetHarnesses( 
 
    FunctionsFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Harness^>^ GetHarnesses( 
@@ -30,8 +25,7 @@ array<Harness^>^ GetHarnesses(
    FunctionsFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

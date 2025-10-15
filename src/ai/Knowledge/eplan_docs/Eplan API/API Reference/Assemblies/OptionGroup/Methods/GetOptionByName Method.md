@@ -8,21 +8,16 @@ Returns [Option](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Option.html) ass
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Option GetOptionByName( 
 
    string strName
 
 )
-```
-```
 
-```
-```
 public:
 
 Option^ GetOptionByName( 
@@ -30,8 +25,7 @@ Option^ GetOptionByName(
    String^ strName
 
 )
-```
-```
+
 
 #### Parameters
 

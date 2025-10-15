@@ -8,11 +8,10 @@ One action can be enabled or disabled. Return true when it is enabled.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool Enabled( 
 
    string strActionName,
@@ -20,11 +19,7 @@ bool Enabled(
    ActionCallingContext actionContext
 
 )
-```
-```
 
-```
-```
 bool Enabled( 
 
    String^ strActionName,
@@ -32,8 +27,7 @@ bool Enabled(
    ActionCallingContext^ actionContext
 
 )
-```
-```
+
 
 #### Parameters
 

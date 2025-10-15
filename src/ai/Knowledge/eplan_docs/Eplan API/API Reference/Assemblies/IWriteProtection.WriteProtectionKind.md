@@ -8,20 +8,14 @@ Detailed write protection states.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum IWriteProtection.WriteProtectionKind : System.Enum
-```
-```
 
-```
-```
 public enum class IWriteProtection.WriteProtectionKind : public System.Enum
-```
-```
+
 
 Members
 

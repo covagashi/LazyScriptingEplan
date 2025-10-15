@@ -8,11 +8,10 @@ The begin of a new progress part. Perhaps you want to set a new actiontext for t
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void BeginPartCalled( 
 
    int nNewLevel,
@@ -20,11 +19,7 @@ void BeginPartCalled(
    string strActionText
 
 )
-```
-```
 
-```
-```
 void BeginPartCalled( 
 
    int nNewLevel,
@@ -32,8 +27,7 @@ void BeginPartCalled(
    String^ strActionText
 
 )
-```
-```
+
 
 #### Parameters
 

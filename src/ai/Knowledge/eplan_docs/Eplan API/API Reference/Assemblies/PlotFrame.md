@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PlotFrame : Eplan.EplApi.DataModel.DocumentBase, Eplan.EplApi.DataModel.IPlacementsContainer
-```
-```
 
-```
-```
 public ref class PlotFrame : public Eplan.EplApi.DataModel.DocumentBase, Eplan.EplApi.DataModel.IPlacementsContainer
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [PlotFrame Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.PlotFrame~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

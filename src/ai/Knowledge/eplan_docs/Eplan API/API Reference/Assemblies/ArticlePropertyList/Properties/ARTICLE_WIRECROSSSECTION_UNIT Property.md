@@ -8,17 +8,12 @@ Unit for connection cross-section / diameter # 22068.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_WIRECROSSSECTION_UNIT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_WIRECROSSSECTION_UNIT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_WIRECROSSSECTION_UNIT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -41,7 +35,7 @@ Property of a part variant. Unit for the cross-section or diameter of the connec
 
 0 = As in project
 
-1 = mmÂ²
+1 = mm²
 
 2 = sqmm
 
@@ -59,8 +53,8 @@ Property of a part variant. Unit for the cross-section or diameter of the connec
 
 9 = inch
 
-10 = Âµm
+10 = µm
 
 11 = kcmil
 
-12 = ÂµmÂ².
+12 = µm².

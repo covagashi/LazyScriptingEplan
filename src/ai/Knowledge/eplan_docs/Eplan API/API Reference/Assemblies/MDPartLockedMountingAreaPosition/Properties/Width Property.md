@@ -8,17 +8,12 @@ Width of the locked mounting area
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double Width {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double Width {
@@ -28,5 +23,4 @@ property double Width {
    void set (    double value);
 
 }
-```
-```
+

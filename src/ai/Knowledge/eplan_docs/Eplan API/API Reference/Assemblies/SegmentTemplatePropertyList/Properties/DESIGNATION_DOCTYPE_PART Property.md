@@ -8,17 +8,12 @@ Document type (single component) # 1528.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_DOCTYPE_PART {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_DOCTYPE_PART {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_DOCTYPE_PART {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

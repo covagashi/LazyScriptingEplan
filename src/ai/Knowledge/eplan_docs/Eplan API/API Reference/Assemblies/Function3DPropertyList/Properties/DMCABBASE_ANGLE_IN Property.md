@@ -8,17 +8,12 @@ Thermal design: Intake angle # 36461.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMCABBASE_ANGLE_IN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMCABBASE_ANGLE_IN {
@@ -28,8 +23,7 @@ property PropertyValue^ DMCABBASE_ANGLE_IN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.Double.
 
 Remarks
 
-Area parameter for calculating the optimally air-conditioned area (area that an air-conditioning unit can reliably air-condition on the basis of its air circulation capacity). Describes the width of the angle in which the air to be cooled / heated can enter the cooling device. Amounts uniformly to 60Â° for all devices.
+Area parameter for calculating the optimally air-conditioned area (area that an air-conditioning unit can reliably air-condition on the basis of its air circulation capacity). Describes the width of the angle in which the air to be cooled / heated can enter the cooling device. Amounts uniformly to 60° for all devices.

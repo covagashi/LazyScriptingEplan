@@ -8,17 +8,12 @@ Returns if the page is a logical page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsLogicalPage {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsLogicalPage {
@@ -26,8 +21,7 @@ property bool IsLogicalPage {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

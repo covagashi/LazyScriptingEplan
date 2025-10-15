@@ -16,22 +16,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ForbiddenOperationException : System.InvalidOperationException
-```
-```
 
-```
-```
 public ref class ForbiddenOperationException : public System.InvalidOperationException
-```
-```
-
-
 
 Public Constructors
 
@@ -40,8 +31,6 @@ Public Constructors
 | Public Constructor | [ForbiddenOperationException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ForbiddenOperationException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

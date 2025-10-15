@@ -8,17 +8,12 @@ Integer number of this property. When setting a property by number, be aware, th
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int AsInt {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int AsInt {
@@ -28,8 +23,7 @@ property int AsInt {
    void set (    int value);
 
 }
-```
-```
+
 
 Exceptions
 

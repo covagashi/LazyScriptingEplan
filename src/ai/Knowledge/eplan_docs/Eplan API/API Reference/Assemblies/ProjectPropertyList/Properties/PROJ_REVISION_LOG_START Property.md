@@ -8,17 +8,12 @@ Revision: Change tracking started # 10154.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_REVISION_LOG_START {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_REVISION_LOG_START {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_REVISION_LOG_START {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

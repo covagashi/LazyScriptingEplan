@@ -8,11 +8,10 @@ Lock or unlock all Objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 EplanResponse LockUnlockAllObjects( 
 
    string strFullProjectName,
@@ -20,11 +19,7 @@ EplanResponse LockUnlockAllObjects(
    bool bLock
 
 )
-```
-```
 
-```
-```
 EplanResponse^ LockUnlockAllObjects( 
 
    String^ strFullProjectName,
@@ -32,8 +27,7 @@ EplanResponse^ LockUnlockAllObjects(
    bool bLock
 
 )
-```
-```
+
 
 #### Parameters
 

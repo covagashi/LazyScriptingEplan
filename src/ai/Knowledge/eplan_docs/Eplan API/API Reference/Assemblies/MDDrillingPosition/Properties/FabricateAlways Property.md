@@ -8,17 +8,12 @@ Boolean flag that shows wether the drill is fabricated always. even if the termi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool FabricateAlways {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool FabricateAlways {
@@ -28,5 +23,4 @@ property bool FabricateAlways {
    void set (    bool value);
 
 }
-```
-```
+

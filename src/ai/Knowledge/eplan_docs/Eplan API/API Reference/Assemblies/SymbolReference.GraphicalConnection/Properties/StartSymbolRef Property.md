@@ -8,17 +8,12 @@ Returns the first connected symbol.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolReference StartSymbolRef {get;}
-```
-```
 
-```
-```
 public:
 
 property SymbolReference^ StartSymbolRef {
@@ -26,5 +21,4 @@ property SymbolReference^ StartSymbolRef {
    SymbolReference^ get();
 
 }
-```
-```
+

@@ -8,22 +8,16 @@ Deletes all report pages belonging to a report block.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Delete()
-```
-```
 
-```
-```
 public:
 
 void Delete();
-```
-```
+
 
 Exceptions
 

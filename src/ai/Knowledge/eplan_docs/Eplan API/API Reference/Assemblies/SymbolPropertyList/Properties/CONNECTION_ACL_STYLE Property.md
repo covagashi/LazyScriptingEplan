@@ -8,17 +8,12 @@ Autoconnecting line: Line type # 31015.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_ACL_STYLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_ACL_STYLE {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_ACL_STYLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

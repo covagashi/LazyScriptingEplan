@@ -8,17 +8,12 @@ Connection: Length (full) # 31090.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_WIRELENGTH_FULL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_WIRELENGTH_FULL {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_WIRELENGTH_FULL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

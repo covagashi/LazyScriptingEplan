@@ -8,21 +8,16 @@ Deletes translation database language.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool DeleteLanguage( 
 
    ISOCode.Language eLang
 
 )
-```
-```
 
-```
-```
 public:
 
 bool DeleteLanguage( 
@@ -30,8 +25,7 @@ bool DeleteLanguage(
    ISOCode.Language eLang
 
 )
-```
-```
+
 
 #### Parameters
 

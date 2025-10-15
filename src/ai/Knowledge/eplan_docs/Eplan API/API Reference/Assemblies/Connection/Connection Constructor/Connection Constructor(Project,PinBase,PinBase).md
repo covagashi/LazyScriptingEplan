@@ -8,11 +8,10 @@ Constructor to create not-placed Connection.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Connection( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public Connection(
    PinBase oPinBaseTarget
 
 )
-```
-```
 
-```
-```
 public:
 
 Connection( 
@@ -38,8 +33,7 @@ Connection(
    PinBase^ oPinBaseTarget
 
 )
-```
-```
+
 
 #### Parameters
 

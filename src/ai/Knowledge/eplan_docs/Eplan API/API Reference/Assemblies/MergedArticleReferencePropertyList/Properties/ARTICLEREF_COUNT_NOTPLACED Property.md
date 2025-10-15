@@ -8,17 +8,12 @@ Number of units / quantity (unplaced) # 20484.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_COUNT_NOTPLACED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_COUNT_NOTPLACED {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_COUNT_NOTPLACED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

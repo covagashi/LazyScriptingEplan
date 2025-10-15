@@ -8,17 +8,12 @@ Mounting panel: Usable width # 22117.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PANELWIDTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PANELWIDTH {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PANELWIDTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

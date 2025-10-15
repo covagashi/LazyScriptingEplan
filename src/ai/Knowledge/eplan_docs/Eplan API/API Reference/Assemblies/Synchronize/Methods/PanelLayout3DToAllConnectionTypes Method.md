@@ -8,21 +8,16 @@ Synchronization from 'panellayout 3D' connection data onto all other connection 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void PanelLayout3DToAllConnectionTypes( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void PanelLayout3DToAllConnectionTypes( 
@@ -30,8 +25,7 @@ void PanelLayout3DToAllConnectionTypes(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

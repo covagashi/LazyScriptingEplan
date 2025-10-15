@@ -29,7 +29,7 @@ CFG         Here, all XML files and the  install.xml  are installed. 
 
 <XML>
 
-<â¦>
+<'¦>
 
 ### The files
 
@@ -47,7 +47,7 @@ For further information, about how to create an add-on with the  EplAddonUtilit
  <Settings format="2">
    <CAT name="INSTALL">
      <MOD name="AF">
- <!âThe application modifier is the unique identifier for this add-on. Either spaces or dots are allowed. Otherwise, the registration is not possible then. -->
+ <!'The application modifier is the unique identifier for this add-on. Either spaces or dots are allowed. Otherwise, the registration is not possible then. -->
        <Setting name="ApplicationModifier" type="string" info="Name modification for specific application configuration">
          <Val>MyAddon</Val>
        </Setting>
@@ -56,22 +56,22 @@ For further information, about how to create an add-on with the  EplAddonUtilit
    <CAT name="STATION">
      <MOD name="SYSTEM">
        <LEV1 name="MyAddon">
- <!âThis is the path to the xml file. This setting is patched by the installer -->
+ <!'This is the path to the xml file. This setting is patched by the installer -->
          <Setting name="XMLPath" type="string" info="patched path to install.xml">
            <Val>C:\Users\ Username \Desktop\MyAddon\CFG\</Val>
          </Setting>
- <!âThis is the version of the add-on this setting is patched by the installer. -->
+ <!'This is the version of the add-on this setting is patched by the installer. -->
          <Setting name="Version" type="string" info="version nr of this addon">
            <Val>1.0.0</Val>
          </Setting>
- <!âThis node describe the main versions, this add-on belongsto.. -->
+ <!'This node describe the main versions, this add-on belongsto.. -->
          <LEV2 name="MainVersion">
            <LEV3 name="Basic">
- <!âThis setting is the license identifier for the main version. All these licences MUST be available, only then this add-on will be registered -->
+ <!'This setting is the license identifier for the main version. All these licences MUST be available, only then this add-on will be registered -->
              <Setting name="Licences" type="string" info="Licence of Main Product to identify it">
                <Val>700</Val>
              </Setting>
- <!âThis setting is the version identifier for the main version. By multiple versions, ONE of this licenc-es MUST be identical to the main version number, then this add-on is registered. -->
+ <!'This setting is the version identifier for the main version. By multiple versions, ONE of this licenc-es MUST be identical to the main version number, then this add-on is registered. -->
              <Setting name="Versions" type="string" info="Version of Main Product to identify it">
                <Val>2.9.0</Val>
              </Setting>
@@ -142,10 +142,10 @@ For further information, about how to create an add-on with the  EplAddonUtilit
            </LEV3>
          </LEV2>
        </LEV1>
- <!âNow the base data the add-on has will be copied to the Eplan base data. Define as many pathes as possible. -->
+ <!'Now the base data the add-on has will be copied to the Eplan base data. Define as many pathes as possible. -->
        <LEV1 name="Basedata">
          <LEV2 name="MyAddon">
- <!âCopy all files behind this setting pathes to pathes for master dataâ¦ -->
+ <!'Copy all files behind this setting pathes to pathes for master data'¦ -->
            <Setting name="CopyTo" type="string" info="copy-to pathes for masterData">
              <Val>USER.TrDMProject.Masterdata.Pathnames..Projects</Val>
              <Val>USER.TrDMProject.Masterdata.Pathnames..Templates</Val>
@@ -161,7 +161,7 @@ For further information, about how to create an add-on with the  EplAddonUtilit
              <Val>USER.SYSTEM.Pathnames..Scheme</Val>
            </Setting>
          </LEV2>
- <!ââ¦from pathes for master data. The count of the settings of âCopyToâ and âCopyFromâ has to be identical. -->
+ <!''¦from pathes for master data. The count of the settings of 'CopyTo' and 'CopyFrom' has to be identical. -->
          <Setting name="CopyFrom" type="string" info="copy-from pathes for masterData">
            <Val>USER.TrDMProject.Masterdata.Pathnames.MyAddon.Projects</Val>
            <Val>USER.TrDMProject.Masterdata.Pathnames.MyAddon.Templates</Val>

@@ -8,17 +8,12 @@ The parts database that is currently used as a connection string or a file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static string SelectedPartsDatabaseAsString {get;}
-```
-```
 
-```
-```
 public:
 
 static property String^ SelectedPartsDatabaseAsString {
@@ -26,5 +21,4 @@ static property String^ SelectedPartsDatabaseAsString {
    String^ get();
 
 }
-```
-```
+

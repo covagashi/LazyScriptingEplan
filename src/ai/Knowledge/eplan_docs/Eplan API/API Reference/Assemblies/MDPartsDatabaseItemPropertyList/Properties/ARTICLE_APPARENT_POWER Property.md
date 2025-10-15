@@ -8,17 +8,12 @@ Apparent power # 26549.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_APPARENT_POWER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_APPARENT_POWER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_APPARENT_POWER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Effective delivery amount # 26271.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_EFFECTIVE_DELIVERY_RATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_EFFECTIVE_DELIVERY_RATE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_EFFECTIVE_DELIVERY_RATE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

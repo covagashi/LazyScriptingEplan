@@ -8,17 +8,12 @@ Version # 16026.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMB_VERSION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMB_VERSION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMB_VERSION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

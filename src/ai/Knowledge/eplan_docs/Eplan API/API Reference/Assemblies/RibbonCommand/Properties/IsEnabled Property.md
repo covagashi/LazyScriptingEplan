@@ -8,17 +8,12 @@ Returns whether a command enabled
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsEnabled {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsEnabled {
@@ -26,5 +21,4 @@ property bool IsEnabled {
    bool get();
 
 }
-```
-```
+

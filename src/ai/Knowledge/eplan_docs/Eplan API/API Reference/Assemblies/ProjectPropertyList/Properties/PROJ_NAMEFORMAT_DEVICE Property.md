@@ -8,17 +8,12 @@ Naming format for devices # 10075.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_NAMEFORMAT_DEVICE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_NAMEFORMAT_DEVICE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_NAMEFORMAT_DEVICE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

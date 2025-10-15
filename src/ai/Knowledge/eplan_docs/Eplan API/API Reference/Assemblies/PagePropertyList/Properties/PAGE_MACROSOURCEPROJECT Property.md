@@ -8,17 +8,12 @@ Macro: Source project # 11056.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_MACROSOURCEPROJECT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_MACROSOURCEPROJECT {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_MACROSOURCEPROJECT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Exports PLC assignment lists
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExportAssignmentList( 
 
    Project oProject,
@@ -28,11 +27,7 @@ public void ExportAssignmentList(
    string strAssignmentListFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExportAssignmentList( 
@@ -50,8 +45,7 @@ void ExportAssignmentList(
    String^ strAssignmentListFileName
 
 )
-```
-```
+
 
 #### Parameters
 

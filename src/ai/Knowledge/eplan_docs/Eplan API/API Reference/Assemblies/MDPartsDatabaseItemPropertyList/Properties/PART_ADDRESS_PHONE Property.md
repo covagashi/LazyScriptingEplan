@@ -8,17 +8,12 @@ Phone # 22919.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue PART_ADDRESS_PHONE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ PART_ADDRESS_PHONE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ PART_ADDRESS_PHONE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

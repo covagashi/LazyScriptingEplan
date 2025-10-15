@@ -8,17 +8,12 @@ Returns whether the count of connection points is specified as variable.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsCPsCountVariable {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsCPsCountVariable {
@@ -26,5 +21,4 @@ property bool IsCPsCountVariable {
    bool get();
 
 }
-```
-```
+

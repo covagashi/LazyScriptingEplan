@@ -8,21 +8,16 @@ Transfers part references of all the part placements in the project to main func
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function[] UpdateMainElements( 
 
    Project prj
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Function^>^ UpdateMainElements( 
@@ -30,8 +25,7 @@ array<Function^>^ UpdateMainElements(
    Project^ prj
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ The sub type of the drilling
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDDrillingPosition.DrillingSubType SubType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDDrillingPosition.DrillingSubType SubType {
@@ -28,5 +23,4 @@ property MDDrillingPosition.DrillingSubType SubType {
    void set (    MDDrillingPosition.DrillingSubType value);
 
 }
-```
-```
+

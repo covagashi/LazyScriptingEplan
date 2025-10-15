@@ -8,17 +8,12 @@ End customer: E-mail # 10142.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_ENDCUSTOMEREMAIL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_ENDCUSTOMEREMAIL {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_ENDCUSTOMEREMAIL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

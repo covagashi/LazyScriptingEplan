@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public struct Color : System.ValueType
-```
-```
 
-```
-```
 public value class Color : public System.ValueType
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [Color Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Color~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

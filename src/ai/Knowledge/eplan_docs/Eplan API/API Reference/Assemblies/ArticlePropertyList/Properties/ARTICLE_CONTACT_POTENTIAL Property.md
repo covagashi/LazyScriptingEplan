@@ -8,17 +8,12 @@ Contact potential # 26119.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CONTACT_POTENTIAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CONTACT_POTENTIAL {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CONTACT_POTENTIAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

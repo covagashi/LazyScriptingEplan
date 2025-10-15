@@ -8,11 +8,10 @@ Set one object with a name
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Set( 
 
    string strName,
@@ -20,11 +19,7 @@ public void Set(
    object strObject
 
 )
-```
-```
 
-```
-```
 public:
 
 void Set( 
@@ -34,8 +29,7 @@ void Set(
    Object^ strObject
 
 )
-```
-```
+
 
 #### Parameters
 

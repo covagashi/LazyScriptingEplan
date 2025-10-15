@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class DeviceService
-```
-```
 
-```
-```
 public ref class DeviceService
-```
-```
-
-
 
 Public Constructors
 
@@ -37,9 +28,6 @@ Public Constructors
 | Public Constructor | [DeviceService Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.DeviceService~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

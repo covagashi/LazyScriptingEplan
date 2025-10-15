@@ -8,17 +8,12 @@ Measuring range: Switching distance # 26127.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_MEASURING_RANGE_OF_THE_SWITCHING_DISTANCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_MEASURING_RANGE_OF_THE_SWITCHING_DISTANCE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_MEASURING_RANGE_OF_THE_SWITCHING_DISTANCE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

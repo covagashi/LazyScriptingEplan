@@ -8,17 +8,12 @@ Frozen report page # 11049.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_FROZEN_EVALUATIONPAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_FROZEN_EVALUATIONPAGE {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_FROZEN_EVALUATIONPAGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

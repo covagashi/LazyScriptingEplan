@@ -8,17 +8,12 @@ Checked date # 11083.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_REVISION_CHECKEDDATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_REVISION_CHECKEDDATE {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_REVISION_CHECKEDDATE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

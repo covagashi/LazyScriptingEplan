@@ -22,26 +22,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Group : Placement, IPlacementsContainer
-```
-```
 
-```
-```
 public ref class Group : public Placement, IPlacementsContainer
-```
-```
+
 
 Remarks
 
 The methods this class don't make sense for class "SymbolVariant". They always throw [ForbiddenOperationException](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ForbiddenOperationException.html) for class "SymbolVariant".
-
-
 
 Public Constructors
 
@@ -50,8 +42,6 @@ Public Constructors
 | Public Constructor | [Group Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Group~_ctor().html) | Default constructor. Creates the Group object. |
 
 [Top](#top)
-
-
 
 Public Properties
 

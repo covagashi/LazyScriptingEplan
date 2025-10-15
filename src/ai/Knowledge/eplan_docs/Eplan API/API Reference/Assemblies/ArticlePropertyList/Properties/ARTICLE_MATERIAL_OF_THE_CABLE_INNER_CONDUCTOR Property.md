@@ -8,17 +8,12 @@ Material of the inner conductor # 26639.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_MATERIAL_OF_THE_CABLE_INNER_CONDUCTOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_MATERIAL_OF_THE_CABLE_INNER_CONDUCTOR {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_MATERIAL_OF_THE_CABLE_INNER_CONDUCTOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns the index of the ArticleReference reference for the given article if it 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int ReferencePos {get;}
-```
-```
 
-```
-```
 public:
 
 property int ReferencePos {
@@ -26,8 +21,7 @@ property int ReferencePos {
    int get();
 
 }
-```
-```
+
 
 #### Property Value
 

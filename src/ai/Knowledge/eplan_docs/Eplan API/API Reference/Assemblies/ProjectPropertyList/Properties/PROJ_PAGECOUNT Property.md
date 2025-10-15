@@ -8,17 +8,12 @@ Total no. of pages # 10300.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_PAGECOUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_PAGECOUNT {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_PAGECOUNT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

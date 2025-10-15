@@ -8,22 +8,16 @@ Redefines placement area in the same place but with normal vector in opposite di
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool TurnAround()
-```
-```
 
-```
-```
 public:
 
 bool TurnAround();
-```
-```
+
 
 #### Return Value
 

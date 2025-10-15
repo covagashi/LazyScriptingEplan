@@ -8,17 +8,12 @@ Tells if a P8 transaction is open.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsEplanTransactionRunning {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsEplanTransactionRunning {
@@ -26,8 +21,7 @@ property bool IsEplanTransactionRunning {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

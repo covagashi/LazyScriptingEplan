@@ -8,17 +8,12 @@ Number of connections # 22031.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CABLEWIRECOUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CABLEWIRECOUNT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CABLEWIRECOUNT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

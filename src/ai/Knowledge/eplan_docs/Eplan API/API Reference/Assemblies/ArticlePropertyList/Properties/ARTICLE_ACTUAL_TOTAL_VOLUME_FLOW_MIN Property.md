@@ -8,17 +8,12 @@ Actual total flow rate, min. # 26113.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_ACTUAL_TOTAL_VOLUME_FLOW_MIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_ACTUAL_TOTAL_VOLUME_FLOW_MIN {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_ACTUAL_TOTAL_VOLUME_FLOW_MIN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Group number # 22044.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_GROUPNUMBER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_GROUPNUMBER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_GROUPNUMBER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ TCF: Processes for greenhouse gas emissions in a transport service # 26603.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TCF_PROCESSES_FOR_GREENHOUSE_GAS_EMISSIONS_FOR_A_TRANSPORT_SERVICE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TCF_PROCESSES_FOR_GREENHOUSE_GAS_EMISSIONS_FOR_A_TRANSPORT_SERVICE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TCF_PROCESSES_FOR_GREENHOUSE_GAS_EMISSIONS_FOR
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

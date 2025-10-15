@@ -8,17 +8,12 @@ Grid # 11051.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_SOLUTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_SOLUTION {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_SOLUTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

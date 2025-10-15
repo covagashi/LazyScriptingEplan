@@ -8,22 +8,16 @@ For internal use only.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public AfActionProp GetAfActionProp()
-```
-```
 
-```
-```
 public:
 
 AfActionProp GetAfActionProp();
-```
-```
+
 
 #### Return Value
 

@@ -8,22 +8,16 @@ Starts locking step. Use LockingStep instead.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual int StartLockingStep()
-```
-```
 
-```
-```
 public:
 
 virtual int StartLockingStep();
-```
-```
+
 
 Remarks
 

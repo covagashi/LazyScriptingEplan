@@ -8,11 +8,10 @@ Creates new transient unplaced segment and assign to it start and end symbol.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateTransient( 
 
    Project pProject,
@@ -24,11 +23,7 @@ public void CreateTransient(
    bool bUpdateStartEnd
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateTransient( 
@@ -42,8 +37,7 @@ void CreateTransient(
    bool bUpdateStartEnd
 
 )
-```
-```
+
 
 #### Parameters
 

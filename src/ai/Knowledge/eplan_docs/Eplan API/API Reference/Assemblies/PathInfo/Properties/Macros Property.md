@@ -8,17 +8,12 @@ Returns default Macros directory.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Macros {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Macros {
@@ -26,8 +21,7 @@ property String^ Macros {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

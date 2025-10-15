@@ -8,21 +8,16 @@ Connection point pattern: Routing direction # 36059.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_TERMINALPOSITION_DIRECTION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_TERMINALPOSITION_DIRECTION {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNCTION3D_TERMINALPOSITION_DIRECTION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

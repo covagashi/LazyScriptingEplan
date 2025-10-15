@@ -8,22 +8,16 @@ Stores changes into a project database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool StoreToObject()
-```
-```
 
-```
-```
 public:
 
 bool StoreToObject();
-```
-```
+
 
 #### Return Value
 

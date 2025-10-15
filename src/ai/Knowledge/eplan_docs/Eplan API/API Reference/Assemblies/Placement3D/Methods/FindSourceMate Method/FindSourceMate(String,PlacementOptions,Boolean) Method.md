@@ -8,11 +8,10 @@ Find source mate by name. Mate namePlacement optionsConsider child mounting surf
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointMate FindSourceMate( 
 
    string name,
@@ -22,11 +21,7 @@ public PointMate FindSourceMate(
    bool bConsiderMountingSurfaces
 
 )
-```
-```
 
-```
-```
 public:
 
 PointMate^ FindSourceMate( 
@@ -38,8 +33,7 @@ PointMate^ FindSourceMate(
    bool bConsiderMountingSurfaces
 
 )
-```
-```
+
 
 #### Parameters
 

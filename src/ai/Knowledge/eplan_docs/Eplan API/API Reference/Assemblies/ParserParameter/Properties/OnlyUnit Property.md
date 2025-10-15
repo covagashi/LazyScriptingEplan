@@ -8,17 +8,12 @@ Display only the Unit.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool OnlyUnit {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool OnlyUnit {
@@ -28,5 +23,4 @@ property bool OnlyUnit {
    void set (    bool value);
 
 }
-```
-```
+

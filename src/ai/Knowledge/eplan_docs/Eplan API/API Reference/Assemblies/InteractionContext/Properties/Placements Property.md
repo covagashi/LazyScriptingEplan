@@ -8,17 +8,12 @@ Placements in this context.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Placement[] Placements {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property array<Placement^>^ Placements {
@@ -28,5 +23,4 @@ virtual property array<Placement^>^ Placements {
    void set (    array<Placement^>^ value);
 
 }
-```
-```
+

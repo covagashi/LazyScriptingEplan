@@ -8,17 +8,12 @@ External document # 11058.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_EXTDOCUMENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_EXTDOCUMENT {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_EXTDOCUMENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

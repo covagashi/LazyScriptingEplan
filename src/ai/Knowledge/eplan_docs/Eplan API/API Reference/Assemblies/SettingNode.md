@@ -14,20 +14,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class SettingNode
-```
-```
 
-```
-```
 public ref class SettingNode
-```
-```
+
 
 Remarks
 
@@ -37,7 +31,7 @@ Example
 
 Example of using relative path to access entries
 
-- [C#](#i-tab-content-a73ebe75-93e0-4207-bc24-c2f4c13dd6b4)
+**C#**
 
 ```
 // Create setting node with path STATION.AF.Service.Actions.ActionNewModell
@@ -50,38 +44,30 @@ oSettingNode.SetStringSetting("ModuleName.10", "Service3DLog", 0);
 
 string str = oSettingNode.GetStringSetting("ModuleName.10", 0);
 
-
-
 ```
 
 Example of merging 2 nodes
 
-- [C#](#i-tab-content-61de88e8-898b-4fcf-944a-e92c0f289cb8)
+**C#**
 
 ```
 SettingNode oTestNode1 = new SettingNode("STATION.AF.Services.Actions.ActionNewModell");
 
 Console.WriteLine(oTestNode1.GetCountOfNodes().ToString()); //  1
 
-
-
 SettingNode oTestNode2 = new SettingNode("STATION.AF.Services.Actions.AdjustFromAllLineToSingleLineAndOverview");
 
 Console.WriteLine(oTestNode2.GetCountOfNodes().ToString()); //  1
-
-
 
 oTestNode1.MergeWithNode(oTestNode2);
 
 Console.WriteLine(oTestNode1.GetCountOfNodes().ToString()); //  2
 
-
-
 ```
 
 Example of listing sub-nodes
 
-- [C#](#i-tab-content-deec29e6-5077-45d0-9375-7b4329787558)
+**C#**
 
 ```
 SettingNode oSettingNode = new SettingNode("STATION.AF.Modules");
@@ -100,8 +86,6 @@ foreach (string sSubNode in oSubnodes)
 
 }
 
-
-
 ```
 
 Public Constructors
@@ -111,9 +95,6 @@ Public Constructors
 | Public Constructor | [SettingNode Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SettingNode~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

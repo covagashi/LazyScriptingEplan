@@ -4,21 +4,16 @@
 
 ---
 
-Conductivity (at +20 Â°C) # 22273.
+Conductivity (at +20 °C) # 22273.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CONDUCTIVITY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CONDUCTIVITY {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CONDUCTIVITY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Specific electrical conductivity at +20 Â°C.
+Specific electrical conductivity at +20 °C.

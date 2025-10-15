@@ -8,21 +8,16 @@ Removes a connection point info out of the parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveConnectionPointInfo( 
 
    MDConnectionPointInfo connectionPointInfo
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveConnectionPointInfo( 
@@ -30,8 +25,7 @@ void RemoveConnectionPointInfo(
    MDConnectionPointInfo^ connectionPointInfo
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Suppl. field: Group # 11032.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_ADDITIONALGROUP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_ADDITIONALGROUP {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_ADDITIONALGROUP {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

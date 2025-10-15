@@ -8,17 +8,12 @@ Gets type of DimensionGroup.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DimensionGroup.Enums.DimensionType DimensionType {get;}
-```
-```
 
-```
-```
 public:
 
 property DimensionGroup.Enums.DimensionType DimensionType {
@@ -26,5 +21,4 @@ property DimensionGroup.Enums.DimensionType DimensionType {
    DimensionGroup.Enums.DimensionType get();
 
 }
-```
-```
+

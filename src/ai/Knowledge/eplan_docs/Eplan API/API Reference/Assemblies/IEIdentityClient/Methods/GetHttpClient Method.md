@@ -8,11 +8,10 @@ Gets HttpClient object. IHttpClientFactory is used internally to create the Http
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 IdentityClientResponse GetHttpClient( 
 
    string strClientId,
@@ -22,11 +21,7 @@ IdentityClientResponse GetHttpClient(
    ref HttpClient httpClient
 
 )
-```
-```
 
-```
-```
 IdentityClientResponse^ GetHttpClient( 
 
    String^ strClientId,
@@ -36,8 +31,7 @@ IdentityClientResponse^ GetHttpClient(
    HttpClient^% httpClient
 
 )
-```
-```
+
 
 #### Parameters
 

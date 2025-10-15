@@ -8,17 +8,12 @@ Transport volume # 26328.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PUMPING_VOLUME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PUMPING_VOLUME {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PUMPING_VOLUME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

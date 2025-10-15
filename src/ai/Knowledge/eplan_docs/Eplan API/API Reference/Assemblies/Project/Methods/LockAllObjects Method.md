@@ -8,22 +8,16 @@ Locks all data model objects in the project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void LockAllObjects()
-```
-```
 
-```
-```
 public:
 
 void LockAllObjects();
-```
-```
+
 
 Exceptions
 
@@ -37,7 +31,7 @@ Result is the same as when getting a project from a [ProjectManager](Eplan.EplAp
 
 Example
 
-- [C#](#i-tab-content-6530133e-d81b-4505-bb8a-e185e6146c73)
+**C#**
 
 ```
 using (LockingStep ls = new LockingStep())

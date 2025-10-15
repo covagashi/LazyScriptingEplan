@@ -8,17 +8,12 @@ Count of Variables.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual uint NumberOfVariables {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property uint NumberOfVariables {
@@ -26,8 +21,7 @@ virtual property uint NumberOfVariables {
    uint get();
 
 }
-```
-```
+
 
 #### Property Value
 

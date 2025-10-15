@@ -8,17 +8,12 @@ Target number of start function (1,2,3...)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short StartTargetNumber {get; set;}
-```
-```
 
-```
-```
 public:
 
 property short StartTargetNumber {
@@ -28,5 +23,4 @@ property short StartTargetNumber {
    void set (    short value);
 
 }
-```
-```
+

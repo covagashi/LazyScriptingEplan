@@ -8,11 +8,10 @@ Gets the name prototype for a given function group. This function will be used, 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool GetNamePrototype( 
 
    Project.FunctionGroup eFgr,
@@ -20,11 +19,7 @@ public bool GetNamePrototype(
    UniversalPropertyList pOutPrototype
 
 )
-```
-```
 
-```
-```
 public:
 
 bool GetNamePrototype( 
@@ -34,8 +29,7 @@ bool GetNamePrototype(
    UniversalPropertyList^ pOutPrototype
 
 )
-```
-```
+
 
 #### Parameters
 

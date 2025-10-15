@@ -8,24 +8,13 @@ This is an interface that is used as a base class for Article::ArticleInfo and P
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IArticleInfo
-```
-```
 
-```
-```
 public interface class IArticleInfo
-```
-```
-
-
-
-
 
 Public Properties
 

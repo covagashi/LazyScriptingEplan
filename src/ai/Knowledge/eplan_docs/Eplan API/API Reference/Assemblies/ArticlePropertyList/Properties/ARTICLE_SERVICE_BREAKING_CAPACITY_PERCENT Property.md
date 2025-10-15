@@ -8,17 +8,12 @@ Service short-circuit breaking capacity (Ics as % of Icu) # 26592.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SERVICE_BREAKING_CAPACITY_PERCENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SERVICE_BREAKING_CAPACITY_PERCENT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SERVICE_BREAKING_CAPACITY_PERCENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

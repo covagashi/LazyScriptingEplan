@@ -13,26 +13,17 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Item")]
 
 public class PlaceHolder.VariablesClass
-```
-```
 
-```
-```
 [DefaultMember("Item")]
 
 public ref class PlaceHolder.VariablesClass
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [PlaceHolder.VariablesClass Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+VariablesClass~_ctor.html) | Constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

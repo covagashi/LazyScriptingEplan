@@ -8,17 +8,12 @@ Signal range of the PLC template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SignalRange {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ SignalRange {
@@ -28,5 +23,4 @@ property String^ SignalRange {
    void set (    String^ value);
 
 }
-```
-```
+

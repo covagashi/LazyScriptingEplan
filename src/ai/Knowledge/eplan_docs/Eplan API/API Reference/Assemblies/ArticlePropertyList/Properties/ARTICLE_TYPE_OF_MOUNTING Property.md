@@ -8,17 +8,12 @@ Mounting type # 26187.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TYPE_OF_MOUNTING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TYPE_OF_MOUNTING {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TYPE_OF_MOUNTING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

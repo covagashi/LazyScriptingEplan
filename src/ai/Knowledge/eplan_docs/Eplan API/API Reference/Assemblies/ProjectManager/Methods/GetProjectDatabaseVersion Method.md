@@ -8,21 +8,16 @@ Project database version.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ProjectManager.DatabaseVersion GetProjectDatabaseVersion( 
 
    string projectPath
 
 )
-```
-```
 
-```
-```
 public:
 
 ProjectManager.DatabaseVersion^ GetProjectDatabaseVersion( 
@@ -30,8 +25,7 @@ ProjectManager.DatabaseVersion^ GetProjectDatabaseVersion(
    String^ projectPath
 
 )
-```
-```
+
 
 #### Parameters
 

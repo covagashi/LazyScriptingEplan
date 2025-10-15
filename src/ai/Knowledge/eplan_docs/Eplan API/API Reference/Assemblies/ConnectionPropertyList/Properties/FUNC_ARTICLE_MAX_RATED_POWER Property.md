@@ -8,21 +8,16 @@ Nominal power (in kW), max. # 26479.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_MAX_RATED_POWER( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_MAX_RATED_POWER {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_MAX_RATED_POWER {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

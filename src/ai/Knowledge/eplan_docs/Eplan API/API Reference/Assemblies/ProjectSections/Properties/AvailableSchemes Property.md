@@ -8,17 +8,12 @@ Gets all schemes for working sections.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string[] AvailableSchemes {get;}
-```
-```
 
-```
-```
 public:
 
 property array<String^>^ AvailableSchemes {
@@ -26,5 +21,4 @@ property array<String^>^ AvailableSchemes {
    array<String^>^ get();
 
 }
-```
-```
+

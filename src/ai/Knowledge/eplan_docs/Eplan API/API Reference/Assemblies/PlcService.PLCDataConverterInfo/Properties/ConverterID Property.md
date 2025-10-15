@@ -8,17 +8,12 @@ A converter's ID. The value of this property may be used as strConverterID param
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ConverterID {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ ConverterID {
@@ -26,5 +21,4 @@ property String^ ConverterID {
    String^ get();
 
 }
-```
-```
+

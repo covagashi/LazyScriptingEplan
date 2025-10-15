@@ -8,17 +8,12 @@ The maximum number of Connections on the Pin.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short MaxConnectionCount {get; set;}
-```
-```
 
-```
-```
 public:
 
 property short MaxConnectionCount {
@@ -28,5 +23,4 @@ property short MaxConnectionCount {
    void set (    short value);
 
 }
-```
-```
+

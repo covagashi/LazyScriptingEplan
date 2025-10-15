@@ -8,17 +8,12 @@ Returns index of command in command group
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int IndexInCommandGroup {get;}
-```
-```
 
-```
-```
 public:
 
 property int IndexInCommandGroup {
@@ -26,5 +21,4 @@ property int IndexInCommandGroup {
    int get();
 
 }
-```
-```
+

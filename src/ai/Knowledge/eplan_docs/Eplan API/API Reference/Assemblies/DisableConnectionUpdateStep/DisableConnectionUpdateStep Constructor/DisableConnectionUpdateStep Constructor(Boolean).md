@@ -8,21 +8,16 @@ Do disable. If bUpdateCreatedConns parameter is true and this object is used tog
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DisableConnectionUpdateStep( 
 
    bool bUpdateCreatedConns
 
 )
-```
-```
 
-```
-```
 public:
 
 DisableConnectionUpdateStep( 
@@ -30,8 +25,7 @@ DisableConnectionUpdateStep(
    bool bUpdateCreatedConns
 
 )
-```
-```
+
 
 #### Parameters
 

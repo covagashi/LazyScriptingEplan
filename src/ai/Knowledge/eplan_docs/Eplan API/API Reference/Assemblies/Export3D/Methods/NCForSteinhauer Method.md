@@ -8,11 +8,10 @@ Exports drillings from a 3d objects as numerical control data for Steinhauer mac
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool NCForSteinhauer( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public bool NCForSteinhauer(
    IEnumerable<Placement3D> oCollection
 
 )
-```
-```
 
-```
-```
 public:
 
 bool NCForSteinhauer( 
@@ -46,8 +41,7 @@ bool NCForSteinhauer(
    IEnumerable<Placement3D^>^ oCollection
 
 )
-```
-```
+
 
 #### Parameters
 

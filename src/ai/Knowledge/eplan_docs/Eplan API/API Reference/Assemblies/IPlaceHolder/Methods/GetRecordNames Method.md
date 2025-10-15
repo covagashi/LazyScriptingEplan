@@ -8,20 +8,14 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 StringCollection GetRecordNames()
-```
-```
 
-```
-```
 StringCollection^ GetRecordNames();
-```
-```
+
 
 #### Return Value
 

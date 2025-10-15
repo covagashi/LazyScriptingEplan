@@ -8,17 +8,12 @@ Channel designation # 20407.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNC_PLCCHANNEL_DESIGNATION_MANUAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNC_PLCCHANNEL_DESIGNATION_MANUAL {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNC_PLCCHANNEL_DESIGNATION_MANUAL {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

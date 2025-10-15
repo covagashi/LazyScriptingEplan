@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class LockedMountingArea : Rectangle
-```
-```
 
-```
-```
 public ref class LockedMountingArea : public Rectangle
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [LockedMountingArea Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.LockedMountingArea~_ctor().html) | Default Constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

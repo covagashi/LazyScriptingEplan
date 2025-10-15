@@ -8,17 +8,12 @@ Street # 22913.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue PART_ADDRESS_STREET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ PART_ADDRESS_STREET {
@@ -28,8 +23,7 @@ property MDPropertyValue^ PART_ADDRESS_STREET {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

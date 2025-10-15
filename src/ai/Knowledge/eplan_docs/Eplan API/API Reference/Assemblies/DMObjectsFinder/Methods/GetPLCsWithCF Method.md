@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.EObjects.PLC](Eplan.EplApi.DataModelu~Eplan.EplA
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PLC[] GetPLCsWithCF( 
 
    ICustomFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<PLC^>^ GetPLCsWithCF( 
@@ -30,8 +25,7 @@ array<PLC^>^ GetPLCsWithCF(
    ICustomFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

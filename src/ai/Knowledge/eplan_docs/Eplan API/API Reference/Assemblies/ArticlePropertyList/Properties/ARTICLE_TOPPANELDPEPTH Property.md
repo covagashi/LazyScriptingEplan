@@ -8,17 +8,12 @@ Cover: Depth # 22180.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TOPPANELDPEPTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TOPPANELDPEPTH {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TOPPANELDPEPTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

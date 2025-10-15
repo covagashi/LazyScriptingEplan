@@ -8,17 +8,12 @@ Column numbering format # 12011.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_FORMAT_OF_ROW_NUMBERS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_FORMAT_OF_ROW_NUMBERS {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_FORMAT_OF_ROW_NUMBERS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

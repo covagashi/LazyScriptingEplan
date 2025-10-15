@@ -8,11 +8,10 @@ Constructor symbol from library using number.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Symbol( 
 
    SymbolLibrary symbolLib,
@@ -20,11 +19,7 @@ public Symbol(
    int symbolNumber
 
 )
-```
-```
 
-```
-```
 public:
 
 Symbol( 
@@ -34,8 +29,7 @@ Symbol(
    int symbolNumber
 
 )
-```
-```
+
 
 #### Parameters
 

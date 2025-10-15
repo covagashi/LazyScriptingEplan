@@ -8,17 +8,12 @@ Model view: Name of the report template # 36512.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_TEMPLATE_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_TEMPLATE_NAME {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_TEMPLATE_NAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

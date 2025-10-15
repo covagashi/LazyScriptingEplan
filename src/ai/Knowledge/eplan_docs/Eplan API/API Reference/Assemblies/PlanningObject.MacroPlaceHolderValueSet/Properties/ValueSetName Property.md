@@ -8,17 +8,12 @@ Returns the name of the value set
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ValueSetName {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ ValueSetName {
@@ -26,8 +21,7 @@ property String^ ValueSetName {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

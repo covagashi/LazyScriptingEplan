@@ -8,17 +8,12 @@ Product: Description # 1850.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FULLPRODUCT_DESCR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FULLPRODUCT_DESCR {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FULLPRODUCT_DESCR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

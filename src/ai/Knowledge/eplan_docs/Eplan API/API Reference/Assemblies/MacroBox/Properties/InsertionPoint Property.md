@@ -8,17 +8,12 @@ Coordinates of insertion point
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD InsertionPoint {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PointD InsertionPoint {
@@ -28,5 +23,4 @@ property PointD InsertionPoint {
    void set (    PointD value);
 
 }
-```
-```
+

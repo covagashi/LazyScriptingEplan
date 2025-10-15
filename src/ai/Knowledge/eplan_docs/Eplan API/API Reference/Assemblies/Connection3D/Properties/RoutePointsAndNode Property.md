@@ -8,17 +8,12 @@ Array of points in 3d space through which connection is routed and objects in wh
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public KeyValuePair<PointD3D,Placement3D>[] RoutePointsAndNode {get;}
-```
-```
 
-```
-```
 public:
 
 property array<KeyValuePair<PointD3D,Placement3D^>>^ RoutePointsAndNode {
@@ -26,5 +21,4 @@ property array<KeyValuePair<PointD3D,Placement3D^>>^ RoutePointsAndNode {
    array<KeyValuePair<PointD3D,Placement3D^>>^ get();
 
 }
-```
-```
+

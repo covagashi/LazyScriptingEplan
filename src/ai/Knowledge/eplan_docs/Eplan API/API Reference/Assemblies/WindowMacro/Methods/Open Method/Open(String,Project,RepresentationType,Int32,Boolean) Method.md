@@ -8,17 +8,12 @@ Returns available value set names
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string[] AvailableValueSetNames {get;}
-```
-```
 
-```
-```
 public:
 
 property array<String^>^ AvailableValueSetNames {
@@ -26,8 +21,7 @@ property array<String^>^ AvailableValueSetNames {
    array<String^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

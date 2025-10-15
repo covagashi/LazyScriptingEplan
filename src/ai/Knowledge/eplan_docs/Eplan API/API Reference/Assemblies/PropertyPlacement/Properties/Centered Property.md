@@ -8,17 +8,12 @@ The property specifies whether the block (main property + docked properties) sho
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyPlacement.TextDockingStyle Centered {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyPlacement.TextDockingStyle Centered {
@@ -28,5 +23,4 @@ property PropertyPlacement.TextDockingStyle Centered {
    void set (    PropertyPlacement.TextDockingStyle value);
 
 }
-```
-```
+

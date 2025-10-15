@@ -8,21 +8,16 @@ Provision of cable # 26233.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_PROVISION_OF_THE_CABLE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_PROVISION_OF_THE_CABLE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_PROVISION_OF_THE_CABLE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

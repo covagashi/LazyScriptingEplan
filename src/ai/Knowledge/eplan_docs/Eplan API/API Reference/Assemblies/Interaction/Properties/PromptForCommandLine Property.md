@@ -8,17 +8,12 @@ Prompt for command line.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual string PromptForCommandLine {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property String^ PromptForCommandLine {
@@ -28,5 +23,4 @@ virtual property String^ PromptForCommandLine {
    void set (    String^ value);
 
 }
-```
-```
+

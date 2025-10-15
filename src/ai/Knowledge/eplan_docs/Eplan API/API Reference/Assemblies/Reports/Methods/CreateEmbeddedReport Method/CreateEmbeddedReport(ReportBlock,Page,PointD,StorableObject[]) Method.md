@@ -8,11 +8,10 @@ Creates embedded report.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ReportBlockReference CreateEmbeddedReport( 
 
    ReportBlock oReportBlock,
@@ -24,11 +23,7 @@ public ReportBlockReference CreateEmbeddedReport(
    StorableObject[] storableObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 ReportBlockReference^ CreateEmbeddedReport( 
@@ -42,8 +37,7 @@ ReportBlockReference^ CreateEmbeddedReport(
    array<StorableObject^>^ storableObjects
 
 )
-```
-```
+
 
 #### Parameters
 

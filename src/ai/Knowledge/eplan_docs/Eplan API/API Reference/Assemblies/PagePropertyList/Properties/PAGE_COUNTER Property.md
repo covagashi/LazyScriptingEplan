@@ -8,17 +8,12 @@ Page counter # 11012.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_COUNTER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_COUNTER {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_COUNTER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

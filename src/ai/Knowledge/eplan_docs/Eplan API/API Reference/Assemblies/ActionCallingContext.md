@@ -15,30 +15,22 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [Guid("B44C4085-E6B8-3622-A1EF-50DF81A26485")]
 
 public class ActionCallingContext : Eplan.EplApi.Base.Context, IActionCallingContext, Eplan.EplApi.Base.IContext
-```
-```
 
-```
-```
 [Guid("B44C4085-E6B8-3622-A1EF-50DF81A26485")]
 
 public ref class ActionCallingContext : public Eplan.EplApi.Base.Context, IActionCallingContext, Eplan.EplApi.Base.IContext
-```
-```
+
 
 Remarks
 
 Using AddParameter(...) you can add explicitly named parameters to the ActionCallingContext. The action must use this explicit name to reference these parameters. Likewise, values returned by the action can be added. Please mind that an Action may modify the ActionCallingContext during its execution. Sometimes e.g. project IDs are added to the context and are passed to an inner action. Reusing the same ActionCallingContext for another Action call may lead to unexpected results. So in most cases it is advisable to create a new ActionCallingContext for a new Action call.
-
-
 
 Public Constructors
 
@@ -47,8 +39,6 @@ Public Constructors
 | Public Constructor | [ActionCallingContext Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionCallingContext~_ctor().html) | Creates an ActionCallingContext |
 
 [Top](#top)
-
-
 
 Public Properties
 

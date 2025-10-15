@@ -8,17 +8,12 @@ Frequency # 33004.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue POTENTIAL_FREQUENCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ POTENTIAL_FREQUENCE {
@@ -28,8 +23,7 @@ property PropertyValue^ POTENTIAL_FREQUENCE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

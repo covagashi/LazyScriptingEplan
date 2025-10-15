@@ -8,11 +8,10 @@ Adds a new function template to the part on the last position
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDFunctionTemplatePosition AddFunctionTemplatePosition( 
 
    FunctionCategory functionCategory,
@@ -22,11 +21,7 @@ public MDFunctionTemplatePosition AddFunctionTemplatePosition(
    short id
 
 )
-```
-```
 
-```
-```
 public:
 
 MDFunctionTemplatePosition^ AddFunctionTemplatePosition( 
@@ -38,8 +33,7 @@ MDFunctionTemplatePosition^ AddFunctionTemplatePosition(
    short id
 
 )
-```
-```
+
 
 #### Parameters
 

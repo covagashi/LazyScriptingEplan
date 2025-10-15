@@ -8,17 +8,12 @@ Installation site (visible) # 1429.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_PLACEOFINSTALLATION_VISIBLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_PLACEOFINSTALLATION_VISIBLE {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_PLACEOFINSTALLATION_VISIBLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Cross-reference for NFPA standard # 24302.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INTERRUPTIONPOINT_CROSSREFERENCE_NFPA {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INTERRUPTIONPOINT_CROSSREFERENCE_NFPA {
@@ -28,8 +23,7 @@ property PropertyValue^ INTERRUPTIONPOINT_CROSSREFERENCE_NFPA {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

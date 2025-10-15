@@ -15,22 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDIndexedPropertyException : MasterDataException
-```
-```
 
-```
-```
 public ref class MDIndexedPropertyException : public MasterDataException
-```
-```
-
-
 
 Public Constructors
 

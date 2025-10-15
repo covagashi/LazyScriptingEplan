@@ -8,21 +8,16 @@ Revision date (change tracking) # 10158.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_REVISION_LOG_DATE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_REVISION_LOG_DATE {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_REVISION_LOG_DATE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

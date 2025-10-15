@@ -8,17 +8,12 @@ Plot frame to edit symbol # 15030.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBLIB_FRAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBLIB_FRAME {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMBLIB_FRAME {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Cable / Conduit: Target: Stripping length # 20082.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLE_STRIPPINGLENGTHDESTINATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLE_STRIPPINGLENGTHDESTINATION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLE_STRIPPINGLENGTHDESTINATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Designation of the bus bundle or net on which the PLC bus port hangs.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Network {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Network {
@@ -28,5 +23,4 @@ property String^ Network {
    void set (    String^ value);
 
 }
-```
-```
+

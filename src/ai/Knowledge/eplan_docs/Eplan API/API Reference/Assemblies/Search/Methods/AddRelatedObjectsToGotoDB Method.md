@@ -8,21 +8,16 @@ Adds cross-referenced objects to the goto results list.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddRelatedObjectsToGotoDB( 
 
    StorableObject storableObject
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddRelatedObjectsToGotoDB( 
@@ -30,8 +25,7 @@ void AddRelatedObjectsToGotoDB(
    StorableObject^ storableObject
 
 )
-```
-```
+
 
 #### Parameters
 

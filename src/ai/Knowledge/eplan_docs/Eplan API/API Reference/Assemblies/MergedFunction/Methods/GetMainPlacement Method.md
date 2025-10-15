@@ -8,11 +8,10 @@ Returns main placement this MergedFunction by parameters.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void GetMainPlacement( 
 
    ref Page rPage,
@@ -20,11 +19,7 @@ public void GetMainPlacement(
    ref PointD pnt
 
 )
-```
-```
 
-```
-```
 public:
 
 void GetMainPlacement( 
@@ -34,8 +29,7 @@ void GetMainPlacement(
    PointD% pnt
 
 )
-```
-```
+
 
 #### Parameters
 

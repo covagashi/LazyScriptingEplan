@@ -8,17 +8,12 @@ Nominal size / connection size # 26514.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_NOMINAL_WIDTH_CONNECTION_SIZE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_NOMINAL_WIDTH_CONNECTION_SIZE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_NOMINAL_WIDTH_CONNECTION_SIZE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

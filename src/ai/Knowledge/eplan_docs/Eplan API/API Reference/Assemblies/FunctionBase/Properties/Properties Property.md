@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new FunctionBasePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property FunctionBasePropertyList^ Properties {
@@ -26,8 +21,7 @@ new property FunctionBasePropertyList^ Properties {
    FunctionBasePropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -45,7 +39,7 @@ Do NOT use this function for `TerminalStrip` and `PlugStrip` objects.
 
 Example
 
-- [C#](#i-tab-content-b525e891-8c09-4f54-b704-3866709e9860)
+**C#**
 
 ```
 FunctionBase func;

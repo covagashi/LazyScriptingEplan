@@ -6,19 +6,13 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static short RevisionMarkerDeleted
-```
-```
 
-```
-```
 public:
 
 static short RevisionMarkerDeleted
-```
-```
+

@@ -6,17 +6,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Position Position {get;}
-```
-```
 
-```
-```
 public:
 
 property Position^ Position {
@@ -24,5 +19,4 @@ property Position^ Position {
    Position^ get();
 
 }
-```
-```
+

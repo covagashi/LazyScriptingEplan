@@ -8,17 +8,12 @@ Gets/Sets a flag which indicates a main function of the device.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsMainFunction {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsMainFunction {
@@ -28,8 +23,7 @@ property bool IsMainFunction {
    void set (    bool value);
 
 }
-```
-```
+
 
 Exceptions
 

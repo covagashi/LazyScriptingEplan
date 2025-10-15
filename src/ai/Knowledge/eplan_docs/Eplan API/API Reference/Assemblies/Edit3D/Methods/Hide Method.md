@@ -8,21 +8,16 @@ Makes a 3d object invisible in opened 3d graphic editor view.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Hide( 
 
    Placement3D pPlacement3D
 
 )
-```
-```
 
-```
-```
 public:
 
 void Hide( 
@@ -30,8 +25,7 @@ void Hide(
    Placement3D^ pPlacement3D
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Installation site (sub-identifier 2) # 1402.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_SUBPLACEOFINSTALLATION2 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_SUBPLACEOFINSTALLATION2 {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_SUBPLACEOFINSTALLATION2 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

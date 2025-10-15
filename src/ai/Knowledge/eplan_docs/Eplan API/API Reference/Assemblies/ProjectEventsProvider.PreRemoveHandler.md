@@ -8,28 +8,22 @@ Is called when some object will be removed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public delegate void ProjectEventsProvider.PreRemoveHandler( 
 
    StorableObject objectToBeRemoved
 
 )
-```
-```
 
-```
-```
 public delegate void ProjectEventsProvider.PreRemoveHandler( 
 
    StorableObject^ objectToBeRemoved
 
 )
-```
-```
+
 
 #### Parameters
 

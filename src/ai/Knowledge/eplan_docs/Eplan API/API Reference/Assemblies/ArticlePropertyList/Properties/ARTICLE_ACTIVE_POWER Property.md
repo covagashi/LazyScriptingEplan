@@ -8,17 +8,12 @@ Active power # 26641.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_ACTIVE_POWER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_ACTIVE_POWER {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_ACTIVE_POWER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

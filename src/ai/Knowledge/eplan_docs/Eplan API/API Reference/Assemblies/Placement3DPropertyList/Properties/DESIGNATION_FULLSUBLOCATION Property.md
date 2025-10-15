@@ -8,17 +8,12 @@ Location designation (sub-identifier, complete) # 1221.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FULLSUBLOCATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FULLSUBLOCATION {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FULLSUBLOCATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

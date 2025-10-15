@@ -8,17 +8,12 @@ Net-connecting # 16043.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMB_NETCONNECTING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMB_NETCONNECTING {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMB_NETCONNECTING {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Project option group: Name # 23100.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue OPTIONGROUP_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ OPTIONGROUP_NAME {
@@ -28,8 +23,7 @@ property PropertyValue^ OPTIONGROUP_NAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

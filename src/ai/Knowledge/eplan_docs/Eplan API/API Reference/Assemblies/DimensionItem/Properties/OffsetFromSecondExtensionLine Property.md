@@ -8,17 +8,12 @@ Gets or sets the offset from the second dimension, meaning the distance of the s
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double OffsetFromSecondExtensionLine {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double OffsetFromSecondExtensionLine {
@@ -28,5 +23,4 @@ property double OffsetFromSecondExtensionLine {
    void set (    double value);
 
 }
-```
-```
+

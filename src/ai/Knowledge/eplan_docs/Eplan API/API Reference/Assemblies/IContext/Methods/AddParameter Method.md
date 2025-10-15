@@ -8,11 +8,10 @@ Adds a parameter to the Context.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void AddParameter( 
 
    string strParameterName,
@@ -20,11 +19,7 @@ void AddParameter(
    string strNewParameterValue
 
 )
-```
-```
 
-```
-```
 void AddParameter( 
 
    String^ strParameterName,
@@ -32,8 +27,7 @@ void AddParameter(
    String^ strNewParameterValue
 
 )
-```
-```
+
 
 #### Parameters
 

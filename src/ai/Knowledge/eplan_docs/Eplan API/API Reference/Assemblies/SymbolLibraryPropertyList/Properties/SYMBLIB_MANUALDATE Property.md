@@ -8,17 +8,12 @@ Modification date (manual) # 15024.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMBLIB_MANUALDATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMBLIB_MANUALDATE {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMBLIB_MANUALDATE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

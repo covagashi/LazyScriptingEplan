@@ -8,17 +8,12 @@ Function definition: Category / Group / Definition # 20188.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNC_CATEGORY_GROUP_ID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNC_CATEGORY_GROUP_ID {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNC_CATEGORY_GROUP_ID {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

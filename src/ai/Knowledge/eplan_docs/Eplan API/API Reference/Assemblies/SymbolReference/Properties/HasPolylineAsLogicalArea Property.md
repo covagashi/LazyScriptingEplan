@@ -8,17 +8,12 @@ Returns true if the symbol's logical area is a polyline (consisting of segments)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool HasPolylineAsLogicalArea {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool HasPolylineAsLogicalArea {
@@ -26,5 +21,4 @@ virtual property bool HasPolylineAsLogicalArea {
    bool get();
 
 }
-```
-```
+

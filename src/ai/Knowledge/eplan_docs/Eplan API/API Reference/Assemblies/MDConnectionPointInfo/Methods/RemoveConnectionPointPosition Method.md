@@ -8,21 +8,16 @@ Removes the given connection point position from the connection point info.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveConnectionPointPosition( 
 
    MDConnectionPointPosition doorPos
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveConnectionPointPosition( 
@@ -30,8 +25,7 @@ void RemoveConnectionPointPosition(
    MDConnectionPointPosition^ doorPos
 
 )
-```
-```
+
 
 #### Parameters
 

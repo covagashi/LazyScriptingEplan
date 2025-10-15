@@ -8,7 +8,7 @@ The  BusBar  class represents "Busbar (bending)" items in Pro Panel.
 
 BusBar  object using an article with a graphical macro.
 
-- [C#](#i-tab-content-e9318737-1e8a-4d55-a1ec-34549c98235a)
+**C#**
 
 ```
 
@@ -19,8 +19,6 @@ var oInstallationSpace = new InstallationSpace();
 
 oInstallationSpace.Create(oProject, "BusBar_InstallationSpace_1");
 
-
-
 // CopperBundle
 
 var copperBundle = CopperBundle.Create(oProject, new List<Placement3D>());
@@ -28,8 +26,6 @@ var copperBundle = CopperBundle.Create(oProject, new List<Placement3D>());
 copperBundle.Parent = oInstallationSpace;
 
 copperBundle.Properties.COPPERBUNDLE_DESIGNATION = "Connector kit below L1_3D 1 -BusBar";
-
-
 
 // BusBar
 
@@ -41,13 +37,9 @@ BusBar.Create(copperBundle, article, variant);
 
 ```
 
-
-
-  
-
 BusBar  object with more parameters, e.g. bending radius and a path to a  \*.fp1  file containing copper form.
 
-- [C#](#i-tab-content-3cd5462e-d11d-4008-b3e2-8e6023e9bb40)
+**C#**
 
 ```
 
@@ -58,8 +50,6 @@ var oInstallationSpace = new InstallationSpace();
 
 oInstallationSpace.Create(oProject, "BusBar_InstallationSpace_2");
 
-
-
 // CopperBundle
 
 var copperBundle = CopperBundle.Create(oProject, new List<Placement3D>());
@@ -67,8 +57,6 @@ var copperBundle = CopperBundle.Create(oProject, new List<Placement3D>());
 copperBundle.Parent = oInstallationSpace;
 
 copperBundle.Properties.COPPERBUNDLE_DESIGNATION = "RIT.9684004_V - BusBar";
-
-
 
 // BusBar
 
@@ -86,11 +74,9 @@ BusBar.Create(oProject, article, variant, fp1Path, bendingRadius, copperBundle, 
 
 ```
 
-
-
 BusBar with flat bendings set by API
 
-- [C#](#i-tab-content-506f8e92-0308-41c7-8179-2c141c0a2846)
+**C#**
 
 ```
 
@@ -119,8 +105,6 @@ BusBar with flat bendings set by API
 
                 busBar.BendingPoints = points;
 
-
-
                 // Set bending angles
 
                 var degreesToRadiansMultiplier = Math.PI / 180.0;
@@ -135,7 +119,7 @@ BusBar with flat bendings set by API
 
 BusBar with edgewise bendings set by API
 
-- [C#](#i-tab-content-9c4a731e-e9a9-4c64-8ee2-0ee2da3684c8)
+**C#**
 
 ```
 
@@ -160,13 +144,9 @@ BusBar with edgewise bendings set by API
 
                 };
 
-
-
                 // Set bending points coordinates
 
                 busBar.BendingPoints = points;
-
-
 
                 // Set bending angles
 

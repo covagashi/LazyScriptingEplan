@@ -8,17 +8,12 @@ Topology: Direction for height difference # 20348.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLINGSEGMENT_DIRECTION_OF_HEIGHT_DIFF {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLINGSEGMENT_DIRECTION_OF_HEIGHT_DIFF {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLINGSEGMENT_DIRECTION_OF_HEIGHT_DIFF {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

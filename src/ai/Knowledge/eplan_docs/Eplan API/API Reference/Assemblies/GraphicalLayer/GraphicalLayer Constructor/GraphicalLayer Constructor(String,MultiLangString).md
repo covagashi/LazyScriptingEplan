@@ -8,11 +8,10 @@ Constructor. Creates layer object detached from project with specified name and 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public GraphicalLayer( 
 
    string name,
@@ -20,11 +19,7 @@ public GraphicalLayer(
    MultiLangString mlsDescription
 
 )
-```
-```
 
-```
-```
 public:
 
 GraphicalLayer( 
@@ -34,8 +29,7 @@ GraphicalLayer(
    MultiLangString^ mlsDescription
 
 )
-```
-```
+
 
 #### Parameters
 

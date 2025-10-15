@@ -8,17 +8,12 @@ The level of the connection point
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int Level {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int Level {
@@ -28,5 +23,4 @@ property int Level {
    void set (    int value);
 
 }
-```
-```
+

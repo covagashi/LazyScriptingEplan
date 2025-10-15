@@ -8,11 +8,10 @@ Generate macros from collection of objects with macro definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void GenerateMacrosFromMacroProject( 
 
    ICollection<StorableObject> colObjects,
@@ -24,11 +23,7 @@ public void GenerateMacrosFromMacroProject(
    bool bOverwriteExistingMacros
 
 )
-```
-```
 
-```
-```
 public:
 
 void GenerateMacrosFromMacroProject( 
@@ -42,8 +37,7 @@ void GenerateMacrosFromMacroProject(
    bool bOverwriteExistingMacros
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -72,7 +66,7 @@ Example
 
 The following examples shows how to use method GenerateMacrosFromMacroProject.
 
-- [C#](#i-tab-content-3a941529-cac7-48f2-8df6-08080b20838f)
+**C#**
 
 ```
 List<StorableObject> lObjects = new List<StorableObject>();
@@ -85,12 +79,8 @@ lObjects.Add(oTestProject.InstallationSpaces[0]); //InstallationSpace with macro
 
 lObjects.Add(oMacroBox); //MacroBox - generates window macro
 
-
-
 // Generate macros to default macros directory    
 
 new Masterdata().GenerateMacrosFromMacroProject(lObjects, null, null, true);
-
-
 
 ```

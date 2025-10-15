@@ -8,11 +8,10 @@ Reads [Eplan.EplApi.Base.MultiLangString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.M
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual MultiLangString GetMultiLangStringSetting( 
 
    string strSettingPath,
@@ -20,11 +19,7 @@ public virtual MultiLangString GetMultiLangStringSetting(
    int nIdx
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual MultiLangString^ GetMultiLangStringSetting( 
@@ -34,8 +29,7 @@ virtual MultiLangString^ GetMultiLangStringSetting(
    int nIdx
 
 )
-```
-```
+
 
 #### Parameters
 

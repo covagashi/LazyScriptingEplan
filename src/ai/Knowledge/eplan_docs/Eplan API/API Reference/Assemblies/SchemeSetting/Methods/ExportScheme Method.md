@@ -8,11 +8,10 @@ Export a scheme to file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExportScheme( 
 
    string strSettingsNodeName,
@@ -20,11 +19,7 @@ public void ExportScheme(
    string strFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExportScheme( 
@@ -34,8 +29,7 @@ void ExportScheme(
    String^ strFileName
 
 )
-```
-```
+
 
 #### Parameters
 

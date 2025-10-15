@@ -8,17 +8,12 @@ Returns true if locking mechanism is enabled in this version.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Enabled {get;}
-```
-```
 
-```
-```
 public:
 
 property bool Enabled {
@@ -26,5 +21,4 @@ property bool Enabled {
    bool get();
 
 }
-```
-```
+

@@ -8,11 +8,10 @@ Create a new device.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateDevice( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public void CreateDevice(
    ref List<IFunctionBase> oFunctionsList
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateDevice( 
@@ -46,8 +41,7 @@ void CreateDevice(
    List<IFunctionBase^>^% oFunctionsList
 
 )
-```
-```
+
 
 #### Parameters
 

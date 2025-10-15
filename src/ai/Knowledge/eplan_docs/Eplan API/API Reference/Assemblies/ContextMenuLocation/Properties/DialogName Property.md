@@ -8,17 +8,12 @@ Get or Set the Dialog Name the Context menu is located in
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string DialogName {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ DialogName {
@@ -28,5 +23,4 @@ property String^ DialogName {
    void set (    String^ value);
 
 }
-```
-```
+

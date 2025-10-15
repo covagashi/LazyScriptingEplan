@@ -8,17 +8,12 @@ Number of PE conductors # 22123.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PE_WIRE_COUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PE_WIRE_COUNT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PE_WIRE_COUNT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Gets/Sets RelationIndex of PropertyPlacement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short RelationIndex {get; set;}
-```
-```
 
-```
-```
 public:
 
 property short RelationIndex {
@@ -28,8 +23,7 @@ property short RelationIndex {
    void set (    short value);
 
 }
-```
-```
+
 
 #### Property Value
 

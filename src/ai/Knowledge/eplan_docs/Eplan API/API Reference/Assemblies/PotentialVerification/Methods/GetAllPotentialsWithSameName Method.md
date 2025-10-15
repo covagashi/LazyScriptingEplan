@@ -8,11 +8,10 @@ Returns all potentials of the project with the same name. Can be called within t
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void GetAllPotentialsWithSameName( 
 
    Placement oPotential,
@@ -20,11 +19,7 @@ public void GetAllPotentialsWithSameName(
    ref ArrayList colPotentials
 
 )
-```
-```
 
-```
-```
 public:
 
 void GetAllPotentialsWithSameName( 
@@ -34,8 +29,7 @@ void GetAllPotentialsWithSameName(
    ArrayList^% colPotentials
 
 )
-```
-```
+
 
 #### Parameters
 

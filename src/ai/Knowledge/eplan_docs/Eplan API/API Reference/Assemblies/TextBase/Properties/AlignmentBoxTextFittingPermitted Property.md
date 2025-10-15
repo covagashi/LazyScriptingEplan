@@ -8,17 +8,12 @@ Gets/Sets a value that indicates whether the text fitting in Alignement Box is p
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AlignmentBoxTextFittingPermitted {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool AlignmentBoxTextFittingPermitted {
@@ -28,5 +23,4 @@ property bool AlignmentBoxTextFittingPermitted {
    void set (    bool value);
 
 }
-```
-```
+

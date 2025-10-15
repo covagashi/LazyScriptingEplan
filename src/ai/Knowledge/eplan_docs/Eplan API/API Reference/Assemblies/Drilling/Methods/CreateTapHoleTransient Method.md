@@ -8,11 +8,10 @@ Creates new tap hole in project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Drilling CreateTapHoleTransient( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public static Drilling CreateTapHoleTransient(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static Drilling^ CreateTapHoleTransient( 
@@ -38,8 +33,7 @@ static Drilling^ CreateTapHoleTransient(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

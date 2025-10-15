@@ -8,21 +8,16 @@ Should be used internal only
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartsDatabaseItemPropertyList( 
 
    MDPartsDatabaseItem obj
 
 )
-```
-```
 
-```
-```
 public:
 
 MDPartsDatabaseItemPropertyList( 
@@ -30,8 +25,7 @@ MDPartsDatabaseItemPropertyList(
    MDPartsDatabaseItem^ obj
 
 )
-```
-```
+
 
 #### Parameters
 

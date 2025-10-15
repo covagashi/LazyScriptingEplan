@@ -8,21 +8,16 @@ Topology: Connection splicers passed through (sorted) # 31137.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_CABLING_DISTRIBUTOR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_CABLING_DISTRIBUTOR {
@@ -32,8 +27,7 @@ property PropertyValue^ CONNECTION_CABLING_DISTRIBUTOR {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

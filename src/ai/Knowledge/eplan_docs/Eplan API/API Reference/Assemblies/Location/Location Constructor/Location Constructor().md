@@ -8,19 +8,13 @@ Constructor. When an object is created with this constructor, its `Create` metho
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Location()
-```
-```
 
-```
-```
 public:
 
 Location();
-```
-```
+

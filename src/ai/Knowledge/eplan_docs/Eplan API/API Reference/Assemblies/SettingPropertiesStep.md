@@ -13,29 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class SettingPropertiesStep
-```
-```
 
-```
-```
 public ref class SettingPropertiesStep
-```
-```
+
 
 Remarks
 
 When an instance of the class already exists, setting properties on a property list takes less time, but can fail and most of errors won't be reported. This process can be stopped if an object of the class is disposed.
-
-
-
-
-
 
 Public Methods
 

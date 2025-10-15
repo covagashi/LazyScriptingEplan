@@ -8,21 +8,16 @@ Free properties: Value and unit (full) # 22234.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_FREE_DATA_FULL( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_FREE_DATA_FULL {
@@ -32,8 +27,7 @@ property MDPropertyValue^ ARTICLE_FREE_DATA_FULL {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

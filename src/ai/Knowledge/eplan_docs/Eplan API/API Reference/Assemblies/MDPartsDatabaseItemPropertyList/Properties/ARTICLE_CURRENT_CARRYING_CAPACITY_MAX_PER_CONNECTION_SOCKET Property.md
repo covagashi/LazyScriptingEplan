@@ -8,17 +8,12 @@ Current carrying capacity (per connection socket), max. # 26154.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CURRENT_CARRYING_CAPACITY_MAX_PER_CONNECTION_SOCKET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CURRENT_CARRYING_CAPACITY_MAX_PER_CONNECTION_SOCKET {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CURRENT_CARRYING_CAPACITY_MAX_PER_CONNECTION_S
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,20 +8,14 @@ Is called after import has been completed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool PostImport()
-```
-```
 
-```
-```
 bool PostImport();
-```
-```
+
 
 #### Return Value
 

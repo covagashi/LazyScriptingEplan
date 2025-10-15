@@ -8,17 +8,12 @@ Array of points in 3d space through which connection is routed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D[] RoutePoints {get;}
-```
-```
 
-```
-```
 public:
 
 property array<PointD3D>^ RoutePoints {
@@ -26,5 +21,4 @@ property array<PointD3D>^ RoutePoints {
    array<PointD3D>^ get();
 
 }
-```
-```
+

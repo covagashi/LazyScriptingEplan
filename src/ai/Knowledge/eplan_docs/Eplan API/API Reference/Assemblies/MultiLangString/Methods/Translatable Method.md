@@ -8,22 +8,16 @@ Indicates whether the MultiLanguageString can be translated.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Translatable()
-```
-```
 
-```
-```
 public:
 
 bool Translatable();
-```
-```
+
 
 #### Return Value
 

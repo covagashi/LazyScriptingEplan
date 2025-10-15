@@ -8,11 +8,10 @@ Remove the menu item of a context menu of the index.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool RemoveMenuItem( 
 
    ContextMenuLocation contextMenuLocation,
@@ -20,11 +19,7 @@ public bool RemoveMenuItem(
    uint nIndex
 
 )
-```
-```
 
-```
-```
 public:
 
 bool RemoveMenuItem( 
@@ -34,8 +29,7 @@ bool RemoveMenuItem(
    uint nIndex
 
 )
-```
-```
+
 
 #### Parameters
 

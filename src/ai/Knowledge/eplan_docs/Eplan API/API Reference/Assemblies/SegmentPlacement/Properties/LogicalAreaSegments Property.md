@@ -8,17 +8,12 @@ Gets/Sets an array of segments that the symbol's logical area may consist of.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override SymbolReference.Segment[] LogicalAreaSegments {set;}
-```
-```
 
-```
-```
 public:
 
 property array<SymbolReference.Segment^>^ LogicalAreaSegments {
@@ -26,8 +21,7 @@ property array<SymbolReference.Segment^>^ LogicalAreaSegments {
    void set (    array<SymbolReference.Segment^>^ value) override;
 
 }
-```
-```
+
 
 Remarks
 

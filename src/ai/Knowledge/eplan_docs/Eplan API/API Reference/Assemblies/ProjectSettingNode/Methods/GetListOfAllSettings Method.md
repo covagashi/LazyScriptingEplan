@@ -8,11 +8,10 @@ Determines all settings.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override void GetListOfAllSettings( 
 
    ref StringCollection colOfSettings,
@@ -20,11 +19,7 @@ public override void GetListOfAllSettings(
    bool bAbsolutPath
 
 )
-```
-```
 
-```
-```
 public:
 
 void GetListOfAllSettings( 
@@ -34,8 +29,7 @@ void GetListOfAllSettings(
    bool bAbsolutPath
 
 ) override
-```
-```
+
 
 #### Parameters
 

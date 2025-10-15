@@ -8,17 +8,12 @@ An array of symbol's connection points
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PinBase[] ConnectionPoints {get;}
-```
-```
 
-```
-```
 public:
 
 property array<PinBase^>^ ConnectionPoints {
@@ -26,5 +21,4 @@ property array<PinBase^>^ ConnectionPoints {
    array<PinBase^>^ get();
 
 }
-```
-```
+

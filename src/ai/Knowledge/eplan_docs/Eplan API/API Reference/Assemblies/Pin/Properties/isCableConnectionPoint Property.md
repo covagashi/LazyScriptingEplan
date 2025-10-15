@@ -8,17 +8,12 @@ Assigns whether it is possible to connect a cable to the Pin.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool isCableConnectionPoint {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool isCableConnectionPoint {
@@ -28,5 +23,4 @@ property bool isCableConnectionPoint {
    void set (    bool value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Associated connections: Device tag (identifying) # 31027.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CDP_CON_DT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CDP_CON_DT {
@@ -28,8 +23,7 @@ property PropertyValue^ CDP_CON_DT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

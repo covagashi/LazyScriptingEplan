@@ -8,21 +8,16 @@ Method used by operator[] in order to access properties by MDAnyPropertyId.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new MDPropertyValue Property( 
 
    MDAnyPropertyId id
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 new property MDPropertyValue^ Property {
@@ -32,8 +27,7 @@ new property MDPropertyValue^ Property {
    void set (MDAnyPropertyId^ id, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

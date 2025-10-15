@@ -8,11 +8,10 @@ Activate or deactivate change info handling if object belongs to page. Helper wi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetObj2PageActive( 
 
    bool bActive,
@@ -20,11 +19,7 @@ public void SetObj2PageActive(
    ChangeInfoService.ChangeInfoServiceHelper pHelper
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetObj2PageActive( 
@@ -34,8 +29,7 @@ void SetObj2PageActive(
    ChangeInfoService.ChangeInfoServiceHelper^ pHelper
 
 )
-```
-```
+
 
 #### Parameters
 

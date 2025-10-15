@@ -8,17 +8,12 @@ Main function # 16018.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMB_MAINFUNCTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMB_MAINFUNCTION {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMB_MAINFUNCTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

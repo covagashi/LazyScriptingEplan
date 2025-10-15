@@ -18,22 +18,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ObjectAlreadyCreatedException : ObjectCreationException
-```
-```
 
-```
-```
 public ref class ObjectAlreadyCreatedException : public ObjectCreationException
-```
-```
-
-
 
 Public Constructors
 
@@ -42,8 +33,6 @@ Public Constructors
 | Public Constructor | [ObjectAlreadyCreatedException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ObjectAlreadyCreatedException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

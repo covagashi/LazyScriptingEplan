@@ -8,17 +8,12 @@ Returns layer table of the project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public GraphicalLayerTable LayerTable {get;}
-```
-```
 
-```
-```
 public:
 
 property GraphicalLayerTable^ LayerTable {
@@ -26,8 +21,7 @@ property GraphicalLayerTable^ LayerTable {
    GraphicalLayerTable^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

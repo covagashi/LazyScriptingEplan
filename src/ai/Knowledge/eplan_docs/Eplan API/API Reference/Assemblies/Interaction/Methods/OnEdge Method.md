@@ -8,11 +8,10 @@ Is called after edged of a 3D mesh was selected by user.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnEdge( 
 
    PointD3D pntStart,
@@ -24,11 +23,7 @@ public virtual RequestCode OnEdge(
    int iDetailId
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnEdge( 
@@ -42,8 +37,7 @@ virtual RequestCode OnEdge(
    int iDetailId
 
 )
-```
-```
+
 
 #### Parameters
 

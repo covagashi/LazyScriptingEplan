@@ -8,11 +8,10 @@ Removes a command from the ribbon. If the ribbon doesn't exist yet, the command 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void UnregisterCommand( 
 
    string strActionCommandLine,
@@ -22,11 +21,7 @@ public void UnregisterCommand(
    MultiLangString multiLangCommandGroupName
 
 )
-```
-```
 
-```
-```
 public:
 
 void UnregisterCommand( 
@@ -38,8 +33,7 @@ void UnregisterCommand(
    MultiLangString^ multiLangCommandGroupName
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Returns connections
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Connection[] Connections {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Connection^>^ Connections {
@@ -26,5 +21,4 @@ property array<Connection^>^ Connections {
    array<Connection^>^ get();
 
 }
-```
-```
+

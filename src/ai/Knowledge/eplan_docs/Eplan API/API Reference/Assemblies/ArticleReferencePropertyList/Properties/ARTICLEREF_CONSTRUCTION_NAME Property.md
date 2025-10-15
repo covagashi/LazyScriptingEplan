@@ -8,17 +8,12 @@ Used drilling pattern: Name # 40340.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_CONSTRUCTION_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_CONSTRUCTION_NAME {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_CONSTRUCTION_NAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

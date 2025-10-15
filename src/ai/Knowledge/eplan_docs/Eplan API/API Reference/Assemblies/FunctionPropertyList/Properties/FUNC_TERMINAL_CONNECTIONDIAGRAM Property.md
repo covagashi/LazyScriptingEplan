@@ -8,17 +8,12 @@ Terminal / plug connection diagram form # 20852.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TERMINAL_CONNECTIONDIAGRAM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TERMINAL_CONNECTIONDIAGRAM {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TERMINAL_CONNECTIONDIAGRAM {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

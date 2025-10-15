@@ -8,21 +8,16 @@ Returns [PotentialDefinition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pot
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PotentialDefinition[] GetPotentialDefinitionsWithFilterScheme( 
 
    string strFilterScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 array<PotentialDefinition^>^ GetPotentialDefinitionsWithFilterScheme( 
@@ -30,8 +25,7 @@ array<PotentialDefinition^>^ GetPotentialDefinitionsWithFilterScheme(
    String^ strFilterScheme
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Gets property id value as [Properties.InstallationSpace](Eplan.EplApi.DataModelu
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.InstallationSpace AsInstallationSpace {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.InstallationSpace AsInstallationSpace {
@@ -26,5 +21,4 @@ property Properties.InstallationSpace AsInstallationSpace {
    Properties.InstallationSpace get();
 
 }
-```
-```
+

@@ -8,21 +8,16 @@ Sets the [FunctionPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.F
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetIdentifyingPropertyList( 
 
    FunctionPropertyList identPropList
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetIdentifyingPropertyList( 
@@ -30,8 +25,7 @@ void SetIdentifyingPropertyList(
    FunctionPropertyList^ identPropList
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -48,7 +42,7 @@ Example
 
 The following example shows how to filter by identifying name.
 
-- [C#](#i-tab-content-f2474ebf-9988-4622-a8e1-c5b84d4dcfe1)
+**C#**
 
 ```
 
@@ -76,9 +70,5 @@ private Function[] GetSubFunctions(Function oFunction)
     return oResult;
 
 }
-
-
-
-
 
 ```

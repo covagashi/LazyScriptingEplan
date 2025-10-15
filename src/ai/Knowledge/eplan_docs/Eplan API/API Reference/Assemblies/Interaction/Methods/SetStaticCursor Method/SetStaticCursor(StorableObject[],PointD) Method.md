@@ -8,11 +8,10 @@ Sets [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplAp
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void SetStaticCursor( 
 
    StorableObject[] arrStorableObjects,
@@ -20,11 +19,7 @@ public virtual void SetStaticCursor(
    PointD pntStartPos
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void SetStaticCursor( 
@@ -34,8 +29,7 @@ virtual void SetStaticCursor(
    PointD pntStartPos
 
 )
-```
-```
+
 
 #### Parameters
 

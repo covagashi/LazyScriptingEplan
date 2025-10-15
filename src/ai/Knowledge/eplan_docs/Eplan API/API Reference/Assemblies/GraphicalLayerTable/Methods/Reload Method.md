@@ -8,19 +8,13 @@ Updates table's content with the project
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Reload()
-```
-```
 
-```
-```
 public:
 
 void Reload();
-```
-```
+

@@ -8,17 +8,12 @@ No output to cable overview # 20086.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLE_NOOVERVIEW {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLE_NOOVERVIEW {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLE_NOOVERVIEW {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

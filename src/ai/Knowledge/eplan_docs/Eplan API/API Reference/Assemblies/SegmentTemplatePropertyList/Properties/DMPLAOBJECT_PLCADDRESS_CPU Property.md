@@ -8,21 +8,16 @@ PLC address: CPU # 44022.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_PLCADDRESS_CPU( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_PLCADDRESS_CPU {
@@ -32,8 +27,7 @@ property PropertyValue^ DMPLAOBJECT_PLCADDRESS_CPU {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

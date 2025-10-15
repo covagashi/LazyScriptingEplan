@@ -8,17 +8,12 @@ Direction of the 3D search vector orthogonal to the screen surface
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual PointD3D Direction {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property PointD3D Direction {
@@ -26,5 +21,4 @@ virtual property PointD3D Direction {
    PointD3D get();
 
 }
-```
-```
+

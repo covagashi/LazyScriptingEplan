@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class LockingExceptionFailedLockAttempt : Eplan.EplApi.Base.LockingException
-```
-```
 
-```
-```
 public ref class LockingExceptionFailedLockAttempt : public Eplan.EplApi.Base.LockingException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [LockingExceptionFailedLockAttempt Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LockingExceptionFailedLockAttempt~_ctor.html) | Internal constructor with description. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,11 +8,10 @@ Returns objects from a list of search results.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] GetSearchDBEntries( 
 
    Project pProject,
@@ -22,11 +21,7 @@ public StorableObject[] GetSearchDBEntries(
    uint nCount
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ GetSearchDBEntries( 
@@ -38,8 +33,7 @@ array<StorableObject^>^ GetSearchDBEntries(
    uint nCount
 
 )
-```
-```
+
 
 #### Parameters
 

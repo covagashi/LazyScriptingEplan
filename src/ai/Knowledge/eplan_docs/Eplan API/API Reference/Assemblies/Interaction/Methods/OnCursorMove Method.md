@@ -8,21 +8,16 @@ Is called on move of cursor by mouse or keys.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void OnCursorMove( 
 
    Position oPosition
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void OnCursorMove( 
@@ -30,8 +25,7 @@ virtual void OnCursorMove(
    Position^ oPosition
 
 )
-```
-```
+
 
 #### Parameters
 

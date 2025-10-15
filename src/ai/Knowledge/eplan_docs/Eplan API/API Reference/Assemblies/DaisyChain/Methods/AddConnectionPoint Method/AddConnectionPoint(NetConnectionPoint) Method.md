@@ -8,21 +8,16 @@ Adds a new net connection point and creates connection
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddConnectionPoint( 
 
    NetDefinitionPoint.NetConnectionPoint netConnectionPoint
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddConnectionPoint( 
@@ -30,8 +25,7 @@ void AddConnectionPoint(
    NetDefinitionPoint.NetConnectionPoint^ netConnectionPoint
 
 )
-```
-```
+
 
 #### Parameters
 

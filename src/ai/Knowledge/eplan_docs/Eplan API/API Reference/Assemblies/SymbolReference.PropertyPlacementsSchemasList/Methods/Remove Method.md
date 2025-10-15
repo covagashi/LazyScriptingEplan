@@ -8,21 +8,16 @@ Removes a PropertyPlacementsSchema object that represents the property placement
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Remove( 
 
    SymbolReference.PropertyPlacementsSchema config
 
 )
-```
-```
 
-```
-```
 public:
 
 void Remove( 
@@ -30,8 +25,7 @@ void Remove(
    SymbolReference.PropertyPlacementsSchema^ config
 
 )
-```
-```
+
 
 #### Parameters
 

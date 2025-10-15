@@ -8,17 +8,12 @@ Returns whether a command is checked
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsChecked {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsChecked {
@@ -26,5 +21,4 @@ property bool IsChecked {
    bool get();
 
 }
-```
-```
+

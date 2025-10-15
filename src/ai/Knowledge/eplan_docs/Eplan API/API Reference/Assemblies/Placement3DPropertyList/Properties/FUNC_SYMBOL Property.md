@@ -8,17 +8,12 @@ Symbol # 20575.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_SYMBOL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_SYMBOL {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_SYMBOL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

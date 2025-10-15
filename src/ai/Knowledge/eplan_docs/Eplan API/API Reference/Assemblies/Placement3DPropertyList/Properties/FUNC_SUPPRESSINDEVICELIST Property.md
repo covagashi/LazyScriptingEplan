@@ -8,17 +8,12 @@ Suppress in device tag list (if filtered) # 20093.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_SUPPRESSINDEVICELIST {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_SUPPRESSINDEVICELIST {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_SUPPRESSINDEVICELIST {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

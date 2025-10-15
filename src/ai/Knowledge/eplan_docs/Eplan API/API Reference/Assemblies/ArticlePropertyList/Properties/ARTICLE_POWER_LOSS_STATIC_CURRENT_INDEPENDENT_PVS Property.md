@@ -8,17 +8,12 @@ Power dissipation (static), current-independent # 26160.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_POWER_LOSS_STATIC_CURRENT_INDEPENDENT_PVS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_POWER_LOSS_STATIC_CURRENT_INDEPENDENT_PVS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_POWER_LOSS_STATIC_CURRENT_INDEPENDENT_PVS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

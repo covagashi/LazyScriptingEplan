@@ -8,17 +8,12 @@ Cut-out: Diameter of the hole # 36006.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_OPENING_DIAMETER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_OPENING_DIAMETER {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_OPENING_DIAMETER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

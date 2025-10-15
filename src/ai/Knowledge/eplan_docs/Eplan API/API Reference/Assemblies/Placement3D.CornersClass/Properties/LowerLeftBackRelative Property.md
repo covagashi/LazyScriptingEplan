@@ -8,17 +8,12 @@ Returns lower left back relative coordinate
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D LowerLeftBackRelative {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD3D LowerLeftBackRelative {
@@ -26,5 +21,4 @@ property PointD3D LowerLeftBackRelative {
    PointD3D get();
 
 }
-```
-```
+

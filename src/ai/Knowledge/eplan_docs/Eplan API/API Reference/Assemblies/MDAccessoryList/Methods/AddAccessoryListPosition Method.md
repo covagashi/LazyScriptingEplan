@@ -8,19 +8,13 @@ Add a new accessory list position to the part. That accessory list position is a
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAccessoryListPosition AddAccessoryListPosition()
-```
-```
 
-```
-```
 public:
 
 MDAccessoryListPosition^ AddAccessoryListPosition();
-```
-```
+

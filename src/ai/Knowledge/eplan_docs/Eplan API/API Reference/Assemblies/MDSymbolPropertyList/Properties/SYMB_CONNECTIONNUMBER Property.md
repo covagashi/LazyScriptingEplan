@@ -8,21 +8,16 @@ Connection point number # 16001.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMB_CONNECTIONNUMBER( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMB_CONNECTIONNUMBER {
@@ -32,8 +27,7 @@ property MDPropertyValue^ SYMB_CONNECTIONNUMBER {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

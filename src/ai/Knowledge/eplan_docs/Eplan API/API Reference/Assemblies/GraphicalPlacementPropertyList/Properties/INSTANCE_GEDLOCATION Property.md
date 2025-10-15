@@ -8,17 +8,12 @@ Graphical placement # 19103.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTANCE_GEDLOCATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTANCE_GEDLOCATION {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTANCE_GEDLOCATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

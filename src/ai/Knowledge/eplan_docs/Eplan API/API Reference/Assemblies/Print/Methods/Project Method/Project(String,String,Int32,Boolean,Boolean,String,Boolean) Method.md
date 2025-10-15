@@ -8,11 +8,10 @@ Prints all pages of the given project on the specified printer.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Project( 
 
    string strPrinterName,
@@ -30,11 +29,7 @@ public void Project(
    bool bPrintChangedPages
 
 )
-```
-```
 
-```
-```
 public:
 
 void Project( 
@@ -54,8 +49,7 @@ void Project(
    bool bPrintChangedPages
 
 )
-```
-```
+
 
 #### Parameters
 

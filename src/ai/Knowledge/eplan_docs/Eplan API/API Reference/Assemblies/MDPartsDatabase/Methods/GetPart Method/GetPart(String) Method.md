@@ -8,21 +8,16 @@ Gets the part with the given part number. If there are several variants of that 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPart GetPart( 
 
    string sPartNr
 
 )
-```
-```
 
-```
-```
 public:
 
 MDPart^ GetPart( 
@@ -30,8 +25,7 @@ MDPart^ GetPart(
    String^ sPartNr
 
 )
-```
-```
+
 
 #### Parameters
 

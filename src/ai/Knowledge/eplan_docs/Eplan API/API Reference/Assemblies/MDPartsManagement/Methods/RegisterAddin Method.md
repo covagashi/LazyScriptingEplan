@@ -8,11 +8,10 @@ Registers an add-in for the parts management. The given action will be called fo
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool RegisterAddin( 
 
    string addinName,
@@ -20,11 +19,7 @@ public bool RegisterAddin(
    string actionName
 
 )
-```
-```
 
-```
-```
 public:
 
 bool RegisterAddin( 
@@ -34,8 +29,7 @@ bool RegisterAddin(
    String^ actionName
 
 )
-```
-```
+
 
 #### Parameters
 

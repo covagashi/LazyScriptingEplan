@@ -8,17 +8,12 @@ gets the current element in [Eplan::EplApi::MasterData:](Eplan.EplApi.MasterData
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual object Current {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property Object^ Current {
@@ -26,8 +21,7 @@ virtual property Object^ Current {
    Object^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

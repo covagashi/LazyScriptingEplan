@@ -8,21 +8,16 @@ Copy constructor.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ArticleReferencesFilter( 
 
    ArticleReferencesFilter rOther
 
 )
-```
-```
 
-```
-```
 public:
 
 ArticleReferencesFilter( 
@@ -30,8 +25,7 @@ ArticleReferencesFilter(
    ArticleReferencesFilter^ rOther
 
 )
-```
-```
+
 
 #### Parameters
 

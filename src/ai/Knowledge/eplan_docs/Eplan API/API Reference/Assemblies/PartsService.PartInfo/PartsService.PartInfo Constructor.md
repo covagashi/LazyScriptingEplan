@@ -8,11 +8,10 @@ Default constructor
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PartsService.PartInfo( 
 
    string strpartNumber,
@@ -22,11 +21,7 @@ public PartsService.PartInfo(
    uint count
 
 )
-```
-```
 
-```
-```
 public:
 
 PartsService.PartInfo( 
@@ -38,8 +33,7 @@ PartsService.PartInfo(
    uint count
 
 )
-```
-```
+
 
 #### Parameters
 

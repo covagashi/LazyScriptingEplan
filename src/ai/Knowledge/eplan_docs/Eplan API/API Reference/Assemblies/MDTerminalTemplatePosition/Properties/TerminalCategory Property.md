@@ -8,17 +8,12 @@ The terminal category of terminal template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDFunctionTemplatePosition.TerminalFunctionType TerminalCategory {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDFunctionTemplatePosition.TerminalFunctionType TerminalCategory {
@@ -28,5 +23,4 @@ property MDFunctionTemplatePosition.TerminalFunctionType TerminalCategory {
    void set (    MDFunctionTemplatePosition.TerminalFunctionType value);
 
 }
-```
-```
+

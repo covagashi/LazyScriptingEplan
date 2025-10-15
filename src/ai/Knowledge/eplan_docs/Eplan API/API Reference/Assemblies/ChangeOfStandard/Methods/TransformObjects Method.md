@@ -8,11 +8,10 @@ Transforms all objects from source page to target page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Dictionary<StorableObject,StorableObject> TransformObjects( 
 
    ChangeOfStandard.RotationAndFlipping rotationAndFlipping,
@@ -22,11 +21,7 @@ public Dictionary<StorableObject,StorableObject> TransformObjects(
    Page targetPage
 
 )
-```
-```
 
-```
-```
 public:
 
 Dictionary<StorableObject^,StorableObject^>^ TransformObjects( 
@@ -38,8 +33,7 @@ Dictionary<StorableObject^,StorableObject^>^ TransformObjects(
    Page^ targetPage
 
 )
-```
-```
+
 
 #### Parameters
 

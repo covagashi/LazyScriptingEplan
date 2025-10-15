@@ -8,17 +8,12 @@ Get all objects of the same macro
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] ObjectsOfSameMacro {get;}
-```
-```
 
-```
-```
 public:
 
 property array<StorableObject^>^ ObjectsOfSameMacro {
@@ -26,5 +21,4 @@ property array<StorableObject^>^ ObjectsOfSameMacro {
    array<StorableObject^>^ get();
 
 }
-```
-```
+

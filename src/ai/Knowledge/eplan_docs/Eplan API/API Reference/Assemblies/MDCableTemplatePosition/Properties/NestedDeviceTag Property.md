@@ -8,17 +8,12 @@ It defines the Cable Property Subordinate DT / DT ID(NestedDeviceTag)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string NestedDeviceTag {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ NestedDeviceTag {
@@ -28,5 +23,4 @@ property String^ NestedDeviceTag {
    void set (    String^ value);
 
 }
-```
-```
+

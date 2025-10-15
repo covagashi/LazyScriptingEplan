@@ -8,21 +8,16 @@ Deletes last revision. Used for change tracking.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveRevision( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveRevision( 
@@ -30,8 +25,7 @@ void RemoveRevision(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

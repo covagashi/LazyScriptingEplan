@@ -8,17 +8,12 @@ Deleted object: Name # 36600.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMDELETEDOBJECTINFO_OBJECTNAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMDELETEDOBJECTINFO_OBJECTNAME {
@@ -28,8 +23,7 @@ property PropertyValue^ DMDELETEDOBJECTINFO_OBJECTNAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

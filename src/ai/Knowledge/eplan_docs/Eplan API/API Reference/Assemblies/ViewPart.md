@@ -16,22 +16,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ViewPart : Block, IPlacementsContainer, IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class ViewPart : public Block, IPlacementsContainer, IPropertyPlacementsContainer
-```
-```
-
-
 
 Public Constructors
 
@@ -40,8 +31,6 @@ Public Constructors
 | Public Constructor | [ViewPart Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ViewPart~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

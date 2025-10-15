@@ -8,17 +8,12 @@ Indicates whether object is currently hidden in 3D editor view.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsHidden {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsHidden {
@@ -26,5 +21,4 @@ property bool IsHidden {
    bool get();
 
 }
-```
-```
+

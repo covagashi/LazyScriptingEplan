@@ -8,11 +8,10 @@ Imports a 3D file
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public InstallationSpace JT( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public InstallationSpace JT(
    string strFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 InstallationSpace^ JT( 
@@ -34,8 +29,7 @@ InstallationSpace^ JT(
    String^ strFileName
 
 )
-```
-```
+
 
 #### Parameters
 

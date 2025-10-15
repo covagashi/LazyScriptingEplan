@@ -8,17 +8,12 @@ Connection category (default) # 22968.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue PART_TERMINAL_TYPEOFTERMINAL_DEFAULT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ PART_TERMINAL_TYPEOFTERMINAL_DEFAULT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ PART_TERMINAL_TYPEOFTERMINAL_DEFAULT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

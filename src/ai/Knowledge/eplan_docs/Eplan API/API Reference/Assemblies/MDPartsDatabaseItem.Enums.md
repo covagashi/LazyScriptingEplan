@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDPartsDatabaseItem.Enums
-```
-```
 
-```
-```
 public ref class MDPartsDatabaseItem.Enums
-```
-```
-
-
 
 Public Constructors
 

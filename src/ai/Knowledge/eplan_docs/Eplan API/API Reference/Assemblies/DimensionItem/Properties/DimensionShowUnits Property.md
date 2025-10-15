@@ -8,17 +8,12 @@ Gets or sets whether unit is displayed or not.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool DimensionShowUnits {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool DimensionShowUnits {
@@ -28,5 +23,4 @@ property bool DimensionShowUnits {
    void set (    bool value);
 
 }
-```
-```
+

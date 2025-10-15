@@ -19,22 +19,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class UnknownPrinter : HEServicesBase
-```
-```
 
-```
-```
 public ref class UnknownPrinter : public HEServicesBase
-```
-```
-
-
 
 Public Constructors
 
@@ -43,8 +34,6 @@ Public Constructors
 | Public Constructor | [UnknownPrinter Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Exceptions.UnknownPrinter~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

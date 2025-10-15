@@ -8,17 +8,12 @@ Representation of XDtcDeviceTagCheck.Hierarchy.AllowSpecialCharacters setting va
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AllowSpecialCharacters {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool AllowSpecialCharacters {
@@ -28,8 +23,7 @@ property bool AllowSpecialCharacters {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

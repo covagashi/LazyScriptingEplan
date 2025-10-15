@@ -8,17 +8,12 @@ Design # 26229.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TYPE_OF_CONSTRUCTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TYPE_OF_CONSTRUCTION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TYPE_OF_CONSTRUCTION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

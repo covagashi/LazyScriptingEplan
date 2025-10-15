@@ -8,17 +8,12 @@ Gets or sets the length of dimension extension help line.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double DimensionExtensionLine {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double DimensionExtensionLine {
@@ -28,5 +23,4 @@ property double DimensionExtensionLine {
    void set (    double value);
 
 }
-```
-```
+

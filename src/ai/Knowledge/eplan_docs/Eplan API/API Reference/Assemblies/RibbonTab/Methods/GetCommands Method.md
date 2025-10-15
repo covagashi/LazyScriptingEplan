@@ -8,21 +8,16 @@ Returns commands of a ribbon tab
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Dictionary<uint,string> GetCommands( 
 
    bool bIgnoreDummeItems
 
 )
-```
-```
 
-```
-```
 public:
 
 Dictionary<uint,String^>^ GetCommands( 
@@ -30,8 +25,7 @@ Dictionary<uint,String^>^ GetCommands(
    bool bIgnoreDummeItems
 
 )
-```
-```
+
 
 #### Parameters
 

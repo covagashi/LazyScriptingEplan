@@ -8,51 +8,71 @@ For debugging purposes (or program logging in the release version) it is useful 
 
 In your API program, you simply add your own trace listener to the  System.Diagnostics.Trace.Listeners:
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
-
-private Eplan.EplApi.Base.TraceListener m_oTrace;
-//.
-//.
-//.
-    m_oTrace= new Eplan.EplApi.Base.TraceListener();
-//.
-//.
-//.
-public bool Execute(ActionCallingContext ctx )
-{
-    System.Diagnostics.Trace.Listeners.Add(m_oTrace);
-    System.Diagnostics.Trace.WriteLine(" Begin Execute ");
-//.
-//.
-}
-```
+
+
+private Eplan.EplApi.Base.TraceListener m_oTrace;
+
+//.
+
+//.
+
+//.
+
+    m_oTrace= new Eplan.EplApi.Base.TraceListener();
+
+//.
+
+//.
+
+//.
+
+public bool Execute(ActionCallingContext ctx )
+
+{
+
+    System.Diagnostics.Trace.Listeners.Add(m_oTrace);
+
+    System.Diagnostics.Trace.WriteLine(" Begin Execute ");
+
+//.
+
+//.
+
+}
+
+Dim m_oTrace As Eplan.EplApi.Base.TraceListener
+
+'...
+
+   m_oTrace= New Eplan.EplApi.Base.TraceListener()
+
+Public Function Execute(ByVal ctx as ActionCallingContext)as Boolean Implements IEplAction.Execute
+
+    System.Diagnostics.Trace.Listeners.Add(m_oTrace)
+
+    System.Diagnostics.Trace.WriteLine(" Begin Execute ")
+
+'...
+
+'...
 
 ```
-
-Dim m_oTrace As Eplan.EplApi.Base.TraceListener
-'...
-   m_oTrace= New Eplan.EplApi.Base.TraceListener()
-Public Function Execute(ByVal ctx as ActionCallingContext)as Boolean Implements IEplAction.Execute
-    System.Diagnostics.Trace.Listeners.Add(m_oTrace)
-    System.Diagnostics.Trace.WriteLine(" Begin Execute ")
-'...
-'...
-```
+
+As a result, all further trace outputs are visible in the Windows trace management and ' as the case may be ' written to the Eplan log database at the end of the program.
 
 ```
-
- 
-```
 
-As a result, all further trace outputs are visible in the Windows trace management and â as the case may be â written to the Eplan log database at the end of the program.
 
-```
-
-TRACE: .\Actions\AfCommandLineInterpreter.cpp(18) : AfCommandLineInterpreter::execute: CSharpAction
-TRACE: .\Actions\AfAction.cpp(123) : Execute Action: URCheckRightsForAction
-TRACE: .\Actions\AfAction.cpp(123) : Execute Action: CSharpAction
-TRACE: u:\eplanw3_1.0_vc7.1\eplan\extensions\api_demosfue\v_1.0\eplan.w3addin.demo1\csharpaction.cs(24) : Begin Execute
+TRACE: .\Actions\AfCommandLineInterpreter.cpp(18) : AfCommandLineInterpreter::execute: CSharpAction
+
+TRACE: .\Actions\AfAction.cpp(123) : Execute Action: URCheckRightsForAction
+
+TRACE: .\Actions\AfAction.cpp(123) : Execute Action: CSharpAction
+
+TRACE: u:\eplanw3_1.0_vc7.1\eplan\extensions\api_demosfue\v_1.0\eplan.w3addin.demo1\csharpaction.cs(24) : Begin Execute
+
 ```

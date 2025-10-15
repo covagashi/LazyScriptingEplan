@@ -8,17 +8,12 @@ Associated connections: Length # 31033.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CDP_CON_WIRELENGTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CDP_CON_WIRELENGTH {
@@ -28,8 +23,7 @@ property PropertyValue^ CDP_CON_WIRELENGTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Processing function # 44037.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_PCT_FUNCTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_PCT_FUNCTION {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_PCT_FUNCTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

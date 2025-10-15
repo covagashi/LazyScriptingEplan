@@ -8,11 +8,10 @@ Sets the size of an image by setting the coordinates of the lower left corner an
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetAreaByWidth( 
 
    PointD pntStart,
@@ -20,11 +19,7 @@ public void SetAreaByWidth(
    double width
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetAreaByWidth( 
@@ -34,8 +29,7 @@ void SetAreaByWidth(
    double width
 
 )
-```
-```
+
 
 #### Parameters
 

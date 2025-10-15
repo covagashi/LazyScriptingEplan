@@ -8,21 +8,16 @@ Get string displayed in project-independent dialogs (like parts management).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string GetStringToDisplayInDialogs( 
 
    MultiLangString oMLS
 
 )
-```
-```
 
-```
-```
 public:
 
 String^ GetStringToDisplayInDialogs( 
@@ -30,8 +25,7 @@ String^ GetStringToDisplayInDialogs(
    MultiLangString^ oMLS
 
 )
-```
-```
+
 
 #### Parameters
 

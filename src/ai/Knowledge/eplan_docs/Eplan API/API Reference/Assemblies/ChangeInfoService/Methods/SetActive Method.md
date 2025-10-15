@@ -8,11 +8,10 @@ Activate or deactivate change info handling. Helper will switch mode automatical
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetActive( 
 
    bool bActive,
@@ -20,11 +19,7 @@ public void SetActive(
    ChangeInfoService.ChangeInfoServiceHelper pHelper
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetActive( 
@@ -34,8 +29,7 @@ void SetActive(
    ChangeInfoService.ChangeInfoServiceHelper^ pHelper
 
 )
-```
-```
+
 
 #### Parameters
 

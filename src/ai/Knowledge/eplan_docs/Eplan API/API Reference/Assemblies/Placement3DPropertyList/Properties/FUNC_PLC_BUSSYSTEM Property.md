@@ -8,17 +8,12 @@ Bus system # 20308.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLC_BUSSYSTEM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLC_BUSSYSTEM {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLC_BUSSYSTEM {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns the object identifier as number. The number is unique for all objects of
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public long ObjectIdentifier {get;}
-```
-```
 
-```
-```
 public:
 
 property int64 ObjectIdentifier {
@@ -26,8 +21,7 @@ property int64 ObjectIdentifier {
    int64 get();
 
 }
-```
-```
+
 
 #### Property Value
 

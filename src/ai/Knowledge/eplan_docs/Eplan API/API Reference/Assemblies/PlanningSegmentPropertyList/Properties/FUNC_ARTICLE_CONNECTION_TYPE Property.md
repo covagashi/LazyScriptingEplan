@@ -8,21 +8,16 @@ Plug-in connector housing (connection 1) # 26580.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_CONNECTOR_HOUSING_OF_CONNECTION_1( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_CONNECTOR_HOUSING_OF_CONNECTION_1 {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_CONNECTOR_HOUSING_OF_CONNECTION_1 {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

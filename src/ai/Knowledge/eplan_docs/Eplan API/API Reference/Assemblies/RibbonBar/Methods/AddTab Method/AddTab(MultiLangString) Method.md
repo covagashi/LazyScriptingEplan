@@ -8,21 +8,16 @@ Adds a new tab to the ribbon
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonTab AddTab( 
 
    MultiLangString multiLangTabName
 
 )
-```
-```
 
-```
-```
 public:
 
 RibbonTab^ AddTab( 
@@ -30,8 +25,7 @@ RibbonTab^ AddTab(
    MultiLangString^ multiLangTabName
 
 )
-```
-```
+
 
 #### Parameters
 

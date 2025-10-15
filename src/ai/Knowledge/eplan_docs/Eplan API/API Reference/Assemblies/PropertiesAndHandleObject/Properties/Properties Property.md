@@ -8,17 +8,12 @@ Property enabling access to MasterData properties of the PropertiesAndHandleObje
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertiesAndHandleObjectPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 property PropertiesAndHandleObjectPropertyList^ Properties {
@@ -26,8 +21,7 @@ property PropertiesAndHandleObjectPropertyList^ Properties {
    PropertiesAndHandleObjectPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

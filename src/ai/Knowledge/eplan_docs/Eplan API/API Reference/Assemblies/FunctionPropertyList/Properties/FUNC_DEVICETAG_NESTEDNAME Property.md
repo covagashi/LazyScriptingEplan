@@ -8,17 +8,12 @@ Subordinate product aspect incl. name supplement # 20336.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DEVICETAG_NESTEDNAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DEVICETAG_NESTEDNAME {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DEVICETAG_NESTEDNAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

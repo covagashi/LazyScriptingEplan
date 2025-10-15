@@ -8,17 +8,12 @@ Weight (full) # 22233.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_WEIGHT_FULL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_WEIGHT_FULL {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_WEIGHT_FULL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

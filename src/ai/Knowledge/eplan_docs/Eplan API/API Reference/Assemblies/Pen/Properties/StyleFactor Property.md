@@ -8,17 +8,12 @@ Line Style Factor when positive or Pattern Length when negative. Default value =
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double StyleFactor {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double StyleFactor {
@@ -28,8 +23,7 @@ property double StyleFactor {
    void set (    double value);
 
 }
-```
-```
+
 
 #### Property Value
 

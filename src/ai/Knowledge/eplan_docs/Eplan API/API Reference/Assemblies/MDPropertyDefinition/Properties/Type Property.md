@@ -8,17 +8,12 @@ Returns information about type of the property. [MDPropertyDefinition.MDProperty
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual MDPropertyDefinition.MDPropertyType Type {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property MDPropertyDefinition.MDPropertyType Type {
@@ -26,8 +21,7 @@ virtual property MDPropertyDefinition.MDPropertyType Type {
    MDPropertyDefinition.MDPropertyType get();
 
 }
-```
-```
+
 
 #### Property Value
 

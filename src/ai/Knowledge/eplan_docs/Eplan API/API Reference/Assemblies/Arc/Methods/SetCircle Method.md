@@ -8,11 +8,10 @@ Sets circle
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetCircle( 
 
    PointD pntCenter,
@@ -20,11 +19,7 @@ public void SetCircle(
    double crdRadius
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetCircle( 
@@ -34,8 +29,7 @@ void SetCircle(
    double crdRadius
 
 )
-```
-```
+
 
 #### Parameters
 

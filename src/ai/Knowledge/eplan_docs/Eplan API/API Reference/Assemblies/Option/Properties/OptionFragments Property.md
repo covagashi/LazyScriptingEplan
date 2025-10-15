@@ -8,17 +8,12 @@ Returns all Eplan.EplApi.DataModel.OptionFragment contained in the option.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public OptionFragment[] OptionFragments {get;}
-```
-```
 
-```
-```
 public:
 
 property array<OptionFragment^>^ OptionFragments {
@@ -26,8 +21,7 @@ property array<OptionFragment^>^ OptionFragments {
    array<OptionFragment^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

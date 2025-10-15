@@ -8,11 +8,10 @@ Sets the corner arc of one vertex of a poly line
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetBulgeAt( 
 
    int index,
@@ -20,11 +19,7 @@ public void SetBulgeAt(
    double dBulge
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetBulgeAt( 
@@ -34,8 +29,7 @@ void SetBulgeAt(
    double dBulge
 
 )
-```
-```
+
 
 #### Parameters
 

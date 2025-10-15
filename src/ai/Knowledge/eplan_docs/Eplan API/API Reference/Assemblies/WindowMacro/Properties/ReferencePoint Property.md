@@ -8,17 +8,12 @@ The reference point of the macro defined by the user when storing it.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD ReferencePoint {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PointD ReferencePoint {
@@ -28,8 +23,7 @@ property PointD ReferencePoint {
    void set (    PointD value);
 
 }
-```
-```
+
 
 #### Property Value
 

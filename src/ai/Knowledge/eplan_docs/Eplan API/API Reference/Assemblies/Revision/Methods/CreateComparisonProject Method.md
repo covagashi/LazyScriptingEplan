@@ -8,11 +8,10 @@ Creates a comparison project for the specified project. Used for property compar
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateComparisonProject( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public void CreateComparisonProject(
    bool bTemporary
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateComparisonProject( 
@@ -42,8 +37,7 @@ void CreateComparisonProject(
    bool bTemporary
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Set a list for this block
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetList( 
 
    List<object> pList
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetList( 
@@ -30,8 +25,7 @@ void SetList(
    List<Object^>^ pList
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Closes the Intended InstallationSpace
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CloseInstallationSpace( 
 
    InstallationSpace installationSpace
 
 )
-```
-```
 
-```
-```
 public:
 
 bool CloseInstallationSpace( 
@@ -30,8 +25,7 @@ bool CloseInstallationSpace(
    InstallationSpace^ installationSpace
 
 )
-```
-```
+
 
 #### Parameters
 

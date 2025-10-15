@@ -8,17 +8,12 @@ Get/Set article library currency 1
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Currency_1 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Currency_1 {
@@ -28,8 +23,7 @@ property String^ Currency_1 {
    void set (    String^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

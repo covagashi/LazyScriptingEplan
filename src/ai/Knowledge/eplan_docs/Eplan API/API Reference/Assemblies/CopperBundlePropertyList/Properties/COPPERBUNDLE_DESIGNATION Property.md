@@ -8,17 +8,12 @@ Copper bundle: Name # 36458.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue COPPERBUNDLE_DESIGNATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ COPPERBUNDLE_DESIGNATION {
@@ -28,8 +23,7 @@ property PropertyValue^ COPPERBUNDLE_DESIGNATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

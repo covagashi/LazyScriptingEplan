@@ -8,21 +8,16 @@ Dynamic viscosity range: Start value # 26189.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_INITIAL_VALUE_OF_THE_DYNAMIC_VISCOSITY_RANGE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_INITIAL_VALUE_OF_THE_DYNAMIC_VISCOSITY_RANGE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_INITIAL_VALUE_OF_THE_DYNAMIC_VISCOSITY_RANG
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 
@@ -47,4 +41,4 @@ Remarks
 
 Property is indexed. Possible indexes are from 1 to 50.
 
-Lowest value of the dynamic viscosity specified for a particular product or material. The dynamic viscosity is a measure of the viscosity of a fluid and is measured in pascal seconds (PaÂ·s).
+Lowest value of the dynamic viscosity specified for a particular product or material. The dynamic viscosity is a measure of the viscosity of a fluid and is measured in pascal seconds (Pa·s).

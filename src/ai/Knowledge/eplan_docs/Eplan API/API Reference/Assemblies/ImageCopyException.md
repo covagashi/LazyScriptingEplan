@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ImageCopyException : DataModelException
-```
-```
 
-```
-```
 public ref class ImageCopyException : public DataModelException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [ImageCopyException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ImageCopyException~_ctor.html) | Constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ Interruption point: Description # 24810.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INTERRUPTIONPOINT_DESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INTERRUPTIONPOINT_DESCRIPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ INTERRUPTIONPOINT_DESCRIPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Creates copper unfolds report
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateCopperUnfolds( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public void CreateCopperUnfolds(
    bool bReplaceExisting
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateCopperUnfolds( 
@@ -38,8 +33,7 @@ void CreateCopperUnfolds(
    bool bReplaceExisting
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -63,7 +57,7 @@ Exceptions
 
 Example
 
-- [C#](#i-tab-content-8bbf4ad8-f33a-4852-8fa5-40e8a8964200)
+**C#**
 
 ```
 StringCollection oTemplates = new StringCollection();

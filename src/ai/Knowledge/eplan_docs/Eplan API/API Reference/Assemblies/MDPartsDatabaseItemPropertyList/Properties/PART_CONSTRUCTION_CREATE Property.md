@@ -8,17 +8,12 @@ Creator / Creation date (drilling pattern) # 22939.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue PART_CONSTRUCTION_CREATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ PART_CONSTRUCTION_CREATE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ PART_CONSTRUCTION_CREATE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

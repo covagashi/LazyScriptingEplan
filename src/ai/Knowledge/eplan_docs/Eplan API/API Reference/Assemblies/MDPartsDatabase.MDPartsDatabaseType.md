@@ -8,20 +8,14 @@ Type of parts database
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MDPartsDatabase.MDPartsDatabaseType : System.Enum
-```
-```
 
-```
-```
 public enum class MDPartsDatabase.MDPartsDatabaseType : public System.Enum
-```
-```
+
 
 Members
 

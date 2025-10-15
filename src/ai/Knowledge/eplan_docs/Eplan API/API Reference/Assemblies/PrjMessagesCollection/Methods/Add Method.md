@@ -8,21 +8,16 @@ Adds an item to the `PrjMessagesCollection`.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Add( 
 
    BaseProjectMessage item
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void Add( 
@@ -30,8 +25,7 @@ virtual void Add(
    BaseProjectMessage^ item
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -48,7 +42,7 @@ Example
 
 The following example shows how to append the new message 999025 to the message database of the current project.
 
-- [C#](#i-tab-content-af1492f1-6317-420d-8518-e4474802d22c)
+**C#**
 
 ```
 
@@ -65,8 +59,6 @@ The following example shows how to append the new message 999025 to the message 
 
 }
 
-
-
     if (m_oTestProject != null)
 
 {
@@ -75,20 +67,14 @@ The following example shows how to append the new message 999025 to the message 
 
     Function[] arrFunction = arrPages[5].Functions;
 
-
-
     StorableObject oObject1 = arrFunction[0];
 
     StorableObject oObject2 = arrFunction[1];
-
-
 
     ProjectMessage oProjectMessage = oPrjMessagesCollection.AddMessage(Eplan.EplApi.EServices.IMessage.Region.Externals, 25, "XYZ", oObject1, false, oObject2, "Additional Text");
 
     Console.WriteLine(" Addded message " + oProjectMessage.GetText() + " to the project");
 
 }
-
-
 
 ```

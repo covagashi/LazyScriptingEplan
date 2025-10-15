@@ -8,11 +8,10 @@ Reads value from project settings. Substitutes path fragments (like $Eplan).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual string GetExpandedStringSetting( 
 
    string strSettingPath,
@@ -20,11 +19,7 @@ public virtual string GetExpandedStringSetting(
    int nIdx
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual String^ GetExpandedStringSetting( 
@@ -34,8 +29,7 @@ virtual String^ GetExpandedStringSetting(
    int nIdx
 
 )
-```
-```
+
 
 #### Parameters
 

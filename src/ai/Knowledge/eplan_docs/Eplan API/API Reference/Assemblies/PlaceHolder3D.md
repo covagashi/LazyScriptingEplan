@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PlaceHolder3D : Eplan.EplApi.DataModel.StorableObject, Eplan.EplApi.DataModel.IPlaceHolder
-```
-```
 
-```
-```
 public ref class PlaceHolder3D : public Eplan.EplApi.DataModel.StorableObject, Eplan.EplApi.DataModel.IPlaceHolder
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [PlaceHolder3D Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.PlaceHolder3D~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

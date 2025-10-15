@@ -6,11 +6,10 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void GetParameter( 
 
    string strParameterName,
@@ -18,11 +17,7 @@ public void GetParameter(
    ref string strParameterValue
 
 )
-```
-```
 
-```
-```
 public:
 
 void GetParameter( 
@@ -32,8 +27,7 @@ void GetParameter(
    String^% strParameterValue
 
 )
-```
-```
+
 
 #### Parameters
 

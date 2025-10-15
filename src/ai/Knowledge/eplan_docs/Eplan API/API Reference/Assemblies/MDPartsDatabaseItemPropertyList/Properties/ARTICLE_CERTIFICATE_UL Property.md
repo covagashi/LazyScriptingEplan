@@ -8,17 +8,12 @@ Certification: UL File Number # 22049.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CERTIFICATE_UL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CERTIFICATE_UL {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CERTIFICATE_UL {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

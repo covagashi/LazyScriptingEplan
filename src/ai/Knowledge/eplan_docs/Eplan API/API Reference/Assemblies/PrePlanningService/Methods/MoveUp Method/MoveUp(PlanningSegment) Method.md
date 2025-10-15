@@ -8,21 +8,16 @@ Moves object one position up in navigator.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void MoveUp( 
 
    PlanningSegment plaObject
 
 )
-```
-```
 
-```
-```
 public:
 
 void MoveUp( 
@@ -30,8 +25,7 @@ void MoveUp(
    PlanningSegment^ plaObject
 
 )
-```
-```
+
 
 #### Parameters
 

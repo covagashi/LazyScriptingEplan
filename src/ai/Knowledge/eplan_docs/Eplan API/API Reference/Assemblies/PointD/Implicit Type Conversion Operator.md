@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD operator implicit( 
 
    PointD3D A_0
 
 )
-```
-```
 
-```
-```
 public:
 
 operator PointD ( 
@@ -28,8 +23,7 @@ operator PointD (
    PointD3D A_0
 
 )
-```
-```
+
 
 #### Parameters
 

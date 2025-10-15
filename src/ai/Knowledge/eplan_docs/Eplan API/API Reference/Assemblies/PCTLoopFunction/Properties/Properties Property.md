@@ -8,17 +8,12 @@ EPLAN properties of the PCTLoopFunction object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new PCTLoopFunctionPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property PCTLoopFunctionPropertyList^ Properties {
@@ -26,12 +21,11 @@ new property PCTLoopFunctionPropertyList^ Properties {
    PCTLoopFunctionPropertyList^ get();
 
 }
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-a04bc407-ea19-49da-9742-69267fc193bc)
+**C#**
 
 ```
 Function func;

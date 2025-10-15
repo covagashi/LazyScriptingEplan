@@ -8,21 +8,16 @@ Returns the string in the requested language
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string GetString( 
 
    ISOCode.Language lang
 
 )
-```
-```
 
-```
-```
 public:
 
 String^ GetString( 
@@ -30,8 +25,7 @@ String^ GetString(
    ISOCode.Language lang
 
 )
-```
-```
+
 
 #### Parameters
 

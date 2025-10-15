@@ -8,17 +8,12 @@ Additional identifying name element # 20032.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ADDITIONALIDENTIFYINGNAMEPART {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ADDITIONALIDENTIFYINGNAMEPART {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ADDITIONALIDENTIFYINGNAMEPART {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Sets parent copper bundle.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetCopperBundle( 
 
    Placement3D pCopperBundle
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetCopperBundle( 
@@ -30,8 +25,7 @@ void SetCopperBundle(
    Placement3D^ pCopperBundle
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Subtrade 'Cooling lubricant' # 22265.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SUBCRAFT_COOLINGLUBRICANT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SUBCRAFT_COOLINGLUBRICANT {
@@ -32,8 +27,7 @@ property MDPropertyValue^ ARTICLE_SUBCRAFT_COOLINGLUBRICANT {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

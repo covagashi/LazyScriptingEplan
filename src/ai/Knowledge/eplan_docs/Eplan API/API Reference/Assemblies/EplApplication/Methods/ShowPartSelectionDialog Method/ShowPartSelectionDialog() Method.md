@@ -8,22 +8,16 @@ Selects parts from the current parts database
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public KeyValuePair<string,string>[] ShowPartSelectionDialog()
-```
-```
 
-```
-```
 public:
 
 array<KeyValuePair<String^,String^>>^ ShowPartSelectionDialog();
-```
-```
+
 
 #### Return Value
 

@@ -8,17 +8,12 @@ Gets/sets a page's property describing type of document
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DocumentTypeManager.DocumentType PageType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property DocumentTypeManager.DocumentType PageType {
@@ -28,8 +23,7 @@ property DocumentTypeManager.DocumentType PageType {
    void set (    DocumentTypeManager.DocumentType value);
 
 }
-```
-```
+
 
 #### Property Value
 

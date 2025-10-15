@@ -14,26 +14,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Article : StorableObject
-```
-```
 
-```
-```
 public ref class Article : public StorableObject
-```
-```
+
 
 Example
 
 The following example shows how to use class Article.
 
-- [C#](#i-tab-content-4fc4f6ea-43c3-45b5-ac9b-5888df2e267d)
+**C#**
 
 ```
 
@@ -54,19 +48,13 @@ foreach (Article oArticle in m_oTestProject.Articles)
 
             Console.Out.WriteLine("ARTICLE_VARIANT : " + oArticle.Properties.ARTICLE_VARIANT);
 
-
-
         foreach (int nIndex in oArticle.Properties.ARTICLE_FREE_DATA_DESCRIPTION.Indexes)
 
             Console.Out.WriteLine("ARTICLE_FREE_DATA_DESCRIPTION[" + nIndex + "] : " + oArticle.Properties.ARTICLE_FREE_DATA_DESCRIPTION[nIndex]);
 
-
-
         foreach (int nIndex in oArticle.Properties.ARTICLE_FREE_DATA_UNIT.Indexes)
 
             Console.Out.WriteLine("ARTICLE_FREE_DATA_UNIT[" + nIndex + "] : " + oArticle.Properties.ARTICLE_FREE_DATA_UNIT[nIndex]);
-
-
 
         foreach (int nIndex in oArticle.Properties.ARTICLE_FREE_DATA_VALUE.Indexes)
 
@@ -75,8 +63,6 @@ foreach (Article oArticle in m_oTestProject.Articles)
     }
 
 }
-
-
 
 ```
 
@@ -87,8 +73,6 @@ Public Constructors
 | Public Constructor | [Article Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ Property to get or set description of the button. Optional parameter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Description {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Description {
@@ -28,5 +23,4 @@ property String^ Description {
    void set (    String^ value);
 
 }
-```
-```
+

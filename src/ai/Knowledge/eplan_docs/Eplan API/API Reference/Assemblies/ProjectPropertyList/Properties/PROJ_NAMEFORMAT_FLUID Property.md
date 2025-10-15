@@ -8,17 +8,12 @@ Naming format for fluid devices # 10083.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_NAMEFORMAT_FLUID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_NAMEFORMAT_FLUID {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_NAMEFORMAT_FLUID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

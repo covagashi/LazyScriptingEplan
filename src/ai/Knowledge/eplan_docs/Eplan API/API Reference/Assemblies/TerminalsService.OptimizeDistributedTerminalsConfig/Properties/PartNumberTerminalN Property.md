@@ -8,17 +8,12 @@ Part number that the distributed main terminal with 'N' potential will get. If t
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PartNumberTerminalN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PartNumberTerminalN {
@@ -28,5 +23,4 @@ property String^ PartNumberTerminalN {
    void set (    String^ value);
 
 }
-```
-```
+

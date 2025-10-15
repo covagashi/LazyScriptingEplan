@@ -8,17 +8,12 @@ Total expenditure software # 44017.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_PROGRAMMINGTIME_TOTAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_PROGRAMMINGTIME_TOTAL {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_PROGRAMMINGTIME_TOTAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -14,30 +14,21 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [NullableContext(1)]
 
 [Nullable(0)]
 
 public class EplanCloudResourceDeprecationArgs : System.EventArgs
-```
-```
 
-```
-```
 [NullableContext(1)]
 
 [Nullable(0)]
 
 public ref class EplanCloudResourceDeprecationArgs : public System.EventArgs
-```
-```
-
-
 
 Public Constructors
 
@@ -46,8 +37,6 @@ Public Constructors
 | Public Constructor | [EplanCloudResourceDeprecationArgs Constructor](Eplan.IdentityClient.Authentification~Eplan.IdentityClient.EplanCloudResourceDeprecationArgs~_ctor.html) |  |
 
 [Top](#top)
-
-
 
 Public Properties
 

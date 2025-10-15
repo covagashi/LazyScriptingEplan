@@ -8,11 +8,10 @@ Sets the size of an QRCode.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetAreaBySize( 
 
    PointD pntStart,
@@ -20,11 +19,7 @@ public void SetAreaBySize(
    double size
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetAreaBySize( 
@@ -34,8 +29,7 @@ void SetAreaBySize(
    double size
 
 )
-```
-```
+
 
 #### Parameters
 

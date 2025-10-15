@@ -8,11 +8,10 @@ Creates unplaced bended bus bar object with given bending radius and form.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static BusBar Create( 
 
    Project project,
@@ -32,11 +31,7 @@ public static BusBar Create(
    BusBar.Enums.BendingType bendingType
 
 )
-```
-```
 
-```
-```
 public:
 
 static BusBar^ Create( 
@@ -58,8 +53,7 @@ static BusBar^ Create(
    BusBar.Enums.BendingType bendingType
 
 )
-```
-```
+
 
 #### Parameters
 

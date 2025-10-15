@@ -8,17 +8,12 @@ Array of connection points data.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ConnectionPointPosition[] ConnectionPointPositions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<ConnectionPointPosition^>^ ConnectionPointPositions {
@@ -26,8 +21,7 @@ property array<ConnectionPointPosition^>^ ConnectionPointPositions {
    array<ConnectionPointPosition^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new RoutingHosePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property RoutingHosePropertyList^ Properties {
@@ -26,8 +21,7 @@ new property RoutingHosePropertyList^ Properties {
    RoutingHosePropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

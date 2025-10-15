@@ -8,17 +8,12 @@ Overhang: Base right # 22182.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_BOTTOMPANELPROJECTIONRIGHT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_BOTTOMPANELPROJECTIONRIGHT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_BOTTOMPANELPROJECTIONRIGHT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

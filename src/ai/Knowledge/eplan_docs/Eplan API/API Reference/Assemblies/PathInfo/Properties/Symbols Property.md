@@ -8,17 +8,12 @@ Returns default Sybmols directory.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Symbols {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Symbols {
@@ -26,8 +21,7 @@ property String^ Symbols {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

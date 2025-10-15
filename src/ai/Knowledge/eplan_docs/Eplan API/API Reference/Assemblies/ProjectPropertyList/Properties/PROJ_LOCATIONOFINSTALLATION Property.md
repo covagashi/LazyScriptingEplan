@@ -8,17 +8,12 @@ Place of installation # 10032.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_LOCATIONOFINSTALLATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_LOCATIONOFINSTALLATION {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_LOCATIONOFINSTALLATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

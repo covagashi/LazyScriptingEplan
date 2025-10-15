@@ -8,17 +8,12 @@ Active power (general power supply), max. # 26643.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_ACTIVE_POWER_MAX_ASV {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_ACTIVE_POWER_MAX_ASV {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_ACTIVE_POWER_MAX_ASV {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

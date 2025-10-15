@@ -8,21 +8,16 @@ Is called after successful input of all necessary data as reaction to the reques
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void OnSuccess( 
 
    InteractionContext result
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void OnSuccess( 
@@ -30,8 +25,7 @@ virtual void OnSuccess(
    InteractionContext^ result
 
 )
-```
-```
+
 
 #### Parameters
 

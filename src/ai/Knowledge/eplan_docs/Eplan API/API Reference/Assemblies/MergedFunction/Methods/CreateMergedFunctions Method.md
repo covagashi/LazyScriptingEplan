@@ -8,21 +8,16 @@ Returns an array of MergedFunction objects created from the functions passed in 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static MergedFunction[] CreateMergedFunctions( 
 
    Function[] functions
 
 )
-```
-```
 
-```
-```
 public:
 
 static array<MergedFunction^>^ CreateMergedFunctions( 
@@ -30,8 +25,7 @@ static array<MergedFunction^>^ CreateMergedFunctions(
    array<Function^>^ functions
 
 )
-```
-```
+
 
 #### Parameters
 

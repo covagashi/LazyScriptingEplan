@@ -8,17 +8,12 @@ Returns ID of the command
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public uint ID {get;}
-```
-```
 
-```
-```
 public:
 
 property uint ID {
@@ -26,5 +21,4 @@ property uint ID {
    uint get();
 
 }
-```
-```
+

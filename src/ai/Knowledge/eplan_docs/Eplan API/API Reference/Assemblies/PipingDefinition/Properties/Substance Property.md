@@ -8,17 +8,12 @@ Gets/Sets substance name of object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Substance {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Substance {
@@ -28,5 +23,4 @@ property String^ Substance {
    void set (    String^ value);
 
 }
-```
-```
+

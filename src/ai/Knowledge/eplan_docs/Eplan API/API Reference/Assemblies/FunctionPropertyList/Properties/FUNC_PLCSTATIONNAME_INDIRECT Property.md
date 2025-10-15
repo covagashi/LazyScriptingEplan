@@ -8,17 +8,12 @@ PLC station: ID (indirect) # 20420.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCSTATIONNAME_INDIRECT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCSTATIONNAME_INDIRECT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCSTATIONNAME_INDIRECT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

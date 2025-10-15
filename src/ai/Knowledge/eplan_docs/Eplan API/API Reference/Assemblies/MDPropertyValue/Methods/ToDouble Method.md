@@ -8,22 +8,16 @@ Converts this MDPropertyValue object to `doule`.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double ToDouble()
-```
-```
 
-```
-```
 public:
 
 double ToDouble();
-```
-```
+
 
 #### Return Value
 

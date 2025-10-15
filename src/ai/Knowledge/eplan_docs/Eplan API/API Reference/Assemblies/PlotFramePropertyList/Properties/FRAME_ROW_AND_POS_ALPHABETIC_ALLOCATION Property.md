@@ -8,17 +8,12 @@ Alphabetical column / row distribution # 12010.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_ROW_AND_POS_ALPHABETIC_ALLOCATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_ROW_AND_POS_ALPHABETIC_ALLOCATION {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_ROW_AND_POS_ALPHABETIC_ALLOCATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

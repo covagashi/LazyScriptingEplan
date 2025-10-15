@@ -15,28 +15,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDConnectionPointInfo : MDPartsDatabaseItem
-```
-```
 
-```
-```
 public ref class MDConnectionPointInfo : public MDPartsDatabaseItem
-```
-```
+
 
 Remarks
 
 To use that connection point info on a MDPart object, set the property ARTICLE\_REF\_TERMINAL\_NAME to the name of the referenced connection point info.
-
-
-
-
 
 Public Properties
 

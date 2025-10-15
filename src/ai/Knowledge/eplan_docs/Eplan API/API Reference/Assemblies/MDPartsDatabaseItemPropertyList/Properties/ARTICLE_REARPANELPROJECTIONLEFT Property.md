@@ -8,17 +8,12 @@ Overhang: Rear panel left # 22169.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_REARPANELPROJECTIONLEFT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_REARPANELPROJECTIONLEFT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_REARPANELPROJECTIONLEFT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

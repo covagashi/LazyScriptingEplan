@@ -8,17 +8,12 @@ Intrinsically safe # 16019.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMB_INTRINSICALLYSAFE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMB_INTRINSICALLYSAFE {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMB_INTRINSICALLYSAFE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

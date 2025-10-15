@@ -8,17 +8,12 @@ FunctionDefinition's ID.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short FunctionDefinitionId {get; set;}
-```
-```
 
-```
-```
 public:
 
 property short FunctionDefinitionId {
@@ -28,8 +23,7 @@ property short FunctionDefinitionId {
    void set (    short value);
 
 }
-```
-```
+
 
 #### Property Value
 

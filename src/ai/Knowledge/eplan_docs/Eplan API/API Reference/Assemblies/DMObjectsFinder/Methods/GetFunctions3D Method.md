@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.E3D.Function3D](Eplan.EplApi.DataModelu~Eplan.Ep
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function3D[] GetFunctions3D( 
 
    Functions3DFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Function3D^>^ GetFunctions3D( 
@@ -30,8 +25,7 @@ array<Function3D^>^ GetFunctions3D(
    Functions3DFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

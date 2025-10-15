@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new TextPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property TextPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property TextPropertyList^ Properties {
    TextPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

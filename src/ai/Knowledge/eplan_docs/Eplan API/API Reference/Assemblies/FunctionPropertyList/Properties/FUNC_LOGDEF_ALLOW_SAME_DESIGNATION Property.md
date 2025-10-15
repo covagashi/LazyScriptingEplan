@@ -8,21 +8,16 @@ Connection point logic: Allow identical connection point designation # 20372.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_LOGDEF_ALLOW_SAME_DESIGNATION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_LOGDEF_ALLOW_SAME_DESIGNATION {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_LOGDEF_ALLOW_SAME_DESIGNATION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new PropertyPlacementPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property PropertyPlacementPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property PropertyPlacementPropertyList^ Properties {
    PropertyPlacementPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

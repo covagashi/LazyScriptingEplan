@@ -8,11 +8,10 @@ Creates transient and place planning placement on page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateTransient( 
 
    PlanningSegment pSourceSegment,
@@ -20,11 +19,7 @@ public void CreateTransient(
    Page pPage
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateTransient( 
@@ -34,8 +29,7 @@ void CreateTransient(
    Page^ pPage
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Wire termination processing (Eplan Cabinet, default) # 22947.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue PART_TERMINAL_TYPEDEFAULT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ PART_TERMINAL_TYPEDEFAULT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ PART_TERMINAL_TYPEDEFAULT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

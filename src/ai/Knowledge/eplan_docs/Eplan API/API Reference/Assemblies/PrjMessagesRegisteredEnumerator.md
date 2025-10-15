@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PrjMessagesRegisteredEnumerator
-```
-```
 
-```
-```
 public ref class PrjMessagesRegisteredEnumerator
-```
-```
+
 
 Remarks
 
@@ -36,20 +30,16 @@ Example
 
 getting all registered electrotechnical messages in the system
 
-- [C#](#i-tab-content-9a3c377c-3d72-435f-a1f2-5d600b09eb59)
+**C#**
 
 ```
 PrjMessagesRegisteredCollection colPrjRegMsg = new PrjMessagesRegisteredCollection();
 
 PrjMessagesRegisteredEnumerator itPrjRegMsg = colPrjRegMsg.GetRegisteredPrjMsgsEnumerator();
 
-
-
 itPrjRegMsg.MoveNext();
 
 int nNr=0;
-
-
 
 do 
 
@@ -65,8 +55,6 @@ do
 
 	}					
 
-
-
 } while(itPrjRegMsg.MoveNext());
 ```
 
@@ -77,8 +65,6 @@ Public Constructors
 | Public Constructor | [PrjMessagesRegisteredEnumerator Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredEnumerator~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,21 +8,16 @@ Adds a new connection point info to the parts data
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDConnectionPointInfo AddConnectionPointInfo( 
 
    string name
 
 )
-```
-```
 
-```
-```
 public:
 
 MDConnectionPointInfo^ AddConnectionPointInfo( 
@@ -30,8 +25,7 @@ MDConnectionPointInfo^ AddConnectionPointInfo(
    String^ name
 
 )
-```
-```
+
 
 #### Parameters
 

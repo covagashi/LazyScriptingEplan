@@ -8,17 +8,12 @@ Pipe class # 20863.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNC_PIPECLASS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNC_PIPECLASS {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNC_PIPECLASS {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

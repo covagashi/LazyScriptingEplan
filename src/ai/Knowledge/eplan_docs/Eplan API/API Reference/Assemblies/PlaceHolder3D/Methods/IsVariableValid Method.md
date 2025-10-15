@@ -8,21 +8,16 @@ Verifies the correctness if a variable name of a placeholder. If a variable name
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool IsVariableValid( 
 
    string strVariableName
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual bool IsVariableValid( 
@@ -30,8 +25,7 @@ virtual bool IsVariableValid(
    String^ strVariableName
 
 )
-```
-```
+
 
 #### Parameters
 

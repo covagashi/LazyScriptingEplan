@@ -8,11 +8,10 @@ Finds keyword.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool FindKeyword( 
 
    ISOCode.Language eLang,
@@ -22,11 +21,7 @@ public bool FindKeyword(
    ref string strComment
 
 )
-```
-```
 
-```
-```
 public:
 
 bool FindKeyword( 
@@ -38,8 +33,7 @@ bool FindKeyword(
    String^% strComment
 
 )
-```
-```
+
 
 #### Parameters
 

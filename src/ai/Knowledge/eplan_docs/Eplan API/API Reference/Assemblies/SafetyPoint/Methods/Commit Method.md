@@ -8,19 +8,13 @@ All changes done up to this point should be accepted. Locked objects are freed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Commit()
-```
-```
 
-```
-```
 public:
 
 void Commit();
-```
-```
+

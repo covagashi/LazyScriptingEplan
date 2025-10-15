@@ -14,20 +14,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public sealed class Transaction : ITransaction
-```
-```
 
-```
-```
 public ref class Transaction sealed : public ITransaction
-```
-```
+
 
 Remarks
 
@@ -52,9 +46,6 @@ using (Transaction txn = new TransactionManager().CreateTransaction())
 
 }
 ```
-
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ Integrated module # 20289.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCMODULE_ISINTEGRATED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCMODULE_ISINTEGRATED {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCMODULE_ISINTEGRATED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

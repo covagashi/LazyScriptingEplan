@@ -5,19 +5,19 @@
 ---
 
 ```
- Exports main ribbon bar customizing to XML file.
- 
-```
+ Exports main ribbon bar customizing to XML file.
 
-  
+```
 
 | Parameter | Description |
 | --- | --- |
-| ``` FileName ``` | ``` Path to the file which will be created by export action. ``` |
+| ``` FileName
+ ``` | ``` Path to the file which will be created by export action.
+ ``` |
 
 **Example**
 
 ```
- MfExportRibbonBarAction /FileName:"?"
- 
+ MfExportRibbonBarAction /FileName:"?"
+
 ```

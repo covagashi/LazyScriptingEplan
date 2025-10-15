@@ -8,17 +8,12 @@ X coordinate starting point # 19340.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue RECTANGLE_START_X {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ RECTANGLE_START_X {
@@ -28,8 +23,7 @@ property PropertyValue^ RECTANGLE_START_X {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

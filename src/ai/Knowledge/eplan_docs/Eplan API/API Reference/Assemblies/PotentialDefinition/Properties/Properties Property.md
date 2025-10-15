@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new PotentialDefinitionPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property PotentialDefinitionPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property PotentialDefinitionPropertyList^ Properties {
    PotentialDefinitionPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

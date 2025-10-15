@@ -8,21 +8,16 @@ Gets parts that are stored in the parts database, filtered by given filter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPart[] GetParts( 
 
    MDObjectFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<MDPart^>^ GetParts( 
@@ -30,8 +25,7 @@ array<MDPart^>^ GetParts(
    MDObjectFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Cable / Conduit: Cross-section / diameter # 20043.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLEWIRECROSSSECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLEWIRECROSSSECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLEWIRECROSSSECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

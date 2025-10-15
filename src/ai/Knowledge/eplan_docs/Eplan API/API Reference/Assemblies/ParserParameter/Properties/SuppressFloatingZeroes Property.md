@@ -8,17 +8,12 @@ Suppress the last zeroes of a floating result.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SuppressFloatingZeroes {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool SuppressFloatingZeroes {
@@ -28,5 +23,4 @@ property bool SuppressFloatingZeroes {
    void set (    bool value);
 
 }
-```
-```
+

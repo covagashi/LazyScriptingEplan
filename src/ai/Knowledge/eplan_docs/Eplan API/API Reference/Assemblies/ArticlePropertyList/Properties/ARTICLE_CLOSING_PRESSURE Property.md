@@ -8,17 +8,12 @@ Closing pressure # 26551.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CLOSING_PRESSURE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CLOSING_PRESSURE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CLOSING_PRESSURE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

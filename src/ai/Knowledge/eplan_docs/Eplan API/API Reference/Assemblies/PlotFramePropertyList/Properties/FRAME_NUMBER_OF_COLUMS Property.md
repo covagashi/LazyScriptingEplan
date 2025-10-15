@@ -8,17 +8,12 @@ Number of rows # 12006.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_NUMBER_OF_COLUMS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_NUMBER_OF_COLUMS {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_NUMBER_OF_COLUMS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

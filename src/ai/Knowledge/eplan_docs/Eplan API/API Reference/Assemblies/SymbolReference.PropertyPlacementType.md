@@ -8,20 +8,14 @@ Property placement type.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum SymbolReference.PropertyPlacementType : System.Enum
-```
-```
 
-```
-```
 public enum class SymbolReference.PropertyPlacementType : public System.Enum
-```
-```
+
 
 Members
 

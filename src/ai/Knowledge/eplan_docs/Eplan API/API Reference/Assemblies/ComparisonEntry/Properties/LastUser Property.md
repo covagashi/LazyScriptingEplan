@@ -8,17 +8,12 @@ Shows the last editor of the page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string LastUser {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ LastUser {
@@ -26,5 +21,4 @@ property String^ LastUser {
    String^ get();
 
 }
-```
-```
+

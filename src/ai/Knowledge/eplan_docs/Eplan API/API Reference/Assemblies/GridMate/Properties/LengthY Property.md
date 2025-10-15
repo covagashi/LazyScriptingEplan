@@ -8,17 +8,12 @@ Number of cells in Y direction
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int LengthY {get;}
-```
-```
 
-```
-```
 public:
 
 property int LengthY {
@@ -26,5 +21,4 @@ property int LengthY {
    int get();
 
 }
-```
-```
+

@@ -8,29 +8,17 @@ Interface declaration for an Eplan add-in. If an assembly is to be loaded as an 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [Guid("772B6E84-84D0-3597-8397-363C01BB41B6")]
 
 public interface IEplAddIn
-```
-```
 
-```
-```
 [Guid("772B6E84-84D0-3597-8397-363C01BB41B6")]
 
 public interface class IEplAddIn
-```
-```
-
-
-
-
-
 
 Public Methods
 

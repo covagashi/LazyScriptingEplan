@@ -8,17 +8,12 @@ Usage count # 44057.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLASPECIFICATION_OBJECT_COUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLASPECIFICATION_OBJECT_COUNT {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLASPECIFICATION_OBJECT_COUNT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

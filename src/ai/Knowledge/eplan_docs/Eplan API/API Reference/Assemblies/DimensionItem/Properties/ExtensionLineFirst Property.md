@@ -8,17 +8,12 @@ Gets or sets whether first extension help line is displayed or not.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExtensionLineFirst {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool ExtensionLineFirst {
@@ -28,5 +23,4 @@ property bool ExtensionLineFirst {
    void set (    bool value);
 
 }
-```
-```
+

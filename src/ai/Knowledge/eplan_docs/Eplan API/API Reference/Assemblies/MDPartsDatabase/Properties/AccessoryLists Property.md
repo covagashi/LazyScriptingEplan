@@ -8,17 +8,12 @@ Gets all accessory lists that are stored in the parts database. They are sorted 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAccessoryList[] AccessoryLists {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDAccessoryList^>^ AccessoryLists {
@@ -26,8 +21,7 @@ property array<MDAccessoryList^>^ AccessoryLists {
    array<MDAccessoryList^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

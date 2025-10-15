@@ -8,17 +8,12 @@ Name of FunctionDefinition's main group. It is 'Trade' level in function definit
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString MainGroup {get;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ MainGroup {
@@ -26,8 +21,7 @@ property MultiLangString^ MainGroup {
    MultiLangString^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ External document: File / hyperlink # 22280.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_EXTERNAL_DOCUMENT_URL( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_EXTERNAL_DOCUMENT_URL {
@@ -32,8 +27,7 @@ property PropertyValue^ ARTICLE_EXTERNAL_DOCUMENT_URL {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

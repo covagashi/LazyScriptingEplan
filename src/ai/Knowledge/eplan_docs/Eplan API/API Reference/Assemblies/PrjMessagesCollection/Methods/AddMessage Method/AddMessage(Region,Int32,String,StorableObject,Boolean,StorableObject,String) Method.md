@@ -8,11 +8,10 @@ Adds a command to the ribbon. If the ribbon doesn't exist yet, the command will 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RegisterCommand( 
 
    RibbonCommandInfo ribbonCommandInfo,
@@ -24,11 +23,7 @@ public void RegisterCommand(
    MultiLangString multiLangCommandGroupName
 
 )
-```
-```
 
-```
-```
 public:
 
 void RegisterCommand( 
@@ -42,8 +37,7 @@ void RegisterCommand(
    MultiLangString^ multiLangCommandGroupName
 
 )
-```
-```
+
 
 #### Parameters
 

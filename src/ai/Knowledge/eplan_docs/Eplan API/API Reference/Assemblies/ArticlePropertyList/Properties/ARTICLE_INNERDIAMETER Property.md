@@ -8,17 +8,12 @@ Inner diameter # 22128.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_INNERDIAMETER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_INNERDIAMETER {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_INNERDIAMETER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

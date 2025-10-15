@@ -8,17 +8,12 @@ Gets layer table of custom layers
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TransientLayerTable CustomLayerTable {get;}
-```
-```
 
-```
-```
 public:
 
 property TransientLayerTable^ CustomLayerTable {
@@ -26,5 +21,4 @@ property TransientLayerTable^ CustomLayerTable {
    TransientLayerTable^ get();
 
 }
-```
-```
+

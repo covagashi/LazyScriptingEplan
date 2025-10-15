@@ -8,17 +8,12 @@ Returns true, if the property is assigned to at least one property list
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsAssigned {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsAssigned {
@@ -26,5 +21,4 @@ property bool IsAssigned {
    bool get();
 
 }
-```
-```
+

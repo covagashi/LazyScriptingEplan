@@ -8,17 +8,12 @@ Gets an object from which a PlaceHolderText was created.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject SourceObject {get;}
-```
-```
 
-```
-```
 public:
 
 property StorableObject^ SourceObject {
@@ -26,5 +21,4 @@ property StorableObject^ SourceObject {
    StorableObject^ get();
 
 }
-```
-```
+

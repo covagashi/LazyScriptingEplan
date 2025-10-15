@@ -8,17 +8,12 @@ Model view: Manual displacement # 36501.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_MANUAL_CENTER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_MANUAL_CENTER {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_MANUAL_CENTER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

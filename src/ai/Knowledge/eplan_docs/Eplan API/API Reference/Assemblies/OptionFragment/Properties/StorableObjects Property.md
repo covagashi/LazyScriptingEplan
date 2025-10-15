@@ -8,17 +8,12 @@ Returns all objects contained in the OptionFragment.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] StorableObjects {get; set;}
-```
-```
 
-```
-```
 public:
 
 property array<StorableObject^>^ StorableObjects {
@@ -28,8 +23,7 @@ property array<StorableObject^>^ StorableObjects {
    void set (    array<StorableObject^>^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Automatically generated # 24001.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INTERRUPTIONPOINT_AUTO_CREATED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INTERRUPTIONPOINT_AUTO_CREATED {
@@ -28,8 +23,7 @@ property PropertyValue^ INTERRUPTIONPOINT_AUTO_CREATED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

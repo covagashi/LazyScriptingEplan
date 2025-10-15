@@ -8,17 +8,12 @@ Returns the placement type of the Symbol.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DocumentTypeManager.DocumentType PlacementType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property DocumentTypeManager.DocumentType PlacementType {
@@ -28,8 +23,7 @@ property DocumentTypeManager.DocumentType PlacementType {
    void set (    DocumentTypeManager.DocumentType value);
 
 }
-```
-```
+
 
 #### Property Value
 

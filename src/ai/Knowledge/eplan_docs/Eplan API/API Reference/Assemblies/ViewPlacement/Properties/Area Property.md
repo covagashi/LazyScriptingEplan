@@ -8,17 +8,12 @@ Location on Page and size of this object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RectangleD Area {get; set;}
-```
-```
 
-```
-```
 public:
 
 property RectangleD Area {
@@ -28,5 +23,4 @@ property RectangleD Area {
    void set (    RectangleD value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Generated report pages # 10302.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_GENERATEDPAGES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_GENERATEDPAGES {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_GENERATEDPAGES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

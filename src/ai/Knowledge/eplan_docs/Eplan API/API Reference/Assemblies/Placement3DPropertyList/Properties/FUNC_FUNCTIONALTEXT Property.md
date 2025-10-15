@@ -8,21 +8,16 @@ State # 20285.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_FUNCTIONALTEXT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_FUNCTIONALTEXT {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_FUNCTIONALTEXT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,22 +8,16 @@ Allows to use the dispatcher to work on synchronous and asynchronous threads.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Dispatcher GetMainThreadDispatcher()
-```
-```
 
-```
-```
 public:
 
 static Dispatcher^ GetMainThreadDispatcher();
-```
-```
+
 
 #### Return Value
 

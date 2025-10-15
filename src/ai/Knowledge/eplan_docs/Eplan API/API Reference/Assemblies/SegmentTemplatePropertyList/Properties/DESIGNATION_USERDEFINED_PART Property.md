@@ -8,17 +8,12 @@ User-defined structure (single component) # 1628.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_USERDEFINED_PART {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_USERDEFINED_PART {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_USERDEFINED_PART {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

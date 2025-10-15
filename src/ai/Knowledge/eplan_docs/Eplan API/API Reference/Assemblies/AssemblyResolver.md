@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class AssemblyResolver
-```
-```
 
-```
-```
 public ref class AssemblyResolver
-```
-```
-
-
 
 Public Constructors
 
@@ -37,9 +28,6 @@ Public Constructors
 | Public Constructor | [AssemblyResolver Constructor](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.AssemblyResolver~_ctor.html) | Create one AssemblyResolver. This will automatically add an AssemblyResolve Event Handler for this domain. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

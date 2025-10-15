@@ -8,17 +8,12 @@ Designed as outdoor cable # 26023.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_DESIGN_AS_OUTDOOR_CABLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_DESIGN_AS_OUTDOOR_CABLE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_DESIGN_AS_OUTDOOR_CABLE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

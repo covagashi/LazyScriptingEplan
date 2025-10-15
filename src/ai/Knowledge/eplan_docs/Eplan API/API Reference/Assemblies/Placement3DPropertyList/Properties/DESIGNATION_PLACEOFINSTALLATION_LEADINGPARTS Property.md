@@ -8,21 +8,16 @@ Installation site (leading identifiers) # 1422.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_PLACEOFINSTALLATION_LEADINGPARTS( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_PLACEOFINSTALLATION_LEADINGPARTS {
@@ -32,8 +27,7 @@ property PropertyValue^ DESIGNATION_PLACEOFINSTALLATION_LEADINGPARTS {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

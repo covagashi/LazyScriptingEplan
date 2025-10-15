@@ -8,11 +8,10 @@ Creates and insert into page ContextPropertyPlacement which displays project pro
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateFromProjectProperties( 
 
    Page oPage,
@@ -22,11 +21,7 @@ public void CreateFromProjectProperties(
    AnyPropertyId oAnyPropertyId
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateFromProjectProperties( 
@@ -38,8 +33,7 @@ void CreateFromProjectProperties(
    AnyPropertyId^ oAnyPropertyId
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -64,13 +58,11 @@ Exceptions
 
 Example
 
-- [C#](#i-tab-content-3aa5199f-2948-4025-b3a2-a7de14b0588f)
+**C#**
 
 ```
 ContextPropertyPlacement oContextPropertyPlacement = new ContextPropertyPlacement();
 
 oContextPropertyPlacement.CreateFromProjectProperties(oNewPage, new PointD(100.0, 100.0), m_oTestProject.Properties["EPLAN.Project.UserSupplementaryField1"].Id);
-
-
 
 ```

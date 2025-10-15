@@ -8,21 +8,16 @@ Returns a string array of available formats that may be used for exporting PLC d
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string[] GetAvailableFormats( 
 
    string strConverterId
 
 )
-```
-```
 
-```
-```
 public:
 
 array<String^>^ GetAvailableFormats( 
@@ -30,8 +25,7 @@ array<String^>^ GetAvailableFormats(
    String^ strConverterId
 
 )
-```
-```
+
 
 #### Parameters
 

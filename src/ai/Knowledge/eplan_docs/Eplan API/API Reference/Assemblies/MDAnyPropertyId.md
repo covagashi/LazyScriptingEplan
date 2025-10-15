@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public sealed class MDAnyPropertyId
-```
-```
 
-```
-```
 public ref class MDAnyPropertyId sealed
-```
-```
+
 
 Remarks
 
 The class contains also methods to convert between id number and corresponding [Properties](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.Properties.html). The only valid [Id](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAnyPropertyId~Id.html) value range comes from mentioned enum, that is why [Id](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAnyPropertyId~Id.html) property is read only.
-
-
 
 Public Constructors
 
@@ -41,8 +33,6 @@ Public Constructors
 | Public Constructor | [MDAnyPropertyId Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAnyPropertyId~_ctor().html) | Default constructor. Creates MDAnyPropertyId object. |
 
 [Top](#top)
-
-
 
 Public Properties
 
@@ -65,8 +55,6 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAnyPropertyId~Dispose().html) | Destructor for deterministic finalization of MDAnyPropertyId object. |
 
 [Top](#top)
-
-
 
 Public Operators
 

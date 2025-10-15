@@ -8,21 +8,16 @@ Sets project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SetProject( 
 
    string strFullLinkFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 bool SetProject( 
@@ -30,8 +25,7 @@ bool SetProject(
    String^ strFullLinkFileName
 
 )
-```
-```
+
 
 #### Parameters
 

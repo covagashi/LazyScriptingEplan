@@ -8,22 +8,16 @@ Remove all [Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DeepUnGroup()
-```
-```
 
-```
-```
 public:
 
 void DeepUnGroup();
-```
-```
+
 
 Remarks
 

@@ -8,17 +8,12 @@ Returns the symbol reference that the logical conn. point represented by this ob
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolReference Parent {get;}
-```
-```
 
-```
-```
 public:
 
 property SymbolReference^ Parent {
@@ -26,8 +21,7 @@ property SymbolReference^ Parent {
    SymbolReference^ get();
 
 }
-```
-```
+
 
 Remarks
 

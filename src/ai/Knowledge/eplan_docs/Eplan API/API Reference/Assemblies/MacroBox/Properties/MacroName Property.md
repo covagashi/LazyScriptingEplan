@@ -8,17 +8,12 @@ Macro name
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string MacroName {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ MacroName {
@@ -28,5 +23,4 @@ property String^ MacroName {
    void set (    String^ value);
 
 }
-```
-```
+

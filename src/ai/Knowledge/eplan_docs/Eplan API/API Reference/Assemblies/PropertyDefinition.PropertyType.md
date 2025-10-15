@@ -8,20 +8,14 @@ Types of stored values
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum PropertyDefinition.PropertyType : System.Enum
-```
-```
 
-```
-```
 public enum class PropertyDefinition.PropertyType : public System.Enum
-```
-```
+
 
 Members
 
@@ -41,7 +35,7 @@ Example
 
 When setting properties of type Double as string, e.g.
 
-- [C#](#i-tab-content-0b8a1d4c-c3b0-4749-b8ee-a3412fe433bf)
+**C#**
 
 ```
 oConnection.Properties[DataModel.Properties.Connection.CONNECTION_WIRECROSSSECTION] = "2.5";

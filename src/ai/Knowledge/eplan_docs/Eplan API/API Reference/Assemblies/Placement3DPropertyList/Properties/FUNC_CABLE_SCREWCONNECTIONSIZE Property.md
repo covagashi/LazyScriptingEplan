@@ -8,17 +8,12 @@ Cable / Conduit: Screw connection size # 20080.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLE_SCREWCONNECTIONSIZE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLE_SCREWCONNECTIONSIZE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLE_SCREWCONNECTIONSIZE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

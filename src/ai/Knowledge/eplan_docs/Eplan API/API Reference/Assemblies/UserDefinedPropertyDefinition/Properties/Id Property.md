@@ -8,17 +8,12 @@ Returns AnyPropertyId.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override AnyPropertyId Id {get;}
-```
-```
 
-```
-```
 public:
 
 property AnyPropertyId^ Id {
@@ -26,5 +21,4 @@ property AnyPropertyId^ Id {
    AnyPropertyId^ get() override;
 
 }
-```
-```
+

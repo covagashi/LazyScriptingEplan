@@ -8,17 +8,12 @@ Zip code (City) # 22914.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue PART_ADDRESS_ZIPTOWN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ PART_ADDRESS_ZIPTOWN {
@@ -28,8 +23,7 @@ property MDPropertyValue^ PART_ADDRESS_ZIPTOWN {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

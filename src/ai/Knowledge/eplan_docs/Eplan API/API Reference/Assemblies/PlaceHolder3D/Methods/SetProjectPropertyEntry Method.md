@@ -8,11 +8,10 @@ Sets a value or variable on Placeholder3D project property. The reference of the
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void SetProjectPropertyEntry( 
 
    AnyPropertyId oProperty,
@@ -20,11 +19,7 @@ public virtual void SetProjectPropertyEntry(
    MultiLangString strValue
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void SetProjectPropertyEntry( 
@@ -34,8 +29,7 @@ virtual void SetProjectPropertyEntry(
    MultiLangString^ strValue
 
 )
-```
-```
+
 
 #### Parameters
 

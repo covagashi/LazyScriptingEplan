@@ -8,21 +8,16 @@ Block property: Format (PCT loop) # 10615.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BLOCKFORMAT_PLT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BLOCKFORMAT_PLT {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_BLOCKFORMAT_PLT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

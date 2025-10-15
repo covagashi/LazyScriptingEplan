@@ -8,11 +8,10 @@ Mirrors placements
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Mirror( 
 
    Placement[] placements,
@@ -24,11 +23,7 @@ public void Mirror(
    bool bCopyObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 void Mirror( 
@@ -42,8 +37,7 @@ void Mirror(
    bool bCopyObjects
 
 )
-```
-```
+
 
 #### Parameters
 

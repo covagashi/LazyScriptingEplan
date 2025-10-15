@@ -8,21 +8,16 @@ Creates a Text object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Text Create( 
 
    Group group
 
 )
-```
-```
 
-```
-```
 public:
 
 static Text^ Create( 
@@ -30,8 +25,7 @@ static Text^ Create(
    Group^ group
 
 )
-```
-```
+
 
 #### Parameters
 

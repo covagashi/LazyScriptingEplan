@@ -8,17 +8,12 @@ Symbol library # 20111.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_SYMBLIB_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_SYMBLIB_NAME {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_SYMBLIB_NAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

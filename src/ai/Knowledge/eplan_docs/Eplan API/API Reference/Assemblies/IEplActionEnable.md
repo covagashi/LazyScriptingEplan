@@ -8,20 +8,14 @@ Interface to enable or disable an Action. If this interface is not used, the Act
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IEplActionEnable
-```
-```
 
-```
-```
 public interface class IEplActionEnable
-```
-```
+
 
 Example
 
@@ -34,11 +28,7 @@ public class TestAction : Eplan.EplApi.ApplicationFramework.IEplAction, Eplan.Ep
 
         //IEplAction Members
 
-
-
         #region IEplActionEnable Members
-
-
 
         public bool Enabled(string strActionName, Eplan.EplApi.ApplicationFramework.ActionCallingContext actionContext)
 
@@ -66,10 +56,6 @@ public class TestAction : Eplan.EplApi.ApplicationFramework.IEplAction, Eplan.Ep
 
     }
 ```
-
-
-
-
 
 Public Methods
 

@@ -8,11 +8,10 @@ Substitute values with variable strVariableName. Returns the changed path.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static string ReSubstitutePath( 
 
    string strVariableName,
@@ -20,11 +19,7 @@ public static string ReSubstitutePath(
    string strPath
 
 )
-```
-```
 
-```
-```
 public:
 
 static String^ ReSubstitutePath( 
@@ -34,8 +29,7 @@ static String^ ReSubstitutePath(
    String^ strPath
 
 )
-```
-```
+
 
 #### Parameters
 

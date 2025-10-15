@@ -8,20 +8,14 @@ Configuration types to select different variants for point or destination wiring
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum SymbolReference.PointVariant : System.Enum
-```
-```
 
-```
-```
 public enum class SymbolReference.PointVariant : public System.Enum
-```
-```
+
 
 Members
 

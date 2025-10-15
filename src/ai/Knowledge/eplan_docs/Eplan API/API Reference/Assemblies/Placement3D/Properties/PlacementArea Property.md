@@ -8,17 +8,12 @@ Represents placement area of a Placement3D.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlacementArea PlacementArea {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PlacementArea^ PlacementArea {
@@ -28,5 +23,4 @@ property PlacementArea^ PlacementArea {
    void set (    PlacementArea^ value);
 
 }
-```
-```
+

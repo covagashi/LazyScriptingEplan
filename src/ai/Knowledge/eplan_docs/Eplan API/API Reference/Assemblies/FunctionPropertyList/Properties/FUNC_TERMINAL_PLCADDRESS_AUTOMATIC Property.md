@@ -8,17 +8,12 @@ Connected PLC address (automatic) # 20855.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TERMINAL_PLCADDRESS_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TERMINAL_PLCADDRESS_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TERMINAL_PLCADDRESS_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Check if the SegmentTemplate can have [Eplan.EplApi.DataModel.Article](Eplan.Epl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool CanHaveArticleData {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool CanHaveArticleData {
@@ -26,8 +21,7 @@ virtual property bool CanHaveArticleData {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

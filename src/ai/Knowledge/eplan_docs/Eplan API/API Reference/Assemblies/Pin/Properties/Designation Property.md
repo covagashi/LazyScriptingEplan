@@ -8,17 +8,12 @@ Returns internal designation of this pin.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Designation {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Designation {
@@ -26,5 +21,4 @@ property String^ Designation {
    String^ get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Return true, if mate is base mate.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsBaseMate {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsBaseMate {
@@ -28,8 +23,7 @@ property bool IsBaseMate {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

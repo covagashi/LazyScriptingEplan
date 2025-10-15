@@ -8,17 +8,12 @@ Allow shields connected on both sides # 20063.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLE_ALLOW_TWO_SIDED_SHIELDINGS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLE_ALLOW_TWO_SIDED_SHIELDINGS {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLE_ALLOW_TWO_SIDED_SHIELDINGS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

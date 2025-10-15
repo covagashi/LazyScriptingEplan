@@ -8,20 +8,14 @@ Text box type
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum TextBase.TextBoxType : System.Enum
-```
-```
 
-```
-```
 public enum class TextBase.TextBoxType : public System.Enum
-```
-```
+
 
 Members
 

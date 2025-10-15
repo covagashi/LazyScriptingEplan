@@ -8,11 +8,10 @@ Creates the Cabinet object on an InstallationSpace.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    InstallationSpace oInstallationSpace,
@@ -22,11 +21,7 @@ public void Create(
    string strVariant
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -38,8 +33,7 @@ void Create(
    String^ strVariant
 
 )
-```
-```
+
 
 #### Parameters
 

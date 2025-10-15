@@ -8,17 +8,12 @@ Indicates that an asynchronous call is terminated.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AsyncCallCompleted {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool AsyncCallCompleted {
@@ -28,5 +23,4 @@ property bool AsyncCallCompleted {
    void set (    bool value);
 
 }
-```
-```
+

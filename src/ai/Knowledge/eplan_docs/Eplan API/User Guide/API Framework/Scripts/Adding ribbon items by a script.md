@@ -6,7 +6,7 @@
 
 A script can add one or more items to the Elpan ribbon. The convenient place to add these items is a function with  [DeclareRegister]  attribute, then the items are registered until the script is unloaded:
 
-- [C#](#i-tab-content-e608ccad-9848-44b6-8cf7-005725ad0a56)
+**C#**
 
 ```
 
@@ -20,8 +20,6 @@ public class RegisterRibbonItems
     string m_commandGroupName   = "New API command group";
 
     string m_commandName        = "New API command";
-
-           
 
     [DeclareRegister]
 
@@ -39,8 +37,6 @@ public class RegisterRibbonItems
 
     }
 
-       
-
     [DeclareUnregister]
 
     public void unRegisterRibbonItems()
@@ -50,8 +46,6 @@ public class RegisterRibbonItems
         cleanItems();
 
     }
-
-   
 
     void cleanItems()
 
@@ -79,8 +73,8 @@ Please mind that users may start Eplan in QUIET mode using  W3u.exe /Quiet  or
 
 The following example shows a script, which registers an action and a ribbon command.
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
@@ -101,8 +95,6 @@ public class ButtonWithAction
 
     }
 
-
-
     [DeclareRegister]
 
     public void registerButtonWithAction()
@@ -114,8 +106,6 @@ public class ButtonWithAction
         ribbonBar.AddCommand("MyMenuText", "HelloWorldAction", 2);
 
     }
-
-
 
     [DeclareUnregister]
 
@@ -129,18 +119,9 @@ public class ButtonWithAction
 
     }
 
-
-
 }
 
-```
-
-```
-
-
 Public Class ButtonWithAction
-
-
 
    <DeclareAction("HelloWorldAction")>  _
 
@@ -154,8 +135,6 @@ Public Class ButtonWithAction
 
    End Sub 'MyFunctionAsAction
 
-
-
    <DeclareRegister()>  _
 
    Public Sub registerButtonWithAction()
@@ -166,8 +145,6 @@ Public Class ButtonWithAction
 
    End Sub 'registerButtonWithAction
 
-
-
    <DeclareUnregister()>  _
 
    Public Sub unRegisterButtonWithAction()
@@ -177,10 +154,6 @@ Public Class ButtonWithAction
       ribbonBar.RemoveCommand("HelloWorldAction")
 
    End Sub 'unRegisterButtonWithAction
-
-
-
-
 
 End Class 'ButtonWithAction
 
@@ -195,7 +168,7 @@ When loading or unloading a script in which many ribbon items (tabs, command gr
 First, create a new RibbonBar object using the constructor that takes the boolean  executeApplyAfterChanges  parameter and set this parameter to "true".  
 Then, add all of your custom tabs, command groups and commands to this RibbonBar object, as in the following example:
 
-- [C#](#i-tab-content-b27fff78-54c8-470f-b475-91110773d30a)
+**C#**
 
 ```
 
@@ -236,8 +209,6 @@ public class RegisterRibbonItems
 
     string m_commandName7       = "New API command 7";      
 
-
-
     [DeclareRegister]
 
     public void registerRibbonItems()
@@ -246,8 +217,6 @@ public class RegisterRibbonItems
 
         cleanItems();
 
-
-
         // Add all the tabs to the RibbonBar object defined above 
 
         var newTab1 = myRibbonBar.AddTab(m_newTabName1);
@@ -255,8 +224,6 @@ public class RegisterRibbonItems
         var newTab2 = myRibbonBar.AddTab(m_newTabName2);
 
         var newTab3 = myRibbonBar.AddTab(m_newTabName3);
-
-
 
         // Add all the command groups and commands to these tabs
 
@@ -284,8 +251,6 @@ public class RegisterRibbonItems
 
     }
 
-        
-
     [DeclareUnregister]
 
     public void unRegisterRibbonItems()
@@ -295,8 +260,6 @@ public class RegisterRibbonItems
         cleanItems();
 
     }
-
-    
 
     void cleanItems()
 

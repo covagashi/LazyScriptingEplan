@@ -8,17 +8,12 @@ Scale used to display objects in ViewPlacement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double Scale {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double Scale {
@@ -28,8 +23,7 @@ property double Scale {
    void set (    double value);
 
 }
-```
-```
+
 
 Remarks
 

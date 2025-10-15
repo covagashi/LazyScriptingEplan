@@ -8,11 +8,10 @@ Creates the Text object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override void Create( 
 
    Page page,
@@ -22,11 +21,7 @@ public override void Create(
    double textHeight
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -38,8 +33,7 @@ void Create(
    double textHeight
 
 ) override
-```
-```
+
 
 #### Parameters
 

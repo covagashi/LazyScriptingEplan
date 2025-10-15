@@ -8,17 +8,12 @@ Connection dimension (all) # 20375.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNC_ALLCONNECTIONDIMENSIONS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNC_ALLCONNECTIONDIMENSIONS {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNC_ALLCONNECTIONDIMENSIONS {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

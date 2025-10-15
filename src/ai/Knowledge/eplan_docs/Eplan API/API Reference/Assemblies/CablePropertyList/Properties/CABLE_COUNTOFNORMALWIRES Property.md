@@ -8,17 +8,12 @@ Cables: Number of general connections # 35105.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLE_COUNTOFNORMALWIRES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLE_COUNTOFNORMALWIRES {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLE_COUNTOFNORMALWIRES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns the object, that properties are shown by this PropertyPlacement
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual StorableObject Source {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property StorableObject^ Source {
@@ -26,8 +21,7 @@ virtual property StorableObject^ Source {
    StorableObject^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

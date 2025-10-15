@@ -8,17 +8,12 @@ Address range (SIEMENS STEP 7 Classic) # 22106.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_ADDRESSRANGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_ADDRESSRANGE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_ADDRESSRANGE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

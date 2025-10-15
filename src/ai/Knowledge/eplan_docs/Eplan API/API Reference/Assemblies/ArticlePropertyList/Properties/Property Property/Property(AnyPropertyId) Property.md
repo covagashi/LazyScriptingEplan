@@ -8,21 +8,16 @@ Method used by operator[] in order to access properties by AnyPropertyId.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new PropertyValue Property( 
 
    AnyPropertyId propertyId
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 new property PropertyValue^ Property {
@@ -32,8 +27,7 @@ new property PropertyValue^ Property {
    void set (AnyPropertyId^ propertyId, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

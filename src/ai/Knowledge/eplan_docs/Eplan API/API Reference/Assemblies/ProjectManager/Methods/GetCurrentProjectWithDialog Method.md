@@ -8,22 +8,16 @@ Gets current project. If there are more than one project open, then displays a d
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Project GetCurrentProjectWithDialog()
-```
-```
 
-```
-```
 public:
 
 Project^ GetCurrentProjectWithDialog();
-```
-```
+
 
 #### Return Value
 

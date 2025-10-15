@@ -8,17 +8,12 @@ Evaluated functions.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function[] Functions {get; set;}
-```
-```
 
-```
-```
 public:
 
 property array<Function^>^ Functions {
@@ -28,5 +23,4 @@ property array<Function^>^ Functions {
    void set (    array<Function^>^ value);
 
 }
-```
-```
+

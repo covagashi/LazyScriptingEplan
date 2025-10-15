@@ -8,20 +8,14 @@ Methods by which a project message have been created.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum IMessage.ProjectMessageCreationType : System.Enum
-```
-```
 
-```
-```
 public enum class IMessage.ProjectMessageCreationType : public System.Enum
-```
-```
+
 
 Members
 

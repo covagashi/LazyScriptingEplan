@@ -8,17 +8,12 @@ AutomationML GUID (accessories) # 40348.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_AML_GUID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_AML_GUID {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_AML_GUID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

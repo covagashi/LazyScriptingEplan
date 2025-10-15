@@ -8,11 +8,10 @@ Method for renumbering pages specified by the collection pages;
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Pages( 
 
    Page[] pages,
@@ -30,11 +29,7 @@ public void Pages(
    Renumber.Enums.SubPages eSubPages
 
 )
-```
-```
 
-```
-```
 public:
 
 void Pages( 
@@ -54,8 +49,7 @@ void Pages(
    Renumber.Enums.SubPages eSubPages
 
 )
-```
-```
+
 
 #### Parameters
 

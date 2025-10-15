@@ -8,11 +8,10 @@ Creates and place planning placement on page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    PlanningSegment pSourceSegment,
@@ -20,11 +19,7 @@ public void Create(
    Page pPage
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -34,8 +29,7 @@ void Create(
    Page^ pPage
 
 )
-```
-```
+
 
 #### Parameters
 

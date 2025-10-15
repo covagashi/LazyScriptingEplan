@@ -15,26 +15,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class AuxiliaryLine : Placement3D, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class AuxiliaryLine : public Placement3D, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
+
 
 Remarks
 
 AuxiliaryLine behaviors differently then rest of EPLAN 3D objects. It can have a parent but it is not visible as a child of that parent. The only way to gain this object from a project is either by DMObjectsFinder or SelectionSet.
-
-
 
 Public Constructors
 
@@ -43,8 +35,6 @@ Public Constructors
 | Public Constructor | [AuxiliaryLine Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.AuxiliaryLine~_ctor(Project,Boolean,PointD3D,PointD3D).html) | Creates not placed AuxiliaryLine object with defined start and end position. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -6,21 +6,15 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 PropertyPlacement[] PropertyPlacements {get;}
-```
-```
 
-```
-```
 property array<PropertyPlacement^>^ PropertyPlacements {
 
    array<PropertyPlacement^>^ get();
 
 }
-```
-```
+

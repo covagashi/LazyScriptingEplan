@@ -6,17 +6,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.MDPartsDatabaseItem AsMDPartsDatabaseItem {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.MDPartsDatabaseItem AsMDPartsDatabaseItem {
@@ -24,5 +19,4 @@ property Properties.MDPartsDatabaseItem AsMDPartsDatabaseItem {
    Properties.MDPartsDatabaseItem get();
 
 }
-```
-```
+

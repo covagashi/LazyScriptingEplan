@@ -8,11 +8,10 @@ Get the menu item of a context menu from the index.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool GetMenuItem( 
 
    ContextMenuLocation contextMenuLocation,
@@ -26,11 +25,7 @@ public bool GetMenuItem(
    ref bool bIsSeparator
 
 )
-```
-```
 
-```
-```
 public:
 
 bool GetMenuItem( 
@@ -46,8 +41,7 @@ bool GetMenuItem(
    bool% bIsSeparator
 
 )
-```
-```
+
 
 #### Parameters
 

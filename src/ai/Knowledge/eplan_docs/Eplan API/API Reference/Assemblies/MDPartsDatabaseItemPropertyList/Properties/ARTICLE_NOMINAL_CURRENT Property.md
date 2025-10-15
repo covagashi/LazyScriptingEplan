@@ -8,17 +8,12 @@ Nominal current # 26311.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_NOMINAL_CURRENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_NOMINAL_CURRENT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_NOMINAL_CURRENT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

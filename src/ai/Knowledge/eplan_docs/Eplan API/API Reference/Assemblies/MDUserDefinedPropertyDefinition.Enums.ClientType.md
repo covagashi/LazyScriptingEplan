@@ -8,20 +8,14 @@ Usage of a user-defined property definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MDUserDefinedPropertyDefinition.Enums.ClientType : System.Enum
-```
-```
 
-```
-```
 public enum class MDUserDefinedPropertyDefinition.Enums.ClientType : public System.Enum
-```
-```
+
 
 Members
 

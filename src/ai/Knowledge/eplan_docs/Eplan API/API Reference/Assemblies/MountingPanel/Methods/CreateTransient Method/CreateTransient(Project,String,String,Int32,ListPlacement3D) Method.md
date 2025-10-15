@@ -8,11 +8,10 @@ Creates transient not placed MountingPanel based on article which contain macro.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateTransient( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public void CreateTransient(
    List<Placement3D> listOfAdditionalPlacements
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateTransient( 
@@ -46,8 +41,7 @@ void CreateTransient(
    List<Placement3D^>^ listOfAdditionalPlacements
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -82,7 +76,7 @@ This method can create mounting panel only from part which has an assign macro a
 
 Example
 
-- [C#](#i-tab-content-61e47d4e-fc8d-4a0b-a9af-139a2613cf51)
+**C#**
 
 ```
 //Data for creating the Mounting Panel
@@ -95,22 +89,14 @@ String strPartVariantNr = "1";          //First part variant
 
 int nMacroVariant = 1;                  //Variant B
 
-
-
 //Creating Mounting Panel
 
 MountingPanel oMountingPanel = new MountingPanel();
 
 oMountingPanel.CreateTransient(m_oTestProject, strPartNr, strPartVariantNr, nMacroVariant, listAdditionalPlacements);
 
-
-
 //Placing Mounting Panel
 
 oMountingPanel.SetParent(oInstallationSpace, true);
-
-
-
-
 
 ```

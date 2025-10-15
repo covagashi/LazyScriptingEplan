@@ -8,17 +8,12 @@ Form for wiring diagram # 20234.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_FORM_CONNECTIONDIAGRAM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_FORM_CONNECTIONDIAGRAM {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_FORM_CONNECTIONDIAGRAM {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

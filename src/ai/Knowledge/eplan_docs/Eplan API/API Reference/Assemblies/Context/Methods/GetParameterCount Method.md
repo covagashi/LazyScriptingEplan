@@ -8,22 +8,16 @@ Gets the count of the Parameters in this context
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual int GetParameterCount()
-```
-```
 
-```
-```
 public:
 
 virtual int GetParameterCount();
-```
-```
+
 
 #### Return Value
 

@@ -8,21 +8,16 @@ Gets all page names.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string[] GetPages( 
 
    string strFullLinkFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 array<String^>^ GetPages( 
@@ -30,8 +25,7 @@ array<String^>^ GetPages(
    String^ strFullLinkFileName
 
 )
-```
-```
+
 
 #### Parameters
 

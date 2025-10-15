@@ -8,21 +8,16 @@ Returns value of merged property having given property id.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue GetMergedProperty( 
 
    AnyPropertyId propId
 
 )
-```
-```
 
-```
-```
 public:
 
 PropertyValue^ GetMergedProperty( 
@@ -30,8 +25,7 @@ PropertyValue^ GetMergedProperty(
    AnyPropertyId^ propId
 
 )
-```
-```
+
 
 #### Parameters
 

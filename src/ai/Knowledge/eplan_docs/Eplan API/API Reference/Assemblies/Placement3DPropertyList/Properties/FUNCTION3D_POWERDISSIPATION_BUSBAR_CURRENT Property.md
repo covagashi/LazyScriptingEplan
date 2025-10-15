@@ -8,17 +8,12 @@ Thermal design: Operating current # 36055.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_POWERDISSIPATION_BUSBAR_CURRENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_POWERDISSIPATION_BUSBAR_CURRENT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_POWERDISSIPATION_BUSBAR_CURRENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

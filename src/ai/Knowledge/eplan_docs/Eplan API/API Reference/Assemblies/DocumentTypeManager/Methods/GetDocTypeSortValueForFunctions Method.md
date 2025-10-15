@@ -8,21 +8,16 @@ Get a "sort value" for a document-type for sorting functions.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static int GetDocTypeSortValueForFunctions( 
 
    DocumentTypeManager.DocumentType nDocType
 
 )
-```
-```
 
-```
-```
 public:
 
 static int GetDocTypeSortValueForFunctions( 
@@ -30,8 +25,7 @@ static int GetDocTypeSortValueForFunctions(
    DocumentTypeManager.DocumentType nDocType
 
 )
-```
-```
+
 
 #### Parameters
 

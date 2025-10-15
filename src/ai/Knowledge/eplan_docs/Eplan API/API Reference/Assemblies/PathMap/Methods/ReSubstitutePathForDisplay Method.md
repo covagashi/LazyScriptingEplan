@@ -8,21 +8,16 @@ Substitute values with variables. Returns the changed path. Ignores all variable
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static string ReSubstitutePathForDisplay( 
 
    string strPath
 
 )
-```
-```
 
-```
-```
 public:
 
 static String^ ReSubstitutePathForDisplay( 
@@ -30,8 +25,7 @@ static String^ ReSubstitutePathForDisplay(
    String^ strPath
 
 )
-```
-```
+
 
 #### Parameters
 

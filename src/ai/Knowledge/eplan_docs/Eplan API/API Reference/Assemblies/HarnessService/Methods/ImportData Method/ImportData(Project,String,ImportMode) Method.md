@@ -8,11 +8,10 @@ Imports Harness data from a file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] ImportData( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public StorableObject[] ImportData(
    HarnessService.ImportMode nImportMode
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ ImportData( 
@@ -38,8 +33,7 @@ array<StorableObject^>^ ImportData(
    HarnessService.ImportMode nImportMode
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -69,11 +63,9 @@ Example
 
 Following example shows how to use the method:
 
-- [C#](#i-tab-content-82a4482f-15cf-4839-81dc-03deff3705a6)
+**C#**
 
 ```
 StorableObject[] arrObjects = new HarnessService().ImportData(m_oTestProject, strDestinationFilePath, HarnessService.ImportMode.Create | HarnessService.ImportMode.Change);
-
-
 
 ```

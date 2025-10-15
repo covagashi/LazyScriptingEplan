@@ -8,17 +8,12 @@ Returns all associated holders objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Component[] Holder {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Component^>^ Holder {
@@ -26,5 +21,4 @@ property array<Component^>^ Holder {
    array<Component^>^ get();
 
 }
-```
-```
+

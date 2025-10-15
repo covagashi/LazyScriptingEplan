@@ -8,20 +8,14 @@ Possible ways how contour element can be drawn.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MDContourElement.ContureType : System.Enum
-```
-```
 
-```
-```
 public enum class MDContourElement.ContureType : public System.Enum
-```
-```
+
 
 Members
 

@@ -8,17 +8,12 @@ Set/Get availability of ribbon tab (checked or unchecked) in ribbon bar
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsSetAsVisible {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsSetAsVisible {
@@ -28,5 +23,4 @@ property bool IsSetAsVisible {
    void set (    bool value);
 
 }
-```
-```
+

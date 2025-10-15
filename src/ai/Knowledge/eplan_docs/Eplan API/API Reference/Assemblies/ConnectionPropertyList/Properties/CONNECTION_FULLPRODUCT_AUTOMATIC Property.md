@@ -8,17 +8,12 @@ Product (automatic) # 31134.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_FULLPRODUCT_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_FULLPRODUCT_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_FULLPRODUCT_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Internal constructor with description.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FixedDeviceException( 
 
    string strMessage
 
 )
-```
-```
 
-```
-```
 public:
 
 FixedDeviceException( 
@@ -30,8 +25,7 @@ FixedDeviceException(
    String^ strMessage
 
 )
-```
-```
+
 
 #### Parameters
 

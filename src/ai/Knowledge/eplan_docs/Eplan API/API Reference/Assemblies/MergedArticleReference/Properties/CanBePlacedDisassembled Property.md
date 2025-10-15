@@ -8,17 +8,12 @@ Returns true if this compound representing an articles assembly can be placed di
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CanBePlacedDisassembled {get;}
-```
-```
 
-```
-```
 public:
 
 property bool CanBePlacedDisassembled {
@@ -26,5 +21,4 @@ property bool CanBePlacedDisassembled {
    bool get();
 
 }
-```
-```
+

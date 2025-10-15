@@ -16,26 +16,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Component : Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class Component : public Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
+
 
 Remarks
 
 Corresponding FunctionCategories for this class are ArticlePlacement, CabMechHousing and CabMechSystemAccessory.
-
-
 
 Public Constructors
 
@@ -44,8 +36,6 @@ Public Constructors
 | Public Constructor | [Component Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Component~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

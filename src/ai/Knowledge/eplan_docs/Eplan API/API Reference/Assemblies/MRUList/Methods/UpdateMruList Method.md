@@ -8,21 +8,16 @@ Updates MRU list.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void UpdateMruList( 
 
    string[] lFullLinkFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 void UpdateMruList( 
@@ -30,8 +25,7 @@ void UpdateMruList(
    array<String^>^ lFullLinkFileName
 
 )
-```
-```
+
 
 #### Parameters
 

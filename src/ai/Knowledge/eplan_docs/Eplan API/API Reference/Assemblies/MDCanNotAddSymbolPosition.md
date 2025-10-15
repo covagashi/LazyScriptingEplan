@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDCanNotAddSymbolPosition : MasterDataException
-```
-```
 
-```
-```
 public ref class MDCanNotAddSymbolPosition : public MasterDataException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [MDCanNotAddSymbolPosition Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDCanNotAddSymbolPosition~_ctor.html) | Standard constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

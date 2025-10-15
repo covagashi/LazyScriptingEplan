@@ -8,17 +8,12 @@ Customer code # 10180.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_CUSTOMIDENTIFICATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_CUSTOMIDENTIFICATION {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_CUSTOMIDENTIFICATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

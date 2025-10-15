@@ -8,17 +8,12 @@ Sort code (segments) # 44092.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_COUNTER_IN_TREE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_COUNTER_IN_TREE {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_COUNTER_IN_TREE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

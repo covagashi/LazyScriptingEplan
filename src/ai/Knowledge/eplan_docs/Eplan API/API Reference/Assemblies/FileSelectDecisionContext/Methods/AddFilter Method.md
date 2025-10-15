@@ -8,11 +8,10 @@ Add a filter which files are shown. When the user selects one filter in the deci
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddFilter( 
 
    string strDescription,
@@ -20,11 +19,7 @@ public void AddFilter(
    string strExtension
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddFilter( 
@@ -34,8 +29,7 @@ void AddFilter(
    String^ strExtension
 
 )
-```
-```
+
 
 #### Parameters
 

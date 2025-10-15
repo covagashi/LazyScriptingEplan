@@ -8,19 +8,13 @@ Adds a new FunctionTemplate to the part. That FunctionTemplate is added to the e
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDFunctionTemplatePosition AddFunctionTemplatePosition()
-```
-```
 
-```
-```
 public:
 
 MDFunctionTemplatePosition^ AddFunctionTemplatePosition();
-```
-```
+

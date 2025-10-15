@@ -8,17 +8,12 @@ Substance # 31068.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_MEDIUM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_MEDIUM {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_MEDIUM {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

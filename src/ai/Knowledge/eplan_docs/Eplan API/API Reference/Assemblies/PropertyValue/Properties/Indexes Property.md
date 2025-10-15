@@ -8,17 +8,12 @@ Returns the valid / actually used indexes. It can be used with the PropertyValue
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int[] Indexes {get;}
-```
-```
 
-```
-```
 public:
 
 property array<int>^ Indexes {
@@ -26,31 +21,24 @@ property array<int>^ Indexes {
    array<int>^ get();
 
 }
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-29609f00-d299-4163-a890-24502af90438)
+**C#**
 
 ```
 
 
 Function function = page.Functions[0]; // A valid Function object
 
-
-
 // Get all used indexes for indexed property FUNC_CONNECTIONDESIGNATION
 
 int[] indexes = function.Properties.FUNC_CONNECTIONDESIGNATION.Indexes;
 
-
-
 // Iterate over all indexes of FUNC_CONNECTIONDESIGNATION property
 
 PropertyValue propertyValue = function.Properties.FUNC_CONNECTIONDESIGNATION;
-
-
 
 if(propertyValue.Definition.IsIndexed)
 
@@ -67,9 +55,5 @@ if(propertyValue.Definition.IsIndexed)
     }
 
 }
-
-
-
-
 
 ```

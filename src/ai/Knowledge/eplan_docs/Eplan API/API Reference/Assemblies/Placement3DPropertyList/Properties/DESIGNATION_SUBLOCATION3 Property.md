@@ -8,17 +8,12 @@ Location designation (sub-identifier 3) # 1203.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_SUBLOCATION3 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_SUBLOCATION3 {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_SUBLOCATION3 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

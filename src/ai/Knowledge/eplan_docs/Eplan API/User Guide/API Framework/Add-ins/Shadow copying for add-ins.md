@@ -20,8 +20,6 @@ When an add-in is loaded by Eplan start or via API > Manage option, the **add
 
 Example:
 
-
-
 This means that all referenced files (\*.dll  and  \*.exe) and all subdirectories that also contain references (language subdirectories, etc.) are also copied. After resolving, they will be copied to the shadow directory.
 
 ### Possible issues and troubleshooting
@@ -33,6 +31,6 @@ The shadow copy technique could lead to errors if the add-in references data 
 
 **Using an assembly in different versions**  
 In addition, conflicts can arise when multiple add-in projects in a solution refer to an assembly with a namespace and class of the same name, but different versions. The following scenario illustrates the problem:  
-Let's assume that you use the  Write  library of version 1.0.0 in one project (Project1) and the  Write  library of version 2.0.0 in the other project (Project2). This will lead to unwanted behavior in your solution: Depending on which project â be it Project1 or Project2 â you call first, it will be executed correctly and will reference the correct library. If you then execute the other project, it will reference the previous library, the first version is executed.
+Let's assume that you use the  Write  library of version 1.0.0 in one project (Project1) and the  Write  library of version 2.0.0 in the other project (Project2). This will lead to unwanted behavior in your solution: Depending on which project ' be it Project1 or Project2 ' you call first, it will be executed correctly and will reference the correct library. If you then execute the other project, it will reference the previous library, the first version is executed.
 
 **Solution**: To work around this behavior, sign the library versions independently of each other. You can then use the library with different versions at will. Signing gives the library a specific key token or "strong name" that helps distinguish the libraries.

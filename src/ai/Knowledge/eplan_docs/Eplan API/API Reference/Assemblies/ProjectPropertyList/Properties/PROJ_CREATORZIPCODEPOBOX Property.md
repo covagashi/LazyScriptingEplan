@@ -8,17 +8,12 @@ Creator: Zip code (P.O. box) # 10243.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_CREATORZIPCODEPOBOX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_CREATORZIPCODEPOBOX {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_CREATORZIPCODEPOBOX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Writes back the data of merged connections to whose corresponding connections
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static void WriteBackConnectionData( 
 
    MergedConnection[] arrMergedConnections
 
 )
-```
-```
 
-```
-```
 public:
 
 static void WriteBackConnectionData( 
@@ -30,8 +25,7 @@ static void WriteBackConnectionData(
    array<MergedConnection^>^ arrMergedConnections
 
 )
-```
-```
+
 
 #### Parameters
 

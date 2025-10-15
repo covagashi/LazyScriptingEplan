@@ -8,17 +8,12 @@ Model view: Item labeling # 36507.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_LABELINGSCHEME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_LABELINGSCHEME {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_LABELINGSCHEME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

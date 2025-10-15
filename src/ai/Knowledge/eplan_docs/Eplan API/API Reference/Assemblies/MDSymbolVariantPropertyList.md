@@ -14,30 +14,22 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Property")]
 
 public class MDSymbolVariantPropertyList : PropertiesAndHandleObjectPropertyList
-```
-```
 
-```
-```
 [DefaultMember("Property")]
 
 public ref class MDSymbolVariantPropertyList : public PropertiesAndHandleObjectPropertyList
-```
-```
+
 
 Remarks
 
 It uses operator[] in order to access its elements (stored properties).
-
-
 
 Public Constructors
 
@@ -46,8 +38,6 @@ Public Constructors
 | Public Constructor | [MDSymbolVariantPropertyList Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolVariantPropertyList~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

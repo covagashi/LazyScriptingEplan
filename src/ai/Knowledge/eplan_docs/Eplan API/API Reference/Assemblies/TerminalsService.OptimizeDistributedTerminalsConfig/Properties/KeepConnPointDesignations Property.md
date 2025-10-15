@@ -8,17 +8,12 @@ If TRUE, the connection points will keep their designations. If FALSE, the conne
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool KeepConnPointDesignations {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool KeepConnPointDesignations {
@@ -28,5 +23,4 @@ property bool KeepConnPointDesignations {
    void set (    bool value);
 
 }
-```
-```
+

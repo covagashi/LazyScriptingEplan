@@ -8,21 +8,16 @@ Adds a new accessory placement to the parts database
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAccessoryPlacement AddAccessoryPlacement( 
 
    string name
 
 )
-```
-```
 
-```
-```
 public:
 
 MDAccessoryPlacement^ AddAccessoryPlacement( 
@@ -30,8 +25,7 @@ MDAccessoryPlacement^ AddAccessoryPlacement(
    String^ name
 
 )
-```
-```
+
 
 #### Parameters
 

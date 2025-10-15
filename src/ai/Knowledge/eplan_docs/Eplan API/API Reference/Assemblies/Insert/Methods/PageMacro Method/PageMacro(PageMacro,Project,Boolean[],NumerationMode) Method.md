@@ -8,11 +8,10 @@ Inserts a page macro into project. User can specify which pages can be overwritt
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] PageMacro( 
 
    PageMacro oMacro,
@@ -24,11 +23,7 @@ public StorableObject[] PageMacro(
    PageMacro.Enums.NumerationMode nNumerationMode
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ PageMacro( 
@@ -42,8 +37,7 @@ array<StorableObject^>^ PageMacro(
    PageMacro.Enums.NumerationMode nNumerationMode
 
 )
-```
-```
+
 
 #### Parameters
 

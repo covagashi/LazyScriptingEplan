@@ -8,11 +8,10 @@ Called by Eplan when the new project message is added to the system. If a new pr
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public abstract void OnRegister( 
 
    ref string strCreator,
@@ -26,11 +25,7 @@ public abstract void OnRegister(
    ref int iOrdinal
 
 )
-```
-```
 
-```
-```
 public:
 
 abstract void OnRegister( 
@@ -46,8 +41,7 @@ abstract void OnRegister(
    int% iOrdinal
 
 )
-```
-```
+
 
 #### Parameters
 

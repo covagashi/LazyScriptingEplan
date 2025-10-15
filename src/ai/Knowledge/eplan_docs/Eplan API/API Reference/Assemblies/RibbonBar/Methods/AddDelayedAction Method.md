@@ -8,21 +8,16 @@ Calls an action object on the ribbon. If the ribbon doesn't exist yet, the actio
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddDelayedAction( 
 
    Action<RibbonBar> action
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddDelayedAction( 
@@ -30,8 +25,7 @@ void AddDelayedAction(
    Action<RibbonBar^>^ action
 
 )
-```
-```
+
 
 #### Parameters
 

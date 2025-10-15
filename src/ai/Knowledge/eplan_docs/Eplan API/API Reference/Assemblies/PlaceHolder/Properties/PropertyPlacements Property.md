@@ -8,17 +8,12 @@ Returns [PropertyPlacement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graph
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual PropertyPlacement[] PropertyPlacements {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property array<PropertyPlacement^>^ PropertyPlacements {
@@ -26,8 +21,7 @@ virtual property array<PropertyPlacement^>^ PropertyPlacements {
    array<PropertyPlacement^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

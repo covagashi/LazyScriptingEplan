@@ -8,17 +8,12 @@ Nominal pressure level # 22226.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PRESSURELEVEL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PRESSURELEVEL {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PRESSURELEVEL {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Property of a part variant. The nominal pressure of a pipe system specifies a reference value. The designation PN ("Pressure Nominal") is used, followed by a whole number without dimensions that indicates the design pressure in bar at room temperature (20Â° C). The permissible pressure is correspondingly smaller at higher temperatures, depending on the permissible material characteristics (yield point).
+Property of a part variant. The nominal pressure of a pipe system specifies a reference value. The designation PN ("Pressure Nominal") is used, followed by a whole number without dimensions that indicates the design pressure in bar at room temperature (20° C). The permissible pressure is correspondingly smaller at higher temperatures, depending on the permissible material characteristics (yield point).

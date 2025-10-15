@@ -8,11 +8,10 @@ Creates a new device in the project and inserts it on a page. If the article has
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function[] CreateDevice( 
 
    string strPartNummer,
@@ -24,11 +23,7 @@ public Function[] CreateDevice(
    PointD ptInsert
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Function^>^ CreateDevice( 
@@ -42,8 +37,7 @@ array<Function^>^ CreateDevice(
    PointD ptInsert
 
 )
-```
-```
+
 
 #### Parameters
 

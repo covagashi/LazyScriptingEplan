@@ -8,20 +8,14 @@ Possible types of changes.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ComparisonEntry.StateType : System.Enum
-```
-```
 
-```
-```
 public enum class ComparisonEntry.StateType : public System.Enum
-```
-```
+
 
 Members
 

@@ -8,24 +8,18 @@ This is an interface that can be used for user-defined filtering in [DMObjectsFi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface ICustomFilter
-```
-```
 
-```
-```
 public interface class ICustomFilter
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-495f54cf-3889-4d92-a725-494de3103847)
+**C#**
 
 ```
 class MyFilter : ICustomFilter
@@ -52,8 +46,6 @@ class MyFilter : ICustomFilter
 
 }
 
-
-
 Project proj;//a valid project
 
 DMObjectsFinder finder = new DMObjectsFinder(proj);
@@ -62,10 +54,6 @@ Function[] functions = finder.GetFunctionsWithCF(new MyFilter());
 
 //now as a result we have main functions having at least one subfunction.
 ```
-
-
-
-
 
 Public Methods
 

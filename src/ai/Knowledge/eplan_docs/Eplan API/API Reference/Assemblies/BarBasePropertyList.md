@@ -20,24 +20,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Property")]
 
 public class BarBasePropertyList : Function3DPropertyList
-```
-```
 
-```
-```
 [DefaultMember("Property")]
 
 public ref class BarBasePropertyList : public Function3DPropertyList
-```
-```
+
 
 Remarks
 
@@ -49,7 +43,7 @@ Example
 
 Example shows usage of online an offline property list:
 
-- [C#](#i-tab-content-fe1e45c8-2d21-4599-9907-2fc679db4805)
+**C#**
 
 ```
 // creation of persistent property list
@@ -60,15 +54,11 @@ oPersistentPropertyList1.FUNC_COMMENT = "Comment";
 
 // now oFunction.Properties.FUNC_COMMENT is equal "Comment"
 
-
-
 FunctionPropertyList oPersistentPropertyList2 = new FunctionPropertyList(oFunction);
 
 oPersistentPropertyList2.FUNC_COMMENT = "Test";
 
 // now oFunction.Properties.FUNC_COMMENT is equal "Test"
-
-
 
 // creation of transient property list
 
@@ -82,8 +72,6 @@ oTransientPropertyList.FUNC_COMMENT = "Transient comment";
 
 // now oTransientPropertyList.FUNC_COMMENT is equal "Test comment"
 
-
-
 ```
 
 Public Constructors
@@ -93,8 +81,6 @@ Public Constructors
 | Public Constructor | [BarBasePropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.BarBasePropertyList~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

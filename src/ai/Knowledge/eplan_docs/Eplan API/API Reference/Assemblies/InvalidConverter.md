@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class InvalidConverter : Eplan.EplApi.DataModel.InvalidArgumentException
-```
-```
 
-```
-```
 public ref class InvalidConverter : public Eplan.EplApi.DataModel.InvalidArgumentException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [InvalidConverter Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Exceptions.InvalidConverter~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

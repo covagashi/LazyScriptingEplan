@@ -8,28 +8,22 @@ This progress supports cancel or not. Disable the close button of a progress whe
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void SetAllowCancel( 
 
    bool bAllow
 
 )
-```
-```
 
-```
-```
 void SetAllowCancel( 
 
    bool bAllow
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Error: Property placement # 15106.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMBLIB_PLACEDPROPERROR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMBLIB_PLACEDPROPERROR {
@@ -32,8 +27,7 @@ property PropertyValue^ SYMBLIB_PLACEDPROPERROR {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

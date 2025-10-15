@@ -8,17 +8,12 @@ Returns the [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html) whe
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Page Page {get;}
-```
-```
 
-```
-```
 public:
 
 property Page^ Page {
@@ -26,8 +21,7 @@ property Page^ Page {
    Page^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

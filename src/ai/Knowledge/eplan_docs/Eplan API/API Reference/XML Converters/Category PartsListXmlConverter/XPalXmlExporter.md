@@ -5,17 +5,16 @@
 ---
 
 ```
-Imports or exports data of a project parts list in the system database from or to an XML file ("*.xml").
-```
+Imports or exports data of a project parts list in the system database from or to an XML file ("*.xml").
 
-  
+```
 
 **Remarks**
 
 ```
-No options used.
-```
+No options used.
 
-```
-This converter was designed to work on a project parts list ("Bill of materials").
+
+This converter was designed to work on a project parts list ("Bill of materials").
+
 ```

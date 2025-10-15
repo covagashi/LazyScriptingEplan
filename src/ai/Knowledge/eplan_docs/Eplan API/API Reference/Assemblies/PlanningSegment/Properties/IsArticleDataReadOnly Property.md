@@ -8,17 +8,12 @@ Determines whether the article reference data can be changed for this object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsArticleDataReadOnly {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsArticleDataReadOnly {
@@ -26,8 +21,7 @@ property bool IsArticleDataReadOnly {
    bool get();
 
 }
-```
-```
+
 
 Remarks
 

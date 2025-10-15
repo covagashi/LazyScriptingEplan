@@ -8,21 +8,16 @@ Checks if a connection point info with the given name exists.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExistsConnectionPointInfo( 
 
    string name
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExistsConnectionPointInfo( 
@@ -30,8 +25,7 @@ bool ExistsConnectionPointInfo(
    String^ name
 
 )
-```
-```
+
 
 #### Parameters
 

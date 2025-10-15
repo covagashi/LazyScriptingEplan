@@ -8,11 +8,10 @@ Automatic optimization of nets and connections routed in them.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool OptimizeNetAutomatically( 
 
    IEnumerable<Connection3D> colConnections3D,
@@ -24,11 +23,7 @@ public bool OptimizeNetAutomatically(
    bool bCloseDaisyChains
 
 )
-```
-```
 
-```
-```
 public:
 
 bool OptimizeNetAutomatically( 
@@ -42,8 +37,7 @@ bool OptimizeNetAutomatically(
    bool bCloseDaisyChains
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Plug[] Plugs {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Plug^>^ Plugs {
@@ -26,8 +21,7 @@ property array<Plug^>^ Plugs {
    array<Plug^>^ get();
 
 }
-```
-```
+
 
 Exceptions
 

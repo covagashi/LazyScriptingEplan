@@ -8,17 +8,12 @@ Cross-reference display # 20021.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_SUPPRESSCROSSREFERENCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_SUPPRESSCROSSREFERENCE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_SUPPRESSCROSSREFERENCE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

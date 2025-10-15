@@ -8,17 +8,12 @@ Break up in parts list # 22380.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_DISASSEMBLE2_MODE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_DISASSEMBLE2_MODE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_DISASSEMBLE2_MODE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

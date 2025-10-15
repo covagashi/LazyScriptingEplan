@@ -8,17 +8,12 @@ Gets/Sets a list of StorableObject references to a PlaceHolder object. The origi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 StorableObject[] AssignedObjects {get; set;}
-```
-```
 
-```
-```
 property array<StorableObject^>^ AssignedObjects {
 
    array<StorableObject^>^ get();
@@ -26,8 +21,7 @@ property array<StorableObject^>^ AssignedObjects {
    void set (    array<StorableObject^>^ value);
 
 }
-```
-```
+
 
 Exceptions
 

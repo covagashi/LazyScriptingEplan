@@ -8,11 +8,10 @@ Exporting text from translation database
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExportDatabaseTexts( 
 
    string strFilename,
@@ -20,11 +19,7 @@ public bool ExportDatabaseTexts(
    string strConverter
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExportDatabaseTexts( 
@@ -34,8 +29,7 @@ bool ExportDatabaseTexts(
    String^ strConverter
 
 )
-```
-```
+
 
 #### Parameters
 

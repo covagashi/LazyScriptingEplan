@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDPartsDatabaseTransaction
-```
-```
 
-```
-```
 public ref class MDPartsDatabaseTransaction
-```
-```
+
 
 Remarks
 
@@ -34,7 +28,7 @@ working on parts database items can be done using transactions. When using trans
 
 Example
 
-- [C#](#i-tab-content-629b0c3d-2075-4980-bcc7-8de77e60e765)
+**C#**
 
 ```
 MDPartsDatabaseTransaction dbTransaction = database.CreateTransaction();
@@ -51,10 +45,6 @@ if (part != null)
 
 }
 ```
-
-
-
-
 
 Public Methods
 

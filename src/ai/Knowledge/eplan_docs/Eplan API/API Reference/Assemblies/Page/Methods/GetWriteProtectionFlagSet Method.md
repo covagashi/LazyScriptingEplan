@@ -8,21 +8,16 @@ Checks if a specific write protection kind was set.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool GetWriteProtectionFlagSet( 
 
    IWriteProtection.WriteProtectionKind nKind
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual bool GetWriteProtectionFlagSet( 
@@ -30,8 +25,7 @@ virtual bool GetWriteProtectionFlagSet(
    IWriteProtection.WriteProtectionKind nKind
 
 )
-```
-```
+
 
 #### Parameters
 

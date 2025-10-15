@@ -8,11 +8,10 @@ Gets the value of a variable for a record.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 MultiLangString GetValue( 
 
    string strRecordName,
@@ -20,11 +19,7 @@ MultiLangString GetValue(
    string strVarName
 
 )
-```
-```
 
-```
-```
 MultiLangString^ GetValue( 
 
    String^ strRecordName,
@@ -32,8 +27,7 @@ MultiLangString^ GetValue(
    String^ strVarName
 
 )
-```
-```
+
 
 #### Parameters
 

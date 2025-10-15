@@ -17,24 +17,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Property")]
 
 public class ViewPartPropertyList : BlockPropertyList
-```
-```
 
-```
-```
 [DefaultMember("Property")]
 
 public ref class ViewPartPropertyList : public BlockPropertyList
-```
-```
+
 
 Remarks
 
@@ -46,7 +40,7 @@ Example
 
 Example shows usage of online an offline property list:
 
-- [C#](#i-tab-content-c02e30ab-dcb7-443b-b784-8e012f2bf715)
+**C#**
 
 ```
 // creation of persistent property list
@@ -57,15 +51,11 @@ oPersistentPropertyList1.FUNC_COMMENT = "Comment";
 
 // now oFunction.Properties.FUNC_COMMENT is equal "Comment"
 
-
-
 FunctionPropertyList oPersistentPropertyList2 = new FunctionPropertyList(oFunction);
 
 oPersistentPropertyList2.FUNC_COMMENT = "Test";
 
 // now oFunction.Properties.FUNC_COMMENT is equal "Test"
-
-
 
 // creation of transient property list
 
@@ -79,8 +69,6 @@ oTransientPropertyList.FUNC_COMMENT = "Transient comment";
 
 // now oTransientPropertyList.FUNC_COMMENT is equal "Test comment"
 
-
-
 ```
 
 Public Constructors
@@ -90,8 +78,6 @@ Public Constructors
 | Public Constructor | [ViewPartPropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ViewPartPropertyList~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

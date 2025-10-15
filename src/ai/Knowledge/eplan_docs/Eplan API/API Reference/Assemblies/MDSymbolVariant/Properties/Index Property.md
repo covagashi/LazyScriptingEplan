@@ -8,17 +8,12 @@ Returns the index of the symbol variant.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public sbyte Index {get; set;}
-```
-```
 
-```
-```
 public:
 
 property sbyte Index {
@@ -28,8 +23,7 @@ property sbyte Index {
    void set (    sbyte value);
 
 }
-```
-```
+
 
 #### Property Value
 

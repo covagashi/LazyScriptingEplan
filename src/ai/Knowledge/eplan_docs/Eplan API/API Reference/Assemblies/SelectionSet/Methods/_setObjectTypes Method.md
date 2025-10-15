@@ -8,21 +8,16 @@ For internal use.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SelectionSet _setObjectTypes( 
 
    int[] arrTypeIDs
 
 )
-```
-```
 
-```
-```
 public:
 
 SelectionSet^ _setObjectTypes( 
@@ -30,8 +25,7 @@ SelectionSet^ _setObjectTypes(
    array<int>^ arrTypeIDs
 
 )
-```
-```
+
 
 #### Parameters
 

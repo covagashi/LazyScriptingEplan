@@ -8,21 +8,16 @@ Type of construction: Device # 26365.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_UNIT_DESIGN( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_UNIT_DESIGN {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_UNIT_DESIGN {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

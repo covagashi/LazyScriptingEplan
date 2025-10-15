@@ -8,21 +8,16 @@ Check, if this mate can snap to targetMate
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CanSnapTo( 
 
    Mate pTargetMate
 
 )
-```
-```
 
-```
-```
 public:
 
 bool CanSnapTo( 
@@ -30,8 +25,7 @@ bool CanSnapTo(
    Mate^ pTargetMate
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Cross-reference display: Number of rows / columns # 20050.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_NOOFCROSSREFERENCESINBLOCK {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_NOOFCROSSREFERENCESINBLOCK {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_NOOFCROSSREFERENCESINBLOCK {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

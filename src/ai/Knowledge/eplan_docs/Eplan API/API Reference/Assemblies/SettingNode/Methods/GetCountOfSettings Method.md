@@ -8,22 +8,16 @@ Determines the number of child settings (subordinate settings).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public uint GetCountOfSettings()
-```
-```
 
-```
-```
 public:
 
 uint GetCountOfSettings();
-```
-```
+
 
 #### Return Value
 

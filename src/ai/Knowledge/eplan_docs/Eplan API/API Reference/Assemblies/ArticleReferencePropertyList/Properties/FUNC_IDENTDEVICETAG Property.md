@@ -8,17 +8,12 @@ DT (identifying) # 20005.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_IDENTDEVICETAG {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_IDENTDEVICETAG {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_IDENTDEVICETAG {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

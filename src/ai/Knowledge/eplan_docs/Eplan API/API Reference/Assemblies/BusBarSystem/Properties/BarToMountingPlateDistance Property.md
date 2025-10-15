@@ -8,17 +8,12 @@ distance from MountingPlate to busbars.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double BarToMountingPlateDistance {get;}
-```
-```
 
-```
-```
 public:
 
 property double BarToMountingPlateDistance {
@@ -26,5 +21,4 @@ property double BarToMountingPlateDistance {
    double get();
 
 }
-```
-```
+

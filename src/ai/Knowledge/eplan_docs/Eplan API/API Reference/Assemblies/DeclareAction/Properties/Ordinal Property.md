@@ -8,17 +8,12 @@ Overload level of the action.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int Ordinal {get;}
-```
-```
 
-```
-```
 public:
 
 property int Ordinal {
@@ -26,8 +21,7 @@ property int Ordinal {
    int get();
 
 }
-```
-```
+
 
 #### Property Value
 

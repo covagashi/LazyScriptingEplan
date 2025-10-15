@@ -8,17 +8,12 @@ Gets property id value as [Properties.Segment](Eplan.EplApi.DataModelu~Eplan.Epl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.Segment AsSegment {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.Segment AsSegment {
@@ -26,5 +21,4 @@ property Properties.Segment AsSegment {
    Properties.Segment get();
 
 }
-```
-```
+

@@ -9,21 +9,16 @@ This is only the case when the corresponding action is available.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool IsExecutable( 
 
    string strExpression
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual bool IsExecutable( 
@@ -31,8 +26,7 @@ virtual bool IsExecutable(
    String^ strExpression
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -41,5 +35,5 @@ virtual bool IsExecutable(
 
 #### Return Value
 
-â¢ TRUE if the command line expression is valid  
-â¢ FALSE if the command line expression cannot be executed
+'¢ TRUE if the command line expression is valid  
+'¢ FALSE if the command line expression cannot be executed

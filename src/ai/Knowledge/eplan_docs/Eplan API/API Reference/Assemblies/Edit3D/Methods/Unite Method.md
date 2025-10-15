@@ -8,11 +8,10 @@ Merges collection of layout space components in such a way that their are treate
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement3D Unite( 
 
    IEnumerable<Placement3D> colPlacements2Unite,
@@ -20,11 +19,7 @@ public Placement3D Unite(
    PointD3D oPoint
 
 )
-```
-```
 
-```
-```
 public:
 
 Placement3D^ Unite( 
@@ -34,8 +29,7 @@ Placement3D^ Unite(
    PointD3D oPoint
 
 )
-```
-```
+
 
 #### Parameters
 

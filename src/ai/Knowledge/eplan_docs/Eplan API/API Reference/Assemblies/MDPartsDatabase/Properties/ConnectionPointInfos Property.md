@@ -8,17 +8,12 @@ Gets all connection point infos that are stored in the parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDConnectionPointInfo[] ConnectionPointInfos {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDConnectionPointInfo^>^ ConnectionPointInfos {
@@ -26,8 +21,7 @@ property array<MDConnectionPointInfo^>^ ConnectionPointInfos {
    array<MDConnectionPointInfo^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

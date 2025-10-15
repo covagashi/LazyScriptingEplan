@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.EObjects.Cable](Eplan.EplApi.DataModelu~Eplan.Ep
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function[] GetCablesWithFilterScheme( 
 
    string strFilterScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Function^>^ GetCablesWithFilterScheme( 
@@ -30,8 +25,7 @@ array<Function^>^ GetCablesWithFilterScheme(
    String^ strFilterScheme
 
 )
-```
-```
+
 
 #### Parameters
 

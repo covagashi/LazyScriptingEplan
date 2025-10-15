@@ -8,21 +8,16 @@ Nominal voltage # 26487.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_RATED_VOLTAGE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_RATED_VOLTAGE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_RATED_VOLTAGE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

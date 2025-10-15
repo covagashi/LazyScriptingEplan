@@ -8,17 +8,12 @@ Product grouping # 22367.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PRODUCTGROUPING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PRODUCTGROUPING {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PRODUCTGROUPING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

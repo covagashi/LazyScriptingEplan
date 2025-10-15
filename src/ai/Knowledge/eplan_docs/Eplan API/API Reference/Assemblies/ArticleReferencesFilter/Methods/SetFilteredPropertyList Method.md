@@ -8,21 +8,16 @@ Sets the [ArticleReferencePropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.Dat
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetFilteredPropertyList( 
 
    ArticleReferencePropertyList searchedPropList
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetFilteredPropertyList( 
@@ -30,8 +25,7 @@ void SetFilteredPropertyList(
    ArticleReferencePropertyList^ searchedPropList
 
 )
-```
-```
+
 
 #### Parameters
 

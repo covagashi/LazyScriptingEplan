@@ -8,17 +8,12 @@ Project name # 10000.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_NAME {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_NAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Identifier block (ID) # 1006.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue LOCATION_TYPENAME_NR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ LOCATION_TYPENAME_NR {
@@ -28,8 +23,7 @@ property PropertyValue^ LOCATION_TYPENAME_NR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

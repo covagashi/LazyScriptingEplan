@@ -14,30 +14,21 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [ComVisible(true)]
 
 [ClassInterface(ClassInterfaceType.AutoDual)]
 
 public class CallingContext
-```
-```
 
-```
-```
 [ComVisible(true)]
 
 [ClassInterface(ClassInterfaceType.AutoDual)]
 
 public ref class CallingContext
-```
-```
-
-
 
 Public Constructors
 
@@ -46,8 +37,6 @@ Public Constructors
 | Public Constructor | [CallingContext Constructor](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext~_ctor.html) | Constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

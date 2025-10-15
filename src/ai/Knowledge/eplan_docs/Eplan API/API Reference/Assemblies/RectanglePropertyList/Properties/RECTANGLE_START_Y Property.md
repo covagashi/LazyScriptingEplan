@@ -8,17 +8,12 @@ Y coordinate starting point # 19341.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue RECTANGLE_START_Y {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ RECTANGLE_START_Y {
@@ -28,8 +23,7 @@ property PropertyValue^ RECTANGLE_START_Y {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Mass # 26440.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_MASS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_MASS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_MASS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

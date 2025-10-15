@@ -8,17 +8,12 @@ Twin sleeve (yes/no)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool TwinSleeve {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool TwinSleeve {
@@ -28,5 +23,4 @@ property bool TwinSleeve {
    void set (    bool value);
 
 }
-```
-```
+

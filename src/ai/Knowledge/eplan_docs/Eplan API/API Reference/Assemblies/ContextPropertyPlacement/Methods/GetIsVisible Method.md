@@ -8,21 +8,16 @@ Returns the property placement visibility in symbol editor, for the given scheme
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool GetIsVisible( 
 
    ushort schemaId
 
 )
-```
-```
 
-```
-```
 public:
 
 bool GetIsVisible( 
@@ -30,8 +25,7 @@ bool GetIsVisible(
    ushort schemaId
 
 )
-```
-```
+
 
 #### Parameters
 

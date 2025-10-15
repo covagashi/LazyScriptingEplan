@@ -8,17 +8,12 @@ Returns all [Terminal](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.T
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Terminal[] Terminals {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Terminal^>^ Terminals {
@@ -26,8 +21,7 @@ property array<Terminal^>^ Terminals {
    array<Terminal^>^ get();
 
 }
-```
-```
+
 
 Exceptions
 

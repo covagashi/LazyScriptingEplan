@@ -8,17 +8,12 @@ Macro: Type of usage # 23011.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue MACROBOX_USAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ MACROBOX_USAGE {
@@ -28,8 +23,7 @@ property PropertyValue^ MACROBOX_USAGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Macro for pre-planning and P&I diagram # 44084.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_PLAMACRO {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_PLAMACRO {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_PLAMACRO {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

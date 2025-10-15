@@ -8,11 +8,10 @@ Method for importing texts from the project into the dictionary (language databa
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ImportProjectTexts( 
 
    Project pProject,
@@ -22,11 +21,7 @@ public bool ImportProjectTexts(
    bool bOverwrite
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ImportProjectTexts( 
@@ -38,8 +33,7 @@ bool ImportProjectTexts(
    bool bOverwrite
 
 )
-```
-```
+
 
 #### Parameters
 

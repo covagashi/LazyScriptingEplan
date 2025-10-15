@@ -8,21 +8,16 @@ Add new local template based on function definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject AddLocalTemplate( 
 
    FunctionDefinition pFunctionDefinition
 
 )
-```
-```
 
-```
-```
 public:
 
 StorableObject^ AddLocalTemplate( 
@@ -30,8 +25,7 @@ StorableObject^ AddLocalTemplate(
    FunctionDefinition^ pFunctionDefinition
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ Creates new hexagon drilling in project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateHexagon( 
 
    Project pProject,
@@ -20,11 +19,7 @@ public void CreateHexagon(
    double dEdgeLength
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateHexagon( 
@@ -34,8 +29,7 @@ void CreateHexagon(
    double dEdgeLength
 
 )
-```
-```
+
 
 #### Parameters
 

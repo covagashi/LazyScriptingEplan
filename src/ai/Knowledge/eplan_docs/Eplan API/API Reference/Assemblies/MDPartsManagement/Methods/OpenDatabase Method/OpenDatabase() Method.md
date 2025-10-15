@@ -8,22 +8,16 @@ Opens the parts database configured in the settings.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartsDatabase OpenDatabase()
-```
-```
 
-```
-```
 public:
 
 MDPartsDatabase^ OpenDatabase();
-```
-```
+
 
 Remarks
 

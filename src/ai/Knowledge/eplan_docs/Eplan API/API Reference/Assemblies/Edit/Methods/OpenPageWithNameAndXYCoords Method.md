@@ -8,11 +8,10 @@ Opens the page with the name passed to strPageName and sets the cursor to the po
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void OpenPageWithNameAndXYCoords( 
 
    string strFullLinkFileName,
@@ -24,11 +23,7 @@ public void OpenPageWithNameAndXYCoords(
    double nYCoord
 
 )
-```
-```
 
-```
-```
 public:
 
 void OpenPageWithNameAndXYCoords( 
@@ -42,8 +37,7 @@ void OpenPageWithNameAndXYCoords(
    double nYCoord
 
 )
-```
-```
+
 
 #### Parameters
 

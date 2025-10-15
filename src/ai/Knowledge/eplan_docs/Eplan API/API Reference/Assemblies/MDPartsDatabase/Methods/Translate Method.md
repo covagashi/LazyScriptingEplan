@@ -8,19 +8,13 @@ Translates all multilingual texts in an article database
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Translate()
-```
-```
 
-```
-```
 public:
 
 void Translate();
-```
-```
+

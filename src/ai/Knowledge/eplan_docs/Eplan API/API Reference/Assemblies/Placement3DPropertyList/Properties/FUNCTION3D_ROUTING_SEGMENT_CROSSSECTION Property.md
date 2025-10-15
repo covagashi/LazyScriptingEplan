@@ -8,17 +8,12 @@ Routing path / Curve: Cross-section # 36029.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_ROUTING_SEGMENT_CROSSSECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_ROUTING_SEGMENT_CROSSSECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_ROUTING_SEGMENT_CROSSSECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

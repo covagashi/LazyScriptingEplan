@@ -8,11 +8,10 @@ Creates new unplaced segment and assign to it start and end symbol.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Project pProject,
@@ -22,11 +21,7 @@ public void Create(
    SymbolReference pEndSymbol
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -38,8 +33,7 @@ void Create(
    SymbolReference^ pEndSymbol
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -68,7 +62,7 @@ Example
 
 The following example shows how to use this method.
 
-- [C#](#i-tab-content-c5428d21-ba5b-462d-b288-dd0275f05c03)
+**C#**
 
 ```
 //create segments
@@ -79,15 +73,11 @@ oSegment1.Create(m_oTestProject, oTopologyFunc1, oCorner1);
 
 oSegment1.Page = oTopologyPage;
 
-
-
 Segment oSegment2 = new Segment();
 
 oSegment2.Create(m_oTestProject, oCorner1, oCorner2);
 
 oSegment2.Page = oTopologyPage;
-
-
 
 Segment oSegment3 = new Segment();
 
@@ -95,12 +85,8 @@ oSegment3.Create(m_oTestProject, oCorner2, oTopologyFunc2);
 
 oSegment3.Page = oTopologyPage;
 
-
-
 //update start and end points of segments
 
 new TopologyService().UpdatePage(oTopologyPage);
-
-
 
 ```

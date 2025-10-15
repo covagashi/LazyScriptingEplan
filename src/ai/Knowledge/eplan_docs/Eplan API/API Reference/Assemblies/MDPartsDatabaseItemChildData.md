@@ -27,29 +27,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDPartsDatabaseItemChildData
-```
-```
 
-```
-```
 public ref class MDPartsDatabaseItemChildData
-```
-```
+
 
 Remarks
 
 Only used internaly.
-
-
-
-
-
 
 Public Methods
 

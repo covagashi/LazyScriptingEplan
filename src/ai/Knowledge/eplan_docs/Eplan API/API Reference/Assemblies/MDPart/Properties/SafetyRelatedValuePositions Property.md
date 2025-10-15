@@ -8,17 +8,12 @@ Get all safety related valud positions of the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartSafetyRelatedValuePosition[] SafetyRelatedValuePositions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDPartSafetyRelatedValuePosition^>^ SafetyRelatedValuePositions {
@@ -26,5 +21,4 @@ property array<MDPartSafetyRelatedValuePosition^>^ SafetyRelatedValuePositions {
    array<MDPartSafetyRelatedValuePosition^>^ get();
 
 }
-```
-```
+

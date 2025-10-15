@@ -8,21 +8,16 @@ Adds [ArticleReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleRe
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ArticleReference AddArticleReference( 
 
    ArticleReference oArticle
 
 )
-```
-```
 
-```
-```
 public:
 
 ArticleReference^ AddArticleReference( 
@@ -30,8 +25,7 @@ ArticleReference^ AddArticleReference(
    ArticleReference^ oArticle
 
 )
-```
-```
+
 
 #### Parameters
 

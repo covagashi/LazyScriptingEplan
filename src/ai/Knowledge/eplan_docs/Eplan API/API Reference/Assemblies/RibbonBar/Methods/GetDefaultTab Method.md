@@ -8,21 +8,16 @@ Returns default tab
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonTab GetDefaultTab( 
 
    RibbonTab.DefaultRibbonTabs ribbonTab
 
 )
-```
-```
 
-```
-```
 public:
 
 RibbonTab^ GetDefaultTab( 
@@ -30,8 +25,7 @@ RibbonTab^ GetDefaultTab(
    RibbonTab.DefaultRibbonTabs ribbonTab
 
 )
-```
-```
+
 
 #### Parameters
 

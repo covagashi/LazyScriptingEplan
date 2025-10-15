@@ -8,11 +8,10 @@ This function imports devices from a text file into a given project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] ImportDevicesText( 
 
    Project oProject,
@@ -34,11 +33,7 @@ public StorableObject[] ImportDevicesText(
    DeviceService.ImportMode eMode
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ ImportDevicesText( 
@@ -62,8 +57,7 @@ array<StorableObject^>^ ImportDevicesText(
    DeviceService.ImportMode eMode
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -93,9 +87,9 @@ array<StorableObject^>^ ImportDevicesText(
 
 *eMode*
 :   The import mode can be a combination of the XPProcImportMode enum and controls the import action (input parameter, optional):  
-    â¢ eCreateMode = 1: The import create only missing device tags  
-    â¢ eChangeMode = 2: The import change only existing device tags  
-    â¢ eDeleteMode = 4: The import delete only unnecessary existing device tags
+    '¢ eCreateMode = 1: The import create only missing device tags  
+    '¢ eChangeMode = 2: The import change only existing device tags  
+    '¢ eDeleteMode = 4: The import delete only unnecessary existing device tags
 
 #### Return Value
 

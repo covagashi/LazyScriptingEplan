@@ -8,17 +8,12 @@ Qualify the Pin is extern or intern.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsExtern {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsExtern {
@@ -28,5 +23,4 @@ property bool IsExtern {
    void set (    bool value);
 
 }
-```
-```
+

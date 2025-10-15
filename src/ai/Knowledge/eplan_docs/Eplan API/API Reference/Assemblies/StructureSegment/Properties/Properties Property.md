@@ -8,17 +8,12 @@ EPLAN properties of the StructureSegment object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new StructureSegmentPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property StructureSegmentPropertyList^ Properties {
@@ -26,12 +21,11 @@ new property StructureSegmentPropertyList^ Properties {
    StructureSegmentPropertyList^ get();
 
 }
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-0d82535e-111c-4cd1-a90d-416ea560ed1d)
+**C#**
 
 ```
 Function func;

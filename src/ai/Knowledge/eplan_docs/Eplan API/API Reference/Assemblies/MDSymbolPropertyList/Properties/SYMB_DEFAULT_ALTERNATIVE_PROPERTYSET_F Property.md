@@ -8,17 +8,12 @@ Default property arrangement for variant F (alternative) # 16038.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMB_DEFAULT_ALTERNATIVE_PROPERTYSET_F {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMB_DEFAULT_ALTERNATIVE_PROPERTYSET_F {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMB_DEFAULT_ALTERNATIVE_PROPERTYSET_F {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

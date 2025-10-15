@@ -8,17 +8,12 @@ Gets Gui language.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ISOCode GuiLanguage {get;}
-```
-```
 
-```
-```
 public:
 
 property ISOCode^ GuiLanguage {
@@ -26,5 +21,4 @@ property ISOCode^ GuiLanguage {
    ISOCode^ get();
 
 }
-```
-```
+

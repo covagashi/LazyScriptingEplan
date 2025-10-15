@@ -8,11 +8,10 @@ Creates not placed MountingPanel based on article which contain macro.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public void Create(
    List<Placement3D> listOfAdditionalPlacements
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -46,8 +41,7 @@ void Create(
    List<Placement3D^>^ listOfAdditionalPlacements
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -82,7 +76,7 @@ This method can create mounting panel only from part which has an assign macro a
 
 Example
 
-- [C#](#i-tab-content-d3fb8a76-7fef-4a05-ab91-d3b8c01f26ce)
+**C#**
 
 ```
 //Data for creating the Mounting Panel
@@ -95,22 +89,14 @@ String strPartVariantNr = "1";          //First part variant
 
 int nMacroVariant = 1;                  //Variant B
 
-
-
 //Creating Mounting Panel
 
 MountingPanel oMountingPanel = new MountingPanel();
 
 oMountingPanel.Create(m_oTestProject, strPartNr, strPartVariantNr, nMacroVariant, listAdditionalPlacements);
 
-
-
 //Placing Mounting Panel
 
 oMountingPanel.SetParent(oInstallationSpace, true);
-
-
-
-
 
 ```

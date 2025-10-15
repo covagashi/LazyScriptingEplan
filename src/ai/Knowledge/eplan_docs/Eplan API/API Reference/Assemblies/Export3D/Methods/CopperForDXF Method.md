@@ -8,11 +8,10 @@ Exports unfolding of bended bus bar into DXF files.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CopperForDXF( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public bool CopperForDXF(
    IEnumerable<Placement3D> oCollection
 
 )
-```
-```
 
-```
-```
 public:
 
 bool CopperForDXF( 
@@ -46,8 +41,7 @@ bool CopperForDXF(
    IEnumerable<Placement3D^>^ oCollection
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Gets property id value as [Properties.SymbolLibrary](Eplan.EplApi.DataModelu~Epl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.SymbolLibrary AsSymbolLibrary {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.SymbolLibrary AsSymbolLibrary {
@@ -26,5 +21,4 @@ property Properties.SymbolLibrary AsSymbolLibrary {
    Properties.SymbolLibrary get();
 
 }
-```
-```
+

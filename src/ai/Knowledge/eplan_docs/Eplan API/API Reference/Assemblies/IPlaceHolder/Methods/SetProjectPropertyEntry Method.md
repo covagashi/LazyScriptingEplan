@@ -8,11 +8,10 @@ Sets a value or variable on Placeholder project property. The reference of the o
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void SetProjectPropertyEntry( 
 
    AnyPropertyId oProperty,
@@ -20,11 +19,7 @@ void SetProjectPropertyEntry(
    MultiLangString strValue
 
 )
-```
-```
 
-```
-```
 void SetProjectPropertyEntry( 
 
    AnyPropertyId^ oProperty,
@@ -32,8 +27,7 @@ void SetProjectPropertyEntry(
    MultiLangString^ strValue
 
 )
-```
-```
+
 
 #### Parameters
 

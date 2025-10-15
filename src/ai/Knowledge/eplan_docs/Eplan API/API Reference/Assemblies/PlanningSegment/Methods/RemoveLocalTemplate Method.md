@@ -8,21 +8,16 @@ Removes a local template from this object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveLocalTemplate( 
 
    StorableObject pLocalTemplate
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveLocalTemplate( 
@@ -30,8 +25,7 @@ void RemoveLocalTemplate(
    StorableObject^ pLocalTemplate
 
 )
-```
-```
+
 
 #### Parameters
 

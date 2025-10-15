@@ -8,28 +8,22 @@ Check if there exist a setting on path given as a parameter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool ExistSetting( 
 
    string strSettingPath
 
 )
-```
-```
 
-```
-```
 bool ExistSetting( 
 
    String^ strSettingPath
 
 )
-```
-```
+
 
 #### Parameters
 

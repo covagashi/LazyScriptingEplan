@@ -8,17 +8,12 @@ Minimum bundle diameter # 22260.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_BUNDLE_MINDIAMETER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_BUNDLE_MINDIAMETER {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_BUNDLE_MINDIAMETER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

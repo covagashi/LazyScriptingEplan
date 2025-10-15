@@ -8,20 +8,14 @@ Enumeration of BasePoint type There can be set only several values for some obje
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ContextPropertyPlacement.Enums.BasePoint : System.Enum
-```
-```
 
-```
-```
 public enum class ContextPropertyPlacement.Enums.BasePoint : public System.Enum
-```
-```
+
 
 Members
 

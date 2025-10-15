@@ -8,17 +8,12 @@ Labeling type # 20365.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNC_TERMINAL_LABELTYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNC_TERMINAL_LABELTYPE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNC_TERMINAL_LABELTYPE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

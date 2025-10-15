@@ -8,17 +8,12 @@ Gets/Sets the underlying symbol's connection point assigned to this pin or `null
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PinBase SymbolConnPoint {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PinBase^ SymbolConnPoint {
@@ -28,8 +23,7 @@ property PinBase^ SymbolConnPoint {
    void set (    PinBase^ value);
 
 }
-```
-```
+
 
 Exceptions
 

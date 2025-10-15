@@ -8,17 +8,12 @@ Number of bus bars in busbar-system.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual long BarCount {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property int64 BarCount {
@@ -26,5 +21,4 @@ virtual property int64 BarCount {
    int64 get();
 
 }
-```
-```
+

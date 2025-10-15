@@ -8,22 +8,16 @@ Converts this MDPropertyValue object to `System::DateTime`.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DateTime ToTime()
-```
-```
 
-```
-```
 public:
 
 DateTime ToTime();
-```
-```
+
 
 #### Return Value
 

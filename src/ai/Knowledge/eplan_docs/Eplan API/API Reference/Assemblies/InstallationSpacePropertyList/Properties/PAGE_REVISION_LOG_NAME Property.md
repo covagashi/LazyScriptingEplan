@@ -8,21 +8,16 @@ Revision index (change tracking) # 11071.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_REVISION_LOG_NAME( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_REVISION_LOG_NAME {
@@ -32,8 +27,7 @@ property PropertyValue^ PAGE_REVISION_LOG_NAME {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

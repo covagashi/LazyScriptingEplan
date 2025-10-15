@@ -8,21 +8,16 @@ Returns, if the device tag of a given function can be nested
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CanDeviceTagBeNested( 
 
    Function pFunction
 
 )
-```
-```
 
-```
-```
 public:
 
 bool CanDeviceTagBeNested( 
@@ -30,8 +25,7 @@ bool CanDeviceTagBeNested(
    Function^ pFunction
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Sets [Pen](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Pen.html) rel
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Pen Pen {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property Pen^ Pen {
@@ -28,8 +23,7 @@ virtual property Pen^ Pen {
    void set (    Pen^ value);
 
 }
-```
-```
+
 
 Exceptions
 

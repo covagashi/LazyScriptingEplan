@@ -8,17 +8,12 @@ Bus coupler / head station # 20164.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCISBUSCOUPLER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCISBUSCOUPLER {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCISBUSCOUPLER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

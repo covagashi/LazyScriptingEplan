@@ -8,11 +8,10 @@ Writes a macro file from the pages and then if there was at least one valid page
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    string macroFileName,
@@ -22,11 +21,7 @@ public void Create(
    MultiLangString strDescription
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -38,8 +33,7 @@ void Create(
    MultiLangString^ strDescription
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Frequency (signal processing), set # 26339.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_FREQUENCY_SIGNAL_PROCESSING_SET( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_FREQUENCY_SIGNAL_PROCESSING_SET {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_FREQUENCY_SIGNAL_PROCESSING_SET {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

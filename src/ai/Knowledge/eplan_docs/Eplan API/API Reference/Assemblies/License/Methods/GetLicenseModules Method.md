@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void GetLicenseModules( 
 
    ref Dictionary<LicenseOptions,bool> LicenseModulesDic
 
 )
-```
-```
 
-```
-```
 public:
 
 void GetLicenseModules( 
@@ -28,8 +23,7 @@ void GetLicenseModules(
    Dictionary<LicenseOptions,bool>^% LicenseModulesDic
 
 )
-```
-```
+
 
 #### Parameters
 

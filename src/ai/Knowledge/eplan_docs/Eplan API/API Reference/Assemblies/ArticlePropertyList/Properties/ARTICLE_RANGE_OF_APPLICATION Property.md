@@ -8,17 +8,12 @@ Operating area # 26285.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_RANGE_OF_APPLICATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_RANGE_OF_APPLICATION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_RANGE_OF_APPLICATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

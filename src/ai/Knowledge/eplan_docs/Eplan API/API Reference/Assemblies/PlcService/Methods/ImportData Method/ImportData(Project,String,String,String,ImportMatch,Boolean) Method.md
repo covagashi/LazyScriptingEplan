@@ -8,11 +8,10 @@ Imports PLC data using the specified converter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ImportData( 
 
    Project oProject,
@@ -28,11 +27,7 @@ public void ImportData(
    bool bShowCompareDlg
 
 )
-```
-```
 
-```
-```
 public:
 
 void ImportData( 
@@ -50,8 +45,7 @@ void ImportData(
    bool bShowCompareDlg
 
 )
-```
-```
+
 
 #### Parameters
 

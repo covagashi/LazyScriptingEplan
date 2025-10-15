@@ -8,21 +8,16 @@ Suppl. field for CLIP PROJECT data # 20090.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_EXTERNAL_CLIPPROJECT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_EXTERNAL_CLIPPROJECT {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_EXTERNAL_CLIPPROJECT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

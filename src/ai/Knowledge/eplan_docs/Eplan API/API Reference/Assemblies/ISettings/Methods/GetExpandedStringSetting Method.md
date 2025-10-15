@@ -8,11 +8,10 @@ Reads value from settings. Substitutes path fragments (like $Eplan).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 string GetExpandedStringSetting( 
 
    string strSettingPath,
@@ -20,11 +19,7 @@ string GetExpandedStringSetting(
    int nIdx
 
 )
-```
-```
 
-```
-```
 String^ GetExpandedStringSetting( 
 
    String^ strSettingPath,
@@ -32,8 +27,7 @@ String^ GetExpandedStringSetting(
    int nIdx
 
 )
-```
-```
+
 
 #### Parameters
 

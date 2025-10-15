@@ -8,17 +8,12 @@ Target power (pneumatic), max. # 26146.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TARGET_OUTPUT_PNEUMATIC_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TARGET_OUTPUT_PNEUMATIC_MAX {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TARGET_OUTPUT_PNEUMATIC_MAX {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

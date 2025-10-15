@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ActionProperties
-```
-```
 
-```
-```
 public ref class ActionProperties
-```
-```
-
-
 
 Public Constructors
 
@@ -37,9 +28,6 @@ Public Constructors
 | Public Constructor | [ActionProperties Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionProperties~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

@@ -8,21 +8,16 @@ Translates all texts in the specified project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void TranslateProject( 
 
    string strProjectName
 
 )
-```
-```
 
-```
-```
 public:
 
 void TranslateProject( 
@@ -30,8 +25,7 @@ void TranslateProject(
    String^ strProjectName
 
 )
-```
-```
+
 
 #### Parameters
 

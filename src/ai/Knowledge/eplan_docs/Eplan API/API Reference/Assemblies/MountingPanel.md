@@ -16,26 +16,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MountingPanel : Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class MountingPanel : public Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
+
 
 Remarks
 
 Corresponding FunctionCategory for this class is CabMechHousing.
-
-
 
 Public Constructors
 
@@ -44,8 +36,6 @@ Public Constructors
 | Public Constructor | [MountingPanel Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.MountingPanel~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

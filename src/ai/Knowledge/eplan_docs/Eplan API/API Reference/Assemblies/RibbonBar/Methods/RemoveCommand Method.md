@@ -8,21 +8,16 @@ Removes command from Extensions->API group
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool RemoveCommand( 
 
    string strActionCommandLine
 
 )
-```
-```
 
-```
-```
 public:
 
 bool RemoveCommand( 
@@ -30,8 +25,7 @@ bool RemoveCommand(
    String^ strActionCommandLine
 
 )
-```
-```
+
 
 #### Parameters
 

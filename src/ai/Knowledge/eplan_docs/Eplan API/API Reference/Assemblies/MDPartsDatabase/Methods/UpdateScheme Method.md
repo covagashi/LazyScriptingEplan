@@ -8,22 +8,16 @@ Updates the scheme of the database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void UpdateScheme()
-```
-```
 
-```
-```
 public:
 
 void UpdateScheme();
-```
-```
+
 
 Remarks
 
@@ -31,7 +25,7 @@ If the scheme is already up to date, than nothing will be done. OpenDatabase met
 
 Example
 
-- [C#](#i-tab-content-69f02d4a-dd60-4384-bc2a-a9578a30ab78)
+**C#**
 
 ```
 MDPartsDatabase database = partsManagement.OpenDatabase();

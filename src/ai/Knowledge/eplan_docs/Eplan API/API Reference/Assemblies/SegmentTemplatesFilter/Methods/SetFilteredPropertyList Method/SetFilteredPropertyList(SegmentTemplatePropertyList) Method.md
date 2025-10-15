@@ -8,21 +8,16 @@ Sets the [Eplan.EplApi.DataModel.Planning.SegmentTemplatePropertyList](Eplan.Epl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetFilteredPropertyList( 
 
    SegmentTemplatePropertyList searchedPropList
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetFilteredPropertyList( 
@@ -30,8 +25,7 @@ void SetFilteredPropertyList(
    SegmentTemplatePropertyList^ searchedPropList
 
 )
-```
-```
+
 
 #### Parameters
 

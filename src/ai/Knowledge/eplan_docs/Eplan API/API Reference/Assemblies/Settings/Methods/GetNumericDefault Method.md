@@ -8,11 +8,10 @@ Returns default numeric value of a setting. The index starts at 0.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int GetNumericDefault( 
 
    string strSettingPath,
@@ -20,11 +19,7 @@ public int GetNumericDefault(
    int nIdx
 
 )
-```
-```
 
-```
-```
 public:
 
 int GetNumericDefault( 
@@ -34,8 +29,7 @@ int GetNumericDefault(
    int nIdx
 
 )
-```
-```
+
 
 #### Parameters
 

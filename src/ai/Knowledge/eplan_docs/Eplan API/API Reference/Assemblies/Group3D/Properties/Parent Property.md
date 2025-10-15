@@ -8,17 +8,12 @@ Gets parent of the Group3D object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Placement3D Parent {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property Placement3D^ Parent {
@@ -26,5 +21,4 @@ virtual property Placement3D^ Parent {
    Placement3D^ get();
 
 }
-```
-```
+

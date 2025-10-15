@@ -8,21 +8,16 @@ Compares database schemes from current and given project. In the result of this 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ProjectManager.DatabaseVersion.Status GetProjectDataCompatibility( 
 
    string projectPath
 
 )
-```
-```
 
-```
-```
 public:
 
 ProjectManager.DatabaseVersion.Status GetProjectDataCompatibility( 
@@ -30,8 +25,7 @@ ProjectManager.DatabaseVersion.Status GetProjectDataCompatibility(
    String^ projectPath
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,28 +8,22 @@ Set the action text for the complete progress (This is the level 2)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void SetOverallActionText( 
 
    string strText
 
 )
-```
-```
 
-```
-```
 void SetOverallActionText( 
 
    String^ strText
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Returns array of [Option](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Option.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Option[] Options {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Option^>^ Options {
@@ -26,8 +21,7 @@ property array<Option^>^ Options {
    array<Option^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

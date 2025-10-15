@@ -8,11 +8,10 @@ Constructor for variable
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlaceHolder.Variable( 
 
    PlaceHolder source,
@@ -20,11 +19,7 @@ public PlaceHolder.Variable(
    string name
 
 )
-```
-```
 
-```
-```
 public:
 
 PlaceHolder.Variable( 
@@ -34,8 +29,7 @@ PlaceHolder.Variable(
    String^ name
 
 )
-```
-```
+
 
 #### Parameters
 

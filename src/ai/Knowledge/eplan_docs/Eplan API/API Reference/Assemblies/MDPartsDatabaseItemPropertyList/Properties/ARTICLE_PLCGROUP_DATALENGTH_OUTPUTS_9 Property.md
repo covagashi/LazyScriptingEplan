@@ -8,17 +8,12 @@ PLC subdevice 9: Data length (outputs) # 22332.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PLCGROUP_DATALENGTH_OUTPUTS_9 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PLCGROUP_DATALENGTH_OUTPUTS_9 {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PLCGROUP_DATALENGTH_OUTPUTS_9 {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

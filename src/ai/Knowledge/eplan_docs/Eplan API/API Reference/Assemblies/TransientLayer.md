@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class TransientLayer
-```
-```
 
-```
-```
 public ref class TransientLayer
-```
-```
+
 
 Remarks
 
 Transient layer has only read-only properties and stores layer properties which are related to transient objects (like window macro)
-
-
 
 Public Constructors
 
@@ -41,8 +33,6 @@ Public Constructors
 | Public Constructor | [TransientLayer Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.TransientLayer~_ctor.html) |  |
 
 [Top](#top)
-
-
 
 Public Properties
 
@@ -79,8 +69,6 @@ Public Methods
 | Public Method | [GetHashCode](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.TransientLayer~GetHashCode.html) | Serves as the default hash function. |
 
 [Top](#top)
-
-
 
 Public Operators
 

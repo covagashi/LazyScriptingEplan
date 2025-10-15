@@ -8,17 +8,12 @@ Implementation # 44043.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_PCT_IMPLEMENTATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_PCT_IMPLEMENTATION {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_PCT_IMPLEMENTATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

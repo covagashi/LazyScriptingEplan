@@ -8,17 +8,12 @@ Returns true if the Connection can be removed
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsRemovable {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsRemovable {
@@ -26,5 +21,4 @@ property bool IsRemovable {
    bool get();
 
 }
-```
-```
+

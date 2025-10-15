@@ -8,21 +8,16 @@ Creates a new SymbolLibrary
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static MDSymbolLibrary Create( 
 
    string strSymbolLibraryPath
 
 )
-```
-```
 
-```
-```
 public:
 
 static MDSymbolLibrary^ Create( 
@@ -30,8 +25,7 @@ static MDSymbolLibrary^ Create(
    String^ strSymbolLibraryPath
 
 )
-```
-```
+
 
 #### Parameters
 

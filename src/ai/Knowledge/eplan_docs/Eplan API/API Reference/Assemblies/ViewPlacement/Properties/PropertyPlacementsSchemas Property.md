@@ -8,17 +8,12 @@ Returns PropertyPlacementsSchemas assigned to this ViewPlacement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ViewPlacement.PropertyPlacementsSchemasList PropertyPlacementsSchemas {get;}
-```
-```
 
-```
-```
 public:
 
 property ViewPlacement.PropertyPlacementsSchemasList^ PropertyPlacementsSchemas {
@@ -26,5 +21,4 @@ property ViewPlacement.PropertyPlacementsSchemasList^ PropertyPlacementsSchemas 
    ViewPlacement.PropertyPlacementsSchemasList^ get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Project option active # 23103.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue OPTION_ISACTIVE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ OPTION_ISACTIVE {
@@ -28,8 +23,7 @@ property PropertyValue^ OPTION_ISACTIVE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

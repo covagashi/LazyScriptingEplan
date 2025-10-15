@@ -8,20 +8,14 @@ Returns the name of the converter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 string GetName()
-```
-```
 
-```
-```
 String^ GetName();
-```
-```
+
 
 #### Return Value
 

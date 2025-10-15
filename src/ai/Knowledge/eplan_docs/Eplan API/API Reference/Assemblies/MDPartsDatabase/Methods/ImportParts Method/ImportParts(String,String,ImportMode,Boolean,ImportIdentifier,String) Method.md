@@ -8,11 +8,10 @@ Imports part to this database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ImportParts( 
 
    string strFilePath,
@@ -28,11 +27,7 @@ public void ImportParts(
    string strFieldMappingScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 void ImportParts( 
@@ -50,8 +45,7 @@ void ImportParts(
    String^ strFieldMappingScheme
 
 )
-```
-```
+
 
 #### Parameters
 

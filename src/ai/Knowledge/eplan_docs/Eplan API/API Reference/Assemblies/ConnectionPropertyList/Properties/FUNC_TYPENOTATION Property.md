@@ -8,21 +8,16 @@ Type designation of part # 20200.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TYPENOTATION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TYPENOTATION {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_TYPENOTATION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

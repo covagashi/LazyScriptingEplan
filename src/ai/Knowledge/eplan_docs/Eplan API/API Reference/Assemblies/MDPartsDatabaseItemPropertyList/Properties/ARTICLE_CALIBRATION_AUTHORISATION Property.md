@@ -8,17 +8,12 @@ Calibration approval # 26034.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CALIBRATION_AUTHORISATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CALIBRATION_AUTHORISATION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CALIBRATION_AUTHORISATION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

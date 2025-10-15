@@ -8,11 +8,10 @@ Gets a value or variable on a property of an object referenced by a Placeholder3
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual MultiLangString GetPropertyEntry( 
 
    Placement3D oObject,
@@ -20,11 +19,7 @@ public virtual MultiLangString GetPropertyEntry(
    AnyPropertyId oProperty
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual MultiLangString^ GetPropertyEntry( 
@@ -34,8 +29,7 @@ virtual MultiLangString^ GetPropertyEntry(
    AnyPropertyId^ oProperty
 
 )
-```
-```
+
 
 #### Parameters
 

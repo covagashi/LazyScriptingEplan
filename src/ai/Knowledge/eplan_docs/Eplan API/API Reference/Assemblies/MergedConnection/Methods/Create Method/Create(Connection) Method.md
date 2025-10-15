@@ -8,21 +8,16 @@ Initializes the merged connection to cover the connection passed as parameter an
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Connection connIn
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -30,8 +25,7 @@ void Create(
    Connection^ connIn
 
 )
-```
-```
+
 
 #### Parameters
 

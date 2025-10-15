@@ -8,22 +8,16 @@ checks, if the variant, that is defined by the properties exists inside the wind
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExistVariant()
-```
-```
 
-```
-```
 public:
 
 bool ExistVariant();
-```
-```
+
 
 #### Return Value
 

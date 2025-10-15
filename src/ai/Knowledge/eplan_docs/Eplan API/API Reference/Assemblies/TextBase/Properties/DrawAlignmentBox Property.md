@@ -8,17 +8,12 @@ Returns the alignment box type
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TextBase.AlignmentBoxType DrawAlignmentBox {get; set;}
-```
-```
 
-```
-```
 public:
 
 property TextBase.AlignmentBoxType DrawAlignmentBox {
@@ -28,8 +23,7 @@ property TextBase.AlignmentBoxType DrawAlignmentBox {
    void set (    TextBase.AlignmentBoxType value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Clip-on height # 22211.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SNAPHEIGHT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SNAPHEIGHT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SNAPHEIGHT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

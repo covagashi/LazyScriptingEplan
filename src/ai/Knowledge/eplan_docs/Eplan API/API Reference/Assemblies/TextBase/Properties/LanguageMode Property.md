@@ -8,17 +8,12 @@ Specifies language mode of text.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TextBase.TextLanguageMode LanguageMode {get; set;}
-```
-```
 
-```
-```
 public:
 
 property TextBase.TextLanguageMode LanguageMode {
@@ -28,5 +23,4 @@ property TextBase.TextLanguageMode LanguageMode {
    void set (    TextBase.TextLanguageMode value);
 
 }
-```
-```
+

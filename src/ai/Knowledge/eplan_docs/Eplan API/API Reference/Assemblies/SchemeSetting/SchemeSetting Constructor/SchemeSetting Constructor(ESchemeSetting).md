@@ -8,21 +8,16 @@ For internal use only.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SchemeSetting( 
 
    ESchemeSetting* pSchemeSetting
 
 )
-```
-```
 
-```
-```
 public:
 
 SchemeSetting( 
@@ -30,8 +25,7 @@ SchemeSetting(
    ESchemeSetting* pSchemeSetting
 
 )
-```
-```
+
 
 #### Parameters
 

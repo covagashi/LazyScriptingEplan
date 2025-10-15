@@ -8,17 +8,12 @@ Functional assignment (main identifier) # 1300.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FUNCTIONALASSIGNMENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FUNCTIONALASSIGNMENT {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FUNCTIONALASSIGNMENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

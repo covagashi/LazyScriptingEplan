@@ -8,20 +8,14 @@ Import mode
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum PartsService.ImportMode : System.Enum
-```
-```
 
-```
-```
 public enum class PartsService.ImportMode : public System.Enum
-```
-```
+
 
 Members
 

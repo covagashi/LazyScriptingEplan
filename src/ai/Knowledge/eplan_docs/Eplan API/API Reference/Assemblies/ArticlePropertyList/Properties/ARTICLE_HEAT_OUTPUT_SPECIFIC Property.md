@@ -8,17 +8,12 @@ Specific heat output # 26569.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_HEAT_OUTPUT_SPECIFIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_HEAT_OUTPUT_SPECIFIC {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_HEAT_OUTPUT_SPECIFIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

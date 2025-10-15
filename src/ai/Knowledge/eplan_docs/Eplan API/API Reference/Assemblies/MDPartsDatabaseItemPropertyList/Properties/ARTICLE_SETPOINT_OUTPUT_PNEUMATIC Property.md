@@ -8,17 +8,12 @@ Target power (pneumatic) # 26145.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SETPOINT_OUTPUT_PNEUMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SETPOINT_OUTPUT_PNEUMATIC {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SETPOINT_OUTPUT_PNEUMATIC {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

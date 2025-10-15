@@ -8,17 +8,12 @@ Height of bus bars (without mount).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual double HeightOfBars {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property double HeightOfBars {
@@ -26,5 +21,4 @@ virtual property double HeightOfBars {
    double get();
 
 }
-```
-```
+

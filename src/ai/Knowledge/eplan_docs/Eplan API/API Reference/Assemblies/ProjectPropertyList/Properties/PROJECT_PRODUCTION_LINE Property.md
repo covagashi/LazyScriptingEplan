@@ -8,17 +8,12 @@ AutomationML: Plant # 10953.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJECT_PRODUCTION_LINE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJECT_PRODUCTION_LINE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJECT_PRODUCTION_LINE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

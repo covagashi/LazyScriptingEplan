@@ -8,17 +8,12 @@ Gets property id value as [Properties.Block](Eplan.EplApi.DataModelu~Eplan.EplAp
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.Block AsBlock {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.Block AsBlock {
@@ -26,5 +21,4 @@ property Properties.Block AsBlock {
    Properties.Block get();
 
 }
-```
-```
+

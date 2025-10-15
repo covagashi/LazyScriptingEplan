@@ -8,17 +8,12 @@ Returns point of single selection.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD SelectionPoint {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD SelectionPoint {
@@ -26,5 +21,4 @@ property PointD SelectionPoint {
    PointD get();
 
 }
-```
-```
+

@@ -8,21 +8,16 @@ Method used by operator[] in order to access indexed properties by identifying n
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue Property( 
 
    string strIdentName
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ Property {
@@ -32,8 +27,7 @@ property PropertyValue^ Property {
    void set (String^ strIdentName, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

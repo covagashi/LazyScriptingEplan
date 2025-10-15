@@ -8,17 +8,12 @@ Specifies docking direction for text.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TextBase.TextDockingDirection DockingDirection {get; set;}
-```
-```
 
-```
-```
 public:
 
 property TextBase.TextDockingDirection DockingDirection {
@@ -28,5 +23,4 @@ property TextBase.TextDockingDirection DockingDirection {
    void set (    TextBase.TextDockingDirection value);
 
 }
-```
-```
+

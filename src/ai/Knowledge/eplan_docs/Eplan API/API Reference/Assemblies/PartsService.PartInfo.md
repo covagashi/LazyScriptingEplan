@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public struct PartsService.PartInfo : System.ValueType, Eplan.EplApi.DataModel.IArticleInfo
-```
-```
 
-```
-```
 public value class PartsService.PartInfo : public System.ValueType, Eplan.EplApi.DataModel.IArticleInfo
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [PartsService.PartInfo Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PartsService+PartInfo~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

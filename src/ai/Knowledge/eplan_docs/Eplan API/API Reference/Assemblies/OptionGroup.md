@@ -15,24 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class OptionGroup : OptionBase
-```
-```
 
-```
-```
 public ref class OptionGroup : public OptionBase
-```
-```
-
-
-
-
 
 Public Properties
 

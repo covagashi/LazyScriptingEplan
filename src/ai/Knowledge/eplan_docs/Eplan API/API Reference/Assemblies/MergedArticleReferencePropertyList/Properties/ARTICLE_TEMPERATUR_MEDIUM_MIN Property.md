@@ -8,17 +8,12 @@ Temperature (medium), min. # 26611.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TEMPERATUR_MEDIUM_MIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TEMPERATUR_MEDIUM_MIN {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TEMPERATUR_MEDIUM_MIN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Method to export the parts list of a project to an XML/CSV \file or as a custom 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExportPartsListWithFilterScheme( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public void ExportPartsListWithFilterScheme(
    string strFilterScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExportPartsListWithFilterScheme( 
@@ -42,8 +37,7 @@ void ExportPartsListWithFilterScheme(
    String^ strFilterScheme
 
 )
-```
-```
+
 
 #### Parameters
 

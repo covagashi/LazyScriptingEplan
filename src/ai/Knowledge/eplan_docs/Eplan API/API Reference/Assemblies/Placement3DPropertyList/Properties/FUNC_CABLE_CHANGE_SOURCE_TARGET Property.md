@@ -8,17 +8,12 @@ Cables: Exchange source and target # 20064.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLE_CHANGE_SOURCE_TARGET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLE_CHANGE_SOURCE_TARGET {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLE_CHANGE_SOURCE_TARGET {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Name of the form without file extension.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string FormName {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ FormName {
@@ -28,5 +23,4 @@ property String^ FormName {
    void set (    String^ value);
 
 }
-```
-```
+

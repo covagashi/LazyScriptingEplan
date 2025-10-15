@@ -8,11 +8,10 @@ Exports parts and other parts management items such as addresses, constructions,
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExportPartsDatabaseItems( 
 
    string strFilePath,
@@ -32,11 +31,7 @@ public bool ExportPartsDatabaseItems(
    bool bIncludeAccessoryPlacements
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExportPartsDatabaseItems( 
@@ -58,8 +53,7 @@ bool ExportPartsDatabaseItems(
    bool bIncludeAccessoryPlacements
 
 )
-```
-```
+
 
 #### Parameters
 

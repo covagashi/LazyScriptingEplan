@@ -19,24 +19,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Property")]
 
 public class PropertyPlacementPropertyList : TextBasePropertyList
-```
-```
 
-```
-```
 [DefaultMember("Property")]
 
 public ref class PropertyPlacementPropertyList : public TextBasePropertyList
-```
-```
+
 
 Remarks
 
@@ -48,7 +42,7 @@ Example
 
 Example shows usage of online an offline property list:
 
-- [C#](#i-tab-content-2f410041-c90c-4bfa-9fbd-7c09a575cd3a)
+**C#**
 
 ```
 // creation of persistent property list
@@ -59,15 +53,11 @@ oPersistentPropertyList1.FUNC_COMMENT = "Comment";
 
 // now oFunction.Properties.FUNC_COMMENT is equal "Comment"
 
-
-
 FunctionPropertyList oPersistentPropertyList2 = new FunctionPropertyList(oFunction);
 
 oPersistentPropertyList2.FUNC_COMMENT = "Test";
 
 // now oFunction.Properties.FUNC_COMMENT is equal "Test"
-
-
 
 // creation of transient property list
 
@@ -81,8 +71,6 @@ oTransientPropertyList.FUNC_COMMENT = "Transient comment";
 
 // now oTransientPropertyList.FUNC_COMMENT is equal "Test comment"
 
-
-
 ```
 
 Public Constructors
@@ -92,8 +80,6 @@ Public Constructors
 | Public Constructor | [PropertyPlacementPropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PropertyPlacementPropertyList~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

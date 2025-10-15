@@ -8,17 +8,12 @@ Function definition (of main function) # 20461.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLEPLACEMENT_DEVICE_FUNCTIONDEFINITION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLEPLACEMENT_DEVICE_FUNCTIONDEFINITION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ARTICLEPLACEMENT_DEVICE_FUNCTIONDEFINITION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

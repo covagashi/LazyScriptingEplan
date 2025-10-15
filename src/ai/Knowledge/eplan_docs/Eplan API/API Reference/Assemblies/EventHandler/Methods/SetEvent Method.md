@@ -8,21 +8,16 @@ Defines for which event the [IEplanEvents](Eplan.EplApi.AFu~Eplan.EplApi.Applica
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetEvent( 
 
    string strEventName
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetEvent( 
@@ -30,8 +25,7 @@ void SetEvent(
    String^ strEventName
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -42,7 +36,7 @@ Example
 
 Define the event to respond to
 
-- [C#](#i-tab-content-a15f8571-52fc-44a6-b5b1-baf43ae7823c)
+**C#**
 
 ```
 // Generate an event handler object

@@ -8,21 +8,16 @@ Error: Symbol variant # 15102.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMBLIB_VARIANTERROR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMBLIB_VARIANTERROR {
@@ -32,8 +27,7 @@ property PropertyValue^ SYMBLIB_VARIANTERROR {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

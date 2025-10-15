@@ -19,26 +19,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Terminal : Eplan.EplApi.DataModel.Function, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
 
-```
-```
 public ref class Terminal : public Eplan.EplApi.DataModel.Function, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
+
 
 Remarks
 
 Usually a few terminals are related to a single [TerminalStrip](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.TerminalStrip.html), as its auxiliary functions. The class also supports multilevel terminals - see example in IsMainTerminal property.
-
-
 
 Public Constructors
 
@@ -47,8 +39,6 @@ Public Constructors
 | Public Constructor | [Terminal Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Terminal~_ctor().html) | Constructor. Creates a transient Terminal. |
 
 [Top](#top)
-
-
 
 Public Properties
 

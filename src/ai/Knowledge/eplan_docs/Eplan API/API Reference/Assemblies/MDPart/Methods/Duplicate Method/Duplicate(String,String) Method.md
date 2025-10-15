@@ -8,11 +8,10 @@ Create a new part with identical data. That new part will get the given part num
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPart Duplicate( 
 
    string sPartnr,
@@ -20,11 +19,7 @@ public MDPart Duplicate(
    string sVariant
 
 )
-```
-```
 
-```
-```
 public:
 
 MDPart^ Duplicate( 
@@ -34,8 +29,7 @@ MDPart^ Duplicate(
    String^ sVariant
 
 )
-```
-```
+
 
 #### Parameters
 

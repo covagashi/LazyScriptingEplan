@@ -8,11 +8,10 @@ Creates not placed Cabinet based on article which contain macro.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public void Create(
    List<Placement3D> listOfAdditionalPlacements
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -46,8 +41,7 @@ void Create(
    List<Placement3D^>^ listOfAdditionalPlacements
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -82,7 +76,7 @@ This method can create a cabinet only from a part which has an assign macro. If 
 
 Example
 
-- [C#](#i-tab-content-a8b07492-1043-4b0c-abb5-f297a8c436cb)
+**C#**
 
 ```
 //Data for creating the cabinet
@@ -95,22 +89,14 @@ String strPartVariantNr = "1";          //First part variant
 
 int nMacroVariant = 1;                  //Variant B
 
-
-
 //Creating cabinet
 
 Cabinet oCabinet = new Cabinet();
 
 oCabinet.Create(m_oTestProject, strPartNr, strPartVariantNr, nMacroVariant, listAdditionalPlacements);
 
-
-
 //Placing cabinet
 
 oCabinet.SetParent(oInstallationSpace, true);
-
-
-
-
 
 ```

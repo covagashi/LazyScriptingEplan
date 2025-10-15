@@ -8,21 +8,16 @@ Check if project placed on given path exist.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExistsProject( 
 
    string projectFullPath
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExistsProject( 
@@ -30,8 +25,7 @@ bool ExistsProject(
    String^ projectFullPath
 
 )
-```
-```
+
 
 #### Parameters
 

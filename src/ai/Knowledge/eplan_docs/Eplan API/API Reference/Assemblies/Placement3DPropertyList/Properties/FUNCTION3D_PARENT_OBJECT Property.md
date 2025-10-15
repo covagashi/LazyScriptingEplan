@@ -8,17 +8,12 @@ Superior device # 36040.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_PARENT_OBJECT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_PARENT_OBJECT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_PARENT_OBJECT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

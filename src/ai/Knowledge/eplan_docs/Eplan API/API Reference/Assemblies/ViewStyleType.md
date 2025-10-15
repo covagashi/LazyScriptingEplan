@@ -8,20 +8,14 @@ Possible styles of rendering objects in ViewPlacement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ViewStyleType : System.Enum
-```
-```
 
-```
-```
 public enum class ViewStyleType : public System.Enum
-```
-```
+
 
 Members
 

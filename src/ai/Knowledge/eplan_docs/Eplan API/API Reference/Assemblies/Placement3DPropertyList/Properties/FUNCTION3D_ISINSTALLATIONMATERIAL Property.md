@@ -8,17 +8,12 @@ Is associated mounting material # 36015.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_ISINSTALLATIONMATERIAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_ISINSTALLATIONMATERIAL {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_ISINSTALLATIONMATERIAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

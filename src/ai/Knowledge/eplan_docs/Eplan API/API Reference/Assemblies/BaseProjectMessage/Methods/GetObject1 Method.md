@@ -8,19 +8,13 @@ Returns the first object associated to the message if any
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual StorableObject GetObject1()
-```
-```
 
-```
-```
 public:
 
 virtual StorableObject^ GetObject1();
-```
-```
+

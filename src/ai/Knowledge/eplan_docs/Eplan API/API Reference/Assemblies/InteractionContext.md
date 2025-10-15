@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class InteractionContext : Eplan.EplApi.Base.Context, Eplan.EplApi.Base.IContext
-```
-```
 
-```
-```
 public ref class InteractionContext : public Eplan.EplApi.Base.Context, Eplan.EplApi.Base.IContext
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [InteractionContext Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionContext~_ctor().html) | Creates a new InteractionContext object. |
 
 [Top](#top)
-
-
 
 Public Properties
 

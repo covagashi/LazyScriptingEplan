@@ -8,11 +8,10 @@ Creates new transient octagon drilling.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Drilling CreateOctagonTransient( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public static Drilling CreateOctagonTransient(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static Drilling^ CreateOctagonTransient( 
@@ -38,8 +33,7 @@ static Drilling^ CreateOctagonTransient(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

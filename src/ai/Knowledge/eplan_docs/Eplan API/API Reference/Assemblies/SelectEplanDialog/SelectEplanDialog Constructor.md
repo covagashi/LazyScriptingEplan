@@ -8,21 +8,16 @@ Constructor with available versions
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SelectEplanDialog( 
 
    ref List<EplanData> lEplanVersions
 
 )
-```
-```
 
-```
-```
 public:
 
 SelectEplanDialog( 
@@ -30,8 +25,7 @@ SelectEplanDialog(
    List<EplanData>^% lEplanVersions
 
 )
-```
-```
+
 
 #### Parameters
 

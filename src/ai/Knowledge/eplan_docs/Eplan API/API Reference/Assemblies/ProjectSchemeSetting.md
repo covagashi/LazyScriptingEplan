@@ -14,33 +14,25 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ProjectSchemeSetting : Eplan.EplApi.Base.SchemeSetting
-```
-```
 
-```
-```
 public ref class ProjectSchemeSetting : public Eplan.EplApi.Base.SchemeSetting
-```
-```
+
 
 Example
 
 Example of using ProjectSchemeSetting class
 
-- [C#](#i-tab-content-9bc636cf-f381-402d-a09c-202d8947762f)
+**C#**
 
 ```
 ProjectSchemeSetting oProjectSchemeSetting = new ProjectSchemeSetting();
 
 oProjectSchemeSetting.Init("XEsInspectionGui.Scheme_Verifications", m_oTestProject);
-
-
 
 string strSchemeName = "Offline";
 
@@ -54,8 +46,6 @@ if(oProjectSchemeSetting.CheckIfSchemeExists(strSchemeName))
 
 }
 
-
-
 ```
 
 Public Constructors
@@ -65,8 +55,6 @@ Public Constructors
 | Public Constructor | [ProjectSchemeSetting Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectSchemeSetting~_ctor().html) | Default constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

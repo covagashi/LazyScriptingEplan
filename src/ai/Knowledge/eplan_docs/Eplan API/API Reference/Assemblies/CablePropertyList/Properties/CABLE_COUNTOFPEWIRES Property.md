@@ -8,17 +8,12 @@ Cables: Number of PE conductors # 35103.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLE_COUNTOFPEWIRES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLE_COUNTOFPEWIRES {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLE_COUNTOFPEWIRES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -13,24 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDPartsManagement
-```
-```
 
-```
-```
 public ref class MDPartsManagement
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-61a52ec3-7ef7-409b-a280-577f750b00d7)
+**C#**
 
 ```
 MDPartsManagement pm = new MDPartsManagement();
@@ -45,8 +39,6 @@ Public Constructors
 | Public Constructor | [MDPartsManagement Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsManagement~_ctor.html) | constructor of MDPartsManagement |
 
 [Top](#top)
-
-
 
 Public Properties
 

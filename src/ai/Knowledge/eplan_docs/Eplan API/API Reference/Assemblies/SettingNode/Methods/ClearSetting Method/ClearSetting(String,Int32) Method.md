@@ -8,11 +8,10 @@ Deletes the value. The setting definition is maintained.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void ClearSetting( 
 
    string strSettingPath,
@@ -20,11 +19,7 @@ public virtual void ClearSetting(
    int idx
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void ClearSetting( 
@@ -34,8 +29,7 @@ virtual void ClearSetting(
    int idx
 
 )
-```
-```
+
 
 #### Parameters
 

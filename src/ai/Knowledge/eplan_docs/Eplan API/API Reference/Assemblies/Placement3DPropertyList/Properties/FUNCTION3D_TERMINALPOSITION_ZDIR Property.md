@@ -8,21 +8,16 @@ Connection point pattern: Z vector # 36074.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_TERMINALPOSITION_ZDIR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_TERMINALPOSITION_ZDIR {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNCTION3D_TERMINALPOSITION_ZDIR {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

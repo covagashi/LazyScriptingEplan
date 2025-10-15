@@ -13,28 +13,17 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Layer")]
 
 public class GraphicalLayerTable
-```
-```
 
-```
-```
 [DefaultMember("Layer")]
 
 public ref class GraphicalLayerTable
-```
-```
-
-
-
-
 
 Public Properties
 

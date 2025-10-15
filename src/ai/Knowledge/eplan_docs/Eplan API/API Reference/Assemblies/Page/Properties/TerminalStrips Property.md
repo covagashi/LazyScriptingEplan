@@ -8,17 +8,12 @@ Returns all [Eplan.EplApi.DataModel.EObjects.TerminalStrip](Eplan.EplApi.DataMod
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TerminalStrip[] TerminalStrips {get;}
-```
-```
 
-```
-```
 public:
 
 property array<TerminalStrip^>^ TerminalStrips {
@@ -26,8 +21,7 @@ property array<TerminalStrip^>^ TerminalStrips {
    array<TerminalStrip^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

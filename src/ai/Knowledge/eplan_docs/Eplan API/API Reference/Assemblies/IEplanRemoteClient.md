@@ -8,32 +8,21 @@ Base interface for the communication with Eplan Server.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [Guid("155A4EA7-AB45-4c69-9B72-F6CB94BC6323")]
 
 [ComVisible(true)]
 
 public interface IEplanRemoteClient
-```
-```
 
-```
-```
 [Guid("155A4EA7-AB45-4c69-9B72-F6CB94BC6323")]
 
 [ComVisible(true)]
 
 public interface class IEplanRemoteClient
-```
-```
-
-
-
-
 
 Public Properties
 

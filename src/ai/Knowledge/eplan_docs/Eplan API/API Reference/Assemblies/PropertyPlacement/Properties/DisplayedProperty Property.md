@@ -8,17 +8,12 @@ Return [Eplan.EplApi.DataModel.AnyPropertyId](Eplan.EplApi.DataModelu~Eplan.EplA
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public AnyPropertyId DisplayedProperty {get; set;}
-```
-```
 
-```
-```
 public:
 
 property AnyPropertyId^ DisplayedProperty {
@@ -28,8 +23,7 @@ property AnyPropertyId^ DisplayedProperty {
    void set (    AnyPropertyId^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,14 +31,12 @@ property AnyPropertyId^ DisplayedProperty {
 
 Example
 
-- [C#](#i-tab-content-4f721071-5552-4940-b822-a7a195f8d651)
+**C#**
 
 ```
 PropertyPlacement p1;//a valid PropertyPlacement object
 
 PropertyPlacement p2;//a valid PropertyPlacement object
-
-
 
 if (p1.Source == p2.Source)
 

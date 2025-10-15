@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetEPoint3D( 
 
    EPoint3D* pnt
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetEPoint3D( 
@@ -28,8 +23,7 @@ void SetEPoint3D(
    EPoint3D* pnt
 
 )
-```
-```
+
 
 #### Parameters
 

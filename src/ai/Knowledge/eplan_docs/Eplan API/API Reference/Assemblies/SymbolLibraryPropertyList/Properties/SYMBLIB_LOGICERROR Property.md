@@ -8,21 +8,16 @@ Error: Connection point logic # 15104.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMBLIB_LOGICERROR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMBLIB_LOGICERROR {
@@ -32,8 +27,7 @@ property PropertyValue^ SYMBLIB_LOGICERROR {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Suitable for KNX # 26043.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SUITABLE_FOR_KNX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SUITABLE_FOR_KNX {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SUITABLE_FOR_KNX {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

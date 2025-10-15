@@ -8,17 +8,12 @@ Frequency range, min. # 26332.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_FREQUENCY_RANGE_MIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_FREQUENCY_RANGE_MIN {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_FREQUENCY_RANGE_MIN {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

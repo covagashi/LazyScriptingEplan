@@ -8,11 +8,10 @@ Places objects from window macro into layout space.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] WindowMacro( 
 
    WindowMacro oMacro,
@@ -26,11 +25,7 @@ public StorableObject[] WindowMacro(
    WindowMacro.Enums.NumerationMode nNumerationMode
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ WindowMacro( 
@@ -46,8 +41,7 @@ array<StorableObject^>^ WindowMacro(
    WindowMacro.Enums.NumerationMode nNumerationMode
 
 )
-```
-```
+
 
 #### Parameters
 

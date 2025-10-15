@@ -15,22 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Context : IContext
-```
-```
 
-```
-```
 public ref class Context : public IContext
-```
-```
-
-
 
 Public Constructors
 
@@ -39,9 +30,6 @@ Public Constructors
 | Public Constructor | [Context Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

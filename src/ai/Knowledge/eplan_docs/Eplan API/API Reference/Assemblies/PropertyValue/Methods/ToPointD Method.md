@@ -8,22 +8,16 @@ Used in conversion of the PropertyValue object to [Eplan.EplApi.Base.PointD](Epl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD ToPointD()
-```
-```
 
-```
-```
 public:
 
 PointD ToPointD();
-```
-```
+
 
 #### Return Value
 

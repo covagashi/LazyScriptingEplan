@@ -8,17 +8,12 @@ Macro: Protected group # 23012.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue MACROBOX_USEPROTECTEDGROUP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ MACROBOX_USEPROTECTEDGROUP {
@@ -28,8 +23,7 @@ property PropertyValue^ MACROBOX_USEPROTECTEDGROUP {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Number of connections used (single-line cables) # 35109.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLE_COUNTOFUSEDWIRES_MANUAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLE_COUNTOFUSEDWIRES_MANUAL {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLE_COUNTOFUSEDWIRES_MANUAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Finds an object in the list of object referenced by a Placeholder3D.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual int FindReference( 
 
    Placement3D oObject
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual int FindReference( 
@@ -30,8 +25,7 @@ virtual int FindReference(
    Placement3D^ oObject
 
 )
-```
-```
+
 
 #### Parameters
 

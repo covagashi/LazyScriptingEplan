@@ -8,21 +8,16 @@ Removes [Placement3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placeme
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void RemoveSubPlacement3Ds( 
 
    Placement3D[] placement3Ds
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void RemoveSubPlacement3Ds( 
@@ -30,8 +25,7 @@ virtual void RemoveSubPlacement3Ds(
    array<Placement3D^>^ placement3Ds
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ Creates not placed, article free MountingPanel object with given dimensions.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public void Create(
    double dDepth
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -42,8 +37,7 @@ void Create(
    double dDepth
 
 )
-```
-```
+
 
 #### Parameters
 

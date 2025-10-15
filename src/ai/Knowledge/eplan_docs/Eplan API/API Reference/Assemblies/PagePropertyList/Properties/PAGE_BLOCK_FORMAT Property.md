@@ -8,21 +8,16 @@ Block property: Format # 11091.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_BLOCK_FORMAT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_BLOCK_FORMAT {
@@ -32,8 +27,7 @@ property PropertyValue^ PAGE_BLOCK_FORMAT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

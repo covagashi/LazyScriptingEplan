@@ -8,17 +8,12 @@ Flow rate (free blowing) # 26175.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_VOLUME_FLOW_FREELY_BLOWING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_VOLUME_FLOW_FREELY_BLOWING {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_VOLUME_FLOW_FREELY_BLOWING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

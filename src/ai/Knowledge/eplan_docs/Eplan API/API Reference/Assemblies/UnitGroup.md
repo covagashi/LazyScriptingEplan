@@ -8,20 +8,14 @@ The group of one unit. Conversion is only possible inside groups
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum UnitGroup : System.Enum
-```
-```
 
-```
-```
 public enum class UnitGroup : public System.Enum
-```
-```
+
 
 Members
 

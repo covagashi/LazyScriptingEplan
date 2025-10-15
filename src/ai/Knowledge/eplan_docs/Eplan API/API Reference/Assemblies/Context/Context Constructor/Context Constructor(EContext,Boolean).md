@@ -8,11 +8,10 @@ For internal use only.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Context( 
 
    EContext* pEContext,
@@ -20,11 +19,7 @@ public Context(
    bool bDelete
 
 )
-```
-```
 
-```
-```
 public:
 
 Context( 
@@ -34,8 +29,7 @@ Context(
    bool bDelete
 
 )
-```
-```
+
 
 #### Parameters
 

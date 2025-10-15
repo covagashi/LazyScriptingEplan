@@ -8,20 +8,14 @@ Enumeration of Dimension's precision types
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum DimensionCircle.Enums.DimensionPrecision : System.Enum
-```
-```
 
-```
-```
 public enum class DimensionCircle.Enums.DimensionPrecision : public System.Enum
-```
-```
+
 
 Members
 

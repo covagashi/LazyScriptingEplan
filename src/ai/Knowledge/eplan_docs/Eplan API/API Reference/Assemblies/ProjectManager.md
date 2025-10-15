@@ -13,24 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ProjectManager
-```
-```
 
-```
-```
 public ref class ProjectManager
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-9c94082c-a66d-48dd-a74d-1f13499ff819)
+**C#**
 
 ```
 string strProjectPath = new ProjectManager().Paths.Projects;
@@ -51,8 +45,6 @@ Public Constructors
 | Public Constructor | [ProjectManager Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager~_ctor.html) | Constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

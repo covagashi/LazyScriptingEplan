@@ -8,28 +8,22 @@ Set the action text for the current progress (This is the level 1)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void SetActionText( 
 
    string strText
 
 )
-```
-```
 
-```
-```
 void SetActionText( 
 
    String^ strText
 
 )
-```
-```
+
 
 #### Parameters
 

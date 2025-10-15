@@ -8,17 +8,12 @@ This property specifies if the rectangle is filled.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override bool IsSurfaceFilled {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsSurfaceFilled {
@@ -28,8 +23,7 @@ property bool IsSurfaceFilled {
    void set (    bool value) override;
 
 }
-```
-```
+
 
 #### Property Value
 

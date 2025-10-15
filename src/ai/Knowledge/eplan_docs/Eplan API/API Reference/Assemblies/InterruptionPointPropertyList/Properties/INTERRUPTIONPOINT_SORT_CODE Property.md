@@ -8,17 +8,12 @@ Sort code (interruption point) # 24809.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INTERRUPTIONPOINT_SORT_CODE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INTERRUPTIONPOINT_SORT_CODE {
@@ -28,8 +23,7 @@ property PropertyValue^ INTERRUPTIONPOINT_SORT_CODE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

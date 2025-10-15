@@ -8,17 +8,12 @@ Layout space: Routing track # 31095.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_WIRING_PATH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_WIRING_PATH {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_WIRING_PATH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

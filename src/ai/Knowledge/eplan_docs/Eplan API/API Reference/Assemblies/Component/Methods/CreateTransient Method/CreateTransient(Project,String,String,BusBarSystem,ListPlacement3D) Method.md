@@ -8,11 +8,10 @@ Creates not placed Component object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Component CreateTransient( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public static Component CreateTransient(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static Component^ CreateTransient( 
@@ -46,8 +41,7 @@ static Component^ CreateTransient(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

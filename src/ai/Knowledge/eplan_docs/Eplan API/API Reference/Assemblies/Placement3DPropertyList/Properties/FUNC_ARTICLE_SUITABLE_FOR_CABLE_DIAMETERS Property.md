@@ -8,21 +8,16 @@ Suitable for cable diameter # 26351.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_SUITABLE_FOR_CABLE_DIAMETERS( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_SUITABLE_FOR_CABLE_DIAMETERS {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_SUITABLE_FOR_CABLE_DIAMETERS {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

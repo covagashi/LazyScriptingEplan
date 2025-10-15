@@ -8,17 +8,12 @@ CO2 emission # 26245.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CO2_EMISSION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CO2_EMISSION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CO2_EMISSION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

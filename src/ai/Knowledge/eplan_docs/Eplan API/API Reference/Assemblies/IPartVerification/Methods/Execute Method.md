@@ -8,28 +8,22 @@ Called by EPLAN when a specific MDPartsDatabaseItem is to be checked. Currently 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void Execute( 
 
    MDPartsDatabaseItem oMDPartItem
 
 )
-```
-```
 
-```
-```
 void Execute( 
 
    MDPartsDatabaseItem^ oMDPartItem
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -40,7 +34,7 @@ Example
 
 The following example shows a method to check if part has empty ERP number. The error message will be added into message dialog.
 
-- [C#](#i-tab-content-18caecec-b13d-4fcf-8ba8-bf96fd622d24)
+**C#**
 
 ```
 public override void Execute(Eplan.EplApi.MasterData.MDPartsDatabaseItem oMDPartItem)

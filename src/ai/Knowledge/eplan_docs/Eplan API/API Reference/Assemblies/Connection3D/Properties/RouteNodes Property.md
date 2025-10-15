@@ -8,17 +8,12 @@ Array of route elements space through which connection is routed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement3D[] RouteNodes {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Placement3D^>^ RouteNodes {
@@ -26,5 +21,4 @@ property array<Placement3D^>^ RouteNodes {
    array<Placement3D^>^ get();
 
 }
-```
-```
+

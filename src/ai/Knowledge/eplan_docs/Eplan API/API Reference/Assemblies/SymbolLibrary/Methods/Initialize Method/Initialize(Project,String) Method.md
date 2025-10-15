@@ -8,11 +8,10 @@ Opens a symbol library of the project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Initialize( 
 
    Project proj,
@@ -20,11 +19,7 @@ public void Initialize(
    string libraryName
 
 )
-```
-```
 
-```
-```
 public:
 
 void Initialize( 
@@ -34,8 +29,7 @@ void Initialize(
    String^ libraryName
 
 )
-```
-```
+
 
 #### Parameters
 

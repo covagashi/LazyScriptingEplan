@@ -8,21 +8,16 @@ Graphical display in reports # 20089.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_EVALUATION_GRAPHICCODE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_EVALUATION_GRAPHICCODE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_EVALUATION_GRAPHICCODE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

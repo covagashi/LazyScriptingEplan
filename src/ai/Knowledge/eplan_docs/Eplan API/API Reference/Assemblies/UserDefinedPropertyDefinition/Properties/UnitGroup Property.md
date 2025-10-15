@@ -8,17 +8,12 @@ UnitGroup of this property definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public UserDefinedPropertyDefinition.Enums.UnitGroup UnitGroup {get; set;}
-```
-```
 
-```
-```
 public:
 
 property UserDefinedPropertyDefinition.Enums.UnitGroup UnitGroup {
@@ -28,5 +23,4 @@ property UserDefinedPropertyDefinition.Enums.UnitGroup UnitGroup {
    void set (    UserDefinedPropertyDefinition.Enums.UnitGroup value);
 
 }
-```
-```
+

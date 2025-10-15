@@ -8,20 +8,14 @@ Mode for aligning and formatting connection definition points
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ConnectionService.Align : System.Enum
-```
-```
 
-```
-```
 public enum class ConnectionService.Align : public System.Enum
-```
-```
+
 
 Members
 

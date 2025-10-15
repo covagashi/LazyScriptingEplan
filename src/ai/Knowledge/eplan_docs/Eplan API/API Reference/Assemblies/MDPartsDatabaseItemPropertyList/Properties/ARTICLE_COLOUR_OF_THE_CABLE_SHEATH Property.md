@@ -8,17 +8,12 @@ Cable jacket: Color # 26040.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_COLOUR_OF_THE_CABLE_SHEATH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_COLOUR_OF_THE_CABLE_SHEATH {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_COLOUR_OF_THE_CABLE_SHEATH {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

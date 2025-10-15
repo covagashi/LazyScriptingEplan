@@ -8,17 +8,12 @@ Default target mate for this Plane.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlaneMate BaseMate {get;}
-```
-```
 
-```
-```
 public:
 
 property PlaneMate^ BaseMate {
@@ -26,8 +21,7 @@ property PlaneMate^ BaseMate {
    PlaneMate^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

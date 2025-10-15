@@ -8,17 +8,12 @@ Purchase price/packaging Currency 1 # 22111.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PACKAGINGPRICE_1 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PACKAGINGPRICE_1 {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PACKAGINGPRICE_1 {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

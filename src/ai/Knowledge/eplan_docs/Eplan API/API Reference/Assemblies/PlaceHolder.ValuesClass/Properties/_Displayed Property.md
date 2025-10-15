@@ -8,17 +8,12 @@ Returns displayed values as a two-dimensional string array
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string[,] _Displayed {get;}
-```
-```
 
-```
-```
 public:
 
 property array<String^,>^ _Displayed {
@@ -26,5 +21,4 @@ property array<String^,>^ _Displayed {
    array<String^,>^ get();
 
 }
-```
-```
+

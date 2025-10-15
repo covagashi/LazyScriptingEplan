@@ -8,17 +8,12 @@ Check if a given property is read-only.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override bool ReadOnly {get;}
-```
-```
 
-```
-```
 public:
 
 property bool ReadOnly {
@@ -26,8 +21,7 @@ property bool ReadOnly {
    bool get() override;
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -41,12 +35,10 @@ Should be called only on MDPropertyDefiniton objects with valid Id.
 
 Example
 
-- [C#](#i-tab-content-f4c40db4-dd8b-4401-b5f5-a74866700dfd)
+**C#**
 
 ```
 MDPart oPart = m_MDPartsDatabase.Parts[0];//a valid part object
-
-
 
 //a valid call
 

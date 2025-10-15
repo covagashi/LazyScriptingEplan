@@ -8,17 +8,12 @@ Trade 'Fluid power (undefined)' # 22264.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CRAFT_FLUID_UNDEFINED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CRAFT_FLUID_UNDEFINED {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CRAFT_FLUID_UNDEFINED {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

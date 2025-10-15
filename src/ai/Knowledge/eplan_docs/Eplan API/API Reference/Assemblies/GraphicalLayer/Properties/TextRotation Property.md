@@ -8,17 +8,12 @@ Layer's rotation of texts
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double TextRotation {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double TextRotation {
@@ -28,8 +23,7 @@ property double TextRotation {
    void set (    double value);
 
 }
-```
-```
+
 
 Remarks
 

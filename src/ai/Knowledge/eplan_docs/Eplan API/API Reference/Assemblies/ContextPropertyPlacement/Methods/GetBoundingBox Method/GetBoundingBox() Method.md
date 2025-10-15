@@ -8,22 +8,16 @@ Placement bounding box. Bounding box is a rectangle which contain this placement
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override PointD[] GetBoundingBox()
-```
-```
 
-```
-```
 public:
 
 array<PointD>^ GetBoundingBox(); override
-```
-```
+
 
 #### Return Value
 

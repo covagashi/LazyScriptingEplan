@@ -8,17 +8,12 @@ Quiet mode in which Eplan P8 has been started.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public EplApplication.QuietModes QuietMode {get; set;}
-```
-```
 
-```
-```
 public:
 
 property EplApplication.QuietModes QuietMode {
@@ -28,8 +23,7 @@ property EplApplication.QuietModes QuietMode {
    void set (    EplApplication.QuietModes value);
 
 }
-```
-```
+
 
 Remarks
 

@@ -8,11 +8,10 @@ Snap this mate to another mate.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SnapTo( 
 
    PlaneMate pTargetMate,
@@ -24,11 +23,7 @@ public void SnapTo(
    double dY
 
 )
-```
-```
 
-```
-```
 public:
 
 void SnapTo( 
@@ -42,8 +37,7 @@ void SnapTo(
    double dY
 
 )
-```
-```
+
 
 #### Parameters
 

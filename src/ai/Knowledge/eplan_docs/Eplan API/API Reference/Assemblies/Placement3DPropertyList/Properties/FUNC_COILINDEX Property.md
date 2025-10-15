@@ -8,17 +8,12 @@ Contact / coil index # 20047.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_COILINDEX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_COILINDEX {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_COILINDEX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

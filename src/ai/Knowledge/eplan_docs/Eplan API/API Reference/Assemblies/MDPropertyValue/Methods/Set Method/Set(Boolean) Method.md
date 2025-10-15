@@ -8,21 +8,16 @@ Sets `System::Boolean` value in MDPropertyValue object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue Set( 
 
    bool b
 
 )
-```
-```
 
-```
-```
 public:
 
 MDPropertyValue^ Set( 
@@ -30,8 +25,7 @@ MDPropertyValue^ Set(
    bool b
 
 )
-```
-```
+
 
 #### Parameters
 

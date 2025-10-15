@@ -8,17 +8,12 @@ Operating voltage (DC), max. # 26091.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_OPERATING_VOLTAGE_WITH_DC_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_OPERATING_VOLTAGE_WITH_DC_MAX {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_OPERATING_VOLTAGE_WITH_DC_MAX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

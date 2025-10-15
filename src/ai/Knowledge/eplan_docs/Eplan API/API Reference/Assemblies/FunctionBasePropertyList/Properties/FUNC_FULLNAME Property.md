@@ -8,17 +8,12 @@ Name (full) # 20001.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_FULLNAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_FULLNAME {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_FULLNAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

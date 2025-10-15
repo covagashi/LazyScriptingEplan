@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public abstract void AddCategoryFilter( 
 
    ref FunctionCategory eCategory
 
 )
-```
-```
 
-```
-```
 public:
 
 abstract void AddCategoryFilter( 
@@ -28,8 +23,7 @@ abstract void AddCategoryFilter(
    FunctionCategory% eCategory
 
 )
-```
-```
+
 
 #### Parameters
 

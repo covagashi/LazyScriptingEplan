@@ -13,24 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ProjectSections
-```
-```
 
-```
-```
 public ref class ProjectSections
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-2ae78b4d-0be0-4e8b-84d0-1adfacaf7273)
+**C#**
 
 ```
 ProjectSections sections = _CurrentProject.Sections;
@@ -43,9 +37,6 @@ sections.ActiveScheme = "Trade_Fluid_power";
 
 sections.ActiveScheme = "Trade_Electrical_engineering";
 ```
-
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ Distance of the pinch point # 22287.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_DISTANCE_WIRE_HOLD_BACK_NOSE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_DISTANCE_WIRE_HOLD_BACK_NOSE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_DISTANCE_WIRE_HOLD_BACK_NOSE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

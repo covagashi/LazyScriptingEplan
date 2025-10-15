@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public struct RectangleD : System.ValueType
-```
-```
 
-```
-```
 public value class RectangleD : public System.ValueType
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [RectangleD Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.RectangleD~_ctor.html) | Constructor which spans rectangle on two points. |
 
 [Top](#top)
-
-
 
 Public Properties
 

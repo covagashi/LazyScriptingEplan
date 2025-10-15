@@ -8,21 +8,16 @@ Creates a handle mate from existing mate
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Mate mate
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -30,8 +25,7 @@ void Create(
    Mate^ mate
 
 )
-```
-```
+
 
 #### Parameters
 

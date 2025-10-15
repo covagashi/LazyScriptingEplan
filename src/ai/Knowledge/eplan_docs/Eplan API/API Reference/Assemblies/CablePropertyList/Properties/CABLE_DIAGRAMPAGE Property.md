@@ -8,17 +8,12 @@ Cables: Page name of the cable diagram # 35106.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLE_DIAGRAMPAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLE_DIAGRAMPAGE {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLE_DIAGRAMPAGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

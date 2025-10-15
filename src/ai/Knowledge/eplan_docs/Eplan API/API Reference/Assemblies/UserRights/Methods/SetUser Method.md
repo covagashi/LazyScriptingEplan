@@ -8,11 +8,10 @@ Sets the user.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SetUser( 
 
    string strUserName,
@@ -20,11 +19,7 @@ public bool SetUser(
    string strUserPassword
 
 )
-```
-```
 
-```
-```
 public:
 
 bool SetUser( 
@@ -34,8 +29,7 @@ bool SetUser(
    String^ strUserPassword
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -47,5 +41,5 @@ bool SetUser(
 
 #### Return Value
 
-â¢ TRUE: User was changed.  
-â¢ FALSE: User was not changed.
+'¢ TRUE: User was changed.  
+'¢ FALSE: User was not changed.

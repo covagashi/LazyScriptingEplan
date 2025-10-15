@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new MacroBoxPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property MacroBoxPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property MacroBoxPropertyList^ Properties {
    MacroBoxPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

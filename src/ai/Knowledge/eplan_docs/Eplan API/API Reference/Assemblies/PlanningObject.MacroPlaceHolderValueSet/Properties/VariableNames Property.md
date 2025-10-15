@@ -8,17 +8,12 @@ Variable names
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string[] VariableNames {get;}
-```
-```
 
-```
-```
 public:
 
 property array<String^>^ VariableNames {
@@ -26,8 +21,7 @@ property array<String^>^ VariableNames {
    array<String^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Item type of this Function3D, corresponds to value of the 'Item' list in GUI.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ItemType ItemType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property ItemType ItemType {
@@ -28,8 +23,7 @@ property ItemType ItemType {
    void set (    ItemType value);
 
 }
-```
-```
+
 
 #### Property Value
 

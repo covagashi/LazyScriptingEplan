@@ -8,11 +8,10 @@ Function for initialization. Should be explicit or hidden.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Initialize( 
 
    SymbolLibrary symbolLib,
@@ -20,11 +19,7 @@ public void Initialize(
    int symbolNumber
 
 )
-```
-```
 
-```
-```
 public:
 
 void Initialize( 
@@ -34,8 +29,7 @@ void Initialize(
    int symbolNumber
 
 )
-```
-```
+
 
 #### Parameters
 

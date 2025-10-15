@@ -8,17 +8,12 @@ Part: Designation 2 # 23211.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DEVICELISTENTRY_DESIGNATION2 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DEVICELISTENTRY_DESIGNATION2 {
@@ -28,8 +23,7 @@ property PropertyValue^ DEVICELISTENTRY_DESIGNATION2 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

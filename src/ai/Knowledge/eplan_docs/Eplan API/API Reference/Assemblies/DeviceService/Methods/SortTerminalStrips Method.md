@@ -8,11 +8,10 @@ Sorts terminal strips with one of the following sort methods specified by sortKi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SortTerminalStrips( 
 
    TerminalStrip[] arrTerminalStrips,
@@ -20,11 +19,7 @@ public void SortTerminalStrips(
    DeviceService.TerminalStripSortMethods sortKind
 
 )
-```
-```
 
-```
-```
 public:
 
 void SortTerminalStrips( 
@@ -34,8 +29,7 @@ void SortTerminalStrips(
    DeviceService.TerminalStripSortMethods sortKind
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -9,17 +9,12 @@ Offline MDPropertyValue objects don't have descriptors because they point to val
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAnyPropertyId Id {get;}
-```
-```
 
-```
-```
 public:
 
 property MDAnyPropertyId^ Id {
@@ -27,8 +22,7 @@ property MDAnyPropertyId^ Id {
    MDAnyPropertyId^ get();
 
 }
-```
-```
+
 
 Exceptions
 
@@ -45,15 +39,11 @@ MDPropertyValue pV = "123";	// Offline object
 
 MDPropertyValue pV2= 12;	// Offline object
 
-
-
 MDPropertyValue pV3 = same_parts_database.Part[0].Properties[ Eplan.EplApi.MasterData.Properties.MDPartsDatabaseItem.SAME_PROPERTY /* property id */ ];
 
 //pV3.Id == Eplan.EplApi.MasterData.Properties.MDPartsDatabaseItem.SAME_PROPERTY
 
 // In this case, where index wasn't specified, pV3.Id.Index is 0.
-
-
 
 MDPropertyValue pV4 = same_parts_database.Part[0].Properties[ Eplan.EplApi.MasterData.Properties.MDPartsDatabaseItem.SAME_PROPERTY /* property id */ , 1  /* property index */ ];
 

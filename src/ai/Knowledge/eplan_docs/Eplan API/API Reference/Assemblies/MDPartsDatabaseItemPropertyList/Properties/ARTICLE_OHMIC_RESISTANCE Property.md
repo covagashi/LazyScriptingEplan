@@ -8,17 +8,12 @@ Ohmic resistance # 26132.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_OHMIC_RESISTANCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_OHMIC_RESISTANCE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_OHMIC_RESISTANCE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

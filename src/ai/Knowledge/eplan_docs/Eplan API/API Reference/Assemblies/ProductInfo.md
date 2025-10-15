@@ -13,30 +13,21 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [NullableContext(1)]
 
 [Nullable(0)]
 
 public class ProductInfo
-```
-```
 
-```
-```
 [NullableContext(1)]
 
 [Nullable(0)]
 
 public ref class ProductInfo
-```
-```
-
-
 
 Public Constructors
 
@@ -45,8 +36,6 @@ Public Constructors
 | Public Constructor | [ProductInfo Constructor](Eplan.IdentityClient.Authentification~Eplan.IdentityClient.Authentification.ProductInfo~_ctor.html) |  |
 
 [Top](#top)
-
-
 
 Public Properties
 

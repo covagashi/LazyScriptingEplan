@@ -8,21 +8,16 @@ Shaft diameter # 36087.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_TERMINALPOSITION_HOLEDIAMETER( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_TERMINALPOSITION_HOLEDIAMETER {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNCTION3D_TERMINALPOSITION_HOLEDIAMETER {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

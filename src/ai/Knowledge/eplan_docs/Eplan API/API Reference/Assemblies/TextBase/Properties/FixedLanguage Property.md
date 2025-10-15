@@ -8,17 +8,12 @@ Specifies language for text when property LanguageMode value is set to LangModeF
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ISOCode.Language FixedLanguage {get; set;}
-```
-```
 
-```
-```
 public:
 
 property ISOCode.Language FixedLanguage {
@@ -28,5 +23,4 @@ property ISOCode.Language FixedLanguage {
    void set (    ISOCode.Language value);
 
 }
-```
-```
+

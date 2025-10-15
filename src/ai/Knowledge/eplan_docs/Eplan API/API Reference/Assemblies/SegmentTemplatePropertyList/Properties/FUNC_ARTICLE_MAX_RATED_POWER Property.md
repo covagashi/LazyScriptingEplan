@@ -8,21 +8,16 @@ Measurand # 26461.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_MEASURED_VARIABLE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_MEASURED_VARIABLE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_MEASURED_VARIABLE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

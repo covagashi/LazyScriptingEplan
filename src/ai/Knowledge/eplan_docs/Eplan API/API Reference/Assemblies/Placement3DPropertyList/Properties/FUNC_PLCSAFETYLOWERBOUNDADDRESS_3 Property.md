@@ -8,17 +8,12 @@ PLC subdevice 3: Safety address: Lower value # 20660.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCSAFETYLOWERBOUNDADDRESS_3 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCSAFETYLOWERBOUNDADDRESS_3 {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCSAFETYLOWERBOUNDADDRESS_3 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

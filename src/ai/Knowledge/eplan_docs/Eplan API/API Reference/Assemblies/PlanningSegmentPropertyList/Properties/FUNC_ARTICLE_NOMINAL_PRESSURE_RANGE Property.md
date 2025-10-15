@@ -8,21 +8,16 @@ Nominal pressure series # 26310.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_NOMINAL_PRESSURE_SERIES( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_NOMINAL_PRESSURE_SERIES {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_NOMINAL_PRESSURE_SERIES {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

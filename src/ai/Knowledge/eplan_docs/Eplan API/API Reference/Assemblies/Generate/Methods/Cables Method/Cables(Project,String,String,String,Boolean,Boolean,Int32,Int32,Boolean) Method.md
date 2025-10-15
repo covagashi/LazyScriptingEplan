@@ -8,11 +8,10 @@ Creates cables in the given project. The functionality includes three steps: cre
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Cables( 
 
    Project oProject,
@@ -34,11 +33,7 @@ public void Cables(
    bool bOnlyAutomaticCables
 
 )
-```
-```
 
-```
-```
 public:
 
 void Cables( 
@@ -62,8 +57,7 @@ void Cables(
    bool bOnlyAutomaticCables
 
 )
-```
-```
+
 
 #### Parameters
 

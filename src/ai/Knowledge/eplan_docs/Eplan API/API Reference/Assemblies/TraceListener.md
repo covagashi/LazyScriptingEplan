@@ -15,41 +15,29 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class TraceListener : System.Diagnostics.TraceListener
-```
-```
 
-```
-```
 public ref class TraceListener : public System.Diagnostics.TraceListener
-```
-```
+
 
 Example
 
 Example of TRACE outputs
 
-- [C#](#i-tab-content-c6e486fe-cb76-4780-a387-7b580a275c1d)
+**C#**
 
 ```
 Eplan.EplApi.Base.TraceListener oTrace= new Eplan.EplApi.Base.TraceListener();
 
 System.Diagnostics.Trace.Listeners.Add(oTrace); // When new trace listeners are created and added, they must be removed again later!
 
-
-
 oTrace.WriteLine("Begin Execute"); // Only write to the EPLAN system message management.
 
 System.Diagnostics.Trace.WriteLine("Begin Execute"); // Send to all trace listeners.
-
-
-
-
 
 oTrace.Close();
 
@@ -63,8 +51,6 @@ Public Constructors
 | Public Constructor | [TraceListener Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.TraceListener~_ctor.html) |  |
 
 [Top](#top)
-
-
 
 Public Properties
 

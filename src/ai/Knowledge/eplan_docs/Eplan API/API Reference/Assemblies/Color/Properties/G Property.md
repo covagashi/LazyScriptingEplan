@@ -8,17 +8,12 @@ Gets or sets the green channel value of color (0-255)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public byte G {get; set;}
-```
-```
 
-```
-```
 public:
 
 property byte G {
@@ -28,5 +23,4 @@ property byte G {
    void set (    byte value);
 
 }
-```
-```
+

@@ -8,21 +8,16 @@ Execute this work in a asynchronous main thread.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExecuteInMainThreadAsync( 
 
    ExecuteInEplanMainThreadDelegate pExecuteDelegate
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExecuteInMainThreadAsync( 
@@ -30,8 +25,7 @@ void ExecuteInMainThreadAsync(
    ExecuteInEplanMainThreadDelegate^ pExecuteDelegate
 
 )
-```
-```
+
 
 #### Parameters
 

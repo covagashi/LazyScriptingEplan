@@ -8,21 +8,16 @@ Changes the whole value set data (all variable values) by getting it again from 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ChangeValueSetName( 
 
    string name
 
 )
-```
-```
 
-```
-```
 public:
 
 void ChangeValueSetName( 
@@ -30,8 +25,7 @@ void ChangeValueSetName(
    String^ name
 
 )
-```
-```
+
 
 #### Parameters
 

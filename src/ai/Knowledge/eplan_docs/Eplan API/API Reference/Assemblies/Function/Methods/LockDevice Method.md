@@ -8,21 +8,16 @@ Tries to lock current device (which can refer to several objects, such as all fu
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void LockDevice( 
 
    bool bWithCDPs
 
 )
-```
-```
 
-```
-```
 public:
 
 void LockDevice( 
@@ -30,8 +25,7 @@ void LockDevice(
    bool bWithCDPs
 
 )
-```
-```
+
 
 #### Parameters
 

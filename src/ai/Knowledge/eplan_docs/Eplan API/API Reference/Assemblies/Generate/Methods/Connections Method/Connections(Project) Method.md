@@ -8,21 +8,16 @@ Updates connections in the given project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Connections( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void Connections( 
@@ -30,8 +25,7 @@ void Connections(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

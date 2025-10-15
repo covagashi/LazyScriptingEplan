@@ -8,11 +8,10 @@ Finds or creates topology connections for given elements.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RoutedConnection[] CollectConnections( 
 
    Project pProject,
@@ -20,11 +19,7 @@ public RoutedConnection[] CollectConnections(
    ICollection<StorableObject> colObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 array<RoutedConnection^>^ CollectConnections( 
@@ -34,8 +29,7 @@ array<RoutedConnection^>^ CollectConnections(
    ICollection<StorableObject^>^ colObjects
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class LockingStep
-```
-```
 
-```
-```
 public ref class LockingStep
-```
-```
+
 
 Remarks
 
@@ -97,9 +91,6 @@ Public Constructors
 | Public Constructor | [LockingStep Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LockingStep~_ctor.html) | Starts a locking step. ManualLocking mode is set to ON; Gets the position in LockingVector (in order to restore locking state when LockingStep is disposed). |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

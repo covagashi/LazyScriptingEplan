@@ -8,11 +8,10 @@ Decide shows the dialog. When the application id in quiet mode, the batch decisi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public EnumDecisionReturn Decide( 
 
    EnumDecisionType type,
@@ -26,11 +25,7 @@ public EnumDecisionReturn Decide(
    EnumDecisionReturn eBatchDecision
 
 )
-```
-```
 
-```
-```
 public:
 
 EnumDecisionReturn Decide( 
@@ -46,8 +41,7 @@ EnumDecisionReturn Decide(
    EnumDecisionReturn eBatchDecision
 
 )
-```
-```
+
 
 #### Parameters
 

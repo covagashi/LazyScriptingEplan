@@ -18,31 +18,23 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class IncorrectSymbolTypeException : ObjectCreationException
-```
-```
 
-```
-```
 public ref class IncorrectSymbolTypeException : public ObjectCreationException
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-7e1ab7b3-61f4-4859-8149-e60cd0adb436)
+**C#**
 
 ```
 SymbolVariant variant = project.SymbolLibraries[0 /*First library*/]["COST" /*symbol name*/][0 /* variant */];
 
 ASSERT ( variant.Symbol.GetType( ) == Symbol.SymbolType.STRANDCONNECTOR_TSN );
-
-
 
 MacroBox mBox = new MacroBox ();
 
@@ -56,8 +48,6 @@ Public Constructors
 | Public Constructor | [IncorrectSymbolTypeException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IncorrectSymbolTypeException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,21 +8,16 @@ Connection point logic: Number of targets allowed # 20324.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_LOGDEF_DESTINATIONCOUNT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_LOGDEF_DESTINATIONCOUNT {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_LOGDEF_DESTINATIONCOUNT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

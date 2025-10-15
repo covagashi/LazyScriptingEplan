@@ -8,17 +8,12 @@ Functional assignment (sub-identifier 6) # 1306.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_SUBFUNCTIONALASSIGNMENT6 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_SUBFUNCTIONALASSIGNMENT6 {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_SUBFUNCTIONALASSIGNMENT6 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

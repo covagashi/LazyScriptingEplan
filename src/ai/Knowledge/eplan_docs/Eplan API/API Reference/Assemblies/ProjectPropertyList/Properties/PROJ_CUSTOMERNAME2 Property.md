@@ -8,17 +8,12 @@ Customer: Name 2 # 10103.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_CUSTOMERNAME2 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_CUSTOMERNAME2 {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_CUSTOMERNAME2 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

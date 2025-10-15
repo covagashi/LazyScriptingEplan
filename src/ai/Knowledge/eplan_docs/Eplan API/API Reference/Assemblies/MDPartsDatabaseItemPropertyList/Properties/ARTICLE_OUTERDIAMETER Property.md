@@ -8,17 +8,12 @@ Outside diameter # 22065.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_OUTERDIAMETER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_OUTERDIAMETER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_OUTERDIAMETER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

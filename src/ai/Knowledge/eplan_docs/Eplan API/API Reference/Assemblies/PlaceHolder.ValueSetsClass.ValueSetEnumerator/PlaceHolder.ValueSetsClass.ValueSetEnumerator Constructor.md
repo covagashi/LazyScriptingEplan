@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlaceHolder.ValueSetsClass.ValueSetEnumerator( 
 
    PlaceHolder oPlaceholder
 
 )
-```
-```
 
-```
-```
 public:
 
 PlaceHolder.ValueSetsClass.ValueSetEnumerator( 
@@ -28,8 +23,7 @@ PlaceHolder.ValueSetsClass.ValueSetEnumerator(
    PlaceHolder^ oPlaceholder
 
 )
-```
-```
+
 
 #### Parameters
 

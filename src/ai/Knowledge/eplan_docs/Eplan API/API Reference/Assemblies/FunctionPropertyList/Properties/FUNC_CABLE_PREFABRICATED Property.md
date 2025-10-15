@@ -8,17 +8,12 @@ Use connected devices as source and target # 20621.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLE_PREFABRICATED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLE_PREFABRICATED {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLE_PREFABRICATED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

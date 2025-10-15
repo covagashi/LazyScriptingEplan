@@ -8,11 +8,10 @@ Import all schemes from file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ImportSchemes( 
 
    string strFileName,
@@ -20,11 +19,7 @@ public void ImportSchemes(
    bool bOverwriteExisting
 
 )
-```
-```
 
-```
-```
 public:
 
 void ImportSchemes( 
@@ -34,8 +29,7 @@ void ImportSchemes(
    bool bOverwriteExisting
 
 )
-```
-```
+
 
 #### Parameters
 

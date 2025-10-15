@@ -8,21 +8,16 @@ Returns [Function](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function.html)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function[] GetFunctions( 
 
    FunctionsFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Function^>^ GetFunctions( 
@@ -30,8 +25,7 @@ array<Function^>^ GetFunctions(
    FunctionsFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

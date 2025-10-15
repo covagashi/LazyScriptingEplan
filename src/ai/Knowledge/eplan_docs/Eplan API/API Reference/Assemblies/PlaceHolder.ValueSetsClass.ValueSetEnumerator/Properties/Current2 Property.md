@@ -6,17 +6,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual object Current2 {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property Object^ Current2 {
@@ -24,5 +19,4 @@ virtual property Object^ Current2 {
    Object^ get();
 
 }
-```
-```
+

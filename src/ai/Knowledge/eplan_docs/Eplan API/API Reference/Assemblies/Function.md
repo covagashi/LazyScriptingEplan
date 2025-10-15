@@ -29,20 +29,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Function : FunctionBase, IArticleUser, IFunctionBase, IPropertyPlacementsContainer, IWriteProtection
-```
-```
 
-```
-```
 public ref class Function : public FunctionBase, IArticleUser, IFunctionBase, IPropertyPlacementsContainer, IWriteProtection
-```
-```
+
 
 Remarks
 
@@ -52,7 +46,7 @@ Example
 
 The following example shows how to create and place Function on page. Next example shows how to build connection between two functions.
 
-- [C#](#i-tab-content-9f974465-8b16-41f7-b0a3-69c31a534980)
+**C#**
 
 ```
 
@@ -62,8 +56,6 @@ string strSymbolLibName = "IEC_symbol";
 string strSymbolName = "M2W";
 
 int nVariant = 0;
-
-
 
 //at first initialize SymbolVariant
 
@@ -75,23 +67,17 @@ SymbolVariant oSymbolVariant = new SymbolVariant();
 
 oSymbolVariant.Initialize(oSymbol, nVariant);
 
-
-
 //create function
 
 Function oNewFunction = new Function();
 
 oNewFunction.Create(page, oSymbolVariant);
 
-
-
 //set function name
 
 oNewFunction.Name = "=AP+ST1-M1";
 
 oNewFunction.VisibleName = "M1";
-
-
 
 //set pins descriptions
 
@@ -101,38 +87,26 @@ oNewFunction.Properties.FUNC_CONNECTIONDESIGNATION[2] = "2";
 
 oNewFunction.Properties.FUNC_CONNECTIONDESIGNATION[3] = "PE";
 
-
-
 //set location
 
 oNewFunction.Location = new PointD(120.0, 215.0);
-
-
 
 //adjust representation type
 
 oNewFunction.ManualPlacementType = page.PageType;
 
-
-
-
-
 ```
 
-- [C#](#i-tab-content-05935862-4883-4852-9227-1abeb000031f)
+**C#**
 
 ```
 Page oPage = m_oTestProject.Pages[9];
-
-
 
 string strSymbolLibName = "IEC_symbol";
 
 string strSymbolName = "M3";
 
 int nVariant = 0;
-
-
 
 SymbolLibrary oSymbolLibrary = new SymbolLibrary(m_oTestProject, strSymbolLibName);
 
@@ -142,8 +116,6 @@ SymbolVariant oSymbolVariant = new SymbolVariant();
 
 oSymbolVariant.Initialize(oSymbol, nVariant);
 
-
-
 Function oFunction = new Function();
 
 oFunction.Create(oPage, oSymbolVariant);
@@ -151,8 +123,6 @@ oFunction.Create(oPage, oSymbolVariant);
 oFunction.Name = "A";
 
 oFunction.Location = new PointD(100, 100);
-
-
 
 Function oFunction2 = new Function();
 
@@ -162,13 +132,7 @@ oFunction2.Name = "B";
 
 oFunction2.Location = new PointD(100, 50);
 
-
-
 new Generate().Connections(m_oTestProject);
-
-
-
-
 
 ```
 
@@ -179,8 +143,6 @@ Public Constructors
 | Public Constructor | [Function Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function~_ctor().html) | Constructor. Creates a transient Function. |
 
 [Top](#top)
-
-
 
 Public Properties
 

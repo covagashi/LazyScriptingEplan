@@ -8,17 +8,12 @@ The potential type of the cable template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PinPotentialType PotentialType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PinPotentialType PotentialType {
@@ -28,5 +23,4 @@ property PinPotentialType PotentialType {
    void set (    PinPotentialType value);
 
 }
-```
-```
+

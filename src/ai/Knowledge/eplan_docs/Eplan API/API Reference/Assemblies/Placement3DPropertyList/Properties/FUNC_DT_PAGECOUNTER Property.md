@@ -8,17 +8,12 @@ DT: Page # 20150.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DT_PAGECOUNTER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DT_PAGECOUNTER {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DT_PAGECOUNTER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

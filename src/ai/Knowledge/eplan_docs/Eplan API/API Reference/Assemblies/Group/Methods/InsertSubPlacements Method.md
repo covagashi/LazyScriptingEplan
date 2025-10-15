@@ -8,21 +8,16 @@ Insert [Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement.html
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool InsertSubPlacements( 
 
    Placement[] placements
 
 )
-```
-```
 
-```
-```
 public:
 
 bool InsertSubPlacements( 
@@ -30,8 +25,7 @@ bool InsertSubPlacements(
    array<Placement^>^ placements
 
 )
-```
-```
+
 
 #### Parameters
 

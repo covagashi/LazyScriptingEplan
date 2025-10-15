@@ -8,11 +8,10 @@ Sets the page and evaluates for a given functionbase the full name from the visi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AdjustFullName( 
 
    Page pPage,
@@ -20,11 +19,7 @@ public bool AdjustFullName(
    FunctionBase pFunctionBase
 
 )
-```
-```
 
-```
-```
 public:
 
 bool AdjustFullName( 
@@ -34,8 +29,7 @@ bool AdjustFullName(
    FunctionBase^ pFunctionBase
 
 )
-```
-```
+
 
 #### Parameters
 

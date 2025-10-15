@@ -8,22 +8,16 @@ Returns a rectangle which is the logical area of the object derived from SymbolR
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RectangleD GetLogicalArea()
-```
-```
 
-```
-```
 public:
 
 virtual RectangleD GetLogicalArea();
-```
-```
+
 
 Exceptions
 

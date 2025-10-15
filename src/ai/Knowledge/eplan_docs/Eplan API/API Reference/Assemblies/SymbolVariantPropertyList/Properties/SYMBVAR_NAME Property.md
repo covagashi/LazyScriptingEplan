@@ -8,17 +8,12 @@ Variant name # 16901.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMBVAR_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMBVAR_NAME {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMBVAR_NAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

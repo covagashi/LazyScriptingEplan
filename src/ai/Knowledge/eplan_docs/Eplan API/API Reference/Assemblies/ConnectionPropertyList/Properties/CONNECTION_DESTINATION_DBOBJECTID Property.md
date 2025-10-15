@@ -8,17 +8,12 @@ Object identification: Target # 31161.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_DESTINATION_DBOBJECTID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_DESTINATION_DBOBJECTID {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_DESTINATION_DBOBJECTID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

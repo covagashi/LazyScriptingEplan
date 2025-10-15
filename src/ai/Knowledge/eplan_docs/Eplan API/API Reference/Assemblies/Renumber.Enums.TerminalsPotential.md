@@ -8,20 +8,14 @@ Parameter enum for PE and N terminals during terminal numbering.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Renumber.Enums.TerminalsPotential : System.Enum
-```
-```
 
-```
-```
 public enum class Renumber.Enums.TerminalsPotential : public System.Enum
-```
-```
+
 
 Members
 

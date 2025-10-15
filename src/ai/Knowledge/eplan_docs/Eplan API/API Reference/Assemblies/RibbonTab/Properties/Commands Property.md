@@ -8,17 +8,12 @@ Returns all commands of a ribbon tab (as texts)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Dictionary<uint,string> Commands {get;}
-```
-```
 
-```
-```
 public:
 
 property Dictionary<uint,String^>^ Commands {
@@ -26,8 +21,7 @@ property Dictionary<uint,String^>^ Commands {
    Dictionary<uint,String^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

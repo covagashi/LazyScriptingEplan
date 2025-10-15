@@ -8,17 +8,12 @@ Returns information about the type of the property.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyDefinition.PropertyType Type {get;}
-```
-```
 
-```
-```
 public:
 
 property PropertyDefinition.PropertyType Type {
@@ -26,8 +21,7 @@ property PropertyDefinition.PropertyType Type {
    PropertyDefinition.PropertyType get();
 
 }
-```
-```
+
 
 #### Property Value
 

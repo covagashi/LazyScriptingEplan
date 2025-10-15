@@ -8,17 +8,12 @@ Compressed symbol library # 15031.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMBOLLIBRARY_REMOVED_VARIANT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMBOLLIBRARY_REMOVED_VARIANT {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMBOLLIBRARY_REMOVED_VARIANT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

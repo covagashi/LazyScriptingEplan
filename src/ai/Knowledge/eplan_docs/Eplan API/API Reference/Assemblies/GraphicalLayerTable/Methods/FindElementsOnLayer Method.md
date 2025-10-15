@@ -8,11 +8,10 @@ Checks if elements exists on given layer.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] FindElementsOnLayer( 
 
    StorableObject[] elementsToCheck,
@@ -20,11 +19,7 @@ public StorableObject[] FindElementsOnLayer(
    GraphicalLayer oLayer
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ FindElementsOnLayer( 
@@ -34,8 +29,7 @@ array<StorableObject^>^ FindElementsOnLayer(
    GraphicalLayer^ oLayer
 
 )
-```
-```
+
 
 #### Parameters
 

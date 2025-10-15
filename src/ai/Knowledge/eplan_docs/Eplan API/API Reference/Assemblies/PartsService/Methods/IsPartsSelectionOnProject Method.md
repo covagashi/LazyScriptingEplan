@@ -8,11 +8,10 @@ Check if the project's parts selection is set to project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsPartsSelectionOnProject( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public bool IsPartsSelectionOnProject(
    ref string strInfoForUser
 
 )
-```
-```
 
-```
-```
 public:
 
 bool IsPartsSelectionOnProject( 
@@ -34,8 +29,7 @@ bool IsPartsSelectionOnProject(
    String^% strInfoForUser
 
 )
-```
-```
+
 
 #### Parameters
 

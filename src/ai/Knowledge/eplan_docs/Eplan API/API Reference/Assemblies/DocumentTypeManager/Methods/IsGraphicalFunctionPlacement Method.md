@@ -8,21 +8,16 @@ Checks if given DocumentType can be affected to graphical placement of functions
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static bool IsGraphicalFunctionPlacement( 
 
    DocumentTypeManager.DocumentType nPlacementType
 
 )
-```
-```
 
-```
-```
 public:
 
 static bool IsGraphicalFunctionPlacement( 
@@ -30,8 +25,7 @@ static bool IsGraphicalFunctionPlacement(
    DocumentTypeManager.DocumentType nPlacementType
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Measuring range: Quantity # 26449.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_MEASURING_RANGE_OF_THE_QUANTITY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_MEASURING_RANGE_OF_THE_QUANTITY {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_MEASURING_RANGE_OF_THE_QUANTITY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

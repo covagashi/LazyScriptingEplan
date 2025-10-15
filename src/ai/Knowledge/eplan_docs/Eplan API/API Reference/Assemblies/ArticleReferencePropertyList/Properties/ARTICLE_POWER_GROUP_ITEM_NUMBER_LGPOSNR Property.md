@@ -8,17 +8,12 @@ Performance description, standardized: Performance group item number # 26431.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_POWER_GROUP_ITEM_NUMBER_LGPOSNR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_POWER_GROUP_ITEM_NUMBER_LGPOSNR {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_POWER_GROUP_ITEM_NUMBER_LGPOSNR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

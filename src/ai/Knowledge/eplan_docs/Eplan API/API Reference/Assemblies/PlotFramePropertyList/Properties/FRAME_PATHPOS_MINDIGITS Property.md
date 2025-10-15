@@ -8,17 +8,12 @@ Number of characters for column / row # 12029.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_PATHPOS_MINDIGITS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_PATHPOS_MINDIGITS {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_PATHPOS_MINDIGITS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

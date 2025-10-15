@@ -8,17 +8,12 @@ Control signal: Type # 26583.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CONTROL_SIGNAL_TYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CONTROL_SIGNAL_TYPE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CONTROL_SIGNAL_TYPE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

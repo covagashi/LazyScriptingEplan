@@ -8,11 +8,10 @@ Creates new property definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static UserDefinedPropertyDefinition Create( 
 
    Project pProject,
@@ -22,11 +21,7 @@ public static UserDefinedPropertyDefinition Create(
    UserDefinedPropertyDefinition.Enums.ClientType nClient
 
 )
-```
-```
 
-```
-```
 public:
 
 static UserDefinedPropertyDefinition^ Create( 
@@ -38,8 +33,7 @@ static UserDefinedPropertyDefinition^ Create(
    UserDefinedPropertyDefinition.Enums.ClientType nClient
 
 )
-```
-```
+
 
 #### Parameters
 

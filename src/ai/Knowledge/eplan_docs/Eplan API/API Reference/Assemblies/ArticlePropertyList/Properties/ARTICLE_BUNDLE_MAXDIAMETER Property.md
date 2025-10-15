@@ -8,17 +8,12 @@ Maximum bundle diameter # 22259.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_BUNDLE_MAXDIAMETER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_BUNDLE_MAXDIAMETER {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_BUNDLE_MAXDIAMETER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

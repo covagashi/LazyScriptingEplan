@@ -8,17 +8,12 @@ Superior potential # 33001.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue POTENTIAL_PARENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ POTENTIAL_PARENT {
@@ -28,8 +23,7 @@ property PropertyValue^ POTENTIAL_PARENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

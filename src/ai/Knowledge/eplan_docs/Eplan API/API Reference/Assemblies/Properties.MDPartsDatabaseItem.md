@@ -8,20 +8,14 @@ Identificators of properties owned by MDPartsDatabaseItem class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.MDPartsDatabaseItem : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.MDPartsDatabaseItem : public System.Enum
-```
-```
+
 
 Members
 
@@ -122,7 +116,7 @@ Members
 | **ARTICLE\_COLLECTION\_VOLUME** | 26221 | Retention volume # 26221. |
 | **ARTICLE\_COLOR** | 22080 | Color # 22080. |
 | **ARTICLE\_COLOUR\_OF\_THE\_CABLE\_SHEATH** | 26040 | Cable jacket: Color # 26040. |
-| **ARTICLE\_CONDUCTIVITY** | 22273 | Conductivity (at +20 Â°C) # 22273. |
+| **ARTICLE\_CONDUCTIVITY** | 22273 | Conductivity (at +20 °C) # 22273. |
 | **ARTICLE\_CONDUCTOR\_CROSS\_SECTION** | 26120 | Conductor cross-section # 26120. |
 | **ARTICLE\_CONDUCTOR\_STRUCTURE\_CABLE** | 26049 | Conductor design (cable) # 26049. |
 | **ARTICLE\_CONNECTABLE\_CABLE\_TYPE** | 26182 | Connectable cable type # 26182. |
@@ -142,8 +136,8 @@ Members
 | **ARTICLE\_CONTAINS\_ADDONPARTS** | 22423 | Contains supplemental parts # 22423. |
 | **ARTICLE\_CONTAINS\_ASSEMBLIES** | 22425 | Contains assemblies # 22425. |
 | **ARTICLE\_CONTAINS\_MODULES** | 22424 | Contains modules # 22424. |
-| **ARTICLE\_CONTINUOUS\_HEAT\_PERFORMANCE\_AT\_10\_C** | 26093 | Continuous heating power (at 10Â°C) # 26093. |
-| **ARTICLE\_CONTINUOUS\_HEAT\_PERFORMANCE\_AT\_20\_C** | 26094 | Continuous heating power (at 20Â°C) # 26094. |
+| **ARTICLE\_CONTINUOUS\_HEAT\_PERFORMANCE\_AT\_10\_C** | 26093 | Continuous heating power (at 10°C) # 26093. |
+| **ARTICLE\_CONTINUOUS\_HEAT\_PERFORMANCE\_AT\_20\_C** | 26094 | Continuous heating power (at 20°C) # 26094. |
 | **ARTICLE\_CONTROL\_FLOW\_RATE** | 26152 | Control flow rate # 26152. |
 | **ARTICLE\_CONTROL\_PRESSURE\_MAX** | 26150 | Pilot pressure, max. # 26150. |
 | **ARTICLE\_CONTROL\_PRESSURE\_MIN** | 26151 | Pilot pressure, min. # 26151. |
@@ -737,7 +731,7 @@ Members
 | **ARTICLE\_SUITABLE\_AS\_MONITOR** | 26355 | Suitable as monitoring device # 26355. |
 | **ARTICLE\_SUITABLE\_FOR\_CABLE\_DIAMETERS** | 26350 | Suitable for cable diameter # 26350. |
 | **ARTICLE\_SUITABLE\_FOR\_KNX** | 26043 | Suitable for KNX # 26043. |
-| **ARTICLE\_SUITABLE\_FOR\_PCF\_HCS\_FIBRE\_230\_uM** | 26357 | Suitable for PCF / HCS fiber 230 Âµm # 26357. |
+| **ARTICLE\_SUITABLE\_FOR\_PCF\_HCS\_FIBRE\_230\_uM** | 26357 | Suitable for PCF / HCS fiber 230 µm # 26357. |
 | **ARTICLE\_SUITABLE\_FOR\_PROTECTION\_CLASS\_IP** | 26358 | Suitable for degree of protection (IP) # 26358. |
 | **ARTICLE\_SUPPLIER** | 22008 | Supplier # 22008. |
 | **ARTICLE\_SUPPLIER\_BATCH\_NUMBER** | 26435 | Supplier batch number # 26435. |
@@ -808,7 +802,7 @@ Members
 | **ARTICLE\_TORQUE\_AT\_MAX\_SPEED** | 26249 | Torque (at max. rotation speed) # 26249. |
 | **ARTICLE\_TORQUE\_AT\_MIN\_SPEED** | 26251 | Torque (at min. rotation speed) # 26251. |
 | **ARTICLE\_TORQUE\_MAX\_** | 26253 | Torque, max. # 26253. |
-| **ARTICLE\_TOTAL\_COOLING\_CAPACITY\_AT\_35\_35\_C** | 26105 | Total cooling capacity (at 35/35Â°C) # 26105. |
+| **ARTICLE\_TOTAL\_COOLING\_CAPACITY\_AT\_35\_35\_C** | 26105 | Total cooling capacity (at 35/35°C) # 26105. |
 | **ARTICLE\_TOTAL\_NUMBER\_OF\_BACNET\_OBJECTS** | 26210 | BACnet: Total number of objects # 26210. |
 | **ARTICLE\_TOTAL\_PRESSURE\_DIFFERENCE\_MAX** | 26103 | Total pressure difference, max. # 26103. |
 | **ARTICLE\_TOTAL\_PRESSURE\_DIFFERENCE\_MIN** | 26104 | Total pressure difference, min. # 26104. |
@@ -862,7 +856,7 @@ Members
 | **ARTICLE\_VOLUME** | 26174 | Volume # 26174. |
 | **ARTICLE\_VOLUME\_FLOW\_FREELY\_BLOWING** | 26175 | Flow rate (free blowing) # 26175. |
 | **ARTICLE\_VOLUME\_FLOW\_HEATING\_M3\_H** | 26633 | Flow rate # 26633. |
-| **ARTICLE\_VOLUME\_FLOW\_MAX\_M3\_H** | 26176 | Flow rate (mÂ³/h), max. # 26176. |
+| **ARTICLE\_VOLUME\_FLOW\_MAX\_M3\_H** | 26176 | Flow rate (m³/h), max. # 26176. |
 | **ARTICLE\_VPROFILEDPETH** | 22190 | Profile vertical: Depth # 22190. |
 | **ARTICLE\_VPROFILEWIDTH** | 22189 | Profile vertical: Width # 22189. |
 | **ARTICLE\_WALLTHICKNESS** | 22216 | Wall thickness # 22216. |

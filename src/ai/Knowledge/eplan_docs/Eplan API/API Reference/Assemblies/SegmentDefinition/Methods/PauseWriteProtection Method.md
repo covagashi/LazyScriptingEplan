@@ -8,21 +8,16 @@ Temporarily disables write protection. Note that current write protection flags 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void PauseWriteProtection( 
 
    bool bPause
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void PauseWriteProtection( 
@@ -30,8 +25,7 @@ virtual void PauseWriteProtection(
    bool bPause
 
 )
-```
-```
+
 
 #### Parameters
 

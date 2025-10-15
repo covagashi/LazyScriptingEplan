@@ -8,21 +8,16 @@ Gets a connection point info with the given name that is stored in the parts dat
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDConnectionPointInfo GetConnectionPointInfo( 
 
    string sName
 
 )
-```
-```
 
-```
-```
 public:
 
 MDConnectionPointInfo^ GetConnectionPointInfo( 
@@ -30,8 +25,7 @@ MDConnectionPointInfo^ GetConnectionPointInfo(
    String^ sName
 
 )
-```
-```
+
 
 #### Parameters
 

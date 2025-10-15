@@ -8,11 +8,10 @@ Creates new transient slot drilling.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Drilling CreateSlotTransient( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public static Drilling CreateSlotTransient(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static Drilling^ CreateSlotTransient( 
@@ -42,8 +37,7 @@ static Drilling^ CreateSlotTransient(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

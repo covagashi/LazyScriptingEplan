@@ -8,17 +8,12 @@ Encrypted password. Default = empty.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PasswordEncrypted {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PasswordEncrypted {
@@ -28,5 +23,4 @@ property String^ PasswordEncrypted {
    void set (    String^ value);
 
 }
-```
-```
+

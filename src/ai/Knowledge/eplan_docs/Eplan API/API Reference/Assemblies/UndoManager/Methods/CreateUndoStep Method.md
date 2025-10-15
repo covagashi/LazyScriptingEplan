@@ -8,22 +8,16 @@ Creates object representing a UndoStep.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public UndoStep CreateUndoStep()
-```
-```
 
-```
-```
 public:
 
 UndoStep^ CreateUndoStep();
-```
-```
+
 
 #### Return Value
 

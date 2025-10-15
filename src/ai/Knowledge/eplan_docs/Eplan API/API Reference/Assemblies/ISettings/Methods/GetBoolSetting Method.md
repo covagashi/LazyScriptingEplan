@@ -8,11 +8,10 @@ Reads bool value from settings.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool GetBoolSetting( 
 
    string strSettingPath,
@@ -20,11 +19,7 @@ bool GetBoolSetting(
    int nIdx
 
 )
-```
-```
 
-```
-```
 bool GetBoolSetting( 
 
    String^ strSettingPath,
@@ -32,8 +27,7 @@ bool GetBoolSetting(
    int nIdx
 
 )
-```
-```
+
 
 #### Parameters
 

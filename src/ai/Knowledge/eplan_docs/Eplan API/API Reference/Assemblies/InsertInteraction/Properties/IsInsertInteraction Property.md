@@ -8,17 +8,12 @@ Returns `true`, if interaction is used to insert one ore more placements on page
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override bool IsInsertInteraction {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsInsertInteraction {
@@ -26,8 +21,7 @@ property bool IsInsertInteraction {
    bool get() override;
 
 }
-```
-```
+
 
 Remarks
 

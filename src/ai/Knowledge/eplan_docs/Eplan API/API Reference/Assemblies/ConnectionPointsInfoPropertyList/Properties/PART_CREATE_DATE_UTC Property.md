@@ -8,17 +8,12 @@ Creation date (UTC) # 22985.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PART_CREATE_DATE_UTC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PART_CREATE_DATE_UTC {
@@ -28,8 +23,7 @@ property PropertyValue^ PART_CREATE_DATE_UTC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

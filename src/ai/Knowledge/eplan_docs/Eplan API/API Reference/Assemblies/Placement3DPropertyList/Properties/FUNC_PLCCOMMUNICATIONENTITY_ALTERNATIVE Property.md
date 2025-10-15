@@ -8,21 +8,16 @@ Alternative (Interbus) # 20131.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCCOMMUNICATIONENTITY_ALTERNATIVE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCCOMMUNICATIONENTITY_ALTERNATIVE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_PLCCOMMUNICATIONENTITY_ALTERNATIVE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ Adds a new message associated with part number to the project's message manageme
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ProjectMessage AddMessage( 
 
    IMessage.Region eRegion,
@@ -28,11 +27,7 @@ public ProjectMessage AddMessage(
    string strAdditionalInfo
 
 )
-```
-```
 
-```
-```
 public:
 
 ProjectMessage^ AddMessage( 
@@ -50,8 +45,7 @@ ProjectMessage^ AddMessage(
    String^ strAdditionalInfo
 
 )
-```
-```
+
 
 #### Parameters
 

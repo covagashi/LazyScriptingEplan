@@ -8,17 +8,12 @@ Name (enumerated)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public BasePointMate.Enums.Name NameEnumerated {get; set;}
-```
-```
 
-```
-```
 public:
 
 property BasePointMate.Enums.Name NameEnumerated {
@@ -28,5 +23,4 @@ property BasePointMate.Enums.Name NameEnumerated {
    void set (    BasePointMate.Enums.Name value);
 
 }
-```
-```
+

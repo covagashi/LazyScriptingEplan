@@ -8,20 +8,14 @@ Possible statuses of subproject.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum SubProject.SubProjectStatus : System.Enum
-```
-```
 
-```
-```
 public enum class SubProject.SubProjectStatus : public System.Enum
-```
-```
+
 
 Members
 

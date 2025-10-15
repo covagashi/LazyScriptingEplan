@@ -8,17 +8,12 @@ Represents color in which connection is displayed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Color Color {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Color Color {
@@ -28,5 +23,4 @@ property Color Color {
    void set (    Color value);
 
 }
-```
-```
+

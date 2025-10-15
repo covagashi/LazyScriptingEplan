@@ -8,17 +8,12 @@ Device group # 20294.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DEVICETYPE_MANUAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DEVICETYPE_MANUAL {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DEVICETYPE_MANUAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

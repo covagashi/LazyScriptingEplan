@@ -8,17 +8,12 @@ Potential type of connection points # 20166.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_POTENTIALTYPE_TERMINALPOINTS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_POTENTIALTYPE_TERMINALPOINTS {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_POTENTIALTYPE_TERMINALPOINTS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Part of the structure identifier without separators stored in the object identif
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_OBJECTCODE_STRUCTUREPARTWITHOUTPREFIX( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_OBJECTCODE_STRUCTUREPARTWITHOUTPREFIX {
@@ -32,8 +27,7 @@ property PropertyValue^ PAGE_OBJECTCODE_STRUCTUREPARTWITHOUTPREFIX {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

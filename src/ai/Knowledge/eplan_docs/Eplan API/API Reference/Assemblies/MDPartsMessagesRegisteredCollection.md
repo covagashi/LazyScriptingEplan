@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDPartsMessagesRegisteredCollection
-```
-```
 
-```
-```
 public ref class MDPartsMessagesRegisteredCollection
-```
-```
+
 
 Remarks
 
 Parts Database is needed when you want to use properties of TemplateMDMessage, otherwise no project needed.
-
-
 
 Public Constructors
 
@@ -41,8 +33,6 @@ Public Constructors
 | Public Constructor | [MDPartsMessagesRegisteredCollection Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesRegisteredCollection~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

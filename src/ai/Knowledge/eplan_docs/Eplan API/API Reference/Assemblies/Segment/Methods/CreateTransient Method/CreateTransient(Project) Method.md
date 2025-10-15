@@ -8,21 +8,16 @@ Creates new transient and unplaced segment.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateTransient( 
 
    Project pProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateTransient( 
@@ -30,8 +25,7 @@ void CreateTransient(
    Project^ pProject
 
 )
-```
-```
+
 
 #### Parameters
 

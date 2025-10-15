@@ -8,17 +8,12 @@ Gets/Sets the action name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ActionName {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ActionName {
@@ -28,5 +23,4 @@ property String^ ActionName {
    void set (    String^ value);
 
 }
-```
-```
+

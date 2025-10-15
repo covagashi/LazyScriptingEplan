@@ -8,21 +8,16 @@ Constructor with number of variant given by user.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public InvalidVariant( 
 
    string variant
 
 )
-```
-```
 
-```
-```
 public:
 
 InvalidVariant( 
@@ -30,8 +25,7 @@ InvalidVariant(
    String^ variant
 
 )
-```
-```
+
 
 #### Parameters
 

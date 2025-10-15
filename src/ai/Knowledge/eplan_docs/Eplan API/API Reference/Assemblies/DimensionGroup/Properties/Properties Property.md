@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new DimensionGroupPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property DimensionGroupPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property DimensionGroupPropertyList^ Properties {
    DimensionGroupPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

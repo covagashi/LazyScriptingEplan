@@ -8,21 +8,16 @@ Starts a check run for the given project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void VerifyProject( 
 
    string strFullLinkFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 void VerifyProject( 
@@ -30,8 +25,7 @@ void VerifyProject(
    String^ strFullLinkFileName
 
 )
-```
-```
+
 
 #### Parameters
 

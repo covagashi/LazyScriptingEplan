@@ -8,17 +8,12 @@ Pressure level of secondary housing # 26261.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SECONDARY_CASING_PRESSURE_STAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SECONDARY_CASING_PRESSURE_STAGE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SECONDARY_CASING_PRESSURE_STAGE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

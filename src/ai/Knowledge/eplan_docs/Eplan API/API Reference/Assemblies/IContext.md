@@ -8,29 +8,18 @@ IContext is an abstract interface for Context classes.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IContext
-```
-```
 
-```
-```
 public interface class IContext
-```
-```
+
 
 Remarks
 
 Context classes are used to pass information about the current state of the environment as well as generic parameters to objects that can be registered such as actions, dialogs, etc.
-
-
-
-
-
 
 Public Methods
 

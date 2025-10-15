@@ -8,17 +8,12 @@ Source placeholder
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlaceHolder Source {get;}
-```
-```
 
-```
-```
 public:
 
 property PlaceHolder^ Source {
@@ -26,5 +21,4 @@ property PlaceHolder^ Source {
    PlaceHolder^ get();
 
 }
-```
-```
+

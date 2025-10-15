@@ -8,21 +8,16 @@ User code (change tracking) # 10190.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_REVISION_LOG_USERCODE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_REVISION_LOG_USERCODE {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_REVISION_LOG_USERCODE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

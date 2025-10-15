@@ -8,17 +8,12 @@ Gets property id value as [Properties.PotentialDefinition](Eplan.EplApi.DataMode
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.PotentialDefinition AsPotentialDefinition {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.PotentialDefinition AsPotentialDefinition {
@@ -26,5 +21,4 @@ property Properties.PotentialDefinition AsPotentialDefinition {
    Properties.PotentialDefinition get();
 
 }
-```
-```
+

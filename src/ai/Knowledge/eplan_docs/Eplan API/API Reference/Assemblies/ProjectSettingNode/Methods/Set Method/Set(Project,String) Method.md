@@ -8,11 +8,10 @@ Sets the handle to point to a specified project settings node.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Set( 
 
    Project oProj,
@@ -20,11 +19,7 @@ public void Set(
    string strNodePath
 
 )
-```
-```
 
-```
-```
 public:
 
 void Set( 
@@ -34,8 +29,7 @@ void Set(
    String^ strNodePath
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Object description # 20417.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCOBJECT_DESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCOBJECT_DESCRIPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCOBJECT_DESCRIPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

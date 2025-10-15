@@ -8,17 +8,12 @@ Document type (sub-identifier, complete) # 1521.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FULLSUBDOCTYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FULLSUBDOCTYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FULLSUBDOCTYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

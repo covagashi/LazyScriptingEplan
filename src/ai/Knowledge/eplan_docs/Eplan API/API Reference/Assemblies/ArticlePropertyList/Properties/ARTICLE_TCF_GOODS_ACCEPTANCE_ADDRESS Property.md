@@ -8,17 +8,12 @@ TCF: Address for acceptance of goods # 26606.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TCF_GOODS_ACCEPTANCE_ADDRESS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TCF_GOODS_ACCEPTANCE_ADDRESS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TCF_GOODS_ACCEPTANCE_ADDRESS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

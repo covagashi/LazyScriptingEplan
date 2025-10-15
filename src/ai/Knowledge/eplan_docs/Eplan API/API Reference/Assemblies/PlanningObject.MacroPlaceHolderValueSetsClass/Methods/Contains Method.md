@@ -8,21 +8,16 @@ Determines whether planning object stores macro placeholder record
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool Contains( 
 
    PlanningObject.MacroPlaceHolderValueSet item
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual bool Contains( 
@@ -30,8 +25,7 @@ virtual bool Contains(
    PlanningObject.MacroPlaceHolderValueSet^ item
 
 )
-```
-```
+
 
 #### Parameters
 

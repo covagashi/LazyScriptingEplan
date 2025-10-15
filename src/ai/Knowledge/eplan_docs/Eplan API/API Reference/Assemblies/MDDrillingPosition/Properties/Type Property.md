@@ -8,17 +8,12 @@ The type of the drilling
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDDrillingPosition.DrillingType Type {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDDrillingPosition.DrillingType Type {
@@ -28,5 +23,4 @@ property MDDrillingPosition.DrillingType Type {
    void set (    MDDrillingPosition.DrillingType value);
 
 }
-```
-```
+

@@ -8,11 +8,10 @@ Constructs and initializes a FunctionDefinition object with the specified functi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FunctionDefinition( 
 
    Project prj,
@@ -24,11 +23,7 @@ public FunctionDefinition(
    short funcID
 
 )
-```
-```
 
-```
-```
 public:
 
 FunctionDefinition( 
@@ -42,8 +37,7 @@ FunctionDefinition(
    short funcID
 
 )
-```
-```
+
 
 #### Parameters
 

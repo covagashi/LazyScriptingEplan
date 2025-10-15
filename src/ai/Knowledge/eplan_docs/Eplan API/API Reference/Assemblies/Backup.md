@@ -13,26 +13,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Backup
-```
-```
 
-```
-```
 public ref class Backup
-```
-```
+
 
 Example
 
 Following example shows how to use Backup class.
 
-- [C#](#i-tab-content-0e014c15-c48e-4d98-9b15-1a16ac43c8be)
+**C#**
 
 ```
 Backup oBackup = new Backup();
@@ -53,8 +47,6 @@ oBackup.Project(
 
 Console.Out.WriteLine("Backup of project was created !");
 
-
-
 ```
 
 Public Constructors
@@ -64,9 +56,6 @@ Public Constructors
 | Public Constructor | [Backup Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Backup~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

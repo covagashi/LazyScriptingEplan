@@ -8,17 +8,12 @@ PLC subdevice 2: PLC type designation # 20582.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCGROUP_TYPEIDENTIFIER_2 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCGROUP_TYPEIDENTIFIER_2 {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCGROUP_TYPEIDENTIFIER_2 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

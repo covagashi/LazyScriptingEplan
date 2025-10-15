@@ -8,28 +8,22 @@ Temporarily disables write protection. Note that current write protection flags 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void PauseWriteProtection( 
 
    bool bPause
 
 )
-```
-```
 
-```
-```
 void PauseWriteProtection( 
 
    bool bPause
 
 )
-```
-```
+
 
 #### Parameters
 

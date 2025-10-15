@@ -8,17 +8,12 @@ Determines whether exactly one object is selected.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsOnlyOneObjectSelected {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsOnlyOneObjectSelected {
@@ -26,8 +21,7 @@ property bool IsOnlyOneObjectSelected {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

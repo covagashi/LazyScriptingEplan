@@ -8,17 +8,12 @@ All [Eplan.EplApi.DataModel.Graphics.GraphicalPlacement](Eplan.EplApi.DataModelu
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public GraphicalPlacement[] AllGraphicalPlacements {get;}
-```
-```
 
-```
-```
 public:
 
 property array<GraphicalPlacement^>^ AllGraphicalPlacements {
@@ -26,8 +21,7 @@ property array<GraphicalPlacement^>^ AllGraphicalPlacements {
    array<GraphicalPlacement^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

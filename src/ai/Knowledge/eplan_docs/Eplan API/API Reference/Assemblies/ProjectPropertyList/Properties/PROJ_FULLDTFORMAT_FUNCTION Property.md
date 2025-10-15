@@ -8,17 +8,12 @@ Format of full DT: General devices # 10640.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_FULLDTFORMAT_FUNCTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_FULLDTFORMAT_FUNCTION {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_FULLDTFORMAT_FUNCTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

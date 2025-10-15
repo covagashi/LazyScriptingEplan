@@ -8,20 +8,14 @@ Available response status codes.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum IdentityStatusCode : System.Enum
-```
-```
 
-```
-```
 public enum class IdentityStatusCode : public System.Enum
-```
-```
+
 
 Members
 

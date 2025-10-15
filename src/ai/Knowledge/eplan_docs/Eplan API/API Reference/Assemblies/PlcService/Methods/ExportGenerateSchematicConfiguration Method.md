@@ -8,11 +8,10 @@ Exports generate schematic configuration into xml file. TODO:
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExportGenerateSchematicConfiguration( 
 
    Project project,
@@ -20,11 +19,7 @@ public void ExportGenerateSchematicConfiguration(
    string fileName
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExportGenerateSchematicConfiguration( 
@@ -34,8 +29,7 @@ void ExportGenerateSchematicConfiguration(
    String^ fileName
 
 )
-```
-```
+
 
 #### Parameters
 

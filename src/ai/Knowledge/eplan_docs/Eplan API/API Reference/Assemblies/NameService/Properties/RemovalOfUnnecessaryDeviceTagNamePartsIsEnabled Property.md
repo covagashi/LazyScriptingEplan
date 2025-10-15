@@ -8,17 +8,12 @@ Determines if removal of unnecessary main and nested device tag in the visible n
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool RemovalOfUnnecessaryDeviceTagNamePartsIsEnabled {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool RemovalOfUnnecessaryDeviceTagNamePartsIsEnabled {
@@ -28,5 +23,4 @@ property bool RemovalOfUnnecessaryDeviceTagNamePartsIsEnabled {
    void set (    bool value);
 
 }
-```
-```
+

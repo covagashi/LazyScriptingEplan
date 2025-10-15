@@ -8,17 +8,12 @@ Gets/Sets the potential forwarding for connections of the same function or conne
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Pin[] OppositePin {get; set;}
-```
-```
 
-```
-```
 public:
 
 property array<Pin^>^ OppositePin {
@@ -28,8 +23,7 @@ property array<Pin^>^ OppositePin {
    void set (    array<Pin^>^ value);
 
 }
-```
-```
+
 
 Remarks
 

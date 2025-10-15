@@ -8,17 +8,12 @@ Overhang: Side panel back # 22164.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SIDEPANELPROJECTIONBACK {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SIDEPANELPROJECTIONBACK {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SIDEPANELPROJECTIONBACK {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

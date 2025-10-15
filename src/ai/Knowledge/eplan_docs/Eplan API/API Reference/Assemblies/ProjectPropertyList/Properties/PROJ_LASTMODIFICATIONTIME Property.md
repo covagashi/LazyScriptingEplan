@@ -8,17 +8,12 @@ Modification time # 10047.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_LASTMODIFICATIONTIME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_LASTMODIFICATIONTIME {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_LASTMODIFICATIONTIME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

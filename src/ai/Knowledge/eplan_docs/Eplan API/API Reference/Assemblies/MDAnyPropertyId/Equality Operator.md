@@ -8,11 +8,10 @@ Equality operator
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool operator ==( 
 
    MDAnyPropertyId left,
@@ -20,11 +19,7 @@ public bool operator ==(
    MDAnyPropertyId right
 
 )
-```
-```
 
-```
-```
 public:
 
 bool operator ==( 
@@ -34,8 +29,7 @@ bool operator ==(
    MDAnyPropertyId^ right
 
 )
-```
-```
+
 
 #### Parameters
 

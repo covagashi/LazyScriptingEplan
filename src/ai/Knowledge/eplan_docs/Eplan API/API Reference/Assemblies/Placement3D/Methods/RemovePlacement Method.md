@@ -8,22 +8,16 @@ Removes object and all its children only from layout space.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemovePlacement()
-```
-```
 
-```
-```
 public:
 
 void RemovePlacement();
-```
-```
+
 
 Remarks
 

@@ -8,11 +8,10 @@ Creates a PinBase object representing a graphical connection point of a symbol a
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PinBase( 
 
    SymbolReference smbl,
@@ -20,11 +19,7 @@ public PinBase(
    int pinIdx
 
 )
-```
-```
 
-```
-```
 public:
 
 PinBase( 
@@ -34,8 +29,7 @@ PinBase(
    int pinIdx
 
 )
-```
-```
+
 
 #### Parameters
 

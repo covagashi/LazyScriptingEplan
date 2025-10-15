@@ -8,17 +8,12 @@ Specifies that height is fixed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AlignmentBoxFixedHeight {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool AlignmentBoxFixedHeight {
@@ -28,5 +23,4 @@ property bool AlignmentBoxFixedHeight {
    void set (    bool value);
 
 }
-```
-```
+

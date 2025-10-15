@@ -8,17 +8,12 @@ Function definition: Category # 20115.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CATEGORY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CATEGORY {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CATEGORY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

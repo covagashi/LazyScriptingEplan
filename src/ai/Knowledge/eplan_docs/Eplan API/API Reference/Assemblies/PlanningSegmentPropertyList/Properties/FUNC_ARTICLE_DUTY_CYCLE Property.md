@@ -8,21 +8,16 @@ Duty cycle # 26294.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_DUTY_CYCLE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_DUTY_CYCLE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_DUTY_CYCLE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

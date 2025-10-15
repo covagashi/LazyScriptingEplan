@@ -8,21 +8,16 @@ Removes a accessory placement out of the parts datbase.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveAccessoryPlacement( 
 
    MDAccessoryPlacement accessoryplacement
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveAccessoryPlacement( 
@@ -30,8 +25,7 @@ void RemoveAccessoryPlacement(
    MDAccessoryPlacement^ accessoryplacement
 
 )
-```
-```
+
 
 #### Parameters
 

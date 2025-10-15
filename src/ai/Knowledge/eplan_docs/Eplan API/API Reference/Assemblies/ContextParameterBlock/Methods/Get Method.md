@@ -8,11 +8,10 @@ Get one object with this name
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Get( 
 
    string strName,
@@ -20,11 +19,7 @@ public bool Get(
    ref object strObject
 
 )
-```
-```
 
-```
-```
 public:
 
 bool Get( 
@@ -34,8 +29,7 @@ bool Get(
    Object^% strObject
 
 )
-```
-```
+
 
 #### Parameters
 

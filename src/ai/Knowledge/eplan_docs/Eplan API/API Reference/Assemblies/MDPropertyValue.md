@@ -13,57 +13,51 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Item")]
 
 public sealed class MDPropertyValue
-```
-```
 
-```
-```
 [DefaultMember("Item")]
 
 public ref class MDPropertyValue sealed
-```
-```
+
 
 Remarks
 
 An MDPropertyValue object can be in one of three states:  
-â¢ 1 Transient â created by the user. This object is not connected with any property list or `object stored in the master data database`. It is a transient property (also called "offline").  
-â¢ 2 Persistent â collected from a property list. It is a persistent property (also called "online").  
-â¢ 3 Persistent â collected from any master data object. It is a persistent property (also called "online").  
+'¢ 1 Transient ' created by the user. This object is not connected with any property list or `object stored in the master data database`. It is a transient property (also called "offline").  
+'¢ 2 Persistent ' collected from a property list. It is a persistent property (also called "online").  
+'¢ 3 Persistent ' collected from any master data object. It is a persistent property (also called "online").  
   
 In the two last cases (persistent properties), the overloads of the [MDPropertyValue.Set](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~Set.html) method set the values in the original locations.  
   
   
 An MDPropertyValue object can hold values of the following types:  
-â¢ int  
-â¢ string  
-â¢ double  
-â¢ bool  
-â¢ DateTime  
-â¢ [MultiLangString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString.html)  
-â¢ [PointD](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD.html)  
+'¢ int  
+'¢ string  
+'¢ double  
+'¢ bool  
+'¢ DateTime  
+'¢ [MultiLangString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString.html)  
+'¢ [PointD](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD.html)  
   
 The class implements conversion operators that will simplify the access to P8 property values stored inside of an MDPropertyList class object.  
 The user does not have to use this class explicitly, it allows to assign P8 property values in a simple way (see example).  
 Value of the property can be changed using overloads of the [MDPropertyValue.Set](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~Set.html) method:  
-â¢ [Set(Double)](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~Set(Double).html)  
-â¢ [Set(Boolean)](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~Set(Boolean).html)  
-â¢ [Set(String)](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~Set(String).html)  
-â¢ etc.
+'¢ [Set(Double)](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~Set(Double).html)  
+'¢ [Set(Boolean)](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~Set(Boolean).html)  
+'¢ [Set(String)](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~Set(String).html)  
+'¢ etc.
 
 Example
 
 Creating transient properties: Creating persistent properties:
 
-- [C#](#i-tab-content-44bfe63b-530a-4533-9dff-054f62640187)
+**C#**
 
 ```
 MDPropertyValue oPv = oPart.Properties[Properties.MDPartsDatabaseItem.ARTICLE_DESCR1];
@@ -73,30 +67,22 @@ oPv = oPv + " additional comment";
 // Creates a new transient property value object and assigns it to the variable oPv.
 ```
 
-- [C#](#i-tab-content-5b945792-4c5c-4637-a8d4-4af852285831)
+**C#**
 
 ```
 MDPart oPart = m_MDPartsDatabase.Parts[0]; // A valid master data part object
-
-
 
 // Here, the MDPropertyValue object is implicitly created from an int constant ('5') and is assigned to the property list.
 
 oPart.Properties[Eplan.EplApi.MasterData.Properties.MDPartsDatabaseItem.ARTICLE_HEIGHT] = 5;
 
-
-
 // Here, the MDPropertyValue object is implicitly created from a string constant ("7") and is assigned to the property list.
 
 oPart.Properties[Eplan.EplApi.MasterData.Properties.MDPartsDatabaseItem.ARTICLE_HEIGHT] = "7";
 
-
-
 // Here, the MDPropertyValue object is read form a property list and implicitly converted to string.
 
 string s = oPart.Properties[Eplan.EplApi.MasterData.Properties.MDPartsDatabaseItem.ARTICLE_HEIGHT];
-
-
 
 // Here, the MDPropertyValue object is read form a property list and implicitly converted to int.
 
@@ -110,8 +96,6 @@ Public Constructors
 | Public Constructor | [MDPropertyValue Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~_ctor().html) | Default constructor. Creates a MDPropertyValue object. |
 
 [Top](#top)
-
-
 
 Public Properties
 
@@ -143,8 +127,6 @@ Public Methods
 | Public Method | [ToTime](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~ToTime.html) | Converts this MDPropertyValue object to `System::DateTime`. |
 
 [Top](#top)
-
-
 
 Public Operators
 

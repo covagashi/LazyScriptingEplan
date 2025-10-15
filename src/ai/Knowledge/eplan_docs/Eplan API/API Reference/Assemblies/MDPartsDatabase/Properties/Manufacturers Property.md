@@ -8,17 +8,12 @@ Gets all customers that are stored in the parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAddress[] Manufacturers {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDAddress^>^ Manufacturers {
@@ -26,8 +21,7 @@ property array<MDAddress^>^ Manufacturers {
    array<MDAddress^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

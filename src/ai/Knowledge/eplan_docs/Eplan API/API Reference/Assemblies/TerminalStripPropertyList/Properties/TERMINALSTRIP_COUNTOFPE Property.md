@@ -8,17 +8,12 @@ Terminal strips: Number of PE terminals # 35004.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue TERMINALSTRIP_COUNTOFPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ TERMINALSTRIP_COUNTOFPE {
@@ -28,8 +23,7 @@ property PropertyValue^ TERMINALSTRIP_COUNTOFPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

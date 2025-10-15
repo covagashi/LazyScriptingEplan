@@ -8,17 +8,12 @@ Schematic macro # 22145.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_GROUPSYMBOLMACRO {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_GROUPSYMBOLMACRO {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_GROUPSYMBOLMACRO {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

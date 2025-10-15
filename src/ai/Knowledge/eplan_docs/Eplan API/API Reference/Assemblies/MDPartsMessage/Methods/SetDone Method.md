@@ -8,21 +8,16 @@ Marks message as solved or not.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetDone( 
 
    bool A_0
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetDone( 
@@ -30,8 +25,7 @@ void SetDone(
    bool A_0
 
 )
-```
-```
+
 
 #### Parameters
 

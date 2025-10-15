@@ -8,17 +8,12 @@ PCF: Number of calculation methods # 26078.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_NUMBER_OF_PCF_METHODS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_NUMBER_OF_PCF_METHODS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_NUMBER_OF_PCF_METHODS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

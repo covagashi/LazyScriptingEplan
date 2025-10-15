@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ProjectParserParameter : Eplan.EplApi.Base.ParserParameter
-```
-```
 
-```
-```
 public ref class ProjectParserParameter : public Eplan.EplApi.Base.ParserParameter
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [ProjectParserParameter Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.ProjectParserParameter~_ctor.html) | Constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

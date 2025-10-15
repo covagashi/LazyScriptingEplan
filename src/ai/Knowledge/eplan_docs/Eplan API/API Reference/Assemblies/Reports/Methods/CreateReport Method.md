@@ -8,11 +8,10 @@ Creates report pages. Only one report for one device can exist in a project, the
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CreateReport( 
 
    ReportBlock oReportBlock,
@@ -20,11 +19,7 @@ public bool CreateReport(
    string strFirstPageName
 
 )
-```
-```
 
-```
-```
 public:
 
 bool CreateReport( 
@@ -34,8 +29,7 @@ bool CreateReport(
    String^ strFirstPageName
 
 )
-```
-```
+
 
 #### Parameters
 

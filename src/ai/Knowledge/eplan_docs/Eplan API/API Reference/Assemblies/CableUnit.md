@@ -18,22 +18,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class CableUnit : Eplan.EplApi.DataModel.Function, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
 
-```
-```
 public ref class CableUnit : public Eplan.EplApi.DataModel.Function, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
-
-
 
 Public Constructors
 
@@ -42,8 +33,6 @@ Public Constructors
 | Public Constructor | [CableUnit Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.CableUnit~_ctor().html) | Constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

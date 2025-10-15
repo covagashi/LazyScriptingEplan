@@ -8,17 +8,12 @@ Number of functions # 20110.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_SINGLE_LINE_FUNCTION_COUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_SINGLE_LINE_FUNCTION_COUNT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_SINGLE_LINE_FUNCTION_COUNT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

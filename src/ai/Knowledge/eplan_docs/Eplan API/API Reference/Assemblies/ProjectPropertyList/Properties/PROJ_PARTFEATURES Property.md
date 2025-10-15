@@ -8,17 +8,12 @@ Part features # 10033.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_PARTFEATURES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_PARTFEATURES {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_PARTFEATURES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

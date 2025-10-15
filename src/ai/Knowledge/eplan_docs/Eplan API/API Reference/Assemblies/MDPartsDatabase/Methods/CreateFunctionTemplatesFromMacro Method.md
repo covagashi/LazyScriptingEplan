@@ -8,21 +8,16 @@ Creates new function templates out of the macro that is referenced from all the 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateFunctionTemplatesFromMacro( 
 
    bool overwriteExistingFunctionTemplates
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateFunctionTemplatesFromMacro( 
@@ -30,8 +25,7 @@ void CreateFunctionTemplatesFromMacro(
    bool overwriteExistingFunctionTemplates
 
 )
-```
-```
+
 
 #### Parameters
 

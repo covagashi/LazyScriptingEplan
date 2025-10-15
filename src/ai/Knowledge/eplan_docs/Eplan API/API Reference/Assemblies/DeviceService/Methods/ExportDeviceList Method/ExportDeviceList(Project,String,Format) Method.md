@@ -8,11 +8,10 @@ This function exports the device list of a given project. It is used for exporti
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExportDeviceList( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public void ExportDeviceList(
    DeviceService.Format fileFormat
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExportDeviceList( 
@@ -38,8 +33,7 @@ void ExportDeviceList(
    DeviceService.Format fileFormat
 
 )
-```
-```
+
 
 #### Parameters
 

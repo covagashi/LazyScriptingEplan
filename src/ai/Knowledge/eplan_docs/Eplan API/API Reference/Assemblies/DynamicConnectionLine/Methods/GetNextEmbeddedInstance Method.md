@@ -8,21 +8,16 @@ Returns next instance embedded in this line after one given as a parameter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement GetNextEmbeddedInstance( 
 
    Placement placement
 
 )
-```
-```
 
-```
-```
 public:
 
 Placement^ GetNextEmbeddedInstance( 
@@ -30,8 +25,7 @@ Placement^ GetNextEmbeddedInstance(
    Placement^ placement
 
 )
-```
-```
+
 
 #### Parameters
 

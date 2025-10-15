@@ -8,17 +8,12 @@ The PL (performance level).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PL {
@@ -28,5 +23,4 @@ property String^ PL {
    void set (    String^ value);
 
 }
-```
-```
+

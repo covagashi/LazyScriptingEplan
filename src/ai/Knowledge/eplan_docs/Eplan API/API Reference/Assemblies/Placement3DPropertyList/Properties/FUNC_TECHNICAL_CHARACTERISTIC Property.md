@@ -8,17 +8,12 @@ Technical characteristics # 20027.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TECHNICAL_CHARACTERISTIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TECHNICAL_CHARACTERISTIC {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TECHNICAL_CHARACTERISTIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

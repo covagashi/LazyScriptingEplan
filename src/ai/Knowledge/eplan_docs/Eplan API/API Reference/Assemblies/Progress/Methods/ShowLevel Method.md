@@ -8,21 +8,16 @@ Specifies the nesting level up to which a display is made.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ShowLevel( 
 
    int nPartLevelToBeShown
 
 )
-```
-```
 
-```
-```
 public:
 
 void ShowLevel( 
@@ -30,8 +25,7 @@ void ShowLevel(
    int nPartLevelToBeShown
 
 )
-```
-```
+
 
 #### Parameters
 

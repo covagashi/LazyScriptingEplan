@@ -8,17 +8,12 @@ Gets property id value as [Properties.Function](Eplan.EplApi.DataModelu~Eplan.Ep
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.Function AsFunction {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.Function AsFunction {
@@ -26,5 +21,4 @@ property Properties.Function AsFunction {
    Properties.Function get();
 
 }
-```
-```
+

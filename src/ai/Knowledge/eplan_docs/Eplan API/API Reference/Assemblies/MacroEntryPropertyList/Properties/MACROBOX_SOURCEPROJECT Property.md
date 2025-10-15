@@ -8,17 +8,12 @@ Macro: Source project # 23005.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue MACROBOX_SOURCEPROJECT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ MACROBOX_SOURCEPROJECT {
@@ -28,8 +23,7 @@ property PropertyValue^ MACROBOX_SOURCEPROJECT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Creates a handle with a list of assigned mounting points.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    string[] matchingMateNames,
@@ -22,11 +21,7 @@ public void Create(
    Matrix3D matrix
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -38,8 +33,7 @@ void Create(
    Matrix3D matrix
 
 )
-```
-```
+
 
 #### Parameters
 

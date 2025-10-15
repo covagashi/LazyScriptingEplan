@@ -8,17 +8,12 @@ Text used for describing page, if automatic page description if switched off.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString ManualPageDescription {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ ManualPageDescription {
@@ -28,8 +23,7 @@ property MultiLangString^ ManualPageDescription {
    void set (    MultiLangString^ value);
 
 }
-```
-```
+
 
 Remarks
 

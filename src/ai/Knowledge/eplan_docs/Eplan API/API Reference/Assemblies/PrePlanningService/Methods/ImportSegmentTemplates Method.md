@@ -8,11 +8,10 @@ Imports segment templates from file to project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ImportSegmentTemplates( 
 
    Project pProject,
@@ -20,11 +19,7 @@ public bool ImportSegmentTemplates(
    string strFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ImportSegmentTemplates( 
@@ -34,8 +29,7 @@ bool ImportSegmentTemplates(
    String^ strFileName
 
 )
-```
-```
+
 
 #### Parameters
 

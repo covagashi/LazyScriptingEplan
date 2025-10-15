@@ -8,17 +8,12 @@ Determines if connection point data are saved locally at the part placement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AreConnectionPointPositionsLocal {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool AreConnectionPointPositionsLocal {
@@ -28,8 +23,7 @@ property bool AreConnectionPointPositionsLocal {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

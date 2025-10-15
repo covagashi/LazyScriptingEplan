@@ -8,17 +8,12 @@ Number of auxiliary powers (specifically pneumatic) # 26069.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_NUMBER_OF_AUXILIARY_POWER_SPEC_PNEUMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_NUMBER_OF_AUXILIARY_POWER_SPEC_PNEUMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_NUMBER_OF_AUXILIARY_POWER_SPEC_PNEUMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

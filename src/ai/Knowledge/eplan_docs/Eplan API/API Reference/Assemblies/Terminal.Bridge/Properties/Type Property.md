@@ -8,17 +8,12 @@ A type of the bridge. Corresponds to the function definition tag of the bridge's
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int Type {get;}
-```
-```
 
-```
-```
 public:
 
 property int Type {
@@ -26,8 +21,7 @@ property int Type {
    int get();
 
 }
-```
-```
+
 
 Remarks
 

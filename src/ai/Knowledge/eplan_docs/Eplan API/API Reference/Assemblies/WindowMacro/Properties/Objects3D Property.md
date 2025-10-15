@@ -8,17 +8,12 @@ Returns all Eplan.EplApi.DataModel.Placement3D contained in the macro.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement3D[] Objects3D {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Placement3D^>^ Objects3D {
@@ -26,8 +21,7 @@ property array<Placement3D^>^ Objects3D {
    array<Placement3D^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

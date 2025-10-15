@@ -8,17 +8,12 @@ Torque, max. # 26253.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TORQUE_MAX_ {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TORQUE_MAX_ {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TORQUE_MAX_ {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

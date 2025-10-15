@@ -8,17 +8,12 @@ Routing direction (default) # 22948.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PART_TERMINAL_DIRECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PART_TERMINAL_DIRECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ PART_TERMINAL_DIRECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

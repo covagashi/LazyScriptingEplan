@@ -19,22 +19,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDPermissionException : MDSettingValueFailedException
-```
-```
 
-```
-```
 public ref class MDPermissionException : public MDSettingValueFailedException
-```
-```
-
-
 
 Public Constructors
 
@@ -43,8 +34,6 @@ Public Constructors
 | Public Constructor | [MDPermissionException Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPermissionException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

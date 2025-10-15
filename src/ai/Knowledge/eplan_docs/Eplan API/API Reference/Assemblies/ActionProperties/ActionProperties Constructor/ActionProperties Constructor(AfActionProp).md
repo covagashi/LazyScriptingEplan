@@ -8,21 +8,16 @@ For internal use only.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ActionProperties( 
 
    AfActionProp* pAfActionProp
 
 )
-```
-```
 
-```
-```
 public:
 
 ActionProperties( 
@@ -30,8 +25,7 @@ ActionProperties(
    AfActionProp* pAfActionProp
 
 )
-```
-```
+
 
 #### Parameters
 

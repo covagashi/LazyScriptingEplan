@@ -8,21 +8,16 @@ Creates transient and not placed Line object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override void CreateTransient( 
 
    Project project
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateTransient( 
@@ -30,8 +25,7 @@ void CreateTransient(
    Project^ project
 
 ) override
-```
-```
+
 
 #### Parameters
 

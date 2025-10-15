@@ -8,21 +8,16 @@ Transformation point # 16045.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMBOL_TRANSFORMATION_POINT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMBOL_TRANSFORMATION_POINT {
@@ -32,8 +27,7 @@ property PropertyValue^ SYMBOL_TRANSFORMATION_POINT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

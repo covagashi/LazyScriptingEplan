@@ -8,17 +8,12 @@ Possible counter potentials # 33005.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue POTENTIAL_VALID_POTENTIALS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ POTENTIAL_VALID_POTENTIALS {
@@ -28,8 +23,7 @@ property PropertyValue^ POTENTIAL_VALID_POTENTIALS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

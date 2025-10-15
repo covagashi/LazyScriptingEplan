@@ -8,17 +8,12 @@ Gets a PropertyPlacementsSchema object that represents the selected property pla
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ViewPart.PropertyPlacementsSchema Selected {get; set;}
-```
-```
 
-```
-```
 public:
 
 property ViewPart.PropertyPlacementsSchema^ Selected {
@@ -28,5 +23,4 @@ property ViewPart.PropertyPlacementsSchema^ Selected {
    void set (    ViewPart.PropertyPlacementsSchema^ value);
 
 }
-```
-```
+

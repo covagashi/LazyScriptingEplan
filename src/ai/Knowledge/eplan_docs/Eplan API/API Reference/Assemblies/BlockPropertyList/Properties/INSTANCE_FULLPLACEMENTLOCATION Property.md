@@ -8,17 +8,12 @@ Placement # 19007.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTANCE_FULLPLACEMENTLOCATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTANCE_FULLPLACEMENTLOCATION {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTANCE_FULLPLACEMENTLOCATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Activate or deactivate automatic change/create information update for a page. He
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetChangeAndCreateInfoUpdateForPage( 
 
    bool bChandeAndCreateInfoUpdate,
@@ -20,11 +19,7 @@ public void SetChangeAndCreateInfoUpdateForPage(
    ChangeInfoService.ChangeInfoServiceHelper pHelper
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetChangeAndCreateInfoUpdateForPage( 
@@ -34,8 +29,7 @@ void SetChangeAndCreateInfoUpdateForPage(
    ChangeInfoService.ChangeInfoServiceHelper^ pHelper
 
 )
-```
-```
+
 
 #### Parameters
 

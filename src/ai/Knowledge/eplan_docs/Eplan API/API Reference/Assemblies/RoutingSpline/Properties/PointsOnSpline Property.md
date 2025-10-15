@@ -8,17 +8,12 @@ Array of points on spline (these are the nodes of the spline).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D[] PointsOnSpline {get; set;}
-```
-```
 
-```
-```
 public:
 
 property array<PointD3D>^ PointsOnSpline {
@@ -28,5 +23,4 @@ property array<PointD3D>^ PointsOnSpline {
    void set (    array<PointD3D>^ value);
 
 }
-```
-```
+

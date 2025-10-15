@@ -8,21 +8,16 @@ Indicates how many steps are required to reach 100%. E.g. used for loops.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetNeededSteps( 
 
    int neededSteps
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetNeededSteps( 
@@ -30,8 +25,7 @@ void SetNeededSteps(
    int neededSteps
 
 )
-```
-```
+
 
 #### Parameters
 

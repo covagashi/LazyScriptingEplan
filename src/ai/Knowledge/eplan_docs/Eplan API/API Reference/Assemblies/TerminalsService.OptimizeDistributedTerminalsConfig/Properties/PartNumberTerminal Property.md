@@ -8,17 +8,12 @@ Part number that the distributed main terminal with 'Normal' potential will get.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PartNumberTerminal {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PartNumberTerminal {
@@ -28,5 +23,4 @@ property String^ PartNumberTerminal {
    void set (    String^ value);
 
 }
-```
-```
+

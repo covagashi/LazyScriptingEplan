@@ -8,17 +8,12 @@ Value of state connection to database that is currently used.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartsManagement.DataSourceState PartsDatabaseState {get;}
-```
-```
 
-```
-```
 public:
 
 property MDPartsManagement.DataSourceState PartsDatabaseState {
@@ -26,5 +21,4 @@ property MDPartsManagement.DataSourceState PartsDatabaseState {
    MDPartsManagement.DataSourceState get();
 
 }
-```
-```
+

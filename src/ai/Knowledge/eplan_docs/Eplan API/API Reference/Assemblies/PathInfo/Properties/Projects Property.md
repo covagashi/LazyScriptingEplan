@@ -8,17 +8,12 @@ Returns default Projects directory.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Projects {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Projects {
@@ -26,8 +21,7 @@ property String^ Projects {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

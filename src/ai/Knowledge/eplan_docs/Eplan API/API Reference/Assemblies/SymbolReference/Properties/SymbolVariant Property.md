@@ -8,17 +8,12 @@ Specifies [Eplan.EplApi.DataModel.MasterData.SymbolVariant](Eplan.EplApi.DataMod
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual SymbolVariant SymbolVariant {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property SymbolVariant^ SymbolVariant {
@@ -28,8 +23,7 @@ virtual property SymbolVariant^ SymbolVariant {
    void set (    SymbolVariant^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

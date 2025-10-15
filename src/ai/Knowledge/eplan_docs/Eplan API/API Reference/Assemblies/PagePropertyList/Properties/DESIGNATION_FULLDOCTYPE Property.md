@@ -8,17 +8,12 @@ Document type # 1520.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FULLDOCTYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FULLDOCTYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FULLDOCTYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

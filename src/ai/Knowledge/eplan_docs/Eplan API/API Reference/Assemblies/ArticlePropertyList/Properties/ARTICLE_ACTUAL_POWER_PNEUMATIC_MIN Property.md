@@ -8,17 +8,12 @@ Actual power (pneumatic), min. # 26391.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_ACTUAL_POWER_PNEUMATIC_MIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_ACTUAL_POWER_PNEUMATIC_MIN {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_ACTUAL_POWER_PNEUMATIC_MIN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

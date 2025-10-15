@@ -8,21 +8,16 @@ Block property: Format (interruption point) # 10609.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BLOCKFORMAT_INTERRUPTION_POINT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BLOCKFORMAT_INTERRUPTION_POINT {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_BLOCKFORMAT_INTERRUPTION_POINT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

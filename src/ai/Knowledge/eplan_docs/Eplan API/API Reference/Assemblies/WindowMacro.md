@@ -15,28 +15,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class WindowMacro : Macro
-```
-```
 
-```
-```
 public ref class WindowMacro : public Macro
-```
-```
+
 
 Remarks
 
 For variant of macro which contains 3d objects local coordinate system is created. Origin of this coordinate system is in the origin of first object from macro.
 
 If user does not point the location of handle then it is automatically calculated in origin of first object or its top parent.
-
-
 
 Public Constructors
 
@@ -45,8 +37,6 @@ Public Constructors
 | Public Constructor | [WindowMacro Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.WindowMacro~_ctor.html) | Constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

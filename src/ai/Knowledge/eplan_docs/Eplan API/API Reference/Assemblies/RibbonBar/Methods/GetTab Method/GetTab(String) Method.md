@@ -8,21 +8,16 @@ Returns tab by name
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonTab GetTab( 
 
    string strTabName
 
 )
-```
-```
 
-```
-```
 public:
 
 RibbonTab^ GetTab( 
@@ -30,8 +25,7 @@ RibbonTab^ GetTab(
    String^ strTabName
 
 )
-```
-```
+
 
 #### Parameters
 

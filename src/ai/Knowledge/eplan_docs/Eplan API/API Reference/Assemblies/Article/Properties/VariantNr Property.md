@@ -8,17 +8,12 @@ Returns article's variant number.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string VariantNr {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ VariantNr {
@@ -26,8 +21,7 @@ property String^ VariantNr {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

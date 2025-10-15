@@ -15,22 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class SymbolMacro : WindowMacro
-```
-```
 
-```
-```
 public ref class SymbolMacro : public WindowMacro
-```
-```
-
-
 
 Public Constructors
 
@@ -39,8 +30,6 @@ Public Constructors
 | Public Constructor | [SymbolMacro Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.SymbolMacro~_ctor.html) | Constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

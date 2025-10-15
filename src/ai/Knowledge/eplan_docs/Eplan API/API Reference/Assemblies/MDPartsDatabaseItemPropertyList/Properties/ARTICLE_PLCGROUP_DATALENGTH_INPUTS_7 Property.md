@@ -8,17 +8,12 @@ PLC subdevice 7: Data length (inputs) # 22320.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PLCGROUP_DATALENGTH_INPUTS_7 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PLCGROUP_DATALENGTH_INPUTS_7 {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PLCGROUP_DATALENGTH_INPUTS_7 {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Remove the menu item of a context menu.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool RemoveMenuItem( 
 
    ContextMenuLocation eContextMenuLocation,
@@ -26,11 +25,7 @@ public bool RemoveMenuItem(
    bool bSeparatorBehind
 
 )
-```
-```
 
-```
-```
 public:
 
 bool RemoveMenuItem( 
@@ -46,8 +41,7 @@ bool RemoveMenuItem(
    bool bSeparatorBehind
 
 )
-```
-```
+
 
 #### Parameters
 

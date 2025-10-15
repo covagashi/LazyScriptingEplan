@@ -8,11 +8,10 @@ Exports one project as PDF file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void PdfProject( 
 
    Project oProject,
@@ -30,11 +29,7 @@ public void PdfProject(
    bool bUsePrintMargins
 
 )
-```
-```
 
-```
-```
 public:
 
 void PdfProject( 
@@ -54,8 +49,7 @@ void PdfProject(
    bool bUsePrintMargins
 
 )
-```
-```
+
 
 #### Parameters
 

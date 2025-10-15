@@ -8,17 +8,12 @@ Returns the begin point of the segment.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD StartPoint {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD StartPoint {
@@ -26,5 +21,4 @@ property PointD StartPoint {
    PointD get();
 
 }
-```
-```
+

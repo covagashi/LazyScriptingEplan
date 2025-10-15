@@ -8,17 +8,12 @@ Set user name
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string User {set;}
-```
-```
 
-```
-```
 public:
 
 property String^ User {
@@ -26,5 +21,4 @@ property String^ User {
    void set (    String^ value);
 
 }
-```
-```
+

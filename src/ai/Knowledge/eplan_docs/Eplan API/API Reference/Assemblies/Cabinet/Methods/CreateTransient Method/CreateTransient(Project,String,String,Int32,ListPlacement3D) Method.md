@@ -8,11 +8,10 @@ Creates transient not placed Cabinet based on article which contain macro.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateTransient( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public void CreateTransient(
    List<Placement3D> listOfAdditionalPlacements
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateTransient( 
@@ -46,8 +41,7 @@ void CreateTransient(
    List<Placement3D^>^ listOfAdditionalPlacements
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -82,7 +76,7 @@ This method can create a cabinet only from a part which has an assign macro. If 
 
 Example
 
-- [C#](#i-tab-content-5145520f-e3f6-4199-acd5-e934649d9f21)
+**C#**
 
 ```
 //Data for creating the cabinet
@@ -95,22 +89,14 @@ String strPartVariantNr = "1";          //First part variant
 
 int nMacroVariant = 1;                  //Variant B
 
-
-
 //Creating cabinet
 
 Cabinet oCabinet = new Cabinet();
 
 oCabinet.Create(m_oTestProject, strPartNr, strPartVariantNr, nMacroVariant, listAdditionalPlacements);
 
-
-
 //Placing cabinet
 
 oCabinet.SetParent(oInstallationSpace, true);
-
-
-
-
 
 ```

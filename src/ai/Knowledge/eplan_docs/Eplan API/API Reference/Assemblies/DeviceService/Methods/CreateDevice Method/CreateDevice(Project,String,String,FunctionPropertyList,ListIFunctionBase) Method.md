@@ -8,11 +8,10 @@ Create a new device.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function[] CreateDevice( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public Function[] CreateDevice(
    FunctionPropertyList pLocationList
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Function^>^ CreateDevice( 
@@ -42,8 +37,7 @@ array<Function^>^ CreateDevice(
    FunctionPropertyList^ pLocationList
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Returns the Type of the Symbol.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDSymbol.Enums.SymbolType Type {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDSymbol.Enums.SymbolType Type {
@@ -28,8 +23,7 @@ property MDSymbol.Enums.SymbolType Type {
    void set (    MDSymbol.Enums.SymbolType value);
 
 }
-```
-```
+
 
 #### Property Value
 

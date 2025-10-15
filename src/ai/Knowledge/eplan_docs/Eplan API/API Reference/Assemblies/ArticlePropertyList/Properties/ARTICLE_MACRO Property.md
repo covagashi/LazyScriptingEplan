@@ -8,17 +8,12 @@ Graphical macro # 22010.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_MACRO {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_MACRO {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_MACRO {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

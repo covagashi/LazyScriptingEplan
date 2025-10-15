@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new MateEntryPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property MateEntryPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property MateEntryPropertyList^ Properties {
    MateEntryPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

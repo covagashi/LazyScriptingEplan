@@ -8,17 +8,12 @@ Trade 'Fluid power' # 22132.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CRAFT_FLUID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CRAFT_FLUID {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CRAFT_FLUID {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

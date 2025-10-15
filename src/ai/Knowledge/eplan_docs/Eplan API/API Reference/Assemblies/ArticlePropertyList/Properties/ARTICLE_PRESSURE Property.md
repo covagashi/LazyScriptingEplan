@@ -8,17 +8,12 @@ Max. working pressure # 22124.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PRESSURE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PRESSURE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PRESSURE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

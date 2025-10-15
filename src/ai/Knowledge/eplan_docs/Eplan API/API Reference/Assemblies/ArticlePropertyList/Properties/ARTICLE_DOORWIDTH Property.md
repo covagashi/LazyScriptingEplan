@@ -8,17 +8,12 @@ Door: Usable width # 22120.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_DOORWIDTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_DOORWIDTH {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_DOORWIDTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

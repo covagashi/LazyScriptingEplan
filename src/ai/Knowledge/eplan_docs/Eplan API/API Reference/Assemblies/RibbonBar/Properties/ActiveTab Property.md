@@ -8,17 +8,12 @@ Returns active tab
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonTab ActiveTab {get;}
-```
-```
 
-```
-```
 public:
 
 property RibbonTab^ ActiveTab {
@@ -26,5 +21,4 @@ property RibbonTab^ ActiveTab {
    RibbonTab^ get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Gets property id value as [Properties.ArticleReference](Eplan.EplApi.DataModelu~
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.ArticleReference AsArticleReference {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.ArticleReference AsArticleReference {
@@ -26,5 +21,4 @@ property Properties.ArticleReference AsArticleReference {
    Properties.ArticleReference get();
 
 }
-```
-```
+

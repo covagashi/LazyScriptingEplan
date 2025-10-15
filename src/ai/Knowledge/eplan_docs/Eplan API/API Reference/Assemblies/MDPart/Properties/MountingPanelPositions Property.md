@@ -8,17 +8,12 @@ Get all support mounting panel positions of the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartMountingPanelPosition[] MountingPanelPositions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDPartMountingPanelPosition^>^ MountingPanelPositions {
@@ -26,8 +21,7 @@ property array<MDPartMountingPanelPosition^>^ MountingPanelPositions {
    array<MDPartMountingPanelPosition^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

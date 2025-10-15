@@ -8,17 +8,12 @@ Hydraulic efficiency # 26380.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_HYDRAULIC_EFFICIENCY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_HYDRAULIC_EFFICIENCY {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_HYDRAULIC_EFFICIENCY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

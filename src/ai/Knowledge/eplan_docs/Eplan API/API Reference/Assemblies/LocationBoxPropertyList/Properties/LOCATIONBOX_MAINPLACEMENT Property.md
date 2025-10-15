@@ -8,17 +8,12 @@ Main placement # 20305.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue LOCATIONBOX_MAINPLACEMENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ LOCATIONBOX_MAINPLACEMENT {
@@ -28,8 +23,7 @@ property PropertyValue^ LOCATIONBOX_MAINPLACEMENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

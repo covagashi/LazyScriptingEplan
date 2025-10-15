@@ -8,17 +8,12 @@ Set offset in x-direction
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double XOffset {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double XOffset {
@@ -28,5 +23,4 @@ property double XOffset {
    void set (    double value);
 
 }
-```
-```
+

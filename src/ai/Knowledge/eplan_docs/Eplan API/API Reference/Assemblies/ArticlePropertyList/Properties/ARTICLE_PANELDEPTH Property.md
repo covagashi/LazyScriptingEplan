@@ -8,17 +8,12 @@ Mounting panel: Max. mounting depth # 22118.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PANELDEPTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PANELDEPTH {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PANELDEPTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

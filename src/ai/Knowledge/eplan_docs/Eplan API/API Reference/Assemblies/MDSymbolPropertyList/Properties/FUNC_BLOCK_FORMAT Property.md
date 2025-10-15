@@ -8,21 +8,16 @@ Block property: Format # 20202.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNC_BLOCK_FORMAT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNC_BLOCK_FORMAT {
@@ -32,8 +27,7 @@ property MDPropertyValue^ FUNC_BLOCK_FORMAT {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

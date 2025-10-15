@@ -8,17 +8,12 @@ Structure format for plugs # 10060.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_HIERARCHY_PLUG {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_HIERARCHY_PLUG {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_HIERARCHY_PLUG {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Font size # 19017.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue INSTANCE_SIZE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ INSTANCE_SIZE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ INSTANCE_SIZE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

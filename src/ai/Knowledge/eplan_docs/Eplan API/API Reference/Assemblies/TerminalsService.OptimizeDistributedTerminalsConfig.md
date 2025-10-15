@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class TerminalsService.OptimizeDistributedTerminalsConfig
-```
-```
 
-```
-```
 public ref class TerminalsService.OptimizeDistributedTerminalsConfig
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [TerminalsService.OptimizeDistributedTerminalsConfig Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.TerminalsService+OptimizeDistributedTerminalsConfig~_ctor.html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

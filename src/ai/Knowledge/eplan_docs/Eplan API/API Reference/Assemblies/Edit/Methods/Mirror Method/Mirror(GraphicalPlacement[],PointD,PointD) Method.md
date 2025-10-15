@@ -8,11 +8,10 @@ Moves objects to its mirror position.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Mirror( 
 
    GraphicalPlacement[] plcmnts,
@@ -22,11 +21,7 @@ public void Mirror(
    PointD oPntEnd
 
 )
-```
-```
 
-```
-```
 public:
 
 void Mirror( 
@@ -38,8 +33,7 @@ void Mirror(
    PointD oPntEnd
 
 )
-```
-```
+
 
 #### Parameters
 

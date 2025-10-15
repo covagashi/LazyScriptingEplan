@@ -8,17 +8,12 @@ Product subgroup # 22028.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PRODUCTSUBGROUP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PRODUCTSUBGROUP {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PRODUCTSUBGROUP {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

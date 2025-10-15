@@ -8,21 +8,16 @@ Method evaluates the full name for a FunctionBase (which is either a Function or
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public UniversalPropertyList EvaluateName( 
 
    FunctionBase pFunctionBase
 
 )
-```
-```
 
-```
-```
 public:
 
 UniversalPropertyList^ EvaluateName( 
@@ -30,8 +25,7 @@ UniversalPropertyList^ EvaluateName(
    FunctionBase^ pFunctionBase
 
 )
-```
-```
+
 
 #### Parameters
 

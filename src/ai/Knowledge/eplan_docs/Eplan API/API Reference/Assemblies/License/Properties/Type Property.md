@@ -8,17 +8,12 @@ Gets license type: local, remote (network) or borrowed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public LicenseType Type {get;}
-```
-```
 
-```
-```
 public:
 
 property LicenseType Type {
@@ -26,8 +21,7 @@ property LicenseType Type {
    LicenseType get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Name of original symbol library # 15098.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBLIB_OLDNAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBLIB_OLDNAME {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMBLIB_OLDNAME {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

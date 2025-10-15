@@ -8,22 +8,16 @@ Returns the identifiers of all existing user rights categories.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StringCollection GetCategories()
-```
-```
 
-```
-```
 public:
 
 StringCollection^ GetCategories();
-```
-```
+
 
 #### Return Value
 
@@ -33,7 +27,7 @@ Example
 
 Example of getting category names that can be displayed in dialogs:
 
-- [C#](#i-tab-content-16ff60c3-b668-47a1-8b45-36451173d6de)
+**C#**
 
 ```
 
@@ -57,9 +51,5 @@ foreach (String strCategoryID in oCategoryIDs)
     lstCategoryNames.Add(strCategoryNameToDisplayInDialog);
 
 }
-
-
-
-
 
 ```

@@ -8,21 +8,16 @@ User-defined properties: Value # 22337.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_FREE_DATA_NEWVALUE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_FREE_DATA_NEWVALUE {
@@ -32,8 +27,7 @@ property PropertyValue^ ARTICLE_FREE_DATA_NEWVALUE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

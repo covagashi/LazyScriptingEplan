@@ -8,17 +8,12 @@ Weight / length # 22067.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CABLEWEIGHT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CABLEWEIGHT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CABLEWEIGHT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

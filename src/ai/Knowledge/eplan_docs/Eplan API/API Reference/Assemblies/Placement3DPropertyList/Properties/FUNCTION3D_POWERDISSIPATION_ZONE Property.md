@@ -8,17 +8,12 @@ Thermal design: Air-conditioning field (device) # 36047.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_POWERDISSIPATION_ZONE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_POWERDISSIPATION_ZONE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_POWERDISSIPATION_ZONE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

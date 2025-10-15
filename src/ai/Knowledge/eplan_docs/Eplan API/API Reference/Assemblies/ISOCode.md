@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ISOCode
-```
-```
 
-```
-```
 public ref class ISOCode
-```
-```
-
-
 
 Public Constructors
 
@@ -37,9 +28,6 @@ Public Constructors
 | Public Constructor | [ISOCode Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ISOCode~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

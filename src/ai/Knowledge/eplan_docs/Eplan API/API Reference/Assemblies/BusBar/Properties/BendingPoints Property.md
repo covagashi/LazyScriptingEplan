@@ -8,17 +8,12 @@ Array of bending points.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D[] BendingPoints {get; set;}
-```
-```
 
-```
-```
 public:
 
 property array<PointD3D>^ BendingPoints {
@@ -28,8 +23,7 @@ property array<PointD3D>^ BendingPoints {
    void set (    array<PointD3D>^ value);
 
 }
-```
-```
+
 
 Remarks
 

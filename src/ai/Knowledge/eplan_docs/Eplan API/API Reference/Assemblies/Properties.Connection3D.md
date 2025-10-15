@@ -8,20 +8,14 @@ Identificators of properties owned by Connection3D class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.Connection3D : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.Connection3D : public System.Enum
-```
-```
+
 
 Inheritance Hierarchy
 

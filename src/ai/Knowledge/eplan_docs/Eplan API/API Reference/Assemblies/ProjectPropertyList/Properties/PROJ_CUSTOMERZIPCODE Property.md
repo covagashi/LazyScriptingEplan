@@ -8,17 +8,12 @@ Customer: Zip code (City) # 10107.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_CUSTOMERZIPCODE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_CUSTOMERZIPCODE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_CUSTOMERZIPCODE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

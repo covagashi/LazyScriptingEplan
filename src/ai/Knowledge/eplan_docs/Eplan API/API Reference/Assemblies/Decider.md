@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Decider
-```
-```
 
-```
-```
 public ref class Decider
-```
-```
+
 
 Example
 
@@ -55,9 +49,6 @@ Public Constructors
 | Public Constructor | [Decider Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Decider~_ctor.html) | Create a new Decider Object. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

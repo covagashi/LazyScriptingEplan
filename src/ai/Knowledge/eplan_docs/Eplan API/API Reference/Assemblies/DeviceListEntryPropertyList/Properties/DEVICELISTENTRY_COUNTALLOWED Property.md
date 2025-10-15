@@ -8,17 +8,12 @@ Number allowed # 23201.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DEVICELISTENTRY_COUNTALLOWED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DEVICELISTENTRY_COUNTALLOWED {
@@ -28,8 +23,7 @@ property PropertyValue^ DEVICELISTENTRY_COUNTALLOWED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ PLC subdevice 7: Position (slot / module) # 22311.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PLCDEVICENUMBER_7 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PLCDEVICENUMBER_7 {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PLCDEVICENUMBER_7 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

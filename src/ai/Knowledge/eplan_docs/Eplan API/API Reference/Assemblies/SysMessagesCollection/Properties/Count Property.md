@@ -8,17 +8,12 @@ Gets the number of elements contained in the `SysMessagesCollection`.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual int Count {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property int Count {
@@ -26,8 +21,7 @@ virtual property int Count {
    int get();
 
 }
-```
-```
+
 
 Remarks
 

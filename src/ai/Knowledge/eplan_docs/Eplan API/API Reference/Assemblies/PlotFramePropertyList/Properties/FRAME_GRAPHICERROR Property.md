@@ -8,21 +8,16 @@ Error: Graphic # 12100.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_GRAPHICERROR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_GRAPHICERROR {
@@ -32,8 +27,7 @@ property PropertyValue^ FRAME_GRAPHICERROR {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ Gets the property of the n-th page in this macro
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PageProperty( 
 
    uint nIndex,
@@ -22,11 +21,7 @@ public PropertyValue PageProperty(
    int idx
 
 ) {get;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PageProperty {
@@ -34,8 +29,7 @@ property PropertyValue^ PageProperty {
    PropertyValue^ get(uint nIndex, Properties.Page id, int idx);
 
 }
-```
-```
+
 
 #### Parameters
 

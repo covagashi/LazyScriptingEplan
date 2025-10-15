@@ -8,17 +8,12 @@ Texture # 22219.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_ECABINET_MACRO {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_ECABINET_MACRO {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_ECABINET_MACRO {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

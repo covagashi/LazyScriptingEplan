@@ -8,11 +8,10 @@ Sets arc
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetArc( 
 
    PointD pntCenter,
@@ -26,11 +25,7 @@ public void SetArc(
    bool bAsPie
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetArc( 
@@ -46,8 +41,7 @@ void SetArc(
    bool bAsPie
 
 )
-```
-```
+
 
 #### Parameters
 

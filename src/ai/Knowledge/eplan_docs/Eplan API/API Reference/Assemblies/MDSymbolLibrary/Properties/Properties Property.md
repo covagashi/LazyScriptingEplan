@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new MDSymbolLibraryPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property MDSymbolLibraryPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property MDSymbolLibraryPropertyList^ Properties {
    MDSymbolLibraryPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

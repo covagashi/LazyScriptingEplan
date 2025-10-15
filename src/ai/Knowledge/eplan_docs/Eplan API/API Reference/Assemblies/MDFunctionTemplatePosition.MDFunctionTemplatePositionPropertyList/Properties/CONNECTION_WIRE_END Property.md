@@ -8,17 +8,12 @@ plug contact at end of wire # 21027.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue CONNECTION_WIRE_END {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ CONNECTION_WIRE_END {
@@ -28,8 +23,7 @@ property MDPropertyValue^ CONNECTION_WIRE_END {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

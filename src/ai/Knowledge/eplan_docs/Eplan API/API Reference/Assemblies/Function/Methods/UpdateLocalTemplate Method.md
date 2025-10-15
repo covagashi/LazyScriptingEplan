@@ -8,22 +8,16 @@ Stores changes into object from which template has been taken.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void UpdateLocalTemplate()
-```
-```
 
-```
-```
 public:
 
 void UpdateLocalTemplate();
-```
-```
+
 
 Remarks
 

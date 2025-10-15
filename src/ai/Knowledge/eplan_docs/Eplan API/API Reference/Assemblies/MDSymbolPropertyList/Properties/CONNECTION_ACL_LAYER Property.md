@@ -8,17 +8,12 @@ Autoconnecting line: Layer # 31017.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue CONNECTION_ACL_LAYER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ CONNECTION_ACL_LAYER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ CONNECTION_ACL_LAYER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

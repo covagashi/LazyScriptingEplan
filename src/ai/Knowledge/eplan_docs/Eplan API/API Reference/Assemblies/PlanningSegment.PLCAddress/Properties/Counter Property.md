@@ -8,17 +8,12 @@ For PLC inputs you determine with this check box whether it is a counter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Counter {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool Counter {
@@ -28,5 +23,4 @@ property bool Counter {
    void set (    bool value);
 
 }
-```
-```
+

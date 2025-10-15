@@ -8,21 +8,16 @@ Is used to determine whether a license for this option exists in the system and 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool HasOption( 
 
    LicenseOptions eOption
 
 )
-```
-```
 
-```
-```
 public:
 
 bool HasOption( 
@@ -30,8 +25,7 @@ bool HasOption(
    LicenseOptions eOption
 
 )
-```
-```
+
 
 #### Parameters
 

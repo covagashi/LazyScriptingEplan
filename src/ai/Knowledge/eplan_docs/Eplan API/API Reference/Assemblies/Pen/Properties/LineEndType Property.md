@@ -8,17 +8,12 @@ Type of line end (0-2)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public sbyte LineEndType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property sbyte LineEndType {
@@ -28,8 +23,7 @@ property sbyte LineEndType {
    void set (    sbyte value);
 
 }
-```
-```
+
 
 #### Property Value
 

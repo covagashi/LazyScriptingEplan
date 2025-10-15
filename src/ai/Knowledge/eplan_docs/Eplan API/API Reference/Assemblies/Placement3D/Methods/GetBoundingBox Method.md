@@ -8,21 +8,16 @@ Returns bounding box of a Placement3D.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Rect3D GetBoundingBox( 
 
    bool bWithChildren
 
 )
-```
-```
 
-```
-```
 public:
 
 Rect3D GetBoundingBox( 
@@ -30,8 +25,7 @@ Rect3D GetBoundingBox(
    bool bWithChildren
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Message text # 20185.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION_MESSAGETEXT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION_MESSAGETEXT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION_MESSAGETEXT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

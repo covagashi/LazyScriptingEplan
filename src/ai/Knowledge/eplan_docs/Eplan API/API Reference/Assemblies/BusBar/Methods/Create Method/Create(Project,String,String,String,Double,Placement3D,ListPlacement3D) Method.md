@@ -8,11 +8,10 @@ Creates not placed bended bus bar object with given bending radius and path.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static BusBar Create( 
 
    Project oProject,
@@ -30,11 +29,7 @@ public static BusBar Create(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static BusBar^ Create( 
@@ -54,8 +49,7 @@ static BusBar^ Create(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

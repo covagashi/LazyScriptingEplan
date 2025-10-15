@@ -8,17 +8,12 @@ Returns if the referenced Accessory is necessary
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsNecessary {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsNecessary {
@@ -26,8 +21,7 @@ property bool IsNecessary {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

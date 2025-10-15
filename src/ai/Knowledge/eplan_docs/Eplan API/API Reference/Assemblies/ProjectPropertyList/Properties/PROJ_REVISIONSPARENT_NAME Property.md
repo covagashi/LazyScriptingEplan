@@ -8,17 +8,12 @@ Revision: Original project name # 10149.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_REVISIONSPARENT_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_REVISIONSPARENT_NAME {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_REVISIONSPARENT_NAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

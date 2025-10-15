@@ -8,19 +8,13 @@ Returns an enumerator that can iterate through a collection.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual IEnumerator GetEnumerator()
-```
-```
 
-```
-```
 public:
 
 virtual IEnumerator^ GetEnumerator();
-```
-```
+

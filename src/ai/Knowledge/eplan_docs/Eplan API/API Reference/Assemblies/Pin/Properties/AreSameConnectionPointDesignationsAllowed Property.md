@@ -8,17 +8,12 @@ Determines if similar connection point designations are allowed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AreSameConnectionPointDesignationsAllowed {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool AreSameConnectionPointDesignationsAllowed {
@@ -28,5 +23,4 @@ property bool AreSameConnectionPointDesignationsAllowed {
    void set (    bool value);
 
 }
-```
-```
+

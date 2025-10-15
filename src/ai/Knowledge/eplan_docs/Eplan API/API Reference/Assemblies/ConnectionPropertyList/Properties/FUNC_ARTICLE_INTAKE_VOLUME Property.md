@@ -8,21 +8,16 @@ Intake volume # 26197.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_INTAKE_VOLUME( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_INTAKE_VOLUME {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_INTAKE_VOLUME {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 
@@ -47,4 +41,4 @@ Remarks
 
 Property is indexed. Possible indexes are from 1 to 50.
 
-Volume of the air or gas drawn in by the device within a certain period. The value is specified in cubic meters (mÂ³).
+Volume of the air or gas drawn in by the device within a certain period. The value is specified in cubic meters (m³).

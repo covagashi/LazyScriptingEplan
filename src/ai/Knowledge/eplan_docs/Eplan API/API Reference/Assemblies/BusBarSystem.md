@@ -16,20 +16,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class BusBarSystem : Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class BusBarSystem : public Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
+
 
 Remarks
 
@@ -37,7 +31,7 @@ Corresponding FunctionCategory for this class is CabVirtBusbarsystem.
 
 Example
 
-- [C#](#i-tab-content-c2ffa903-1979-4a50-86f4-ee572fb3dcb9)
+**C#**
 
 ```
 BusBarSystem oBusBarSystem = new BusBarSystem();
@@ -46,13 +40,9 @@ oBusBarSystem.Create(m_oTestProject, "RIT.RiLine100_3_40x10", "1", 3, 50.0);
 
 oBusBarSystem.Parent = oMountingPanel.Planes[0];
 
-
-
 var busBars = oBusBarSystem.BusBars;
 
 Console.WriteLine(busBars.Length);
-
-
 
 var holders = oBusBarSystem.Holder;
 
@@ -66,8 +56,6 @@ Public Constructors
 | Public Constructor | [BusBarSystem Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.BusBarSystem~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

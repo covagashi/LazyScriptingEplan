@@ -8,17 +8,12 @@ Gets all user defined property positions
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDUserDefinedPropertyPosition[] UserDefinedPropertyPositions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDUserDefinedPropertyPosition^>^ UserDefinedPropertyPositions {
@@ -26,8 +21,7 @@ property array<MDUserDefinedPropertyPosition^>^ UserDefinedPropertyPositions {
    array<MDUserDefinedPropertyPosition^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

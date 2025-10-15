@@ -8,17 +8,12 @@ Plugs: Creepage distance # 22097.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CREEPAGEDISTANCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CREEPAGEDISTANCE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CREEPAGEDISTANCE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

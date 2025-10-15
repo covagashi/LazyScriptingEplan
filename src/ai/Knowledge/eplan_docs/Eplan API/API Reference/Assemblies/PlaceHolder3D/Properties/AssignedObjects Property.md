@@ -8,17 +8,12 @@ Gets/Sets a list of StorableObject references to a PlaceHolder3D object. The ori
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual StorableObject[] AssignedObjects {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property array<StorableObject^>^ AssignedObjects {
@@ -28,8 +23,7 @@ virtual property array<StorableObject^>^ AssignedObjects {
    void set (    array<StorableObject^>^ value);
 
 }
-```
-```
+
 
 Exceptions
 

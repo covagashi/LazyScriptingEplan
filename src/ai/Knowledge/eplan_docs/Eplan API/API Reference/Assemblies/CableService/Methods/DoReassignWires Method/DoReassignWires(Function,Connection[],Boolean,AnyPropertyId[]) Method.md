@@ -8,11 +8,10 @@ Method for numbering cables in a project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RenumberCables( 
 
    Function[] oCables,
@@ -28,11 +27,7 @@ public void RenumberCables(
    int nStepValue
 
 )
-```
-```
 
-```
-```
 public:
 
 void RenumberCables( 
@@ -50,8 +45,7 @@ void RenumberCables(
    int nStepValue
 
 )
-```
-```
+
 
 #### Parameters
 

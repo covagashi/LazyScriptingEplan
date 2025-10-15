@@ -8,17 +8,12 @@ Creator / Creation date (accessory list) # 22936.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue PART_ACCESSORYLIST_CREATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ PART_ACCESSORYLIST_CREATE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ PART_ACCESSORYLIST_CREATE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Door: Type # 22192.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_DOORTYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_DOORTYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_DOORTYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

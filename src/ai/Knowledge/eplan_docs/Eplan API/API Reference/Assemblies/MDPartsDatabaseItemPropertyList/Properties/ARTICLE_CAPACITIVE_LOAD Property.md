@@ -8,17 +8,12 @@ Capacitive load # 26402.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CAPACITIVE_LOAD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CAPACITIVE_LOAD {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CAPACITIVE_LOAD {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

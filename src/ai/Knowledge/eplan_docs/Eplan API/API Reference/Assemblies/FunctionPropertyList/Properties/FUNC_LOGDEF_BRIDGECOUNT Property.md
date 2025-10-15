@@ -8,21 +8,16 @@ Connection point logic: Number of saddle jumpers allowed # 20325.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_LOGDEF_BRIDGECOUNT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_LOGDEF_BRIDGECOUNT {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_LOGDEF_BRIDGECOUNT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

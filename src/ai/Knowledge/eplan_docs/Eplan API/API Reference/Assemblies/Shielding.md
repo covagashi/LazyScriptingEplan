@@ -16,22 +16,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Shielding : GraphicalPlacement
-```
-```
 
-```
-```
 public ref class Shielding : public GraphicalPlacement
-```
-```
-
-
 
 Public Constructors
 
@@ -40,8 +31,6 @@ Public Constructors
 | Public Constructor | [Shielding Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Shielding~_ctor().html) | Constructor. When object created with this constructor, its `create` method must be call. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,21 +8,16 @@ Generate macros from project. Project must have property "Type of project" set t
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void GenerateMacrosFromMacroProject( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void GenerateMacrosFromMacroProject( 
@@ -30,8 +25,7 @@ void GenerateMacrosFromMacroProject(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

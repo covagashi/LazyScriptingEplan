@@ -8,17 +8,12 @@ Returns placed representation of this planning segment.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SegmentPlacement SegmentPlacement {get;}
-```
-```
 
-```
-```
 public:
 
 property SegmentPlacement^ SegmentPlacement {
@@ -26,8 +21,7 @@ property SegmentPlacement^ SegmentPlacement {
    SegmentPlacement^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

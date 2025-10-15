@@ -8,17 +8,12 @@ Show column designation on non-logical pages # 12014.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_ROW_DESC_OF_NON_LOGICAL_PAGES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_ROW_DESC_OF_NON_LOGICAL_PAGES {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_ROW_DESC_OF_NON_LOGICAL_PAGES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

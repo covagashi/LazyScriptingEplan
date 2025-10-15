@@ -8,11 +8,10 @@ Creates not placed AuxiliaryLine object with defined start and end position.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static AuxiliaryLine Create( 
 
    Project pProject,
@@ -22,11 +21,7 @@ public static AuxiliaryLine Create(
    PointD3D oEndPoint
 
 )
-```
-```
 
-```
-```
 public:
 
 static AuxiliaryLine^ Create( 
@@ -38,8 +33,7 @@ static AuxiliaryLine^ Create(
    PointD3D oEndPoint
 
 )
-```
-```
+
 
 #### Parameters
 

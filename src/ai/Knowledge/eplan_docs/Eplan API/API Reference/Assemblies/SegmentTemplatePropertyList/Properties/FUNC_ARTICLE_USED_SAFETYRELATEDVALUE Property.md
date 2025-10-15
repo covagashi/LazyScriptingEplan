@@ -8,21 +8,16 @@ Design as maintenance / repair switch # 31178.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_VERSION_AS_MAINTENANCE_REPAIR_SWITCH( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_VERSION_AS_MAINTENANCE_REPAIR_SWITCH {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_VERSION_AS_MAINTENANCE_REPAIR_SWITCH {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

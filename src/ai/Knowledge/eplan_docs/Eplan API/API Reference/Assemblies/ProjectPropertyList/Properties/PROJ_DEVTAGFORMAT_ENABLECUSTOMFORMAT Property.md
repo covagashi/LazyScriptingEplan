@@ -8,17 +8,12 @@ Edit DT in individual fields # 10090.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_DEVTAGFORMAT_ENABLECUSTOMFORMAT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_DEVTAGFORMAT_ENABLECUSTOMFORMAT {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_DEVTAGFORMAT_ENABLECUSTOMFORMAT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

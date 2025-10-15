@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class CreatingConnectionDefinitionPointsFailedException : DataModelException
-```
-```
 
-```
-```
 public ref class CreatingConnectionDefinitionPointsFailedException : public DataModelException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [CreatingConnectionDefinitionPointsFailedException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.CreatingConnectionDefinitionPointsFailedException~_ctor.html) | Constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

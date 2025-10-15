@@ -8,21 +8,16 @@ Creates a MergedArticleReference object out of an array of ArticleReference obje
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    ArticleReference[] arrArticleReferences
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -30,8 +25,7 @@ void Create(
    array<ArticleReference^>^ arrArticleReferences
 
 )
-```
-```
+
 
 #### Parameters
 

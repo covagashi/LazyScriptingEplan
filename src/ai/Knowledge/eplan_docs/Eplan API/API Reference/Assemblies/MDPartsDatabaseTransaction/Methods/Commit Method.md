@@ -8,19 +8,13 @@ Commit the database transaction. All changed MDPartsDatabaseItem objects will be
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Commit()
-```
-```
 
-```
-```
 public:
 
 void Commit();
-```
-```
+

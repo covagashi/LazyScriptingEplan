@@ -8,17 +8,12 @@ Terminals: Current IEC # 22088.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CURRENTIEC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CURRENTIEC {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CURRENTIEC {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

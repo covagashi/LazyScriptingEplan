@@ -8,17 +8,12 @@ Format of displayed DT: Interruption point # 10629.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_DTFORMAT_INTERRUPTION_POINT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_DTFORMAT_INTERRUPTION_POINT {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_DTFORMAT_INTERRUPTION_POINT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

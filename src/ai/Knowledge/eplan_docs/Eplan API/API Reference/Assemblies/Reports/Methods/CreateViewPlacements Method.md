@@ -8,11 +8,10 @@ Creates model views report
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateViewPlacements( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public void CreateViewPlacements(
    bool bReplaceExisting
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateViewPlacements( 
@@ -38,8 +33,7 @@ void CreateViewPlacements(
    bool bReplaceExisting
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -63,7 +57,7 @@ Exceptions
 
 Example
 
-- [C#](#i-tab-content-b5997771-6fe1-4b8d-bbdc-e4bc8a3dfc06)
+**C#**
 
 ```
 //prepare page macro file for a report template

@@ -8,17 +8,12 @@ Profile horizontal: Height # 22187.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PROFILEHEIGHT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PROFILEHEIGHT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PROFILEHEIGHT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

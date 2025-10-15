@@ -8,17 +8,12 @@ Trade 'Process engineering' # 22000.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CRAFT_PROCESS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CRAFT_PROCESS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CRAFT_PROCESS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

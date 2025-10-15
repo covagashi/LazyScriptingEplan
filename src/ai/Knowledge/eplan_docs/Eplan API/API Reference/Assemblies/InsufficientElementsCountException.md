@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class InsufficientElementsCountException : InvalidArgumentException
-```
-```
 
-```
-```
 public ref class InsufficientElementsCountException : public InvalidArgumentException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [InsufficientElementsCountException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.InsufficientElementsCountException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

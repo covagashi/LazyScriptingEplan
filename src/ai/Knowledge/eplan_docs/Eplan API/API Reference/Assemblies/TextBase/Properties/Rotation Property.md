@@ -8,17 +8,12 @@ Returns the rotation of the Text, in radians.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double Rotation {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double Rotation {
@@ -28,8 +23,7 @@ property double Rotation {
    void set (    double value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Exports Harness data.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExportData( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public void ExportData(
    IEnumerable<string> colFilterValues
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExportData( 
@@ -46,8 +41,7 @@ void ExportData(
    IEnumerable<String^>^ colFilterValues
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -79,11 +73,9 @@ Example
 
 Following example shows how to use the method:
 
-- [C#](#i-tab-content-9d338e3f-4814-46e2-8f29-dd444fac5983)
+**C#**
 
 ```
 new HarnessService().ExportData(m_oTestProject, strDestinationFilePath, strExportLang, HarnessService.FilterMode.HarnessRelated, new List<String>() { strHarnessName1, strHarnessName2 });
-
-
 
 ```

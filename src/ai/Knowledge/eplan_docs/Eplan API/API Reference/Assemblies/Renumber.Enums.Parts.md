@@ -8,20 +8,14 @@ Parameter enum for parts list position numbering. The enum determines, which kin
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Renumber.Enums.Parts : System.Enum
-```
-```
 
-```
-```
 public enum class Renumber.Enums.Parts : public System.Enum
-```
-```
+
 
 Members
 

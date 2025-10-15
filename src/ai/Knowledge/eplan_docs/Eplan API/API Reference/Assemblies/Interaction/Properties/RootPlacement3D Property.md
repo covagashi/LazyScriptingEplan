@@ -8,17 +8,12 @@ Root placement to which the editor belongs.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Placement3D RootPlacement3D {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property Placement3D^ RootPlacement3D {
@@ -26,5 +21,4 @@ virtual property Placement3D^ RootPlacement3D {
    Placement3D^ get();
 
 }
-```
-```
+

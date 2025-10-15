@@ -8,21 +8,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual StringCollection GetValues( 
 
    string strRecordName
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual StringCollection^ GetValues( 
@@ -30,8 +25,7 @@ virtual StringCollection^ GetValues(
    String^ strRecordName
 
 )
-```
-```
+
 
 #### Parameters
 

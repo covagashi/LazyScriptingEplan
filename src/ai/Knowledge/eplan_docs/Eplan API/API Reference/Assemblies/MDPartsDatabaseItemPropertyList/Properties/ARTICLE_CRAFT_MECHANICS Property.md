@@ -8,17 +8,12 @@ Trade 'Mechanics' # 22133.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CRAFT_MECHANICS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CRAFT_MECHANICS {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CRAFT_MECHANICS {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

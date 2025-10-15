@@ -8,17 +8,12 @@ Nominal voltage (control circuit) # 26496.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_RATED_VOLTAGE_OF_THE_CONTROL_CIRCUIT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_RATED_VOLTAGE_OF_THE_CONTROL_CIRCUIT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_RATED_VOLTAGE_OF_THE_CONTROL_CIRCUIT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Safety function # 20216.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_SAFETYRELEVANT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_SAFETYRELEVANT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_SAFETYRELEVANT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

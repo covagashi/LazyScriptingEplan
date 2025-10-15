@@ -8,11 +8,10 @@ Opens Installations space with the name passed to strName.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public InstallationSpace OpenInstallationSpace( 
 
    string strFullLinkFileName,
@@ -20,11 +19,7 @@ public InstallationSpace OpenInstallationSpace(
    string strFullName
 
 )
-```
-```
 
-```
-```
 public:
 
 InstallationSpace^ OpenInstallationSpace( 
@@ -34,8 +29,7 @@ InstallationSpace^ OpenInstallationSpace(
    String^ strFullName
 
 )
-```
-```
+
 
 #### Parameters
 

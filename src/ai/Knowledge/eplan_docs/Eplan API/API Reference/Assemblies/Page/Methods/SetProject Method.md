@@ -8,21 +8,16 @@ Assigns a page to a given project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetProject( 
 
    Project pProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetProject( 
@@ -30,8 +25,7 @@ void SetProject(
    Project^ pProject
 
 )
-```
-```
+
 
 #### Parameters
 

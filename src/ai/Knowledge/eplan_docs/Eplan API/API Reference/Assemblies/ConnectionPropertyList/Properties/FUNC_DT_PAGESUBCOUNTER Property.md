@@ -8,17 +8,12 @@ DT: Subpage # 20151.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DT_PAGESUBCOUNTER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DT_PAGESUBCOUNTER {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DT_PAGESUBCOUNTER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

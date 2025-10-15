@@ -8,17 +8,12 @@ Segment template: Description # 44049.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLASPECIFICATION_DESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLASPECIFICATION_DESCRIPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLASPECIFICATION_DESCRIPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

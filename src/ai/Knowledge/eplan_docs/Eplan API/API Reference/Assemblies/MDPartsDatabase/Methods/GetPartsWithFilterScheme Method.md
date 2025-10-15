@@ -8,21 +8,16 @@ Gets parts using the filter from GUI.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPart[] GetPartsWithFilterScheme( 
 
    string strGUIFilter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<MDPart^>^ GetPartsWithFilterScheme( 
@@ -30,8 +25,7 @@ array<MDPart^>^ GetPartsWithFilterScheme(
    String^ strGUIFilter
 
 )
-```
-```
+
 
 #### Parameters
 

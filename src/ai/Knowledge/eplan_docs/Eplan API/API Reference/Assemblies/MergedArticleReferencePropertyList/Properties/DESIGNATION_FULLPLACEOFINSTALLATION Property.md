@@ -8,17 +8,12 @@ Installation site # 1420.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FULLPLACEOFINSTALLATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FULLPLACEOFINSTALLATION {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FULLPLACEOFINSTALLATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

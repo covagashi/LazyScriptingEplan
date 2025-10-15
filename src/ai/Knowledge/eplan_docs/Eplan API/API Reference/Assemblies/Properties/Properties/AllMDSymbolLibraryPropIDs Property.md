@@ -8,17 +8,12 @@ Returns array of all P8 properties id which can exist for MDSymbolLibrary object
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static MDAnyPropertyId[] AllMDSymbolLibraryPropIDs {get;}
-```
-```
 
-```
-```
 public:
 
 static property array<MDAnyPropertyId^>^ AllMDSymbolLibraryPropIDs {
@@ -26,5 +21,4 @@ static property array<MDAnyPropertyId^>^ AllMDSymbolLibraryPropIDs {
    array<MDAnyPropertyId^>^ get();
 
 }
-```
-```
+

@@ -8,22 +8,16 @@ Add a new mounting panel position to the part. That position is added to the end
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartMountingPanelPosition AddMountingPanelPosition()
-```
-```
 
-```
-```
 public:
 
 MDPartMountingPanelPosition^ AddMountingPanelPosition();
-```
-```
+
 
 Remarks
 

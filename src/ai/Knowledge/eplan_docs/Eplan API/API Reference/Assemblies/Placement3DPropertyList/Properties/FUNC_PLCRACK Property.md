@@ -8,17 +8,12 @@ PLC card is placed on rack ID # 20410.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCRACK {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCRACK {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCRACK {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

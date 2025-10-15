@@ -8,17 +8,12 @@ Function designation (main identifier) # 1100.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_PLANT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_PLANT {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_PLANT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

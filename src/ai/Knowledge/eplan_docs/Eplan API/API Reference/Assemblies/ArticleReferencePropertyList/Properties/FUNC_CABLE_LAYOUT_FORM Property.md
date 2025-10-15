@@ -8,17 +8,12 @@ Cable assignment diagram form # 20092.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLE_LAYOUT_FORM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLE_LAYOUT_FORM {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLE_LAYOUT_FORM {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ All answers given to this comment combined into one text.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Answer {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Answer {
@@ -26,8 +21,7 @@ property String^ Answer {
    String^ get();
 
 }
-```
-```
+
 
 Remarks
 

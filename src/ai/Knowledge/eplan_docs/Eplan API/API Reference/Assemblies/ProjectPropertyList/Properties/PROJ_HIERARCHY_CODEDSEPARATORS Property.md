@@ -8,17 +8,12 @@ Separator for structures # 10018.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_HIERARCHY_CODEDSEPARATORS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_HIERARCHY_CODEDSEPARATORS {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_HIERARCHY_CODEDSEPARATORS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

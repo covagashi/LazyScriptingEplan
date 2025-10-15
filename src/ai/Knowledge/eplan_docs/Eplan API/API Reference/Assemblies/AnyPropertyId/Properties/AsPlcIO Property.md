@@ -8,17 +8,12 @@ Gets property id value as [Properties.PlcIO](Eplan.EplApi.DataModelu~Eplan.EplAp
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.PlcIO AsPlcIO {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.PlcIO AsPlcIO {
@@ -26,5 +21,4 @@ property Properties.PlcIO AsPlcIO {
    Properties.PlcIO get();
 
 }
-```
-```
+

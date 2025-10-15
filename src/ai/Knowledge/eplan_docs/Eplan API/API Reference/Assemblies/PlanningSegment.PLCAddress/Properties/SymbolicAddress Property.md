@@ -8,17 +8,12 @@ A single component of the symbolic address can be entered at structure segments 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SymbolicAddress {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ SymbolicAddress {
@@ -28,8 +23,7 @@ property String^ SymbolicAddress {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Remarks
 

@@ -8,17 +8,12 @@ Without sensor / actuator search for symbolic address # 20196.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCNO_TARGETSEARCH_FOR_AUTOSYMBOLICADDRESS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCNO_TARGETSEARCH_FOR_AUTOSYMBOLICADDRESS {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCNO_TARGETSEARCH_FOR_AUTOSYMBOLICADDRESS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

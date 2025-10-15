@@ -8,17 +8,12 @@ EPLAN properties of the SegmentTemplate object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new SegmentTemplatePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property SegmentTemplatePropertyList^ Properties {
@@ -26,12 +21,11 @@ new property SegmentTemplatePropertyList^ Properties {
    SegmentTemplatePropertyList^ get();
 
 }
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-216a1a12-68b8-4701-ad81-e3b258a6b1a4)
+**C#**
 
 ```
 Function func;

@@ -8,17 +8,12 @@ Name of the object. Useful if object was deleted.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string EntryName {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ EntryName {
@@ -26,5 +21,4 @@ property String^ EntryName {
    String^ get();
 
 }
-```
-```
+

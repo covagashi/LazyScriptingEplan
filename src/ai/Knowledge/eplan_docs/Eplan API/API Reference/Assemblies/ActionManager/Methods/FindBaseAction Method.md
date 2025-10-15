@@ -8,11 +8,10 @@ This function searches the base action for an existing action the base action ha
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Action FindBaseAction( 
 
    IEplAction pAction,
@@ -20,11 +19,7 @@ public Action FindBaseAction(
    bool bSilent
 
 )
-```
-```
 
-```
-```
 public:
 
 Action^ FindBaseAction( 
@@ -34,8 +29,7 @@ Action^ FindBaseAction(
    bool bSilent
 
 )
-```
-```
+
 
 #### Parameters
 

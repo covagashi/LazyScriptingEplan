@@ -8,17 +8,12 @@ Transport capacity of the operating fluid # 26326.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PUMPING_CAPACITY_OF_THE_OPERATING_LIQUID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PUMPING_CAPACITY_OF_THE_OPERATING_LIQUID {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PUMPING_CAPACITY_OF_THE_OPERATING_LIQUID {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

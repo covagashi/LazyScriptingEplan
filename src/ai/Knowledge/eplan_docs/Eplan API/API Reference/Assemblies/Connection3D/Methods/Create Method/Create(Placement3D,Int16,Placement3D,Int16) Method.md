@@ -8,11 +8,10 @@ Creates connection between two 3d placements.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Placement3D pStartObject,
@@ -24,11 +23,7 @@ public void Create(
    short nEndIndex
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -42,8 +37,7 @@ void Create(
    short nEndIndex
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -74,7 +68,7 @@ This method can create connection between connection points of two 3d functions.
 
 Example
 
-- [C#](#i-tab-content-ddfdc6a6-7b27-4a73-90fe-dd6625135399)
+**C#**
 
 ```
 //connecting two 3d functions using connection points 
@@ -83,14 +77,10 @@ Connection3D oConnection3D = new Connection3D();
 
 oConnection3D.Create(oFunction3D1, oFunction3D1.ConnectionPointPositions[0].Index, oFunction3D2, oFunction3D2.ConnectionPointPositions[2].Index);
 
-
-
 //creating connection between two 3d function and only for one of them a connection point is specified
 
 Connection3D oConnection3DOneConnectionPoint = new Connection3D();
 
 oConnection3D.Create(oFunction3D1, oFunction3D1.ConnectionPointPositions[0].Index, oFunction3D2, -1);
-
-
 
 ```

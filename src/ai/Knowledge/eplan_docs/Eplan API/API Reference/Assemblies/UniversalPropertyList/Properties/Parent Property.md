@@ -8,17 +8,12 @@ StorableObject to which this property list is connected.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject Parent {get;}
-```
-```
 
-```
-```
 public:
 
 property StorableObject^ Parent {
@@ -26,8 +21,7 @@ property StorableObject^ Parent {
    StorableObject^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

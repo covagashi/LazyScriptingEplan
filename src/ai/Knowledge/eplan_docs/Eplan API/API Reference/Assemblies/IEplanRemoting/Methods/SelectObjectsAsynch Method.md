@@ -8,11 +8,10 @@ Select Objects in Ged.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void SelectObjectsAsynch( 
 
    string strFullProjectName,
@@ -22,11 +21,7 @@ void SelectObjectsAsynch(
    bool bDeselectAll
 
 )
-```
-```
 
-```
-```
 void SelectObjectsAsynch( 
 
    String^ strFullProjectName,
@@ -36,8 +31,7 @@ void SelectObjectsAsynch(
    bool bDeselectAll
 
 )
-```
-```
+
 
 #### Parameters
 

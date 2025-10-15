@@ -8,20 +8,14 @@ Rotation and flipping
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ChangeOfStandard.RotationAndFlipping : System.Enum
-```
-```
 
-```
-```
 public enum class ChangeOfStandard.RotationAndFlipping : public System.Enum
-```
-```
+
 
 Members
 

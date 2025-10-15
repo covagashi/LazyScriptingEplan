@@ -8,17 +8,12 @@ Object which is being represented by this ViewPart.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement3D Source {get;}
-```
-```
 
-```
-```
 public:
 
 property Placement3D^ Source {
@@ -26,5 +21,4 @@ property Placement3D^ Source {
    Placement3D^ get();
 
 }
-```
-```
+

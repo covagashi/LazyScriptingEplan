@@ -18,22 +18,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PlaceHolderText : Eplan.EplApi.DataModel.Graphics.Text
-```
-```
 
-```
-```
 public ref class PlaceHolderText : public Eplan.EplApi.DataModel.Graphics.Text
-```
-```
-
-
 
 Public Constructors
 
@@ -42,8 +33,6 @@ Public Constructors
 | Public Constructor | [PlaceHolderText Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlaceHolderText~_ctor().html) | Constructor. When object created with this constructor, its `create` method must be called. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ Default property arrangement for variant C (alternative) # 16035.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMB_DEFAULT_ALTERNATIVE_PROPERTYSET_C {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMB_DEFAULT_ALTERNATIVE_PROPERTYSET_C {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMB_DEFAULT_ALTERNATIVE_PROPERTYSET_C {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

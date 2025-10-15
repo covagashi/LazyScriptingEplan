@@ -8,21 +8,16 @@ Row height # 12002.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_POSITIONSIZE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_POSITIONSIZE {
@@ -32,8 +27,7 @@ property PropertyValue^ FRAME_POSITIONSIZE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

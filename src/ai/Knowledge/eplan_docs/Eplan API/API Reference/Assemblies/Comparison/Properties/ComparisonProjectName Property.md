@@ -8,17 +8,12 @@ Path to reference project that was used to compare projects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ComparisonProjectName {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ ComparisonProjectName {
@@ -26,5 +21,4 @@ property String^ ComparisonProjectName {
    String^ get();
 
 }
-```
-```
+

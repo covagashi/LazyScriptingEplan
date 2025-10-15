@@ -8,17 +8,12 @@ Returns the opposite plane.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Plane OppositePlane {get;}
-```
-```
 
-```
-```
 public:
 
 property Plane^ OppositePlane {
@@ -26,8 +21,7 @@ property Plane^ OppositePlane {
    Plane^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

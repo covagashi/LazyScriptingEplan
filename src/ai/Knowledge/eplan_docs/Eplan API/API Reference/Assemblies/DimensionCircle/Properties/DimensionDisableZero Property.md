@@ -8,17 +8,12 @@ Gets/Sets whether the precision is set or not.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool DimensionDisableZero {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool DimensionDisableZero {
@@ -28,5 +23,4 @@ property bool DimensionDisableZero {
    void set (    bool value);
 
 }
-```
-```
+

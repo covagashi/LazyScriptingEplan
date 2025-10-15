@@ -8,17 +8,12 @@ Display of all counter targets # 24021.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INTERRUPTIONPOINT_SHOWALLCROSSREFERENCEDESTINATIONS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INTERRUPTIONPOINT_SHOWALLCROSSREFERENCEDESTINATIONS {
@@ -28,8 +23,7 @@ property PropertyValue^ INTERRUPTIONPOINT_SHOWALLCROSSREFERENCEDESTINATIONS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -9,17 +9,12 @@ IMPORTANT: If property is indexed you have to specify index.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsEmpty {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsEmpty {
@@ -27,8 +22,7 @@ property bool IsEmpty {
    bool get();
 
 }
-```
-```
+
 
 Remarks
 

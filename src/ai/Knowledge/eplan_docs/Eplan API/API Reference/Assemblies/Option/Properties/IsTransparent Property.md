@@ -8,17 +8,12 @@ The 'Transparent' flag of the Option.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsTransparent {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsTransparent {
@@ -28,8 +23,7 @@ property bool IsTransparent {
    void set (    bool value);
 
 }
-```
-```
+
 
 #### Property Value
 

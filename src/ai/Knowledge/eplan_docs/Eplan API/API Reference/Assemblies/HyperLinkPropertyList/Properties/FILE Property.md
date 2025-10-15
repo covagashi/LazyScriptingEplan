@@ -8,17 +8,12 @@ File / Document # 19304.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FILE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FILE {
@@ -28,8 +23,7 @@ property PropertyValue^ FILE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

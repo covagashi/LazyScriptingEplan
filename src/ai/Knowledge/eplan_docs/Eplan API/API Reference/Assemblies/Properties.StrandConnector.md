@@ -8,20 +8,14 @@ Identificators of properties owned by StrandConnector class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.StrandConnector : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.StrandConnector : public System.Enum
-```
-```
+
 
 Members
 

@@ -8,11 +8,10 @@ Creates location prototype using property list pProps. Property identifiers that
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool GetLocationPrototype( 
 
    Project.Hierarchy eHierarchy,
@@ -20,11 +19,7 @@ public bool GetLocationPrototype(
    UniversalPropertyList pOutPrototype
 
 )
-```
-```
 
-```
-```
 public:
 
 bool GetLocationPrototype( 
@@ -34,8 +29,7 @@ bool GetLocationPrototype(
    UniversalPropertyList^ pOutPrototype
 
 )
-```
-```
+
 
 #### Parameters
 

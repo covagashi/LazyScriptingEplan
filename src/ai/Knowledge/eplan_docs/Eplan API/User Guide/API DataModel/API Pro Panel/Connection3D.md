@@ -8,11 +8,8 @@ The  Connection3D  class represents a 3D connection between two  Placement3D�
 
 It inherits from the "normal" Connection.
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
-         
- // Creating a 3D connection that exists between two 3D functions
+```csharp
+// Creating a 3D connection that exists between two 3D functions
  Connection3D oConnection3DNoConnectionPoints = new Connection3D();
  oConnection3DNoConnectionPoints.Create(oFunction3D_1, oFunction3D_2);
  
@@ -26,5 +23,5 @@ It inherits from the "normal" Connection.
  olist.Add(oPlacement3D_2);
  ConnectionService3D oConnectionService3D = new ConnectionService3D();
  oConnectionService3D.RouteConnections(olist);
- ``` | |
+```
 

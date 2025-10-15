@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.Planning.SegmentDefinition](Eplan.EplApi.DataMod
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SegmentDefinition GetSegmentDefinition( 
 
    string strIdentName
 
 )
-```
-```
 
-```
-```
 public:
 
 SegmentDefinition^ GetSegmentDefinition( 
@@ -30,8 +25,7 @@ SegmentDefinition^ GetSegmentDefinition(
    String^ strIdentName
 
 )
-```
-```
+
 
 #### Parameters
 

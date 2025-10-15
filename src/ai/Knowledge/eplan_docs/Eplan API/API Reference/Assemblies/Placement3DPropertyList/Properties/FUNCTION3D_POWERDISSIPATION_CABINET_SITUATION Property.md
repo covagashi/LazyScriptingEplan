@@ -8,17 +8,12 @@ Thermal design: Installation situation # 36049.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_POWERDISSIPATION_CABINET_SITUATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_POWERDISSIPATION_CABINET_SITUATION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_POWERDISSIPATION_CABINET_SITUATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

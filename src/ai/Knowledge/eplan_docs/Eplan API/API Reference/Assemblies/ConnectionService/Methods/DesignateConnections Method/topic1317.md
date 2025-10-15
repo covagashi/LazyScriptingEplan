@@ -8,11 +8,10 @@ Designate connections (wires) with connection definition point.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DesignateConnections( 
 
    string strFullLinkFilePath,
@@ -36,11 +35,7 @@ public void DesignateConnections(
    bool[] bGroup
 
 )
-```
-```
 
-```
-```
 public:
 
 void DesignateConnections( 
@@ -66,8 +61,7 @@ void DesignateConnections(
    array<bool>^ bGroup
 
 )
-```
-```
+
 
 #### Parameters
 

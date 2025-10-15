@@ -8,11 +8,10 @@ Deletes keyword.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool DeleteKeyword( 
 
    string strText,
@@ -20,11 +19,7 @@ public bool DeleteKeyword(
    ISOCode.Language eLang
 
 )
-```
-```
 
-```
-```
 public:
 
 bool DeleteKeyword( 
@@ -34,8 +29,7 @@ bool DeleteKeyword(
    ISOCode.Language eLang
 
 )
-```
-```
+
 
 #### Parameters
 

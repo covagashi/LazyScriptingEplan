@@ -8,17 +8,12 @@ Color # 22080.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_COLOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_COLOR {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_COLOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

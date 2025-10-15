@@ -8,17 +8,12 @@ Environmental consideration # 10034.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_ENVIRONMENTALCONSIDERATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_ENVIRONMENTALCONSIDERATION {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_ENVIRONMENTALCONSIDERATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

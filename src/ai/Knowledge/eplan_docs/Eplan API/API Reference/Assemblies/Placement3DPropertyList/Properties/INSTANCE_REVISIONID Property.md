@@ -8,17 +8,12 @@ Revision change marker (from property comparison) # 10153.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTANCE_REVISIONID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTANCE_REVISIONID {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTANCE_REVISIONID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

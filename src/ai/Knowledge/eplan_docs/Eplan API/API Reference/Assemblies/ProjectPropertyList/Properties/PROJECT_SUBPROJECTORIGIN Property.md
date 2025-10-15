@@ -8,17 +8,12 @@ Subproject of # 25100.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJECT_SUBPROJECTORIGIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJECT_SUBPROJECTORIGIN {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJECT_SUBPROJECTORIGIN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

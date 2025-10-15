@@ -8,21 +8,16 @@ Adds the description of another context parameter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddParameter( 
 
    ActionParameterProperties oActionParameterProperties
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddParameter( 
@@ -30,8 +25,7 @@ void AddParameter(
    ActionParameterProperties^ oActionParameterProperties
 
 )
-```
-```
+
 
 #### Parameters
 

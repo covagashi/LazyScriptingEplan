@@ -15,33 +15,25 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PCTLoop : PlanningSegment, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
 
-```
-```
 public ref class PCTLoop : public PlanningSegment, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
+
 
 Example
 
 The names of PCT-Loops are composed of 4 properties. To change the name- change the 4 properties.
 
-- [C#](#i-tab-content-4030c46a-22a9-489b-bea5-6f4ab0b33b42)
+**C#**
 
 ```
 SegmentDefinition oSegmentDefinition = m_oTestProject.GetSegmentDefinition("Eplan.PCT.Loop");
 
 PCTLoop oPCTLoop  = PCTLoop.Create(oSegmentDefinition) as PCTLoop;
-
-
 
 oPCTLoop.Properties.DMPLAOBJECT_PCT_IDENTIFIER = "C";   //Technical facility
 
@@ -53,8 +45,6 @@ oPCTLoop.Properties.DMPLAOBJECT_PCT_NUMBER = "100";  //Number
 
 //oPCLoop.Name == "CTIR 100"                        //Full designation (name)
 
-
-
 ```
 
 Public Constructors
@@ -64,8 +54,6 @@ Public Constructors
 | Public Constructor | [PCTLoop Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PCTLoop~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ Sets the part variant of the Article;
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string partVariant {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ partVariant {
@@ -28,5 +23,4 @@ property String^ partVariant {
    void set (    String^ value);
 
 }
-```
-```
+

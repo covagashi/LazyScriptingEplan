@@ -8,17 +8,12 @@ Naming format for PLC / bus technology # 10077.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_NAMEFORMAT_PLC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_NAMEFORMAT_PLC {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_NAMEFORMAT_PLC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

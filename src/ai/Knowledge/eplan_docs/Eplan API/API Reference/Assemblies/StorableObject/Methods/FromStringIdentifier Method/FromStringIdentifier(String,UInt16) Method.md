@@ -8,11 +8,10 @@ Returns this object created from the string identifier
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static StorableObject FromStringIdentifier( 
 
    string strObject,
@@ -20,11 +19,7 @@ public static StorableObject FromStringIdentifier(
    ushort nId
 
 )
-```
-```
 
-```
-```
 public:
 
 static StorableObject^ FromStringIdentifier( 
@@ -34,8 +29,7 @@ static StorableObject^ FromStringIdentifier(
    ushort nId
 
 )
-```
-```
+
 
 #### Parameters
 

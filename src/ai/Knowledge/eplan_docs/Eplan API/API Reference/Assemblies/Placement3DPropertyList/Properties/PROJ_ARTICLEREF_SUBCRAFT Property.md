@@ -8,21 +8,16 @@ Subtrade of part reference # 20914.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_ARTICLEREF_SUBCRAFT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_ARTICLEREF_SUBCRAFT {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_ARTICLEREF_SUBCRAFT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

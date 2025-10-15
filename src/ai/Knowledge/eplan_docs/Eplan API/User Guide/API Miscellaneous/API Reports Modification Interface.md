@@ -16,8 +16,6 @@ The following steps need to be done to in order to use the interface:
 
 Each report template now contains a property that allows you to set an action name:
 
-
-
 If an action with this name is registered in Eplan, it is called on several occasions during report generation.
 
 During these steps, you can influence the texts that appear in the report as well as the objects that are reported and the order in which they appear.
@@ -30,11 +28,11 @@ The action from the template is called with the following parameters:
 
 Parameters:
 
-project  â Input parameter; value: ID of a project
+project  ' Input parameter; value: ID of a project
 
-mode  â Input parameter; value: "Start"
+mode  ' Input parameter; value: "Start"
 
-objects  â Input parameter; value: IDs of objects that will be updated (only if you UPDATE a report)
+objects  ' Input parameter; value: IDs of objects that will be updated (only if you UPDATE a report)
 
 Prepare project data for this report if necessary, fill caches etc.
 
@@ -42,11 +40,11 @@ Prepare project data for this report if necessary, fill caches etc.
 
 Parameters:
 
-project  â Input parameter; value: ID of a project
+project  ' Input parameter; value: ID of a project
 
-mode  â Input parameter; value: "ModifyObjectList"
+mode  ' Input parameter; value: "ModifyObjectList"
 
-objects  â Input / output parameter; value: IDs of objects that will be evaluated separated with semicolon
+objects  ' Input / output parameter; value: IDs of objects that will be evaluated separated with semicolon
 
 This list can be modified (but not the objects themselves!). You can add or remove object IDs from the list or change their order in the list.
 
@@ -56,11 +54,11 @@ The  objects  parameter can be set only in "ModifyObjectList" mode!
 
 Parameters:
 
-project  â Input parameter; value: ID of a project
+project  ' Input parameter; value: ID of a project
 
-mode  â Input parameter; value: "ModifyPages"
+mode  ' Input parameter; value: "ModifyPages"
 
-pages  â Input parameter; value: IDs of created pages separated by semicolon
+pages  ' Input parameter; value: IDs of created pages separated by semicolon
 
 The created pages and their properties can be modified.
 
@@ -68,9 +66,9 @@ The created pages and their properties can be modified.
 
 Parameters:
 
-project  â Input parameter; value: ID of a project
+project  ' Input parameter; value: ID of a project
 
-mode  â Input parameter; value: "Finish"
+mode  ' Input parameter; value: "Finish"
 
 Clean up caches or undo changes made in step 1.
 
@@ -82,11 +80,7 @@ This will ensure that reports can be created either in the "standard" way or in 
 
 The easiest way is to use a copy of an existing form. Such a form should be set in the Form field of the project template:
 
-
-
 The form can have a custom actions assigned to the placeholder text. This can be set in the Form editor:
-
-
 
 Now it is necessary to create the text processing action (see below).
 
@@ -94,11 +88,11 @@ Now it is necessary to create the text processing action (see below).
 
 This action is called when the placeholder text is evaluated during the report generation. The action is called with the following parameters:
 
-objects  â Input parameter; value: main object for the line (can be more than one).
+objects  ' Input parameter; value: main object for the line (can be more than one).
 
-ActionCallingContext.SetStrings()  â Output parameter; call  SetStrings()  of the calling context to set the result text. More than one result text will generate new lines.
+ActionCallingContext.SetStrings()  ' Output parameter; call  SetStrings()  of the calling context to set the result text. More than one result text will generate new lines.
 
-color  â Input / output parameter; value: "ColorId". Set this parameter to change the color of the placeholder text. It works with one result text only.   
+color  ' Input / output parameter; value: "ColorId". Set this parameter to change the color of the placeholder text. It works with one result text only.   
 Possible values are from 0 to 256. Please use "-16002" as "From layer" value.
 
 Predefined values for line color index are:
@@ -133,10 +127,8 @@ This can be done using the  Eplan::EplApi::HEServices::Masterdata  class.
 
 The following example shows how to create an embedded report with report a processing action:
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- // Copy a form with placeholder text processing action to the master data directory
+```csharp
+// Copy a form with placeholder text processing action to the master data directory
  File.Copy("c:\\temp\\PlugDiagramReportActionFormular.f22", new ProjectManager().Paths.Forms + "\\PlugDiagramReportActionFormular.f22", true);
  //... and add it to project master data
  StringCollection oProjectNewEntries = new StringCollection();
@@ -152,4 +144,4 @@ The following example shows how to create an embedded report with report a pr
  oReportBlock.Action = "PlugDiagramReportAction";
  // Generate the embedded report
  ReportBlockReference oReportBlockReference = new Reports().CreateEmbeddedReport(oReportBlock, oPage, new PointD(10.0, 300.0));
- ``` | |
+```

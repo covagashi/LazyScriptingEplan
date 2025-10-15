@@ -8,20 +8,14 @@ Type of snap.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum SnapTypes : System.Enum
-```
-```
 
-```
-```
 public enum class SnapTypes : public System.Enum
-```
-```
+
 
 Members
 

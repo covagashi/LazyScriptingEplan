@@ -8,17 +8,12 @@ Routing track source: Y coordinate # 31149.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_ROUTE_SOURCE_YPOS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_ROUTE_SOURCE_YPOS {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_ROUTE_SOURCE_YPOS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

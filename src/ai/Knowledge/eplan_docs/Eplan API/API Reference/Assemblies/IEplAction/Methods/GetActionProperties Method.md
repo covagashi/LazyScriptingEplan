@@ -8,28 +8,22 @@ Returns descriptive data for the action. For documentation purposes only.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void GetActionProperties( 
 
    ref ActionProperties actionProperties
 
 )
-```
-```
 
-```
-```
 void GetActionProperties( 
 
    ActionProperties^% actionProperties
 
 )
-```
-```
+
 
 #### Parameters
 

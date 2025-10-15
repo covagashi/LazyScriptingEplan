@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Spline : PolyLine
-```
-```
 
-```
-```
 public ref class Spline : public PolyLine
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [Spline Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Spline~_ctor().html) | Constructor. When object created with this constructor, its `create` method must be call. |
 
 [Top](#top)
-
-
 
 Public Properties
 

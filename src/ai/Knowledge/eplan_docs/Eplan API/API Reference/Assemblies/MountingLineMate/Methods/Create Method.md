@@ -8,11 +8,10 @@ Creates a mounting line mate.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    string strName,
@@ -24,11 +23,7 @@ public void Create(
    PointD3D pntEnd
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -42,8 +37,7 @@ void Create(
    PointD3D pntEnd
 
 )
-```
-```
+
 
 #### Parameters
 

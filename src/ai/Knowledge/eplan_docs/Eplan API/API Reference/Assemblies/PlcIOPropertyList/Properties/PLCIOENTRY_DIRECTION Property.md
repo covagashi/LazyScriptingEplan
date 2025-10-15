@@ -8,17 +8,12 @@ Direction # 23403.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PLCIOENTRY_DIRECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PLCIOENTRY_DIRECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ PLCIOENTRY_DIRECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

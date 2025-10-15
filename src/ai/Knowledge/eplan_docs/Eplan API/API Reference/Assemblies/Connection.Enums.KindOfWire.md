@@ -8,20 +8,14 @@ Kind of wire
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Connection.Enums.KindOfWire : System.Enum
-```
-```
 
-```
-```
 public enum class Connection.Enums.KindOfWire : public System.Enum
-```
-```
+
 
 Members
 

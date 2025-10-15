@@ -8,17 +8,12 @@ Purchase price/price unit Currency 2 # 22110.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PURCHASEPRICE_2 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PURCHASEPRICE_2 {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PURCHASEPRICE_2 {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

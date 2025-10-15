@@ -8,17 +8,12 @@ Include supplemental parts (summarized parts list) # 22415.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_DISASSEMBLE_ADDONPARTS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_DISASSEMBLE_ADDONPARTS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_DISASSEMBLE_ADDONPARTS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Modification date (change tracking) # 19032.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue INSTANCE_REVISION_LOG_DATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ INSTANCE_REVISION_LOG_DATE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ INSTANCE_REVISION_LOG_DATE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

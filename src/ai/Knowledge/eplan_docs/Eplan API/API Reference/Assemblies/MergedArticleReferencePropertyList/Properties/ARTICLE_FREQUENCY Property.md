@@ -8,17 +8,12 @@ Frequency # 26334.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_FREQUENCY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_FREQUENCY {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_FREQUENCY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

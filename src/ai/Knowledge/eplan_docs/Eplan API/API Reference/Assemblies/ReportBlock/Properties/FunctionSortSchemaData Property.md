@@ -8,17 +8,12 @@ Property data represents function sort scheme settings for report generation.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string FunctionSortSchemaData {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ FunctionSortSchemaData {
@@ -28,8 +23,7 @@ property String^ FunctionSortSchemaData {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Remarks
 

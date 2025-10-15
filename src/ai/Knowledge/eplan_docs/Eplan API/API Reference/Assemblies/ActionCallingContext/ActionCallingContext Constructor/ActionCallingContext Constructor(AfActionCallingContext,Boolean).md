@@ -8,11 +8,10 @@ For internal use only.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ActionCallingContext( 
 
    AfActionCallingContext* pAfActionCallingContext,
@@ -20,11 +19,7 @@ public ActionCallingContext(
    bool bDelete
 
 )
-```
-```
 
-```
-```
 public:
 
 ActionCallingContext( 
@@ -34,8 +29,7 @@ ActionCallingContext(
    bool bDelete
 
 )
-```
-```
+
 
 #### Parameters
 

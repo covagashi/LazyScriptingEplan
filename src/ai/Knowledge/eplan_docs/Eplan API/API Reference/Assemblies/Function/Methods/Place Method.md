@@ -8,11 +8,10 @@ Places the function onto the given page, in the given location
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function Place( 
 
    Page page,
@@ -26,11 +25,7 @@ public Function Place(
    bool setPropertyPlacementsSchema
 
 )
-```
-```
 
-```
-```
 public:
 
 Function^ Place( 
@@ -46,8 +41,7 @@ Function^ Place(
    bool setPropertyPlacementsSchema
 
 )
-```
-```
+
 
 #### Parameters
 

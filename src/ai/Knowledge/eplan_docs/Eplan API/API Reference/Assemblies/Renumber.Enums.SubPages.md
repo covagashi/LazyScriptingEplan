@@ -8,20 +8,14 @@ Parameter enum for pages numbering.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Renumber.Enums.SubPages : System.Enum
-```
-```
 
-```
-```
 public enum class Renumber.Enums.SubPages : public System.Enum
-```
-```
+
 
 Members
 

@@ -8,17 +8,12 @@ Remote control function # 26041.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_REMOTE_CONTROL_FUNCTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_REMOTE_CONTROL_FUNCTION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_REMOTE_CONTROL_FUNCTION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

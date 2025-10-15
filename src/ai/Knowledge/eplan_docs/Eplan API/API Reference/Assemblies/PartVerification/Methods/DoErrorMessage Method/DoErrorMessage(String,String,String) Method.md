@@ -8,11 +8,10 @@ Service function for the error output during a test. Text to display is taken fr
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void DoErrorMessage( 
 
    string strPartNumber,
@@ -22,11 +21,7 @@ public virtual void DoErrorMessage(
    string strTextParameter
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void DoErrorMessage( 
@@ -38,8 +33,7 @@ virtual void DoErrorMessage(
    String^ strTextParameter
 
 )
-```
-```
+
 
 #### Parameters
 

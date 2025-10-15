@@ -8,17 +8,12 @@ Model view: Selection scheme # 36506.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_UNITSELECTIONSCHEME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_UNITSELECTIONSCHEME {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_UNITSELECTIONSCHEME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

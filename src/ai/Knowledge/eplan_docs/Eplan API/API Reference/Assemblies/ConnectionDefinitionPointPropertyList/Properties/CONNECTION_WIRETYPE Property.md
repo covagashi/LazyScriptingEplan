@@ -8,17 +8,12 @@ Connection: Type designation # 31048.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_WIRETYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_WIRETYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_WIRETYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -5,17 +5,16 @@
 ---
 
 ```
-Imports or exports PLC data in the system database from or to "logi.cals logi.CAD 3" using AutomationML files. The supported file extension is "*.aml".
-```
+Imports or exports PLC data in the system database from or to "logi.cals logi.CAD 3" using AutomationML files. The supported file extension is "*.aml".
 
-  
+```
 
 **Remarks**
 
 ```
-Visible name = "logi.cals logi.CAD 3"
-```
+Visible name = "logi.cals logi.CAD 3"
 
-```
-Required for methods ExportData(), ImportData()
+
+Required for methods ExportData(), ImportData()
+
 ```

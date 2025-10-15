@@ -8,17 +8,12 @@ Switching capacity # 22072.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_ELECTRICALPOWER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_ELECTRICALPOWER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_ELECTRICALPOWER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

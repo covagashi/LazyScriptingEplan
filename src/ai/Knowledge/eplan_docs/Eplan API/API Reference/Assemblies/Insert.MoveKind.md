@@ -8,20 +8,14 @@ Enumeration, which determines whether a macro will be placed using absolute coor
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Insert.MoveKind : System.Enum
-```
-```
 
-```
-```
 public enum class Insert.MoveKind : public System.Enum
-```
-```
+
 
 Members
 

@@ -8,17 +8,12 @@ Total weight # 36108.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_CABINET_TOTALWEIGHT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_CABINET_TOTALWEIGHT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_CABINET_TOTALWEIGHT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

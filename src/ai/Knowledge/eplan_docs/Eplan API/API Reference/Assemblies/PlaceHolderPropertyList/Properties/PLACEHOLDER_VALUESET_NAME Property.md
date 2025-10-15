@@ -8,21 +8,16 @@ Value set name # 19303.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PLACEHOLDER_VALUESET_NAME( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PLACEHOLDER_VALUESET_NAME {
@@ -32,8 +27,7 @@ property PropertyValue^ PLACEHOLDER_VALUESET_NAME {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

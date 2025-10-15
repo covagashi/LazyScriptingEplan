@@ -8,24 +8,18 @@ Enum containing all possible setting of contact image.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [Flags()]
 
 public enum ContactImage.Enums.DisplayMaskType : System.Enum
-```
-```
 
-```
-```
 [Flags()]
 
 public enum class ContactImage.Enums.DisplayMaskType : public System.Enum
-```
-```
+
 
 Members
 

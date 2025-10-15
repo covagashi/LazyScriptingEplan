@@ -8,17 +8,12 @@ Port number. Default = -1.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int Port {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int Port {
@@ -28,5 +23,4 @@ property int Port {
    void set (    int value);
 
 }
-```
-```
+

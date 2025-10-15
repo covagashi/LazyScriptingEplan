@@ -8,17 +8,12 @@ The UnitId Property. Set or get the unit of the parameters.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Unit UnitID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Unit UnitID {
@@ -28,5 +23,4 @@ property Unit UnitID {
    void set (    Unit value);
 
 }
-```
-```
+

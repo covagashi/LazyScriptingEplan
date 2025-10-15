@@ -8,17 +8,12 @@ Distance of bars in busbar-system (distance is from top of bar to top of bar not
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual double BarDistance {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property double BarDistance {
@@ -26,5 +21,4 @@ virtual property double BarDistance {
    double get();
 
 }
-```
-```
+

@@ -8,25 +8,13 @@ Communication Callback interface to send a response to a Client.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IEplanRemotingCallBack
-```
-```
 
-```
-```
 public interface class IEplanRemotingCallBack
-```
-```
-
-
-
-
-
 
 Public Methods
 

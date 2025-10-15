@@ -8,17 +8,12 @@ Last editor / Modification date # 22901.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PART_LASTCHANGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PART_LASTCHANGE {
@@ -28,8 +23,7 @@ property PropertyValue^ PART_LASTCHANGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

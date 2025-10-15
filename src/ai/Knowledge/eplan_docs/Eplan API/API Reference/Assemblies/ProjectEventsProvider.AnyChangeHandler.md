@@ -8,11 +8,10 @@ Is called when something has changed in any project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public delegate void ProjectEventsProvider.AnyChangeHandler( 
 
    StorableObject[] createdObjects,
@@ -22,11 +21,7 @@ public delegate void ProjectEventsProvider.AnyChangeHandler(
    string[] destroyedObjects
 
 )
-```
-```
 
-```
-```
 public delegate void ProjectEventsProvider.AnyChangeHandler( 
 
    array<StorableObject^>^ createdObjects,
@@ -36,8 +31,7 @@ public delegate void ProjectEventsProvider.AnyChangeHandler(
    array<String^>^ destroyedObjects
 
 )
-```
-```
+
 
 #### Parameters
 

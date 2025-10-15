@@ -8,21 +8,16 @@ Viscosity index (acc. to DIN ISO 2909) # 26630.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_VISCOSITY_INDEX_ACCORDING_TO_DIN_ISO_2909( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_VISCOSITY_INDEX_ACCORDING_TO_DIN_ISO_2909 {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_VISCOSITY_INDEX_ACCORDING_TO_DIN_ISO_2909 {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 
@@ -47,4 +41,4 @@ Remarks
 
 Property is indexed. Possible indexes are from 1 to 50.
 
-Description of a temperature-related kinematic viscosity change of a base oil or a completely formulated oil, but not its actual viscosity. The viscosity index VI is used as a measure of the temperature dependence of the viscosity in lubricating oils in the field of application. This index is calculated from the kinematic viscosity at two reference temperatures, typically 40 Â°C and 100 Â°C.
+Description of a temperature-related kinematic viscosity change of a base oil or a completely formulated oil, but not its actual viscosity. The viscosity index VI is used as a measure of the temperature dependence of the viscosity in lubricating oils in the field of application. This index is calculated from the kinematic viscosity at two reference temperatures, typically 40 °C and 100 °C.

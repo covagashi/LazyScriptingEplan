@@ -8,17 +8,12 @@ Returns results of comparisons of projects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Comparison[] Comparisons {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Comparison^>^ Comparisons {
@@ -26,5 +21,4 @@ property array<Comparison^>^ Comparisons {
    array<Comparison^>^ get();
 
 }
-```
-```
+

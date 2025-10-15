@@ -8,17 +8,12 @@ Thermal design: Min. internal temperature # 36052.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_POWERDISSIPATION_CABINET_MIN_IN_TEMP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_POWERDISSIPATION_CABINET_MIN_IN_TEMP {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_POWERDISSIPATION_CABINET_MIN_IN_TEMP {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

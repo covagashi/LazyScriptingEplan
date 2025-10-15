@@ -8,21 +8,16 @@ Safety-related values: Use case in use # 20307.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_USED_SAFETYRELATEDVALUE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_USED_SAFETYRELATEDVALUE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_USED_SAFETYRELATEDVALUE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

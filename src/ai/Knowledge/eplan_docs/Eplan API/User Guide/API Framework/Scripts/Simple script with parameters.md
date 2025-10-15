@@ -14,8 +14,8 @@ Example
 
 In the following example, the script (i.e. the script function) requires 3 string parameters "Param1", "Param2" and "Param3":
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
@@ -38,14 +38,7 @@ public class SimpleScriptWithParameters
 
  }
 
-```
-
-```
-
-
 Public Class SimpleScriptWithParameters
-
-
 
    <Start>  _
 
@@ -69,8 +62,8 @@ It is important, that the identifiers (in this example "Param1", "Param2", "Para
 
 It is possible to use scripts with  ActionCallingContext  as a parameter. To do that, please look at the following example:
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
@@ -111,14 +104,7 @@ public class ScriptWithActionCallingContext
 
 }
 
-```
-
-```
-
-
 Public Class ScriptWithActionCallingContext
-
-
 
 <Start>  _
 

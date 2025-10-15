@@ -8,17 +8,12 @@ Nominal voltage (DC) # 26492.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_RATED_VOLTAGE_FOR_DC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_RATED_VOLTAGE_FOR_DC {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_RATED_VOLTAGE_FOR_DC {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

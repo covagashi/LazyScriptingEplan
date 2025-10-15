@@ -8,21 +8,16 @@ Starts a check run for the given installation spaces.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void VerifyInstallationSpace( 
 
    IEnumerable<InstallationSpace> colInstallationSpaces
 
 )
-```
-```
 
-```
-```
 public:
 
 void VerifyInstallationSpace( 
@@ -30,8 +25,7 @@ void VerifyInstallationSpace(
    IEnumerable<InstallationSpace^>^ colInstallationSpaces
 
 )
-```
-```
+
 
 #### Parameters
 

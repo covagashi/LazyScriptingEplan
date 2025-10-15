@@ -8,17 +8,12 @@ Remove placeholder object after generation with Eplan Cogineer # 19315.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PLACEHOLDER_DELETE_AFTER_USAGE_IN_COGINEER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PLACEHOLDER_DELETE_AFTER_USAGE_IN_COGINEER {
@@ -28,8 +23,7 @@ property PropertyValue^ PLACEHOLDER_DELETE_AFTER_USAGE_IN_COGINEER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

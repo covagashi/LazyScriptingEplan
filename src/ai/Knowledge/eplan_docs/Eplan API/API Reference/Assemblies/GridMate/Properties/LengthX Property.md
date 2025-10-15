@@ -8,17 +8,12 @@ Number of cells in X direction
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int LengthX {get;}
-```
-```
 
-```
-```
 public:
 
 property int LengthX {
@@ -26,5 +21,4 @@ property int LengthX {
    int get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ AutomationML GUID # 25030.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue AUTOMATIONML_OBJECTID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ AUTOMATIONML_OBJECTID {
@@ -28,8 +23,7 @@ property PropertyValue^ AUTOMATIONML_OBJECTID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

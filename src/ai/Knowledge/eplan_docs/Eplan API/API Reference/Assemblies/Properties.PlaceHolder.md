@@ -8,20 +8,14 @@ Identificators of properties owned by PlaceHolder class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.PlaceHolder : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.PlaceHolder : public System.Enum
-```
-```
+
 
 Members
 

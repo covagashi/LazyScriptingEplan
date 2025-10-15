@@ -8,11 +8,10 @@ Converts auxiliary function into main function.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AssignMainFunction( 
 
    Function pFunction,
@@ -22,11 +21,7 @@ public bool AssignMainFunction(
    bool bOverwriteFilledPropsWithEmptyProps
 
 )
-```
-```
 
-```
-```
 public:
 
 bool AssignMainFunction( 
@@ -38,8 +33,7 @@ bool AssignMainFunction(
    bool bOverwriteFilledPropsWithEmptyProps
 
 )
-```
-```
+
 
 #### Parameters
 

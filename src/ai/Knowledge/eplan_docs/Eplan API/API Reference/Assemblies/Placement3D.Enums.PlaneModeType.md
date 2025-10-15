@@ -8,20 +8,14 @@ Possible modes of plane.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Placement3D.Enums.PlaneModeType : System.Enum
-```
-```
 
-```
-```
 public enum class Placement3D.Enums.PlaneModeType : public System.Enum
-```
-```
+
 
 Members
 

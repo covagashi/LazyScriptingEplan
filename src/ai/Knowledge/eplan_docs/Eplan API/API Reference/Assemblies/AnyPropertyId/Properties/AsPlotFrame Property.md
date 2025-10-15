@@ -8,17 +8,12 @@ Gets property id value as [Properties.PlotFrame](Eplan.EplApi.DataModelu~Eplan.E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.PlotFrame AsPlotFrame {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.PlotFrame AsPlotFrame {
@@ -26,5 +21,4 @@ property Properties.PlotFrame AsPlotFrame {
    Properties.PlotFrame get();
 
 }
-```
-```
+

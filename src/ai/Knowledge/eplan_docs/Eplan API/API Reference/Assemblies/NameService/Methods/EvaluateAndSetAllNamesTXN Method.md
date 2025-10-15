@@ -8,11 +8,10 @@ Evaluate all names for all FunctionBase objects in the project by calling Evalua
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void EvaluateAndSetAllNamesTXN( 
 
    Project pProject,
@@ -22,11 +21,7 @@ public void EvaluateAndSetAllNamesTXN(
    bool bReParseVisibleName
 
 )
-```
-```
 
-```
-```
 public:
 
 void EvaluateAndSetAllNamesTXN( 
@@ -38,8 +33,7 @@ void EvaluateAndSetAllNamesTXN(
    bool bReParseVisibleName
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ Rotates objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Rotate( 
 
    Placement[] plcmnts,
@@ -22,11 +21,7 @@ public void Rotate(
    double angle
 
 )
-```
-```
 
-```
-```
 public:
 
 void Rotate( 
@@ -38,8 +33,7 @@ void Rotate(
    double angle
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -62,4 +56,4 @@ Exceptions
 
 Remarks
 
-Both graphical and logical elements may be rotated, however, when `plcmnts` contains any logical objects it could be rotated only in 90Â° increments. When different value in `angle` is given the rotation will align with the closest angle possible that is coherent with the rule.
+Both graphical and logical elements may be rotated, however, when `plcmnts` contains any logical objects it could be rotated only in 90° increments. When different value in `angle` is given the rotation will align with the closest angle possible that is coherent with the rule.

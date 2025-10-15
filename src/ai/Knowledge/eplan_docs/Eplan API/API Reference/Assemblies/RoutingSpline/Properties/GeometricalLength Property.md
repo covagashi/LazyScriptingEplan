@@ -8,17 +8,12 @@ Geometrical length of routing segment.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override double GeometricalLength {get;}
-```
-```
 
-```
-```
 public:
 
 property double GeometricalLength {
@@ -26,5 +21,4 @@ property double GeometricalLength {
    double get() override;
 
 }
-```
-```
+

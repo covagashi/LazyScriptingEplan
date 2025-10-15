@@ -8,17 +8,12 @@ Returns daisy chains of a net definition point
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DaisyChain[] DaisyChains {get;}
-```
-```
 
-```
-```
 public:
 
 property array<DaisyChain^>^ DaisyChains {
@@ -26,5 +21,4 @@ property array<DaisyChain^>^ DaisyChains {
    array<DaisyChain^>^ get();
 
 }
-```
-```
+

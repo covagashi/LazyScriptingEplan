@@ -8,17 +8,12 @@ The LambdaD
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double LambdaD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double LambdaD {
@@ -28,5 +23,4 @@ property double LambdaD {
    void set (    double value);
 
 }
-```
-```
+

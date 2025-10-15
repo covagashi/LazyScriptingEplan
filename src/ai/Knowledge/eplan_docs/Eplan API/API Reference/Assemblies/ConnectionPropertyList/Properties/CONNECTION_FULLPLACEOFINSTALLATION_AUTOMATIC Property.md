@@ -8,17 +8,12 @@ Installation site (automatic) # 31107.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_FULLPLACEOFINSTALLATION_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_FULLPLACEOFINSTALLATION_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_FULLPLACEOFINSTALLATION_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

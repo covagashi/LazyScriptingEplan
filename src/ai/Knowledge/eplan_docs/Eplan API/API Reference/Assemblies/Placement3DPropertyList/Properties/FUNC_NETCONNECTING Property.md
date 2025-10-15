@@ -8,17 +8,12 @@ Net-connecting # 20217.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_NETCONNECTING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_NETCONNECTING {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_NETCONNECTING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

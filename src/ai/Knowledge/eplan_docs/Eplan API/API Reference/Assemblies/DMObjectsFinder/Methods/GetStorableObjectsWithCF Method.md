@@ -8,21 +8,16 @@ Returns all objects of classes StorableObject and inherited from StorableObject,
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] GetStorableObjectsWithCF( 
 
    ICustomFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ GetStorableObjectsWithCF( 
@@ -30,8 +25,7 @@ array<StorableObject^>^ GetStorableObjectsWithCF(
    ICustomFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Terminal.Bridge
-```
-```
 
-```
-```
 public ref class Terminal.Bridge
-```
-```
+
 
 Remarks
 
@@ -34,7 +28,7 @@ Each bridge connection (a segment) is represented by an item in the array return
 
 Example
 
-- [C#](#i-tab-content-c032732c-f345-4aab-8ec8-c3f6556f183d)
+**C#**
 
 ```
 Terminal term1; // A single-level terminal with some bridge connections existing and connected to it
@@ -51,8 +45,6 @@ Terminal.Bridge.BridgeInfo[] arrBridgeSegments = arrBridges[0].BridgeSegments;  
 
 																				// internal, external, saddleslot 3, saddleslot 4 and saddleslot 5
 
-
-
 Terminal other = arrBridgeSegments[0].BridgedTerminal;
 
 Connection brCn = arrBridgeSegments[0].Conn;
@@ -65,8 +57,6 @@ if (other != null && brCn != null)
 
 }
 
-
-
 Terminal term1of3; // A part of a 3-level terminal.
 
 arrBridges = term1of3.Bridges; // If there's a bridge on each level, the array contains 3 elements.
@@ -76,8 +66,6 @@ arrBridgeSegments = arrBridges[0].BridgeSegments; // All bridge connections (i.e
 arrBridgeSegments = arrBridges[1].BridgeSegments; // All bridge connections of the second level
 
 arrBridgeSegments = arrBridges[2].BridgeSegments; // All bridge connections of the third level
-
-
 
 Terminal level3 = arrBridges[2].Term;
 
@@ -95,8 +83,6 @@ if (other != null && brCn != null)
 
 }
 ```
-
-
 
 Public Fields
 

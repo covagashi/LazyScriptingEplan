@@ -8,17 +8,12 @@ Gets the first radius value of the ellipse. This property returns proper value f
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double FirstRadius {get;}
-```
-```
 
-```
-```
 public:
 
 property double FirstRadius {
@@ -26,5 +21,4 @@ property double FirstRadius {
    double get();
 
 }
-```
-```
+

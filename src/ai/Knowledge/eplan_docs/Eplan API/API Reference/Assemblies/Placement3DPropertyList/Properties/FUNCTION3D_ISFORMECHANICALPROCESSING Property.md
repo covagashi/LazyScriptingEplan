@@ -8,17 +8,12 @@ Machining # 36004.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_ISFORMECHANICALPROCESSING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_ISFORMECHANICALPROCESSING {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_ISFORMECHANICALPROCESSING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

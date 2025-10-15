@@ -8,17 +8,12 @@ The spacing repeat of the drilling.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double SpacingRepeat {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double SpacingRepeat {
@@ -28,5 +23,4 @@ property double SpacingRepeat {
    void set (    double value);
 
 }
-```
-```
+

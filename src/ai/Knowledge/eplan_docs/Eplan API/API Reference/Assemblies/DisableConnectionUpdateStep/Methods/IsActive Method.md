@@ -8,19 +8,13 @@ Returns true if an object of this class has been created and prevents connection
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static bool IsActive()
-```
-```
 
-```
-```
 public:
 
 static bool IsActive();
-```
-```
+

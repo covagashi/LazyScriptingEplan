@@ -8,17 +8,12 @@ Gets pages open in GED.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Page[] OpenedPages {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Page^>^ OpenedPages {
@@ -26,8 +21,7 @@ property array<Page^>^ OpenedPages {
    array<Page^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

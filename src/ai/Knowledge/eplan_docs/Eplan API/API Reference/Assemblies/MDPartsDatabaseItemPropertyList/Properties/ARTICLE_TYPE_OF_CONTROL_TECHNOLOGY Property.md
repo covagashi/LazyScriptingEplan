@@ -8,17 +8,12 @@ Type of control (technology) # 26019.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TYPE_OF_CONTROL_TECHNOLOGY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TYPE_OF_CONTROL_TECHNOLOGY {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TYPE_OF_CONTROL_TECHNOLOGY {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

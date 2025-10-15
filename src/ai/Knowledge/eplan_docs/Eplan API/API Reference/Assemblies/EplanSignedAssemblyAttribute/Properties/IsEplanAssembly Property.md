@@ -8,17 +8,12 @@ Tells this assembly is an eplan assembly. The licence of this assembly is checke
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsEplanAssembly {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsEplanAssembly {
@@ -26,5 +21,4 @@ property bool IsEplanAssembly {
    bool get();
 
 }
-```
-```
+

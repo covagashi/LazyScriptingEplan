@@ -8,17 +8,12 @@ Product (main identifier) # 1800.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_PRODUCT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_PRODUCT {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_PRODUCT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

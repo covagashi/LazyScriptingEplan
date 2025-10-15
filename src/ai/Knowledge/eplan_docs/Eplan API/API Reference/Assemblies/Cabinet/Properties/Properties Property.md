@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new CabinetPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property CabinetPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property CabinetPropertyList^ Properties {
    CabinetPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

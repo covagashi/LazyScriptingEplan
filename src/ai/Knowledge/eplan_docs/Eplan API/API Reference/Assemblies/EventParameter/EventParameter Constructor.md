@@ -8,21 +8,16 @@ For internal use only.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public EventParameter( 
 
    AfEventParameter* pAfEventParameter
 
 )
-```
-```
 
-```
-```
 public:
 
 EventParameter( 
@@ -30,8 +25,7 @@ EventParameter(
    AfEventParameter* pAfEventParameter
 
 )
-```
-```
+
 
 #### Parameters
 

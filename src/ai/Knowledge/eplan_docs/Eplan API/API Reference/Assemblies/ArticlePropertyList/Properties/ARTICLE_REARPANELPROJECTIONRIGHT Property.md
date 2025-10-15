@@ -8,17 +8,12 @@ Overhang: Rear panel right # 22170.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_REARPANELPROJECTIONRIGHT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_REARPANELPROJECTIONRIGHT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_REARPANELPROJECTIONRIGHT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

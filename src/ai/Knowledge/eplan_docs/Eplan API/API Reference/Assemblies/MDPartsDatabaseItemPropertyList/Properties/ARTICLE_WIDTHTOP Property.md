@@ -8,17 +8,12 @@ Width top # 22198.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_WIDTHTOP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_WIDTHTOP {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_WIDTHTOP {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,19 +8,13 @@ Returns those page document types, which are considered when collecting elements
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static DocumentTypeManager.DocumentType[] GetFctDocTypesVisibleInNavigator()
-```
-```
 
-```
-```
 public:
 
 static array<DocumentTypeManager.DocumentType>^ GetFctDocTypesVisibleInNavigator();
-```
-```
+

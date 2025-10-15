@@ -8,21 +8,16 @@ This function of the script is registered as an event handler in the system.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DeclareEventHandler( 
 
    string strEventName
 
 )
-```
-```
 
-```
-```
 public:
 
 DeclareEventHandler( 
@@ -30,8 +25,7 @@ DeclareEventHandler(
    String^ strEventName
 
 )
-```
-```
+
 
 #### Parameters
 

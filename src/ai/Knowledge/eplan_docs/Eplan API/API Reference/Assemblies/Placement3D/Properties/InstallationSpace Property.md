@@ -8,17 +8,12 @@ Returns [InstallationSpace](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.I
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public InstallationSpace InstallationSpace {get;}
-```
-```
 
-```
-```
 public:
 
 property InstallationSpace^ InstallationSpace {
@@ -26,5 +21,4 @@ property InstallationSpace^ InstallationSpace {
    InstallationSpace^ get();
 
 }
-```
-```
+

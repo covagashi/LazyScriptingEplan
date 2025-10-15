@@ -8,17 +8,12 @@ Returns standard [Eplan.EplApi.DataModel.MasterData.FunctionDefinitionLibrary](E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FunctionDefinitionLibrary FunctionDefinitionLibrary {get;}
-```
-```
 
-```
-```
 public:
 
 property FunctionDefinitionLibrary^ FunctionDefinitionLibrary {
@@ -26,5 +21,4 @@ property FunctionDefinitionLibrary^ FunctionDefinitionLibrary {
    FunctionDefinitionLibrary^ get();
 
 }
-```
-```
+

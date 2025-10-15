@@ -8,22 +8,16 @@ Aborts the transaction. Cannot be called more than one time for given transactio
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Abort()
-```
-```
 
-```
-```
 public:
 
 void Abort();
-```
-```
+
 
 Exceptions
 

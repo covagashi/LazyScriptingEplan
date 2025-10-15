@@ -8,17 +8,12 @@ Gets or sets insert macro box property.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MacroBox.Enums.InsertMacroBox InsertMacroBox {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MacroBox.Enums.InsertMacroBox InsertMacroBox {
@@ -28,8 +23,7 @@ property MacroBox.Enums.InsertMacroBox InsertMacroBox {
    void set (    MacroBox.Enums.InsertMacroBox value);
 
 }
-```
-```
+
 
 Remarks
 

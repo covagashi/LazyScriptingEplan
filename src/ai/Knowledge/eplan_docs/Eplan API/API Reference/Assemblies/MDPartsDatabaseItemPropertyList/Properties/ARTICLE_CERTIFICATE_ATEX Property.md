@@ -8,17 +8,12 @@ Certification: ATEX identifier # 22270.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CERTIFICATE_ATEX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CERTIFICATE_ATEX {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CERTIFICATE_ATEX {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

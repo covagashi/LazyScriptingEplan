@@ -8,17 +8,12 @@ The position of user defined handle.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D ReferencePoint3D {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD3D ReferencePoint3D {
@@ -26,8 +21,7 @@ property PointD3D ReferencePoint3D {
    PointD3D get();
 
 }
-```
-```
+
 
 #### Property Value
 

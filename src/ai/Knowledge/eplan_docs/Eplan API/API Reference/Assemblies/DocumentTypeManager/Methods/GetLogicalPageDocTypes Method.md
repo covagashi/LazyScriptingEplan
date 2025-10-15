@@ -8,19 +8,13 @@ Gets logical page types.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static DocumentTypeManager.DocumentType[] GetLogicalPageDocTypes()
-```
-```
 
-```
-```
 public:
 
 static array<DocumentTypeManager.DocumentType>^ GetLogicalPageDocTypes();
-```
-```
+

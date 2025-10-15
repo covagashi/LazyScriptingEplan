@@ -8,19 +8,13 @@ Returns a list of PLC configurations existing in a current project
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string[] GetAvailableSchemeList()
-```
-```
 
-```
-```
 public:
 
 array<String^>^ GetAvailableSchemeList();
-```
-```
+

@@ -8,11 +8,10 @@ Finds all connections on the same scheme as `oSourceConnection` that transmit th
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void TrackSignal( 
 
    Connection oSourceConnection,
@@ -20,11 +19,7 @@ public void TrackSignal(
    List<Connection> foundConnectionList
 
 )
-```
-```
 
-```
-```
 public:
 
 void TrackSignal( 
@@ -34,8 +29,7 @@ void TrackSignal(
    List<Connection^>^ foundConnectionList
 
 )
-```
-```
+
 
 #### Parameters
 

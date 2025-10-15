@@ -8,11 +8,10 @@ Generates list of unused or deleted connection from project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool GenerateListOfUnusedConnections( 
 
    Project oPrj,
@@ -22,11 +21,7 @@ public bool GenerateListOfUnusedConnections(
    bool bExportOnlyDeletedConnections
 
 )
-```
-```
 
-```
-```
 public:
 
 bool GenerateListOfUnusedConnections( 
@@ -38,8 +33,7 @@ bool GenerateListOfUnusedConnections(
    bool bExportOnlyDeletedConnections
 
 )
-```
-```
+
 
 #### Parameters
 

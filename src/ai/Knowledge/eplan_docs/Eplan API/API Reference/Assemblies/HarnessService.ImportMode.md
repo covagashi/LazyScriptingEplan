@@ -8,24 +8,18 @@ Mode for the import can be a combination of following values
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [Flags()]
 
 public enum HarnessService.ImportMode : System.Enum
-```
-```
 
-```
-```
 [Flags()]
 
 public enum class HarnessService.ImportMode : public System.Enum
-```
-```
+
 
 Members
 

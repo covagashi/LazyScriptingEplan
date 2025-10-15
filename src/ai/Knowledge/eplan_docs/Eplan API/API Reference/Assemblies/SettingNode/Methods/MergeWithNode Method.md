@@ -8,21 +8,16 @@ Merges settings nodes.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool MergeWithNode( 
 
    SettingNode oSettingNode
 
 )
-```
-```
 
-```
-```
 public:
 
 bool MergeWithNode( 
@@ -30,8 +25,7 @@ bool MergeWithNode(
    SettingNode^ oSettingNode
 
 )
-```
-```
+
 
 #### Parameters
 

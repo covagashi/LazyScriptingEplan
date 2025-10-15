@@ -8,11 +8,10 @@ Creates a Function. It is not placed on any [Page](Eplan.EplApi.DataModelu~Eplan
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Create( 
 
    Project proj,
@@ -20,11 +19,7 @@ public virtual void Create(
    SymbolVariant symbVariant
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void Create( 
@@ -34,8 +29,7 @@ virtual void Create(
    SymbolVariant^ symbVariant
 
 )
-```
-```
+
 
 #### Parameters
 

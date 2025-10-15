@@ -8,17 +8,12 @@ Returns the list of the accessories from the article.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Article.Accessory[] ArticleAccessories {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Article.Accessory^>^ ArticleAccessories {
@@ -26,8 +21,7 @@ property array<Article.Accessory^>^ ArticleAccessories {
    array<Article.Accessory^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

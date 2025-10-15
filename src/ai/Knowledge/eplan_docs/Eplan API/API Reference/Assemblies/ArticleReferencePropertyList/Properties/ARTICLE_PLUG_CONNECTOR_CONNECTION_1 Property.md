@@ -8,17 +8,12 @@ Plug-in connector (connection 1) # 26575.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PLUG_CONNECTOR_CONNECTION_1 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PLUG_CONNECTOR_CONNECTION_1 {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PLUG_CONNECTOR_CONNECTION_1 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

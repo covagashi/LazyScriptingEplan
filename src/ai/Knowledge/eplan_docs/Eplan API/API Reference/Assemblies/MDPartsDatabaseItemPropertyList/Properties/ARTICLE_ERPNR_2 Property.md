@@ -8,17 +8,12 @@ ERP / PDM number 2 # 22371.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_ERPNR_2 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_ERPNR_2 {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_ERPNR_2 {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

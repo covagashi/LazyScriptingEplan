@@ -8,21 +8,16 @@ Error: Function definition # 15100.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBLIB_FUNCDEFERROR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBLIB_FUNCDEFERROR {
@@ -32,8 +27,7 @@ property MDPropertyValue^ SYMBLIB_FUNCDEFERROR {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ If TRUE, connected distributed terminals will be sorted on the strip, so that th
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool UniteConnected {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool UniteConnected {
@@ -28,5 +23,4 @@ property bool UniteConnected {
    void set (    bool value);
 
 }
-```
-```
+

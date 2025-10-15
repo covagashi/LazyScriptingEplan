@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddRegistrationCommand( 
 
    IRibbonRegistrationCommand command
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddRegistrationCommand( 
@@ -28,8 +23,7 @@ void AddRegistrationCommand(
    IRibbonRegistrationCommand^ command
 
 )
-```
-```
+
 
 #### Parameters
 

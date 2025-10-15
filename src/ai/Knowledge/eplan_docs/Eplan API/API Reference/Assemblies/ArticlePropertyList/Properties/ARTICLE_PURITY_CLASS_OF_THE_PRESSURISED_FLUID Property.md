@@ -8,17 +8,12 @@ Purity class of the pressurized fluid # 26059.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PURITY_CLASS_OF_THE_PRESSURISED_FLUID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PURITY_CLASS_OF_THE_PRESSURISED_FLUID {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PURITY_CLASS_OF_THE_PRESSURISED_FLUID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

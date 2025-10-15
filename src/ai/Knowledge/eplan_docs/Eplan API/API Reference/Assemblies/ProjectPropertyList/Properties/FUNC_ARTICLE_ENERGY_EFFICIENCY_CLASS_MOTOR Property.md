@@ -8,21 +8,16 @@ Energy efficiency class (motor) # 26304.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_ENERGY_EFFICIENCY_CLASS_MOTOR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_ENERGY_EFFICIENCY_CLASS_MOTOR {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_ENERGY_EFFICIENCY_CLASS_MOTOR {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

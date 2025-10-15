@@ -8,25 +8,13 @@ Interface for a special test class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IInterruptionPointVerification : IMessage, IVerification, IVerificationBase
-```
-```
 
-```
-```
 public interface class IInterruptionPointVerification : public IMessage, IVerification, IVerificationBase
-```
-```
-
-
-
-
-
 
 Public Methods
 

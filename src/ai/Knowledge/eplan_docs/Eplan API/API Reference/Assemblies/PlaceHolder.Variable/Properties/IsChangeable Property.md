@@ -8,17 +8,12 @@ Returns true if variable is set as changeable
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsChangeable {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsChangeable {
@@ -28,8 +23,7 @@ property bool IsChangeable {
    void set (    bool value);
 
 }
-```
-```
+
 
 #### Property Value
 

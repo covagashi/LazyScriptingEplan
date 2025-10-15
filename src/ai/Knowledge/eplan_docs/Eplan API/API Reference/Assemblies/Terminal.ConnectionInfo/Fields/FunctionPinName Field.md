@@ -8,19 +8,13 @@ Name of pin to which connection is assigned.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string FunctionPinName
-```
-```
 
-```
-```
 public:
 
 String^ FunctionPinName
-```
-```
+

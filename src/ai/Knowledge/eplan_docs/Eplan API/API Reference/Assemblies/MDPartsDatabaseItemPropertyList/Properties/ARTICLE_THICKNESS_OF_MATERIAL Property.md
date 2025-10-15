@@ -8,17 +8,12 @@ Material thickness # 26096.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_THICKNESS_OF_MATERIAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_THICKNESS_OF_MATERIAL {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_THICKNESS_OF_MATERIAL {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

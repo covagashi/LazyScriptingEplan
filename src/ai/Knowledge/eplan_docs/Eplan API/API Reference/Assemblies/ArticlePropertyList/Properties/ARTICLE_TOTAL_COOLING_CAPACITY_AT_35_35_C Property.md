@@ -4,21 +4,16 @@
 
 ---
 
-Total cooling capacity (at 35/35Â°C) # 26105.
+Total cooling capacity (at 35/35°C) # 26105.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TOTAL_COOLING_CAPACITY_AT_35_35_C {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TOTAL_COOLING_CAPACITY_AT_35_35_C {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TOTAL_COOLING_CAPACITY_AT_35_35_C {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Describes the cooling capacity of a device, measured at an ambient temperature of 35 Â°C and an internal temperature of 35 Â°C. This specification is often made in watts (W) and specifies how much heat the device can dissipate under these conditions.
+Describes the cooling capacity of a device, measured at an ambient temperature of 35 °C and an internal temperature of 35 °C. This specification is often made in watts (W) and specifies how much heat the device can dissipate under these conditions.

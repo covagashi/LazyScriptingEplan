@@ -8,11 +8,10 @@ Add a new symbol position to part. Symbol is added at the first available index 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static MDSymbolPosition AddSymbolPosition( 
 
    MDPart pMDPart,
@@ -24,11 +23,7 @@ public static MDSymbolPosition AddSymbolPosition(
    int iSymbolVariantNr
 
 )
-```
-```
 
-```
-```
 public:
 
 static MDSymbolPosition^ AddSymbolPosition( 
@@ -42,8 +37,7 @@ static MDSymbolPosition^ AddSymbolPosition(
    int iSymbolVariantNr
 
 )
-```
-```
+
 
 #### Parameters
 

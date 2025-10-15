@@ -8,21 +8,16 @@ Returns [Connection](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Connection.h
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Connection[] GetConnectionsWithCF( 
 
    ICustomFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Connection^>^ GetConnectionsWithCF( 
@@ -30,8 +25,7 @@ array<Connection^>^ GetConnectionsWithCF(
    ICustomFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

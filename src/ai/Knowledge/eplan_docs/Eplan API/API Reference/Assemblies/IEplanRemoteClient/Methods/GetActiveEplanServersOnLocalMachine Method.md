@@ -8,28 +8,22 @@ Get Eplan Servers that are currently active on local machine.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void GetActiveEplanServersOnLocalMachine( 
 
    out List<EplanServerData> lServers
 
 )
-```
-```
 
-```
-```
 void GetActiveEplanServersOnLocalMachine( 
 
    [Out] List<EplanServerData^>^ lServers
 
 )
-```
-```
+
 
 #### Parameters
 

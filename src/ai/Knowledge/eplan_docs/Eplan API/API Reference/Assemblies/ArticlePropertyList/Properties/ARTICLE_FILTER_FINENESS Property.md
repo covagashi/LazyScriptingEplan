@@ -8,17 +8,12 @@ Grade of filtration # 26586.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_FILTER_FINENESS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_FILTER_FINENESS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_FILTER_FINENESS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Ability of a filter to retain particles of a certain size. The value is given in micrometers (Âµm) and indicates the maximum diameter of particles and suspended matter which are just let through by a filter irrespective of the type of filter material.
+Ability of a filter to retain particles of a certain size. The value is given in micrometers (µm) and indicates the maximum diameter of particles and suspended matter which are just let through by a filter irrespective of the type of filter material.

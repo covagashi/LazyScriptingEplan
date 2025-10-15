@@ -8,17 +8,12 @@ Numbered using PLC data # 20812.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CHANGEDBYPLCNUM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CHANGEDBYPLCNUM {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CHANGEDBYPLCNUM {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

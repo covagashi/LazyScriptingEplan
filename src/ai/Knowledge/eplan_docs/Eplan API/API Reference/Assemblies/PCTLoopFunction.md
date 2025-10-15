@@ -15,22 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PCTLoopFunction : PlanningSegment, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
 
-```
-```
 public ref class PCTLoopFunction : public PlanningSegment, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
-
-
 
 Public Constructors
 
@@ -39,8 +30,6 @@ Public Constructors
 | Public Constructor | [PCTLoopFunction Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PCTLoopFunction~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ Returns 1-based index of property ARTICLE\_REPORT\_SYMBOL under which data repre
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int RefPos {get;}
-```
-```
 
-```
-```
 public:
 
 property int RefPos {
@@ -26,5 +21,4 @@ property int RefPos {
    int get();
 
 }
-```
-```
+

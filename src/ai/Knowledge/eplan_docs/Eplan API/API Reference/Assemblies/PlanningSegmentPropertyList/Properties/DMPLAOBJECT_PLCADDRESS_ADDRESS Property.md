@@ -8,21 +8,16 @@ PLC address: Configuration project # 44048.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_PLCADDRESS_CONFIGURATIONPROJECT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_PLCADDRESS_CONFIGURATIONPROJECT {
@@ -32,8 +27,7 @@ property PropertyValue^ DMPLAOBJECT_PLCADDRESS_CONFIGURATIONPROJECT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDPartsDatabase
-```
-```
 
-```
-```
 public ref class MDPartsDatabase
-```
-```
+
 
 Remarks
 
 It's possible to work on other parts database that configured in the EPLAN Settings
-
-
 
 Public Constructors
 
@@ -41,8 +33,6 @@ Public Constructors
 | Public Constructor | [MDPartsDatabase Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabase~_ctor(String).html) | Opens parts database |
 
 [Top](#top)
-
-
 
 Public Properties
 

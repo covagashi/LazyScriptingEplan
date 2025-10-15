@@ -6,20 +6,14 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ProjectSections.Enums.State : System.Enum
-```
-```
 
-```
-```
 public enum class ProjectSections.Enums.State : public System.Enum
-```
-```
+
 
 Members
 

@@ -40,8 +40,6 @@ The name of the DLL must be entered explicitly in the search field.
 
 When added, please set the property Copy to Output Directory to "Copy always":
 
-
-
 All the DLLs are stored in the Eplan platform  BIN  folder. Below are examples how to use it.
 
 ## Eplan Remoting Overview
@@ -82,73 +80,59 @@ The following examples show how to use Eplan remoting.
 
 ### Establishing a connection with the localhost
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- EplanRemoteClient oClient = new EplanRemoteClient();
+```csharp
+EplanRemoteClient oClient = new EplanRemoteClient();
  bool bConnected = oClient.Connect("localhost", "49152");  // Default port for Eplan instance is 49152
- ``` | |
+```
 
 ### Establishing a connection with a remote server
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- EplanRemoteClient oClient = new EplanRemoteClient();
+```csharp
+EplanRemoteClient oClient = new EplanRemoteClient();
  bool bConnected = oClient.Connect("remote_server", "49152", new TimeSpan(0, 0, 0, 5));  // Wait 5 seconds
- ``` | |
+```
 
 ### Getting installed local servers
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- List<EplanServerData> oInstalledEplanVersions = new List<EplanServerData>();
+```csharp
+List<EplanServerData> oInstalledEplanVersions = new List<EplanServerData>();
  oClient.GetInstalledEplanVersionsOnLocalMachine(out oInstalledEplanVersions);
  foreach (EplanServerData oVersion in oInstalledEplanVersions)
     Console.WriteLine(oVersion.EplanVariant + "," + oVersion.EplanVersion + "," + (oVersion.Is64Bit ? "64" : "32");
- ``` | |
+```
 
 ### Listing servers on a local machine
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- List<EplanServerData> oActiveEplanVersions = new List<EplanServerData>();
+```csharp
+List<EplanServerData> oActiveEplanVersions = new List<EplanServerData>();
  oClient.GetActiveEplanServersOnLocalMachine(out oActiveEplanVersions);
  foreach (EplanServerData oVersion in oActiveEplanVersions)
     Console.WriteLine(oVersion.EplanVariant + "," + oVersion.EplanVersion + "," + oVersion.ServerPort);
- ``` | |
+```
 
 ### Start an Eplan instance locally from a client
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- List<EplanServerData> oInstalledEplanVersions = new List<EplanServerData>();
+```csharp
+List<EplanServerData> oInstalledEplanVersions = new List<EplanServerData>();
  oClient.GetInstalledEplanVersionsOnLocalMachine(out oInstalledEplanVersions);
  EplanServerData oConnected = oClient.StartEplan(oInstalledEplanVersions[0].EplanPath);
- ``` | |
+```
 
 To make sure that the Eplan server was started, please check the registry key  HKEY\_CURRENT\_USER\Software\EPLAN\RemoteServer\<port\_number>.
 
 ### Calling an action
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- bool oResp = oClient.ExecuteAction("XPartsManagementStart");
- ``` | |
+```csharp
+bool oResp = oClient.ExecuteAction("XPartsManagementStart");
+```
 
 ### Calling an action in an asynchronous mode
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- oClient.SynchronousMode = false;
+```csharp
+oClient.SynchronousMode = false;
  oClient.ResponseArrivedFromEplanServer += onCallbackArrivedFromEplan;
  oClient.ExecuteAction("XPartsManagementStart");
- ``` | |
+```
 
 In this case, the program starts an action and continues running. onCallbackArrivedFromEplan method is called after action finished.
 
@@ -156,32 +140,26 @@ In this case, the program starts an action and continues running. onCallbackArr
 
 This example shows how to get input from a user using context:
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- oClient.SynchronousMode = true;
+```csharp
+oClient.SynchronousMode = true;
  CallingContext oCallingContext = new CallingContext();
  oClient.ExecuteAction("XPamSelectPart", ref oCallingContext);
- ``` | |
+```
 
 In this case, the program waits until the action execution is finished.
 
 ### Making a selection
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- StringCollection oObjects = new StringCollection();
+```csharp
+StringCollection oObjects = new StringCollection();
  oObjects.Add(@"17/688");
  EplanResponse oResponse = oClient.SelectEplanObjects(@"$(MD_PROJECTS)\EPLAN_Sample_Project.elk", oObjects, true);
- ``` | |
+```
 
 ### Disconnection
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- oClient.Disconnect();
- ``` | |
+```csharp
+oClient.Disconnect();
+```
 
 Don't forget to close the connection when all operations are finished.

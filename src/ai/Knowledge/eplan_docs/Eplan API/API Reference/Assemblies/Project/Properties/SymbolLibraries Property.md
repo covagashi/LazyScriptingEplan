@@ -8,17 +8,12 @@ Gets the symbol libraries used by the project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolLibrary[] SymbolLibraries {get;}
-```
-```
 
-```
-```
 public:
 
 property array<SymbolLibrary^>^ SymbolLibraries {
@@ -26,8 +21,7 @@ property array<SymbolLibrary^>^ SymbolLibraries {
    array<SymbolLibrary^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

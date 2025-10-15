@@ -6,11 +6,10 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void LockObject( 
 
    BaseHandle* hObj2Lock,
@@ -18,11 +17,7 @@ public void LockObject(
    bool bAutoDetectDependents
 
 )
-```
-```
 
-```
-```
 public:
 
 void LockObject( 
@@ -32,8 +27,7 @@ void LockObject(
    bool bAutoDetectDependents
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Exports all the customer property placements sets of the symbol to a file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Export( 
 
    string strTargetFile
 
 )
-```
-```
 
-```
-```
 public:
 
 void Export( 
@@ -30,8 +25,7 @@ void Export(
    String^ strTargetFile
 
 )
-```
-```
+
 
 #### Parameters
 

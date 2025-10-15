@@ -8,17 +8,12 @@ Returns radius of Rectangle's corners chamfers.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual double ChamferRadius {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property double ChamferRadius {
@@ -28,8 +23,7 @@ virtual property double ChamferRadius {
    void set (    double value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ The TMT1 (mission time; proof-test intervall)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double TMT1 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double TMT1 {
@@ -28,5 +23,4 @@ property double TMT1 {
    void set (    double value);
 
 }
-```
-```
+

@@ -8,21 +8,16 @@ Assigns given free properties scheme to the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AssignFreePropertiesScheme( 
 
    string strSchemeName
 
 )
-```
-```
 
-```
-```
 public:
 
 void AssignFreePropertiesScheme( 
@@ -30,8 +25,7 @@ void AssignFreePropertiesScheme(
    String^ strSchemeName
 
 )
-```
-```
+
 
 #### Parameters
 

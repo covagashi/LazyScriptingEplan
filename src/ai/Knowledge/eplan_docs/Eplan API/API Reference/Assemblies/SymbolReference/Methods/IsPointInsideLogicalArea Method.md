@@ -8,21 +8,16 @@ Checks, if the point is inside logical area of the symbol. Returns true, if the 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool IsPointInsideLogicalArea( 
 
    PointD pTest
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual bool IsPointInsideLogicalArea( 
@@ -30,8 +25,7 @@ virtual bool IsPointInsideLogicalArea(
    PointD pTest
 
 )
-```
-```
+
 
 #### Parameters
 

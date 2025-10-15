@@ -8,21 +8,16 @@ Imports descriptions from pre-planning to project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ImportDescriptions( 
 
    Project pProject
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ImportDescriptions( 
@@ -30,8 +25,7 @@ bool ImportDescriptions(
    Project^ pProject
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Substance # 44078.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_SUBSTANCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_SUBSTANCE {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_SUBSTANCE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

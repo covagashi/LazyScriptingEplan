@@ -8,11 +8,10 @@ Method for renumbering terminals specified by the collection pFunctions.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Terminals( 
 
    Project pProject,
@@ -48,11 +47,7 @@ public void Terminals(
    bool bFillGaps
 
 )
-```
-```
 
-```
-```
 public:
 
 void Terminals( 
@@ -90,8 +85,7 @@ void Terminals(
    bool bFillGaps
 
 )
-```
-```
+
 
 #### Parameters
 

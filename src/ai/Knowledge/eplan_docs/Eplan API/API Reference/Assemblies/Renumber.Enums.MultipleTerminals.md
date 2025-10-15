@@ -8,20 +8,14 @@ Parameter enum for numbering terminals with "Allow same designations" property .
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Renumber.Enums.MultipleTerminals : System.Enum
-```
-```
 
-```
-```
 public enum class Renumber.Enums.MultipleTerminals : public System.Enum
-```
-```
+
 
 Members
 

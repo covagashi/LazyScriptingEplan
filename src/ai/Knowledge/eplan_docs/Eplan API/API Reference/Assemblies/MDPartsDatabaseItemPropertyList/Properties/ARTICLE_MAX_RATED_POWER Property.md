@@ -8,17 +8,12 @@ Nominal power (in kW), max. # 26478.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_MAX_RATED_POWER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_MAX_RATED_POWER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_MAX_RATED_POWER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ All [Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement.html)s,
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement[] AllPlacements {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Placement^>^ AllPlacements {
@@ -26,8 +21,7 @@ property array<Placement^>^ AllPlacements {
    array<Placement^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

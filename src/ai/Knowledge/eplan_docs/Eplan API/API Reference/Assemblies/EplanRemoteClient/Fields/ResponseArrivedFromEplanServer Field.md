@@ -8,22 +8,16 @@ Handler to receive Eplan server notifications.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public OnResponseArrivedHandler ResponseArrivedFromEplanServer
-```
-```
 
-```
-```
 public:
 
 OnResponseArrivedHandler^ ResponseArrivedFromEplanServer
-```
-```
+
 
 Example
 

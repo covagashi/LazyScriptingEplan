@@ -8,19 +8,13 @@ Returns the main ArticleReference object included in this compound.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ArticleReference GetMainArticleReference()
-```
-```
 
-```
-```
 public:
 
 ArticleReference^ GetMainArticleReference();
-```
-```
+

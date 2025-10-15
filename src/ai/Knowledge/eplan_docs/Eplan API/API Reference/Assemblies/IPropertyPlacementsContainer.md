@@ -8,24 +8,13 @@ Represents any class that can store displayed properties
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public interface class IPropertyPlacementsContainer
-```
-```
-
-
-
-
 
 Public Properties
 

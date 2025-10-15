@@ -8,17 +8,12 @@ The template group of the function template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string TemplateGroup {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ TemplateGroup {
@@ -28,5 +23,4 @@ property String^ TemplateGroup {
    void set (    String^ value);
 
 }
-```
-```
+

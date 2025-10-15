@@ -8,17 +8,12 @@ Set configuration type to select different variants for point or destination wir
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolReference.PointVariant SymbolWiringType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property SymbolReference.PointVariant SymbolWiringType {
@@ -28,5 +23,4 @@ property SymbolReference.PointVariant SymbolWiringType {
    void set (    SymbolReference.PointVariant value);
 
 }
-```
-```
+

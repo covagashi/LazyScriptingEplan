@@ -8,17 +8,12 @@ Specifies the index of the coil or contact.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ContactCoilInxdex {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ContactCoilInxdex {
@@ -28,5 +23,4 @@ property String^ ContactCoilInxdex {
    void set (    String^ value);
 
 }
-```
-```
+

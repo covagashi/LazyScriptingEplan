@@ -8,17 +8,12 @@ Gets a PropertyPlacementsSchema object that represents the selected property pla
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolReference.PropertyPlacementsSchema Selected {get; set;}
-```
-```
 
-```
-```
 public:
 
 property SymbolReference.PropertyPlacementsSchema^ Selected {
@@ -28,5 +23,4 @@ property SymbolReference.PropertyPlacementsSchema^ Selected {
    void set (    SymbolReference.PropertyPlacementsSchema^ value);
 
 }
-```
-```
+

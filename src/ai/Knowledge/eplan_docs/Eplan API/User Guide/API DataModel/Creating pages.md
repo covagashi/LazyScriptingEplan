@@ -10,33 +10,48 @@ The types of pages you can create are listed in the  DocumentTypeManager.Docume
 
 The following example shows how to create a schematic page:
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
-
-// Create new schematic page in current project
-PagePropertyList oPagePropList = new PagePropertyList();
-// Set Plant
-oPagePropList[Properties.Page.DESIGNATION_PLANT] = "P1";
-// Set Location
-oPagePropList[Properties.Page.DESIGNATION_LOCATION] = "L1";
-Page oNewPage = new Page();
-oNewPage.Create(m_oTestProject, DocumentTypeManager.DocumentType.Circuit, oPagePropList);
-```
 
-```
-
-' Create new schematic page in current project
-Dim oPagePropList As New PagePropertyList()
-' Set Plant
-oPagePropList(Properties.Page.DESIGNATION_PLANT) = PropertyValue.op_Implicit("P1")
-' Set Location
-oPagePropList(Properties.Page.DESIGNATION_LOCATION) = PropertyValue.op_Implicit("L1")
-' Set Counter
-oPagePropList(Properties.Page.PAGE_COUNTER) = PropertyValue.op_Implicit(4)
-Dim oNewPage As New Page()
-oNewPage.Create(m_oTestProject, DocumentTypeManager.DocumentType.Circuit, oPagePropList)
+
+// Create new schematic page in current project
+
+PagePropertyList oPagePropList = new PagePropertyList();
+
+// Set Plant
+
+oPagePropList[Properties.Page.DESIGNATION_PLANT] = "P1";
+
+// Set Location
+
+oPagePropList[Properties.Page.DESIGNATION_LOCATION] = "L1";
+
+Page oNewPage = new Page();
+
+oNewPage.Create(m_oTestProject, DocumentTypeManager.DocumentType.Circuit, oPagePropList);
+
+' Create new schematic page in current project
+
+Dim oPagePropList As New PagePropertyList()
+
+' Set Plant
+
+oPagePropList(Properties.Page.DESIGNATION_PLANT) = PropertyValue.op_Implicit("P1")
+
+' Set Location
+
+oPagePropList(Properties.Page.DESIGNATION_LOCATION) = PropertyValue.op_Implicit("L1")
+
+' Set Counter
+
+oPagePropList(Properties.Page.PAGE_COUNTER) = PropertyValue.op_Implicit(4)
+
+Dim oNewPage As New Page()
+
+oNewPage.Create(m_oTestProject, DocumentTypeManager.DocumentType.Circuit, oPagePropList)
+
 ```
 
 Remarks

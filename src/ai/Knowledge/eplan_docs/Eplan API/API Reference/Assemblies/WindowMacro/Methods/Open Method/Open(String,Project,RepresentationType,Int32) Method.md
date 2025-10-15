@@ -8,11 +8,10 @@ Opens a macro file and reads the information.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Open( 
 
    string macroFileName,
@@ -24,11 +23,7 @@ public void Open(
    int nVariant
 
 )
-```
-```
 
-```
-```
 public:
 
 void Open( 
@@ -42,8 +37,7 @@ void Open(
    int nVariant
 
 )
-```
-```
+
 
 #### Parameters
 

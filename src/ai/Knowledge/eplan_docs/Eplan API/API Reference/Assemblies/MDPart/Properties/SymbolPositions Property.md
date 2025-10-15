@@ -8,17 +8,12 @@ Get all symbol positions assigned to the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDSymbolPosition[] SymbolPositions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDSymbolPosition^>^ SymbolPositions {
@@ -26,5 +21,4 @@ property array<MDSymbolPosition^>^ SymbolPositions {
    array<MDSymbolPosition^>^ get();
 
 }
-```
-```
+

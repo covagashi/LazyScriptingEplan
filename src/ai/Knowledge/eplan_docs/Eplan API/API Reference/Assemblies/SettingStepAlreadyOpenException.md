@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class SettingStepAlreadyOpenException : DataModelException
-```
-```
 
-```
-```
 public ref class SettingStepAlreadyOpenException : public DataModelException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [SettingStepAlreadyOpenException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SettingStepAlreadyOpenException~_ctor.html) |  |
 
 [Top](#top)
-
-
 
 Public Properties
 

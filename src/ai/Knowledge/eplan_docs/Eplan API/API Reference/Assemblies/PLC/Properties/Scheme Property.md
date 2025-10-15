@@ -8,17 +8,12 @@ Gets or sets Scheme name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Scheme {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Scheme {
@@ -28,8 +23,7 @@ property String^ Scheme {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Exceptions
 

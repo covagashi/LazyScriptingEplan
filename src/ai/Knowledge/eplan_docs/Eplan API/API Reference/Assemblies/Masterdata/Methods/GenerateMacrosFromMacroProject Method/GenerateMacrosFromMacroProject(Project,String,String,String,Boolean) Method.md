@@ -8,11 +8,10 @@ Generate macros from project. Project must have property "Type of project" set t
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void GenerateMacrosFromMacroProject( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public void GenerateMacrosFromMacroProject(
    bool bOverwriteExistingMacros
 
 )
-```
-```
 
-```
-```
 public:
 
 void GenerateMacrosFromMacroProject( 
@@ -46,8 +41,7 @@ void GenerateMacrosFromMacroProject(
    bool bOverwriteExistingMacros
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -80,7 +74,7 @@ Example
 
 The following examples shows how to use method GenerateMacrosFromMacroProject.
 
-- [C#](#i-tab-content-b1e1c4c2-fa10-454a-a095-a3b024e98e76)
+**C#**
 
 ```
 // Generate macros with specified strWindowMacroDirectory without filter.
@@ -91,11 +85,9 @@ string strWindowMacroDirectory = Path.Combine(m_oDir.FullName, "Test009d_WindowM
 
 new Masterdata().GenerateMacrosFromMacroProject(oTestProject, strWindowMacroDirectory, null, null, true);
 
-
-
 ```
 
-- [C#](#i-tab-content-638e34ab-0b9f-45c1-870f-c61a343f0a3c)
+**C#**
 
 ```
 // Generate macros with specified strWindowMacroDirectory and strPageMacroDirectory without filter
@@ -106,11 +98,9 @@ strPageMacroDirectory = Path.Combine(m_oDir.FullName, "Test009d_PageMacroDir");
 
 new Masterdata().GenerateMacrosFromMacroProject(oTestProject, strWindowMacroDirectory, strPageMacroDirectory, null, true);
 
-
-
 ```
 
-- [C#](#i-tab-content-589f49e3-1893-40d9-8e5b-274ea57254c3)
+**C#**
 
 ```
 // Generate macros with specified strFilterName to default Macros directory
@@ -118,7 +108,5 @@ new Masterdata().GenerateMacrosFromMacroProject(oTestProject, strWindowMacroDire
 string strFilterName = "page_macros";
 
 new Masterdata().GenerateMacrosFromMacroProject(oTestProject, null, null, strFilterName, true);
-
-
 
 ```

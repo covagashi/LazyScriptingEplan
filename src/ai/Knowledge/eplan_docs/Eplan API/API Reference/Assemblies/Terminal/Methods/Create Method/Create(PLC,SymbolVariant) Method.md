@@ -8,11 +8,10 @@ Creates a Terminal object related to a [PLC](Eplan.EplApi.DataModelu~Eplan.EplAp
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    PLC plc,
@@ -20,11 +19,7 @@ public void Create(
    SymbolVariant variant
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -34,8 +29,7 @@ void Create(
    SymbolVariant^ variant
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Model view: Basic item # 36509.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_MAINOBJECT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_MAINOBJECT {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_MAINOBJECT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

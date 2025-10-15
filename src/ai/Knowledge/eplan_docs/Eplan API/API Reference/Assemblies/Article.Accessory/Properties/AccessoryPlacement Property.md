@@ -8,17 +8,12 @@ Returns the name of the accessory placement, if the referenced article is used t
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string AccessoryPlacement {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ AccessoryPlacement {
@@ -26,8 +21,7 @@ property String^ AccessoryPlacement {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

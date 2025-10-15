@@ -8,17 +8,12 @@ Returns [PlugStrip](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Plug
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlugStrip PlugStrip {get;}
-```
-```
 
-```
-```
 public:
 
 property PlugStrip^ PlugStrip {
@@ -26,8 +21,7 @@ property PlugStrip^ PlugStrip {
    PlugStrip^ get();
 
 }
-```
-```
+
 
 Exceptions
 

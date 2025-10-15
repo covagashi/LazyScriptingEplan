@@ -8,17 +8,12 @@ Returns default project DXF DWG directory.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string DXFDWG {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ DXFDWG {
@@ -26,8 +21,7 @@ property String^ DXFDWG {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

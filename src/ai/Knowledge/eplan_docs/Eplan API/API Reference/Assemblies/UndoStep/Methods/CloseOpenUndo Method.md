@@ -8,22 +8,16 @@ Close and open Undo protocol. Call this method to mark step in Undo action list.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CloseOpenUndo()
-```
-```
 
-```
-```
 public:
 
 void CloseOpenUndo();
-```
-```
+
 
 Remarks
 

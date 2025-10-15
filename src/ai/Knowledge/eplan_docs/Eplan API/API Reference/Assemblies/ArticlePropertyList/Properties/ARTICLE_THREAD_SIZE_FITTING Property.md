@@ -8,17 +8,12 @@ Thread dimension (fitting) # 26109.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_THREAD_SIZE_FITTING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_THREAD_SIZE_FITTING {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_THREAD_SIZE_FITTING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

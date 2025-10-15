@@ -8,17 +8,12 @@ If true, analog addresses will be changed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ChangeAnalog {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool ChangeAnalog {
@@ -28,5 +23,4 @@ property bool ChangeAnalog {
    void set (    bool value);
 
 }
-```
-```
+

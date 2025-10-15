@@ -8,17 +8,12 @@ Configuration project (at PLC boxes and bus ports) # 20161.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCCONFIGURATIONPROJECT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCCONFIGURATIONPROJECT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCCONFIGURATIONPROJECT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Refers to the Description column in GUI.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override MultiLangString AdditionalDescription {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ AdditionalDescription {
@@ -28,8 +23,7 @@ property MultiLangString^ AdditionalDescription {
    void set (    MultiLangString^ value) override;
 
 }
-```
-```
+
 
 Exceptions
 

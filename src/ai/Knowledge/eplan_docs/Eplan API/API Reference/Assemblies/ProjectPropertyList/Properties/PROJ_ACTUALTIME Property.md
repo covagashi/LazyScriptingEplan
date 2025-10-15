@@ -8,17 +8,12 @@ Time of the day # 10058.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_ACTUALTIME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_ACTUALTIME {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_ACTUALTIME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

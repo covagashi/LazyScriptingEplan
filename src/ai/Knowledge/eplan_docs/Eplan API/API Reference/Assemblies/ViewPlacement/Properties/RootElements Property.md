@@ -8,17 +8,12 @@ List of [Eplan.EplApi.DataModel.E3D.Placement3D](Eplan.EplApi.DataModelu~Eplan.E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement3D[] RootElements {get; set;}
-```
-```
 
-```
-```
 public:
 
 property array<Placement3D^>^ RootElements {
@@ -28,8 +23,7 @@ property array<Placement3D^>^ RootElements {
    void set (    array<Placement3D^>^ value);
 
 }
-```
-```
+
 
 Remarks
 

@@ -8,20 +8,14 @@ Color / Grey levels for PDF
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Export.DegreeOfColor : System.Enum
-```
-```
 
-```
-```
 public enum class Export.DegreeOfColor : public System.Enum
-```
-```
+
 
 Members
 

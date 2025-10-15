@@ -8,17 +8,12 @@ Returns comment related to the hyperlink.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Comment {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Comment {
@@ -28,8 +23,7 @@ property String^ Comment {
    void set (    String^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

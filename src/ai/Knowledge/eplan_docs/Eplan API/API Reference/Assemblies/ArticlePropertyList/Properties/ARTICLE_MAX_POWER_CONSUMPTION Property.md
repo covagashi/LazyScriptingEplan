@@ -8,17 +8,12 @@ Power consumption, max. # 26419.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_MAX_POWER_CONSUMPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_MAX_POWER_CONSUMPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_MAX_POWER_CONSUMPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

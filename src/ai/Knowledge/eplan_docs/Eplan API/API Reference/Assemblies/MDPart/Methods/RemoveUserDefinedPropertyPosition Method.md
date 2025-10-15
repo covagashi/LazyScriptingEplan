@@ -8,21 +8,16 @@ Removes the given UserDefinedPropertyPosition from a part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveUserDefinedPropertyPosition( 
 
    MDUserDefinedPropertyPosition userDefinedPropertyPosition
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveUserDefinedPropertyPosition( 
@@ -30,8 +25,7 @@ void RemoveUserDefinedPropertyPosition(
    MDUserDefinedPropertyPosition^ userDefinedPropertyPosition
 
 )
-```
-```
+
 
 #### Parameters
 

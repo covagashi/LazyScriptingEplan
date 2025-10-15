@@ -8,21 +8,16 @@ Nominal voltage (load circuit) # 26495.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_RATED_VOLTAGE_OF_THE_LOAD_CIRCUIT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_RATED_VOLTAGE_OF_THE_LOAD_CIRCUIT {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_RATED_VOLTAGE_OF_THE_LOAD_CIRCUIT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

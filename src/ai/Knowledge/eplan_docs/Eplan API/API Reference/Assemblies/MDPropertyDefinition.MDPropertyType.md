@@ -8,20 +8,14 @@ Types of stored values
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MDPropertyDefinition.MDPropertyType : System.Enum
-```
-```
 
-```
-```
 public enum class MDPropertyDefinition.MDPropertyType : public System.Enum
-```
-```
+
 
 Members
 
@@ -41,7 +35,7 @@ Example
 
 When setting properties of type Double as string, e.g.
 
-- [C#](#i-tab-content-b2f5a5c7-50ae-41a3-9afa-272e112402b9)
+**C#**
 
 ```
 MDPart oPart = m_MDPartsDatabase.Parts[0];

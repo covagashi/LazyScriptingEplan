@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PropertyValueOutOfRangeException : InvalidArgumentException
-```
-```
 
-```
-```
 public ref class PropertyValueOutOfRangeException : public InvalidArgumentException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [PropertyValueOutOfRangeException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyValueOutOfRangeException~_ctor.html) | Standard constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

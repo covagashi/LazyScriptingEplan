@@ -8,11 +8,10 @@ A Delevoper Assertion. When the boolean Expression fails, the debugged applicati
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Assert( 
 
    bool bExpression,
@@ -20,11 +19,7 @@ public void Assert(
    string strInformation
 
 )
-```
-```
 
-```
-```
 public:
 
 void Assert( 
@@ -34,8 +29,7 @@ void Assert(
    String^ strInformation
 
 )
-```
-```
+
 
 #### Parameters
 

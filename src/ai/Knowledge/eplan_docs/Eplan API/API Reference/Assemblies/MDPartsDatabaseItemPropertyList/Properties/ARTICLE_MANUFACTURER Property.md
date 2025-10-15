@@ -8,17 +8,12 @@ Manufacturer # 22007.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_MANUFACTURER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_MANUFACTURER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_MANUFACTURER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

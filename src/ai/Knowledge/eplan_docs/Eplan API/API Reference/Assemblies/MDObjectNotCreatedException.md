@@ -18,22 +18,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDObjectNotCreatedException : MDObjectCreationException
-```
-```
 
-```
-```
 public ref class MDObjectNotCreatedException : public MDObjectCreationException
-```
-```
-
-
 
 Public Constructors
 
@@ -42,8 +33,6 @@ Public Constructors
 | Public Constructor | [MDObjectNotCreatedException Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDObjectNotCreatedException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

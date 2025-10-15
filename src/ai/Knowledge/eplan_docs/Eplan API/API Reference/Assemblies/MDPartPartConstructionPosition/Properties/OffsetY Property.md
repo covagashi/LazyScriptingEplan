@@ -8,17 +8,12 @@ The y offset of the referenced construction.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double OffsetY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double OffsetY {
@@ -28,5 +23,4 @@ property double OffsetY {
    void set (    double value);
 
 }
-```
-```
+

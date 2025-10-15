@@ -8,17 +8,12 @@ An article's part number contained in the device list.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PartNumber {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ PartNumber {
@@ -26,5 +21,4 @@ property String^ PartNumber {
    String^ get();
 
 }
-```
-```
+

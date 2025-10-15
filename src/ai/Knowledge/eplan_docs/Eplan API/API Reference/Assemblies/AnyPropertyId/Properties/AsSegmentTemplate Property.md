@@ -8,17 +8,12 @@ Gets property id value as [Properties.SegmentTemplate](Eplan.EplApi.DataModelu~E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.SegmentTemplate AsSegmentTemplate {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.SegmentTemplate AsSegmentTemplate {
@@ -26,5 +21,4 @@ property Properties.SegmentTemplate AsSegmentTemplate {
    Properties.SegmentTemplate get();
 
 }
-```
-```
+

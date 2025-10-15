@@ -8,17 +8,12 @@ Shows the changed property id.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public AnyPropertyId PropertyId {get;}
-```
-```
 
-```
-```
 public:
 
 property AnyPropertyId^ PropertyId {
@@ -26,5 +21,4 @@ property AnyPropertyId^ PropertyId {
    AnyPropertyId^ get();
 
 }
-```
-```
+

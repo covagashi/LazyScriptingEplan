@@ -8,17 +8,12 @@ Product configurator identifier # 36076.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_ID_EXTERNALPRODUCTCONFIGURATOR_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_ID_EXTERNALPRODUCTCONFIGURATOR_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_ID_EXTERNALPRODUCTCONFIGURATOR_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

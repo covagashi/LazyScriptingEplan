@@ -5,13 +5,13 @@
 ---
 
 ```
-Exports data for labeling in the system database to an XML file ("*.xml").
-```
+Exports data for labeling in the system database to an XML file ("*.xml").
 
-  
+```
 
 **Remarks**
 
 ```
-No options used.
+No options used.
+
 ```

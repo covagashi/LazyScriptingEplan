@@ -8,21 +8,16 @@ Removes the given safety related value position from the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveSafetyRelatedValuePosition( 
 
    MDPartSafetyRelatedValuePosition safetyRelatedValuePos
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveSafetyRelatedValuePosition( 
@@ -30,8 +25,7 @@ void RemoveSafetyRelatedValuePosition(
    MDPartSafetyRelatedValuePosition^ safetyRelatedValuePos
 
 )
-```
-```
+
 
 #### Parameters
 

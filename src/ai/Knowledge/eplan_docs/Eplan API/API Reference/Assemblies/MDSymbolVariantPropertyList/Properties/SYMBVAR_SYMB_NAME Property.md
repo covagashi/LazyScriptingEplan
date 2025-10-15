@@ -8,17 +8,12 @@ Symbol name # 16903.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBVAR_SYMB_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBVAR_SYMB_NAME {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMBVAR_SYMB_NAME {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Gets/Sets the value of a variable for a record.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 string Value( 
 
    string strRecordName,
@@ -20,11 +19,7 @@ string Value(
    string strVarName
 
 ) {get; set;}
-```
-```
 
-```
-```
 property String^ Value {
 
    String^ get(String^ strRecordName, String^ strVarName);
@@ -32,8 +27,7 @@ property String^ Value {
    void set (String^ strRecordName, String^ strVarName, String^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

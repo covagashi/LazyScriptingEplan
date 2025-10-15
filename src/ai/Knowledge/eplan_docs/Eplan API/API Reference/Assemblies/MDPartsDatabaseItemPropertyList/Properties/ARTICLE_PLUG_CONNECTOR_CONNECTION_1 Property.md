@@ -8,17 +8,12 @@ Plug-in connector (connection 1) # 26575.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PLUG_CONNECTOR_CONNECTION_1 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PLUG_CONNECTOR_CONNECTION_1 {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PLUG_CONNECTOR_CONNECTION_1 {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

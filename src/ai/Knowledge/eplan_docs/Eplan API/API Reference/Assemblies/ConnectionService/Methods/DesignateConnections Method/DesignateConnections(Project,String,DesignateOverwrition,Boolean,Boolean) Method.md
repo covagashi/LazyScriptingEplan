@@ -8,11 +8,10 @@ Exports manufacturing data for wire fabrication machines.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExportProductionWiring( 
 
    Project oPrj,
@@ -32,11 +31,7 @@ public bool ExportProductionWiring(
    bool bAllowExportConnectionMultiple
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExportProductionWiring( 
@@ -58,8 +53,7 @@ bool ExportProductionWiring(
    bool bAllowExportConnectionMultiple
 
 )
-```
-```
+
 
 #### Parameters
 

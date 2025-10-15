@@ -8,11 +8,10 @@ Is called after vertex of a 3D mesh was selected by user.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnVertex( 
 
    PointD3D pntLocation,
@@ -22,11 +21,7 @@ public virtual RequestCode OnVertex(
    int iDetailId
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnVertex( 
@@ -38,8 +33,7 @@ virtual RequestCode OnVertex(
    int iDetailId
 
 )
-```
-```
+
 
 #### Parameters
 

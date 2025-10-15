@@ -8,17 +8,12 @@ Gets PlaceHolder layer id.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new short LayerId {get;}
-```
-```
 
-```
-```
 public:
 
 new property short LayerId {
@@ -26,5 +21,4 @@ new property short LayerId {
    short get();
 
 }
-```
-```
+

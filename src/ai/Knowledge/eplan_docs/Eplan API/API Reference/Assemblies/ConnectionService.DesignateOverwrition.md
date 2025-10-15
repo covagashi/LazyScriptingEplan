@@ -8,20 +8,14 @@ Mode for overwriting connection designations.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ConnectionService.DesignateOverwrition : System.Enum
-```
-```
 
-```
-```
 public enum class ConnectionService.DesignateOverwrition : public System.Enum
-```
-```
+
 
 Members
 

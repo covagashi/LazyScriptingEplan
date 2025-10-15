@@ -8,21 +8,16 @@ Macro: Description # 11014.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_MACRO_DESCRIPTION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_MACRO_DESCRIPTION {
@@ -32,8 +27,7 @@ property PropertyValue^ PAGE_MACRO_DESCRIPTION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ Constructor with name of scheme given by user.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public InvalidScheme( 
 
    string schemeName,
@@ -20,11 +19,7 @@ public InvalidScheme(
    string[] validSchemesNames
 
 )
-```
-```
 
-```
-```
 public:
 
 InvalidScheme( 
@@ -34,8 +29,7 @@ InvalidScheme(
    array<String^>^ validSchemesNames
 
 )
-```
-```
+
 
 #### Parameters
 

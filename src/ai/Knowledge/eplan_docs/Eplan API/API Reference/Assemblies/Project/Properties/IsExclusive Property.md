@@ -8,17 +8,12 @@ Project's property which gives information if the project is opened exclusive
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsExclusive {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsExclusive {
@@ -26,8 +21,7 @@ property bool IsExclusive {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

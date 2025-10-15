@@ -8,11 +8,10 @@ Creates new layer with specified name and description. Note: Layer name must be 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public GraphicalLayer AddLayer( 
 
    string sName,
@@ -20,11 +19,7 @@ public GraphicalLayer AddLayer(
    MultiLangString mlsDescription
 
 )
-```
-```
 
-```
-```
 public:
 
 GraphicalLayer^ AddLayer( 
@@ -34,8 +29,7 @@ GraphicalLayer^ AddLayer(
    MultiLangString^ mlsDescription
 
 )
-```
-```
+
 
 #### Parameters
 

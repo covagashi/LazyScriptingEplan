@@ -8,19 +8,13 @@ The replacement text for this message.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual string GetErrorTextParameter()
-```
-```
 
-```
-```
 public:
 
 virtual String^ GetErrorTextParameter();
-```
-```
+

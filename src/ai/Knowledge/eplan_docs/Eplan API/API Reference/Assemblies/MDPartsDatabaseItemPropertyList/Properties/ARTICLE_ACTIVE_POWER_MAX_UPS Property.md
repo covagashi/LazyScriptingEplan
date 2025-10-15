@@ -8,17 +8,12 @@ Active power (uninterruptible power supply), max. # 26647.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_ACTIVE_POWER_MAX_UPS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_ACTIVE_POWER_MAX_UPS {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_ACTIVE_POWER_MAX_UPS {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

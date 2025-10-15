@@ -8,21 +8,16 @@ Adds a new record with the specified name to the Placeholder3D object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual int AddRecord( 
 
    string strRecordName
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual int AddRecord( 
@@ -30,8 +25,7 @@ virtual int AddRecord(
    String^ strRecordName
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Variant identifier
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int VariantId {get;}
-```
-```
 
-```
-```
 public:
 
 property int VariantId {
@@ -26,8 +21,7 @@ property int VariantId {
    int get();
 
 }
-```
-```
+
 
 #### Property Value
 

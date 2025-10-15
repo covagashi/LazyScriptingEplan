@@ -8,17 +8,12 @@ Names of all variables in the Placeholder3D.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual StringCollection VariableNames {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property StringCollection^ VariableNames {
@@ -26,8 +21,7 @@ virtual property StringCollection^ VariableNames {
    StringCollection^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

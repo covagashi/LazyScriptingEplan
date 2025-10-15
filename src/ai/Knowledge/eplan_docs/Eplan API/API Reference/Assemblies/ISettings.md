@@ -8,25 +8,13 @@ The common interface to P8 settings.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface ISettings
-```
-```
 
-```
-```
 public interface class ISettings
-```
-```
-
-
-
-
-
 
 Public Methods
 

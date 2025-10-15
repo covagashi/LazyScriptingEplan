@@ -8,11 +8,10 @@ Creates InstallationSpace object and sets a name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static InstallationSpace Create( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public static InstallationSpace Create(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static InstallationSpace^ Create( 
@@ -38,8 +33,7 @@ static InstallationSpace^ Create(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

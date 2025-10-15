@@ -8,11 +8,10 @@ Exports a missing-word list of the given project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExportMissingTranslation( 
 
    string strFilename,
@@ -24,11 +23,7 @@ public void ExportMissingTranslation(
    string strProjectName
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExportMissingTranslation( 
@@ -42,8 +37,7 @@ void ExportMissingTranslation(
    String^ strProjectName
 
 )
-```
-```
+
 
 #### Parameters
 

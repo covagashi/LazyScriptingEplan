@@ -14,26 +14,17 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [AttributeUsage(AttributeTargets.Class)]
 
 public class InteractionAttribute : System.Attribute
-```
-```
 
-```
-```
 [AttributeUsage(AttributeTargets.Class)]
 
 public ref class InteractionAttribute : public System.Attribute
-```
-```
-
-
 
 Public Constructors
 
@@ -42,8 +33,6 @@ Public Constructors
 | Public Constructor | [InteractionAttribute Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionAttribute~_ctor.html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

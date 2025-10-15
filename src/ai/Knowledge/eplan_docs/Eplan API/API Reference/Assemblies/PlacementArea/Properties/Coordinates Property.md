@@ -8,17 +8,12 @@ Gets placement area absolute coordinates.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D[] Coordinates {get;}
-```
-```
 
-```
-```
 public:
 
 property array<PointD3D>^ Coordinates {
@@ -26,5 +21,4 @@ property array<PointD3D>^ Coordinates {
    array<PointD3D>^ get();
 
 }
-```
-```
+

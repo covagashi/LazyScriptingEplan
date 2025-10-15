@@ -5,17 +5,16 @@
 ---
 
 ```
-Imports or exports PLC data in the system database from or to formats used in the "Siemens' Simatic Step 7" application. The supported file extension is "*.xml".
-```
+Imports or exports PLC data in the system database from or to formats used in the "Siemens' Simatic Step 7" application. The supported file extension is "*.xml".
 
-  
+```
 
 **Remarks**
 
 ```
-Visible name = "Siemens SIMATIC STEP 7 5.6"
-```
+Visible name = "Siemens SIMATIC STEP 7 5.6"
 
-```
-Required for methods ExportData(), ImportData()
+
+Required for methods ExportData(), ImportData()
+
 ```

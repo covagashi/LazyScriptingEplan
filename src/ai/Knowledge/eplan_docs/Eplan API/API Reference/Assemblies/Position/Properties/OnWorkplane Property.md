@@ -8,17 +8,12 @@ Returns true, if final position is on work plane.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool OnWorkplane {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool OnWorkplane {
@@ -26,5 +21,4 @@ virtual property bool OnWorkplane {
    bool get();
 
 }
-```
-```
+

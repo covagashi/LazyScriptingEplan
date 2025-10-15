@@ -8,21 +8,16 @@ Topology: Distance between connection splicers and source # 31138.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_CABLING_DISTRIBUTOR_DISTANCE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_CABLING_DISTRIBUTOR_DISTANCE {
@@ -32,8 +27,7 @@ property PropertyValue^ CONNECTION_CABLING_DISTRIBUTOR_DISTANCE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

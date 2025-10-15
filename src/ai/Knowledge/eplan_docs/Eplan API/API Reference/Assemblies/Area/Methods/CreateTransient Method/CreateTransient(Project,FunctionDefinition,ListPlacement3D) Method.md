@@ -8,11 +8,10 @@ Creates transient and not placed Area object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Area CreateTransient( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public static Area CreateTransient(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static Area^ CreateTransient( 
@@ -38,8 +33,7 @@ static Area^ CreateTransient(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

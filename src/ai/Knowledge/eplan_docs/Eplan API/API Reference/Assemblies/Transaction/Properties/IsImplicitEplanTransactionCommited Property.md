@@ -8,17 +8,12 @@ Transaction property which returns true if an implicit Eplan transaction was sta
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsImplicitEplanTransactionCommited {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsImplicitEplanTransactionCommited {
@@ -26,8 +21,7 @@ property bool IsImplicitEplanTransactionCommited {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

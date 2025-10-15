@@ -8,17 +8,12 @@ Allows user access to InterruptionPoint properties.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new InterruptionPointPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property InterruptionPointPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property InterruptionPointPropertyList^ Properties {
    InterruptionPointPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

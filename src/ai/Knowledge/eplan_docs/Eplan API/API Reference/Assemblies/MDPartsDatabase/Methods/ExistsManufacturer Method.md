@@ -8,21 +8,16 @@ Checks if a manufacturer / supplier info with the given short name exists.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExistsManufacturer( 
 
    string shortName
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExistsManufacturer( 
@@ -30,8 +25,7 @@ bool ExistsManufacturer(
    String^ shortName
 
 )
-```
-```
+
 
 #### Parameters
 

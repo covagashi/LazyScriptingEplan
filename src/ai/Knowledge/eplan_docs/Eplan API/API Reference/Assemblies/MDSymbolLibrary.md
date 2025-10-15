@@ -14,24 +14,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Symbol")]
 
 public class MDSymbolLibrary : PropertiesAndHandleObject
-```
-```
 
-```
-```
 [DefaultMember("Symbol")]
 
 public ref class MDSymbolLibrary : public PropertiesAndHandleObject
-```
-```
+
 
 Remarks
 
@@ -41,16 +35,13 @@ Example
 
 It is possible to get MDSymbol object from MDSymbolLibrary, by indexer :
 
-- [C#](#i-tab-content-82f11c79-3d0a-47e9-a37b-055af01ce10f)
+**C#**
 
 ```
 MDSymbolLibrary lib = ....
 
 MDSymbol smbl = lib["XEDU"];
 ```
-
-
-
 
 Public Properties
 

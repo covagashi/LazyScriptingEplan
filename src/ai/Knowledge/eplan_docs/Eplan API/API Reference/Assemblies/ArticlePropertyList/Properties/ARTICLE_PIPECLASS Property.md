@@ -8,17 +8,12 @@ Pipe class # 22224.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PIPECLASS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PIPECLASS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PIPECLASS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

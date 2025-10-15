@@ -8,21 +8,16 @@ Method for updating project master data.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void UpdateProject( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void UpdateProject( 
@@ -30,8 +25,7 @@ void UpdateProject(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ Sets a value or variable on a property of an object referenced by a PlaceHolder.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void SetPropertyEntry( 
 
    StorableObject oObject,
@@ -22,11 +21,7 @@ public virtual void SetPropertyEntry(
    MultiLangString strValue
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void SetPropertyEntry( 
@@ -38,8 +33,7 @@ virtual void SetPropertyEntry(
    MultiLangString^ strValue
 
 )
-```
-```
+
 
 #### Parameters
 

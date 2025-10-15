@@ -8,17 +8,12 @@ If true, model is be rotated by 90 degrees.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ModelRotated90Degrees {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool ModelRotated90Degrees {
@@ -28,8 +23,7 @@ property bool ModelRotated90Degrees {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

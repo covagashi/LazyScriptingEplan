@@ -8,22 +8,16 @@ Sets focus to GED frame.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SetFocusToGED()
-```
-```
 
-```
-```
 public:
 
 bool SetFocusToGED();
-```
-```
+
 
 #### Return Value
 

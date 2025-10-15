@@ -8,21 +8,16 @@ Cable: Voltage level # 26401.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_CABLE_LEVEL( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_CABLE_LEVEL {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_CABLE_LEVEL {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

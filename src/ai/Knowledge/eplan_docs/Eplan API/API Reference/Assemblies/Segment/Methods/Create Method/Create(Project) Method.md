@@ -8,21 +8,16 @@ Creates new unplaced segment.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Project pProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -30,8 +25,7 @@ void Create(
    Project^ pProject
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Flame resistance (according to standard) # 26042.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_FLAME_RESISTANCE_ACCORDING_TO_STANDARD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_FLAME_RESISTANCE_ACCORDING_TO_STANDARD {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_FLAME_RESISTANCE_ACCORDING_TO_STANDARD {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

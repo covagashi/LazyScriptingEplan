@@ -8,21 +8,16 @@ Nominal voltage (AC 50 Hz) # 26489.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_RATED_VOLTAGE_FOR_AC_50_HZ( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_RATED_VOLTAGE_FOR_AC_50_HZ {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_RATED_VOLTAGE_FOR_AC_50_HZ {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Pressure level of secondary housing # 26262.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_SECONDARY_CASING_PRESSURE_STAGE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_SECONDARY_CASING_PRESSURE_STAGE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_SECONDARY_CASING_PRESSURE_STAGE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

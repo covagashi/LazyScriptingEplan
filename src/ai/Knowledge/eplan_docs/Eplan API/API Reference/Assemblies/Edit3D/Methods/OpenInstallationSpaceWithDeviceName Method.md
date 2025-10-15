@@ -8,11 +8,10 @@ Opens the installation space which contains a given function. The function is se
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void OpenInstallationSpaceWithDeviceName( 
 
    string strFullLinkFileName,
@@ -20,11 +19,7 @@ public void OpenInstallationSpaceWithDeviceName(
    string strDeviceName
 
 )
-```
-```
 
-```
-```
 public:
 
 void OpenInstallationSpaceWithDeviceName( 
@@ -34,8 +29,7 @@ void OpenInstallationSpaceWithDeviceName(
    String^ strDeviceName
 
 )
-```
-```
+
 
 #### Parameters
 

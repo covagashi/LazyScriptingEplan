@@ -8,17 +8,12 @@ Domain name. Default = empty.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Domain {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Domain {
@@ -28,5 +23,4 @@ property String^ Domain {
    void set (    String^ value);
 
 }
-```
-```
+

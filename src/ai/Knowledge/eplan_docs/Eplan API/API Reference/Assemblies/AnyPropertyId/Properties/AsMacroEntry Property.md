@@ -8,17 +8,12 @@ Gets property id value as [Properties.MacroEntry](Eplan.EplApi.DataModelu~Eplan.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.MacroEntry AsMacroEntry {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.MacroEntry AsMacroEntry {
@@ -26,5 +21,4 @@ property Properties.MacroEntry AsMacroEntry {
    Properties.MacroEntry get();
 
 }
-```
-```
+

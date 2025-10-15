@@ -8,19 +8,13 @@ Closes (and saves) the symbol library.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Close()
-```
-```
 
-```
-```
 public:
 
 void Close();
-```
-```
+

@@ -8,17 +8,12 @@ Deprecation Date of the Eplan Cloud resource
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DateTime Deprecation {get; set;}
-```
-```
 
-```
-```
 public:
 
 property DateTime Deprecation {
@@ -28,5 +23,4 @@ property DateTime Deprecation {
    void set (    DateTime value);
 
 }
-```
-```
+

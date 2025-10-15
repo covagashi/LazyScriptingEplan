@@ -8,17 +8,12 @@ Safety function # 21006.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNCTEMPLATE_SAFETYRELEVANT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNCTEMPLATE_SAFETYRELEVANT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNCTEMPLATE_SAFETYRELEVANT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

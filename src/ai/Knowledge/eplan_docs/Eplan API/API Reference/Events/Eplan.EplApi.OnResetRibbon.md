@@ -13,10 +13,14 @@ Has no event parameter.
 **Example**
 
 ```
-m_EventHandler = new EventHandler("Eplan.EplApi.OnResetRibbon");
-m_EventHandler.EplanEvent += delegate
-{
-    new Decider().Decide(EnumDecisionType.eOkDecision, "OnResetRibbon was called!", "Title", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);
-};
-
+m_EventHandler = new EventHandler("Eplan.EplApi.OnResetRibbon");
+
+m_EventHandler.EplanEvent += delegate
+
+{
+
+    new Decider().Decide(EnumDecisionType.eOkDecision, "OnResetRibbon was called!", "Title", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);
+
+};
+
 ```

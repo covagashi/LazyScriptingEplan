@@ -8,21 +8,16 @@ Removes daisy chain from a net definition point
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveDaisyChain( 
 
    DaisyChain daisyChain
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveDaisyChain( 
@@ -30,8 +25,7 @@ void RemoveDaisyChain(
    DaisyChain^ daisyChain
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ Merges one layer with another. Note: Only custom layer can be merged.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool MergeLayers( 
 
    GraphicalLayer layerToMergeWith,
@@ -20,11 +19,7 @@ public bool MergeLayers(
    GraphicalLayer layerToMerge
 
 )
-```
-```
 
-```
-```
 public:
 
 bool MergeLayers( 
@@ -34,8 +29,7 @@ bool MergeLayers(
    GraphicalLayer^ layerToMerge
 
 )
-```
-```
+
 
 #### Parameters
 

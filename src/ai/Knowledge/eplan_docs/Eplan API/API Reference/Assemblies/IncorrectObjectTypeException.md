@@ -18,24 +18,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class IncorrectObjectTypeException : ObjectCreationException
-```
-```
 
-```
-```
 public ref class IncorrectObjectTypeException : public ObjectCreationException
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-d42a35cc-7c3c-4ae3-b5b0-cbad2aacb184)
+**C#**
 
 ```
 PathText obj = new PathText ();
@@ -50,8 +44,6 @@ Public Constructors
 | Public Constructor | [IncorrectObjectTypeException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IncorrectObjectTypeException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

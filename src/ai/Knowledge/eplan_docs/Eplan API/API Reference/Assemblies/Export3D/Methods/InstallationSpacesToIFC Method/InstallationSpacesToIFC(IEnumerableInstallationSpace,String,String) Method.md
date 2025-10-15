@@ -8,11 +8,10 @@ Exports given installation spaces into files in IFC format.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool InstallationSpacesToIFC( 
 
    IEnumerable<InstallationSpace> listInstallationSpaces,
@@ -22,11 +21,7 @@ public bool InstallationSpacesToIFC(
    string strScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 bool InstallationSpacesToIFC( 
@@ -38,8 +33,7 @@ bool InstallationSpacesToIFC(
    String^ strScheme
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Purity class of the control oil # 26060.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PURITY_CLASS_OF_THE_CONTROL_OIL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PURITY_CLASS_OF_THE_CONTROL_OIL {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PURITY_CLASS_OF_THE_CONTROL_OIL {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

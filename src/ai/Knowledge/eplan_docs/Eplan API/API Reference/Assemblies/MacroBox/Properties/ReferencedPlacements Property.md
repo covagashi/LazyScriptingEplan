@@ -8,17 +8,12 @@ All referenced objects
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement[] ReferencedPlacements {get; set;}
-```
-```
 
-```
-```
 public:
 
 property array<Placement^>^ ReferencedPlacements {
@@ -28,5 +23,4 @@ property array<Placement^>^ ReferencedPlacements {
    void set (    array<Placement^>^ value);
 
 }
-```
-```
+

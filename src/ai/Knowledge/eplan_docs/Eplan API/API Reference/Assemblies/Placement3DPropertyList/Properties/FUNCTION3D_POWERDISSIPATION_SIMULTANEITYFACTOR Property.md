@@ -8,17 +8,12 @@ Thermal design: Simultaneity factor (device) # 36045.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_POWERDISSIPATION_SIMULTANEITYFACTOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_POWERDISSIPATION_SIMULTANEITYFACTOR {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_POWERDISSIPATION_SIMULTANEITYFACTOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

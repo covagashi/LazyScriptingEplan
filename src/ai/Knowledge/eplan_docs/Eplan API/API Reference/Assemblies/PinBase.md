@@ -15,22 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PinBase
-```
-```
 
-```
-```
 public ref class PinBase
-```
-```
-
-
 
 Public Constructors
 
@@ -39,8 +30,6 @@ Public Constructors
 | Public Constructor | [PinBase Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 
@@ -62,8 +51,6 @@ Public Methods
 | Public Method | [GetHashCode](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase~GetHashCode.html) | Serves as the default hash function. |
 
 [Top](#top)
-
-
 
 Public Operators
 

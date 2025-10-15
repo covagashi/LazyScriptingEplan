@@ -8,17 +8,12 @@ Prevent new placement # 16012.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMB_PREVENTPLACEMENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMB_PREVENTPLACEMENT {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMB_PREVENTPLACEMENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

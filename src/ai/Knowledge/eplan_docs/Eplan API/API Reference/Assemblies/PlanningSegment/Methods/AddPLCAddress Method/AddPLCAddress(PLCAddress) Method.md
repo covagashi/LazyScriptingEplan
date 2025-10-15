@@ -8,21 +8,16 @@ Creates copy of existing PLC inputs or outputs for this planning object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningSegment.PLCAddress AddPLCAddress( 
 
    PlanningSegment.PLCAddress pSourceAddress
 
 )
-```
-```
 
-```
-```
 public:
 
 PlanningSegment.PLCAddress^ AddPLCAddress( 
@@ -30,8 +25,7 @@ PlanningSegment.PLCAddress^ AddPLCAddress(
    PlanningSegment.PLCAddress^ pSourceAddress
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -50,25 +44,19 @@ New element is appended to the end of the [PLCAddresses](Eplan.EplApi.DataModelu
 
 Example
 
-- [C#](#i-tab-content-7d974a8e-2d0f-42f3-a815-53c001d10910)
+**C#**
 
 ```
 PlanningSegment.PLCAddress oSourceAddress;
 
 PlanningSegment.PLCAddress oNewAddress;
 
-
-
 //get plc input or output which will be copied
 
 oSourceAddress = oPCTLoop.PLCAddresses[0];
 
-
-
 //create a new copy of source object
 
 oNewAddress = oPCTLoop.AddPLCAddress(oSourceAddress);
-
-
 
 ```

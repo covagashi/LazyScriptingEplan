@@ -8,22 +8,16 @@ Allows to create non-placed connection from a connection template. In effect con
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void MakePersistent()
-```
-```
 
-```
-```
 public:
 
 void MakePersistent();
-```
-```
+
 
 Exceptions
 

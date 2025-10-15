@@ -8,17 +8,12 @@ Description (address) # 22922.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue PART_ADDRESS_NOTE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ PART_ADDRESS_NOTE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ PART_ADDRESS_NOTE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Creates a Terminal object related to a [TerminalStrip](Eplan.EplApi.DataModelu~E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    TerminalStrip ts,
@@ -22,11 +21,7 @@ public void Create(
    SymbolVariant variant
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -38,8 +33,7 @@ void Create(
    SymbolVariant^ variant
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Returns the part type part / accessory list. It sets automatically after propert
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartsDatabaseItem.Enums.Type Type {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPartsDatabaseItem.Enums.Type Type {
@@ -28,5 +23,4 @@ property MDPartsDatabaseItem.Enums.Type Type {
    void set (    MDPartsDatabaseItem.Enums.Type value);
 
 }
-```
-```
+

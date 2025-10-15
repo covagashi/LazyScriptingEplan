@@ -9,17 +9,12 @@ The information includes: name of the property, it's data type, whether it is in
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyDefinition Definition {get;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyDefinition^ Definition {
@@ -27,5 +22,4 @@ property MDPropertyDefinition^ Definition {
    MDPropertyDefinition^ get();
 
 }
-```
-```
+

@@ -8,11 +8,10 @@ Constructor. Creates the AnyPropertyId object from user-defined property identif
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public AnyPropertyId( 
 
    Project pProject,
@@ -20,11 +19,7 @@ public AnyPropertyId(
    string strUserDefiniedPropertyIdentName
 
 )
-```
-```
 
-```
-```
 public:
 
 AnyPropertyId( 
@@ -34,8 +29,7 @@ AnyPropertyId(
    String^ strUserDefiniedPropertyIdentName
 
 )
-```
-```
+
 
 #### Parameters
 

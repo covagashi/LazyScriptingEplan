@@ -8,17 +8,12 @@ DT: Prefix # 20012.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PREFIX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PREFIX {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PREFIX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

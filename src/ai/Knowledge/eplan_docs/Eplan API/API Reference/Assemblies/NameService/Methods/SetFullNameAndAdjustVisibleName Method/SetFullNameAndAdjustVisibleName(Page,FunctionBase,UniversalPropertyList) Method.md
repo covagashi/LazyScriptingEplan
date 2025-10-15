@@ -8,11 +8,10 @@ Sets the page and sets the given full name as the new full name to the given fun
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SetFullNameAndAdjustVisibleName( 
 
    Page pPage,
@@ -22,11 +21,7 @@ public bool SetFullNameAndAdjustVisibleName(
    UniversalPropertyList eplFullName
 
 )
-```
-```
 
-```
-```
 public:
 
 bool SetFullNameAndAdjustVisibleName( 
@@ -38,8 +33,7 @@ bool SetFullNameAndAdjustVisibleName(
    UniversalPropertyList^ eplFullName
 
 )
-```
-```
+
 
 #### Parameters
 

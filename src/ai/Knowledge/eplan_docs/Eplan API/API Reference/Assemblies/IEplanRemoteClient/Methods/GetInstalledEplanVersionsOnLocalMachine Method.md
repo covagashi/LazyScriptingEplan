@@ -8,28 +8,22 @@ Get Eplan versions that are currently installed on local machine.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void GetInstalledEplanVersionsOnLocalMachine( 
 
    out List<EplanServerData> lEplanVersions
 
 )
-```
-```
 
-```
-```
 void GetInstalledEplanVersionsOnLocalMachine( 
 
    [Out] List<EplanServerData^>^ lEplanVersions
 
 )
-```
-```
+
 
 #### Parameters
 

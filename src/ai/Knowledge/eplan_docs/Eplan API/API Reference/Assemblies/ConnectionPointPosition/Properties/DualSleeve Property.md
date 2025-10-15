@@ -8,17 +8,12 @@ Defines whether you want to use duel sleeves for the connection point when two c
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool DualSleeve {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool DualSleeve {
@@ -28,5 +23,4 @@ property bool DualSleeve {
    void set (    bool value);
 
 }
-```
-```
+

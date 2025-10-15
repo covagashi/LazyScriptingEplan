@@ -8,11 +8,10 @@ Sets internal property by id and index
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetProperty( 
 
    MDAnyPropertyId A_0,
@@ -22,11 +21,7 @@ public void SetProperty(
    short A_2
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetProperty( 
@@ -38,8 +33,7 @@ void SetProperty(
    short A_2
 
 )
-```
-```
+
 
 #### Parameters
 

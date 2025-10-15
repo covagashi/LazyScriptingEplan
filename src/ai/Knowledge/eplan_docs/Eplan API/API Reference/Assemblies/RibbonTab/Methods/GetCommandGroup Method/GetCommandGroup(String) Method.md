@@ -8,21 +8,16 @@ Gets command group by its name
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonCommandGroup GetCommandGroup( 
 
    string name
 
 )
-```
-```
 
-```
-```
 public:
 
 RibbonCommandGroup^ GetCommandGroup( 
@@ -30,8 +25,7 @@ RibbonCommandGroup^ GetCommandGroup(
    String^ name
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Evaluates for a given Function3D the visible name and visible name format from t
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AdjustVisibleName( 
 
    IFunctionBase pFunctionBase
 
 )
-```
-```
 
-```
-```
 public:
 
 bool AdjustVisibleName( 
@@ -30,8 +25,7 @@ bool AdjustVisibleName(
    IFunctionBase^ pFunctionBase
 
 )
-```
-```
+
 
 #### Parameters
 

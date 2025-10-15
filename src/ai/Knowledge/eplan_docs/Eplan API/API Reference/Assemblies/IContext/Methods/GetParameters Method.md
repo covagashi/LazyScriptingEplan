@@ -8,20 +8,14 @@ Gets array filled with parameters names from the context.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 string[] GetParameters()
-```
-```
 
-```
-```
 array<String^>^ GetParameters();
-```
-```
+
 
 #### Return Value
 

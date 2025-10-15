@@ -13,35 +13,27 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Setting")]
 
 public class Search
-```
-```
 
-```
-```
 [DefaultMember("Setting")]
 
 public ref class Search
-```
-```
+
 
 Example
 
 The following example shows how to use class Search.
 
-- [C#](#i-tab-content-5848180d-0950-43f0-bfa8-8199a608c6f7)
+**C#**
 
 ```
 Search oSearch = new Search();
-
-
 
 // Set settings which will influence the search result
 
@@ -67,17 +59,11 @@ oSearch[Search.Settings.NotPlaced] = false;
 
 oSearch[Search.Settings.LogicPages] = true;
 
-
-
 Project oProject = new ProjectManager().OpenProject("$(MD_PROJECTS)\\EPLAN_Sample_Project.elk");
-
-
 
 //clear active search result list
 
 oSearch.ClearSearchDB(oProject);
-
-
 
 string textToFind = "EB3*";
 
@@ -85,13 +71,9 @@ string textToFind = "EB3*";
 
 oSearch.Project(oProject, textToFind);		
 
-
-
 //Get search results
 
 StorableObject[] arrObjects = oSearch.GetAllSearchDBEntries(oProject);
-
-
 
 //Replace text in a searched objects.
 
@@ -103,8 +85,6 @@ oSearch.Project(m_oProject, strSearchString);
 
 StorableObject[] arrObjects = oSearch.GetAllSearchDBEntries(m_oProject);
 
-
-
 oSearch.Replace(arrObjects, strSearchString, strReplaceString);
 ```
 
@@ -115,8 +95,6 @@ Public Constructors
 | Public Constructor | [Search Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Search~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

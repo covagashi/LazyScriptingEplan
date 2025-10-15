@@ -8,20 +8,14 @@ Mode of Open method.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MDSymbolLibrary.Mode : System.Enum
-```
-```
 
-```
-```
 public enum class MDSymbolLibrary.Mode : public System.Enum
-```
-```
+
 
 Members
 

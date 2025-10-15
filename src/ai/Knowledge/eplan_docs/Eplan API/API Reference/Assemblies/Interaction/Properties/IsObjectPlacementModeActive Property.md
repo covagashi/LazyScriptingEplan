@@ -8,17 +8,12 @@ Returns `true`, if special object placement mode is active.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool IsObjectPlacementModeActive {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool IsObjectPlacementModeActive {
@@ -26,5 +21,4 @@ virtual property bool IsObjectPlacementModeActive {
    bool get();
 
 }
-```
-```
+

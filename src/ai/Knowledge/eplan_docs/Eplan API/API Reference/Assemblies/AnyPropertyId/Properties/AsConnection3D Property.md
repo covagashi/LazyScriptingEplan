@@ -8,17 +8,12 @@ Gets property id value as [Properties.Connection3D](Eplan.EplApi.DataModelu~Epla
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.Connection3D AsConnection3D {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.Connection3D AsConnection3D {
@@ -26,5 +21,4 @@ property Properties.Connection3D AsConnection3D {
    Properties.Connection3D get();
 
 }
-```
-```
+

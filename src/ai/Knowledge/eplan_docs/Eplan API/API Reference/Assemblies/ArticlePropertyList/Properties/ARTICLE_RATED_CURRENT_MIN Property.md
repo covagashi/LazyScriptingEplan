@@ -8,17 +8,12 @@ Nominal current, min. # 26502.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_RATED_CURRENT_MIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_RATED_CURRENT_MIN {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_RATED_CURRENT_MIN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

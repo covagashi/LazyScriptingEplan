@@ -8,21 +8,16 @@ Should be used internal only
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ConnectionPropertyList( 
 
    Connection obj
 
 )
-```
-```
 
-```
-```
 public:
 
 ConnectionPropertyList( 
@@ -30,8 +25,7 @@ ConnectionPropertyList(
    Connection^ obj
 
 )
-```
-```
+
 
 #### Parameters
 

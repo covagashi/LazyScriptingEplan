@@ -8,17 +8,12 @@ Part number # 23200.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DEVICELISTENTRY_PARTNR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DEVICELISTENTRY_PARTNR {
@@ -28,8 +23,7 @@ property PropertyValue^ DEVICELISTENTRY_PARTNR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ BACnet: Protocol # 26540.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PROTOCOL_BACNET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PROTOCOL_BACNET {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PROTOCOL_BACNET {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

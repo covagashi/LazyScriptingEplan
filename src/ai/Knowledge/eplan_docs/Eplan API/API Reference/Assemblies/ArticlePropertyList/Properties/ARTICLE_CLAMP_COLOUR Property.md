@@ -8,17 +8,12 @@ Terminal: Color # 26039.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CLAMP_COLOUR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CLAMP_COLOUR {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CLAMP_COLOUR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

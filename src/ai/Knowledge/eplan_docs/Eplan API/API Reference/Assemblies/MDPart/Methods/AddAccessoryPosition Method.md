@@ -8,22 +8,16 @@ Add a new accessory position to the part. That new accessory part is added to th
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAccessoryPosition AddAccessoryPosition()
-```
-```
 
-```
-```
 public:
 
 MDAccessoryPosition^ AddAccessoryPosition();
-```
-```
+
 
 #### Return Value
 

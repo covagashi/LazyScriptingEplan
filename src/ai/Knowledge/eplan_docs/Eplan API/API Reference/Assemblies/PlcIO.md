@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PlcIO : StorableObject
-```
-```
 
-```
-```
 public ref class PlcIO : public StorableObject
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [PlcIO Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlcIO~_ctor().html) | Constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

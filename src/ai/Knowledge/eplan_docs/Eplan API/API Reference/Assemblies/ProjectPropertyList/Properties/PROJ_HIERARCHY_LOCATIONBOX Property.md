@@ -8,17 +8,12 @@ Structure format for structure boxes # 10062.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_HIERARCHY_LOCATIONBOX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_HIERARCHY_LOCATIONBOX {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_HIERARCHY_LOCATIONBOX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

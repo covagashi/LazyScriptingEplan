@@ -8,17 +8,12 @@ Gets/sets the flag which corresponds to "Do not translate automatically" checkbo
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsAutomaticallyTranslated {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsAutomaticallyTranslated {
@@ -28,8 +23,7 @@ property bool IsAutomaticallyTranslated {
    void set (    bool value);
 
 }
-```
-```
+
 
 #### Property Value
 

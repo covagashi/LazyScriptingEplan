@@ -8,17 +8,12 @@ Determines if adjustment of the visible device tag separator should be forced
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AdjustmentOfDeviceTagSeparatorIsEnabled {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool AdjustmentOfDeviceTagSeparatorIsEnabled {
@@ -28,5 +23,4 @@ property bool AdjustmentOfDeviceTagSeparatorIsEnabled {
    void set (    bool value);
 
 }
-```
-```
+

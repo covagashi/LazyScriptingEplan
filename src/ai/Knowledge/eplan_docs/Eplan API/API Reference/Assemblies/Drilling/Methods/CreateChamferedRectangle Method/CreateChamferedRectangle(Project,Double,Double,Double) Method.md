@@ -8,11 +8,10 @@ Creates new chamfer rectangle drilling in project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateChamferedRectangle( 
 
    Project pProject,
@@ -24,11 +23,7 @@ public void CreateChamferedRectangle(
    double dChamferLength
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateChamferedRectangle( 
@@ -42,8 +37,7 @@ void CreateChamferedRectangle(
    double dChamferLength
 
 )
-```
-```
+
 
 #### Parameters
 

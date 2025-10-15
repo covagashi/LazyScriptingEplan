@@ -8,17 +8,12 @@ ERP / PDM number # 23216.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DEVICELISTENTRY_ERPNR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DEVICELISTENTRY_ERPNR {
@@ -28,8 +23,7 @@ property PropertyValue^ DEVICELISTENTRY_ERPNR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

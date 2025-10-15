@@ -8,17 +8,12 @@ Method name # 26052.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_METHOD_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_METHOD_NAME {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_METHOD_NAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

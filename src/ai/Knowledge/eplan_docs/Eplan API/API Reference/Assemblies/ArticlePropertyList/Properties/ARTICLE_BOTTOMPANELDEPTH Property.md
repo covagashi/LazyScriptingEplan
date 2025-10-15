@@ -8,17 +8,12 @@ Base: Depth # 22186.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_BOTTOMPANELDEPTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_BOTTOMPANELDEPTH {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_BOTTOMPANELDEPTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

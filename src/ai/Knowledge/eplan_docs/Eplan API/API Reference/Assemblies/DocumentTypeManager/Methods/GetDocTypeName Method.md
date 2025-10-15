@@ -8,21 +8,16 @@ Map name to identifier.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static string GetDocTypeName( 
 
    DocumentTypeManager.DocumentType nDocumentType
 
 )
-```
-```
 
-```
-```
 public:
 
 static String^ GetDocTypeName( 
@@ -30,8 +25,7 @@ static String^ GetDocTypeName(
    DocumentTypeManager.DocumentType nDocumentType
 
 )
-```
-```
+
 
 #### Parameters
 

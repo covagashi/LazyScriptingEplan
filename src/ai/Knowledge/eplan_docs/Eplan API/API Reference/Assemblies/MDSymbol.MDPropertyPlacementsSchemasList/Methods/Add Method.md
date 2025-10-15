@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDSymbol.MDPropertyPlacementsSchema Add( 
 
    MultiLangString name
 
 )
-```
-```
 
-```
-```
 public:
 
 MDSymbol.MDPropertyPlacementsSchema^ Add( 
@@ -28,8 +23,7 @@ MDSymbol.MDPropertyPlacementsSchema^ Add(
    MultiLangString^ name
 
 )
-```
-```
+
 
 #### Parameters
 

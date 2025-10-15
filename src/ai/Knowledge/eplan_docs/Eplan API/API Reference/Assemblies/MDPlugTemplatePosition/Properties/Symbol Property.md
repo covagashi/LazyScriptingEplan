@@ -8,17 +8,12 @@ The symbol of the plug template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Symbol {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Symbol {
@@ -28,5 +23,4 @@ property String^ Symbol {
    void set (    String^ value);
 
 }
-```
-```
+

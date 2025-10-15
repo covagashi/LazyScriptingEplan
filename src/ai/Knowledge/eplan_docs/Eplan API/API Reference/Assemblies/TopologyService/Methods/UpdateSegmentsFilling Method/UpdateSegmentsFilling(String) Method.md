@@ -8,21 +8,16 @@ Calculates and sets value of property CABLINGSEGMENT\_FILLING for all segments i
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool UpdateSegmentsFilling( 
 
    string strFullLinkFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 bool UpdateSegmentsFilling( 
@@ -30,8 +25,7 @@ bool UpdateSegmentsFilling(
    String^ strFullLinkFileName
 
 )
-```
-```
+
 
 #### Parameters
 

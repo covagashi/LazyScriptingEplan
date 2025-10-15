@@ -8,21 +8,16 @@ Returns size of the bitmap in pixels.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD GetPhysicalDimensionOfImage( 
 
    string strFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 PointD GetPhysicalDimensionOfImage( 
@@ -30,8 +25,7 @@ PointD GetPhysicalDimensionOfImage(
    String^ strFileName
 
 )
-```
-```
+
 
 #### Parameters
 

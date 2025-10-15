@@ -8,11 +8,10 @@ Compares two projects and writes the results as project messages into the messag
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool DoProjectInspection( 
 
    Project oProject,
@@ -40,11 +39,7 @@ public bool DoProjectInspection(
    bool bStopOnFirstDifference
 
 )
-```
-```
 
-```
-```
 public:
 
 bool DoProjectInspection( 
@@ -74,8 +69,7 @@ bool DoProjectInspection(
    bool bStopOnFirstDifference
 
 )
-```
-```
+
 
 #### Parameters
 

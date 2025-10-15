@@ -8,21 +8,16 @@ Checks if a construction with the given name exists.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExistsConstruction( 
 
    string name
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExistsConstruction( 
@@ -30,8 +25,7 @@ bool ExistsConstruction(
    String^ name
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Pneumatically operated # 26057.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PNEUMATICALLY_OPERATED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PNEUMATICALLY_OPERATED {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PNEUMATICALLY_OPERATED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

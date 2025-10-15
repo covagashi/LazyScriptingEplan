@@ -8,17 +8,12 @@ This property corresponds with the "Individual objects assignment" flag in the m
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ReferencesActive {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool ReferencesActive {
@@ -28,8 +23,7 @@ property bool ReferencesActive {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

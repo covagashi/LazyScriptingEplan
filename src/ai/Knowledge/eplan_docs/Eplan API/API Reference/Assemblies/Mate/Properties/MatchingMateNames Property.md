@@ -8,17 +8,12 @@ Names of mates that can be snapped to this one separated by '#'.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string MatchingMateNames {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ MatchingMateNames {
@@ -28,8 +23,7 @@ property String^ MatchingMateNames {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Remarks
 

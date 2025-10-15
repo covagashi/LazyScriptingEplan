@@ -14,26 +14,17 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [AttributeUsage(AttributeTargets.Assembly)]
 
 public class EplanSignedAssemblyAttribute : System.Attribute
-```
-```
 
-```
-```
 [AttributeUsage(AttributeTargets.Assembly)]
 
 public ref class EplanSignedAssemblyAttribute : public System.Attribute
-```
-```
-
-
 
 Public Constructors
 
@@ -42,8 +33,6 @@ Public Constructors
 | Public Constructor | [EplanSignedAssemblyAttribute Constructor](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.EplanSignedAssemblyAttribute~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -16,26 +16,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Block : Placement, IPlacementsContainer
-```
-```
 
-```
-```
 public ref class Block : public Placement, IPlacementsContainer
-```
-```
+
 
 Remarks
 
 \* Only one [SymbolReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference.html) object can be included in a block. \* A block may include another block's reference. \* Blocks are not listed in [Function](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function.html) SubPlacements, \* instead the Block is given as **Eplan::EplApi::DataModel:** Property.
-
-
 
 Public Constructors
 
@@ -44,8 +36,6 @@ Public Constructors
 | Public Constructor | [Block Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Block~_ctor().html) | Default constructor. Creates invalid Block object. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ Gets the connection point's position relative to the symbol's insertion point.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD Location {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD Location {
@@ -26,5 +21,4 @@ property PointD Location {
    PointD get();
 
 }
-```
-```
+

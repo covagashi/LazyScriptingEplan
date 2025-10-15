@@ -8,21 +8,16 @@ Creates transient SegmentTemplate object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateTransient( 
 
    SegmentDefinition pSegmentDefinition
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateTransient( 
@@ -30,8 +25,7 @@ void CreateTransient(
    SegmentDefinition^ pSegmentDefinition
 
 )
-```
-```
+
 
 #### Parameters
 

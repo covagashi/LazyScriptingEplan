@@ -5,17 +5,16 @@
 ---
 
 ```
-Imports parts data from an XML file ("*.xml") to system parts database.
-```
+Imports parts data from an XML file ("*.xml") to system parts database.
 
-  
+```
 
 **Remarks**
 
 ```
-No options used.
-```
+No options used.
 
-```
-This converter was designed to work on system parts database (It is used in EPLAN P8 GUI in ribbon "Master data" > "Parts" > "Management" > button "Extras").
+
+This converter was designed to work on system parts database (It is used in EPLAN P8 GUI in ribbon "Master data" > "Parts" > "Management" > button "Extras").
+
 ```

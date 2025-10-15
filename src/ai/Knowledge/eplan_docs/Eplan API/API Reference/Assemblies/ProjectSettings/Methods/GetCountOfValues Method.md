@@ -8,21 +8,16 @@ Returnes the count of indexed values that are used already by the project settin
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int GetCountOfValues( 
 
    string strSettingPath
 
 )
-```
-```
 
-```
-```
 public:
 
 int GetCountOfValues( 
@@ -30,8 +25,7 @@ int GetCountOfValues(
    String^ strSettingPath
 
 )
-```
-```
+
 
 #### Parameters
 

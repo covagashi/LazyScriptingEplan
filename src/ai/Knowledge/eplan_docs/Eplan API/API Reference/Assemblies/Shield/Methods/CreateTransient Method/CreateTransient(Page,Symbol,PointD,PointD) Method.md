@@ -8,11 +8,10 @@ Creates new transient Shield object of given dimensions and places on page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateTransient( 
 
    Page pPage,
@@ -24,11 +23,7 @@ public void CreateTransient(
    PointD oEndPoint
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateTransient( 
@@ -42,8 +37,7 @@ void CreateTransient(
    PointD oEndPoint
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -75,7 +69,7 @@ Example
 
 The following example shows how to create and place Shield on page.
 
-- [C#](#i-tab-content-bdd32d76-a247-4f13-a7d2-6d720e9ade81)
+**C#**
 
 ```
 //prepare symbol of Shield
@@ -90,8 +84,6 @@ SymbolLibrary oSymbolLibrary = new SymbolLibrary(oProject, strSymbolLibName);
 
 Symbol oSymbol = new Symbol(oSymbolLibrary, strSymbolName);
 
-
-
 //create Shield
 
 Page oPage = oProject.Pages[14];
@@ -99,9 +91,5 @@ Page oPage = oProject.Pages[14];
 Shield oShield = new Shield();
 
 oShield.Create(oPage, oSymbol, new PointD(50.0, 200.0), new PointD(120.0, 230.0));
-
-
-
-
 
 ```

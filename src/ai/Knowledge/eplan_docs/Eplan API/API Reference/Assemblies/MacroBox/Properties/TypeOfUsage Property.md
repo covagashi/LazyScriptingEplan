@@ -8,17 +8,12 @@ Gets or sets type of usage.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MacroBox.Enums.TypeOfUsage TypeOfUsage {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MacroBox.Enums.TypeOfUsage TypeOfUsage {
@@ -28,5 +23,4 @@ property MacroBox.Enums.TypeOfUsage TypeOfUsage {
    void set (    MacroBox.Enums.TypeOfUsage value);
 
 }
-```
-```
+

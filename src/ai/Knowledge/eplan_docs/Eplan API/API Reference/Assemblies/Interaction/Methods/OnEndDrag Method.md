@@ -8,11 +8,10 @@ Is called after end of a dragging operation.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnEndDrag( 
 
    bool bSuccess,
@@ -20,11 +19,7 @@ public virtual RequestCode OnEndDrag(
    Position oPosition
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnEndDrag( 
@@ -34,8 +29,7 @@ virtual RequestCode OnEndDrag(
    Position^ oPosition
 
 )
-```
-```
+
 
 #### Parameters
 

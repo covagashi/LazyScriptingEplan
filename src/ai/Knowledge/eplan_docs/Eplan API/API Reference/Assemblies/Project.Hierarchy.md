@@ -8,20 +8,14 @@ Hierarchy level of the device structure
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Project.Hierarchy : System.Enum
-```
-```
 
-```
-```
 public enum class Project.Hierarchy : public System.Enum
-```
-```
+
 
 Members
 

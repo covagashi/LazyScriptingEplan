@@ -8,17 +8,12 @@ Gets property id value as [Properties.Comment](Eplan.EplApi.DataModelu~Eplan.Epl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.Comment AsComment {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.Comment AsComment {
@@ -26,5 +21,4 @@ property Properties.Comment AsComment {
    Properties.Comment get();
 
 }
-```
-```
+

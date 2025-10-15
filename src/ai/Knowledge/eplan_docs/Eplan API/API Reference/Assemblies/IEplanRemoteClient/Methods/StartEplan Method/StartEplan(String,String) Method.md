@@ -8,11 +8,10 @@ Starts an Eplan instance with arguments.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 EplanServerData StartEplan( 
 
    string strEplanFullPath,
@@ -20,11 +19,7 @@ EplanServerData StartEplan(
    string arguments
 
 )
-```
-```
 
-```
-```
 EplanServerData^ StartEplan( 
 
    String^ strEplanFullPath,
@@ -32,8 +27,7 @@ EplanServerData^ StartEplan(
    String^ arguments
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Constructor.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ProjectSettings( 
 
    Project proj
 
 )
-```
-```
 
-```
-```
 public:
 
 ProjectSettings( 
@@ -30,8 +25,7 @@ ProjectSettings(
    Project^ proj
 
 )
-```
-```
+
 
 #### Parameters
 

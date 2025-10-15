@@ -8,21 +8,16 @@ Reorganizes structure of planning objects in given project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ReorganizeStructure( 
 
    Project pProject
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ReorganizeStructure( 
@@ -30,8 +25,7 @@ bool ReorganizeStructure(
    Project^ pProject
 
 )
-```
-```
+
 
 #### Parameters
 

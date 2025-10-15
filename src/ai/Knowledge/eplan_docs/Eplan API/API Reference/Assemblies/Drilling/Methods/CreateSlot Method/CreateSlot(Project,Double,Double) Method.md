@@ -8,11 +8,10 @@ Creates new slot drilling in project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateSlot( 
 
    Project pProject,
@@ -22,11 +21,7 @@ public void CreateSlot(
    double dHeight
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateSlot( 
@@ -38,8 +33,7 @@ void CreateSlot(
    double dHeight
 
 )
-```
-```
+
 
 #### Parameters
 

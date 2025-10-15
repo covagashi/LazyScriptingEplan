@@ -8,17 +8,12 @@ Name displayed in GUI for this property definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString DisplayedName {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ DisplayedName {
@@ -28,5 +23,4 @@ property MultiLangString^ DisplayedName {
    void set (    MultiLangString^ value);
 
 }
-```
-```
+

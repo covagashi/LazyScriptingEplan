@@ -8,17 +8,12 @@ KNX: Supports EIB protocol, incoming # 26066.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SUPPORTS_PROTOCOL_INCOMING_EIB_KNX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SUPPORTS_PROTOCOL_INCOMING_EIB_KNX {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SUPPORTS_PROTOCOL_INCOMING_EIB_KNX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

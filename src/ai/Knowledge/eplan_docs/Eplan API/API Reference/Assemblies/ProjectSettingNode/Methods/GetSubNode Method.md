@@ -8,21 +8,16 @@ Determines a child node.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override SettingNode GetSubNode( 
 
    string strSubNodePath
 
 )
-```
-```
 
-```
-```
 public:
 
 SettingNode^ GetSubNode( 
@@ -30,8 +25,7 @@ SettingNode^ GetSubNode(
    String^ strSubNodePath
 
 ) override
-```
-```
+
 
 #### Parameters
 

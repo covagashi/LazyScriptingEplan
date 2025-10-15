@@ -8,17 +8,12 @@ Target power (hydraulic) # 26142.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SETPOINT_POWER_HYDRAULIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SETPOINT_POWER_HYDRAULIC {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SETPOINT_POWER_HYDRAULIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

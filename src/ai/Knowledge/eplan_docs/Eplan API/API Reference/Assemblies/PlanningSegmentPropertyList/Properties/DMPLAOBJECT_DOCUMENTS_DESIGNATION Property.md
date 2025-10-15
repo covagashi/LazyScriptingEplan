@@ -8,17 +8,12 @@ Do not check for pre-planning depth # 44034.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_IGNORE_MANDATORY_PROPERTY_VERIFICATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_IGNORE_MANDATORY_PROPERTY_VERIFICATION {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_IGNORE_MANDATORY_PROPERTY_VERIFICATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

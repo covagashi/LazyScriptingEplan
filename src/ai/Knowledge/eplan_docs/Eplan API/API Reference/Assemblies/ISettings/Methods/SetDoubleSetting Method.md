@@ -8,11 +8,10 @@ Sets the value of settings on a given path.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void SetDoubleSetting( 
 
    string strSettingPath,
@@ -22,11 +21,7 @@ void SetDoubleSetting(
    int nIdx
 
 )
-```
-```
 
-```
-```
 void SetDoubleSetting( 
 
    String^ strSettingPath,
@@ -36,8 +31,7 @@ void SetDoubleSetting(
    int nIdx
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Drive: Device type # 22340.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PLCAXIS_DEVICETYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PLCAXIS_DEVICETYPE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PLCAXIS_DEVICETYPE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

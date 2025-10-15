@@ -8,17 +8,12 @@ Model view: Display freely routed pipes # 36523.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_DISPLAY_FREE_ROUTED_PIPES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_DISPLAY_FREE_ROUTED_PIPES {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_DISPLAY_FREE_ROUTED_PIPES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

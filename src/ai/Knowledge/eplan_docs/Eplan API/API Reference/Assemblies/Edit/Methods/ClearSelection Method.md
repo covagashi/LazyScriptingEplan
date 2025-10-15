@@ -8,22 +8,16 @@ Removes selection from all objects in the GED.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ClearSelection()
-```
-```
 
-```
-```
 public:
 
 void ClearSelection();
-```
-```
+
 
 Exceptions
 

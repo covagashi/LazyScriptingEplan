@@ -8,17 +8,12 @@ Array of points representing the shape of spline.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D[] Spline {get;}
-```
-```
 
-```
-```
 public:
 
 property array<PointD3D>^ Spline {
@@ -26,5 +21,4 @@ property array<PointD3D>^ Spline {
    array<PointD3D>^ get();
 
 }
-```
-```
+

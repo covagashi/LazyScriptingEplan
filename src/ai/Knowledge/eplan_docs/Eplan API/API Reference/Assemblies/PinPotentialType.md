@@ -8,20 +8,14 @@ Enumeration of Pin's potential types
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum PinPotentialType : System.Enum
-```
-```
 
-```
-```
 public enum class PinPotentialType : public System.Enum
-```
-```
+
 
 Members
 

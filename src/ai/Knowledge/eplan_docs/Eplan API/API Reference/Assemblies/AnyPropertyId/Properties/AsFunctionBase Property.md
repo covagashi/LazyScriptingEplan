@@ -8,17 +8,12 @@ Gets property id value as [Properties.FunctionBase](Eplan.EplApi.DataModelu~Epla
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.FunctionBase AsFunctionBase {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.FunctionBase AsFunctionBase {
@@ -26,5 +21,4 @@ property Properties.FunctionBase AsFunctionBase {
    Properties.FunctionBase get();
 
 }
-```
-```
+

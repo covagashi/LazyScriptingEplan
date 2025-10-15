@@ -8,17 +8,12 @@ Type of administration # 31075.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_TYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_TYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_TYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns if Line starts with an arrow.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool StartArrow {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool StartArrow {
@@ -28,8 +23,7 @@ property bool StartArrow {
    void set (    bool value);
 
 }
-```
-```
+
 
 #### Property Value
 

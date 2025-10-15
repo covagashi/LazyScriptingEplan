@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class WriteProtectionNotSet : DataModelException
-```
-```
 
-```
-```
 public ref class WriteProtectionNotSet : public DataModelException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [WriteProtectionNotSet Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.WriteProtectionNotSet~_ctor.html) |  |
 
 [Top](#top)
-
-
 
 Public Properties
 

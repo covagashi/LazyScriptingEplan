@@ -8,17 +8,12 @@ Technical characteristics # 22017.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CHARACTERISTICS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CHARACTERISTICS {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CHARACTERISTICS {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

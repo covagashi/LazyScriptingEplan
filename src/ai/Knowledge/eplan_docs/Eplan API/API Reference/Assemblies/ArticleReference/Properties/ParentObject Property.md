@@ -8,17 +8,12 @@ Returns the Object this ArticleReference belongs to.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject ParentObject {get;}
-```
-```
 
-```
-```
 public:
 
 property StorableObject^ ParentObject {
@@ -26,8 +21,7 @@ property StorableObject^ ParentObject {
    StorableObject^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -16,28 +16,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Drilling : Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class Drilling : public Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
+
 
 Remarks
 
 Type of drilling is determined by its function definition and additionally by its ItemType.  
   
 Corresponding FunctionCategory for this class is CabVirtNC.
-
-
 
 Public Constructors
 
@@ -46,8 +38,6 @@ Public Constructors
 | Public Constructor | [Drilling Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Drilling~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ Type of cooling medium # 26020.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TYPE_OF_COOLING_MEDIUM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TYPE_OF_COOLING_MEDIUM {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TYPE_OF_COOLING_MEDIUM {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

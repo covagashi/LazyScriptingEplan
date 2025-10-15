@@ -13,26 +13,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ListSelectDecisionContext
-```
-```
 
-```
-```
 public ref class ListSelectDecisionContext
-```
-```
+
 
 Example
 
 Example of using Decider class with a ListSelectDecisionContext :
 
-- [C#](#i-tab-content-7895b888-b60b-485d-ad3c-855114b95306)
+**C#**
 
 ```
 StringCollection collection = new StringCollection();
@@ -43,11 +37,7 @@ collection.Add("Content 2");
 
 collection.Add("Content 3");
 
-
-
 ListSelectDecisionContext listSelectDecisionContext = new ListSelectDecisionContext(collection, "Content 2", "Dialog Title");
-
-
 
 Decider oDecision = new Decider();
 
@@ -60,8 +50,6 @@ if (eAnswer != EnumDecisionReturn.eOK)
     return false;
 
 }
-
-
 
 if (listSelectDecisionContext.AllowMultiSelect)
 
@@ -81,8 +69,6 @@ else
 
 }
 
-
-
 ```
 
 Public Constructors
@@ -92,8 +78,6 @@ Public Constructors
 | Public Constructor | [ListSelectDecisionContext Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ListSelectDecisionContext~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

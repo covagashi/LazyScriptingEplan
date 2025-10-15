@@ -8,17 +8,12 @@ Busbars: Number of rails # 22201.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_BARCOUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_BARCOUNT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_BARCOUNT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

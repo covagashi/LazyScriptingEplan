@@ -8,22 +8,16 @@ Commits the transaction. Cannot be called more than one time for given transacti
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override void Commit()
-```
-```
 
-```
-```
 public:
 
 void Commit(); override
-```
-```
+
 
 Exceptions
 

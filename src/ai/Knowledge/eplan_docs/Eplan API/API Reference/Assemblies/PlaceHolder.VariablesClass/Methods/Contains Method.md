@@ -8,21 +8,16 @@ Determines whether placeholder stores a variable
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool Contains( 
 
    PlaceHolder.Variable item
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual bool Contains( 
@@ -30,8 +25,7 @@ virtual bool Contains(
    PlaceHolder.Variable^ item
 
 )
-```
-```
+
 
 #### Parameters
 

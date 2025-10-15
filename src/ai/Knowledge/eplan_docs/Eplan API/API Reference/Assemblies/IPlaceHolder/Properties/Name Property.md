@@ -8,17 +8,12 @@ Gets/Sets the name of the Placeholder3D.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 string Name {get; set;}
-```
-```
 
-```
-```
 property String^ Name {
 
    String^ get();
@@ -26,5 +21,4 @@ property String^ Name {
    void set (    String^ value);
 
 }
-```
-```
+

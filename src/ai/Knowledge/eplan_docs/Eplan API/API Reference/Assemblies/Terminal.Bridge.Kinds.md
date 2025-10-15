@@ -8,20 +8,14 @@ Type of a bridge connection.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Terminal.Bridge.Kinds : System.Enum
-```
-```
 
-```
-```
 public enum class Terminal.Bridge.Kinds : public System.Enum
-```
-```
+
 
 Members
 

@@ -8,17 +8,12 @@ Name of the merged function.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual FunctionBasePropertyList NameParts {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property FunctionBasePropertyList^ NameParts {
@@ -28,8 +23,7 @@ virtual property FunctionBasePropertyList^ NameParts {
    void set (    FunctionBasePropertyList^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

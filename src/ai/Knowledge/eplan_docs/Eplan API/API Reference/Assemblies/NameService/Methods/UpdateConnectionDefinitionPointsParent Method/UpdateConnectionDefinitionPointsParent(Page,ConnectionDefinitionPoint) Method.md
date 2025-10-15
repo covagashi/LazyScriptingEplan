@@ -8,11 +8,10 @@ Sets the page and updates the graphical parent of a connection definition point
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void UpdateConnectionDefinitionPointsParent( 
 
    Page pPage,
@@ -20,11 +19,7 @@ public void UpdateConnectionDefinitionPointsParent(
    ConnectionDefinitionPoint pCDP
 
 )
-```
-```
 
-```
-```
 public:
 
 void UpdateConnectionDefinitionPointsParent( 
@@ -34,8 +29,7 @@ void UpdateConnectionDefinitionPointsParent(
    ConnectionDefinitionPoint^ pCDP
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ The start of any parse. Set the number and the unit to parse and fill the unit o
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Set( 
 
    double dValue,
@@ -22,11 +21,7 @@ public void Set(
    ParserParameter parameter
 
 )
-```
-```
 
-```
-```
 public:
 
 void Set( 
@@ -38,8 +33,7 @@ void Set(
    ParserParameter^ parameter
 
 )
-```
-```
+
 
 #### Parameters
 

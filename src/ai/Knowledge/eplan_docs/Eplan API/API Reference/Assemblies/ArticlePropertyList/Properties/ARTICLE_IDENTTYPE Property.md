@@ -8,17 +8,12 @@ Barcode type # 22209.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_IDENTTYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_IDENTTYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_IDENTTYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

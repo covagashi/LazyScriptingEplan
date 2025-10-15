@@ -8,17 +8,12 @@ Configuration project (automatic, at bus ports) # 20581.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCCONFIGURATIONPROJECT_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCCONFIGURATIONPROJECT_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCCONFIGURATIONPROJECT_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

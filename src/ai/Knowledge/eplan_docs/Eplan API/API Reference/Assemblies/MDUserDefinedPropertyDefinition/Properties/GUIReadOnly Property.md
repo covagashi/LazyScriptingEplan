@@ -8,17 +8,12 @@ GUIReadOnly property value. This property makes a new user-defined property to b
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool GUIReadOnly {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool GUIReadOnly {
@@ -28,5 +23,4 @@ property bool GUIReadOnly {
    void set (    bool value);
 
 }
-```
-```
+

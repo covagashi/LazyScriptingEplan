@@ -8,17 +8,12 @@ Macro file with window or page macros, used when placing the macro.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Macro {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Macro {
@@ -28,5 +23,4 @@ property String^ Macro {
    void set (    String^ value);
 
 }
-```
-```
+

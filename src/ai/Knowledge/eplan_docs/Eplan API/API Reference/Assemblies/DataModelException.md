@@ -48,22 +48,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class DataModelException : Eplan.EplApi.Base.BaseException
-```
-```
 
-```
-```
 public ref class DataModelException : public Eplan.EplApi.Base.BaseException
-```
-```
-
-
 
 Public Constructors
 
@@ -72,8 +63,6 @@ Public Constructors
 | Public Constructor | [DataModelException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DataModelException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

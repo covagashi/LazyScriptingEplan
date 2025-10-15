@@ -8,17 +8,12 @@ Returns all associated busbar objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public BusBar[] BusBars {get;}
-```
-```
 
-```
-```
 public:
 
 property array<BusBar^>^ BusBars {
@@ -26,5 +21,4 @@ property array<BusBar^>^ BusBars {
    array<BusBar^>^ get();
 
 }
-```
-```
+

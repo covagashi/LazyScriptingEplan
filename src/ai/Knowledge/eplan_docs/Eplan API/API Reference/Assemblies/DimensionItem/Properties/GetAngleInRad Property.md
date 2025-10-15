@@ -8,17 +8,12 @@ Gets angle value in radians for angular dimension type only.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double GetAngleInRad {get;}
-```
-```
 
-```
-```
 public:
 
 property double GetAngleInRad {
@@ -26,8 +21,7 @@ property double GetAngleInRad {
    double get();
 
 }
-```
-```
+
 
 Remarks
 

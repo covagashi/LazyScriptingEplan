@@ -8,17 +8,12 @@ Returns default target mate used to place bus bar which will be located on the t
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public LineMate BaseMate {get;}
-```
-```
 
-```
-```
 public:
 
 property LineMate^ BaseMate {
@@ -26,8 +21,7 @@ property LineMate^ BaseMate {
    LineMate^ get();
 
 }
-```
-```
+
 
 Remarks
 

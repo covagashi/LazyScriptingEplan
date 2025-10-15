@@ -8,17 +8,12 @@ Gets/Sets an array of the function's connection points.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Pin[] Pins {get; set;}
-```
-```
 
-```
-```
 public:
 
 property array<Pin^>^ Pins {
@@ -28,8 +23,7 @@ property array<Pin^>^ Pins {
    void set (    array<Pin^>^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

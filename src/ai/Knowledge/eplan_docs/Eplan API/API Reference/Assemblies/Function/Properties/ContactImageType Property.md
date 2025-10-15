@@ -8,17 +8,12 @@ Gets or sets a value indicating where contact image is displayed for this functi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ContactImage.Enums.ContactImageType ContactImageType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property ContactImage.Enums.ContactImageType ContactImageType {
@@ -28,8 +23,7 @@ property ContactImage.Enums.ContactImageType ContactImageType {
    void set (    ContactImage.Enums.ContactImageType value);
 
 }
-```
-```
+
 
 Remarks
 

@@ -8,17 +8,12 @@ Format of full DT: Device connection point # 10651.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_FULLDTFORMAT_DEVICE_END_TERMINAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_FULLDTFORMAT_DEVICE_END_TERMINAL {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_FULLDTFORMAT_DEVICE_END_TERMINAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

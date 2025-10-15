@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PipingDefinition : PotentialDefinition, IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class PipingDefinition : public PotentialDefinition, IPropertyPlacementsContainer
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [PipingDefinition Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PipingDefinition~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

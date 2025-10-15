@@ -8,17 +8,12 @@ Connection: Cross-section / diameter # 44085.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_CROSSSECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_CROSSSECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_CROSSSECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

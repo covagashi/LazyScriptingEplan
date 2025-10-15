@@ -8,21 +8,16 @@ Determines, if the given value specifies a real logical function.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static bool IsRealLogicalFunctionDocType( 
 
    DocumentTypeManager.DocumentType nDocType
 
 )
-```
-```
 
-```
-```
 public:
 
 static bool IsRealLogicalFunctionDocType( 
@@ -30,8 +25,7 @@ static bool IsRealLogicalFunctionDocType(
    DocumentTypeManager.DocumentType nDocType
 
 )
-```
-```
+
 
 #### Parameters
 

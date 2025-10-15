@@ -8,17 +8,12 @@ Modification date (automatic) # 15023.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMBLIB_LASTMODIFICATIONDATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMBLIB_LASTMODIFICATIONDATE {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMBLIB_LASTMODIFICATIONDATE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

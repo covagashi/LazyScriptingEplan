@@ -8,21 +8,16 @@ Exports the layers into an XML file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Export( 
 
    string strExportFilePath
 
 )
-```
-```
 
-```
-```
 public:
 
 void Export( 
@@ -30,8 +25,7 @@ void Export(
    String^ strExportFilePath
 
 )
-```
-```
+
 
 #### Parameters
 

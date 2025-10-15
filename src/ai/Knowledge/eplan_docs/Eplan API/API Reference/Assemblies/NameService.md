@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class NameService
-```
-```
 
-```
-```
 public ref class NameService
-```
-```
+
 
 Remarks
 
 When using EPLAN interactively, the system keeps track, that the structure identifiers of a Function on a Page are adjusted according to the page and according to location boxes or black boxes in which the Function is located. In API, the methods of the NameService class help you to do this. Please read 'Adoption of Device Tags' chapter of P8 help in order to get further information about these rules.
-
-
 
 Public Constructors
 
@@ -41,8 +33,6 @@ Public Constructors
 | Public Constructor | [NameService Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.NameService~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

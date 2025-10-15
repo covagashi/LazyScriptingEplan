@@ -8,17 +8,12 @@ Variant # 22024.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_VARIANT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_VARIANT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_VARIANT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

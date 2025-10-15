@@ -8,17 +8,12 @@ DT adoption: Search direction conforming to GOST standard # 12104.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_DEVTAGSEARCHDIR_FOR_GOST {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_DEVTAGSEARCHDIR_FOR_GOST {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_DEVTAGSEARCHDIR_FOR_GOST {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

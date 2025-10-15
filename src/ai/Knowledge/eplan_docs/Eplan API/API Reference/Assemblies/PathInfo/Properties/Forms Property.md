@@ -8,17 +8,12 @@ Returns default Forms directory.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Forms {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Forms {
@@ -26,8 +21,7 @@ property String^ Forms {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

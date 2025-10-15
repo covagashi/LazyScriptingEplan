@@ -8,11 +8,10 @@ Activate or deactivate connection dirty bit handling. Helper will switch mode au
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetConnectionDirtyActive( 
 
    bool bActive,
@@ -20,11 +19,7 @@ public void SetConnectionDirtyActive(
    ChangeInfoService.ChangeInfoServiceHelper pHelper
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetConnectionDirtyActive( 
@@ -34,8 +29,7 @@ void SetConnectionDirtyActive(
    ChangeInfoService.ChangeInfoServiceHelper^ pHelper
 
 )
-```
-```
+
 
 #### Parameters
 

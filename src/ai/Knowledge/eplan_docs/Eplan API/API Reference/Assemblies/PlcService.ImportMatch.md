@@ -8,20 +8,14 @@ Matching options for PLC data import.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum PlcService.ImportMatch : System.Enum
-```
-```
 
-```
-```
 public enum class PlcService.ImportMatch : public System.Enum
-```
-```
+
 
 Members
 

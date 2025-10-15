@@ -8,22 +8,16 @@ Converts the symbol representing this object into a group of graphical placement
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Group ConvertToGraphics()
-```
-```
 
-```
-```
 public:
 
 Group^ ConvertToGraphics();
-```
-```
+
 
 #### Return Value
 

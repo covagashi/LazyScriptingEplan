@@ -10,17 +10,12 @@ The StorableObject is locked when it was explicitly or implicitly locked.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override bool IsLocked {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsLocked {
@@ -28,8 +23,7 @@ property bool IsLocked {
    bool get() override;
 
 }
-```
-```
+
 
 #### Property Value
 

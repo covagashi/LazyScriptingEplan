@@ -8,17 +8,12 @@ Returns the [SegmentDefinition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.P
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual SegmentDefinition SegmentDefinition {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property SegmentDefinition^ SegmentDefinition {
@@ -28,8 +23,7 @@ virtual property SegmentDefinition^ SegmentDefinition {
    void set (    SegmentDefinition^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

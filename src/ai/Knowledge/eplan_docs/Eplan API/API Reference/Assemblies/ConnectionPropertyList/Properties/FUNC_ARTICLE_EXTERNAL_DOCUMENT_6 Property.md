@@ -8,21 +8,16 @@ Part: External document 6 # 20265.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_EXTERNAL_DOCUMENT_6( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_EXTERNAL_DOCUMENT_6 {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_EXTERNAL_DOCUMENT_6 {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

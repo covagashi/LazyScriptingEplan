@@ -8,11 +8,10 @@ Defines a new setting for a numeric default.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddNumericDefault( 
 
    string strSettingPath,
@@ -24,11 +23,7 @@ public void AddNumericDefault(
    ISettings.CreationFlag eFlag
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddNumericDefault( 
@@ -42,8 +37,7 @@ void AddNumericDefault(
    ISettings.CreationFlag eFlag
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Plugs: Leading pins # 22102.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_ADVANCECONTACTS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_ADVANCECONTACTS {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_ADVANCECONTACTS {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

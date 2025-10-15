@@ -8,21 +8,16 @@ X end point: Clamping space # 36083.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_TERMINALPOSITION_CLAMPSPACE_ENDXPOS( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_TERMINALPOSITION_CLAMPSPACE_ENDXPOS {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNCTION3D_TERMINALPOSITION_CLAMPSPACE_ENDXPOS {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

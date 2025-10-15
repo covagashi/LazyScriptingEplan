@@ -8,21 +8,16 @@ Gets project name from list.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string GetProject( 
 
    uint nIndex
 
 )
-```
-```
 
-```
-```
 public:
 
 String^ GetProject( 
@@ -30,8 +25,7 @@ String^ GetProject(
    uint nIndex
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -40,4 +34,4 @@ String^ GetProject(
 
 Remarks
 
-Warning: projects opened from API donât write automatically into MRUList. This can be done by calling MRUList.SetProject.
+Warning: projects opened from API don't write automatically into MRUList. This can be done by calling MRUList.SetProject.

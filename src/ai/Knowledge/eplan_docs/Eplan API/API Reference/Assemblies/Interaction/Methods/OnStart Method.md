@@ -8,21 +8,16 @@ Is called after start of interaction
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnStart( 
 
    InteractionContext oContext
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnStart( 
@@ -30,8 +25,7 @@ virtual RequestCode OnStart(
    InteractionContext^ oContext
 
 )
-```
-```
+
 
 #### Parameters
 

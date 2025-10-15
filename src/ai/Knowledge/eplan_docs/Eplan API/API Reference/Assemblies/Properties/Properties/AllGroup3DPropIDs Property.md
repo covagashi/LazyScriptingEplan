@@ -8,17 +8,12 @@ Returns an array of all property ids which can exist for Group3D objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static AnyPropertyId[] AllGroup3DPropIDs {get;}
-```
-```
 
-```
-```
 public:
 
 static property array<AnyPropertyId^>^ AllGroup3DPropIDs {
@@ -26,5 +21,4 @@ static property array<AnyPropertyId^>^ AllGroup3DPropIDs {
    array<AnyPropertyId^>^ get();
 
 }
-```
-```
+

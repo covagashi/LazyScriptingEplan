@@ -8,17 +8,12 @@ Performance unit (bill of quantities) # 26429.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SERVICE_UNIT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SERVICE_UNIT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SERVICE_UNIT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type [Eplan.EplApi.Base.MultiLangString](Eplan.EplApi.
 
 Remarks
 
-Measuring unit in which the output to be provided - in accordance with the performance catalog - is specified, for example cubic meter (mÂ³) for concrete work or piece (unit) for individual items such as windows or doors. The bill of quantities describes all the services, materials and work that are required for a project or a procurement and serves as a basis for offers by suppliers or service providers.
+Measuring unit in which the output to be provided - in accordance with the performance catalog - is specified, for example cubic meter (m³) for concrete work or piece (unit) for individual items such as windows or doors. The bill of quantities describes all the services, materials and work that are required for a project or a procurement and serves as a basis for offers by suppliers or service providers.

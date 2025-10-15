@@ -8,17 +8,12 @@ Creator: State / Region # 10244.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_CREATORREGION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_CREATORREGION {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_CREATORREGION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

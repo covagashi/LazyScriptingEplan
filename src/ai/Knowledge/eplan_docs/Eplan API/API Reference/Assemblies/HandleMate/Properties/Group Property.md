@@ -8,17 +8,12 @@ Retrieves a group the a handle belongs to
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Group3D Group {get;}
-```
-```
 
-```
-```
 public:
 
 property Group3D^ Group {
@@ -26,5 +21,4 @@ property Group3D^ Group {
    Group3D^ get();
 
 }
-```
-```
+

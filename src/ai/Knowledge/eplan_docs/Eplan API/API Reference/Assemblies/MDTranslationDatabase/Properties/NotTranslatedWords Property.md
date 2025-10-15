@@ -8,17 +8,12 @@ Gets all not translated words.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public List<string> NotTranslatedWords {get;}
-```
-```
 
-```
-```
 public:
 
 property List<String^>^ NotTranslatedWords {
@@ -26,8 +21,7 @@ property List<String^>^ NotTranslatedWords {
    List<String^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

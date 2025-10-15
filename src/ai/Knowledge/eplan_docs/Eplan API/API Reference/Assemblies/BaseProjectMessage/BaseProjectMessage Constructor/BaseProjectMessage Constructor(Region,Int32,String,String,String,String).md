@@ -6,11 +6,10 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public BaseProjectMessage( 
 
    IMessage.Region eRegion,
@@ -26,11 +25,7 @@ public BaseProjectMessage(
    string strAdditionalInf
 
 )
-```
-```
 
-```
-```
 public:
 
 BaseProjectMessage( 
@@ -48,8 +43,7 @@ BaseProjectMessage(
    String^ strAdditionalInf
 
 )
-```
-```
+
 
 #### Parameters
 

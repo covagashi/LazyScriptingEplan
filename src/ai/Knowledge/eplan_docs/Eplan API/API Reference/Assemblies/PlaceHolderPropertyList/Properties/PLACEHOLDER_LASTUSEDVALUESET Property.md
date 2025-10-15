@@ -8,17 +8,12 @@ Placeholder object: Last value set selected # 19301.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PLACEHOLDER_LASTUSEDVALUESET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PLACEHOLDER_LASTUSEDVALUESET {
@@ -28,8 +23,7 @@ property PropertyValue^ PLACEHOLDER_LASTUSEDVALUESET {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns the variant number of the Article.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 string partVariant {get; set;}
-```
-```
 
-```
-```
 property String^ partVariant {
 
    String^ get();
@@ -26,5 +21,4 @@ property String^ partVariant {
    void set (    String^ value);
 
 }
-```
-```
+

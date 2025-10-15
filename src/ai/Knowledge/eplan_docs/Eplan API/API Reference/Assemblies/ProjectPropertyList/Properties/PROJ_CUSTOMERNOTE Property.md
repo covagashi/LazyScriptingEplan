@@ -8,17 +8,12 @@ Customer: Description # 10117.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_CUSTOMERNOTE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_CUSTOMERNOTE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_CUSTOMERNOTE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

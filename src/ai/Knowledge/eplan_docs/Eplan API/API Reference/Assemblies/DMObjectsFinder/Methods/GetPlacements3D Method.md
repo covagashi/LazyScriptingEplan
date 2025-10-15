@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.E3D.Placement3D](Eplan.EplApi.DataModelu~Eplan.E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement3D[] GetPlacements3D( 
 
    Placements3DFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Placement3D^>^ GetPlacements3D( 
@@ -30,8 +25,7 @@ array<Placement3D^>^ GetPlacements3D(
    Placements3DFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

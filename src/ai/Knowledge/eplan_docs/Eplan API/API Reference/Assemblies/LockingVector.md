@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class LockingVector
-```
-```
 
-```
-```
 public ref class LockingVector
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [LockingVector Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LockingVector~_ctor.html) | Constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

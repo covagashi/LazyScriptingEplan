@@ -8,11 +8,10 @@ Method used by operator[] in order to access indexed properties.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue Property( 
 
    Properties.Option id,
@@ -20,11 +19,7 @@ public PropertyValue Property(
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ Property {
@@ -34,8 +29,7 @@ property PropertyValue^ Property {
    void set (Properties.Option id, int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

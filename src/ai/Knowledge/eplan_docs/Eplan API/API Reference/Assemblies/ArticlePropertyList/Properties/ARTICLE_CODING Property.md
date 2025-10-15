@@ -8,17 +8,12 @@ Plugs: Coding # 22103.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CODING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CODING {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CODING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

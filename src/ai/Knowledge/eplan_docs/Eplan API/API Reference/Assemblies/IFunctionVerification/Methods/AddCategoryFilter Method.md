@@ -8,28 +8,22 @@ This type of check is only performed for a certain function category.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void AddCategoryFilter( 
 
    ref FunctionCategory eCategory
 
 )
-```
-```
 
-```
-```
 void AddCategoryFilter( 
 
    FunctionCategory% eCategory
 
 )
-```
-```
+
 
 #### Parameters
 

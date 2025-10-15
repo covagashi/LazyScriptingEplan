@@ -105,7 +105,7 @@ Public Properties
 | Public Property | [ARTICLE\_COLLECTION\_VOLUME](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_COLLECTION_VOLUME().html) | Retention volume # 26221. |
 | Public Property | [ARTICLE\_COLOR](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_COLOR().html) | Color # 22080. |
 | Public Property | [ARTICLE\_COLOUR\_OF\_THE\_CABLE\_SHEATH](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_COLOUR_OF_THE_CABLE_SHEATH().html) | Cable jacket: Color # 26040. |
-| Public Property | [ARTICLE\_CONDUCTIVITY](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_CONDUCTIVITY().html) | Conductivity (at +20 Â°C) # 22273. |
+| Public Property | [ARTICLE\_CONDUCTIVITY](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_CONDUCTIVITY().html) | Conductivity (at +20 °C) # 22273. |
 | Public Property | [ARTICLE\_CONDUCTOR\_CROSS\_SECTION](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_CONDUCTOR_CROSS_SECTION().html) | Conductor cross-section # 26120. |
 | Public Property | [ARTICLE\_CONDUCTOR\_STRUCTURE\_CABLE](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_CONDUCTOR_STRUCTURE_CABLE().html) | Conductor design (cable) # 26049. |
 | Public Property | [ARTICLE\_CONNECTABLE\_CABLE\_TYPE](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_CONNECTABLE_CABLE_TYPE().html) | Connectable cable type # 26182. |
@@ -125,8 +125,8 @@ Public Properties
 | Public Property | [ARTICLE\_CONTAINS\_ADDONPARTS](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_CONTAINS_ADDONPARTS().html) | Contains supplemental parts # 22423. |
 | Public Property | [ARTICLE\_CONTAINS\_ASSEMBLIES](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_CONTAINS_ASSEMBLIES().html) | Contains assemblies # 22425. |
 | Public Property | [ARTICLE\_CONTAINS\_MODULES](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_CONTAINS_MODULES().html) | Contains modules # 22424. |
-| Public Property | [ARTICLE\_CONTINUOUS\_HEAT\_PERFORMANCE\_AT\_10\_C](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_CONTINUOUS_HEAT_PERFORMANCE_AT_10_C().html) | Continuous heating power (at 10Â°C) # 26093. |
-| Public Property | [ARTICLE\_CONTINUOUS\_HEAT\_PERFORMANCE\_AT\_20\_C](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_CONTINUOUS_HEAT_PERFORMANCE_AT_20_C().html) | Continuous heating power (at 20Â°C) # 26094. |
+| Public Property | [ARTICLE\_CONTINUOUS\_HEAT\_PERFORMANCE\_AT\_10\_C](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_CONTINUOUS_HEAT_PERFORMANCE_AT_10_C().html) | Continuous heating power (at 10°C) # 26093. |
+| Public Property | [ARTICLE\_CONTINUOUS\_HEAT\_PERFORMANCE\_AT\_20\_C](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_CONTINUOUS_HEAT_PERFORMANCE_AT_20_C().html) | Continuous heating power (at 20°C) # 26094. |
 | Public Property | [ARTICLE\_CONTROL\_FLOW\_RATE](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_CONTROL_FLOW_RATE().html) | Control flow rate # 26152. |
 | Public Property | [ARTICLE\_CONTROL\_PRESSURE\_MAX](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_CONTROL_PRESSURE_MAX().html) | Pilot pressure, max. # 26150. |
 | Public Property | [ARTICLE\_CONTROL\_PRESSURE\_MIN](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_CONTROL_PRESSURE_MIN().html) | Pilot pressure, min. # 26151. |
@@ -720,7 +720,7 @@ Public Properties
 | Public Property | [ARTICLE\_SUITABLE\_AS\_MONITOR](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_SUITABLE_AS_MONITOR().html) | Suitable as monitoring device # 26355. |
 | Public Property | [ARTICLE\_SUITABLE\_FOR\_CABLE\_DIAMETERS](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_SUITABLE_FOR_CABLE_DIAMETERS().html) | Suitable for cable diameter # 26350. |
 | Public Property | [ARTICLE\_SUITABLE\_FOR\_KNX](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_SUITABLE_FOR_KNX().html) | Suitable for KNX # 26043. |
-| Public Property | [ARTICLE\_SUITABLE\_FOR\_PCF\_HCS\_FIBRE\_230\_uM](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_SUITABLE_FOR_PCF_HCS_FIBRE_230_uM().html) | Suitable for PCF / HCS fiber 230 Âµm # 26357. |
+| Public Property | [ARTICLE\_SUITABLE\_FOR\_PCF\_HCS\_FIBRE\_230\_uM](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_SUITABLE_FOR_PCF_HCS_FIBRE_230_uM().html) | Suitable for PCF / HCS fiber 230 µm # 26357. |
 | Public Property | [ARTICLE\_SUITABLE\_FOR\_PROTECTION\_CLASS\_IP](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_SUITABLE_FOR_PROTECTION_CLASS_IP().html) | Suitable for degree of protection (IP) # 26358. |
 | Public Property | [ARTICLE\_SUPPLIER](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_SUPPLIER().html) | Supplier # 22008. |
 | Public Property | [ARTICLE\_SUPPLIER\_BATCH\_NUMBER](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_SUPPLIER_BATCH_NUMBER().html) | Supplier batch number # 26435. |
@@ -791,7 +791,7 @@ Public Properties
 | Public Property | [ARTICLE\_TORQUE\_AT\_MAX\_SPEED](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_TORQUE_AT_MAX_SPEED().html) | Torque (at max. rotation speed) # 26249. |
 | Public Property | [ARTICLE\_TORQUE\_AT\_MIN\_SPEED](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_TORQUE_AT_MIN_SPEED().html) | Torque (at min. rotation speed) # 26251. |
 | Public Property | [ARTICLE\_TORQUE\_MAX\_](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_TORQUE_MAX_().html) | Torque, max. # 26253. |
-| Public Property | [ARTICLE\_TOTAL\_COOLING\_CAPACITY\_AT\_35\_35\_C](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_TOTAL_COOLING_CAPACITY_AT_35_35_C().html) | Total cooling capacity (at 35/35Â°C) # 26105. |
+| Public Property | [ARTICLE\_TOTAL\_COOLING\_CAPACITY\_AT\_35\_35\_C](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_TOTAL_COOLING_CAPACITY_AT_35_35_C().html) | Total cooling capacity (at 35/35°C) # 26105. |
 | Public Property | [ARTICLE\_TOTAL\_NUMBER\_OF\_BACNET\_OBJECTS](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_TOTAL_NUMBER_OF_BACNET_OBJECTS().html) | BACnet: Total number of objects # 26210. |
 | Public Property | [ARTICLE\_TOTAL\_PRESSURE\_DIFFERENCE\_MAX](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_TOTAL_PRESSURE_DIFFERENCE_MAX().html) | Total pressure difference, max. # 26103. |
 | Public Property | [ARTICLE\_TOTAL\_PRESSURE\_DIFFERENCE\_MIN](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_TOTAL_PRESSURE_DIFFERENCE_MIN().html) | Total pressure difference, min. # 26104. |
@@ -845,7 +845,7 @@ Public Properties
 | Public Property | [ARTICLE\_VOLUME](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_VOLUME().html) | Volume # 26174. |
 | Public Property | [ARTICLE\_VOLUME\_FLOW\_FREELY\_BLOWING](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_VOLUME_FLOW_FREELY_BLOWING().html) | Flow rate (free blowing) # 26175. |
 | Public Property | [ARTICLE\_VOLUME\_FLOW\_HEATING\_M3\_H](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_VOLUME_FLOW_HEATING_M3_H().html) | Flow rate # 26633. |
-| Public Property | [ARTICLE\_VOLUME\_FLOW\_MAX\_M3\_H](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_VOLUME_FLOW_MAX_M3_H().html) | Flow rate (mÂ³/h), max. # 26176. |
+| Public Property | [ARTICLE\_VOLUME\_FLOW\_MAX\_M3\_H](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_VOLUME_FLOW_MAX_M3_H().html) | Flow rate (m³/h), max. # 26176. |
 | Public Property | [ARTICLE\_VPROFILEDPETH](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_VPROFILEDPETH().html) | Profile vertical: Depth # 22190. |
 | Public Property | [ARTICLE\_VPROFILEWIDTH](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_VPROFILEWIDTH().html) | Profile vertical: Width # 22189. |
 | Public Property | [ARTICLE\_WALLTHICKNESS](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticlePropertyList~ARTICLE_WALLTHICKNESS().html) | Wall thickness # 22216. |

@@ -8,11 +8,10 @@ Opens a project in the requested mode if possible.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Project OpenProject( 
 
    string linkFileName,
@@ -20,11 +19,7 @@ public Project OpenProject(
    ProjectManager.OpenMode wantedOpenMode
 
 )
-```
-```
 
-```
-```
 public:
 
 Project^ OpenProject( 
@@ -34,8 +29,7 @@ Project^ OpenProject(
    ProjectManager.OpenMode wantedOpenMode
 
 )
-```
-```
+
 
 #### Parameters
 

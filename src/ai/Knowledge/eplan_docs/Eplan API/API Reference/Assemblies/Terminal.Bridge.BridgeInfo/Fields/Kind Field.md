@@ -8,19 +8,13 @@ Kind of the bridge connection: internal, external, small, saddleslot 3, saddlesl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Terminal.Bridge.Kinds Kind
-```
-```
 
-```
-```
 public:
 
 Terminal.Bridge.Kinds Kind
-```
-```
+

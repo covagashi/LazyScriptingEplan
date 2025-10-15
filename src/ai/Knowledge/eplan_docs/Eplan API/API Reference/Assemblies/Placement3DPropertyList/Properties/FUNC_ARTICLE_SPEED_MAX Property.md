@@ -8,21 +8,16 @@ Rotation speed, max. # 26256.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_SPEED_MAX( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_SPEED_MAX {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_SPEED_MAX {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

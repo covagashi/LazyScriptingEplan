@@ -8,17 +8,12 @@ User-defined structure (sub-identifier, complete) # 1621.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FULLSUBUSERDEFINED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FULLSUBUSERDEFINED {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FULLSUBUSERDEFINED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

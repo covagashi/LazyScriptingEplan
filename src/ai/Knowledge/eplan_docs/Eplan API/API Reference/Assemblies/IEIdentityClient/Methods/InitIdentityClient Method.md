@@ -8,11 +8,10 @@ Initializes Eplan IdentityClient
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 IdentityClientResponse InitIdentityClient( 
 
    string strMainClientId,
@@ -24,11 +23,7 @@ IdentityClientResponse InitIdentityClient(
    string strScopes
 
 )
-```
-```
 
-```
-```
 IdentityClientResponse^ InitIdentityClient( 
 
    String^ strMainClientId,
@@ -40,8 +35,7 @@ IdentityClientResponse^ InitIdentityClient(
    String^ strScopes
 
 )
-```
-```
+
 
 #### Parameters
 

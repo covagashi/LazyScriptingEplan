@@ -8,20 +8,14 @@ Terminal strips sort methods
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum DeviceService.TerminalStripSortMethods : System.Enum
-```
-```
 
-```
-```
 public enum class DeviceService.TerminalStripSortMethods : public System.Enum
-```
-```
+
 
 Members
 

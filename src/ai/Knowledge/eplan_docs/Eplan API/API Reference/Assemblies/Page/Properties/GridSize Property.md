@@ -8,17 +8,12 @@ Gets/sets the size of the page's grid.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double GridSize {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double GridSize {
@@ -28,5 +23,4 @@ property double GridSize {
    void set (    double value);
 
 }
-```
-```
+

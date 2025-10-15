@@ -8,17 +8,12 @@ Returns the page the Placement is on, or assigns a Page object to the placement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override Page Page {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Page^ Page {
@@ -28,8 +23,7 @@ property Page^ Page {
    void set (    Page^ value) override;
 
 }
-```
-```
+
 
 #### Property Value
 

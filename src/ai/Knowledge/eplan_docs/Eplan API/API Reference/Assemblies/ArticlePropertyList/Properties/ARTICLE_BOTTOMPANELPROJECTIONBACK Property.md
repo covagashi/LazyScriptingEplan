@@ -8,17 +8,12 @@ Overhang: Base back # 22184.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_BOTTOMPANELPROJECTIONBACK {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_BOTTOMPANELPROJECTIONBACK {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_BOTTOMPANELPROJECTIONBACK {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

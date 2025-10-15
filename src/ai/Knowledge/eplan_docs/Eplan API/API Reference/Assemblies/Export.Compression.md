@@ -8,20 +8,14 @@ Compression for TIFF format
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Export.Compression : System.Enum
-```
-```
 
-```
-```
 public enum class Export.Compression : public System.Enum
-```
-```
+
 
 Members
 

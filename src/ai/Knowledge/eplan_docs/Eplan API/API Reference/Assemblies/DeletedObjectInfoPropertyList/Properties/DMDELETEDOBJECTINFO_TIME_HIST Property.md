@@ -8,21 +8,16 @@ Delete date (further) # 36608.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMDELETEDOBJECTINFO_TIME_HIST( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMDELETEDOBJECTINFO_TIME_HIST {
@@ -32,8 +27,7 @@ property PropertyValue^ DMDELETEDOBJECTINFO_TIME_HIST {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

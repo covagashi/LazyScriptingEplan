@@ -8,11 +8,10 @@ Is called to calculate the cursor position.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void OnCalculateCursorPos( 
 
    Position pos,
@@ -20,11 +19,7 @@ public virtual void OnCalculateCursorPos(
    SnapTypes eSnapType
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void OnCalculateCursorPos( 
@@ -34,8 +29,7 @@ virtual void OnCalculateCursorPos(
    SnapTypes eSnapType
 
 )
-```
-```
+
 
 #### Parameters
 

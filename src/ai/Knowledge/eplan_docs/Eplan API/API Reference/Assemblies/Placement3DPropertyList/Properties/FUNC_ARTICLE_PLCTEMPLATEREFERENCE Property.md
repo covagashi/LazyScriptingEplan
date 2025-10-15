@@ -8,17 +8,12 @@ PLC device: TemplateIdentifier # 20580.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_PLCTEMPLATEREFERENCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_PLCTEMPLATEREFERENCE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ARTICLE_PLCTEMPLATEREFERENCE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

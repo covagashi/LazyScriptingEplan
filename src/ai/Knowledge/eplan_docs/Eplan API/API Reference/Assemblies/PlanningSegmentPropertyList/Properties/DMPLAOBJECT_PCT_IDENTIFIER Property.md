@@ -8,17 +8,12 @@ Technical facility # 44035.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_PCT_IDENTIFIER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_PCT_IDENTIFIER {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_PCT_IDENTIFIER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

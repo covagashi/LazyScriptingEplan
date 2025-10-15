@@ -8,17 +8,12 @@ Superior product aspect incl. name supplement # 20335.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DEVICETAG_MAINNAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DEVICETAG_MAINNAME {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DEVICETAG_MAINNAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

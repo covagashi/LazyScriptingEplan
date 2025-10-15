@@ -8,17 +8,12 @@ CPU # 20167.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCISCPU {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCISCPU {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCISCPU {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

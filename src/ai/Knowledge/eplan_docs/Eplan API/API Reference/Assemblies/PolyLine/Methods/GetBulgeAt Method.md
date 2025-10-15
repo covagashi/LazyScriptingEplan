@@ -8,21 +8,16 @@ Returns the corner arc of one vertex of a poly line
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double GetBulgeAt( 
 
    int index
 
 )
-```
-```
 
-```
-```
 public:
 
 double GetBulgeAt( 
@@ -30,8 +25,7 @@ double GetBulgeAt(
    int index
 
 )
-```
-```
+
 
 #### Parameters
 

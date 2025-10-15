@@ -8,17 +8,12 @@ Function template: Description # 20389.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION_TEMPLATE_DESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION_TEMPLATE_DESCRIPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION_TEMPLATE_DESCRIPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

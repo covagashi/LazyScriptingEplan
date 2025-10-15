@@ -8,21 +8,16 @@ Connecting cable: Application area # 26209.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_APPLICATION_RANGE_OF_THE_CONNECTION_CABLE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_APPLICATION_RANGE_OF_THE_CONNECTION_CABLE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_APPLICATION_RANGE_OF_THE_CONNECTION_CABLE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

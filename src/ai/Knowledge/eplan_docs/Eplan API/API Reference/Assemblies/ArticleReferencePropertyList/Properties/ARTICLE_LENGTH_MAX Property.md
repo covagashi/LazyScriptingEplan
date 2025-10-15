@@ -8,17 +8,12 @@ Length, max. # 26413.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_LENGTH_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_LENGTH_MAX {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_LENGTH_MAX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Constructor. Creates the MergedConnection object and initializes it to cover the
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MergedConnection( 
 
    Connection connection
 
 )
-```
-```
 
-```
-```
 public:
 
 MergedConnection( 
@@ -30,8 +25,7 @@ MergedConnection(
    Connection^ connection
 
 )
-```
-```
+
 
 #### Parameters
 

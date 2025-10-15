@@ -8,17 +8,12 @@ Start address of PLC card (indirect) # 20423.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCGROUP_STARTADDRESS_INDIRECT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCGROUP_STARTADDRESS_INDIRECT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCGROUP_STARTADDRESS_INDIRECT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Mounting surface # 22022.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_MOUNTINGSITE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_MOUNTINGSITE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_MOUNTINGSITE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

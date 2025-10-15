@@ -8,17 +8,12 @@ Operating area: Cable # 26287.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_APPLICATION_AREA_OF_THE_CABLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_APPLICATION_AREA_OF_THE_CABLE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_APPLICATION_AREA_OF_THE_CABLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

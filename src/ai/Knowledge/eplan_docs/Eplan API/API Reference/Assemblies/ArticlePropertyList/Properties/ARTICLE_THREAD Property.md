@@ -8,17 +8,12 @@ Thread # 22127.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_THREAD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_THREAD {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_THREAD {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

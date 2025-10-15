@@ -8,17 +8,12 @@ Creator # 15020.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBLIB_CREATOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBLIB_CREATOR {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMBLIB_CREATOR {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

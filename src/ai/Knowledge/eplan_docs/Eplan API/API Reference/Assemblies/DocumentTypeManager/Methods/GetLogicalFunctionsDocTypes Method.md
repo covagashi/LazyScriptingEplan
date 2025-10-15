@@ -8,19 +8,13 @@ Gets container of doc types, that are logically relevant if used with functions.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static DocumentTypeManager.DocumentType[] GetLogicalFunctionsDocTypes()
-```
-```
 
-```
-```
 public:
 
 static array<DocumentTypeManager.DocumentType>^ GetLogicalFunctionsDocTypes();
-```
-```
+

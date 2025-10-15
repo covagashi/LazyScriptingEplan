@@ -8,21 +8,16 @@ Defined working section (from change tracking) # 10195.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_REVISION_LOG_EDITINGAREA( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_REVISION_LOG_EDITINGAREA {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_REVISION_LOG_EDITINGAREA {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

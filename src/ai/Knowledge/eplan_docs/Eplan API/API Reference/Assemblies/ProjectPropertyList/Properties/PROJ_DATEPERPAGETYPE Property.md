@@ -8,21 +8,16 @@ Last modification date per page type # 10250.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_DATEPERPAGETYPE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_DATEPERPAGETYPE {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_DATEPERPAGETYPE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

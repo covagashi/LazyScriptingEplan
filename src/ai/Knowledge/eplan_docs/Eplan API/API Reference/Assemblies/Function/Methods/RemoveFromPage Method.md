@@ -8,19 +8,13 @@ Removes placement from the page. Object becomes not-placed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void RemoveFromPage()
-```
-```
 
-```
-```
 public:
 
 virtual void RemoveFromPage();
-```
-```
+

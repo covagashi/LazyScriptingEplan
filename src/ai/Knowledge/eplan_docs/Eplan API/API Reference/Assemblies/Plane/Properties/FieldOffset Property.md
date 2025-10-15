@@ -8,17 +8,12 @@ Position of NC field beginning relatively to the origin of plane. (The origin an
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD FieldOffset {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PointD FieldOffset {
@@ -28,5 +23,4 @@ property PointD FieldOffset {
    void set (    PointD value);
 
 }
-```
-```
+

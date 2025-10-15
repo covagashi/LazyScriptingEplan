@@ -8,11 +8,10 @@ Sets the value of a project setting in a specified path.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void SetDoubleSetting( 
 
    string strSettingPath,
@@ -22,11 +21,7 @@ public virtual void SetDoubleSetting(
    int nIdx
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void SetDoubleSetting( 
@@ -38,8 +33,7 @@ virtual void SetDoubleSetting(
    int nIdx
 
 )
-```
-```
+
 
 #### Parameters
 

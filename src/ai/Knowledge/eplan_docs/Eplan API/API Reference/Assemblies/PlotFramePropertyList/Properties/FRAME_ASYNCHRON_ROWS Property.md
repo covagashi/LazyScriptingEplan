@@ -8,17 +8,12 @@ Asynchronous columns # 12012.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_ASYNCHRON_ROWS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_ASYNCHRON_ROWS {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_ASYNCHRON_ROWS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

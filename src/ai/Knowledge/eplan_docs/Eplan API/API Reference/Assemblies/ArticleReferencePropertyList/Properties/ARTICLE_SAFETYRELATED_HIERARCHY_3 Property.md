@@ -8,17 +8,12 @@ Safety-related values: Hierarchy level 3 # 40323.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SAFETYRELATED_HIERARCHY_3 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SAFETYRELATED_HIERARCHY_3 {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SAFETYRELATED_HIERARCHY_3 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

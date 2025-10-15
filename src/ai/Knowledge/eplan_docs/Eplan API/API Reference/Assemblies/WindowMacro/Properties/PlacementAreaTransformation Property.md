@@ -8,17 +8,12 @@ Returns the transformation of macro placement area.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Matrix3D PlacementAreaTransformation {get;}
-```
-```
 
-```
-```
 public:
 
 property Matrix3D PlacementAreaTransformation {
@@ -26,8 +21,7 @@ property Matrix3D PlacementAreaTransformation {
    Matrix3D get();
 
 }
-```
-```
+
 
 Exceptions
 

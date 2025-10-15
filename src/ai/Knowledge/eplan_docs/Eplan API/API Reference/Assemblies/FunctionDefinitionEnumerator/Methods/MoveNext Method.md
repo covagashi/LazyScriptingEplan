@@ -8,22 +8,16 @@ Advances the enumerator to the next element of the collection.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool MoveNext()
-```
-```
 
-```
-```
 public:
 
 virtual bool MoveNext();
-```
-```
+
 
 #### Return Value
 

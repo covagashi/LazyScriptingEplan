@@ -8,21 +8,16 @@ Connection point logic: Pressure / control port # 20369.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_LOGDEF_CONTROL_CONPOINT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_LOGDEF_CONTROL_CONPOINT {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_LOGDEF_CONTROL_CONPOINT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

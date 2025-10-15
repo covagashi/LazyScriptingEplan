@@ -8,17 +8,12 @@ Function exists with 'Functional' representation type # 20286.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ISPLACEDIN_FUNCTIONAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ISPLACEDIN_FUNCTIONAL {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ISPLACEDIN_FUNCTIONAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Sets the language.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetString( 
 
    string lang
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetString( 
@@ -30,8 +25,7 @@ void SetString(
    String^ lang
 
 )
-```
-```
+
 
 #### Parameters
 

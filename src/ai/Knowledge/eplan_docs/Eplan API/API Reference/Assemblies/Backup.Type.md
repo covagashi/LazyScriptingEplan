@@ -8,20 +8,14 @@ Scope of data backup
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Backup.Type : System.Enum
-```
-```
 
-```
-```
 public enum class Backup.Type : public System.Enum
-```
-```
+
 
 Members
 

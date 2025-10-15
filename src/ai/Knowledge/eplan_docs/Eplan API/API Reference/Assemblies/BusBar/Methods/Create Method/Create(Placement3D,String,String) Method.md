@@ -8,11 +8,10 @@ Creates bended bus bar object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static BusBar Create( 
 
    Placement3D oParent,
@@ -22,11 +21,7 @@ public static BusBar Create(
    string strVariant
 
 )
-```
-```
 
-```
-```
 public:
 
 static BusBar^ Create( 
@@ -38,8 +33,7 @@ static BusBar^ Create(
    String^ strVariant
 
 )
-```
-```
+
 
 #### Parameters
 

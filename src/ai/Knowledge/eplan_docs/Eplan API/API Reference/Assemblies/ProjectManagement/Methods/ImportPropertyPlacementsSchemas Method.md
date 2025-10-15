@@ -8,11 +8,10 @@ Imports property placements schemes.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Tuple<string,string>[] ImportPropertyPlacementsSchemas( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public Tuple<string,string>[] ImportPropertyPlacementsSchemas(
    bool bOverwrite
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Tuple<String^,String^>^>^ ImportPropertyPlacementsSchemas( 
@@ -38,8 +33,7 @@ array<Tuple<String^,String^>^>^ ImportPropertyPlacementsSchemas(
    bool bOverwrite
 
 )
-```
-```
+
 
 #### Parameters
 

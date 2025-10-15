@@ -8,20 +8,14 @@ Synchronization mode.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ProjectManagement.SynchronizationMode : System.Enum
-```
-```
 
-```
-```
 public enum class ProjectManagement.SynchronizationMode : public System.Enum
-```
-```
+
 
 Members
 

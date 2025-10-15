@@ -8,17 +8,12 @@ P8 properties of the DeviceListEntry object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new DeviceListEntryPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property DeviceListEntryPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property DeviceListEntryPropertyList^ Properties {
    DeviceListEntryPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

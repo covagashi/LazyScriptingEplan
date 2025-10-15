@@ -8,17 +8,12 @@ TCF: Calculation method # 26599.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TCF_CALCULATION_METHOD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TCF_CALCULATION_METHOD {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TCF_CALCULATION_METHOD {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

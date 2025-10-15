@@ -8,11 +8,10 @@ Creates a new symbol with a unique Id and a unique strName.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDSymbol AddSymbol( 
 
    int Id,
@@ -20,11 +19,7 @@ public MDSymbol AddSymbol(
    string strName
 
 )
-```
-```
 
-```
-```
 public:
 
 MDSymbol^ AddSymbol( 
@@ -34,8 +29,7 @@ MDSymbol^ AddSymbol(
    String^ strName
 
 )
-```
-```
+
 
 #### Parameters
 

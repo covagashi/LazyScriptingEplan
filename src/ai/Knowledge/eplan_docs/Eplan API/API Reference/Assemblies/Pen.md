@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Pen
-```
-```
 
-```
-```
 public ref class Pen
-```
-```
+
 
 Remarks
 
@@ -36,7 +30,7 @@ Example
 
 Setting graphical properties of a Line object by Pen
 
-- [C#](#i-tab-content-5775f3af-4954-4db4-9d5f-7ba2ec098db2)
+**C#**
 
 ```
 
@@ -51,13 +45,9 @@ PointD endPoint = new PointD(85, 120);
 
 line.Create(testPage, startPoint, endPoint);
 
-
-
 // Get the Pen object of the Line object
 
 Pen pen = line.Pen;
-
-
 
 // Edit the line color, style and width on the Pen object
 
@@ -67,15 +57,9 @@ pen.StyleId = 6;
 
 pen.Width = 2;
 
-
-
 // Reassign the Pen object to the Line object to make the changes take effect on the Line object
 
 line.Pen = pen;
-
-
-
-
 
 ```
 
@@ -86,8 +70,6 @@ Public Constructors
 | Public Constructor | [Pen Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Pen~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 
@@ -110,8 +92,6 @@ Public Methods
 | Public Method | [GetHashCode](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Pen~GetHashCode.html) | Serves as the default hash function. |
 
 [Top](#top)
-
-
 
 Public Operators
 

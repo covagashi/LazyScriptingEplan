@@ -8,17 +8,12 @@ Shows the value of the property in the current project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PropertyValue {get;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PropertyValue {
@@ -26,5 +21,4 @@ property PropertyValue^ PropertyValue {
    PropertyValue^ get();
 
 }
-```
-```
+

@@ -8,20 +8,14 @@ Enumeration of dimension line termination
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum DimensionItem.Enums.DimensionLineTermination : System.Enum
-```
-```
 
-```
-```
 public enum class DimensionItem.Enums.DimensionLineTermination : public System.Enum
-```
-```
+
 
 Members
 

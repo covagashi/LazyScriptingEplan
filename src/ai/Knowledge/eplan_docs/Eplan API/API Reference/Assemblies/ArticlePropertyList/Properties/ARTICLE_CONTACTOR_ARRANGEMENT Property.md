@@ -8,17 +8,12 @@ Plugs: Pin arrangement # 22095.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CONTACTOR_ARRANGEMENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CONTACTOR_ARRANGEMENT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CONTACTOR_ARRANGEMENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

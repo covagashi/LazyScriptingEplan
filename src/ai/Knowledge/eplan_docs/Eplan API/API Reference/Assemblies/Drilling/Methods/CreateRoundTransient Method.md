@@ -8,11 +8,10 @@ Creates transient unplaced new round drilling.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Drilling CreateRoundTransient( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public static Drilling CreateRoundTransient(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static Drilling^ CreateRoundTransient( 
@@ -38,8 +33,7 @@ static Drilling^ CreateRoundTransient(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

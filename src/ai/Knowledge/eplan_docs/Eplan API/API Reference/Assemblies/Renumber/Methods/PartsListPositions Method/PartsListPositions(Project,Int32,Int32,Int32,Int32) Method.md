@@ -8,11 +8,10 @@ Method for renumbering Bill Of Materials positions.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void PartsListPositions( 
 
    Project pProject,
@@ -26,11 +25,7 @@ public void PartsListPositions(
    int nFieldWidth
 
 )
-```
-```
 
-```
-```
 public:
 
 void PartsListPositions( 
@@ -46,8 +41,7 @@ void PartsListPositions(
    int nFieldWidth
 
 )
-```
-```
+
 
 #### Parameters
 

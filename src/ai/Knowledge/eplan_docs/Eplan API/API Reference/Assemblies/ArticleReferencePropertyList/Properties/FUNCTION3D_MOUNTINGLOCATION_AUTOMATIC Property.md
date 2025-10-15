@@ -8,17 +8,12 @@ Mounting site (describing, common) # 36003.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_MOUNTINGLOCATION_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_MOUNTINGLOCATION_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_MOUNTINGLOCATION_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

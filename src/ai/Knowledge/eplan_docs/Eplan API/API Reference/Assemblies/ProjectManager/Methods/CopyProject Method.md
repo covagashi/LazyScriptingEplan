@@ -8,11 +8,10 @@ Copies project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CopyProject( 
 
    string srcProjectLinkFile,
@@ -22,11 +21,7 @@ public void CopyProject(
    ProjectManager.CopyMode mode
 
 )
-```
-```
 
-```
-```
 public:
 
 void CopyProject( 
@@ -38,8 +33,7 @@ void CopyProject(
    ProjectManager.CopyMode mode
 
 )
-```
-```
+
 
 #### Parameters
 

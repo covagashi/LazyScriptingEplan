@@ -18,24 +18,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Property")]
 
 public class RoutingSplinePropertyList : RoutingSegmentPropertyList
-```
-```
 
-```
-```
 [DefaultMember("Property")]
 
 public ref class RoutingSplinePropertyList : public RoutingSegmentPropertyList
-```
-```
+
 
 Remarks
 
@@ -47,7 +41,7 @@ Example
 
 Example shows usage of online an offline property list:
 
-- [C#](#i-tab-content-9c501f4c-9d65-4a9c-8b6e-0792c87f2347)
+**C#**
 
 ```
 // creation of persistent property list
@@ -58,15 +52,11 @@ oPersistentPropertyList1.FUNC_COMMENT = "Comment";
 
 // now oFunction.Properties.FUNC_COMMENT is equal "Comment"
 
-
-
 FunctionPropertyList oPersistentPropertyList2 = new FunctionPropertyList(oFunction);
 
 oPersistentPropertyList2.FUNC_COMMENT = "Test";
 
 // now oFunction.Properties.FUNC_COMMENT is equal "Test"
-
-
 
 // creation of transient property list
 
@@ -80,8 +70,6 @@ oTransientPropertyList.FUNC_COMMENT = "Transient comment";
 
 // now oTransientPropertyList.FUNC_COMMENT is equal "Test comment"
 
-
-
 ```
 
 Public Constructors
@@ -91,8 +79,6 @@ Public Constructors
 | Public Constructor | [RoutingSplinePropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.RoutingSplinePropertyList~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

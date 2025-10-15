@@ -8,21 +8,16 @@ Creates SegmentTemplate object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    SegmentDefinition pSegmentDefinition
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -30,8 +25,7 @@ void Create(
    SegmentDefinition^ pSegmentDefinition
 
 )
-```
-```
+
 
 #### Parameters
 

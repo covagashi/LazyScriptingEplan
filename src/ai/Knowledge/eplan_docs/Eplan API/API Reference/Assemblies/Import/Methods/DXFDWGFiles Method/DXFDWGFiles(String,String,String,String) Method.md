@@ -8,11 +8,10 @@ Creates an EPLAN macro from a DXF / DWG file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DXFDWGFiles( 
 
    string strFullLinkFileName,
@@ -24,11 +23,7 @@ public void DXFDWGFiles(
    string strScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 void DXFDWGFiles( 
@@ -42,8 +37,7 @@ void DXFDWGFiles(
    String^ strScheme
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,22 +8,16 @@ Determines the number of child nodes.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public uint GetCountOfNodes()
-```
-```
 
-```
-```
 public:
 
 uint GetCountOfNodes();
-```
-```
+
 
 #### Return Value
 

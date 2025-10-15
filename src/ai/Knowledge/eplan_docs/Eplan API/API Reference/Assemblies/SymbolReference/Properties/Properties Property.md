@@ -8,17 +8,12 @@ EPLAN properties of the SymbolReference object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new SymbolReferencePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property SymbolReferencePropertyList^ Properties {
@@ -26,8 +21,7 @@ new property SymbolReferencePropertyList^ Properties {
    SymbolReferencePropertyList^ get();
 
 }
-```
-```
+
 
 Exceptions
 

@@ -8,17 +8,12 @@ Returns object which was changed/added or null if object was deleted.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject Object {get;}
-```
-```
 
-```
-```
 public:
 
 property StorableObject^ Object {
@@ -26,5 +21,4 @@ property StorableObject^ Object {
    StorableObject^ get();
 
 }
-```
-```
+

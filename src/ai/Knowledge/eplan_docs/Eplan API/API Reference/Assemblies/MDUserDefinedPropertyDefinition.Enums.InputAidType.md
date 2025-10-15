@@ -8,20 +8,14 @@ Contains possible types of input aid.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MDUserDefinedPropertyDefinition.Enums.InputAidType : System.Enum
-```
-```
 
-```
-```
 public enum class MDUserDefinedPropertyDefinition.Enums.InputAidType : public System.Enum
-```
-```
+
 
 Members
 

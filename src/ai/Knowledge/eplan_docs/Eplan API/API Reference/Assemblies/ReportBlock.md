@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ReportBlock : StorableObject
-```
-```
 
-```
-```
 public ref class ReportBlock : public StorableObject
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [ReportBlock Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ReportBlock~_ctor().html) | Default constructor. To use object created by this constructor function `Create()` is need to be called after that. |
 
 [Top](#top)
-
-
 
 Public Properties
 

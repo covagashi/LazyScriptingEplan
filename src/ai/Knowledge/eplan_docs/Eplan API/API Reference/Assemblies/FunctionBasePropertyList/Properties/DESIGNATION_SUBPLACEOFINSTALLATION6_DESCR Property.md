@@ -8,17 +8,12 @@ Installation site (sub-identifier 6): Description # 1436.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_SUBPLACEOFINSTALLATION6_DESCR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_SUBPLACEOFINSTALLATION6_DESCR {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_SUBPLACEOFINSTALLATION6_DESCR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

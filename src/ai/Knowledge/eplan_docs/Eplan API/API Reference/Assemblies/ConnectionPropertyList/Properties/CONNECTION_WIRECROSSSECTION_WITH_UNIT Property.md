@@ -8,17 +8,12 @@ Connection: Cross-section / diameter with unit # 31007.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_WIRECROSSSECTION_WITH_UNIT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_WIRECROSSSECTION_WITH_UNIT {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_WIRECROSSSECTION_WITH_UNIT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

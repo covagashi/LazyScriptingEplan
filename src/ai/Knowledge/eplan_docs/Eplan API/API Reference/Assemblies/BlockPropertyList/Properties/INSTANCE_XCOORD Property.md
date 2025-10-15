@@ -8,17 +8,12 @@ X coordinate # 19002.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTANCE_XCOORD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTANCE_XCOORD {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTANCE_XCOORD {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Creates and inserts accessories of a placement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool InsertAccessory3D( 
 
    Placement3D pMainPlacement,
@@ -30,11 +29,7 @@ public bool InsertAccessory3D(
    ICollection<Placement3D> colCreatePlacements
 
 )
-```
-```
 
-```
-```
 public:
 
 bool InsertAccessory3D( 
@@ -54,8 +49,7 @@ bool InsertAccessory3D(
    ICollection<Placement3D^>^ colCreatePlacements
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -104,7 +98,7 @@ Example
 
 The following examples shows how to insert a 3d accessory.
 
-- [C#](#i-tab-content-17f56a47-bfff-4505-99b6-3a00fa620c2e)
+**C#**
 
 ```
 //get 3d function from selection
@@ -113,23 +107,17 @@ SelectionSet oSelectionSet = new SelectionSet();
 
 Function3D oMainFunction = oSelectionSet.Selection[0] as Function3D;
 
-
-
 //set accessory data
 
 String strPartNumber = "SE.GV3A01";
 
 String strPartVariant = "1";
 
-
-
 //set accessory placement data
 
 String strAccessoryPlacement = "SE.GV";
 
 String strInstallationVariant = "Top";
-
-
 
 //insert accessory
 
@@ -151,13 +139,9 @@ bool bPlacedAutomatically = new DeviceService().InsertAccessory3D(
 
         listCreatedPlacements);
 
-
-
 //evaluates the full name for all placed functions and interruption points
 
 new NameService3D(oMainFunction.InstallationSpace).EvaluateAndSetAllNames();
-
-
 
 //if accessory not placed automatically then location needs to be set manually
 
@@ -173,13 +157,9 @@ if (bPlacedAutomatically == false)
 
         oPlacement.SetParent(oMainFunction, false);
 
-
-
         //calculate transformation
 
         Matrix3D oTransformation = new Matrix3D();                       
-
-
 
         //set location is 3d space relatively to parent function
 
@@ -188,7 +168,5 @@ if (bPlacedAutomatically == false)
     }
 
 }
-
-
 
 ```

@@ -8,17 +8,12 @@ Specifies the height of alignment box.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double AlignmentBoxHeight {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double AlignmentBoxHeight {
@@ -28,5 +23,4 @@ property double AlignmentBoxHeight {
    void set (    double value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ If TRUE, the distributed terminals will keep their device tag. If FALSE, the dis
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool KeepDesignations {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool KeepDesignations {
@@ -28,5 +23,4 @@ property bool KeepDesignations {
    void set (    bool value);
 
 }
-```
-```
+

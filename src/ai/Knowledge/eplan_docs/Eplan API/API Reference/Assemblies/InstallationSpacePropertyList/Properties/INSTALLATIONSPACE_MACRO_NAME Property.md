@@ -8,17 +8,12 @@ Macro: Name # 11018.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTALLATIONSPACE_MACRO_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTALLATIONSPACE_MACRO_NAME {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTALLATIONSPACE_MACRO_NAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

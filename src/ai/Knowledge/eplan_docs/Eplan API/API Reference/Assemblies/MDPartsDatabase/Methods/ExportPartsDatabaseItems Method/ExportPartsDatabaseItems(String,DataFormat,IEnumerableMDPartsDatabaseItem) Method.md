@@ -8,11 +8,10 @@ Exports specified parts and other specified parts management items such as addre
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExportPartsDatabaseItems( 
 
    string strFilePath,
@@ -22,11 +21,7 @@ public bool ExportPartsDatabaseItems(
    IEnumerable<MDPartsDatabaseItem> databaseItems
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExportPartsDatabaseItems( 
@@ -38,8 +33,7 @@ bool ExportPartsDatabaseItems(
    IEnumerable<MDPartsDatabaseItem^>^ databaseItems
 
 )
-```
-```
+
 
 #### Parameters
 

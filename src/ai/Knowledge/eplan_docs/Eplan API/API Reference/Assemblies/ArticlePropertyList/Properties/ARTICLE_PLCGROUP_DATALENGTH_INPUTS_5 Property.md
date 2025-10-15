@@ -8,17 +8,12 @@ PLC subdevice 5: Data length (inputs) # 22318.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PLCGROUP_DATALENGTH_INPUTS_5 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PLCGROUP_DATALENGTH_INPUTS_5 {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PLCGROUP_DATALENGTH_INPUTS_5 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

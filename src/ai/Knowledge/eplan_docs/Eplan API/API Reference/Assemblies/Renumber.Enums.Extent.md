@@ -8,20 +8,14 @@ Parameter enum to define the scope of numbering:
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Renumber.Enums.Extent : System.Enum
-```
-```
 
-```
-```
 public enum class Renumber.Enums.Extent : public System.Enum
-```
-```
+
 
 Members
 

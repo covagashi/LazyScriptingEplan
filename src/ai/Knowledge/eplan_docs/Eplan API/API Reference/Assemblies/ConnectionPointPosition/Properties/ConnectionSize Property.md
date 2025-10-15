@@ -8,17 +8,12 @@ Dimension of the screw (e.g., M6) or of the lug (e.g., 4.8 x 0.5) for screw conn
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ConnectionSize {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ConnectionSize {
@@ -28,5 +23,4 @@ property String^ ConnectionSize {
    void set (    String^ value);
 
 }
-```
-```
+

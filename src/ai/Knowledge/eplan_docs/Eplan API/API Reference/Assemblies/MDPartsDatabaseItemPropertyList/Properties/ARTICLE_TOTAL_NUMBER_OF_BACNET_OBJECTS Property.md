@@ -8,17 +8,12 @@ BACnet: Total number of objects # 26210.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TOTAL_NUMBER_OF_BACNET_OBJECTS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TOTAL_NUMBER_OF_BACNET_OBJECTS {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TOTAL_NUMBER_OF_BACNET_OBJECTS {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

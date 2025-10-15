@@ -8,17 +8,12 @@ Reception volume # 26223.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_ABSORPTION_VOLUME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_ABSORPTION_VOLUME {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_ABSORPTION_VOLUME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

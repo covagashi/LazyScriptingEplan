@@ -8,17 +8,12 @@ Returns width of the shielding.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double Width {get;}
-```
-```
 
-```
-```
 public:
 
 property double Width {
@@ -26,8 +21,7 @@ property double Width {
    double get();
 
 }
-```
-```
+
 
 #### Property Value
 

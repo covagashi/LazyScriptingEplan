@@ -8,11 +8,10 @@ Is called after object selection in the graphical editor by user.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnSelect( 
 
    StorableObject[] arrSelectedObjects,
@@ -20,11 +19,7 @@ public virtual RequestCode OnSelect(
    SelectionContext oContext
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnSelect( 
@@ -34,8 +29,7 @@ virtual RequestCode OnSelect(
    SelectionContext^ oContext
 
 )
-```
-```
+
 
 #### Parameters
 

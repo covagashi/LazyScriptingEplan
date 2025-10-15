@@ -8,22 +8,16 @@ Default constructor. Creates the DocumentBase object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DocumentBase()
-```
-```
 
-```
-```
 public:
 
 DocumentBase();
-```
-```
+
 
 Exceptions
 

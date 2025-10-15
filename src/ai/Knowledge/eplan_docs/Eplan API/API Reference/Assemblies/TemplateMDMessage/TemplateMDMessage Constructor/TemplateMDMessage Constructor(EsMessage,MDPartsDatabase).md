@@ -8,11 +8,10 @@ constructor
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TemplateMDMessage( 
 
    EsMessage* pMsg,
@@ -20,11 +19,7 @@ public TemplateMDMessage(
    MDPartsDatabase oMDPdb
 
 )
-```
-```
 
-```
-```
 public:
 
 TemplateMDMessage( 
@@ -34,8 +29,7 @@ TemplateMDMessage(
    MDPartsDatabase^ oMDPdb
 
 )
-```
-```
+
 
 #### Parameters
 

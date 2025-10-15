@@ -8,17 +8,12 @@ Get the count of Pages in this macro
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public uint CountOfPages {get;}
-```
-```
 
-```
-```
 public:
 
 property uint CountOfPages {
@@ -26,5 +21,4 @@ property uint CountOfPages {
    uint get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Name of FunctionDefinition's Category.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString CategoryName {get;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ CategoryName {
@@ -26,8 +21,7 @@ property MultiLangString^ CategoryName {
    MultiLangString^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

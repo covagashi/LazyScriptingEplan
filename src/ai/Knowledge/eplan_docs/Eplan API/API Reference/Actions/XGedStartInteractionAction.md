@@ -5,29 +5,28 @@
 ---
 
 ```
- Starts an interaction of the graphical editor.
- 
-```
+ Starts an interaction of the graphical editor.
 
-  
+```
 
 | Parameter | Description |
 | --- | --- |
-| ``` Name ``` | ``` Name of the interaction to be started. ``` |
+| ``` Name
+ ``` | ``` Name of the interaction to be started.
+ ``` |
 
 **Remarks**
 
 ```
- The action can be used only interactively.
- 
-```
+ The action can be used only interactively.
 
-```
-Interaction parameters can be appended with a slash after the interaction name.
+Interaction parameters can be appended with a slash after the interaction name.
+
 ```
 
 **Example**
 
 ```
-XGedStartInteractionAction /Name:XGedIaSelectRectangleXGedStartInteractionAction /Name:XMIaInsertMacro /filename:"?"
+XGedStartInteractionAction /Name:XGedIaSelectRectangleXGedStartInteractionAction /Name:XMIaInsertMacro /filename:"?"
+
 ```

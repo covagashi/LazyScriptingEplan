@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new ProtectedGroupPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property ProtectedGroupPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property ProtectedGroupPropertyList^ Properties {
    ProtectedGroupPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

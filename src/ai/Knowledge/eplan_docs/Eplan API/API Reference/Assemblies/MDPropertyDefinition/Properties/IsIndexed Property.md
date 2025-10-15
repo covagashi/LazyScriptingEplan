@@ -8,17 +8,12 @@ Checks if given property is indexed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool IsIndexed {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool IsIndexed {
@@ -26,8 +21,7 @@ virtual property bool IsIndexed {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -47,12 +41,10 @@ Should be called only on MDPropertyDefiniton objects with valid Id.
 
 Example
 
-- [C#](#i-tab-content-f34c8e4d-ecba-4372-9637-fa03ae2d191a)
+**C#**
 
 ```
 MDPart oPart  = m_MDPartsDatabase.Parts[0]; //a valid part object
-
-
 
 //a valid call
 

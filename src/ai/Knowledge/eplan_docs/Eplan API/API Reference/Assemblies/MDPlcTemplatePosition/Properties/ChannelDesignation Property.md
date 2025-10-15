@@ -8,17 +8,12 @@ The channel designation of PLC template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ChannelDesignation {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ChannelDesignation {
@@ -28,5 +23,4 @@ property String^ ChannelDesignation {
    void set (    String^ value);
 
 }
-```
-```
+

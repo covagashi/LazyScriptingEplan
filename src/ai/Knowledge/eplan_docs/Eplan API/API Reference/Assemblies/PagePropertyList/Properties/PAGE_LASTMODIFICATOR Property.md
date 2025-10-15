@@ -8,17 +8,12 @@ Last editor: Sign-in name # 11022.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_LASTMODIFICATOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_LASTMODIFICATOR {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_LASTMODIFICATOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

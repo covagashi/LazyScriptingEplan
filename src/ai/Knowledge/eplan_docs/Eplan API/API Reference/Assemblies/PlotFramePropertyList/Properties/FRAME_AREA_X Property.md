@@ -8,17 +8,12 @@ Plot frame dimensions: X axis # 12033.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_AREA_X {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_AREA_X {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_AREA_X {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

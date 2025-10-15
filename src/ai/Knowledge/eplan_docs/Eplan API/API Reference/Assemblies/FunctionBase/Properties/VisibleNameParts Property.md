@@ -8,17 +8,12 @@ Returns visible name of the Function.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual FunctionBasePropertyList VisibleNameParts {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property FunctionBasePropertyList^ VisibleNameParts {
@@ -28,8 +23,7 @@ virtual property FunctionBasePropertyList^ VisibleNameParts {
    void set (    FunctionBasePropertyList^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

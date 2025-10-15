@@ -8,17 +8,12 @@ Gets if the location is currently used
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsUsed {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsUsed {
@@ -26,8 +21,7 @@ property bool IsUsed {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

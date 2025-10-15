@@ -8,17 +8,12 @@ Eplan version of the last modification or update # 10043.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_LASTUSEDVERSION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_LASTUSEDVERSION {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_LASTUSEDVERSION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

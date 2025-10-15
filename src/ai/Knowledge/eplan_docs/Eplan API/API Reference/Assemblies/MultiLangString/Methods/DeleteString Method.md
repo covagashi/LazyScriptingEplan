@@ -8,21 +8,16 @@ Deletes the language setting.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DeleteString( 
 
    ISOCode.Language badLanguage
 
 )
-```
-```
 
-```
-```
 public:
 
 void DeleteString( 
@@ -30,8 +25,7 @@ void DeleteString(
    ISOCode.Language badLanguage
 
 )
-```
-```
+
 
 #### Parameters
 

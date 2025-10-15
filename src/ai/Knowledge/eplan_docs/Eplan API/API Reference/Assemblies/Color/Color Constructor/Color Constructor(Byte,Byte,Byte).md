@@ -8,11 +8,10 @@ constructor Red channel value of color (0-255).Green channel value of color (0-2
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Color( 
 
    byte red,
@@ -22,11 +21,7 @@ public Color(
    byte blue
 
 )
-```
-```
 
-```
-```
 public:
 
 Color( 
@@ -38,8 +33,7 @@ Color(
    byte blue
 
 )
-```
-```
+
 
 #### Parameters
 

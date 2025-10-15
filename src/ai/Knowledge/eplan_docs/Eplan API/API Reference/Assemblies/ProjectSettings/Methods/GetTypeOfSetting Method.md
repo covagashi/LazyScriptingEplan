@@ -8,21 +8,16 @@ Returns the type of the setting.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual ISettings.SettingType GetTypeOfSetting( 
 
    string strSettingPath
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual ISettings.SettingType GetTypeOfSetting( 
@@ -30,8 +25,7 @@ virtual ISettings.SettingType GetTypeOfSetting(
    String^ strSettingPath
 
 )
-```
-```
+
 
 #### Parameters
 

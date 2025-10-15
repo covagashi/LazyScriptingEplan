@@ -8,21 +8,16 @@ Returns an array of connection points defined in the symbol's function definitio
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Pin[] GetConnectionPoints( 
 
    Project project
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Pin^>^ GetConnectionPoints( 
@@ -30,8 +25,7 @@ array<Pin^>^ GetConnectionPoints(
    Project^ project
 
 )
-```
-```
+
 
 #### Parameters
 

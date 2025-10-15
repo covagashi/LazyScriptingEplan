@@ -8,17 +8,12 @@ Name of potential # 33000.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue POTENTIAL_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ POTENTIAL_NAME {
@@ -28,8 +23,7 @@ property PropertyValue^ POTENTIAL_NAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

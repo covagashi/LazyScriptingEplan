@@ -8,17 +8,12 @@ Plugs: Number of pins # 22035.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PINCOUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PINCOUNT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PINCOUNT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

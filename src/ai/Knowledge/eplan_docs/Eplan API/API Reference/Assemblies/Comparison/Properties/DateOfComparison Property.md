@@ -8,17 +8,12 @@ Time when comparison was done.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DateTime DateOfComparison {get;}
-```
-```
 
-```
-```
 public:
 
 property DateTime DateOfComparison {
@@ -26,5 +21,4 @@ property DateTime DateOfComparison {
    DateTime get();
 
 }
-```
-```
+

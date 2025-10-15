@@ -8,17 +8,12 @@ Represents ArticleReference properties
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new ArticleReferencePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property ArticleReferencePropertyList^ Properties {
@@ -26,8 +21,7 @@ new property ArticleReferencePropertyList^ Properties {
    ArticleReferencePropertyList^ get();
 
 }
-```
-```
+
 
 Remarks
 
@@ -37,7 +31,7 @@ Example
 
 Setting article reference properties by parent object ids Setting article reference properties by ArticleReferencePropertyList ids Getting article reference user-defined property by parent object
 
-- [C#](#i-tab-content-862befdb-de9b-4a04-b35b-1e66bd26c9ad)
+**C#**
 
 ```
 articleReference.ParentObject.Properties[Properties.Function.FUNC_ARTICLE_NOTE, 1] = "ARTICLE_NOTE3";
@@ -45,7 +39,7 @@ articleReference.ParentObject.Properties[Properties.Function.FUNC_ARTICLE_NOTE, 
 string note = articleReference.ParentObject.Properties[Properties.Function.FUNC_ARTICLE_NOTE, 1];
 ```
 
-- [C#](#i-tab-content-c0800149-62d0-4856-b8b9-3296f9f4a997)
+**C#**
 
 ```
 articleReference.Properties[Properties.ArticleReference.ARTICLE_NOTE] = "note";
@@ -53,7 +47,7 @@ articleReference.Properties[Properties.ArticleReference.ARTICLE_NOTE] = "note";
 string note = articleReference.Properties[Properties.ArticleReference.ARTICLE_NOTE];
 ```
 
-- [C#](#i-tab-content-9f3bca8a-a649-4722-93d3-7f8f857a5fcc)
+**C#**
 
 ```
 var propertyValue = project.Properties["EPLAN.ArticleRef.UserProperty.1"][1].ToString();

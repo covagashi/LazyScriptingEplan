@@ -8,17 +8,12 @@ Piping name # 31157.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_PIPENAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_PIPENAME {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_PIPENAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

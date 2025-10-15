@@ -8,17 +8,12 @@ User-defined structure (sub-identifier 2) # 1602.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_USERDEFINED_SUB2 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_USERDEFINED_SUB2 {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_USERDEFINED_SUB2 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

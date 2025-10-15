@@ -8,11 +8,10 @@ Exports a missing-word list of the given objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExportMissingTranslation( 
 
    string strFilename,
@@ -24,11 +23,7 @@ public bool ExportMissingTranslation(
    StorableObject[] storableObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExportMissingTranslation( 
@@ -42,8 +37,7 @@ bool ExportMissingTranslation(
    array<StorableObject^>^ storableObjects
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Connection cable: Cross-section # 26135.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CROSS_SECTION_OF_THE_CONNECTION_CABLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CROSS_SECTION_OF_THE_CONNECTION_CABLE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CROSS_SECTION_OF_THE_CONNECTION_CABLE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

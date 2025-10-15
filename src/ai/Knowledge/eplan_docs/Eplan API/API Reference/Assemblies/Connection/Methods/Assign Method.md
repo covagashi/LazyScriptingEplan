@@ -8,21 +8,16 @@ Assigns this connection to another, which means that values of this connection's
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Assign( 
 
    Connection targetConn
 
 )
-```
-```
 
-```
-```
 public:
 
 void Assign( 
@@ -30,8 +25,7 @@ void Assign(
    Connection^ targetConn
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Degree of protection (IP): Mounted # 26561.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PROTECTION_CLASS_IP_MOUNTED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PROTECTION_CLASS_IP_MOUNTED {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PROTECTION_CLASS_IP_MOUNTED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

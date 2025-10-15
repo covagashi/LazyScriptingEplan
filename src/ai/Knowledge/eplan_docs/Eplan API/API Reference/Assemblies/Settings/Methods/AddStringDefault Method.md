@@ -8,11 +8,10 @@ Defines a new setting for a string default.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddStringDefault( 
 
    string strSettingPath,
@@ -24,11 +23,7 @@ public void AddStringDefault(
    ISettings.CreationFlag eFlag
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddStringDefault( 
@@ -42,8 +37,7 @@ void AddStringDefault(
    ISettings.CreationFlag eFlag
 
 )
-```
-```
+
 
 #### Parameters
 

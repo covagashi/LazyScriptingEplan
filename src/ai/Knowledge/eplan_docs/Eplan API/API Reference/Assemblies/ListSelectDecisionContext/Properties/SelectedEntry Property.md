@@ -8,17 +8,12 @@ Gets the selected entries
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SelectedEntry {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ SelectedEntry {
@@ -26,5 +21,4 @@ property String^ SelectedEntry {
    String^ get();
 
 }
-```
-```
+

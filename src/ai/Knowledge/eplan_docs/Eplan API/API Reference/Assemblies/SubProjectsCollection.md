@@ -13,26 +13,17 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Item")]
 
 public class SubProjectsCollection
-```
-```
 
-```
-```
 [DefaultMember("Item")]
 
 public ref class SubProjectsCollection
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [SubProjectsCollection Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.SubProjectsCollection~_ctor.html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

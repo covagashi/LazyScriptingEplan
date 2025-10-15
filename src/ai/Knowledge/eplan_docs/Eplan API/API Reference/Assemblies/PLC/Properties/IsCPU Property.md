@@ -8,17 +8,12 @@ Gets or sets value of CPU flag.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsCPU {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsCPU {
@@ -28,5 +23,4 @@ property bool IsCPU {
    void set (    bool value);
 
 }
-```
-```
+

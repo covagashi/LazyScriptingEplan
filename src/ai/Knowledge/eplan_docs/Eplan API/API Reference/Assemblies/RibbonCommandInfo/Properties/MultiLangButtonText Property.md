@@ -8,17 +8,12 @@ Property to get or set button text, multilanguage. If set it is used instead of 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString MultiLangButtonText {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ MultiLangButtonText {
@@ -28,5 +23,4 @@ property MultiLangString^ MultiLangButtonText {
    void set (    MultiLangString^ value);
 
 }
-```
-```
+

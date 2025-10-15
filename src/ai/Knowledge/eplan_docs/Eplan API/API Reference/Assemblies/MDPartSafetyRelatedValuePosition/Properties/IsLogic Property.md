@@ -8,17 +8,12 @@ Is the function range "Logic (Generate raport)" selected (yes/no)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsLogic {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsLogic {
@@ -28,5 +23,4 @@ property bool IsLogic {
    void set (    bool value);
 
 }
-```
-```
+

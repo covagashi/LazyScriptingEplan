@@ -8,17 +8,12 @@ Array with identifying names of segment definitions.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string[] ValidParents {get; set;}
-```
-```
 
-```
-```
 public:
 
 property array<String^>^ ValidParents {
@@ -28,8 +23,7 @@ property array<String^>^ ValidParents {
    void set (    array<String^>^ value);
 
 }
-```
-```
+
 
 Remarks
 

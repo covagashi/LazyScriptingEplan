@@ -8,17 +8,12 @@ Field type of this property definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyDefinition.MDPropertyType FieldType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyDefinition.MDPropertyType FieldType {
@@ -28,8 +23,7 @@ property MDPropertyDefinition.MDPropertyType FieldType {
    void set (    MDPropertyDefinition.MDPropertyType value);
 
 }
-```
-```
+
 
 Remarks
 

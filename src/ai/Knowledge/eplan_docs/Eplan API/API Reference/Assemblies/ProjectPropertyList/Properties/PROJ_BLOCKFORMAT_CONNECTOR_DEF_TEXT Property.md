@@ -8,21 +8,16 @@ Block property: Format (plug definition) # 10603.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BLOCKFORMAT_CONNECTOR_DEF_TEXT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BLOCKFORMAT_CONNECTOR_DEF_TEXT {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_BLOCKFORMAT_CONNECTOR_DEF_TEXT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Performance description, standardized: Description (device, utility, service) # 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PERFORMANCE_DESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PERFORMANCE_DESCRIPTION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PERFORMANCE_DESCRIPTION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

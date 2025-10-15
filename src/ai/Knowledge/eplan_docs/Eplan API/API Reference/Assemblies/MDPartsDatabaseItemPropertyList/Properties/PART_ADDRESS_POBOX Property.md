@@ -8,17 +8,12 @@ P.O. box # 22917.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue PART_ADDRESS_POBOX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ PART_ADDRESS_POBOX {
@@ -28,8 +23,7 @@ property MDPropertyValue^ PART_ADDRESS_POBOX {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

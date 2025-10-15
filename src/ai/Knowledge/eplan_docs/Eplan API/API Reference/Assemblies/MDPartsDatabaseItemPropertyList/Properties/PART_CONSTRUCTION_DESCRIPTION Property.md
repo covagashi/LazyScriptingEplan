@@ -8,17 +8,12 @@ Description (Drilling pattern) # 22930.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue PART_CONSTRUCTION_DESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ PART_CONSTRUCTION_DESCRIPTION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ PART_CONSTRUCTION_DESCRIPTION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

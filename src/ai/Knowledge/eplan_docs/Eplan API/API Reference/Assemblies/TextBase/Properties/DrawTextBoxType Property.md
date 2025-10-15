@@ -8,17 +8,12 @@ Returns the text box type
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TextBase.TextBoxType DrawTextBoxType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property TextBase.TextBoxType DrawTextBoxType {
@@ -28,8 +23,7 @@ property TextBase.TextBoxType DrawTextBoxType {
    void set (    TextBase.TextBoxType value);
 
 }
-```
-```
+
 
 #### Property Value
 

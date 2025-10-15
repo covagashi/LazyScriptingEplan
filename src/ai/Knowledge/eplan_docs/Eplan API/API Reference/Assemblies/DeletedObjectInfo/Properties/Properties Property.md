@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new DeletedObjectInfoPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property DeletedObjectInfoPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property DeletedObjectInfoPropertyList^ Properties {
    DeletedObjectInfoPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

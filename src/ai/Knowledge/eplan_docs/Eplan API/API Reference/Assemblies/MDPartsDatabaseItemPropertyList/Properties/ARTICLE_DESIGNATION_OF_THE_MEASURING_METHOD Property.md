@@ -8,17 +8,12 @@ Designation of the measurement method # 26030.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_DESIGNATION_OF_THE_MEASURING_METHOD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_DESIGNATION_OF_THE_MEASURING_METHOD {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_DESIGNATION_OF_THE_MEASURING_METHOD {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

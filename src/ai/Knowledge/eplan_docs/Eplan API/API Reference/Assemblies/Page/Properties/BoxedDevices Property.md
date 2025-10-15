@@ -8,17 +8,12 @@ Returns all [BoxedDevice](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.BoxedDe
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public BoxedDevice[] BoxedDevices {get;}
-```
-```
 
-```
-```
 public:
 
 property array<BoxedDevice^>^ BoxedDevices {
@@ -26,8 +21,7 @@ property array<BoxedDevice^>^ BoxedDevices {
    array<BoxedDevice^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

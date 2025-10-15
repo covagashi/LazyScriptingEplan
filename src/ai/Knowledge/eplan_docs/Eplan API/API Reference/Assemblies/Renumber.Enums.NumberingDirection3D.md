@@ -8,20 +8,14 @@ Numbering direction of 3d objects
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Renumber.Enums.NumberingDirection3D : System.Enum
-```
-```
 
-```
-```
 public enum class Renumber.Enums.NumberingDirection3D : public System.Enum
-```
-```
+
 
 Members
 

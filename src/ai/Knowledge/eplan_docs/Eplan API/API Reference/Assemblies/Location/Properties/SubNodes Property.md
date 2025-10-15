@@ -8,17 +8,12 @@ Gets all child locations in the same hierarchy (e.g. for +A.A.A it may be: +A.A.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Location[] SubNodes {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Location^>^ SubNodes {
@@ -26,5 +21,4 @@ property array<Location^>^ SubNodes {
    array<Location^>^ get();
 
 }
-```
-```
+

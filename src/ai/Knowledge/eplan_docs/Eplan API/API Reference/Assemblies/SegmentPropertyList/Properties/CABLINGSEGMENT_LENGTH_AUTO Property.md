@@ -8,17 +8,12 @@ Topology: Routing length (automatic) # 20250.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLINGSEGMENT_LENGTH_AUTO {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLINGSEGMENT_LENGTH_AUTO {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLINGSEGMENT_LENGTH_AUTO {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

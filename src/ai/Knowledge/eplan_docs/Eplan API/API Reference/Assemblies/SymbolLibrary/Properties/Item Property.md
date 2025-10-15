@@ -8,21 +8,16 @@ Index operator to searching Symbol from given name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Symbol this[ 
 
    string symbolName
 
 ]; {get;}
-```
-```
 
-```
-```
 public:
 
 property Symbol^ default [String^] {
@@ -30,8 +25,7 @@ property Symbol^ default [String^] {
    Symbol^ get(String^ symbolName);
 
 }
-```
-```
+
 
 #### Parameters
 

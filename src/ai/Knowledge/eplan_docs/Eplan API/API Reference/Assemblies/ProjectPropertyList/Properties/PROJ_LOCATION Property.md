@@ -8,17 +8,12 @@ Location # 10035.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_LOCATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_LOCATION {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_LOCATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

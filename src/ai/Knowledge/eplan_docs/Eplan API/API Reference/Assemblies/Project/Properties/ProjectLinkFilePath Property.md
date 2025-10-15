@@ -8,17 +8,12 @@ Project's property which return full project-link file name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ProjectLinkFilePath {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ ProjectLinkFilePath {
@@ -26,8 +21,7 @@ property String^ ProjectLinkFilePath {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

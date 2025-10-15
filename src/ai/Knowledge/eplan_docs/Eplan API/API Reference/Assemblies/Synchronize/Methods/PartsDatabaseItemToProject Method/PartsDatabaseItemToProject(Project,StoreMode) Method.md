@@ -8,11 +8,10 @@ Synchronizes the database items (like parts, manufactures addresses, etc.) store
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void PartsDatabaseItemToProject( 
 
    Project pProject,
@@ -20,11 +19,7 @@ public void PartsDatabaseItemToProject(
    Synchronize.StoreMode storeMode
 
 )
-```
-```
 
-```
-```
 public:
 
 void PartsDatabaseItemToProject( 
@@ -34,8 +29,7 @@ void PartsDatabaseItemToProject(
    Synchronize.StoreMode storeMode
 
 )
-```
-```
+
 
 #### Parameters
 

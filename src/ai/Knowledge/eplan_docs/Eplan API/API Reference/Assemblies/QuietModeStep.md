@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class QuietModeStep
-```
-```
 
-```
-```
 public ref class QuietModeStep
-```
-```
+
 
 Remarks
 
-The class should be used with âusingâ statement. This will ensure restoring original mode after its block
-
-
+The class should be used with 'using' statement. This will ensure restoring original mode after its block
 
 Public Constructors
 
@@ -41,9 +33,6 @@ Public Constructors
 | Public Constructor | [QuietModeStep Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.QuietModeStep~_ctor.html) |  |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

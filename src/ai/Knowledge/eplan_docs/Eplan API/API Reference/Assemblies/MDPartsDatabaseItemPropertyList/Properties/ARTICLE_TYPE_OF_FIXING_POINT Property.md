@@ -8,17 +8,12 @@ Type of attachment point # 26218.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TYPE_OF_FIXING_POINT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TYPE_OF_FIXING_POINT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TYPE_OF_FIXING_POINT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

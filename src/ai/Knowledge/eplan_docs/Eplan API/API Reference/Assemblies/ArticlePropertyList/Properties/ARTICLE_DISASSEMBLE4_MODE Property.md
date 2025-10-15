@@ -8,17 +8,12 @@ Break up in parts list (manufacturing data) # 22418.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_DISASSEMBLE4_MODE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_DISASSEMBLE4_MODE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_DISASSEMBLE4_MODE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

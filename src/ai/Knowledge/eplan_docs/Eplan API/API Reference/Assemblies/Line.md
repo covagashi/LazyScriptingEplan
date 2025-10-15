@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Line : GraphicalPlacement
-```
-```
 
-```
-```
 public ref class Line : public GraphicalPlacement
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [Line Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Line~_ctor().html) | Constructor. When object created with this constructor, its `create` method must be call. |
 
 [Top](#top)
-
-
 
 Public Properties
 

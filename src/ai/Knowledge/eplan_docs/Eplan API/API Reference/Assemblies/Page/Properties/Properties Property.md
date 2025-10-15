@@ -8,17 +8,12 @@ Property enabling access to internal properties of the Page object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new PagePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property PagePropertyList^ Properties {
@@ -26,8 +21,7 @@ new property PagePropertyList^ Properties {
    PagePropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -41,7 +35,7 @@ Exceptions
 
 Example
 
-- [C#](#i-tab-content-4f8afb7d-9ff8-4850-abc1-48d6464ef075)
+**C#**
 
 ```
 Page page = oProject.Pages[10];

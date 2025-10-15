@@ -8,17 +8,12 @@ Topology: Structure # 20245.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLING_STRUCTURE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLING_STRUCTURE {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLING_STRUCTURE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

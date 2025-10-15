@@ -8,28 +8,22 @@ Registers ClientId of an Eplan Cloud service.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 IdentityClientResponse RegisterClientId( 
 
    string strClientId
 
 )
-```
-```
 
-```
-```
 IdentityClientResponse^ RegisterClientId( 
 
    String^ strClientId
 
 )
-```
-```
+
 
 #### Parameters
 

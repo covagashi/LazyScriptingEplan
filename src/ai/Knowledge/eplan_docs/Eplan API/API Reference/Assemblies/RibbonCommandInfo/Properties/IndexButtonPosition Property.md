@@ -8,17 +8,12 @@ Property to get or set the position index of the button. Optional parameter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int IndexButtonPosition {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int IndexButtonPosition {
@@ -28,5 +23,4 @@ property int IndexButtonPosition {
    void set (    int value);
 
 }
-```
-```
+

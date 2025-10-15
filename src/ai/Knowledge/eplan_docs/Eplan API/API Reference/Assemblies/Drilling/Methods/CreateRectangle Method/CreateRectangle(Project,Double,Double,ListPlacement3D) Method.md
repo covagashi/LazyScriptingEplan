@@ -8,11 +8,10 @@ Creates new rectangle drilling in project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Drilling CreateRectangle( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public static Drilling CreateRectangle(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static Drilling^ CreateRectangle( 
@@ -42,8 +37,7 @@ static Drilling^ CreateRectangle(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

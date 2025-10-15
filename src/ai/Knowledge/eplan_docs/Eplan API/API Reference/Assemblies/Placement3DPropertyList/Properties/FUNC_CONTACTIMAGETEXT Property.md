@@ -8,17 +8,12 @@ Revision: Contact image text (for property comparison) # 20199.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CONTACTIMAGETEXT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CONTACTIMAGETEXT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CONTACTIMAGETEXT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

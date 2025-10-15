@@ -8,17 +8,12 @@ Trade 'Cooling' # 22137.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CRAFT_COOLING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CRAFT_COOLING {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CRAFT_COOLING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

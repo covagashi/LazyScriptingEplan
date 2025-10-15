@@ -8,21 +8,16 @@ Usage for labeling type # 26626.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_USE_FOR_MARKING_TYPE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_USE_FOR_MARKING_TYPE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_USE_FOR_MARKING_TYPE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

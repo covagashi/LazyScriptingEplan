@@ -8,17 +8,12 @@ Sets the [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html) that [
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Page Page {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Page^ Page {
@@ -28,8 +23,7 @@ property Page^ Page {
    void set (    Page^ value);
 
 }
-```
-```
+
 
 Exceptions
 

@@ -8,21 +8,16 @@ String for row designation # 12028.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_POS_ALPHASET( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_POS_ALPHASET {
@@ -32,8 +27,7 @@ property PropertyValue^ FRAME_POS_ALPHASET {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

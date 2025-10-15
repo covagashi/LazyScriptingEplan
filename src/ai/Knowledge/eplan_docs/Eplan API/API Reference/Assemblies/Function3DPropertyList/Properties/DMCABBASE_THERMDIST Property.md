@@ -8,17 +8,12 @@ Thermal design: Maximum reach # 36460.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMCABBASE_THERMDIST {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMCABBASE_THERMDIST {
@@ -28,8 +23,7 @@ property PropertyValue^ DMCABBASE_THERMDIST {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

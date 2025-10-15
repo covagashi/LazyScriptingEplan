@@ -8,11 +8,10 @@ Method for removing a project language. It removes the language from the set of 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveProjectLanguage( 
 
    string strProjectName,
@@ -20,11 +19,7 @@ public void RemoveProjectLanguage(
    string strLanguage
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveProjectLanguage( 
@@ -34,8 +29,7 @@ void RemoveProjectLanguage(
    String^ strLanguage
 
 )
-```
-```
+
 
 #### Parameters
 

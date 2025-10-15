@@ -8,17 +8,12 @@ Gets handle mate
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public HandleMate GroupHandleMate {get;}
-```
-```
 
-```
-```
 public:
 
 property HandleMate^ GroupHandleMate {
@@ -26,8 +21,7 @@ property HandleMate^ GroupHandleMate {
    HandleMate^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

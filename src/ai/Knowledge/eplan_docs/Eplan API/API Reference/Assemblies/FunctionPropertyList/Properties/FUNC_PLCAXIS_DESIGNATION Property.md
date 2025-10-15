@@ -8,21 +8,16 @@ Drive # 20576.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCAXIS_DESIGNATION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCAXIS_DESIGNATION {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_PLCAXIS_DESIGNATION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

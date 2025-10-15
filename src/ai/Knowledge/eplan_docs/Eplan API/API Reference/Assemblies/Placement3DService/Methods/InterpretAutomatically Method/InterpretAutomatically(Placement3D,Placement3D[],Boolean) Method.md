@@ -8,11 +8,10 @@ Starts automatic interpretation.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void InterpretAutomatically( 
 
    Placement3D oTarget,
@@ -22,11 +21,7 @@ public void InterpretAutomatically(
    bool bShowBestMachDlg
 
 )
-```
-```
 
-```
-```
 public:
 
 void InterpretAutomatically( 
@@ -38,8 +33,7 @@ void InterpretAutomatically(
    bool bShowBestMachDlg
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -56,11 +50,9 @@ Example
 
 Following example shows how to use the method:
 
-- [C#](#i-tab-content-c2e2f1b9-dbbf-4690-9fb0-f14b3355c4fe)
+**C#**
 
 ```
 new Placement3DService().InterpretAutomatically(oInstallationSpaceTarget.Children[0], oInstallationSpaceSource.Children, false);
-
-
 
 ```

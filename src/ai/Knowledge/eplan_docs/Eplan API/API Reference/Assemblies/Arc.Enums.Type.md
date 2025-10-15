@@ -8,20 +8,14 @@ Types of arcs.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Arc.Enums.Type : System.Enum
-```
-```
 
-```
-```
 public enum class Arc.Enums.Type : public System.Enum
-```
-```
+
 
 Members
 

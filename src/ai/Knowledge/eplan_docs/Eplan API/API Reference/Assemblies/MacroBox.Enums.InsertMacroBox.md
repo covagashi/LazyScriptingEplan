@@ -8,20 +8,14 @@ Enumeration of InsertMacroBox
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MacroBox.Enums.InsertMacroBox : System.Enum
-```
-```
 
-```
-```
 public enum class MacroBox.Enums.InsertMacroBox : public System.Enum
-```
-```
+
 
 Members
 

@@ -8,11 +8,10 @@ Constructor of Eplan Communication Exception
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public CommunicationException( 
 
    Grpc.Core.Status status,
@@ -20,11 +19,7 @@ public CommunicationException(
    string strException
 
 )
-```
-```
 
-```
-```
 public:
 
 CommunicationException( 
@@ -34,8 +29,7 @@ CommunicationException(
    String^ strException
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MultiLangString
-```
-```
 
-```
-```
 public ref class MultiLangString
-```
-```
+
 
 Remarks
 
 When adding a new language string, language-independant string is removed. When adding a language-independant string, other languages are removed.
-
-
 
 Public Constructors
 
@@ -41,8 +33,6 @@ Public Constructors
 | Public Constructor | [MultiLangString Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString~_ctor().html) | Default constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 
@@ -72,8 +62,6 @@ Public Methods
 | Public Method | [Translatable](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString~Translatable.html) | Indicates whether the MultiLanguageString can be translated. |
 
 [Top](#top)
-
-
 
 Public Operators
 

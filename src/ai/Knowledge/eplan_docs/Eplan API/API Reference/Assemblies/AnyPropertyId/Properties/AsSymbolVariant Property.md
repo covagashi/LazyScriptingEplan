@@ -8,17 +8,12 @@ Gets property id value as [Properties.SymbolVariant](Eplan.EplApi.DataModelu~Epl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.SymbolVariant AsSymbolVariant {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.SymbolVariant AsSymbolVariant {
@@ -26,5 +21,4 @@ property Properties.SymbolVariant AsSymbolVariant {
    Properties.SymbolVariant get();
 
 }
-```
-```
+

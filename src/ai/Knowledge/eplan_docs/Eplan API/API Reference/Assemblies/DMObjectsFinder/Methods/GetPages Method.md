@@ -8,21 +8,16 @@ Returns [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html)s matchi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Page[] GetPages( 
 
    PagesFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Page^>^ GetPages( 
@@ -30,8 +25,7 @@ array<Page^>^ GetPages(
    PagesFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

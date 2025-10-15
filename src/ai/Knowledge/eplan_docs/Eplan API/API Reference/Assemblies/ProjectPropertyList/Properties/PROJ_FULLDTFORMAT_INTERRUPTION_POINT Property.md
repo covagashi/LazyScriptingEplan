@@ -8,17 +8,12 @@ Format of full DT: Interruption point # 10649.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_FULLDTFORMAT_INTERRUPTION_POINT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_FULLDTFORMAT_INTERRUPTION_POINT {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_FULLDTFORMAT_INTERRUPTION_POINT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Associated connections: Remark # 31034.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CDP_CON_NOTE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CDP_CON_NOTE {
@@ -28,8 +23,7 @@ property PropertyValue^ CDP_CON_NOTE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

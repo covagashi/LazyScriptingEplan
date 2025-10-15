@@ -8,17 +8,12 @@ Layout space in draft mode # 36451.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTALLATIONSPACE_REVISION_LOG_DRAFT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTALLATIONSPACE_REVISION_LOG_DRAFT {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTALLATIONSPACE_REVISION_LOG_DRAFT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

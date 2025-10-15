@@ -8,11 +8,10 @@ This function imports devices into a given project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] ImportDevices( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public StorableObject[] ImportDevices(
    string strSchemeName
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ ImportDevices( 
@@ -38,8 +33,7 @@ array<StorableObject^>^ ImportDevices(
    String^ strSchemeName
 
 )
-```
-```
+
 
 #### Parameters
 

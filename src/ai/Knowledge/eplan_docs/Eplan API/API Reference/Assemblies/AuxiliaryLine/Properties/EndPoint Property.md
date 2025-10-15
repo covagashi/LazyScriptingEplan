@@ -8,17 +8,12 @@ Position of the AuxiliaryLine end relatively to its parent.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D EndPoint {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PointD3D EndPoint {
@@ -28,5 +23,4 @@ property PointD3D EndPoint {
    void set (    PointD3D value);
 
 }
-```
-```
+

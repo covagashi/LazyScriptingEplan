@@ -8,17 +8,12 @@ Type of control # 26017.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TYPE_OF_CONTROL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TYPE_OF_CONTROL {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TYPE_OF_CONTROL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

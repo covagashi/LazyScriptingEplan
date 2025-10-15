@@ -8,11 +8,10 @@ Places a macro on a given page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] PlaceMacroAt( 
 
    Page oPage,
@@ -28,11 +27,7 @@ public StorableObject[] PlaceMacroAt(
    int nVariant
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ PlaceMacroAt( 
@@ -50,8 +45,7 @@ array<StorableObject^>^ PlaceMacroAt(
    int nVariant
 
 )
-```
-```
+
 
 #### Parameters
 

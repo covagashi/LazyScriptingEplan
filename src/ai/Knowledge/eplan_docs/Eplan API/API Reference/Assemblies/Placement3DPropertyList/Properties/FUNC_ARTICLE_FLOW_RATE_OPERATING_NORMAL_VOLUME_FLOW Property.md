@@ -8,21 +8,16 @@ Flow rate (operating / standard volume flow) # 26264.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_FLOW_RATE_OPERATING_NORMAL_VOLUME_FLOW( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_FLOW_RATE_OPERATING_NORMAL_VOLUME_FLOW {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_FLOW_RATE_OPERATING_NORMAL_VOLUME_FLOW {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 
@@ -47,4 +41,4 @@ Remarks
 
 Property is indexed. Possible indexes are from 1 to 50.
 
-Substance quantity per time unit stated as operating or standard flow rate. The most common unit for a flow rate is cubic meters per second (mÂ³/s). For certain orders of magnitude or applications, other units are also customary, for example milliliters per minute.
+Substance quantity per time unit stated as operating or standard flow rate. The most common unit for a flow rate is cubic meters per second (m³/s). For certain orders of magnitude or applications, other units are also customary, for example milliliters per minute.

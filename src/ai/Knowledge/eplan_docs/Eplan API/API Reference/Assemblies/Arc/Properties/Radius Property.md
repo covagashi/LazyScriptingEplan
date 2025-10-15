@@ -8,17 +8,12 @@ Gets the radius value. This property returns 0 for ellipse type.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double Radius {get;}
-```
-```
 
-```
-```
 public:
 
 property double Radius {
@@ -26,5 +21,4 @@ property double Radius {
    double get();
 
 }
-```
-```
+

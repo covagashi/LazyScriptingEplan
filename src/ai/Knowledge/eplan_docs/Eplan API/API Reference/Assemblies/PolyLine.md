@@ -17,33 +17,25 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PolyLine : GraphicalPlacement
-```
-```
 
-```
-```
 public ref class PolyLine : public GraphicalPlacement
-```
-```
+
 
 Example
 
 The following example shows how to use class PolyLine.
 
-- [C#](#i-tab-content-a3c85e70-9f5a-4144-93a9-61c6abcc5257)
+**C#**
 
 ```
 PolyLine oPolyLine = new PolyLine();
 
 oPolyLine.Create(m_oPage);
-
-
 
 PointD oPint1 = new PointD(30.0, 30.0);
 
@@ -53,8 +45,6 @@ PointD oPint3 = new PointD(70.0, 50.0);
 
 PointD oPint4 = new PointD(40.0, 60.0);
 
-
-
 oPolyLine.SetPointAt(0, ref oPint1);
 
 oPolyLine.SetPointAt(1, ref oPint2);
@@ -63,11 +53,7 @@ oPolyLine.SetPointAt(2, ref oPint3);
 
 oPolyLine.SetPointAt(3, ref oPint4);
 
-
-
 oPolyLine.SetBulgeAt(0, 5.5);
-
-
 
 ```
 
@@ -78,8 +64,6 @@ Public Constructors
 | Public Constructor | [PolyLine Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PolyLine~_ctor().html) | Constructor. When object created with this constructor, its `create` method must be call. |
 
 [Top](#top)
-
-
 
 Public Properties
 

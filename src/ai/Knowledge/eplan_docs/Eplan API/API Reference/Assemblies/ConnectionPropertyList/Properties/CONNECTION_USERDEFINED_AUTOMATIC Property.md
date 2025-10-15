@@ -8,17 +8,12 @@ User-defined structure: Main identifier (automatic) # 31110.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_USERDEFINED_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_USERDEFINED_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_USERDEFINED_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

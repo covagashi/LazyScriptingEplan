@@ -8,17 +8,12 @@ Thermal design: Discharge angle # 36462.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMCABBASE_ANGLE_OUT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMCABBASE_ANGLE_OUT {
@@ -28,8 +23,7 @@ property PropertyValue^ DMCABBASE_ANGLE_OUT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.Double.
 
 Remarks
 
-Area parameter for calculating the optimally air-conditioned area (area that an air-conditioning unit can reliably air-condition on the basis of its air circulation capacity). Describes the width of the angle in which the cooled / heated air can exit the cooling device. Amounts uniformly to 60Â° for all devices.
+Area parameter for calculating the optimally air-conditioned area (area that an air-conditioning unit can reliably air-condition on the basis of its air circulation capacity). Describes the width of the angle in which the cooled / heated air can exit the cooling device. Amounts uniformly to 60° for all devices.

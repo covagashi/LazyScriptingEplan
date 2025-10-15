@@ -8,20 +8,14 @@ Provides a mechanism for framework to pass information about original location o
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IEplAddInShadowCopy
-```
-```
 
-```
-```
 public interface class IEplAddInShadowCopy
-```
-```
+
 
 Remarks
 
@@ -29,7 +23,7 @@ To use this functionality the interface needs to be implemented by class which a
 
 Example
 
-- [C#](#i-tab-content-8adebe44-d3fd-4606-9cee-26018fef3556)
+**C#**
 
 ```
 /// <summary>
@@ -78,8 +72,6 @@ public class AddInModule: IEplAddIn, IEplAddInShadowCopy
 
     }
 
-
-
     /// <summary>
 
     /// Called by the framework before <see cref="Eplan::EplApi::ApplicationFramework::IEplAddIn.OnInit" text="OnInit"/> and passes the
@@ -96,8 +88,6 @@ public class AddInModule: IEplAddIn, IEplAddInShadowCopy
 
     }
 
-
-
     public String GetOriginalAssemblyPath()
 
     {
@@ -105,8 +95,6 @@ public class AddInModule: IEplAddIn, IEplAddInShadowCopy
         return m_strOriginalAssemblyPath;
 
     }
-
-
 
     /// <summary>
 
@@ -138,8 +126,6 @@ public class AddInModule: IEplAddIn, IEplAddInShadowCopy
 
     }
 
-
-
     /// <summary>
 
     ///This function is called through the Framework in Programmedne if the Add-in was loaded in system start. <seealso cref="OnRegister"/>   
@@ -154,19 +140,11 @@ public class AddInModule: IEplAddIn, IEplAddInShadowCopy
 
     }
 
-
-
     private String m_strOriginalAssemblyPath;
 
 }
 
-
-
 ```
-
-
-
-
 
 Public Methods
 

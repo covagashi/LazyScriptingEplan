@@ -8,17 +8,12 @@ Item is immovably attached to the superior item # 36010.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_ELEM_ISFIXONPARENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_ELEM_ISFIXONPARENT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_ELEM_ISFIXONPARENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

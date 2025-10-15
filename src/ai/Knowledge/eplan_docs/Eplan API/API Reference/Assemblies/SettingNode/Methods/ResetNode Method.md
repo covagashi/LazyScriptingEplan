@@ -8,22 +8,16 @@ Resets the node to default. All settings inside are deleted and copied from defa
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ResetNode()
-```
-```
 
-```
-```
 public:
 
 void ResetNode();
-```
-```
+
 
 Exceptions
 

@@ -8,17 +8,12 @@ Pressure area: Dimension # 26001.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_DIMENSIONS_OF_THE_PRESSURED_AREA {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_DIMENSIONS_OF_THE_PRESSURED_AREA {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_DIMENSIONS_OF_THE_PRESSURED_AREA {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

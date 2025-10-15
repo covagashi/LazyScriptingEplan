@@ -8,11 +8,10 @@ Constructor
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ListSelectDecisionContext( 
 
    StringCollection entries,
@@ -28,11 +27,7 @@ public ListSelectDecisionContext(
    EnumDecisionReturn eBatchDecision
 
 )
-```
-```
 
-```
-```
 public:
 
 ListSelectDecisionContext( 
@@ -50,8 +45,7 @@ ListSelectDecisionContext(
    EnumDecisionReturn eBatchDecision
 
 )
-```
-```
+
 
 #### Parameters
 

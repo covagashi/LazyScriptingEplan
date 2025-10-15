@@ -8,17 +8,12 @@ Function definition # 20026.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNC_COMPONENTTYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNC_COMPONENTTYPE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNC_COMPONENTTYPE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

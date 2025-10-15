@@ -8,17 +8,12 @@ Counter target in cross-reference # 24351.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INTERRUPTIONPOINT_CROSSREFDESTINATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INTERRUPTIONPOINT_CROSSREFDESTINATION {
@@ -28,8 +23,7 @@ property PropertyValue^ INTERRUPTIONPOINT_CROSSREFDESTINATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

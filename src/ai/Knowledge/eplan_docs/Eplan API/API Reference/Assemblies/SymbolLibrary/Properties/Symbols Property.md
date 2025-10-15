@@ -8,17 +8,12 @@ Array of all symbols .
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Symbol[] Symbols {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Symbol^>^ Symbols {
@@ -26,5 +21,4 @@ property array<Symbol^>^ Symbols {
    array<Symbol^>^ get();
 
 }
-```
-```
+

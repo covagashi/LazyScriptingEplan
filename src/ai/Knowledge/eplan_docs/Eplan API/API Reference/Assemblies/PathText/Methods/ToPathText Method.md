@@ -8,22 +8,16 @@ Transforms this Text instance into a PathText instance.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override PathText ToPathText()
-```
-```
 
-```
-```
 public:
 
 PathText^ ToPathText(); override
-```
-```
+
 
 #### Return Value
 

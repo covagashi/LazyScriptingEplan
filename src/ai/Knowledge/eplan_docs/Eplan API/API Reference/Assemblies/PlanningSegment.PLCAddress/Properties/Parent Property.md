@@ -8,17 +8,12 @@ Planning object to which this PLCAddres belongs.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningSegment Parent {get;}
-```
-```
 
-```
-```
 public:
 
 property PlanningSegment^ Parent {
@@ -26,5 +21,4 @@ property PlanningSegment^ Parent {
    PlanningSegment^ get();
 
 }
-```
-```
+

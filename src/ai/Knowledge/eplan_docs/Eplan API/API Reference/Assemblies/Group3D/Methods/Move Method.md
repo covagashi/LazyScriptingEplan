@@ -8,11 +8,10 @@ Moves the Group3D object relative to absolute axis origin.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Move( 
 
    double x,
@@ -22,11 +21,7 @@ public void Move(
    double z
 
 )
-```
-```
 
-```
-```
 public:
 
 void Move( 
@@ -38,8 +33,7 @@ void Move(
    double z
 
 )
-```
-```
+
 
 #### Parameters
 

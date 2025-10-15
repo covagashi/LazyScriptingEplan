@@ -8,11 +8,10 @@ Gets sources and targets of the cable.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void GetSourcesAndTargets( 
 
    ICollection<StorableObject> colSources,
@@ -22,11 +21,7 @@ public void GetSourcesAndTargets(
    bool bForAllWires
 
 )
-```
-```
 
-```
-```
 public:
 
 void GetSourcesAndTargets( 
@@ -38,8 +33,7 @@ void GetSourcesAndTargets(
    bool bForAllWires
 
 )
-```
-```
+
 
 #### Parameters
 

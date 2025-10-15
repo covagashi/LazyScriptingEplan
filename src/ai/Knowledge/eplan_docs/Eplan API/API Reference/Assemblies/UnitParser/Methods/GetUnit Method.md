@@ -8,22 +8,16 @@ Get the unit of the parsed result.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string GetUnit()
-```
-```
 
-```
-```
 public:
 
 String^ GetUnit();
-```
-```
+
 
 #### Return Value
 

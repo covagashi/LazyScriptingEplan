@@ -8,17 +8,12 @@ Scale (ratio) # 11044.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_SCALE_RELATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_SCALE_RELATION {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_SCALE_RELATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

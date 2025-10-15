@@ -8,17 +8,12 @@ Nominal total flow rate # 26129.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_NOMINAL_TOTAL_VOLUME_FLOW {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_NOMINAL_TOTAL_VOLUME_FLOW {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_NOMINAL_TOTAL_VOLUME_FLOW {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Maximum flow rate that can flow through a system or component under normal operating conditions for the total temperature, total pressure, and gas composition (e.g., humidity) per time unit. This value is usually specified in cubic meters per hour (mÂ³ /h) or liters per minute (l/min).
+Maximum flow rate that can flow through a system or component under normal operating conditions for the total temperature, total pressure, and gas composition (e.g., humidity) per time unit. This value is usually specified in cubic meters per hour (m³ /h) or liters per minute (l/min).

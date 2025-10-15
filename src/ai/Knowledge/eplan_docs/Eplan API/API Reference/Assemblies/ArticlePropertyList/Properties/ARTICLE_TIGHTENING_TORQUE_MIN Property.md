@@ -8,17 +8,12 @@ Tightening torque, min. # 26082.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TIGHTENING_TORQUE_MIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TIGHTENING_TORQUE_MIN {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TIGHTENING_TORQUE_MIN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

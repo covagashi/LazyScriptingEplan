@@ -8,17 +8,12 @@ Weight (in kg/1000 m) # 26374.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_WEIGHT_KG_1000_M {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_WEIGHT_KG_1000_M {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_WEIGHT_KG_1000_M {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

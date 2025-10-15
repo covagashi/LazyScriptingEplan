@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class UserInfo
-```
-```
 
-```
-```
 public ref class UserInfo
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [UserInfo Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UserInfo~_ctor().html) | Struct holding some information about a User of a project. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -16,26 +16,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Functions3DFilter : Placements3DFilter
-```
-```
 
-```
-```
 public ref class Functions3DFilter : public Placements3DFilter
-```
-```
+
 
 Example
 
 The following example shows how to filter by user-defined properties
 
-- [C#](#i-tab-content-6cdf68b5-b01a-441f-8c57-f1450f0ba100)
+**C#**
 
 ```
 
@@ -43,8 +37,6 @@ The following example shows how to filter by user-defined properties
 Project myProject = m_oProject; // A valid project
 
 Page myPage = myProject.Pages[0]; // A valid Page object
-
-
 
 // Define test property
 
@@ -56,13 +48,9 @@ string strPropertyIdentyfingName = "Page.Test043c";
 
 UserDefinedPropertyDefinition oUDPD = UserDefinedPropertyDefinition.Create(myProject, strPropertyIdentyfingName, UserDefinedPropertyDefinition.Enums.ClientType.Page);
 
-
-
 // Set test property on myPage
 
 myPage.Properties[strPropertyIdentyfingName] = mlsTestValue;
-
-
 
 // Search page with property value
 
@@ -74,17 +62,11 @@ PagePropertyList pagePropertyList = new PagePropertyList();
 
 AnyPropertyId anyPropertyId = new AnyPropertyId(myProject, strPropertyIdentyfingName);
 
-
-
 pagePropertyList[anyPropertyId] = mlsTestValue;
 
 pagesFilter.SetFilteredPropertyList(pagePropertyList);
 
 Page[] arrPages1 = objFinder.GetPages(pagesFilter);
-
-
-
-
 
 ```
 
@@ -95,8 +77,6 @@ Public Constructors
 | Public Constructor | [Functions3DFilter Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Functions3DFilter~_ctor.html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

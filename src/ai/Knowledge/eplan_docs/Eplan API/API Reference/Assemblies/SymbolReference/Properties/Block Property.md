@@ -8,17 +8,12 @@ Returns a block which this SymbolReference object is part of. If this object is 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Block Block {get;}
-```
-```
 
-```
-```
 public:
 
 property Block^ Block {
@@ -26,5 +21,4 @@ property Block^ Block {
    Block^ get();
 
 }
-```
-```
+

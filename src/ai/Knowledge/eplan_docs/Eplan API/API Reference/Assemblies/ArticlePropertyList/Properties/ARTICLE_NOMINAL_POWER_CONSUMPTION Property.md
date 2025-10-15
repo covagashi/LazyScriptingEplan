@@ -8,17 +8,12 @@ Nominal power consumption # 26482.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_NOMINAL_POWER_CONSUMPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_NOMINAL_POWER_CONSUMPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_NOMINAL_POWER_CONSUMPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

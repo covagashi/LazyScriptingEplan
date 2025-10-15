@@ -8,11 +8,10 @@ Indicates whether the converter can convert external formats to XML.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool CanImport( 
 
    Context oContext,
@@ -20,11 +19,7 @@ bool CanImport(
    ref bool bSupportsProgress
 
 )
-```
-```
 
-```
-```
 bool CanImport( 
 
    Context^ oContext,
@@ -32,8 +27,7 @@ bool CanImport(
    bool% bSupportsProgress
 
 )
-```
-```
+
 
 #### Parameters
 

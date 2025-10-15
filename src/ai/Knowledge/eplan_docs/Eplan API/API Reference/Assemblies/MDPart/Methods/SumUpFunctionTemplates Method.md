@@ -8,19 +8,13 @@ For assemblies and modules, sums up the function templates. This method works on
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SumUpFunctionTemplates()
-```
-```
 
-```
-```
 public:
 
 void SumUpFunctionTemplates();
-```
-```
+

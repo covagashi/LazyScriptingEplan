@@ -8,11 +8,10 @@ Imports the Connection3Ds from a file into the given project using a scheme.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Connection3D[] Import( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public Connection3D[] Import(
    string strSchemeName
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Connection3D^>^ Import( 
@@ -38,8 +33,7 @@ array<Connection3D^>^ Import(
    String^ strSchemeName
 
 )
-```
-```
+
 
 #### Parameters
 

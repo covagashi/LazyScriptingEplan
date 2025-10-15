@@ -8,17 +8,12 @@ Switching capacity # 22072.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_ELECTRICALPOWER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_ELECTRICALPOWER {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_ELECTRICALPOWER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

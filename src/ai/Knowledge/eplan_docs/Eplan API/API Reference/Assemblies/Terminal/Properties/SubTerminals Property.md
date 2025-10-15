@@ -8,17 +8,12 @@ If this terminal is the main part of a multi-level terminal, this property retur
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Terminal[] SubTerminals {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Terminal^>^ SubTerminals {
@@ -26,8 +21,7 @@ property array<Terminal^>^ SubTerminals {
    array<Terminal^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

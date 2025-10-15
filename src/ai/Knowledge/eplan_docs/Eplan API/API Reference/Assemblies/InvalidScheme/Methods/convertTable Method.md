@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static string convertTable( 
 
    string[] validSchemesNames
 
 )
-```
-```
 
-```
-```
 public:
 
 static String^ convertTable( 
@@ -28,8 +23,7 @@ static String^ convertTable(
    array<String^>^ validSchemesNames
 
 )
-```
-```
+
 
 #### Parameters
 

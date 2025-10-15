@@ -8,17 +8,12 @@ Contact potential # 26119.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CONTACT_POTENTIAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CONTACT_POTENTIAL {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CONTACT_POTENTIAL {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

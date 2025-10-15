@@ -8,20 +8,14 @@ Identificators of properties owned by DimensionItem class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.DimensionItem : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.DimensionItem : public System.Enum
-```
-```
+
 
 Members
 

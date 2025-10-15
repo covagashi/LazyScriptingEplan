@@ -8,17 +8,12 @@ Returns true, if additional mate was found.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool AdditionalMateSnapped {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool AdditionalMateSnapped {
@@ -26,5 +21,4 @@ virtual property bool AdditionalMateSnapped {
    bool get();
 
 }
-```
-```
+

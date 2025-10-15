@@ -8,17 +8,12 @@ Returns information about type of the property. [MDPropertyDefinition.MDProperty
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override MDPropertyDefinition.MDPropertyType Type {get;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyDefinition.MDPropertyType Type {
@@ -26,8 +21,7 @@ property MDPropertyDefinition.MDPropertyType Type {
    MDPropertyDefinition.MDPropertyType get() override;
 
 }
-```
-```
+
 
 #### Property Value
 

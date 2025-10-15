@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.FunctionBasePropertyList](Eplan.EplApi.DataModel
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FunctionBasePropertyList CollectStructureProperties( 
 
    bool bRecursive
 
 )
-```
-```
 
-```
-```
 public:
 
 FunctionBasePropertyList^ CollectStructureProperties( 
@@ -30,8 +25,7 @@ FunctionBasePropertyList^ CollectStructureProperties(
    bool bRecursive
 
 )
-```
-```
+
 
 #### Parameters
 

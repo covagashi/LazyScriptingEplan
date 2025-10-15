@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDPartsMessagesEnumerator
-```
-```
 
-```
-```
 public ref class MDPartsMessagesEnumerator
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [MDPartsMessagesEnumerator Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesEnumerator~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

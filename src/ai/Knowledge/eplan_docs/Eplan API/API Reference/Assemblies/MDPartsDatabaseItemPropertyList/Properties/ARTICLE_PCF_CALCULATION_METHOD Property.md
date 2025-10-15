@@ -8,17 +8,12 @@ PCF: Calculation method # 26524.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PCF_CALCULATION_METHOD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PCF_CALCULATION_METHOD {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PCF_CALCULATION_METHOD {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

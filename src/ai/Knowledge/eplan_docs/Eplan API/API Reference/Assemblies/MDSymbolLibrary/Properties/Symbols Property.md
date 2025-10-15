@@ -8,17 +8,12 @@ Gets a read only list of all Symbols in the library
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDSymbol[] Symbols {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDSymbol^>^ Symbols {
@@ -26,8 +21,7 @@ property array<MDSymbol^>^ Symbols {
    array<MDSymbol^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

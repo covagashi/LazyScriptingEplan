@@ -8,17 +8,12 @@ Returns true if database is open.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsOpen {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsOpen {
@@ -26,8 +21,7 @@ property bool IsOpen {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

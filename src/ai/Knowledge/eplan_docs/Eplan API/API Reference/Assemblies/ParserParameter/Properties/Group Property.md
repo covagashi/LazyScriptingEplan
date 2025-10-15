@@ -8,17 +8,12 @@ The UnitGroup Property. When first UnitID is set,the group is automatically defi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public UnitGroup Group {get; set;}
-```
-```
 
-```
-```
 public:
 
 property UnitGroup Group {
@@ -28,5 +23,4 @@ property UnitGroup Group {
    void set (    UnitGroup value);
 
 }
-```
-```
+

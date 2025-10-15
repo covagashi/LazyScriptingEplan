@@ -8,17 +8,12 @@ Project structure: User-defined structure # 10007.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_HIERARCHY_USERDEFINED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_HIERARCHY_USERDEFINED {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_HIERARCHY_USERDEFINED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

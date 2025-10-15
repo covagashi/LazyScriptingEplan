@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Comparison : Eplan.EplApi.DataModel.StorableObject
-```
-```
 
-```
-```
 public ref class Comparison : public Eplan.EplApi.DataModel.StorableObject
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [Comparison Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Revisions.Comparison~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

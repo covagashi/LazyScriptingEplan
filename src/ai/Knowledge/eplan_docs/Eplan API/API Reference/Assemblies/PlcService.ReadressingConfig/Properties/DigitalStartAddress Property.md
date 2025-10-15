@@ -8,17 +8,12 @@ Start address value to use for digital addresses. If empty, a default value will
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string DigitalStartAddress {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ DigitalStartAddress {
@@ -28,5 +23,4 @@ property String^ DigitalStartAddress {
    void set (    String^ value);
 
 }
-```
-```
+

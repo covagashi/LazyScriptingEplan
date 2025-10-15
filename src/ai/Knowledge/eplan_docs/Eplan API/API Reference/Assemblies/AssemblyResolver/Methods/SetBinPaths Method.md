@@ -8,11 +8,10 @@ Set the bin paths.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetBinPaths( 
 
    string strPlatformBinPath,
@@ -20,11 +19,7 @@ public void SetBinPaths(
    string strEplanBinPath
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetBinPaths( 
@@ -34,8 +29,7 @@ void SetBinPaths(
    String^ strEplanBinPath
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Connection color / number # 31004.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue CONNECTION_WIRENUMBER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ CONNECTION_WIRENUMBER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ CONNECTION_WIRENUMBER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Creates location in the given hierarchy with a given sort order.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CreateLocation( 
 
    Project.Hierarchy eHierarchy,
@@ -22,11 +21,7 @@ public bool CreateLocation(
    Project.LocationSortOrder eSort
 
 )
-```
-```
 
-```
-```
 public:
 
 bool CreateLocation( 
@@ -38,8 +33,7 @@ bool CreateLocation(
    Project.LocationSortOrder eSort
 
 )
-```
-```
+
 
 #### Parameters
 

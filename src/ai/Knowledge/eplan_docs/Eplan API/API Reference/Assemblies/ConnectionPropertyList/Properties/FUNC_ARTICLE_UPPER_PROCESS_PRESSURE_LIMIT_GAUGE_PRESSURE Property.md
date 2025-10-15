@@ -8,21 +8,16 @@ Process pressure (overpressure), max. # 26521.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_UPPER_PROCESS_PRESSURE_LIMIT_GAUGE_PRESSURE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_UPPER_PROCESS_PRESSURE_LIMIT_GAUGE_PRESSURE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_UPPER_PROCESS_PRESSURE_LIMIT_GAUGE_PRESSURE
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

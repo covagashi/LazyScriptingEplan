@@ -8,21 +8,16 @@ Structure identifier: superior name component # 1010.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue LOCATION_NAMEPART( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ LOCATION_NAMEPART {
@@ -32,8 +27,7 @@ property PropertyValue^ LOCATION_NAMEPART {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

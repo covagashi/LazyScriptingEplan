@@ -8,11 +8,10 @@ Scales the placement (or group of placements) by the specified factors in X and 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override void Scale( 
 
    double fXAxis,
@@ -22,11 +21,7 @@ public override void Scale(
    PointD ptOrigin
 
 )
-```
-```
 
-```
-```
 public:
 
 void Scale( 
@@ -38,8 +33,7 @@ void Scale(
    PointD ptOrigin
 
 ) override
-```
-```
+
 
 #### Parameters
 

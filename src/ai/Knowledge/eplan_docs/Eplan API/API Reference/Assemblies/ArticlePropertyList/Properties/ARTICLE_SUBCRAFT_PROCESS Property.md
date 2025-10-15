@@ -8,21 +8,16 @@ Subtrade 'Process engineering' # 22197.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SUBCRAFT_PROCESS( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SUBCRAFT_PROCESS {
@@ -32,8 +27,7 @@ property PropertyValue^ ARTICLE_SUBCRAFT_PROCESS {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

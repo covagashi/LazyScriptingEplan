@@ -8,21 +8,16 @@ Returns [MDPropertyValue](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPro
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue this[ 
 
    int index
 
 ]; {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ default [int] {
@@ -32,8 +27,7 @@ property MDPropertyValue^ default [int] {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 
@@ -50,7 +44,7 @@ Exceptions
 
 Example
 
-- [C#](#i-tab-content-8e7078a9-e7f9-4bb5-9b74-8a65594283db)
+**C#**
 
 ```
 MDPropertyValue oProperty = m_MDPartsDatabase.Parts[0].Properties[Eplan.EplApi.MasterData.Properties.MDPartsDatabaseItem.ARTICLE_HEIGHT];

@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class FunctionDefinition : StorableObject
-```
-```
 
-```
-```
 public ref class FunctionDefinition : public StorableObject
-```
-```
-
-
 
 Public Constructors
 

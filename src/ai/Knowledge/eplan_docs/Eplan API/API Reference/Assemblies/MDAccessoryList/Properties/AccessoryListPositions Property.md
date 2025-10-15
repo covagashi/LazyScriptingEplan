@@ -8,17 +8,12 @@ Get all accessory positions that belongs to the accessory list.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAccessoryListPosition[] AccessoryListPositions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDAccessoryListPosition^>^ AccessoryListPositions {
@@ -26,8 +21,7 @@ property array<MDAccessoryListPosition^>^ AccessoryListPositions {
    array<MDAccessoryListPosition^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

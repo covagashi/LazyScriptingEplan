@@ -6,17 +6,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override string FilterConfigPath {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ FilterConfigPath {
@@ -24,8 +19,7 @@ property String^ FilterConfigPath {
    String^ get() override;
 
 }
-```
-```
+
 
 Remarks
 

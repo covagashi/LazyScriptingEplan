@@ -8,17 +8,12 @@ Eplan server port
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int ServerPort {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int ServerPort {
@@ -28,5 +23,4 @@ property int ServerPort {
    void set (    int value);
 
 }
-```
-```
+

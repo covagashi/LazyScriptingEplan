@@ -8,17 +8,12 @@ An integer specifying a default [Eplan.EplApi.DataModel.FunctionDefinition.Group
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int FunctionDefinitionGroup {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int FunctionDefinitionGroup {
@@ -28,5 +23,4 @@ property int FunctionDefinitionGroup {
    void set (    int value);
 
 }
-```
-```
+

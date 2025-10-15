@@ -8,17 +8,12 @@ Safety-related values: B10 D # 40339.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SAFETYRELATED_B10D {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SAFETYRELATED_B10D {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SAFETYRELATED_B10D {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

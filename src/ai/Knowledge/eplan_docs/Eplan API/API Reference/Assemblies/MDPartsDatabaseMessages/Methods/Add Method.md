@@ -8,21 +8,16 @@ Adds an item to the `MDPartsDatabaseMessages`.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Add( 
 
    MDPartsMessage msg
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void Add( 
@@ -30,8 +25,7 @@ virtual void Add(
    MDPartsMessage^ msg
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Name of interaction which will be override.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string NameOfBaseInteraction {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ NameOfBaseInteraction {
@@ -28,5 +23,4 @@ property String^ NameOfBaseInteraction {
    void set (    String^ value);
 
 }
-```
-```
+

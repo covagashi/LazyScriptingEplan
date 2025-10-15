@@ -8,17 +8,12 @@ Get the mode in which the user has opened the project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ProjectManager.OpenMode OpenMode {get;}
-```
-```
 
-```
-```
 public:
 
 property ProjectManager.OpenMode OpenMode {
@@ -26,5 +21,4 @@ property ProjectManager.OpenMode OpenMode {
    ProjectManager.OpenMode get();
 
 }
-```
-```
+

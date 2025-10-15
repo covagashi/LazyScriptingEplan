@@ -8,25 +8,13 @@ If a class implements this interface, a settings dialog can be assigned to the X
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IOptions
-```
-```
 
-```
-```
 public interface class IOptions
-```
-```
-
-
-
-
-
 
 Public Methods
 

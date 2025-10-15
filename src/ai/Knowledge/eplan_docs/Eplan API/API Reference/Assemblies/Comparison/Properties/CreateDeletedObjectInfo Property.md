@@ -8,17 +8,12 @@ Determines of markers was and will be created for deleted objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CreateDeletedObjectInfo {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool CreateDeletedObjectInfo {
@@ -28,5 +23,4 @@ property bool CreateDeletedObjectInfo {
    void set (    bool value);
 
 }
-```
-```
+

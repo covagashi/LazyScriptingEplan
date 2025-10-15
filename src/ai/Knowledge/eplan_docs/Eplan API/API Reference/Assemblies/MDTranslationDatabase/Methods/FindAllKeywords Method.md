@@ -8,11 +8,10 @@ Finds all keywords selected by the searched text in given language.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int FindAllKeywords( 
 
    string strTextToFind,
@@ -24,11 +23,7 @@ public int FindAllKeywords(
    ref List<string> lstComments
 
 )
-```
-```
 
-```
-```
 public:
 
 int FindAllKeywords( 
@@ -42,8 +37,7 @@ int FindAllKeywords(
    List<String^>^% lstComments
 
 )
-```
-```
+
 
 #### Parameters
 

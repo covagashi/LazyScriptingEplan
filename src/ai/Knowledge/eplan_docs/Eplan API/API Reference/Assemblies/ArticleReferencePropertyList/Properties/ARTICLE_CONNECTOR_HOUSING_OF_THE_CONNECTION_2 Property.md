@@ -8,17 +8,12 @@ Plug-in connector housing (connection 2) # 26581.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CONNECTOR_HOUSING_OF_THE_CONNECTION_2 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CONNECTOR_HOUSING_OF_THE_CONNECTION_2 {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CONNECTOR_HOUSING_OF_THE_CONNECTION_2 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

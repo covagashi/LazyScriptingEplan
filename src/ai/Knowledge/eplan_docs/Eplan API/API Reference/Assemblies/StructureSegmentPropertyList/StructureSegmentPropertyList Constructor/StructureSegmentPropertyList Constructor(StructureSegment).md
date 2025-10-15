@@ -8,21 +8,16 @@ Default constructor.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StructureSegmentPropertyList( 
 
    StructureSegment pSegment
 
 )
-```
-```
 
-```
-```
 public:
 
 StructureSegmentPropertyList( 
@@ -30,8 +25,7 @@ StructureSegmentPropertyList(
    StructureSegment^ pSegment
 
 )
-```
-```
+
 
 #### Parameters
 

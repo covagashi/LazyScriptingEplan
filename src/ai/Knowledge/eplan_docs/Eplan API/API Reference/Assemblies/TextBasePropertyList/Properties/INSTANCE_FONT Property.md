@@ -8,17 +8,12 @@ Font # 19015.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTANCE_FONT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTANCE_FONT {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTANCE_FONT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

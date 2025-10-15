@@ -8,11 +8,10 @@ The actual stepping of the progress. The function is called for every level the 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void SetProgressStep( 
 
    int nLevel,
@@ -20,11 +19,7 @@ void SetProgressStep(
    int nSpent
 
 )
-```
-```
 
-```
-```
 void SetProgressStep( 
 
    int nLevel,
@@ -32,8 +27,7 @@ void SetProgressStep(
    int nSpent
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlaceHolder.Variable Item( 
 
    int index
 
 ) {get;}
-```
-```
 
-```
-```
 public:
 
 property PlaceHolder.Variable^ Item {
@@ -28,8 +23,7 @@ property PlaceHolder.Variable^ Item {
    PlaceHolder.Variable^ get(int index);
 
 }
-```
-```
+
 
 #### Parameters
 

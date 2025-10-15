@@ -8,11 +8,10 @@ Returns all functions of the project with the same name. Can be called within th
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void GetAllFunctionsWithSameName( 
 
    Function oFunction,
@@ -20,11 +19,7 @@ public void GetAllFunctionsWithSameName(
    ref ArrayList colFunctions
 
 )
-```
-```
 
-```
-```
 public:
 
 void GetAllFunctionsWithSameName( 
@@ -34,8 +29,7 @@ void GetAllFunctionsWithSameName(
    ArrayList^% colFunctions
 
 )
-```
-```
+
 
 #### Parameters
 

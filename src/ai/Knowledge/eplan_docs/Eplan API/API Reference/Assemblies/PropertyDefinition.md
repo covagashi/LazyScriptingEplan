@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PropertyDefinition
-```
-```
 
-```
-```
 public ref class PropertyDefinition
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [PropertyDefinition Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition~_ctor(AnyPropertyId).html) | Constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

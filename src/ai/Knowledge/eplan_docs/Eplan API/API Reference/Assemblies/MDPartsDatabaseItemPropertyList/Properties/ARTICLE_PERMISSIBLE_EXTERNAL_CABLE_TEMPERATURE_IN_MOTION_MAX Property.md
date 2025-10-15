@@ -8,17 +8,12 @@ Permissible cable outer temperature (when moving), max. # 26178.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PERMISSIBLE_EXTERNAL_CABLE_TEMPERATURE_IN_MOTION_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PERMISSIBLE_EXTERNAL_CABLE_TEMPERATURE_IN_MOTION_MAX {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PERMISSIBLE_EXTERNAL_CABLE_TEMPERATURE_IN_MOTI
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

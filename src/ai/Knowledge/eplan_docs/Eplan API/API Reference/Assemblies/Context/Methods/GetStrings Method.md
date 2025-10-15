@@ -8,22 +8,16 @@ Gets the array filled with strings from the context. (Additional to the paramete
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual string[] GetStrings()
-```
-```
 
-```
-```
 public:
 
 virtual array<String^>^ GetStrings();
-```
-```
+
 
 #### Return Value
 

@@ -8,19 +8,13 @@ Returns those page document types, for which a connection placed on this page sh
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static DocumentTypeManager.DocumentType[] GetFctDocTypesToMergeConnection()
-```
-```
 
-```
-```
 public:
 
 static array<DocumentTypeManager.DocumentType>^ GetFctDocTypesToMergeConnection();
-```
-```
+

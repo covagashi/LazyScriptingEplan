@@ -8,17 +8,12 @@ Gets a property's minimal value specified in the property's definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override MDPropertyValue LowerBound {get;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ LowerBound {
@@ -26,8 +21,7 @@ property MDPropertyValue^ LowerBound {
    MDPropertyValue^ get() override;
 
 }
-```
-```
+
 
 #### Property Value
 

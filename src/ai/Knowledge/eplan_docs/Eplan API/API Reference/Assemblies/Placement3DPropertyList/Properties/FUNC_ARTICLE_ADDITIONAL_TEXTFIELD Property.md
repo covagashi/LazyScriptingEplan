@@ -8,21 +8,16 @@ Suppl. field: Text # 20915.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_ADDITIONAL_TEXTFIELD( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_ADDITIONAL_TEXTFIELD {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_ADDITIONAL_TEXTFIELD {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

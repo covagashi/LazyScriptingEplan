@@ -8,17 +8,12 @@ Plugs: Total number of pins # 35209.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PLUGSTRIP_COUNTOFINTERNALOBJECTS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PLUGSTRIP_COUNTOFINTERNALOBJECTS {
@@ -28,8 +23,7 @@ property PropertyValue^ PLUGSTRIP_COUNTOFINTERNALOBJECTS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

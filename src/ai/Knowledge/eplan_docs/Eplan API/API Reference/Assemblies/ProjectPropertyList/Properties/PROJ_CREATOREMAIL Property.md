@@ -8,17 +8,12 @@ Creator: E-mail # 10242.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_CREATOREMAIL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_CREATOREMAIL {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_CREATOREMAIL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

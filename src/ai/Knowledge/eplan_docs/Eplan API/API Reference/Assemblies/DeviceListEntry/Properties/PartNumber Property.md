@@ -8,17 +8,12 @@ Gets or sets the device list entry's part number.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual string PartNumber {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property String^ PartNumber {
@@ -28,5 +23,4 @@ virtual property String^ PartNumber {
    void set (    String^ value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Gets/Sets if the filtered function should be placed (i.e. should be located on a
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsPlaced {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsPlaced {
@@ -28,5 +23,4 @@ property bool IsPlaced {
    void set (    bool value);
 
 }
-```
-```
+

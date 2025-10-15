@@ -8,17 +8,12 @@ Functional assignment: Main identifier (automatic) # 31106.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_FUNCTIONALASSIGNMENT_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_FUNCTIONALASSIGNMENT_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_FUNCTIONALASSIGNMENT_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

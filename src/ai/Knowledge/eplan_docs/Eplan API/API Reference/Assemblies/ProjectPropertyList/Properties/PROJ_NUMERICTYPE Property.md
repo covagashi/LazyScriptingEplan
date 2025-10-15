@@ -8,17 +8,12 @@ Type of project # 10902.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_NUMERICTYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_NUMERICTYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_NUMERICTYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

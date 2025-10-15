@@ -8,21 +8,16 @@ Throughput # 26270.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_THROUGHPUT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_THROUGHPUT {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_THROUGHPUT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 
@@ -47,4 +41,4 @@ Remarks
 
 Property is indexed. Possible indexes are from 1 to 50.
 
-Quantity that is processed or transferred within a specified time period through a predefined limit. Kvs value of the valve in cubic meters per hour (mÂ³/h).
+Quantity that is processed or transferred within a specified time period through a predefined limit. Kvs value of the valve in cubic meters per hour (m³/h).

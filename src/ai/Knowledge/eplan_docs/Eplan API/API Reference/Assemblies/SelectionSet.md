@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class SelectionSet
-```
-```
 
-```
-```
 public ref class SelectionSet
-```
-```
+
 
 Remarks
 
@@ -36,7 +30,7 @@ Example
 
 The following example shows how to use class SelectionSet.
 
-- [C#](#i-tab-content-37680328-98af-4f05-b9e6-50a0224a1531)
+**C#**
 
 ```
 SelectionSet selectionSet = new SelectionSet();
@@ -69,11 +63,9 @@ else
 
 }
 
-
-
 ```
 
-- [C#](#i-tab-content-d5cb77b5-c242-40d8-8cd8-543936077e30)
+**C#**
 
 ```
 SelectionSet selectionSet = new SelectionSet();
@@ -86,8 +78,6 @@ Project oProject = selectionSet.GetCurrentProject(false);
 
 oProject.ProjectName = "new_name";
 
-
-
 ```
 
 Public Constructors
@@ -97,8 +87,6 @@ Public Constructors
 | Public Constructor | [SelectionSet Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.SelectionSet~_ctor.html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

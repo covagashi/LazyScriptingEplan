@@ -8,17 +8,12 @@ It defines the Cable Property FunctionDefintion
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string FunctionDefintion {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ FunctionDefintion {
@@ -28,5 +23,4 @@ property String^ FunctionDefintion {
    void set (    String^ value);
 
 }
-```
-```
+

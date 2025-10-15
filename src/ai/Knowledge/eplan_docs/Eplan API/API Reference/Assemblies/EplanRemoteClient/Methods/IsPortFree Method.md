@@ -8,21 +8,16 @@ Checks if the port is free.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static bool IsPortFree( 
 
    int nPort
 
 )
-```
-```
 
-```
-```
 public:
 
 static bool IsPortFree( 
@@ -30,8 +25,7 @@ static bool IsPortFree(
    int nPort
 
 )
-```
-```
+
 
 #### Parameters
 

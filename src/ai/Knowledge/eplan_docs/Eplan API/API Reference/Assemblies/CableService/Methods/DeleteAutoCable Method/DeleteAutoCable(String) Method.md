@@ -8,21 +8,16 @@ removes automatically created cables and connection definition points. Automatic
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DeleteAutoCable( 
 
    string strFullLinkFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 void DeleteAutoCable( 
@@ -30,8 +25,7 @@ void DeleteAutoCable(
    String^ strFullLinkFileName
 
 )
-```
-```
+
 
 #### Parameters
 

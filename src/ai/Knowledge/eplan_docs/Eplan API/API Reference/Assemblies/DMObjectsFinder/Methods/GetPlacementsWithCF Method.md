@@ -8,21 +8,16 @@ Returns all objects of classes Placement and inherited from Placement, except [P
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement[] GetPlacementsWithCF( 
 
    ICustomFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Placement^>^ GetPlacementsWithCF( 
@@ -30,8 +25,7 @@ array<Placement^>^ GetPlacementsWithCF(
    ICustomFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

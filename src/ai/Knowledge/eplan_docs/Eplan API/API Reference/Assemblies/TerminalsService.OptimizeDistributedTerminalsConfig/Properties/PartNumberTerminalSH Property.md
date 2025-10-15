@@ -8,17 +8,12 @@ Part number that the distributed main terminal with 'SH' potential will get. If 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PartNumberTerminalSH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PartNumberTerminalSH {
@@ -28,5 +23,4 @@ property String^ PartNumberTerminalSH {
    void set (    String^ value);
 
 }
-```
-```
+

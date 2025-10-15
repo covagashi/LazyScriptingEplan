@@ -8,19 +8,13 @@ All recorded changed (if any) will be undone without redo.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Rollback()
-```
-```
 
-```
-```
 public:
 
 void Rollback();
-```
-```
+

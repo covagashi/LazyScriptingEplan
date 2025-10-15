@@ -8,17 +8,12 @@ Terminal / Pin designation # 20030.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNC_PINORTERMINALNUMBER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNC_PINORTERMINALNUMBER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNC_PINORTERMINALNUMBER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

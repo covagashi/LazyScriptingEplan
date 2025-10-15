@@ -8,17 +8,12 @@ Cut-out: Outline # 36025.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_OPENING_CONTOUR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_OPENING_CONTOUR {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_OPENING_CONTOUR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

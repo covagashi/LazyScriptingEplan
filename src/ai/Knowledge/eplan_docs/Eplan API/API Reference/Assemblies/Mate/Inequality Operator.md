@@ -8,11 +8,10 @@ Operator of comparison implementation. Checks if two mates have different name o
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool operator !=( 
 
    Mate left,
@@ -20,11 +19,7 @@ public bool operator !=(
    Mate right
 
 )
-```
-```
 
-```
-```
 public:
 
 bool operator !=( 
@@ -34,8 +29,7 @@ bool operator !=(
    Mate^ right
 
 )
-```
-```
+
 
 #### Parameters
 

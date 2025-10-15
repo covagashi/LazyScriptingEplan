@@ -8,17 +8,12 @@ Project description # 10011.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_INSTALLATIONNAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_INSTALLATIONNAME {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_INSTALLATIONNAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

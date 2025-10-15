@@ -8,21 +8,16 @@ Assigns given configurable properties scheme to the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AssignConfigurablePropertiesScheme( 
 
    string strSchemeName
 
 )
-```
-```
 
-```
-```
 public:
 
 void AssignConfigurablePropertiesScheme( 
@@ -30,8 +25,7 @@ void AssignConfigurablePropertiesScheme(
    String^ strSchemeName
 
 )
-```
-```
+
 
 #### Parameters
 

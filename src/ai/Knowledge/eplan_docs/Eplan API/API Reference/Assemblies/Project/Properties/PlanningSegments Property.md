@@ -8,17 +8,12 @@ Returns array of all [Eplan.EplApi.DataModel.Planning.PlanningSegment](Eplan.Epl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningSegment[] PlanningSegments {get;}
-```
-```
 
-```
-```
 public:
 
 property array<PlanningSegment^>^ PlanningSegments {
@@ -26,5 +21,4 @@ property array<PlanningSegment^>^ PlanningSegments {
    array<PlanningSegment^>^ get();
 
 }
-```
-```
+

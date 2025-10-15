@@ -8,17 +8,12 @@ Feedback signal available # 26062.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_POSITION_FEEDBACK_SIGNAL_ACTUATOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_POSITION_FEEDBACK_SIGNAL_ACTUATOR {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_POSITION_FEEDBACK_SIGNAL_ACTUATOR {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Inverse column numbering # 12035.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_PATH_REVERSE_NUMBERING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_PATH_REVERSE_NUMBERING {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_PATH_REVERSE_NUMBERING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Is 64 Bit Eplan process?
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Is64Bit {get;}
-```
-```
 
-```
-```
 public:
 
 property bool Is64Bit {
@@ -26,5 +21,4 @@ property bool Is64Bit {
    bool get();
 
 }
-```
-```
+

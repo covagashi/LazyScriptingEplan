@@ -8,17 +8,12 @@ Power supply # 22052.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PLCISPOWERSUPPLY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PLCISPOWERSUPPLY {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PLCISPOWERSUPPLY {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

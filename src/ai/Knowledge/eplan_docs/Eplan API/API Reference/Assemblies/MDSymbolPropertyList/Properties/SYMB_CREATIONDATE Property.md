@@ -8,17 +8,12 @@ Creation date # 16021.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMB_CREATIONDATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMB_CREATIONDATE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMB_CREATIONDATE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

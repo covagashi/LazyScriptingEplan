@@ -8,17 +8,12 @@ DNS/PROFINET device name # 20309.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLC_DNS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLC_DNS {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLC_DNS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Communication unit (at communication units) # 20106.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCCOMMUNICATIONENTITY_NAME( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCCOMMUNICATIONENTITY_NAME {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_PLCCOMMUNICATIONENTITY_NAME {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

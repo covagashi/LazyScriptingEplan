@@ -8,21 +8,16 @@ Creates a new PlaceHolder3D object on the specified InstallationSpace.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    InstallationSpace pInstallationSpace
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -30,8 +25,7 @@ void Create(
    InstallationSpace^ pInstallationSpace
 
 )
-```
-```
+
 
 #### Parameters
 

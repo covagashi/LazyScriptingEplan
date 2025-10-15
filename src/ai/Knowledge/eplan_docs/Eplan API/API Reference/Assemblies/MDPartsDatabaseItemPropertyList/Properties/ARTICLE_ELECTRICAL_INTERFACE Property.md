@@ -8,17 +8,12 @@ Electrical interface # 26036.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_ELECTRICAL_INTERFACE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_ELECTRICAL_INTERFACE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_ELECTRICAL_INTERFACE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

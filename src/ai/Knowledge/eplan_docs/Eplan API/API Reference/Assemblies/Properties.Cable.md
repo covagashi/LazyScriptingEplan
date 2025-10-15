@@ -8,20 +8,14 @@ Identificators of properties owned by Cable class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.Cable : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.Cable : public System.Enum
-```
-```
+
 
 Members
 

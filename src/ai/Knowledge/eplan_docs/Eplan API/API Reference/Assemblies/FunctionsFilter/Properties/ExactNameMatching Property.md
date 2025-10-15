@@ -8,17 +8,12 @@ Gets/Sets if the filtered function, when is filtered by name, should be matched 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExactNameMatching {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool ExactNameMatching {
@@ -28,27 +23,22 @@ property bool ExactNameMatching {
    void set (    bool value);
 
 }
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-ebbf3ae3-519c-4d4c-b304-0737b0b426d3)
+**C#**
 
 ```
 Project proj;//a valid project
 
 Page p;//a valid page object
 
-
-
 p.Filter.ExactNameMatching = true;
 
 p.Filter.Name = "AP+ST-X";
 
 Function[] functions = p.Functions; //now we have all functions named exactly "AP+ST-X"
-
-
 
 p.Filter.ExactNameMatching = false;
 

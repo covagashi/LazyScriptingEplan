@@ -8,11 +8,10 @@ Searches on the specified page for a search string. The search settings will inf
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Page( 
 
    Page pPage,
@@ -22,11 +21,7 @@ public void Page(
    string strFilterScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 void Page( 
@@ -38,8 +33,7 @@ void Page(
    String^ strFilterScheme
 
 )
-```
-```
+
 
 #### Parameters
 

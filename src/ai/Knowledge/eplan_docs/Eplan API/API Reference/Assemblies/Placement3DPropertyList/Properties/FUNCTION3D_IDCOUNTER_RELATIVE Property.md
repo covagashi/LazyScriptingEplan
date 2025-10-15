@@ -8,17 +8,12 @@ Counter in item ID (relative to macro, EEC) # 36034.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_IDCOUNTER_RELATIVE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_IDCOUNTER_RELATIVE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_IDCOUNTER_RELATIVE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

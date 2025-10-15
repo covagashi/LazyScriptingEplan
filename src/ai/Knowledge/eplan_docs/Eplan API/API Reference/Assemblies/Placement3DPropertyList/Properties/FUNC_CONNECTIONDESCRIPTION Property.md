@@ -8,21 +8,16 @@ Function: Connection point description # 20023.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CONNECTIONDESCRIPTION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CONNECTIONDESCRIPTION {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_CONNECTIONDESCRIPTION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

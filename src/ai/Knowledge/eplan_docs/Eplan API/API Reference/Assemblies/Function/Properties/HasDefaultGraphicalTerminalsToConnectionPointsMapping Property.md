@@ -8,17 +8,12 @@ Determines if connection points to graphical terminals mapping is the default ma
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool HasDefaultGraphicalTerminalsToConnectionPointsMapping {get;}
-```
-```
 
-```
-```
 public:
 
 property bool HasDefaultGraphicalTerminalsToConnectionPointsMapping {
@@ -26,8 +21,7 @@ property bool HasDefaultGraphicalTerminalsToConnectionPointsMapping {
    bool get();
 
 }
-```
-```
+
 
 Exceptions
 

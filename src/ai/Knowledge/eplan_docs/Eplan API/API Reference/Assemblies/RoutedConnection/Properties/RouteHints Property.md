@@ -8,17 +8,12 @@ Array of [Segment](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Topology.Segme
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Segment[] RouteHints {get; set;}
-```
-```
 
-```
-```
 public:
 
 property array<Segment^>^ RouteHints {
@@ -28,8 +23,7 @@ property array<Segment^>^ RouteHints {
    void set (    array<Segment^>^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

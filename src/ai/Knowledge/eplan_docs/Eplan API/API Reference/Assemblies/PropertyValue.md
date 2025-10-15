@@ -13,42 +13,36 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Item")]
 
 public sealed class PropertyValue
-```
-```
 
-```
-```
 [DefaultMember("Item")]
 
 public ref class PropertyValue sealed
-```
-```
+
 
 Remarks
 
 Its object can be created and assigned to the following types:
 
-â¢ int
+'¢ int
 
-â¢ string
+'¢ string
 
-â¢ double
+'¢ double
 
-â¢ bool
+'¢ bool
 
-â¢ DateTime
+'¢ DateTime
 
-â¢ [Eplan.EplApi.Base.MultiLangString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString.html)
+'¢ [Eplan.EplApi.Base.MultiLangString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString.html)
 
-â¢ [Eplan.EplApi.Base.PointD](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD.html)
+'¢ [Eplan.EplApi.Base.PointD](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD.html)
 
 By definition of several conversion operators from and to other types, it simplifies access to P8 properties stored inside all kinds of PropertyList classes. The user does not have to use this class explicitly, it allows to simply assign a P8 property value to a user defined variable (See example below).
 
@@ -56,53 +50,43 @@ The PropertyValue object can appear in 3 different states. Please take a look at
 
 Example
 
-1st state: Transient â created by the user
+1st state: Transient ' created by the user
 
-- [C#](#i-tab-content-fd6f7c10-6bc6-4a00-ba08-856cc88aa1a9)
+**C#**
 
 ```
 // This will create a new transient property and assign it to the variable oTransientProperty. 
 
 // If you wish to change the value of the property, use the method Eplan::EplApi::DataModel::PropertyValue::Set.
 
-
-
 PropertyValue oTransientProperty = oFunction.Properties[Properties.Function.FUNC_COMMENT];
 
 oTransientProperty = oTransientProperty + " additional comment";
 ```
 
-Again 1st state: Transient â created by the user
+Again 1st state: Transient ' created by the user
 
-- [C#](#i-tab-content-f2d5d655-3f6d-4967-842a-ff33ec8c6257)
+**C#**
 
 ```
 // This object is not connected with any property list or StorableObject. That is why this type of property is called "transient" (or "offline").
-
-
 
 PropertyValue oTransientProperty = new PropertyValue();
 
 oTransientProperty.Set("Setting a value to a transient property.");
 
-
-
 ```
 
-2nd state: Persistent â collected from property list
+2nd state: Persistent ' collected from property list
 
-- [C#](#i-tab-content-26f8b54b-103e-4f2c-9a63-e703f5810498)
+**C#**
 
 ```
 // The object stays connected to the property list and is therefore called a "persistent" (or "online") property.
 
 // In this case, the usage of Eplan::EplApi::DataModel::PropertyValue::Set updates the values in the original locations.
 
-
-
 FunctionPropertyList oFunctionPropertyList = new FunctionPropertyList();
-
-
 
 PropertyValue oPersistentProperty2 = oFunctionPropertyList["EPLAN.Project.UserSupplementaryField1"];
 
@@ -110,89 +94,63 @@ PropertyValue oPersistentProperty2 = oFunctionPropertyList["EPLAN.Project.UserSu
 
 // oPersistentProperty2 contains an empty string
 
-
-
 oFunctionPropertyList["EPLAN.Project.UserSupplementaryField1"] = "Test_1";
 
 // oPersistentProperty2 also contains the value "Test_1"
-
-
 
 oPersistentProperty2.Set("Test_2");
 
 // oFunctionPropertyList["EPLAN.Project.UserSupplementaryField1"] also contains the value "Test_2"
 
-
-
 ```
 
-3rd state: Persistent â collected from any data model object
+3rd state: Persistent ' collected from any data model object
 
-- [C#](#i-tab-content-083ded2d-fa58-4ebd-af9b-83ace18b30c2)
+**C#**
 
 ```
 // The object stays connected to the data model object and is therefore called a "persistent" (or "online") property.
 
 // In this case, the usage of Eplan::EplApi::DataModel::PropertyValue::Set updates the values in the original locations.
 
-
-
 PropertyValue oPersistentProperty = m_oTestProject.Properties["EPLAN.Project.UserSupplementaryField1"];
 
 // m_oTestProject.Properties.PROJ_CUSTOM_SUPPLEMENTARYFIELD01 contains an empty string
-
-
 
 m_oTestProject.Properties["EPLAN.Project.UserSupplementaryField1"] = "Test1";
 
 // Now oPersistentProperty also has the value "Test1"
 
-
-
 oPersistentProperty.Set("Test2");
 
 // Now m_oTestProject.Properties.PROJ_CUSTOM_SUPPLEMENTARYFIELD01 also has the value "Test2"
-
-
 
 ```
 
 Assigning and retrieving the property value
 
-- [C#](#i-tab-content-0f209993-664a-474f-b5d2-a540f965428b)
+**C#**
 
 ```
 
 
 Article article = myProject.Articles[0]; // A valid Article object
 
-
-
 // Below here the PropertyValue is implicitly created from int '2' and assigned to the property list.
 
 article.Properties[Properties.Article.ARTICLE_HEIGHT] = 2; 
-
-
 
 // Below here the PropertyValue is implicitly created from string "5" and assigned to the property list.
 
 article.Properties[Properties.Article.ARTICLE_HEIGHT] = "5";
 
-
-
 // Below here the PropertyValue is read form the property list and implicitly converted to string.
 
 string s = article.Properties[Properties.Article.ARTICLE_HEIGHT]; 
 
-
-
 // Below here the PropertyValue is read form the property list and implicitly converted to int.
 
 int i = article.Properties[Properties.Article.ARTICLE_HEIGHT]; 
-
-
-
-
 
 ```
 
@@ -203,8 +161,6 @@ Public Constructors
 | Public Constructor | [PropertyValue Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyValue~_ctor().html) | Default constructor. Creates the PropertyValue object. |
 
 [Top](#top)
-
-
 
 Public Properties
 
@@ -239,8 +195,6 @@ Public Methods
 | Public Method | [ToTime](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyValue~ToTime.html) | Used in conversion of the PropertyValue object to `time`. |
 
 [Top](#top)
-
-
 
 Public Operators
 

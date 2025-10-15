@@ -8,17 +8,12 @@ Protected group: Part number # 36700.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPROTECTEDGROUP_PARTNR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPROTECTEDGROUP_PARTNR {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPROTECTEDGROUP_PARTNR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

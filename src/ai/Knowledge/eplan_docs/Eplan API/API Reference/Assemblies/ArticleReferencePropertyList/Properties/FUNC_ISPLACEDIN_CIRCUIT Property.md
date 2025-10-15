@@ -8,17 +8,12 @@ Function exists with 'Multi-line' representation type # 20470.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ISPLACEDIN_CIRCUIT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ISPLACEDIN_CIRCUIT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ISPLACEDIN_CIRCUIT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

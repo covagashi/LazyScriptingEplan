@@ -8,17 +8,12 @@ Page orientation / paper format # 12016.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_PAGE_ORIENTATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_PAGE_ORIENTATION {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_PAGE_ORIENTATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

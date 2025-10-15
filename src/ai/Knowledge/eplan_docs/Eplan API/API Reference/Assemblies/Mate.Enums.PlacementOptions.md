@@ -8,24 +8,18 @@ Additional placement options
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [Flags()]
 
 public enum Mate.Enums.PlacementOptions : System.Enum
-```
-```
 
-```
-```
 [Flags()]
 
 public enum class Mate.Enums.PlacementOptions : public System.Enum
-```
-```
+
 
 Members
 

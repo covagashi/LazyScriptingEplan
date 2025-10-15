@@ -8,17 +8,12 @@ PLC subdevice 7: Safety address: Upper value # 20652.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCSAFETYUPPERBOUNDADDRESS_7 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCSAFETYUPPERBOUNDADDRESS_7 {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCSAFETYUPPERBOUNDADDRESS_7 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

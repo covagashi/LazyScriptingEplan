@@ -8,17 +8,12 @@ Graphical macro (without macro directory name) # 22018.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_MACRONAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_MACRONAME {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_MACRONAME {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

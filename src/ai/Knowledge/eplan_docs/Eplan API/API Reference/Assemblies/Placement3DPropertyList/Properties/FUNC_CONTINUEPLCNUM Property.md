@@ -8,17 +8,12 @@ Continue numbering with PLC data beyond this function # 20813.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CONTINUEPLCNUM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CONTINUEPLCNUM {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CONTINUEPLCNUM {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Documents: Designation # 44069.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_DOCUMENTS_DESIGNATION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_DOCUMENTS_DESIGNATION {
@@ -32,8 +27,7 @@ property PropertyValue^ DMPLAOBJECT_DOCUMENTS_DESIGNATION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

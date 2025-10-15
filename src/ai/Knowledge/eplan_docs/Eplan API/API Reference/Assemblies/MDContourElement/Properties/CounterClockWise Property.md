@@ -8,17 +8,12 @@ Determine direction of drilling this element.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CounterClockWise {get;}
-```
-```
 
-```
-```
 public:
 
 property bool CounterClockWise {
@@ -26,5 +21,4 @@ property bool CounterClockWise {
    bool get();
 
 }
-```
-```
+

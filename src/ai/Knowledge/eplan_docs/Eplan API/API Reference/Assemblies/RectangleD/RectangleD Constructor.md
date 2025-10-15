@@ -8,11 +8,10 @@ Constructor which spans rectangle on two points.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RectangleD( 
 
    PointD pt1,
@@ -20,11 +19,7 @@ public RectangleD(
    PointD pt2
 
 )
-```
-```
 
-```
-```
 public:
 
 RectangleD( 
@@ -34,8 +29,7 @@ RectangleD(
    PointD pt2
 
 )
-```
-```
+
 
 #### Parameters
 

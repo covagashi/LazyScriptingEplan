@@ -8,11 +8,10 @@ Sets the value of a setting. If a setting is made and an index is specified that
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void SetMultiLangStringSetting( 
 
    string strSettingPath,
@@ -22,11 +21,7 @@ public virtual void SetMultiLangStringSetting(
    int idx
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void SetMultiLangStringSetting( 
@@ -38,8 +33,7 @@ virtual void SetMultiLangStringSetting(
    int idx
 
 )
-```
-```
+
 
 #### Parameters
 

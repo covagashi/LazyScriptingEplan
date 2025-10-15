@@ -8,17 +8,12 @@ Safety-related values: Lambda-D # 40334.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SAFETYRELATED_LAMBDAD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SAFETYRELATED_LAMBDAD {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SAFETYRELATED_LAMBDAD {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

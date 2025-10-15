@@ -8,17 +8,12 @@ Block property: Format # 19620.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue QRCODE_BLOCK_FORMAT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ QRCODE_BLOCK_FORMAT {
@@ -28,8 +23,7 @@ property PropertyValue^ QRCODE_BLOCK_FORMAT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

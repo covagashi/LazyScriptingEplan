@@ -8,21 +8,16 @@ Returns the values of all variables in the nIndex-th PlaceHolder of a Macro vari
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual StringCollection GetValues( 
 
    string strRecordName
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual StringCollection^ GetValues( 
@@ -30,8 +25,7 @@ virtual StringCollection^ GetValues(
    String^ strRecordName
 
 )
-```
-```
+
 
 #### Parameters
 

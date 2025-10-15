@@ -8,17 +8,12 @@ Mass flow # 26442.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_MASS_FLOW {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_MASS_FLOW {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_MASS_FLOW {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

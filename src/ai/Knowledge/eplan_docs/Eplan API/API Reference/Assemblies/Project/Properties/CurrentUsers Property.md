@@ -8,17 +8,12 @@ Returns the current users working at this project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public UserInfo[] CurrentUsers {get;}
-```
-```
 
-```
-```
 public:
 
 property array<UserInfo^>^ CurrentUsers {
@@ -26,8 +21,7 @@ property array<UserInfo^>^ CurrentUsers {
    array<UserInfo^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

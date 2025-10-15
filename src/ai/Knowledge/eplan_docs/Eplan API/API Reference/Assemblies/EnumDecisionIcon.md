@@ -8,20 +8,14 @@ Used by the [Decider](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Decider.html), to det
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum EnumDecisionIcon : System.Enum
-```
-```
 
-```
-```
 public enum class EnumDecisionIcon : public System.Enum
-```
-```
+
 
 Members
 

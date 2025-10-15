@@ -8,21 +8,16 @@ Creates new DaisyChain object
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DaisyChain AddDaisyChain( 
 
    NetDefinitionPoint.NetConnectionPoint[] netConnectionPoints
 
 )
-```
-```
 
-```
-```
 public:
 
 DaisyChain^ AddDaisyChain( 
@@ -30,8 +25,7 @@ DaisyChain^ AddDaisyChain(
    array<NetDefinitionPoint.NetConnectionPoint^>^ netConnectionPoints
 
 )
-```
-```
+
 
 #### Parameters
 

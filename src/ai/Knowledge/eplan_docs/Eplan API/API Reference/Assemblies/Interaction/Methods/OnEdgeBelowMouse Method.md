@@ -8,11 +8,10 @@ Is called after edge was found below the mouse pointer.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnEdgeBelowMouse( 
 
    ref bool bFound,
@@ -26,11 +25,7 @@ public virtual RequestCode OnEdgeBelowMouse(
    int iDetailId
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnEdgeBelowMouse( 
@@ -46,8 +41,7 @@ virtual RequestCode OnEdgeBelowMouse(
    int iDetailId
 
 )
-```
-```
+
 
 #### Parameters
 

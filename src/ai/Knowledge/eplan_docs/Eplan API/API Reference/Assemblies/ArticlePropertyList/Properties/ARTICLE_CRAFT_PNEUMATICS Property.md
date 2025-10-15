@@ -8,17 +8,12 @@ Trade 'Pneumatics' # 22135.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CRAFT_PNEUMATICS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CRAFT_PNEUMATICS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CRAFT_PNEUMATICS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

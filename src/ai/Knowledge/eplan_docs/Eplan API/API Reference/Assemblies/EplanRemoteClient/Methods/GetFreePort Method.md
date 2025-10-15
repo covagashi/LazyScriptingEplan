@@ -8,21 +8,16 @@ Returns first free port which can act as a tunnel for remote server.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static bool GetFreePort( 
 
    ref int nPort
 
 )
-```
-```
 
-```
-```
 public:
 
 static bool GetFreePort( 
@@ -30,8 +25,7 @@ static bool GetFreePort(
    int% nPort
 
 )
-```
-```
+
 
 #### Parameters
 

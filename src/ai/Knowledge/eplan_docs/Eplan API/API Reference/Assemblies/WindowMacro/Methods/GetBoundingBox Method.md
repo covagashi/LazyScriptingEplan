@@ -8,22 +8,16 @@ Returns the bounding box of the macro. This is the size and position of the macr
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD[] GetBoundingBox()
-```
-```
 
-```
-```
 public:
 
 array<PointD>^ GetBoundingBox();
-```
-```
+
 
 #### Return Value
 

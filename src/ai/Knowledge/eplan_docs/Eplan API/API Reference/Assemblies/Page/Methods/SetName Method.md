@@ -8,21 +8,16 @@ Sets the name of the page. Name parts should be given in the PagePropertyList.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetName( 
 
    PagePropertyList pNameParts
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetName( 
@@ -30,8 +25,7 @@ void SetName(
    PagePropertyList^ pNameParts
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ Opens the page which contains a given function. The function is selected in the 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void OpenPageWithDeviceName( 
 
    string strFullLinkFileName,
@@ -20,11 +19,7 @@ public void OpenPageWithDeviceName(
    string strDeviceName
 
 )
-```
-```
 
-```
-```
 public:
 
 void OpenPageWithDeviceName( 
@@ -34,8 +29,7 @@ void OpenPageWithDeviceName(
    String^ strDeviceName
 
 )
-```
-```
+
 
 #### Parameters
 

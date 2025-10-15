@@ -16,28 +16,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Cabinet : Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class Cabinet : public Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
+
 
 Remarks
 
 The Cabinet itself doesn't have a visible 3D mesh, but is assembled from elements like [Component](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Component.html) etc.  
   
 Corresponding FunctionCategory for this class is CabMechCabinet.
-
-
 
 Public Constructors
 
@@ -46,8 +38,6 @@ Public Constructors
 | Public Constructor | [Cabinet Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Cabinet~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

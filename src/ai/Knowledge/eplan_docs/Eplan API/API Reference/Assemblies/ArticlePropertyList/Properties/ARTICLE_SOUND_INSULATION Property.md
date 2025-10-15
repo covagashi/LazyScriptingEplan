@@ -8,17 +8,12 @@ Sound insulation # 26543.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SOUND_INSULATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SOUND_INSULATION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SOUND_INSULATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

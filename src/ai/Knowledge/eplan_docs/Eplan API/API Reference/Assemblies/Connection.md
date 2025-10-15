@@ -16,20 +16,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Connection : StorableObject, IArticleUser, IWriteProtection
-```
-```
 
-```
-```
 public ref class Connection : public StorableObject, IArticleUser, IWriteProtection
-```
-```
+
 
 Remarks
 
@@ -39,7 +33,7 @@ Example
 
 The following example shows how to use class Connection.
 
-- [C#](#i-tab-content-0363a66c-5988-458d-b6e1-b98d99d37570)
+**C#**
 
 ```
 
@@ -74,13 +68,9 @@ foreach (Page oP in m_oTestProject.Pages)
 
 }
 
-
-
 Function oStartFunc = null;
 
 Function oEndFunc = null;
-
-
 
 foreach (Connection oC in oFunction.Connections)
 
@@ -90,17 +80,11 @@ foreach (Connection oC in oFunction.Connections)
 
     oEndFunc = ((Function)oC.EndSymbolReference);
 
-
-
     Console.Out.WriteLine("StartSymbolReference: " + oStartFunc.Name);
 
     Console.Out.WriteLine("EndSymbolReference: " + oEndFunc.Name);
 
 }
-
-
-
-
 
 ```
 
@@ -111,8 +95,6 @@ Public Constructors
 | Public Constructor | [Connection Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Connection~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

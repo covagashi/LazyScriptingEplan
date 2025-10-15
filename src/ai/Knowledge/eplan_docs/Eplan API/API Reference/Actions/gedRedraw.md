@@ -5,14 +5,15 @@
 ---
 
 ```
-Action class for GED redraw.
-```
+Action class for GED redraw.
 
-  
+```
 
 **Remarks**
 
 ```
-The action can be used only interactively
-When the graphics editor interface could not be created, an "ApplicationException" is thrown.
+The action can be used only interactively
+
+When the graphics editor interface could not be created, an "ApplicationException" is thrown.
+
 ```

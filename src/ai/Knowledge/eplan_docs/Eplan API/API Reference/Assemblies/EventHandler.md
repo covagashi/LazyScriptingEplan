@@ -13,30 +13,22 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]
 
 public class EventHandler
-```
-```
 
-```
-```
 [ComSourceInterfaces(Eplan.EplApi.ApplicationFramework.IEplanEvents)]
 
 public ref class EventHandler
-```
-```
+
 
 Remarks
 
 If you want to respond to Eplan events from a remoting client, you should use a local event handler object of the [EventHandlerWrapper](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerWrapper.html) type.
-
-
 
 Public Constructors
 
@@ -55,8 +47,6 @@ Public Fields
 | Public Field | [EplanNameEventResult](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler~EplanNameEventResult.html) | This event is raised whenever an event with the desired name occurs in Eplan. The original name of the event is also given. Additional a return value is supported. |
 
 [Top](#top)
-
-
 
 Public Methods
 

@@ -8,17 +8,12 @@ Project option section: Name # 23102.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue OPTIONFRAGMENT_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ OPTIONFRAGMENT_NAME {
@@ -28,8 +23,7 @@ property PropertyValue^ OPTIONFRAGMENT_NAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,20 +8,14 @@ Type of project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Project.ProjectType : System.Enum
-```
-```
 
-```
-```
 public enum class Project.ProjectType : public System.Enum
-```
-```
+
 
 Members
 

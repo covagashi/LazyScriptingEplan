@@ -8,11 +8,10 @@ Gets parameter value.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Get( 
 
    string strName,
@@ -20,11 +19,7 @@ public bool Get(
    out object oValue
 
 )
-```
-```
 
-```
-```
 public:
 
 bool Get( 
@@ -34,8 +29,7 @@ bool Get(
    [Out] Object^ oValue
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Switching jumper (external) # 20292.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TERMINAL_SWITCHABLE_JUMPER_EXTERN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TERMINAL_SWITCHABLE_JUMPER_EXTERN {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TERMINAL_SWITCHABLE_JUMPER_EXTERN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

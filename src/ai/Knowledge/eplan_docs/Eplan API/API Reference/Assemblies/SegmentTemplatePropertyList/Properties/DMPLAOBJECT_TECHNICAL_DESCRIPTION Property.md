@@ -8,21 +8,16 @@ User-defined property: Name # 44054.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_USERPROPERTY_NAME( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_USERPROPERTY_NAME {
@@ -32,8 +27,7 @@ property PropertyValue^ DMPLAOBJECT_USERPROPERTY_NAME {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

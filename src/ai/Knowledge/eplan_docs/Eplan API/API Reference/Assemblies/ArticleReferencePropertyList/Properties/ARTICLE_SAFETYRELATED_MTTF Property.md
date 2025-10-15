@@ -8,17 +8,12 @@ Safety-related values: MTTF # 40335.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SAFETYRELATED_MTTF {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SAFETYRELATED_MTTF {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SAFETYRELATED_MTTF {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

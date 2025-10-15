@@ -8,17 +8,12 @@ Gets or sets the fill pattern. Pattern types Bitmap, Eplan and System are not su
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override GraphicalPlacement.FillPatternType FillPattern {set;}
-```
-```
 
-```
-```
 public:
 
 property GraphicalPlacement.FillPatternType FillPattern {
@@ -26,8 +21,7 @@ property GraphicalPlacement.FillPatternType FillPattern {
    void set (    GraphicalPlacement.FillPatternType value) override;
 
 }
-```
-```
+
 
 Exceptions
 

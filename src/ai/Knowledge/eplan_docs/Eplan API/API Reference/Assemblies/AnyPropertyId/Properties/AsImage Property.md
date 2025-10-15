@@ -8,17 +8,12 @@ Gets property id value as [Properties.Image](Eplan.EplApi.DataModelu~Eplan.EplAp
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.Image AsImage {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.Image AsImage {
@@ -26,5 +21,4 @@ property Properties.Image AsImage {
    Properties.Image get();
 
 }
-```
-```
+

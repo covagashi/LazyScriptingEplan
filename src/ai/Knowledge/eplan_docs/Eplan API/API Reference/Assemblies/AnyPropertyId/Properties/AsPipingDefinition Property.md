@@ -8,17 +8,12 @@ Gets property id value as [Properties.PipingDefinition](Eplan.EplApi.DataModelu~
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.PipingDefinition AsPipingDefinition {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.PipingDefinition AsPipingDefinition {
@@ -26,5 +21,4 @@ property Properties.PipingDefinition AsPipingDefinition {
    Properties.PipingDefinition get();
 
 }
-```
-```
+

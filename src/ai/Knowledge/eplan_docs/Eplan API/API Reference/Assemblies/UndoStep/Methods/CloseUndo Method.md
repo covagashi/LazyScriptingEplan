@@ -8,19 +8,13 @@ Close Undo protocol. After call this method Undo action is not possible.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CloseUndo()
-```
-```
 
-```
-```
 public:
 
 void CloseUndo();
-```
-```
+

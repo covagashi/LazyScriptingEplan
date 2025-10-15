@@ -8,17 +8,12 @@ Throughput # 26269.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_THROUGHPUT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_THROUGHPUT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_THROUGHPUT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Quantity that is processed or transferred within a specified time period through a predefined limit. Kvs value of the valve in cubic meters per hour (mÂ³/h).
+Quantity that is processed or transferred within a specified time period through a predefined limit. Kvs value of the valve in cubic meters per hour (m³/h).

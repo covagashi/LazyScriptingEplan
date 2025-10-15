@@ -8,17 +8,12 @@ Part variant # 20488.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_VARIANT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_VARIANT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_VARIANT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Part does not require a 3D macro # 22392.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_DOES_NOT_NEED_3D_MACRO {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_DOES_NOT_NEED_3D_MACRO {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_DOES_NOT_NEED_3D_MACRO {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

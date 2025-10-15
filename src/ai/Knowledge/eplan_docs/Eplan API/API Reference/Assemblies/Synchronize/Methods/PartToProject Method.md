@@ -8,11 +8,10 @@ Synchronizes the specified parts inside the project with the parts in the parts 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void PartToProject( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public void PartToProject(
    ArrayList lParts
 
 )
-```
-```
 
-```
-```
 public:
 
 void PartToProject( 
@@ -34,8 +29,7 @@ void PartToProject(
    ArrayList^ lParts
 
 )
-```
-```
+
 
 #### Parameters
 

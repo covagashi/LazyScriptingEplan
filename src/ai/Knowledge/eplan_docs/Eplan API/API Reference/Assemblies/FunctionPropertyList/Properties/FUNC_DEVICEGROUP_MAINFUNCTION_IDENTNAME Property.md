@@ -8,17 +8,12 @@ DT (identifying) of device group main function # 20862.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DEVICEGROUP_MAINFUNCTION_IDENTNAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DEVICEGROUP_MAINFUNCTION_IDENTNAME {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DEVICEGROUP_MAINFUNCTION_IDENTNAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,25 +8,13 @@ Base interface declaration for event parameters
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IEventParameter
-```
-```
 
-```
-```
 public interface class IEventParameter
-```
-```
-
-
-
-
-
 
 Public Methods
 

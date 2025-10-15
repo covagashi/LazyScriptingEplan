@@ -8,17 +8,12 @@ Level in tree # 44026.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_TREELEVEL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_TREELEVEL {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_TREELEVEL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

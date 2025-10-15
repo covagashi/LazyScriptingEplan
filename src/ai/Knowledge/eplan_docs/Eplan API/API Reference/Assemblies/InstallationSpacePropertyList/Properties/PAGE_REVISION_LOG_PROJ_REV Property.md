@@ -8,21 +8,16 @@ Associated project revision (change tracking) # 11075.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_REVISION_LOG_PROJ_REV( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_REVISION_LOG_PROJ_REV {
@@ -32,8 +27,7 @@ property PropertyValue^ PAGE_REVISION_LOG_PROJ_REV {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

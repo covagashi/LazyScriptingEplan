@@ -8,17 +8,12 @@ Last editor: Sign-in name # 15022.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBLIB_LASTMODIFICATOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBLIB_LASTMODIFICATOR {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMBLIB_LASTMODIFICATOR {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

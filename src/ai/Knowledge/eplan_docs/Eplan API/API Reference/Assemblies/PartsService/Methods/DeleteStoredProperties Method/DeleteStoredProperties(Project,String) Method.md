@@ -8,11 +8,10 @@ Deletes stored properties from a project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DeleteStoredProperties( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public void DeleteStoredProperties(
    string strConfigScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 void DeleteStoredProperties( 
@@ -34,8 +29,7 @@ void DeleteStoredProperties(
    String^ strConfigScheme
 
 )
-```
-```
+
 
 #### Parameters
 

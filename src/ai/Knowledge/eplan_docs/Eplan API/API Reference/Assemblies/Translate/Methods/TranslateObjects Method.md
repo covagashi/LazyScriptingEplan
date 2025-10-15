@@ -8,21 +8,16 @@ Translates all texts of a StorableObject (also project or page).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool TranslateObjects( 
 
    StorableObject[] storableObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 bool TranslateObjects( 
@@ -30,8 +25,7 @@ bool TranslateObjects(
    array<StorableObject^>^ storableObjects
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Returns the article of this Module.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Article Article {get;}
-```
-```
 
-```
-```
 public:
 
 property Article^ Article {
@@ -26,8 +21,7 @@ property Article^ Article {
    Article^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

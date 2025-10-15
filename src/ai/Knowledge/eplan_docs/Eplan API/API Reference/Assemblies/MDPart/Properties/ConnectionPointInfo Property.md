@@ -8,17 +8,12 @@ Get the connection point info associated with this part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDConnectionPointInfo ConnectionPointInfo {get;}
-```
-```
 
-```
-```
 public:
 
 property MDConnectionPointInfo^ ConnectionPointInfo {
@@ -26,8 +21,7 @@ property MDConnectionPointInfo^ ConnectionPointInfo {
    MDConnectionPointInfo^ get();
 
 }
-```
-```
+
 
 Remarks
 

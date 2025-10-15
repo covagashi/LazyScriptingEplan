@@ -8,17 +8,12 @@ Windows login name of the person who originally created the PDF comment.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Author {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Author {
@@ -26,5 +21,4 @@ property String^ Author {
    String^ get();
 
 }
-```
-```
+

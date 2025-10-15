@@ -8,21 +8,16 @@ Deleted object (further): Type # 36606.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMDELETEDOBJECTINFO_OBJECTTYPE_HIST( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMDELETEDOBJECTINFO_OBJECTTYPE_HIST {
@@ -32,8 +27,7 @@ property PropertyValue^ DMDELETEDOBJECTINFO_OBJECTTYPE_HIST {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

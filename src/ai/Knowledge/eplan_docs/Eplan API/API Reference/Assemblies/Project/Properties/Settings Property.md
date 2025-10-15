@@ -8,17 +8,12 @@ Project settings
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ProjectSettings Settings {get;}
-```
-```
 
-```
-```
 public:
 
 property ProjectSettings^ Settings {
@@ -26,8 +21,7 @@ property ProjectSettings^ Settings {
    ProjectSettings^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

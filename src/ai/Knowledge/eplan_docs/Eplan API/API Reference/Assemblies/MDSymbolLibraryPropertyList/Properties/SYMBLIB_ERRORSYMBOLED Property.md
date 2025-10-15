@@ -8,21 +8,16 @@ Error (symbol editor) # 15201.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBLIB_ERRORSYMBOLED( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBLIB_ERRORSYMBOLED {
@@ -32,8 +27,7 @@ property MDPropertyValue^ SYMBLIB_ERRORSYMBOLED {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

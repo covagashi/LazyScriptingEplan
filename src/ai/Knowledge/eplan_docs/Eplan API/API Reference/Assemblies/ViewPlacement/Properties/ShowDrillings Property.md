@@ -8,17 +8,12 @@ If true, drillings of bended bus bars will displayed
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ShowDrillings {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool ShowDrillings {
@@ -28,8 +23,7 @@ property bool ShowDrillings {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

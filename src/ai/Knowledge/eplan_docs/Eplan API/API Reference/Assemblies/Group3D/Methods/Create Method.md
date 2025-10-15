@@ -8,21 +8,16 @@ Creates a new Group3D object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Placement3D[] placement3Ds
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -30,8 +25,7 @@ void Create(
    array<Placement3D^>^ placement3Ds
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,20 +8,14 @@ The sub type of the drilling. Depending on that sub type the other parameters wi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MDDrillingPosition.DrillingSubType : System.Enum
-```
-```
 
-```
-```
 public enum class MDDrillingPosition.DrillingSubType : public System.Enum
-```
-```
+
 
 Members
 

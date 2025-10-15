@@ -8,21 +8,16 @@ Determines the active project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Project GetCurrentProject( 
 
    bool bUseSelDlg
 
 )
-```
-```
 
-```
-```
 public:
 
 Project^ GetCurrentProject( 
@@ -30,8 +25,7 @@ Project^ GetCurrentProject(
    bool bUseSelDlg
 
 )
-```
-```
+
 
 #### Parameters
 

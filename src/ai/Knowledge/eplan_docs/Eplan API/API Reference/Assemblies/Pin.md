@@ -14,28 +14,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public sealed class Pin : PinBase
-```
-```
 
-```
-```
 public ref class Pin sealed : public PinBase
-```
-```
+
 
 Remarks
 
 \* Function's connection points are sometimes called 'logical' since they have some properties stored in the function's logic, as opposed to 'graphical' connection points of symbols which only carry graphical information (relative location, direction, etc). \* A logical connection point may be mapped to the underlying symbol's connection point and return graphical information (location, direction, etc) through properties of the base class or through the Pin::SymbolConnectionPoint property. \* Logical connection points may also be returned by a FunctionDefinition object. Such conn. points are not associated with any function so their ParentFunction property, as well as some other properties, are NULL.
-
-
-
-
 
 Public Properties
 
@@ -80,8 +70,6 @@ Public Methods
 | Public Method | [ToString](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin~ToString.html) | Returns a string that represents the current object. |
 
 [Top](#top)
-
-
 
 Public Operators
 

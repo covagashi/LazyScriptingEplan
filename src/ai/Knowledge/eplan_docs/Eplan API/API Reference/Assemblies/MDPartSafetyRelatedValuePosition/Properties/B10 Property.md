@@ -8,17 +8,12 @@ The B10 (average count of cycles until 10% of the devices are failed)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double B10 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double B10 {
@@ -28,5 +23,4 @@ property double B10 {
    void set (    double value);
 
 }
-```
-```
+

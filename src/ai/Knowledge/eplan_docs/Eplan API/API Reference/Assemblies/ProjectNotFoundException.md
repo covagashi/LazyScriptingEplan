@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ProjectNotFoundException : DataModelException
-```
-```
 
-```
-```
 public ref class ProjectNotFoundException : public DataModelException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [ProjectNotFoundException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectNotFoundException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

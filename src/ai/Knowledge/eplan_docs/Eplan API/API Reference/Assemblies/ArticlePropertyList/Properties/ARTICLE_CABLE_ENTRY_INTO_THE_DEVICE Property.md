@@ -8,17 +8,12 @@ Cable entry into device # 26395.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CABLE_ENTRY_INTO_THE_DEVICE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CABLE_ENTRY_INTO_THE_DEVICE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CABLE_ENTRY_INTO_THE_DEVICE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

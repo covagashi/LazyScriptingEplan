@@ -8,17 +8,12 @@ Door fold # 22160.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_DOOR_RABBET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_DOOR_RABBET {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_DOOR_RABBET {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

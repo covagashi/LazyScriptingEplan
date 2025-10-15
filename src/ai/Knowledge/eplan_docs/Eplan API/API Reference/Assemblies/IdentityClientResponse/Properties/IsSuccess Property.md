@@ -8,17 +8,12 @@ Indicates if IdentityStatusCode is success.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsSuccess {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsSuccess {
@@ -26,5 +21,4 @@ property bool IsSuccess {
    bool get();
 
 }
-```
-```
+

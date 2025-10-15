@@ -8,17 +8,12 @@ PLC type designation # 20416.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCTYPE_ID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCTYPE_ID {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCTYPE_ID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

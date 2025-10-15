@@ -8,17 +8,12 @@ Associated connections: Connection designation # 31028.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CDP_CON_DESIGNATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CDP_CON_DESIGNATION {
@@ -28,8 +23,7 @@ property PropertyValue^ CDP_CON_DESIGNATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Imports the file to the system EContext may point to an EProgress object to supp
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool ImportDirect( 
 
    string strInputFile,
@@ -20,11 +19,7 @@ bool ImportDirect(
    Context oContext
 
 )
-```
-```
 
-```
-```
 bool ImportDirect( 
 
    String^ strInputFile,
@@ -32,8 +27,7 @@ bool ImportDirect(
    Context^ oContext
 
 )
-```
-```
+
 
 #### Parameters
 

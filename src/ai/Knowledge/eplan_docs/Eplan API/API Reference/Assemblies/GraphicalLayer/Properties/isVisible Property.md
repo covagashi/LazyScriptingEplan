@@ -8,17 +8,12 @@ Specifies visibility of the layer
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool isVisible {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool isVisible {
@@ -28,5 +23,4 @@ property bool isVisible {
    void set (    bool value);
 
 }
-```
-```
+

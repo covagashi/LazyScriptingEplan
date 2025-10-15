@@ -8,17 +8,12 @@ Service ClientId name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ClientId {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ClientId {
@@ -28,5 +23,4 @@ property String^ ClientId {
    void set (    String^ value);
 
 }
-```
-```
+

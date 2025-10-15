@@ -8,19 +8,13 @@ Creates SafetyPoint object and starts recording changes.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static SafetyPoint Create()
-```
-```
 
-```
-```
 public:
 
 static SafetyPoint^ Create();
-```
-```
+

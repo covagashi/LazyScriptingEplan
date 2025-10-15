@@ -18,22 +18,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class SettingValueFailedException : DataModelException
-```
-```
 
-```
-```
 public ref class SettingValueFailedException : public DataModelException
-```
-```
-
-
 
 Public Constructors
 
@@ -42,8 +33,6 @@ Public Constructors
 | Public Constructor | [SettingValueFailedException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SettingValueFailedException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

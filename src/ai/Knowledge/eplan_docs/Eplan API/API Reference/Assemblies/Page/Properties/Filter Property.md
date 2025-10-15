@@ -8,17 +8,12 @@ Page's property that allows to access current page's filter. It affects properti
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FunctionsFilter Filter {get;}
-```
-```
 
-```
-```
 public:
 
 property FunctionsFilter^ Filter {
@@ -26,8 +21,7 @@ property FunctionsFilter^ Filter {
    FunctionsFilter^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

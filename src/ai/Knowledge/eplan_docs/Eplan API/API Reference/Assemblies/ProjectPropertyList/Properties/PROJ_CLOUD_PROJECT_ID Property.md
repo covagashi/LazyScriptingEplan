@@ -8,17 +8,12 @@ Unique project ID for the Cloud # 10120.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_CLOUD_PROJECT_ID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_CLOUD_PROJECT_ID {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_CLOUD_PROJECT_ID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

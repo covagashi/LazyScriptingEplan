@@ -8,11 +8,10 @@ Constructor for internal usage only.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Pen( 
 
    short nColorId,
@@ -26,11 +25,7 @@ public Pen(
    sbyte nEndType
 
 )
-```
-```
 
-```
-```
 public:
 
 Pen( 
@@ -46,8 +41,7 @@ Pen(
    sbyte nEndType
 
 )
-```
-```
+
 
 #### Parameters
 

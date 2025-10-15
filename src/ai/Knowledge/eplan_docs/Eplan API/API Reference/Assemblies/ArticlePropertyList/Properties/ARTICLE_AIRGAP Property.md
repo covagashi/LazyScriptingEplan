@@ -8,17 +8,12 @@ Plugs: Clearance # 22096.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_AIRGAP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_AIRGAP {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_AIRGAP {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

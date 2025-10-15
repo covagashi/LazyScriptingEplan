@@ -23,13 +23,11 @@ Example
 
 Creating a SchemeSetting object and initializing it with a settings node path
 
-- [C#](#i-tab-content-3aa0293d-1b36-4f7d-95d0-7b8844b7a1f6)
+**C#**
 
 ```
 SchemeSetting oSchemeSetting = new SchemeSetting();
 
 oSchemeSetting.Init("USER.DXF.SCHEMES");
-
-
 
 ```

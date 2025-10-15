@@ -8,17 +8,12 @@ Gets or sets the first point of the DimensionItem.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD FirstPoint {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PointD FirstPoint {
@@ -28,5 +23,4 @@ property PointD FirstPoint {
    void set (    PointD value);
 
 }
-```
-```
+

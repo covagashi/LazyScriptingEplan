@@ -8,21 +8,16 @@ Sets a default device tag to the function. (I.e. a device tag which is automatic
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SetName( 
 
    Function func
 
 )
-```
-```
 
-```
-```
 public:
 
 bool SetName( 
@@ -30,8 +25,7 @@ bool SetName(
    Function^ func
 
 )
-```
-```
+
 
 #### Parameters
 

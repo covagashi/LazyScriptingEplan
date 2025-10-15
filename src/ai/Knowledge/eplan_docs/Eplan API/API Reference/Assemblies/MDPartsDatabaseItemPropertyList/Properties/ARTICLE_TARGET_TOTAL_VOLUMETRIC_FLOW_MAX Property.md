@@ -8,17 +8,12 @@ Target total flow rate, max. # 26140.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TARGET_TOTAL_VOLUMETRIC_FLOW_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TARGET_TOTAL_VOLUMETRIC_FLOW_MAX {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TARGET_TOTAL_VOLUMETRIC_FLOW_MAX {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

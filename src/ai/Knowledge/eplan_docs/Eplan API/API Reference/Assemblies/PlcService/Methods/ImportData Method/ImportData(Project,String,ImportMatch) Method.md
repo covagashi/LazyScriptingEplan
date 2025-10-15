@@ -8,11 +8,10 @@ Imports PLC data from a file in the PLC standard exchange format (.pbf files) us
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ImportData( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public void ImportData(
    PlcService.ImportMatch eImportMatch
 
 )
-```
-```
 
-```
-```
 public:
 
 void ImportData( 
@@ -38,8 +33,7 @@ void ImportData(
    PlcService.ImportMatch eImportMatch
 
 )
-```
-```
+
 
 #### Parameters
 

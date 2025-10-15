@@ -8,11 +8,10 @@ Creates a handle point with all mounting points permitted.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    MultiLangString pMLSDescription,
@@ -20,11 +19,7 @@ public void Create(
    Matrix3D oPosition
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -34,8 +29,7 @@ void Create(
    Matrix3D oPosition
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -58,8 +52,8 @@ Notice that if user define handle is created, its position can be different then
 
 Example
 
-- [C#](#i-tab-content-2a8daba7-8a36-493e-ae8d-72dc1837c4f7)
-- [C#](#i-tab-content-3c1103cf-247f-4b87-a21d-0e6d75f3fb2a)
+**C#**
+**C#**
 
 ```
 
@@ -70,8 +64,6 @@ handle.Create(new MultiLangString(), new Matrix3D());
 
 oFunction3D.AddMatePersistent(handle);
 
-
-
 //create a handle relative to placement area
 
 var transformationToPlacementArea = new Matrix3D();
@@ -80,22 +72,11 @@ transformationToPlacementArea.Translate(new Vector3D(50.0, 500.0, 0.0));
 
 var transformation = transformationToPlacementArea * oFunction3D.PlacementArea.RelativeTransformation;
 
-
-
 var handle2 = new HandleMate();
 
 handle2.Create(new MultiLangString(), transformation);
 
 oFunction3D.AddMatePersistent(handle2);
-
-
-
-
-
-```
-
-```
-
 
 //create a handle with extended logic 
 
@@ -104,9 +85,5 @@ var handleWithExtendedLogic = new HandleMate();
 handleWithExtendedLogic.Create(new[] { "V1", "V2" }, new MultiLangString(), new Matrix3D());
 
 oFunction3D.AddMatePersistent(handleWithExtendedLogic);
-
-
-
-
 
 ```

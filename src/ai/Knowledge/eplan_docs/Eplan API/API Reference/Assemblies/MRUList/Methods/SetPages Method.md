@@ -8,11 +8,10 @@ Sets page names.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SetPages( 
 
    string strFullLinkFileName,
@@ -20,11 +19,7 @@ public bool SetPages(
    string[] lPages
 
 )
-```
-```
 
-```
-```
 public:
 
 bool SetPages( 
@@ -34,8 +29,7 @@ bool SetPages(
    array<String^>^ lPages
 
 )
-```
-```
+
 
 #### Parameters
 

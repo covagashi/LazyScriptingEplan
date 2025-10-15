@@ -8,17 +8,12 @@ Plugs: Number of general pins # 35208.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PLUGSTRIP_COUNTOFCOMMON {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PLUGSTRIP_COUNTOFCOMMON {
@@ -28,8 +23,7 @@ property PropertyValue^ PLUGSTRIP_COUNTOFCOMMON {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

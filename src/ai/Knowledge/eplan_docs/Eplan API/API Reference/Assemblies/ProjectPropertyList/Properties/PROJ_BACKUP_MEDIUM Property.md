@@ -8,17 +8,12 @@ Data backup: Backup medium # 10515.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BACKUP_MEDIUM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BACKUP_MEDIUM {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_BACKUP_MEDIUM {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

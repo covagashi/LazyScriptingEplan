@@ -8,17 +8,12 @@ Bundle: Connection point data # 19072.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue STRANDCONNECTOR_DATA_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ STRANDCONNECTOR_DATA_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ STRANDCONNECTOR_DATA_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

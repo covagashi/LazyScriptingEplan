@@ -8,21 +8,16 @@ Torque (at min. rotation speed) # 26252.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_TORQUE_AT_MIN_SPEED( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_TORQUE_AT_MIN_SPEED {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_TORQUE_AT_MIN_SPEED {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ The color / number of the wire template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Color {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Color {
@@ -28,5 +23,4 @@ property String^ Color {
    void set (    String^ value);
 
 }
-```
-```
+

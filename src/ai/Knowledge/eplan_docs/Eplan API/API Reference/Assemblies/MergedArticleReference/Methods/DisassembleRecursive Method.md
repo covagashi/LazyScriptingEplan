@@ -8,11 +8,10 @@ Disassembles assembly or module, returns NULL if it wasn't an assembly or module
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MergedArticleReference[] DisassembleRecursive( 
 
    int iAssemblyDissolveDepth,
@@ -20,11 +19,7 @@ public MergedArticleReference[] DisassembleRecursive(
    int iModuleDissolveDepth
 
 )
-```
-```
 
-```
-```
 public:
 
 array<MergedArticleReference^>^ DisassembleRecursive( 
@@ -34,8 +29,7 @@ array<MergedArticleReference^>^ DisassembleRecursive(
    int iModuleDissolveDepth
 
 )
-```
-```
+
 
 #### Parameters
 

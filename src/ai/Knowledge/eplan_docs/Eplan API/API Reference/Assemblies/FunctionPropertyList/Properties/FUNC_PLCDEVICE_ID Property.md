@@ -8,17 +8,12 @@ Device description: File name # 20415.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCDEVICE_ID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCDEVICE_ID {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCDEVICE_ID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

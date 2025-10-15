@@ -8,21 +8,16 @@ Finds the function, that would give hActual the function name, if hActual has no
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function FindNameGivingFunction( 
 
    Function pActual
 
 )
-```
-```
 
-```
-```
 public:
 
 Function^ FindNameGivingFunction( 
@@ -30,8 +25,7 @@ Function^ FindNameGivingFunction(
    Function^ pActual
 
 )
-```
-```
+
 
 #### Parameters
 

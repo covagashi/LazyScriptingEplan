@@ -8,21 +8,16 @@ Comparison of two PinBase objects. Comparison is made by comparing each of Pin m
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override bool Equals( 
 
    object object
 
 )
-```
-```
 
-```
-```
 public:
 
 bool Equals( 
@@ -30,8 +25,7 @@ bool Equals(
    Object^ object
 
 ) override
-```
-```
+
 
 #### Parameters
 

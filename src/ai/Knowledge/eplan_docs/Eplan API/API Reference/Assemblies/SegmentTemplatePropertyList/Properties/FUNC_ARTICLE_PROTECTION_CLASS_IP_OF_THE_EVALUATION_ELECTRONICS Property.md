@@ -8,21 +8,16 @@ Degree of protection (IP): Measuring head # 26558.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_PROTECTION_CLASS_IP_OF_THE_MEASURING_HEAD( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_PROTECTION_CLASS_IP_OF_THE_MEASURING_HEAD {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_PROTECTION_CLASS_IP_OF_THE_MEASURING_HEAD {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ Creates new unplaced segment and assign to it start and end symbol.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Project pProject,
@@ -24,11 +23,7 @@ public void Create(
    bool bUpdateStartEnd
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -42,8 +37,7 @@ void Create(
    bool bUpdateStartEnd
 
 )
-```
-```
+
 
 #### Parameters
 

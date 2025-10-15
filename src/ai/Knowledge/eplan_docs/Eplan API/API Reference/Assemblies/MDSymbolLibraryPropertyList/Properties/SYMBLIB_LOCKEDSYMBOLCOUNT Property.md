@@ -8,17 +8,12 @@ Number of locked symbols # 15016.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBLIB_LOCKEDSYMBOLCOUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBLIB_LOCKEDSYMBOLCOUNT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMBLIB_LOCKEDSYMBOLCOUNT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

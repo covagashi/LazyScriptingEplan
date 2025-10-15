@@ -8,17 +8,12 @@ Gets/Sets visibility of the object as set in its properties dialog.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Placement.Visibility IsSetAsVisible {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property Placement.Visibility IsSetAsVisible {
@@ -28,8 +23,7 @@ virtual property Placement.Visibility IsSetAsVisible {
    void set (    Placement.Visibility value);
 
 }
-```
-```
+
 
 Remarks
 

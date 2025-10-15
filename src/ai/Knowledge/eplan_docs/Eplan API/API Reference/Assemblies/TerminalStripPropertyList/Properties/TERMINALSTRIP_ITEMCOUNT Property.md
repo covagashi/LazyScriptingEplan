@@ -8,17 +8,12 @@ Terminal strips: Number of terminals and accessories for terminal diagram # 3500
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue TERMINALSTRIP_ITEMCOUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ TERMINALSTRIP_ITEMCOUNT {
@@ -28,8 +23,7 @@ property PropertyValue^ TERMINALSTRIP_ITEMCOUNT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

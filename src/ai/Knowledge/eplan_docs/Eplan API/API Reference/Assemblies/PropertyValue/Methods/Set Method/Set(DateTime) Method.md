@@ -8,21 +8,16 @@ Sets [System.DateTime](#) value in PropertyValue object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue Set( 
 
    DateTime time
 
 )
-```
-```
 
-```
-```
 public:
 
 PropertyValue^ Set( 
@@ -30,8 +25,7 @@ PropertyValue^ Set(
    DateTime time
 
 )
-```
-```
+
 
 #### Parameters
 

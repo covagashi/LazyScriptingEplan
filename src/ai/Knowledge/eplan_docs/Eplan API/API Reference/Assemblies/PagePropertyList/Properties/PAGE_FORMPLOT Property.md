@@ -8,17 +8,12 @@ Plot frame name # 11016.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_FORMPLOT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_FORMPLOT {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_FORMPLOT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

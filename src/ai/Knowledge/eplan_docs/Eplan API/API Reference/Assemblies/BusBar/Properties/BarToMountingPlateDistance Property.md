@@ -8,17 +8,12 @@ Distance from MountingPlate to bus bars.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual double BarToMountingPlateDistance {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property double BarToMountingPlateDistance {
@@ -26,5 +21,4 @@ virtual property double BarToMountingPlateDistance {
    double get();
 
 }
-```
-```
+

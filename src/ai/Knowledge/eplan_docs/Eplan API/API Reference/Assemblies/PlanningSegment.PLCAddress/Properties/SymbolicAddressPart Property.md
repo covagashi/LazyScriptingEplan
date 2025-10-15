@@ -8,17 +8,12 @@ Symbolic address (single component).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SymbolicAddressPart {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ SymbolicAddressPart {
@@ -28,5 +23,4 @@ property String^ SymbolicAddressPart {
    void set (    String^ value);
 
 }
-```
-```
+

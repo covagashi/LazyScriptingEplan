@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString Item( 
 
    int pos
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ Item {
@@ -30,8 +25,7 @@ property MultiLangString^ Item {
    void set (int pos, MultiLangString^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

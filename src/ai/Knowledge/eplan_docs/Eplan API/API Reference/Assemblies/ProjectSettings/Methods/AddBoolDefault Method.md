@@ -8,11 +8,10 @@ Defines a new setting for a boolean value.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddBoolDefault( 
 
    string strSettingPath,
@@ -22,11 +21,7 @@ public void AddBoolDefault(
    ISettings.CreationFlag eFlag
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddBoolDefault( 
@@ -38,8 +33,7 @@ void AddBoolDefault(
    ISettings.CreationFlag eFlag
 
 )
-```
-```
+
 
 #### Parameters
 

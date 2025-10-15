@@ -8,17 +8,12 @@ Cable / Conduit: Length (full) # 20257.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLELENGTH_FULL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLELENGTH_FULL {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLELENGTH_FULL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

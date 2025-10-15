@@ -8,17 +8,12 @@ Energy efficiency class # 26301.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_ENERGY_EFFICIENCY_CLASS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_ENERGY_EFFICIENCY_CLASS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_ENERGY_EFFICIENCY_CLASS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

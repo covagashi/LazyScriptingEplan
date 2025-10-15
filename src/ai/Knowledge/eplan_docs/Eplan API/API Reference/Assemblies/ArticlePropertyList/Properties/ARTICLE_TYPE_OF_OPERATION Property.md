@@ -8,17 +8,12 @@ Type of operation # 26236.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TYPE_OF_OPERATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TYPE_OF_OPERATION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TYPE_OF_OPERATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

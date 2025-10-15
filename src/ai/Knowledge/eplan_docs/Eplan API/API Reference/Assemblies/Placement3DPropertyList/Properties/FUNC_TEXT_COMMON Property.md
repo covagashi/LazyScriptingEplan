@@ -8,17 +8,12 @@ Function text (common) # 20120.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TEXT_COMMON {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TEXT_COMMON {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TEXT_COMMON {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

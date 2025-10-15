@@ -8,19 +8,13 @@ Represents values table of a placeholder
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlaceHolder.ValuesClass Values
-```
-```
 
-```
-```
 public:
 
 PlaceHolder.ValuesClass^ Values
-```
-```
+

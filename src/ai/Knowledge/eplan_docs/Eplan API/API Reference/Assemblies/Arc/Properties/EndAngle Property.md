@@ -8,17 +8,12 @@ Gets the end angle value of the arc. This property returns 0 for ellipse type.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double EndAngle {get;}
-```
-```
 
-```
-```
 public:
 
 property double EndAngle {
@@ -26,5 +21,4 @@ property double EndAngle {
    double get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Plugs: Number of female pins # 35211.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PLUGSTRIP_COUNTOFSOCKETS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PLUGSTRIP_COUNTOFSOCKETS {
@@ -28,8 +23,7 @@ property PropertyValue^ PLUGSTRIP_COUNTOFSOCKETS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Property to get or set the icon of the button. Optional parameter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonIcon Icon {get; set;}
-```
-```
 
-```
-```
 public:
 
 property RibbonIcon^ Icon {
@@ -28,5 +23,4 @@ property RibbonIcon^ Icon {
    void set (    RibbonIcon^ value);
 
 }
-```
-```
+

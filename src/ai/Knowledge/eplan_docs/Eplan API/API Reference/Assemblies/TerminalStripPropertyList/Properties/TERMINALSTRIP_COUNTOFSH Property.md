@@ -8,17 +8,12 @@ Terminal strips: Number of SH terminals # 35000.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue TERMINALSTRIP_COUNTOFSH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ TERMINALSTRIP_COUNTOFSH {
@@ -28,8 +23,7 @@ property PropertyValue^ TERMINALSTRIP_COUNTOFSH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

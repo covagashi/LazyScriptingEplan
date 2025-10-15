@@ -8,11 +8,10 @@ Sets bending radius at specific bending point
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetBendingRadiusAt( 
 
    double dNewRadius,
@@ -20,11 +19,7 @@ public void SetBendingRadiusAt(
    long nBendingPoint
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetBendingRadiusAt( 
@@ -34,8 +29,7 @@ void SetBendingRadiusAt(
    int64 nBendingPoint
 
 )
-```
-```
+
 
 #### Parameters
 

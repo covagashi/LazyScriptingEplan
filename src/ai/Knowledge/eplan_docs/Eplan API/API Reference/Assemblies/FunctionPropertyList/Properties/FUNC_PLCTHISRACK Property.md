@@ -8,17 +8,12 @@ Rack # 20427.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCTHISRACK {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCTHISRACK {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCTHISRACK {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Supplementary field # 15901.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMBLIB_SUPPLEMENTARYFIELD( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMBLIB_SUPPLEMENTARYFIELD {
@@ -32,8 +27,7 @@ property PropertyValue^ SYMBLIB_SUPPLEMENTARYFIELD {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

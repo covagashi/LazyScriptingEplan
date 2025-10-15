@@ -8,17 +8,12 @@ Symbolic address: UDT (name) # 20618.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCSYMBOLICADDRESS_UDT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCSYMBOLICADDRESS_UDT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCSYMBOLICADDRESS_UDT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

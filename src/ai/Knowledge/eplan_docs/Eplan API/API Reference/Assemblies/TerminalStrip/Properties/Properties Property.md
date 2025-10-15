@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new TerminalStripPropertyListComplete Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property TerminalStripPropertyListComplete^ Properties {
@@ -26,8 +21,7 @@ new property TerminalStripPropertyListComplete^ Properties {
    TerminalStripPropertyListComplete^ get();
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -35,7 +29,7 @@ P8 properties of the TerminalStrip.
 
 Example
 
-- [C#](#i-tab-content-1ecc720a-0a17-419c-a9a7-78fe386be654)
+**C#**
 
 ```
 TerminalStrip ts;//a valid TerminalStrip

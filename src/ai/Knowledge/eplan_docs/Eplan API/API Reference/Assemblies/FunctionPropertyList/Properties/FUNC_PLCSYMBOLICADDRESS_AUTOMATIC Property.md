@@ -8,17 +8,12 @@ Symbolic address (automatic) # 20404.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCSYMBOLICADDRESS_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCSYMBOLICADDRESS_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCSYMBOLICADDRESS_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDObjectFilter
-```
-```
 
-```
-```
 public ref class MDObjectFilter
-```
-```
-
-
 
 Public Constructors
 
@@ -37,9 +28,6 @@ Public Constructors
 | Public Constructor | [MDObjectFilter Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDObjectFilter~_ctor.html) | Default constructor. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

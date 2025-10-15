@@ -8,11 +8,10 @@ Constructor
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public LockingException( 
 
    string strErrorText,
@@ -20,11 +19,7 @@ public LockingException(
    MessageLevel eErrorLevel
 
 )
-```
-```
 
-```
-```
 public:
 
 LockingException( 
@@ -34,8 +29,7 @@ LockingException(
    MessageLevel eErrorLevel
 
 )
-```
-```
+
 
 #### Parameters
 

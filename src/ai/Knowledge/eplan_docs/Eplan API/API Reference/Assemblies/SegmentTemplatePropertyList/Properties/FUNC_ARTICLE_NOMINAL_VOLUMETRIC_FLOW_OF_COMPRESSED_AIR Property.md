@@ -8,21 +8,16 @@ Nominal size / connection size # 26515.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_NOMINAL_WIDTH_CONNECTION_SIZE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_NOMINAL_WIDTH_CONNECTION_SIZE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_NOMINAL_WIDTH_CONNECTION_SIZE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

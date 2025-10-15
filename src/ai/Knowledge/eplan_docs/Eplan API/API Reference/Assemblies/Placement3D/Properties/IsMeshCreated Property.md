@@ -8,17 +8,12 @@ Returns `true` if a mesh is created for this objects and assigned for it.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsMeshCreated {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsMeshCreated {
@@ -26,8 +21,7 @@ property bool IsMeshCreated {
    bool get();
 
 }
-```
-```
+
 
 Remarks
 

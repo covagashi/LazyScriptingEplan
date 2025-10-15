@@ -8,22 +8,16 @@ Makes all 3d connections visible in opened 3d graphic editor view.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ShowAllConnections()
-```
-```
 
-```
-```
 public:
 
 void ShowAllConnections();
-```
-```
+
 
 Exceptions
 

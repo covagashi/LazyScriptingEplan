@@ -8,17 +8,12 @@ Number of attachment points # 26076.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_NUMBER_OF_FIXING_POINTS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_NUMBER_OF_FIXING_POINTS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_NUMBER_OF_FIXING_POINTS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

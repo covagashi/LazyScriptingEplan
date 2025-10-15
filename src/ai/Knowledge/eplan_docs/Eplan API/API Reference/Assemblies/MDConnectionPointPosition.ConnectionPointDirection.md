@@ -8,20 +8,14 @@ The type of the drilling. Depending on that type the other parameters will be us
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MDConnectionPointPosition.ConnectionPointDirection : System.Enum
-```
-```
 
-```
-```
 public enum class MDConnectionPointPosition.ConnectionPointDirection : public System.Enum
-```
-```
+
 
 Members
 

@@ -8,17 +8,12 @@ DT (identifying, without project structures) # 20008.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_IDENTDEVICETAGWITHOUTSTRUCTURES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_IDENTDEVICETAGWITHOUTSTRUCTURES {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_IDENTDEVICETAGWITHOUTSTRUCTURES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

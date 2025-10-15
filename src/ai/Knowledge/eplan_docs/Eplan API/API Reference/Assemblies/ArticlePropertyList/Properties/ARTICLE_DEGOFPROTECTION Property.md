@@ -8,17 +8,12 @@ Terminals: Degree of protection # 22082.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_DEGOFPROTECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_DEGOFPROTECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_DEGOFPROTECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Cross-reference display: Display # 20049.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_SHOWCROSSREFERENCEBLOCK {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_SHOWCROSSREFERENCEBLOCK {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_SHOWCROSSREFERENCEBLOCK {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

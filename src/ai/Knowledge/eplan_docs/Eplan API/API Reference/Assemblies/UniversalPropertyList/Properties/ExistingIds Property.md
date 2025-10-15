@@ -8,17 +8,12 @@ Returns array of property ids. Returns array of AnyPropertyId objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public AnyPropertyId[] ExistingIds {get;}
-```
-```
 
-```
-```
 public:
 
 property array<AnyPropertyId^>^ ExistingIds {
@@ -26,8 +21,7 @@ property array<AnyPropertyId^>^ ExistingIds {
    array<AnyPropertyId^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

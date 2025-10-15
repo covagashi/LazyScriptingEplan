@@ -8,17 +8,12 @@ Topology: Routing path cross-section # 20248.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLINGSEGMENT_CROSSSECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLINGSEGMENT_CROSSSECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLINGSEGMENT_CROSSSECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

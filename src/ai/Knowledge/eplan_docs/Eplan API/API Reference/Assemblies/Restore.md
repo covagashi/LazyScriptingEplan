@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Restore
-```
-```
 
-```
-```
 public ref class Restore
-```
-```
+
 
 Remarks
 
@@ -36,7 +30,7 @@ Example
 
 Following example shows how to use Restore class.
 
-- [C#](#i-tab-content-3ba7ba21-ccd2-43bc-bf12-2cbdfdec8a83)
+**C#**
 
 ```
 Restore oRestore = new Restore();
@@ -55,8 +49,6 @@ oRestore.Project(oArchives,
 
                 false);
 
-
-
 ```
 
 Public Constructors
@@ -66,9 +58,6 @@ Public Constructors
 | Public Constructor | [Restore Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Restore~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

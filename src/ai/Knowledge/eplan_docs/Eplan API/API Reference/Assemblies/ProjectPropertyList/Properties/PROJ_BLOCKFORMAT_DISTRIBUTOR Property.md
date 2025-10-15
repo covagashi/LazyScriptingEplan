@@ -8,21 +8,16 @@ Block property: Format (fluid connection splicer / line connector) # 10614.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BLOCKFORMAT_DISTRIBUTOR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BLOCKFORMAT_DISTRIBUTOR {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_BLOCKFORMAT_DISTRIBUTOR {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

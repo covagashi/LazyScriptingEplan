@@ -8,17 +8,12 @@ Property arrangement: Automatic Y coordinate (path) # 12062.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_AUTOY_OFFSET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_AUTOY_OFFSET {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_AUTOY_OFFSET {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

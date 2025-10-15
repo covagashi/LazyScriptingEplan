@@ -8,17 +8,12 @@ Cable / Conduit: Alternative cross-section / diameter # 20125.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLE_ALTERNATE_WIRECROSSSECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLE_ALTERNATE_WIRECROSSSECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLE_ALTERNATE_WIRECROSSSECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

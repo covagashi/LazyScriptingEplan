@@ -8,11 +8,10 @@ Initializes property definition
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDUserDefinedPropertyDefinition( 
 
    string strIdentifyingName,
@@ -20,11 +19,7 @@ public MDUserDefinedPropertyDefinition(
    MDPartsDatabase partsDatabase
 
 )
-```
-```
 
-```
-```
 public:
 
 MDUserDefinedPropertyDefinition( 
@@ -34,8 +29,7 @@ MDUserDefinedPropertyDefinition(
    MDPartsDatabase^ partsDatabase
 
 )
-```
-```
+
 
 #### Parameters
 

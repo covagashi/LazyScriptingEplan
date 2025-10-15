@@ -8,22 +8,16 @@ Get the base unit of the parsed result of this unit group.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string GetBaseUnit()
-```
-```
 
-```
-```
 public:
 
 String^ GetBaseUnit();
-```
-```
+
 
 #### Return Value
 

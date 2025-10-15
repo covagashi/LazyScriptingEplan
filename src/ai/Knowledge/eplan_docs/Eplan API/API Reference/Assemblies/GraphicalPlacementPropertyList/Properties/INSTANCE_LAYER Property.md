@@ -8,17 +8,12 @@ Layer # 19019.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTANCE_LAYER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTANCE_LAYER {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTANCE_LAYER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

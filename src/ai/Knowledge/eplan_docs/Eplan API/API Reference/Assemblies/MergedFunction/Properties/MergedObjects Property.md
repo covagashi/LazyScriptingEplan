@@ -8,17 +8,12 @@ Returns an array of [StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataMo
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] MergedObjects {get;}
-```
-```
 
-```
-```
 public:
 
 property array<StorableObject^>^ MergedObjects {
@@ -26,8 +21,7 @@ property array<StorableObject^>^ MergedObjects {
    array<StorableObject^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

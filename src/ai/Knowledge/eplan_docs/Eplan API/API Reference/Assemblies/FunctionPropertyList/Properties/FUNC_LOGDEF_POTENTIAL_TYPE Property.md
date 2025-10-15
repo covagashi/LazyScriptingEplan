@@ -8,21 +8,16 @@ Connection point logic: Potential type # 20370.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_LOGDEF_POTENTIAL_TYPE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_LOGDEF_POTENTIAL_TYPE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_LOGDEF_POTENTIAL_TYPE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

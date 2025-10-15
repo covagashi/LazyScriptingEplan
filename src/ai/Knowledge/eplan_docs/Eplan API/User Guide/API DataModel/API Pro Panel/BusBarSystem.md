@@ -8,7 +8,7 @@ BusBarSystem  class represent "Busbar system" items in Pro Panel.
 
 ### 
 
-- [C#](#i-tab-content-d6e2c042-6d19-4365-b1e6-630ff5971958)
+**C#**
 
 ```
 
@@ -19,8 +19,6 @@ var oInstallationSpace = new InstallationSpace();
 
 oInstallationSpace.Create(oProject, "BusBarSystem_InstallationSpace");
 
-
-
 // CopperBundle
 
 var copperBundle = CopperBundle.Create(oProject, new List<Placement3D>());
@@ -28,8 +26,6 @@ var copperBundle = CopperBundle.Create(oProject, new List<Placement3D>());
 copperBundle.Parent = oInstallationSpace;
 
 copperBundle.Properties.COPPERBUNDLE_DESIGNATION = "RIT.BBS.RiLine60_1_ECu15x05_2400 - BusBarSystem";
-
-
 
 // BusBarSystem
 

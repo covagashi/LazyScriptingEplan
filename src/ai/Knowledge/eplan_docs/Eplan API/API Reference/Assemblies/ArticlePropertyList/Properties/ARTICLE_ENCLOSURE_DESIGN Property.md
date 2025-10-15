@@ -8,17 +8,12 @@ Type of construction # 26024.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_ENCLOSURE_DESIGN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_ENCLOSURE_DESIGN {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_ENCLOSURE_DESIGN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

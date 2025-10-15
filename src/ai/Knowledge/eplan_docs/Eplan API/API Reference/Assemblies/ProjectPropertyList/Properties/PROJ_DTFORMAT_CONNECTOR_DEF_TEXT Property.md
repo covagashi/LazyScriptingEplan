@@ -8,17 +8,12 @@ Format of displayed DT: Plug definition # 10623.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_DTFORMAT_CONNECTOR_DEF_TEXT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_DTFORMAT_CONNECTOR_DEF_TEXT {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_DTFORMAT_CONNECTOR_DEF_TEXT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Asks to confirm the cancel request.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetAskOnCancel( 
 
    bool bAsk
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetAskOnCancel( 
@@ -30,8 +25,7 @@ void SetAskOnCancel(
    bool bAsk
 
 )
-```
-```
+
 
 #### Parameters
 

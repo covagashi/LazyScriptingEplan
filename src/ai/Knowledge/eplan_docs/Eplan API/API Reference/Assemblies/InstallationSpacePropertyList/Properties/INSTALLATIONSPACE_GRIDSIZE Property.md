@@ -8,17 +8,12 @@ Grid size # 36450.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTALLATIONSPACE_GRIDSIZE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTALLATIONSPACE_GRIDSIZE {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTALLATIONSPACE_GRIDSIZE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

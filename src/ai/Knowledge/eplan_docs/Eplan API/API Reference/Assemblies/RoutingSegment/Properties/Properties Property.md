@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new RoutingSegmentPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property RoutingSegmentPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property RoutingSegmentPropertyList^ Properties {
    RoutingSegmentPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

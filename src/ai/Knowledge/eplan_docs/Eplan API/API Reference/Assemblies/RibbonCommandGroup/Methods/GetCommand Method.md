@@ -8,21 +8,16 @@ Gets a command by a command line
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonCommand GetCommand( 
 
    string strActionCommandLine
 
 )
-```
-```
 
-```
-```
 public:
 
 RibbonCommand^ GetCommand( 
@@ -30,8 +25,7 @@ RibbonCommand^ GetCommand(
    String^ strActionCommandLine
 
 )
-```
-```
+
 
 #### Parameters
 

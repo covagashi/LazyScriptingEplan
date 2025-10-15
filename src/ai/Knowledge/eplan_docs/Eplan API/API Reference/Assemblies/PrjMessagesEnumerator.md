@@ -13,45 +13,33 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PrjMessagesEnumerator
-```
-```
 
-```
-```
 public ref class PrjMessagesEnumerator
-```
-```
+
 
 Example
 
 getting all project messages after an offline run
 
-- [C#](#i-tab-content-23649974-1021-45e9-8432-76ca62d42bd7)
+**C#**
 
 ```
 Check oCheck = new Check();
 
 oCheck.VerifyProject(oProject);
 
-
-
 PrjMessagesCollection colPrjMsg = new PrjMessagesCollection(oProject);
 
 PrjMessagesEnumerator itPrjMsg = colPrjMsg.GetPrjMsgEnumerator();
 
-
-
 itPrjMsg.MoveNext();
 
 int nNr=0;
-
-
 
 do 
 
@@ -67,8 +55,6 @@ do
 
 	}					
 
-
-
 } while(itPrjMsg.MoveNext());
 ```
 
@@ -79,8 +65,6 @@ Public Constructors
 | Public Constructor | [PrjMessagesEnumerator Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesEnumerator~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

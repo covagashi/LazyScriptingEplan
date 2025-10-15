@@ -8,21 +8,16 @@ Initializes object with a settings node path.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Init( 
 
    string strScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void Init( 
@@ -30,8 +25,7 @@ virtual void Init(
    String^ strScheme
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -48,13 +42,11 @@ Example
 
 Creating a SchemeSetting object and initializing it with a settings node path
 
-- [C#](#i-tab-content-9027f146-f740-4eb1-a9e7-04e584bcd136)
+**C#**
 
 ```
 SchemeSetting oSchemeSetting = new SchemeSetting();
 
 oSchemeSetting.Init("USER.DXF.SCHEMES");
-
-
 
 ```

@@ -8,11 +8,10 @@ Connect to Eplan Server.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Connect( 
 
    string strCompterName,
@@ -20,11 +19,7 @@ public void Connect(
    string strPort
 
 )
-```
-```
 
-```
-```
 public:
 
 void Connect( 
@@ -34,8 +29,7 @@ void Connect(
    String^ strPort
 
 )
-```
-```
+
 
 #### Parameters
 

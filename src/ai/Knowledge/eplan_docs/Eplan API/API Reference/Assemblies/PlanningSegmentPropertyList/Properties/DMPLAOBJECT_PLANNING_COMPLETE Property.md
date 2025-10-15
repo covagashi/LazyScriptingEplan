@@ -8,17 +8,12 @@ Pre-planning finished # 44040.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_PLANNING_COMPLETE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_PLANNING_COMPLETE {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_PLANNING_COMPLETE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

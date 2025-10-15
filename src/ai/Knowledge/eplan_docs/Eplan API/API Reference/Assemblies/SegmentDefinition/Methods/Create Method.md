@@ -8,11 +8,10 @@ Creates SegmentDefinition object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    string strIdentifyingName,
@@ -20,11 +19,7 @@ public void Create(
    SegmentDefinition pParent
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -34,8 +29,7 @@ void Create(
    SegmentDefinition^ pParent
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Active power loss # 26621.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_ACTIVE_POWER_LOSS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_ACTIVE_POWER_LOSS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_ACTIVE_POWER_LOSS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

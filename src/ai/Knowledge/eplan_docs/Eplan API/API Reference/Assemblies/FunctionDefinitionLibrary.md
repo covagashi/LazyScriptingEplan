@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class FunctionDefinitionLibrary : Eplan.EplApi.DataModel.StorableObject
-```
-```
 
-```
-```
 public ref class FunctionDefinitionLibrary : public Eplan.EplApi.DataModel.StorableObject
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [FunctionDefinitionLibrary Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.FunctionDefinitionLibrary~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,11 +8,10 @@ Creates a link between two given PlanningSegments.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static bool CreateLink( 
 
    PlanningSegment superiorSegment,
@@ -20,11 +19,7 @@ public static bool CreateLink(
    PlanningSegment targetSegment
 
 )
-```
-```
 
-```
-```
 public:
 
 static bool CreateLink( 
@@ -34,8 +29,7 @@ static bool CreateLink(
    PlanningSegment^ targetSegment
 
 )
-```
-```
+
 
 #### Parameters
 

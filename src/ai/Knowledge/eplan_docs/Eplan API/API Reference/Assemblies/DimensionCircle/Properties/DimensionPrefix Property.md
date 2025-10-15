@@ -8,17 +8,12 @@ Gets/Sets the prefix of the dimension circle.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string DimensionPrefix {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ DimensionPrefix {
@@ -28,5 +23,4 @@ property String^ DimensionPrefix {
    void set (    String^ value);
 
 }
-```
-```
+

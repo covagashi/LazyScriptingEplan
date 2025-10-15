@@ -8,11 +8,10 @@ Places this connection as a connection def. point on the given schematic page an
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void PlaceAsConnectionDefinitionPoint( 
 
    Page pPage,
@@ -20,11 +19,7 @@ public void PlaceAsConnectionDefinitionPoint(
    PointD pntLocation
 
 )
-```
-```
 
-```
-```
 public:
 
 void PlaceAsConnectionDefinitionPoint( 
@@ -34,8 +29,7 @@ void PlaceAsConnectionDefinitionPoint(
    PointD pntLocation
 
 )
-```
-```
+
 
 #### Parameters
 

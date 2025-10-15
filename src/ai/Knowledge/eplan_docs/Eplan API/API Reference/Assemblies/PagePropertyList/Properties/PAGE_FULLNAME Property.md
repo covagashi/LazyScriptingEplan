@@ -8,17 +8,12 @@ Page name (full) # 11009.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_FULLNAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_FULLNAME {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_FULLNAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Determines if StorableObject is correct database object and is not deleted.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsValid {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsValid {
@@ -26,5 +21,4 @@ property bool IsValid {
    bool get();
 
 }
-```
-```
+

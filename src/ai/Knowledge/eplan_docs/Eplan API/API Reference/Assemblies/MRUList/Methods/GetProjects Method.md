@@ -8,23 +8,17 @@ Gets all project names from list.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string[] GetProjects()
-```
-```
 
-```
-```
 public:
 
 array<String^>^ GetProjects();
-```
-```
+
 
 Remarks
 
-Warning: projects opened from API donât write automatically into MRUList. This can be done by calling MRUList.SetProject.
+Warning: projects opened from API don't write automatically into MRUList. This can be done by calling MRUList.SetProject.

@@ -8,17 +8,12 @@ Insert from macro as unplaced # 20094.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_INSERTNOTPLACED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_INSERTNOTPLACED {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_INSERTNOTPLACED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Creates not placed transient Busbar system.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static BusBarSystem CreateTransient( 
 
    Project oProject,
@@ -28,11 +27,7 @@ public static BusBarSystem CreateTransient(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static BusBarSystem^ CreateTransient( 
@@ -50,8 +45,7 @@ static BusBarSystem^ CreateTransient(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

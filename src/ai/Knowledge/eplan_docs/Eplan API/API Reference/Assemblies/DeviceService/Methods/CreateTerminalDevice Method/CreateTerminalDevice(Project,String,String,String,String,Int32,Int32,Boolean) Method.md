@@ -8,11 +8,10 @@ This function imports devices from an text file into a given project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] ImportDevicesText( 
 
    Project oProject,
@@ -30,11 +29,7 @@ public StorableObject[] ImportDevicesText(
    bool bAdjustDialog
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ ImportDevicesText( 
@@ -54,8 +49,7 @@ array<StorableObject^>^ ImportDevicesText(
    bool bAdjustDialog
 
 )
-```
-```
+
 
 #### Parameters
 

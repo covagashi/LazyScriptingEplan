@@ -8,17 +8,12 @@ Number of pneumatic ports (exhaust) # 26073.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_NUMBER_OF_PNEUMATIC_CONNECTIONS_EXHAUST {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_NUMBER_OF_PNEUMATIC_CONNECTIONS_EXHAUST {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_NUMBER_OF_PNEUMATIC_CONNECTIONS_EXHAUST {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

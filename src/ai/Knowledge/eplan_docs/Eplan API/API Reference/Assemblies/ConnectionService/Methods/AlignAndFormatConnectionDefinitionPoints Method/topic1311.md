@@ -8,11 +8,10 @@ function to re-align and re-format connection definition points.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AlignAndFormatConnectionDefinitionPoints( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public void AlignAndFormatConnectionDefinitionPoints(
    bool bRegenrateConnections
 
 )
-```
-```
 
-```
-```
 public:
 
 void AlignAndFormatConnectionDefinitionPoints( 
@@ -46,8 +41,7 @@ void AlignAndFormatConnectionDefinitionPoints(
    bool bRegenrateConnections
 
 )
-```
-```
+
 
 #### Parameters
 

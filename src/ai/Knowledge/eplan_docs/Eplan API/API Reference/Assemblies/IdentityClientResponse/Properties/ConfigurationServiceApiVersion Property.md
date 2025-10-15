@@ -8,17 +8,12 @@ IdentityClient configuration service API version.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ConfigurationServiceApiVersion {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ConfigurationServiceApiVersion {
@@ -28,5 +23,4 @@ property String^ ConfigurationServiceApiVersion {
    void set (    String^ value);
 
 }
-```
-```
+

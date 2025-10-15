@@ -8,21 +8,16 @@ Removes all indexed setting.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveAllIndexedSetting( 
 
    string strSetting
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveAllIndexedSetting( 
@@ -30,8 +25,7 @@ void RemoveAllIndexedSetting(
    String^ strSetting
 
 )
-```
-```
+
 
 #### Parameters
 

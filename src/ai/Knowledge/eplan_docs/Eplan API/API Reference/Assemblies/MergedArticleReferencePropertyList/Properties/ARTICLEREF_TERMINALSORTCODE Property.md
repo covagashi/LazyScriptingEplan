@@ -8,17 +8,12 @@ Sorting of part on terminal strip # 40342.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_TERMINALSORTCODE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_TERMINALSORTCODE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_TERMINALSORTCODE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

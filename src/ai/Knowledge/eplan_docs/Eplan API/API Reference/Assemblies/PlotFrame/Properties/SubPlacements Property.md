@@ -8,17 +8,12 @@ Returns all grouped [Eplan.EplApi.DataModel.Placement](Eplan.EplApi.DataModelu~E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override Placement[] SubPlacements {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Placement^>^ SubPlacements {
@@ -26,8 +21,7 @@ property array<Placement^>^ SubPlacements {
    array<Placement^>^ get() override;
 
 }
-```
-```
+
 
 Exceptions
 

@@ -8,21 +8,16 @@ Fit the text in Alignement Boxes
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool FitTextsInAlignmentBoxes( 
 
    Page page
 
 )
-```
-```
 
-```
-```
 public:
 
 bool FitTextsInAlignmentBoxes( 
@@ -30,8 +25,7 @@ bool FitTextsInAlignmentBoxes(
    Page^ page
 
 )
-```
-```
+
 
 #### Parameters
 

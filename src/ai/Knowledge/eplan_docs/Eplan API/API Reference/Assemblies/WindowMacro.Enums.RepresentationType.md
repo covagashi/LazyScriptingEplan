@@ -8,20 +8,14 @@ This enumeration specifies the representation types, which a macro can contain
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum WindowMacro.Enums.RepresentationType : System.Enum
-```
-```
 
-```
-```
 public enum class WindowMacro.Enums.RepresentationType : public System.Enum
-```
-```
+
 
 Members
 

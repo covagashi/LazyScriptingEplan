@@ -8,17 +8,12 @@ Bill of materials group # 22289.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_PARTSLISTGROUP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_PARTSLISTGROUP {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_PARTSLISTGROUP {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

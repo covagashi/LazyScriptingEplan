@@ -8,17 +8,12 @@ EPLAN properties of the Area object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new AreaPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property AreaPropertyList^ Properties {
@@ -26,5 +21,4 @@ new property AreaPropertyList^ Properties {
    AreaPropertyList^ get();
 
 }
-```
-```
+

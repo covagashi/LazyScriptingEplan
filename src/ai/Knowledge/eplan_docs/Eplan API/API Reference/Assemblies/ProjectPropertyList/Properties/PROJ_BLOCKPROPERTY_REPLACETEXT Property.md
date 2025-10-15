@@ -8,21 +8,16 @@ Block property: Replacement text # 10660.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BLOCKPROPERTY_REPLACETEXT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BLOCKPROPERTY_REPLACETEXT {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_BLOCKPROPERTY_REPLACETEXT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

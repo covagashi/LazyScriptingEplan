@@ -8,17 +8,12 @@ Associated connections: Layer for autoconnecting line # 31042.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CDP_CON_ACL_LAYER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CDP_CON_ACL_LAYER {
@@ -28,8 +23,7 @@ property PropertyValue^ CDP_CON_ACL_LAYER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

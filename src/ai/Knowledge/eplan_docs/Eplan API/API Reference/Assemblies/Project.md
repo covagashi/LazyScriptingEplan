@@ -14,26 +14,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Project : StorableObject, IArticleUser
-```
-```
 
-```
-```
 public ref class Project : public StorableObject, IArticleUser
-```
-```
+
 
 Remarks
 
 Some properties of Data model classes are not linked with their owners even if from the syntax it may seem otherwise. Like in this line: oRectangle.Pen.ColorId = 5, the ColorId of the Pen is changed but oRectangle object doesn't know about it since the Pen property is a stand alone value not aware of oRectangle object existence. This remark applies to the following Project properties: Articles, LayerTable, Pages.
-
-
 
 Public Constructors
 
@@ -42,8 +34,6 @@ Public Constructors
 | Public Constructor | [Project Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project~_ctor().html) | Default constructor. Should never be used. Always throws NotImplementedException. It was designed only for COM compatibility. |
 
 [Top](#top)
-
-
 
 Public Properties
 

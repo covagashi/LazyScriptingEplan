@@ -8,17 +8,12 @@ Assigns a PotentialType to the Pin.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PinPotentialType PinPotential {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PinPotentialType PinPotential {
@@ -28,5 +23,4 @@ property PinPotentialType PinPotential {
    void set (    PinPotentialType value);
 
 }
-```
-```
+

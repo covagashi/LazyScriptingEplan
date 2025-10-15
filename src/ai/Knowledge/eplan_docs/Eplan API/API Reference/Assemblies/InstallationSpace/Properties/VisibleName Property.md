@@ -8,17 +8,12 @@ Returns the visible name of the Function3D.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override string VisibleName {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ VisibleName {
@@ -28,8 +23,7 @@ property String^ VisibleName {
    void set (    String^ value) override;
 
 }
-```
-```
+
 
 #### Property Value
 

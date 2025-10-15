@@ -8,17 +8,12 @@ No. of connections and cross-section / diameter # 22069.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_WIRECROSSSECTION_AND_DIAMETER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_WIRECROSSSECTION_AND_DIAMETER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_WIRECROSSSECTION_AND_DIAMETER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

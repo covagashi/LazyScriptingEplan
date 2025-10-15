@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ProgressFactory
-```
-```
 
-```
-```
 public ref class ProgressFactory
-```
-```
-
-
 
 Public Constructors
 
@@ -37,9 +28,6 @@ Public Constructors
 | Public Constructor | [ProgressFactory Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ProgressFactory~_ctor.html) |  |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

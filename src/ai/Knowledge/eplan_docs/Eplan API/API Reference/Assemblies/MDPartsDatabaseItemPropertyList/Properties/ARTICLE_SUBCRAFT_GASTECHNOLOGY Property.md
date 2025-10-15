@@ -8,21 +8,16 @@ Subtrade 'Gas engineering' # 22266.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SUBCRAFT_GASTECHNOLOGY( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SUBCRAFT_GASTECHNOLOGY {
@@ -32,8 +27,7 @@ property MDPropertyValue^ ARTICLE_SUBCRAFT_GASTECHNOLOGY {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

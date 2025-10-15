@@ -8,17 +8,12 @@ License number of dongle # 10185.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_SERIALNUMBERDONGLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_SERIALNUMBERDONGLE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_SERIALNUMBERDONGLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Symbol for contact image of motor overload switch # 16032.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMB_MOTOR_CONTACT_IMAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMB_MOTOR_CONTACT_IMAGE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMB_MOTOR_CONTACT_IMAGE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

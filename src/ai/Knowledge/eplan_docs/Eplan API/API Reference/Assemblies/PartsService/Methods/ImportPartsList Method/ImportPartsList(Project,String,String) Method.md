@@ -8,11 +8,10 @@ Method to import a parts list file into the project. The import file may be an X
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ImportPartsList( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public void ImportPartsList(
    string strConverter
 
 )
-```
-```
 
-```
-```
 public:
 
 void ImportPartsList( 
@@ -38,8 +33,7 @@ void ImportPartsList(
    String^ strConverter
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Permitted bending radius (stationary application / permanent installation), min.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PERMISSIBLE_BENDING_RADIUS_STATIONARY_USE_FIXED_INSTALLATION_MIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PERMISSIBLE_BENDING_RADIUS_STATIONARY_USE_FIXED_INSTALLATION_MIN {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PERMISSIBLE_BENDING_RADIUS_STATIONARY_USE_FIXED_
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

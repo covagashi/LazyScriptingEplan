@@ -8,21 +8,16 @@ This function searches the base action for an existing action in scripting. the 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Action FindBaseActionFromFunctionAction( 
 
    bool bSilent
 
 )
-```
-```
 
-```
-```
 public:
 
 Action^ FindBaseActionFromFunctionAction( 
@@ -30,8 +25,7 @@ Action^ FindBaseActionFromFunctionAction(
    bool bSilent
 
 )
-```
-```
+
 
 #### Parameters
 

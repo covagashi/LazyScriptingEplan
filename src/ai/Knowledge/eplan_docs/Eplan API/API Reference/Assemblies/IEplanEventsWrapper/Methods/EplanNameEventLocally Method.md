@@ -8,11 +8,10 @@ For internal use only.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void EplanNameEventLocally( 
 
    IEventParameter pEventParameter,
@@ -20,11 +19,7 @@ void EplanNameEventLocally(
    string strNameOfEvent
 
 )
-```
-```
 
-```
-```
 void EplanNameEventLocally( 
 
    IEventParameter^ pEventParameter,
@@ -32,8 +27,7 @@ void EplanNameEventLocally(
    String^ strNameOfEvent
 
 )
-```
-```
+
 
 #### Parameters
 

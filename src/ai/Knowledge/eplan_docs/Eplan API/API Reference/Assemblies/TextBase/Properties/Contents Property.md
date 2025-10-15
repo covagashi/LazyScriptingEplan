@@ -8,17 +8,12 @@ Contents of object represented by this type.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual MultiLangString Contents {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property MultiLangString^ Contents {
@@ -28,8 +23,7 @@ virtual property MultiLangString^ Contents {
    void set (    MultiLangString^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

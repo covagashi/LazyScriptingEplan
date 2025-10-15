@@ -8,11 +8,10 @@ Exports project into files in JT format.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ProjectToJT( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public bool ProjectToJT(
    string strTargetDirectory
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ProjectToJT( 
@@ -34,8 +29,7 @@ bool ProjectToJT(
    String^ strTargetDirectory
 
 )
-```
-```
+
 
 #### Parameters
 

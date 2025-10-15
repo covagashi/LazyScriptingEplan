@@ -8,11 +8,10 @@ Creates a SymbolReference. It is placed on the page passed as a parameter, using
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override void Create( 
 
    Page page,
@@ -20,11 +19,7 @@ public override void Create(
    SymbolVariant symbVariant
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -34,8 +29,7 @@ void Create(
    SymbolVariant^ symbVariant
 
 ) override
-```
-```
+
 
 #### Parameters
 

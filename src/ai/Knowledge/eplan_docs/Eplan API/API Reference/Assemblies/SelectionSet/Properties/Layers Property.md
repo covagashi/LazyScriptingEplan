@@ -8,17 +8,12 @@ Gets the selected layers of the active project as an array.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public GraphicalLayer[] Layers {get;}
-```
-```
 
-```
-```
 public:
 
 property array<GraphicalLayer^>^ Layers {
@@ -26,8 +21,7 @@ property array<GraphicalLayer^>^ Layers {
    array<GraphicalLayer^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

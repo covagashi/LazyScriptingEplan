@@ -8,17 +8,12 @@ Returns all command groups a ribbon tab
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonCommandGroup[] CommandGroups {get;}
-```
-```
 
-```
-```
 public:
 
 property array<RibbonCommandGroup^>^ CommandGroups {
@@ -26,5 +21,4 @@ property array<RibbonCommandGroup^>^ CommandGroups {
    array<RibbonCommandGroup^>^ get();
 
 }
-```
-```
+

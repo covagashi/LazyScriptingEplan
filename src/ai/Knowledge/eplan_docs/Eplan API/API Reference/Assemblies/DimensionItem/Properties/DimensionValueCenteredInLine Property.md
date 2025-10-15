@@ -8,17 +8,12 @@ Gets or sets whether dimension value is centered in line.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool DimensionValueCenteredInLine {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool DimensionValueCenteredInLine {
@@ -28,5 +23,4 @@ property bool DimensionValueCenteredInLine {
    void set (    bool value);
 
 }
-```
-```
+

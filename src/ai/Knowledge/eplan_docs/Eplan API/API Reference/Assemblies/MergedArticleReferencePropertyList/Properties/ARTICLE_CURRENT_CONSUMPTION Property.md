@@ -8,17 +8,12 @@ Current consumption # 26595.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CURRENT_CONSUMPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CURRENT_CONSUMPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CURRENT_CONSUMPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

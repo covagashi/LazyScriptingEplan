@@ -8,17 +8,12 @@ Assigns a ConnPointType to the Pin.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Pin.ConnPointType Type {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Pin.ConnPointType Type {
@@ -28,5 +23,4 @@ property Pin.ConnPointType Type {
    void set (    Pin.ConnPointType value);
 
 }
-```
-```
+

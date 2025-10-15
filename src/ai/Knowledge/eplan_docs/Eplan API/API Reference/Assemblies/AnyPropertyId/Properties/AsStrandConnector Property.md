@@ -8,17 +8,12 @@ Gets property id value as [Properties.StrandConnector](Eplan.EplApi.DataModelu~E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.StrandConnector AsStrandConnector {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.StrandConnector AsStrandConnector {
@@ -26,5 +21,4 @@ property Properties.StrandConnector AsStrandConnector {
    Properties.StrandConnector get();
 
 }
-```
-```
+

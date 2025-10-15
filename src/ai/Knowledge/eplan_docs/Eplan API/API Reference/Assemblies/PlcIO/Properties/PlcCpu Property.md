@@ -8,17 +8,12 @@ Returns the PlcIOEntry's CPU ID.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PlcCpu {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PlcCpu {
@@ -28,5 +23,4 @@ property String^ PlcCpu {
    void set (    String^ value);
 
 }
-```
-```
+

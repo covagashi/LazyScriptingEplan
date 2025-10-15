@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] GetAll<T>( 
 
    bool bWithDerived
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ GetAllgeneric<typename T>
@@ -30,8 +25,7 @@ array<StorableObject^>^ GetAllgeneric<typename T>
    bool bWithDerived
 
 )
-```
-```
+
 
 #### Parameters
 

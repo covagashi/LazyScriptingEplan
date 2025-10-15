@@ -6,20 +6,14 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum _kResponse : System.Enum
-```
-```
 
-```
-```
 public enum class _kResponse : public System.Enum
-```
-```
+
 
 Members
 

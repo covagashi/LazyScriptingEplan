@@ -8,17 +8,12 @@ Additional dimension of the drilling. Depends on type and sub type.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double Dimension1 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double Dimension1 {
@@ -28,5 +23,4 @@ property double Dimension1 {
    void set (    double value);
 
 }
-```
-```
+

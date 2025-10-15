@@ -8,17 +8,12 @@ Symbolic address: UDT (data type) # 20619.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCSYMBOLICADDRESS_UDT_DATATYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCSYMBOLICADDRESS_UDT_DATATYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCSYMBOLICADDRESS_UDT_DATATYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

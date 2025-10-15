@@ -8,17 +8,12 @@ Returns Name (part number) of the article that is referenced from this accessory
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Name {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Name {
@@ -26,8 +21,7 @@ property String^ Name {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

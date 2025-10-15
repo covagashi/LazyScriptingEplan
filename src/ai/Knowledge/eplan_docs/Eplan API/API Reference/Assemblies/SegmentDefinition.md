@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class SegmentDefinition : Eplan.EplApi.DataModel.StorableObject, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
 
-```
-```
 public ref class SegmentDefinition : public Eplan.EplApi.DataModel.StorableObject, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [SegmentDefinition Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.SegmentDefinition~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

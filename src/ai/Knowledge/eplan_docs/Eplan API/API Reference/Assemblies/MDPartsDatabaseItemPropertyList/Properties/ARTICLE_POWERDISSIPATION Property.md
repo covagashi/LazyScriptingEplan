@@ -8,17 +8,12 @@ Max. power dissipation # 22074.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_POWERDISSIPATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_POWERDISSIPATION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_POWERDISSIPATION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

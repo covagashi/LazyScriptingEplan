@@ -8,20 +8,14 @@ Identificators of properties owned by Option class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.Option : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.Option : public System.Enum
-```
-```
+
 
 Members
 

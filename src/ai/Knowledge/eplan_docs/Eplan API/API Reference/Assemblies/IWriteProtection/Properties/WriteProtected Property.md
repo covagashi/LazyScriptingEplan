@@ -8,17 +8,12 @@ Checks if an object is currently write protected or sets manual write protection
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool WriteProtected {get; set;}
-```
-```
 
-```
-```
 property bool WriteProtected {
 
    bool get();
@@ -26,8 +21,7 @@ property bool WriteProtected {
    void set (    bool value);
 
 }
-```
-```
+
 
 #### Property Value
 

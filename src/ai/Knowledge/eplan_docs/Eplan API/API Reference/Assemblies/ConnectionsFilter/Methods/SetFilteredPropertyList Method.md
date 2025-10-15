@@ -8,21 +8,16 @@ Sets the [ConnectionPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetFilteredPropertyList( 
 
    ConnectionPropertyList searchedPropList
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetFilteredPropertyList( 
@@ -30,8 +25,7 @@ void SetFilteredPropertyList(
    ConnectionPropertyList^ searchedPropList
 
 )
-```
-```
+
 
 #### Parameters
 

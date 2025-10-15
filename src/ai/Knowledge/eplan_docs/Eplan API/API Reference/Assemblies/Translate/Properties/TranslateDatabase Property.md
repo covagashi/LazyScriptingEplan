@@ -8,17 +8,12 @@ Returns or sets the complete filename of the current translate database or conne
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string TranslateDatabase {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ TranslateDatabase {
@@ -28,8 +23,7 @@ property String^ TranslateDatabase {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Exceptions
 

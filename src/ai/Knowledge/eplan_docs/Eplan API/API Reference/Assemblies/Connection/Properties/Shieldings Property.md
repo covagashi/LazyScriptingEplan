@@ -8,17 +8,12 @@ Returns the Shielding objects the connection is composed of. It does not return 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function[] Shieldings {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Function^>^ Shieldings {
@@ -26,8 +21,7 @@ property array<Function^>^ Shieldings {
    array<Function^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

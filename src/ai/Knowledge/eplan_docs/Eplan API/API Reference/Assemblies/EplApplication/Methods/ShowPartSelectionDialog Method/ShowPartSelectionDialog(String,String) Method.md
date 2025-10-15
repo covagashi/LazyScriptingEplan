@@ -8,11 +8,10 @@ Select part from the current parts database
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ShowPartSelectionDialog( 
 
    ref string strPartNr,
@@ -20,11 +19,7 @@ public bool ShowPartSelectionDialog(
    ref string strVariant
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ShowPartSelectionDialog( 
@@ -34,8 +29,7 @@ bool ShowPartSelectionDialog(
    String^% strVariant
 
 )
-```
-```
+
 
 #### Parameters
 

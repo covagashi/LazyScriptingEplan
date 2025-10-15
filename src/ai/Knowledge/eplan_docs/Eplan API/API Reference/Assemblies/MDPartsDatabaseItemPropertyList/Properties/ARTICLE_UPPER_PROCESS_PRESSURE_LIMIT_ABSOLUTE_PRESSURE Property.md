@@ -8,17 +8,12 @@ Process pressure (absolute pressure), max. # 26518.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_UPPER_PROCESS_PRESSURE_LIMIT_ABSOLUTE_PRESSURE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_UPPER_PROCESS_PRESSURE_LIMIT_ABSOLUTE_PRESSURE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_UPPER_PROCESS_PRESSURE_LIMIT_ABSOLUTE_PRESSURE
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

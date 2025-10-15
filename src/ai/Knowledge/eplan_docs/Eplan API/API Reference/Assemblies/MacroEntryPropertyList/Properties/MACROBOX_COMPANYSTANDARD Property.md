@@ -8,17 +8,12 @@ Macro: Company standard # 23017.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue MACROBOX_COMPANYSTANDARD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ MACROBOX_COMPANYSTANDARD {
@@ -28,8 +23,7 @@ property PropertyValue^ MACROBOX_COMPANYSTANDARD {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

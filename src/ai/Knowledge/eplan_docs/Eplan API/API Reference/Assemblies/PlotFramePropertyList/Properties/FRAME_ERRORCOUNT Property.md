@@ -8,17 +8,12 @@ Number of messages # 12099.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_ERRORCOUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_ERRORCOUNT {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_ERRORCOUNT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

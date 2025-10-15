@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.Graphics.PlaceHolder](Eplan.EplApi.DataModelu~Ep
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlaceHolder[] GetPlaceholdersWithFilterScheme( 
 
    string strFilterScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 array<PlaceHolder^>^ GetPlaceholdersWithFilterScheme( 
@@ -30,8 +25,7 @@ array<PlaceHolder^>^ GetPlaceholdersWithFilterScheme(
    String^ strFilterScheme
 
 )
-```
-```
+
 
 #### Parameters
 

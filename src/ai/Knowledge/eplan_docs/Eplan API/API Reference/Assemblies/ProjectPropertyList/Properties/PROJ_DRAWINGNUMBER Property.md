@@ -8,17 +8,12 @@ Job number # 10013.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_DRAWINGNUMBER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_DRAWINGNUMBER {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_DRAWINGNUMBER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

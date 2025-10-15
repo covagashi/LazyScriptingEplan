@@ -8,17 +8,12 @@ Thread size (metric) # 26107.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_THREAD_SIZE_METRIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_THREAD_SIZE_METRIC {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_THREAD_SIZE_METRIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

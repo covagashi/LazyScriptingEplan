@@ -8,11 +8,10 @@ Replaces text in a searched objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Replace( 
 
    StorableObject[] oObjectsInSearchResults,
@@ -22,11 +21,7 @@ public void Replace(
    string strReplaceWith
 
 )
-```
-```
 
-```
-```
 public:
 
 void Replace( 
@@ -38,8 +33,7 @@ void Replace(
    String^ strReplaceWith
 
 )
-```
-```
+
 
 #### Parameters
 

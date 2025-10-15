@@ -8,17 +8,12 @@ Returns all Eplan.EplApi.DataModel.Placements, with no parent.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement[] TopLevelObjects {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Placement^>^ TopLevelObjects {
@@ -26,8 +21,7 @@ property array<Placement^>^ TopLevelObjects {
    array<Placement^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

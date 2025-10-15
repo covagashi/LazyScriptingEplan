@@ -8,17 +8,12 @@ The station ID for the PLC box to which the PLC connection point belongs.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Station {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Station {
@@ -28,5 +23,4 @@ property String^ Station {
    void set (    String^ value);
 
 }
-```
-```
+

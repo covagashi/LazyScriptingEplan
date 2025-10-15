@@ -8,17 +8,12 @@ Trade # 11037.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_CRAFT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_CRAFT {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_CRAFT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

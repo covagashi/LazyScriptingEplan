@@ -8,17 +8,12 @@ Segment definition: Preceding sign also at the beginning # 44046.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECTDEFINITION_BEGINWITHPREFIX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECTDEFINITION_BEGINWITHPREFIX {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECTDEFINITION_BEGINWITHPREFIX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

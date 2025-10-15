@@ -8,17 +8,12 @@ Conduit connection # 31086.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_IS_PACKET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_IS_PACKET {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_IS_PACKET {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

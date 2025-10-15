@@ -8,17 +8,12 @@ Specifies if Layer is used for 3D graphics It is not allowed to change this prop
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Is3D {get;}
-```
-```
 
-```
-```
 public:
 
 property bool Is3D {
@@ -26,5 +21,4 @@ property bool Is3D {
    bool get();
 
 }
-```
-```
+

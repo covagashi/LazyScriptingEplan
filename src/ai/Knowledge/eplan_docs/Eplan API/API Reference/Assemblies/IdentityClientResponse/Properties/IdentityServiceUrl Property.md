@@ -8,17 +8,12 @@ IdentityClient service URL.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string IdentityServiceUrl {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ IdentityServiceUrl {
@@ -28,5 +23,4 @@ property String^ IdentityServiceUrl {
    void set (    String^ value);
 
 }
-```
-```
+

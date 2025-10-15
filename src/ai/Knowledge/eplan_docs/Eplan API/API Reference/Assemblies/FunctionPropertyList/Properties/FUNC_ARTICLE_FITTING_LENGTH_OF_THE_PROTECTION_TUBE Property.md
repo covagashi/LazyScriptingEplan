@@ -8,21 +8,16 @@ Mounting length: Protective tube # 26278.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_FITTING_LENGTH_OF_THE_PROTECTION_TUBE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_FITTING_LENGTH_OF_THE_PROTECTION_TUBE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_FITTING_LENGTH_OF_THE_PROTECTION_TUBE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

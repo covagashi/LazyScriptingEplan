@@ -8,17 +8,12 @@ Creation date # 22983.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PART_CREATE_DATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PART_CREATE_DATE {
@@ -28,8 +23,7 @@ property PropertyValue^ PART_CREATE_DATE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

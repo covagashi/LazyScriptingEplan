@@ -8,21 +8,16 @@ Nominal rotation speed # 26469.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_RATED_SPEED( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_RATED_SPEED {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_RATED_SPEED {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

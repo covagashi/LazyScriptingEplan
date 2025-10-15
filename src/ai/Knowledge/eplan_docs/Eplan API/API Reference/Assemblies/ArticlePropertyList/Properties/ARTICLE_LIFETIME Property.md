@@ -8,17 +8,12 @@ Service time # 22142.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_LIFETIME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_LIFETIME {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_LIFETIME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

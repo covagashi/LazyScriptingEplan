@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.EObjects.PlugStrip](Eplan.EplApi.DataModelu~Epla
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlugStrip[] GetPlugStripsWithFilterScheme( 
 
    string strFilterScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 array<PlugStrip^>^ GetPlugStripsWithFilterScheme( 
@@ -30,8 +25,7 @@ array<PlugStrip^>^ GetPlugStripsWithFilterScheme(
    String^ strFilterScheme
 
 )
-```
-```
+
 
 #### Parameters
 

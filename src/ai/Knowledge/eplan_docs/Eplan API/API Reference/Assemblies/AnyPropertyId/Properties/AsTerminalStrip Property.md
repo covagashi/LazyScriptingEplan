@@ -8,17 +8,12 @@ Gets property id value as [Properties.TerminalStrip](Eplan.EplApi.DataModelu~Epl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.TerminalStrip AsTerminalStrip {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.TerminalStrip AsTerminalStrip {
@@ -26,5 +21,4 @@ property Properties.TerminalStrip AsTerminalStrip {
    Properties.TerminalStrip get();
 
 }
-```
-```
+

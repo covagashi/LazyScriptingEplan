@@ -8,11 +8,10 @@ Adds a new message associated with part number to the PartsDatabase message mana
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartsMessage AddMessage( 
 
    int nErrNr,
@@ -24,11 +23,7 @@ public MDPartsMessage AddMessage(
    string strPartVariant
 
 )
-```
-```
 
-```
-```
 public:
 
 MDPartsMessage^ AddMessage( 
@@ -42,8 +37,7 @@ MDPartsMessage^ AddMessage(
    String^ strPartVariant
 
 )
-```
-```
+
 
 #### Parameters
 

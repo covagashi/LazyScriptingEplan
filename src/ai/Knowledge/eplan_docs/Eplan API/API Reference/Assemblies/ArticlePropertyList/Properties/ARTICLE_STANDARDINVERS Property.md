@@ -8,17 +8,12 @@ Plugs: Standard / inverse # 22098.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_STANDARDINVERS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_STANDARDINVERS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_STANDARDINVERS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

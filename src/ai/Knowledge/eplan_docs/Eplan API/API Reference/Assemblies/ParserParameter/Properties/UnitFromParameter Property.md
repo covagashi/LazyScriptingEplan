@@ -8,17 +8,12 @@ Get if the unit needs extra parameter to get resolved. Use the project dependend
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool UnitFromParameter {get;}
-```
-```
 
-```
-```
 public:
 
 property bool UnitFromParameter {
@@ -26,5 +21,4 @@ property bool UnitFromParameter {
    bool get();
 
 }
-```
-```
+

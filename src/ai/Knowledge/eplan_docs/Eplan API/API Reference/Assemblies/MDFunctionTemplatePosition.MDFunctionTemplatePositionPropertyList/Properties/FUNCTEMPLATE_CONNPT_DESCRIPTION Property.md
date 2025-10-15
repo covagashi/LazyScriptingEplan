@@ -8,21 +8,16 @@ Connection point descriptions # 21007.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNCTEMPLATE_CONNPT_DESCRIPTION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNCTEMPLATE_CONNPT_DESCRIPTION {
@@ -32,8 +27,7 @@ property MDPropertyValue^ FUNCTEMPLATE_CONNPT_DESCRIPTION {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

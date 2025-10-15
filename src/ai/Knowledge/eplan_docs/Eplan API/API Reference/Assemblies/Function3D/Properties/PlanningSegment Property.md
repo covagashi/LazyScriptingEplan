@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningSegment PlanningSegment {get;}
-```
-```
 
-```
-```
 public:
 
 property PlanningSegment^ PlanningSegment {
@@ -26,8 +21,7 @@ property PlanningSegment^ PlanningSegment {
    PlanningSegment^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

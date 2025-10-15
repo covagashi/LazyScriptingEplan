@@ -8,17 +8,12 @@ Project's property which return full project documents' directory name
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string DocumentDirectory {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ DocumentDirectory {
@@ -26,8 +21,7 @@ property String^ DocumentDirectory {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

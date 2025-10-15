@@ -8,17 +8,12 @@ Type of construction: Dynamic seal # 26025.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TYPE_OF_DYNAMIC_SEAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TYPE_OF_DYNAMIC_SEAL {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TYPE_OF_DYNAMIC_SEAL {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

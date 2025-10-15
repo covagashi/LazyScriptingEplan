@@ -8,21 +8,16 @@ AuthenticationData constructor sets authentication data from existing object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public AuthenticationData( 
 
    AuthenticationData data
 
 )
-```
-```
 
-```
-```
 public:
 
 AuthenticationData( 
@@ -30,8 +25,7 @@ AuthenticationData(
    AuthenticationData^ data
 
 )
-```
-```
+
 
 #### Parameters
 

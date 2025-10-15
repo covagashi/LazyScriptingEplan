@@ -8,17 +8,12 @@ Power dissipation (per pole), current-dependent # 26159.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_POWER_LOSS_PER_POLE_CURRENT_DEPENDENT_PVIP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_POWER_LOSS_PER_POLE_CURRENT_DEPENDENT_PVIP {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_POWER_LOSS_PER_POLE_CURRENT_DEPENDENT_PVIP {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,22 +8,16 @@ Returns true, if group is valid if not, the group should be dissolved
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool IsGroupValid()
-```
-```
 
-```
-```
 public:
 
 virtual bool IsGroupValid();
-```
-```
+
 
 #### Return Value
 

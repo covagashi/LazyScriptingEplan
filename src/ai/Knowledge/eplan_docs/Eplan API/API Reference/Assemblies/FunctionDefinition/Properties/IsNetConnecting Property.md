@@ -8,17 +8,12 @@ Get flag whether a function is net-connecting
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsNetConnecting {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsNetConnecting {
@@ -26,5 +21,4 @@ property bool IsNetConnecting {
    bool get();
 
 }
-```
-```
+

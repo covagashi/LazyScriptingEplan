@@ -8,17 +8,12 @@ Gets property id value as [Properties.OptionGroup](Eplan.EplApi.DataModelu~Eplan
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.OptionGroup AsOptionGroup {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.OptionGroup AsOptionGroup {
@@ -26,5 +21,4 @@ property Properties.OptionGroup AsOptionGroup {
    Properties.OptionGroup get();
 
 }
-```
-```
+

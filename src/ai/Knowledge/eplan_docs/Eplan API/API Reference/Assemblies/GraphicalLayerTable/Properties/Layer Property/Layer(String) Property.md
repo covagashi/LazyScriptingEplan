@@ -8,21 +8,16 @@ Returns one the project's layer as GraphicalLayer object. If specified layer not
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public GraphicalLayer Layer( 
 
    string name
 
 ) {get;}
-```
-```
 
-```
-```
 public:
 
 property GraphicalLayer^ Layer {
@@ -30,8 +25,7 @@ property GraphicalLayer^ Layer {
    GraphicalLayer^ get(String^ name);
 
 }
-```
-```
+
 
 #### Parameters
 

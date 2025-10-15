@@ -8,21 +8,16 @@ Overload capability: Overcurrent # 26620.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_OVERLOAD_CAPACITY_OVERCURRENT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_OVERLOAD_CAPACITY_OVERCURRENT {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_OVERLOAD_CAPACITY_OVERCURRENT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

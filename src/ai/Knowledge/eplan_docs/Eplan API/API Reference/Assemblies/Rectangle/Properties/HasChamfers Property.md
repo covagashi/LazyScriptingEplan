@@ -8,17 +8,12 @@ Returns if the rectangle has chamfers.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool HasChamfers {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool HasChamfers {
@@ -28,8 +23,7 @@ virtual property bool HasChamfers {
    void set (    bool value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Returns whether an action is enabled
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool GetEnabled( 
 
    ActionCallingContext oCallingContext,
@@ -20,11 +19,7 @@ public bool GetEnabled(
    string strActionWithParameters
 
 )
-```
-```
 
-```
-```
 public:
 
 bool GetEnabled( 
@@ -34,8 +29,7 @@ bool GetEnabled(
    String^ strActionWithParameters
 
 )
-```
-```
+
 
 #### Parameters
 

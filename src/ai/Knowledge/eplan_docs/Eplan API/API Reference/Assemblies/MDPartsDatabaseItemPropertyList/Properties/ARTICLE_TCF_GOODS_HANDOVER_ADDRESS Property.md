@@ -8,17 +8,12 @@ TCF: Address for delivery of goods # 26605.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TCF_GOODS_HANDOVER_ADDRESS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TCF_GOODS_HANDOVER_ADDRESS {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TCF_GOODS_HANDOVER_ADDRESS {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns upper left corner of the rectangle.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD UpperLeft {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD UpperLeft {
@@ -26,5 +21,4 @@ property PointD UpperLeft {
    PointD get();
 
 }
-```
-```
+

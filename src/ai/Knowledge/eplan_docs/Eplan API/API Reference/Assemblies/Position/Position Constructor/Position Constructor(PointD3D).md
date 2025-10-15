@@ -8,21 +8,16 @@ constructor.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Position( 
 
    PointD3D pnt3D
 
 )
-```
-```
 
-```
-```
 public:
 
 Position( 
@@ -30,8 +25,7 @@ Position(
    PointD3D pnt3D
 
 )
-```
-```
+
 
 #### Parameters
 

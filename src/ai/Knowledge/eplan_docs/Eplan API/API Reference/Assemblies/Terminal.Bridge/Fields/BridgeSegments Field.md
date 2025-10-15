@@ -8,19 +8,13 @@ An array of all bridge connections (i.e. segments) that the bridge consists of.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Terminal.Bridge.BridgeInfo[] BridgeSegments
-```
-```
 
-```
-```
 public:
 
 array<Terminal.Bridge.BridgeInfo^>^ BridgeSegments
-```
-```
+

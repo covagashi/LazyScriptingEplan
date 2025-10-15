@@ -8,21 +8,16 @@ Opens a symbol library from system masterdata pool. Note: if this method returns
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Initialize( 
 
    string libraryName
 
 )
-```
-```
 
-```
-```
 public:
 
 bool Initialize( 
@@ -30,8 +25,7 @@ bool Initialize(
    String^ libraryName
 
 )
-```
-```
+
 
 #### Parameters
 

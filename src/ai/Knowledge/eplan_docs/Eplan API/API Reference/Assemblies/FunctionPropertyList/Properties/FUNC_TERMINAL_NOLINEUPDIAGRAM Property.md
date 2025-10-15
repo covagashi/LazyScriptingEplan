@@ -8,17 +8,12 @@ No output to terminal line-up diagram # 20859.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TERMINAL_NOLINEUPDIAGRAM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TERMINAL_NOLINEUPDIAGRAM {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TERMINAL_NOLINEUPDIAGRAM {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

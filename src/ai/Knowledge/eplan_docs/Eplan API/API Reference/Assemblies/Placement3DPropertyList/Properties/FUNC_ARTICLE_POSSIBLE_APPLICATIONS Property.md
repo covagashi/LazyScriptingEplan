@@ -8,21 +8,16 @@ Possible uses # 26290.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_POSSIBLE_APPLICATIONS( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_POSSIBLE_APPLICATIONS {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_POSSIBLE_APPLICATIONS {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

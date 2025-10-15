@@ -8,17 +8,12 @@ Spare quantity # 23206.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DEVICELISTENTRY_RESERVE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DEVICELISTENTRY_RESERVE {
@@ -28,8 +23,7 @@ property PropertyValue^ DEVICELISTENTRY_RESERVE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

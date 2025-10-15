@@ -8,17 +8,12 @@ Suitable for cable diameter # 26350.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SUITABLE_FOR_CABLE_DIAMETERS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SUITABLE_FOR_CABLE_DIAMETERS {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SUITABLE_FOR_CABLE_DIAMETERS {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

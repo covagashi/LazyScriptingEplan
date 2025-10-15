@@ -8,21 +8,16 @@ Constructor MDPropertyPlacementsSchemasList
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDSymbol.MDPropertyPlacementsSchemasList( 
 
    MDSymbol symbol
 
 )
-```
-```
 
-```
-```
 public:
 
 MDSymbol.MDPropertyPlacementsSchemasList( 
@@ -30,8 +25,7 @@ MDSymbol.MDPropertyPlacementsSchemasList(
    MDSymbol^ symbol
 
 )
-```
-```
+
 
 #### Parameters
 

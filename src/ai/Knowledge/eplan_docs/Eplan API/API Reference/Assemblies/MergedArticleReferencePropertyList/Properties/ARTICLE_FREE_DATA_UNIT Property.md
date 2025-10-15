@@ -8,21 +8,16 @@ Free properties: Unit # 22148.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_FREE_DATA_UNIT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_FREE_DATA_UNIT {
@@ -32,8 +27,7 @@ property PropertyValue^ ARTICLE_FREE_DATA_UNIT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

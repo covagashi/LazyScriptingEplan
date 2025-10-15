@@ -8,17 +8,12 @@ Name of icon displayed in tree view of the pre-planning navigator for this defin
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Image {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Image {
@@ -28,8 +23,7 @@ property String^ Image {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Exceptions
 

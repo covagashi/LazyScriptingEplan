@@ -8,17 +8,12 @@ Date and time of grace period start.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DateTimeOffset GracePeriodStartTime {get; set;}
-```
-```
 
-```
-```
 public:
 
 property DateTimeOffset GracePeriodStartTime {
@@ -28,5 +23,4 @@ property DateTimeOffset GracePeriodStartTime {
    void set (    DateTimeOffset value);
 
 }
-```
-```
+

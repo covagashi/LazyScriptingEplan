@@ -8,21 +8,16 @@ Constructor. Creates the MergedFunction object and initializes it to cover the f
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MergedFunction( 
 
    Function3D function
 
 )
-```
-```
 
-```
-```
 public:
 
 MergedFunction( 
@@ -30,8 +25,7 @@ MergedFunction(
    Function3D^ function
 
 )
-```
-```
+
 
 #### Parameters
 

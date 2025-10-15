@@ -8,17 +8,12 @@ Topology: Target of routing path # 20256.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLINGSEGMENT_DESTINATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLINGSEGMENT_DESTINATION {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLINGSEGMENT_DESTINATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -15,22 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MateEntry : Placement3D, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class MateEntry : public Placement3D, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
-
-
 
 Public Constructors
 
@@ -39,8 +30,6 @@ Public Constructors
 | Public Constructor | [MateEntry Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.MateEntry~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

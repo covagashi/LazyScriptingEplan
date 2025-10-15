@@ -8,11 +8,10 @@ Creates an angular DimensionItem on the given page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateAngular( 
 
    Page page,
@@ -24,11 +23,7 @@ public void CreateAngular(
    PointD pntEndDimPoint
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateAngular( 
@@ -42,8 +37,7 @@ void CreateAngular(
    PointD pntEndDimPoint
 
 )
-```
-```
+
 
 #### Parameters
 

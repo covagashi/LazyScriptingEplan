@@ -8,22 +8,16 @@ Copies external files into project images directory
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void StoreExternalFilesOfCurrentVariant()
-```
-```
 
-```
-```
 public:
 
 void StoreExternalFilesOfCurrentVariant();
-```
-```
+
 
 Remarks
 

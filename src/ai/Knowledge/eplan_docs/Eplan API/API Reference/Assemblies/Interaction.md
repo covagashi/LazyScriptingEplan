@@ -15,26 +15,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Interaction
-```
-```
 
-```
-```
 public ref class Interaction
-```
-```
+
 
 Example
 
 Here is an example of an Interaction class: Starting an interaction is done by action 'XGedStartInteractionAction' :
 
-- [C#](#i-tab-content-761e6715-a67d-42cf-8a58-bf0650b0d398)
+**C#**
 
 ```
 public class MyInteraction : Interaction
@@ -48,8 +42,6 @@ public class MyInteraction : Interaction
         return RequestCode.Point;
 
     }
-
-
 
     public override RequestCode OnPoint(Position oPosition)
 
@@ -71,8 +63,6 @@ public class MyInteraction : Interaction
 
     }
 
-
-
     public override void OnSuccess(InteractionContext oContext)
 
     {
@@ -83,24 +73,18 @@ public class MyInteraction : Interaction
 
     }
 
-
-
     private int m_iPoints = 0;
 
     private PointD[] m_arrPoints = new PointD[2];
 
 }
 
-
-
 ```
 
-- [C#](#i-tab-content-39af1028-2cd2-4015-b24e-c86f0131d7bf)
+**C#**
 
 ```
 string strAction = "XGedStartInteractionAction";
-
-
 
 ActionManager oActionManager = new ActionManager();
 
@@ -118,10 +102,6 @@ if (oAction != null)
 
 }
 
-
-
-
-
 ```
 
 Public Constructors
@@ -131,8 +111,6 @@ Public Constructors
 | Public Constructor | [Interaction Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Interaction~_ctor.html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

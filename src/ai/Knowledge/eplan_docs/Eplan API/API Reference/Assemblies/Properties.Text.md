@@ -8,20 +8,14 @@ Identificators of properties owned by Text class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.Text : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.Text : public System.Enum
-```
-```
+
 
 Members
 

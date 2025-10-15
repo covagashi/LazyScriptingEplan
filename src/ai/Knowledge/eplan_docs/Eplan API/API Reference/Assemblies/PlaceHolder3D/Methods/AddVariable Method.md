@@ -8,21 +8,16 @@ Adds a new variable to the Placeholder3D object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual int AddVariable( 
 
    string strVarName
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual int AddVariable( 
@@ -30,8 +25,7 @@ virtual int AddVariable(
    String^ strVarName
 
 )
-```
-```
+
 
 #### Parameters
 

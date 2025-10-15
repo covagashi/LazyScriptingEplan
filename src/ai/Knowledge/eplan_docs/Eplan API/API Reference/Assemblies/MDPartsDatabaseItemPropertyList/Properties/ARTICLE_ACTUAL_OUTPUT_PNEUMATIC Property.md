@@ -8,17 +8,12 @@ Actual power (pneumatic) # 26387.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_ACTUAL_OUTPUT_PNEUMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_ACTUAL_OUTPUT_PNEUMATIC {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_ACTUAL_OUTPUT_PNEUMATIC {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

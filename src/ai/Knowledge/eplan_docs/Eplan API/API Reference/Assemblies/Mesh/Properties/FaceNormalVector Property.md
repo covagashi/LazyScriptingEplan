@@ -8,21 +8,16 @@ Returns normal vector for face with a given id.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ValueType FaceNormalVector( 
 
    uint id
 
 ) {get;}
-```
-```
 
-```
-```
 public:
 
 property ValueType^ FaceNormalVector {
@@ -30,8 +25,7 @@ property ValueType^ FaceNormalVector {
    ValueType^ get(uint id);
 
 }
-```
-```
+
 
 #### Parameters
 

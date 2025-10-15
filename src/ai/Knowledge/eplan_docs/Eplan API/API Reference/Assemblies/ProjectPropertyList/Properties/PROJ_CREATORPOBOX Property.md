@@ -8,17 +8,12 @@ Creator: P.O. box # 10236.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_CREATORPOBOX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_CREATORPOBOX {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_CREATORPOBOX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

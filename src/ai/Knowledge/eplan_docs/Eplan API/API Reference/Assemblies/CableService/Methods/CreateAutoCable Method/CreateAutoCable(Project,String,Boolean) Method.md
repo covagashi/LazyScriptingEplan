@@ -8,11 +8,10 @@ Automatically generate cables in the given project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateAutoCable( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public void CreateAutoCable(
    bool bRegenrateConnections
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateAutoCable( 
@@ -38,8 +33,7 @@ void CreateAutoCable(
    bool bRegenrateConnections
 
 )
-```
-```
+
 
 #### Parameters
 

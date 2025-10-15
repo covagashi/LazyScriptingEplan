@@ -8,17 +8,12 @@ Height # 20222.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue RECTANGLE_HEIGHT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ RECTANGLE_HEIGHT {
@@ -28,8 +23,7 @@ property PropertyValue^ RECTANGLE_HEIGHT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Creates and inserts it into a group ContextPropertyPlacement which displays symb
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static ContextPropertyPlacement Create( 
 
    Group group,
@@ -20,11 +19,7 @@ public static ContextPropertyPlacement Create(
    AnyPropertyId propertyId
 
 )
-```
-```
 
-```
-```
 public:
 
 static ContextPropertyPlacement^ Create( 
@@ -34,8 +29,7 @@ static ContextPropertyPlacement^ Create(
    AnyPropertyId^ propertyId
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -51,7 +45,7 @@ the newly created ContextPropertyPlacement.
 
 Example
 
-- [C#](#i-tab-content-3ab9c866-73a7-428e-a7d8-0cd5acea21db)
+**C#**
 
 ```
 MDSymbolVariant variant = symbol.Variants[0];

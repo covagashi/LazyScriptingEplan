@@ -8,17 +8,12 @@ DXF export: Name of block # 16040.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMB_DXF_BLOCKNAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMB_DXF_BLOCKNAME {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMB_DXF_BLOCKNAME {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

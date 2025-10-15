@@ -8,11 +8,10 @@ Exports pages of one project as PDF file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void PdfPages( 
 
    ArrayList arrayPages,
@@ -30,11 +29,7 @@ public void PdfPages(
    bool bUsePrintMargins
 
 )
-```
-```
 
-```
-```
 public:
 
 void PdfPages( 
@@ -54,8 +49,7 @@ void PdfPages(
    bool bUsePrintMargins
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Zip code (P.O. box) # 22916.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue PART_ADDRESS_ZIPPOBOX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ PART_ADDRESS_ZIPPOBOX {
@@ -28,8 +23,7 @@ property MDPropertyValue^ PART_ADDRESS_ZIPPOBOX {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

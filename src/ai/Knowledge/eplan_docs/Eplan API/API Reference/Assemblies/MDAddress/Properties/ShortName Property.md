@@ -8,17 +8,12 @@ Returns the short name of the address. This short name combined with the Type of
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ShortName {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ShortName {
@@ -28,8 +23,7 @@ property String^ ShortName {
    void set (    String^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

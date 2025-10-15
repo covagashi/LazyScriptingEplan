@@ -8,17 +8,12 @@ Creator # 15503.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FCTDEFLIB_CREATOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FCTDEFLIB_CREATOR {
@@ -28,8 +23,7 @@ property PropertyValue^ FCTDEFLIB_CREATOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Voltage type # 22070.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_VOLTAGETYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_VOLTAGETYPE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_VOLTAGETYPE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

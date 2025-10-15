@@ -8,17 +8,11 @@ Disconnect from Eplan Server.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void Disconnect()
-```
-```
 
-```
-```
 void Disconnect();
-```
-```
+

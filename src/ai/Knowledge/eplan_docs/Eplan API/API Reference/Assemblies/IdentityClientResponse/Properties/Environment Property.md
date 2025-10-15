@@ -8,17 +8,12 @@ Environment information.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Environment {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Environment {
@@ -28,5 +23,4 @@ property String^ Environment {
    void set (    String^ value);
 
 }
-```
-```
+

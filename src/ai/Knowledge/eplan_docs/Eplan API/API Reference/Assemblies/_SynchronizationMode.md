@@ -6,20 +6,14 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum _SynchronizationMode : System.Enum
-```
-```
 
-```
-```
 public enum class _SynchronizationMode : public System.Enum
-```
-```
+
 
 Members
 

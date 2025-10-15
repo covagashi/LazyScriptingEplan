@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public sealed class UndoStep
-```
-```
 
-```
-```
 public ref class UndoStep sealed
-```
-```
+
 
 Remarks
 
@@ -36,7 +30,7 @@ Example
 
 UndoStep usage - only inside "using".
 
-- [C#](#i-tab-content-fbd37ffb-271b-4d7d-af37-e75a45fcbd3e)
+**C#**
 
 ```
 using (UndoStep undo = new UndoManager().CreateUndoStep())
@@ -57,10 +51,6 @@ using (UndoStep undo = new UndoManager().CreateUndoStep())
 
 }
 ```
-
-
-
-
 
 Public Methods
 

@@ -8,17 +8,12 @@ Returns value
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString Value {get;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ Value {
@@ -26,5 +21,4 @@ property MultiLangString^ Value {
    MultiLangString^ get();
 
 }
-```
-```
+

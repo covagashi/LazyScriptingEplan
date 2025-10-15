@@ -8,21 +8,16 @@ Gets all available product groups of a given product-top-group
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static MDPartsDatabaseItem.Enums.ProductGroup[] GetAvailableProductGroups( 
 
    MDPartsDatabaseItem.Enums.ProductTopGroup topGroup
 
 )
-```
-```
 
-```
-```
 public:
 
 static array<MDPartsDatabaseItem.Enums.ProductGroup>^ GetAvailableProductGroups( 
@@ -30,8 +25,7 @@ static array<MDPartsDatabaseItem.Enums.ProductGroup>^ GetAvailableProductGroups(
    MDPartsDatabaseItem.Enums.ProductTopGroup topGroup
 
 )
-```
-```
+
 
 #### Parameters
 

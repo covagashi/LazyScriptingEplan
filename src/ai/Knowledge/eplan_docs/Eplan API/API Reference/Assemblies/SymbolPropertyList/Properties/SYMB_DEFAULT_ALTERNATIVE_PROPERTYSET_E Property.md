@@ -8,17 +8,12 @@ Default property arrangement for variant E (alternative) # 16037.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMB_DEFAULT_ALTERNATIVE_PROPERTYSET_E {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMB_DEFAULT_ALTERNATIVE_PROPERTYSET_E {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMB_DEFAULT_ALTERNATIVE_PROPERTYSET_E {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

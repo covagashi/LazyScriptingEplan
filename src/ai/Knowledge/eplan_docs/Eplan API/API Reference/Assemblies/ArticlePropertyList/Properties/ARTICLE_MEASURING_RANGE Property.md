@@ -8,17 +8,12 @@ Measuring range # 26181.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_MEASURING_RANGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_MEASURING_RANGE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_MEASURING_RANGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Range between the smallest and largest value within which a measuring instrument or sensor can carry out precise measurements. Example: In the case of a temperature sensor with a measuring range of -50 Â°C to +150 Â°C, the sensor can measure temperatures within this range precisely.
+Range between the smallest and largest value within which a measuring instrument or sensor can carry out precise measurements. Example: In the case of a temperature sensor with a measuring range of -50 °C to +150 °C, the sensor can measure temperatures within this range precisely.

@@ -8,17 +8,12 @@ Change protection (hierarchical) # 3015.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue WRITEPROTECTED_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ WRITEPROTECTED_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ WRITEPROTECTED_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Determines whether new message can be duplicated in collection. Default value is
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ReuseMessages {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool ReuseMessages {
@@ -28,8 +23,7 @@ property bool ReuseMessages {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

@@ -8,11 +8,10 @@ Places a window macro with a given mate to another mate. That means, that the po
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] WindowMacro( 
 
    WindowMacro oMacro,
@@ -36,11 +35,7 @@ public StorableObject[] WindowMacro(
    bool bUseSourceMateOnPlacementArea
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ WindowMacro( 
@@ -66,8 +61,7 @@ array<StorableObject^>^ WindowMacro(
    bool bUseSourceMateOnPlacementArea
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ For internal use only.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Progress( 
 
    EProgress* pProgress
 
 )
-```
-```
 
-```
-```
 public:
 
 Progress( 
@@ -30,8 +25,7 @@ Progress(
    EProgress* pProgress
 
 )
-```
-```
+
 
 #### Parameters
 

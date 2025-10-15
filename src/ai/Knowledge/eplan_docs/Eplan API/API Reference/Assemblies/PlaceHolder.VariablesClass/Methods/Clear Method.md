@@ -8,19 +8,13 @@ Removes variables from a placeholder
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Clear()
-```
-```
 
-```
-```
 public:
 
 virtual void Clear();
-```
-```
+

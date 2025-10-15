@@ -8,21 +8,16 @@ initializes the enumerator for iterating over the project messages collection
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetProject( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetProject( 
@@ -30,8 +25,7 @@ void SetProject(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

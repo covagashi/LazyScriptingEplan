@@ -8,17 +8,12 @@ Power supply # 20184.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCISPOWERSUPPLY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCISPOWERSUPPLY {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCISPOWERSUPPLY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

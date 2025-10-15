@@ -8,17 +8,12 @@ Returs the list of translation database languages.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public LanguageList Languages {get;}
-```
-```
 
-```
-```
 public:
 
 property LanguageList^ Languages {
@@ -26,8 +21,7 @@ property LanguageList^ Languages {
    LanguageList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

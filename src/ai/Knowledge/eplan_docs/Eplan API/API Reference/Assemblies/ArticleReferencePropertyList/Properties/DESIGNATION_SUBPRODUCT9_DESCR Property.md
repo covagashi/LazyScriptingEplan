@@ -8,17 +8,12 @@ Product (sub-identifier 9): Description # 1839.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_SUBPRODUCT9_DESCR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_SUBPRODUCT9_DESCR {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_SUBPRODUCT9_DESCR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

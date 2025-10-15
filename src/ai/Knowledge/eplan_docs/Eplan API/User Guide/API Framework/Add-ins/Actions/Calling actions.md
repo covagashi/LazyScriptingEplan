@@ -10,8 +10,8 @@ In order to create an  Action  object, you need to know the action by its name
 
 To pass and evaluate action parameters, you need the  ActionCallingContext  class:
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
@@ -47,11 +47,6 @@ if (oAction != null)
     }
 
 }
-
-```
-
-```
-
 
 Dim strAction As String = "TestAction"
 
@@ -114,16 +109,16 @@ List of general command line parameters evaluated by Eplan:
 | /Language:en\_us | Eplan is started with GUI language "English". The language predefined in the settings of Eplan will not be changed. |
 | /Auto | Eplan is shut down after executing the command line. |
 | /Quiet | No dialogs are shown while a command line is being executed. |
-| /Frame:0 | - /Frame:0 â The Eplan main frame is invisible - /Frame:1 â The Eplan main frame is restored to its original size and position - /Frame:2 â The Eplan main frame is started minimized - /Frame:3 â The Eplan main frame is started maximized |
+| /Frame:0 | - /Frame:0 ' The Eplan main frame is invisible - /Frame:1 ' The Eplan main frame is restored to its original size and position - /Frame:2 ' The Eplan main frame is started minimized - /Frame:3 ' The Eplan main frame is started maximized |
 | /Setup | All Settings are restored to their installation default |
-| <action name> | The action will be executed, all following parameters (starting with  /  or  â) are passed to the action as parameters. |
+| <action name> | The action will be executed, all following parameters (starting with  /  or  ') are passed to the action as parameters. |
 
 Any command line parameter after the action name is passed as parameter to the action. The parameters are wrapped into an  ActionCallingContext  as string parameters and can be extracted by the action. Please note that the parameter names on the command line and in the  ActionCallingContext  must be spelled in the exactly the same:
 
 EPLAN.EXE /Variant:"Electric P8" action /Param1:value1 /Param2:value2 /Param3:value3 
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
@@ -147,11 +142,6 @@ public bool Execute(ActionCallingContext ctx )
    return true;
 
 }
-
-```
-
-```
-
 
 Public Function Execute(ctx As ActionCallingContext) As Boolean Implements IEplAction
 

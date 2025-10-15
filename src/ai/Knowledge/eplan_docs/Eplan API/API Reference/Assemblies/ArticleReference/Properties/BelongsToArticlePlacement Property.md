@@ -8,17 +8,12 @@ Returns true, if the article reference contains to an article placement
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool BelongsToArticlePlacement {get;}
-```
-```
 
-```
-```
 public:
 
 property bool BelongsToArticlePlacement {
@@ -26,5 +21,4 @@ property bool BelongsToArticlePlacement {
    bool get();
 
 }
-```
-```
+

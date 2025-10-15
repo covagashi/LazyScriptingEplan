@@ -8,21 +8,16 @@ External document: Designation # 22279.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_EXTERNAL_DOCUMENT_DESIGNATION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_EXTERNAL_DOCUMENT_DESIGNATION {
@@ -32,8 +27,7 @@ property MDPropertyValue^ ARTICLE_EXTERNAL_DOCUMENT_DESIGNATION {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

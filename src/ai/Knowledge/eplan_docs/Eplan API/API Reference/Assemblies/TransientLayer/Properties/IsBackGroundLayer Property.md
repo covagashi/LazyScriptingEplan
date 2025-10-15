@@ -8,17 +8,12 @@ Specifies, if the Layer is background Layer
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsBackGroundLayer {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsBackGroundLayer {
@@ -26,8 +21,7 @@ property bool IsBackGroundLayer {
    bool get();
 
 }
-```
-```
+
 
 Remarks
 

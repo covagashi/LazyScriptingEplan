@@ -8,17 +8,12 @@ PLC station: Type # 20409.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCSTATIONTYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCSTATIONTYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCSTATIONTYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

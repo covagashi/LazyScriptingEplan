@@ -6,12 +6,10 @@
 
 The easiest way to use Eplan API objects in your program is to directly use the functionally of the API DLLs in your code. It is even easier, if your program is a .NET application: You just reference the managed Eplan API assemblies in your project. This type of application, we call an "**offline application**".
 
+Then ' in the appropriate place (e.g. in the main form) ' you create an instance of the  Eplan.EplApi.System.EplApplication  class and initialize it:
 
-
-Then â in the appropriate place (e.g. in the main form) â you create an instance of the  Eplan.EplApi.System.EplApplication  class and initialize it:
-
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
@@ -37,11 +35,6 @@ public MainForm()
    m_oEplApp.Init(strAppModifier);
 
 }
-
-```
-
-```
-
 
 Private m_oEplApp As Eplan.EplApi.System.EplApplication
 
@@ -107,10 +100,8 @@ You can make sure, the API assemblies are loaded from the correct  BIN  direct
 1. This is the easiest way: You can just copy the executable of your offline application to the  <Eplan main path>\Platform\<version>\BIN  folder.
 2. Use Eplan API offline wizard. Then your assemblies will be bound to the correct Eplan variant by means of the  Eplan.EplApi.Starter  library:
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- // Use the finder to find the correct Eplan version if not yet known
+```csharp
+// Use the finder to find the correct Eplan version if not yet known
  EplanFinder oEplanFinder = new EplanFinder();
  String strBinPath = oEplanFinder.SelectEplanVersion(true);
  
@@ -129,7 +120,7 @@ You can make sure, the API assemblies are loaded from the correct  BIN  direct
  Form1 oForm = new Form1();
  oForm.EplanBinFolder = oResolver.GetEplanBinPath();
  Application.Run(oForm);
- ``` | |
+```
 
 3. Publish the codebases of all needed API assemblies in the application  config  file. (An XML file, which is named like your executable with an additional extension  .config, e.g. "MyApplication.exe.config"). The following code shows an example for the contents of such a config file.
 
@@ -177,10 +168,8 @@ You can make sure, the API assemblies are loaded from the correct  BIN  direct
 
 > 4. Last but not least, you can implement an  AssemblyResolve  event handler in your offline application, where you explicitly load the assemblies you are looking for. You will also need to set the current directory of the application to the respective  BIN  directory. The following code shows an example for this:
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
-         [STAThread]
+```csharp
+[STAThread]
          static void Main()
          {
              Application.EnableVisualStyles();
@@ -199,7 +188,7 @@ You can make sure, the API assemblies are loaded from the correct  BIN  direct
              return ass ;
          }
      }
- ``` | |
+```
 
 In Visual Studio Tools for Office (**VSTO**) projects, the assembly resolver or the application  config  file is not working. Office still tries to copy the Eplan API assemblies to a temporary folder before loading. VSTO applications will only work, if you set the codebases of the API assemblies in the  machine.config  file, which is usually located in the  C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\CONFIG  directory.
 

@@ -8,17 +8,12 @@ Motor nominal power # 26462.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_NOMINAL_MOTOR_POWER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_NOMINAL_MOTOR_POWER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_NOMINAL_MOTOR_POWER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

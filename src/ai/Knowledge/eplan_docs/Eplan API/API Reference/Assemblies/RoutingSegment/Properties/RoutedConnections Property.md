@@ -8,17 +8,12 @@ Connection which are routed by this segment.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Connection3D[] RoutedConnections {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Connection3D^>^ RoutedConnections {
@@ -26,5 +21,4 @@ property array<Connection3D^>^ RoutedConnections {
    array<Connection3D^>^ get();
 
 }
-```
-```
+

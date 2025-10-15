@@ -8,17 +8,12 @@ DT: Application # 20155.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DT_FUNCTIONCODE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DT_FUNCTIONCODE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DT_FUNCTIONCODE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

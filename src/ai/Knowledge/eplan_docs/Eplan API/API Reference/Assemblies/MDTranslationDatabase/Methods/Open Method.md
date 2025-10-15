@@ -8,21 +8,16 @@ Opens translation database using user settings.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Open( 
 
    bool bReadOnly
 
 )
-```
-```
 
-```
-```
 public:
 
 bool Open( 
@@ -30,8 +25,7 @@ bool Open(
    bool bReadOnly
 
 )
-```
-```
+
 
 #### Parameters
 

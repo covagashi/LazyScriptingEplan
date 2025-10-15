@@ -8,11 +8,10 @@ Imports symbol library
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ImportSymbolLibrary( 
 
    string strSource,
@@ -20,11 +19,7 @@ public void ImportSymbolLibrary(
    string strDestination
 
 )
-```
-```
 
-```
-```
 public:
 
 void ImportSymbolLibrary( 
@@ -34,8 +29,7 @@ void ImportSymbolLibrary(
    String^ strDestination
 
 )
-```
-```
+
 
 #### Parameters
 

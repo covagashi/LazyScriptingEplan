@@ -8,17 +8,12 @@ Watermark (revision) # 11003.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_REVISION_WATERMARK {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_REVISION_WATERMARK {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_REVISION_WATERMARK {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

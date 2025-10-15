@@ -8,17 +8,12 @@ PLC subdevice 1: Start address (outputs) # 20608.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCGROUP_STARTADDRESS_1_OUTPUTS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCGROUP_STARTADDRESS_1_OUTPUTS {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCGROUP_STARTADDRESS_1_OUTPUTS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

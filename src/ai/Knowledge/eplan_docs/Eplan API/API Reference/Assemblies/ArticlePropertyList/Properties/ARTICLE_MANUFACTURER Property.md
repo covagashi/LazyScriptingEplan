@@ -8,17 +8,12 @@ Manufacturer # 22007.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_MANUFACTURER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_MANUFACTURER {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_MANUFACTURER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

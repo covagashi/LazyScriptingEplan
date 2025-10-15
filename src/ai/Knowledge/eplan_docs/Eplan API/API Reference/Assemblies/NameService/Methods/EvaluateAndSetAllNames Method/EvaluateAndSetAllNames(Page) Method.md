@@ -8,21 +8,16 @@ Sets the page and evaluates the full name for all placed functions and interrupt
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool EvaluateAndSetAllNames( 
 
    Page pPage
 
 )
-```
-```
 
-```
-```
 public:
 
 bool EvaluateAndSetAllNames( 
@@ -30,8 +25,7 @@ bool EvaluateAndSetAllNames(
    Page^ pPage
 
 )
-```
-```
+
 
 #### Parameters
 

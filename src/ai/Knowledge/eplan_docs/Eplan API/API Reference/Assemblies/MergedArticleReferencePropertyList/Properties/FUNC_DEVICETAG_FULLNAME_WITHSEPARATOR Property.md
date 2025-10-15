@@ -8,17 +8,12 @@ Name (without project structures, with preceding sign) # 20214.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DEVICETAG_FULLNAME_WITHSEPARATOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DEVICETAG_FULLNAME_WITHSEPARATOR {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DEVICETAG_FULLNAME_WITHSEPARATOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

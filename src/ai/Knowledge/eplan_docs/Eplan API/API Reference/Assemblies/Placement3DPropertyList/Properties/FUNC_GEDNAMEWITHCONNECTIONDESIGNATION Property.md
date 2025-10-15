@@ -8,17 +8,12 @@ Connection point designation (with displayed DT) # 20036.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_GEDNAMEWITHCONNECTIONDESIGNATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_GEDNAMEWITHCONNECTIONDESIGNATION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_GEDNAMEWITHCONNECTIONDESIGNATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

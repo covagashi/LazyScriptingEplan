@@ -8,19 +8,13 @@ Closes the library. Note: Should be used only if this object was initialized wit
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Close()
-```
-```
 
-```
-```
 public:
 
 void Close();
-```
-```
+

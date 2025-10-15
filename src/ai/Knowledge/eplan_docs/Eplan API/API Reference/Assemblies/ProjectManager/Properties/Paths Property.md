@@ -8,17 +8,12 @@ Returns [PathInfo](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PathInfo.html)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PathInfo Paths {get;}
-```
-```
 
-```
-```
 public:
 
 property PathInfo^ Paths {
@@ -26,8 +21,7 @@ property PathInfo^ Paths {
    PathInfo^ get();
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -35,7 +29,7 @@ New [PathInfo](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PathInfo.html) obj
 
 Example
 
-- [C#](#i-tab-content-c69c70ac-f068-472d-8095-97908416df60)
+**C#**
 
 ```
 string defaultProjectPath = new ProjectManager().Paths.Projects;

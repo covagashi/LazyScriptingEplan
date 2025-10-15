@@ -8,17 +8,12 @@ Function definition: Group # 20116.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_GROUP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_GROUP {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_GROUP {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

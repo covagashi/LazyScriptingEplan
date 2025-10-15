@@ -8,17 +8,12 @@ Device description: Index in file # 20381.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCDEVICE_INDEX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCDEVICE_INDEX {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCDEVICE_INDEX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

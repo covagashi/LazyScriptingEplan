@@ -8,17 +8,12 @@ Property to get or set tooltip of the button, multilanguage. If set it is used i
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString MultiLangTooltip {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ MultiLangTooltip {
@@ -28,5 +23,4 @@ property MultiLangString^ MultiLangTooltip {
    void set (    MultiLangString^ value);
 
 }
-```
-```
+

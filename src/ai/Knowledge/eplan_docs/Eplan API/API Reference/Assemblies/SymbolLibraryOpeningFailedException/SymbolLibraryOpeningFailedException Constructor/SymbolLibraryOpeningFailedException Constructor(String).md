@@ -8,21 +8,16 @@ Constructor with the name of a symbol library being opened.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolLibraryOpeningFailedException( 
 
    string symbolLibName
 
 )
-```
-```
 
-```
-```
 public:
 
 SymbolLibraryOpeningFailedException( 
@@ -30,8 +25,7 @@ SymbolLibraryOpeningFailedException(
    String^ symbolLibName
 
 )
-```
-```
+
 
 #### Parameters
 

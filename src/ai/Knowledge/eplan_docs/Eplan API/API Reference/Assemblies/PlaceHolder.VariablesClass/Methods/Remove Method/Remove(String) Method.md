@@ -8,21 +8,16 @@ Removes a variable
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Remove( 
 
    string strVariable
 
 )
-```
-```
 
-```
-```
 public:
 
 bool Remove( 
@@ -30,8 +25,7 @@ bool Remove(
    String^ strVariable
 
 )
-```
-```
+
 
 #### Parameters
 

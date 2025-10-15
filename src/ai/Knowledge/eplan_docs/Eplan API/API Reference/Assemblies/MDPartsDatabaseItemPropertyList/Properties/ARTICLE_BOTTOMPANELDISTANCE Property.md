@@ -8,17 +8,12 @@ Distance base # 22185.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_BOTTOMPANELDISTANCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_BOTTOMPANELDISTANCE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_BOTTOMPANELDISTANCE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

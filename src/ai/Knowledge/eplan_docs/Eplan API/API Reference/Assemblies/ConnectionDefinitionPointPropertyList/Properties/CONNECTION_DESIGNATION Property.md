@@ -8,17 +8,12 @@ Connection designation # 31011.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_DESIGNATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_DESIGNATION {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_DESIGNATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

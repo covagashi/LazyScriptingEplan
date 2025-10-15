@@ -8,20 +8,14 @@ Possible ways of scaling.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ViewScaleType : System.Enum
-```
-```
 
-```
-```
 public enum class ViewScaleType : public System.Enum
-```
-```
+
 
 Members
 

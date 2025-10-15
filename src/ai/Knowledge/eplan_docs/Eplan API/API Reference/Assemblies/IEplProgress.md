@@ -8,25 +8,13 @@ Interface declaration for a progress. When a progress is to be registered for an
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IEplProgress
-```
-```
 
-```
-```
 public interface class IEplProgress
-```
-```
-
-
-
-
-
 
 Public Methods
 

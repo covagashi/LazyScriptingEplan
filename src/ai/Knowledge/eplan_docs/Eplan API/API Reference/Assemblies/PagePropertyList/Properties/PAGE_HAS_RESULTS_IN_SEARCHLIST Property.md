@@ -8,17 +8,12 @@ Contains results in the search results list # 11045.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_HAS_RESULTS_IN_SEARCHLIST {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_HAS_RESULTS_IN_SEARCHLIST {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_HAS_RESULTS_IN_SEARCHLIST {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Macro: Directory # 23015.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue MACROBOX_DIRECTORY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ MACROBOX_DIRECTORY {
@@ -28,8 +23,7 @@ property PropertyValue^ MACROBOX_DIRECTORY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

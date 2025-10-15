@@ -8,17 +8,12 @@ Subslot # 20312.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLC_SUBSLOT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLC_SUBSLOT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLC_SUBSLOT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

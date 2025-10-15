@@ -8,17 +8,12 @@ Fluid / process engineering Wall thickness of the connection # 22275.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_FLUID_WALLTHICKNESS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_FLUID_WALLTHICKNESS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_FLUID_WALLTHICKNESS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

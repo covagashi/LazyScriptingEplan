@@ -8,21 +8,16 @@ Default constructor.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public VesselPropertyList( 
 
    Vessel pSegment
 
 )
-```
-```
 
-```
-```
 public:
 
 VesselPropertyList( 
@@ -30,8 +25,7 @@ VesselPropertyList(
    Vessel^ pSegment
 
 )
-```
-```
+
 
 #### Parameters
 

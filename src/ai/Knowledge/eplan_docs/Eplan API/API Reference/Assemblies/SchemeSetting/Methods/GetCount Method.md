@@ -8,22 +8,16 @@ Returns the number of various schemes in this scheme.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int GetCount()
-```
-```
 
-```
-```
 public:
 
 int GetCount();
-```
-```
+
 
 #### Return Value
 

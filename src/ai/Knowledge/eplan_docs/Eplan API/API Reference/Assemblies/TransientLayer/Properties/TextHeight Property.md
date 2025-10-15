@@ -8,17 +8,12 @@ Layer's text height
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double TextHeight {get;}
-```
-```
 
-```
-```
 public:
 
 property double TextHeight {
@@ -26,5 +21,4 @@ property double TextHeight {
    double get();
 
 }
-```
-```
+

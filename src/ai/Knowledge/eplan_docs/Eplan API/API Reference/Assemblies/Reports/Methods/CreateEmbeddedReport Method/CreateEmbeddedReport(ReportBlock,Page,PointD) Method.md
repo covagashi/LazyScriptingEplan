@@ -8,11 +8,10 @@ Creates embedded report.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ReportBlockReference CreateEmbeddedReport( 
 
    ReportBlock oReportBlock,
@@ -22,11 +21,7 @@ public ReportBlockReference CreateEmbeddedReport(
    PointD oLocation
 
 )
-```
-```
 
-```
-```
 public:
 
 ReportBlockReference^ CreateEmbeddedReport( 
@@ -38,8 +33,7 @@ ReportBlockReference^ CreateEmbeddedReport(
    PointD oLocation
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -76,7 +70,7 @@ Example
 
 Example shows how to create an embedded report on page:
 
-- [C#](#i-tab-content-70f9eb84-43b0-463d-8621-715e0d955f5d)
+**C#**
 
 ```
 String strForm = "F01_002.f01";
@@ -96,7 +90,5 @@ oReport.FilterSchemaName = "Project part";
 //oReport.FilterSchemaData = null;
 
 ReportBlockReference oReportBlockReference = new Reports().CreateEmbeddedReport(oReport);
-
-
 
 ```

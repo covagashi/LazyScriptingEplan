@@ -8,17 +8,12 @@ PLC diagram form # 20187.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCDIAGRAM_FORM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCDIAGRAM_FORM {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCDIAGRAM_FORM {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

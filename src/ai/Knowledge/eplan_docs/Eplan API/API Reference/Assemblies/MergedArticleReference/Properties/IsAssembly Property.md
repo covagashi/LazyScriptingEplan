@@ -8,17 +8,12 @@ Returns true if this compound is an articles assembly.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsAssembly {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsAssembly {
@@ -26,5 +21,4 @@ property bool IsAssembly {
    bool get();
 
 }
-```
-```
+

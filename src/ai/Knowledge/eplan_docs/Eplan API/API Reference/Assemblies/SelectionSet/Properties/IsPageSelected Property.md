@@ -8,17 +8,12 @@ Determines whether a page is selected.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsPageSelected {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsPageSelected {
@@ -26,8 +21,7 @@ property bool IsPageSelected {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

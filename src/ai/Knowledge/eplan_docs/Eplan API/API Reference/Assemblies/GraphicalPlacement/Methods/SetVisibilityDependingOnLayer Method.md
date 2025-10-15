@@ -8,19 +8,13 @@ This method sets the visibility of the graphical instance to depend on the layer
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void SetVisibilityDependingOnLayer()
-```
-```
 
-```
-```
 public:
 
 virtual void SetVisibilityDependingOnLayer();
-```
-```
+

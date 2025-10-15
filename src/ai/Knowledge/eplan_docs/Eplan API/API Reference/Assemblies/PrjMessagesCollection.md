@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PrjMessagesCollection
-```
-```
 
-```
-```
 public ref class PrjMessagesCollection
-```
-```
+
 
 Remarks
 
 Adding message to or removing messages from this collection, will update the messages visible in message management of EPLAN.
-
-
 
 Public Constructors
 
@@ -41,8 +33,6 @@ Public Constructors
 | Public Constructor | [PrjMessagesCollection Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesCollection~_ctor(Project).html) | constructor. initializes the matching enumerator. |
 
 [Top](#top)
-
-
 
 Public Properties
 

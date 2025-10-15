@@ -8,28 +8,22 @@ Deletes a record.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void DeleteRecord( 
 
    string strRecordName
 
 )
-```
-```
 
-```
-```
 void DeleteRecord( 
 
    String^ strRecordName
 
 )
-```
-```
+
 
 #### Parameters
 

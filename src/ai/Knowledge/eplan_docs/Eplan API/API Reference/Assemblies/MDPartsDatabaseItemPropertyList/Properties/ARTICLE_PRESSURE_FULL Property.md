@@ -8,17 +8,12 @@ Max. working pressure (full) # 22230.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PRESSURE_FULL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PRESSURE_FULL {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PRESSURE_FULL {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

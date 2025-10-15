@@ -8,17 +8,12 @@ The parts database that is currently used.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartsDatabase SelectedPartsDatabase {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPartsDatabase^ SelectedPartsDatabase {
@@ -28,8 +23,7 @@ property MDPartsDatabase^ SelectedPartsDatabase {
    void set (    MDPartsDatabase^ value);
 
 }
-```
-```
+
 
 Remarks
 

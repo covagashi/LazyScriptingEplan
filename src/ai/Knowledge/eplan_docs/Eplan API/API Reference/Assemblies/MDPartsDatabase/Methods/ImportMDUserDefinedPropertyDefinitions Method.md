@@ -8,21 +8,16 @@ Imports parts user defined properties.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ImportMDUserDefinedPropertyDefinitions( 
 
    string strImportFilePath
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ImportMDUserDefinedPropertyDefinitions( 
@@ -30,8 +25,7 @@ bool ImportMDUserDefinedPropertyDefinitions(
    String^ strImportFilePath
 
 )
-```
-```
+
 
 #### Parameters
 

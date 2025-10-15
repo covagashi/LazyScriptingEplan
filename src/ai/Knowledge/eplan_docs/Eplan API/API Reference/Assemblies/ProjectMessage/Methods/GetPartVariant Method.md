@@ -8,19 +8,13 @@ Returns the part variant associated to the message if any.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override string GetPartVariant()
-```
-```
 
-```
-```
 public:
 
 String^ GetPartVariant(); override
-```
-```
+

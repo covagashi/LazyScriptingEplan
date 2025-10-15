@@ -8,17 +8,12 @@ Supply voltage (AC 60 Hz) # 26165.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SUPPLY_VOLTAGE_AT_AC_60_HZ {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SUPPLY_VOLTAGE_AT_AC_60_HZ {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SUPPLY_VOLTAGE_AT_AC_60_HZ {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

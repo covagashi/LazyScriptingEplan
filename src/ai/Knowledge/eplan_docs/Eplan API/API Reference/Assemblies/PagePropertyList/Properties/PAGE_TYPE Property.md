@@ -8,17 +8,12 @@ Page type # 11017.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_TYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_TYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_TYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Constructor. When object is created with this constructor, its `create` method m
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TerminalStrip( 
 
    DMFunctionHandle* handle
 
 )
-```
-```
 
-```
-```
 public:
 
 TerminalStrip( 
@@ -30,8 +25,7 @@ TerminalStrip(
    DMFunctionHandle* handle
 
 )
-```
-```
+
 
 #### Parameters
 

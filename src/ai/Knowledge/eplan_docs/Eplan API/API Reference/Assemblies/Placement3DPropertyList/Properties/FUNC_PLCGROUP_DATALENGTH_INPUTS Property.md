@@ -8,17 +8,12 @@ PLC device: Data length (inputs) # 20548.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCGROUP_DATALENGTH_INPUTS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCGROUP_DATALENGTH_INPUTS {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCGROUP_DATALENGTH_INPUTS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

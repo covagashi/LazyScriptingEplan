@@ -8,17 +8,12 @@ Target: Target number # 31024.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_NR_DESTINATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_NR_DESTINATION {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_NR_DESTINATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

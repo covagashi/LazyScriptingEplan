@@ -8,17 +8,12 @@ Gets/sets the Star source property
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsStarSource {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsStarSource {
@@ -28,8 +23,7 @@ property bool IsStarSource {
    void set (    bool value);
 
 }
-```
-```
+
 
 #### Property Value
 

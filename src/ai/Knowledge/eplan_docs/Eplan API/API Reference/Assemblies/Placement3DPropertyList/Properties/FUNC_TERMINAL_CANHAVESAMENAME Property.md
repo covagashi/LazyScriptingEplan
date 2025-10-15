@@ -8,17 +8,12 @@ Allow same designations # 20811.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TERMINAL_CANHAVESAMENAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TERMINAL_CANHAVESAMENAME {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TERMINAL_CANHAVESAMENAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

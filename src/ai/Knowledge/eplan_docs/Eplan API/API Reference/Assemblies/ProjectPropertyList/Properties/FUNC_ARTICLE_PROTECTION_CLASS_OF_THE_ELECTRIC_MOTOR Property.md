@@ -8,21 +8,16 @@ Protection type class (motor) # 26566.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_PROTECTION_CLASS_OF_THE_ELECTRIC_MOTOR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_PROTECTION_CLASS_OF_THE_ELECTRIC_MOTOR {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_PROTECTION_CLASS_OF_THE_ELECTRIC_MOTOR {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

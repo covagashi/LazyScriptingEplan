@@ -8,17 +8,12 @@ Specifies, if the layer is locked
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool isLocked {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool isLocked {
@@ -28,8 +23,7 @@ property bool isLocked {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

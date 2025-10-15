@@ -8,11 +8,10 @@ Determines all settings nodes.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override void GetListOfNodes( 
 
    ref StringCollection colOfNodes,
@@ -20,11 +19,7 @@ public override void GetListOfNodes(
    bool bAbsolutPath
 
 )
-```
-```
 
-```
-```
 public:
 
 void GetListOfNodes( 
@@ -34,8 +29,7 @@ void GetListOfNodes(
    bool bAbsolutPath
 
 ) override
-```
-```
+
 
 #### Parameters
 

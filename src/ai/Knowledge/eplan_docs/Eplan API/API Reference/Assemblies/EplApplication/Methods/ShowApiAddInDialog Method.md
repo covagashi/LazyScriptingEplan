@@ -8,22 +8,16 @@ Displays the Eplan API add-ins dialog.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ShowApiAddInDialog()
-```
-```
 
-```
-```
 public:
 
 void ShowApiAddInDialog();
-```
-```
+
 
 Remarks
 

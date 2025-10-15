@@ -8,17 +8,12 @@ Returns set of local templates assigned to this object or to its segment templat
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] LocalTemplates {get;}
-```
-```
 
-```
-```
 public:
 
 property array<StorableObject^>^ LocalTemplates {
@@ -26,8 +21,7 @@ property array<StorableObject^>^ LocalTemplates {
    array<StorableObject^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

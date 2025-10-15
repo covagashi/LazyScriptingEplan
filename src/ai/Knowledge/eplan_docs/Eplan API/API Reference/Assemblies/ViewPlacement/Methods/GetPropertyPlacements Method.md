@@ -8,22 +8,16 @@ Gets list of property placements.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public List<PropertyPlacement> GetPropertyPlacements()
-```
-```
 
-```
-```
 public:
 
 List<PropertyPlacement^>^ GetPropertyPlacements();
-```
-```
+
 
 #### Return Value
 

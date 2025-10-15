@@ -8,11 +8,10 @@ Execute this work in a asynchronous main thread.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExecuteInMainThreadAsync( 
 
    ExecuteInEplanMainThreadDelegate2 pExecuteDelegate,
@@ -22,11 +21,7 @@ public void ExecuteInMainThreadAsync(
    object y
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExecuteInMainThreadAsync( 
@@ -38,8 +33,7 @@ void ExecuteInMainThreadAsync(
    Object^ y
 
 )
-```
-```
+
 
 #### Parameters
 

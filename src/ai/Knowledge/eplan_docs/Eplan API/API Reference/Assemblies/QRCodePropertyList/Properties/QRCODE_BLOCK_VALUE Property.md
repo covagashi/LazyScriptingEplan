@@ -8,17 +8,12 @@ Block property: Value # 19621.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue QRCODE_BLOCK_VALUE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ QRCODE_BLOCK_VALUE {
@@ -28,8 +23,7 @@ property PropertyValue^ QRCODE_BLOCK_VALUE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

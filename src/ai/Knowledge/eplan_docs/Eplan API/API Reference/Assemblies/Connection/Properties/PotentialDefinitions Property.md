@@ -8,17 +8,12 @@ Returns the [PotentialDefinition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PotentialDefinition[] PotentialDefinitions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<PotentialDefinition^>^ PotentialDefinitions {
@@ -26,8 +21,7 @@ property array<PotentialDefinition^>^ PotentialDefinitions {
    array<PotentialDefinition^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new RoutingAccessoryPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property RoutingAccessoryPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property RoutingAccessoryPropertyList^ Properties {
    RoutingAccessoryPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

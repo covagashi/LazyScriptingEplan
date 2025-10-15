@@ -8,17 +8,12 @@ Position of mouse in the system (Windows) coordinate system.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual PointD ScreenPosition {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property PointD ScreenPosition {
@@ -28,5 +23,4 @@ virtual property PointD ScreenPosition {
    void set (    PointD value);
 
 }
-```
-```
+

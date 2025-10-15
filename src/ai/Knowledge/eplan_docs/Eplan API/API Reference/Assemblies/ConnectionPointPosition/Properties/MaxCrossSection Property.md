@@ -8,17 +8,12 @@ Maximum cross section that can be connected to this connection point.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double MaxCrossSection {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double MaxCrossSection {
@@ -28,5 +23,4 @@ property double MaxCrossSection {
    void set (    double value);
 
 }
-```
-```
+

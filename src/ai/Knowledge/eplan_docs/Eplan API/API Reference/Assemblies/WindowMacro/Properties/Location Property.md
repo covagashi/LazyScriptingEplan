@@ -8,17 +8,12 @@ The position of lower left corner of the macro defined by the user when storing 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD Location {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD Location {
@@ -26,8 +21,7 @@ property PointD Location {
    PointD get();
 
 }
-```
-```
+
 
 #### Property Value
 

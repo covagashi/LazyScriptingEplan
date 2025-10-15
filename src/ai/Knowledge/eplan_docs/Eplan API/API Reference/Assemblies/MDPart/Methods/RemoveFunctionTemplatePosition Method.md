@@ -8,21 +8,16 @@ Removes the given functionTemplate from the part
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveFunctionTemplatePosition( 
 
    MDFunctionTemplatePosition functionTemplatePos
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveFunctionTemplatePosition( 
@@ -30,8 +25,7 @@ void RemoveFunctionTemplatePosition(
    MDFunctionTemplatePosition^ functionTemplatePos
 
 )
-```
-```
+
 
 #### Parameters
 

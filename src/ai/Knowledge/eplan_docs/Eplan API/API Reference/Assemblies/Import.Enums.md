@@ -11,22 +11,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Import.Enums
-```
-```
 
-```
-```
 public ref class Import.Enums
-```
-```
-
-
 
 Public Constructors
 

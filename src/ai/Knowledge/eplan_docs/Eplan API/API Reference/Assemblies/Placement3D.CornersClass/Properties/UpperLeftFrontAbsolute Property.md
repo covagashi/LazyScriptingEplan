@@ -8,17 +8,12 @@ Returns upper left front absolute coordinate
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D UpperLeftFrontAbsolute {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD3D UpperLeftFrontAbsolute {
@@ -26,5 +21,4 @@ property PointD3D UpperLeftFrontAbsolute {
    PointD3D get();
 
 }
-```
-```
+

@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class DMObjectsFinder
-```
-```
 
-```
-```
 public ref class DMObjectsFinder
-```
-```
+
 
 Remarks
 
@@ -50,7 +44,7 @@ Example
 
 The following example shows how to search a project using the DMObjectsFinder class and how to filter your search results:
 
-- [C#](#i-tab-content-43a5842a-6828-4e87-884e-bef8669271d9)
+**C#**
 
 ```
 
@@ -59,17 +53,11 @@ Project myProject = m_oProject; // A valid project
 
 Page myPage = myProject.Pages[0]; // A valid Page object
 
-
-
 DMObjectsFinder objFinder = new DMObjectsFinder(myProject);
-
-
 
 // Get all functions in the myProject Project
 
 Function[] functions = objFinder.GetFunctions(null);
-
-
 
 // Use a filter to get only functions with category 'Motor'
 
@@ -79,15 +67,9 @@ myFunctionsFilter.FunctionCategory = Eplan.EplApi.Base.Enums.FunctionCategory.Mo
 
 myFunctionsFilter.Page = myPage;
 
-
-
 // Place all functions with category 'Motor' on page myPage
 
 functions = objFinder.GetFunctions(myFunctionsFilter);
-
-
-
-
 
 ```
 
@@ -98,9 +80,6 @@ Public Constructors
 | Public Constructor | [DMObjectsFinder Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DMObjectsFinder~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

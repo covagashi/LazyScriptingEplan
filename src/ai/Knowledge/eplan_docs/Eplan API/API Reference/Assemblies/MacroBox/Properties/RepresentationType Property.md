@@ -8,17 +8,12 @@ Representation Type property of the macro box
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public WindowMacro.Enums.RepresentationType RepresentationType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property WindowMacro.Enums.RepresentationType RepresentationType {
@@ -28,8 +23,7 @@ property WindowMacro.Enums.RepresentationType RepresentationType {
    void set (    WindowMacro.Enums.RepresentationType value);
 
 }
-```
-```
+
 
 Remarks
 

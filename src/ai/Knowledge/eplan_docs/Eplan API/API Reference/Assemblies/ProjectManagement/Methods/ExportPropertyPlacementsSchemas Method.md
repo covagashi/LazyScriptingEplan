@@ -8,11 +8,10 @@ Exports property placements schemes.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExportPropertyPlacementsSchemas( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public void ExportPropertyPlacementsSchemas(
    string strFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExportPropertyPlacementsSchemas( 
@@ -34,8 +29,7 @@ void ExportPropertyPlacementsSchemas(
    String^ strFileName
 
 )
-```
-```
+
 
 #### Parameters
 

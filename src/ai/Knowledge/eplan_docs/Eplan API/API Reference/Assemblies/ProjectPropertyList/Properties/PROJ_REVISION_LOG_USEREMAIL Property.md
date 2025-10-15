@@ -8,21 +8,16 @@ User: E-mail address (change tracking) # 10193.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_REVISION_LOG_USEREMAIL( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_REVISION_LOG_USEREMAIL {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_REVISION_LOG_USEREMAIL {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -6,10 +6,8 @@
 
 The  SegmentPlacement  class represents segment objects on a 2D page. Because of this, the class inherits from  SymbolReference.
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- // Prepare a segment
+```csharp
+// Prepare a segment
  StructureSegment oStructureSegment = StructureSegment.Create(m_oTestProject.SegmentDefinitions[0]) as StructureSegment;
  oStructureSegment.Name = "test1c";
  
@@ -20,7 +18,7 @@ The  SegmentPlacement  class represents segment objects on a 2D page. Because 
  // Create SegmentPlacement
  SegmentPlacement oSegmentPlacement = new SegmentPlacement();
  oSegmentPlacement.Create(oStructureSegment, oNewPage);
- ``` | |
+```
 
 SegmentPlacements  are visible in the GED, for example:
 

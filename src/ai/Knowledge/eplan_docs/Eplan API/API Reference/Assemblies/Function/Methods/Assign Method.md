@@ -8,21 +8,16 @@ Assigns this function to another, which means that values of this function's pro
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Assign( 
 
    Function target
 
 )
-```
-```
 
-```
-```
 public:
 
 void Assign( 
@@ -30,8 +25,7 @@ void Assign(
    Function^ target
 
 )
-```
-```
+
 
 #### Parameters
 

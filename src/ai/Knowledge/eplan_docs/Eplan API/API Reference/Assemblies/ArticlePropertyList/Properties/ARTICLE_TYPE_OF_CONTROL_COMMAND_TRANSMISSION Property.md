@@ -8,17 +8,12 @@ Type of control (command transmission) # 26018.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TYPE_OF_CONTROL_COMMAND_TRANSMISSION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TYPE_OF_CONTROL_COMMAND_TRANSMISSION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TYPE_OF_CONTROL_COMMAND_TRANSMISSION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

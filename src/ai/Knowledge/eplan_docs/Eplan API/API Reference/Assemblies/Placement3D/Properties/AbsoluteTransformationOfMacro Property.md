@@ -8,17 +8,12 @@ Absolute position and rotation represented by transformation matrix where transf
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Matrix3D AbsoluteTransformationOfMacro {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Matrix3D AbsoluteTransformationOfMacro {
@@ -28,8 +23,7 @@ property Matrix3D AbsoluteTransformationOfMacro {
    void set (    Matrix3D value);
 
 }
-```
-```
+
 
 Remarks
 

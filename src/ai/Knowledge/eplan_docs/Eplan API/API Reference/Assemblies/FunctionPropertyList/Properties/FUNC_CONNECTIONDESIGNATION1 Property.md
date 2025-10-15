@@ -8,17 +8,12 @@ Connection point designation 1 # 20075.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CONNECTIONDESIGNATION1 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CONNECTIONDESIGNATION1 {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CONNECTIONDESIGNATION1 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

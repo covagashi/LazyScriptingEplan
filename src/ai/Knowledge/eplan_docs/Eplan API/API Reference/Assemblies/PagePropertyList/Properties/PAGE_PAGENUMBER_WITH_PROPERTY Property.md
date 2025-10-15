@@ -8,17 +8,12 @@ Page counter per property # 11064.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_PAGENUMBER_WITH_PROPERTY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_PAGENUMBER_WITH_PROPERTY {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_PAGENUMBER_WITH_PROPERTY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

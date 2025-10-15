@@ -8,17 +8,12 @@ Returns the additional text of the position
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SupplementaryText {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ SupplementaryText {
@@ -28,5 +23,4 @@ property String^ SupplementaryText {
    void set (    String^ value);
 
 }
-```
-```
+

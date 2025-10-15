@@ -8,17 +8,12 @@ Gets or sets transparency (0-255) due to internal technical limitations transpar
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public byte Transparency {get; set;}
-```
-```
 
-```
-```
 public:
 
 property byte Transparency {
@@ -28,5 +23,4 @@ property byte Transparency {
    void set (    byte value);
 
 }
-```
-```
+

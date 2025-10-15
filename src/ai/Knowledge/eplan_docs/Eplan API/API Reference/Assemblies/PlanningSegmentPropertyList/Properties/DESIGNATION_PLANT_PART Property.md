@@ -8,17 +8,12 @@ Function designation (single component) # 1128.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_PLANT_PART {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_PLANT_PART {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_PLANT_PART {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

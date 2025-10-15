@@ -8,19 +8,13 @@ Default constructor. Creates Filter that matches all [Function](Eplan.EplApi.Dat
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FunctionsFilter()
-```
-```
 
-```
-```
 public:
 
 FunctionsFilter();
-```
-```
+

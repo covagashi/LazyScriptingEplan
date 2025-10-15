@@ -8,17 +8,12 @@ Prevent numbering with PLC data # 20430.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCPREVENT_NUMERATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCPREVENT_NUMERATION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCPREVENT_NUMERATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

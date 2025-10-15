@@ -8,17 +8,12 @@ Returns the exact size of the page, takes into account page scale. The size is c
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD Size {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD Size {
@@ -26,8 +21,7 @@ property PointD Size {
    PointD get();
 
 }
-```
-```
+
 
 #### Property Value
 

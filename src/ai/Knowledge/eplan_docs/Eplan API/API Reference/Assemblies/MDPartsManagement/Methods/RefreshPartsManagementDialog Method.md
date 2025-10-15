@@ -8,19 +8,13 @@ Refreshes the parts management dialog. That is useful after making changes on th
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RefreshPartsManagementDialog()
-```
-```
 
-```
-```
 public:
 
 void RefreshPartsManagementDialog();
-```
-```
+

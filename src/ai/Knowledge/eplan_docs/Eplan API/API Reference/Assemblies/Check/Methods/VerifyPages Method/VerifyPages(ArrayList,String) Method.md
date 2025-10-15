@@ -8,11 +8,10 @@ Starts a check run for the given pages.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void VerifyPages( 
 
    ArrayList colPages,
@@ -20,11 +19,7 @@ public void VerifyPages(
    string strVerificationScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 void VerifyPages( 
@@ -34,8 +29,7 @@ void VerifyPages(
    String^ strVerificationScheme
 
 )
-```
-```
+
 
 #### Parameters
 

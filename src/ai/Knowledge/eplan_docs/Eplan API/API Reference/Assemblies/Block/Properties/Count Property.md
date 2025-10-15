@@ -8,17 +8,12 @@ Number of objects in the block.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int Count {get;}
-```
-```
 
-```
-```
 public:
 
 property int Count {
@@ -26,8 +21,7 @@ property int Count {
    int get();
 
 }
-```
-```
+
 
 Exceptions
 

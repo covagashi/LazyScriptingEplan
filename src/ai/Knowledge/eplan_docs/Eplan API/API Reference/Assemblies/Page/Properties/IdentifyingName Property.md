@@ -8,17 +8,12 @@ Returns identifying name of the page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string IdentifyingName {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ IdentifyingName {
@@ -26,8 +21,7 @@ property String^ IdentifyingName {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

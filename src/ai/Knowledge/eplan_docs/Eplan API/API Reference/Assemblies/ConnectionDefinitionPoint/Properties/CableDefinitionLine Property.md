@@ -8,17 +8,12 @@ Returns [Eplan.EplApi.DataModel.EObjects.Cable](Eplan.EplApi.DataModelu~Eplan.Ep
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Cable CableDefinitionLine {get;}
-```
-```
 
-```
-```
 public:
 
 property Cable^ CableDefinitionLine {
@@ -26,8 +21,7 @@ property Cable^ CableDefinitionLine {
    Cable^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,20 +8,14 @@ Identificators of properties owned by OptionFragment class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.OptionFragment : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.OptionFragment : public System.Enum
-```
-```
+
 
 Members
 

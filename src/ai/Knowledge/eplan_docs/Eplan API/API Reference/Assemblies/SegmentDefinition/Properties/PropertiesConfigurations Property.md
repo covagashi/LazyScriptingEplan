@@ -8,17 +8,12 @@ Property configurations assigned to this segment definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyConfiguration[] PropertiesConfigurations {get;}
-```
-```
 
-```
-```
 public:
 
 property array<PropertyConfiguration^>^ PropertiesConfigurations {
@@ -26,5 +21,4 @@ property array<PropertyConfiguration^>^ PropertiesConfigurations {
    array<PropertyConfiguration^>^ get();
 
 }
-```
-```
+

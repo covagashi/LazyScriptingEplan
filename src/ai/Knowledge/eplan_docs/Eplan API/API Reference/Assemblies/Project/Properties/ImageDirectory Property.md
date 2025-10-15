@@ -8,17 +8,12 @@ Project's property which return full project images' directory name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ImageDirectory {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ ImageDirectory {
@@ -26,8 +21,7 @@ property String^ ImageDirectory {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

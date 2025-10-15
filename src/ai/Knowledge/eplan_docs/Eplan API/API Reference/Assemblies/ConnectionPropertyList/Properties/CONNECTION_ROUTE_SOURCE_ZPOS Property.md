@@ -8,17 +8,12 @@ Routing track source: Z coordinate # 31150.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_ROUTE_SOURCE_ZPOS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_ROUTE_SOURCE_ZPOS {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_ROUTE_SOURCE_ZPOS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

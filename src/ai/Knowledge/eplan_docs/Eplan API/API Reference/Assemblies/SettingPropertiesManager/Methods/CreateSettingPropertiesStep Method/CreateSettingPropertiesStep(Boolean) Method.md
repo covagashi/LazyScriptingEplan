@@ -8,21 +8,16 @@ Creates object representing a setting properties step.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SettingPropertiesStep CreateSettingPropertiesStep( 
 
    bool bCreateTransaction
 
 )
-```
-```
 
-```
-```
 public:
 
 SettingPropertiesStep^ CreateSettingPropertiesStep( 
@@ -30,8 +25,7 @@ SettingPropertiesStep^ CreateSettingPropertiesStep(
    bool bCreateTransaction
 
 )
-```
-```
+
 
 #### Parameters
 

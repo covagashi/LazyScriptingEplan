@@ -8,17 +8,12 @@ Angle # 20451.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLEPLACEMENT_ROTATIONANGLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLEPLACEMENT_ROTATIONANGLE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ARTICLEPLACEMENT_ROTATIONANGLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

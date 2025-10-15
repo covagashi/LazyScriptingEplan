@@ -8,11 +8,10 @@ Finds all connections which are in the same circuit as `oSourceConnection` and h
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void TrackPotential( 
 
    Connection oSourceConnection,
@@ -20,11 +19,7 @@ public void TrackPotential(
    List<Connection> foundConnectionList
 
 )
-```
-```
 
-```
-```
 public:
 
 void TrackPotential( 
@@ -34,8 +29,7 @@ void TrackPotential(
    List<Connection^>^ foundConnectionList
 
 )
-```
-```
+
 
 #### Parameters
 

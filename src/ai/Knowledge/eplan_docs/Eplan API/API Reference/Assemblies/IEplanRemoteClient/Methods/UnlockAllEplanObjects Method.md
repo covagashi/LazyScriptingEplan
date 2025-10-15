@@ -8,28 +8,22 @@ Unlock all objects in given project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 EplanResponse UnlockAllEplanObjects( 
 
    string strFullProjectName
 
 )
-```
-```
 
-```
-```
 EplanResponse^ UnlockAllEplanObjects( 
 
    String^ strFullProjectName
 
 )
-```
-```
+
 
 #### Parameters
 

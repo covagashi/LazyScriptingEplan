@@ -8,21 +8,16 @@ Gets list of property placements of given type.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public List<PropertyPlacement> GetPropertyPlacements( 
 
    SymbolReference.PropertyPlacementType oType
 
 )
-```
-```
 
-```
-```
 public:
 
 List<PropertyPlacement^>^ GetPropertyPlacements( 
@@ -30,8 +25,7 @@ List<PropertyPlacement^>^ GetPropertyPlacements(
    SymbolReference.PropertyPlacementType oType
 
 )
-```
-```
+
 
 #### Parameters
 

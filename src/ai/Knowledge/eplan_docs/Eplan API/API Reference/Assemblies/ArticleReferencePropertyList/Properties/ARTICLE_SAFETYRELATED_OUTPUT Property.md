@@ -8,17 +8,12 @@ Safety-related values: Output (React) # 40327.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SAFETYRELATED_OUTPUT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SAFETYRELATED_OUTPUT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SAFETYRELATED_OUTPUT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

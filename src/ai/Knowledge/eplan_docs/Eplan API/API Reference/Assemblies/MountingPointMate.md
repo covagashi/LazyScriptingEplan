@@ -15,22 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MountingPointMate : PointMate
-```
-```
 
-```
-```
 public ref class MountingPointMate : public PointMate
-```
-```
-
-
 
 Public Constructors
 
@@ -39,8 +30,6 @@ Public Constructors
 | Public Constructor | [MountingPointMate Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.MountingPointMate~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

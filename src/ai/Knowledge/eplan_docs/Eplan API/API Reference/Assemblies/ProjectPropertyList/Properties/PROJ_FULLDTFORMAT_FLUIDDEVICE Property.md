@@ -8,17 +8,12 @@ Format of full DT: Fluid device # 10653.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_FULLDTFORMAT_FLUIDDEVICE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_FULLDTFORMAT_FLUIDDEVICE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_FULLDTFORMAT_FLUIDDEVICE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

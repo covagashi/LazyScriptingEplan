@@ -8,22 +8,16 @@ Returns a sorted list of logicals (that is everything derived from functionbase)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FunctionBase[] GetSortedListOfLogicals()
-```
-```
 
-```
-```
 public:
 
 array<FunctionBase^>^ GetSortedListOfLogicals();
-```
-```
+
 
 Exceptions
 

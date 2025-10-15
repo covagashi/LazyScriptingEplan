@@ -8,20 +8,14 @@ The type of terminal function (if function defintion is terminal)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MDFunctionTemplatePosition.TerminalFunctionType : System.Enum
-```
-```
 
-```
-```
 public enum class MDFunctionTemplatePosition.TerminalFunctionType : public System.Enum
-```
-```
+
 
 Members
 

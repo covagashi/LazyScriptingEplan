@@ -8,17 +8,12 @@ Gets/sets filter scheme on a template of Parts Database message.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string FilterScheme {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ FilterScheme {
@@ -28,8 +23,7 @@ property String^ FilterScheme {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Exceptions
 

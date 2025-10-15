@@ -8,11 +8,10 @@ Adds command to the ribbon
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonCommand AddCommand( 
 
    string strButtonText,
@@ -20,11 +19,7 @@ public RibbonCommand AddCommand(
    string strActionCommandLine
 
 )
-```
-```
 
-```
-```
 public:
 
 RibbonCommand^ AddCommand( 
@@ -34,8 +29,7 @@ RibbonCommand^ AddCommand(
    String^ strActionCommandLine
 
 )
-```
-```
+
 
 #### Parameters
 

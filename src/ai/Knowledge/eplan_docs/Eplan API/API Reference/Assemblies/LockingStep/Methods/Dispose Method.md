@@ -8,19 +8,13 @@ Ends a locking step (identified by internal nLockingStepId). ManualLocking mode 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Dispose()
-```
-```
 
-```
-```
 public:
 
 void Dispose();
-```
-```
+

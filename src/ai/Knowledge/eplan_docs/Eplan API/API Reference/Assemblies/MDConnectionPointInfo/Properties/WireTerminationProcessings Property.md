@@ -8,17 +8,12 @@ Returns a map of ids and theirs names of all possible wire termination processin
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public IDictionary<short,MultiLangString> WireTerminationProcessings {get;}
-```
-```
 
-```
-```
 public:
 
 property IDictionary<short,MultiLangString^>^ WireTerminationProcessings {
@@ -26,8 +21,7 @@ property IDictionary<short,MultiLangString^>^ WireTerminationProcessings {
    IDictionary<short,MultiLangString^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

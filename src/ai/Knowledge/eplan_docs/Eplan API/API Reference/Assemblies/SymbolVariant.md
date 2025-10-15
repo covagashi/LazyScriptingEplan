@@ -16,22 +16,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class SymbolVariant : Eplan.EplApi.DataModel.Group, Eplan.EplApi.DataModel.IPlacementsContainer, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class SymbolVariant : public Eplan.EplApi.DataModel.Group, Eplan.EplApi.DataModel.IPlacementsContainer, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
-
-
 
 Public Constructors
 
@@ -40,8 +31,6 @@ Public Constructors
 | Public Constructor | [SymbolVariant Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.SymbolVariant~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,21 +8,16 @@ PropertyPlacement bounding box. Bounding box is a rectangle which contain this p
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual PointD[] GetBoundingBox( 
 
    bool relative
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual array<PointD>^ GetBoundingBox( 
@@ -30,8 +25,7 @@ virtual array<PointD>^ GetBoundingBox(
    bool relative
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Macro: Variant # 44093.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_MACROVARIANT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_MACROVARIANT {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_MACROVARIANT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

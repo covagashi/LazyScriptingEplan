@@ -8,11 +8,10 @@ Selects objects in GED
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SelectObjects( 
 
    string strFullLinkFileName,
@@ -22,11 +21,7 @@ public void SelectObjects(
    bool bDeselectAll
 
 )
-```
-```
 
-```
-```
 public:
 
 void SelectObjects( 
@@ -38,8 +33,7 @@ void SelectObjects(
    bool bDeselectAll
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -68,12 +62,10 @@ Example
 
 The following examples shows a method to mark all the motors on a given schematic page.
 
-- [C#](#i-tab-content-ccb0dd98-40e1-4c25-9105-0b601271b203)
+**C#**
 
 ```
 StringCollection scFuncIds = new StringCollection();
-
-
 
 foreach (Function oFunction in arrFunctions)
 
@@ -83,19 +75,13 @@ foreach (Function oFunction in arrFunctions)
 
     string objectId = oFunction.Properties.PROPUSER_DBOBJECTID;
 
-
-
     //get index of first separator
 
     int idxOfSlash = objectId.IndexOf("/", 1, objectId.Length - 1, StringComparison.InvariantCultureIgnoreCase);
 
-
-
     //cut off value before first separator together with this separator
 
     string objectIdWithoutProjectId = objectId.Substring(idxOfSlash + 1, (objectId.Length - idxOfSlash - 1));
-
-
 
     //add value to array
 
@@ -103,12 +89,8 @@ foreach (Function oFunction in arrFunctions)
 
 }
 
-
-
 //remove selection from all object and then select objects passed as in a list
 
 new Edit().SelectObjects(m_TestProject.ProjectLinkFilePath, scFuncIds, true);
-
-
 
 ```

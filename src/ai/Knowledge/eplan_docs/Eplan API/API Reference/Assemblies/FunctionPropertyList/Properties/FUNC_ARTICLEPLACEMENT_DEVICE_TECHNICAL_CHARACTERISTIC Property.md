@@ -8,17 +8,12 @@ Technical characteristics (of main function) # 20460.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLEPLACEMENT_DEVICE_TECHNICAL_CHARACTERISTIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLEPLACEMENT_DEVICE_TECHNICAL_CHARACTERISTIC {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ARTICLEPLACEMENT_DEVICE_TECHNICAL_CHARACTERISTIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

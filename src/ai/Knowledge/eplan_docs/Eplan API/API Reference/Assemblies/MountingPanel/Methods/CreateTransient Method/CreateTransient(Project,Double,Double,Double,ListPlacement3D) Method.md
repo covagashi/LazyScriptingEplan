@@ -8,11 +8,10 @@ Creates transient and not placed, article free MountingPanel object with given d
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static MountingPanel CreateTransient( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public static MountingPanel CreateTransient(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static MountingPanel^ CreateTransient( 
@@ -46,8 +41,7 @@ static MountingPanel^ CreateTransient(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

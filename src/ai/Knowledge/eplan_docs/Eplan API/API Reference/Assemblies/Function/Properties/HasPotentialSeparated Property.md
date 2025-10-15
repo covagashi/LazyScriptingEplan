@@ -8,17 +8,12 @@ Gets/Sets, if the function separates potentials.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool HasPotentialSeparated {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool HasPotentialSeparated {
@@ -28,8 +23,7 @@ property bool HasPotentialSeparated {
    void set (    bool value);
 
 }
-```
-```
+
 
 #### Property Value
 

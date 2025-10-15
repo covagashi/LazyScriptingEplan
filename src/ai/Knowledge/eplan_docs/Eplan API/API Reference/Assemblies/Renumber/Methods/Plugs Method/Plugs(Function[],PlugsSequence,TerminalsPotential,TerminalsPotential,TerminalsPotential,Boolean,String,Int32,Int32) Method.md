@@ -8,11 +8,10 @@ Method for renumbering plugs specified by the collection pFunctions.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Plugs( 
 
    Function[] pFunctions,
@@ -34,11 +33,7 @@ public void Plugs(
    int nIncrement
 
 )
-```
-```
 
-```
-```
 public:
 
 void Plugs( 
@@ -62,8 +57,7 @@ void Plugs(
    int nIncrement
 
 )
-```
-```
+
 
 #### Parameters
 

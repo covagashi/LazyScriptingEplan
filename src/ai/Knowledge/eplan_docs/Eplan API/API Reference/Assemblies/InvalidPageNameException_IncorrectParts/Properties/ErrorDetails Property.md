@@ -8,17 +8,12 @@ Provides additional information about the error.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ErrorDetails {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ ErrorDetails {
@@ -26,5 +21,4 @@ property String^ ErrorDetails {
    String^ get();
 
 }
-```
-```
+

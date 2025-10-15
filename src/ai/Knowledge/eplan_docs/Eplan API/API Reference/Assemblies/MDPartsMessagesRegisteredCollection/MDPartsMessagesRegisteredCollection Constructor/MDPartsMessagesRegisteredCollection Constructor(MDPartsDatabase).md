@@ -8,21 +8,16 @@ Constructor initializes the matching enumerator.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartsMessagesRegisteredCollection( 
 
    MDPartsDatabase oMDPartsdb
 
 )
-```
-```
 
-```
-```
 public:
 
 MDPartsMessagesRegisteredCollection( 
@@ -30,8 +25,7 @@ MDPartsMessagesRegisteredCollection(
    MDPartsDatabase^ oMDPartsdb
 
 )
-```
-```
+
 
 #### Parameters
 

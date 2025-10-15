@@ -8,17 +8,12 @@ Variant
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int Variant {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int Variant {
@@ -28,5 +23,4 @@ property int Variant {
    void set (    int value);
 
 }
-```
-```
+

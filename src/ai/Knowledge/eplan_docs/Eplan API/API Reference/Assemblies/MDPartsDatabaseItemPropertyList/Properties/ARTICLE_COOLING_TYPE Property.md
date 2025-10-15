@@ -8,17 +8,12 @@ Type of cooling # 26016.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_COOLING_TYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_COOLING_TYPE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_COOLING_TYPE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Trade of part reference # 20913.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_ARTICLEREF_CRAFT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_ARTICLEREF_CRAFT {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_ARTICLEREF_CRAFT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

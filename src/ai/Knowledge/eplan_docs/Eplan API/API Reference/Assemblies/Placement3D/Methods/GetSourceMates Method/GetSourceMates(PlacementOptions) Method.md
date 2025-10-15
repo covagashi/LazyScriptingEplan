@@ -8,21 +8,16 @@ Get array of all source mates from this object. Placement options
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointMate[] GetSourceMates( 
 
    Mate.Enums.PlacementOptions ePlacementOptions
 
 )
-```
-```
 
-```
-```
 public:
 
 array<PointMate^>^ GetSourceMates( 
@@ -30,8 +25,7 @@ array<PointMate^>^ GetSourceMates(
    Mate.Enums.PlacementOptions ePlacementOptions
 
 )
-```
-```
+
 
 #### Parameters
 

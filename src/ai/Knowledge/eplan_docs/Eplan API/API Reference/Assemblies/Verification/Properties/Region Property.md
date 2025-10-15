@@ -8,17 +8,12 @@ The region associated with the message. Is automatically set.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public IMessage.Region Region {get; set;}
-```
-```
 
-```
-```
 public:
 
 property IMessage.Region Region {
@@ -28,5 +23,4 @@ property IMessage.Region Region {
    void set (    IMessage.Region value);
 
 }
-```
-```
+

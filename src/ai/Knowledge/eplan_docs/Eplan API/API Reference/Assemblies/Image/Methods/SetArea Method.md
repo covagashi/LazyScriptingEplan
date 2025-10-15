@@ -8,11 +8,10 @@ Sets the size of a rectangle using the coordinates of the two opposite corners
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override void SetArea( 
 
    PointD pntStart,
@@ -20,11 +19,7 @@ public override void SetArea(
    PointD pntEnd
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetArea( 
@@ -34,8 +29,7 @@ void SetArea(
    PointD pntEnd
 
 ) override
-```
-```
+
 
 #### Parameters
 

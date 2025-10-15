@@ -8,11 +8,10 @@ Gets internal property by id and index
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue GetProperty( 
 
    MDAnyPropertyId A_0,
@@ -20,11 +19,7 @@ public MDPropertyValue GetProperty(
    short A_1
 
 )
-```
-```
 
-```
-```
 public:
 
 MDPropertyValue^ GetProperty( 
@@ -34,8 +29,7 @@ MDPropertyValue^ GetProperty(
    short A_1
 
 )
-```
-```
+
 
 #### Parameters
 

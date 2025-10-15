@@ -8,11 +8,10 @@ Imports lists with pre-planning data that were created in external applications.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ImportData( 
 
    Project pProject,
@@ -34,11 +33,7 @@ public bool ImportData(
    bool bUpdateOnly
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ImportData( 
@@ -62,8 +57,7 @@ bool ImportData(
    bool bUpdateOnly
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -6,8 +6,8 @@
 
 An add-in can add one or more ribbon commands to the Extensions > API command gropup. Therefore the class  Eplan.EplApi.Gui.RibbonBar  provides a function  AddCommand  which should be called in the  OnRegister()  method of the add-in class:
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
@@ -34,8 +34,6 @@ public bool OnRegister(ref System.Boolean bLoadOnStart)
 
 }
 
-
-
 /// <summary>
 
 /// The function is called during unregistration the add-in.
@@ -53,11 +51,6 @@ public bool OnUnregister()
     return ribbonBar.RemoveCommand("CSharpAction");
 
 }
-
-```
-
-```
-
 
 ''' <summary>
 
@@ -78,8 +71,6 @@ Public Function OnRegister(ByRef bLoadOnStart As System.Boolean) As Boolean Impl
    Return True
 
 End Function 'OnInitGui
-
-
 
 ''' <summary>
 

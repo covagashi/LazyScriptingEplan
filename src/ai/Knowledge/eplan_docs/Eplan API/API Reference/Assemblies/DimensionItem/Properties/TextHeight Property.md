@@ -8,17 +8,12 @@ Gets or sets the height of the text.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double TextHeight {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double TextHeight {
@@ -28,8 +23,7 @@ property double TextHeight {
    void set (    double value);
 
 }
-```
-```
+
 
 #### Property Value
 

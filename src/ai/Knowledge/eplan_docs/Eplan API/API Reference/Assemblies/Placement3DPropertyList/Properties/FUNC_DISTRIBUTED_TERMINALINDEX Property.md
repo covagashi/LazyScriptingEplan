@@ -8,17 +8,12 @@ Distributed terminal index # 20223.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DISTRIBUTED_TERMINALINDEX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DISTRIBUTED_TERMINALINDEX {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DISTRIBUTED_TERMINALINDEX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

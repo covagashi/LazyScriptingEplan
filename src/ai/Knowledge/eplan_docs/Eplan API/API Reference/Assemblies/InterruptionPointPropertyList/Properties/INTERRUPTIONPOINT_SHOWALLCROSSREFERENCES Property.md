@@ -8,17 +8,12 @@ Display all cross-references # 24020.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INTERRUPTIONPOINT_SHOWALLCROSSREFERENCES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INTERRUPTIONPOINT_SHOWALLCROSSREFERENCES {
@@ -28,8 +23,7 @@ property PropertyValue^ INTERRUPTIONPOINT_SHOWALLCROSSREFERENCES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

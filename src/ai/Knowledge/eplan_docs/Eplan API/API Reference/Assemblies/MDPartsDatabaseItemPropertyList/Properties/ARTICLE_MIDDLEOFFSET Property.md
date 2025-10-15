@@ -8,17 +8,12 @@ Center mismatch # 22215.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_MIDDLEOFFSET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_MIDDLEOFFSET {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_MIDDLEOFFSET {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

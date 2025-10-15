@@ -8,17 +8,12 @@ Position found snap point near mouse position.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual PointD3D SnapPosition {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property PointD3D SnapPosition {
@@ -28,8 +23,7 @@ virtual property PointD3D SnapPosition {
    void set (    PointD3D value);
 
 }
-```
-```
+
 
 Remarks
 

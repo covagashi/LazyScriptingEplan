@@ -8,21 +8,16 @@ Changes the selection. Should only be used inside the OnSelect() method.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetSelection( 
 
    StorableObject[] arrSelectedObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetSelection( 
@@ -30,8 +25,7 @@ void SetSelection(
    array<StorableObject^>^ arrSelectedObjects
 
 )
-```
-```
+
 
 #### Parameters
 

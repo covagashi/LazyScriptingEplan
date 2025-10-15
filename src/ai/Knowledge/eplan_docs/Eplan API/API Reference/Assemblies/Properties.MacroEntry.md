@@ -8,20 +8,14 @@ Identificators of properties owned by MacroEntry class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.MacroEntry : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.MacroEntry : public System.Enum
-```
-```
+
 
 Members
 

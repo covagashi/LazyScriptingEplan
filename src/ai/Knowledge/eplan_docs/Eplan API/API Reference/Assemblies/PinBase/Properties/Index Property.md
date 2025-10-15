@@ -8,17 +8,12 @@ Returns an index of this connection point. NOTE: This may be an index amongst a 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int Index {get;}
-```
-```
 
-```
-```
 public:
 
 property int Index {
@@ -26,5 +21,4 @@ property int Index {
    int get();
 
 }
-```
-```
+

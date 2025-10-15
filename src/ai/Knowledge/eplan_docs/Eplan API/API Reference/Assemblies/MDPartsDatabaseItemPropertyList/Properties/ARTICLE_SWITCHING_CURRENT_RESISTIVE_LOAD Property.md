@@ -8,17 +8,12 @@ Switching current (resistive load) # 26138.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SWITCHING_CURRENT_RESISTIVE_LOAD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SWITCHING_CURRENT_RESISTIVE_LOAD {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SWITCHING_CURRENT_RESISTIVE_LOAD {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Grid size, Y coordinate
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double SizeY {get;}
-```
-```
 
-```
-```
 public:
 
 property double SizeY {
@@ -26,5 +21,4 @@ property double SizeY {
    double get();
 
 }
-```
-```
+

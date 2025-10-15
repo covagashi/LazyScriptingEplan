@@ -8,17 +8,12 @@ Returns an array of all property ids which can exist for Drilling objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static AnyPropertyId[] AllDrillingPropIDs {get;}
-```
-```
 
-```
-```
 public:
 
 static property array<AnyPropertyId^>^ AllDrillingPropIDs {
@@ -26,5 +21,4 @@ static property array<AnyPropertyId^>^ AllDrillingPropIDs {
    array<AnyPropertyId^>^ get();
 
 }
-```
-```
+

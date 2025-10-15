@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class InteractionEvent
-```
-```
 
-```
-```
 public ref class InteractionEvent
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [InteractionEvent Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionEvent~_ctor(InteractionEvent).html) | Copy constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 
@@ -56,8 +45,6 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionEvent~Dispose().html) | Destructor for deterministic finalization of InteractionEvent object. |
 
 [Top](#top)
-
-
 
 Public Operators
 

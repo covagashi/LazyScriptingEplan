@@ -8,17 +8,12 @@ Exclude from collision check # 36111.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_EXCLUDE_FROM_COLLISION_CONTROL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_EXCLUDE_FROM_COLLISION_CONTROL {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_EXCLUDE_FROM_COLLISION_CONTROL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Safety-related values: RDF # 40337.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SAFETYRELATED_RDF {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SAFETYRELATED_RDF {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SAFETYRELATED_RDF {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

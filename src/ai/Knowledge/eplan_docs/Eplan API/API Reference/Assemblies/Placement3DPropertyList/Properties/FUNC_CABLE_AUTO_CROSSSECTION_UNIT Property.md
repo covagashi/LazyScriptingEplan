@@ -8,17 +8,12 @@ Cable / Conduit: Cross-section / diameter with unit # 20070.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLE_AUTO_CROSSSECTION_UNIT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLE_AUTO_CROSSSECTION_UNIT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLE_AUTO_CROSSSECTION_UNIT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Power requirement, min. # 26423.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_POWER_REQUIREMENT_MIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_POWER_REQUIREMENT_MIN {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_POWER_REQUIREMENT_MIN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

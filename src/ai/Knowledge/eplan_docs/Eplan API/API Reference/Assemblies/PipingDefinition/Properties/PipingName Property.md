@@ -8,17 +8,12 @@ Gets/Sets piping name of object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PipingName {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PipingName {
@@ -28,5 +23,4 @@ property String^ PipingName {
    void set (    String^ value);
 
 }
-```
-```
+

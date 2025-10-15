@@ -8,17 +8,12 @@ Allows user to access properties of the ConnectionDefinitionPoint.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new ConnectionDefinitionPointPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property ConnectionDefinitionPointPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property ConnectionDefinitionPointPropertyList^ Properties {
    ConnectionDefinitionPointPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

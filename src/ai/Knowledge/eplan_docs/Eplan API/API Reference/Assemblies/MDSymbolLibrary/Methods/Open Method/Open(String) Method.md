@@ -8,21 +8,16 @@ Opens an existing symbol library for exclusive access.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static MDSymbolLibrary Open( 
 
    string strSymbolLibraryPath
 
 )
-```
-```
 
-```
-```
 public:
 
 static MDSymbolLibrary^ Open( 
@@ -30,8 +25,7 @@ static MDSymbolLibrary^ Open(
    String^ strSymbolLibraryPath
 
 )
-```
-```
+
 
 #### Parameters
 

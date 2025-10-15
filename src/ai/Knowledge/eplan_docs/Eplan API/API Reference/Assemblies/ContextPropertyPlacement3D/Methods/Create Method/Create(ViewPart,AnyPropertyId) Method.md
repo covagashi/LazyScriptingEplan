@@ -8,11 +8,10 @@ Creates the ContextPropertyPlacement3D object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    ViewPart objSource,
@@ -20,11 +19,7 @@ public void Create(
    AnyPropertyId idOfProperty
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -34,8 +29,7 @@ void Create(
    AnyPropertyId^ idOfProperty
 
 )
-```
-```
+
 
 #### Parameters
 

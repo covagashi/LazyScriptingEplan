@@ -18,20 +18,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Segment : Eplan.EplApi.DataModel.Function, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
 
-```
-```
 public ref class Segment : public Eplan.EplApi.DataModel.Function, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
+
 
 Remarks
 
@@ -41,7 +35,7 @@ Example
 
 The following example shows how to create basic topology from two functions.
 
-- [C#](#i-tab-content-15dad452-6d04-49db-ae94-6122c2c87a2e)
+**C#**
 
 ```
 //get symbol variant for topology functions
@@ -57,8 +51,6 @@ Symbol oFunctionsTopologicPageSymbol = new Symbol(new SymbolLibrary(m_oTestProje
 SymbolVariant oFunctionsTopologicPageSymbolVariant = new SymbolVariant();
 
 oFunctionsTopologicPageSymbolVariant.Initialize(oFunctionsTopologicPageSymbol, nVariant);
-
-
 
 //create topology representation of oFunction1
 
@@ -80,8 +72,6 @@ oTopologyFunc1.Name = oFunction1.Properties.FUNC_FULLDEVICETAG;
 
 new NameService().AdjustVisibleName(oTopologyFunc1);
 
-
-
 //create topology representation of oFunction2
 
 Function oTopologyFunc2 = new Function();
@@ -102,8 +92,6 @@ oTopologyFunc2.Name = oFunction2.Properties.FUNC_FULLDEVICETAG;
 
 new NameService().AdjustVisibleName(oTopologyFunc2);
 
-
-
 //get symbol variant for topology corners
 
 strSymbolLibName = "SPECIAL";
@@ -118,8 +106,6 @@ SymbolVariant oCornerSymbolVariant = new SymbolVariant();
 
 oCornerSymbolVariant.Initialize(oCornerSymbol, nVariant);
 
-
-
 //create corner 1
 
 Function oCorner1 = Function.Create(oCornerSymbolVariant, oTopologyPage) as Function;
@@ -127,8 +113,6 @@ Function oCorner1 = Function.Create(oCornerSymbolVariant, oTopologyPage) as Func
 oCorner1.ManualPlacementType = DocumentTypeManager.DocumentType.Topology;
 
 oCorner1.Location = new PointD(100.0, 150.0);
-
-
 
 //create corner 1
 
@@ -138,8 +122,6 @@ oCorner2.ManualPlacementType = DocumentTypeManager.DocumentType.Topology;
 
 oCorner2.Location = new PointD(200.0, 150.0);
 
-
-
 //create segments
 
 Segment oSegment1 = new Segment();
@@ -148,15 +130,11 @@ oSegment1.Create(m_oTestProject, oTopologyFunc1, oCorner1);
 
 oSegment1.Page = oTopologyPage;
 
-
-
 Segment oSegment2 = new Segment();
 
 oSegment2.Create(m_oTestProject, oCorner1, oCorner2);
 
 oSegment2.Page = oTopologyPage;
-
-
 
 Segment oSegment3 = new Segment();
 
@@ -164,13 +142,9 @@ oSegment3.Create(m_oTestProject, oCorner2, oTopologyFunc2);
 
 oSegment3.Page = oTopologyPage;
 
-
-
 //update start and end points of segments
 
 new TopologyService().UpdatePage(oTopologyPage);
-
-
 
 ```
 
@@ -181,8 +155,6 @@ Public Constructors
 | Public Constructor | [Segment Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Topology.Segment~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

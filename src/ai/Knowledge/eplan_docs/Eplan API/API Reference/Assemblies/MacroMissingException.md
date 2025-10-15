@@ -18,22 +18,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MacroMissingException : ObjectCreationException
-```
-```
 
-```
-```
 public ref class MacroMissingException : public ObjectCreationException
-```
-```
-
-
 
 Public Constructors
 
@@ -42,8 +33,6 @@ Public Constructors
 | Public Constructor | [MacroMissingException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MacroMissingException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

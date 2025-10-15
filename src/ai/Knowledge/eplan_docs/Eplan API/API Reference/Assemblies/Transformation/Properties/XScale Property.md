@@ -8,17 +8,12 @@ Set scaling in x-direction
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double XScale {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double XScale {
@@ -28,5 +23,4 @@ property double XScale {
    void set (    double value);
 
 }
-```
-```
+

@@ -8,21 +8,16 @@ Is called after input of length.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnLength( 
 
    double dLength
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnLength( 
@@ -30,8 +25,7 @@ virtual RequestCode OnLength(
    double dLength
 
 )
-```
-```
+
 
 #### Parameters
 

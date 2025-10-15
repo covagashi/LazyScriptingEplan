@@ -8,17 +8,12 @@ Sets the [Eplan.EplApi.DataModel.E3D.Placement3D](Eplan.EplApi.DataModelu~Eplan.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement3D Parent {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Placement3D^ Parent {
@@ -28,8 +23,7 @@ property Placement3D^ Parent {
    void set (    Placement3D^ value);
 
 }
-```
-```
+
 
 Exceptions
 

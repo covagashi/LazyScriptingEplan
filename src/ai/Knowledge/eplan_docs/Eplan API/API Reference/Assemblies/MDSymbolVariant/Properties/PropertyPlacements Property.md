@@ -8,17 +8,12 @@ A read only list of all PropertyPlacements from the variant.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyPlacement[] PropertyPlacements {get;}
-```
-```
 
-```
-```
 public:
 
 property array<PropertyPlacement^>^ PropertyPlacements {
@@ -26,8 +21,7 @@ property array<PropertyPlacement^>^ PropertyPlacements {
    array<PropertyPlacement^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,19 +8,13 @@ Starts and goes to the first element in the collection.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Reset()
-```
-```
 
-```
-```
 public:
 
 virtual void Reset();
-```
-```
+

@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Insert3D
-```
-```
 
-```
-```
 public ref class Insert3D
-```
-```
+
 
 Remarks
 
 Please mind that in case of 3d macros, the root object(s) could be transformed. So if you insert a macro on position 0,0,0 of a layout space, the transformation of root object will be not 0,0,0 but the one copied from window macro. If you want to reset root object(s) in a macro to 0,0,0 position, please use WindowMacro::ResetPositions3D method.
-
-
 
 Public Constructors
 
@@ -41,9 +33,6 @@ Public Constructors
 | Public Constructor | [Insert3D Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Insert3D~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

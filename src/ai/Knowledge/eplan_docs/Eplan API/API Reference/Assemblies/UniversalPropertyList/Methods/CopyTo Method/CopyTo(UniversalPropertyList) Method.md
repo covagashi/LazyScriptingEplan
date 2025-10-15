@@ -8,21 +8,16 @@ Copies properties to other property list.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CopyTo( 
 
    UniversalPropertyList destination
 
 )
-```
-```
 
-```
-```
 public:
 
 void CopyTo( 
@@ -30,8 +25,7 @@ void CopyTo(
    UniversalPropertyList^ destination
 
 )
-```
-```
+
 
 #### Parameters
 

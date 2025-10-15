@@ -8,17 +8,12 @@ BACnet: Product function # 26538.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PRODUCT_FUNCTION_WITH_BACNET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PRODUCT_FUNCTION_WITH_BACNET {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PRODUCT_FUNCTION_WITH_BACNET {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

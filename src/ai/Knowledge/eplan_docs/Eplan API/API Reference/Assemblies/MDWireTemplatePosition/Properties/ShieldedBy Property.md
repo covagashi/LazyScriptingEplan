@@ -8,17 +8,12 @@ The name of the shielding that shields the wire
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ShieldedBy {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ShieldedBy {
@@ -28,5 +23,4 @@ property String^ ShieldedBy {
    void set (    String^ value);
 
 }
-```
-```
+

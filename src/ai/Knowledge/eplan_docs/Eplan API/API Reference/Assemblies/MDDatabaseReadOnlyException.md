@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDDatabaseReadOnlyException : MasterDataException
-```
-```
 
-```
-```
 public ref class MDDatabaseReadOnlyException : public MasterDataException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [MDDatabaseReadOnlyException Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDDatabaseReadOnlyException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

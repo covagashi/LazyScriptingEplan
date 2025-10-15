@@ -8,17 +8,12 @@ Target total flow rate, min. # 26141.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TARGET_TOTAL_VOLUMETRIC_FLOW_MIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TARGET_TOTAL_VOLUMETRIC_FLOW_MIN {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TARGET_TOTAL_VOLUMETRIC_FLOW_MIN {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

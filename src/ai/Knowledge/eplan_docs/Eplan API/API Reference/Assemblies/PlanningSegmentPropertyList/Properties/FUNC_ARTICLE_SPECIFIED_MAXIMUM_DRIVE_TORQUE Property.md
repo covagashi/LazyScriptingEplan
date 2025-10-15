@@ -8,21 +8,16 @@ Drive torque (specified), min. # 26573.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_SPECIFIED_MINIMUM_DRIVE_TORQUE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_SPECIFIED_MINIMUM_DRIVE_TORQUE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_SPECIFIED_MINIMUM_DRIVE_TORQUE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

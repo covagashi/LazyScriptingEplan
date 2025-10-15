@@ -8,11 +8,10 @@ Returns default MultiLangString value of a setting. The index starts at 0.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString GetMultiLangStringDefault( 
 
    string strSettingPath,
@@ -20,11 +19,7 @@ public MultiLangString GetMultiLangStringDefault(
    int nIdx
 
 )
-```
-```
 
-```
-```
 public:
 
 MultiLangString^ GetMultiLangStringDefault( 
@@ -34,8 +29,7 @@ MultiLangString^ GetMultiLangStringDefault(
    int nIdx
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ The Z-position of the connection point
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double ZPosition {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double ZPosition {
@@ -28,5 +23,4 @@ property double ZPosition {
    void set (    double value);
 
 }
-```
-```
+

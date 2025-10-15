@@ -8,21 +8,16 @@ Manual saddle jumpers (external) # 20351.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TERMINAL_JUMPER_EXTERN( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TERMINAL_JUMPER_EXTERN {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_TERMINAL_JUMPER_EXTERN {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

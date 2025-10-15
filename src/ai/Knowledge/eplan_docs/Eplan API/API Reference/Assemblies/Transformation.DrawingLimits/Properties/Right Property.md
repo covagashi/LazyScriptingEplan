@@ -8,17 +8,12 @@ Right
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double Right {get;}
-```
-```
 
-```
-```
 public:
 
 property double Right {
@@ -26,5 +21,4 @@ property double Right {
    double get();
 
 }
-```
-```
+

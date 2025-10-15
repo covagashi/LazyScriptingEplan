@@ -8,17 +8,12 @@ Busbar support: Vertical offset # 22207.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_INSERTPOINTOFFSETX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_INSERTPOINTOFFSETX {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_INSERTPOINTOFFSETX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

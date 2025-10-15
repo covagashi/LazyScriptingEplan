@@ -8,17 +8,12 @@ Gets or sets the unit of DimensionItem.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DimensionItem.Enums.DimensionUnit DimensionUnit {get; set;}
-```
-```
 
-```
-```
 public:
 
 property DimensionItem.Enums.DimensionUnit DimensionUnit {
@@ -28,5 +23,4 @@ property DimensionItem.Enums.DimensionUnit DimensionUnit {
    void set (    DimensionItem.Enums.DimensionUnit value);
 
 }
-```
-```
+

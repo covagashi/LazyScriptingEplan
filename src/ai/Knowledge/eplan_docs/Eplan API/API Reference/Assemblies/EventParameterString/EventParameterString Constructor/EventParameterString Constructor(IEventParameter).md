@@ -8,21 +8,16 @@ Creates a new event parameter object of the EventParameterString type from the b
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public EventParameterString( 
 
    IEventParameter pIEventParameter
 
 )
-```
-```
 
-```
-```
 public:
 
 EventParameterString( 
@@ -30,8 +25,7 @@ EventParameterString(
    IEventParameter^ pIEventParameter
 
 )
-```
-```
+
 
 #### Parameters
 

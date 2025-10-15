@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class GraphicalLayer
-```
-```
 
-```
-```
 public ref class GraphicalLayer
-```
-```
+
 
 Remarks
 
 This class, unlike others in DataModel, saves properties like Name,Description,Visible and others after calling Store() function. It is NOT done automatic. For properly work objects of this class, they have to be associated in a GraphicalLayerTable. Some properties of Data model classes are not linked with their owners even if from the syntax it may seem otherwise. Like in this line: oRectangle.Pen.ColorId = 5, the ColorId of the Pen is changed but oRectangle object doesn't know about it since the Pen property is a stand alone value not aware of oRectangle object existence. This remark applies to the following GraphicalLayer property: Pen.
-
-
 
 Public Constructors
 
@@ -41,8 +33,6 @@ Public Constructors
 | Public Constructor | [GraphicalLayer Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayer~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 
@@ -82,8 +72,6 @@ Public Methods
 | Public Method | [Store](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayer~Store.html) | Stores modified layer's properties into project. |
 
 [Top](#top)
-
-
 
 Public Operators
 

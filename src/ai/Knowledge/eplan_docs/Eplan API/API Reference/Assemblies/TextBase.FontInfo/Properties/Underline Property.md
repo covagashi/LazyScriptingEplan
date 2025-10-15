@@ -8,17 +8,12 @@ Gets whether font is underlined or not.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Underline {get;}
-```
-```
 
-```
-```
 public:
 
 property bool Underline {
@@ -26,5 +21,4 @@ property bool Underline {
    bool get();
 
 }
-```
-```
+

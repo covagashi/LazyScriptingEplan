@@ -8,17 +8,12 @@ Last editor # 22980.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue PART_LASTCHANGE_USER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ PART_LASTCHANGE_USER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ PART_LASTCHANGE_USER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

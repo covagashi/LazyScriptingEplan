@@ -8,19 +8,13 @@ Removes the contents.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Clear()
-```
-```
 
-```
-```
 public:
 
 void Clear();
-```
-```
+

@@ -8,22 +8,16 @@ Adds a new connection point to the symbol variant.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDSymbolConnectionPoint AddSymbolConnectionPoint()
-```
-```
 
-```
-```
 public:
 
 MDSymbolConnectionPoint^ AddSymbolConnectionPoint();
-```
-```
+
 
 #### Return Value
 

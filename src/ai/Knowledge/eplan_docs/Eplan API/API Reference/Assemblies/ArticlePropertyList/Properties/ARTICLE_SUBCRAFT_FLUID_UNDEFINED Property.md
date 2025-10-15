@@ -8,21 +8,16 @@ Subtrade 'Fluid power (undefined)' # 22267.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SUBCRAFT_FLUID_UNDEFINED( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SUBCRAFT_FLUID_UNDEFINED {
@@ -32,8 +27,7 @@ property PropertyValue^ ARTICLE_SUBCRAFT_FLUID_UNDEFINED {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

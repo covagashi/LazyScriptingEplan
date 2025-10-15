@@ -8,17 +8,12 @@ Returns TRUE if the function template is part of an assembly or module and is su
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SummedUp {get;}
-```
-```
 
-```
-```
 public:
 
 property bool SummedUp {
@@ -26,5 +21,4 @@ property bool SummedUp {
    bool get();
 
 }
-```
-```
+

@@ -8,21 +8,16 @@ Gets the name of the product-group
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static string GetProductGroupName( 
 
    MDPartsDatabaseItem.Enums.ProductGroup productGroup
 
 )
-```
-```
 
-```
-```
 public:
 
 static String^ GetProductGroupName( 
@@ -30,8 +25,7 @@ static String^ GetProductGroupName(
    MDPartsDatabaseItem.Enums.ProductGroup productGroup
 
 )
-```
-```
+
 
 #### Parameters
 

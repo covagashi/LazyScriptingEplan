@@ -8,21 +8,16 @@ Adds local terminal templates to the terminal strip.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddLocalFunctionTemplates( 
 
    Function[] arrTemplates
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddLocalFunctionTemplates( 
@@ -30,8 +25,7 @@ void AddLocalFunctionTemplates(
    array<Function^>^ arrTemplates
 
 )
-```
-```
+
 
 #### Parameters
 

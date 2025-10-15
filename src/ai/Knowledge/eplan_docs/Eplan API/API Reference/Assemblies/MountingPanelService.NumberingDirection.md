@@ -8,20 +8,14 @@ Numbering direction
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MountingPanelService.NumberingDirection : System.Enum
-```
-```
 
-```
-```
 public enum class MountingPanelService.NumberingDirection : public System.Enum
-```
-```
+
 
 Members
 

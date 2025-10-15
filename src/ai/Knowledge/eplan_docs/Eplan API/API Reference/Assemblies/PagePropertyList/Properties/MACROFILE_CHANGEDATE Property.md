@@ -8,17 +8,12 @@ Macro: Modification date # 23019.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue MACROFILE_CHANGEDATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ MACROFILE_CHANGEDATE {
@@ -28,8 +23,7 @@ property PropertyValue^ MACROFILE_CHANGEDATE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

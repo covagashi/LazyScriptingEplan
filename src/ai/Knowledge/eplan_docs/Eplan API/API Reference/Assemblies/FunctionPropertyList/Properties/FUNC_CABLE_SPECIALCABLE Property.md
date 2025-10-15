@@ -8,17 +8,12 @@ Special cable # 20066.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLE_SPECIALCABLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLE_SPECIALCABLE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLE_SPECIALCABLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

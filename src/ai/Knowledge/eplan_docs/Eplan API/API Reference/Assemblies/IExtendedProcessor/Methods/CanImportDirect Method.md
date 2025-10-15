@@ -8,11 +8,10 @@ Indicates whether the converter can import external formats
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool CanImportDirect( 
 
    Context oContext,
@@ -20,11 +19,7 @@ bool CanImportDirect(
    ref bool bSupportsProgress
 
 )
-```
-```
 
-```
-```
 bool CanImportDirect( 
 
    Context^ oContext,
@@ -32,8 +27,7 @@ bool CanImportDirect(
    bool% bSupportsProgress
 
 )
-```
-```
+
 
 #### Parameters
 

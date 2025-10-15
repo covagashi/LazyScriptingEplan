@@ -8,17 +8,12 @@ Type of class which filters objects that are additionally passed to [IVerificati
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override Type AdditionalObjectsFilter {get;}
-```
-```
 
-```
-```
 public:
 
 property Type^ AdditionalObjectsFilter {
@@ -26,8 +21,7 @@ property Type^ AdditionalObjectsFilter {
    Type^ get() override;
 
 }
-```
-```
+
 
 Remarks
 

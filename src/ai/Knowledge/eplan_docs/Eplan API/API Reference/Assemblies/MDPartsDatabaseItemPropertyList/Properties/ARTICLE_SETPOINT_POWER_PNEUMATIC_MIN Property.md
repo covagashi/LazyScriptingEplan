@@ -8,17 +8,12 @@ Target power (pneumatic), min. # 26147.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SETPOINT_POWER_PNEUMATIC_MIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SETPOINT_POWER_PNEUMATIC_MIN {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SETPOINT_POWER_PNEUMATIC_MIN {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Generates PLC schematic pages.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Page[] GenerateSchematic( 
 
    Project oProject,
@@ -28,11 +27,7 @@ public Page[] GenerateSchematic(
    bool bGenerateRackOverviews
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Page^>^ GenerateSchematic( 
@@ -50,8 +45,7 @@ array<Page^>^ GenerateSchematic(
    bool bGenerateRackOverviews
 
 )
-```
-```
+
 
 #### Parameters
 

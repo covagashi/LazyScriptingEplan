@@ -8,17 +8,12 @@ Type of view which is displayed in ViewPlacement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ViewPlacementType ViewPlacementType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property ViewPlacementType ViewPlacementType {
@@ -28,5 +23,4 @@ property ViewPlacementType ViewPlacementType {
    void set (    ViewPlacementType value);
 
 }
-```
-```
+

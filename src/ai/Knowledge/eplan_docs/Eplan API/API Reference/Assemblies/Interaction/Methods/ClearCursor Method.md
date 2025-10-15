@@ -8,19 +8,13 @@ Remove Cursor-Representation.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ClearCursor()
-```
-```
 
-```
-```
 public:
 
 void ClearCursor();
-```
-```
+

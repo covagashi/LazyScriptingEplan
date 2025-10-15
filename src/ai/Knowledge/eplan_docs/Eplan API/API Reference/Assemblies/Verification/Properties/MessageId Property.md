@@ -8,17 +8,12 @@ The ID of the message. Is automatically set.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int MessageId {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int MessageId {
@@ -28,5 +23,4 @@ property int MessageId {
    void set (    int value);
 
 }
-```
-```
+

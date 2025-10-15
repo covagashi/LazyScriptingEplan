@@ -8,11 +8,10 @@ Constructor
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public BaseException( 
 
    string strErrorText,
@@ -20,11 +19,7 @@ public BaseException(
    MessageLevel eErrorLevel
 
 )
-```
-```
 
-```
-```
 public:
 
 BaseException( 
@@ -34,8 +29,7 @@ BaseException(
    MessageLevel eErrorLevel
 
 )
-```
-```
+
 
 #### Parameters
 

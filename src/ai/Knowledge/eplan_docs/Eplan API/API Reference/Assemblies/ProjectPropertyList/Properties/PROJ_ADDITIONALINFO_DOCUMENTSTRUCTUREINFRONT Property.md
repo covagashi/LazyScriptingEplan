@@ -8,17 +8,12 @@ Start page name with document type # 10450.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_ADDITIONALINFO_DOCUMENTSTRUCTUREINFRONT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_ADDITIONALINFO_DOCUMENTSTRUCTUREINFRONT {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_ADDITIONALINFO_DOCUMENTSTRUCTUREINFRONT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

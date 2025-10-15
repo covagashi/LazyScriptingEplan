@@ -8,22 +8,16 @@ For internal use only.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual AfEventParameter GetInternalParameter()
-```
-```
 
-```
-```
 public:
 
 virtual AfEventParameter GetInternalParameter();
-```
-```
+
 
 #### Return Value
 

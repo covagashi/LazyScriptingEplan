@@ -8,21 +8,16 @@ Adds a new customer to the parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAddress AddCustomer( 
 
    string shortName
 
 )
-```
-```
 
-```
-```
 public:
 
 MDAddress^ AddCustomer( 
@@ -30,8 +25,7 @@ MDAddress^ AddCustomer(
    String^ shortName
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Constructor with custom message text.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public UnknownPrinter( 
 
    string message
 
 )
-```
-```
 
-```
-```
 public:
 
 UnknownPrinter( 
@@ -30,8 +25,7 @@ UnknownPrinter(
    String^ message
 
 )
-```
-```
+
 
 #### Parameters
 

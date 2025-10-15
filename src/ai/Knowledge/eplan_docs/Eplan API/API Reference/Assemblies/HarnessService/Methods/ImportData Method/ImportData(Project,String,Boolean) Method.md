@@ -8,11 +8,10 @@ Imports Harness data from a file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] ImportData( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public StorableObject[] ImportData(
    bool bShowAdjustmentDlg
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ ImportData( 
@@ -38,8 +33,7 @@ array<StorableObject^>^ ImportData(
    bool bShowAdjustmentDlg
 
 )
-```
-```
+
 
 #### Parameters
 

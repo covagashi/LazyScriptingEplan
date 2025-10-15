@@ -8,17 +8,12 @@ If a PLC bus port itself is a bus master, the name / code of this bus master is 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PlcMaster {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PlcMaster {
@@ -28,5 +23,4 @@ property String^ PlcMaster {
    void set (    String^ value);
 
 }
-```
-```
+

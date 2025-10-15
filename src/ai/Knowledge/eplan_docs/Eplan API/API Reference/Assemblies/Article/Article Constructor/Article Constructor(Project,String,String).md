@@ -8,11 +8,10 @@ Constructor. Creates a Article in Project with the specified strPartnr and strVa
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Article( 
 
    Project proj,
@@ -22,11 +21,7 @@ public Article(
    string strVariant
 
 )
-```
-```
 
-```
-```
 public:
 
 Article( 
@@ -38,8 +33,7 @@ Article(
    String^ strVariant
 
 )
-```
-```
+
 
 #### Parameters
 

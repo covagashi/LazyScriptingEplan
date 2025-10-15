@@ -8,17 +8,12 @@ Type number # 22002.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TYPENR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TYPENR {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TYPENR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Gets system messages
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SysMessagesCollection SysMessages {get; set;}
-```
-```
 
-```
-```
 public:
 
 property SysMessagesCollection^ SysMessages {
@@ -28,5 +23,4 @@ property SysMessagesCollection^ SysMessages {
    void set (    SysMessagesCollection^ value);
 
 }
-```
-```
+

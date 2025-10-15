@@ -8,21 +8,16 @@ Creates a new Group object. It is placed on the page of first placement given as
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Create( 
 
    Placement[] placements
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void Create( 
@@ -30,8 +25,7 @@ virtual void Create(
    array<Placement^>^ placements
 
 )
-```
-```
+
 
 #### Parameters
 

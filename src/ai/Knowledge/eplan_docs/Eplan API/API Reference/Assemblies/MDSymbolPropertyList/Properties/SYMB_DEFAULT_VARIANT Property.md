@@ -8,17 +8,12 @@ Default variant # 16003.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMB_DEFAULT_VARIANT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMB_DEFAULT_VARIANT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMB_DEFAULT_VARIANT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

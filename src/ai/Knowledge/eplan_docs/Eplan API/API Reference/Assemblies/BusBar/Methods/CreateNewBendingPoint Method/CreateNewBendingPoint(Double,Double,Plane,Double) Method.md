@@ -8,11 +8,10 @@ Creates new bending point on a plane of the bus bar
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Plane[] CreateNewBendingPoint( 
 
    double point,
@@ -24,11 +23,7 @@ public Plane[] CreateNewBendingPoint(
    double bendingRadius
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Plane^>^ CreateNewBendingPoint( 
@@ -42,8 +37,7 @@ array<Plane^>^ CreateNewBendingPoint(
    double bendingRadius
 
 )
-```
-```
+
 
 #### Parameters
 

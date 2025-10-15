@@ -8,11 +8,10 @@ Lines up together the given children of a mounting rail to the certain target di
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool LineUp( 
 
    Placement3D[] arrPlacement3D,
@@ -20,11 +19,7 @@ public bool LineUp(
    Placement3DService.AlignmentDirection eAlignmentDirection
 
 )
-```
-```
 
-```
-```
 public:
 
 bool LineUp( 
@@ -34,8 +29,7 @@ bool LineUp(
    Placement3DService.AlignmentDirection eAlignmentDirection
 
 )
-```
-```
+
 
 #### Parameters
 

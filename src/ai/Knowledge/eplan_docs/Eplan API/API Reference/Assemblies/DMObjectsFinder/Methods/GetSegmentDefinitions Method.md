@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.Planning.SegmentDefinition](Eplan.EplApi.DataMod
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SegmentDefinition[] GetSegmentDefinitions( 
 
    SegmentDefinitionsFilter pFilter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<SegmentDefinition^>^ GetSegmentDefinitions( 
@@ -30,8 +25,7 @@ array<SegmentDefinition^>^ GetSegmentDefinitions(
    SegmentDefinitionsFilter^ pFilter
 
 )
-```
-```
+
 
 #### Parameters
 

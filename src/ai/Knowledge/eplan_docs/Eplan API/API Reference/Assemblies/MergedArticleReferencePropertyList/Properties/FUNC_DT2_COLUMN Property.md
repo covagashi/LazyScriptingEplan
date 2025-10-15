@@ -8,17 +8,12 @@ DT (subordinate): Column # 20172.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DT2_COLUMN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DT2_COLUMN {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DT2_COLUMN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

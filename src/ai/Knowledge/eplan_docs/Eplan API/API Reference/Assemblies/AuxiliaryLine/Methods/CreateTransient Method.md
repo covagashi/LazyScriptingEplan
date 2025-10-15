@@ -8,11 +8,10 @@ Creates transient, not placed AuxiliaryLine object with defined start and end po
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static AuxiliaryLine CreateTransient( 
 
    Project pProject,
@@ -22,11 +21,7 @@ public static AuxiliaryLine CreateTransient(
    PointD3D oEndPoint
 
 )
-```
-```
 
-```
-```
 public:
 
 static AuxiliaryLine^ CreateTransient( 
@@ -38,8 +33,7 @@ static AuxiliaryLine^ CreateTransient(
    PointD3D oEndPoint
 
 )
-```
-```
+
 
 #### Parameters
 

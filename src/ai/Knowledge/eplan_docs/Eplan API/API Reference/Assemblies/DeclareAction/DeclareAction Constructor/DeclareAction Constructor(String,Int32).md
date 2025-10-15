@@ -8,11 +8,10 @@ Used to mark a function of a class in a script if the function of this script is
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DeclareAction( 
 
    string strActionName,
@@ -20,11 +19,7 @@ public DeclareAction(
    int iOrdinal
 
 )
-```
-```
 
-```
-```
 public:
 
 DeclareAction( 
@@ -34,8 +29,7 @@ DeclareAction(
    int iOrdinal
 
 )
-```
-```
+
 
 #### Parameters
 

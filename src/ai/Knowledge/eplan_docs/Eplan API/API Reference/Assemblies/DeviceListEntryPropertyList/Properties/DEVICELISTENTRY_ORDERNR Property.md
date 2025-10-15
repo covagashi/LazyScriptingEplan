@@ -8,17 +8,12 @@ Order number # 23207.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DEVICELISTENTRY_ORDERNR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DEVICELISTENTRY_ORDERNR {
@@ -28,8 +23,7 @@ property PropertyValue^ DEVICELISTENTRY_ORDERNR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

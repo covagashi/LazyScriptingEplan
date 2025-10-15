@@ -8,17 +8,12 @@ For a connection point, this shows how the end of the connection is handled, for
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int WireTerminationProcessing {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int WireTerminationProcessing {
@@ -28,5 +23,4 @@ property int WireTerminationProcessing {
    void set (    int value);
 
 }
-```
-```
+

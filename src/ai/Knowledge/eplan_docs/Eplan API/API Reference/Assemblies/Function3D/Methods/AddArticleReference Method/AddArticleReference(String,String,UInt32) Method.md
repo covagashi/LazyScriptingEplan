@@ -8,11 +8,10 @@ Adds a new [Eplan.EplApi.DataModel.ArticleReference](Eplan.EplApi.DataModelu~Epl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual ArticleReference AddArticleReference( 
 
    string strArticleNR,
@@ -22,11 +21,7 @@ public virtual ArticleReference AddArticleReference(
    uint nCount
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual ArticleReference^ AddArticleReference( 
@@ -38,8 +33,7 @@ virtual ArticleReference^ AddArticleReference(
    uint nCount
 
 )
-```
-```
+
 
 #### Parameters
 

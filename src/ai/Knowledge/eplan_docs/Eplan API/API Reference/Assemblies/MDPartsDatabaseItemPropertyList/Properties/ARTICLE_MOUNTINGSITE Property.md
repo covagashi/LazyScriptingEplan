@@ -8,17 +8,12 @@ Mounting surface # 22022.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_MOUNTINGSITE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_MOUNTINGSITE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_MOUNTINGSITE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

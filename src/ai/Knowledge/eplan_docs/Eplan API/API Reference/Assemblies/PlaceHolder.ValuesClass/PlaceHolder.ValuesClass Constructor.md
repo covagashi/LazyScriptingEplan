@@ -8,21 +8,16 @@ Constructor
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlaceHolder.ValuesClass( 
 
    PlaceHolder oPlaceHolder
 
 )
-```
-```
 
-```
-```
 public:
 
 PlaceHolder.ValuesClass( 
@@ -30,8 +25,7 @@ PlaceHolder.ValuesClass(
    PlaceHolder^ oPlaceHolder
 
 )
-```
-```
+
 
 #### Parameters
 

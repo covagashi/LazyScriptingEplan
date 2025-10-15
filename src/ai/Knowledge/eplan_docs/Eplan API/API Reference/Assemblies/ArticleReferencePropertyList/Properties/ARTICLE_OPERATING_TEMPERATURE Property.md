@@ -8,17 +8,12 @@ Operating temperature # 26237.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_OPERATING_TEMPERATURE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_OPERATING_TEMPERATURE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_OPERATING_TEMPERATURE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

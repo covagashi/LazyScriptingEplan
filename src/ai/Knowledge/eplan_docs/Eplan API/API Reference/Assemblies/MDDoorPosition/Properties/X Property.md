@@ -8,17 +8,12 @@ Returns the X position of the referenced door.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double X {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double X {
@@ -28,5 +23,4 @@ property double X {
    void set (    double value);
 
 }
-```
-```
+

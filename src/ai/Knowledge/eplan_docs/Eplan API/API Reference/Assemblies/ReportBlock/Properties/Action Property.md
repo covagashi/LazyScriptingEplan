@@ -8,17 +8,12 @@ Gets/Sets a name of an action which may be used for customizing the report throu
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Action {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Action {
@@ -28,5 +23,4 @@ property String^ Action {
    void set (    String^ value);
 
 }
-```
-```
+

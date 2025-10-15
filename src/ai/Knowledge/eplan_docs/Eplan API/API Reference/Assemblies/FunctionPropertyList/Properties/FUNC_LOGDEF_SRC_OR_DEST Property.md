@@ -8,21 +8,16 @@ Connection point logic: Source / target # 20611.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_LOGDEF_SRC_OR_DEST( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_LOGDEF_SRC_OR_DEST {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_LOGDEF_SRC_OR_DEST {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

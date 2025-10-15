@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class SettingPropertiesManager
-```
-```
 
-```
-```
 public ref class SettingPropertiesManager
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [SettingPropertiesManager Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Helpers.SettingPropertiesManager~_ctor.html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

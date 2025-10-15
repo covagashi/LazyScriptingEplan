@@ -8,17 +8,12 @@ Connection: Association # 31142.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_KINDOFWIRE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_KINDOFWIRE {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_KINDOFWIRE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

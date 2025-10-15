@@ -8,17 +8,12 @@ Determines whether a document is selected. This will only return a document, whe
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DocumentBase Document {get;}
-```
-```
 
-```
-```
 public:
 
 property DocumentBase^ Document {
@@ -26,8 +21,7 @@ property DocumentBase^ Document {
    DocumentBase^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

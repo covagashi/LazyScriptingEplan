@@ -8,17 +8,12 @@ The minimal wire cross section AWG of the connection point
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string MinCrossSectionAWG {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ MinCrossSectionAWG {
@@ -28,8 +23,7 @@ property String^ MinCrossSectionAWG {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Remarks
 

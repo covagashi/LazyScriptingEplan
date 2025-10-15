@@ -16,26 +16,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class FunctionsFilter : PlacementsFilter
-```
-```
 
-```
-```
 public ref class FunctionsFilter : public PlacementsFilter
-```
-```
+
 
 Example
 
 This example shows how to filter functions by category:
 
-- [C#](#i-tab-content-3d9c8f7a-1de2-411f-aba6-44f317af4ec0)
+**C#**
 
 ```
 
@@ -44,19 +38,13 @@ Project myProject = m_oProject; // A valid project
 
 Page myPage = myProject.Pages[0]; // A valid Page object
 
-
-
 // Use a filter to get only functions with category 'Motor'
 
 myPage.Filter.FunctionCategory = Eplan.EplApi.Base.Enums.FunctionCategory.Motor;
 
-
-
 // Place all functions with category 'Motor' on page myPage
 
 Function[] functions = myPage.Functions;
-
-
 
 // Another way to do the same:
 
@@ -70,21 +58,15 @@ myFunctionsFilter.Page = myPage;
 
 DMObjectsFinder objFinder = new DMObjectsFinder(myProject);
 
-
-
 // Place all functions with category 'Motor' on page myPage
 
 functions = objFinder.GetFunctions(myFunctionsFilter);
-
-
-
-
 
 ```
 
 The following example shows how to filter by user-defined properties:
 
-- [C#](#i-tab-content-3102a23a-8b68-42ce-b1b2-0fba896579c3)
+**C#**
 
 ```
 
@@ -92,8 +74,6 @@ The following example shows how to filter by user-defined properties:
 Project myProject = m_oProject; // A valid project
 
 Page myPage = myProject.Pages[0]; // A valid Page object
-
-
 
 // Define test property
 
@@ -105,13 +85,9 @@ string strPropertyIdentyfingName = "Page.Test043c";
 
 UserDefinedPropertyDefinition oUDPD = UserDefinedPropertyDefinition.Create(myProject, strPropertyIdentyfingName, UserDefinedPropertyDefinition.Enums.ClientType.Page);
 
-
-
 // Set test property on myPage
 
 myPage.Properties[strPropertyIdentyfingName] = mlsTestValue;
-
-
 
 // Search page with property value
 
@@ -123,17 +99,11 @@ PagePropertyList pagePropertyList = new PagePropertyList();
 
 AnyPropertyId anyPropertyId = new AnyPropertyId(myProject, strPropertyIdentyfingName);
 
-
-
 pagePropertyList[anyPropertyId] = mlsTestValue;
 
 pagesFilter.SetFilteredPropertyList(pagePropertyList);
 
 Page[] arrPages1 = objFinder.GetPages(pagesFilter);
-
-
-
-
 
 ```
 
@@ -144,8 +114,6 @@ Public Constructors
 | Public Constructor | [FunctionsFilter Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionsFilter~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

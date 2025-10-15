@@ -8,17 +8,12 @@ Gets all constructions that are stored in the parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDConstruction[] Constructions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDConstruction^>^ Constructions {
@@ -26,8 +21,7 @@ property array<MDConstruction^>^ Constructions {
    array<MDConstruction^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

@@ -8,17 +8,12 @@ Identifier set names.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string[] IdentifierSets {get;}
-```
-```
 
-```
-```
 public:
 
 property array<String^>^ IdentifierSets {
@@ -26,5 +21,4 @@ property array<String^>^ IdentifierSets {
    array<String^>^ get();
 
 }
-```
-```
+

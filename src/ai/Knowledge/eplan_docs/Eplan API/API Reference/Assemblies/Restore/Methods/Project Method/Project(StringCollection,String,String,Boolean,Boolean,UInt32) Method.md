@@ -8,11 +8,10 @@ Restore projects from archive files.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Project( 
 
    StringCollection strColArchivenames,
@@ -28,11 +27,7 @@ public void Project(
    uint nMode
 
 )
-```
-```
 
-```
-```
 public:
 
 void Project( 
@@ -50,8 +45,7 @@ void Project(
    uint nMode
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ The MTBF (meam time between failures)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double MTBF {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double MTBF {
@@ -28,5 +23,4 @@ property double MTBF {
    void set (    double value);
 
 }
-```
-```
+

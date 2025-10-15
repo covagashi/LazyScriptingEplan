@@ -8,17 +8,12 @@ PCT type # 16016.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMB_PLTTYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMB_PLTTYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMB_PLTTYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Returns tab by name, multilanguage
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonTab GetTab( 
 
    MultiLangString multiLangTabName,
@@ -20,11 +19,7 @@ public RibbonTab GetTab(
    bool checkAnyLanguage
 
 )
-```
-```
 
-```
-```
 public:
 
 RibbonTab^ GetTab( 
@@ -34,8 +29,7 @@ RibbonTab^ GetTab(
    bool checkAnyLanguage
 
 )
-```
-```
+
 
 #### Parameters
 

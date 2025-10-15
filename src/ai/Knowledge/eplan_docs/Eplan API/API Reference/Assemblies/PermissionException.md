@@ -19,22 +19,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PermissionException : SettingValueFailedException
-```
-```
 
-```
-```
 public ref class PermissionException : public SettingValueFailedException
-```
-```
-
-
 
 Public Constructors
 
@@ -43,8 +34,6 @@ Public Constructors
 | Public Constructor | [PermissionException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PermissionException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

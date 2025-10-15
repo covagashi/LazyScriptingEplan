@@ -8,21 +8,16 @@ Removes a manufacturer out of the parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveManufacturer( 
 
    MDAddress manufacturer
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveManufacturer( 
@@ -30,8 +25,7 @@ void RemoveManufacturer(
    MDAddress^ manufacturer
 
 )
-```
-```
+
 
 #### Parameters
 

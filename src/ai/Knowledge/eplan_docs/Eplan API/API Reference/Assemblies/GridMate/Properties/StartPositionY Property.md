@@ -8,17 +8,12 @@ Start position in Y direction
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double StartPositionY {get;}
-```
-```
 
-```
-```
 public:
 
 property double StartPositionY {
@@ -26,5 +21,4 @@ property double StartPositionY {
    double get();
 
 }
-```
-```
+

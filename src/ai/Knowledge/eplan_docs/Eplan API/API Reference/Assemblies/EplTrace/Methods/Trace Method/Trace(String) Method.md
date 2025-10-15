@@ -8,21 +8,16 @@ Writes the text to EplLog.txt when Trace is on. The Calling Assembly is asked fo
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Trace( 
 
    string strMessage
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void Trace( 
@@ -30,8 +25,7 @@ virtual void Trace(
    String^ strMessage
 
 )
-```
-```
+
 
 #### Parameters
 

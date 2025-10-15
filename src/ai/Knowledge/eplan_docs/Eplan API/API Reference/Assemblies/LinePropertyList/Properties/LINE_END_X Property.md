@@ -8,17 +8,12 @@ X coordinate end point # 19312.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue LINE_END_X {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ LINE_END_X {
@@ -28,8 +23,7 @@ property PropertyValue^ LINE_END_X {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

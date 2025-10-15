@@ -8,17 +8,12 @@ Name of sort scheme.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SortSchemaName {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ SortSchemaName {
@@ -28,5 +23,4 @@ property String^ SortSchemaName {
    void set (    String^ value);
 
 }
-```
-```
+

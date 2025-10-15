@@ -11,22 +11,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ContactImage.Enums
-```
-```
 
-```
-```
 public ref class ContactImage.Enums
-```
-```
-
-
 
 Public Constructors
 

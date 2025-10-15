@@ -8,17 +8,12 @@ Checks, if layer object is attached to existing project's layer.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool isValid {get;}
-```
-```
 
-```
-```
 public:
 
 property bool isValid {
@@ -26,8 +21,7 @@ property bool isValid {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

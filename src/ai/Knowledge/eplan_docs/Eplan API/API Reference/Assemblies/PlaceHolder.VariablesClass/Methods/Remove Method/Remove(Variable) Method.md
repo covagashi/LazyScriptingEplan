@@ -8,21 +8,16 @@ Removes a variable
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool Remove( 
 
    PlaceHolder.Variable item
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual bool Remove( 
@@ -30,8 +25,7 @@ virtual bool Remove(
    PlaceHolder.Variable^ item
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Gets the database, where the database item is stored
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartsDatabase Database {get;}
-```
-```
 
-```
-```
 public:
 
 property MDPartsDatabase^ Database {
@@ -26,8 +21,7 @@ property MDPartsDatabase^ Database {
    MDPartsDatabase^ get();
 
 }
-```
-```
+
 
 Remarks
 

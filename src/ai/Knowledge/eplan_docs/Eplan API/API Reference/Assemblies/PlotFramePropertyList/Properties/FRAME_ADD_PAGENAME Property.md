@@ -8,17 +8,12 @@ Add page names # 12030.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_ADD_PAGENAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_ADD_PAGENAME {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_ADD_PAGENAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

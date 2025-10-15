@@ -8,17 +8,12 @@ EplanVariant is the variant of the EPLAN installation, for example Fluid
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string EplanVariant {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ EplanVariant {
@@ -28,5 +23,4 @@ property String^ EplanVariant {
    void set (    String^ value);
 
 }
-```
-```
+

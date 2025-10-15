@@ -8,21 +8,16 @@ Error: Property placement # 15106.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBLIB_PLACEDPROPERROR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBLIB_PLACEDPROPERROR {
@@ -32,8 +27,7 @@ property MDPropertyValue^ SYMBLIB_PLACEDPROPERROR {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

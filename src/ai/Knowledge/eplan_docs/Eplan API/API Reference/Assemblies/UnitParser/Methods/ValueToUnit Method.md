@@ -8,21 +8,16 @@ Convert the value to a new unit (of parameterForConversion) of this group.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double ValueToUnit( 
 
    ParserParameter parameterForConversion
 
 )
-```
-```
 
-```
-```
 public:
 
 double ValueToUnit( 
@@ -30,8 +25,7 @@ double ValueToUnit(
    ParserParameter^ parameterForConversion
 
 )
-```
-```
+
 
 #### Parameters
 

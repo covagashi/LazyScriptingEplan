@@ -8,11 +8,10 @@ Stores data from connection point position in function under given index.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void StoreConnectionPointPosition( 
 
    ConnectionPointPosition pConnectionPointPosition,
@@ -20,11 +19,7 @@ public void StoreConnectionPointPosition(
    short iIndex
 
 )
-```
-```
 
-```
-```
 public:
 
 void StoreConnectionPointPosition( 
@@ -34,8 +29,7 @@ void StoreConnectionPointPosition(
    short iIndex
 
 )
-```
-```
+
 
 #### Parameters
 

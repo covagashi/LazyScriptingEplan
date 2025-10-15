@@ -8,17 +8,12 @@ Function exists with 'Single-line' representation type # 20471.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ISPLACEDIN_SINGLELINE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ISPLACEDIN_SINGLELINE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ISPLACEDIN_SINGLELINE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

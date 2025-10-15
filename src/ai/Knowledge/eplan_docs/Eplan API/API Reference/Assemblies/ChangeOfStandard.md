@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ChangeOfStandard
-```
-```
 
-```
-```
 public ref class ChangeOfStandard
-```
-```
-
-
 
 Public Constructors
 
@@ -37,9 +28,6 @@ Public Constructors
 | Public Constructor | [ChangeOfStandard Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ChangeOfStandard~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

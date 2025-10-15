@@ -8,17 +8,12 @@ Contact: Switching capacity # 20055.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CONTACTORPOWER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CONTACTORPOWER {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CONTACTORPOWER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

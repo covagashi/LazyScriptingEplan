@@ -8,17 +8,12 @@ Gets or sets object's graphical layer. If object is not assigned to a project (P
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual GraphicalLayer Layer {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property GraphicalLayer^ Layer {
@@ -28,8 +23,7 @@ virtual property GraphicalLayer^ Layer {
    void set (    GraphicalLayer^ value);
 
 }
-```
-```
+
 
 Exceptions
 

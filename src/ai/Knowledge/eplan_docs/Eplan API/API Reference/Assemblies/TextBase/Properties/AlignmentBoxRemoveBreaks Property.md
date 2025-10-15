@@ -8,17 +8,12 @@ Specifies that breaks are removed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AlignmentBoxRemoveBreaks {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool AlignmentBoxRemoveBreaks {
@@ -28,5 +23,4 @@ property bool AlignmentBoxRemoveBreaks {
    void set (    bool value);
 
 }
-```
-```
+

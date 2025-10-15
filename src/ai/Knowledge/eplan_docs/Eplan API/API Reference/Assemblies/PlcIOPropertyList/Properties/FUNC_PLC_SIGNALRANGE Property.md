@@ -8,17 +8,12 @@ Signal range # 20388.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLC_SIGNALRANGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLC_SIGNALRANGE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLC_SIGNALRANGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

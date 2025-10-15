@@ -8,11 +8,10 @@ Completes modification of installation spaces in the current revision of a proje
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CompleteInstallationSpaces( 
 
    InstallationSpace[] spacesToComplete,
@@ -24,11 +23,7 @@ public void CompleteInstallationSpaces(
    string strReasonOfChange
 
 )
-```
-```
 
-```
-```
 public:
 
 void CompleteInstallationSpaces( 
@@ -42,8 +37,7 @@ void CompleteInstallationSpaces(
    String^ strReasonOfChange
 
 )
-```
-```
+
 
 #### Parameters
 

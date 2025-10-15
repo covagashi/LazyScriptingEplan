@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public sealed class ProjectEventsProvider
-```
-```
 
-```
-```
 public ref class ProjectEventsProvider sealed
-```
-```
+
 
 Remarks
 
@@ -36,7 +30,7 @@ Example
 
 The following example shows how to use class `ProjectEventsProvider`.
 
-- [C#](#i-tab-content-598c7eae-a02e-41bc-a2ef-d5d89c0f486a)
+**C#**
 
 ```
 public class EventListener : IDisposable
@@ -91,8 +85,6 @@ public class EventListener : IDisposable
 
 EventListener oEventListener = new EventListener();
 
-
-
 ```
 
 Public Constructors
@@ -102,9 +94,6 @@ Public Constructors
 | Public Constructor | [ProjectEventsProvider Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectEventsProvider~_ctor.html) | Constructor |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

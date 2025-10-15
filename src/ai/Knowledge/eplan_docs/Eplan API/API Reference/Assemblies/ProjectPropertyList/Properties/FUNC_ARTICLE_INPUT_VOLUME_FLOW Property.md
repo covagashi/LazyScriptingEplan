@@ -8,21 +8,16 @@ Input flow rate # 26280.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_INPUT_VOLUME_FLOW( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_INPUT_VOLUME_FLOW {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_INPUT_VOLUME_FLOW {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

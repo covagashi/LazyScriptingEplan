@@ -8,17 +8,12 @@ Terminal strips: Number of general terminals # 35002.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue TERMINALSTRIP_COUNTOFCOMMON {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ TERMINALSTRIP_COUNTOFCOMMON {
@@ -28,8 +23,7 @@ property PropertyValue^ TERMINALSTRIP_COUNTOFCOMMON {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

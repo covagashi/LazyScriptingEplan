@@ -8,20 +8,14 @@ An item is part of a device which cannot be further broken down, such as a motor
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ItemType : System.Enum
-```
-```
 
-```
-```
 public enum class ItemType : public System.Enum
-```
-```
+
 
 Members
 

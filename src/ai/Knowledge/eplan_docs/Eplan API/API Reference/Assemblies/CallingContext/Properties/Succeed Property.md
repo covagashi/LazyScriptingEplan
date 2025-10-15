@@ -8,17 +8,12 @@ Succeed flag
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Succeed {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool Succeed {
@@ -28,5 +23,4 @@ property bool Succeed {
    void set (    bool value);
 
 }
-```
-```
+

@@ -8,21 +8,16 @@ Constructor with custom message text.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public HEServicesBase( 
 
    string message
 
 )
-```
-```
 
-```
-```
 public:
 
 HEServicesBase( 
@@ -30,8 +25,7 @@ HEServicesBase(
    String^ message
 
 )
-```
-```
+
 
 #### Parameters
 

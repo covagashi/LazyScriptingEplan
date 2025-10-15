@@ -8,11 +8,10 @@ checks, if the variant exists inside the window macro
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExistVariant( 
 
    WindowMacro.Enums.RepresentationType nRepType,
@@ -20,11 +19,7 @@ public bool ExistVariant(
    int nVariant
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExistVariant( 
@@ -34,8 +29,7 @@ bool ExistVariant(
    int nVariant
 
 )
-```
-```
+
 
 #### Parameters
 

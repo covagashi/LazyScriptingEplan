@@ -8,20 +8,14 @@ Specifies docking direction of text.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum TextBase.TextDockingDirection : System.Enum
-```
-```
 
-```
-```
 public enum class TextBase.TextDockingDirection : public System.Enum
-```
-```
+
 
 Members
 

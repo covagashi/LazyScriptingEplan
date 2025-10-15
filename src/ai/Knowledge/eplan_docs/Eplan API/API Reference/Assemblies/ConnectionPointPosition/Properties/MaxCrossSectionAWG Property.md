@@ -8,17 +8,12 @@ Maximum cross section AWG that can be connected to this connection point.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string MaxCrossSectionAWG {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ MaxCrossSectionAWG {
@@ -28,8 +23,7 @@ property String^ MaxCrossSectionAWG {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Remarks
 

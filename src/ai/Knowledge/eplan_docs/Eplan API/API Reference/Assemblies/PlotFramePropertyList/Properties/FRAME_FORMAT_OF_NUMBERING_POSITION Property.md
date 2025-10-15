@@ -8,17 +8,12 @@ Row numbering format # 12009.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_FORMAT_OF_NUMBERING_POSITION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_FORMAT_OF_NUMBERING_POSITION {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_FORMAT_OF_NUMBERING_POSITION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

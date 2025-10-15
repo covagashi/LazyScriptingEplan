@@ -8,11 +8,10 @@ Set the Title of the progress window.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void SetTitle( 
 
    string strTitle,
@@ -20,11 +19,7 @@ void SetTitle(
    bool bSetOnlyIfEmpty
 
 )
-```
-```
 
-```
-```
 void SetTitle( 
 
    String^ strTitle,
@@ -32,8 +27,7 @@ void SetTitle(
    bool bSetOnlyIfEmpty
 
 )
-```
-```
+
 
 #### Parameters
 

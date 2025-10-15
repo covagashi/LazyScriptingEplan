@@ -6,10 +6,8 @@
 
 The  Area  is a part of the mounting surface on which 3D placements can not be placed. As soon as a parts placement is put into a restricted placing area, an error is generated (by verification no. 026012).
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- MountingPanel oMountingPanel = new MountingPanel();
+```csharp
+MountingPanel oMountingPanel = new MountingPanel();
  oMountingPanel.Create(m_oTestProject, 500.0, 500.0, 2.0);
  oMountingPanel.Parent = m_oInstallationSpace;
  MultiLangString oFunctionDefinitionName = new MultiLangString();
@@ -21,5 +19,5 @@ The  Area  is a part of the mounting surface on which 3D placements can not be
  oArea.Create(m_oTestProject, oFunctionDefinition);
  oArea.Parent = oMountingPanel.Planes[0];
  oArea.Size = new PointD(200.0, 250.0);
- ``` | |
+```
 

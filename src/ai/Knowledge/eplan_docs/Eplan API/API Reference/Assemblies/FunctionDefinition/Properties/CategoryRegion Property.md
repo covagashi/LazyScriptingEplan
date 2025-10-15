@@ -8,17 +8,12 @@ Name of FunctionDefinition's region category. It is 'Area' level in function def
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString CategoryRegion {get;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ CategoryRegion {
@@ -26,8 +21,7 @@ property MultiLangString^ CategoryRegion {
    MultiLangString^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

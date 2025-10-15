@@ -8,17 +8,12 @@ Separator between interruption point and cross-reference # 24350.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INTERRUPTIONPOINT_CROSSREFSEPARATOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INTERRUPTIONPOINT_CROSSREFSEPARATOR {
@@ -28,8 +23,7 @@ property PropertyValue^ INTERRUPTIONPOINT_CROSSREFSEPARATOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

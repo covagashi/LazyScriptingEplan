@@ -8,17 +8,12 @@ Diameter: Cable entry # 26097.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_DIAMETER_OF_THE_CABLE_ENTRY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_DIAMETER_OF_THE_CABLE_ENTRY {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_DIAMETER_OF_THE_CABLE_ENTRY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

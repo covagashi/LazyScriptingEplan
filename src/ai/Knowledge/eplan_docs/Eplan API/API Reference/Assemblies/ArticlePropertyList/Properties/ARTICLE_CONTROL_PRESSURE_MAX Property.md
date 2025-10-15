@@ -8,17 +8,12 @@ Pilot pressure, max. # 26150.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CONTROL_PRESSURE_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CONTROL_PRESSURE_MAX {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CONTROL_PRESSURE_MAX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

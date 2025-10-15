@@ -8,17 +8,12 @@ A FunctionDefinition object that this connection point belongs to.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FunctionDefinition FunctionDefinition {get;}
-```
-```
 
-```
-```
 public:
 
 property FunctionDefinition^ FunctionDefinition {
@@ -26,8 +21,7 @@ property FunctionDefinition^ FunctionDefinition {
    FunctionDefinition^ get();
 
 }
-```
-```
+
 
 Remarks
 

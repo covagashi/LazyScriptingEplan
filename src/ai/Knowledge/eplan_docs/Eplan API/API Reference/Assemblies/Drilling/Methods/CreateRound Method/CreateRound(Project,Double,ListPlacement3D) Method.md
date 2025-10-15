@@ -8,11 +8,10 @@ Creates unplaced new round drilling in project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Drilling CreateRound( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public static Drilling CreateRound(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static Drilling^ CreateRound( 
@@ -38,8 +33,7 @@ static Drilling^ CreateRound(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

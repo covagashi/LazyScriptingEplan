@@ -8,17 +8,12 @@ Manufacturing date # 20868.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_HOSE_CREATEDATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_HOSE_CREATEDATE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_HOSE_CREATEDATE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

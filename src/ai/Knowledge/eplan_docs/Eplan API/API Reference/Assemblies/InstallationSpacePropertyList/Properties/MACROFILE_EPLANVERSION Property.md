@@ -8,17 +8,12 @@ Macro: Eplan version # 23018.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue MACROFILE_EPLANVERSION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ MACROFILE_EPLANVERSION {
@@ -28,8 +23,7 @@ property PropertyValue^ MACROFILE_EPLANVERSION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

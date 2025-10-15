@@ -8,11 +8,10 @@ Registers an additional tab sheet for the given item type.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool RegisterTabsheet( 
 
    string addinName,
@@ -22,11 +21,7 @@ public bool RegisterTabsheet(
    string tabsheetName
 
 )
-```
-```
 
-```
-```
 public:
 
 bool RegisterTabsheet( 
@@ -38,8 +33,7 @@ bool RegisterTabsheet(
    String^ tabsheetName
 
 )
-```
-```
+
 
 #### Parameters
 

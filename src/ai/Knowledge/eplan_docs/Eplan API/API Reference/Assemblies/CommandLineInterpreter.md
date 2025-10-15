@@ -13,35 +13,27 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [ClassInterface(ClassInterfaceType.None)]
 
 public class CommandLineInterpreter : ICommandLineInterpreter
-```
-```
 
-```
-```
 [ClassInterface(ClassInterfaceType.None)]
 
 public ref class CommandLineInterpreter : public ICommandLineInterpreter
-```
-```
+
 
 Example
 
 Example of executing command-line commands
 
-- [C#](#i-tab-content-c8c25035-1c27-4c2c-a822-1ce483b503dd)
+**C#**
 
 ```
 String strAction= @"XPrjActionProjectOpen /PROJECT:";
-
-
 
 bool bRet= CommandLineInterpreter().Execute(strAction + ProjectName);
 
@@ -65,9 +57,6 @@ Public Constructors
 | Public Constructor | [CommandLineInterpreter Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.CommandLineInterpreter~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

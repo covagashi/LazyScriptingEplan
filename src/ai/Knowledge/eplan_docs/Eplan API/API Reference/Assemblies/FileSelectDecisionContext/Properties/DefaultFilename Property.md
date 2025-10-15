@@ -8,17 +8,12 @@ The default name of a file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string DefaultFilename {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ DefaultFilename {
@@ -28,5 +23,4 @@ property String^ DefaultFilename {
    void set (    String^ value);
 
 }
-```
-```
+

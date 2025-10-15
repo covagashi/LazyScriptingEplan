@@ -8,17 +8,12 @@ Main function # 20122.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_MAINFUNCTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_MAINFUNCTION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_MAINFUNCTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

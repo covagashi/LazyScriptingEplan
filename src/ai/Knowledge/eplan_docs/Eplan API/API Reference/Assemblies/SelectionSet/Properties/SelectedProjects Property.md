@@ -8,17 +8,12 @@ Return the selected projects of the active dialog as an array. If you select ele
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Project[] SelectedProjects {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Project^>^ SelectedProjects {
@@ -26,8 +21,7 @@ property array<Project^>^ SelectedProjects {
    array<Project^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

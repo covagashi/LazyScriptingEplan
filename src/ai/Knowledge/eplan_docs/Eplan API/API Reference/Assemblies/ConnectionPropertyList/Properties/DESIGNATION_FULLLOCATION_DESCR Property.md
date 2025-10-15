@@ -8,17 +8,12 @@ Location designation: Description # 1250.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FULLLOCATION_DESCR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FULLLOCATION_DESCR {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FULLLOCATION_DESCR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -13,8 +13,6 @@ The mechanism of interactions is mostly based on the  XGedStartInteractionActio
 
 XGedStartInteractionAction /Name:XMIaInsertMacro
 
-
-
 ```
 
 Its parameter  Name  is used to pass the name of an interaction.
@@ -27,10 +25,8 @@ Please note that interactions work only in the context of the currently open pa
 
 The Eplan API enables programmers to create their own custom interactions.
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- public class DeleteTerminalsInteraction : Interaction
+```csharp
+public class DeleteTerminalsInteraction : Interaction
  {
     public override RequestCode OnStart(InteractionContext pContext)
     {
@@ -77,12 +73,6 @@ The Eplan API enables programmers to create their own custom interactions.
     State m_state;
     Terminal[] m_Terminals;
  }
- ``` | |
-
-```
-
-
-    
 
 ```
 
@@ -98,10 +88,8 @@ as the name of the new interaction,  NameOfBaseInteraction  as the name of t
 
 The following example shows how to create a new interaction derived from a standard symbol insertion interaction:
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
-     [Interaction(Name = "DerivedSymbolInsertInteraction", NameOfBaseInteraction = "XEGedIaInsertSymRef", Ordinal = 50)]
+```csharp
+[Interaction(Name = "DerivedSymbolInsertInteraction", NameOfBaseInteraction = "XEGedIaInsertSymRef", Ordinal = 50)]
      class DerivedSymbolInsertInteraction : InsertInteraction
      {
          public override RequestCode OnStart(InteractionContext pContext)
@@ -125,7 +113,7 @@ The following example shows how to create a new interaction derived from a stand
              }
          }
      }
- ``` | |
+```
 
 ### Overriding default interactions
 
@@ -135,8 +123,6 @@ API interactions can also override default Eplan interactions. This way the exe
 
 
 [Interaction(Name = "XEGedIaInsertSymRef", NameOfBaseInteraction = "XEGedIaInsertSymRef", Ordinal = 50)]
-
-
 
 ```
 

@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class NoLockingStepException : DataModelException
-```
-```
 
-```
-```
 public ref class NoLockingStepException : public DataModelException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [NoLockingStepException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.NoLockingStepException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

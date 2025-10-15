@@ -8,17 +8,12 @@ Returns MDAnyPropertyId.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override MDAnyPropertyId Id {get;}
-```
-```
 
-```
-```
 public:
 
 property MDAnyPropertyId^ Id {
@@ -26,5 +21,4 @@ property MDAnyPropertyId^ Id {
    MDAnyPropertyId^ get() override;
 
 }
-```
-```
+

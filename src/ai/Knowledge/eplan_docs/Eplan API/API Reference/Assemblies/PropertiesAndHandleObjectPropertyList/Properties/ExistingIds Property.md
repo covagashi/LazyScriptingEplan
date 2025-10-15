@@ -8,17 +8,12 @@ Returns array of MDPropertyValue objects. If PropertiesAndHandleObjectPropertyLi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAnyPropertyId[] ExistingIds {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDAnyPropertyId^>^ ExistingIds {
@@ -26,5 +21,4 @@ property array<MDAnyPropertyId^>^ ExistingIds {
    array<MDAnyPropertyId^>^ get();
 
 }
-```
-```
+

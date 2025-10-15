@@ -8,11 +8,10 @@ Exports symbol library.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExportSymbolLibrary( 
 
    string strSource,
@@ -20,11 +19,7 @@ public void ExportSymbolLibrary(
    string strDestination
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExportSymbolLibrary( 
@@ -34,8 +29,7 @@ void ExportSymbolLibrary(
    String^ strDestination
 
 )
-```
-```
+
 
 #### Parameters
 

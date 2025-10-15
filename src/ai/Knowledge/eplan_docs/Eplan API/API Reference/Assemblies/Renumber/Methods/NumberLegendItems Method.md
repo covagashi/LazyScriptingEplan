@@ -8,11 +8,10 @@ Number legend Ids of a pro panel objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void NumberLegendItems( 
 
    InstallationSpace oInstallationSpace,
@@ -26,11 +25,7 @@ public void NumberLegendItems(
    bool fSameNumbers
 
 )
-```
-```
 
-```
-```
 public:
 
 void NumberLegendItems( 
@@ -46,8 +41,7 @@ void NumberLegendItems(
    bool fSameNumbers
 
 )
-```
-```
+
 
 #### Parameters
 

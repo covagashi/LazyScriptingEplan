@@ -8,17 +8,12 @@ EPLAN properties of the PlanningSegment object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new PlanningSegmentPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property PlanningSegmentPropertyList^ Properties {
@@ -26,12 +21,11 @@ new property PlanningSegmentPropertyList^ Properties {
    PlanningSegmentPropertyList^ get();
 
 }
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-d8fb854a-3f34-42b6-a2c5-31b5f69586c2)
+**C#**
 
 ```
 Function func;

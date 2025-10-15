@@ -8,17 +8,12 @@ Returns a list of connection terminals (MDConnectionPointPosition) They are orde
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDConnectionPointPosition[] ConnectionPointPositions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDConnectionPointPosition^>^ ConnectionPointPositions {
@@ -26,5 +21,4 @@ property array<MDConnectionPointPosition^>^ ConnectionPointPositions {
    array<MDConnectionPointPosition^>^ get();
 
 }
-```
-```
+

@@ -11,22 +11,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class RemotingCallingContext
-```
-```
 
-```
-```
 public ref class RemotingCallingContext
-```
-```
-
-
 
 Public Constructors
 
@@ -47,8 +38,6 @@ Public Fields
 | Public Field | [m\_strProjectName](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~m_strProjectName.html) |  |
 
 [Top](#top)
-
-
 
 Public Methods
 

@@ -8,17 +8,12 @@ Number of layout spaces # 10304.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJECT_INSTALLATIONSPACECOUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJECT_INSTALLATIONSPACECOUNT {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJECT_INSTALLATIONSPACECOUNT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

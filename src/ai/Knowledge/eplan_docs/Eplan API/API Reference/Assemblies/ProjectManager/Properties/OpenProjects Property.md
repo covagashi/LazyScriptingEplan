@@ -8,17 +8,12 @@ Returns list of all open projects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Project[] OpenProjects {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Project^>^ OpenProjects {
@@ -26,8 +21,7 @@ property array<Project^>^ OpenProjects {
    array<Project^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ProjectSettings : Eplan.EplApi.Base.ISettings
-```
-```
 
-```
-```
 public ref class ProjectSettings : public Eplan.EplApi.Base.ISettings
-```
-```
+
 
 Remarks
 
 For more details about inherited members see [Eplan.EplApi.Base.ISettings](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ISettings.html).
-
-
 
 Public Constructors
 
@@ -41,9 +33,6 @@ Public Constructors
 | Public Constructor | [ProjectSettings Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectSettings~_ctor.html) | Constructor. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

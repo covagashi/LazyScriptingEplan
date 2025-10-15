@@ -8,17 +8,12 @@ Installation site (sub-identifier, complete) # 1421.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FULLSUBPLACEOFINSTALLATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FULLSUBPLACEOFINSTALLATION {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FULLSUBPLACEOFINSTALLATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Segment definition: No blank space before the number # 44091.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECTDEFINITION_NUMBER_NO_SPACE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECTDEFINITION_NUMBER_NO_SPACE {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECTDEFINITION_NUMBER_NO_SPACE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

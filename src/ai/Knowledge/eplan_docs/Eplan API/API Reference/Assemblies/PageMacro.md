@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PageMacro : Macro
-```
-```
 
-```
-```
 public ref class PageMacro : public Macro
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [PageMacro Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.PageMacro~_ctor.html) | Constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

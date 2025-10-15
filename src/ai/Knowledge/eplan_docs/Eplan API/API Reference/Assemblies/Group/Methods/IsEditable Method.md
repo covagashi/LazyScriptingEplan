@@ -8,22 +8,16 @@ Check if the Group is editable.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsEditable()
-```
-```
 
-```
-```
 public:
 
 bool IsEditable();
-```
-```
+
 
 #### Return Value
 

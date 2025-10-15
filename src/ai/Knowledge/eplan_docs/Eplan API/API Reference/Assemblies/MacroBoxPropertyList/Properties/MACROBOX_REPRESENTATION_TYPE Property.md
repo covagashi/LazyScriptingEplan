@@ -8,17 +8,12 @@ Macro: Representation type # 23007.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue MACROBOX_REPRESENTATION_TYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ MACROBOX_REPRESENTATION_TYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ MACROBOX_REPRESENTATION_TYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

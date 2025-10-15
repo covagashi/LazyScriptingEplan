@@ -14,26 +14,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDUserDefinedPropertyDefinition : MDPropertyDefinition
-```
-```
 
-```
-```
 public ref class MDUserDefinedPropertyDefinition : public MDPropertyDefinition
-```
-```
+
 
 Remarks
 
 Please consider that MDUserDefinedPropertyDefinition is a `transient` (also called "`offline`") object. This means that if you change a property, you need to call the [Store](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDUserDefinedPropertyDefinition~Store.html) method in order to write the changed data to the parts database.
-
-
 
 Public Constructors
 
@@ -42,8 +34,6 @@ Public Constructors
 | Public Constructor | [MDUserDefinedPropertyDefinition Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDUserDefinedPropertyDefinition~_ctor.html) | Initializes property definition |
 
 [Top](#top)
-
-
 
 Public Properties
 

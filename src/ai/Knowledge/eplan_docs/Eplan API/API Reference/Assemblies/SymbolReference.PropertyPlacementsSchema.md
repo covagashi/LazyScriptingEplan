@@ -13,24 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class SymbolReference.PropertyPlacementsSchema
-```
-```
 
-```
-```
 public ref class SymbolReference.PropertyPlacementsSchema
-```
-```
-
-
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ Indicates whether additional planning objects are inserted from macro into proje
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ArePlanningObjectsInserted {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool ArePlanningObjectsInserted {
@@ -28,8 +23,7 @@ property bool ArePlanningObjectsInserted {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

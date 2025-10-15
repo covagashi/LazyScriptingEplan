@@ -8,17 +8,12 @@ Source # 11066.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_SOURCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_SOURCE {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_SOURCE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

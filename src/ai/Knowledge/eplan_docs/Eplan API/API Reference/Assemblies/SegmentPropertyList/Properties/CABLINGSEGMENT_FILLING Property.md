@@ -8,17 +8,12 @@ Topology: Fill capacity # 20332.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLINGSEGMENT_FILLING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLINGSEGMENT_FILLING {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLINGSEGMENT_FILLING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

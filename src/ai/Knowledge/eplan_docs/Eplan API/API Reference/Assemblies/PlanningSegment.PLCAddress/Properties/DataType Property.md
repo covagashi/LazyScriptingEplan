@@ -8,17 +8,12 @@ The data type specifies the address range. Possible values are, e.g., BOOL, BYTE
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string DataType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ DataType {
@@ -28,5 +23,4 @@ property String^ DataType {
    void set (    String^ value);
 
 }
-```
-```
+

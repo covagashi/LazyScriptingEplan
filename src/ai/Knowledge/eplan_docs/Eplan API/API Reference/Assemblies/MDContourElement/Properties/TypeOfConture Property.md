@@ -8,17 +8,12 @@ Type of curve which connects start with end point.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDContourElement.ContureType TypeOfConture {get;}
-```
-```
 
-```
-```
 public:
 
 property MDContourElement.ContureType TypeOfConture {
@@ -26,5 +21,4 @@ property MDContourElement.ContureType TypeOfConture {
    MDContourElement.ContureType get();
 
 }
-```
-```
+

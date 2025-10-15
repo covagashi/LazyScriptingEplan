@@ -8,11 +8,10 @@ Creates a `Function` object placed on a [Page](Eplan.EplApi.DataModelu~Eplan.Epl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Create( 
 
    Page page,
@@ -24,11 +23,7 @@ public virtual void Create(
    PointD oEndPoint
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void Create( 
@@ -42,8 +37,7 @@ virtual void Create(
    PointD oEndPoint
 
 )
-```
-```
+
 
 #### Parameters
 

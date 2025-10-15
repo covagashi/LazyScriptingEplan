@@ -8,21 +8,16 @@ Number of frozen pages per page type # 10065.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_FROZENPERPAGETYPE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_FROZENPERPAGETYPE {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_FROZENPERPAGETYPE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

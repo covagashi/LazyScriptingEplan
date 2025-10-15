@@ -8,17 +8,12 @@ Variant name # 16901.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBVAR_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBVAR_NAME {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMBVAR_NAME {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

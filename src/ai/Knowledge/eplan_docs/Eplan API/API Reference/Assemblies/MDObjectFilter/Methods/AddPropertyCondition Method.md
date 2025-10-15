@@ -8,11 +8,10 @@ Add a property condition to the object filter. Adding multiple conditions withou
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddPropertyCondition( 
 
    MDAnyPropertyId propertyId,
@@ -22,11 +21,7 @@ public void AddPropertyCondition(
    string value
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddPropertyCondition( 
@@ -38,8 +33,7 @@ void AddPropertyCondition(
    String^ value
 
 )
-```
-```
+
 
 #### Parameters
 

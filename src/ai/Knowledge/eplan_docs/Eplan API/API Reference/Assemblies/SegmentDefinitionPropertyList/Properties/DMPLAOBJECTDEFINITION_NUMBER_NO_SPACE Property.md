@@ -8,17 +8,12 @@ Segment definition: Separator symbolic address # 44090.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECTDEFINITION_PREFIX_SA {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECTDEFINITION_PREFIX_SA {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECTDEFINITION_PREFIX_SA {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

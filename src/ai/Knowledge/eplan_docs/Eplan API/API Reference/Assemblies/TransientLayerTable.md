@@ -13,30 +13,22 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Layer")]
 
 public class TransientLayerTable
-```
-```
 
-```
-```
 [DefaultMember("Layer")]
 
 public ref class TransientLayerTable
-```
-```
+
 
 Remarks
 
 Transient layers have only read-only properties and stores layer properties which are related to transient objects (like window macro)
-
-
 
 Public Constructors
 
@@ -45,8 +37,6 @@ Public Constructors
 | Public Constructor | [TransientLayerTable Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.TransientLayerTable~_ctor.html) |  |
 
 [Top](#top)
-
-
 
 Public Properties
 

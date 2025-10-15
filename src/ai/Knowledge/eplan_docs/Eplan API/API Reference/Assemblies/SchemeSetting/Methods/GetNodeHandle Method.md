@@ -8,22 +8,16 @@ Returns the [SettingNode](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SettingNode.html)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SettingNode GetNodeHandle()
-```
-```
 
-```
-```
 public:
 
 SettingNode^ GetNodeHandle();
-```
-```
+
 
 #### Return Value
 

@@ -8,17 +8,12 @@ Suppress generation of the enclosure legend # 20441.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_MOUNTINGPLATE_FORMEVALUATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_MOUNTINGPLATE_FORMEVALUATION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_MOUNTINGPLATE_FORMEVALUATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

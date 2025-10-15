@@ -8,17 +8,12 @@ Gets or sets whether the dimension's text is automatically positioned (in relati
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool DimensionPositionCalculated {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool DimensionPositionCalculated {
@@ -28,5 +23,4 @@ property bool DimensionPositionCalculated {
    void set (    bool value);
 
 }
-```
-```
+

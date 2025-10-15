@@ -8,17 +8,12 @@ Start-up time # 26313.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_RUN_UP_TIME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_RUN_UP_TIME {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_RUN_UP_TIME {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,20 +8,14 @@ Group type
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum PlaceHolderText.Enums.GroupType : System.Enum
-```
-```
 
-```
-```
 public enum class PlaceHolderText.Enums.GroupType : public System.Enum
-```
-```
+
 
 Members
 

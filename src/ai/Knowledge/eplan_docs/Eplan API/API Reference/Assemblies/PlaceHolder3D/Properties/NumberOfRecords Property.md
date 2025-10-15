@@ -8,17 +8,12 @@ Count of records.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual int NumberOfRecords {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property int NumberOfRecords {
@@ -26,8 +21,7 @@ virtual property int NumberOfRecords {
    int get();
 
 }
-```
-```
+
 
 #### Property Value
 

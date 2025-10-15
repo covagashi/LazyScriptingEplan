@@ -8,11 +8,10 @@ Is called after vertex was found below the mouse pointer.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnVertexBelowMouse( 
 
    ref bool bFound,
@@ -24,11 +23,7 @@ public virtual RequestCode OnVertexBelowMouse(
    int detailId
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnVertexBelowMouse( 
@@ -42,8 +37,7 @@ virtual RequestCode OnVertexBelowMouse(
    int detailId
 
 )
-```
-```
+
 
 #### Parameters
 

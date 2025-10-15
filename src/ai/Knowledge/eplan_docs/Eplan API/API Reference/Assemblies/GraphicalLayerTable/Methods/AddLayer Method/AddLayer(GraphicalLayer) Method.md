@@ -8,21 +8,16 @@ Creates new layer from GraphicalLayer object. Note: Layer name must be unique in
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public GraphicalLayer AddLayer( 
 
    GraphicalLayer layer
 
 )
-```
-```
 
-```
-```
 public:
 
 GraphicalLayer^ AddLayer( 
@@ -30,8 +25,7 @@ GraphicalLayer^ AddLayer(
    GraphicalLayer^ layer
 
 )
-```
-```
+
 
 #### Parameters
 

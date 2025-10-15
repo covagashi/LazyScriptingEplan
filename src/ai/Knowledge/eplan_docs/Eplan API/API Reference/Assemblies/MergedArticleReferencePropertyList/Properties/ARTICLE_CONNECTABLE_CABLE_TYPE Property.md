@@ -8,17 +8,12 @@ Connectable cable type # 26182.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CONNECTABLE_CABLE_TYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CONNECTABLE_CABLE_TYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CONNECTABLE_CABLE_TYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

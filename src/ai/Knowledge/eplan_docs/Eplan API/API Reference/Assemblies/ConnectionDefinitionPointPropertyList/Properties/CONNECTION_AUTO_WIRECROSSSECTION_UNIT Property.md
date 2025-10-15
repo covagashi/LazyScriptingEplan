@@ -8,17 +8,12 @@ Unit for connection cross-section / diameter (automatic) # 31060.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_AUTO_WIRECROSSSECTION_UNIT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_AUTO_WIRECROSSSECTION_UNIT {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_AUTO_WIRECROSSSECTION_UNIT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -43,7 +37,7 @@ Automatically determined units of the connection cross-section or diameter. Poss
 
 0 = Undefined
 
-1 = mmÂ²
+1 = mm²
 
 2 = sqmm
 
@@ -61,8 +55,8 @@ Automatically determined units of the connection cross-section or diameter. Poss
 
 9 = inch
 
-10 = Âµm
+10 = µm
 
 11 = kcmil
 
-12 = ÂµmÂ².
+12 = µm².

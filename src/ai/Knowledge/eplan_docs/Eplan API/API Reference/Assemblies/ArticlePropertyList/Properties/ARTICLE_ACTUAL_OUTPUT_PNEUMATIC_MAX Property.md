@@ -8,17 +8,12 @@ Actual power (pneumatic), max. # 26389.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_ACTUAL_OUTPUT_PNEUMATIC_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_ACTUAL_OUTPUT_PNEUMATIC_MAX {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_ACTUAL_OUTPUT_PNEUMATIC_MAX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

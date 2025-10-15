@@ -8,11 +8,10 @@ Gets all used connection points from the project. Can be called within the execu
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void GetUsedConnectingPoints( 
 
    InterruptionPoint oInterruptionPoint,
@@ -20,11 +19,7 @@ public void GetUsedConnectingPoints(
    ref ArrayList colUsedConnectingPoints
 
 )
-```
-```
 
-```
-```
 public:
 
 void GetUsedConnectingPoints( 
@@ -34,8 +29,7 @@ void GetUsedConnectingPoints(
    ArrayList^% colUsedConnectingPoints
 
 )
-```
-```
+
 
 #### Parameters
 

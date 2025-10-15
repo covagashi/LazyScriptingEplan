@@ -8,17 +8,12 @@ The connection point cross-section of component template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ConnectionPointCrossSection {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ConnectionPointCrossSection {
@@ -28,5 +23,4 @@ property String^ ConnectionPointCrossSection {
    void set (    String^ value);
 
 }
-```
-```
+

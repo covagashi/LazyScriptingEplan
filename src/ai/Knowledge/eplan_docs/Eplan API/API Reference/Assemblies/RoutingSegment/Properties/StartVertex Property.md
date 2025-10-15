@@ -8,17 +8,12 @@ Point in 3d space which is the beginning of routing segment.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D StartVertex {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PointD3D StartVertex {
@@ -28,8 +23,7 @@ property PointD3D StartVertex {
    void set (    PointD3D value);
 
 }
-```
-```
+
 
 Remarks
 

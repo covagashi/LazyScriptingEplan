@@ -8,17 +8,12 @@ Number of iPCF compatible wireless modules # 26077.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_NUMBER_OF_IPCF_CAPABLE_WIRELESS_MODULES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_NUMBER_OF_IPCF_CAPABLE_WIRELESS_MODULES {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_NUMBER_OF_IPCF_CAPABLE_WIRELESS_MODULES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

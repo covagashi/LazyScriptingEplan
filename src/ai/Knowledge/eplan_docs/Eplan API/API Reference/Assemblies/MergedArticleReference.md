@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MergedArticleReference : StorableObject
-```
-```
 
-```
-```
 public ref class MergedArticleReference : public StorableObject
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [MergedArticleReference Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MergedArticleReference~_ctor().html) | Default constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

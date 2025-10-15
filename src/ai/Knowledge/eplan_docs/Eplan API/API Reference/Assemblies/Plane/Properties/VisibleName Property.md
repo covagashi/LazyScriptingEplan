@@ -8,17 +8,12 @@ Returns the visible name of the IFunctionBase.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual string VisibleName {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property String^ VisibleName {
@@ -28,8 +23,7 @@ virtual property String^ VisibleName {
    void set (    String^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

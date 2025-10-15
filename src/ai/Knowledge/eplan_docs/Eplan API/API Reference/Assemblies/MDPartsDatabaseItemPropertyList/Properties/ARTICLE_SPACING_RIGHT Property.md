@@ -8,17 +8,12 @@ Mounting clearance Width: Right # 22153.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SPACING_RIGHT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SPACING_RIGHT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SPACING_RIGHT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

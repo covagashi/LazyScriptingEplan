@@ -8,17 +8,12 @@ Gets property id value as [Properties.InterruptionPoint](Eplan.EplApi.DataModelu
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.InterruptionPoint AsInterruptionPoint {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.InterruptionPoint AsInterruptionPoint {
@@ -26,5 +21,4 @@ property Properties.InterruptionPoint AsInterruptionPoint {
    Properties.InterruptionPoint get();
 
 }
-```
-```
+

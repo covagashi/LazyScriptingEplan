@@ -8,17 +8,12 @@ Viscosity class (acc. to DIN 51519) # 26631.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_VISCOSITY_CLASS_ACCORDING_TO_DIN_51519 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_VISCOSITY_CLASS_ACCORDING_TO_DIN_51519 {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_VISCOSITY_CLASS_ACCORDING_TO_DIN_51519 {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Specification which minimum viscosity and which maximum viscosity the respective hydraulic oil has at 40 Â°C.
+Specification which minimum viscosity and which maximum viscosity the respective hydraulic oil has at 40 °C.

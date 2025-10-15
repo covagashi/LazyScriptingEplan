@@ -8,21 +8,16 @@ Removes a customer out of the parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveCustomer( 
 
    MDAddress customer
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveCustomer( 
@@ -30,8 +25,7 @@ void RemoveCustomer(
    MDAddress^ customer
 
 )
-```
-```
+
 
 #### Parameters
 

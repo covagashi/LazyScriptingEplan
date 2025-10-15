@@ -8,17 +8,12 @@ Nominal current, max. # 26500.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_MAX_RATED_CURRENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_MAX_RATED_CURRENT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_MAX_RATED_CURRENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,20 +8,14 @@ A unit. Every unit enum starts with the group name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Unit : System.Enum
-```
-```
 
-```
-```
 public enum class Unit : public System.Enum
-```
-```
+
 
 Members
 
@@ -31,32 +25,32 @@ Members
 | **Amount\_of\_Substance\_mmol** | 3073 | mmol (millimole) |
 | **Amount\_of\_Substance\_Mmol** | 3076 | Mmol (megamole) |
 | **Amount\_of\_Substance\_mol** | 3074 | mol (mole) |
-| **Amount\_of\_Substance\_umol** | 3072 | Âµmol (micromole) |
+| **Amount\_of\_Substance\_umol** | 3072 | µmol (micromole) |
 | **Area\_a** | 3588 | a (Ar == 100 square meters) |
-| **Area\_cm2** | 3585 | cmÂ² (square centimeter) |
-| **Area\_cm2\_ru** | 3599 | ÑÐ¼Â² (square centimeter) |
+| **Area\_cm2** | 3585 | cm² (square centimeter) |
+| **Area\_cm2\_ru** | 3599 | ÑÐ¼² (square centimeter) |
 | **Area\_cmil** | 3597 | cmil (circular mil) |
-| **Area\_dm2** | 3586 | dmÂ² (square decimeter) |
-| **Area\_dm2\_ru** | 3600 | Ð´Ð¼Â² (square decimeter) |
-| **Area\_ft2** | 3592 | ftÂ² (square foot) |
+| **Area\_dm2** | 3586 | dm² (square decimeter) |
+| **Area\_dm2\_ru** | 3600 | Ð´Ð¼² (square decimeter) |
+| **Area\_ft2** | 3592 | ft² (square foot) |
 | **Area\_ha** | 3589 | ha (hectare == 10000 square meters) |
-| **Area\_In2** | 3591 | InÂ² (square inch) |
+| **Area\_In2** | 3591 | In² (square inch) |
 | **Area\_kcmil** | 3596 | kcmil (kilo circular mil) |
-| **Area\_km2** | 3590 | kmÂ² (square kilometer) |
-| **Area\_km2\_ru** | 3602 | ÐºÐ¼Â² (square kilometer) |
-| **Area\_m2** | 3587 | mÂ² (square meter) |
-| **Area\_m2\_ru** | 3601 | Ð¼Â² (square meter) |
+| **Area\_km2** | 3590 | km² (square kilometer) |
+| **Area\_km2\_ru** | 3602 | ÐºÐ¼² (square kilometer) |
+| **Area\_m2** | 3587 | m² (square meter) |
+| **Area\_m2\_ru** | 3601 | Ð¼² (square meter) |
 | **Area\_MCM** | 3595 | MCM (thousand circular mils) |
-| **Area\_mm2** | 3584 | mmÂ² (square millimeter) |
-| **Area\_mm2\_ru** | 3598 | Ð¼Ð¼Â²^ (square millimeter) |
+| **Area\_mm2** | 3584 | mm² (square millimeter) |
+| **Area\_mm2\_ru** | 3598 | Ð¼Ð¼²^ (square millimeter) |
 | **Area\_qmm** | 3594 | qmm (square millimeter) |
-| **Area\_sq\_mile** | 3603 | mileÂ² (square mile) |
-| **Area\_um2** | 3604 | ÂµmÂ² (square micrometer) |
-| **Area\_yd2** | 3593 | ydÂ² (square yard) |
+| **Area\_sq\_mile** | 3603 | mile² (square mile) |
+| **Area\_um2** | 3604 | µm² (square micrometer) |
+| **Area\_yd2** | 3593 | yd² (square yard) |
 | **Capacitance\_Farad** | 7424 | F (farad) |
 | **Capacitance\_mF** | 7425 | mF (millifarad) |
 | **Capacitance\_nF** | 7427 | nF (nanofarad) |
-| **Capacitance\_uF** | 7426 | ÂµF (microfarad) |
+| **Capacitance\_uF** | 7426 | µF (microfarad) |
 | **Conductivity\_MS\_m** | 5891 | MS/m (Megasiemens per meter) |
 | **Conductivity\_S\_cm** | 5889 | S/cm (Siemens per centimeter) |
 | **Conductivity\_S\_in** | 5890 | S/in (Siemens per inch) |
@@ -73,7 +67,7 @@ Members
 | **Current\_MA\_ch** | 1293 |  |
 | **Current\_mA\_ru** | 1285 | Ð¼Ð (milliampere) |
 | **Current\_MA\_ru** | 1294 | ÐÐ (megaampere) |
-| **Current\_uA** | 1280 | ÂµA (microampere) |
+| **Current\_uA** | 1280 | µA (microampere) |
 | **Current\_uA\_ch** | 1281 |  |
 | **Current\_uA\_ru** | 1282 | Ð¼ÐºÐ (microampere) |
 | **DynamicViscosity\_kg\_ms** | 7169 | kg/m\*s (kilograms per meter second) |
@@ -124,7 +118,7 @@ Members
 | **Length\_Project\_lubrication** | 291 | default length unit for lubrication lines from the project settings |
 | **Length\_Project\_pneumatic** | 289 | default length unit for pneumatic lines from the project settings |
 | **Length\_Project\_process** | 292 | default length unit for process engineering from the project settings |
-| **Length\_um** | 256 | Âµm (micrometer) |
+| **Length\_um** | 256 | µm (micrometer) |
 | **Length\_um\_ch** | 257 |  |
 | **Length\_um\_ru** | 258 | Ð¼ÐºÐ¼ (micrometer) |
 | **Length\_User\_length** | 285 | user defined length unit |
@@ -136,11 +130,11 @@ Members
 | **Luminosity\_kcd** | 3331 | kcd (kilocandela) |
 | **Luminosity\_mcd** | 3329 | mcd (millicandela) |
 | **Luminosity\_Mcd** | 3332 | Mcd (megacandela) |
-| **Luminosity\_ucd** | 3328 | Âµcd (microcandela) |
-| **Mass\_per\_Volume\_g\_m3** | 6657 | g/mÂ³ (grams per volume) |
-| **Mass\_per\_Volume\_kg\_m3** | 6656 | kg/mÂ³ (kilograms per volume) |
-| **Mass\_per\_Volume\_mg\_m3** | 6658 | mg/mÂ³ (milligrams per volume) |
-| **MomentOfInertia\_kgm2** | 8192 | kg\*mÂ² (kilogram squaremeters) |
+| **Luminosity\_ucd** | 3328 | µcd (microcandela) |
+| **Mass\_per\_Volume\_g\_m3** | 6657 | g/m³ (grams per volume) |
+| **Mass\_per\_Volume\_kg\_m3** | 6656 | kg/m³ (kilograms per volume) |
+| **Mass\_per\_Volume\_mg\_m3** | 6658 | mg/m³ (milligrams per volume) |
+| **MomentOfInertia\_kgm2** | 8192 | kg\*m² (kilogram squaremeters) |
 | **NormVolumeStream\_ln\_min** | 8961 | ln/min (liter normal per minute) |
 | **NormVolumeStream\_ln\_s** | 8960 | ln/s (liter normal per second) |
 | **NormVolumeStream\_mln\_min** | 8962 | mln/min (milliliter normal per minute) |
@@ -157,7 +151,7 @@ Members
 | **Power\_mW** | 2049 | mW (milliwatt) |
 | **Power\_MW** | 2052 | MW (megawatt) |
 | **Power\_PS** | 2055 | PS (pferdestÃ¤rke) |
-| **Power\_uW** | 2048 | ÂµW (microwatt) |
+| **Power\_uW** | 2048 | µW (microwatt) |
 | **Power\_VA** | 2062 | V\*A (Volt Ampere) |
 | **Power\_W** | 2050 | W (watt) |
 | **Pressure\_bar** | 2567 | bar (bar) |
@@ -170,21 +164,21 @@ Members
 | **Pressure\_Pa** | 2562 | Pa (pascal) |
 | **Pressure\_psi** | 2569 | psi (pounds per square inch) |
 | **Pressure\_Torr** | 2568 | Torr (Torr) |
-| **Pressure\_uPa** | 2560 | ÂµPa (micropascal) |
+| **Pressure\_uPa** | 2560 | µPa (micropascal) |
 | **Quantity\_pc** | 5634 | quantity (pc) |
 | **Quantity\_pc\_ru** | 5635 | quantity (ÑÑ) |
 | **Quantity\_Stck** | 5633 | quantity (Stck) |
 | **Quantity\_Stueck** | 5632 | quantity (StÃ¼ck) |
-| **Radius\_grad** | 4096 | Â° (degree) |
+| **Radius\_grad** | 4096 | ° (degree) |
 | **Radius\_rad** | 4097 | rad (radiants) |
 | **RelativeHumidity\_PercentRH** | 9216 | %RH (Percent relative Humidity) |
-| **Resistance\_GOhm** | 1797 | Gâ¦ (giga-ohm) |
-| **Resistance\_kOhm** | 1795 | kâ¦ (kilo-ohm) |
-| **Resistance\_mOhm** | 1793 | mâ¦ (milli-ohm) |
-| **Resistance\_MOhm** | 1796 | Mâ¦ (mega-ohm) |
-| **Resistance\_Ohm** | 1794 | â¦ (ohm) |
-| **Resistance\_Siemens** | 1798 | S (Siemens == 1/â¦) |
-| **Resistance\_uOhm** | 1792 | Âµâ¦ (micro-ohm) |
+| **Resistance\_GOhm** | 1797 | G'¦ (giga-ohm) |
+| **Resistance\_kOhm** | 1795 | k'¦ (kilo-ohm) |
+| **Resistance\_mOhm** | 1793 | m'¦ (milli-ohm) |
+| **Resistance\_MOhm** | 1796 | M'¦ (mega-ohm) |
+| **Resistance\_Ohm** | 1794 | '¦ (ohm) |
+| **Resistance\_Siemens** | 1798 | S (Siemens == 1/'¦) |
+| **Resistance\_uOhm** | 1792 | µ'¦ (micro-ohm) |
 | **RotationalSpeed\_ph** | 6406 | /h (revolutions per hour) |
 | **RotationalSpeed\_pm** | 6404 | /min (revolutions per minute) |
 | **RotationalSpeed\_ps** | 6405 | /s (revolutions per second) |
@@ -199,11 +193,11 @@ Members
 | **Speed\_kn** | 6915 | knots (knots) |
 | **Speed\_m\_s** | 6912 | m/s (meter per second) |
 | **Speed\_mph** | 6914 | mph (miles per hour) |
-| **Temperature\_C** | 2305 | Â°C (centigrade) |
-| **Temperature\_F** | 2308 | Â°F (Fahrenheit) |
+| **Temperature\_C** | 2305 | °C (centigrade) |
+| **Temperature\_F** | 2308 | °F (Fahrenheit) |
 | **Temperature\_K** | 2304 | K (Kelvin) |
-| **Temperature\_Ra** | 2306 | Â°Ra (Rankine) |
-| **Temperature\_Re** | 2307 | Â°RÃ© (RÃ©aumur) |
+| **Temperature\_Ra** | 2306 | °Ra (Rankine) |
+| **Temperature\_Re** | 2307 | °Ré (Réaumur) |
 | **TemperatureCoefficient\_1\_K** | 6144 | 1/K (1/Kelvin) |
 | **ThermalConductance\_W\_K** | 8448 | W/K (Watt per Kelvin) |
 | **Time\_d** | 783 | d (day) |
@@ -221,7 +215,7 @@ Members
 | **Time\_s** | 774 | s (second) |
 | **Time\_s\_ch** | 775 |  |
 | **Time\_s\_ru** | 776 | Ñ (second) |
-| **Time\_us** | 768 | Âµs (microsecond) |
+| **Time\_us** | 768 | µs (microsecond) |
 | **Time\_us\_ch** | 769 |  |
 | **Time\_us\_ru** | 770 | Ð¼ÐºÑ (microsecond) |
 | **TransmissionRate\_bps** | 5376 | bps (bytes per second) |
@@ -238,77 +232,77 @@ Members
 | **Voltage\_MV\_ch** | 1549 |  |
 | **Voltage\_mV\_ru** | 1541 | Ð¼ÐºÐ (millivolt) |
 | **Voltage\_MV\_ru** | 1550 | ÐÐ (megavolt) |
-| **Voltage\_uV** | 1536 | ÂµV (microvolt) |
+| **Voltage\_uV** | 1536 | µV (microvolt) |
 | **Voltage\_uV\_ch** | 1537 |  |
 | **Voltage\_uV\_ru** | 1538 | Ð¼ÐºÐ (microvolt) |
 | **Voltage\_V** | 1542 | V (volt) |
 | **Voltage\_V\_ch** | 1543 |  |
 | **Voltage\_V\_ru** | 1544 | Ð (volt) |
 | **Volume\_cl** | 3851 | cl (centiliter) |
-| **Volume\_cm3** | 3850 | cmÂ³ (cubic centimeter) |
+| **Volume\_cm3** | 3850 | cm³ (cubic centimeter) |
 | **Volume\_dl** | 3852 | dl (deciliter) |
-| **Volume\_dm3** | 3853 | dmÂ³ (cubic decimeter) |
-| **Volume\_ft3** | 3855 | ftÂ³ (cubic foot) |
+| **Volume\_dm3** | 3853 | dm³ (cubic decimeter) |
+| **Volume\_ft3** | 3855 | ft³ (cubic foot) |
 | **Volume\_gal** | 3859 | gal (gallon) |
 | **Volume\_hl** | 3844 | hl (hecto liter) |
-| **Volume\_in3** | 3854 | inÂ³ (cubic inch) |
+| **Volume\_in3** | 3854 | in³ (cubic inch) |
 | **Volume\_l** | 3841 | l (liter) |
 | **Volume\_l\_ch** | 3842 |  |
 | **Volume\_l\_ru** | 3843 | Ð» (liter) |
-| **Volume\_m3** | 3845 | mÂ³ (cubic meter) |
+| **Volume\_m3** | 3845 | m³ (cubic meter) |
 | **Volume\_m3\_ch** | 3846 |  |
-| **Volume\_m3\_ru** | 3847 | Ð¼Â³ (cubic meter) |
+| **Volume\_m3\_ru** | 3847 | Ð¼³ (cubic meter) |
 | **Volume\_ml** | 3840 | ml (milliliter) |
-| **Volume\_mm3** | 3849 | mmÂ³ (cubic millimeter) |
+| **Volume\_mm3** | 3849 | mm³ (cubic millimeter) |
 | **Volume\_oz\_vol** | 3857 | fl.oz (fluid ounce) |
 | **Volume\_pt** | 3858 | pt (pint) |
 | **Volume\_qm** | 3848 | qm (cubic meter) |
-| **Volume\_yd3** | 3856 | ydÂ³ (cubic yard) |
+| **Volume\_yd3** | 3856 | yd³ (cubic yard) |
 | **VolumeStream\_cl\_h** | 4620 | cl/h (centiliters per hour) |
 | **VolumeStream\_cl\_min** | 4621 | cl/min (centiliters per minute) |
 | **VolumeStream\_cl\_s** | 4622 | cl/s (centiliters per second) |
-| **VolumeStream\_cm3\_h** | 4617 | cmÂ³/h (cubic centimeters per hour) |
-| **VolumeStream\_cm3\_min** | 4618 | cmÂ³/min (cubic centimeters per minute) |
-| **VolumeStream\_cm3\_s** | 4619 | cmÂ³/s (cubic centimeters per second) |
+| **VolumeStream\_cm3\_h** | 4617 | cm³/h (cubic centimeters per hour) |
+| **VolumeStream\_cm3\_min** | 4618 | cm³/min (cubic centimeters per minute) |
+| **VolumeStream\_cm3\_s** | 4619 | cm³/s (cubic centimeters per second) |
 | **VolumeStream\_dl\_h** | 4623 | dl/h (deciliters per hour) |
 | **VolumeStream\_dl\_min** | 4624 | dl/min (deciliters per minute) |
 | **VolumeStream\_dl\_s** | 4625 | dl/s (deciliters per second) |
-| **VolumeStream\_dm3\_h** | 4626 | dmÂ³/h (cubic centimeters per hour) |
-| **VolumeStream\_dm3\_min** | 4627 | dmÂ³/min (cubic centimeters per minute) |
-| **VolumeStream\_dm3\_s** | 4628 | dmÂ³/s (cubic centimeters per second) |
-| **VolumeStream\_ft3\_h** | 4638 | ftÂ³/h (cubic feet per hour) |
-| **VolumeStream\_ft3\_min** | 4639 | ftÂ³/min (cubic feet per minute) |
-| **VolumeStream\_ft3\_s** | 4640 | ftÂ³/s (cubic feet per second) |
+| **VolumeStream\_dm3\_h** | 4626 | dm³/h (cubic centimeters per hour) |
+| **VolumeStream\_dm3\_min** | 4627 | dm³/min (cubic centimeters per minute) |
+| **VolumeStream\_dm3\_s** | 4628 | dm³/s (cubic centimeters per second) |
+| **VolumeStream\_ft3\_h** | 4638 | ft³/h (cubic feet per hour) |
+| **VolumeStream\_ft3\_min** | 4639 | ft³/min (cubic feet per minute) |
+| **VolumeStream\_ft3\_s** | 4640 | ft³/s (cubic feet per second) |
 | **VolumeStream\_gal\_h** | 4650 | gal/h (gallons per hour) |
 | **VolumeStream\_gal\_min** | 4651 | gal/min (gallons per minute) |
 | **VolumeStream\_gal\_s** | 4652 | gal/s (gallons per second) |
 | **VolumeStream\_hl\_h** | 4629 | hl/h (hectoliters per hour) |
 | **VolumeStream\_hl\_min** | 4630 | hl/min (hectoliters per minute) |
 | **VolumeStream\_hl\_s** | 4631 | hl/s (hectoliters per second) |
-| **VolumeStream\_in3\_h** | 4635 | inÂ³/h (cubic inches per hour) |
-| **VolumeStream\_in3\_min** | 4636 | inÂ³/min (cubic inches per minute) |
-| **VolumeStream\_in3\_s** | 4637 | inÂ³/s (cubic inches per second) |
+| **VolumeStream\_in3\_h** | 4635 | in³/h (cubic inches per hour) |
+| **VolumeStream\_in3\_min** | 4636 | in³/min (cubic inches per minute) |
+| **VolumeStream\_in3\_s** | 4637 | in³/s (cubic inches per second) |
 | **VolumeStream\_l\_h** | 4608 | l/h (liters per hour) |
 | **VolumeStream\_l\_min** | 4609 | l/min (liters per minute) |
 | **VolumeStream\_l\_s** | 4610 | l/s (liters per second) |
-| **VolumeStream\_m3\_h** | 4632 | mÂ³/h (cubic meters per hour) |
-| **VolumeStream\_m3\_min** | 4633 | mÂ³/min (cubic meters per minute) |
-| **VolumeStream\_m3\_s** | 4634 | mÂ³/s (cubic meters per second) |
+| **VolumeStream\_m3\_h** | 4632 | m³/h (cubic meters per hour) |
+| **VolumeStream\_m3\_min** | 4633 | m³/min (cubic meters per minute) |
+| **VolumeStream\_m3\_s** | 4634 | m³/s (cubic meters per second) |
 | **VolumeStream\_ml\_h** | 4614 | ml/h (milliliters per hour) |
 | **VolumeStream\_ml\_min** | 4615 | ml/min (milliliters per minute) |
 | **VolumeStream\_ml\_s** | 4616 | ml/s (milliliters per second) |
-| **VolumeStream\_mm3\_h** | 4611 | mmÂ³/h (cubic millimeters per hour) |
-| **VolumeStream\_mm3\_min** | 4612 | mmÂ³/min (cubic millimeters per minute) |
-| **VolumeStream\_mm3\_s** | 4613 | mmÂ³/s (cubic millimeters per second) |
+| **VolumeStream\_mm3\_h** | 4611 | mm³/h (cubic millimeters per hour) |
+| **VolumeStream\_mm3\_min** | 4612 | mm³/min (cubic millimeters per minute) |
+| **VolumeStream\_mm3\_s** | 4613 | mm³/s (cubic millimeters per second) |
 | **VolumeStream\_oz\_vol\_h** | 4644 | fl.oz/h (fluid ounces per hour) |
 | **VolumeStream\_oz\_vol\_min** | 4645 | fl.oz/min(fluid ounces per minute) |
 | **VolumeStream\_oz\_vol\_s** | 4646 | fl.oz/s (fluid ounces per second) |
 | **VolumeStream\_pt\_h** | 4647 | pt/h (pints per hour) |
 | **VolumeStream\_pt\_min** | 4648 | pt/min (pints per minute) |
 | **VolumeStream\_pt\_s** | 4649 | pt/s (pints per second) |
-| **VolumeStream\_yd3\_h** | 4641 | ydÂ³/h (cubic yards per hour) |
-| **VolumeStream\_yd3\_min** | 4642 | ydÂ³/min (cubic yards per minute) |
-| **VolumeStream\_yd3\_s** | 4643 | ydÂ³/s (cubic yards per second) |
+| **VolumeStream\_yd3\_h** | 4641 | yd³/h (cubic yards per hour) |
+| **VolumeStream\_yd3\_min** | 4642 | yd³/min (cubic yards per minute) |
+| **VolumeStream\_yd3\_s** | 4643 | yd³/s (cubic yards per second) |
 | **Weight\_carat** | 533 | Karat (carat) |
 | **Weight\_dz** | 526 | dz (Doppelzentner, 2 centners == 100 kilograms) |
 | **Weight\_g** | 518 | g (grams) |
@@ -339,7 +333,7 @@ Members
 | **Weight\_t\_ch** | 528 |  |
 | **Weight\_t\_ru** | 529 | Ñ (metric ton) |
 | **Weight\_tnsh** | 535 | tn.sh (Short ton) |
-| **Weight\_ug** | 512 | Âµg (microgram) |
+| **Weight\_ug** | 512 | µg (microgram) |
 | **Weight\_ug\_ch** | 513 |  |
 | **Weight\_ug\_ru** | 514 | Ð¼ÐºÐ³ (microgram) |
 | **Weight\_User\_weight** | 534 | user defined weight unit |
@@ -370,7 +364,7 @@ Members
 | **Work\_mJ** | 2817 | mJ (millijoule) |
 | **Work\_MJ** | 2820 | MJ (megajoule) |
 | **Work\_Nm** | 2823 | Nm (Newton meter) |
-| **Work\_uJ** | 2816 | ÂµJ (microjoule) |
+| **Work\_uJ** | 2816 | µJ (microjoule) |
 | **Work\_Wh** | 2826 | Wh (watt hour) |
 | **Work\_Ws** | 2824 | Ws (watt second) |
 

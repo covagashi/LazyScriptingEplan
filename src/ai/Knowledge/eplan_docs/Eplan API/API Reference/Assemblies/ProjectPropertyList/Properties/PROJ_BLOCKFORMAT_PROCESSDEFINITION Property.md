@@ -8,21 +8,16 @@ Block property: Format (piping definition) # 10097.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BLOCKFORMAT_PROCESSDEFINITION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BLOCKFORMAT_PROCESSDEFINITION {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_BLOCKFORMAT_PROCESSDEFINITION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

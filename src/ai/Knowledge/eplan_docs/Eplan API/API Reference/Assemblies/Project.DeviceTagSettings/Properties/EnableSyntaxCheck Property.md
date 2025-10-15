@@ -8,17 +8,12 @@ Representation of XDtcDeviceTagCheck.Hierarchy.ActivateDeviceTagCheck settings v
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool EnableSyntaxCheck {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool EnableSyntaxCheck {
@@ -28,8 +23,7 @@ property bool EnableSyntaxCheck {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

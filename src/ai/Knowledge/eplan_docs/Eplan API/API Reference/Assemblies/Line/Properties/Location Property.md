@@ -8,17 +8,12 @@ Get or set the placement's location.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override PointD Location {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PointD Location {
@@ -28,8 +23,7 @@ property PointD Location {
    void set (    PointD value) override;
 
 }
-```
-```
+
 
 Exceptions
 

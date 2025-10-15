@@ -8,17 +8,12 @@ Data backup: Description # 10518.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BACKUP_DESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BACKUP_DESCRIPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_BACKUP_DESCRIPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

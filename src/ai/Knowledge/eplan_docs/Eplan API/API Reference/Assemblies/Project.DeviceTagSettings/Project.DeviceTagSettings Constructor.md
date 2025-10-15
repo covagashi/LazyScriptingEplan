@@ -8,21 +8,16 @@ Constructor for DeviceTagSettings class which allow to access specified settings
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Project.DeviceTagSettings( 
 
    Project project
 
 )
-```
-```
 
-```
-```
 public:
 
 Project.DeviceTagSettings( 
@@ -30,8 +25,7 @@ Project.DeviceTagSettings(
    Project^ project
 
 )
-```
-```
+
 
 #### Parameters
 

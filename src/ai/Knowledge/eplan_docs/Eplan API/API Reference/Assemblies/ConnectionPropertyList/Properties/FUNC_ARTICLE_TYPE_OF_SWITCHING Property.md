@@ -8,21 +8,16 @@ Circuit type # 26548.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_TYPE_OF_SWITCHING( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_TYPE_OF_SWITCHING {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_TYPE_OF_SWITCHING {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

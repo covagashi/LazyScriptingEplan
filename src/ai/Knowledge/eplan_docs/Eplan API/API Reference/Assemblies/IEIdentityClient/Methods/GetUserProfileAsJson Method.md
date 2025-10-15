@@ -8,20 +8,14 @@ Gets Eplan cloud user profile information in a JSON format.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 Task<string> GetUserProfileAsJson()
-```
-```
 
-```
-```
 Task<String^>^ GetUserProfileAsJson();
-```
-```
+
 
 #### Return Value
 

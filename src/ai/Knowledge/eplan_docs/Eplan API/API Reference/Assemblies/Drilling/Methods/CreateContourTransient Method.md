@@ -8,11 +8,10 @@ Creates a new transient drilling in the shape of the given contour.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Drilling CreateContourTransient( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public static Drilling CreateContourTransient(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static Drilling^ CreateContourTransient( 
@@ -38,8 +33,7 @@ static Drilling^ CreateContourTransient(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

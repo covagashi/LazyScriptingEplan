@@ -8,17 +8,12 @@ The MTTF (mean time to failure)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double MTTF {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double MTTF {
@@ -28,5 +23,4 @@ property double MTTF {
    void set (    double value);
 
 }
-```
-```
+

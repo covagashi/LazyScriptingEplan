@@ -8,17 +8,12 @@ PCF: Life cycle phase # 26527.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PCF_LIFE_CYCLE_PHASE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PCF_LIFE_CYCLE_PHASE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PCF_LIFE_CYCLE_PHASE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

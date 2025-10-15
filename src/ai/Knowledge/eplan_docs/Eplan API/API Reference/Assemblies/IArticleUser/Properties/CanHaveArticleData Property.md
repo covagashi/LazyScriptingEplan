@@ -8,24 +8,18 @@ Check if the IArticleUser can have [Article](Eplan.EplApi.DataModelu~Eplan.EplAp
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool CanHaveArticleData {get;}
-```
-```
 
-```
-```
 property bool CanHaveArticleData {
 
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

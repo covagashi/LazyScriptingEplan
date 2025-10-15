@@ -17,24 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class OptionBase : StorableObject
-```
-```
 
-```
-```
 public ref class OptionBase : public StorableObject
-```
-```
-
-
-
-
 
 Public Properties
 

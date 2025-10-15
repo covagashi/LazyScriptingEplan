@@ -8,11 +8,10 @@ Creates transient and not placed MountingRail object with given length.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static MountingRail CreateTransient( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public static MountingRail CreateTransient(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static MountingRail^ CreateTransient( 
@@ -46,8 +41,7 @@ static MountingRail^ CreateTransient(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

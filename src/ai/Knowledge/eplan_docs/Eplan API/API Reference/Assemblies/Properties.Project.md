@@ -8,20 +8,14 @@ Identificators of properties owned by Project class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.Project : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.Project : public System.Enum
-```
-```
+
 
 Members
 

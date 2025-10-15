@@ -8,17 +8,12 @@ The category of the function definition set to the function template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FunctionCategory FunctionDefinitionCategory {get; set;}
-```
-```
 
-```
-```
 public:
 
 property FunctionCategory FunctionDefinitionCategory {
@@ -28,5 +23,4 @@ property FunctionCategory FunctionDefinitionCategory {
    void set (    FunctionCategory value);
 
 }
-```
-```
+

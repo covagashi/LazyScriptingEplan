@@ -8,11 +8,10 @@ Forces one of the terminal's connections to be treated as internal or external c
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void MakeConnectionExternalOrInternal( 
 
    Connection pConn,
@@ -20,11 +19,7 @@ public void MakeConnectionExternalOrInternal(
    Terminal.ConnectionSide side
 
 )
-```
-```
 
-```
-```
 public:
 
 void MakeConnectionExternalOrInternal( 
@@ -34,8 +29,7 @@ void MakeConnectionExternalOrInternal(
    Terminal.ConnectionSide side
 
 )
-```
-```
+
 
 #### Parameters
 

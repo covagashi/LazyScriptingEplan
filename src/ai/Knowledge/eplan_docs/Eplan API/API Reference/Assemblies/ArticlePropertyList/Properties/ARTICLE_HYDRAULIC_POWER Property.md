@@ -8,17 +8,12 @@ Hydraulic power # 26110.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_HYDRAULIC_POWER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_HYDRAULIC_POWER {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_HYDRAULIC_POWER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

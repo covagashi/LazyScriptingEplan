@@ -8,17 +8,12 @@ Supplier batch number # 26435.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SUPPLIER_BATCH_NUMBER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SUPPLIER_BATCH_NUMBER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SUPPLIER_BATCH_NUMBER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Backs up the entire project. Project is backed up on hard disk, diskette... Proj
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Project( 
 
    StringCollection strColPrjSelection,
@@ -28,11 +27,7 @@ public void Project(
    bool bAutomaticallyCopyReferencedData
 
 )
-```
-```
 
-```
-```
 public:
 
 void Project( 
@@ -50,8 +45,7 @@ void Project(
    bool bAutomaticallyCopyReferencedData
 
 )
-```
-```
+
 
 #### Parameters
 

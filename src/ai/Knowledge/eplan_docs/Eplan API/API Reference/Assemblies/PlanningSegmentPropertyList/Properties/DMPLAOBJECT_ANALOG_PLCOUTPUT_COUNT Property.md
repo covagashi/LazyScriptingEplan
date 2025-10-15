@@ -8,17 +8,12 @@ Basic segment definition: Displayed name # 44042.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_BASEDEFINITIONDISPLAYNAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_BASEDEFINITIONDISPLAYNAME {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_BASEDEFINITIONDISPLAYNAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Model view: Display item silhouettes # 36513.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_SHOWSILOUETTES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_SHOWSILOUETTES {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_SHOWSILOUETTES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

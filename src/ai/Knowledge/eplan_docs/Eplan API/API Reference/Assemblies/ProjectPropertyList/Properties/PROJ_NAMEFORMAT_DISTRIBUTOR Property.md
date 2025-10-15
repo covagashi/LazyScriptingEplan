@@ -8,17 +8,12 @@ Naming format for fluid connection splicer / line connector # 10084.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_NAMEFORMAT_DISTRIBUTOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_NAMEFORMAT_DISTRIBUTOR {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_NAMEFORMAT_DISTRIBUTOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

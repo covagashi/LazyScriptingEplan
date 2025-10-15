@@ -8,11 +8,10 @@ Edits keyword
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool EditKeyword( 
 
    string strSearchedText,
@@ -26,11 +25,7 @@ public bool EditKeyword(
    string strComment
 
 )
-```
-```
 
-```
-```
 public:
 
 bool EditKeyword( 
@@ -46,8 +41,7 @@ bool EditKeyword(
    String^ strComment
 
 )
-```
-```
+
 
 #### Parameters
 

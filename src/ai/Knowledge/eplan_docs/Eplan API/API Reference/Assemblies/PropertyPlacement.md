@@ -18,20 +18,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PropertyPlacement : TextBase
-```
-```
 
-```
-```
 public ref class PropertyPlacement : public TextBase
-```
-```
+
 
 Remarks
 
@@ -41,7 +35,7 @@ Example
 
 The following example shows how to use class PropertyPlacement.
 
-- [C#](#i-tab-content-68ea8f88-6967-487d-8f2a-3e5495638683)
+**C#**
 
 ```
 m_oTestFunction.SwitchLocalPropertyPlacements(true);
@@ -58,8 +52,6 @@ oPropertyPlacement.Location = new PointD(10.0, 25.0);
 
 oPropertyPlacement.Remove();
 
-
-
 ```
 
 Public Constructors
@@ -69,8 +61,6 @@ Public Constructors
 | Public Constructor | [PropertyPlacement Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PropertyPlacement~_ctor().html) | Constructor. When object created with this constructor, its `create` method must be call. |
 
 [Top](#top)
-
-
 
 Public Properties
 

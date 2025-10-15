@@ -8,21 +8,16 @@ Constructor. Creates a NameService3D object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public NameService3D( 
 
    InstallationSpace installationSpace
 
 )
-```
-```
 
-```
-```
 public:
 
 NameService3D( 
@@ -30,8 +25,7 @@ NameService3D(
    InstallationSpace^ installationSpace
 
 )
-```
-```
+
 
 #### Parameters
 

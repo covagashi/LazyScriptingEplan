@@ -8,17 +8,12 @@ Specifies the width of alignment box.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double AlignmentBoxWidth {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double AlignmentBoxWidth {
@@ -28,5 +23,4 @@ property double AlignmentBoxWidth {
    void set (    double value);
 
 }
-```
-```
+

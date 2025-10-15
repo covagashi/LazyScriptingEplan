@@ -8,17 +8,12 @@ Returns all objects stored in the macro.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] Objects {get;}
-```
-```
 
-```
-```
 public:
 
 property array<StorableObject^>^ Objects {
@@ -26,5 +21,4 @@ property array<StorableObject^>^ Objects {
    array<StorableObject^>^ get();
 
 }
-```
-```
+

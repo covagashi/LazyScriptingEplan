@@ -8,17 +8,12 @@ Cables: Number of free connections # 35101.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLE_COUNTOFFREEWIRES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLE_COUNTOFFREEWIRES {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLE_COUNTOFFREEWIRES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

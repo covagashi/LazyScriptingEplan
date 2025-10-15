@@ -8,11 +8,10 @@ If true, all messages with the same region and message id are removed after OnSt
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public abstract void OnRegister( 
 
    ref string strCreator,
@@ -26,11 +25,7 @@ public abstract void OnRegister(
    ref int iOrdinal
 
 )
-```
-```
 
-```
-```
 public:
 
 abstract void OnRegister( 
@@ -46,8 +41,7 @@ abstract void OnRegister(
    int% iOrdinal
 
 )
-```
-```
+
 
 #### Parameters
 

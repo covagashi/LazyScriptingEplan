@@ -8,17 +8,12 @@ Assigns the maximum number of JumperBars on the Pin.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short JumperBarCount {get; set;}
-```
-```
 
-```
-```
 public:
 
 property short JumperBarCount {
@@ -28,5 +23,4 @@ property short JumperBarCount {
    void set (    short value);
 
 }
-```
-```
+

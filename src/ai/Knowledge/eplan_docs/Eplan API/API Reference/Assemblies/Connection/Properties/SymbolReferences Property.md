@@ -8,17 +8,12 @@ This method returns an array of SymbolReferences objects that belong to a connec
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolReference[] SymbolReferences {get;}
-```
-```
 
-```
-```
 public:
 
 property array<SymbolReference^>^ SymbolReferences {
@@ -26,5 +21,4 @@ property array<SymbolReference^>^ SymbolReferences {
    array<SymbolReference^>^ get();
 
 }
-```
-```
+

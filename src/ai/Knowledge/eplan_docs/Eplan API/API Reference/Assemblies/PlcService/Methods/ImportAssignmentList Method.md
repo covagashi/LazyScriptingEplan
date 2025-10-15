@@ -8,11 +8,10 @@ Imports PLC assignment lists.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ImportAssignmentList( 
 
    Project oProject,
@@ -32,11 +31,7 @@ public void ImportAssignmentList(
    bool bAcceptInvAddr
 
 )
-```
-```
 
-```
-```
 public:
 
 void ImportAssignmentList( 
@@ -58,8 +53,7 @@ void ImportAssignmentList(
    bool bAcceptInvAddr
 
 )
-```
-```
+
 
 #### Parameters
 

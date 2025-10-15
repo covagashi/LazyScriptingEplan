@@ -8,17 +8,12 @@ Company code # 15019.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMBLIB_COMPANY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMBLIB_COMPANY {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMBLIB_COMPANY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

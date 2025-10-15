@@ -8,17 +8,12 @@ Power control # 26048.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_POWER_CONTROL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_POWER_CONTROL {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_POWER_CONTROL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

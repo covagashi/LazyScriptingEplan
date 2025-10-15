@@ -8,17 +8,12 @@ Cable length, routed # 26397.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CABLE_LENGTH_LAID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CABLE_LENGTH_LAID {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CABLE_LENGTH_LAID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

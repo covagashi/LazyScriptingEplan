@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Languages
-```
-```
 
-```
-```
 public ref class Languages
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [Languages Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Languages~_ctor.html) | Creates a new Language object. |
 
 [Top](#top)
-
-
 
 Public Properties
 

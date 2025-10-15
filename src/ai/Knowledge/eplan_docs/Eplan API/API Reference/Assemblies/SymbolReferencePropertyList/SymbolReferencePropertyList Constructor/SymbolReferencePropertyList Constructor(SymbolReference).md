@@ -8,21 +8,16 @@ Should be used internal only
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolReferencePropertyList( 
 
    SymbolReference obj
 
 )
-```
-```
 
-```
-```
 public:
 
 SymbolReferencePropertyList( 
@@ -30,8 +25,7 @@ SymbolReferencePropertyList(
    SymbolReference^ obj
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Creator: Description # 10247.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_CREATORNOTE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_CREATORNOTE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_CREATORNOTE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

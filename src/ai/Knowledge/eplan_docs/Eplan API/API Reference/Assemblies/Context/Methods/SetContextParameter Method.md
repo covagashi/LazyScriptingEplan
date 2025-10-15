@@ -8,21 +8,16 @@ Sets a block of context parameters (as ContextParameterBlock object).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void SetContextParameter( 
 
    ContextParameterBlock pParams
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void SetContextParameter( 
@@ -30,8 +25,7 @@ virtual void SetContextParameter(
    ContextParameterBlock^ pParams
 
 )
-```
-```
+
 
 #### Parameters
 

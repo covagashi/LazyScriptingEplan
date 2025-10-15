@@ -8,17 +8,12 @@ Measurement accuracy # 26458.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_MEASURING_ACCURACY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_MEASURING_ACCURACY {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_MEASURING_ACCURACY {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type [Eplan.EplApi.Base.MultiLangString](Eplan.EplApi.
 
 Remarks
 
-Degree of similarity between the result of a measurement and a true value of the quantity to be measured. Example: Digital multimeters often have an accuracy of Â±0.5% to Â±1% of the measured value. Pressure sensors often have an accuracy of Â±0.1% to Â±1% of the full scale range.
+Degree of similarity between the result of a measurement and a true value of the quantity to be measured. Example: Digital multimeters often have an accuracy of ±0.5% to ±1% of the measured value. Pressure sensors often have an accuracy of ±0.1% to ±1% of the full scale range.

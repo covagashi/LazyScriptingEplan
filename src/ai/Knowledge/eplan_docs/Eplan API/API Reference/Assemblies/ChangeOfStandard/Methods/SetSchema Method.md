@@ -8,11 +8,10 @@ Set mapping scheme.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetSchema( 
 
    string schemaName,
@@ -22,11 +21,7 @@ public void SetSchema(
    string targetLibraryName
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetSchema( 
@@ -38,8 +33,7 @@ void SetSchema(
    String^ targetLibraryName
 
 )
-```
-```
+
 
 #### Parameters
 

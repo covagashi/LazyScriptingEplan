@@ -8,11 +8,10 @@ for internal use only
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SysMessagesEnumerator( 
 
    int nBookmarkStart,
@@ -22,11 +21,7 @@ public SysMessagesEnumerator(
    MessageLevel nErrLevel
 
 )
-```
-```
 
-```
-```
 public:
 
 SysMessagesEnumerator( 
@@ -38,8 +33,7 @@ SysMessagesEnumerator(
    MessageLevel nErrLevel
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Eplan Cloud user organization ID.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string OrganizationId {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ OrganizationId {
@@ -28,5 +23,4 @@ property String^ OrganizationId {
    void set (    String^ value);
 
 }
-```
-```
+

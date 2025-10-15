@@ -8,17 +8,12 @@ Does terminal template have a led?
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool HasLed {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool HasLed {
@@ -28,5 +23,4 @@ property bool HasLed {
    void set (    bool value);
 
 }
-```
-```
+

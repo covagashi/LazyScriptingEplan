@@ -8,17 +8,12 @@ Rail material # 22272.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_RAILMATERIAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_RAILMATERIAL {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_RAILMATERIAL {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

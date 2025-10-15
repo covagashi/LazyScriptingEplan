@@ -18,28 +18,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PathText : Text
-```
-```
 
-```
-```
 public ref class PathText : public Text
-```
-```
+
 
 Remarks
 
 Path function texts ease documentation because you don't have to enter a function text for each component. These texts can be positioned arbitrarily within a path and are evaluated when generating PLC cross-references, in terminal diagrams, and in bills of materials.
 
 If no other function text is entered for a component, the function text generated automatically from the path will be used for reports. The search direction depends on the plot frame used. To decide whether a function text on a component has been entered or is an automatically generated function text, each function has the properties **Eplan.EplApi.DataModel.FunctionPropertyList.FUNC\_TEXT** and **Eplan.EplApi.DataModel.FunctionPropertyList.FUNC\_TEXT\_AUTOMATIC**.
-
-
 
 Public Constructors
 
@@ -48,8 +40,6 @@ Public Constructors
 | Public Constructor | [PathText Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PathText~_ctor().html) | Constructor. When object created with this constructor, its `create` method must be call. |
 
 [Top](#top)
-
-
 
 Public Properties
 

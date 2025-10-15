@@ -8,20 +8,14 @@ Master data types
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Backup.MasterDataType : System.Enum
-```
-```
 
-```
-```
 public enum class Backup.MasterDataType : public System.Enum
-```
-```
+
 
 Members
 

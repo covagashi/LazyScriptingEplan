@@ -8,21 +8,16 @@ Creates transient PlanningSegment object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static PlanningSegment CreateTransient( 
 
    SegmentDefinition pSegmentDefinition
 
 )
-```
-```
 
-```
-```
 public:
 
 static PlanningSegment^ CreateTransient( 
@@ -30,8 +25,7 @@ static PlanningSegment^ CreateTransient(
    SegmentDefinition^ pSegmentDefinition
 
 )
-```
-```
+
 
 #### Parameters
 

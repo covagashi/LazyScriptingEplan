@@ -8,19 +8,13 @@ Instantiates the function represented by this object. Primarily used for instant
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void MakePersistent()
-```
-```
 
-```
-```
 public:
 
 void MakePersistent();
-```
-```
+

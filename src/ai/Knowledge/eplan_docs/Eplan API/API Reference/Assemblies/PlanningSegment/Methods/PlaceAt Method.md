@@ -8,11 +8,10 @@ Places the segment onto the given page, in the given location.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolReference PlaceAt( 
 
    Page oPage,
@@ -20,11 +19,7 @@ public SymbolReference PlaceAt(
    PointD pntLocation
 
 )
-```
-```
 
-```
-```
 public:
 
 SymbolReference^ PlaceAt( 
@@ -34,8 +29,7 @@ SymbolReference^ PlaceAt(
    PointD pntLocation
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ProjectCantAddArticleReferenceException : DataModelException
-```
-```
 
-```
-```
 public ref class ProjectCantAddArticleReferenceException : public DataModelException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [ProjectCantAddArticleReferenceException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectCantAddArticleReferenceException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

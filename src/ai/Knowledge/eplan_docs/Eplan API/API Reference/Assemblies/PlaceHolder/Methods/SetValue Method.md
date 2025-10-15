@@ -8,11 +8,10 @@ Sets the value of a variable for a record.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void SetValue( 
 
    string strRecordName,
@@ -22,11 +21,7 @@ public virtual void SetValue(
    MultiLangString mlsValue
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void SetValue( 
@@ -38,8 +33,7 @@ virtual void SetValue(
    MultiLangString^ mlsValue
 
 )
-```
-```
+
 
 #### Parameters
 

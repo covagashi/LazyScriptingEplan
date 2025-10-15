@@ -8,17 +8,12 @@ Temperature (medium), max. # 26609.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TEMPERATUR_MEDIUM_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TEMPERATUR_MEDIUM_MAX {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TEMPERATUR_MEDIUM_MAX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

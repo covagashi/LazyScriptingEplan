@@ -8,17 +8,12 @@ Checked by # 10162.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_REVISION_CHECKEDBY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_REVISION_CHECKEDBY {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_REVISION_CHECKEDBY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

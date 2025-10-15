@@ -8,21 +8,16 @@ Gets a construction with the given name that is stored in the parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDConstruction GetConstruction( 
 
    string name
 
 )
-```
-```
 
-```
-```
 public:
 
 MDConstruction^ GetConstruction( 
@@ -30,8 +25,7 @@ MDConstruction^ GetConstruction(
    String^ name
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Name (identifying) # 20000.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_IDENTNAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_IDENTNAME {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_IDENTNAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

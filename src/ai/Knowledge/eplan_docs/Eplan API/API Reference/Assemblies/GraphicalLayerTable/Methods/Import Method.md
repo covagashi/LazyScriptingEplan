@@ -8,21 +8,16 @@ Imports layers from an XML file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Import( 
 
    string strImportFilePath
 
 )
-```
-```
 
-```
-```
 public:
 
 void Import( 
@@ -30,8 +25,7 @@ void Import(
    String^ strImportFilePath
 
 )
-```
-```
+
 
 #### Parameters
 

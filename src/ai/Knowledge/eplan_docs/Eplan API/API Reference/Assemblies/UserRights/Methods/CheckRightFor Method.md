@@ -8,21 +8,16 @@ Checks the execute permission of an action
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CheckRightFor( 
 
    string strRight
 
 )
-```
-```
 
-```
-```
 public:
 
 bool CheckRightFor( 
@@ -30,8 +25,7 @@ bool CheckRightFor(
    String^ strRight
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -40,8 +34,8 @@ bool CheckRightFor(
 
 #### Return Value
 
-â¢ TRUE: Action is granted execute permission.  
-â¢ FALSE: The action must not be executed by the current user.
+'¢ TRUE: Action is granted execute permission.  
+'¢ FALSE: The action must not be executed by the current user.
 
 Remarks
 
@@ -51,7 +45,7 @@ Example
 
 Example of querying a right
 
-- [C#](#i-tab-content-cdafa197-8f0c-43fe-b33c-535d25951e24)
+**C#**
 
 ```
 UserRights oUserRights = new UserRights();
@@ -61,8 +55,6 @@ bool bRights = oUserRights.CheckUserRights(); // is the user rights management a
 if (bRights)
 
 {
-
-
 
   bool bAnRight= oUserRights.CheckRightFor("XPLEditorStart");
 

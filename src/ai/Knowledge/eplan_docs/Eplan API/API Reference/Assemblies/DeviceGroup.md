@@ -16,22 +16,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class DeviceGroup : Group, IPlacementsContainer
-```
-```
 
-```
-```
 public ref class DeviceGroup : public Group, IPlacementsContainer
-```
-```
-
-
 
 Public Constructors
 
@@ -40,8 +31,6 @@ Public Constructors
 | Public Constructor | [DeviceGroup Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DeviceGroup~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

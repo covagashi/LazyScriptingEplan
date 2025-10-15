@@ -8,17 +8,12 @@ Certification: VDE # 22050.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CERTIFICATE_VDE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CERTIFICATE_VDE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CERTIFICATE_VDE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

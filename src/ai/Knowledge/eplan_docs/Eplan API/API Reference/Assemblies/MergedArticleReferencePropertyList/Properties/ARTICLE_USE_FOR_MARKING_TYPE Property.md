@@ -8,17 +8,12 @@ Usage for labeling type # 26625.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_USE_FOR_MARKING_TYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_USE_FOR_MARKING_TYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_USE_FOR_MARKING_TYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

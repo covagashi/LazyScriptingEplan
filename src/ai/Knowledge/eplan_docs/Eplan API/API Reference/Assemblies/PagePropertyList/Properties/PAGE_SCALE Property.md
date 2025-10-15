@@ -8,17 +8,12 @@ Scale # 11048.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_SCALE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_SCALE {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_SCALE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

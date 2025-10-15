@@ -8,22 +8,16 @@ Creates new connection point position.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ConnectionPointPosition AddConnectionPointPosition()
-```
-```
 
-```
-```
 public:
 
 ConnectionPointPosition^ AddConnectionPointPosition();
-```
-```
+
 
 #### Return Value
 

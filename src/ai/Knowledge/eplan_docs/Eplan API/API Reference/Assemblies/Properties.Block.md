@@ -8,20 +8,14 @@ Identificators of properties owned by Block class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.Block : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.Block : public System.Enum
-```
-```
+
 
 Members
 

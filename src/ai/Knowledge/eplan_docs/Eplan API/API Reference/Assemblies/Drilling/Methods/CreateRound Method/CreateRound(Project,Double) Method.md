@@ -8,11 +8,10 @@ Creates new round drilling in project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateRound( 
 
    Project pProject,
@@ -20,11 +19,7 @@ public void CreateRound(
    double dDiameter
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateRound( 
@@ -34,8 +29,7 @@ void CreateRound(
    double dDiameter
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Assignment: Property / value to graphic # 13026.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FORM_BEHAVIOUR_PROPERTY_VAL_GRAPHIC( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FORM_BEHAVIOUR_PROPERTY_VAL_GRAPHIC {
@@ -32,8 +27,7 @@ property PropertyValue^ FORM_BEHAVIOUR_PROPERTY_VAL_GRAPHIC {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

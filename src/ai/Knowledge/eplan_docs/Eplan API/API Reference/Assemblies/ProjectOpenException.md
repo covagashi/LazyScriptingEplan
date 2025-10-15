@@ -19,22 +19,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ProjectOpenException : DataModelException
-```
-```
 
-```
-```
 public ref class ProjectOpenException : public DataModelException
-```
-```
-
-
 
 Public Constructors
 
@@ -43,8 +34,6 @@ Public Constructors
 | Public Constructor | [ProjectOpenException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectOpenException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

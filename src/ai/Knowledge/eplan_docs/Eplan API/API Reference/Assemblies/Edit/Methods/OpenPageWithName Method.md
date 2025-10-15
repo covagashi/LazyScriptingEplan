@@ -8,11 +8,10 @@ Opens the page with the name passed to strPageName.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Page OpenPageWithName( 
 
    string strFullLinkFileName,
@@ -20,11 +19,7 @@ public Page OpenPageWithName(
    string strPageName
 
 )
-```
-```
 
-```
-```
 public:
 
 Page^ OpenPageWithName( 
@@ -34,8 +29,7 @@ Page^ OpenPageWithName(
    String^ strPageName
 
 )
-```
-```
+
 
 #### Parameters
 

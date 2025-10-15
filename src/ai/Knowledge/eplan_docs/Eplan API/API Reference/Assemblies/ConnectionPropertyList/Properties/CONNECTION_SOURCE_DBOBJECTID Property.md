@@ -8,17 +8,12 @@ Object identification: Source # 31160.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_SOURCE_DBOBJECTID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_SOURCE_DBOBJECTID {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_SOURCE_DBOBJECTID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

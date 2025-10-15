@@ -8,17 +8,12 @@ Function designation with preceding sign # 1140.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FULLPLANT_WITHPREFIX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FULLPLANT_WITHPREFIX {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FULLPLANT_WITHPREFIX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

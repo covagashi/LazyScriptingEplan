@@ -8,17 +8,12 @@ Assembly variant # 20512.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_ASSEMBLYVARIANT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_ASSEMBLYVARIANT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_ASSEMBLYVARIANT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

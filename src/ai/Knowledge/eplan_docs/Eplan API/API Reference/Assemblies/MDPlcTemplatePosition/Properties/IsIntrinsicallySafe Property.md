@@ -8,17 +8,12 @@ Is PLC template intrinsically safe (yes / no)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsIntrinsicallySafe {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsIntrinsicallySafe {
@@ -28,5 +23,4 @@ property bool IsIntrinsicallySafe {
    void set (    bool value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Plugs: Assignment to male pin / female pin end # 20052.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNC_PINANDJACK_PLUGSIDE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNC_PINANDJACK_PLUGSIDE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNC_PINANDJACK_PLUGSIDE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

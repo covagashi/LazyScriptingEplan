@@ -8,17 +8,12 @@ DT (subordinate, without project structures, with preceding sign) # 20212.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DEVICETAG_NESTED_WITHSEPARATOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DEVICETAG_NESTED_WITHSEPARATOR {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DEVICETAG_NESTED_WITHSEPARATOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

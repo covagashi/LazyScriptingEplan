@@ -8,17 +8,12 @@ Gets or sets take connection point designations into account property.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MacroBox.Enums.TakeConnectionPointDesignationsIntoAccount TakeConnectionPointDesignationsIntoAccount {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MacroBox.Enums.TakeConnectionPointDesignationsIntoAccount TakeConnectionPointDesignationsIntoAccount {
@@ -28,8 +23,7 @@ property MacroBox.Enums.TakeConnectionPointDesignationsIntoAccount TakeConnectio
    void set (    MacroBox.Enums.TakeConnectionPointDesignationsIntoAccount value);
 
 }
-```
-```
+
 
 Remarks
 

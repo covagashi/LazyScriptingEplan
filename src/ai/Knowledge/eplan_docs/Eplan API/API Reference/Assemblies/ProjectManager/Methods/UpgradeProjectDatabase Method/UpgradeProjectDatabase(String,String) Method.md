@@ -8,11 +8,10 @@ Upgrades project. You can check if project need to be upgrade by GetProjectDataC
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool UpgradeProjectDatabase( 
 
    string projectPath,
@@ -20,11 +19,7 @@ public bool UpgradeProjectDatabase(
    string newProjectPath
 
 )
-```
-```
 
-```
-```
 public:
 
 bool UpgradeProjectDatabase( 
@@ -34,8 +29,7 @@ bool UpgradeProjectDatabase(
    String^ newProjectPath
 
 )
-```
-```
+
 
 #### Parameters
 

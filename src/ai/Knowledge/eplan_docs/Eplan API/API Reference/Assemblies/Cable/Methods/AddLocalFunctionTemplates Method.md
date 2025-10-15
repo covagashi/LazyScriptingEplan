@@ -8,21 +8,16 @@ Adds local connection templates to the cable.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddLocalFunctionTemplates( 
 
    Connection[] arrTemplates
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddLocalFunctionTemplates( 
@@ -30,8 +25,7 @@ void AddLocalFunctionTemplates(
    array<Connection^>^ arrTemplates
 
 )
-```
-```
+
 
 #### Parameters
 

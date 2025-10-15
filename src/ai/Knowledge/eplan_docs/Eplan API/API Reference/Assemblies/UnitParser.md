@@ -13,43 +13,31 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class UnitParser
-```
-```
 
-```
-```
 public ref class UnitParser
-```
-```
+
 
 Example
 
 Example of using UnitParser class
 
-- [C#](#i-tab-content-3967cbc3-9689-43ab-91c6-2a1c5fb5be70)
+**C#**
 
 ```
 UnitParser oUnitParser = new UnitParser();
-
-
 
 ParserParameter oParserParameter = new ParserParameter();
 
 oParserParameter.UnitID = Unit.Length_cm;
 
-
-
 //Set value in cm
 
 oUnitParser.Set("200 cm", oParserParameter);
-
-
 
 //Get value in mm
 
@@ -57,11 +45,7 @@ ParserParameter oParserParameter_mm = new ParserParameter();
 
 oParserParameter_mm.UnitID = Unit.Length_mm;
 
-
-
 double dValue_mm = oUnitParser.ValueToUnit(oParserParameter_mm);
-
-
 
 //Get value in m
 
@@ -69,11 +53,7 @@ ParserParameter oParserParameter_m = new ParserParameter();
 
 oParserParameter_m.UnitID = Unit.Length_m;
 
-
-
 double dValue_m = oUnitParser.ValueToUnit(oParserParameter_m);
-
-
 
 ```
 
@@ -84,9 +64,6 @@ Public Constructors
 | Public Constructor | [UnitParser Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.UnitParser~_ctor.html) | The Constructor |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

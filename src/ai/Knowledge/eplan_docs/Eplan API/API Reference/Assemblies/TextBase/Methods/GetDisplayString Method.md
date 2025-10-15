@@ -8,22 +8,16 @@ Returns formated display string of the content
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual string GetDisplayString()
-```
-```
 
-```
-```
 public:
 
 virtual String^ GetDisplayString();
-```
-```
+
 
 #### Return Value
 

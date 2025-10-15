@@ -8,17 +8,12 @@ Returns true, if PreConnectionSnap was snapped.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool MateSnapped {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool MateSnapped {
@@ -26,5 +21,4 @@ virtual property bool MateSnapped {
    bool get();
 
 }
-```
-```
+

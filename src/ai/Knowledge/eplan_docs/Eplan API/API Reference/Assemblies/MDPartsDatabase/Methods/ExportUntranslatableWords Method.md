@@ -8,11 +8,10 @@ Export all untranslatable words from article database to file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExportUntranslatableWords( 
 
    ISOCode.Language[] languages,
@@ -20,11 +19,7 @@ public void ExportUntranslatableWords(
    string strExportFilePath
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExportUntranslatableWords( 
@@ -34,8 +29,7 @@ void ExportUntranslatableWords(
    String^ strExportFilePath
 
 )
-```
-```
+
 
 #### Parameters
 

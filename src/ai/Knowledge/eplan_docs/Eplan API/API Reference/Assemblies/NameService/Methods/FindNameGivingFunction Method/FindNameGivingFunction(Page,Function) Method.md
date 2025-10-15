@@ -8,11 +8,10 @@ Sets the page and finds the function, that would give hActual the function name,
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function FindNameGivingFunction( 
 
    Page pPage,
@@ -20,11 +19,7 @@ public Function FindNameGivingFunction(
    Function pActual
 
 )
-```
-```
 
-```
-```
 public:
 
 Function^ FindNameGivingFunction( 
@@ -34,8 +29,7 @@ Function^ FindNameGivingFunction(
    Function^ pActual
 
 )
-```
-```
+
 
 #### Parameters
 

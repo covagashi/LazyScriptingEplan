@@ -8,21 +8,16 @@ Removes the given mounting panel position from the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveMountingPanelPosition( 
 
    MDPartMountingPanelPosition mountingPanelPos
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveMountingPanelPosition( 
@@ -30,8 +25,7 @@ void RemoveMountingPanelPosition(
    MDPartMountingPanelPosition^ mountingPanelPos
 
 )
-```
-```
+
 
 #### Parameters
 

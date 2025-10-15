@@ -8,21 +8,16 @@ Sets the page and returns a sorted list of logicals (that is everything derived 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FunctionBase[] GetSortedListOfLogicals( 
 
    Page pPage
 
 )
-```
-```
 
-```
-```
 public:
 
 array<FunctionBase^>^ GetSortedListOfLogicals( 
@@ -30,8 +25,7 @@ array<FunctionBase^>^ GetSortedListOfLogicals(
    Page^ pPage
 
 )
-```
-```
+
 
 #### Parameters
 

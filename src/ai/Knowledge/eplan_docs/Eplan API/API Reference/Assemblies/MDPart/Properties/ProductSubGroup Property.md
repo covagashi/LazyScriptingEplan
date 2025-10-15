@@ -8,17 +8,12 @@ Gets/Sets the product sub group of the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual MDPartsDatabaseItem.Enums.ProductSubGroup ProductSubGroup {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property MDPartsDatabaseItem.Enums.ProductSubGroup ProductSubGroup {
@@ -28,8 +23,7 @@ virtual property MDPartsDatabaseItem.Enums.ProductSubGroup ProductSubGroup {
    void set (    MDPartsDatabaseItem.Enums.ProductSubGroup value);
 
 }
-```
-```
+
 
 #### Property Value
 

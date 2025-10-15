@@ -8,21 +8,16 @@ Adds a new UserDefinedPropertyPosition object to the part. It is added to the en
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDUserDefinedPropertyPosition AddUserDefinedPropertyPosition( 
 
    MDUserDefinedPropertyDefinition userDefinedPropertyDefinition
 
 )
-```
-```
 
-```
-```
 public:
 
 MDUserDefinedPropertyPosition^ AddUserDefinedPropertyPosition( 
@@ -30,8 +25,7 @@ MDUserDefinedPropertyPosition^ AddUserDefinedPropertyPosition(
    MDUserDefinedPropertyDefinition^ userDefinedPropertyDefinition
 
 )
-```
-```
+
 
 #### Parameters
 

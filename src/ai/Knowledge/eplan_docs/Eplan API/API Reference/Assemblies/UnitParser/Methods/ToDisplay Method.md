@@ -8,21 +8,16 @@ Convert the value to a new unit (of parameterForConversion) of this group and ma
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ToDisplay( 
 
    ParserParameter parameterForConversion
 
 )
-```
-```
 
-```
-```
 public:
 
 String^ ToDisplay( 
@@ -30,8 +25,7 @@ String^ ToDisplay(
    ParserParameter^ parameterForConversion
 
 )
-```
-```
+
 
 #### Parameters
 

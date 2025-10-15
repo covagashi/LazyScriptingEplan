@@ -8,17 +8,12 @@ Returns selected mate objects
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Mate[] Mates {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Mate^>^ Mates {
@@ -26,5 +21,4 @@ property array<Mate^>^ Mates {
    array<Mate^>^ get();
 
 }
-```
-```
+

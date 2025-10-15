@@ -8,21 +8,16 @@ Sets application's GUI language. Used before calling Init method.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void InitGuiLanguage( 
 
    ISOCode.Language lang
 
 )
-```
-```
 
-```
-```
 public:
 
 void InitGuiLanguage( 
@@ -30,8 +25,7 @@ void InitGuiLanguage(
    ISOCode.Language lang
 
 )
-```
-```
+
 
 #### Parameters
 

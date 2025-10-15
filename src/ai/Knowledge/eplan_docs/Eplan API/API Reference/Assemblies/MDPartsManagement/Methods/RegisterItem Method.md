@@ -8,11 +8,10 @@ Registers a new item type into the parts management. That item type will be show
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool RegisterItem( 
 
    string addinName,
@@ -20,11 +19,7 @@ public bool RegisterItem(
    string itemType
 
 )
-```
-```
 
-```
-```
 public:
 
 bool RegisterItem( 
@@ -34,8 +29,7 @@ bool RegisterItem(
    String^ itemType
 
 )
-```
-```
+
 
 #### Parameters
 

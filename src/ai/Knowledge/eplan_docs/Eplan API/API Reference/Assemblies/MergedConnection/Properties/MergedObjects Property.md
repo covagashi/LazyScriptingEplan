@@ -8,17 +8,12 @@ Returns an array of [Connection](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Connection[] MergedObjects {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Connection^>^ MergedObjects {
@@ -26,8 +21,7 @@ property array<Connection^>^ MergedObjects {
    array<Connection^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

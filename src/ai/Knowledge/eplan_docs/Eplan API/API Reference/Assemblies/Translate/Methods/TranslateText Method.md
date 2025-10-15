@@ -8,11 +8,10 @@ Get translation for the given text, according to project settings.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString TranslateText( 
 
    string strText,
@@ -20,11 +19,7 @@ public MultiLangString TranslateText(
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 MultiLangString^ TranslateText( 
@@ -34,8 +29,7 @@ MultiLangString^ TranslateText(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Supply voltage, min. # 26173.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SUPPLY_VOLTAGE_MIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SUPPLY_VOLTAGE_MIN {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SUPPLY_VOLTAGE_MIN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

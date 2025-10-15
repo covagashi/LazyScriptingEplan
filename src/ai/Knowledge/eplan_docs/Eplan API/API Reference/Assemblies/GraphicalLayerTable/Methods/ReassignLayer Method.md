@@ -8,11 +8,10 @@ Reassign all elements from `sourceLayer` to `targetLayer`.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ReassignLayer( 
 
    GraphicalLayer sourceLayer,
@@ -20,11 +19,7 @@ public bool ReassignLayer(
    GraphicalLayer targetLayer
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ReassignLayer( 
@@ -34,8 +29,7 @@ bool ReassignLayer(
    GraphicalLayer^ targetLayer
 
 )
-```
-```
+
 
 #### Parameters
 

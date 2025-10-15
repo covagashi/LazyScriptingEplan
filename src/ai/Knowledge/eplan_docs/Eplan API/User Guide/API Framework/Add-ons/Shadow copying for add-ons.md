@@ -20,8 +20,6 @@ For add-ons, the **entire  bin  directory** of the add-on with its subdirector
 
 Example:
 
-
-
 This means that all files (\*.dll  and  \*.exe) and all  bin  subdirectories (language subdirectories, etc.) are also copied. This is done when Eplan is started and an add-on is registered or when an add-on is registered manually from the Add-ons dialog.
 
 Eplan loads the assemblies of the add-on from the shadow directory and not from the original add-on directory. This allows an add-on to be updated without the need to stop all Eplan instances using the add-on.
@@ -47,6 +45,6 @@ When everything is done so far, Eplan then registers the new add-on:
 
 **Using an assembly in different versions**  
 Conflicts can arise when multiple add-on projects in a solution refer to an assembly with a namespace and class of the same name, but different versions. The following scenario illustrates the problem:  
-Let's assume that you use the  Write  library of version 1.0.0 in one project (Project1) and the  Write  library of version 2.0.0 in the other project (Project2). This will lead to unwanted behavior in your solution: Depending on which project â be it Project1 or Project2 â you call first, it will be executed correctly and will reference the correct library. If you then execute the other project, it will reference the previous library, the first version is executed.
+Let's assume that you use the  Write  library of version 1.0.0 in one project (Project1) and the  Write  library of version 2.0.0 in the other project (Project2). This will lead to unwanted behavior in your solution: Depending on which project ' be it Project1 or Project2 ' you call first, it will be executed correctly and will reference the correct library. If you then execute the other project, it will reference the previous library, the first version is executed.
 
 **Solution**: To work around this behavior, sign the library versions independently of each other. You can then use the library with different versions at will. Signing gives the library a specific key token or "strong name" that helps distinguish the libraries.

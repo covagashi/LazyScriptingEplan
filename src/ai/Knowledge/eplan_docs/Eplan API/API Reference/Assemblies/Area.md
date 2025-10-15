@@ -16,28 +16,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Area : Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class Area : public Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
+
 
 Remarks
 
 Type of area depends on its function definition. Examples of possible types are: `Restricted drilling area`, `Restricted placing area`, `Routing ranges` and `Wiring cut-outs`  
   
 Corresponding FunctionCategory for this class is AreaDefinition.
-
-
 
 Public Constructors
 
@@ -46,8 +38,6 @@ Public Constructors
 | Public Constructor | [Area Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Area~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

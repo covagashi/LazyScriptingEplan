@@ -8,20 +8,14 @@ Parameter enum for the terminal sequence during terminal numbering..
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Renumber.Enums.TerminalsSequence : System.Enum
-```
-```
 
-```
-```
 public enum class Renumber.Enums.TerminalsSequence : public System.Enum
-```
-```
+
 
 Members
 

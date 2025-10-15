@@ -8,11 +8,10 @@ Exports given installation spaces into files in JT format.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool InstallationSpacesToJT( 
 
    IEnumerable<InstallationSpace> listInstallationSpaces,
@@ -22,11 +21,7 @@ public bool InstallationSpacesToJT(
    string strScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 bool InstallationSpacesToJT( 
@@ -38,8 +33,7 @@ bool InstallationSpacesToJT(
    String^ strScheme
 
 )
-```
-```
+
 
 #### Parameters
 

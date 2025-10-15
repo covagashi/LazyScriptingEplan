@@ -8,17 +8,12 @@ The title for the decider.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Title {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Title {
@@ -28,5 +23,4 @@ property String^ Title {
    void set (    String^ value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Eplan product variant bin path. Path to the w3u.exe of the product variant you w
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string EplanBinFolder {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ EplanBinFolder {
@@ -28,8 +23,7 @@ property String^ EplanBinFolder {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Remarks
 

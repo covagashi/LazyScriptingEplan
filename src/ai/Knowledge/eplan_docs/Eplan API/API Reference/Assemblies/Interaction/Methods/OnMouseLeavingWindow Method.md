@@ -8,21 +8,16 @@ Is called after Mouse leave the window.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnMouseLeavingWindow( 
 
    Position pos
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnMouseLeavingWindow( 
@@ -30,8 +25,7 @@ virtual RequestCode OnMouseLeavingWindow(
    Position^ pos
 
 )
-```
-```
+
 
 #### Parameters
 

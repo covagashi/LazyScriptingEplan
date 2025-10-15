@@ -8,17 +8,12 @@ Increment in X direction
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double IncrementX {get;}
-```
-```
 
-```
-```
 public:
 
 property double IncrementX {
@@ -26,5 +21,4 @@ property double IncrementX {
    double get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Last editor: Sign-in name # 15505.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FCTDEFLIB_LASTMODIFICATOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FCTDEFLIB_LASTMODIFICATOR {
@@ -28,8 +23,7 @@ property PropertyValue^ FCTDEFLIB_LASTMODIFICATOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public abstract void Execute( 
 
    MDPartsDatabaseItem oMDPartItem
 
 )
-```
-```
 
-```
-```
 public:
 
 abstract void Execute( 
@@ -28,8 +23,7 @@ abstract void Execute(
    MDPartsDatabaseItem^ oMDPartItem
 
 )
-```
-```
+
 
 #### Parameters
 

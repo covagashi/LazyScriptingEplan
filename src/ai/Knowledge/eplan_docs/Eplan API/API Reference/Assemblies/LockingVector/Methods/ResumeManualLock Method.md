@@ -8,21 +8,16 @@ Internal method, sets internal AutoLockActive flag to value before PauseManualLo
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool ResumeManualLock( 
 
    int nManualLockStateId
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual bool ResumeManualLock( 
@@ -30,8 +25,7 @@ virtual bool ResumeManualLock(
    int nManualLockStateId
 
 )
-```
-```
+
 
 #### Parameters
 

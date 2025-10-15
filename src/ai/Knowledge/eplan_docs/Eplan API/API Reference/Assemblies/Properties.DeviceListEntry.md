@@ -8,20 +8,14 @@ Identificators of properties owned by DeviceListEntry class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.DeviceListEntry : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.DeviceListEntry : public System.Enum
-```
-```
+
 
 Members
 

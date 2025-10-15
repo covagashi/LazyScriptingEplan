@@ -8,17 +8,12 @@ Measuring range: Normalized volume flow # 26126.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_MEASURING_RANGE_OF_STANDARD_VOLUME_FLOW {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_MEASURING_RANGE_OF_STANDARD_VOLUME_FLOW {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_MEASURING_RANGE_OF_STANDARD_VOLUME_FLOW {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

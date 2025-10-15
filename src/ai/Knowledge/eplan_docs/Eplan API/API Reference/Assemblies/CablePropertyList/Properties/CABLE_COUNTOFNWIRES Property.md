@@ -8,17 +8,12 @@ Cables: Number of N conductors # 35104.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLE_COUNTOFNWIRES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLE_COUNTOFNWIRES {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLE_COUNTOFNWIRES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

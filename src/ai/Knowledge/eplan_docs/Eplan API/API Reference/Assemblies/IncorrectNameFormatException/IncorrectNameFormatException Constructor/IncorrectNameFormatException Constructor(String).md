@@ -8,21 +8,16 @@ Constructor with describing message.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public IncorrectNameFormatException( 
 
    string message
 
 )
-```
-```
 
-```
-```
 public:
 
 IncorrectNameFormatException( 
@@ -30,8 +25,7 @@ IncorrectNameFormatException(
    String^ message
 
 )
-```
-```
+
 
 #### Parameters
 

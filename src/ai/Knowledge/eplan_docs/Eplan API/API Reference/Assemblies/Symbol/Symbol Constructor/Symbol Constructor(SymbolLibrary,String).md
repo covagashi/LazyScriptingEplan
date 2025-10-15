@@ -8,11 +8,10 @@ Construct symbol from library using name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Symbol( 
 
    SymbolLibrary symbolLib,
@@ -20,11 +19,7 @@ public Symbol(
    string symbolName
 
 )
-```
-```
 
-```
-```
 public:
 
 Symbol( 
@@ -34,8 +29,7 @@ Symbol(
    String^ symbolName
 
 )
-```
-```
+
 
 #### Parameters
 

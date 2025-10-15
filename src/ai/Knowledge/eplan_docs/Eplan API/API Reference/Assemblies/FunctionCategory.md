@@ -8,20 +8,14 @@ Categories of a function.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum FunctionCategory : System.Enum
-```
-```
 
-```
-```
 public enum class FunctionCategory : public System.Enum
-```
-```
+
 
 Members
 

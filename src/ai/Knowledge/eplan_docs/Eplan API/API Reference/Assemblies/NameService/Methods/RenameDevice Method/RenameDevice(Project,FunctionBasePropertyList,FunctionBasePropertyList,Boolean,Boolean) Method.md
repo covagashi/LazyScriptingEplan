@@ -8,11 +8,10 @@ Rename all functions of device.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RenameDevice( 
 
    Project pProject,
@@ -26,11 +25,7 @@ public void RenameDevice(
    bool bKeepDescribingProps
 
 )
-```
-```
 
-```
-```
 public:
 
 void RenameDevice( 
@@ -46,8 +41,7 @@ void RenameDevice(
    bool bKeepDescribingProps
 
 )
-```
-```
+
 
 #### Parameters
 

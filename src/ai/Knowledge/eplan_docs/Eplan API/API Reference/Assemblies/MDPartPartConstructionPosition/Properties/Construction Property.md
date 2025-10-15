@@ -8,17 +8,12 @@ The referenced construction as MDConstruction object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual MDConstruction Construction {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property MDConstruction^ Construction {
@@ -26,5 +21,4 @@ virtual property MDConstruction^ Construction {
    MDConstruction^ get();
 
 }
-```
-```
+

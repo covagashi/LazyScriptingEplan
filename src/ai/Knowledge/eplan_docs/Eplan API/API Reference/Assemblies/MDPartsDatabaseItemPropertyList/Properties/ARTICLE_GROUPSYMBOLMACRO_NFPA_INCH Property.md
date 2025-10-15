@@ -8,17 +8,12 @@ Schematic macro: NFPA inch # 22872.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_GROUPSYMBOLMACRO_NFPA_INCH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_GROUPSYMBOLMACRO_NFPA_INCH {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_GROUPSYMBOLMACRO_NFPA_INCH {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

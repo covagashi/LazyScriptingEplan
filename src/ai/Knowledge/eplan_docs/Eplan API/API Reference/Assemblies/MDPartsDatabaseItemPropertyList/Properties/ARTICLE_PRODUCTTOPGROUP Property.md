@@ -8,17 +8,12 @@ Generic product group # 22138.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PRODUCTTOPGROUP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PRODUCTTOPGROUP {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PRODUCTTOPGROUP {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

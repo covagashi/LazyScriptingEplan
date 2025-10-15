@@ -8,17 +8,12 @@ Specifies if scale is considered with this Layer
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsScalable {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsScalable {
@@ -26,5 +21,4 @@ property bool IsScalable {
    bool get();
 
 }
-```
-```
+

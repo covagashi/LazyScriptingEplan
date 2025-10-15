@@ -8,11 +8,10 @@ Find target mate by name. Mate nameConsider mounting clearanceConsider child mou
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Mate FindTargetMate( 
 
    string name,
@@ -22,11 +21,7 @@ public Mate FindTargetMate(
    bool bConsiderMountingSurfaces
 
 )
-```
-```
 
-```
-```
 public:
 
 Mate^ FindTargetMate( 
@@ -38,8 +33,7 @@ Mate^ FindTargetMate(
    bool bConsiderMountingSurfaces
 
 )
-```
-```
+
 
 #### Parameters
 

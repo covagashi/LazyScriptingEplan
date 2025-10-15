@@ -8,20 +8,14 @@ Identificators of properties owned by DimensionCircle class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.DimensionCircle : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.DimensionCircle : public System.Enum
-```
-```
+
 
 Members
 

@@ -8,17 +8,12 @@ Project path (full) # 10045.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_FULL_PROJECTPATH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_FULL_PROJECTPATH {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_FULL_PROJECTPATH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

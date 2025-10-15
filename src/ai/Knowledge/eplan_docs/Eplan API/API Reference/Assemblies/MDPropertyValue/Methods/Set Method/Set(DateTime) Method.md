@@ -8,21 +8,16 @@ Sets [System.DateTime](#) value in MDPropertyValue object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue Set( 
 
    DateTime time
 
 )
-```
-```
 
-```
-```
 public:
 
 MDPropertyValue^ Set( 
@@ -30,8 +25,7 @@ MDPropertyValue^ Set(
    DateTime time
 
 )
-```
-```
+
 
 #### Parameters
 

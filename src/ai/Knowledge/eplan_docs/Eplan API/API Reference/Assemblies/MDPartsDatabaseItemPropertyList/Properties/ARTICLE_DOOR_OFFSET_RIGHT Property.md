@@ -8,17 +8,12 @@ Door opening: Offset right # 22162.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_DOOR_OFFSET_RIGHT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_DOOR_OFFSET_RIGHT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_DOOR_OFFSET_RIGHT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

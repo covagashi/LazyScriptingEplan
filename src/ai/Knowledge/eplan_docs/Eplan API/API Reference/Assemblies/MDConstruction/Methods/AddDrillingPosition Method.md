@@ -8,19 +8,13 @@ Add a new drilling position to the part. That drilling position is added to the 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDDrillingPosition AddDrillingPosition()
-```
-```
 
-```
-```
 public:
 
 MDDrillingPosition^ AddDrillingPosition();
-```
-```
+

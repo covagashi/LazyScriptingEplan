@@ -8,21 +8,16 @@ Block property: Format (PLC box) # 10605.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BLOCKFORMAT_PLCBOX( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BLOCKFORMAT_PLCBOX {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_BLOCKFORMAT_PLCBOX {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

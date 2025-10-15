@@ -8,11 +8,10 @@ Defines a new setting for a double value.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddDoubleSetting( 
 
    string strSettingPath,
@@ -24,11 +23,7 @@ public void AddDoubleSetting(
    ISettings.CreationFlag eFlag
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddDoubleSetting( 
@@ -42,8 +37,7 @@ void AddDoubleSetting(
    ISettings.CreationFlag eFlag
 
 )
-```
-```
+
 
 #### Parameters
 

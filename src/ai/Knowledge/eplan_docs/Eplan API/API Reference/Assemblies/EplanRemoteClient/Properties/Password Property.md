@@ -8,17 +8,12 @@ Eplan log-in password used for Rights Management.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Password {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Password {
@@ -28,5 +23,4 @@ property String^ Password {
    void set (    String^ value);
 
 }
-```
-```
+

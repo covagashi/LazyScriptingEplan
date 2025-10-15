@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new PipingDefinitionPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property PipingDefinitionPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property PipingDefinitionPropertyList^ Properties {
    PipingDefinitionPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

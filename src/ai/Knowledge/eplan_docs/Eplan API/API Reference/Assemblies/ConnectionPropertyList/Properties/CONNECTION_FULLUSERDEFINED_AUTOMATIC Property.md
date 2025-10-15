@@ -8,17 +8,12 @@ User-defined structure (automatic) # 31109.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_FULLUSERDEFINED_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_FULLUSERDEFINED_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_FULLUSERDEFINED_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

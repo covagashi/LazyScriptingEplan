@@ -8,11 +8,10 @@ Connect to Eplan Server.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void Connect( 
 
    string strCompterName,
@@ -22,11 +21,7 @@ void Connect(
    TimeSpan interval
 
 )
-```
-```
 
-```
-```
 void Connect( 
 
    String^ strCompterName,
@@ -36,8 +31,7 @@ void Connect(
    TimeSpan interval
 
 )
-```
-```
+
 
 #### Parameters
 

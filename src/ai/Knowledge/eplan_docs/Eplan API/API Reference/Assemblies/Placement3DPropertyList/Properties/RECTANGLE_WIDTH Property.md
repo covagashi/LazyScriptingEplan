@@ -8,17 +8,12 @@ Width # 20221.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue RECTANGLE_WIDTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ RECTANGLE_WIDTH {
@@ -28,8 +23,7 @@ property PropertyValue^ RECTANGLE_WIDTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

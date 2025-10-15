@@ -8,21 +8,16 @@ Add copy of a mate to a Placement3D.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddMatePersistent( 
 
    Mate pCustomMate
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddMatePersistent( 
@@ -30,8 +25,7 @@ void AddMatePersistent(
    Mate^ pCustomMate
 
 )
-```
-```
+
 
 #### Parameters
 

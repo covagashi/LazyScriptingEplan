@@ -8,17 +8,12 @@ Symbol description # 16906.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBVAR_SYMB_DESC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBVAR_SYMB_DESC {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMBVAR_SYMB_DESC {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

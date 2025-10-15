@@ -8,21 +8,16 @@ Removes the ArticleReference from the PlanningSegment
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void RemoveArticleReference( 
 
    ArticleReference artRef
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void RemoveArticleReference( 
@@ -30,8 +25,7 @@ virtual void RemoveArticleReference(
    ArticleReference^ artRef
 
 )
-```
-```
+
 
 #### Parameters
 

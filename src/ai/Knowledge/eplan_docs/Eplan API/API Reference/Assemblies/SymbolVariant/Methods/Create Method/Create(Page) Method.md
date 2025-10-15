@@ -8,21 +8,16 @@ Creates object on page from information contained in SymbolVariant object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolReference Create( 
 
    Page page
 
 )
-```
-```
 
-```
-```
 public:
 
 SymbolReference^ Create( 
@@ -30,8 +25,7 @@ SymbolReference^ Create(
    Page^ page
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Data backup: Back up external documents # 10511.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BACKUP_EXTDOCS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BACKUP_EXTDOCS {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_BACKUP_EXTDOCS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

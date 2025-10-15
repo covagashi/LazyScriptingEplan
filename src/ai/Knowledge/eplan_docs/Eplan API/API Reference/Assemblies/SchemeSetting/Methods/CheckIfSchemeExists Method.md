@@ -8,21 +8,16 @@ Checks whether a scheme is defined.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CheckIfSchemeExists( 
 
    string strName
 
 )
-```
-```
 
-```
-```
 public:
 
 bool CheckIfSchemeExists( 
@@ -30,8 +25,7 @@ bool CheckIfSchemeExists(
    String^ strName
 
 )
-```
-```
+
 
 #### Parameters
 

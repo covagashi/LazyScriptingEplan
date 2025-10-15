@@ -8,17 +8,12 @@ Returns array of placements combined in this block.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Placement[] SubPlacements {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property array<Placement^>^ SubPlacements {
@@ -26,5 +21,4 @@ virtual property array<Placement^>^ SubPlacements {
    array<Placement^>^ get();
 
 }
-```
-```
+

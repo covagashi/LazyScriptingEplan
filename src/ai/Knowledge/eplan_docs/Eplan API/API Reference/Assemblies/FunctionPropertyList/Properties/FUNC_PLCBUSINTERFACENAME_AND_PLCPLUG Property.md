@@ -8,17 +8,12 @@ Bus interface: Name (with plug designation) # 20443.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCBUSINTERFACENAME_AND_PLCPLUG {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCBUSINTERFACENAME_AND_PLCPLUG {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCBUSINTERFACENAME_AND_PLCPLUG {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Energy efficiency class CN # 26306.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_ENERGY_EFFICIENCY_CLASS_CN( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_ENERGY_EFFICIENCY_CLASS_CN {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_ENERGY_EFFICIENCY_CLASS_CN {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Format of full DT # 20206.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_FULLDTFORMAT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_FULLDTFORMAT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_FULLDTFORMAT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

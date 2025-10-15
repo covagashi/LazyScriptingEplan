@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TransientLayer( 
 
    DmgLayer* layer
 
 )
-```
-```
 
-```
-```
 public:
 
 TransientLayer( 
@@ -28,8 +23,7 @@ TransientLayer(
    DmgLayer* layer
 
 )
-```
-```
+
 
 #### Parameters
 

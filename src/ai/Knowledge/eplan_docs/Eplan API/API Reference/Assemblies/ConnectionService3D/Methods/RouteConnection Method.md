@@ -8,11 +8,10 @@ Creates new route of an existing connection 3d.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RoutingSegment[] RouteConnection( 
 
    Connection3D connection3D,
@@ -20,11 +19,7 @@ public RoutingSegment[] RouteConnection(
    RoutingSegment[] preRoutingSegments
 
 )
-```
-```
 
-```
-```
 public:
 
 array<RoutingSegment^>^ RouteConnection( 
@@ -34,8 +29,7 @@ array<RoutingSegment^>^ RouteConnection(
    array<RoutingSegment^>^ preRoutingSegments
 
 )
-```
-```
+
 
 #### Parameters
 

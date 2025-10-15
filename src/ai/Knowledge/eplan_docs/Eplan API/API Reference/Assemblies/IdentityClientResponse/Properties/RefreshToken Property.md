@@ -8,17 +8,12 @@ Refresh token.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string RefreshToken {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ RefreshToken {
@@ -28,5 +23,4 @@ property String^ RefreshToken {
    void set (    String^ value);
 
 }
-```
-```
+

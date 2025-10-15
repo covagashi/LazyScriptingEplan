@@ -8,11 +8,10 @@ Changes the full names of the function and its children.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static void RenameFunction( 
 
    IFunctionBase pFunctionBase,
@@ -22,11 +21,7 @@ public static void RenameFunction(
    bool bKeepDescribingProps
 
 )
-```
-```
 
-```
-```
 public:
 
 static void RenameFunction( 
@@ -38,8 +33,7 @@ static void RenameFunction(
    bool bKeepDescribingProps
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ Delete wire designations and connection definition points.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DeleteConnectionDefinitionPoints( 
 
    ArrayList arrConnectionList,
@@ -24,11 +23,7 @@ public void DeleteConnectionDefinitionPoints(
    bool bRegenrateConnections
 
 )
-```
-```
 
-```
-```
 public:
 
 void DeleteConnectionDefinitionPoints( 
@@ -42,8 +37,7 @@ void DeleteConnectionDefinitionPoints(
    bool bRegenrateConnections
 
 )
-```
-```
+
 
 #### Parameters
 

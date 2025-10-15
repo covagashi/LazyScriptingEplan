@@ -8,21 +8,16 @@ Transfers part references of a part placement to the corresponding main function
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function[] UpdateMainElements( 
 
    Function funcArticlePlacement
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Function^>^ UpdateMainElements( 
@@ -30,8 +25,7 @@ array<Function^>^ UpdateMainElements(
    Function^ funcArticlePlacement
 
 )
-```
-```
+
 
 #### Parameters
 

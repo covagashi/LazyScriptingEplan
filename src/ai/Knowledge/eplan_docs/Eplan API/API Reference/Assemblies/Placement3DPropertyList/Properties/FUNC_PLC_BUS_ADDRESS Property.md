@@ -8,17 +8,12 @@ Physical network: Bus ID / item number # 20311.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLC_BUS_ADDRESS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLC_BUS_ADDRESS {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLC_BUS_ADDRESS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

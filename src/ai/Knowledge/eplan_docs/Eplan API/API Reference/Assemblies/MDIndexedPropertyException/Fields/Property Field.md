@@ -8,19 +8,13 @@ Property which was used without index.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ushort Property
-```
-```
 
-```
-```
 public:
 
 ushort Property
-```
-```
+

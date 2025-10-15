@@ -8,11 +8,10 @@ Imports user defined properties from file to project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ImportPropertyDefinitions( 
 
    Project pProject,
@@ -20,11 +19,7 @@ public bool ImportPropertyDefinitions(
    string strFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ImportPropertyDefinitions( 
@@ -34,8 +29,7 @@ bool ImportPropertyDefinitions(
    String^ strFileName
 
 )
-```
-```
+
 
 #### Parameters
 

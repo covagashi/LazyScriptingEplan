@@ -8,17 +8,12 @@ DT ID # 20359.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_MODULE_ID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_MODULE_ID {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_MODULE_ID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

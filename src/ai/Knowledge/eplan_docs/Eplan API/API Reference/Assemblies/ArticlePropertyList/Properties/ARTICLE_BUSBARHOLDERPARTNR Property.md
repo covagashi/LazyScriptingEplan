@@ -8,17 +8,12 @@ Busbar support: Part number # 22204.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_BUSBARHOLDERPARTNR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_BUSBARHOLDERPARTNR {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_BUSBARHOLDERPARTNR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

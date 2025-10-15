@@ -8,17 +8,12 @@ The target info of the connection point (internal/external/index)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int TargetInfo {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int TargetInfo {
@@ -28,5 +23,4 @@ property int TargetInfo {
    void set (    int value);
 
 }
-```
-```
+

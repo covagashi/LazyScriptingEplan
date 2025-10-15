@@ -8,17 +8,12 @@ Connection point cross-section # 22036.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CONNECTIONCROSSSECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CONNECTIONCROSSSECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CONNECTIONCROSSSECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

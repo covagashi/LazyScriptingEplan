@@ -8,25 +8,13 @@ Interface for a special verification class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IFunctionVerification : IMessage, IVerification, IVerificationBase
-```
-```
 
-```
-```
 public interface class IFunctionVerification : public IMessage, IVerification, IVerificationBase
-```
-```
-
-
-
-
-
 
 Public Methods
 

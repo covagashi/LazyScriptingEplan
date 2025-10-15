@@ -15,24 +15,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class SegmentTemplatesFilter : StorableObjectsFilter
-```
-```
 
-```
-```
 public ref class SegmentTemplatesFilter : public StorableObjectsFilter
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-83c880fd-6166-44be-9efa-8608c987c922)
+**C#**
 
 ```
 DMObjectsFinder oFinder = new DMObjectsFinder(m_oTestProject);
@@ -43,13 +37,11 @@ oFilter.Page = m_oTestProject.Pages[10];
 
 StorableObject[] oSO = oFinder.GetStorableObjects(oFilter);
 
-
-
 ```
 
 The following example shows how to filter by user-defined properties
 
-- [C#](#i-tab-content-6a0c697c-f786-4f77-8d01-365e39af57c6)
+**C#**
 
 ```
 
@@ -57,8 +49,6 @@ The following example shows how to filter by user-defined properties
 Project myProject = m_oProject; // A valid project
 
 Page myPage = myProject.Pages[0]; // A valid Page object
-
-
 
 // Define test property
 
@@ -70,13 +60,9 @@ string strPropertyIdentyfingName = "Page.Test043c";
 
 UserDefinedPropertyDefinition oUDPD = UserDefinedPropertyDefinition.Create(myProject, strPropertyIdentyfingName, UserDefinedPropertyDefinition.Enums.ClientType.Page);
 
-
-
 // Set test property on myPage
 
 myPage.Properties[strPropertyIdentyfingName] = mlsTestValue;
-
-
 
 // Search page with property value
 
@@ -88,17 +74,11 @@ PagePropertyList pagePropertyList = new PagePropertyList();
 
 AnyPropertyId anyPropertyId = new AnyPropertyId(myProject, strPropertyIdentyfingName);
 
-
-
 pagePropertyList[anyPropertyId] = mlsTestValue;
 
 pagesFilter.SetFilteredPropertyList(pagePropertyList);
 
 Page[] arrPages1 = objFinder.GetPages(pagesFilter);
-
-
-
-
 
 ```
 
@@ -109,8 +89,6 @@ Public Constructors
 | Public Constructor | [SegmentTemplatesFilter Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SegmentTemplatesFilter~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

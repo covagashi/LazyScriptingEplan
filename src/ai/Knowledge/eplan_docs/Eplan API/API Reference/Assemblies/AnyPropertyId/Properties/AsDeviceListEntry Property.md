@@ -8,17 +8,12 @@ Gets property id value as [Properties.DeviceListEntry](Eplan.EplApi.DataModelu~E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.DeviceListEntry AsDeviceListEntry {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.DeviceListEntry AsDeviceListEntry {
@@ -26,5 +21,4 @@ property Properties.DeviceListEntry AsDeviceListEntry {
    Properties.DeviceListEntry get();
 
 }
-```
-```
+

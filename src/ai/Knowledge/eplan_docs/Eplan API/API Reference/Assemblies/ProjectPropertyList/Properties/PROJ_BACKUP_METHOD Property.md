@@ -8,17 +8,12 @@ Data backup: Method # 10514.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BACKUP_METHOD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BACKUP_METHOD {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_BACKUP_METHOD {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

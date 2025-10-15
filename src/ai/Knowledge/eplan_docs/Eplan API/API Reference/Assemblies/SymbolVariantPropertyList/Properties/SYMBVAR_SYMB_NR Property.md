@@ -8,17 +8,12 @@ Symbol number # 16904.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMBVAR_SYMB_NR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMBVAR_SYMB_NR {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMBVAR_SYMB_NR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

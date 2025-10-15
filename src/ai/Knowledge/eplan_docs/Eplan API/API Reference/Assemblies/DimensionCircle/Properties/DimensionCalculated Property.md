@@ -8,17 +8,12 @@ Gets/Sets whether the value of the dimension (the dimension's text) is automatic
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool DimensionCalculated {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool DimensionCalculated {
@@ -28,5 +23,4 @@ property bool DimensionCalculated {
    void set (    bool value);
 
 }
-```
-```
+

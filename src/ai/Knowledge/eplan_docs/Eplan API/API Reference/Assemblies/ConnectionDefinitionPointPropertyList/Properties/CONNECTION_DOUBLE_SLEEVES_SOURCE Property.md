@@ -8,17 +8,12 @@ Dual sleeve prescribed at 2 targets at the source # 31098.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_DOUBLE_SLEEVES_SOURCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_DOUBLE_SLEEVES_SOURCE {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_DOUBLE_SLEEVES_SOURCE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

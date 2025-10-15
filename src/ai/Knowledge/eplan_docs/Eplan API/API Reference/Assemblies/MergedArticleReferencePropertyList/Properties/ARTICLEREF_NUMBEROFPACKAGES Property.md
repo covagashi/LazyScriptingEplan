@@ -8,17 +8,12 @@ Total number of packagings # 20514.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_NUMBEROFPACKAGES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_NUMBEROFPACKAGES {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_NUMBEROFPACKAGES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

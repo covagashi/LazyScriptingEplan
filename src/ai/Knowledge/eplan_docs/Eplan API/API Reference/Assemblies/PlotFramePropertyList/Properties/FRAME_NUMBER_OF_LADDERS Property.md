@@ -8,17 +8,12 @@ Number of ladders # 12007.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_NUMBER_OF_LADDERS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_NUMBER_OF_LADDERS {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_NUMBER_OF_LADDERS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Set or get a Storable Object List for this context (additional to the single Sto
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] StorableObjectList {get; set;}
-```
-```
 
-```
-```
 public:
 
 property array<StorableObject^>^ StorableObjectList {
@@ -28,5 +23,4 @@ property array<StorableObject^>^ StorableObjectList {
    void set (    array<StorableObject^>^ value);
 
 }
-```
-```
+

@@ -8,11 +8,10 @@ Sets symbol variant for Function.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetSymbolVariant( 
 
    SymbolVariant pNewSymbolVariant,
@@ -20,11 +19,7 @@ public void SetSymbolVariant(
    bool bUseLogicalDefinitionFromSymbol
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetSymbolVariant( 
@@ -34,8 +29,7 @@ void SetSymbolVariant(
    bool bUseLogicalDefinitionFromSymbol
 
 )
-```
-```
+
 
 #### Parameters
 

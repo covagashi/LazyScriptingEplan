@@ -8,17 +8,12 @@ Set scaling in y-direction
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double YScale {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double YScale {
@@ -28,5 +23,4 @@ property double YScale {
    void set (    double value);
 
 }
-```
-```
+

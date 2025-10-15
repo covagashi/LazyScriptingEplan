@@ -8,17 +8,12 @@ AutomationML: Company # 10950.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJECT_ENTERPRISE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJECT_ENTERPRISE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJECT_ENTERPRISE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

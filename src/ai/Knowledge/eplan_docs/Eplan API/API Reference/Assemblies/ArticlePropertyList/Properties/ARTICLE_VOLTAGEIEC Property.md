@@ -8,17 +8,12 @@ Terminals: Voltage IEC # 22089.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_VOLTAGEIEC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_VOLTAGEIEC {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_VOLTAGEIEC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

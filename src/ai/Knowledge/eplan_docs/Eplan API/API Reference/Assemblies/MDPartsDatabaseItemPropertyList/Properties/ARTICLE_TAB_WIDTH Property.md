@@ -8,17 +8,12 @@ Finger width # 22285.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TAB_WIDTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TAB_WIDTH {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TAB_WIDTH {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

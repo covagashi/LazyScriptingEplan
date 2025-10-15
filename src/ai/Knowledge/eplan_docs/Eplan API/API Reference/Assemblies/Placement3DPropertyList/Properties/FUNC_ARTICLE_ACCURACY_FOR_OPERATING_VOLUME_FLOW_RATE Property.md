@@ -8,21 +8,16 @@ Actual volume flow: Accuracy # 26361.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_ACCURACY_FOR_OPERATING_VOLUME_FLOW_RATE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_ACCURACY_FOR_OPERATING_VOLUME_FLOW_RATE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_ACCURACY_FOR_OPERATING_VOLUME_FLOW_RATE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

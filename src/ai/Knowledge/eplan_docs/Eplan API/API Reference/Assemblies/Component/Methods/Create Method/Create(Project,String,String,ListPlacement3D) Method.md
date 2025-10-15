@@ -8,11 +8,10 @@ Creates not placed Component object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Component Create( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public static Component Create(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static Component^ Create( 
@@ -42,8 +37,7 @@ static Component^ Create(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

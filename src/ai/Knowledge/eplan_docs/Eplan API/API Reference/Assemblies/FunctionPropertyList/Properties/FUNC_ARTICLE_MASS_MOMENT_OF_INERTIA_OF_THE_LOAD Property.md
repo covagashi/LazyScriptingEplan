@@ -8,21 +8,16 @@ Mass moment of inertia of the load # 26444.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_MASS_MOMENT_OF_INERTIA_OF_THE_LOAD( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_MASS_MOMENT_OF_INERTIA_OF_THE_LOAD {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_MASS_MOMENT_OF_INERTIA_OF_THE_LOAD {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

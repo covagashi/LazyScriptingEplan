@@ -8,17 +8,12 @@ Gets/Sets the name of the signal.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SignalName {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ SignalName {
@@ -28,5 +23,4 @@ property String^ SignalName {
    void set (    String^ value);
 
 }
-```
-```
+

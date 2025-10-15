@@ -10,16 +10,12 @@ If you want to access data of an other program, the application needs to have a 
 
 The following example shows the use of Microsoft Excel 2003. Excel exposes its functions as COM interface. In your Eplan add-in, you can add a reference to the registered type library of Excel:
 
-
-
 After you added the reference, the development environment creates an interop assembly. The types of this assembly then can be used in managed code (C#, etc.):
-
-
 
 In your application code, the use of Excel would look like in the following example:
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
@@ -70,16 +66,9 @@ do
 
 } while(itPrjMsg.MoveNext());
 
-
-
 new Decider().Decide(EnumDecisionType.eOkDecision, "Action completed!", "", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);
 
 oExcel.Quit();
-
-```
-
-```
-
 
 Dim oExcel As New Excel.ApplicationClass()
 
@@ -131,6 +120,6 @@ oExcel.Quit()
 
 ```
 
-Excel is started as a separate process. The only object, you create with  new  is the  Excel.ApplicationClass. All other objects like  Excel.Workbook, are created â or queried from Excel â through functions of the  Application  object.
+Excel is started as a separate process. The only object, you create with  new  is the  Excel.ApplicationClass. All other objects like  Excel.Workbook, are created ' or queried from Excel ' through functions of the  Application  object.
 
 Each call of Excel functions is a communication between processes!

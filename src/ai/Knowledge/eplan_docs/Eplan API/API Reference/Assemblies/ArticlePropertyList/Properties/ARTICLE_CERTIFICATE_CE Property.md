@@ -8,17 +8,12 @@ Certification: CE # 22113.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CERTIFICATE_CE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CERTIFICATE_CE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CERTIFICATE_CE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.Boolean.
 
 Remarks
 
-Certificate of the CommunautÃ© EuropÃ©ene certificate, i.e. the previous European Community. The CE certification is a prerequisite for teh he first placing on the market of products for which a CE certification in accordance with special EU directives is required, namely in all member states of the European Economic Area.
+Certificate of the Communauté Européene certificate, i.e. the previous European Community. The CE certification is a prerequisite for teh he first placing on the market of products for which a CE certification in accordance with special EU directives is required, namely in all member states of the European Economic Area.

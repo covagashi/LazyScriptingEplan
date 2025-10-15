@@ -8,17 +8,12 @@ Page subcounter # 11013.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_SUBCOUNTER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_SUBCOUNTER {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_SUBCOUNTER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Full file name of the image file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string FileName {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ FileName {
@@ -28,8 +23,7 @@ property String^ FileName {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Exceptions
 

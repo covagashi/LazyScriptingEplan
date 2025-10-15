@@ -8,21 +8,16 @@ Quantity / subset in unit of project # 31044.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_QUANTITY_IN_PROJECT_UNIT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_QUANTITY_IN_PROJECT_UNIT {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_QUANTITY_IN_PROJECT_UNIT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

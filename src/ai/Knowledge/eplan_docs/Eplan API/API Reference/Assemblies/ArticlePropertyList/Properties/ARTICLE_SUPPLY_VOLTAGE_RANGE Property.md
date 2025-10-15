@@ -8,17 +8,12 @@ Supply voltage range # 26623.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SUPPLY_VOLTAGE_RANGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SUPPLY_VOLTAGE_RANGE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SUPPLY_VOLTAGE_RANGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

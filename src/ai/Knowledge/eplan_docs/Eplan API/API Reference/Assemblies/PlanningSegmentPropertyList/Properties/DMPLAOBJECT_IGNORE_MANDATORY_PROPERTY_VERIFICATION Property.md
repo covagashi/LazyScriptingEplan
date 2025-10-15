@@ -8,21 +8,16 @@ Linked segments: Name # 44063.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_LINK_CHILD_NAME( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_LINK_CHILD_NAME {
@@ -32,8 +27,7 @@ property PropertyValue^ DMPLAOBJECT_LINK_CHILD_NAME {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

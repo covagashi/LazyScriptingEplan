@@ -8,20 +8,14 @@ Enumeration, which determines whether a macro will be placed using absolute or r
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Insert3D.MoveKind : System.Enum
-```
-```
 
-```
-```
 public enum class Insert3D.MoveKind : public System.Enum
-```
-```
+
 
 Members
 

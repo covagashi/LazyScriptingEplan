@@ -13,26 +13,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class DisableConnectionUpdateStep
-```
-```
 
-```
-```
 public ref class DisableConnectionUpdateStep
-```
-```
+
 
 Example
 
 DisableConnectionUpdateStep usage - only inside "using".
 
-- [C#](#i-tab-content-f04c420b-d2b5-4b3f-8d2e-bdc9b55b5bfb)
+**C#**
 
 ```
 using (DisableConnectionUpdateStep oDisableConnectionUpdateStep = new DisableConnectionUpdateStep()
@@ -51,9 +45,6 @@ Public Constructors
 | Public Constructor | [DisableConnectionUpdateStep Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DisableConnectionUpdateStep~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

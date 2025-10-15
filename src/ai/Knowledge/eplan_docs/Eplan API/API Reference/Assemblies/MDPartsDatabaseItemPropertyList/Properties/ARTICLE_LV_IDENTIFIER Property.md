@@ -8,17 +8,12 @@ Bill of quantities: Identifier # 26438.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_LV_IDENTIFIER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_LV_IDENTIFIER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_LV_IDENTIFIER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

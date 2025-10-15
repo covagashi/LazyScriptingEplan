@@ -8,17 +8,12 @@ Returns the item number of the position
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ItemNumber {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ItemNumber {
@@ -28,5 +23,4 @@ property String^ ItemNumber {
    void set (    String^ value);
 
 }
-```
-```
+

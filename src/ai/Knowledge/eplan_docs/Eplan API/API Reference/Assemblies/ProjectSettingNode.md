@@ -14,26 +14,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ProjectSettingNode : Eplan.EplApi.Base.SettingNode
-```
-```
 
-```
-```
 public ref class ProjectSettingNode : public Eplan.EplApi.Base.SettingNode
-```
-```
+
 
 Remarks
 
 For more details about inherited members see [Eplan.EplApi.Base.SettingNode](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SettingNode.html).
-
-
 
 Public Constructors
 
@@ -42,9 +34,6 @@ Public Constructors
 | Public Constructor | [ProjectSettingNode Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectSettingNode~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

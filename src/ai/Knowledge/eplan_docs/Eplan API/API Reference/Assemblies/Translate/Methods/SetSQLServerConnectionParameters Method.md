@@ -8,11 +8,10 @@ Sets SQL connection parameters.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetSQLServerConnectionParameters( 
 
    string strServer,
@@ -28,11 +27,7 @@ public void SetSQLServerConnectionParameters(
    bool bRememberPass
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetSQLServerConnectionParameters( 
@@ -50,8 +45,7 @@ void SetSQLServerConnectionParameters(
    bool bRememberPass
 
 )
-```
-```
+
 
 #### Parameters
 

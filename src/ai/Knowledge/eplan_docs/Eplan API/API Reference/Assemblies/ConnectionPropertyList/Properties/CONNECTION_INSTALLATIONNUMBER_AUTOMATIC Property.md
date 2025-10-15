@@ -8,17 +8,12 @@ Higher-level function number: Main identifier (automatic) # 31112.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_INSTALLATIONNUMBER_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_INSTALLATIONNUMBER_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_INSTALLATIONNUMBER_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns true, if object-snap was found.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool PointSnapped {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool PointSnapped {
@@ -26,5 +21,4 @@ virtual property bool PointSnapped {
    bool get();
 
 }
-```
-```
+

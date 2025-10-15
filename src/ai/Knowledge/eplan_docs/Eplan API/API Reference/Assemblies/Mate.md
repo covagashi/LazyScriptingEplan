@@ -17,26 +17,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Mate
-```
-```
 
-```
-```
 public ref class Mate
-```
-```
+
 
 Remarks
 
 There are two different types of mates: stored in database and generated in runtime. First can be created by user and assign to a [Placement3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D.html). Name of generated mate depends on type of object. Mate named 'V1'is placed on first vertex (lowest left in local coordinate system of the object). Numeration of those mates is done in counterclockwise direction. Very similar are mates which name starts with 'M', only those mates are placed in the middle of edges and the first on is the lowest one (in the local coordinate system). Third type of mate that can be found is named "C". This one is placed in the center of object. Check mate description for more information about current mate.
-
-
 
 Public Constructors
 
@@ -45,8 +37,6 @@ Public Constructors
 | Public Constructor | [Mate Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 
@@ -77,8 +67,6 @@ Public Methods
 | Public Method | [Transform](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~Transform.html) | Transform mate position. |
 
 [Top](#top)
-
-
 
 Public Operators
 

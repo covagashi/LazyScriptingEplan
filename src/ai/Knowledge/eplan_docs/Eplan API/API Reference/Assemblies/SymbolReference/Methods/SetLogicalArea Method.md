@@ -8,11 +8,10 @@ Sets rectangular logical area for objects derived from SymbolReference.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void SetLogicalArea( 
 
    PointD p1,
@@ -20,11 +19,7 @@ public virtual void SetLogicalArea(
    PointD p2
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void SetLogicalArea( 
@@ -34,8 +29,7 @@ virtual void SetLogicalArea(
    PointD p2
 
 )
-```
-```
+
 
 #### Parameters
 

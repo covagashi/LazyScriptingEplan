@@ -8,21 +8,16 @@ Returns the string that is to be displayed in accordance with the passed languag
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string GetStringToDisplay( 
 
    ISOCode.Language lang
 
 )
-```
-```
 
-```
-```
 public:
 
 String^ GetStringToDisplay( 
@@ -30,8 +25,7 @@ String^ GetStringToDisplay(
    ISOCode.Language lang
 
 )
-```
-```
+
 
 #### Parameters
 

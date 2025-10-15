@@ -8,17 +8,12 @@ Returns default Templates directory.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Templates {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Templates {
@@ -26,8 +21,7 @@ property String^ Templates {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

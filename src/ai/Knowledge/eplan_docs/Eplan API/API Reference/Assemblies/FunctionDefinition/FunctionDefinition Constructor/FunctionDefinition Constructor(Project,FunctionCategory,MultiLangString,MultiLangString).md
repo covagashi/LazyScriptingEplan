@@ -8,11 +8,10 @@ Constructs and initializes a FunctionDefinition object with the specified functi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FunctionDefinition( 
 
    Project prj,
@@ -24,11 +23,7 @@ public FunctionDefinition(
    MultiLangString funcDefName
 
 )
-```
-```
 
-```
-```
 public:
 
 FunctionDefinition( 
@@ -42,8 +37,7 @@ FunctionDefinition(
    MultiLangString^ funcDefName
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -71,7 +65,7 @@ Note: Only the first language strings passed by funcGroupName and funcIDName are
 
 Example
 
-- [C#](#i-tab-content-ab7a805f-e06d-42f2-b6fb-a84d3e1d41e2)
+**C#**
 
 ```
 MultiLangString grpName = new MultiLangString();
@@ -81,8 +75,6 @@ grpName.AddString(ISOCode.Language.L_de_DE, "Ader/Draht");
 MultiLangString idName = new MultiLangString();
 
 idName.AddString(ISOCode.Language.L_de_DE, "Brücke");
-
-
 
 FunctionDefinition fctDef = new FunctionDefinition(prj, funcCategory, grpName, idName);
 ```

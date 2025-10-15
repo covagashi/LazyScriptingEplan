@@ -8,11 +8,10 @@ Exports a page of a project as a DXF/DWG file. Export settings are taken from th
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DxfDwgPage( 
 
    Page page,
@@ -22,11 +21,7 @@ public void DxfDwgPage(
    string sFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 void DxfDwgPage( 
@@ -38,8 +33,7 @@ void DxfDwgPage(
    String^ sFileName
 
 )
-```
-```
+
 
 #### Parameters
 

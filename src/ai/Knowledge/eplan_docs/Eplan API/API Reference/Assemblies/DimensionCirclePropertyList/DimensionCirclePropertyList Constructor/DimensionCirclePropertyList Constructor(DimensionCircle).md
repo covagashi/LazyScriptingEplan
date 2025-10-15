@@ -8,21 +8,16 @@ Should be used internal only
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DimensionCirclePropertyList( 
 
    DimensionCircle obj
 
 )
-```
-```
 
-```
-```
 public:
 
 DimensionCirclePropertyList( 
@@ -30,8 +25,7 @@ DimensionCirclePropertyList(
    DimensionCircle^ obj
 
 )
-```
-```
+
 
 #### Parameters
 

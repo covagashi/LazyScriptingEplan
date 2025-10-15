@@ -8,17 +8,12 @@ Returns all superior segments for this object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningSegment[] LinkedWithSuperiorSegments {get;}
-```
-```
 
-```
-```
 public:
 
 property array<PlanningSegment^>^ LinkedWithSuperiorSegments {
@@ -26,5 +21,4 @@ property array<PlanningSegment^>^ LinkedWithSuperiorSegments {
    array<PlanningSegment^>^ get();
 
 }
-```
-```
+

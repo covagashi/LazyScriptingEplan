@@ -8,20 +8,14 @@ Possible types of bus system to which a PLC bus port can be assigned.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum BusSystemType : System.Enum
-```
-```
 
-```
-```
 public enum class BusSystemType : public System.Enum
-```
-```
+
 
 Members
 

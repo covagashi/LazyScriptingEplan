@@ -8,17 +8,12 @@ Returns grid mate.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public GridMate GridMate {get;}
-```
-```
 
-```
-```
 public:
 
 property GridMate^ GridMate {
@@ -26,5 +21,4 @@ property GridMate^ GridMate {
    GridMate^ get();
 
 }
-```
-```
+

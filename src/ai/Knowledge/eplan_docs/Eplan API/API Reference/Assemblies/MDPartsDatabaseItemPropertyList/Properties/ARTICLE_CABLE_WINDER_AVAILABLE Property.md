@@ -8,17 +8,12 @@ Cable reel available # 26045.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CABLE_WINDER_AVAILABLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CABLE_WINDER_AVAILABLE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CABLE_WINDER_AVAILABLE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

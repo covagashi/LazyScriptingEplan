@@ -8,21 +8,16 @@ Inherit drills from this bended bus bar to the target plane of another bus bar.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void InheritDrills( 
 
    Plane pPlane
 
 )
-```
-```
 
-```
-```
 public:
 
 void InheritDrills( 
@@ -30,8 +25,7 @@ void InheritDrills(
    Plane^ pPlane
 
 )
-```
-```
+
 
 #### Parameters
 

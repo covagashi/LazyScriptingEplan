@@ -8,17 +8,12 @@ Conductor design (cable) # 26049.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CONDUCTOR_STRUCTURE_CABLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CONDUCTOR_STRUCTURE_CABLE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CONDUCTOR_STRUCTURE_CABLE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

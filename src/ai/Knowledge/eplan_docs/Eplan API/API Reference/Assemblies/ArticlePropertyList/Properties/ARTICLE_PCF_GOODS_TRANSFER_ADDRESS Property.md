@@ -8,17 +8,12 @@ PCF: Address for delivery of goods # 26530.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PCF_GOODS_TRANSFER_ADDRESS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PCF_GOODS_TRANSFER_ADDRESS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PCF_GOODS_TRANSFER_ADDRESS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

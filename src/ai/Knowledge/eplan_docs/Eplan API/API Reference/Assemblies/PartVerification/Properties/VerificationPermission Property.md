@@ -6,17 +6,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public IVerificationBase.Permission VerificationPermission {get;}
-```
-```
 
-```
-```
 public:
 
 property IVerificationBase.Permission VerificationPermission {
@@ -24,5 +19,4 @@ property IVerificationBase.Permission VerificationPermission {
    IVerificationBase.Permission get();
 
 }
-```
-```
+

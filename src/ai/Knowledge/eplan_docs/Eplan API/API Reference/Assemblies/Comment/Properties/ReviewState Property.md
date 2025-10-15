@@ -8,17 +8,12 @@ State of the comment.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Comment.Enums.ReviewStateType ReviewState {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Comment.Enums.ReviewStateType ReviewState {
@@ -28,5 +23,4 @@ property Comment.Enums.ReviewStateType ReviewState {
    void set (    Comment.Enums.ReviewStateType value);
 
 }
-```
-```
+

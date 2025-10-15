@@ -8,17 +8,12 @@ Schematic macro: GOST # 22874.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_GROUPSYMBOLMACRO_GOST {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_GROUPSYMBOLMACRO_GOST {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_GROUPSYMBOLMACRO_GOST {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

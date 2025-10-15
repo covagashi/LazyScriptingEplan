@@ -8,22 +8,16 @@ Allows the user to access the main thread both synchronously and asynchronously.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static bool CanAccessMainThread()
-```
-```
 
-```
-```
 public:
 
 static bool CanAccessMainThread();
-```
-```
+
 
 #### Return Value
 

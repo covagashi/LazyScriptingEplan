@@ -8,17 +8,12 @@ Physical network: Bus ID / item number (indirect) # 20426.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCBUS_ADDRESS_INDIRECT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCBUS_ADDRESS_INDIRECT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCBUS_ADDRESS_INDIRECT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

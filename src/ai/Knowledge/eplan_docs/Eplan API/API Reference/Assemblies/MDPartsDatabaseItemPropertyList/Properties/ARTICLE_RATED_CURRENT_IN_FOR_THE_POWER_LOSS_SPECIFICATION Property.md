@@ -8,17 +8,12 @@ Rated current (ln) for power dissipation specification # 26086.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_RATED_CURRENT_IN_FOR_THE_POWER_LOSS_SPECIFICATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_RATED_CURRENT_IN_FOR_THE_POWER_LOSS_SPECIFICATION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_RATED_CURRENT_IN_FOR_THE_POWER_LOSS_SPECIFICAT
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

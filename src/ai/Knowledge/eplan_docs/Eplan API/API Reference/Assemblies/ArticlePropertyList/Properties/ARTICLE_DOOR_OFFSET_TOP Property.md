@@ -8,17 +8,12 @@ Door opening: Offset top # 22161.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_DOOR_OFFSET_TOP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_DOOR_OFFSET_TOP {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_DOOR_OFFSET_TOP {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

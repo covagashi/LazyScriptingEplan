@@ -8,17 +8,12 @@ License file name (\*.lis). This Property should be set before calling any Start
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 string License {get; set;}
-```
-```
 
-```
-```
 property String^ License {
 
    String^ get();
@@ -26,5 +21,4 @@ property String^ License {
    void set (    String^ value);
 
 }
-```
-```
+

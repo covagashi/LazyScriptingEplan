@@ -8,21 +8,16 @@ Gets all available product sub-groups of a given product-group
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static MDPartsDatabaseItem.Enums.ProductSubGroup[] GetAvailableProductSubGroups( 
 
    MDPartsDatabaseItem.Enums.ProductGroup group
 
 )
-```
-```
 
-```
-```
 public:
 
 static array<MDPartsDatabaseItem.Enums.ProductSubGroup>^ GetAvailableProductSubGroups( 
@@ -30,8 +25,7 @@ static array<MDPartsDatabaseItem.Enums.ProductSubGroup>^ GetAvailableProductSubG
    MDPartsDatabaseItem.Enums.ProductGroup group
 
 )
-```
-```
+
 
 #### Parameters
 

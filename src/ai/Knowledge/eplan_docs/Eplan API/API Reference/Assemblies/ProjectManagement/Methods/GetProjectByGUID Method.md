@@ -8,11 +8,10 @@ Method for searching a project by a given project ID from the project management
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool GetProjectByGUID( 
 
    string strProjectGUID,
@@ -22,11 +21,7 @@ public bool GetProjectByGUID(
    ref string strWorkStation
 
 )
-```
-```
 
-```
-```
 public:
 
 bool GetProjectByGUID( 
@@ -38,8 +33,7 @@ bool GetProjectByGUID(
    String^% strWorkStation
 
 )
-```
-```
+
 
 #### Parameters
 

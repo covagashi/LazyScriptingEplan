@@ -8,17 +8,12 @@ Number of symbols # 15015.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBLIB_SYMBOLCOUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBLIB_SYMBOLCOUNT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMBLIB_SYMBOLCOUNT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

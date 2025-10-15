@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new RectanglePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property RectanglePropertyList^ Properties {
@@ -26,8 +21,7 @@ new property RectanglePropertyList^ Properties {
    RectanglePropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

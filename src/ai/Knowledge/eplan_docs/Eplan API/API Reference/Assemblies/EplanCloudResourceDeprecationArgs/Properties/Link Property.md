@@ -8,17 +8,12 @@ Available alternates to the deprecated resource
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Link {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Link {
@@ -28,5 +23,4 @@ property String^ Link {
    void set (    String^ value);
 
 }
-```
-```
+

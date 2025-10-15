@@ -8,17 +8,12 @@ Name of the IFunctionBase.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 FunctionBasePropertyList NameParts {get; set;}
-```
-```
 
-```
-```
 property FunctionBasePropertyList^ NameParts {
 
    FunctionBasePropertyList^ get();
@@ -26,8 +21,7 @@ property FunctionBasePropertyList^ NameParts {
    void set (    FunctionBasePropertyList^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

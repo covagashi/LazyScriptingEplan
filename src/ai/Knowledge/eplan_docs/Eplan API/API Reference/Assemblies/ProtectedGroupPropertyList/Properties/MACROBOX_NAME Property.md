@@ -8,17 +8,12 @@ Macro: Name # 23009.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue MACROBOX_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ MACROBOX_NAME {
@@ -28,8 +23,7 @@ property PropertyValue^ MACROBOX_NAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

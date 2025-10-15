@@ -8,17 +8,12 @@ Data backup: E-mail message split size in MB # 10516.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BACKUP_SPLITSIZE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BACKUP_SPLITSIZE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_BACKUP_SPLITSIZE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

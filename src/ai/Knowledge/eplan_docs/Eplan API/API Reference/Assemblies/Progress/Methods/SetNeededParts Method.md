@@ -8,21 +8,16 @@ Specifies how many segments are required.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetNeededParts( 
 
    int neededParts
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetNeededParts( 
@@ -30,8 +25,7 @@ void SetNeededParts(
    int neededParts
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Returns an array of existing transient layers.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TransientLayer[] Layers {get;}
-```
-```
 
-```
-```
 public:
 
 property array<TransientLayer^>^ Layers {
@@ -26,5 +21,4 @@ property array<TransientLayer^>^ Layers {
    array<TransientLayer^>^ get();
 
 }
-```
-```
+

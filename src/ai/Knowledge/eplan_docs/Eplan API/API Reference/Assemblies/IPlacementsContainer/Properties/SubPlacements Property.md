@@ -8,21 +8,15 @@ Returns array of placements combined in the container.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 Placement[] SubPlacements {get;}
-```
-```
 
-```
-```
 property array<Placement^>^ SubPlacements {
 
    array<Placement^>^ get();
 
 }
-```
-```
+

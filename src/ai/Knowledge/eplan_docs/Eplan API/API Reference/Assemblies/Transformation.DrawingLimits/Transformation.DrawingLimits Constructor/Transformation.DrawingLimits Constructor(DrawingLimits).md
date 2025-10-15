@@ -8,21 +8,16 @@ Constructor.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Transformation.DrawingLimits( 
 
    Transformation.DrawingLimits obj
 
 )
-```
-```
 
-```
-```
 public:
 
 Transformation.DrawingLimits( 
@@ -30,8 +25,7 @@ Transformation.DrawingLimits(
    Transformation.DrawingLimits^ obj
 
 )
-```
-```
+
 
 #### Parameters
 

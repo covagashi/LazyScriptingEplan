@@ -8,11 +8,10 @@ Adds revision markers to the changed project. Used for change tracking.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddRevisionMarkers( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public void AddRevisionMarkers(
    string strRevisionMarker
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddRevisionMarkers( 
@@ -34,8 +29,7 @@ void AddRevisionMarkers(
    String^ strRevisionMarker
 
 )
-```
-```
+
 
 #### Parameters
 

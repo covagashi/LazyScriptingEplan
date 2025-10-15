@@ -8,11 +8,10 @@ Sets the value of a project setting in a specified path to the first free index.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void SetStringSetting( 
 
    string strSettingPath,
@@ -20,11 +19,7 @@ public virtual void SetStringSetting(
    string strValue
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void SetStringSetting( 
@@ -34,8 +29,7 @@ virtual void SetStringSetting(
    String^ strValue
 
 )
-```
-```
+
 
 #### Parameters
 

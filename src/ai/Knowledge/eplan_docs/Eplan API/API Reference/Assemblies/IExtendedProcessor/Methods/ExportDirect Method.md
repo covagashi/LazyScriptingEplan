@@ -8,11 +8,10 @@ Exports to a special file. All Parameter are in the context.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool ExportDirect( 
 
    string strOutputFile,
@@ -20,11 +19,7 @@ bool ExportDirect(
    Context oContext
 
 )
-```
-```
 
-```
-```
 bool ExportDirect( 
 
    String^ strOutputFile,
@@ -32,8 +27,7 @@ bool ExportDirect(
    Context^ oContext
 
 )
-```
-```
+
 
 #### Parameters
 

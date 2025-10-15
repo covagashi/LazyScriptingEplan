@@ -8,17 +8,12 @@ Returns the GraphicalLayer text box type
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public GraphicalLayer.TextBoxType DrawTextBoxType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property GraphicalLayer.TextBoxType DrawTextBoxType {
@@ -28,8 +23,7 @@ property GraphicalLayer.TextBoxType DrawTextBoxType {
    void set (    GraphicalLayer.TextBoxType value);
 
 }
-```
-```
+
 
 #### Property Value
 

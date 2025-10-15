@@ -8,17 +8,12 @@ Number of pneumatic ports (outputs) # 26071.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_NUMBER_OF_PNEUMATIC_CONNECTIONS_OUTPUT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_NUMBER_OF_PNEUMATIC_CONNECTIONS_OUTPUT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_NUMBER_OF_PNEUMATIC_CONNECTIONS_OUTPUT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

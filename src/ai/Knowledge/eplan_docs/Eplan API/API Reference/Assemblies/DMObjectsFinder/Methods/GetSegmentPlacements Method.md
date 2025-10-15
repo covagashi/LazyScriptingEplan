@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.Planning.PlanningSegment](Eplan.EplApi.DataModel
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SegmentPlacement[] GetSegmentPlacements( 
 
    SegmentPlacementsFilter pFilter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<SegmentPlacement^>^ GetSegmentPlacements( 
@@ -30,8 +25,7 @@ array<SegmentPlacement^>^ GetSegmentPlacements(
    SegmentPlacementsFilter^ pFilter
 
 )
-```
-```
+
 
 #### Parameters
 

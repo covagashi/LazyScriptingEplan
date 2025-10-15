@@ -8,17 +8,12 @@ Revision marker format (change tracking) # 19031.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTANCE_REVISION_LOG_MARKER_FORMAT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTANCE_REVISION_LOG_MARKER_FORMAT {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTANCE_REVISION_LOG_MARKER_FORMAT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

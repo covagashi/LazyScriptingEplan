@@ -8,17 +8,12 @@ Definition of property.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyDefinition Definition {get;}
-```
-```
 
-```
-```
 public:
 
 property PropertyDefinition^ Definition {
@@ -26,8 +21,7 @@ property PropertyDefinition^ Definition {
    PropertyDefinition^ get();
 
 }
-```
-```
+
 
 Exceptions
 

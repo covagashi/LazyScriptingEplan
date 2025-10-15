@@ -8,17 +8,12 @@ Relation-Index - which object to get. if index is equal to 0 list of objects wil
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short Index {get;}
-```
-```
 
-```
-```
 public:
 
 property short Index {
@@ -26,8 +21,7 @@ property short Index {
    short get();
 
 }
-```
-```
+
 
 #### Property Value
 

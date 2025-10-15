@@ -8,21 +8,16 @@ All placements # 20477.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ALLPLACEMENTLOCATIONS( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ALLPLACEMENTLOCATIONS {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ALLPLACEMENTLOCATIONS {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,20 +8,14 @@ Enumeration of coordinate systems
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum CoordinateService.CoordinateSystems : System.Enum
-```
-```
 
-```
-```
 public enum class CoordinateService.CoordinateSystems : public System.Enum
-```
-```
+
 
 Members
 

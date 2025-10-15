@@ -8,11 +8,10 @@ calculate a transformation matrix, that can be used to transform the associated 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Matrix3D CalculateSnapTransformation( 
 
    LineMate pTargetMate,
@@ -26,11 +25,7 @@ public Matrix3D CalculateSnapTransformation(
    double dZOffset
 
 )
-```
-```
 
-```
-```
 public:
 
 Matrix3D CalculateSnapTransformation( 
@@ -46,8 +41,7 @@ Matrix3D CalculateSnapTransformation(
    double dZOffset
 
 )
-```
-```
+
 
 #### Parameters
 

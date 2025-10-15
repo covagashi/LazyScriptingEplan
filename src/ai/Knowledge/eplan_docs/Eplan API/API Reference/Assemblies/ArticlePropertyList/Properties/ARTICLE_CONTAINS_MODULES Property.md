@@ -8,17 +8,12 @@ Contains modules # 22424.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CONTAINS_MODULES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CONTAINS_MODULES {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CONTAINS_MODULES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

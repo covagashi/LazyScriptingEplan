@@ -8,11 +8,10 @@ Determines all settings nodes.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void GetListOfNodes( 
 
    ref StringCollection colOfNodes,
@@ -20,11 +19,7 @@ public virtual void GetListOfNodes(
    bool bAbsolutPath
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void GetListOfNodes( 
@@ -34,8 +29,7 @@ virtual void GetListOfNodes(
    bool bAbsolutPath
 
 )
-```
-```
+
 
 #### Parameters
 

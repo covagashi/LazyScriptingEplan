@@ -8,21 +8,16 @@ Associated project revision (further) # 36611.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMDELETEDOBJECTINFO_PROJECTREVISION_HIST( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMDELETEDOBJECTINFO_PROJECTREVISION_HIST {
@@ -32,8 +27,7 @@ property PropertyValue^ DMDELETEDOBJECTINFO_PROJECTREVISION_HIST {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

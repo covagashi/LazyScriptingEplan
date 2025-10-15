@@ -16,28 +16,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class InstallationSpace : Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class InstallationSpace : public Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
+
 
 Remarks
 
 Use Properties.INSTALLATIONSPACE\_DESIGNATION and Properties.FUNCTION3D\_DESCRIPTION to get or set the name and description of InstallationSpace.  
   
 Corresponding FunctionCategory for this class is AreaDefinition.
-
-
 
 Public Constructors
 
@@ -46,8 +38,6 @@ Public Constructors
 | Public Constructor | [InstallationSpace Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.InstallationSpace~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

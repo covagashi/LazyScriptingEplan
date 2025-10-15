@@ -8,17 +8,12 @@ Total number of analog PLC outputs # 44031.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_ANALOG_PLCOUTPUT_COUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_ANALOG_PLCOUTPUT_COUNT {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_ANALOG_PLCOUTPUT_COUNT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

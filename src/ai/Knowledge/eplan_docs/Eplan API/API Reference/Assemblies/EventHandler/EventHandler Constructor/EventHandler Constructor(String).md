@@ -8,21 +8,16 @@ Creates a new object to handle events with the specified name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public EventHandler( 
 
    string strEventName
 
 )
-```
-```
 
-```
-```
 public:
 
 EventHandler( 
@@ -30,8 +25,7 @@ EventHandler(
    String^ strEventName
 
 )
-```
-```
+
 
 #### Parameters
 

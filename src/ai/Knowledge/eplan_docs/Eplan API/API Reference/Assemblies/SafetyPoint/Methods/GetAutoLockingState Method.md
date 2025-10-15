@@ -8,19 +8,13 @@ Gets internal AutoLocking flag. When it's true AutoLocking is active.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static bool GetAutoLockingState()
-```
-```
 
-```
-```
 public:
 
 static bool GetAutoLockingState();
-```
-```
+

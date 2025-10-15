@@ -14,17 +14,12 @@ it is a [Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement.htm
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsTransient {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsTransient {
@@ -32,8 +27,7 @@ property bool IsTransient {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

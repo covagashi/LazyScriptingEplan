@@ -8,21 +8,16 @@ Connection point logic: Intrinsic safety possible # 20323.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_LOGDEF_SAFETYISPOSSIBLE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_LOGDEF_SAFETYISPOSSIBLE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_LOGDEF_SAFETYISPOSSIBLE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

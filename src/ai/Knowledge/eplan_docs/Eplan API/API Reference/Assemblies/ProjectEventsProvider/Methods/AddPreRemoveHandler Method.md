@@ -8,21 +8,16 @@ Adds pre remove events handler.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddPreRemoveHandler( 
 
    ProjectEventsProvider.PreRemoveHandler handler
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddPreRemoveHandler( 
@@ -30,8 +25,7 @@ void AddPreRemoveHandler(
    ProjectEventsProvider.PreRemoveHandler^ handler
 
 )
-```
-```
+
 
 #### Parameters
 

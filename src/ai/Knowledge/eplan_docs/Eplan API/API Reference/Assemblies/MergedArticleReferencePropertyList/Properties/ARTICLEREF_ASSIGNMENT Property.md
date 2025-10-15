@@ -8,17 +8,12 @@ Part allocation # 20491.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_ASSIGNMENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_ASSIGNMENT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_ASSIGNMENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ DT (superior, without project structures, with preceding sign) # 20211.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DEVICETAG_MAIN_WITHSEPARATOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DEVICETAG_MAIN_WITHSEPARATOR {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DEVICETAG_MAIN_WITHSEPARATOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

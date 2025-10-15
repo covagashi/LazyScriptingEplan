@@ -8,20 +8,14 @@ Specifies navigator
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum DMObjectsFinder.Enums.Navigators : System.Enum
-```
-```
 
-```
-```
 public enum class DMObjectsFinder.Enums.Navigators : public System.Enum
-```
-```
+
 
 Members
 

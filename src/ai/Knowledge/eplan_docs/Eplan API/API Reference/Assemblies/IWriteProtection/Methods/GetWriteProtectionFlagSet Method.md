@@ -8,28 +8,22 @@ Checks what kind of a write protection was set.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool GetWriteProtectionFlagSet( 
 
    IWriteProtection.WriteProtectionKind nKind
 
 )
-```
-```
 
-```
-```
 bool GetWriteProtectionFlagSet( 
 
    IWriteProtection.WriteProtectionKind nKind
 
 )
-```
-```
+
 
 #### Parameters
 

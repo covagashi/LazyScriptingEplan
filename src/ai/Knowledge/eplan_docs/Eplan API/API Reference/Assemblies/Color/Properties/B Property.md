@@ -8,17 +8,12 @@ Gets or sets the blue channel value of color (0-255)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public byte B {get; set;}
-```
-```
 
-```
-```
 public:
 
 property byte B {
@@ -28,5 +23,4 @@ property byte B {
    void set (    byte value);
 
 }
-```
-```
+

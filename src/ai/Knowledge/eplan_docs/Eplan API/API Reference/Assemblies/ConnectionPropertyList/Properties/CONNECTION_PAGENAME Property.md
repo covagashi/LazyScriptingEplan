@@ -8,17 +8,12 @@ Name of page containing connection # 31026.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_PAGENAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_PAGENAME {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_PAGENAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

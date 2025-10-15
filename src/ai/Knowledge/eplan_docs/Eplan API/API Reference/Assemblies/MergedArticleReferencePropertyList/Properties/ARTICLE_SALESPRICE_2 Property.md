@@ -8,17 +8,12 @@ Sales price Currency 2 # 22108.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SALESPRICE_2 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SALESPRICE_2 {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SALESPRICE_2 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

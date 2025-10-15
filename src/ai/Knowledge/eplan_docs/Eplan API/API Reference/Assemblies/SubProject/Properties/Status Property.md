@@ -8,17 +8,12 @@ Status of this subproject.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SubProject.SubProjectStatus Status {get;}
-```
-```
 
-```
-```
 public:
 
 property SubProject.SubProjectStatus Status {
@@ -26,5 +21,4 @@ property SubProject.SubProjectStatus Status {
    SubProject.SubProjectStatus get();
 
 }
-```
-```
+

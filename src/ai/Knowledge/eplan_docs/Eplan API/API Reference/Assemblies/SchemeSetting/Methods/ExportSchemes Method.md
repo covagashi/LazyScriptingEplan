@@ -8,21 +8,16 @@ Export all schemes to file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExportSchemes( 
 
    string strFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExportSchemes( 
@@ -30,8 +25,7 @@ void ExportSchemes(
    String^ strFileName
 
 )
-```
-```
+
 
 #### Parameters
 

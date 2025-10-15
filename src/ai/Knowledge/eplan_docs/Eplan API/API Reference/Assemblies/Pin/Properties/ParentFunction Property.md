@@ -8,17 +8,12 @@ Returns a function that this connection point belongs to.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function ParentFunction {get;}
-```
-```
 
-```
-```
 public:
 
 property Function^ ParentFunction {
@@ -26,8 +21,7 @@ property Function^ ParentFunction {
    Function^ get();
 
 }
-```
-```
+
 
 Remarks
 

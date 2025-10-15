@@ -8,17 +8,12 @@ Returns the minimum value of a property specified in the property definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue LowerBound {get;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ LowerBound {
@@ -26,8 +21,7 @@ property PropertyValue^ LowerBound {
    PropertyValue^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

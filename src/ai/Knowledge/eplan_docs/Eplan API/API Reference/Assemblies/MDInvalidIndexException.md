@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDInvalidIndexException : MDInvalidArgumentException
-```
-```
 
-```
-```
 public ref class MDInvalidIndexException : public MDInvalidArgumentException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [MDInvalidIndexException Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDInvalidIndexException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

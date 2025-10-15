@@ -8,17 +8,12 @@ Array of weights on nodes of spline.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double[] Weights {get; set;}
-```
-```
 
-```
-```
 public:
 
 property array<double>^ Weights {
@@ -28,5 +23,4 @@ property array<double>^ Weights {
    void set (    array<double>^ value);
 
 }
-```
-```
+

@@ -8,11 +8,10 @@ Constructor Constructs a handle so that it points to a project settings node spe
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ProjectSettingNode( 
 
    Project oProj,
@@ -20,11 +19,7 @@ public ProjectSettingNode(
    string strNodePath
 
 )
-```
-```
 
-```
-```
 public:
 
 ProjectSettingNode( 
@@ -34,8 +29,7 @@ ProjectSettingNode(
    String^ strNodePath
 
 )
-```
-```
+
 
 #### Parameters
 

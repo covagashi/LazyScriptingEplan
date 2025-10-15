@@ -8,17 +8,12 @@ Switching capacity # 26545.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SWITCHING_CAPACITY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SWITCHING_CAPACITY {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SWITCHING_CAPACITY {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

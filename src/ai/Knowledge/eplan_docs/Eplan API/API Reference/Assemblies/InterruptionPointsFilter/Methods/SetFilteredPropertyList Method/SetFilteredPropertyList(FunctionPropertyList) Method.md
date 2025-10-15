@@ -8,21 +8,16 @@ Sets the [InterruptionPointPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.Da
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetFilteredPropertyList( 
 
    FunctionPropertyList searchedPropList
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetFilteredPropertyList( 
@@ -30,8 +25,7 @@ void SetFilteredPropertyList(
    FunctionPropertyList^ searchedPropList
 
 )
-```
-```
+
 
 #### Parameters
 

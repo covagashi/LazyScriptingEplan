@@ -8,17 +8,12 @@ Internal representation of connection category (as a long value)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int AsLong {get;}
-```
-```
 
-```
-```
 public:
 
 property int AsLong {
@@ -26,5 +21,4 @@ property int AsLong {
    int get();
 
 }
-```
-```
+

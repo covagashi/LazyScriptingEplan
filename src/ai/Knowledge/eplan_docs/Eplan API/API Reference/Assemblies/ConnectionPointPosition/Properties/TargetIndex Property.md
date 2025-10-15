@@ -8,17 +8,12 @@ Terminal designation 1-base index.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int TargetIndex {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int TargetIndex {
@@ -28,8 +23,7 @@ property int TargetIndex {
    void set (    int value);
 
 }
-```
-```
+
 
 Remarks
 

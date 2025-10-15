@@ -8,21 +8,16 @@ Updates data to ensure that the property values in planning object are the same 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void UpdateDetailPlanning( 
 
    PlanningSegment pPlanningSegment
 
 )
-```
-```
 
-```
-```
 public:
 
 void UpdateDetailPlanning( 
@@ -30,8 +25,7 @@ void UpdateDetailPlanning(
    PlanningSegment^ pPlanningSegment
 
 )
-```
-```
+
 
 #### Parameters
 

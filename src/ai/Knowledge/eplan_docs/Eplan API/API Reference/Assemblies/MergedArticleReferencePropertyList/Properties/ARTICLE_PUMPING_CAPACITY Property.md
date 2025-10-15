@@ -8,17 +8,12 @@ Transport capacity # 26324.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PUMPING_CAPACITY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PUMPING_CAPACITY {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PUMPING_CAPACITY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

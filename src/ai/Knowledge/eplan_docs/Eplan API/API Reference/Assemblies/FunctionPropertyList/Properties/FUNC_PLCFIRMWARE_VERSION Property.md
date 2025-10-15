@@ -8,17 +8,12 @@ Version # 20418.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCFIRMWARE_VERSION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCFIRMWARE_VERSION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCFIRMWARE_VERSION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

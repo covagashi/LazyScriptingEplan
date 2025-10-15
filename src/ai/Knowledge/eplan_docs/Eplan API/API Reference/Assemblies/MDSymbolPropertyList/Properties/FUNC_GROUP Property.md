@@ -8,17 +8,12 @@ Function definition: Group # 20116.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNC_GROUP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNC_GROUP {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNC_GROUP {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

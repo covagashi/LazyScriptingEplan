@@ -8,21 +8,16 @@ PLC address: Symbolic address: UDT (name) # 44088.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_PLCADDRESS_SYMBOLICADDRESS_UDT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_PLCADDRESS_SYMBOLICADDRESS_UDT {
@@ -32,8 +27,7 @@ property PropertyValue^ DMPLAOBJECT_PLCADDRESS_SYMBOLICADDRESS_UDT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

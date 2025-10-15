@@ -8,17 +8,12 @@ Frequency (input voltage) # 26340.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_INPUT_VOLTAGE_FREQUENCY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_INPUT_VOLTAGE_FREQUENCY {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_INPUT_VOLTAGE_FREQUENCY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

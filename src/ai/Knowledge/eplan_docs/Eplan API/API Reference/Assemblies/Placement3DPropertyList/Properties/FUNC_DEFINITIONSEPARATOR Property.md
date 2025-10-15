@@ -8,17 +8,12 @@ Separator for terminal strip and plug definitions # 20099.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DEFINITIONSEPARATOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DEFINITIONSEPARATOR {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DEFINITIONSEPARATOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

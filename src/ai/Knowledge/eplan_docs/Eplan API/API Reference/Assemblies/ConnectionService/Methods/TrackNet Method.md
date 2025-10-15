@@ -8,11 +8,10 @@ Finds all connections in the same net as `oSourceConnection`.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void TrackNet( 
 
    Connection oSourceConnection,
@@ -20,11 +19,7 @@ public void TrackNet(
    List<Connection> foundConnectionList
 
 )
-```
-```
 
-```
-```
 public:
 
 void TrackNet( 
@@ -34,8 +29,7 @@ void TrackNet(
    List<Connection^>^ foundConnectionList
 
 )
-```
-```
+
 
 #### Parameters
 

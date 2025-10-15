@@ -8,21 +8,16 @@ Maintenance cycle # 26638.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_MAINTENANCE_CYCLE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_MAINTENANCE_CYCLE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_MAINTENANCE_CYCLE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

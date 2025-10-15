@@ -8,11 +8,10 @@ Exports a complete project as image files but instead of pages which [Eplan.EplA
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void GraphicProject( 
 
    Project oProject,
@@ -32,11 +31,7 @@ public void GraphicProject(
    string strLanguage
 
 )
-```
-```
 
-```
-```
 public:
 
 void GraphicProject( 
@@ -58,8 +53,7 @@ void GraphicProject(
    String^ strLanguage
 
 )
-```
-```
+
 
 #### Parameters
 

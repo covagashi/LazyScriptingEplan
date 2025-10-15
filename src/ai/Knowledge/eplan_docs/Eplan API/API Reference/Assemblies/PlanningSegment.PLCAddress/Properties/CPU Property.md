@@ -8,17 +8,12 @@ The name of the CPU for the PLC box to which the PLC connection point belongs.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string CPU {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ CPU {
@@ -28,8 +23,7 @@ property String^ CPU {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Remarks
 

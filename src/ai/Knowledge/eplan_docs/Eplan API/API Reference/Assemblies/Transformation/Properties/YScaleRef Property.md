@@ -8,17 +8,12 @@ Set scaling reference in y-direction
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double YScaleRef {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double YScaleRef {
@@ -28,5 +23,4 @@ property double YScaleRef {
    void set (    double value);
 
 }
-```
-```
+

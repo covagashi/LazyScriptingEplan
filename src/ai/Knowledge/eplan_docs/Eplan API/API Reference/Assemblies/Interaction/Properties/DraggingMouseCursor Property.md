@@ -8,17 +8,12 @@ Mouse cursor which will be used for next dragging operation.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual MouseCursorType DraggingMouseCursor {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property MouseCursorType DraggingMouseCursor {
@@ -28,5 +23,4 @@ virtual property MouseCursorType DraggingMouseCursor {
    void set (    MouseCursorType value);
 
 }
-```
-```
+

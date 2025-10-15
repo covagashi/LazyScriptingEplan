@@ -19,11 +19,10 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [ToolboxItemFilter("System.Windows.Forms.Control.TopLevel")]
 
 [ToolboxItem(false)]
@@ -43,11 +42,7 @@ Syntax
 [DesignerSerializer("System.Windows.Forms.Design.ControlCodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 
 public class SelectEplanDialog : System.Windows.Forms.Form
-```
-```
 
-```
-```
 [ToolboxItemFilter("System.Windows.Forms.Control.TopLevel")]
 
 [ToolboxItem(false)]
@@ -67,10 +62,6 @@ public class SelectEplanDialog : System.Windows.Forms.Form
 [DesignerSerializer("System.Windows.Forms.Design.ControlCodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 
 public ref class SelectEplanDialog : public System.Windows.Forms.Form
-```
-```
-
-
 
 Public Constructors
 
@@ -79,8 +70,6 @@ Public Constructors
 | Public Constructor | [SelectEplanDialog Constructor](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.SelectEplanDialog~_ctor.html) | Constructor with available versions |
 
 [Top](#top)
-
-
 
 Public Properties
 

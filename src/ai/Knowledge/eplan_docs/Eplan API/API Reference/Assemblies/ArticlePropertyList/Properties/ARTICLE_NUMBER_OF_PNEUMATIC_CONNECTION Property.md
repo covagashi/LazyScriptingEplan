@@ -8,17 +8,12 @@ Number of pneumatic ports # 26070.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_NUMBER_OF_PNEUMATIC_CONNECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_NUMBER_OF_PNEUMATIC_CONNECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_NUMBER_OF_PNEUMATIC_CONNECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

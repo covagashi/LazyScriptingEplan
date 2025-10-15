@@ -8,21 +8,16 @@ Set the EPLAN product variant bin path. Note: This path exists only once. Changi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetEplanBinPath( 
 
    string strEplanBinPath
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetEplanBinPath( 
@@ -30,8 +25,7 @@ void SetEplanBinPath(
    String^ strEplanBinPath
 
 )
-```
-```
+
 
 #### Parameters
 

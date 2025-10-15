@@ -8,17 +8,12 @@ Function exists with 'Function overview (fluid power)' representation type # 204
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ISPLACEDIN_FUNCTIONALOVERVIEW {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ISPLACEDIN_FUNCTIONALOVERVIEW {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ISPLACEDIN_FUNCTIONALOVERVIEW {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns placements inserted by interaction.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual StorableObject[] InsertedItems {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property array<StorableObject^>^ InsertedItems {
@@ -28,8 +23,7 @@ virtual property array<StorableObject^>^ InsertedItems {
    void set (    array<StorableObject^>^ value);
 
 }
-```
-```
+
 
 Remarks
 

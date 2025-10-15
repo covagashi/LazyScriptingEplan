@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new OptionBasePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property OptionBasePropertyList^ Properties {
@@ -26,8 +21,7 @@ new property OptionBasePropertyList^ Properties {
    OptionBasePropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

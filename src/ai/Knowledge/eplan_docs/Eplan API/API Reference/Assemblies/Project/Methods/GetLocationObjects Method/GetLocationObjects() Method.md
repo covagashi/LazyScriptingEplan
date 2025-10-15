@@ -8,22 +8,16 @@ Returns array of all project's location objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Location[] GetLocationObjects()
-```
-```
 
-```
-```
 public:
 
 array<Location^>^ GetLocationObjects();
-```
-```
+
 
 #### Return Value
 

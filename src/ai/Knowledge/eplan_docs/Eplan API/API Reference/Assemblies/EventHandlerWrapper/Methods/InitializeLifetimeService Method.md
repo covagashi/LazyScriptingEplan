@@ -8,22 +8,16 @@ This object should live "forever."
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual object InitializeLifetimeService()
-```
-```
 
-```
-```
 public:
 
 virtual Object^ InitializeLifetimeService();
-```
-```
+
 
 #### Return Value
 

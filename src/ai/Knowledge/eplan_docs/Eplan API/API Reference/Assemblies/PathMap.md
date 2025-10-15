@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PathMap
-```
-```
 
-```
-```
 public ref class PathMap
-```
-```
+
 
 Remarks
 
@@ -78,8 +72,6 @@ Here are available EPLAN path variables: $(PROJPROP\_<ID>)Project property. In o
 For more information about path variables, please refer to EPLAN Help under the topic:  
 Using EPLAN>User Interface>Reference>Dialog Select Path variable.
 
-
-
 Public Constructors
 
 |  | Name | Description |
@@ -87,9 +79,6 @@ Public Constructors
 | Public Constructor | [PathMap Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PathMap~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

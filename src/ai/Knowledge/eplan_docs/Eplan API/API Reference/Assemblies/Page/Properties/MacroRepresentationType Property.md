@@ -8,17 +8,12 @@ Page's property describing type of macro. This type is used to find a suitable v
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public WindowMacro.Enums.RepresentationType MacroRepresentationType {get;}
-```
-```
 
-```
-```
 public:
 
 property WindowMacro.Enums.RepresentationType MacroRepresentationType {
@@ -26,8 +21,7 @@ property WindowMacro.Enums.RepresentationType MacroRepresentationType {
    WindowMacro.Enums.RepresentationType get();
 
 }
-```
-```
+
 
 #### Property Value
 

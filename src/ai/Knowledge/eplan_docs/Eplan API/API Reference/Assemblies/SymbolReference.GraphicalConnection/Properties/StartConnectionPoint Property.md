@@ -8,17 +8,12 @@ Returns the connection's start connection point.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PinBase StartConnectionPoint {get;}
-```
-```
 
-```
-```
 public:
 
 property PinBase^ StartConnectionPoint {
@@ -26,5 +21,4 @@ property PinBase^ StartConnectionPoint {
    PinBase^ get();
 
 }
-```
-```
+

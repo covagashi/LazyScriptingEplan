@@ -8,22 +8,16 @@ Determines the parent node.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override SettingNode GetParentNode()
-```
-```
 
-```
-```
 public:
 
 SettingNode^ GetParentNode(); override
-```
-```
+
 
 #### Return Value
 

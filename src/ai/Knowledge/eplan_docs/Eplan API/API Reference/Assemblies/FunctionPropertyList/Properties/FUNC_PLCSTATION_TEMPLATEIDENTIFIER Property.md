@@ -8,17 +8,12 @@ PLC station: TemplateIdentifier # 20614.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCSTATION_TEMPLATEIDENTIFIER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCSTATION_TEMPLATEIDENTIFIER {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCSTATION_TEMPLATEIDENTIFIER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

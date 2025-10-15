@@ -8,17 +8,12 @@ Pressure level # 26259.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PRESSURE_STAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PRESSURE_STAGE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PRESSURE_STAGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

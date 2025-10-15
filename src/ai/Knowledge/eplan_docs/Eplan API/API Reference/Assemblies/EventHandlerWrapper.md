@@ -13,39 +13,29 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class EventHandlerWrapper
-```
-```
 
-```
-```
 public ref class EventHandlerWrapper
-```
-```
+
 
 Example
 
 Response to Eplan events in a remoting client
 
-- [C#](#i-tab-content-993e1fb5-6a91-47b6-bfce-31557219d633)
+**C#**
 
 ```
 Eplan.EplApi.ApplicationFramework.EventHandler oEventHandler = new Eplan.EplApi.ApplicationFramework.EventHandler();
 
 oEventHandler.SetEvent("onActionStart.String.*");
 
-       
-
 Eplan.EplApi.ApplicationFramework.EventHandlerWrapper oWrapper= new Eplan.EplApi.ApplicationFramework.EventHandlerWrapper();
 
 oWrapper.EplanEventLocally += new Eplan.EplApi.ApplicationFramework.EventHandlerFunction(oWrapper_EventHandlerFunctionLocally);
-
-          
 
 oEventHandler.EplanEvent += new Eplan.EplApi.ApplicationFramework.EventHandlerFunction(oWrapper.LocallyEventHandlerFunction);
 ```
@@ -65,8 +55,6 @@ Public Fields
 | Public Field | [EplanEventLocally](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerWrapper~EplanEventLocally.html) | Local event handler |
 
 [Top](#top)
-
-
 
 Public Methods
 

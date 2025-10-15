@@ -8,17 +8,12 @@ Returns the PlcIOEntry's symbolic address.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SymbolicAddress {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ SymbolicAddress {
@@ -28,5 +23,4 @@ property String^ SymbolicAddress {
    void set (    String^ value);
 
 }
-```
-```
+

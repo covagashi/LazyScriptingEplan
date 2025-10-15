@@ -8,17 +8,12 @@ Type of construction: Sensor # 26029.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_DESIGN_OF_THE_SENSOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_DESIGN_OF_THE_SENSOR {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_DESIGN_OF_THE_SENSOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

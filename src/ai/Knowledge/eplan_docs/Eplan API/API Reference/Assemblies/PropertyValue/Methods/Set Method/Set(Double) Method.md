@@ -8,21 +8,16 @@ Sets `int` value in PropertyValue object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue Set( 
 
    double d
 
 )
-```
-```
 
-```
-```
 public:
 
 PropertyValue^ Set( 
@@ -30,8 +25,7 @@ PropertyValue^ Set(
    double d
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Manage bus ports at the superior device # 20620.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLC_MANAGED_BUSTERMINALS_BY_PARENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLC_MANAGED_BUSTERMINALS_BY_PARENT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLC_MANAGED_BUSTERMINALS_BY_PARENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

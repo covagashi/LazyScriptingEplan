@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ComHelper
-```
-```
 
-```
-```
 public ref class ComHelper
-```
-```
-
-
 
 Public Constructors
 
@@ -37,9 +28,6 @@ Public Constructors
 | Public Constructor | [ComHelper Constructor](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.ComHelper~_ctor.html) | initialize the DCOM security |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

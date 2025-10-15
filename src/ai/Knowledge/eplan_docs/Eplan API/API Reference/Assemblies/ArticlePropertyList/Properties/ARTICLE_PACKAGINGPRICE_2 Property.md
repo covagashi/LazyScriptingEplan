@@ -8,17 +8,12 @@ Purchase price/packaging Currency 2 # 22112.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PACKAGINGPRICE_2 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PACKAGINGPRICE_2 {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PACKAGINGPRICE_2 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

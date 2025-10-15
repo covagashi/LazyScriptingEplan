@@ -8,17 +8,12 @@ Template group (multi-line) # 21023.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNCTEMPLATE_COMBINATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNCTEMPLATE_COMBINATION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNCTEMPLATE_COMBINATION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

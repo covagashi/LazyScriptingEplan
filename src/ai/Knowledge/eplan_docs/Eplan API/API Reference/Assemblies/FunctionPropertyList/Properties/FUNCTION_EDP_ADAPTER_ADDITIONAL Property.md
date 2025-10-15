@@ -8,17 +8,12 @@ Eplan Data Portal: Configurator supplementary field # 20288.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION_EDP_ADAPTER_ADDITIONAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION_EDP_ADAPTER_ADDITIONAL {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION_EDP_ADAPTER_ADDITIONAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

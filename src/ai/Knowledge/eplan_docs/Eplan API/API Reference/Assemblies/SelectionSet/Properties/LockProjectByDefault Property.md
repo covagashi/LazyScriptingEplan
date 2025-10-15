@@ -8,17 +8,12 @@ If set to true, the objects returned and the rest objects from project by the Se
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool LockProjectByDefault {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool LockProjectByDefault {
@@ -28,8 +23,7 @@ property bool LockProjectByDefault {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

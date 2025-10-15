@@ -8,17 +8,12 @@ Returns an array of [Article.Assembly](Eplan.EplApi.DataModelu~Eplan.EplApi.Data
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Article.Assembly[] ArticleAssemblies {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Article.Assembly^>^ ArticleAssemblies {
@@ -26,8 +21,7 @@ property array<Article.Assembly^>^ ArticleAssemblies {
    array<Article.Assembly^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

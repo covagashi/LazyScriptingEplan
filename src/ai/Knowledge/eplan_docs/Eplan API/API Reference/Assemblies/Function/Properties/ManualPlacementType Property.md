@@ -8,17 +8,12 @@ Gets custom placement type. Placement type express how function will be shown on
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DocumentTypeManager.DocumentType ManualPlacementType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property DocumentTypeManager.DocumentType ManualPlacementType {
@@ -28,8 +23,7 @@ property DocumentTypeManager.DocumentType ManualPlacementType {
    void set (    DocumentTypeManager.DocumentType value);
 
 }
-```
-```
+
 
 Exceptions
 

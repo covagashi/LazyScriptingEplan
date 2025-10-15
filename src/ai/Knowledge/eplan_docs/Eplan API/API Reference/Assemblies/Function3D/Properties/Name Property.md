@@ -8,17 +8,12 @@ Returns the name of the Function3D.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual string Name {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property String^ Name {
@@ -28,8 +23,7 @@ virtual property String^ Name {
    void set (    String^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

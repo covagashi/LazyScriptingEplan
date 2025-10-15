@@ -8,17 +8,12 @@ Gets related object, i.e. the same as under context menu point 'Go to Graphic'
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject RelatedObject {get;}
-```
-```
 
-```
-```
 public:
 
 property StorableObject^ RelatedObject {
@@ -26,5 +21,4 @@ property StorableObject^ RelatedObject {
    StorableObject^ get();
 
 }
-```
-```
+

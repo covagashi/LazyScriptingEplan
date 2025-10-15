@@ -8,17 +8,12 @@ Last editor: ID # 3010.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROPUSER_LAST_USERCODE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROPUSER_LAST_USERCODE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROPUSER_LAST_USERCODE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

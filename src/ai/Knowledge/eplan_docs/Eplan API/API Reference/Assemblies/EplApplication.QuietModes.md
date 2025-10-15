@@ -8,20 +8,14 @@ Modes in which Eplan P8 could be started.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum EplApplication.QuietModes : System.Enum
-```
-```
 
-```
-```
 public enum class EplApplication.QuietModes : public System.Enum
-```
-```
+
 
 Members
 

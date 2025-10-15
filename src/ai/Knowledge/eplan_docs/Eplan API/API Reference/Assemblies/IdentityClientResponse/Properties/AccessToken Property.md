@@ -8,17 +8,12 @@ Access token value.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string AccessToken {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ AccessToken {
@@ -28,5 +23,4 @@ property String^ AccessToken {
    void set (    String^ value);
 
 }
-```
-```
+

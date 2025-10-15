@@ -8,17 +8,12 @@ Shows name of the page where differences were found.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PageName {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ PageName {
@@ -26,5 +21,4 @@ property String^ PageName {
    String^ get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Returns macro placeholder value sets for given planning object
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningObject.MacroPlaceHolderValueSetsClass MacroPlaceHolderValueSets {get;}
-```
-```
 
-```
-```
 public:
 
 property PlanningObject.MacroPlaceHolderValueSetsClass^ MacroPlaceHolderValueSets {
@@ -26,8 +21,7 @@ property PlanningObject.MacroPlaceHolderValueSetsClass^ MacroPlaceHolderValueSet
    PlanningObject.MacroPlaceHolderValueSetsClass^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

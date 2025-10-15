@@ -8,17 +8,12 @@ Gets whether font is strikeout or not.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Strikeout {get;}
-```
-```
 
-```
-```
 public:
 
 property bool Strikeout {
@@ -26,5 +21,4 @@ property bool Strikeout {
    bool get();
 
 }
-```
-```
+

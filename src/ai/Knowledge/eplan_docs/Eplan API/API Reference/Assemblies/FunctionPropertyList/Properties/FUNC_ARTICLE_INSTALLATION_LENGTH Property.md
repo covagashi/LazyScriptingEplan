@@ -8,21 +8,16 @@ Mounting length # 26276.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_INSTALLATION_LENGTH( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_INSTALLATION_LENGTH {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_INSTALLATION_LENGTH {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

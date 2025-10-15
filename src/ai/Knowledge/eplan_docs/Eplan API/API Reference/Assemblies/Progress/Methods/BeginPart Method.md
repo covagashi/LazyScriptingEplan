@@ -8,11 +8,10 @@ Starts a new segment. All parallel segments should result in a sum of 100%.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void BeginPart( 
 
    double dPercentageNeeded,
@@ -20,11 +19,7 @@ public void BeginPart(
    string strSegmentName
 
 )
-```
-```
 
-```
-```
 public:
 
 void BeginPart( 
@@ -34,8 +29,7 @@ void BeginPart(
    String^ strSegmentName
 
 )
-```
-```
+
 
 #### Parameters
 

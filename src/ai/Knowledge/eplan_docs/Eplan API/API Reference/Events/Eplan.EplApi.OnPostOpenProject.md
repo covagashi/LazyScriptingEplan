@@ -13,10 +13,14 @@ This parameter contains the name of the project being opened. Parameter type for
 **Example**
 
 ```
-m_EventHandler = new EventHandler("Eplan.EplApi.OnPostOpenProject");
-m_EventHandler.EplanEvent += delegate (IEventParameter parameter)
-{
-    new Decider().Decide(EnumDecisionType.eOkDecision, " Project " + new EventParameterString(parameter).String + " was open!", "OnPostOpenProject", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);
-};
-
+m_EventHandler = new EventHandler("Eplan.EplApi.OnPostOpenProject");
+
+m_EventHandler.EplanEvent += delegate (IEventParameter parameter)
+
+{
+
+    new Decider().Decide(EnumDecisionType.eOkDecision, " Project " + new EventParameterString(parameter).String + " was open!", "OnPostOpenProject", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);
+
+};
+
 ```

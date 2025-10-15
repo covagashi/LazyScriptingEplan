@@ -8,21 +8,16 @@ Viscosity class (acc. to DIN 51519) # 26632.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_VISCOSITY_CLASS_ACCORDING_TO_DIN_51519( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_VISCOSITY_CLASS_ACCORDING_TO_DIN_51519 {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_VISCOSITY_CLASS_ACCORDING_TO_DIN_51519 {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 
@@ -47,4 +41,4 @@ Remarks
 
 Property is indexed. Possible indexes are from 1 to 50.
 
-Specification which minimum viscosity and which maximum viscosity the respective hydraulic oil has at 40 Â°C.
+Specification which minimum viscosity and which maximum viscosity the respective hydraulic oil has at 40 °C.

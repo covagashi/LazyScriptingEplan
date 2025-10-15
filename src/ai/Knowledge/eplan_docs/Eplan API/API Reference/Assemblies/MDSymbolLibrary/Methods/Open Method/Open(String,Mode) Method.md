@@ -8,11 +8,10 @@ Opens an existing symbol library.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static MDSymbolLibrary Open( 
 
    string strSymbolLibraryPath,
@@ -20,11 +19,7 @@ public static MDSymbolLibrary Open(
    MDSymbolLibrary.Mode eMode
 
 )
-```
-```
 
-```
-```
 public:
 
 static MDSymbolLibrary^ Open( 
@@ -34,8 +29,7 @@ static MDSymbolLibrary^ Open(
    MDSymbolLibrary.Mode eMode
 
 )
-```
-```
+
 
 #### Parameters
 

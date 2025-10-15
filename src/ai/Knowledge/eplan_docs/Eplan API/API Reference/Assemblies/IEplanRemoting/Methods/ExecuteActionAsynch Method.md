@@ -8,11 +8,10 @@ Execute an action asynchronously.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void ExecuteActionAsynch( 
 
    string strAction,
@@ -20,11 +19,7 @@ void ExecuteActionAsynch(
    CallingContext oContext
 
 )
-```
-```
 
-```
-```
 void ExecuteActionAsynch( 
 
    String^ strAction,
@@ -32,8 +27,7 @@ void ExecuteActionAsynch(
    CallingContext^ oContext
 
 )
-```
-```
+
 
 #### Parameters
 

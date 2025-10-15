@@ -8,17 +8,12 @@ Routing direction target # 31115.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_ROUTING_DIRECTION_DESTINATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_ROUTING_DIRECTION_DESTINATION {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_ROUTING_DIRECTION_DESTINATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

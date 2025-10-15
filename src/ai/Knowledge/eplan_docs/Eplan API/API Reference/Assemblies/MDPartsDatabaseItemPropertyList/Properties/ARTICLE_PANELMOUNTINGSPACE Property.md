@@ -8,17 +8,12 @@ Mounting panel: Mounting space # 22078.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PANELMOUNTINGSPACE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PANELMOUNTINGSPACE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PANELMOUNTINGSPACE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

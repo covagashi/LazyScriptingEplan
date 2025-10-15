@@ -8,17 +8,12 @@ Activates the properties of the page/installation space for the place holder obj
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool IsDocumentReferenceActive {get; set;}
-```
-```
 
-```
-```
 property bool IsDocumentReferenceActive {
 
    bool get();
@@ -26,8 +21,7 @@ property bool IsDocumentReferenceActive {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

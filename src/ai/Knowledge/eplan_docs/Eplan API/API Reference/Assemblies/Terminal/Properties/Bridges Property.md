@@ -8,17 +8,12 @@ This property returns information about all [Terminal.Bridge](Eplan.EplApi.DataM
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Terminal.Bridge[] Bridges {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Terminal.Bridge^>^ Bridges {
@@ -26,8 +21,7 @@ property array<Terminal.Bridge^>^ Bridges {
    array<Terminal.Bridge^>^ get();
 
 }
-```
-```
+
 
 Exceptions
 

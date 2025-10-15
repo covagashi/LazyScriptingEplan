@@ -8,17 +8,12 @@ Suppl. field: Page # 11031.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_ADDITIONALPAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_ADDITIONALPAGE {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_ADDITIONALPAGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

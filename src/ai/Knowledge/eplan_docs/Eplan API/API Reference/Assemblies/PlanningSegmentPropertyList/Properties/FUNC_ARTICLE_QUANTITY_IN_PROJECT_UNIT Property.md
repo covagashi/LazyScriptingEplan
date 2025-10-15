@@ -8,21 +8,16 @@ Operating area # 26286.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_RANGE_OF_APPLICATION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_RANGE_OF_APPLICATION {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_RANGE_OF_APPLICATION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ProjectMessage( 
 
    ProjectMessageHandle* hPMsg
 
 )
-```
-```
 
-```
-```
 public:
 
 ProjectMessage( 
@@ -28,8 +23,7 @@ ProjectMessage(
    ProjectMessageHandle* hPMsg
 
 )
-```
-```
+
 
 #### Parameters
 

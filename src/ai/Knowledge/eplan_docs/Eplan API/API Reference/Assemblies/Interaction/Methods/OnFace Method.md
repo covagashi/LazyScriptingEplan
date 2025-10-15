@@ -8,11 +8,10 @@ Is called after face of a 3D mesh was selected by user.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnFace( 
 
    PointD3D[] arrPoints,
@@ -24,11 +23,7 @@ public virtual RequestCode OnFace(
    int iDetailId
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnFace( 
@@ -42,8 +37,7 @@ virtual RequestCode OnFace(
    int iDetailId
 
 )
-```
-```
+
 
 #### Parameters
 

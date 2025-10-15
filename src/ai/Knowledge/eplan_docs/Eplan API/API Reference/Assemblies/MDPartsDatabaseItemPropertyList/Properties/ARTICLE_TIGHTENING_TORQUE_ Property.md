@@ -8,17 +8,12 @@ Tightening torque # 26080.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TIGHTENING_TORQUE_ {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TIGHTENING_TORQUE_ {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TIGHTENING_TORQUE_ {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Superior structure formats # 10029.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_HIERARCHY_SPECIALDINMODE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_HIERARCHY_SPECIALDINMODE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_HIERARCHY_SPECIALDINMODE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Structure format for interruption points # 10051.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_HIERARCHY_INTERRUPTIONPOINT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_HIERARCHY_INTERRUPTIONPOINT {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_HIERARCHY_INTERRUPTIONPOINT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

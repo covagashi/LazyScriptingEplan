@@ -8,11 +8,10 @@ Creates a new Page object. It is placed in the project under location given as p
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Project pProject,
@@ -22,11 +21,7 @@ public void Create(
    PagePropertyList pNameParts
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -38,8 +33,7 @@ void Create(
    PagePropertyList^ pNameParts
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -64,11 +58,11 @@ Exceptions
 
 Remarks
 
-To know DeviceTag syntax please see chapter 'Dialog Settings: DT syntax check' in Eplan documentation. The name passed in the pNameParts parameter is validated whether it is correct and not yet existing in the project. Also if PAGE\_COUNTER property is not specified, it is set to a default value automatically. Property list `pNameParts` should contain only name properties, for example : Â· DESIGNATION\_PLANT Â· DESIGNATION\_SUBPLANT1 Â· DESIGNATION\_SUBPLANT2 Â· DESIGNATION\_SUBPLANT3 Â· DESIGNATION\_LOCATION Â· DESIGNATION\_SUBLOCATION1 Â· DESIGNATION\_SUBLOCATION2 Â· DESIGNATION\_SUBLOCATION3 Â· DESIGNATION\_SUBLOCATION4 Â· DESIGNATION\_SUBLOCATION5 Â· PAGE\_COUNTER Â· PAGE\_SUBCOUNTER To check whether a property is a name property, please use PropertyDefinition::IsNamePart.
+To know DeviceTag syntax please see chapter 'Dialog Settings: DT syntax check' in Eplan documentation. The name passed in the pNameParts parameter is validated whether it is correct and not yet existing in the project. Also if PAGE\_COUNTER property is not specified, it is set to a default value automatically. Property list `pNameParts` should contain only name properties, for example : · DESIGNATION\_PLANT · DESIGNATION\_SUBPLANT1 · DESIGNATION\_SUBPLANT2 · DESIGNATION\_SUBPLANT3 · DESIGNATION\_LOCATION · DESIGNATION\_SUBLOCATION1 · DESIGNATION\_SUBLOCATION2 · DESIGNATION\_SUBLOCATION3 · DESIGNATION\_SUBLOCATION4 · DESIGNATION\_SUBLOCATION5 · PAGE\_COUNTER · PAGE\_SUBCOUNTER To check whether a property is a name property, please use PropertyDefinition::IsNamePart.
 
 Example
 
-- [C#](#i-tab-content-3482d4d0-c04f-4d33-8543-5a9616febafc)
+**C#**
 
 ```
 PagePropertyList pagePropList = new PagePropertyList();

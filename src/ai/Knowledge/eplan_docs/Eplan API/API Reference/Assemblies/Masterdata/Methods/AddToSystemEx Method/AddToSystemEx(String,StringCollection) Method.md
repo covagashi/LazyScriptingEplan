@@ -8,11 +8,10 @@ Copies stored project master data into the system master data pool.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Hashtable AddToSystemEx( 
 
    string strFullLinkFileName,
@@ -20,11 +19,7 @@ public Hashtable AddToSystemEx(
    StringCollection masterDataFiles
 
 )
-```
-```
 
-```
-```
 public:
 
 Hashtable^ AddToSystemEx( 
@@ -34,8 +29,7 @@ Hashtable^ AddToSystemEx(
    StringCollection^ masterDataFiles
 
 )
-```
-```
+
 
 #### Parameters
 

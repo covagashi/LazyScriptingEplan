@@ -8,21 +8,16 @@ Make Undo action - reverse all operations up to last CloseOpenUndo call or inita
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DoUndo( 
 
    bool bNoRedo
 
 )
-```
-```
 
-```
-```
 public:
 
 void DoUndo( 
@@ -30,8 +25,7 @@ void DoUndo(
    bool bNoRedo
 
 )
-```
-```
+
 
 #### Parameters
 

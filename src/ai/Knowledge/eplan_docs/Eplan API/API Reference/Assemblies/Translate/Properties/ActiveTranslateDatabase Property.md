@@ -8,17 +8,12 @@ Returns or sets the type of current translate database. Possible values are Data
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Translate.DatabaseType ActiveTranslateDatabase {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Translate.DatabaseType ActiveTranslateDatabase {
@@ -28,8 +23,7 @@ property Translate.DatabaseType ActiveTranslateDatabase {
    void set (    Translate.DatabaseType value);
 
 }
-```
-```
+
 
 Remarks
 

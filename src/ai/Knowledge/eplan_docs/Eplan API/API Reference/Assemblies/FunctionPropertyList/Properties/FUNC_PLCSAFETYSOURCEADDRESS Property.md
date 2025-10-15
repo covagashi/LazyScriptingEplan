@@ -8,17 +8,12 @@ Safety address: Source # 20615.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCSAFETYSOURCEADDRESS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCSAFETYSOURCEADDRESS {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCSAFETYSOURCEADDRESS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

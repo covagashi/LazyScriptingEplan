@@ -8,17 +8,12 @@ Suppl. field: Text # 20501.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_ADDITIONAL_TEXTFIELD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_ADDITIONAL_TEXTFIELD {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_ADDITIONAL_TEXTFIELD {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

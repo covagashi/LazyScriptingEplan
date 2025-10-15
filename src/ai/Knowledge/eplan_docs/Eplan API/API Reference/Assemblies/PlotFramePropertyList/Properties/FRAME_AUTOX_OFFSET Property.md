@@ -8,17 +8,12 @@ Property arrangement: Automatic X coordinate (path) # 12063.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_AUTOX_OFFSET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_AUTOX_OFFSET {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_AUTOX_OFFSET {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

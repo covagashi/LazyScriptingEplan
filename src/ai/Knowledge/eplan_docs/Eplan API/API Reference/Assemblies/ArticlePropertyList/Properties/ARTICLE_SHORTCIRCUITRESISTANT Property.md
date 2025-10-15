@@ -8,17 +8,12 @@ Short-circuit proof # 22115.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SHORTCIRCUITRESISTANT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SHORTCIRCUITRESISTANT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SHORTCIRCUITRESISTANT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

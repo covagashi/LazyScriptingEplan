@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDArgumentNullException : System.ArgumentNullException
-```
-```
 
-```
-```
 public ref class MDArgumentNullException : public System.ArgumentNullException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [MDArgumentNullException Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDArgumentNullException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

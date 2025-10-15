@@ -8,17 +8,12 @@ Gets/Sets active working section scheme for current user.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ActiveScheme {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ActiveScheme {
@@ -28,8 +23,7 @@ property String^ ActiveScheme {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Exceptions
 

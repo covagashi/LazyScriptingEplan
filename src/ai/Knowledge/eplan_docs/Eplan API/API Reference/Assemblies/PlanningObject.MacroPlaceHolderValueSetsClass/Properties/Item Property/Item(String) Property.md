@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningObject.MacroPlaceHolderValueSet Item( 
 
    string name
 
 ) {get;}
-```
-```
 
-```
-```
 public:
 
 property PlanningObject.MacroPlaceHolderValueSet^ Item {
@@ -28,8 +23,7 @@ property PlanningObject.MacroPlaceHolderValueSet^ Item {
    PlanningObject.MacroPlaceHolderValueSet^ get(String^ name);
 
 }
-```
-```
+
 
 #### Parameters
 

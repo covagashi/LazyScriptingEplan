@@ -8,17 +8,12 @@ Rated ultimate short-circuit making capacity (Icm) # 26589.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_MAKING_CAPACITY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_MAKING_CAPACITY {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_MAKING_CAPACITY {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

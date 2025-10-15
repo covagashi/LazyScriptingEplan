@@ -8,17 +8,12 @@ Bundle # 31092.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_WIRE_BUNDLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_WIRE_BUNDLE {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_WIRE_BUNDLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

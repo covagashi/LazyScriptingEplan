@@ -8,21 +8,16 @@ Error: Symbol graphic # 15105.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBLIB_GRAPHICERROR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBLIB_GRAPHICERROR {
@@ -32,8 +27,7 @@ property MDPropertyValue^ SYMBLIB_GRAPHICERROR {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

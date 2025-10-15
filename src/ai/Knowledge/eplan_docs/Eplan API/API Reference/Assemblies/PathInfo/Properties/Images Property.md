@@ -8,17 +8,12 @@ Returns default Images directory.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Images {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Images {
@@ -26,8 +21,7 @@ property String^ Images {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

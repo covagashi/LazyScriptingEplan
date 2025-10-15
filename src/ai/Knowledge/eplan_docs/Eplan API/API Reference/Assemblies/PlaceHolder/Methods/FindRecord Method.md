@@ -8,21 +8,16 @@ Finds a record by name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual int FindRecord( 
 
    string strName
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual int FindRecord( 
@@ -30,8 +25,7 @@ virtual int FindRecord(
    String^ strName
 
 )
-```
-```
+
 
 #### Parameters
 

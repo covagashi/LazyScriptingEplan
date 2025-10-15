@@ -8,21 +8,16 @@ Verification if function is inside BoxedDevice.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsFunctionInside( 
 
    Function function
 
 )
-```
-```
 
-```
-```
 public:
 
 bool IsFunctionInside( 
@@ -30,8 +25,7 @@ bool IsFunctionInside(
    Function^ function
 
 )
-```
-```
+
 
 #### Parameters
 

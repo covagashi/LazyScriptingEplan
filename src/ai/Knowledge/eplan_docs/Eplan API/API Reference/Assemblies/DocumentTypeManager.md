@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class DocumentTypeManager
-```
-```
 
-```
-```
 public ref class DocumentTypeManager
-```
-```
-
-
 
 Public Constructors
 
@@ -37,9 +28,6 @@ Public Constructors
 | Public Constructor | [DocumentTypeManager Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DocumentTypeManager~_ctor.html) |  |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

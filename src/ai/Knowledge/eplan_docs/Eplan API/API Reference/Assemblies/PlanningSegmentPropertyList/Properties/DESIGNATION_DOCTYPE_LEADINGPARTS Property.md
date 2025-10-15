@@ -8,17 +8,12 @@ Document type with preceding sign # 1540.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FULLDOCTYPE_WITHPREFIX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FULLDOCTYPE_WITHPREFIX {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FULLDOCTYPE_WITHPREFIX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

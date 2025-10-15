@@ -13,26 +13,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public sealed class Terminal.TerminalStripCache
-```
-```
 
-```
-```
 public ref class Terminal.TerminalStripCache sealed
-```
-```
+
 
 Example
 
 Example of usage
 
-- [C#](#i-tab-content-673b2cce-56a0-42ed-85bc-902d12f9e4e4)
+**C#**
 
 ```
 Terminal[] oTerminals = new DMObjectsFinder(m_DistributedTerminalsProject).GetTerminals(null);
@@ -51,8 +45,6 @@ using (Terminal.TerminalStripCache oCache = new Terminal.TerminalStripCache())
 
 }
 
-
-
 ```
 
 Public Constructors
@@ -62,9 +54,6 @@ Public Constructors
 | Public Constructor | [Terminal.TerminalStripCache Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Terminal+TerminalStripCache~_ctor.html) | Constructor |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

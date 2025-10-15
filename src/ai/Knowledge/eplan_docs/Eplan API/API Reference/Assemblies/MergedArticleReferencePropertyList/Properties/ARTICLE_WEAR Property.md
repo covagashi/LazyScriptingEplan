@@ -8,17 +8,12 @@ Wearing part # 22139.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_WEAR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_WEAR {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_WEAR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

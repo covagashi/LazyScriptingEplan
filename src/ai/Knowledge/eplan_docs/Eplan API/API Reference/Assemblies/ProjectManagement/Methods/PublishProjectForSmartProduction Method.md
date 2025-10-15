@@ -8,11 +8,10 @@ Publishes a project
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void PublishProjectForSmartProduction( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public void PublishProjectForSmartProduction(
    string strScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 void PublishProjectForSmartProduction( 
@@ -42,8 +37,7 @@ void PublishProjectForSmartProduction(
    String^ strScheme
 
 )
-```
-```
+
 
 #### Parameters
 

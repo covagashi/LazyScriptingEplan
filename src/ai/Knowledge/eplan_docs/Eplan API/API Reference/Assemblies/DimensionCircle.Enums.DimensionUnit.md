@@ -8,20 +8,14 @@ Enumeration of Dimension's unit types
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum DimensionCircle.Enums.DimensionUnit : System.Enum
-```
-```
 
-```
-```
 public enum class DimensionCircle.Enums.DimensionUnit : public System.Enum
-```
-```
+
 
 Members
 

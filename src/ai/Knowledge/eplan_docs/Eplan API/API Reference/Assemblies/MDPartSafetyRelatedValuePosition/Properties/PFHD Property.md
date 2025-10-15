@@ -8,17 +8,12 @@ The PFHD (probability of dangerous failure per hour)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double PFHD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double PFHD {
@@ -28,5 +23,4 @@ property double PFHD {
    void set (    double value);
 
 }
-```
-```
+

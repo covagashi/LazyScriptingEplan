@@ -8,17 +8,12 @@ Type of construction: Housing # 26027.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_DESIGN_OF_THE_HOUSING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_DESIGN_OF_THE_HOUSING {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_DESIGN_OF_THE_HOUSING {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

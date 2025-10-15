@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public abstract void OnStartInspection( 
 
    bool bOnline
 
 )
-```
-```
 
-```
-```
 public:
 
 abstract void OnStartInspection( 
@@ -28,8 +23,7 @@ abstract void OnStartInspection(
    bool bOnline
 
 )
-```
-```
+
 
 #### Parameters
 

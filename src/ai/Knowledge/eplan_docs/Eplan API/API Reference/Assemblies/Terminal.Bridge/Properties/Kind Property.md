@@ -8,17 +8,12 @@ A [Terminal.Bridge.Kinds](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObject
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Terminal.Bridge.Kinds Kind {get;}
-```
-```
 
-```
-```
 public:
 
 property Terminal.Bridge.Kinds Kind {
@@ -26,8 +21,7 @@ property Terminal.Bridge.Kinds Kind {
    Terminal.Bridge.Kinds get();
 
 }
-```
-```
+
 
 Remarks
 

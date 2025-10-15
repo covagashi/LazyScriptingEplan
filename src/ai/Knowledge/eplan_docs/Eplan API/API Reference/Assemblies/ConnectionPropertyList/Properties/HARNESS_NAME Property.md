@@ -8,17 +8,12 @@ Wire harness name # 31143.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue HARNESS_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ HARNESS_NAME {
@@ -28,8 +23,7 @@ property PropertyValue^ HARNESS_NAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ PLC subdevice 6: Safety address: Source # 20639.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCSAFETYSOURCEADDRESS_6 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCSAFETYSOURCEADDRESS_6 {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCSAFETYSOURCEADDRESS_6 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

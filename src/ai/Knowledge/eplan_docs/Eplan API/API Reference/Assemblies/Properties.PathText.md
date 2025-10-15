@@ -8,20 +8,14 @@ Identificators of properties owned by PathText class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.PathText : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.PathText : public System.Enum
-```
-```
+
 
 Members
 

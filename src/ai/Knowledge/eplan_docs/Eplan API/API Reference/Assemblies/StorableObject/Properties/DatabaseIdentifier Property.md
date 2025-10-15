@@ -8,17 +8,12 @@ Returns the project as number. The number is unique for all open projects in one
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public uint DatabaseIdentifier {get;}
-```
-```
 
-```
-```
 public:
 
 property uint DatabaseIdentifier {
@@ -26,8 +21,7 @@ property uint DatabaseIdentifier {
    uint get();
 
 }
-```
-```
+
 
 #### Property Value
 

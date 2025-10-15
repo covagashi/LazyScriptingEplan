@@ -8,17 +8,12 @@ The default extension of the files to select.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string DefaultExtension {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ DefaultExtension {
@@ -28,8 +23,7 @@ property String^ DefaultExtension {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Remarks
 

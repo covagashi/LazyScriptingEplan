@@ -8,21 +8,16 @@ Returns one the project's layer as TransientLayer object. If specified layer not
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TransientLayer Layer( 
 
    short id
 
 ) {get;}
-```
-```
 
-```
-```
 public:
 
 property TransientLayer^ Layer {
@@ -30,8 +25,7 @@ property TransientLayer^ Layer {
    TransientLayer^ get(short id);
 
 }
-```
-```
+
 
 #### Parameters
 

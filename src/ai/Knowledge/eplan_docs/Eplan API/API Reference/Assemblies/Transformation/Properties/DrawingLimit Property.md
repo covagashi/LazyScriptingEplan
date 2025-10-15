@@ -8,17 +8,12 @@ Get drawing limits
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Transformation.DrawingLimits DrawingLimit {get;}
-```
-```
 
-```
-```
 public:
 
 property Transformation.DrawingLimits^ DrawingLimit {
@@ -26,5 +21,4 @@ property Transformation.DrawingLimits^ DrawingLimit {
    Transformation.DrawingLimits^ get();
 
 }
-```
-```
+

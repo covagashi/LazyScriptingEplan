@@ -14,29 +14,21 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public struct MDConnectionCategory : System.ValueType
-```
-```
 
-```
-```
 public value class MDConnectionCategory : public System.ValueType
-```
-```
+
 
 Remarks
 
 There are 2 kinds of connection categories:  
-â¢ Build in, stored as strings in resources  
-â¢ User-defined, stored internally as multi-langual strings in setting COMPANY.PartsManagementGui.TypeOfTerminal  
+'¢ Build in, stored as strings in resources  
+'¢ User-defined, stored internally as multi-langual strings in setting COMPANY.PartsManagementGui.TypeOfTerminal  
 To access default connection category of a MDConnectionPointInfo, please use MDConnectionPointInfo.ConnectionCategoryDefault property To access connection category of a MDConnectionPointPosition, please use MDConnectionPointInfo.ConnectionCategory property
-
-
 
 Public Constructors
 
@@ -45,8 +37,6 @@ Public Constructors
 | Public Constructor | [MDConnectionCategory Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionCategory~_ctor(Int32).html) | Initializes new connection category with internal number |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,11 +8,10 @@ Searches on the specified project for a search string. The search settings will 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Project( 
 
    Project pProject,
@@ -22,11 +21,7 @@ public void Project(
    string strFilterScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 void Project( 
@@ -38,8 +33,7 @@ void Project(
    String^ strFilterScheme
 
 )
-```
-```
+
 
 #### Parameters
 

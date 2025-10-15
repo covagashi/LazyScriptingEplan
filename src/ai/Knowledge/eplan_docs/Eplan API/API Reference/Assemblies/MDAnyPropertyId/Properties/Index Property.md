@@ -8,17 +8,12 @@ Index of the property.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short Index {get; set;}
-```
-```
 
-```
-```
 public:
 
 property short Index {
@@ -28,8 +23,7 @@ property short Index {
    void set (    short value);
 
 }
-```
-```
+
 
 #### Property Value
 

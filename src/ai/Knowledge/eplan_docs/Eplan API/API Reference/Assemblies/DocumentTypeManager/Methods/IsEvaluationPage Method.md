@@ -8,21 +8,16 @@ Determines if a page is only for evaluation.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static bool IsEvaluationPage( 
 
    DocumentTypeManager.DocumentType nPageType
 
 )
-```
-```
 
-```
-```
 public:
 
 static bool IsEvaluationPage( 
@@ -30,8 +25,7 @@ static bool IsEvaluationPage(
    DocumentTypeManager.DocumentType nPageType
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Returns the [ConnectionDefinitionPoint](Eplan.EplApi.DataModelu~Eplan.EplApi.Dat
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ConnectionDefinitionPoint[] ConnectionDefPoints {get;}
-```
-```
 
-```
-```
 public:
 
 property array<ConnectionDefinitionPoint^>^ ConnectionDefPoints {
@@ -26,8 +21,7 @@ property array<ConnectionDefinitionPoint^>^ ConnectionDefPoints {
    array<ConnectionDefinitionPoint^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

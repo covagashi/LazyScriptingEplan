@@ -8,17 +8,12 @@ Structure identifier (Segment) # 44032.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_ALLSTRUCTUREPARTS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_ALLSTRUCTUREPARTS {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_ALLSTRUCTUREPARTS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

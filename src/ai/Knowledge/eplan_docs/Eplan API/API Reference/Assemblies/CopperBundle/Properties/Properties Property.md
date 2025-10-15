@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new CopperBundlePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property CopperBundlePropertyList^ Properties {
@@ -26,8 +21,7 @@ new property CopperBundlePropertyList^ Properties {
    CopperBundlePropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

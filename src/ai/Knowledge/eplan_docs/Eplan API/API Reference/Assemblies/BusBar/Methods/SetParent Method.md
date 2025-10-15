@@ -8,11 +8,10 @@ Sets parent placement. Sets parent placement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override void SetParent( 
 
    Placement3D pParent,
@@ -20,11 +19,7 @@ public override void SetParent(
    bool bKeepAbsolutePosition
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetParent( 
@@ -34,8 +29,7 @@ void SetParent(
    bool bKeepAbsolutePosition
 
 ) override
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Returns an array of all property ids which can exist for ReportBlockReference ob
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static AnyPropertyId[] AllReportBlockReferencePropIDs {get;}
-```
-```
 
-```
-```
 public:
 
 static property array<AnyPropertyId^>^ AllReportBlockReferencePropIDs {
@@ -26,5 +21,4 @@ static property array<AnyPropertyId^>^ AllReportBlockReferencePropIDs {
    array<AnyPropertyId^>^ get();
 
 }
-```
-```
+

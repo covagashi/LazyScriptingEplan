@@ -8,21 +8,16 @@ Removes a accessory list out of the parts datbase.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveAccessoryList( 
 
    MDAccessoryList accessorylist
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveAccessoryList( 
@@ -30,8 +25,7 @@ void RemoveAccessoryList(
    MDAccessoryList^ accessorylist
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Project, the editor belongs to.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Project Project {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property Project^ Project {
@@ -26,5 +21,4 @@ virtual property Project^ Project {
    Project^ get();
 
 }
-```
-```
+

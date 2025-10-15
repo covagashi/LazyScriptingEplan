@@ -8,20 +8,14 @@ Interface to switch the status on / off of an Action. If this interface is not u
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IEplActionChecked
-```
-```
 
-```
-```
 public interface class IEplActionChecked
-```
-```
+
 
 Example
 
@@ -34,11 +28,7 @@ public class TestAction : Eplan.EplApi.ApplicationFramework.IEplAction, Eplan.Ep
 
         //IEplAction Members
 
-
-
         \#region IEplActionChecked Members
-
-
 
         public int Checked(string strActionName, Eplan.EplApi.ApplicationFramework.ActionCallingContext actionContext)
 
@@ -68,20 +58,12 @@ public class TestAction : Eplan.EplApi.ApplicationFramework.IEplAction, Eplan.Ep
 
             }
 
-
-
         }
-
-
 
         \#endregion
 
     }
 ```
-
-
-
-
 
 Public Methods
 

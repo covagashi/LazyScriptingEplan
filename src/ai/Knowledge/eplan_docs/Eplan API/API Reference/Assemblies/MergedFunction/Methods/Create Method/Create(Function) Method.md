@@ -8,21 +8,16 @@ Initializes the merged function to cover the function passed as parameter and al
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Function funcIn
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -30,8 +25,7 @@ void Create(
    Function^ funcIn
 
 )
-```
-```
+
 
 #### Parameters
 

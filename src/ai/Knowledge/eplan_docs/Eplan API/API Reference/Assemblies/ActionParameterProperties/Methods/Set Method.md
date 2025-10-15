@@ -8,21 +8,16 @@ Description text of a parameter. Sets name and description text of a parameter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Set( 
 
    string strParamName
 
 )
-```
-```
 
-```
-```
 public:
 
 void Set( 
@@ -30,8 +25,7 @@ void Set(
    String^ strParamName
 
 )
-```
-```
+
 
 #### Parameters
 

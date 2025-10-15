@@ -8,17 +8,12 @@ Default value that specifies the connection point type of the connections, e.g.,
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ConnectionCategory ConnectionCategory {get; set;}
-```
-```
 
-```
-```
 public:
 
 property ConnectionCategory ConnectionCategory {
@@ -28,5 +23,4 @@ property ConnectionCategory ConnectionCategory {
    void set (    ConnectionCategory value);
 
 }
-```
-```
+

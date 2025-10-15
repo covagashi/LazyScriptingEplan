@@ -8,11 +8,10 @@ Moves ArticleReference to another index or to another object or both.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ArticleReference MoveArticleReference( 
 
    ArticleReference oSourceAR,
@@ -22,11 +21,7 @@ public ArticleReference MoveArticleReference(
    int nTargetIndex
 
 )
-```
-```
 
-```
-```
 public:
 
 ArticleReference^ MoveArticleReference( 
@@ -38,8 +33,7 @@ ArticleReference^ MoveArticleReference(
    int nTargetIndex
 
 )
-```
-```
+
 
 #### Parameters
 

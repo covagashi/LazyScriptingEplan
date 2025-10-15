@@ -8,17 +8,12 @@ With signal isolation # 20123.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_POTENTIALSEPARATED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_POTENTIALSEPARATED {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_POTENTIALSEPARATED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

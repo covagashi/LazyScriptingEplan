@@ -8,17 +8,12 @@ Gets a value indicating whether the PrjMessagesCollection is read-only.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool IsReadOnly {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool IsReadOnly {
@@ -26,8 +21,7 @@ virtual property bool IsReadOnly {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

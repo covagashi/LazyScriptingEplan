@@ -8,17 +8,12 @@ External documents # 22369.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_EXTERNAL_DOCUMENT_ALL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_EXTERNAL_DOCUMENT_ALL {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_EXTERNAL_DOCUMENT_ALL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ The Y-vector of the connection point
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double YVector {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double YVector {
@@ -28,5 +23,4 @@ property double YVector {
    void set (    double value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Protected routing # 31113.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_PROTECTED_ROUTING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_PROTECTED_ROUTING {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_PROTECTED_ROUTING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

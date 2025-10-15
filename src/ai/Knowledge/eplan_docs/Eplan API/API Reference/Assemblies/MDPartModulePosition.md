@@ -15,24 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDPartModulePosition : MDPartHierarchyPosition
-```
-```
 
-```
-```
 public ref class MDPartModulePosition : public MDPartHierarchyPosition
-```
-```
-
-
-
-
 
 Public Properties
 

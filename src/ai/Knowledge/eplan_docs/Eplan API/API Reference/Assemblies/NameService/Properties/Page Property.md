@@ -8,17 +8,12 @@ Gets/Sets the page. Page must be set, because most of the NameService class's me
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Page Page {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Page^ Page {
@@ -28,8 +23,7 @@ property Page^ Page {
    void set (    Page^ value);
 
 }
-```
-```
+
 
 Exceptions
 

@@ -8,17 +8,12 @@ Returns an array of all existing functions in BoxedDevice.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function[] FunctionsInside {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Function^>^ FunctionsInside {
@@ -26,5 +21,4 @@ property array<Function^>^ FunctionsInside {
    array<Function^>^ get();
 
 }
-```
-```
+

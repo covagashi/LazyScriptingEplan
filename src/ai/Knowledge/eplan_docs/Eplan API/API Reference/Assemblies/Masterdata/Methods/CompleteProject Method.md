@@ -8,21 +8,16 @@ Method for completing project master data.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CompleteProject( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void CompleteProject( 
@@ -30,8 +25,7 @@ void CompleteProject(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

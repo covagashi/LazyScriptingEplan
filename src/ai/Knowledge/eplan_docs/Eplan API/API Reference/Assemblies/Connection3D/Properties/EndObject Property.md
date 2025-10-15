@@ -8,17 +8,12 @@ Returns the second of two [Function3D](Eplan.EplApi.DataModelu~Eplan.EplApi.Data
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function3D EndObject {get;}
-```
-```
 
-```
-```
 public:
 
 property Function3D^ EndObject {
@@ -26,8 +21,7 @@ property Function3D^ EndObject {
    Function3D^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

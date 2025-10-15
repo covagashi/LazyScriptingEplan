@@ -8,22 +8,16 @@ Get's stored QRCode string.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string GetQRCode()
-```
-```
 
-```
-```
 public:
 
 String^ GetQRCode();
-```
-```
+
 
 #### Return Value
 

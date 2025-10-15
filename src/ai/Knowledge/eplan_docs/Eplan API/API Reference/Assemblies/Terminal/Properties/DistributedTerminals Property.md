@@ -8,17 +8,12 @@ Returns a all distributed terminals associated with this distributed terminal. R
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Terminal[] DistributedTerminals {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Terminal^>^ DistributedTerminals {
@@ -26,5 +21,4 @@ property array<Terminal^>^ DistributedTerminals {
    array<Terminal^>^ get();
 
 }
-```
-```
+

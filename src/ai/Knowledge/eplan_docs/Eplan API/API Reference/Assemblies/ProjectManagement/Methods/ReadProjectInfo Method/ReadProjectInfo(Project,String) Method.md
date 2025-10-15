@@ -8,11 +8,10 @@ Loads the ProjectInfo.xml file. and sets project properties accordingly.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ReadProjectInfo( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public void ReadProjectInfo(
    string strPrjInfoXml
 
 )
-```
-```
 
-```
-```
 public:
 
 void ReadProjectInfo( 
@@ -34,8 +29,7 @@ void ReadProjectInfo(
    String^ strPrjInfoXml
 
 )
-```
-```
+
 
 #### Parameters
 

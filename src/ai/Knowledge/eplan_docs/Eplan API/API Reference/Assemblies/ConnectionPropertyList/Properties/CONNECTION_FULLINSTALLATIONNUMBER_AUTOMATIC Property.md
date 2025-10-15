@@ -8,17 +8,12 @@ Higher-level function number (automatic) # 31111.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_FULLINSTALLATIONNUMBER_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_FULLINSTALLATIONNUMBER_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_FULLINSTALLATIONNUMBER_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

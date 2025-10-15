@@ -8,17 +8,12 @@ Structure of tree structure in page tree # 10092.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_PDD_PAGES_HIERARCHY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_PDD_PAGES_HIERARCHY {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_PDD_PAGES_HIERARCHY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

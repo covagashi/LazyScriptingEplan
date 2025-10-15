@@ -8,21 +8,16 @@ Sets the title of the progress bar.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetTitle( 
 
    string strTitle
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetTitle( 
@@ -30,8 +25,7 @@ void SetTitle(
    String^ strTitle
 
 )
-```
-```
+
 
 #### Parameters
 

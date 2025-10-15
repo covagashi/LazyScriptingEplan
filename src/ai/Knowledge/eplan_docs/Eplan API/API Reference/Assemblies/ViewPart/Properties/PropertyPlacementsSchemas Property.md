@@ -8,17 +8,12 @@ Returns [PropertyPlacementsSchemas](Eplan.EplApi.DataModelu~Eplan.EplApi.DataMod
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ViewPart.PropertyPlacementsSchemasList PropertyPlacementsSchemas {get;}
-```
-```
 
-```
-```
 public:
 
 property ViewPart.PropertyPlacementsSchemasList^ PropertyPlacementsSchemas {
@@ -26,5 +21,4 @@ property ViewPart.PropertyPlacementsSchemasList^ PropertyPlacementsSchemas {
    ViewPart.PropertyPlacementsSchemasList^ get();
 
 }
-```
-```
+

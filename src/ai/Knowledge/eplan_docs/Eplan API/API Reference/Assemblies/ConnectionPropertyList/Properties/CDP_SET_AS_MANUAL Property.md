@@ -8,17 +8,12 @@ Manually set # 31046.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CDP_SET_AS_MANUAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CDP_SET_AS_MANUAL {
@@ -28,8 +23,7 @@ property PropertyValue^ CDP_SET_AS_MANUAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

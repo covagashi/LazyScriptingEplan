@@ -8,11 +8,10 @@ Updates a given device or a connection with data from the referenced article(s).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool UpdateDevice( 
 
    StorableObject oObject,
@@ -20,11 +19,7 @@ public bool UpdateDevice(
    bool bKeepSwappedConnPoint
 
 )
-```
-```
 
-```
-```
 public:
 
 bool UpdateDevice( 
@@ -34,8 +29,7 @@ bool UpdateDevice(
    bool bKeepSwappedConnPoint
 
 )
-```
-```
+
 
 #### Parameters
 

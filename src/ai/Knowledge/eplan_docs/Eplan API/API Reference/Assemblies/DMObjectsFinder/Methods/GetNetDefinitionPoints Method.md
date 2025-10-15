@@ -8,21 +8,16 @@ This function takes objects of class [NetDefinitionPoint](Eplan.EplApi.DataModel
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public NetDefinitionPoint[] GetNetDefinitionPoints( 
 
    PlacementsFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<NetDefinitionPoint^>^ GetNetDefinitionPoints( 
@@ -30,8 +25,7 @@ array<NetDefinitionPoint^>^ GetNetDefinitionPoints(
    PlacementsFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

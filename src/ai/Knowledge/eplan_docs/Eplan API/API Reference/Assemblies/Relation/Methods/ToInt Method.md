@@ -8,22 +8,16 @@ Relation-Id - identifies which type of navigation will be done.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ushort ToInt()
-```
-```
 
-```
-```
 public:
 
 ushort ToInt();
-```
-```
+
 
 #### Return Value
 

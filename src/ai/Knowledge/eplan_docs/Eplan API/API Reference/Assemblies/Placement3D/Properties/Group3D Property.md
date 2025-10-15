@@ -8,17 +8,12 @@ Returns a Group3D object that the Placement3D object belongs to. If the Placemen
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Group3D Group3D {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property Group3D^ Group3D {
@@ -26,5 +21,4 @@ virtual property Group3D^ Group3D {
    Group3D^ get();
 
 }
-```
-```
+

@@ -8,21 +8,16 @@ Deletes a link from this object that links given targetSegment.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool DeleteLink( 
 
    PlanningSegment targetSegment
 
 )
-```
-```
 
-```
-```
 public:
 
 bool DeleteLink( 
@@ -30,8 +25,7 @@ bool DeleteLink(
    PlanningSegment^ targetSegment
 
 )
-```
-```
+
 
 #### Parameters
 

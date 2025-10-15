@@ -8,17 +8,12 @@ Creator # 11020.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_CREATOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_CREATOR {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_CREATOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

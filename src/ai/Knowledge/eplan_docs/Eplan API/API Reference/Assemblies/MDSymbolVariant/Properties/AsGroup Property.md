@@ -8,17 +8,12 @@ The group of the symbol variant. That is needed to add graphical placements.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Group AsGroup {get;}
-```
-```
 
-```
-```
 public:
 
 property Group^ AsGroup {
@@ -26,8 +21,7 @@ property Group^ AsGroup {
    Group^ get();
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -35,7 +29,7 @@ Group of the symbol variant.
 
 Example
 
-- [C#](#i-tab-content-51aef15b-314c-4e1d-b0df-a95059ef0675)
+**C#**
 
 ```
 MDSymbolVariant symVar = sym.AddSymbolVariant(0);

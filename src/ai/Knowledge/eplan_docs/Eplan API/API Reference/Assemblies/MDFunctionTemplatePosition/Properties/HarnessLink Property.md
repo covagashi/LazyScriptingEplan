@@ -8,17 +8,12 @@ The link to master data in Harness proD
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short HarnessLink {get; set;}
-```
-```
 
-```
-```
 public:
 
 property short HarnessLink {
@@ -28,5 +23,4 @@ property short HarnessLink {
    void set (    short value);
 
 }
-```
-```
+

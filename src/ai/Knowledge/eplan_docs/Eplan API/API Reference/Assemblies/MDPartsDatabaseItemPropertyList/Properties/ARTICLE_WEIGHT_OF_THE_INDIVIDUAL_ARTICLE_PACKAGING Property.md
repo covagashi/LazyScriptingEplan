@@ -8,17 +8,12 @@ Weight (individual packaging) # 26376.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_WEIGHT_OF_THE_INDIVIDUAL_ARTICLE_PACKAGING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_WEIGHT_OF_THE_INDIVIDUAL_ARTICLE_PACKAGING {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_WEIGHT_OF_THE_INDIVIDUAL_ARTICLE_PACKAGING {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Subtrade 'Electrical engineering' # 22077.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SUBCRAFT_ELECTRICAL( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SUBCRAFT_ELECTRICAL {
@@ -32,8 +27,7 @@ property MDPropertyValue^ ARTICLE_SUBCRAFT_ELECTRICAL {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

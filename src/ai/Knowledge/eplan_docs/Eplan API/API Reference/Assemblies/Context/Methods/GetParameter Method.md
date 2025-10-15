@@ -8,11 +8,10 @@ Gets a parameter from the Context.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void GetParameter( 
 
    string strParameterName,
@@ -20,11 +19,7 @@ public virtual void GetParameter(
    ref string strParameterValue
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void GetParameter( 
@@ -34,8 +29,7 @@ virtual void GetParameter(
    String^% strParameterValue
 
 )
-```
-```
+
 
 #### Parameters
 

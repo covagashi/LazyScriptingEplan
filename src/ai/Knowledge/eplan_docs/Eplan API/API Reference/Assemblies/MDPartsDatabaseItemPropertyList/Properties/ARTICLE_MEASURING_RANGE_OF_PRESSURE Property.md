@@ -8,17 +8,12 @@ Measuring range: Pressure # 26124.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_MEASURING_RANGE_OF_PRESSURE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_MEASURING_RANGE_OF_PRESSURE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_MEASURING_RANGE_OF_PRESSURE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

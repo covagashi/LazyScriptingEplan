@@ -8,17 +8,12 @@ Returns connection points belonging to the current daisy chain
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public NetDefinitionPoint.NetConnectionPoint[] ConnectionPoints {get;}
-```
-```
 
-```
-```
 public:
 
 property array<NetDefinitionPoint.NetConnectionPoint^>^ ConnectionPoints {
@@ -26,5 +21,4 @@ property array<NetDefinitionPoint.NetConnectionPoint^>^ ConnectionPoints {
    array<NetDefinitionPoint.NetConnectionPoint^>^ get();
 
 }
-```
-```
+

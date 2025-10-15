@@ -8,21 +8,16 @@ Returns if the objects is a function or a connection covered by this merged func
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsCovered( 
 
    StorableObject obj
 
 )
-```
-```
 
-```
-```
 public:
 
 bool IsCovered( 
@@ -30,8 +25,7 @@ bool IsCovered(
    StorableObject^ obj
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,20 +8,14 @@ Severity of the error
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MessageLevel : System.Enum
-```
-```
 
-```
-```
 public enum class MessageLevel : public System.Enum
-```
-```
+
 
 Members
 

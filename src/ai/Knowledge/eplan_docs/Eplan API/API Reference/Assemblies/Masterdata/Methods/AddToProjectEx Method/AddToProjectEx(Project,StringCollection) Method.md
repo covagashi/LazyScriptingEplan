@@ -8,11 +8,10 @@ Method for storing system master data in the project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Hashtable AddToProjectEx( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public Hashtable AddToProjectEx(
    StringCollection masterDataFiles
 
 )
-```
-```
 
-```
-```
 public:
 
 Hashtable^ AddToProjectEx( 
@@ -34,8 +29,7 @@ Hashtable^ AddToProjectEx(
    StringCollection^ masterDataFiles
 
 )
-```
-```
+
 
 #### Parameters
 

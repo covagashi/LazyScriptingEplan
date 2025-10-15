@@ -8,11 +8,10 @@ Creates not placed, article free MountingPanel object with given dimensions.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateTransient( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public void CreateTransient(
    double dDepth
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateTransient( 
@@ -42,8 +37,7 @@ void CreateTransient(
    double dDepth
 
 )
-```
-```
+
 
 #### Parameters
 

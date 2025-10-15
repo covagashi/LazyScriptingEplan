@@ -8,21 +8,16 @@ Number of inputs # 26217.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_NUMBER_OF_INPUTS( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_NUMBER_OF_INPUTS {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_NUMBER_OF_INPUTS {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

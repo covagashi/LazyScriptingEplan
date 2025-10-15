@@ -8,17 +8,12 @@ When the P8 version is started offline, no P8 mainframe is available. Then this 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static bool InOfflineMode {get;}
-```
-```
 
-```
-```
 public:
 
 static property bool InOfflineMode {
@@ -26,5 +21,4 @@ static property bool InOfflineMode {
    bool get();
 
 }
-```
-```
+

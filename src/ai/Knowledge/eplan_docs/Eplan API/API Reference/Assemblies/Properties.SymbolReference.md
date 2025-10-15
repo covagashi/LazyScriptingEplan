@@ -8,20 +8,14 @@ Identificators of properties owned by SymbolReference class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.SymbolReference : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.SymbolReference : public System.Enum
-```
-```
+
 
 Members
 

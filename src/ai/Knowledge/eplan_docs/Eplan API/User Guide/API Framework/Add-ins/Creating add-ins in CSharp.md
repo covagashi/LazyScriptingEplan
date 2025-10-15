@@ -16,10 +16,8 @@ Now start your text editor of choice, e.g. notepad, and start writing the sourc
 
 Every Eplan add-in, including the C# add-in we are going to create, requires a certain class for managing the add-in. This class must implement the functions declared by the  IEplAddIn  interface:
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- public class AddInModule: Eplan.EplApi.ApplicationFramework.IEplAddIn
+```csharp
+public class AddInModule: Eplan.EplApi.ApplicationFramework.IEplAddIn
         {
              public bool OnRegister(ref System.Boolean bLoadOnStart)
              {
@@ -43,7 +41,7 @@ Every Eplan add-in, including the C# add-in we are going to create, requires a c
                    return true;
              }
        }
- ``` | |
+```
 
 Now save this source code in the folder "SimpleCSharpAddIn" as a file named "AddInModule.cs".
 
@@ -69,11 +67,7 @@ If nothing went wrong with the compilation, you'll now find the DLL "Eplan.EplA
 Now start Eplan. If the following system extensions are loaded in Eplan (which should normally be the case):  EplanEplApiModuleu.erx,  EplanEplApiModuleGUIu.erx.   
 Click on the ribbon File > Extras > Interfaces. > API > Manage.
 
-
-
-After clicking on Manage, a dialog â as shown below â will appear. After pressing the button Load, you can select "Eplan.EplAddin.SimpleCSharp.dll" from the  bin  directory.
-
-
+After clicking on Manage, a dialog ' as shown below ' will appear. After pressing the button Load, you can select "Eplan.EplAddin.SimpleCSharp.dll" from the  bin  directory.
 
 Our add-in now appears in the list of the API modules dialog and will be loaded when Eplan is started.That is about all it can do. What we need now is an action!
 
@@ -81,10 +75,8 @@ Our add-in now appears in the list of the API modules dialog and will be loaded 
 
 Therefore, create a second source file and save it as "SimpleCSharpAction.cs" in your source directory. To create an action, we need a class that implements the  IEplAction  interface. For a more detailed explanation, see the "[Actions](Actions.html)" topic.
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- using Eplan.EplApi.ApplicationFramework;
+```csharp
+using Eplan.EplApi.ApplicationFramework;
  public class CSharpAction: IEplAction
  {
        public bool Execute(ActionCallingContext ctx )
@@ -100,7 +92,7 @@ Therefore, create a second source file and save it as "SimpleCSharpAction.cs" in
        {                  
        }
  }
- ``` | |
+```
 
 Now the compiler call needs to be slightly extended:
 

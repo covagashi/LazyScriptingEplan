@@ -8,17 +8,12 @@ Permitted bending radius (moving application / free movement), min. # 26654.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PERMISSIBLE_BENDING_RADIUS_FLEXIBLE_USE_FREE_MOVEMENT_MIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PERMISSIBLE_BENDING_RADIUS_FLEXIBLE_USE_FREE_MOVEMENT_MIN {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PERMISSIBLE_BENDING_RADIUS_FLEXIBLE_USE_FREE_M
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

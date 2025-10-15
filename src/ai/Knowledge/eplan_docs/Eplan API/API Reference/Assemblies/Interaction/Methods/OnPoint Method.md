@@ -8,21 +8,16 @@ Is called after a point input by user via mouse or keyboard. That means, that th
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnPoint( 
 
    Position oPosition
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnPoint( 
@@ -30,8 +25,7 @@ virtual RequestCode OnPoint(
    Position^ oPosition
 
 )
-```
-```
+
 
 #### Parameters
 

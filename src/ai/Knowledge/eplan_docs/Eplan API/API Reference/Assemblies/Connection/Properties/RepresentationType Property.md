@@ -8,17 +8,12 @@ Gets/Sets connection's representation type.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DocumentTypeManager.DocumentType RepresentationType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property DocumentTypeManager.DocumentType RepresentationType {
@@ -28,5 +23,4 @@ property DocumentTypeManager.DocumentType RepresentationType {
    void set (    DocumentTypeManager.DocumentType value);
 
 }
-```
-```
+

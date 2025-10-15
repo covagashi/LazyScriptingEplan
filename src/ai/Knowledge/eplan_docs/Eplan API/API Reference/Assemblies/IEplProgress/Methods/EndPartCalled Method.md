@@ -8,11 +8,10 @@ One progress part ends. Perhaps you want to set a new actiontext for this part!
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void EndPartCalled( 
 
    int nNewLevel,
@@ -20,11 +19,7 @@ void EndPartCalled(
    string strActionText
 
 )
-```
-```
 
-```
-```
 void EndPartCalled( 
 
    int nNewLevel,
@@ -32,8 +27,7 @@ void EndPartCalled(
    String^ strActionText
 
 )
-```
-```
+
 
 #### Parameters
 

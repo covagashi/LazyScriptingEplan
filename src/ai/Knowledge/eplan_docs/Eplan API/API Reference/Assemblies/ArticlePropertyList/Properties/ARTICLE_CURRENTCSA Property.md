@@ -8,17 +8,12 @@ Terminals: Current CSA # 22092.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CURRENTCSA {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CURRENTCSA {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CURRENTCSA {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

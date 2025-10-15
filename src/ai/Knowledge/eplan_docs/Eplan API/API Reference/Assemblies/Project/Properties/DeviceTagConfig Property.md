@@ -8,17 +8,12 @@ Predefined property for accessing following project settings: EnableSyntaxCheck,
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Project.DeviceTagSettings DeviceTagConfig {get;}
-```
-```
 
-```
-```
 public:
 
 property Project.DeviceTagSettings^ DeviceTagConfig {
@@ -26,8 +21,7 @@ property Project.DeviceTagSettings^ DeviceTagConfig {
    Project.DeviceTagSettings^ get();
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -46,7 +40,7 @@ This property might throw exceptions caused by [DeviceTagConfig](Eplan.EplApi.Da
 
 Example
 
-- [C#](#i-tab-content-570eff61-c18d-4bb1-9e4c-caa5b3060c30)
+**C#**
 
 ```
 using Eplan.EplApi.DataModel;
@@ -58,8 +52,6 @@ using Eplan.EplApi.DataModel;
   proj.DeviceTagConfig.UserCharacters = @"^";
 
   proj.DeviceTagConfig.AllowUserCharacters = true;
-
-
 
  // now it is possible to use for example:
 

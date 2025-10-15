@@ -8,11 +8,10 @@ Synchronizes the specified parts into the parts master database. Updates parts d
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void PartToSystem( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public void PartToSystem(
    bool bUseNotReferencedArticles
 
 )
-```
-```
 
-```
-```
 public:
 
 void PartToSystem( 
@@ -38,8 +33,7 @@ void PartToSystem(
    bool bUseNotReferencedArticles
 
 )
-```
-```
+
 
 #### Parameters
 

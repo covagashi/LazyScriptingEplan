@@ -8,22 +8,16 @@ Converts an MultiLangString to a string. The languages are appended to one anoth
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string GetAsString()
-```
-```
 
-```
-```
 public:
 
 String^ GetAsString();
-```
-```
+
 
 #### Return Value
 

@@ -8,17 +8,12 @@ Nominal voltage (AC) # 26490.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_RATED_VOLTAGE_FOR_AC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_RATED_VOLTAGE_FOR_AC {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_RATED_VOLTAGE_FOR_AC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

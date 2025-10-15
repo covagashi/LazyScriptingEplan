@@ -8,21 +8,16 @@ Degree of protection (IP): Rear side # 26564.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_PROTECTION_CLASS_IP_REAR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_PROTECTION_CLASS_IP_REAR {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_PROTECTION_CLASS_IP_REAR {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

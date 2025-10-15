@@ -8,11 +8,10 @@ Creates the ContactImage object for specified function.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Function pParent,
@@ -20,11 +19,7 @@ public void Create(
    bool bOnComponent
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -34,8 +29,7 @@ void Create(
    bool bOnComponent
 
 )
-```
-```
+
 
 #### Parameters
 

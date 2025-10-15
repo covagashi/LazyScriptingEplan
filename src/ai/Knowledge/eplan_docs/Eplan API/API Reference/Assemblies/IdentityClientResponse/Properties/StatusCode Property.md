@@ -8,17 +8,12 @@ IdentityStatusCode success code.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public IdentityStatusCode StatusCode {get; set;}
-```
-```
 
-```
-```
 public:
 
 property IdentityStatusCode StatusCode {
@@ -28,5 +23,4 @@ property IdentityStatusCode StatusCode {
    void set (    IdentityStatusCode value);
 
 }
-```
-```
+

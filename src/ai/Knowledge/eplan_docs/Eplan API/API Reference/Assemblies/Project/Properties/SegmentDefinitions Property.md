@@ -8,17 +8,12 @@ Returns array of all [Eplan.EplApi.DataModel.Planning.SegmentDefinition](Eplan.E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SegmentDefinition[] SegmentDefinitions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<SegmentDefinition^>^ SegmentDefinitions {
@@ -26,5 +21,4 @@ property array<SegmentDefinition^>^ SegmentDefinitions {
    array<SegmentDefinition^>^ get();
 
 }
-```
-```
+

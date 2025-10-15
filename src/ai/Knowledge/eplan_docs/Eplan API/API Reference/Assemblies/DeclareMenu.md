@@ -14,26 +14,17 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [AttributeUsage(AttributeTargets.Method)]
 
 public class DeclareMenu : System.Attribute
-```
-```
 
-```
-```
 [AttributeUsage(AttributeTargets.Method)]
 
 public ref class DeclareMenu : public System.Attribute
-```
-```
-
-
 
 Public Constructors
 
@@ -42,8 +33,6 @@ Public Constructors
 | Public Constructor | [DeclareMenu Constructor](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareMenu~_ctor.html) | Creates a new attribute. |
 
 [Top](#top)
-
-
 
 Public Properties
 

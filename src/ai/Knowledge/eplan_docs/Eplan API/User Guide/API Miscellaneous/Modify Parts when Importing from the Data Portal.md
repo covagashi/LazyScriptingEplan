@@ -8,28 +8,45 @@ You can influence the parts import process from the Eplan Data Portal by changin
 
 The following example uses a custom add-in to show the part path in a message box before importing from the Data Portal using the  EDataPreImportAction:
 
-- [C#](#i-tab-content-2d0ba859-03ae-40f0-8acc-c7d863f15d26)
+**C#**
 
 ```
-
-public class EDataPreImportAction : IEplAction
-{
-    public bool OnRegister(ref string Name, ref int Ordinal)
-    {
-        Ordinal = 20;
-        Name = "EDataPreImportAction";
-        return true;
-    }
-
-    public bool Execute(ActionCallingContext oActionCallingContext)
-    {
-        string filename = null;
-        oActionCallingContext.GetParameter("filenames", ref filename);
-        MessageBox.Show($"This is the path to the imported part: {filename}");
-        return true;
-    }
-â¦
-}
+
+
+public class EDataPreImportAction : IEplAction
+
+{
+
+    public bool OnRegister(ref string Name, ref int Ordinal)
+
+    {
+
+        Ordinal = 20;
+
+        Name = "EDataPreImportAction";
+
+        return true;
+
+    }
+
+    public bool Execute(ActionCallingContext oActionCallingContext)
+
+    {
+
+        string filename = null;
+
+        oActionCallingContext.GetParameter("filenames", ref filename);
+
+        MessageBox.Show($"This is the path to the imported part: {filename}");
+
+        return true;
+
+    }
+
+'¦
+
+}
+
 ```
 
 In the same way, the part can be queried or edited after the import via the  EDataPostImportAction.

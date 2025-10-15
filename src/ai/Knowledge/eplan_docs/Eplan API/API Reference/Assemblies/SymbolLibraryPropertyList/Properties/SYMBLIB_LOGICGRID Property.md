@@ -8,17 +8,12 @@ Grid # 15013.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMBLIB_LOGICGRID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMBLIB_LOGICGRID {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMBLIB_LOGICGRID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

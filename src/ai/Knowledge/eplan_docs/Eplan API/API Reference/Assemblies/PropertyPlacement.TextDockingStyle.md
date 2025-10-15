@@ -8,20 +8,14 @@ Specifies docking style of text.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum PropertyPlacement.TextDockingStyle : System.Enum
-```
-```
 
-```
-```
 public enum class PropertyPlacement.TextDockingStyle : public System.Enum
-```
-```
+
 
 Members
 

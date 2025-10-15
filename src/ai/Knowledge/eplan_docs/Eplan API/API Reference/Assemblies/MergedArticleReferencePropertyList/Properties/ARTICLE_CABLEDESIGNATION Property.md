@@ -8,17 +8,12 @@ Cable / Conduit: Designation in graphic # 22064.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CABLEDESIGNATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CABLEDESIGNATION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CABLEDESIGNATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Constructor. Creates a Location and calls `Create` method.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Location( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public Location(
    Project.LocationSortOrder eSort
 
 )
-```
-```
 
-```
-```
 public:
 
 Location( 
@@ -42,8 +37,7 @@ Location(
    Project.LocationSortOrder eSort
 
 )
-```
-```
+
 
 #### Parameters
 

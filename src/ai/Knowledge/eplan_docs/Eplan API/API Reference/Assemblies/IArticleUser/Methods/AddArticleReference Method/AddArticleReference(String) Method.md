@@ -8,28 +8,22 @@ Adds a new [ArticleReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Art
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 ArticleReference AddArticleReference( 
 
    string strArticleNR
 
 )
-```
-```
 
-```
-```
 ArticleReference^ AddArticleReference( 
 
    String^ strArticleNR
 
 )
-```
-```
+
 
 #### Parameters
 

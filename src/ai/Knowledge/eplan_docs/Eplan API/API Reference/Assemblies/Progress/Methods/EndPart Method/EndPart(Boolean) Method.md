@@ -8,21 +8,16 @@ Ends segment and closes the window when it is not used. Don't forget to call it 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void EndPart( 
 
    bool bCloseWindow
 
 )
-```
-```
 
-```
-```
 public:
 
 void EndPart( 
@@ -30,8 +25,7 @@ void EndPart(
    bool bCloseWindow
 
 )
-```
-```
+
 
 #### Parameters
 

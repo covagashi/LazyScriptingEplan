@@ -8,17 +8,12 @@ Modification date (automatic) # 16023.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMB_LASTAUTOMODIFICATIONDATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMB_LASTAUTOMODIFICATIONDATE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMB_LASTAUTOMODIFICATIONDATE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ The angle of the drilling
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double Angle {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double Angle {
@@ -28,8 +23,7 @@ property double Angle {
    void set (    double value);
 
 }
-```
-```
+
 
 Remarks
 

@@ -8,11 +8,10 @@ Exports project into files in IFC format.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ProjectToIFC( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public bool ProjectToIFC(
    string strScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ProjectToIFC( 
@@ -38,8 +33,7 @@ bool ProjectToIFC(
    String^ strScheme
 
 )
-```
-```
+
 
 #### Parameters
 

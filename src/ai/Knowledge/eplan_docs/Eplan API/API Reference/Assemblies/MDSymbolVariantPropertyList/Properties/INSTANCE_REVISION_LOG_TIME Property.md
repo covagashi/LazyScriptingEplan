@@ -8,17 +8,12 @@ Modification time (change tracking) # 19034.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue INSTANCE_REVISION_LOG_TIME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ INSTANCE_REVISION_LOG_TIME {
@@ -28,8 +23,7 @@ property MDPropertyValue^ INSTANCE_REVISION_LOG_TIME {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

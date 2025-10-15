@@ -8,17 +8,12 @@ Autoconnecting line: Pattern length # 31018.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue CONNECTION_ACL_FACTOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ CONNECTION_ACL_FACTOR {
@@ -28,8 +23,7 @@ property MDPropertyValue^ CONNECTION_ACL_FACTOR {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,29 +8,17 @@ Interface for Eplan.IdentityClient.Authentification namespace.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [NullableContext(1)]
 
 public interface IEIdentityClient
-```
-```
 
-```
-```
 [NullableContext(1)]
 
 public interface class IEIdentityClient
-```
-```
-
-
-
-
-
 
 Public Methods
 

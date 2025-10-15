@@ -8,21 +8,16 @@ Performance description, standardized: Description (device, utility, service) # 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_PERFORMANCE_DESCRIPTION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_PERFORMANCE_DESCRIPTION {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_PERFORMANCE_DESCRIPTION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

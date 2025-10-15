@@ -8,24 +8,18 @@ Count of objects referenced by the Placeholder3D.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 int NumberOfReferences {get;}
-```
-```
 
-```
-```
 property int NumberOfReferences {
 
    int get();
 
 }
-```
-```
+
 
 #### Property Value
 

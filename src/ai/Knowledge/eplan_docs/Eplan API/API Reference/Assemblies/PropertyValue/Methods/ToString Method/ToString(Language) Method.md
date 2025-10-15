@@ -8,21 +8,16 @@ Returns string value of this property. When type of property is MultiLangString 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ToString( 
 
    ISOCode.Language language
 
 )
-```
-```
 
-```
-```
 public:
 
 String^ ToString( 
@@ -30,8 +25,7 @@ String^ ToString(
    ISOCode.Language language
 
 )
-```
-```
+
 
 #### Parameters
 

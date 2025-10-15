@@ -8,21 +8,16 @@ Connection point cross-section / diameter # 20295.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CONNECTIONCROSSSECTIONS( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CONNECTIONCROSSSECTIONS {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_CONNECTIONCROSSSECTIONS {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

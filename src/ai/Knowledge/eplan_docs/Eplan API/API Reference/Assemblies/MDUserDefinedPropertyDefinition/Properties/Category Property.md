@@ -8,17 +8,12 @@ Category of this property definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDUserDefinedPropertyDefinition.Enums.CategoryType Category {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDUserDefinedPropertyDefinition.Enums.CategoryType Category {
@@ -28,5 +23,4 @@ property MDUserDefinedPropertyDefinition.Enums.CategoryType Category {
    void set (    MDUserDefinedPropertyDefinition.Enums.CategoryType value);
 
 }
-```
-```
+

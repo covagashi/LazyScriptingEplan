@@ -8,17 +8,12 @@ Connection dimension (default) # 22969.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PART_TERMINAL_TERMINALSIZE_DEFAULT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PART_TERMINAL_TERMINALSIZE_DEFAULT {
@@ -28,8 +23,7 @@ property PropertyValue^ PART_TERMINAL_TERMINALSIZE_DEFAULT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

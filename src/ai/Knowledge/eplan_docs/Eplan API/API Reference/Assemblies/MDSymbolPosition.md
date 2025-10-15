@@ -13,28 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDSymbolPosition
-```
-```
 
-```
-```
 public ref class MDSymbolPosition
-```
-```
+
 
 Remarks
 
 Symbol data which this object represents are stored in MDParts property list under property ARTICLE\_REPORT\_SYMBOL. Each not empty index of this property stores data of one symbol assigned to part. `RefPos` is the index under which data represented by this object are stored.
-
-
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ Returns array of indexes for which property value is not empty. It can be used w
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int[] Indexes {get;}
-```
-```
 
-```
-```
 public:
 
 property array<int>^ Indexes {
@@ -26,12 +21,11 @@ property array<int>^ Indexes {
    array<int>^ get();
 
 }
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-a4371bf3-8173-4b1b-ab11-fbe51ed9ad90)
+**C#**
 
 ```
 MDPart oPart = m_MDPartsDatabase.Parts[0];//a valid part object

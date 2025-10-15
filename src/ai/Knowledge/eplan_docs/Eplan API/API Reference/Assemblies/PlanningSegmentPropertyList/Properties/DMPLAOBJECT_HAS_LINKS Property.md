@@ -8,17 +8,12 @@ Has linked segments # 44067.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_HAS_LINKS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_HAS_LINKS {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_HAS_LINKS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

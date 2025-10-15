@@ -15,28 +15,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDConstruction : MDPartsDatabaseItem
-```
-```
 
-```
-```
 public ref class MDConstruction : public MDPartsDatabaseItem
-```
-```
+
 
 Remarks
 
 To use that construction on a MDPart object, set the property ARTICLE\_REF\_CONSTRUCTION\_NAME to the name of the referenced construction
-
-
-
-
 
 Public Properties
 

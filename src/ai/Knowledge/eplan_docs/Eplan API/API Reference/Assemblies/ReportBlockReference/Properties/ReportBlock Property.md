@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ReportBlock ReportBlock {get;}
-```
-```
 
-```
-```
 public:
 
 property ReportBlock^ ReportBlock {
@@ -26,8 +21,7 @@ property ReportBlock^ ReportBlock {
    ReportBlock^ get();
 
 }
-```
-```
+
 
 Remarks
 

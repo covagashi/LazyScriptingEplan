@@ -8,17 +8,12 @@ If set to true, the objects returned by the SelectionSet methods are locked. Def
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool LockSelectionByDefault {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool LockSelectionByDefault {
@@ -28,5 +23,4 @@ property bool LockSelectionByDefault {
    void set (    bool value);
 
 }
-```
-```
+

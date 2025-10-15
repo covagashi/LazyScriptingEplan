@@ -8,17 +8,12 @@ Regulation # 10036.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_REGULATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_REGULATION {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_REGULATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

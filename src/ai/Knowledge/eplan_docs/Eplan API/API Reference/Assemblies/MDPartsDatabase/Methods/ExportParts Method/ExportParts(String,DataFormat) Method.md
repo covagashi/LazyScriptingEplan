@@ -8,11 +8,10 @@ Exports all parts from the system's parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExportParts( 
 
    string strFilePath,
@@ -20,11 +19,7 @@ public bool ExportParts(
    MDPartsDatabase.DataFormat dataFormat
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExportParts( 
@@ -34,8 +29,7 @@ bool ExportParts(
    MDPartsDatabase.DataFormat dataFormat
 
 )
-```
-```
+
 
 #### Parameters
 

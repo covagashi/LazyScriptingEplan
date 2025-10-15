@@ -8,17 +8,12 @@ Gets property id value as [Properties.Placement](Eplan.EplApi.DataModelu~Eplan.E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.Placement AsPlacement {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.Placement AsPlacement {
@@ -26,5 +21,4 @@ property Properties.Placement AsPlacement {
    Properties.Placement get();
 
 }
-```
-```
+

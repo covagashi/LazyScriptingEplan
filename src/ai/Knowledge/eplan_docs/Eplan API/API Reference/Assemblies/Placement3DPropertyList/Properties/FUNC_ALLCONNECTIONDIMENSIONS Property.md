@@ -8,17 +8,12 @@ Connection dimension (all) # 20375.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ALLCONNECTIONDIMENSIONS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ALLCONNECTIONDIMENSIONS {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ALLCONNECTIONDIMENSIONS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

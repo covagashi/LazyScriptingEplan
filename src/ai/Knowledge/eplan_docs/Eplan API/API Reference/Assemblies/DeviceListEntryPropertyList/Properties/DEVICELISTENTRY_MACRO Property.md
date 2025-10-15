@@ -8,17 +8,12 @@ Macro # 23214.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DEVICELISTENTRY_MACRO {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DEVICELISTENTRY_MACRO {
@@ -28,8 +23,7 @@ property PropertyValue^ DEVICELISTENTRY_MACRO {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

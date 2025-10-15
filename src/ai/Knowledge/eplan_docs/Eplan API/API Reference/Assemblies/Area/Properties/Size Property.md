@@ -8,17 +8,12 @@ Size of the area.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD Size {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PointD Size {
@@ -28,5 +23,4 @@ property PointD Size {
    void set (    PointD value);
 
 }
-```
-```
+

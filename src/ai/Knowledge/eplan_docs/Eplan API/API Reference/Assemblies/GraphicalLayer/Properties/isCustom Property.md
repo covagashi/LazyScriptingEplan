@@ -8,17 +8,12 @@ Returns true, if the layer is a custom layer.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool isCustom {get;}
-```
-```
 
-```
-```
 public:
 
 property bool isCustom {
@@ -26,5 +21,4 @@ property bool isCustom {
    bool get();
 
 }
-```
-```
+

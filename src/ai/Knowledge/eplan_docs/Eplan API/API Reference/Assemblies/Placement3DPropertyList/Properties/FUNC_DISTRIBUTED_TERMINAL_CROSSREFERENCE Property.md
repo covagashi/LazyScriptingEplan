@@ -8,17 +8,12 @@ Distributed terminals cross-reference # 20252.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DISTRIBUTED_TERMINAL_CROSSREFERENCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DISTRIBUTED_TERMINAL_CROSSREFERENCE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DISTRIBUTED_TERMINAL_CROSSREFERENCE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

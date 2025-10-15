@@ -8,17 +8,12 @@ Level # 20034.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TERMINALLEVEL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TERMINALLEVEL {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TERMINALLEVEL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

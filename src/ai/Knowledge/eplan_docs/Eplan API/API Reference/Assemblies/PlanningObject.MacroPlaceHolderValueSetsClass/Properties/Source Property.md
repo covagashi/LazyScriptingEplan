@@ -8,17 +8,12 @@ Planning object to which macro placeholder value sets belong
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningObject Source {get;}
-```
-```
 
-```
-```
 public:
 
 property PlanningObject^ Source {
@@ -26,8 +21,7 @@ property PlanningObject^ Source {
    PlanningObject^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

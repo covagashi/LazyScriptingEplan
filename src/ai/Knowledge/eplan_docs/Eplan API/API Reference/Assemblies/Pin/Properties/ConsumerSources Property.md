@@ -8,17 +8,12 @@ consumer source
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ConsumerSources {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ConsumerSources {
@@ -28,5 +23,4 @@ property String^ ConsumerSources {
    void set (    String^ value);
 
 }
-```
-```
+

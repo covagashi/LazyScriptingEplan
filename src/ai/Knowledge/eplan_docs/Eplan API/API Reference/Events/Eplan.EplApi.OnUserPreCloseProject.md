@@ -13,10 +13,14 @@ This parameter contains the name of the project to close. Parameter type for API
 **Example**
 
 ```
-m_EventHandler = new EventHandler("Eplan.EplApi.OnUserPreCloseProject");
-m_EventHandler.EplanEvent += delegate (IEventParameter parameter)
-{
-    new Decider().Decide(EnumDecisionType.eOkDecision, " Project " + new EventParameterString(parameter).String + " will be closed!", "OnUserPreCloseProject", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);
-};
-
+m_EventHandler = new EventHandler("Eplan.EplApi.OnUserPreCloseProject");
+
+m_EventHandler.EplanEvent += delegate (IEventParameter parameter)
+
+{
+
+    new Decider().Decide(EnumDecisionType.eOkDecision, " Project " + new EventParameterString(parameter).String + " will be closed!", "OnUserPreCloseProject", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);
+
+};
+
 ```

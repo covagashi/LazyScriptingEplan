@@ -8,20 +8,14 @@ Pre- defined classifications for project messages; every project message must be
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum IMessage.Classification : System.Enum
-```
-```
 
-```
-```
 public enum class IMessage.Classification : public System.Enum
-```
-```
+
 
 Members
 

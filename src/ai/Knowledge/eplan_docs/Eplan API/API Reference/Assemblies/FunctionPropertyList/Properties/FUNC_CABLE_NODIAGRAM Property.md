@@ -8,17 +8,12 @@ No output to cable diagram # 20085.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLE_NODIAGRAM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLE_NODIAGRAM {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLE_NODIAGRAM {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

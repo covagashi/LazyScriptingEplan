@@ -8,17 +8,12 @@ Returns count of parts of the same kind contained in this Module.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int Count {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int Count {
@@ -28,8 +23,7 @@ property int Count {
    void set (    int value);
 
 }
-```
-```
+
 
 #### Property Value
 

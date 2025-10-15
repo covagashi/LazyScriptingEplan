@@ -26,22 +26,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MasterDataException : Eplan.EplApi.Base.BaseException
-```
-```
 
-```
-```
 public ref class MasterDataException : public Eplan.EplApi.Base.BaseException
-```
-```
-
-
 
 Public Constructors
 
@@ -50,8 +41,6 @@ Public Constructors
 | Public Constructor | [MasterDataException Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MasterDataException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

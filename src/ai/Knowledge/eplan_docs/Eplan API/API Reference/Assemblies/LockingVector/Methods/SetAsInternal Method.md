@@ -8,19 +8,13 @@ Initializes LockingVectorProxy in API\_Framework. Used automatically, internally
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SetAsInternal()
-```
-```
 
-```
-```
 public:
 
 bool SetAsInternal();
-```
-```
+

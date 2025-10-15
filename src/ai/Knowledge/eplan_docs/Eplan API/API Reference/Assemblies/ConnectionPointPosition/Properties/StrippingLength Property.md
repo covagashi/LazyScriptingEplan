@@ -8,17 +8,12 @@ The stripping length describes a length of left insulation
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double StrippingLength {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double StrippingLength {
@@ -28,5 +23,4 @@ property double StrippingLength {
    void set (    double value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Device group main function # 20861.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_IS_DEVICEGROUP_MAINFUNCTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_IS_DEVICEGROUP_MAINFUNCTION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_IS_DEVICEGROUP_MAINFUNCTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns lower left corner's coordinates.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD LowerLeftCorner {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD LowerLeftCorner {
@@ -26,8 +21,7 @@ property PointD LowerLeftCorner {
    PointD get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Certification: UL Category Control Number # 22368.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CERTIFICATE_UL_CNN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CERTIFICATE_UL_CNN {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CERTIFICATE_UL_CNN {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

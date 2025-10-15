@@ -8,21 +8,16 @@ Constructor with description.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public InvalidArgumentException( 
 
    string txt
 
 )
-```
-```
 
-```
-```
 public:
 
 InvalidArgumentException( 
@@ -30,8 +25,7 @@ InvalidArgumentException(
    String^ txt
 
 )
-```
-```
+
 
 #### Parameters
 

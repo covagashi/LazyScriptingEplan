@@ -8,17 +8,12 @@ Model view: Edge width # 36524.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_EDGE_WIDTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_EDGE_WIDTH {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_EDGE_WIDTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Method for finding [OptionGroup](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public OptionGroup GetOptionGroupByName( 
 
    string strName
 
 )
-```
-```
 
-```
-```
 public:
 
 OptionGroup^ GetOptionGroupByName( 
@@ -30,8 +25,7 @@ OptionGroup^ GetOptionGroupByName(
    String^ strName
 
 )
-```
-```
+
 
 #### Parameters
 

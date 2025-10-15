@@ -8,17 +8,12 @@ Gets layer id of layer assigned to this object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short LayerId {get;}
-```
-```
 
-```
-```
 public:
 
 property short LayerId {
@@ -26,5 +21,4 @@ property short LayerId {
    short get();
 
 }
-```
-```
+

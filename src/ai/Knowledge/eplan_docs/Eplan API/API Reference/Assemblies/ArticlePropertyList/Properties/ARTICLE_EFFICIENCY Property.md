@@ -8,17 +8,12 @@ Efficiency # 26649.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_EFFICIENCY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_EFFICIENCY {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_EFFICIENCY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

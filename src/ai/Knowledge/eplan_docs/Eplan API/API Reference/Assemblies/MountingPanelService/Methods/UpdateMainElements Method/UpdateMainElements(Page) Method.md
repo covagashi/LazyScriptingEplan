@@ -8,21 +8,16 @@ Transfers part references of all part placements on the page to main functions. 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function[] UpdateMainElements( 
 
    Page page
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Function^>^ UpdateMainElements( 
@@ -30,8 +25,7 @@ array<Function^>^ UpdateMainElements(
    Page^ page
 
 )
-```
-```
+
 
 #### Parameters
 

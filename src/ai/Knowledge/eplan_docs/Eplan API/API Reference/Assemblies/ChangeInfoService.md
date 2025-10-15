@@ -13,26 +13,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ChangeInfoService
-```
-```
 
-```
-```
 public ref class ChangeInfoService
-```
-```
+
 
 Example
 
 Setting .ArticleTimeStampActive
 
-- [C#](#i-tab-content-5fa6c698-dd44-4b35-9262-c93922cc87d3)
+**C#**
 
 ```
 using (var changeInfoService = new ChangeInfoService { ArticleTimeStampActive = false })
@@ -47,8 +41,6 @@ using (var changeInfoService = new ChangeInfoService { ArticleTimeStampActive = 
 
 }
 
-
-
 //set properties with 'normal' timestamp settings. Will set automatically current time and user
 
 part.Properties.PART_LASTCHANGE_DATE = new DateTime(1977, 4, 26);
@@ -57,13 +49,11 @@ part.Properties.PART_LASTCHANGE_USER = "TEST_USER";
 
 part.Properties.ARTICLE_DESCR1 = "test_123";
 
-
-
 ```
 
 Setting .ChangeAndCreateInfoUpdateForPage
 
-- [C#](#i-tab-content-c848549f-c4e7-4241-af7f-6bf45108ed9d)
+**C#**
 
 ```
 //deactivate automatic change/create information update
@@ -80,8 +70,6 @@ using (var changeInfoService = new ChangeInfoService { ChangeAndCreateInfoUpdate
 
     text1.Remove();
 
-
-
     //output changes
 
     Console.WriteLine(page.Properties.PAGE_LASTAUTOMODIFICATIONDATE.ToString());
@@ -92,15 +80,11 @@ using (var changeInfoService = new ChangeInfoService { ChangeAndCreateInfoUpdate
 
 }
 
-
-
 var text2 = new Eplan.EplApi.DataModel.Graphics.Text();
 
 text2.Create(page, "", 10.0);
 
 text2.Remove();
-
-
 
 //output changes
 
@@ -109,8 +93,6 @@ Console.WriteLine(page.Properties.PAGE_LASTAUTOMODIFICATIONDATE.ToString());
 Console.WriteLine(page.Properties.PAGE_LASTAUTOMODIFICATIONTIME.ToString());
 
 Console.WriteLine(page.Properties.PAGE_LASTMODIFICATOR.ToString());
-
-
 
 ```
 
@@ -121,8 +103,6 @@ Public Constructors
 | Public Constructor | [ChangeInfoService Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ChangeInfoService~_ctor.html) | Constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

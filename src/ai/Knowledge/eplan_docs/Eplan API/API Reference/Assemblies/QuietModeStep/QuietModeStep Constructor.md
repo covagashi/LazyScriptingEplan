@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public QuietModeStep( 
 
    QuietModes quietMode
 
 )
-```
-```
 
-```
-```
 public:
 
 QuietModeStep( 
@@ -28,8 +23,7 @@ QuietModeStep(
    QuietModes quietMode
 
 )
-```
-```
+
 
 #### Parameters
 

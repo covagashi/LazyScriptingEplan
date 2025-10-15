@@ -8,17 +8,12 @@ Project start # 10028.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_PROJECTBEGIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_PROJECTBEGIN {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_PROJECTBEGIN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class RibbonCommandInfo
-```
-```
 
-```
-```
 public ref class RibbonCommandInfo
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [RibbonCommandInfo Constructor](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommandInfo~_ctor.html) |  |
 
 [Top](#top)
-
-
 
 Public Properties
 

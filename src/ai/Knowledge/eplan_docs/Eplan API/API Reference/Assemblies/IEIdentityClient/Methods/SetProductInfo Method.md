@@ -8,11 +8,10 @@ Sets product information
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool SetProductInfo( 
 
    ProductInfo productInfo,
@@ -20,11 +19,7 @@ bool SetProductInfo(
    Dictionary<string,string> additionalProductInfo
 
 )
-```
-```
 
-```
-```
 bool SetProductInfo( 
 
    ProductInfo^ productInfo,
@@ -32,8 +27,7 @@ bool SetProductInfo(
    Dictionary<String^,String^>^ additionalProductInfo
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,20 +8,14 @@ Identificators of properties owned by InstallationSpace class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.InstallationSpace : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.InstallationSpace : public System.Enum
-```
-```
+
 
 Members
 

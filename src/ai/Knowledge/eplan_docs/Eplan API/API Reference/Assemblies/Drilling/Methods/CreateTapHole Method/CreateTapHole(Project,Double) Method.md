@@ -8,11 +8,10 @@ Creates new tap hole in project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateTapHole( 
 
    Project pProject,
@@ -20,11 +19,7 @@ public void CreateTapHole(
    double dDiameter
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateTapHole( 
@@ -34,8 +29,7 @@ void CreateTapHole(
    double dDiameter
 
 )
-```
-```
+
 
 #### Parameters
 

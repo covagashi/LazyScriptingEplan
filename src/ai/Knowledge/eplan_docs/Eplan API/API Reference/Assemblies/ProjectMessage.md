@@ -14,26 +14,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ProjectMessage : BaseProjectMessage
-```
-```
 
-```
-```
 public ref class ProjectMessage : public BaseProjectMessage
-```
-```
+
 
 Remarks
 
 To get [Eplan.EplApi.DataModel.Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html) or [Eplan.EplApi.DataModel.E3D.InstallationSpace](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.InstallationSpace.html) associated with this message, it is necessary to get first associated object and gain needed information from it.
-
-
 
 Public Constructors
 
@@ -42,8 +34,6 @@ Public Constructors
 | Public Constructor | [ProjectMessage Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ProjectMessage~_ctor(ProjectMessageHandle).html) |  |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ Gets a property's maximal value specified in the property's definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual MDPropertyValue UpperBound {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property MDPropertyValue^ UpperBound {
@@ -26,8 +21,7 @@ virtual property MDPropertyValue^ UpperBound {
    MDPropertyValue^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

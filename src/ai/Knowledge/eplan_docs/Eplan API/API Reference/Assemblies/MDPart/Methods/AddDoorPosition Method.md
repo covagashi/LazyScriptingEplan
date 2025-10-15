@@ -8,19 +8,13 @@ Add a new DoorPosition to the part. That DoorPosition is added to the end of the
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDDoorPosition AddDoorPosition()
-```
-```
 
-```
-```
 public:
 
 MDDoorPosition^ AddDoorPosition();
-```
-```
+

@@ -8,21 +8,16 @@ Symbol variant assignment (internal) # 16031.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMB_IMPORTEDVARIANTMAPPING( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMB_IMPORTEDVARIANTMAPPING {
@@ -32,8 +27,7 @@ property MDPropertyValue^ SYMB_IMPORTEDVARIANTMAPPING {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

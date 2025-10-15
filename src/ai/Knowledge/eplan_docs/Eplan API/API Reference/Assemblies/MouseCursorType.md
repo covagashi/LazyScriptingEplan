@@ -8,20 +8,14 @@ Mouse cursor types which can be used in dragging operation.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MouseCursorType : System.Enum
-```
-```
 
-```
-```
 public enum class MouseCursorType : public System.Enum
-```
-```
+
 
 Members
 

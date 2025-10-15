@@ -8,17 +8,12 @@ Returns [Eplan.EplApi.DataModel.ContextPropertyPlacement.Enums.BasePoint](Eplan.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override ContextPropertyPlacement.Enums.BasePoint BasePoint {set;}
-```
-```
 
-```
-```
 public:
 
 property ContextPropertyPlacement.Enums.BasePoint BasePoint {
@@ -26,8 +21,7 @@ property ContextPropertyPlacement.Enums.BasePoint BasePoint {
    void set (    ContextPropertyPlacement.Enums.BasePoint value) override;
 
 }
-```
-```
+
 
 #### Property Value
 

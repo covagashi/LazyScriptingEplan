@@ -17,24 +17,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Property")]
 
 public class DimensionItemPropertyList : GraphicalPlacementPropertyList
-```
-```
 
-```
-```
 [DefaultMember("Property")]
 
 public ref class DimensionItemPropertyList : public GraphicalPlacementPropertyList
-```
-```
+
 
 Remarks
 
@@ -46,7 +40,7 @@ Example
 
 Example shows usage of online an offline property list:
 
-- [C#](#i-tab-content-3fb1820b-ff76-4d68-9d91-fc0e5df134a3)
+**C#**
 
 ```
 // creation of persistent property list
@@ -57,15 +51,11 @@ oPersistentPropertyList1.FUNC_COMMENT = "Comment";
 
 // now oFunction.Properties.FUNC_COMMENT is equal "Comment"
 
-
-
 FunctionPropertyList oPersistentPropertyList2 = new FunctionPropertyList(oFunction);
 
 oPersistentPropertyList2.FUNC_COMMENT = "Test";
 
 // now oFunction.Properties.FUNC_COMMENT is equal "Test"
-
-
 
 // creation of transient property list
 
@@ -79,8 +69,6 @@ oTransientPropertyList.FUNC_COMMENT = "Transient comment";
 
 // now oTransientPropertyList.FUNC_COMMENT is equal "Test comment"
 
-
-
 ```
 
 Public Constructors
@@ -90,8 +78,6 @@ Public Constructors
 | Public Constructor | [DimensionItemPropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.DimensionItemPropertyList~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

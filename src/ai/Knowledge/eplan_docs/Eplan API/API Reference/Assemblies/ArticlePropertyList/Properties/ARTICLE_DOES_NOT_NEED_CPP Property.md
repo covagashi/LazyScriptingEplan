@@ -8,17 +8,12 @@ Part does not require a connection point pattern # 22393.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_DOES_NOT_NEED_CPP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_DOES_NOT_NEED_CPP {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_DOES_NOT_NEED_CPP {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public OptionGroup Group {get; set;}
-```
-```
 
-```
-```
 public:
 
 property OptionGroup^ Group {
@@ -28,8 +23,7 @@ property OptionGroup^ Group {
    void set (    OptionGroup^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

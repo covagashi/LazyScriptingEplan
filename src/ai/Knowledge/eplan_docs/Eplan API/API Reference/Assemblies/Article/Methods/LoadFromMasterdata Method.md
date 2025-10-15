@@ -8,22 +8,16 @@ Fills the Article with data from the system parts database
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool LoadFromMasterdata()
-```
-```
 
-```
-```
 public:
 
 bool LoadFromMasterdata();
-```
-```
+
 
 #### Return Value
 

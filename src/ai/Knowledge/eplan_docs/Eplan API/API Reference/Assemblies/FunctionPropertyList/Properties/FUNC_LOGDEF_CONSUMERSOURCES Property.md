@@ -8,21 +8,16 @@ Connection point logic: Consumer / source to # 20327.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_LOGDEF_CONSUMERSOURCES( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_LOGDEF_CONSUMERSOURCES {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_LOGDEF_CONSUMERSOURCES {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

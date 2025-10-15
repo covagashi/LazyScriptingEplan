@@ -8,17 +8,12 @@ Script address. Default = empty.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ScriptAddress {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ScriptAddress {
@@ -28,5 +23,4 @@ property String^ ScriptAddress {
    void set (    String^ value);
 
 }
-```
-```
+

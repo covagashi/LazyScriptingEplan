@@ -8,17 +8,12 @@ The X-position of the connection point
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double XPosition {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double XPosition {
@@ -28,5 +23,4 @@ property double XPosition {
    void set (    double value);
 
 }
-```
-```
+

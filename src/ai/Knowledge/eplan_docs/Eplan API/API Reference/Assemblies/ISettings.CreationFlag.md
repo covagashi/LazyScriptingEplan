@@ -8,20 +8,14 @@ Creation flag
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ISettings.CreationFlag : System.Enum
-```
-```
 
-```
-```
 public enum class ISettings.CreationFlag : public System.Enum
-```
-```
+
 
 Members
 

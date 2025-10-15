@@ -8,21 +8,16 @@ Creates new connection category
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static MDConnectionCategory Create( 
 
    MultiLangString name
 
 )
-```
-```
 
-```
-```
 public:
 
 static MDConnectionCategory Create( 
@@ -30,8 +25,7 @@ static MDConnectionCategory Create(
    MultiLangString^ name
 
 )
-```
-```
+
 
 #### Parameters
 

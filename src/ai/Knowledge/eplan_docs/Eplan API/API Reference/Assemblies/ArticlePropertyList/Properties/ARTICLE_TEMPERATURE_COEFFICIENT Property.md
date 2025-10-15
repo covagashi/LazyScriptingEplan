@@ -8,17 +8,12 @@ Temperature coefficient # 22274.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TEMPERATURE_COEFFICIENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TEMPERATURE_COEFFICIENT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TEMPERATURE_COEFFICIENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

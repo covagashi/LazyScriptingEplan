@@ -4,7 +4,7 @@
 
 ---
 
-Eplan API was created using the MicrosoftÂ® .NET 4.8.1 technology.
+Eplan API was created using the Microsoft® .NET 4.8.1 technology.
 
 To develop applications with the Eplan API, we recommend Microsoft Visual Studio 2022 or 2019. However it should also work with other development environments for the Microsoft .NET Framework 4.8.1. However, the Eplan API was not tested with IDEs other than the one mentioned above.
 

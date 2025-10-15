@@ -8,17 +8,12 @@ IdentityClient token.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string IdentityToken {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ IdentityToken {
@@ -28,5 +23,4 @@ property String^ IdentityToken {
    void set (    String^ value);
 
 }
-```
-```
+

@@ -8,11 +8,10 @@ Creates not placed CopperBundle.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static CopperBundle Create( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public static CopperBundle Create(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static CopperBundle^ Create( 
@@ -34,8 +29,7 @@ static CopperBundle^ Create(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

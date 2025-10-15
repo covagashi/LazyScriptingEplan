@@ -8,21 +8,16 @@ Removes the given symbol position from the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveSymbolPosition( 
 
    MDSymbolPosition pSymbolPosition
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveSymbolPosition( 
@@ -30,8 +25,7 @@ void RemoveSymbolPosition(
    MDSymbolPosition^ pSymbolPosition
 
 )
-```
-```
+
 
 #### Parameters
 

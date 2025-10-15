@@ -15,26 +15,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ArticleReference : StorableObject
-```
-```
 
-```
-```
 public ref class ArticleReference : public StorableObject
-```
-```
+
 
 Remarks
 
 For further information, see [WorkingWithParts](WorkingWithParts.html). Some part reference properties are taken from the part if they are set to empty on the reference. Mind that ArticleReference is offline object and if you change a property from ArticleReference.Properties, you need to call the [StoreToObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference~StoreToObject.html) method in order to write data to corresponding properties of parent object (Project/Function/Connection).
-
-
 
 Public Constructors
 
@@ -43,8 +35,6 @@ Public Constructors
 | Public Constructor | [ArticleReference Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference~_ctor(String,String,UInt32).html) | Constructor used to create transient article reference object. That object can be passed as a parameter to ConnectionDefinitionPoint() function. |
 
 [Top](#top)
-
-
 
 Public Properties
 

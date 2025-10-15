@@ -8,17 +8,12 @@ Material selection list # 26656.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_MATERIAL_LIST {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_MATERIAL_LIST {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_MATERIAL_LIST {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Frequency range # 26343.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_FREQUENCY_RANGE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_FREQUENCY_RANGE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_FREQUENCY_RANGE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

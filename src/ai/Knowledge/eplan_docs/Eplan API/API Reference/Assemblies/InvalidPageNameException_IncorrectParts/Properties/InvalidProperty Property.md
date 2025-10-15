@@ -8,17 +8,12 @@ Provides a hint about which hierarchy property is invalid.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public AnyPropertyId InvalidProperty {get;}
-```
-```
 
-```
-```
 public:
 
 property AnyPropertyId^ InvalidProperty {
@@ -26,5 +21,4 @@ property AnyPropertyId^ InvalidProperty {
    AnyPropertyId^ get();
 
 }
-```
-```
+

@@ -8,22 +8,16 @@ Evaluates the full name for all placed 3D functions in installation space by cal
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool EvaluateAndSetAllNames()
-```
-```
 
-```
-```
 public:
 
 bool EvaluateAndSetAllNames();
-```
-```
+
 
 #### Return Value
 

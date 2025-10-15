@@ -14,28 +14,17 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [Serializable()]
 
 public struct EplanData : System.ValueType
-```
-```
 
-```
-```
 [Serializable()]
 
 public value class EplanData : public System.ValueType
-```
-```
-
-
-
-
 
 Public Properties
 

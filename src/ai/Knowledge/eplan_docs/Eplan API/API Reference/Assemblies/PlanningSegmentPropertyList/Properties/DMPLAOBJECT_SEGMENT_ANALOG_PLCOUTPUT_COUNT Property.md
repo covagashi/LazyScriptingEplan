@@ -8,17 +8,12 @@ Number of digital PLC inputs # 44079.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_SEGMENT_DIGITAL_PLCINPUT_COUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_SEGMENT_DIGITAL_PLCINPUT_COUNT {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_SEGMENT_DIGITAL_PLCINPUT_COUNT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns number of repetitions of consecutive messages with the same text (i.e. e
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int NumberOfOccurrences {get;}
-```
-```
 
-```
-```
 public:
 
 property int NumberOfOccurrences {
@@ -26,5 +21,4 @@ property int NumberOfOccurrences {
    int get();
 
 }
-```
-```
+

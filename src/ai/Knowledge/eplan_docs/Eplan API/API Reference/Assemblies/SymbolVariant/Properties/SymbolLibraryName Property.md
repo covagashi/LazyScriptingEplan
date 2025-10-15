@@ -8,17 +8,12 @@ Returns name of the library the symbol is taken from.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SymbolLibraryName {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ SymbolLibraryName {
@@ -26,8 +21,7 @@ property String^ SymbolLibraryName {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

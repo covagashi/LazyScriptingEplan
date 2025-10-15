@@ -8,11 +8,10 @@ Creates transient InstallationSpace object and sets a name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static InstallationSpace CreateTransient( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public static InstallationSpace CreateTransient(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static InstallationSpace^ CreateTransient( 
@@ -38,8 +33,7 @@ static InstallationSpace^ CreateTransient(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

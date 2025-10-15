@@ -14,28 +14,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDAccessoryListPosition : MDPartsDatabaseItemChildData
-```
-```
 
-```
-```
 public ref class MDAccessoryListPosition : public MDPartsDatabaseItemChildData
-```
-```
+
 
 Remarks
 
 In order to get the value of readonly field Designation1, user have to get the corresponding part (using the partnr) and take the property: EW3\_PROPERTY\_ARTICLE\_DESCR1.
-
-
-
-
 
 Public Properties
 

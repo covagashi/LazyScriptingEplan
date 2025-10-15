@@ -8,17 +8,12 @@ Sequence of the project structures in the page name # 10089.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_STRUCTURESEQUENCE_PAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_STRUCTURESEQUENCE_PAGE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_STRUCTURESEQUENCE_PAGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

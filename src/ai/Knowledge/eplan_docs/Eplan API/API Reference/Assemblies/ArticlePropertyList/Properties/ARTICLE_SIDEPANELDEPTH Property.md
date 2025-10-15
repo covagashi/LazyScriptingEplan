@@ -8,17 +8,12 @@ Side panel: Depth # 22168.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SIDEPANELDEPTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SIDEPANELDEPTH {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SIDEPANELDEPTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

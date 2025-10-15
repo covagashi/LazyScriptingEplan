@@ -8,20 +8,14 @@ Import Indentifier
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum PartsService.ImportIdentifier : System.Enum
-```
-```
 
-```
-```
 public enum class PartsService.ImportIdentifier : public System.Enum
-```
-```
+
 
 Members
 

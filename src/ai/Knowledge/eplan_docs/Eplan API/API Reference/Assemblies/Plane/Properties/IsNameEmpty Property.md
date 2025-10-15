@@ -8,17 +8,12 @@ Returns true if the list of name's properties is empty
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool IsNameEmpty {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool IsNameEmpty {
@@ -26,5 +21,4 @@ virtual property bool IsNameEmpty {
    bool get();
 
 }
-```
-```
+

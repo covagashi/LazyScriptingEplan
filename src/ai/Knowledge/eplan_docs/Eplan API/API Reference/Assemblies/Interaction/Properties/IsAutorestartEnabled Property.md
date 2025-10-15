@@ -8,17 +8,12 @@ Returns `true`, if interaction should restart after stop.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool IsAutorestartEnabled {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool IsAutorestartEnabled {
@@ -26,5 +21,4 @@ virtual property bool IsAutorestartEnabled {
    bool get();
 
 }
-```
-```
+

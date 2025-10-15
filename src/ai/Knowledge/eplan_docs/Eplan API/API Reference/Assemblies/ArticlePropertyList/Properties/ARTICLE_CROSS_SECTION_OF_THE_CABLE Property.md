@@ -8,17 +8,12 @@ Cable: Cross-section # 26136.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CROSS_SECTION_OF_THE_CABLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CROSS_SECTION_OF_THE_CABLE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CROSS_SECTION_OF_THE_CABLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Cross-sectional area of the electrical conductor within a cable, measured in square millimeters (mmÂ²).
+Cross-sectional area of the electrical conductor within a cable, measured in square millimeters (mm²).

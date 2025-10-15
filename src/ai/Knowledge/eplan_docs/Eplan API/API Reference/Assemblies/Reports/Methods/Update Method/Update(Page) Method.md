@@ -8,21 +8,16 @@ Updates report pages or all embedded reports on a page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Update( 
 
    Page oPage
 
 )
-```
-```
 
-```
-```
 public:
 
 void Update( 
@@ -30,8 +25,7 @@ void Update(
    Page^ oPage
 
 )
-```
-```
+
 
 #### Parameters
 

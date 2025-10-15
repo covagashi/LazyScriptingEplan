@@ -8,17 +8,12 @@ Special remarks of creator # 11059.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_ANNOTATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_ANNOTATION {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_ANNOTATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

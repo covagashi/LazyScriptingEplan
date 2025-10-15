@@ -8,17 +8,12 @@ Set / Get Parameters of the text
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ProjectParserParameter ParserParameter {get; set;}
-```
-```
 
-```
-```
 public:
 
 property ProjectParserParameter^ ParserParameter {
@@ -28,5 +23,4 @@ property ProjectParserParameter^ ParserParameter {
    void set (    ProjectParserParameter^ value);
 
 }
-```
-```
+

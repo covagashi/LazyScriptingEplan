@@ -8,11 +8,10 @@ Change angle between segments of bended bus bar.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ChangeSegmentAngle( 
 
    double dNewAngle,
@@ -22,11 +21,7 @@ public void ChangeSegmentAngle(
    long nMovingBendingPoint
 
 )
-```
-```
 
-```
-```
 public:
 
 void ChangeSegmentAngle( 
@@ -38,8 +33,7 @@ void ChangeSegmentAngle(
    int64 nMovingBendingPoint
 
 )
-```
-```
+
 
 #### Parameters
 

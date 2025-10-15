@@ -8,19 +8,13 @@ Default constructor
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement3DService()
-```
-```
 
-```
-```
 public:
 
 Placement3DService();
-```
-```
+

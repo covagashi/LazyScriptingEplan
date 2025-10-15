@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetValid( 
 
    bool bValid
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetValid( 
@@ -28,8 +23,7 @@ void SetValid(
    bool bValid
 
 )
-```
-```
+
 
 #### Parameters
 

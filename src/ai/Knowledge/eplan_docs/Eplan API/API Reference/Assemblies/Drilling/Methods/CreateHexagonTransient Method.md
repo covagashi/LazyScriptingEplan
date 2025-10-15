@@ -8,11 +8,10 @@ Creates new transient hexagon drilling.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Drilling CreateHexagonTransient( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public static Drilling CreateHexagonTransient(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static Drilling^ CreateHexagonTransient( 
@@ -38,8 +33,7 @@ static Drilling^ CreateHexagonTransient(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

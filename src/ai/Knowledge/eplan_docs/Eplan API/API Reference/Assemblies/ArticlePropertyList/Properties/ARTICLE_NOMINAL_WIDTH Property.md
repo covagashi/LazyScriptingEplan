@@ -8,17 +8,12 @@ Nominal size / diameter # 26512.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_NOMINAL_WIDTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_NOMINAL_WIDTH {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_NOMINAL_WIDTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

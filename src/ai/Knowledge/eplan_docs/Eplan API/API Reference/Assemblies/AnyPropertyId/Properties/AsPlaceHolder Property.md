@@ -8,17 +8,12 @@ Gets property id value as [Properties.PlaceHolder](Eplan.EplApi.DataModelu~Eplan
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.PlaceHolder AsPlaceHolder {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.PlaceHolder AsPlaceHolder {
@@ -26,5 +21,4 @@ property Properties.PlaceHolder AsPlaceHolder {
    Properties.PlaceHolder get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Gets property id value as [Properties.Line](Eplan.EplApi.DataModelu~Eplan.EplApi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.Line AsLine {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.Line AsLine {
@@ -26,5 +21,4 @@ property Properties.Line AsLine {
    Properties.Line get();
 
 }
-```
-```
+

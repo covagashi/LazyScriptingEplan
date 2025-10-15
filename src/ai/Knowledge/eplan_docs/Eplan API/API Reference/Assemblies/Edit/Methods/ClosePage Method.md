@@ -8,21 +8,16 @@ closes a page and the associated GEDs
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ClosePage( 
 
    Page page
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ClosePage( 
@@ -30,8 +25,7 @@ bool ClosePage(
    Page^ page
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -40,8 +34,8 @@ bool ClosePage(
 
 #### Return Value
 
-â¢ TRUE, if everything is alright  
-â¢ FALSE otherwise.
+'¢ TRUE, if everything is alright  
+'¢ FALSE otherwise.
 
 Exceptions
 

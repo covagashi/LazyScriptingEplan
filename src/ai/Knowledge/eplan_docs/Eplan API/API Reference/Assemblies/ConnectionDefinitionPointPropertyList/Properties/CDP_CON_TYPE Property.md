@@ -8,17 +8,12 @@ Associated connections: Function definition # 31035.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CDP_CON_TYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CDP_CON_TYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ CDP_CON_TYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

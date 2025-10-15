@@ -8,8 +8,8 @@ You can load and unload scripts in Eplan. In this case, not the start function i
 
 The following example shows a script that registers a new action. Therefore, a function is marked by the attribute  [DeclareAction]. The parameter of the attribute defines the name of the new action in Eplan.
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
@@ -32,14 +32,7 @@ public class SimpleScriptAction
 
 }
 
-```
-
-```
-
-
 Public Class SimpleScriptAction
-
-
 
    <DeclareAction("MyScriptAction")>  _
 

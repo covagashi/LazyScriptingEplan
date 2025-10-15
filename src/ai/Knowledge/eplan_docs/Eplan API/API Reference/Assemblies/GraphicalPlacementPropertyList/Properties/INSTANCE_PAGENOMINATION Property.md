@@ -8,17 +8,12 @@ Page description # 19024.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTANCE_PAGENOMINATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTANCE_PAGENOMINATION {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTANCE_PAGENOMINATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

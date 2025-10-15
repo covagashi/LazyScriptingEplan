@@ -8,17 +8,12 @@ Distance rear panel # 22173.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_REARPANELDISTANCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_REARPANELDISTANCE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_REARPANELDISTANCE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Gets or sets type of routing (with/without using a network)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Connection3D.Enums.RoutingType RoutingType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Connection3D.Enums.RoutingType RoutingType {
@@ -28,5 +23,4 @@ property Connection3D.Enums.RoutingType RoutingType {
    void set (    Connection3D.Enums.RoutingType value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Object identification # 2000.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROPUSER_DBOBJECTID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROPUSER_DBOBJECTID {
@@ -28,8 +23,7 @@ property PropertyValue^ PROPUSER_DBOBJECTID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

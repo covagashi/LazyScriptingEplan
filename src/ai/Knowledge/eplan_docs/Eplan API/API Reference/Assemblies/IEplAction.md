@@ -8,24 +8,18 @@ Interface declaration for an action. When an action is to be registered for an a
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [Guid("83FAA39E-2215-3984-982F-29FFB4B3F5F2")]
 
 public interface IEplAction
-```
-```
 
-```
-```
 [Guid("83FAA39E-2215-3984-982F-29FFB4B3F5F2")]
 
 public interface class IEplAction
-```
-```
+
 
 Remarks
 
@@ -35,7 +29,7 @@ Example
 
 Implementation of a Action in an add-in
 
-- [C#](#i-tab-content-43c20a07-8bf2-468d-af1e-0b7bdc180b55)
+**C#**
 
 ```
 public class NewAction: IEplAction
@@ -52,13 +46,9 @@ public class NewAction: IEplAction
 
   new Decider().Decide(EnumDecisionType.eOkDecision, "NewAction was invoked!", "", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);
 
-
-
         return true;
 
     }
-
-
 
  public bool OnRegister(ref string Name, ref int Ordinal)
 
@@ -72,8 +62,6 @@ public class NewAction: IEplAction
 
  }
 
-
-
  public  void GetActionProperties(ref ActionProperties actionProperties)
 
  {
@@ -82,10 +70,6 @@ public class NewAction: IEplAction
 
  }
 ```
-
-
-
-
 
 Public Methods
 

@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class EplanMainThreadDispatcher
-```
-```
 
-```
-```
 public ref class EplanMainThreadDispatcher
-```
-```
+
 
 Remarks
 
@@ -34,7 +28,7 @@ Executing API code purely of of main Eplan thread is not recommended, i.e. such 
 
 Example
 
-- [C#](#i-tab-content-f47188da-867c-418a-a3ed-084cd33d9769)
+**C#**
 
 ```
 
@@ -46,8 +40,6 @@ eplanMainThreadDispatcher.ExecuteInMainThreadAsync(
         () => { new CommandLineInterpreter().Execute("check /TYPE:PROJECT"); }
 
     );
-
-
 
 //create a progress bar with a background work
 
@@ -63,8 +55,6 @@ using (Progress progress = new Progress("SimpleProgress"))
 
 }
 
-
-
 ```
 
 Public Constructors
@@ -74,9 +64,6 @@ Public Constructors
 | Public Constructor | [EplanMainThreadDispatcher Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Internal.EplanMainThreadDispatcher~_ctor.html) | Creates a new dispatcher |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

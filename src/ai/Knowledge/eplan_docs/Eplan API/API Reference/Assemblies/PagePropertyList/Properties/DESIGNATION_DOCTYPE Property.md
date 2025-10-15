@@ -8,17 +8,12 @@ Document type (main identifier) # 1500.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_DOCTYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_DOCTYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_DOCTYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

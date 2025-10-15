@@ -8,17 +8,12 @@ Sets the ArticleReference at the reference position of the ArticleReference.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ArticleReference ArticleReference {set;}
-```
-```
 
-```
-```
 public:
 
 property ArticleReference^ ArticleReference {
@@ -26,8 +21,7 @@ property ArticleReference^ ArticleReference {
    void set (    ArticleReference^ value);
 
 }
-```
-```
+
 
 Exceptions
 

@@ -8,17 +8,12 @@ Supply voltage, max. # 26172.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SUPPLY_VOLTAGE_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SUPPLY_VOLTAGE_MAX {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SUPPLY_VOLTAGE_MAX {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

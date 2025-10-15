@@ -8,11 +8,10 @@ Exports Harness data from project without any filtering.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExportData( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public void ExportData(
    string strLanguage
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExportData( 
@@ -38,8 +33,7 @@ void ExportData(
    String^ strLanguage
 
 )
-```
-```
+
 
 #### Parameters
 

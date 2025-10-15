@@ -8,17 +8,12 @@ Start value (column) # 12025.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_PATH_STARTID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_PATH_STARTID {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_PATH_STARTID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

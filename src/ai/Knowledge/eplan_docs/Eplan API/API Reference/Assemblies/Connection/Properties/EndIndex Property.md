@@ -8,17 +8,12 @@ Index of the end function's connection point (0,1,2,...) that the connection is 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short EndIndex {get; set;}
-```
-```
 
-```
-```
 public:
 
 property short EndIndex {
@@ -28,5 +23,4 @@ property short EndIndex {
    void set (    short value);
 
 }
-```
-```
+

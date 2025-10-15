@@ -8,17 +8,12 @@ Version # 22104.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_FIRMWAREVERSION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_FIRMWAREVERSION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_FIRMWAREVERSION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

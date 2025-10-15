@@ -8,21 +8,16 @@ ID for net-based connections # 20218.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION_NETBASEDWIRING_ID( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION_NETBASEDWIRING_ID {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNCTION_NETBASEDWIRING_ID {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

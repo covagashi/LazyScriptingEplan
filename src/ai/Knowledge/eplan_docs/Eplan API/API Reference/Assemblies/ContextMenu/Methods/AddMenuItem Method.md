@@ -8,11 +8,10 @@ Adds a new menu item at the end of a context menu.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AddMenuItem( 
 
    ContextMenuLocation contextMenuLocation,
@@ -26,11 +25,7 @@ public bool AddMenuItem(
    bool bSeparatorBehind
 
 )
-```
-```
 
-```
-```
 public:
 
 bool AddMenuItem( 
@@ -46,8 +41,7 @@ bool AddMenuItem(
    bool bSeparatorBehind
 
 )
-```
-```
+
 
 #### Parameters
 

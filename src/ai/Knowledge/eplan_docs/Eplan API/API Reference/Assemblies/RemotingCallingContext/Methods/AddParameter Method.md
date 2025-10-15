@@ -6,11 +6,10 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddParameter( 
 
    string strParameterName,
@@ -18,11 +17,7 @@ public void AddParameter(
    string strNewParameterValue
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddParameter( 
@@ -32,8 +27,7 @@ void AddParameter(
    String^ strNewParameterValue
 
 )
-```
-```
+
 
 #### Parameters
 

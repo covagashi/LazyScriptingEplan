@@ -8,17 +8,12 @@ Format of full DT: Fluid connection splicer / line connector # 10654.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_FULLDTFORMAT_DISTRIBUTOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_FULLDTFORMAT_DISTRIBUTOR {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_FULLDTFORMAT_DISTRIBUTOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

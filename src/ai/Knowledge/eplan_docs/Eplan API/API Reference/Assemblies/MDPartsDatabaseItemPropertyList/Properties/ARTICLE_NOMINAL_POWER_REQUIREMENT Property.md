@@ -8,17 +8,12 @@ Nominal power requirement # 26484.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_NOMINAL_POWER_REQUIREMENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_NOMINAL_POWER_REQUIREMENT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_NOMINAL_POWER_REQUIREMENT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

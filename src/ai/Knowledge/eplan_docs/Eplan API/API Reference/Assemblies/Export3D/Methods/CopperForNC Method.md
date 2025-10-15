@@ -8,11 +8,10 @@ Exports unfolding of bended bus bar as numerical control data.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CopperForNC( 
 
    Project oProject,
@@ -28,11 +27,7 @@ public bool CopperForNC(
    IEnumerable<Placement3D> oCollection
 
 )
-```
-```
 
-```
-```
 public:
 
 bool CopperForNC( 
@@ -50,8 +45,7 @@ bool CopperForNC(
    IEnumerable<Placement3D^>^ oCollection
 
 )
-```
-```
+
 
 #### Parameters
 

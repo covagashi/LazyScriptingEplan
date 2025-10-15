@@ -8,17 +8,12 @@ Gets property id value as [Properties.FunctionDefinitionLibrary](Eplan.EplApi.Da
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.FunctionDefinitionLibrary AsFunctionDefinitionLibrary {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.FunctionDefinitionLibrary AsFunctionDefinitionLibrary {
@@ -26,5 +21,4 @@ property Properties.FunctionDefinitionLibrary AsFunctionDefinitionLibrary {
    Properties.FunctionDefinitionLibrary get();
 
 }
-```
-```
+

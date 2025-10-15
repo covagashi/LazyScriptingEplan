@@ -8,17 +8,12 @@ Connection: Color (multilingual) # 31061.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_MLWIRENUMBER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_MLWIRENUMBER {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_MLWIRENUMBER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

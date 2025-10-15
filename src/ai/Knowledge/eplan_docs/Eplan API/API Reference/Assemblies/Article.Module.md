@@ -13,28 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Article.Module
-```
-```
 
-```
-```
 public ref class Article.Module
-```
-```
+
 
 Remarks
 
 Module has its own part number and can also contain device tag.
-
-
-
-
 
 Public Properties
 

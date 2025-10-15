@@ -8,21 +8,16 @@ Thermal design: Total power dissipation for air-conditioning field # 10313.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJECT_POWERDISSIPATION_POWER_OF_ZONE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJECT_POWERDISSIPATION_POWER_OF_ZONE {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJECT_POWERDISSIPATION_POWER_OF_ZONE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

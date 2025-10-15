@@ -8,11 +8,10 @@ Restore master data from archive files.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void MasterData( 
 
    string strArchivename,
@@ -20,11 +19,7 @@ public void MasterData(
    string strRestorePath
 
 )
-```
-```
 
-```
-```
 public:
 
 void MasterData( 
@@ -34,8 +29,7 @@ void MasterData(
    String^ strRestorePath
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Gets parent function (a main function having the same identifying name or, in ca
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Function ParentFunction {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property Function^ ParentFunction {
@@ -26,8 +21,7 @@ virtual property Function^ ParentFunction {
    Function^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

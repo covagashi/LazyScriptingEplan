@@ -8,17 +8,12 @@ Representation type / report type # 19021.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTANCE_TYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTANCE_TYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTANCE_TYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

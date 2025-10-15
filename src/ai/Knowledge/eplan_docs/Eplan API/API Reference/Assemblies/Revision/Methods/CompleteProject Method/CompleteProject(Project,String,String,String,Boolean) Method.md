@@ -8,11 +8,10 @@ Completes current revision of a project and can evaluate the project. Used for c
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CompleteProject( 
 
    Project oProjectToComplete,
@@ -26,11 +25,7 @@ public void CompleteProject(
    bool bEvaluate
 
 )
-```
-```
 
-```
-```
 public:
 
 void CompleteProject( 
@@ -46,8 +41,7 @@ void CompleteProject(
    bool bEvaluate
 
 )
-```
-```
+
 
 #### Parameters
 

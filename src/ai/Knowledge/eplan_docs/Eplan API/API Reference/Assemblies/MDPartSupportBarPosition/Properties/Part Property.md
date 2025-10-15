@@ -8,17 +8,12 @@ The referenced support bar part as MDPart object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual MDPart Part {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property MDPart^ Part {
@@ -26,5 +21,4 @@ virtual property MDPart^ Part {
    MDPart^ get();
 
 }
-```
-```
+

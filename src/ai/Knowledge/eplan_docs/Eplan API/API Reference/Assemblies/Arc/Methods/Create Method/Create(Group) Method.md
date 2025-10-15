@@ -8,21 +8,16 @@ Creates a Arc object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Arc Create( 
 
    Group group
 
 )
-```
-```
 
-```
-```
 public:
 
 static Arc^ Create( 
@@ -30,8 +25,7 @@ static Arc^ Create(
    Group^ group
 
 )
-```
-```
+
 
 #### Parameters
 

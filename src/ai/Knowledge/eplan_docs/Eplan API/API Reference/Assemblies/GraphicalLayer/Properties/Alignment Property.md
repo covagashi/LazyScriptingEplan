@@ -8,17 +8,12 @@ Specifies the Justification.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public GraphicalLayer.AlignmentType Alignment {get; set;}
-```
-```
 
-```
-```
 public:
 
 property GraphicalLayer.AlignmentType Alignment {
@@ -28,5 +23,4 @@ property GraphicalLayer.AlignmentType Alignment {
    void set (    GraphicalLayer.AlignmentType value);
 
 }
-```
-```
+

@@ -8,11 +8,10 @@ Exports pipe bending.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool PipeBending( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public bool PipeBending(
    IEnumerable<Placement3D> oCollection
 
 )
-```
-```
 
-```
-```
 public:
 
 bool PipeBending( 
@@ -46,8 +41,7 @@ bool PipeBending(
    IEnumerable<Placement3D^>^ oCollection
 
 )
-```
-```
+
 
 #### Parameters
 

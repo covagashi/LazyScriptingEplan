@@ -8,17 +8,12 @@ Busbars: Rail spacing # 22202.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_BARDISTANCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_BARDISTANCE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_BARDISTANCE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

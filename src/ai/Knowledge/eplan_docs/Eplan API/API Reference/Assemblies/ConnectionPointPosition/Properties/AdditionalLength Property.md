@@ -8,17 +8,12 @@ Additional length of the connection point position.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double AdditionalLength {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double AdditionalLength {
@@ -28,5 +23,4 @@ property double AdditionalLength {
    void set (    double value);
 
 }
-```
-```
+

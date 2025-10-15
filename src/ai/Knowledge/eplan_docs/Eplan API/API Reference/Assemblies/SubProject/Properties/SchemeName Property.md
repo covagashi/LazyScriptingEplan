@@ -8,17 +8,12 @@ Name of the associated defined working section for the this subproject.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SchemeName {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ SchemeName {
@@ -26,8 +21,7 @@ property String^ SchemeName {
    String^ get();
 
 }
-```
-```
+
 
 Remarks
 

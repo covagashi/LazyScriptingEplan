@@ -8,17 +8,12 @@ Change of standard: Do not rotate and flip # 11060.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_DONT_CHANGESTANDARD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_DONT_CHANGESTANDARD {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_DONT_CHANGESTANDARD {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

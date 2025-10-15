@@ -8,17 +8,12 @@ Gets or Sets parent placement. Caution: The Change of the parent will also chang
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Placement3D Parent {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property Placement3D^ Parent {
@@ -28,5 +23,4 @@ virtual property Placement3D^ Parent {
    void set (    Placement3D^ value);
 
 }
-```
-```
+

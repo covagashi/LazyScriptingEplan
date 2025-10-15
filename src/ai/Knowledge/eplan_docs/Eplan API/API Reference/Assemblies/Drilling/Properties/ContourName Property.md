@@ -8,17 +8,12 @@ Name of the drilling contour.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ContourName {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ ContourName {
@@ -26,5 +21,4 @@ property String^ ContourName {
    String^ get();
 
 }
-```
-```
+

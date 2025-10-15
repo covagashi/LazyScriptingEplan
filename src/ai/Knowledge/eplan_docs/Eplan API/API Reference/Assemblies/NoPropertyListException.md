@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class NoPropertyListException : DataModelException
-```
-```
 
-```
-```
 public ref class NoPropertyListException : public DataModelException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [NoPropertyListException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.NoPropertyListException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

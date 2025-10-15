@@ -8,17 +8,12 @@ Topology: Connection filter # 20247.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLINGSEGMENT_CONNECTIONFILTER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLINGSEGMENT_CONNECTIONFILTER {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLINGSEGMENT_CONNECTIONFILTER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

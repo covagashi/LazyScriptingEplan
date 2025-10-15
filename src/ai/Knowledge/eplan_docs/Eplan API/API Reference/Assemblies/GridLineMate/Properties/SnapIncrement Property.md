@@ -8,17 +8,12 @@ Gets snap increment
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double SnapIncrement {get;}
-```
-```
 
-```
-```
 public:
 
 property double SnapIncrement {
@@ -26,5 +21,4 @@ property double SnapIncrement {
    double get();
 
 }
-```
-```
+

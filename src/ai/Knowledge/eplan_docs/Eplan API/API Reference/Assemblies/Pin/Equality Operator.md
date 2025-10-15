@@ -8,11 +8,10 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool operator ==( 
 
    Pin left,
@@ -20,11 +19,7 @@ public bool operator ==(
    Pin right
 
 )
-```
-```
 
-```
-```
 public:
 
 bool operator ==( 
@@ -34,8 +29,7 @@ bool operator ==(
    Pin^ right
 
 )
-```
-```
+
 
 #### Parameters
 

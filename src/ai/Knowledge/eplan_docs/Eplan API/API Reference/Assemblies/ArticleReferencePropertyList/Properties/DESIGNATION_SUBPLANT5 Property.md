@@ -8,17 +8,12 @@ Function designation (sub-identifier 5) # 1105.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_SUBPLANT5 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_SUBPLANT5 {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_SUBPLANT5 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

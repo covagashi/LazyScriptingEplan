@@ -8,17 +8,12 @@ Function exists with 'Overview' representation type # 20473.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ISPLACEDIN_OVERVIEW {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ISPLACEDIN_OVERVIEW {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ISPLACEDIN_OVERVIEW {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

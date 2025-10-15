@@ -8,17 +8,12 @@ Color # 19010.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTANCE_COLOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTANCE_COLOR {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTANCE_COLOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

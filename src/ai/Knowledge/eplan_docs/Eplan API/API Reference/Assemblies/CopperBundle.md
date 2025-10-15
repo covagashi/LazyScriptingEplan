@@ -16,26 +16,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class CopperBundle : Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class CopperBundle : public Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
+
 
 Remarks
 
 Corresponding FunctionCategory for this class is CabVirtCopperbundle.
-
-
 
 Public Constructors
 
@@ -44,8 +36,6 @@ Public Constructors
 | Public Constructor | [CopperBundle Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.CopperBundle~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,20 +8,14 @@ Scope of data export
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum HarnessService.FilterMode : System.Enum
-```
-```
 
-```
-```
 public enum class HarnessService.FilterMode : public System.Enum
-```
-```
+
 
 Members
 

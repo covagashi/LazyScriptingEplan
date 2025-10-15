@@ -8,17 +8,12 @@ Gets property id value as [Properties.OptionFragment](Eplan.EplApi.DataModelu~Ep
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.OptionFragment AsOptionFragment {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.OptionFragment AsOptionFragment {
@@ -26,5 +21,4 @@ property Properties.OptionFragment AsOptionFragment {
    Properties.OptionFragment get();
 
 }
-```
-```
+

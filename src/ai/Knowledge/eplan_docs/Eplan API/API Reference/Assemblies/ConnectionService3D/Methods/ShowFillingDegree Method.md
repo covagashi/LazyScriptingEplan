@@ -8,21 +8,16 @@ Show or hide filling degree.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ShowFillingDegree( 
 
    bool bShow
 
 )
-```
-```
 
-```
-```
 public:
 
 void ShowFillingDegree( 
@@ -30,8 +25,7 @@ void ShowFillingDegree(
    bool bShow
 
 )
-```
-```
+
 
 #### Parameters
 

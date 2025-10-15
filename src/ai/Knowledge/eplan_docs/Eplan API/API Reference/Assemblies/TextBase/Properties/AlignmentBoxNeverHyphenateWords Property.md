@@ -8,17 +8,12 @@ Specifies that words are wrapped.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AlignmentBoxNeverHyphenateWords {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool AlignmentBoxNeverHyphenateWords {
@@ -28,5 +23,4 @@ property bool AlignmentBoxNeverHyphenateWords {
    void set (    bool value);
 
 }
-```
-```
+

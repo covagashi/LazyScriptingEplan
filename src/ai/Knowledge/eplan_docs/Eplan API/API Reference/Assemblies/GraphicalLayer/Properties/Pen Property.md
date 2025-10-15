@@ -8,17 +8,12 @@ Layer's pen
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Pen Pen {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Pen^ Pen {
@@ -28,5 +23,4 @@ property Pen^ Pen {
    void set (    Pen^ value);
 
 }
-```
-```
+

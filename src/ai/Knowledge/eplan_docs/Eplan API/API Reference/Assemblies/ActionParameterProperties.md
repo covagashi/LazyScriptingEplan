@@ -13,43 +13,31 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ActionParameterProperties
-```
-```
 
-```
-```
 public ref class ActionParameterProperties
-```
-```
+
 
 Example
 
 Example of listing action parameters
 
-- [C#](#i-tab-content-ee45af1f-639d-40e6-9842-cf59398862fb)
+**C#**
 
 ```
 ActionManager actionManager = new ActionManager();
 
 EplApi.ApplicationFramework.Action foundAction = actionManager.FindAction("ActionExample");
 
-
-
 ArrayList listOfParameterProperties = foundAction.ActionProperties.GetParameterProperties();
-
-
 
 if (listOfParameterProperties.Count > 0)
 
 {
-
-
 
     foreach (ActionParameterProperties parameterProperty in listOfParameterProperties)
 
@@ -59,13 +47,9 @@ if (listOfParameterProperties.Count > 0)
 
         Debug.WriteLine(strParamName);
 
-
-
     }
 
 }
-
-
 
 ```
 
@@ -76,8 +60,6 @@ Public Constructors
 | Public Constructor | [ActionParameterProperties Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

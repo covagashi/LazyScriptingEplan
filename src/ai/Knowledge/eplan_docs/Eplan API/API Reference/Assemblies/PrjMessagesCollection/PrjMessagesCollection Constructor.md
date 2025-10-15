@@ -8,21 +8,16 @@ constructor. initializes the matching enumerator.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PrjMessagesCollection( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 PrjMessagesCollection( 
@@ -30,8 +25,7 @@ PrjMessagesCollection(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ PCF: Quantity for the calculation # 26528.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PCF_QUANTITY_FOR_CALCULATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PCF_QUANTITY_FOR_CALCULATION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PCF_QUANTITY_FOR_CALCULATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

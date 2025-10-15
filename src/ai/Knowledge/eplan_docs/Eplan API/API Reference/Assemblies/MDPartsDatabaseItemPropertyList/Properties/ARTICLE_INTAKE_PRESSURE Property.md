@@ -8,17 +8,12 @@ Intake pressure # 26003.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_INTAKE_PRESSURE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_INTAKE_PRESSURE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_INTAKE_PRESSURE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

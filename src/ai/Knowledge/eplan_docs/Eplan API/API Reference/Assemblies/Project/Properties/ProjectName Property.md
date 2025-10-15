@@ -8,17 +8,12 @@ Project's property which return Name of Project - project name only without path
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ProjectName {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ProjectName {
@@ -28,8 +23,7 @@ property String^ ProjectName {
    void set (    String^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

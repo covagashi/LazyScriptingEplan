@@ -8,21 +8,16 @@ Initializes the merged function to cover the function 3D passed as parameter and
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Function3D pFunction3D
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -30,8 +25,7 @@ void Create(
    Function3D^ pFunction3D
 
 )
-```
-```
+
 
 #### Parameters
 

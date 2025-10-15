@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.EObjects.TerminalStrip](Eplan.EplApi.DataModelu~
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TerminalStrip[] GetTerminalStripsWithCF( 
 
    ICustomFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<TerminalStrip^>^ GetTerminalStripsWithCF( 
@@ -30,8 +25,7 @@ array<TerminalStrip^>^ GetTerminalStripsWithCF(
    ICustomFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

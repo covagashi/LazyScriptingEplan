@@ -8,17 +8,12 @@ Inrush current, max. # 26098.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_INRUSH_CURRENT_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_INRUSH_CURRENT_MAX {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_INRUSH_CURRENT_MAX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

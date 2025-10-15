@@ -28,17 +28,21 @@ To use this feature, you need to create an add-in. In this add-in, you must cal
 
 You can register multiple item types in your add-in:
 
-| C# | Copy Code |
-| --- | --- |
-| ```  MDPartsManagement mDPartsManagement = new MDPartsManagement(); mDPartsManagement.RegisterAddin("YourAddInName", "YourActionName"); mDPartsManagement.RegisterItem("YourAddInName", "eplan.part"); mDPartsManagement.RegisterItem("YourAddInName", "eplan.construction"); mDPartsManagement.RegisterItem("YourAddInName", "eplan.accessoryplacement"); ``` | |
+```csharp
+MDPartsManagement mDPartsManagement = new MDPartsManagement();
+ mDPartsManagement.RegisterAddin("YourAddInName", "YourActionName");
+ mDPartsManagement.RegisterItem("YourAddInName", "eplan.part");
+ mDPartsManagement.RegisterItem("YourAddInName", "eplan.construction");
+ mDPartsManagement.RegisterItem("YourAddInName", "eplan.accessoryplacement");
+```
 
 ### Define a custom item type
 
 It is also possible to define your own custom items in the parts management tree. You have to register your personal item as custom item type and use it instead of the predefined Eplan item types from the list above. For this, call the  MDPartsManagement.RegisterItem(<Add-inName>, <ItemType>)  method with your custom item type name as a string:
 
-| C# | Copy Code |
-| --- | --- |
-| ```  mDPartsManagement.RegisterItem("YourAddInName", "YourCustomItemType"); ``` | |
+```csharp
+mDPartsManagement.RegisterItem("YourAddInName", "YourCustomItemType");
+```
 
 ### Events that call your action
 
@@ -78,9 +82,33 @@ Inside of the  Execute  method of the action that you defined in your add-in,
 
 The API parts management extension allows **event handling** for the Parts management dialog. Here, for example, the Parts management dialog event  SaveItem  is triggered as soon as the  action  parameter in the the  ActionCallingContext  takes the value  SaveItem:
 
-| C# | Copy Code |
-| --- | --- |
-| ```  public bool Execute(ActionCallingContext ctx) {     string action = "";     ctx.GetParameter("action", ref action);     switch (action)     {         case "AddPartToProject":             // Do something when a part information is added to the project             break;         case "SelectItem":             // Do something when a part is selected             break;         case "SaveItem":         {             Eplan.EplSDK.WPF.EEvent.WPFDialogEventManager em = new Eplan.EplSDK.WPF.EEvent.WPFDialogEventManager();             em.send("XPartsManagementDialog", "SaveItem", sKey);         }             break;                     case "OpenDatabase":             // Do something when the API parts management extension information is read             break;     }     return true; } ``` | |
+```csharp
+public bool Execute(ActionCallingContext ctx)
+ {
+     string action = "";
+     ctx.GetParameter("action", ref action);
+     switch (action)
+     {
+         case "AddPartToProject":
+             // Do something when a part information is added to the project
+             break;
+         case "SelectItem":
+             // Do something when a part is selected
+             break;
+         case "SaveItem":
+         {
+             Eplan.EplSDK.WPF.EEvent.WPFDialogEventManager em = new Eplan.EplSDK.WPF.EEvent.WPFDialogEventManager();
+             em.send("XPartsManagementDialog", "SaveItem", sKey);
+         }
+             break;
+            
+         case "OpenDatabase":
+             // Do something when the API parts management extension information is read
+             break;
+     }
+     return true;
+ }
+```
 
 ### Add a custom tab / dialog
 
@@ -88,12 +116,26 @@ You can add custom tabs to the Parts management dialog to display your additiona
 
 (<Add-inName>, <ItemType>, <TabsheetName>)  method. As  <TabsheetName>  you need to specify your custom WPF-dialog (in XAML format) that will be shown when an item of the correspronding item type is selected:
 
-| C# | Copy Code |
-| --- | --- |
-| ```  mDPartsManagement.RegisterTabsheet("YourAddInName", "eplan.part", "YourPartsTabsheetName"); mDPartsManagement.RegisterTabsheet("YourAddInName", "YourCustomItemType", "YourCustomItemTabsheetName"); ``` | |
+```csharp
+mDPartsManagement.RegisterTabsheet("YourAddInName", "eplan.part", "YourPartsTabsheetName");
+ mDPartsManagement.RegisterTabsheet("YourAddInName", "YourCustomItemType", "YourCustomItemTabsheetName");
+```
 
 The API parts management extension **event handling** for the Parts management dialog also works for your custom dialogs. In the following example, the  SaveItem  event of the Parts management dialog is subscribed to. As a result, whenever an item is saved in the dialog, the  YourDialog\_SaveItem  method of a custom dialog class can now handle the data of the item to be saved:
 
-| C# | Copy Code |
-| --- | --- |
-| ```  public class YourDialog : UserControl, IDialog {     public YourDialog()     {         InitializeComponent();         Eplan.EplSDK.WPF.EEvent.WPFDialogEventManager em = new Eplan.EplSDK.WPF.EEvent.WPFDialogEventManager();         em.getOnWPFNotifyEvent("XPartsManagementDialog", "SaveItem").Notify += new Eplan.EplSDK.WPF.Interfaces.EEvent.NotifyEvent(YourDialog_SaveItem);     }      void YourDialog_SaveItem(string data)     {         // Handle your data to be saved in here     } } ``` | |
+```csharp
+public class YourDialog : UserControl, IDialog
+ {
+     public YourDialog()
+     {
+         InitializeComponent();
+         Eplan.EplSDK.WPF.EEvent.WPFDialogEventManager em = new Eplan.EplSDK.WPF.EEvent.WPFDialogEventManager();
+         em.getOnWPFNotifyEvent("XPartsManagementDialog", "SaveItem").Notify += new Eplan.EplSDK.WPF.Interfaces.EEvent.NotifyEvent(YourDialog_SaveItem);
+     }
+ 
+     void YourDialog_SaveItem(string data)
+     {
+         // Handle your data to be saved in here
+     }
+ }
+```

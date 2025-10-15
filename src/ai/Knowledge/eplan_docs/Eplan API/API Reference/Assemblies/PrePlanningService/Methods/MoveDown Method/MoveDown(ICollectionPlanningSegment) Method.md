@@ -8,21 +8,16 @@ Moves objects one position down in navigator.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void MoveDown( 
 
    ICollection<PlanningSegment> colObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 void MoveDown( 
@@ -30,8 +25,7 @@ void MoveDown(
    ICollection<PlanningSegment^>^ colObjects
 
 )
-```
-```
+
 
 #### Parameters
 

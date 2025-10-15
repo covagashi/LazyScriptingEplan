@@ -8,17 +8,12 @@ Returns `true`, if interaction is a helper interaction to select placements.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool IsSelectionInteraction {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool IsSelectionInteraction {
@@ -26,5 +21,4 @@ virtual property bool IsSelectionInteraction {
    bool get();
 
 }
-```
-```
+

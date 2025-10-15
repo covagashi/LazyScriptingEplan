@@ -8,17 +8,12 @@ Gets the element in the collection at the current position of the enumerator.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual FunctionDefinition Current2 {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property FunctionDefinition^ Current2 {
@@ -26,5 +21,4 @@ virtual property FunctionDefinition^ Current2 {
    FunctionDefinition^ get();
 
 }
-```
-```
+

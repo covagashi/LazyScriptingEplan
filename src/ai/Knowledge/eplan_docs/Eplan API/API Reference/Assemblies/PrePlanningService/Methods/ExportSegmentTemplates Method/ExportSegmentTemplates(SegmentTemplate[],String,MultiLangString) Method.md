@@ -8,11 +8,10 @@ Exports segment templates to file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExportSegmentTemplates( 
 
    SegmentTemplate[] arrTemplates,
@@ -22,11 +21,7 @@ public bool ExportSegmentTemplates(
    MultiLangString mlsDescription
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExportSegmentTemplates( 
@@ -38,8 +33,7 @@ bool ExportSegmentTemplates(
    MultiLangString^ mlsDescription
 
 )
-```
-```
+
 
 #### Parameters
 

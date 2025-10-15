@@ -8,11 +8,10 @@ Adds new command group to existing ribbon tab
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonCommandGroup AddCommandGroup( 
 
    MultiLangString multiLangName,
@@ -20,11 +19,7 @@ public RibbonCommandGroup AddCommandGroup(
    int index
 
 )
-```
-```
 
-```
-```
 public:
 
 RibbonCommandGroup^ AddCommandGroup( 
@@ -34,8 +29,7 @@ RibbonCommandGroup^ AddCommandGroup(
    int index
 
 )
-```
-```
+
 
 #### Parameters
 

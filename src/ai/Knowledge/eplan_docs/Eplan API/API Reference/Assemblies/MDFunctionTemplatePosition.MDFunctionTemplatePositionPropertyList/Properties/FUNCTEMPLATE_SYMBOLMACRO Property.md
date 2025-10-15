@@ -8,17 +8,12 @@ Symbol macro (compatibility) # 21008.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNCTEMPLATE_SYMBOLMACRO {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNCTEMPLATE_SYMBOLMACRO {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNCTEMPLATE_SYMBOLMACRO {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

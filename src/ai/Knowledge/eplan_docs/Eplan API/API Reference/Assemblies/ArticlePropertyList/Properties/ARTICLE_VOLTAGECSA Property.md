@@ -8,17 +8,12 @@ Terminals: Voltage CSA # 22093.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_VOLTAGECSA {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_VOLTAGECSA {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_VOLTAGECSA {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

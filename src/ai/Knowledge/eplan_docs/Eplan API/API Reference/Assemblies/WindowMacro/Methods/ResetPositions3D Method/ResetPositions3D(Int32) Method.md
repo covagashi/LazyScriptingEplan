@@ -8,21 +8,16 @@ Resets positions of items of a 3d macro according to one of its objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ResetPositions3D( 
 
    int nIndex
 
 )
-```
-```
 
-```
-```
 public:
 
 void ResetPositions3D( 
@@ -30,8 +25,7 @@ void ResetPositions3D(
    int nIndex
 
 )
-```
-```
+
 
 #### Parameters
 

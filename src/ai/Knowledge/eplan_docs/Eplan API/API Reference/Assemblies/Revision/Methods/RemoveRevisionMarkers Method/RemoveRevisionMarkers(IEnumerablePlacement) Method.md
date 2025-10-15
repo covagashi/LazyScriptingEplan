@@ -8,21 +8,16 @@ Removes revision marker. Used for change tracking.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveRevisionMarkers( 
 
    IEnumerable<Placement> colPlacements
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveRevisionMarkers( 
@@ -30,8 +25,7 @@ void RemoveRevisionMarkers(
    IEnumerable<Placement^>^ colPlacements
 
 )
-```
-```
+
 
 #### Parameters
 

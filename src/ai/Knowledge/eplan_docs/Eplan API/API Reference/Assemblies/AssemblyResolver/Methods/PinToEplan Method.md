@@ -8,28 +8,22 @@ Pin an offline application to an EPLAN application. When the EPLAN product varia
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void PinToEplan()
-```
-```
 
-```
-```
 public:
 
 void PinToEplan();
-```
-```
+
 
 Example
 
 This code is in a separate EXE or DLL. It's not allowed to link directly some EPLAN DLLs from the EPLAN product variant bin path. (This causes an error at start when the DLLs are not available.) Separate all EPLAN references in another DLL and link to this. The "EplanAppStarter" class can be defined in this DLL and contains your code.
 
-- [C#](#i-tab-content-b7fbe074-06e6-4598-b503-18bdb0b58131)
+**C#**
 
 ```
 // Use the finder to find the correct EPLAN version if not yet known
@@ -37,8 +31,6 @@ This code is in a separate EXE or DLL. It's not allowed to link directly some EP
 EplanFinder finder = new EplanFinder();
 
 string binPath = finder.SelectEplanVersion();
-
-            
 
 // Now use the AssemblyResolver to let the program know where all EPLAN assemblies can be found.
 
@@ -50,15 +42,11 @@ resolver.SetEplanBinPath(binPath);
 
 resolver.PinToEplan();
 
-            
-
 // Now the next (referenced) DLL can be used. All EPLAN references of this DLL are known now.
 
 EplanAppStarter app = new EplanAppStarter();
 
 app.startEplan(binPath);
-
-            
 
 //In the other DLL, EplanAppStarter is implemented:
 

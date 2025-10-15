@@ -8,17 +8,12 @@ PLC subdevice 10: Data length (outputs) # 22333.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PLCGROUP_DATALENGTH_OUTPUTS_10 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PLCGROUP_DATALENGTH_OUTPUTS_10 {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PLCGROUP_DATALENGTH_OUTPUTS_10 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

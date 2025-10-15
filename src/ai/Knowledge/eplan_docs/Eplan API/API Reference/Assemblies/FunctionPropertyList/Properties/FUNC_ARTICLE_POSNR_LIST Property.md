@@ -8,17 +8,12 @@ Item number list # 20346.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_POSNR_LIST {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_POSNR_LIST {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ARTICLE_POSNR_LIST {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

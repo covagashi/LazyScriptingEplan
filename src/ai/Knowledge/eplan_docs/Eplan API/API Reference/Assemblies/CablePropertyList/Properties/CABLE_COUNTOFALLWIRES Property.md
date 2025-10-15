@@ -8,17 +8,12 @@ Cables: Number of all connections # 35108.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLE_COUNTOFALLWIRES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLE_COUNTOFALLWIRES {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLE_COUNTOFALLWIRES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

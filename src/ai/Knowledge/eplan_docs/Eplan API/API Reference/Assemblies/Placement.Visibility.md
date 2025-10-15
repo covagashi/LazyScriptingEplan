@@ -8,20 +8,14 @@ Possible visibility states. These values are return by the [Placement.IsSetAsVis
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Placement.Visibility : System.Enum
-```
-```
 
-```
-```
 public enum class Placement.Visibility : public System.Enum
-```
-```
+
 
 Members
 

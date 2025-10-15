@@ -8,11 +8,10 @@ Returns this object created from the string identifier
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static bool TryParseIdentifier( 
 
    string strObject,
@@ -20,11 +19,7 @@ public static bool TryParseIdentifier(
    ref StorableObject resultObj
 
 )
-```
-```
 
-```
-```
 public:
 
 static bool TryParseIdentifier( 
@@ -34,8 +29,7 @@ static bool TryParseIdentifier(
    StorableObject^% resultObj
 
 )
-```
-```
+
 
 #### Parameters
 

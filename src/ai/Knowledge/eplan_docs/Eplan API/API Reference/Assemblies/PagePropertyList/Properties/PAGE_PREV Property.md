@@ -8,17 +8,12 @@ Previous page # 11041.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_PREV {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_PREV {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_PREV {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

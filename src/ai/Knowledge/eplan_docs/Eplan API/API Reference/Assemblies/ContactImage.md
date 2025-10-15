@@ -16,26 +16,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ContactImage : GraphicalPlacement
-```
-```
 
-```
-```
 public ref class ContactImage : public GraphicalPlacement
-```
-```
+
 
 Remarks
 
 This object exists in P8 project only as embedded object. This means it is not returned by DMObjectsFinder and by Page members.
-
-
 
 Public Constructors
 
@@ -44,8 +36,6 @@ Public Constructors
 | Public Constructor | [ContactImage Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.ContactImage~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

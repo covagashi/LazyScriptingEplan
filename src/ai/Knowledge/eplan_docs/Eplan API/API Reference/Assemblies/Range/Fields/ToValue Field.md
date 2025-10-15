@@ -8,19 +8,13 @@ Maximal value(end, stop)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public object ToValue
-```
-```
 
-```
-```
 public:
 
 Object^ ToValue
-```
-```
+

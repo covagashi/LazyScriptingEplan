@@ -8,17 +8,12 @@ Start address value to use for analog addresses. If empty, a default value will 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string AnalogStartAddress {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ AnalogStartAddress {
@@ -28,5 +23,4 @@ property String^ AnalogStartAddress {
    void set (    String^ value);
 
 }
-```
-```
+

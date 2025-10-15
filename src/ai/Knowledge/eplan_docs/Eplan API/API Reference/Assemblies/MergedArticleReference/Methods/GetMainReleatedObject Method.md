@@ -8,19 +8,13 @@ Returns the main data model object included in this compound.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject GetMainReleatedObject()
-```
-```
 
-```
-```
 public:
 
 StorableObject^ GetMainReleatedObject();
-```
-```
+

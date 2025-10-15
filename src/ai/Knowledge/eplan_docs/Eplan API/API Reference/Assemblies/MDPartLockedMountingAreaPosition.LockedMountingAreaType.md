@@ -8,20 +8,14 @@ available Types for MDPartLockedMountingAreaPosition.Type
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MDPartLockedMountingAreaPosition.LockedMountingAreaType : System.Enum
-```
-```
 
-```
-```
 public enum class MDPartLockedMountingAreaPosition.LockedMountingAreaType : public System.Enum
-```
-```
+
 
 Members
 

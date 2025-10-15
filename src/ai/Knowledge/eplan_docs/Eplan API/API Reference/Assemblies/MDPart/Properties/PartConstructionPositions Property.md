@@ -8,17 +8,12 @@ Get all part construction panel positions of the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartPartConstructionPosition[] PartConstructionPositions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDPartPartConstructionPosition^>^ PartConstructionPositions {
@@ -26,5 +21,4 @@ property array<MDPartPartConstructionPosition^>^ PartConstructionPositions {
    array<MDPartPartConstructionPosition^>^ get();
 
 }
-```
-```
+

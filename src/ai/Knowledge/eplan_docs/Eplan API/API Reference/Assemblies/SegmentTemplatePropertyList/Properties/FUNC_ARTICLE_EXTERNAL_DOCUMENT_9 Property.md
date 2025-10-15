@@ -8,21 +8,16 @@ External placement # 20917.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_EXTERNAL_PLACEMENT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_EXTERNAL_PLACEMENT {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_EXTERNAL_PLACEMENT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

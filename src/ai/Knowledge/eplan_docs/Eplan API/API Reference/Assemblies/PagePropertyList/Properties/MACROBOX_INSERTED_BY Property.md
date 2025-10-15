@@ -8,17 +8,12 @@ Macro: Inserted by # 23006.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue MACROBOX_INSERTED_BY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ MACROBOX_INSERTED_BY {
@@ -28,8 +23,7 @@ property PropertyValue^ MACROBOX_INSERTED_BY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

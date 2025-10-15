@@ -8,17 +8,12 @@ Array of names of devices assign to this report stored in property lists.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FunctionBasePropertyList[] DeviceTagNameParts {get; set;}
-```
-```
 
-```
-```
 public:
 
 property array<FunctionBasePropertyList^>^ DeviceTagNameParts {
@@ -28,5 +23,4 @@ property array<FunctionBasePropertyList^>^ DeviceTagNameParts {
    void set (    array<FunctionBasePropertyList^>^ value);
 
 }
-```
-```
+

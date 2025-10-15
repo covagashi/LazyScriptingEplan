@@ -8,17 +8,12 @@ Source segment # 44070.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_SOURCE_SEGMENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_SOURCE_SEGMENT {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_SOURCE_SEGMENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

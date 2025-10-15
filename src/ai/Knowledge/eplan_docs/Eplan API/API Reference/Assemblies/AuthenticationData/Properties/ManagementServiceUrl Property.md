@@ -8,17 +8,12 @@ Management service URL.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ManagementServiceUrl {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ManagementServiceUrl {
@@ -28,5 +23,4 @@ property String^ ManagementServiceUrl {
    void set (    String^ value);
 
 }
-```
-```
+

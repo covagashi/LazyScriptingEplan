@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Import
-```
-```
 
-```
-```
 public ref class Import
-```
-```
-
-
 
 Public Constructors
 
@@ -37,9 +28,6 @@ Public Constructors
 | Public Constructor | [Import Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Import~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

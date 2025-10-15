@@ -8,28 +8,22 @@ Function for extended Options. Set the parameters in the context
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool GetExtendedOptions( 
 
    Context oContext
 
 )
-```
-```
 
-```
-```
 bool GetExtendedOptions( 
 
    Context^ oContext
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Gets/Sets the generic product group of the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual MDPartsDatabaseItem.Enums.ProductTopGroup GenericProductGroup {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property MDPartsDatabaseItem.Enums.ProductTopGroup GenericProductGroup {
@@ -28,8 +23,7 @@ virtual property MDPartsDatabaseItem.Enums.ProductTopGroup GenericProductGroup {
    void set (    MDPartsDatabaseItem.Enums.ProductTopGroup value);
 
 }
-```
-```
+
 
 #### Property Value
 

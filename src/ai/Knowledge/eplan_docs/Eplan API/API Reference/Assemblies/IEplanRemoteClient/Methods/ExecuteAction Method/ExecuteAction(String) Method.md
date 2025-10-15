@@ -8,28 +8,22 @@ Execute an action.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool ExecuteAction( 
 
    string strFullAction
 
 )
-```
-```
 
-```
-```
 bool ExecuteAction( 
 
    String^ strFullAction
 
 )
-```
-```
+
 
 #### Parameters
 

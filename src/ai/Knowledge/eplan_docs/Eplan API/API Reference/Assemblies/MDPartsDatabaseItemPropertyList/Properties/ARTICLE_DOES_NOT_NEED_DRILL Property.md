@@ -8,17 +8,12 @@ Part does not require a drilling pattern # 22394.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_DOES_NOT_NEED_DRILL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_DOES_NOT_NEED_DRILL {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_DOES_NOT_NEED_DRILL {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

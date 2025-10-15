@@ -8,17 +8,12 @@ Usages of this property definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public UserDefinedPropertyDefinition.Enums.ClientType[] Usages {get;}
-```
-```
 
-```
-```
 public:
 
 property array<UserDefinedPropertyDefinition.Enums.ClientType>^ Usages {
@@ -26,5 +21,4 @@ property array<UserDefinedPropertyDefinition.Enums.ClientType>^ Usages {
    array<UserDefinedPropertyDefinition.Enums.ClientType>^ get();
 
 }
-```
-```
+

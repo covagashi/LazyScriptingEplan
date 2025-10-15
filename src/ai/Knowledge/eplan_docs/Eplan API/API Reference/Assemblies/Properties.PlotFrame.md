@@ -8,20 +8,14 @@ Identificators of properties owned by PlotFrame class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.PlotFrame : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.PlotFrame : public System.Enum
-```
-```
+
 
 Members
 

@@ -8,21 +8,16 @@ Create new routing segment in P8 project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    InstallationSpace pInstallationSpace
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -30,8 +25,7 @@ void Create(
    InstallationSpace^ pInstallationSpace
 
 )
-```
-```
+
 
 #### Parameters
 

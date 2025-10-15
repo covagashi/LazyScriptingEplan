@@ -8,21 +8,16 @@ Reorders property placements of one type, which are assigned to this SymbolRefer
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public List<PropertyPlacement> ReorderPropertyPlacements( 
 
    List<PropertyPlacement> lstPropertyPlacements
 
 )
-```
-```
 
-```
-```
 public:
 
 List<PropertyPlacement^>^ ReorderPropertyPlacements( 
@@ -30,8 +25,7 @@ List<PropertyPlacement^>^ ReorderPropertyPlacements(
    List<PropertyPlacement^>^ lstPropertyPlacements
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -54,7 +48,7 @@ All property placements which are not in the input list, will be removed from or
 
 Example
 
-- [C#](#i-tab-content-4e8dcea7-7ed1-4466-a377-6146d86b6ea3)
+**C#**
 
 ```
 
@@ -69,8 +63,6 @@ lComponentPPToReorder.RemoveAt(iPPToMoveIndex);
 
 lComponentPPToReorder.Insert(1, oPPToMove);
 
-
-
 iPPToMoveIndex = 7;
 
 oPPToMove = lComponentPP[iPPToMoveIndex];
@@ -79,12 +71,6 @@ lComponentPPToReorder.RemoveAt(iPPToMoveIndex);
 
 lComponentPPToReorder.Add(oPPToMove);
 
-
-
 var lReorderedComponentPP = oNewTerminal.ReorderPropertyPlacements(lComponentPPToReorder);
-
-
-
-
 
 ```

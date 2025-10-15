@@ -6,11 +6,10 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static List<Placement3D> CopyTo( 
 
    Placement3D newParent,
@@ -18,11 +17,7 @@ public static List<Placement3D> CopyTo(
    List<T> listObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static List<Placement3D^>^ CopyTo( 
@@ -32,8 +27,7 @@ static List<Placement3D^>^ CopyTo(
    List<T>^ listObjects
 
 )
-```
-```
+
 
 #### Parameters
 

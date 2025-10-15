@@ -8,17 +8,12 @@ Overhang: Cover back # 22178.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TOPPANELPROJECTIONBACK {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TOPPANELPROJECTIONBACK {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TOPPANELPROJECTIONBACK {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

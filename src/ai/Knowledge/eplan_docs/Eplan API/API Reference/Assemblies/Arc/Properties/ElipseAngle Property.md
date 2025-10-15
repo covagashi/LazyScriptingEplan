@@ -8,17 +8,12 @@ Gets the engle value of the ellipse. This property returns proper value for the 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double ElipseAngle {get;}
-```
-```
 
-```
-```
 public:
 
 property double ElipseAngle {
@@ -26,5 +21,4 @@ property double ElipseAngle {
    double get();
 
 }
-```
-```
+

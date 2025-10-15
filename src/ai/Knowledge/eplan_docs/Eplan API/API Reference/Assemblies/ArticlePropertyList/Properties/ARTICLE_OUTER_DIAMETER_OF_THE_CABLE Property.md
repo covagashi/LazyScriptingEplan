@@ -8,17 +8,12 @@ Cable outer diameter # 26084.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_OUTER_DIAMETER_OF_THE_CABLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_OUTER_DIAMETER_OF_THE_CABLE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_OUTER_DIAMETER_OF_THE_CABLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

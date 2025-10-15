@@ -8,11 +8,10 @@ Sets graphic representation from 2 points.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetGraphics( 
 
    PointD pnt1,
@@ -20,11 +19,7 @@ public void SetGraphics(
    PointD pnt2
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetGraphics( 
@@ -34,8 +29,7 @@ void SetGraphics(
    PointD pnt2
 
 )
-```
-```
+
 
 #### Parameters
 

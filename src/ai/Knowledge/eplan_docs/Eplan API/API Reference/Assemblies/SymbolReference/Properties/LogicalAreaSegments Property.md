@@ -8,17 +8,12 @@ Gets/Sets an array of segments that the symbol's logical area may consist of.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual SymbolReference.Segment[] LogicalAreaSegments {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property array<SymbolReference.Segment^>^ LogicalAreaSegments {
@@ -28,8 +23,7 @@ virtual property array<SymbolReference.Segment^>^ LogicalAreaSegments {
    void set (    array<SymbolReference.Segment^>^ value);
 
 }
-```
-```
+
 
 Remarks
 

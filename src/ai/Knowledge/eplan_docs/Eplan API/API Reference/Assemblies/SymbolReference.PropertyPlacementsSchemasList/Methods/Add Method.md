@@ -8,21 +8,16 @@ Adds or saves element representing property placements configuration for the sym
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolReference.PropertyPlacementsSchema Add( 
 
    string sConfigurationName
 
 )
-```
-```
 
-```
-```
 public:
 
 SymbolReference.PropertyPlacementsSchema^ Add( 
@@ -30,8 +25,7 @@ SymbolReference.PropertyPlacementsSchema^ Add(
    String^ sConfigurationName
 
 )
-```
-```
+
 
 #### Parameters
 

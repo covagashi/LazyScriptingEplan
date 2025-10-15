@@ -8,19 +8,13 @@ initialize the DCOM security
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ComHelper()
-```
-```
 
-```
-```
 public:
 
 ComHelper();
-```
-```
+

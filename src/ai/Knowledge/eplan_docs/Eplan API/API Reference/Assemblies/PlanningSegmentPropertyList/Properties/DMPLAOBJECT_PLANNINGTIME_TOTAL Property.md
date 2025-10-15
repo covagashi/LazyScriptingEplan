@@ -8,17 +8,12 @@ Total expenditure planning # 44013.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_PLANNINGTIME_TOTAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_PLANNINGTIME_TOTAL {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_PLANNINGTIME_TOTAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

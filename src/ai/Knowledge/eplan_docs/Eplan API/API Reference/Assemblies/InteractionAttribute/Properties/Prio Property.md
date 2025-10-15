@@ -8,17 +8,12 @@ Priority of interaction.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int Prio {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int Prio {
@@ -28,8 +23,7 @@ property int Prio {
    void set (    int value);
 
 }
-```
-```
+
 
 Remarks
 

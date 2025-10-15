@@ -8,11 +8,10 @@ Backs up an entire project. Project is backed up on hard disk, diskette... The p
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Project( 
 
    string strProjectPath,
@@ -28,11 +27,7 @@ public void Project(
    bool bAutomaticallyCopyReferencedData
 
 )
-```
-```
 
-```
-```
 public:
 
 void Project( 
@@ -50,8 +45,7 @@ void Project(
    bool bAutomaticallyCopyReferencedData
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -97,7 +91,7 @@ Example
 
 Following example shows how to use the method:
 
-- [C#](#i-tab-content-58ad971c-aefc-498d-84d0-038e2e4e6a4f)
+**C#**
 
 ```
 Backup oBackup = new Backup();
@@ -117,7 +111,5 @@ oBackup.Project(
  false);
 
 Console.Out.WriteLine("Backup of project was created !");
-
-
 
 ```

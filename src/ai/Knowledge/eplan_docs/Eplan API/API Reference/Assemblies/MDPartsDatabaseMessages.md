@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDPartsDatabaseMessages
-```
-```
 
-```
-```
 public ref class MDPartsDatabaseMessages
-```
-```
+
 
 Remarks
 
 Adding message to or removing messages from this collection, will update the messages visible in Parts Databasemessage management of EPLAN.
-
-
 
 Public Constructors
 
@@ -41,8 +33,6 @@ Public Constructors
 | Public Constructor | [MDPartsDatabaseMessages Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseMessages~_ctor(MDPartsDatabase).html) | Constructor initializes the matching enumerator. |
 
 [Top](#top)
-
-
 
 Public Properties
 

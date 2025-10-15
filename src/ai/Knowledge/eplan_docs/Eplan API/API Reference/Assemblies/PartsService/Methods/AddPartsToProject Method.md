@@ -8,11 +8,10 @@ Store parts in the project, and adds project part references.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddPartsToProject( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public void AddPartsToProject(
    ArrayList lPartsInfo
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddPartsToProject( 
@@ -34,8 +29,7 @@ void AddPartsToProject(
    ArrayList^ lPartsInfo
 
 )
-```
-```
+
 
 #### Parameters
 

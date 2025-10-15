@@ -8,11 +8,10 @@ Exports all installation spaces from project into files in VRML format.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ProjectToVrml( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public bool ProjectToVrml(
    string strTargetDirectory
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ProjectToVrml( 
@@ -34,8 +29,7 @@ bool ProjectToVrml(
    String^ strTargetDirectory
 
 )
-```
-```
+
 
 #### Parameters
 

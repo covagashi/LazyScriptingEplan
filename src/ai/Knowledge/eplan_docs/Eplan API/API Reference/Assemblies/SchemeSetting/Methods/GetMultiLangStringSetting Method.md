@@ -8,11 +8,10 @@ Returns the value of a setting. If a setting is read that has no value for this 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString GetMultiLangStringSetting( 
 
    string strSettingPath,
@@ -20,11 +19,7 @@ public MultiLangString GetMultiLangStringSetting(
    int nIdx
 
 )
-```
-```
 
-```
-```
 public:
 
 MultiLangString^ GetMultiLangStringSetting( 
@@ -34,8 +29,7 @@ MultiLangString^ GetMultiLangStringSetting(
    int nIdx
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Power requirement, min. # 26424.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_POWER_REQUIREMENT_MIN( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_POWER_REQUIREMENT_MIN {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_POWER_REQUIREMENT_MIN {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

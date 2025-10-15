@@ -8,17 +8,12 @@ Service short-circuit breaking capacity (Ics) # 26588.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SERVICE_BREAKING_CAPACITY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SERVICE_BREAKING_CAPACITY {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SERVICE_BREAKING_CAPACITY {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

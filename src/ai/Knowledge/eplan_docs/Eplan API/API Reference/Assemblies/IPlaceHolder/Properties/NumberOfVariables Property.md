@@ -8,24 +8,18 @@ Count of Variables.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 uint NumberOfVariables {get;}
-```
-```
 
-```
-```
 property uint NumberOfVariables {
 
    uint get();
 
 }
-```
-```
+
 
 #### Property Value
 

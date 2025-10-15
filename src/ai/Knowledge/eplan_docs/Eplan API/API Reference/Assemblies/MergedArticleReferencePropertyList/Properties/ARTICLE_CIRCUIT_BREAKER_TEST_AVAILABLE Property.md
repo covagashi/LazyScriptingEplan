@@ -8,17 +8,12 @@ Power circuit breaker - test available # 26433.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CIRCUIT_BREAKER_TEST_AVAILABLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CIRCUIT_BREAKER_TEST_AVAILABLE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CIRCUIT_BREAKER_TEST_AVAILABLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

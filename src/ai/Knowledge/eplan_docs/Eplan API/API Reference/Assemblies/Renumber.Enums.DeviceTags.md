@@ -8,20 +8,14 @@ Parameter enum for device tag numbering. The enum members can be combined by a l
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Renumber.Enums.DeviceTags : System.Enum
-```
-```
 
-```
-```
 public enum class Renumber.Enums.DeviceTags : public System.Enum
-```
-```
+
 
 Members
 

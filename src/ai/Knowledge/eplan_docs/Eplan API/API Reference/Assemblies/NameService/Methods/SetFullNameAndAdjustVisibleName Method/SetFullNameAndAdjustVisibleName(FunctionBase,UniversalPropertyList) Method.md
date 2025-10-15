@@ -8,11 +8,10 @@ Sets the given full name as the new full name to the given function and adjusts 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SetFullNameAndAdjustVisibleName( 
 
    FunctionBase pFunctionBase,
@@ -20,11 +19,7 @@ public bool SetFullNameAndAdjustVisibleName(
    UniversalPropertyList eplFullName
 
 )
-```
-```
 
-```
-```
 public:
 
 bool SetFullNameAndAdjustVisibleName( 
@@ -34,8 +29,7 @@ bool SetFullNameAndAdjustVisibleName(
    UniversalPropertyList^ eplFullName
 
 )
-```
-```
+
 
 #### Parameters
 

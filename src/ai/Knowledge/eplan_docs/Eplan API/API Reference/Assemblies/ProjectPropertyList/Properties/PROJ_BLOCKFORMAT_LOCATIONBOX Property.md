@@ -8,21 +8,16 @@ Block property: Format (structure box) # 10662.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BLOCKFORMAT_LOCATIONBOX( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BLOCKFORMAT_LOCATIONBOX {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_BLOCKFORMAT_LOCATIONBOX {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

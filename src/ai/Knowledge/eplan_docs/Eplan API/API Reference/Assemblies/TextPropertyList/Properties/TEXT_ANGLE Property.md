@@ -8,17 +8,12 @@ Rotation angle for text # 19343.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue TEXT_ANGLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ TEXT_ANGLE {
@@ -28,8 +23,7 @@ property PropertyValue^ TEXT_ANGLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

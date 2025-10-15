@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Transformation.DrawingLimits
-```
-```
 
-```
-```
 public ref class Transformation.DrawingLimits
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [Transformation.DrawingLimits Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Transformation+DrawingLimits~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

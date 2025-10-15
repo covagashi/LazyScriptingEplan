@@ -8,17 +8,12 @@ Degree of protection (IP): Front side # 26559.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PROTECTION_CLASS_IP_FRONT_SIDE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PROTECTION_CLASS_IP_FRONT_SIDE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PROTECTION_CLASS_IP_FRONT_SIDE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

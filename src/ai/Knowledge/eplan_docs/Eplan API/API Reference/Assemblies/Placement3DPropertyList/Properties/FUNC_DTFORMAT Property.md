@@ -8,17 +8,12 @@ Format of displayed DT # 20205.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DTFORMAT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DTFORMAT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DTFORMAT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Removes [Placement3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placeme
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void UnGroup( 
 
    Placement3D[] placement3Ds,
@@ -20,11 +19,7 @@ public void UnGroup(
    bool removeEmptyGroup3D
 
 )
-```
-```
 
-```
-```
 public:
 
 void UnGroup( 
@@ -34,8 +29,7 @@ void UnGroup(
    bool removeEmptyGroup3D
 
 )
-```
-```
+
 
 #### Parameters
 

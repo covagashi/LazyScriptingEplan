@@ -8,17 +8,12 @@ Replacement of # 11085.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_REVISION_SUBSTITUTIONOF {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_REVISION_SUBSTITUTIONOF {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_REVISION_SUBSTITUTIONOF {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

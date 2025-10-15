@@ -8,21 +8,16 @@ Total weight (part) # 26373.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_WEIGHT_TOTAL( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_WEIGHT_TOTAL {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_WEIGHT_TOTAL {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

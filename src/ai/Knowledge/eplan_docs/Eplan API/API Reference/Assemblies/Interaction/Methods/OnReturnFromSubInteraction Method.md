@@ -8,11 +8,10 @@ Is called on end of sub-interaction.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnReturnFromSubInteraction( 
 
    bool bSuccessFull,
@@ -20,11 +19,7 @@ public virtual RequestCode OnReturnFromSubInteraction(
    Interaction pSubInteraction
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnReturnFromSubInteraction( 
@@ -34,8 +29,7 @@ virtual RequestCode OnReturnFromSubInteraction(
    Interaction^ pSubInteraction
 
 )
-```
-```
+
 
 #### Parameters
 

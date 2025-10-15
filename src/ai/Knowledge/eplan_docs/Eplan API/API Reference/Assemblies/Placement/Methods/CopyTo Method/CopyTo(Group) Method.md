@@ -8,21 +8,16 @@ Copy Placement and insert the Copy into destination group. Copied placement will
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement CopyTo( 
 
    Group destinationGroup
 
 )
-```
-```
 
-```
-```
 public:
 
 Placement^ CopyTo( 
@@ -30,8 +25,7 @@ Placement^ CopyTo(
    Group^ destinationGroup
 
 )
-```
-```
+
 
 #### Parameters
 

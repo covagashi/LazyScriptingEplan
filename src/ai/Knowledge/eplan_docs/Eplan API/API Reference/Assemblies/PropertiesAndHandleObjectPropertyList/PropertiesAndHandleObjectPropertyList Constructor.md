@@ -8,19 +8,13 @@ This constructor creates local property list. Any changes done to this Propertie
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertiesAndHandleObjectPropertyList()
-```
-```
 
-```
-```
 public:
 
 PropertiesAndHandleObjectPropertyList();
-```
-```
+

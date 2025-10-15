@@ -8,17 +8,12 @@ Channel designation (determined) # 20436.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCCHANNEL_DESIGNATION_CALCULATED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCCHANNEL_DESIGNATION_CALCULATED {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCCHANNEL_DESIGNATION_CALCULATED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ BACnet: Service in accord. with BACnet specification # 26033.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SERVICE_ACCORDING_TO_BACNET_SPECIFICATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SERVICE_ACCORDING_TO_BACNET_SPECIFICATION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SERVICE_ACCORDING_TO_BACNET_SPECIFICATION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

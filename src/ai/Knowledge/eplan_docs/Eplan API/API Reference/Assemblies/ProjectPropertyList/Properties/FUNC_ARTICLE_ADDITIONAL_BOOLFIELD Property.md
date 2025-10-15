@@ -8,21 +8,16 @@ Supplementary field Yes / No # 20916.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_ADDITIONAL_BOOLFIELD( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_ADDITIONAL_BOOLFIELD {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_ADDITIONAL_BOOLFIELD {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Continuous connection between the connection points # 20331.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DISTRIBUTOR_CONNECTED_CONNPOINTS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DISTRIBUTOR_CONNECTED_CONNPOINTS {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DISTRIBUTOR_CONNECTED_CONNPOINTS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

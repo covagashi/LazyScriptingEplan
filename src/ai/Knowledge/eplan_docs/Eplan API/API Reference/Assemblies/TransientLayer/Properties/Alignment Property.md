@@ -8,17 +8,12 @@ Specifies the Justification.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TransientLayer.AlignmentType Alignment {get;}
-```
-```
 
-```
-```
 public:
 
 property TransientLayer.AlignmentType Alignment {
@@ -26,5 +21,4 @@ property TransientLayer.AlignmentType Alignment {
    TransientLayer.AlignmentType get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Returns end point of this segment.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD EndPoint {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PointD EndPoint {
@@ -28,8 +23,7 @@ property PointD EndPoint {
    void set (    PointD value);
 
 }
-```
-```
+
 
 #### Property Value
 

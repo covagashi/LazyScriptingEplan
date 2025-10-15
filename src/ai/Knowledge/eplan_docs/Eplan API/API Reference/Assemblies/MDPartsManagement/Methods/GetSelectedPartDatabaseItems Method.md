@@ -8,21 +8,16 @@ Gets the selected PartItem(s) in the parts management (or parts navigator)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartsDatabaseItem[] GetSelectedPartDatabaseItems( 
 
    bool bRecursive
 
 )
-```
-```
 
-```
-```
 public:
 
 array<MDPartsDatabaseItem^>^ GetSelectedPartDatabaseItems( 
@@ -30,8 +25,7 @@ array<MDPartsDatabaseItem^>^ GetSelectedPartDatabaseItems(
    bool bRecursive
 
 )
-```
-```
+
 
 #### Parameters
 

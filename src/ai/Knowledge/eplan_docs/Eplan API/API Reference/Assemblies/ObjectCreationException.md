@@ -24,22 +24,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ObjectCreationException : DataModelException
-```
-```
 
-```
-```
 public ref class ObjectCreationException : public DataModelException
-```
-```
-
-
 
 Public Constructors
 
@@ -48,8 +39,6 @@ Public Constructors
 | Public Constructor | [ObjectCreationException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ObjectCreationException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

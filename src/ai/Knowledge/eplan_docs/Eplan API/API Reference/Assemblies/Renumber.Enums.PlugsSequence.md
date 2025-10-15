@@ -8,20 +8,14 @@ Parameter enum for plug numbering.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Renumber.Enums.PlugsSequence : System.Enum
-```
-```
 
-```
-```
 public enum class Renumber.Enums.PlugsSequence : public System.Enum
-```
-```
+
 
 Members
 

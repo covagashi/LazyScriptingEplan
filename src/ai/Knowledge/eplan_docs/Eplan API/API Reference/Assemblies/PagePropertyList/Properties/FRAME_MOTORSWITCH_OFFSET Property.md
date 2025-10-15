@@ -8,17 +8,12 @@ Contact image margin (on component) # 12059.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_MOTORSWITCH_OFFSET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_MOTORSWITCH_OFFSET {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_MOTORSWITCH_OFFSET {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -13,44 +13,34 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Check
-```
-```
 
-```
-```
 public ref class Check
-```
-```
+
 
 Example
 
 The following examples shows how to use class Check.
 
-- [C#](#i-tab-content-7354d92c-2005-4c7f-b8c3-18f3835ff411)
+**C#**
 
 ```
 Check oCheck = new Check();
 
 oCheck.VerifyProject(m_oTestProject);
 
-
-
 ```
 
-- [C#](#i-tab-content-fcc4b123-1a4c-4d4e-8ee9-b088d9519dbd)
+**C#**
 
 ```
 Check oCheck = new Check();
 
 oCheck.VerifyPages(new ArrayList(m_oTestProject.Pages));
-
-
 
 ```
 
@@ -61,9 +51,6 @@ Public Constructors
 | Public Constructor | [Check Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Check~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

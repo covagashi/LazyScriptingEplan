@@ -8,17 +8,12 @@ Distance cover # 22179.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TOPPANELDISTANCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TOPPANELDISTANCE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TOPPANELDISTANCE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

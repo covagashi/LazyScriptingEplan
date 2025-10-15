@@ -8,17 +8,12 @@ Maintenance interval # 26635.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_MAINTENANCE_INTERVAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_MAINTENANCE_INTERVAL {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_MAINTENANCE_INTERVAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

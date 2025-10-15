@@ -8,17 +8,12 @@ The socket size is the dimension of a socket (the tip)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SocketSize {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ SocketSize {
@@ -28,5 +23,4 @@ property String^ SocketSize {
    void set (    String^ value);
 
 }
-```
-```
+

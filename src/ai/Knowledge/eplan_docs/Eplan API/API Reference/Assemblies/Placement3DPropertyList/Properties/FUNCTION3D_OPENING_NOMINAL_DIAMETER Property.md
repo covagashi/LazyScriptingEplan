@@ -8,17 +8,12 @@ Cut-out: Nominal diameter of the threaded hole # 36007.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_OPENING_NOMINAL_DIAMETER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_OPENING_NOMINAL_DIAMETER {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_OPENING_NOMINAL_DIAMETER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

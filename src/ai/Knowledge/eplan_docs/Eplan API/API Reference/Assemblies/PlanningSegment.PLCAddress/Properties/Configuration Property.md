@@ -8,17 +8,12 @@ The name of the configuration project for the PLC box to which the PLC connectio
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Configuration {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Configuration {
@@ -28,5 +23,4 @@ property String^ Configuration {
    void set (    String^ value);
 
 }
-```
-```
+

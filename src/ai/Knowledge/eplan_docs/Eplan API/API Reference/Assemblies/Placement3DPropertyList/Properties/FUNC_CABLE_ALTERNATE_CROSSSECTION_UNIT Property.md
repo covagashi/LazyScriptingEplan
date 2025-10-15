@@ -8,17 +8,12 @@ Cable / Conduit: Unit for alternative cross-section / diameter # 20126.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLE_ALTERNATE_CROSSSECTION_UNIT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLE_ALTERNATE_CROSSSECTION_UNIT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLE_ALTERNATE_CROSSSECTION_UNIT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -41,7 +35,7 @@ The alternative unit for the alternative cross-section / diameter of the cable o
 
 0 = As in project
 
-1 = mmÂ²
+1 = mm²
 
 2 = sqmm
 
@@ -59,10 +53,10 @@ The alternative unit for the alternative cross-section / diameter of the cable o
 
 9 = inch
 
-10 = Âµm
+10 = µm
 
 11 = kcmil
 
-12 = ÂµmÂ².
+12 = µm².
 
 For pipes and hoses in fluid power and process engineering the property refers to the inner diameter.

@@ -8,22 +8,16 @@ Determines the path of this node.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual string GetNodePathDot()
-```
-```
 
-```
-```
 public:
 
 virtual String^ GetNodePathDot();
-```
-```
+
 
 #### Return Value
 

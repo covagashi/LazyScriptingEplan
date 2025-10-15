@@ -8,17 +8,12 @@ Layout space description # 20235.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLEPLACEMENT_INSTALLATIONSPACE_DESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLEPLACEMENT_INSTALLATIONSPACE_DESCRIPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ARTICLEPLACEMENT_INSTALLATIONSPACE_DESCRIPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

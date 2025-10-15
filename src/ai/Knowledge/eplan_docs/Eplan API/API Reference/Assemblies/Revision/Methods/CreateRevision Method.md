@@ -8,11 +8,10 @@ Creates a new logging revision of the source project. If the source project is a
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateRevision( 
 
    Project sourceProject,
@@ -24,11 +23,7 @@ public void CreateRevision(
    ref string pPathOfCopiedRevision
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateRevision( 
@@ -42,8 +37,7 @@ void CreateRevision(
    String^% pPathOfCopiedRevision
 
 )
-```
-```
+
 
 #### Parameters
 

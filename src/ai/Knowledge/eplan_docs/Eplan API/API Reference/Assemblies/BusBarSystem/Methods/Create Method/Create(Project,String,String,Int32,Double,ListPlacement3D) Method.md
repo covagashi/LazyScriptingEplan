@@ -8,11 +8,10 @@ Creates not placed Busbar system.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static BusBarSystem Create( 
 
    Project oProject,
@@ -28,11 +27,7 @@ public static BusBarSystem Create(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static BusBarSystem^ Create( 
@@ -50,8 +45,7 @@ static BusBarSystem^ Create(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

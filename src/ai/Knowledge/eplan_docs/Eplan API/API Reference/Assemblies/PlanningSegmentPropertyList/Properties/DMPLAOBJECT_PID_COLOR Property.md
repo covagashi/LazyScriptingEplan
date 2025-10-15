@@ -8,17 +8,12 @@ Color for P&I diagram # 44086.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_PID_COLOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_PID_COLOR {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_PID_COLOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

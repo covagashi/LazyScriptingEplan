@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new RoutedConnectionPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property RoutedConnectionPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property RoutedConnectionPropertyList^ Properties {
    RoutedConnectionPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

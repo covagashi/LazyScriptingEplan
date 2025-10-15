@@ -8,17 +8,12 @@ Topology: Routing path types # 20344.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLING_DUCT_TYPES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLING_DUCT_TYPES {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLING_DUCT_TYPES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

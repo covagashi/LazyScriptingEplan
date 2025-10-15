@@ -8,11 +8,10 @@ The start of any parse. Set the text to parse and fill the unit of this text in 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Set( 
 
    string strValueToParse,
@@ -20,11 +19,7 @@ public void Set(
    ParserParameter parameter
 
 )
-```
-```
 
-```
-```
 public:
 
 void Set( 
@@ -34,8 +29,7 @@ void Set(
    ParserParameter^ parameter
 
 )
-```
-```
+
 
 #### Parameters
 

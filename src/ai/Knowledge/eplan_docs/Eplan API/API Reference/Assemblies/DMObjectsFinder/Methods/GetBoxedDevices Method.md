@@ -8,21 +8,16 @@ Returns [BoxedDevice](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.BoxedDevice
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public BoxedDevice[] GetBoxedDevices( 
 
    FunctionsFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<BoxedDevice^>^ GetBoxedDevices( 
@@ -30,8 +25,7 @@ array<BoxedDevice^>^ GetBoxedDevices(
    FunctionsFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

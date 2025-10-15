@@ -8,17 +8,12 @@ Returns upper right front relative coordinate
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D UpperRightFrontRelative {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD3D UpperRightFrontRelative {
@@ -26,5 +21,4 @@ property PointD3D UpperRightFrontRelative {
    PointD3D get();
 
 }
-```
-```
+

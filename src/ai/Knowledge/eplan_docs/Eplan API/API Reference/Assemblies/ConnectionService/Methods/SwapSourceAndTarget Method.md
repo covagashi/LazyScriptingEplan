@@ -8,21 +8,16 @@ Exchanges the source and target properties of given connection.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SwapSourceAndTarget( 
 
    Connection connection
 
 )
-```
-```
 
-```
-```
 public:
 
 void SwapSourceAndTarget( 
@@ -30,8 +25,7 @@ void SwapSourceAndTarget(
    Connection^ connection
 
 )
-```
-```
+
 
 #### Parameters
 

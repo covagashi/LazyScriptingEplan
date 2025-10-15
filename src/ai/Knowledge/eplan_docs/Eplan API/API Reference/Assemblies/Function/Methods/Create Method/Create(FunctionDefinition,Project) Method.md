@@ -8,11 +8,10 @@ Creates a not placed Function from [FunctionDefinition](Eplan.EplApi.DataModelu~
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Function Create( 
 
    FunctionDefinition pFunctionDefinition,
@@ -20,11 +19,7 @@ public static Function Create(
    Project pProject
 
 )
-```
-```
 
-```
-```
 public:
 
 static Function^ Create( 
@@ -34,8 +29,7 @@ static Function^ Create(
    Project^ pProject
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -56,7 +50,7 @@ Example
 
 Example shows how to create function with help of function definition:
 
-- [C#](#i-tab-content-4c2f6d18-6b29-4c6e-acaa-8427515818a3)
+**C#**
 
 ```
 
@@ -65,14 +59,8 @@ Example shows how to create function with help of function definition:
 
 Function oNewFunction = Function.Create(oFuncDef, oPage.Project);
 
-
-
 //place created function on page
 
 oNewFunction.Page = oPage;
-
-
-
-
 
 ```

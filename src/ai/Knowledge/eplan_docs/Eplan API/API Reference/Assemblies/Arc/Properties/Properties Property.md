@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new ArcPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property ArcPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property ArcPropertyList^ Properties {
    ArcPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

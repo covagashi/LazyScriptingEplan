@@ -8,17 +8,12 @@ Returns the PlcIOEntry's data type.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string DataType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ DataType {
@@ -28,5 +23,4 @@ property String^ DataType {
    void set (    String^ value);
 
 }
-```
-```
+

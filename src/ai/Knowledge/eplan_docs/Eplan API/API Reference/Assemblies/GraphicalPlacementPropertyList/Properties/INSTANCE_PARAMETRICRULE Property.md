@@ -8,17 +8,12 @@ Parametric rules # 19100.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTANCE_PARAMETRICRULE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTANCE_PARAMETRICRULE {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTANCE_PARAMETRICRULE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

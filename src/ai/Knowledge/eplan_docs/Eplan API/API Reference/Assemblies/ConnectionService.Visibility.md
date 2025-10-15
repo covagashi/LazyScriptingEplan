@@ -8,20 +8,14 @@ Supported modes for changing visibility of designations.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ConnectionService.Visibility : System.Enum
-```
-```
 
-```
-```
 public enum class ConnectionService.Visibility : public System.Enum
-```
-```
+
 
 Members
 

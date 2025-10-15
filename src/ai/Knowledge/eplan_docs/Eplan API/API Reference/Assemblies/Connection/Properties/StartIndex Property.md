@@ -8,17 +8,12 @@ Index of the start function's connection point (0,1,2,...) that the connection i
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short StartIndex {get; set;}
-```
-```
 
-```
-```
 public:
 
 property short StartIndex {
@@ -28,5 +23,4 @@ property short StartIndex {
    void set (    short value);
 
 }
-```
-```
+

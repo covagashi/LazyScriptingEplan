@@ -8,17 +8,12 @@ Gets property id value as [Properties.Function3D](Eplan.EplApi.DataModelu~Eplan.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.Function3D AsFunction3D {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.Function3D AsFunction3D {
@@ -26,5 +21,4 @@ property Properties.Function3D AsFunction3D {
    Properties.Function3D get();
 
 }
-```
-```
+

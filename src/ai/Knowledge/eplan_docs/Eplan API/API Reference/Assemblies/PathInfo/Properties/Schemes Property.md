@@ -8,17 +8,12 @@ Returns default Schemes directory.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Schemes {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Schemes {
@@ -26,8 +21,7 @@ property String^ Schemes {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

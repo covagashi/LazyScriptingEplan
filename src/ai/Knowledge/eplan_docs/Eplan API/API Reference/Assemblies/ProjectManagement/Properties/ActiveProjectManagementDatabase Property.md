@@ -8,17 +8,12 @@ Returns or sets the type of current project management database. Possible values
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ProjectManagement.DatabaseType ActiveProjectManagementDatabase {get; set;}
-```
-```
 
-```
-```
 public:
 
 property ProjectManagement.DatabaseType ActiveProjectManagementDatabase {
@@ -28,8 +23,7 @@ property ProjectManagement.DatabaseType ActiveProjectManagementDatabase {
    void set (    ProjectManagement.DatabaseType value);
 
 }
-```
-```
+
 
 Remarks
 

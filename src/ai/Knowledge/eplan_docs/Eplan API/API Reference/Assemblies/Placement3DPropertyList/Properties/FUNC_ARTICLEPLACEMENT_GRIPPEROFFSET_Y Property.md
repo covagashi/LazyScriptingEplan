@@ -8,17 +8,12 @@ Y coordinate Handle # 20209.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLEPLACEMENT_GRIPPEROFFSET_Y {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLEPLACEMENT_GRIPPEROFFSET_Y {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ARTICLEPLACEMENT_GRIPPEROFFSET_Y {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

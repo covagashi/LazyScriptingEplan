@@ -8,11 +8,10 @@ Creates not placed routing accessory object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public void Create(
    double dDiameter
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -42,8 +37,7 @@ void Create(
    double dDiameter
 
 )
-```
-```
+
 
 #### Parameters
 

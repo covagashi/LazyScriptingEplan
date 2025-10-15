@@ -8,17 +8,12 @@ Thermal design: Frequency # 10311.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJECT_POWERDISSIPATION_FREQUENCY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJECT_POWERDISSIPATION_FREQUENCY {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJECT_POWERDISSIPATION_FREQUENCY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

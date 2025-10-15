@@ -6,11 +6,10 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 _kResponse Execute( 
 
    RemotingCallingContext pRemotingDataIn,
@@ -18,11 +17,7 @@ _kResponse Execute(
    ref RemotingCallingContext pRemotingDataOut
 
 )
-```
-```
 
-```
-```
 _kResponse Execute( 
 
    RemotingCallingContext^ pRemotingDataIn,
@@ -30,8 +25,7 @@ _kResponse Execute(
    RemotingCallingContext^% pRemotingDataOut
 
 )
-```
-```
+
 
 #### Parameters
 

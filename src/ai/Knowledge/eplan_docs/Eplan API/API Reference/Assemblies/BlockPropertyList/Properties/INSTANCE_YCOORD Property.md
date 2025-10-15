@@ -8,17 +8,12 @@ Y coordinate # 19003.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTANCE_YCOORD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTANCE_YCOORD {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTANCE_YCOORD {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

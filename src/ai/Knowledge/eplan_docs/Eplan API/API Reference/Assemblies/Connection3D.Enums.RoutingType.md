@@ -8,20 +8,14 @@ Types of routing.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Connection3D.Enums.RoutingType : System.Enum
-```
-```
 
-```
-```
 public enum class Connection3D.Enums.RoutingType : public System.Enum
-```
-```
+
 
 Members
 

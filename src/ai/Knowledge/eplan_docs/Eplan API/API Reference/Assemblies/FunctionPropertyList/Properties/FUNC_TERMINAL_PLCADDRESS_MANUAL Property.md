@@ -8,17 +8,12 @@ Connected PLC address # 20854.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TERMINAL_PLCADDRESS_MANUAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TERMINAL_PLCADDRESS_MANUAL {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TERMINAL_PLCADDRESS_MANUAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

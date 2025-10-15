@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool LockAllObjects( 
 
    ProjectHandle* hProject
 
 )
-```
-```
 
-```
-```
 public:
 
 bool LockAllObjects( 
@@ -28,8 +23,7 @@ bool LockAllObjects(
    ProjectHandle* hProject
 
 )
-```
-```
+
 
 #### Parameters
 

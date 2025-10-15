@@ -8,17 +8,12 @@ Returns an array of SymbolReference::PropertyPlacementsSchema elements represent
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ViewPart.PropertyPlacementsSchema[] All {get;}
-```
-```
 
-```
-```
 public:
 
 property array<ViewPart.PropertyPlacementsSchema^>^ All {
@@ -26,5 +21,4 @@ property array<ViewPart.PropertyPlacementsSchema^>^ All {
    array<ViewPart.PropertyPlacementsSchema^>^ get();
 
 }
-```
-```
+

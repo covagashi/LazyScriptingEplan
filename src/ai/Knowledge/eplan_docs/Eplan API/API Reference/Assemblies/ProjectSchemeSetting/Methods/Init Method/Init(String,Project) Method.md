@@ -8,11 +8,10 @@ Initializes object with a project settings node path.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Init( 
 
    string strScheme,
@@ -20,11 +19,7 @@ public virtual void Init(
    Project oProj
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void Init( 
@@ -34,8 +29,7 @@ virtual void Init(
    Project^ oProj
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -55,13 +49,11 @@ Example
 
 Creating a ProjectSchemeSetting object and initializing it with a scheme path
 
-- [C#](#i-tab-content-3f3240ad-242a-4481-94dd-e43d31c3241a)
+**C#**
 
 ```
 ProjectSchemeSetting oProjectSchemeSetting = new ProjectSchemeSetting();
 
 oProjectSchemeSetting.Init("CableLog.CableAutoSelectionScheme", m_oTestProject);
-
-
 
 ```

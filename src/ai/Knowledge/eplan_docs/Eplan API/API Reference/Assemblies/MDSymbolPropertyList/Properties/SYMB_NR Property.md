@@ -8,17 +8,12 @@ Number # 16002.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMB_NR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMB_NR {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMB_NR {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

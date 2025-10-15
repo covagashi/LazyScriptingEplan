@@ -8,17 +8,12 @@ Unique project ID # 10184.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_GUID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_GUID {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_GUID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

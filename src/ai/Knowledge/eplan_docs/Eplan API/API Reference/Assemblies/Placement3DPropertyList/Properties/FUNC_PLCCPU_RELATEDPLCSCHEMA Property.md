@@ -8,17 +8,12 @@ PLC-specific settings # 20315.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCCPU_RELATEDPLCSCHEMA {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCCPU_RELATEDPLCSCHEMA {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCCPU_RELATEDPLCSCHEMA {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

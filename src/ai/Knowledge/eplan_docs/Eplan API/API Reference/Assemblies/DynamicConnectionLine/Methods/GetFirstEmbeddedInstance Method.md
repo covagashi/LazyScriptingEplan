@@ -8,22 +8,16 @@ Returns first instance embedded in this line.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement GetFirstEmbeddedInstance()
-```
-```
 
-```
-```
 public:
 
 Placement^ GetFirstEmbeddedInstance();
-```
-```
+
 
 #### Return Value
 

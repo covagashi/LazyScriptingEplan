@@ -8,21 +8,16 @@ Synchronization from 'overview' data onto 'single-line' and 'multi-line' data.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void OverviewToMultilineAndSingleline( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void OverviewToMultilineAndSingleline( 
@@ -30,8 +25,7 @@ void OverviewToMultilineAndSingleline(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Plugs: Page name of pin-connection diagram # 35202.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PLUGSTRIP_CONNECTIONDIAGRAMPAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PLUGSTRIP_CONNECTIONDIAGRAMPAGE {
@@ -28,8 +23,7 @@ property PropertyValue^ PLUGSTRIP_CONNECTIONDIAGRAMPAGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

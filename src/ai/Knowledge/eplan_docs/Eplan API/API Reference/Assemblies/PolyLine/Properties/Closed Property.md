@@ -8,17 +8,12 @@ True, if the poly line is closed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Closed {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool Closed {
@@ -28,5 +23,4 @@ property bool Closed {
    void set (    bool value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Y coordinate of the center # 19322.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_ARC_CENTER_Y {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_ARC_CENTER_Y {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_ARC_CENTER_Y {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

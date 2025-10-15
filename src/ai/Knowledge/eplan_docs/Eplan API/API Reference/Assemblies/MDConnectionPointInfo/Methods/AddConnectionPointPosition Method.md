@@ -8,19 +8,13 @@ Adds a new connection terminal (MDConnectionPointPosition) to the connection poi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDConnectionPointPosition AddConnectionPointPosition()
-```
-```
 
-```
-```
 public:
 
 MDConnectionPointPosition^ AddConnectionPointPosition();
-```
-```
+

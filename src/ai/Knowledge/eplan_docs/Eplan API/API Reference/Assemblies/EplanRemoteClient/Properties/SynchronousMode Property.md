@@ -8,17 +8,12 @@ Sets and gets the Synchronous mode.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SynchronousMode {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool SynchronousMode {
@@ -28,8 +23,7 @@ property bool SynchronousMode {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

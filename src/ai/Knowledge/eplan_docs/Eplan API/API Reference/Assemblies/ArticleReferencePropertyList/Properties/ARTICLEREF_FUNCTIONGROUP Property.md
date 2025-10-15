@@ -8,17 +8,12 @@ Function group # 20489.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_FUNCTIONGROUP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_FUNCTIONGROUP {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_FUNCTIONGROUP {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

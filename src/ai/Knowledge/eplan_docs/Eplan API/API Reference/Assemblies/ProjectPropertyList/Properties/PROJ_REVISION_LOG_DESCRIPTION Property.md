@@ -8,21 +8,16 @@ Revision comment (change tracking) # 10156.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_REVISION_LOG_DESCRIPTION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_REVISION_LOG_DESCRIPTION {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_REVISION_LOG_DESCRIPTION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

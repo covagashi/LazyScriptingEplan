@@ -8,21 +8,16 @@ Performance description (item, device) # 26428.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_POWER_DESCRIPTION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_POWER_DESCRIPTION {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_POWER_DESCRIPTION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

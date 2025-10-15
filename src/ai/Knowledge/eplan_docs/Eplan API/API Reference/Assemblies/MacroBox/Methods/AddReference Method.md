@@ -8,21 +8,16 @@ Adds reference to object, that belongs to macro
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddReference( 
 
    StorableObject pObject
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddReference( 
@@ -30,8 +25,7 @@ void AddReference(
    StorableObject^ pObject
 
 )
-```
-```
+
 
 #### Parameters
 

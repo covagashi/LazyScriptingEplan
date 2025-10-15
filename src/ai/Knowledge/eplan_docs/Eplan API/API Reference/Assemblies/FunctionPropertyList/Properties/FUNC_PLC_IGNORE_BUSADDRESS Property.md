@@ -8,17 +8,12 @@ Ignore missing bus ID # 20412.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLC_IGNORE_BUSADDRESS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLC_IGNORE_BUSADDRESS {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLC_IGNORE_BUSADDRESS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

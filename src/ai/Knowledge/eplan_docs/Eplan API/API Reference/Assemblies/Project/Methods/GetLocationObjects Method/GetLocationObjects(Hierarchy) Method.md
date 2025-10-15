@@ -8,21 +8,16 @@ Returns array of project's location objects for given hierarchy type (PLANT, LOC
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Location[] GetLocationObjects( 
 
    Project.Hierarchy type
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Location^>^ GetLocationObjects( 
@@ -30,8 +25,7 @@ array<Location^>^ GetLocationObjects(
    Project.Hierarchy type
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Emergency control function (closed) # 26054.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_EMERGENCY_CONTROL_FUNCTION_CLOSED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_EMERGENCY_CONTROL_FUNCTION_CLOSED {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_EMERGENCY_CONTROL_FUNCTION_CLOSED {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

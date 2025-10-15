@@ -18,24 +18,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PagesFilter : AbstractDMObjectFilter
-```
-```
 
-```
-```
 public ref class PagesFilter : public AbstractDMObjectFilter
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-1d47347a-4fb1-4b26-ae83-884166a4e71e)
+**C#**
 
 ```
 Project proj;  //a valid project
@@ -53,7 +47,7 @@ Page[] oPages = oFinder.GetPages(oPagesFilter); //now we have all pages with nam
 
 The following example shows how to filter by user-defined properties
 
-- [C#](#i-tab-content-d2d4db70-422f-44d9-a3e4-e61ca34660d1)
+**C#**
 
 ```
 
@@ -61,8 +55,6 @@ The following example shows how to filter by user-defined properties
 Project myProject = m_oProject; // A valid project
 
 Page myPage = myProject.Pages[0]; // A valid Page object
-
-
 
 // Define test property
 
@@ -74,13 +66,9 @@ string strPropertyIdentyfingName = "Page.Test043c";
 
 UserDefinedPropertyDefinition oUDPD = UserDefinedPropertyDefinition.Create(myProject, strPropertyIdentyfingName, UserDefinedPropertyDefinition.Enums.ClientType.Page);
 
-
-
 // Set test property on myPage
 
 myPage.Properties[strPropertyIdentyfingName] = mlsTestValue;
-
-
 
 // Search page with property value
 
@@ -92,17 +80,11 @@ PagePropertyList pagePropertyList = new PagePropertyList();
 
 AnyPropertyId anyPropertyId = new AnyPropertyId(myProject, strPropertyIdentyfingName);
 
-
-
 pagePropertyList[anyPropertyId] = mlsTestValue;
 
 pagesFilter.SetFilteredPropertyList(pagePropertyList);
 
 Page[] arrPages1 = objFinder.GetPages(pagesFilter);
-
-
-
-
 
 ```
 
@@ -113,8 +95,6 @@ Public Constructors
 | Public Constructor | [PagesFilter Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PagesFilter~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

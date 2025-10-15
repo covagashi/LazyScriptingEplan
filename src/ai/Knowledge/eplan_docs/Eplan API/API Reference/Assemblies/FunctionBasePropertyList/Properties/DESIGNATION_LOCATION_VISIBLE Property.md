@@ -8,17 +8,12 @@ Location designation (visible) # 1229.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_LOCATION_VISIBLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_LOCATION_VISIBLE {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_LOCATION_VISIBLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

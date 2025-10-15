@@ -8,17 +8,12 @@ Performance description, standardized: Item keyword (device, utility, service) #
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_POSITION_KEYWORD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_POSITION_KEYWORD {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_POSITION_KEYWORD {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

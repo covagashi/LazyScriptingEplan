@@ -8,21 +8,16 @@ Determines if placed symbols on a page are always treated as graphics.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static bool ArePlacedSymbolAlwaysTreatedAsGraphics( 
 
    DocumentTypeManager.DocumentType nPageType
 
 )
-```
-```
 
-```
-```
 public:
 
 static bool ArePlacedSymbolAlwaysTreatedAsGraphics( 
@@ -30,8 +25,7 @@ static bool ArePlacedSymbolAlwaysTreatedAsGraphics(
    DocumentTypeManager.DocumentType nPageType
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Structure identifier superior: Description # 1012.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue LOCATION_UPPERLOCATION_DESCRIPTION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ LOCATION_UPPERLOCATION_DESCRIPTION {
@@ -32,8 +27,7 @@ property PropertyValue^ LOCATION_UPPERLOCATION_DESCRIPTION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

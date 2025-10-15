@@ -8,17 +8,12 @@ Gets the complete selection on the active window. Property `LockProjectByDefault
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] SelectionRecursive {get;}
-```
-```
 
-```
-```
 public:
 
 property array<StorableObject^>^ SelectionRecursive {
@@ -26,8 +21,7 @@ property array<StorableObject^>^ SelectionRecursive {
    array<StorableObject^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

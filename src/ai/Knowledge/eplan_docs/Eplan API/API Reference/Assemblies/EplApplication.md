@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class EplApplication
-```
-```
 
-```
-```
 public ref class EplApplication
-```
-```
+
 
 Remarks
 
@@ -36,7 +30,7 @@ Example
 
 This example initializes and closes Eplan.
 
-- [C#](#i-tab-content-4df8b310-5ed9-4b31-af7a-84e8bf461204)
+**C#**
 
 ```
 namespace Eplan.Api.Offline
@@ -51,19 +45,13 @@ namespace Eplan.Api.Offline
 
         private EplApplication m_oEplApp = new EplApplication();
 
-
-
         //Flag to determine if initialization has already been done
 
         private bool m_bIsP8AlreadyInitialized = false;
 
-
-
         //Path to EPLAN product variant bin folder
 
         private string m_strEplanBinFolder = "";
-
-
 
         public MainDialog(String strEplanBinFolder)
 
@@ -73,15 +61,11 @@ namespace Eplan.Api.Offline
 
             m_strEplanBinFolder = strEplanBinFolder;
 
-
-
             //Initialize dialog components
 
             InitializeComponent();
 
         }
-
-
 
         //Method for handling event which fires on clicking a control.
 
@@ -93,8 +77,6 @@ namespace Eplan.Api.Offline
 
         }
 
-
-
         //Method for handling event which fires when closing a form. 
 
         private void mainDialog_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -104,8 +86,6 @@ namespace Eplan.Api.Offline
             EPLExit();
 
         }
-
-
 
         //Method for initializing EPLAN
 
@@ -145,11 +125,7 @@ namespace Eplan.Api.Offline
 
             }
 
-
-
         }
-
-
 
         //Method for deinitialization EPLAN
 
@@ -181,15 +157,11 @@ namespace Eplan.Api.Offline
 
             }
 
-
-
         }
 
     };
 
 }
-
-
 
 ```
 

@@ -8,17 +8,12 @@ Full item designation # 36013.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_FULLDESIGNATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_FULLDESIGNATION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_FULLDESIGNATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

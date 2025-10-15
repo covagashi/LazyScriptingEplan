@@ -8,17 +8,12 @@ Next page # 11040.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_NEXT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_NEXT {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_NEXT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

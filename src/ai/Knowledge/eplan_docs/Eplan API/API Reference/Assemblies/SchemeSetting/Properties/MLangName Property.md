@@ -8,17 +8,12 @@ Returns a multilingual scheme name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString MLangName {get;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ MLangName {
@@ -26,5 +21,4 @@ property MultiLangString^ MLangName {
    MultiLangString^ get();
 
 }
-```
-```
+

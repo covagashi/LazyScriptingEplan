@@ -8,17 +8,12 @@ Highest revision index (change tracking) # 10098.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJECT_HIGHEST_REVISION_INDEX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJECT_HIGHEST_REVISION_INDEX {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJECT_HIGHEST_REVISION_INDEX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

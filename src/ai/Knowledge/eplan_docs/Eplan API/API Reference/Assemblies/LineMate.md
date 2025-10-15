@@ -16,22 +16,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class LineMate : Mate
-```
-```
 
-```
-```
 public ref class LineMate : public Mate
-```
-```
-
-
 
 Public Constructors
 
@@ -40,8 +31,6 @@ Public Constructors
 | Public Constructor | [LineMate Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.LineMate~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

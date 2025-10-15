@@ -8,17 +8,12 @@ Activate or deactivate change info handling if object belongs to page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Obj2PageActive {set;}
-```
-```
 
-```
-```
 public:
 
 property bool Obj2PageActive {
@@ -26,5 +21,4 @@ property bool Obj2PageActive {
    void set (    bool value);
 
 }
-```
-```
+

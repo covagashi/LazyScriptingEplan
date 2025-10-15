@@ -8,17 +8,12 @@ Svg content of custom icons.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SvgContent {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ SvgContent {
@@ -28,5 +23,4 @@ property String^ SvgContent {
    void set (    String^ value);
 
 }
-```
-```
+

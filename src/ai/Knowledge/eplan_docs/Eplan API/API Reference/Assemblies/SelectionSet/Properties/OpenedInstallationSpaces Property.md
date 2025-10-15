@@ -8,17 +8,12 @@ Gets installation spaces opened in GED.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public InstallationSpace[] OpenedInstallationSpaces {get;}
-```
-```
 
-```
-```
 public:
 
 property array<InstallationSpace^>^ OpenedInstallationSpaces {
@@ -26,8 +21,7 @@ property array<InstallationSpace^>^ OpenedInstallationSpaces {
    array<InstallationSpace^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

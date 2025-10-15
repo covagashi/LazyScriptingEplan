@@ -8,17 +8,12 @@ Profile horizontal: Depth # 22188.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PROFILEDEPTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PROFILEDEPTH {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PROFILEDEPTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

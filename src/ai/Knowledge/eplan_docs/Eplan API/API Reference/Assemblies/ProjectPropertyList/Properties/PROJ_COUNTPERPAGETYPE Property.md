@@ -8,21 +8,16 @@ Number of pages per page type # 10200.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_COUNTPERPAGETYPE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_COUNTPERPAGETYPE {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_COUNTPERPAGETYPE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Gets the point of spline at a relative position.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ValueType getPointOnSplineAt( 
 
    double dPosition
 
 )
-```
-```
 
-```
-```
 public:
 
 ValueType^ getPointOnSplineAt( 
@@ -30,8 +25,7 @@ ValueType^ getPointOnSplineAt(
    double dPosition
 
 )
-```
-```
+
 
 #### Parameters
 

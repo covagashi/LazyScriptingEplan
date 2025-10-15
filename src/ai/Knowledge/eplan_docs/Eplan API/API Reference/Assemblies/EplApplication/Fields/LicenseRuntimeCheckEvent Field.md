@@ -8,26 +8,20 @@ License runtime check callback event
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static EplApplication.LicenseRuntimeCheckCallbackHandler LicenseRuntimeCheckEvent
-```
-```
 
-```
-```
 public:
 
 static EplApplication.LicenseRuntimeCheckCallbackHandler^ LicenseRuntimeCheckEvent
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-abddb0d3-52ea-4ba7-91b0-57e0d54c9cb6)
+**C#**
 
 ```
 Dispatcher m_Dispatcher = Dispatcher.CurrentDispatcher;       
@@ -38,11 +32,7 @@ EplApplication.LicenseRuntimeCheckCommands LicenseCallbackHandler(int nError, St
 
    //we should be in the UI Thread.
 
-
-
    EplApplication.LicenseRuntimeCheckCommands response = EplApplication.LicenseRuntimeCheckCommands.Cancel;
-
-
 
    if (nLicenseRuntimeCheckMode == EplApplication.LicenseRuntimeCheckModes.TryCancel)
 
@@ -68,13 +58,9 @@ EplApplication.LicenseRuntimeCheckCommands LicenseCallbackHandler(int nError, St
 
    }
 
-
-
    return response;
 
 }
-
-
 
 delegate EplApplication.LicenseRuntimeCheckCommands LicenseCallbackHandlerDel(int nError, String strError, EplApplication.LicenseRuntimeCheckModes nLicenseRuntimeCheckMode);
 
@@ -83,8 +69,6 @@ EplApplication.LicenseRuntimeCheckCommands MyLicenseCallbackHandler(int nError, 
 {
 
    EplApplication.LicenseRuntimeCheckCommands response = EplApplication.LicenseRuntimeCheckCommands.Cancel;
-
-  
 
    if (m_Dispatcher.CheckAccess())
 
@@ -114,13 +98,9 @@ EplApplication.LicenseRuntimeCheckCommands MyLicenseCallbackHandler(int nError, 
 
                    );
 
-
-
        response = (EplApplication.LicenseRuntimeCheckCommands)obj;
 
    }
-
-  
 
    return response;
 

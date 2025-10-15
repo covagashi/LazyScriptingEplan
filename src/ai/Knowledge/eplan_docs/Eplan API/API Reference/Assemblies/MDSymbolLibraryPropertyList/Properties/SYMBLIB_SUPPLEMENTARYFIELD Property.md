@@ -8,21 +8,16 @@ Supplementary field # 15901.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBLIB_SUPPLEMENTARYFIELD( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBLIB_SUPPLEMENTARYFIELD {
@@ -32,8 +27,7 @@ property MDPropertyValue^ SYMBLIB_SUPPLEMENTARYFIELD {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

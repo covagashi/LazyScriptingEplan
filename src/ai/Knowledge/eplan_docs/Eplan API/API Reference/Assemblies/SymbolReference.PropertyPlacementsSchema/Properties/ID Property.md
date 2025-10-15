@@ -8,17 +8,12 @@ Returns the ID of the property placements configuration
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int ID {get;}
-```
-```
 
-```
-```
 public:
 
 property int ID {
@@ -26,5 +21,4 @@ property int ID {
    int get();
 
 }
-```
-```
+

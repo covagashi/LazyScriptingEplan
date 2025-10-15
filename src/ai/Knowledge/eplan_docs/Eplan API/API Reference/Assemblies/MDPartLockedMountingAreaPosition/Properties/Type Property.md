@@ -8,17 +8,12 @@ Type of the locked mounting area (locked for placing, locked for drilling)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartLockedMountingAreaPosition.LockedMountingAreaType Type {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPartLockedMountingAreaPosition.LockedMountingAreaType Type {
@@ -28,5 +23,4 @@ property MDPartLockedMountingAreaPosition.LockedMountingAreaType Type {
    void set (    MDPartLockedMountingAreaPosition.LockedMountingAreaType value);
 
 }
-```
-```
+

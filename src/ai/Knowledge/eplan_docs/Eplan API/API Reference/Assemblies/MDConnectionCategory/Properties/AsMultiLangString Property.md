@@ -8,17 +8,12 @@ Representation of connection category as a mult-lang string
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString AsMultiLangString {get;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ AsMultiLangString {
@@ -26,5 +21,4 @@ property MultiLangString^ AsMultiLangString {
    MultiLangString^ get();
 
 }
-```
-```
+

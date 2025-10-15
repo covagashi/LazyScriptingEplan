@@ -8,17 +8,12 @@ DXF export: Insertion point (Y) # 12052.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_DXF_INSERTYCOORD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_DXF_INSERTYCOORD {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_DXF_INSERTYCOORD {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

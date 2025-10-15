@@ -8,21 +8,16 @@ Resets a setting to the value from the default settings. If the setting has no d
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DeleteSetting( 
 
    string strSettingPath
 
 )
-```
-```
 
-```
-```
 public:
 
 void DeleteSetting( 
@@ -30,8 +25,7 @@ void DeleteSetting(
    String^ strSettingPath
 
 )
-```
-```
+
 
 #### Parameters
 

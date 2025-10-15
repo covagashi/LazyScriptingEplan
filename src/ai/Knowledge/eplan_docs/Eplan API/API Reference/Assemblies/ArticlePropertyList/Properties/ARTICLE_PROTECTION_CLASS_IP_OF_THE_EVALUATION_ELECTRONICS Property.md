@@ -8,17 +8,12 @@ Degree of protection (IP): Evaluation electronics # 26555.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PROTECTION_CLASS_IP_OF_THE_EVALUATION_ELECTRONICS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PROTECTION_CLASS_IP_OF_THE_EVALUATION_ELECTRONICS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PROTECTION_CLASS_IP_OF_THE_EVALUATION_ELECTRONIC
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

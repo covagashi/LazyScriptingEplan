@@ -8,17 +8,12 @@ Coil: Voltage # 22218.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_COILVOLTAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_COILVOLTAGE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_COILVOLTAGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

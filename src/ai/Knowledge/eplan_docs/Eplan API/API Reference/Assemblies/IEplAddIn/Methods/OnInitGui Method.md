@@ -8,17 +8,11 @@ Called by the framework if the user interface was initialized and the add-in can
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool OnInitGui()
-```
-```
 
-```
-```
 bool OnInitGui();
-```
-```
+

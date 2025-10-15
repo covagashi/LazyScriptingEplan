@@ -8,17 +8,12 @@ PCF: Calculation # 26529.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PCF_PRODUCT_CARBON_FOOTPRINT_CALCULATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PCF_PRODUCT_CARBON_FOOTPRINT_CALCULATION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PCF_PRODUCT_CARBON_FOOTPRINT_CALCULATION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

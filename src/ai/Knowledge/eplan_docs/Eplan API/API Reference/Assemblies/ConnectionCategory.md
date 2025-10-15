@@ -8,20 +8,14 @@ Enumeration of connection point position category.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ConnectionCategory : System.Enum
-```
-```
 
-```
-```
 public enum class ConnectionCategory : public System.Enum
-```
-```
+
 
 Members
 

@@ -8,17 +8,12 @@ Material # 20864.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_MATERIAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_MATERIAL {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_MATERIAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

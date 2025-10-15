@@ -8,17 +8,12 @@ Safety-related values: Logic (Generate report) # 40328.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SAFETYRELATED_LOGIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SAFETYRELATED_LOGIC {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SAFETYRELATED_LOGIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

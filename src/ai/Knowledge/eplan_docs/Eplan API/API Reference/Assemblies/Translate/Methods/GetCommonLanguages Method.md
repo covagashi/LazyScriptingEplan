@@ -8,11 +8,10 @@ Determines the list of languages, which the given storableObjects have in common
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool GetCommonLanguages( 
 
    StringCollection listLanguages,
@@ -20,11 +19,7 @@ public bool GetCommonLanguages(
    StorableObject[] storableObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 bool GetCommonLanguages( 
@@ -34,8 +29,7 @@ bool GetCommonLanguages(
    array<StorableObject^>^ storableObjects
 
 )
-```
-```
+
 
 #### Parameters
 

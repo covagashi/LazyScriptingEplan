@@ -8,21 +8,16 @@ Returns array of names of project's location for given hierarchy type (PLANT, LO
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string[] GetLocations( 
 
    Project.Hierarchy type
 
 )
-```
-```
 
-```
-```
 public:
 
 array<String^>^ GetLocations( 
@@ -30,8 +25,7 @@ array<String^>^ GetLocations(
    Project.Hierarchy type
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -44,7 +38,7 @@ array<String^>^ GetLocations(
 
 Example
 
-- [C#](#i-tab-content-56dedf13-f235-4ebe-900b-649efdaa5166)
+**C#**
 
 ```
 string[] strLocations = oProject.GetLocations(Project.Hierarchy.Plant);
@@ -54,7 +48,5 @@ Console.WriteLine(" Locations :");
 foreach(string loc in strLocations)
 
 Console.WriteLine("  " + loc);
-
-
 
 ```

@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement3D.CornersClass( 
 
    Placement3D source
 
 )
-```
-```
 
-```
-```
 public:
 
 Placement3D.CornersClass( 
@@ -28,8 +23,7 @@ Placement3D.CornersClass(
    Placement3D^ source
 
 )
-```
-```
+
 
 #### Parameters
 

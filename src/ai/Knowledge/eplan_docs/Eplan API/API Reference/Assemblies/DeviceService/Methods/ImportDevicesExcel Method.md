@@ -8,11 +8,10 @@ This function imports devices from an Excel file into a given project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] ImportDevicesExcel( 
 
    Project oProject,
@@ -34,11 +33,7 @@ public StorableObject[] ImportDevicesExcel(
    DeviceService.ImportMode eMode
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ ImportDevicesExcel( 
@@ -62,8 +57,7 @@ array<StorableObject^>^ ImportDevicesExcel(
    DeviceService.ImportMode eMode
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -93,9 +87,9 @@ array<StorableObject^>^ ImportDevicesExcel(
 
 *eMode*
 :   The import mode can be a combination of the XPProcImportMode enum and controls the import action (input parameter, optional):  
-    â¢ eCreateMode = 1: The import creates only missing device tags  
-    â¢ eChangeMode = 2: The import changes only existing device tag  
-    â¢ eDeleteMode = 4: The import deletes only unnecessary existing device tags
+    '¢ eCreateMode = 1: The import creates only missing device tags  
+    '¢ eChangeMode = 2: The import changes only existing device tag  
+    '¢ eDeleteMode = 4: The import deletes only unnecessary existing device tags
 
 #### Return Value
 

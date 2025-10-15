@@ -8,17 +8,12 @@ Determine if object was create automatically by P8.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CreatedAutomatically {get;}
-```
-```
 
-```
-```
 public:
 
 property bool CreatedAutomatically {
@@ -26,5 +21,4 @@ property bool CreatedAutomatically {
    bool get();
 
 }
-```
-```
+

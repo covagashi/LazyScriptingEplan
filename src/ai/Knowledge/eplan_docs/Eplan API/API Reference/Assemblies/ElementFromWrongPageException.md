@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ElementFromWrongPageException : InvalidArgumentException
-```
-```
 
-```
-```
 public ref class ElementFromWrongPageException : public InvalidArgumentException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [ElementFromWrongPageException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ElementFromWrongPageException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

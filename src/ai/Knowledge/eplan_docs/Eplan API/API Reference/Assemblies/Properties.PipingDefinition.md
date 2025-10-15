@@ -8,20 +8,14 @@ Identificators of properties owned by PipingDefinition class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.PipingDefinition : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.PipingDefinition : public System.Enum
-```
-```
+
 
 Members
 

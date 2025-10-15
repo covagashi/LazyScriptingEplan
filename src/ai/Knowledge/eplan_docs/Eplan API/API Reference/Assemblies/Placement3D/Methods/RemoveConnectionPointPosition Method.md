@@ -8,21 +8,16 @@ Removes connection point data stored under given index.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveConnectionPointPosition( 
 
    short iIndex
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveConnectionPointPosition( 
@@ -30,8 +25,7 @@ void RemoveConnectionPointPosition(
    short iIndex
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ BACnet: Standard # 26516.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_STANDARD_BACNET_ {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_STANDARD_BACNET_ {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_STANDARD_BACNET_ {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

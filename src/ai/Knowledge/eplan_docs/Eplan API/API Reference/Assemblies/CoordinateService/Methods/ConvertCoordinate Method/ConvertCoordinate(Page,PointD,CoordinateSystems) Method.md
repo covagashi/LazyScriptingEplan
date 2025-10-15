@@ -8,11 +8,10 @@ Method that converts from coordinate system based on page type to another
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD ConvertCoordinate( 
 
    Page oPage,
@@ -22,11 +21,7 @@ public PointD ConvertCoordinate(
    CoordinateService.CoordinateSystems oDestinationCoordinateSystem
 
 )
-```
-```
 
-```
-```
 public:
 
 PointD ConvertCoordinate( 
@@ -38,8 +33,7 @@ PointD ConvertCoordinate(
    CoordinateService.CoordinateSystems oDestinationCoordinateSystem
 
 )
-```
-```
+
 
 #### Parameters
 

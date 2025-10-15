@@ -8,11 +8,10 @@ Allows the user to add a progress bar when main thread is working.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddProgressBackgroundWork( 
 
    Progress pProgress,
@@ -20,11 +19,7 @@ public void AddProgressBackgroundWork(
    BackgroundProgressWorkDelegate workDelegate
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddProgressBackgroundWork( 
@@ -34,8 +29,7 @@ void AddProgressBackgroundWork(
    BackgroundProgressWorkDelegate^ workDelegate
 
 )
-```
-```
+
 
 #### Parameters
 

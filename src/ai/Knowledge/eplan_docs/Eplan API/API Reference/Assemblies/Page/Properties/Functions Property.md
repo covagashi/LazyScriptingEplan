@@ -8,17 +8,12 @@ Returns all [Function](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function.h
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function[] Functions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Function^>^ Functions {
@@ -26,8 +21,7 @@ property array<Function^>^ Functions {
    array<Function^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

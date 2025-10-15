@@ -8,17 +8,12 @@ Physical network: Name (indirect) # 20425.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCDP_SYSTEM_INDIRECT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCDP_SYSTEM_INDIRECT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCDP_SYSTEM_INDIRECT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

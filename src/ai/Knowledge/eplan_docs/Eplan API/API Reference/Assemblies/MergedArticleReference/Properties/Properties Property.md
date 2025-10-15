@@ -8,17 +8,12 @@ List of P8 properties of the MergedArticleReference object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new MergedArticleReferencePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property MergedArticleReferencePropertyList^ Properties {
@@ -26,8 +21,7 @@ new property MergedArticleReferencePropertyList^ Properties {
    MergedArticleReferencePropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

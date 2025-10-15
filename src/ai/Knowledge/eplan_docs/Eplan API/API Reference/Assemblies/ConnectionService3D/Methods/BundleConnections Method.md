@@ -8,11 +8,10 @@ Bundle connections of project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void BundleConnections( 
 
    Project pProject,
@@ -34,11 +33,7 @@ public void BundleConnections(
    bool bShowPreview
 
 )
-```
-```
 
-```
-```
 public:
 
 void BundleConnections( 
@@ -62,8 +57,7 @@ void BundleConnections(
    bool bShowPreview
 
 )
-```
-```
+
 
 #### Parameters
 

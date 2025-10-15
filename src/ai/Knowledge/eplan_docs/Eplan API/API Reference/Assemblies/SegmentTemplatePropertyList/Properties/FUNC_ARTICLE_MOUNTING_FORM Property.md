@@ -8,21 +8,16 @@ Mounting configuration # 26274.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_MOUNTING_FORM( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_MOUNTING_FORM {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_MOUNTING_FORM {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

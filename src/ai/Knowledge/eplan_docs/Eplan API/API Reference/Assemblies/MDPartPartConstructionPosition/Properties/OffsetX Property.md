@@ -8,17 +8,12 @@ The x offset of the referenced construction.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double OffsetX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double OffsetX {
@@ -28,5 +23,4 @@ property double OffsetX {
    void set (    double value);
 
 }
-```
-```
+

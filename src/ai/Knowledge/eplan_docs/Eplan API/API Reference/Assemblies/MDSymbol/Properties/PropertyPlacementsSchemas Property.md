@@ -6,17 +6,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDSymbol.MDPropertyPlacementsSchemasList PropertyPlacementsSchemas {get;}
-```
-```
 
-```
-```
 public:
 
 property MDSymbol.MDPropertyPlacementsSchemasList^ PropertyPlacementsSchemas {
@@ -24,5 +19,4 @@ property MDSymbol.MDPropertyPlacementsSchemasList^ PropertyPlacementsSchemas {
    MDSymbol.MDPropertyPlacementsSchemasList^ get();
 
 }
-```
-```
+

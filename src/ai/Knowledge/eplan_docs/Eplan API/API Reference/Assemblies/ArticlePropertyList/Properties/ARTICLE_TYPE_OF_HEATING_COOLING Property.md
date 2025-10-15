@@ -8,17 +8,12 @@ Type of heating / cooling # 26015.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TYPE_OF_HEATING_COOLING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TYPE_OF_HEATING_COOLING {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TYPE_OF_HEATING_COOLING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Connection point pattern: Offset X-direction # 22277.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_REF_TERMINAL_OFFSET_X {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_REF_TERMINAL_OFFSET_X {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_REF_TERMINAL_OFFSET_X {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

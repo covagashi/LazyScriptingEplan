@@ -8,17 +8,12 @@ Channel designation (automatic) # 20428.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCCHANNEL_DESIGNATION_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCCHANNEL_DESIGNATION_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCCHANNEL_DESIGNATION_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

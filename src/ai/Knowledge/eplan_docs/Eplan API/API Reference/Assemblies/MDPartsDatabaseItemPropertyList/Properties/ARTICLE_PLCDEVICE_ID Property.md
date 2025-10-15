@@ -8,17 +8,12 @@ Device description: File name # 22037.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PLCDEVICE_ID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PLCDEVICE_ID {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PLCDEVICE_ID {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

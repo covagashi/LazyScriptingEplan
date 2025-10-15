@@ -8,17 +8,12 @@ Automatically generated # 44074.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_AUTO_CREATED_INFO {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_AUTO_CREATED_INFO {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_AUTO_CREATED_INFO {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

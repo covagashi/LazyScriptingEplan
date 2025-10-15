@@ -8,17 +8,12 @@ Project's property which return full project name, without an extension.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ProjectFullName {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ ProjectFullName {
@@ -26,8 +21,7 @@ property String^ ProjectFullName {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

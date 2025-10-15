@@ -8,17 +8,12 @@ Get or set planning objects to which this page is assigned or null.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningSegment PlanningSegment {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PlanningSegment^ PlanningSegment {
@@ -28,8 +23,7 @@ property PlanningSegment^ PlanningSegment {
    void set (    PlanningSegment^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

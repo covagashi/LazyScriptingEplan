@@ -8,11 +8,10 @@ Adds the revision markers of all deleted objects in the comparison project. Note
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddRevisionMarkersForDeletedInRevisionProject( 
 
    Project oComparisonProject,
@@ -22,11 +21,7 @@ public void AddRevisionMarkersForDeletedInRevisionProject(
    string strRevisionMarker
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddRevisionMarkersForDeletedInRevisionProject( 
@@ -38,8 +33,7 @@ void AddRevisionMarkersForDeletedInRevisionProject(
    String^ strRevisionMarker
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Returns [Option](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Option.html)s ma
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Option[] GetOptionObjectsWithFilterScheme( 
 
    string strFilterScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Option^>^ GetOptionObjectsWithFilterScheme( 
@@ -30,8 +25,7 @@ array<Option^>^ GetOptionObjectsWithFilterScheme(
    String^ strFilterScheme
 
 )
-```
-```
+
 
 #### Parameters
 

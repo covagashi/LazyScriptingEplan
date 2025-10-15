@@ -8,21 +8,16 @@ API Parts Management Extension: Value from add-in # 22213.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CUSTOM_DATA_VALUE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CUSTOM_DATA_VALUE {
@@ -32,8 +27,7 @@ property PropertyValue^ ARTICLE_CUSTOM_DATA_VALUE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

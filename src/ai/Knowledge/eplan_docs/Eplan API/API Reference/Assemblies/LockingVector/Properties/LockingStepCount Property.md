@@ -8,17 +8,12 @@ Returns the number of active LockingSteps. This is not the length of the vector,
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int LockingStepCount {get;}
-```
-```
 
-```
-```
 public:
 
 property int LockingStepCount {
@@ -26,8 +21,7 @@ property int LockingStepCount {
    int get();
 
 }
-```
-```
+
 
 #### Property Value
 

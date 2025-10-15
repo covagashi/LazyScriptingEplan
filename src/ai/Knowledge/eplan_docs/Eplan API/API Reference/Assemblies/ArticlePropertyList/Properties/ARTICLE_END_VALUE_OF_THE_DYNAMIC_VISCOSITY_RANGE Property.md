@@ -8,17 +8,12 @@ Dynamic viscosity range: End value # 26299.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_END_VALUE_OF_THE_DYNAMIC_VISCOSITY_RANGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_END_VALUE_OF_THE_DYNAMIC_VISCOSITY_RANGE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_END_VALUE_OF_THE_DYNAMIC_VISCOSITY_RANGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Highest value of the dynamic viscosity specified for a particular product or material. The dynamic viscosity is a measure of the viscosity of a fluid and is measured in pascal seconds (PaÂ·s).
+Highest value of the dynamic viscosity specified for a particular product or material. The dynamic viscosity is a measure of the viscosity of a fluid and is measured in pascal seconds (Pa·s).

@@ -8,17 +8,12 @@ Terminal strips: Last terminal # 35008.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue TERMINALSTRIP_LASTTERMINAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ TERMINALSTRIP_LASTTERMINAL {
@@ -28,8 +23,7 @@ property PropertyValue^ TERMINALSTRIP_LASTTERMINAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Function designation (visible) # 1129.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_PLANT_VISIBLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_PLANT_VISIBLE {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_PLANT_VISIBLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

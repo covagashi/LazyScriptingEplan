@@ -8,21 +8,16 @@ Opens the page, selects the Placement passed as oPlacementToMove and move the Pl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void BringToFront( 
 
    Placement oPlacementToMove
 
 )
-```
-```
 
-```
-```
 public:
 
 void BringToFront( 
@@ -30,8 +25,7 @@ void BringToFront(
    Placement^ oPlacementToMove
 
 )
-```
-```
+
 
 #### Parameters
 

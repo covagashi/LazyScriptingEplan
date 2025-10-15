@@ -8,17 +8,12 @@ DT (full) # 20006.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_FULLDEVICETAG {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_FULLDEVICETAG {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_FULLDEVICETAG {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

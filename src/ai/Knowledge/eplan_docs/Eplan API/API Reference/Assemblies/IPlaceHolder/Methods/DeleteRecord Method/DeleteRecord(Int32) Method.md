@@ -8,28 +8,22 @@ Deletes a record.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void DeleteRecord( 
 
    int iPos
 
 )
-```
-```
 
-```
-```
 void DeleteRecord( 
 
    int iPos
 
 )
-```
-```
+
 
 #### Parameters
 

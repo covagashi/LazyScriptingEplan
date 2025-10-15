@@ -8,11 +8,10 @@ Function for placing connection definition points.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void PlaceConnectionDefinitionPoints( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public void PlaceConnectionDefinitionPoints(
    bool bRegenrateConnections
 
 )
-```
-```
 
-```
-```
 public:
 
 void PlaceConnectionDefinitionPoints( 
@@ -38,8 +33,7 @@ void PlaceConnectionDefinitionPoints(
    bool bRegenrateConnections
 
 )
-```
-```
+
 
 #### Parameters
 

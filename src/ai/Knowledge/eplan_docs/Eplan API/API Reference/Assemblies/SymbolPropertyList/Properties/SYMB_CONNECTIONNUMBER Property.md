@@ -8,21 +8,16 @@ Connection point number # 16001.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMB_CONNECTIONNUMBER( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMB_CONNECTIONNUMBER {
@@ -32,8 +27,7 @@ property PropertyValue^ SYMB_CONNECTIONNUMBER {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Gets all selected entries (Use this property if multi selection is enabled)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StringCollection SelectedEntries {get;}
-```
-```
 
-```
-```
 public:
 
 property StringCollection^ SelectedEntries {
@@ -26,5 +21,4 @@ property StringCollection^ SelectedEntries {
    StringCollection^ get();
 
 }
-```
-```
+

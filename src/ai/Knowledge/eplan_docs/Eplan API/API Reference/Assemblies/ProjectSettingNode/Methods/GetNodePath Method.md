@@ -8,22 +8,16 @@ Determines the path of this node.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override string GetNodePath()
-```
-```
 
-```
-```
 public:
 
 String^ GetNodePath(); override
-```
-```
+
 
 #### Return Value
 

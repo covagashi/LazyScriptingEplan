@@ -8,17 +8,12 @@ Show descriptive identifiers in device navigators # 10095.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_PDD_DEVICES_SHOWDESCRSTRUCTURES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_PDD_DEVICES_SHOWDESCRSTRUCTURES {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_PDD_DEVICES_SHOWDESCRSTRUCTURES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

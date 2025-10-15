@@ -8,17 +8,12 @@ Get the logon name of the User.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string LogonName {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ LogonName {
@@ -26,5 +21,4 @@ property String^ LogonName {
    String^ get();
 
 }
-```
-```
+

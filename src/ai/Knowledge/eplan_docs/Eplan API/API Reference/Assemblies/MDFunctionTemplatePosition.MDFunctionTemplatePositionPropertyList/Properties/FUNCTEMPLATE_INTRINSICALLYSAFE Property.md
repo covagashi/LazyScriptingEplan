@@ -8,17 +8,12 @@ Intrinsically safe # 21003.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNCTEMPLATE_INTRINSICALLYSAFE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNCTEMPLATE_INTRINSICALLYSAFE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNCTEMPLATE_INTRINSICALLYSAFE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

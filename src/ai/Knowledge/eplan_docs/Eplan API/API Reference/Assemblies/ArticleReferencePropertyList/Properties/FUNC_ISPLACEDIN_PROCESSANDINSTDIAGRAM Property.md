@@ -8,17 +8,12 @@ Function exists with 'P&I diagram' representation type # 20474.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ISPLACEDIN_PROCESSANDINSTDIAGRAM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ISPLACEDIN_PROCESSANDINSTDIAGRAM {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ISPLACEDIN_PROCESSANDINSTDIAGRAM {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

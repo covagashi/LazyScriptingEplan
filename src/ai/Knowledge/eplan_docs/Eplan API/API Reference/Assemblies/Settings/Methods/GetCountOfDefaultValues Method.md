@@ -8,21 +8,16 @@ Returnes the number of default values of a setting.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int GetCountOfDefaultValues( 
 
    string strSettingPath
 
 )
-```
-```
 
-```
-```
 public:
 
 int GetCountOfDefaultValues( 
@@ -30,8 +25,7 @@ int GetCountOfDefaultValues(
    String^ strSettingPath
 
 )
-```
-```
+
 
 #### Parameters
 

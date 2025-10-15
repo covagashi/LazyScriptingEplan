@@ -8,17 +8,12 @@ Lower left corner of selection rectangle.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RectangleD SelectionRectangle {get;}
-```
-```
 
-```
-```
 public:
 
 property RectangleD SelectionRectangle {
@@ -26,5 +21,4 @@ property RectangleD SelectionRectangle {
    RectangleD get();
 
 }
-```
-```
+

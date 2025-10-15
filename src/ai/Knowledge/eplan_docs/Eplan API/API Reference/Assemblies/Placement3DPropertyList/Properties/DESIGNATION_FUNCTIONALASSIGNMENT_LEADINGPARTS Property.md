@@ -8,21 +8,16 @@ Functional assignment (leading identifiers) # 1322.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FUNCTIONALASSIGNMENT_LEADINGPARTS( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FUNCTIONALASSIGNMENT_LEADINGPARTS {
@@ -32,8 +27,7 @@ property PropertyValue^ DESIGNATION_FUNCTIONALASSIGNMENT_LEADINGPARTS {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

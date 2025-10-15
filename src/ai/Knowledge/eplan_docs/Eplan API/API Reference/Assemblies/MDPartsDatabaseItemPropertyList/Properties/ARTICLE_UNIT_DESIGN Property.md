@@ -8,17 +8,12 @@ Type of construction: Device # 26364.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_UNIT_DESIGN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_UNIT_DESIGN {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_UNIT_DESIGN {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

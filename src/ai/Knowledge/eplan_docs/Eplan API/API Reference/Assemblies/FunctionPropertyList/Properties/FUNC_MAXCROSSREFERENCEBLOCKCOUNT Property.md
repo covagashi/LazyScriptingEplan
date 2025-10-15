@@ -8,17 +8,12 @@ Cross-reference display: Max. number of cross-references # 20198.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_MAXCROSSREFERENCEBLOCKCOUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_MAXCROSSREFERENCEBLOCKCOUNT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_MAXCROSSREFERENCEBLOCKCOUNT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

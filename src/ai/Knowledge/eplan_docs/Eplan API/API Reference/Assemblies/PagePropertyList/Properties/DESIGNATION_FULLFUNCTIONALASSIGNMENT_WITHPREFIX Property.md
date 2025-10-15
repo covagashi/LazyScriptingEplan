@@ -8,17 +8,12 @@ Functional assignment with preceding sign # 1340.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FULLFUNCTIONALASSIGNMENT_WITHPREFIX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FULLFUNCTIONALASSIGNMENT_WITHPREFIX {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FULLFUNCTIONALASSIGNMENT_WITHPREFIX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

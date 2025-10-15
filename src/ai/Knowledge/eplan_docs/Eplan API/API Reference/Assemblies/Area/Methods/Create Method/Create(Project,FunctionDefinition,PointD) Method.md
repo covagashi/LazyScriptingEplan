@@ -8,11 +8,10 @@ Creates not placed Area object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public void Create(
    PointD oSize
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -38,8 +33,7 @@ void Create(
    PointD oSize
 
 )
-```
-```
+
 
 #### Parameters
 

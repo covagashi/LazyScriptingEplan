@@ -8,17 +8,12 @@ Symbolic address (single component) # 44053.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_SYMBOLICADDRESS_PART {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_SYMBOLICADDRESS_PART {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_SYMBOLICADDRESS_PART {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

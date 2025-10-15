@@ -8,21 +8,16 @@ Subtrade 'Cooling' # 22196.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SUBCRAFT_COOLING( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SUBCRAFT_COOLING {
@@ -32,8 +27,7 @@ property PropertyValue^ ARTICLE_SUBCRAFT_COOLING {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

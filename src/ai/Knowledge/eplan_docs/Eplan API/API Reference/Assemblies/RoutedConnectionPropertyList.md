@@ -16,24 +16,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Property")]
 
 public class RoutedConnectionPropertyList : Eplan.EplApi.DataModel.ConnectionPropertyList
-```
-```
 
-```
-```
 [DefaultMember("Property")]
 
 public ref class RoutedConnectionPropertyList : public Eplan.EplApi.DataModel.ConnectionPropertyList
-```
-```
+
 
 Remarks
 
@@ -45,7 +39,7 @@ Example
 
 This example shows the different usage of persistent property lists and transient property lists:
 
-- [C#](#i-tab-content-3a5a0692-93ed-4a55-9e53-533a43225fed)
+**C#**
 
 ```
 // Creation of a persistent property list
@@ -56,15 +50,11 @@ oPersistentPropertyList1.FUNC_COMMENT = "Comment";
 
 // Now, oFunction.Properties.FUNC_COMMENT is equals "Comment"
 
-
-
 FunctionPropertyList oPersistentPropertyList2 = new FunctionPropertyList(oFunction);
 
 oPersistentPropertyList2.FUNC_COMMENT = "Test";
 
 // Now, oFunction.Properties.FUNC_COMMENT equals "Test"
-
-
 
 // Creation of a transient property list
 
@@ -78,8 +68,6 @@ oTransientPropertyList.FUNC_COMMENT = "Transient comment";
 
 // Now, oTransientPropertyList.FUNC_COMMENT equals "Test comment"
 
-
-
 ```
 
 Public Constructors
@@ -89,8 +77,6 @@ Public Constructors
 | Public Constructor | [RoutedConnectionPropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Topology.RoutedConnectionPropertyList~_ctor().html) | Constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

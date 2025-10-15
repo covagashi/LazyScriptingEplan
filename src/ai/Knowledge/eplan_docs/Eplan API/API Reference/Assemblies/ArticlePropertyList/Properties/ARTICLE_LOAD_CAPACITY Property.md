@@ -8,17 +8,12 @@ Load capacity of the cable # 26085.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_LOAD_CAPACITY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_LOAD_CAPACITY {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_LOAD_CAPACITY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

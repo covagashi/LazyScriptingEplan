@@ -8,17 +8,12 @@ Power factor (cos phi) # 26657.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_POWER_FACTOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_POWER_FACTOR {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_POWER_FACTOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

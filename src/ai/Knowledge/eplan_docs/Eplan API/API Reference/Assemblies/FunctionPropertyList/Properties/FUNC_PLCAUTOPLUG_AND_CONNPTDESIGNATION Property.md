@@ -8,17 +8,12 @@ Connection point designation (with plug designation (automatic)) # 20183.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCAUTOPLUG_AND_CONNPTDESIGNATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCAUTOPLUG_AND_CONNPTDESIGNATION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCAUTOPLUG_AND_CONNPTDESIGNATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

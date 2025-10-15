@@ -8,17 +8,12 @@ Cross-reference to plug counterpiece # 20304.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CROSSREFERENCETODIRECTLYCONNECTEDCOUNTERPART {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CROSSREFERENCETODIRECTLYCONNECTEDCOUNTERPART {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CROSSREFERENCETODIRECTLYCONNECTEDCOUNTERPART {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

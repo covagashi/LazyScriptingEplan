@@ -8,21 +8,16 @@ Defines the path to the settings node.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Set( 
 
    string strNodePath
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void Set( 
@@ -30,8 +25,7 @@ virtual void Set(
    String^ strNodePath
 
 )
-```
-```
+
 
 #### Parameters
 

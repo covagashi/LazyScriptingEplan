@@ -8,22 +8,16 @@ Evaluate the visible names from the full names for all placed functions and inte
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool EvaluateAndSetAllVisibleNames()
-```
-```
 
-```
-```
 public:
 
 bool EvaluateAndSetAllVisibleNames();
-```
-```
+
 
 #### Return Value
 

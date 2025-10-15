@@ -8,17 +8,12 @@ Macro: Also insert macro box # 23013.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue MACROBOX_INSERTMODE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ MACROBOX_INSERTMODE {
@@ -28,8 +23,7 @@ property PropertyValue^ MACROBOX_INSERTMODE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

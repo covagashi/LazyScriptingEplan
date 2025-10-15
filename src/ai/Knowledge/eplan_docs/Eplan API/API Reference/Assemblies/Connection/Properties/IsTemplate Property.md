@@ -8,17 +8,12 @@ Returns true if this is a transient Connection object representing a cable wire'
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool IsTemplate {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool IsTemplate {
@@ -26,5 +21,4 @@ virtual property bool IsTemplate {
    bool get();
 
 }
-```
-```
+

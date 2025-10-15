@@ -8,17 +8,12 @@ Is the function range "Input (Range)" selected (yes/no)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsInput {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsInput {
@@ -28,5 +23,4 @@ property bool IsInput {
    void set (    bool value);
 
 }
-```
-```
+

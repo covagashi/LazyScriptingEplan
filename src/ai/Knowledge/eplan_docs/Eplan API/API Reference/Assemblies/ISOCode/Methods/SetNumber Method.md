@@ -8,21 +8,16 @@ Sets the language.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetNumber( 
 
    ISOCode.Language lang
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetNumber( 
@@ -30,8 +25,7 @@ void SetNumber(
    ISOCode.Language lang
 
 )
-```
-```
+
 
 #### Parameters
 

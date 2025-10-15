@@ -8,17 +8,12 @@ Connection point direction of an individual connection point in the connection p
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D DirectionOfConnectionPoint {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PointD3D DirectionOfConnectionPoint {
@@ -28,5 +23,4 @@ property PointD3D DirectionOfConnectionPoint {
    void set (    PointD3D value);
 
 }
-```
-```
+

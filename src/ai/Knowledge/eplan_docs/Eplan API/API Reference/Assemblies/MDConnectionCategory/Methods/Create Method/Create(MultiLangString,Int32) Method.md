@@ -8,11 +8,10 @@ Creates new connection category at specific position
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static MDConnectionCategory Create( 
 
    MultiLangString name,
@@ -20,11 +19,7 @@ public static MDConnectionCategory Create(
    int position
 
 )
-```
-```
 
-```
-```
 public:
 
 static MDConnectionCategory Create( 
@@ -34,8 +29,7 @@ static MDConnectionCategory Create(
    int position
 
 )
-```
-```
+
 
 #### Parameters
 

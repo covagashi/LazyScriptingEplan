@@ -8,17 +8,12 @@ Overhang: Side panel front # 22163.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SIDEPANELPROJECTIONFRONT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SIDEPANELPROJECTIONFRONT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SIDEPANELPROJECTIONFRONT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

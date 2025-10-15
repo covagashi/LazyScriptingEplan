@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class SymbolVariantNotFoundException : InvalidArgumentException
-```
-```
 
-```
-```
 public ref class SymbolVariantNotFoundException : public InvalidArgumentException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [SymbolVariantNotFoundException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolVariantNotFoundException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

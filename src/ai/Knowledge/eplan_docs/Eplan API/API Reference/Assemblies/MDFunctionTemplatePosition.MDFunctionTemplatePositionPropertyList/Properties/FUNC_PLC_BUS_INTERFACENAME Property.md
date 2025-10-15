@@ -8,17 +8,12 @@ Bus interface: Name # 20447.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNC_PLC_BUS_INTERFACENAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNC_PLC_BUS_INTERFACENAME {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNC_PLC_BUS_INTERFACENAME {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

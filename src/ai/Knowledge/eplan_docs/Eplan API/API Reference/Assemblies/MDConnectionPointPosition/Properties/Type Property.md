@@ -8,17 +8,12 @@ The type of end treatment for the connection that will be connected to the conne
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int Type {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int Type {
@@ -28,8 +23,7 @@ property int Type {
    void set (    int value);
 
 }
-```
-```
+
 
 Remarks
 

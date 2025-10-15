@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RemotingCallingContext( 
 
    ref RemotingCallingContext rc
 
 )
-```
-```
 
-```
-```
 public:
 
 RemotingCallingContext( 
@@ -28,8 +23,7 @@ RemotingCallingContext(
    RemotingCallingContext^% rc
 
 )
-```
-```
+
 
 #### Parameters
 

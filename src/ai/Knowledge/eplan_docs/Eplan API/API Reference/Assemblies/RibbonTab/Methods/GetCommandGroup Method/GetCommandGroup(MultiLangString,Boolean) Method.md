@@ -8,11 +8,10 @@ Gets command group by its name
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonCommandGroup GetCommandGroup( 
 
    MultiLangString multiLangName,
@@ -20,11 +19,7 @@ public RibbonCommandGroup GetCommandGroup(
    bool checkAnyLanguage
 
 )
-```
-```
 
-```
-```
 public:
 
 RibbonCommandGroup^ GetCommandGroup( 
@@ -34,8 +29,7 @@ RibbonCommandGroup^ GetCommandGroup(
    bool checkAnyLanguage
 
 )
-```
-```
+
 
 #### Parameters
 

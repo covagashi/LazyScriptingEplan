@@ -8,17 +8,12 @@ Starting angle # 19323.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_ARC_STARTANGLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_ARC_STARTANGLE {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_ARC_STARTANGLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

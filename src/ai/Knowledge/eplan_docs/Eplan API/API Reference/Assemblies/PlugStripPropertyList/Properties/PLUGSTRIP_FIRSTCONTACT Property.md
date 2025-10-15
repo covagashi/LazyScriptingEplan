@@ -8,17 +8,12 @@ Plugs: First pin # 35203.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PLUGSTRIP_FIRSTCONTACT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PLUGSTRIP_FIRSTCONTACT {
@@ -28,8 +23,7 @@ property PropertyValue^ PLUGSTRIP_FIRSTCONTACT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Operating voltage (AC 50 Hz), min. # 26088.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_OPERATING_VOLTAGE_WITH_AC_50_HZ_MIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_OPERATING_VOLTAGE_WITH_AC_50_HZ_MIN {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_OPERATING_VOLTAGE_WITH_AC_50_HZ_MIN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

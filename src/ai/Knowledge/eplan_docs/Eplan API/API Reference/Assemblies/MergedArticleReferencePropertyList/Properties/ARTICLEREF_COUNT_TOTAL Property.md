@@ -8,17 +8,12 @@ Total amount (number of units) # 20499.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_COUNT_TOTAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_COUNT_TOTAL {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_COUNT_TOTAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,27 +8,21 @@ Queries whether the rights management is currently active.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CheckUserRights()
-```
-```
 
-```
-```
 public:
 
 bool CheckUserRights();
-```
-```
+
 
 #### Return Value
 
-â¢ TRUE: Rights management activated in the system  
-â¢ FALSE: No rights management activated in the system
+'¢ TRUE: Rights management activated in the system  
+'¢ FALSE: No rights management activated in the system
 
 Remarks
 

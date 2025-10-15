@@ -8,21 +8,16 @@ Symbol for reports # 22228.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_REPORT_SYMBOL( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_REPORT_SYMBOL {
@@ -32,8 +27,7 @@ property PropertyValue^ ARTICLE_REPORT_SYMBOL {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

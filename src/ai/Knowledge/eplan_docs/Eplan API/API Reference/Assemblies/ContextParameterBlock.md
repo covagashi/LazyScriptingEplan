@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ContextParameterBlock
-```
-```
 
-```
-```
 public ref class ContextParameterBlock
-```
-```
-
-
 
 Public Constructors
 
@@ -37,9 +28,6 @@ Public Constructors
 | Public Constructor | [ContextParameterBlock Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ContextParameterBlock~_ctor.html) | Default constructor. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

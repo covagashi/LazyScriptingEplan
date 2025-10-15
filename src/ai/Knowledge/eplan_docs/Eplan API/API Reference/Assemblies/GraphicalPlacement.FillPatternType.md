@@ -8,20 +8,14 @@ FillPaternType used for getting and setting FillPattern on PolyLine.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum GraphicalPlacement.FillPatternType : System.Enum
-```
-```
 
-```
-```
 public enum class GraphicalPlacement.FillPatternType : public System.Enum
-```
-```
+
 
 Members
 

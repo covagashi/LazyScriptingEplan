@@ -8,17 +8,12 @@ Type of class which filters objects that are additionally passed to [IVerificati
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Type AdditionalObjectsFilter {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property Type^ AdditionalObjectsFilter {
@@ -26,8 +21,7 @@ virtual property Type^ AdditionalObjectsFilter {
    Type^ get();
 
 }
-```
-```
+
 
 Remarks
 

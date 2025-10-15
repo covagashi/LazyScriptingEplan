@@ -8,17 +8,12 @@ Display format: Segment name # 44002.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECTDEFINITION_DISPLAYNAME_FORMAT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECTDEFINITION_DISPLAYNAME_FORMAT {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECTDEFINITION_DISPLAYNAME_FORMAT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

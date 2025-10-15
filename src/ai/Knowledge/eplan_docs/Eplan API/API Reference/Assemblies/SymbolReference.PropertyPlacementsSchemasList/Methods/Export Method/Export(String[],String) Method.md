@@ -8,11 +8,10 @@ Exports the specified customer property placements sets to a file. Note: Only cu
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Export( 
 
    string[] arrSetsNames,
@@ -20,11 +19,7 @@ public void Export(
    string strTargetFile
 
 )
-```
-```
 
-```
-```
 public:
 
 void Export( 
@@ -34,8 +29,7 @@ void Export(
    String^ strTargetFile
 
 )
-```
-```
+
 
 #### Parameters
 

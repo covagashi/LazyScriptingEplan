@@ -8,17 +8,12 @@ Returns the first object covered by this merged function.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject FirstWinner {get;}
-```
-```
 
-```
-```
 public:
 
 property StorableObject^ FirstWinner {
@@ -26,8 +21,7 @@ property StorableObject^ FirstWinner {
    StorableObject^ get();
 
 }
-```
-```
+
 
 Exceptions
 

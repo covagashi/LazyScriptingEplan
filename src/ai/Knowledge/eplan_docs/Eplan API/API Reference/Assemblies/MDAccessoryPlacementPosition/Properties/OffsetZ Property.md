@@ -8,17 +8,12 @@ Move in Z direction for the respective placement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double OffsetZ {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double OffsetZ {
@@ -28,8 +23,7 @@ property double OffsetZ {
    void set (    double value);
 
 }
-```
-```
+
 
 Remarks
 

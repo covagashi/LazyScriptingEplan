@@ -8,21 +8,16 @@ Connection point designations # 21000.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNCTEMPLATE_CONNPT_DESIGNATION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNCTEMPLATE_CONNPT_DESIGNATION {
@@ -32,8 +27,7 @@ property MDPropertyValue^ FUNCTEMPLATE_CONNPT_DESIGNATION {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

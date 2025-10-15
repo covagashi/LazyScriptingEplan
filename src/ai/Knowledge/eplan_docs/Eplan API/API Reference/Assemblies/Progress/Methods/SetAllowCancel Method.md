@@ -8,21 +8,16 @@ Allows canceling.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetAllowCancel( 
 
    bool bAllow
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetAllowCancel( 
@@ -30,8 +25,7 @@ void SetAllowCancel(
    bool bAllow
 
 )
-```
-```
+
 
 #### Parameters
 

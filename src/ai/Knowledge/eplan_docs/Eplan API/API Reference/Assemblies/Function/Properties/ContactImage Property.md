@@ -8,17 +8,12 @@ Returns contact image assign to this function or `null`.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ContactImage ContactImage {get;}
-```
-```
 
-```
-```
 public:
 
 property ContactImage^ ContactImage {
@@ -26,5 +21,4 @@ property ContactImage^ ContactImage {
    ContactImage^ get();
 
 }
-```
-```
+

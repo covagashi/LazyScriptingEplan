@@ -8,17 +8,12 @@ Deactivated I/O connection point # 20438.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCDEACTIVATED_IO {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCDEACTIVATED_IO {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCDEACTIVATED_IO {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

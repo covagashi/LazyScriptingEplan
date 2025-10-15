@@ -8,20 +8,14 @@ This are the different groups of database items that can be stored in parts data
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MDPartsDatabaseItem.Enums.ProductGroup : System.Enum
-```
-```
 
-```
-```
 public enum class MDPartsDatabaseItem.Enums.ProductGroup : public System.Enum
-```
-```
+
 
 Members
 

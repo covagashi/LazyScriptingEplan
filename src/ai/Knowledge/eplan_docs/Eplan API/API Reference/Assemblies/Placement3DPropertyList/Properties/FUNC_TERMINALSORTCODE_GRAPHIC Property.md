@@ -8,17 +8,12 @@ Sorting (graphical) # 20810.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TERMINALSORTCODE_GRAPHIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TERMINALSORTCODE_GRAPHIC {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TERMINALSORTCODE_GRAPHIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Imports the Connection3Ds from a text file into the given project using a scheme
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Connection3D[] ImportText( 
 
    Project oProject,
@@ -36,11 +35,7 @@ public Connection3D[] ImportText(
    ConnectionService3D.ImportMode eMode
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Connection3D^>^ ImportText( 
@@ -66,8 +61,7 @@ array<Connection3D^>^ ImportText(
    ConnectionService3D.ImportMode eMode
 
 )
-```
-```
+
 
 #### Parameters
 

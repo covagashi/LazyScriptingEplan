@@ -8,11 +8,10 @@ Check if the user parts selection is set to parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsPartsSelectionOnPartsDatabase( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public bool IsPartsSelectionOnPartsDatabase(
    ref string strInfoForUser
 
 )
-```
-```
 
-```
-```
 public:
 
 bool IsPartsSelectionOnPartsDatabase( 
@@ -34,8 +29,7 @@ bool IsPartsSelectionOnPartsDatabase(
    String^% strInfoForUser
 
 )
-```
-```
+
 
 #### Parameters
 

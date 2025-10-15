@@ -8,17 +8,12 @@ Array of mounting planes vertical
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Tuple<Plane,Plane>[] MountingPlanesVertical {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Tuple<Plane^,Plane^>^>^ MountingPlanesVertical {
@@ -26,8 +21,7 @@ property array<Tuple<Plane^,Plane^>^>^ MountingPlanesVertical {
    array<Tuple<Plane^,Plane^>^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

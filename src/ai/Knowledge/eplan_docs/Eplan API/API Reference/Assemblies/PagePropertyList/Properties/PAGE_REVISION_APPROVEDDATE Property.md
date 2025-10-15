@@ -8,17 +8,12 @@ Approved date # 11081.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_REVISION_APPROVEDDATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_REVISION_APPROVEDDATE {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_REVISION_APPROVEDDATE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

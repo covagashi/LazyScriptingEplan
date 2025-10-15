@@ -8,17 +8,12 @@ Connection: Unit of length # 31001.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_WIRELENGTH_UNIT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_WIRELENGTH_UNIT {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_WIRELENGTH_UNIT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -69,4 +63,4 @@ Display unit of the length. Possible values are:
 
 15 = yard
 
-29 = Âµm.
+29 = µm.

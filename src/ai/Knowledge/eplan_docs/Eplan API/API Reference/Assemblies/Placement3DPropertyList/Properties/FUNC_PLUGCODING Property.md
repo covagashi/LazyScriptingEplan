@@ -8,17 +8,12 @@ Plugs: Coding # 20856.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLUGCODING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLUGCODING {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLUGCODING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

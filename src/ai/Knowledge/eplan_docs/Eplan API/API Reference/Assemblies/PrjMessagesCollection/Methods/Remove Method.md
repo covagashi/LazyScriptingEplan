@@ -8,21 +8,16 @@ Removes the first occurrence of a specific object from the `PrjMessagesCollectio
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool Remove( 
 
    BaseProjectMessage msg
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual bool Remove( 
@@ -30,8 +25,7 @@ virtual bool Remove(
    BaseProjectMessage^ msg
 
 )
-```
-```
+
 
 #### Parameters
 

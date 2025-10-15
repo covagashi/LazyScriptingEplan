@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public struct PointD3D : System.ValueType
-```
-```
 
-```
-```
 public value class PointD3D : public System.ValueType
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [PointD3D Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD3D~_ctor.html) | Constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ PLC subdevice 1: Name # 22293.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PLCDEVICENAME_1 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PLCDEVICENAME_1 {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PLCDEVICENAME_1 {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

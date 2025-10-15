@@ -8,17 +8,12 @@ Gets/Sets substance state of object. Sets the same property as [PotentialDefinit
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SubstanceState {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ SubstanceState {
@@ -28,5 +23,4 @@ property String^ SubstanceState {
    void set (    String^ value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Returns true if a reference point has been defined for this macro.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool HasReferencePoint {get;}
-```
-```
 
-```
-```
 public:
 
 property bool HasReferencePoint {
@@ -26,8 +21,7 @@ property bool HasReferencePoint {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

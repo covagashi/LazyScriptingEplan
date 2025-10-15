@@ -8,17 +8,12 @@ Representation of XDtcDeviceTagCheck.Hierarchy.PlantDesignationNumbersOnly setti
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool PlantDesignationNumbersOnly {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool PlantDesignationNumbersOnly {
@@ -28,8 +23,7 @@ property bool PlantDesignationNumbersOnly {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

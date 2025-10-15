@@ -8,21 +8,16 @@ Creates a new progress bar.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Progress( 
 
    string strProgressType
 
 )
-```
-```
 
-```
-```
 public:
 
 Progress( 
@@ -30,8 +25,7 @@ Progress(
    String^ strProgressType
 
 )
-```
-```
+
 
 #### Parameters
 

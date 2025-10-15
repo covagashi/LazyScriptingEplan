@@ -8,17 +8,12 @@ Name (complete with connection point designations) # 20342.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_FULLNAME_WITH_CONNECTIONDESIGNATIONS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_FULLNAME_WITH_CONNECTIONDESIGNATIONS {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_FULLNAME_WITH_CONNECTIONDESIGNATIONS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

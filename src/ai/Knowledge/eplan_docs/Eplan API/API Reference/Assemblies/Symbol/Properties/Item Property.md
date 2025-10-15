@@ -8,21 +8,16 @@ Index operator to looking for SymbolVariant from given index.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolVariant this[ 
 
    int variantIdx
 
 ]; {get;}
-```
-```
 
-```
-```
 public:
 
 property SymbolVariant^ default [int] {
@@ -30,8 +25,7 @@ property SymbolVariant^ default [int] {
    SymbolVariant^ get(int variantIdx);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Gets/Sets string representation of the hyperlink.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Link {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Link {
@@ -28,8 +23,7 @@ property String^ Link {
    void set (    String^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

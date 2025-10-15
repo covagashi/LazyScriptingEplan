@@ -8,11 +8,10 @@ Method for renumbering Bill Of Materials positions.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void PartsListPositions( 
 
    string strFullLinkFileName,
@@ -30,11 +29,7 @@ public void PartsListPositions(
    bool bSameNumbers
 
 )
-```
-```
 
-```
-```
 public:
 
 void PartsListPositions( 
@@ -54,8 +49,7 @@ void PartsListPositions(
    bool bSameNumbers
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new OptionFragmentPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property OptionFragmentPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property OptionFragmentPropertyList^ Properties {
    OptionFragmentPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

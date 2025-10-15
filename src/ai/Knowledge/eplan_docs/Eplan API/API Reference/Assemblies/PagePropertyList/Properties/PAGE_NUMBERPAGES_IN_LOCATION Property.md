@@ -8,17 +8,12 @@ Number of pages per structure # 11004.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_NUMBERPAGES_IN_LOCATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_NUMBERPAGES_IN_LOCATION {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_NUMBERPAGES_IN_LOCATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

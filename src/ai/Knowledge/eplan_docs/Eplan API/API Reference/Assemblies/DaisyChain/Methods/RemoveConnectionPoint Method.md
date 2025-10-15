@@ -8,21 +8,16 @@ Removes a net connection point and connection
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveConnectionPoint( 
 
    int index
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveConnectionPoint( 
@@ -30,8 +25,7 @@ void RemoveConnectionPoint(
    int index
 
 )
-```
-```
+
 
 #### Parameters
 

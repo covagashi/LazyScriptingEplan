@@ -8,17 +8,12 @@ Eplan log-in user used for Rights Management. User settings will be used from th
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string User {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ User {
@@ -28,5 +23,4 @@ property String^ User {
    void set (    String^ value);
 
 }
-```
-```
+

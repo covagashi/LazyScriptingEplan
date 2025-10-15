@@ -8,17 +8,12 @@ Returns default Translations directory.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Translations {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Translations {
@@ -26,8 +21,7 @@ property String^ Translations {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

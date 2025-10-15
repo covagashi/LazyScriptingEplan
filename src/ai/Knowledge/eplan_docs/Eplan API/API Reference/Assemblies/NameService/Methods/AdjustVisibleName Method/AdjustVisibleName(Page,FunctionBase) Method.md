@@ -8,11 +8,10 @@ Sets the page and evaluates for a given functionbase the visible name and visibl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AdjustVisibleName( 
 
    Page pPage,
@@ -20,11 +19,7 @@ public bool AdjustVisibleName(
    FunctionBase pFunctionBase
 
 )
-```
-```
 
-```
-```
 public:
 
 bool AdjustVisibleName( 
@@ -34,8 +29,7 @@ bool AdjustVisibleName(
    FunctionBase^ pFunctionBase
 
 )
-```
-```
+
 
 #### Parameters
 

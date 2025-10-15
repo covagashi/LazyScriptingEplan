@@ -8,11 +8,10 @@ Backs up master data. Master data include: Symbol libraries, plot frames, forms,
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void MasterData( 
 
    StringCollection strDataFileSelection,
@@ -28,11 +27,7 @@ public void MasterData(
    Backup.MasterDataType eMdType
 
 )
-```
-```
 
-```
-```
 public:
 
 void MasterData( 
@@ -50,8 +45,7 @@ void MasterData(
    Backup.MasterDataType eMdType
 
 )
-```
-```
+
 
 #### Parameters
 

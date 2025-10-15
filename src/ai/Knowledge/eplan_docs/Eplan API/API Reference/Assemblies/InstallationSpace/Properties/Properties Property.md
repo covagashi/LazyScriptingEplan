@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new InstallationSpacePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property InstallationSpacePropertyList^ Properties {
@@ -26,8 +21,7 @@ new property InstallationSpacePropertyList^ Properties {
    InstallationSpacePropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

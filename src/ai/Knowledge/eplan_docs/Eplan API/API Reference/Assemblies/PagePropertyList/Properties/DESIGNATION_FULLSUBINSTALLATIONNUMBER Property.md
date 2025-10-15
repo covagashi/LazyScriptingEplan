@@ -8,17 +8,12 @@ Higher-level function number (sub-identifier, complete) # 1721.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FULLSUBINSTALLATIONNUMBER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FULLSUBINSTALLATIONNUMBER {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FULLSUBINSTALLATIONNUMBER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

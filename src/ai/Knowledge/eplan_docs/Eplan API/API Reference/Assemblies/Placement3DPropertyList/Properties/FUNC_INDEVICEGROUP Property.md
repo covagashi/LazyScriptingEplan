@@ -8,17 +8,12 @@ Grouped by device # 20469.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_INDEVICEGROUP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_INDEVICEGROUP {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_INDEVICEGROUP {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Get the email address of the User.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string EMail {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ EMail {
@@ -26,5 +21,4 @@ property String^ EMail {
    String^ get();
 
 }
-```
-```
+

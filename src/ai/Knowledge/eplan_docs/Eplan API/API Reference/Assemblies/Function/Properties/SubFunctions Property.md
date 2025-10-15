@@ -8,17 +8,12 @@ Returns an array of sub-functions of the given main function. Sub-functions are 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function[] SubFunctions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Function^>^ SubFunctions {
@@ -26,8 +21,7 @@ property array<Function^>^ SubFunctions {
    array<Function^>^ get();
 
 }
-```
-```
+
 
 Exceptions
 

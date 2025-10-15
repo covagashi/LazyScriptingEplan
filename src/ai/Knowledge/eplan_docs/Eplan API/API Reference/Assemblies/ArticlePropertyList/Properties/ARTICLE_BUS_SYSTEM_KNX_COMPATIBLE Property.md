@@ -8,17 +8,12 @@ KNX: Compatible # 26031.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_BUS_SYSTEM_KNX_COMPATIBLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_BUS_SYSTEM_KNX_COMPATIBLE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_BUS_SYSTEM_KNX_COMPATIBLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

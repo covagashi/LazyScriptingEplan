@@ -8,17 +8,12 @@ Measuring range: Mass flow # 26451.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_MEASURING_RANGE_OF_THE_MASS_FLOW_RATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_MEASURING_RANGE_OF_THE_MASS_FLOW_RATE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_MEASURING_RANGE_OF_THE_MASS_FLOW_RATE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

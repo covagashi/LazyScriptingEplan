@@ -8,21 +8,16 @@ Create a new projectmanagement database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateDatabase( 
 
    string strDatabase
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateDatabase( 
@@ -30,8 +25,7 @@ void CreateDatabase(
    String^ strDatabase
 
 )
-```
-```
+
 
 #### Parameters
 

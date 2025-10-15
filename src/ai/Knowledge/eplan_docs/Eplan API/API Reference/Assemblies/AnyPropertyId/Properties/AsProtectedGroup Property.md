@@ -8,17 +8,12 @@ Gets property id value as [Properties.ProtectedGroup](Eplan.EplApi.DataModelu~Ep
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.ProtectedGroup AsProtectedGroup {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.ProtectedGroup AsProtectedGroup {
@@ -26,5 +21,4 @@ property Properties.ProtectedGroup AsProtectedGroup {
    Properties.ProtectedGroup get();
 
 }
-```
-```
+

@@ -8,11 +8,10 @@ Execute an action synchronously.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool ExecuteAction( 
 
    string strAction,
@@ -20,11 +19,7 @@ bool ExecuteAction(
    ref CallingContext oContext
 
 )
-```
-```
 
-```
-```
 bool ExecuteAction( 
 
    String^ strAction,
@@ -32,8 +27,7 @@ bool ExecuteAction(
    CallingContext^% oContext
 
 )
-```
-```
+
 
 #### Parameters
 

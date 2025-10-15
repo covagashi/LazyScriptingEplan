@@ -8,17 +8,12 @@ Gets application's license variant as string.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string License {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ License {
@@ -26,5 +21,4 @@ property String^ License {
    String^ get();
 
 }
-```
-```
+

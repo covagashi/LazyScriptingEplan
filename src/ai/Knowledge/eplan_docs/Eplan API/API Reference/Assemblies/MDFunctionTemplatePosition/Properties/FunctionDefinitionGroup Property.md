@@ -8,17 +8,12 @@ The group of the function definition set to the function template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short FunctionDefinitionGroup {get; set;}
-```
-```
 
-```
-```
 public:
 
 property short FunctionDefinitionGroup {
@@ -28,5 +23,4 @@ property short FunctionDefinitionGroup {
    void set (    short value);
 
 }
-```
-```
+

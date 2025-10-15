@@ -8,17 +8,12 @@ Switching lock # 20293.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TERMINAL_SWITCH_LOCK {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TERMINAL_SWITCH_LOCK {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TERMINAL_SWITCH_LOCK {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

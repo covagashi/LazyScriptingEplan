@@ -8,17 +8,12 @@ Mounting clearance Height: Above # 22154.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SPACING_ABOVE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SPACING_ABOVE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SPACING_ABOVE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

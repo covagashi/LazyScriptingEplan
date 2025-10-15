@@ -8,19 +8,13 @@ Is called after stop of the current interaction and this interaction is reactiva
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void OnReactivate()
-```
-```
 
-```
-```
 public:
 
 virtual void OnReactivate();
-```
-```
+

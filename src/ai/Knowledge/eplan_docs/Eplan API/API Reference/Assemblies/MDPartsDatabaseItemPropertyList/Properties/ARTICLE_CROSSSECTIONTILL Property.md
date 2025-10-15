@@ -8,17 +8,12 @@ Terminals: Cross-section to # 22085.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CROSSSECTIONTILL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CROSSSECTIONTILL {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CROSSSECTIONTILL {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Property of a part variant. Permissible connection cross-section in mmÂ².
+Property of a part variant. Permissible connection cross-section in mm².

@@ -8,17 +8,12 @@ Macro # 20468.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_MACRO {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_MACRO {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_MACRO {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

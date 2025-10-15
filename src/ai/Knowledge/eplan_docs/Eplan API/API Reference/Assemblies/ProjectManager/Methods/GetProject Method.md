@@ -8,21 +8,16 @@ Gets an already open project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Project GetProject( 
 
    string linkFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 Project^ GetProject( 
@@ -30,8 +25,7 @@ Project^ GetProject(
    String^ linkFileName
 
 )
-```
-```
+
 
 #### Parameters
 

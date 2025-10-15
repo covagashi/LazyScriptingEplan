@@ -8,21 +8,16 @@ Constructor with conflicting name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public InvalidPageNameException( 
 
    string name
 
 )
-```
-```
 
-```
-```
 public:
 
 InvalidPageNameException( 
@@ -30,8 +25,7 @@ InvalidPageNameException(
    String^ name
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ The SILCL. (SIL claim limit - for a subsystem)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SILCL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ SILCL {
@@ -28,5 +23,4 @@ property String^ SILCL {
    void set (    String^ value);
 
 }
-```
-```
+

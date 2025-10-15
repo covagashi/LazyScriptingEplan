@@ -8,21 +8,16 @@ Subtrade 'Lubrication' # 22195.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SUBCRAFT_LUBRICATION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SUBCRAFT_LUBRICATION {
@@ -32,8 +27,7 @@ property PropertyValue^ ARTICLE_SUBCRAFT_LUBRICATION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

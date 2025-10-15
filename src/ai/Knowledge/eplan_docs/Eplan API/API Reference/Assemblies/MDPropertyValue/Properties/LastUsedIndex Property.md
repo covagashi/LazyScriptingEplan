@@ -9,17 +9,12 @@ An object of MDPropertyValue has to point to online property.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int LastUsedIndex {get;}
-```
-```
 
-```
-```
 public:
 
 property int LastUsedIndex {
@@ -27,8 +22,7 @@ property int LastUsedIndex {
    int get();
 
 }
-```
-```
+
 
 Exceptions
 
@@ -38,7 +32,7 @@ Exceptions
 
 Example
 
-- [C#](#i-tab-content-ef489791-2312-43f7-87fb-cba50476b147)
+**C#**
 
 ```
 MDPropertyValue oProperty = m_oTestPart.Properties[ Eplan.EplApi.MasterData.Properties.MDPartsDatabaseItem.ARTICLE_FREE_DATA_VALUE ];

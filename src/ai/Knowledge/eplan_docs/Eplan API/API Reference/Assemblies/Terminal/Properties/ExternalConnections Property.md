@@ -8,17 +8,12 @@ Array of [Terminal.ConnectionInfo](Eplan.EplApi.DataModelu~Eplan.EplApi.DataMode
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Terminal.ConnectionInfo[] ExternalConnections {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Terminal.ConnectionInfo^>^ ExternalConnections {
@@ -26,8 +21,7 @@ property array<Terminal.ConnectionInfo^>^ ExternalConnections {
    array<Terminal.ConnectionInfo^>^ get();
 
 }
-```
-```
+
 
 Exceptions
 

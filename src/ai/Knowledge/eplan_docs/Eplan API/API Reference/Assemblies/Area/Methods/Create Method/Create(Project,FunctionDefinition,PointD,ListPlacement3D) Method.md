@@ -8,11 +8,10 @@ Creates not placed Area object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Area Create( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public static Area Create(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static Area^ Create( 
@@ -42,8 +37,7 @@ static Area^ Create(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

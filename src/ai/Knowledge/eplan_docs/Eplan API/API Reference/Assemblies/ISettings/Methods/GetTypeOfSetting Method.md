@@ -8,28 +8,22 @@ Returns the type of the setting.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 ISettings.SettingType GetTypeOfSetting( 
 
    string strSettingPath
 
 )
-```
-```
 
-```
-```
 ISettings.SettingType GetTypeOfSetting( 
 
    String^ strSettingPath
 
 )
-```
-```
+
 
 #### Parameters
 

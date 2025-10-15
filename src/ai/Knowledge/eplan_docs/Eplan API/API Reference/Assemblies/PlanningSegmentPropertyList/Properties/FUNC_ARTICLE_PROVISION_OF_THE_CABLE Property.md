@@ -8,21 +8,16 @@ Provision of cable gland # 26231.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_PROVISION_OF_THE_CABLE_GLAND( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_PROVISION_OF_THE_CABLE_GLAND {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_PROVISION_OF_THE_CABLE_GLAND {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

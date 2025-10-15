@@ -8,11 +8,10 @@ Creates reports from templates of given document type.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateReportsFromTemplates( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public void CreateReportsFromTemplates(
    ICollection<DocumentTypeManager.DocumentType> colDocTypes
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateReportsFromTemplates( 
@@ -34,8 +29,7 @@ void CreateReportsFromTemplates(
    ICollection<DocumentTypeManager.DocumentType>^ colDocTypes
 
 )
-```
-```
+
 
 #### Parameters
 

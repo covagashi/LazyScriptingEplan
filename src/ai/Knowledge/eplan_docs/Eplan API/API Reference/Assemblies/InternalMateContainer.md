@@ -12,25 +12,19 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [CLSCompliant(false)]
 
 [NativeCppClass()]
 
 public struct InternalMateContainer : System.ValueType
-```
-```
 
-```
-```
 [CLSCompliant(false)]
 
 [NativeCppClass()]
 
 public value class InternalMateContainer : public System.ValueType
-```
-```
+

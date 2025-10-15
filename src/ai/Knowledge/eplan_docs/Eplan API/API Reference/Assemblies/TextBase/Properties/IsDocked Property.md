@@ -8,17 +8,12 @@ Gets/Sets a value that indicates whether the text is docked or not. Setting IsDo
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsDocked {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsDocked {
@@ -28,8 +23,7 @@ property bool IsDocked {
    void set (    bool value);
 
 }
-```
-```
+
 
 Exceptions
 

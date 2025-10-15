@@ -8,17 +8,12 @@ Overhang: Cover right # 22176.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TOPPANELPROJECTIONRIGHT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TOPPANELPROJECTIONRIGHT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TOPPANELPROJECTIONRIGHT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

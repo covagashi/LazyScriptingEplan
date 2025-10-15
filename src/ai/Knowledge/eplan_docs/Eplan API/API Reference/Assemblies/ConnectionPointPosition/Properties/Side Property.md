@@ -8,17 +8,12 @@ Flag describing if this connection point is internal or external end of connecti
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ConnectionPointSide Side {get; set;}
-```
-```
 
-```
-```
 public:
 
 property ConnectionPointSide Side {
@@ -28,8 +23,7 @@ property ConnectionPointSide Side {
    void set (    ConnectionPointSide value);
 
 }
-```
-```
+
 
 Remarks
 

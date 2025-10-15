@@ -8,21 +8,16 @@ Returns or sets the object of a persistent [PropertyValue](Eplan.EplApi.DataMode
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue this[ 
 
    int index
 
 ]; {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ default [int] {
@@ -32,8 +27,7 @@ property PropertyValue^ default [int] {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 
@@ -54,18 +48,14 @@ If an invalid index is used, an exception of type InvalidIndexException is throw
 
 Example
 
-- [C#](#i-tab-content-39acea0e-481d-402f-a06d-6c2301fac26a)
+**C#**
 
 ```
 
 
 Function function = page.Functions[0]; // A valid Function object
 
-
-
 PropertyValue propertyValue = function.Properties.FUNC_CONNECTIONDESIGNATION;
-
-
 
 if(propertyValue.Definition.IsIndexed && propertyValue.Definition.MaxIndex >= 2)
 
@@ -78,9 +68,5 @@ if(propertyValue.Definition.IsIndexed && propertyValue.Definition.MaxIndex >= 2)
     string sProperty = propertyElement.ToString();
 
 }
-
-
-
-
 
 ```

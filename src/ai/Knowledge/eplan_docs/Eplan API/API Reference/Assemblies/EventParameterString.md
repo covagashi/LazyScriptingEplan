@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class EventParameterString : IEventParameter
-```
-```
 
-```
-```
 public ref class EventParameterString : public IEventParameter
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [EventParameterString Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,20 +8,14 @@ License options provided by the Eplan licensing system.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum LicenseOptions : System.Enum
-```
-```
 
-```
-```
 public enum class LicenseOptions : public System.Enum
-```
-```
+
 
 Members
 

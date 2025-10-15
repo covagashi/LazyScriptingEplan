@@ -8,17 +8,12 @@ Also validate for part references property.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AvailableForPartReferences {get;}
-```
-```
 
-```
-```
 public:
 
 property bool AvailableForPartReferences {
@@ -26,5 +21,4 @@ property bool AvailableForPartReferences {
    bool get();
 
 }
-```
-```
+

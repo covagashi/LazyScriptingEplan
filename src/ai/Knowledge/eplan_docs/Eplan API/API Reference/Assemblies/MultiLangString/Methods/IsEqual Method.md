@@ -8,21 +8,16 @@ Compares every string in every language. If a string is different in one languag
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsEqual( 
 
    MultiLangString otherVal
 
 )
-```
-```
 
-```
-```
 public:
 
 bool IsEqual( 
@@ -30,8 +25,7 @@ bool IsEqual(
    MultiLangString^ otherVal
 
 )
-```
-```
+
 
 #### Parameters
 

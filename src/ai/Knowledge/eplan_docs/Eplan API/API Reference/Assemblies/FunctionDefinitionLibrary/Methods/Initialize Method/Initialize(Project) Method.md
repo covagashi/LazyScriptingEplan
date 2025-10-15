@@ -8,21 +8,16 @@ Initializes function definition library of project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Initialize( 
 
    Project project
 
 )
-```
-```
 
-```
-```
 public:
 
 void Initialize( 
@@ -30,8 +25,7 @@ void Initialize(
    Project^ project
 
 )
-```
-```
+
 
 #### Parameters
 

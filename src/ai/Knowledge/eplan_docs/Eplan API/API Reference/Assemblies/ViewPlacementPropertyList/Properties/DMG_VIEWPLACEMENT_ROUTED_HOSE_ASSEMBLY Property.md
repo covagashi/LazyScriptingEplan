@@ -8,17 +8,12 @@ Model view: Display freely routed hose lines # 36517.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_ROUTED_HOSE_ASSEMBLY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_ROUTED_HOSE_ASSEMBLY {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_ROUTED_HOSE_ASSEMBLY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

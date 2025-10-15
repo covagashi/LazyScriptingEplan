@@ -6,17 +6,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDFunctionTemplatePosition.MDFunctionTemplatePositionPropertyList Properties {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDFunctionTemplatePosition.MDFunctionTemplatePositionPropertyList^ Properties {
@@ -26,5 +21,4 @@ property MDFunctionTemplatePosition.MDFunctionTemplatePositionPropertyList^ Prop
    void set (    MDFunctionTemplatePosition.MDFunctionTemplatePositionPropertyList^ value);
 
 }
-```
-```
+

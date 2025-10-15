@@ -8,21 +8,16 @@ Free properties: Displayed name # 22146.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_FREE_DATA_DESCRIPTION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_FREE_DATA_DESCRIPTION {
@@ -32,8 +27,7 @@ property PropertyValue^ ARTICLE_FREE_DATA_DESCRIPTION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Returns user-defined property definitions array
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDUserDefinedPropertyDefinition[] UserDefinedPropertyDefinitions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDUserDefinedPropertyDefinition^>^ UserDefinedPropertyDefinitions {
@@ -26,5 +21,4 @@ property array<MDUserDefinedPropertyDefinition^>^ UserDefinedPropertyDefinitions
    array<MDUserDefinedPropertyDefinition^>^ get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Plug designation
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PlugDesignation {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PlugDesignation {
@@ -28,5 +23,4 @@ property String^ PlugDesignation {
    void set (    String^ value);
 
 }
-```
-```
+

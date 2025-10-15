@@ -8,17 +8,12 @@ Checks if the property is empty. If it's not, it could be read. IMPORTANT: If pr
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsEmpty {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsEmpty {
@@ -26,8 +21,7 @@ property bool IsEmpty {
    bool get();
 
 }
-```
-```
+
 
 Remarks
 
@@ -35,7 +29,7 @@ On an indexed property you need to check IsEmpty for each property index, you wa
 
 Example
 
-- [C#](#i-tab-content-64b009c8-480e-4766-a756-0ceb9c5c99d1)
+**C#**
 
 ```
 oConnection.Properties.CONNECTION_WIRENUMBER = new PropertyValue();
@@ -45,7 +39,5 @@ Console.Out.WriteLine(oConnection.Properties.CONNECTION_WIRENUMBER.IsEmpty.ToStr
 oConnection.Properties.CONNECTION_WIRENUMBER = 1;
 
 Console.Out.WriteLine(oConnection.Properties.CONNECTION_WIRENUMBER.IsEmpty.ToString()); // Now the property isn't empty anymore
-
-
 
 ```

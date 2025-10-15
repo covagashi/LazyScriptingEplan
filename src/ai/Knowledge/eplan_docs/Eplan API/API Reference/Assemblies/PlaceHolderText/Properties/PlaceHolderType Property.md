@@ -8,17 +8,12 @@ Placeholder type
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlaceHolderText.Enums.Type PlaceHolderType {get;}
-```
-```
 
-```
-```
 public:
 
 property PlaceHolderText.Enums.Type PlaceHolderType {
@@ -26,5 +21,4 @@ property PlaceHolderText.Enums.Type PlaceHolderType {
    PlaceHolderText.Enums.Type get();
 
 }
-```
-```
+

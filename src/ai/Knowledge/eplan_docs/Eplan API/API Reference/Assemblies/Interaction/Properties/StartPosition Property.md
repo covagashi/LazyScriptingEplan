@@ -8,17 +8,12 @@ start position of Interaction. The StartPosition is needed to calculate the curr
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Position StartPosition {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property Position^ StartPosition {
@@ -28,5 +23,4 @@ virtual property Position^ StartPosition {
    void set (    Position^ value);
 
 }
-```
-```
+

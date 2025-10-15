@@ -8,11 +8,10 @@ Imports comments from PDF file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int PDFComments( 
 
    string strFullLinkFileName,
@@ -20,11 +19,7 @@ public int PDFComments(
    string strFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 int PDFComments( 
@@ -34,8 +29,7 @@ int PDFComments(
    String^ strFileName
 
 )
-```
-```
+
 
 #### Parameters
 

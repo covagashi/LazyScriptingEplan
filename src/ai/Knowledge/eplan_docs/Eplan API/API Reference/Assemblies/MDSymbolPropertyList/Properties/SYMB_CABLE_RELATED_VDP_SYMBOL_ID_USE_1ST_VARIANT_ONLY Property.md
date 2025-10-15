@@ -8,17 +8,12 @@ Use first variant of connection definition point symbol # 16030.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMB_CABLE_RELATED_VDP_SYMBOL_ID_USE_1ST_VARIANT_ONLY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMB_CABLE_RELATED_VDP_SYMBOL_ID_USE_1ST_VARIANT_ONLY {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMB_CABLE_RELATED_VDP_SYMBOL_ID_USE_1ST_VARIANT_ONLY 
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Connection point pattern defined for this article. Returns `null` if article doe
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ConnectionPointsInfo ConnectionPointsInfo {get;}
-```
-```
 
-```
-```
 public:
 
 property ConnectionPointsInfo^ ConnectionPointsInfo {
@@ -26,5 +21,4 @@ property ConnectionPointsInfo^ ConnectionPointsInfo {
    ConnectionPointsInfo^ get();
 
 }
-```
-```
+

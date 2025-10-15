@@ -8,28 +8,22 @@ Called by EPLAN when a specific object is to be checked. Implements the "check."
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void Execute( 
 
    StorableObject oObject1
 
 )
-```
-```
 
-```
-```
 void Execute( 
 
    StorableObject^ oObject1
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -40,7 +34,7 @@ Example
 
 The following example shows a method to prevent creating rectangle on page with plant "ETH". This is an example of verification with type - prevent. The error message will not be added into message dialog but message box will be displayed and creation of rectangle will be automatically canceled.
 
-- [C#](#i-tab-content-81f07ac1-2938-442f-9e56-f8cfcfab0c90)
+**C#**
 
 ```
 public override void Execute(Eplan.EplApi.MasterData.MDPartsDatabaseItem oItem)

@@ -8,17 +8,12 @@ EPLAN properties of the SegmentDefinition object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new SegmentDefinitionPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property SegmentDefinitionPropertyList^ Properties {
@@ -26,12 +21,11 @@ new property SegmentDefinitionPropertyList^ Properties {
    SegmentDefinitionPropertyList^ get();
 
 }
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-7d3f2385-8f95-4ae2-b9ed-3671b1d7675d)
+**C#**
 
 ```
 Function func;

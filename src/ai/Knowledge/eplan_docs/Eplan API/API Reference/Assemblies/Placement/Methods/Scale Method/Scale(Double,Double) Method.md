@@ -8,11 +8,10 @@ Scales the placement (or group of placements) by the specified factors in X and 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Scale( 
 
    double fXAxis,
@@ -20,11 +19,7 @@ public virtual void Scale(
    double fYAxis
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void Scale( 
@@ -34,8 +29,7 @@ virtual void Scale(
    double fYAxis
 
 )
-```
-```
+
 
 #### Parameters
 

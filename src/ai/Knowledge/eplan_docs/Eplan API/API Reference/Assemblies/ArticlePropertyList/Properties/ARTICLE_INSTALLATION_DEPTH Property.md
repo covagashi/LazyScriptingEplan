@@ -8,17 +8,12 @@ Mounting depth # 22268.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_INSTALLATION_DEPTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_INSTALLATION_DEPTH {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_INSTALLATION_DEPTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

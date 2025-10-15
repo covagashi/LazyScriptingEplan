@@ -8,17 +8,12 @@ Emergency control function (open) # 26055.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_EMERGENCY_CONTROL_FUNCTION_OPEN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_EMERGENCY_CONTROL_FUNCTION_OPEN {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_EMERGENCY_CONTROL_FUNCTION_OPEN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

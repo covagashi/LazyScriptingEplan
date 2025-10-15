@@ -8,22 +8,16 @@ Get the value of the parsed result in the base unit of this unit group.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double GetBaseValue()
-```
-```
 
-```
-```
 public:
 
 double GetBaseValue();
-```
-```
+
 
 #### Return Value
 

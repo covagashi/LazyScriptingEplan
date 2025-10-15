@@ -8,17 +8,12 @@ Column number # 19005.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTANCE_PATHID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTANCE_PATHID {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTANCE_PATHID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

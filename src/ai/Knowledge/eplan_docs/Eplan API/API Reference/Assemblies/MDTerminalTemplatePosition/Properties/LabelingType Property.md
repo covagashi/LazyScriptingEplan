@@ -8,17 +8,12 @@ The labeling type of the terminal template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string LabelingType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ LabelingType {
@@ -28,5 +23,4 @@ property String^ LabelingType {
    void set (    String^ value);
 
 }
-```
-```
+

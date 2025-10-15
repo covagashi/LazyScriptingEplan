@@ -8,17 +8,12 @@ Gets currently used scheme Id that was selected in the GUI in ribbon Tools / Pro
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short PropertyPlacementsSchemaId {get;}
-```
-```
 
-```
-```
 public:
 
 property short PropertyPlacementsSchemaId {
@@ -26,8 +21,7 @@ property short PropertyPlacementsSchemaId {
    short get();
 
 }
-```
-```
+
 
 #### Property Value
 

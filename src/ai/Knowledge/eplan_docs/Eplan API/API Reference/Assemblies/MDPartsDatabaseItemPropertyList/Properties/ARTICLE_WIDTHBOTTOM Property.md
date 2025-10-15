@@ -8,17 +8,12 @@ Width bottom # 22199.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_WIDTHBOTTOM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_WIDTHBOTTOM {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_WIDTHBOTTOM {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

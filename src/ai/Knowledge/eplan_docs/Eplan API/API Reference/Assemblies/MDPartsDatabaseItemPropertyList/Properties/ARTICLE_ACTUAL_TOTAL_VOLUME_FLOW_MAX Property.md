@@ -8,17 +8,12 @@ Actual total flow rate, max. # 26112.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_ACTUAL_TOTAL_VOLUME_FLOW_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_ACTUAL_TOTAL_VOLUME_FLOW_MAX {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_ACTUAL_TOTAL_VOLUME_FLOW_MAX {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

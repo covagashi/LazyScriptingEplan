@@ -8,17 +8,12 @@ Modification date (automatic) # 11024.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_LASTAUTOMODIFICATIONDATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_LASTAUTOMODIFICATIONDATE {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_LASTAUTOMODIFICATIONDATE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

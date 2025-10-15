@@ -8,17 +8,12 @@ Connection point designations (all) # 20038.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNC_ALLCONNECTIONDESIGNATIONS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNC_ALLCONNECTIONDESIGNATIONS {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNC_ALLCONNECTIONDESIGNATIONS {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

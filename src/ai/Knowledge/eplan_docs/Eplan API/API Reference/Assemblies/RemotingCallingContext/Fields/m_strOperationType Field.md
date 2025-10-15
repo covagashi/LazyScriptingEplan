@@ -6,19 +6,13 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string m_strOperationType
-```
-```
 
-```
-```
 public:
 
 String^ m_strOperationType
-```
-```
+

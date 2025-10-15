@@ -8,17 +8,12 @@ User-defined property arrangement: Name # 19008.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTANCE_USER_DEFINED_PROPERTYSET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTANCE_USER_DEFINED_PROPERTYSET {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTANCE_USER_DEFINED_PROPERTYSET {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

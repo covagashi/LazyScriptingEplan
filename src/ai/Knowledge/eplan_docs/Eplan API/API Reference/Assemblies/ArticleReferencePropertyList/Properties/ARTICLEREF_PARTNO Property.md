@@ -8,17 +8,12 @@ Part number # 20481.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_PARTNO {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_PARTNO {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_PARTNO {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

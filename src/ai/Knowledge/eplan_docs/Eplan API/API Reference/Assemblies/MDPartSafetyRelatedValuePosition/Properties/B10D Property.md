@@ -8,17 +8,12 @@ The B10D (average count of cycles until 10% of the devices failed dangerously)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double B10D {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double B10D {
@@ -28,5 +23,4 @@ property double B10D {
    void set (    double value);
 
 }
-```
-```
+

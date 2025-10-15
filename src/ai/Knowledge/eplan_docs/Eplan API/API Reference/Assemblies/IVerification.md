@@ -8,25 +8,13 @@ Interface declaration for an electrotechnical check in EPLAN. If an add-in wants
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IVerification : IMessage, IVerificationBase
-```
-```
 
-```
-```
 public interface class IVerification : public IMessage, IVerificationBase
-```
-```
-
-
-
-
-
 
 Public Methods
 

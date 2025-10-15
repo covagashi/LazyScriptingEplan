@@ -8,21 +8,16 @@ Constructor. Initializes the matching enumerator.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PrjMessagesRegisteredCollection( 
 
    bool bOnlyLicensed
 
 )
-```
-```
 
-```
-```
 public:
 
 PrjMessagesRegisteredCollection( 
@@ -30,8 +25,7 @@ PrjMessagesRegisteredCollection(
    bool bOnlyLicensed
 
 )
-```
-```
+
 
 #### Parameters
 

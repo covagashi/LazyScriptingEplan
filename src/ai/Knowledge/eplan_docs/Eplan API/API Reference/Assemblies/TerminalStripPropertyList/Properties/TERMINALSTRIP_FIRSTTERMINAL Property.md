@@ -8,17 +8,12 @@ Terminal strips: First terminal # 35007.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue TERMINALSTRIP_FIRSTTERMINAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ TERMINALSTRIP_FIRSTTERMINAL {
@@ -28,8 +23,7 @@ property PropertyValue^ TERMINALSTRIP_FIRSTTERMINAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

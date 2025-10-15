@@ -8,21 +8,16 @@ Gets a customers that ist stored in the parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAddress GetCustomer( 
 
    string shortName
 
 )
-```
-```
 
-```
-```
 public:
 
 MDAddress^ GetCustomer( 
@@ -30,8 +25,7 @@ MDAddress^ GetCustomer(
    String^ shortName
 
 )
-```
-```
+
 
 #### Parameters
 

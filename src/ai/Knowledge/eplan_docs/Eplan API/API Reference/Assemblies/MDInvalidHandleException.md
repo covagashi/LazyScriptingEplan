@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDInvalidHandleException : MDInvalidArgumentException
-```
-```
 
-```
-```
 public ref class MDInvalidHandleException : public MDInvalidArgumentException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [MDInvalidHandleException Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDInvalidHandleException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,11 +8,10 @@ Returns all items from the list tab of a navigator.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] GetObjectsFromNavigatorList( 
 
    DMObjectsFinder.Enums.Navigators navigator,
@@ -20,11 +19,7 @@ public StorableObject[] GetObjectsFromNavigatorList(
    string strFilterScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ GetObjectsFromNavigatorList( 
@@ -34,8 +29,7 @@ array<StorableObject^>^ GetObjectsFromNavigatorList(
    String^ strFilterScheme
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Gets/Sets the name of a record, specified by its index.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 string NameOfRecord( 
 
    int nIndex
 
 ) {get; set;}
-```
-```
 
-```
-```
 property String^ NameOfRecord {
 
    String^ get(int nIndex);
@@ -30,8 +25,7 @@ property String^ NameOfRecord {
    void set (int nIndex, String^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

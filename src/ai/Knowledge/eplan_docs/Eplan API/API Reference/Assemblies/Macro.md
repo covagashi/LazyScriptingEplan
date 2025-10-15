@@ -15,26 +15,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Macro
-```
-```
 
-```
-```
 public ref class Macro
-```
-```
+
 
 Remarks
 
 Especially in offline programs, please make sure to clean up any macro objects before calling EplAppication.Exit(). The finalizer of macros needs the API still to be initialized!
-
-
 
 Public Constructors
 
@@ -43,8 +35,6 @@ Public Constructors
 | Public Constructor | [Macro Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.Macro~_ctor.html) | Constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

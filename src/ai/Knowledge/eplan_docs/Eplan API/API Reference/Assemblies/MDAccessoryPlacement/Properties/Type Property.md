@@ -8,17 +8,12 @@ Returns the part type of the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override MDPartsDatabaseItem.Enums.Type Type {get;}
-```
-```
 
-```
-```
 public:
 
 property MDPartsDatabaseItem.Enums.Type Type {
@@ -26,8 +21,7 @@ property MDPartsDatabaseItem.Enums.Type Type {
    MDPartsDatabaseItem.Enums.Type get() override;
 
 }
-```
-```
+
 
 #### Property Value
 

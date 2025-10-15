@@ -8,17 +8,12 @@ PCF: Reference value for the calculation # 26525.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PCF_REFERENCE_VALUE_FOR_THE_CALCULATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PCF_REFERENCE_VALUE_FOR_THE_CALCULATION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PCF_REFERENCE_VALUE_FOR_THE_CALCULATION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

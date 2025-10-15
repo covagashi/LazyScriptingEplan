@@ -8,17 +8,12 @@ Gets/Sets a sort mode that should be used during re-addressing. Should be in ran
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public uint SortModeIndex {get; set;}
-```
-```
 
-```
-```
 public:
 
 property uint SortModeIndex {
@@ -28,5 +23,4 @@ property uint SortModeIndex {
    void set (    uint value);
 
 }
-```
-```
+

@@ -8,22 +8,16 @@ Resets the filter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override void ResetFilter()
-```
-```
 
-```
-```
 public:
 
 void ResetFilter(); override
-```
-```
+
 
 Remarks
 

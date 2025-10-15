@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new ArticlePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property ArticlePropertyList^ Properties {
@@ -26,8 +21,7 @@ new property ArticlePropertyList^ Properties {
    ArticlePropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -35,7 +29,7 @@ P8 properties of the Article.
 
 Example
 
-- [C#](#i-tab-content-3f7d186e-35bb-44df-a720-8daef22d646c)
+**C#**
 
 ```
 Article a;//a valid Article

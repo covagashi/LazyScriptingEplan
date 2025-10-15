@@ -8,17 +8,12 @@ Usage count # 1005.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue LOCATION_USE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ LOCATION_USE {
@@ -28,8 +23,7 @@ property PropertyValue^ LOCATION_USE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

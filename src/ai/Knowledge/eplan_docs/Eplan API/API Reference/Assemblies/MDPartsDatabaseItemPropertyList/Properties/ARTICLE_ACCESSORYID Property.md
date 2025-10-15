@@ -8,17 +8,12 @@ Accessory code # 22025.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_ACCESSORYID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_ACCESSORYID {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_ACCESSORYID {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

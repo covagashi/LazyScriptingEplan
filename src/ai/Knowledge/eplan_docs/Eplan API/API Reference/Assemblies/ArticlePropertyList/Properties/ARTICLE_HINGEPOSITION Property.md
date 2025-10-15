@@ -8,17 +8,12 @@ Door: Hinge # 22193.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_HINGEPOSITION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_HINGEPOSITION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_HINGEPOSITION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

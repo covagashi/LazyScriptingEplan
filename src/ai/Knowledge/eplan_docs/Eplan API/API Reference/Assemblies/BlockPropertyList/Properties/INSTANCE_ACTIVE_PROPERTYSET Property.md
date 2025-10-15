@@ -8,17 +8,12 @@ Property arrangement # 19307.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTANCE_ACTIVE_PROPERTYSET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTANCE_ACTIVE_PROPERTYSET {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTANCE_ACTIVE_PROPERTYSET {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

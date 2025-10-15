@@ -8,21 +8,16 @@ Transform mate position.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Transform( 
 
    Matrix3D matrix
 
 )
-```
-```
 
-```
-```
 public:
 
 void Transform( 
@@ -30,8 +25,7 @@ void Transform(
    Matrix3D matrix
 
 )
-```
-```
+
 
 #### Parameters
 

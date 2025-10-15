@@ -8,17 +8,12 @@ Degree of protection # 10037.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_DEGOFPROTECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_DEGOFPROTECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_DEGOFPROTECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

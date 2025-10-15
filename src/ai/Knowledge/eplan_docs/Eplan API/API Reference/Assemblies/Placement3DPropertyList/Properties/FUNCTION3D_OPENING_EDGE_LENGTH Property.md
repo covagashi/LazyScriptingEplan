@@ -8,17 +8,12 @@ Cut-out: Edge length # 36024.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_OPENING_EDGE_LENGTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_OPENING_EDGE_LENGTH {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_OPENING_EDGE_LENGTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

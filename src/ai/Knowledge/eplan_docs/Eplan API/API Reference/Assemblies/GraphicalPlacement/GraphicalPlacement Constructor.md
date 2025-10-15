@@ -8,22 +8,16 @@ Default constructor. Should never be used. Always throws NotImplementedException
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public GraphicalPlacement()
-```
-```
 
-```
-```
 public:
 
 GraphicalPlacement();
-```
-```
+
 
 Exceptions
 

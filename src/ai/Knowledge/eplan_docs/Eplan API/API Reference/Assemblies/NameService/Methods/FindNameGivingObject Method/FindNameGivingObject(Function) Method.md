@@ -8,21 +8,16 @@ Finds an object, that would give the f function its name, when f has no its inst
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FunctionBase FindNameGivingObject( 
 
    Function f
 
 )
-```
-```
 
-```
-```
 public:
 
 FunctionBase^ FindNameGivingObject( 
@@ -30,8 +25,7 @@ FunctionBase^ FindNameGivingObject(
    Function^ f
 
 )
-```
-```
+
 
 #### Parameters
 

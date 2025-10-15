@@ -8,20 +8,14 @@ Types of view.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ViewPlacementType : System.Enum
-```
-```
 
-```
-```
 public enum class ViewPlacementType : public System.Enum
-```
-```
+
 
 Members
 

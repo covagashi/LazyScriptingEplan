@@ -18,22 +18,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ProjectNeedsUpgradeException : ProjectOpenException
-```
-```
 
-```
-```
 public ref class ProjectNeedsUpgradeException : public ProjectOpenException
-```
-```
-
-
 
 Public Constructors
 
@@ -42,8 +33,6 @@ Public Constructors
 | Public Constructor | [ProjectNeedsUpgradeException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectNeedsUpgradeException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,11 +8,10 @@ Returns the value of a setting. If a setting is read that has no value for this 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual double GetDoubleSetting( 
 
    string strSettingPath,
@@ -20,11 +19,7 @@ public virtual double GetDoubleSetting(
    int nIdx
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual double GetDoubleSetting( 
@@ -34,8 +29,7 @@ virtual double GetDoubleSetting(
    int nIdx
 
 )
-```
-```
+
 
 #### Parameters
 

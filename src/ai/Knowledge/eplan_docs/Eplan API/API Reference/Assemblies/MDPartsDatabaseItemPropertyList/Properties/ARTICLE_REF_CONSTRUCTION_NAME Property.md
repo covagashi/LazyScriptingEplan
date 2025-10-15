@@ -8,17 +8,12 @@ Drilling pattern # 22217.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_REF_CONSTRUCTION_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_REF_CONSTRUCTION_NAME {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_REF_CONSTRUCTION_NAME {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ This function exports the device list of a given project. It is used for exporti
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExportDeviceList( 
 
    string strFullLinkFileName,
@@ -22,11 +21,7 @@ public void ExportDeviceList(
    string strConverter
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExportDeviceList( 
@@ -38,8 +33,7 @@ void ExportDeviceList(
    String^ strConverter
 
 )
-```
-```
+
 
 #### Parameters
 

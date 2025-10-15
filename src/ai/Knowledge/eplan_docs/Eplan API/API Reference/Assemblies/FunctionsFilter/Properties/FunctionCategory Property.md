@@ -8,17 +8,12 @@ Gets/Sets the filter's category
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FunctionCategory FunctionCategory {get; set;}
-```
-```
 
-```
-```
 public:
 
 property FunctionCategory FunctionCategory {
@@ -28,5 +23,4 @@ property FunctionCategory FunctionCategory {
    void set (    FunctionCategory value);
 
 }
-```
-```
+

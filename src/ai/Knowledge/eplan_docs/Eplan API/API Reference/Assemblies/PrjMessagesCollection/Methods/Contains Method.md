@@ -8,21 +8,16 @@ Determines whether the `PrjMessagesCollection` contains a specific value.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool Contains( 
 
    BaseProjectMessage message
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual bool Contains( 
@@ -30,8 +25,7 @@ virtual bool Contains(
    BaseProjectMessage^ message
 
 )
-```
-```
+
 
 #### Parameters
 

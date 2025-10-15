@@ -8,17 +8,12 @@ Flow direction: Operating flow direction # 26267.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_FLOW_DIRECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_FLOW_DIRECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_FLOW_DIRECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

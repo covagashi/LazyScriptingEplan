@@ -8,17 +8,12 @@ GMP-relevant # 44061.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_GMP_RELEVANT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_GMP_RELEVANT {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_GMP_RELEVANT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

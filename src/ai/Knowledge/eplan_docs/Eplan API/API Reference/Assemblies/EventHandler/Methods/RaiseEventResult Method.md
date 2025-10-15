@@ -8,11 +8,10 @@ For internal use only.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int RaiseEventResult( 
 
    IEventParameter pEventParameter,
@@ -20,11 +19,7 @@ public int RaiseEventResult(
    string strNameOfEvent
 
 )
-```
-```
 
-```
-```
 public:
 
 int RaiseEventResult( 
@@ -34,8 +29,7 @@ int RaiseEventResult(
    String^ strNameOfEvent
 
 )
-```
-```
+
 
 #### Parameters
 

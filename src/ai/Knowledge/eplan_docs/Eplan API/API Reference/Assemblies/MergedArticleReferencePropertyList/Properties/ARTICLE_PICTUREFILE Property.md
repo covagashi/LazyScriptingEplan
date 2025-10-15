@@ -8,17 +8,12 @@ Image file # 22045.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PICTUREFILE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PICTUREFILE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PICTUREFILE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

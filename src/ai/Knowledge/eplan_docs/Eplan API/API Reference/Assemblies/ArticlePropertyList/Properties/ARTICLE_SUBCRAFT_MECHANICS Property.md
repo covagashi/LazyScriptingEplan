@@ -8,21 +8,16 @@ Subtrade 'Mechanics' # 22094.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SUBCRAFT_MECHANICS( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SUBCRAFT_MECHANICS {
@@ -32,8 +27,7 @@ property PropertyValue^ ARTICLE_SUBCRAFT_MECHANICS {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ Updates connections on given pages from one project. Project is taken from first
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Connections( 
 
    Page[] arrayPages,
@@ -20,11 +19,7 @@ public void Connections(
    bool bRebuildAllConnections
 
 )
-```
-```
 
-```
-```
 public:
 
 void Connections( 
@@ -34,8 +29,7 @@ void Connections(
    bool bRebuildAllConnections
 
 )
-```
-```
+
 
 #### Parameters
 

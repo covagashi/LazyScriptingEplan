@@ -8,17 +8,12 @@ Returns the [Eplan.EplApi.DataModel.E3D.Connection3D](Eplan.EplApi.DataModelu~Ep
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Connection3D Connection3D {get;}
-```
-```
 
-```
-```
 public:
 
 property Connection3D^ Connection3D {
@@ -26,8 +21,7 @@ property Connection3D^ Connection3D {
    Connection3D^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

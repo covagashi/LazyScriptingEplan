@@ -8,17 +8,12 @@ Functional assignment (sub-identifier, complete) # 1321.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FULLSUBFUNCTIONALASSIGNMENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FULLSUBFUNCTIONALASSIGNMENT {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FULLSUBFUNCTIONALASSIGNMENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Method to import a parts list file into the project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ImportPartsList( 
 
    string strFullLinkFileName,
@@ -22,11 +21,7 @@ public void ImportPartsList(
    PartsService.Format fileformat
 
 )
-```
-```
 
-```
-```
 public:
 
 void ImportPartsList( 
@@ -38,8 +33,7 @@ void ImportPartsList(
    PartsService.Format fileformat
 
 )
-```
-```
+
 
 #### Parameters
 

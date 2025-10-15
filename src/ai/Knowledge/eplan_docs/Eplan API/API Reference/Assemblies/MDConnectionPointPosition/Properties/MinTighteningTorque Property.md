@@ -8,17 +8,12 @@ It describes the minimum force with which, for example, a screw is tightened
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double MinTighteningTorque {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double MinTighteningTorque {
@@ -28,5 +23,4 @@ property double MinTighteningTorque {
    void set (    double value);
 
 }
-```
-```
+

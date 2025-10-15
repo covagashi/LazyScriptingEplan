@@ -14,26 +14,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class DaisyChain : StorableObject
-```
-```
 
-```
-```
 public ref class DaisyChain : public StorableObject
-```
-```
+
 
 Example
 
 The following example shows how to create, modify and remove daisy chains.
 
-- [C#](#i-tab-content-b2f6eb6d-08e5-4141-92d9-1e5cde7f97c9)
+**C#**
 
 ```
 //create new DaisyChain
@@ -50,8 +44,6 @@ DaisyChain newDaisyChain = netDefinitionPoint.AddDaisyChain(
 
     });
 
-
-
 //list connection points of a DaisyChain
 
 foreach (var connectionPoint in newDaisyChain.NetbasedWiringIds)
@@ -61,8 +53,6 @@ foreach (var connectionPoint in newDaisyChain.NetbasedWiringIds)
                                            // netDefinitionPoint.NetConnectionPoints[2],
 
                                            // netDefinitionPoint.NetConnectionPoints[3]
-
-
 
 //list connections of a DaisyChain
 
@@ -76,11 +66,7 @@ foreach (var connection in newDaisyChain.Connections)
 
 // netDefinitionPoint.NetConnectionPoints[2] <=> netDefinitionPoint.NetConnectionPoints[3]
 
-
-
 newDaisyChain.AddConnectionPoint(netDefinitionPoint.NetConnectionPoints[1], 1);
-
-
 
 //list of net based wiring ids of a DaisyChain
 
@@ -96,8 +82,6 @@ foreach (var connectionPoint in newDaisyChain.NetbasedWiringIds)
 
                                            //list connection points of a DaisyChain
 
-
-
 foreach (var connectionPoint in newDaisyChain.ConnectionPoints)
 
     Console.WriteLine(connectionPoint);    // will output connection points netDefinitionPoint.NetConnectionPoints[0],
@@ -107,10 +91,6 @@ foreach (var connectionPoint in newDaisyChain.ConnectionPoints)
                                            // netDefinitionPoint.NetConnectionPoints[2]
 
                                            // , netDefinitionPoint.NetConnectionPoints[3]
-
-
-
-
 
 //list connections of a DaisyChain
 
@@ -126,13 +106,9 @@ foreach (var connection in newDaisyChain.Connections)
 
 // netDefinitionPoint.NetConnectionPoints[2] <=> netDefinitionPoint.NetConnectionPoints[3]
 
-
-
 //remove DaisyChain
 
 netDefinitionPoint.RemoveDaisyChain(newDaisyChain);
-
-
 
 ```
 
@@ -143,8 +119,6 @@ Public Constructors
 | Public Constructor | [DaisyChain Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DaisyChain~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

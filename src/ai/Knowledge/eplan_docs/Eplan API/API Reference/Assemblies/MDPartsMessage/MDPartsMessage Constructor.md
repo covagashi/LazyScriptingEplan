@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartsMessage( 
 
    ProjectMessageHandle* hMDPMsg
 
 )
-```
-```
 
-```
-```
 public:
 
 MDPartsMessage( 
@@ -28,8 +23,7 @@ MDPartsMessage(
    ProjectMessageHandle* hMDPMsg
 
 )
-```
-```
+
 
 #### Parameters
 

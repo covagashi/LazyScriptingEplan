@@ -8,17 +8,12 @@ Cables: Connection splicers passed through # 35111.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLE_DISTRIBUTORS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLE_DISTRIBUTORS {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLE_DISTRIBUTORS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

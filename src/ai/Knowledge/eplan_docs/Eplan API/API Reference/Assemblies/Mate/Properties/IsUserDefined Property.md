@@ -8,17 +8,12 @@ Returns true, if mate is used defined.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsUserDefined {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsUserDefined {
@@ -26,5 +21,4 @@ property bool IsUserDefined {
    bool get();
 
 }
-```
-```
+

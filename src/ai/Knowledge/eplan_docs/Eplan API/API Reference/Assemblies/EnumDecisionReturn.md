@@ -8,20 +8,14 @@ This enum is returned by the [Decider](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Deci
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum EnumDecisionReturn : System.Enum
-```
-```
 
-```
-```
 public enum class EnumDecisionReturn : public System.Enum
-```
-```
+
 
 Members
 

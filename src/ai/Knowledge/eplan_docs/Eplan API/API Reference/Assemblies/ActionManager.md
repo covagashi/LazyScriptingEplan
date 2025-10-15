@@ -13,24 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ActionManager
-```
-```
 
-```
-```
 public ref class ActionManager
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-a443c26a-fda6-4ea2-98a1-0487c4de691b)
+**C#**
 
 ```
 Action oAction = m_ActionManager.FindAction(null);
@@ -41,8 +35,6 @@ ActionCallingContext oACC = new ActionCallingContext();
 
 oAction.Execute(oACC);
 
-
-
 ```
 
 Public Constructors
@@ -52,9 +44,6 @@ Public Constructors
 | Public Constructor | [ActionManager Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionManager~_ctor.html) |  |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

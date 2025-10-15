@@ -8,17 +8,12 @@ Shielded by # 31049.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_CABLEWIRE_SHIELDEDBY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_CABLEWIRE_SHIELDEDBY {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_CABLEWIRE_SHIELDEDBY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Constructor with description.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MasterDataException( 
 
    string txt
 
 )
-```
-```
 
-```
-```
 public:
 
 MasterDataException( 
@@ -30,8 +25,7 @@ MasterDataException(
    String^ txt
 
 )
-```
-```
+
 
 #### Parameters
 

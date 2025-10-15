@@ -8,20 +8,14 @@ Function group. Used by getNamePrototype method.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Project.FunctionGroup : System.Enum
-```
-```
 
-```
-```
 public enum class Project.FunctionGroup : public System.Enum
-```
-```
+
 
 Members
 

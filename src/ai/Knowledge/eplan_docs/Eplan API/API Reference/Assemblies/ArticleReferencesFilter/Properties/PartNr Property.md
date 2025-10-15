@@ -8,17 +8,12 @@ Gets/Sets the part number that was set to this filter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PartNr {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PartNr {
@@ -28,8 +23,7 @@ property String^ PartNr {
    void set (    String^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

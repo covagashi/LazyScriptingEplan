@@ -8,17 +8,12 @@ Location designation (automatic) # 31103.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_FULLLOCATION_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_FULLLOCATION_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_FULLLOCATION_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

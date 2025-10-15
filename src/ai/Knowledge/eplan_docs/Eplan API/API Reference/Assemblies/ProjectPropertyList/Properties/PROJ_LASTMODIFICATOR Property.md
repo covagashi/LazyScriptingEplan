@@ -8,17 +8,12 @@ Last editor: Sign-in name # 10022.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_LASTMODIFICATOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_LASTMODIFICATOR {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_LASTMODIFICATOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

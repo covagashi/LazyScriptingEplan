@@ -8,17 +8,12 @@ Grid offset X # 12003.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_EVALUATION_AREA_START_POINT_X {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_EVALUATION_AREA_START_POINT_X {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_EVALUATION_AREA_START_POINT_X {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

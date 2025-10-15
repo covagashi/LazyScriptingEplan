@@ -8,22 +8,16 @@ Gets enumertator in collection of MacroPlaceholderValueSets
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual IEnumerator<PlanningObject.MacroPlaceHolderValueSet> GetEnumerator()
-```
-```
 
-```
-```
 public:
 
 virtual IEnumerator<PlanningObject.MacroPlaceHolderValueSet^>^ GetEnumerator();
-```
-```
+
 
 #### Return Value
 

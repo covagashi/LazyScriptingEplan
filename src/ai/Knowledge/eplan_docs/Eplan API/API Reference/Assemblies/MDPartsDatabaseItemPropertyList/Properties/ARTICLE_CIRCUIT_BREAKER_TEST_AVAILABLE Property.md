@@ -8,17 +8,12 @@ Power circuit breaker - test available # 26433.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CIRCUIT_BREAKER_TEST_AVAILABLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CIRCUIT_BREAKER_TEST_AVAILABLE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CIRCUIT_BREAKER_TEST_AVAILABLE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

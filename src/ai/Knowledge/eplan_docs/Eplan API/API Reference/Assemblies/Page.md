@@ -17,20 +17,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Page : DocumentBase, IPlacementsContainer, IWriteProtection
-```
-```
 
-```
-```
 public ref class Page : public DocumentBase, IPlacementsContainer, IWriteProtection
-```
-```
+
 
 Remarks
 
@@ -40,7 +34,7 @@ Example
 
 The following example shows how to use class Page.
 
-- [C#](#i-tab-content-2ae3ae03-7784-424f-8cff-2faa915d4f55)
+**C#**
 
 ```
 PagePropertyList oPPL = new PagePropertyList();
@@ -51,8 +45,6 @@ oPPL.DESIGNATION_PLANT = "O";
 
 Page oPage = new Page(m_oTestProject, DocumentTypeManager.DocumentType.Circuit, oPPL);
 
-
-
 ```
 
 Public Constructors
@@ -62,8 +54,6 @@ Public Constructors
 | Public Constructor | [Page Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -4,21 +4,16 @@
 
 ---
 
-Continuous heating power (at 20Â°C) # 26094.
+Continuous heating power (at 20°C) # 26094.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CONTINUOUS_HEAT_PERFORMANCE_AT_20_C {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CONTINUOUS_HEAT_PERFORMANCE_AT_20_C {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CONTINUOUS_HEAT_PERFORMANCE_AT_20_C {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-At an ambient temperature of 20 Â°C, the useful heat that can be permanently transferred to the heat transfer medium by the device during heating without impairing the functionality.
+At an ambient temperature of 20 °C, the useful heat that can be permanently transferred to the heat transfer medium by the device during heating without impairing the functionality.

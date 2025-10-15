@@ -8,17 +8,12 @@ Measuring transducer: Line connection (cable / pipe) # 26202.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CABLE_PIPE_TRANSMITTER_CONNECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CABLE_PIPE_TRANSMITTER_CONNECTION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CABLE_PIPE_TRANSMITTER_CONNECTION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

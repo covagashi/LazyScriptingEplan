@@ -8,17 +8,12 @@ Group type
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlaceHolderText.Enums.GroupType GroupType {get;}
-```
-```
 
-```
-```
 public:
 
 property PlaceHolderText.Enums.GroupType GroupType {
@@ -26,5 +21,4 @@ property PlaceHolderText.Enums.GroupType GroupType {
    PlaceHolderText.Enums.GroupType get();
 
 }
-```
-```
+

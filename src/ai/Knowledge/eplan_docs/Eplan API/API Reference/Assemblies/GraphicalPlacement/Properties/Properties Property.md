@@ -8,17 +8,12 @@ Allows properties access.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new GraphicalPlacementPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property GraphicalPlacementPropertyList^ Properties {
@@ -26,5 +21,4 @@ new property GraphicalPlacementPropertyList^ Properties {
    GraphicalPlacementPropertyList^ get();
 
 }
-```
-```
+

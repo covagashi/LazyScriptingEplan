@@ -8,20 +8,14 @@ Possible directions of address.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum PlanningSegment.PLCAddress.Enums.PlcAddressDirection : System.Enum
-```
-```
 
-```
-```
 public enum class PlanningSegment.PLCAddress.Enums.PlcAddressDirection : public System.Enum
-```
-```
+
 
 Members
 

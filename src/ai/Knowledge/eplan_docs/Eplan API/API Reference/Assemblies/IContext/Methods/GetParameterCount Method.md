@@ -8,20 +8,14 @@ Gets the count of the Parameters in this context
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 int GetParameterCount()
-```
-```
 
-```
-```
 int GetParameterCount();
-```
-```
+
 
 #### Return Value
 

@@ -8,11 +8,10 @@ Starts a check run for the given MDPartsDatabaseItems (MDParts).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void VerifyMDPartsDatabaseItems( 
 
    IEnumerable<MDPartsDatabaseItem> oItems,
@@ -20,11 +19,7 @@ public void VerifyMDPartsDatabaseItems(
    string strVerificationScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 void VerifyMDPartsDatabaseItems( 
@@ -34,8 +29,7 @@ void VerifyMDPartsDatabaseItems(
    String^ strVerificationScheme
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Current database version provided by this software.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ProjectManager.DatabaseVersion CurrentDatabaseVersion {get;}
-```
-```
 
-```
-```
 public:
 
 property ProjectManager.DatabaseVersion^ CurrentDatabaseVersion {
@@ -26,5 +21,4 @@ property ProjectManager.DatabaseVersion^ CurrentDatabaseVersion {
    ProjectManager.DatabaseVersion^ get();
 
 }
-```
-```
+

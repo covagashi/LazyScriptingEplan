@@ -8,17 +8,12 @@ Return true if the instance uses the local property instances, otherwise it uses
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool UseLocalPropertyPlacements {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool UseLocalPropertyPlacements {
@@ -28,5 +23,4 @@ property bool UseLocalPropertyPlacements {
    void set (    bool value);
 
 }
-```
-```
+

@@ -8,11 +8,10 @@ Creates not placed, article free MountingPanel object with given dimensions.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static MountingPanel Create( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public static MountingPanel Create(
    List<Placement3D> listOfAdditionalPlacements
 
 )
-```
-```
 
-```
-```
 public:
 
 static MountingPanel^ Create( 
@@ -46,8 +41,7 @@ static MountingPanel^ Create(
    List<Placement3D^>^ listOfAdditionalPlacements
 
 )
-```
-```
+
 
 #### Parameters
 

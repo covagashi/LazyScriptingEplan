@@ -8,11 +8,10 @@ Writes a window macro file from the pPlacements If at least one given Placement 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    string macroFileName,
@@ -28,11 +27,7 @@ public void Create(
    PointD oReferencePoint
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -50,8 +45,7 @@ void Create(
    PointD oReferencePoint
 
 )
-```
-```
+
 
 #### Parameters
 

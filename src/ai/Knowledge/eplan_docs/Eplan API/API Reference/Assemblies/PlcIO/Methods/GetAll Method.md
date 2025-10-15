@@ -8,21 +8,16 @@ Returns an array of all PLCIOEntries existing in the project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static PlcIO[] GetAll( 
 
    Project prj
 
 )
-```
-```
 
-```
-```
 public:
 
 static array<PlcIO^>^ GetAll( 
@@ -30,8 +25,7 @@ static array<PlcIO^>^ GetAll(
    Project^ prj
 
 )
-```
-```
+
 
 #### Parameters
 

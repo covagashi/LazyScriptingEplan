@@ -8,11 +8,10 @@ Change current representation type and variant of macro This function is more ef
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ChangeCurrentVariant( 
 
    WindowMacro.Enums.RepresentationType nRepType,
@@ -20,11 +19,7 @@ public void ChangeCurrentVariant(
    int nVariant
 
 )
-```
-```
 
-```
-```
 public:
 
 void ChangeCurrentVariant( 
@@ -34,8 +29,7 @@ void ChangeCurrentVariant(
    int nVariant
 
 )
-```
-```
+
 
 #### Parameters
 

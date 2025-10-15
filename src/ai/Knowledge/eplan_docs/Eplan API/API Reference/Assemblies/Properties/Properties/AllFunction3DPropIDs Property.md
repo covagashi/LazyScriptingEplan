@@ -8,17 +8,12 @@ Returns an array of all property ids which can exist for Function3D objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static AnyPropertyId[] AllFunction3DPropIDs {get;}
-```
-```
 
-```
-```
 public:
 
 static property array<AnyPropertyId^>^ AllFunction3DPropIDs {
@@ -26,5 +21,4 @@ static property array<AnyPropertyId^>^ AllFunction3DPropIDs {
    array<AnyPropertyId^>^ get();
 
 }
-```
-```
+

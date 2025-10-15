@@ -8,11 +8,10 @@ Returns default double value of a setting. The index starts at 0.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double GetDoubleDefault( 
 
    string strSettingPath,
@@ -20,11 +19,7 @@ public double GetDoubleDefault(
    int nIdx
 
 )
-```
-```
 
-```
-```
 public:
 
 double GetDoubleDefault( 
@@ -34,8 +29,7 @@ double GetDoubleDefault(
    int nIdx
 
 )
-```
-```
+
 
 #### Parameters
 

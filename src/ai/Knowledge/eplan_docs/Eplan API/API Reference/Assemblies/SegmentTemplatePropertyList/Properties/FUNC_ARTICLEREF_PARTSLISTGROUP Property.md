@@ -8,17 +8,12 @@ Topology: Generated single-line # 20343.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTIONCABLING_SINGLELINE_CREATED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTIONCABLING_SINGLELINE_CREATED {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTIONCABLING_SINGLELINE_CREATED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

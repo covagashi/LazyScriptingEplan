@@ -8,17 +8,12 @@ Higher-level function number # 1720.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FULLINSTALLATIONNUMBER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FULLINSTALLATIONNUMBER {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FULLINSTALLATIONNUMBER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

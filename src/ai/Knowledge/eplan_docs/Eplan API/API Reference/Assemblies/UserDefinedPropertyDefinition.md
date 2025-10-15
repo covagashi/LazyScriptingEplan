@@ -14,26 +14,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class UserDefinedPropertyDefinition : PropertyDefinition
-```
-```
 
-```
-```
 public ref class UserDefinedPropertyDefinition : public PropertyDefinition
-```
-```
+
 
 Remarks
 
 After creating a new UserDefinedPropertyDefinition, you assign it to a property list by the UniversalPropertyList.AddUserPropertyDef(oUserDefinedPropertyDefinition) method
-
-
 
 Public Constructors
 
@@ -42,8 +34,6 @@ Public Constructors
 | Public Constructor | [UserDefinedPropertyDefinition Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UserDefinedPropertyDefinition~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new PlaceHolder3DPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property PlaceHolder3DPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property PlaceHolder3DPropertyList^ Properties {
    PlaceHolder3DPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

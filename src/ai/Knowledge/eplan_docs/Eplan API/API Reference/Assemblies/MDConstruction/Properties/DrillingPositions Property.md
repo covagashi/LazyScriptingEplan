@@ -8,17 +8,12 @@ Get all drilling positions that belongs to the construction.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDDrillingPosition[] DrillingPositions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDDrillingPosition^>^ DrillingPositions {
@@ -26,8 +21,7 @@ property array<MDDrillingPosition^>^ DrillingPositions {
    array<MDDrillingPosition^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

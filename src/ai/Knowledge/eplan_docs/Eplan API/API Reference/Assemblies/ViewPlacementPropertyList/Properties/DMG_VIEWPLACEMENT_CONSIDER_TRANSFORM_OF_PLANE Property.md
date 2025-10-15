@@ -8,17 +8,12 @@ Model view: Apply viewpoint to mounting surface # 36508.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_CONSIDER_TRANSFORM_OF_PLANE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_CONSIDER_TRANSFORM_OF_PLANE {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_CONSIDER_TRANSFORM_OF_PLANE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

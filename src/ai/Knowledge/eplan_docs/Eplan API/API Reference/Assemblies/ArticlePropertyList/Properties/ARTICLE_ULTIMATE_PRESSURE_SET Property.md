@@ -8,17 +8,12 @@ Final pressure, preset # 26100.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_ULTIMATE_PRESSURE_SET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_ULTIMATE_PRESSURE_SET {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_ULTIMATE_PRESSURE_SET {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,22 +8,16 @@ Returns all descriptions of the context parameters.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ArrayList GetParameterProperties()
-```
-```
 
-```
-```
 public:
 
 ArrayList^ GetParameterProperties();
-```
-```
+
 
 #### Return Value
 

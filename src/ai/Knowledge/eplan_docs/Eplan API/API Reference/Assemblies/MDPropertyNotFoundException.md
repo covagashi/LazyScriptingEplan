@@ -15,22 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDPropertyNotFoundException : MDInvalidArgumentException
-```
-```
 
-```
-```
 public ref class MDPropertyNotFoundException : public MDInvalidArgumentException
-```
-```
-
-
 
 Public Constructors
 
@@ -39,8 +30,6 @@ Public Constructors
 | Public Constructor | [MDPropertyNotFoundException Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyNotFoundException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

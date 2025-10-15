@@ -8,21 +8,16 @@ Removes the given module position from the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveModulePosition( 
 
    MDPartModulePosition modulePos
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveModulePosition( 
@@ -30,8 +25,7 @@ void RemoveModulePosition(
    MDPartModulePosition^ modulePos
 
 )
-```
-```
+
 
 #### Parameters
 

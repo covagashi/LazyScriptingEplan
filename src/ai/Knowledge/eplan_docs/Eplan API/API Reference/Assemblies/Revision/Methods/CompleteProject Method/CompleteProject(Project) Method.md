@@ -8,21 +8,16 @@ Completes current revision of a project. Used for change tracking.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CompleteProject( 
 
    Project oProjectToComplete
 
 )
-```
-```
 
-```
-```
 public:
 
 void CompleteProject( 
@@ -30,8 +25,7 @@ void CompleteProject(
    Project^ oProjectToComplete
 
 )
-```
-```
+
 
 #### Parameters
 

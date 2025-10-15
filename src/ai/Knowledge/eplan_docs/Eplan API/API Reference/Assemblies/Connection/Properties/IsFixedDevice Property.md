@@ -8,17 +8,12 @@ Checks if device to which connection is assign is fixed or not.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsFixedDevice {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsFixedDevice {
@@ -26,8 +21,7 @@ property bool IsFixedDevice {
    bool get();
 
 }
-```
-```
+
 
 Remarks
 

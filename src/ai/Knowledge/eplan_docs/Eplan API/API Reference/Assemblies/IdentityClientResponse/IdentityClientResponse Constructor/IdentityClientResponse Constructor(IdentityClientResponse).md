@@ -8,21 +8,16 @@ IdentityClientResponse constructor sets response data from existing object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public IdentityClientResponse( 
 
    IdentityClientResponse data
 
 )
-```
-```
 
-```
-```
 public:
 
 IdentityClientResponse( 
@@ -30,8 +25,7 @@ IdentityClientResponse(
    IdentityClientResponse^ data
 
 )
-```
-```
+
 
 #### Parameters
 

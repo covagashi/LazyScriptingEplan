@@ -8,17 +8,12 @@ gets the current element in [Eplan::EplApi::MasterData:](Eplan.EplApi.MasterData
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual MDPartsMessage CurrentMDPartsMessage {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property MDPartsMessage^ CurrentMDPartsMessage {
@@ -26,8 +21,7 @@ virtual property MDPartsMessage^ CurrentMDPartsMessage {
    MDPartsMessage^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

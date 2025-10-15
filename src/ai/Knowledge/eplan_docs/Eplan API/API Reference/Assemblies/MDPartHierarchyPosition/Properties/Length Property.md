@@ -8,17 +8,12 @@ Returns the length of the position.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double Length {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double Length {
@@ -28,8 +23,7 @@ property double Length {
    void set (    double value);
 
 }
-```
-```
+
 
 Remarks
 

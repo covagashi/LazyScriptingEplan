@@ -8,17 +8,12 @@ Macro: Variant # 23008.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue MACROBOX_VARIANT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ MACROBOX_VARIANT {
@@ -28,8 +23,7 @@ property PropertyValue^ MACROBOX_VARIANT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

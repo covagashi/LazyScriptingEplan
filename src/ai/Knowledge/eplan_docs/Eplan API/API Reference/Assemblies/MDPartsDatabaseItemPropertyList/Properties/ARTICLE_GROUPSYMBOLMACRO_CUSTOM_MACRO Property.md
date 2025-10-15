@@ -8,21 +8,16 @@ Schematic macro: Macro for company standard # 22881.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_GROUPSYMBOLMACRO_CUSTOM_MACRO( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_GROUPSYMBOLMACRO_CUSTOM_MACRO {
@@ -32,8 +27,7 @@ property MDPropertyValue^ ARTICLE_GROUPSYMBOLMACRO_CUSTOM_MACRO {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

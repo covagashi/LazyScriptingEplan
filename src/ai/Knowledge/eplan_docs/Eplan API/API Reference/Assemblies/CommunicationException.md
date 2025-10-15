@@ -15,22 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class CommunicationException : Grpc.Core.RpcException
-```
-```
 
-```
-```
 public ref class CommunicationException : public Grpc.Core.RpcException
-```
-```
-
-
 
 Public Constructors
 
@@ -39,8 +30,6 @@ Public Constructors
 | Public Constructor | [CommunicationException Constructor](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.CommunicationException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ Ambient temperature (during operation), min. # 26158.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_MIN_AMBIENT_TEMPERATURE_DURING_OPERATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_MIN_AMBIENT_TEMPERATURE_DURING_OPERATION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_MIN_AMBIENT_TEMPERATURE_DURING_OPERATION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

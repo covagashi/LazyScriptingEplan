@@ -8,17 +8,12 @@ Slot width # 22286.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SLOT_GAP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SLOT_GAP {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SLOT_GAP {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

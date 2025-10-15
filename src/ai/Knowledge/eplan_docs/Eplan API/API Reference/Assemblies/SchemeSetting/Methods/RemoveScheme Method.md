@@ -8,21 +8,16 @@ Remove a new scheme.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveScheme( 
 
    string strSettingsNodeName
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveScheme( 
@@ -30,8 +25,7 @@ void RemoveScheme(
    String^ strSettingsNodeName
 
 )
-```
-```
+
 
 #### Parameters
 

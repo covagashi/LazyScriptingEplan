@@ -8,17 +8,12 @@ Returns flag, if this function can give connection designations to other functio
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool CanGiveConnDesignationsToOtherFunctions {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool CanGiveConnDesignationsToOtherFunctions {
@@ -26,8 +21,7 @@ virtual property bool CanGiveConnDesignationsToOtherFunctions {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Gets/Sets the value of the dimension circle.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string DimensionText {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ DimensionText {
@@ -28,5 +23,4 @@ property String^ DimensionText {
    void set (    String^ value);
 
 }
-```
-```
+

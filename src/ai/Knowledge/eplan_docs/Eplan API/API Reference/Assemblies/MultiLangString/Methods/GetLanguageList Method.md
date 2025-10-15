@@ -8,21 +8,16 @@ Returns the list of the languages currently saved in this [MultiLangString](Epla
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int GetLanguageList( 
 
    ref LanguageList rLanguageList
 
 )
-```
-```
 
-```
-```
 public:
 
 int GetLanguageList( 
@@ -30,8 +25,7 @@ int GetLanguageList(
    LanguageList^% rLanguageList
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Reply text # 19504.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_COMMENT_RESPONSE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_COMMENT_RESPONSE {
@@ -32,8 +27,7 @@ property PropertyValue^ DMG_COMMENT_RESPONSE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

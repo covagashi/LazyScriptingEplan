@@ -8,17 +8,12 @@ Eplan build number of the last modification or update # 10044.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_LASTUSEDBUILDNUMBER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_LASTUSEDBUILDNUMBER {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_LASTUSEDBUILDNUMBER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

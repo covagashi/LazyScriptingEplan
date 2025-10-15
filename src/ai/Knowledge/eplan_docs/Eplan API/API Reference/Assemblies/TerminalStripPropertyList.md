@@ -20,24 +20,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Property")]
 
 public class TerminalStripPropertyList : Eplan.EplApi.DataModel.FunctionPropertyList
-```
-```
 
-```
-```
 [DefaultMember("Property")]
 
 public ref class TerminalStripPropertyList : public Eplan.EplApi.DataModel.FunctionPropertyList
-```
-```
+
 
 Remarks
 
@@ -49,7 +43,7 @@ Example
 
 Example shows usage of online an offline property list:
 
-- [C#](#i-tab-content-ec50df20-b187-4c5c-9232-290edf30a584)
+**C#**
 
 ```
 // creation of persistent property list
@@ -60,15 +54,11 @@ oPersistentPropertyList1.FUNC_COMMENT = "Comment";
 
 // now oFunction.Properties.FUNC_COMMENT is equal "Comment"
 
-
-
 FunctionPropertyList oPersistentPropertyList2 = new FunctionPropertyList(oFunction);
 
 oPersistentPropertyList2.FUNC_COMMENT = "Test";
 
 // now oFunction.Properties.FUNC_COMMENT is equal "Test"
-
-
 
 // creation of transient property list
 
@@ -82,8 +72,6 @@ oTransientPropertyList.FUNC_COMMENT = "Transient comment";
 
 // now oTransientPropertyList.FUNC_COMMENT is equal "Test comment"
 
-
-
 ```
 
 Public Constructors
@@ -93,8 +81,6 @@ Public Constructors
 | Public Constructor | [TerminalStripPropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.TerminalStripPropertyList~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

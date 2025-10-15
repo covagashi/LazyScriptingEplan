@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Renumber
-```
-```
 
-```
-```
 public ref class Renumber
-```
-```
-
-
 
 Public Constructors
 
@@ -37,9 +28,6 @@ Public Constructors
 | Public Constructor | [Renumber Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Renumber~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

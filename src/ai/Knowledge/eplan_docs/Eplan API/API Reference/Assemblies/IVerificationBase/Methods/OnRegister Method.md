@@ -8,11 +8,10 @@ Called by EPLAN when the new check is added to the system.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void OnRegister( 
 
    ref string strName,
@@ -20,11 +19,7 @@ void OnRegister(
    ref int iOrdinal
 
 )
-```
-```
 
-```
-```
 void OnRegister( 
 
    String^% strName,
@@ -32,8 +27,7 @@ void OnRegister(
    int% iOrdinal
 
 )
-```
-```
+
 
 #### Parameters
 

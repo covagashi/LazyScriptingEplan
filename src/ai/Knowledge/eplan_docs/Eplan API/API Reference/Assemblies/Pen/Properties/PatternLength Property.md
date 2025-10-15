@@ -8,17 +8,12 @@ Pattern length. The pattern will be stretched, so that the whole pattern fits to
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double PatternLength {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double PatternLength {
@@ -28,8 +23,7 @@ property double PatternLength {
    void set (    double value);
 
 }
-```
-```
+
 
 #### Property Value
 

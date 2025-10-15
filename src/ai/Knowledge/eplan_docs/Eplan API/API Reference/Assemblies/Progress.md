@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Progress
-```
-```
 
-```
-```
 public ref class Progress
-```
-```
+
 
 Remarks
 
@@ -36,7 +30,7 @@ Example
 
 Example of using Progress class
 
-- [C#](#i-tab-content-517dd632-e92c-48b0-b4ca-ead347de6b60)
+**C#**
 
 ```
 
@@ -46,8 +40,6 @@ using (var progress = new Progress("SimpleProgress"))
 {
 
     progress.ShowImmediately();
-
-
 
     //part 1
 
@@ -63,8 +55,6 @@ using (var progress = new Progress("SimpleProgress"))
 
    progress.EndPart(false);
 
-
-
    //part 2
 
    progress.BeginPart(30.0, "");
@@ -77,15 +67,11 @@ using (var progress = new Progress("SimpleProgress"))
 
    System.Threading.Thread.Sleep(1000);    // TODO: Some processing
 
-
-
    progress.SetActionText("part2 step2");
 
    progress.Step(1);
 
    System.Threading.Thread.Sleep(1000);    // TODO: Some processing
-
-
 
    progress.SetActionText("part2 step3");
 
@@ -94,8 +80,6 @@ using (var progress = new Progress("SimpleProgress"))
    System.Threading.Thread.Sleep(1000);    // TODO: Some processing
 
    progress.EndPart(false);
-
-
 
    //part 3
 
@@ -113,13 +97,9 @@ using (var progress = new Progress("SimpleProgress"))
 
 }
 
-
-
-
-
 ```
 
-- [C#](#i-tab-content-2d68353c-d687-4e53-93bf-5206f2831db3)
+**C#**
 
 ```
 
@@ -135,8 +115,6 @@ using (var progress = new Progress("SimpleProgress"))
     progress.SetTitle("Replace parts");
 
     progress.ShowImmediately();
-
-
 
     var finder = new DMObjectsFinder(oProject);
 
@@ -168,10 +146,6 @@ using (var progress = new Progress("SimpleProgress"))
 
 }
 
-
-
-
-
 ```
 
 Public Constructors
@@ -181,9 +155,6 @@ Public Constructors
 | Public Constructor | [Progress Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

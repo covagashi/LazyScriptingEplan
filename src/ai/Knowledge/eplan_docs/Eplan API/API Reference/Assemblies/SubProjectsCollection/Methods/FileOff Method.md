@@ -8,21 +8,16 @@ Creates subproject, i.e. file it off from the project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void FileOff( 
 
    SubProject pSubProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void FileOff( 
@@ -30,8 +25,7 @@ void FileOff(
    SubProject^ pSubProject
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Specifies transparency of Layer as double with a value between 0.0 and 1.0
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public float Transparency {get;}
-```
-```
 
-```
-```
 public:
 
 property float Transparency {
@@ -26,5 +21,4 @@ property float Transparency {
    float get();
 
 }
-```
-```
+

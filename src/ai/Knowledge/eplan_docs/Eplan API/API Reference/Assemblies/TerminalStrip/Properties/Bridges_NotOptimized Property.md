@@ -8,17 +8,12 @@ Returns an array of bridge segments groups connected to all terminals of the ter
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Terminal.Bridge[] Bridges_NotOptimized {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Terminal.Bridge^>^ Bridges_NotOptimized {
@@ -26,8 +21,7 @@ property array<Terminal.Bridge^>^ Bridges_NotOptimized {
    array<Terminal.Bridge^>^ get();
 
 }
-```
-```
+
 
 Exceptions
 

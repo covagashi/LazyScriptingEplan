@@ -8,17 +8,12 @@ Returns all PinBase objects of NetDefinitionPoint
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public NetDefinitionPoint.NetConnectionPoint[] NetConnectionPoints {get;}
-```
-```
 
-```
-```
 public:
 
 property array<NetDefinitionPoint.NetConnectionPoint^>^ NetConnectionPoints {
@@ -26,8 +21,7 @@ property array<NetDefinitionPoint.NetConnectionPoint^>^ NetConnectionPoints {
    array<NetDefinitionPoint.NetConnectionPoint^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

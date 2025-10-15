@@ -8,17 +8,12 @@ Returns an array of all property ids which can exist for Group objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static AnyPropertyId[] AllGroupPropIDs {get;}
-```
-```
 
-```
-```
 public:
 
 static property array<AnyPropertyId^>^ AllGroupPropIDs {
@@ -26,5 +21,4 @@ static property array<AnyPropertyId^>^ AllGroupPropIDs {
    array<AnyPropertyId^>^ get();
 
 }
-```
-```
+

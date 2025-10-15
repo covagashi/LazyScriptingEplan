@@ -8,17 +8,12 @@ Manage unplaced auxiliary functions at the main function # 20476.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_MANAGE_FUNCTIONS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_MANAGE_FUNCTIONS {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_MANAGE_FUNCTIONS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

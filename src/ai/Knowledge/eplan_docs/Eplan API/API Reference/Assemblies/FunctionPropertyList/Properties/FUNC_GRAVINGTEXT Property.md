@@ -8,17 +8,12 @@ Engraving text # 20025.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_GRAVINGTEXT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_GRAVINGTEXT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_GRAVINGTEXT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

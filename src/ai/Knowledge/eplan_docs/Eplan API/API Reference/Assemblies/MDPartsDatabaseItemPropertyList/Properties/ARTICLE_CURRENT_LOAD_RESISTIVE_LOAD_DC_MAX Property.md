@@ -8,17 +8,12 @@ Current carrying capacity (resistive load, DC), max. # 26156.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CURRENT_LOAD_RESISTIVE_LOAD_DC_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CURRENT_LOAD_RESISTIVE_LOAD_DC_MAX {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CURRENT_LOAD_RESISTIVE_LOAD_DC_MAX {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

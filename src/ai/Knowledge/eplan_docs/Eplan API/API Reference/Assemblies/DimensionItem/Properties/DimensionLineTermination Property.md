@@ -8,17 +8,12 @@ Gets or sets the dimension line termination.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DimensionItem.Enums.DimensionLineTermination DimensionLineTermination {get; set;}
-```
-```
 
-```
-```
 public:
 
 property DimensionItem.Enums.DimensionLineTermination DimensionLineTermination {
@@ -28,5 +23,4 @@ property DimensionItem.Enums.DimensionLineTermination DimensionLineTermination {
    void set (    DimensionItem.Enums.DimensionLineTermination value);
 
 }
-```
-```
+

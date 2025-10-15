@@ -8,17 +8,12 @@ PLC card is placed on head station # 22290.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PLCISMOUNTEDONHEADMODULE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PLCISMOUNTEDONHEADMODULE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PLCISMOUNTEDONHEADMODULE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

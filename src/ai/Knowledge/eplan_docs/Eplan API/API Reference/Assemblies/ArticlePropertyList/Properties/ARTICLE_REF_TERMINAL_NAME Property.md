@@ -8,17 +8,12 @@ Connection point pattern # 22941.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_REF_TERMINAL_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_REF_TERMINAL_NAME {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_REF_TERMINAL_NAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

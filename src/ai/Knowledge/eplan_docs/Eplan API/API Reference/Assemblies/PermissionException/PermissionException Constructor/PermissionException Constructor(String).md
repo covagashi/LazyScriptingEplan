@@ -8,21 +8,16 @@ Internal constructor with description.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PermissionException( 
 
    string txt
 
 )
-```
-```
 
-```
-```
 public:
 
 PermissionException( 
@@ -30,8 +25,7 @@ PermissionException(
    String^ txt
 
 )
-```
-```
+
 
 #### Parameters
 

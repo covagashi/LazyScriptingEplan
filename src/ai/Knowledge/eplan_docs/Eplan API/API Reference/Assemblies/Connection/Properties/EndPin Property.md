@@ -8,17 +8,12 @@ Returns the end [Pin](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin.html) o
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Pin EndPin {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property Pin^ EndPin {
@@ -26,5 +21,4 @@ virtual property Pin^ EndPin {
    Pin^ get();
 
 }
-```
-```
+

@@ -8,11 +8,10 @@ Is called after face was found below the mouse pointer.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnFaceBelowMouse( 
 
    ref bool bFound,
@@ -26,11 +25,7 @@ public virtual RequestCode OnFaceBelowMouse(
    int iDetailId
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnFaceBelowMouse( 
@@ -46,8 +41,7 @@ virtual RequestCode OnFaceBelowMouse(
    int iDetailId
 
 )
-```
-```
+
 
 #### Parameters
 

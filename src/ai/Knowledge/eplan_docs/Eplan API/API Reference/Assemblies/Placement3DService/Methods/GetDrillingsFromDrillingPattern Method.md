@@ -8,21 +8,16 @@ Returns drilling objects which are generated based on drilling pattern assigned 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Drilling[] GetDrillingsFromDrillingPattern( 
 
    Placement3D pPlacement
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Drilling^>^ GetDrillingsFromDrillingPattern( 
@@ -30,8 +25,7 @@ array<Drilling^>^ GetDrillingsFromDrillingPattern(
    Placement3D^ pPlacement
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -58,7 +52,7 @@ Example
 
 Example below prints out to consol basic information about drillings from drilling pattern:
 
-- [C#](#i-tab-content-2550f97a-b4f7-4951-9f6e-cc7af0af69aa)
+**C#**
 
 ```
 //find duct object in project
@@ -67,21 +61,15 @@ DMObjectsFinder oFinder = new DMObjectsFinder(oProject);
 
 Duct oDuct = oFinder.GetFunctions3D(null).OfType<Duct>().First();
 
-
-
 //get all drilling objects from duct
 
 Drilling[] arrDrillings = new Placement3DService().GetDrillingsFromDrillingPattern(oDuct);
-
-
 
 foreach (Drilling oDrilling in arrDrillings)
 
 {
 
     Console.WriteLine("------- Drilling -------");
-
-
 
     //write the relative position on parent
 
@@ -97,8 +85,6 @@ foreach (Drilling oDrilling in arrDrillings)
 
             oDrilling.RelativeTransformation.OffsetZ));
 
-
-
     //write the type of drilling
 
     Console.WriteLine(
@@ -110,7 +96,5 @@ foreach (Drilling oDrilling in arrDrillings)
             oDrilling.FunctionDefinition.Id));
 
 }
-
-
 
 ```

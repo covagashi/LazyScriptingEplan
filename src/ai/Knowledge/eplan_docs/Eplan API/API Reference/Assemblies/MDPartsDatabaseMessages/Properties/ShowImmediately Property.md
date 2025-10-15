@@ -8,17 +8,12 @@ If true, added messages will be immediately displayed in PartsDatabase message m
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ShowImmediately {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool ShowImmediately {
@@ -28,5 +23,4 @@ property bool ShowImmediately {
    void set (    bool value);
 
 }
-```
-```
+

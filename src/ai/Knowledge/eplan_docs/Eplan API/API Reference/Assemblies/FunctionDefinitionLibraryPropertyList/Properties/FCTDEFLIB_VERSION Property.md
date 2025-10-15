@@ -8,17 +8,12 @@ Version information of function definition library # 15502.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FCTDEFLIB_VERSION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FCTDEFLIB_VERSION {
@@ -28,8 +23,7 @@ property PropertyValue^ FCTDEFLIB_VERSION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

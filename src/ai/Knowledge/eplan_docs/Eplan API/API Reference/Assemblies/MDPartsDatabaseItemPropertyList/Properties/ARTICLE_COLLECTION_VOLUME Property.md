@@ -8,17 +8,12 @@ Retention volume # 26221.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_COLLECTION_VOLUME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_COLLECTION_VOLUME {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_COLLECTION_VOLUME {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

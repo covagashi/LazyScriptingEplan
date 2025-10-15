@@ -8,17 +8,12 @@ Climate class # 26407.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CLIMATE_CLASS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CLIMATE_CLASS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CLIMATE_CLASS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,20 +8,14 @@ License type: local, network (remote) or borrowed
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum LicenseType : System.Enum
-```
-```
 
-```
-```
 public enum class LicenseType : public System.Enum
-```
-```
+
 
 Members
 

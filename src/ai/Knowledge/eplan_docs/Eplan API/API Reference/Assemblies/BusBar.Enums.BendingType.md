@@ -8,20 +8,14 @@ Types of arcs.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum BusBar.Enums.BendingType : System.Enum
-```
-```
 
-```
-```
 public enum class BusBar.Enums.BendingType : public System.Enum
-```
-```
+
 
 Members
 

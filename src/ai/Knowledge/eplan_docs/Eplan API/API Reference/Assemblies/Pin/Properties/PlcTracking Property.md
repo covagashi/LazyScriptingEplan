@@ -8,17 +8,12 @@ Assigns a pin designation or index for PLC tracking.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PlcTracking {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PlcTracking {
@@ -28,8 +23,7 @@ property String^ PlcTracking {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Exceptions
 

@@ -8,17 +8,12 @@ Automatic page modified # 11050.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_AUTOPAGECHANGED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_AUTOPAGECHANGED {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_AUTOPAGECHANGED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

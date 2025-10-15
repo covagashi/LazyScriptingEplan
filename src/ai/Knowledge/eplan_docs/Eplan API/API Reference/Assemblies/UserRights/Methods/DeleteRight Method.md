@@ -8,21 +8,16 @@ Deletes the specified right entry from the UserRights database (rights managemen
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool DeleteRight( 
 
    string strRightname
 
 )
-```
-```
 
-```
-```
 public:
 
 bool DeleteRight( 
@@ -30,8 +25,7 @@ bool DeleteRight(
    String^ strRightname
 
 )
-```
-```
+
 
 #### Parameters
 

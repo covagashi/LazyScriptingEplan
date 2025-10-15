@@ -8,21 +8,16 @@ Returns the file names of all master data stored in the project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StringCollection ProjectEntries( 
 
    Project oProject
 
 ) {get;}
-```
-```
 
-```
-```
 public:
 
 property StringCollection^ ProjectEntries {
@@ -30,8 +25,7 @@ property StringCollection^ ProjectEntries {
    StringCollection^ get(Project^ oProject);
 
 }
-```
-```
+
 
 #### Parameters
 

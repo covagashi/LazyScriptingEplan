@@ -8,21 +8,16 @@ Error: Representation type # 15103.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBLIB_FUNCTYPEERROR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBLIB_FUNCTYPEERROR {
@@ -32,8 +27,7 @@ property MDPropertyValue^ SYMBLIB_FUNCTYPEERROR {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

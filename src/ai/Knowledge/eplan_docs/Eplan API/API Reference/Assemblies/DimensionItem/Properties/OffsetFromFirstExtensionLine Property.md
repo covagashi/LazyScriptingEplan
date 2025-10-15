@@ -8,17 +8,12 @@ Gets or sets the offset from the first dimension, meaning the distance of the fi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double OffsetFromFirstExtensionLine {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double OffsetFromFirstExtensionLine {
@@ -28,5 +23,4 @@ property double OffsetFromFirstExtensionLine {
    void set (    double value);
 
 }
-```
-```
+

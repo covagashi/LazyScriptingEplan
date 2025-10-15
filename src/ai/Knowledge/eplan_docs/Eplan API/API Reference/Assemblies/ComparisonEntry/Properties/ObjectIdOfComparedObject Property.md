@@ -8,17 +8,12 @@ Returns id of compared object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public long ObjectIdOfComparedObject {get;}
-```
-```
 
-```
-```
 public:
 
 property int64 ObjectIdOfComparedObject {
@@ -26,8 +21,7 @@ property int64 ObjectIdOfComparedObject {
    int64 get();
 
 }
-```
-```
+
 
 #### Property Value
 

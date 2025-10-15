@@ -8,21 +8,16 @@ Gets/Sets whether the specified setting of a search is enabled
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool this[ 
 
    Search.Settings id
 
 ]; {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool default [Search.Settings] {
@@ -32,8 +27,7 @@ property bool default [Search.Settings] {
    void set (Search.Settings id, bool value);
 
 }
-```
-```
+
 
 #### Parameters
 

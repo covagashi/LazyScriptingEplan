@@ -8,11 +8,10 @@ Returns 'checked' state of an action
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int GetChecked( 
 
    ActionCallingContext oCallingContext,
@@ -20,11 +19,7 @@ public int GetChecked(
    string strActionWithParameters
 
 )
-```
-```
 
-```
-```
 public:
 
 int GetChecked( 
@@ -34,8 +29,7 @@ int GetChecked(
    String^ strActionWithParameters
 
 )
-```
-```
+
 
 #### Parameters
 

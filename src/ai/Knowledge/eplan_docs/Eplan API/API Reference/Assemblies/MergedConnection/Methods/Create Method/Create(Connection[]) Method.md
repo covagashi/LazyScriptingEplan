@@ -8,21 +8,16 @@ Initializes the MergedConnection object to cover the connections passed in the a
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Connection[] connections
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -30,8 +25,7 @@ void Create(
    array<Connection^>^ connections
 
 )
-```
-```
+
 
 #### Parameters
 

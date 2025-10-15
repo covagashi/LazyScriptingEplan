@@ -8,11 +8,10 @@ Adds keywords with texts in specified languages to the translation database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AddKeyword( 
 
    MultiLangString oText,
@@ -22,11 +21,7 @@ public bool AddKeyword(
    string strComment
 
 )
-```
-```
 
-```
-```
 public:
 
 bool AddKeyword( 
@@ -38,8 +33,7 @@ bool AddKeyword(
    String^ strComment
 
 )
-```
-```
+
 
 #### Parameters
 

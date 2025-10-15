@@ -8,17 +8,12 @@ Functional assignment (single component) # 1328.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FUNCTIONALASSIGNMENT_PART {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FUNCTIONALASSIGNMENT_PART {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FUNCTIONALASSIGNMENT_PART {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

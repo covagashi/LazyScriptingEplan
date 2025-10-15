@@ -8,17 +8,12 @@ Weight in displayed unit # 22059.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_WEIGHT_DISPLAY_UNIT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_WEIGHT_DISPLAY_UNIT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_WEIGHT_DISPLAY_UNIT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

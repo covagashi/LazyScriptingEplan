@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new PlanePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property PlanePropertyList^ Properties {
@@ -26,8 +21,7 @@ new property PlanePropertyList^ Properties {
    PlanePropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

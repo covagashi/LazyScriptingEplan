@@ -8,17 +8,12 @@ Eplan Process ID
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int EplanProcessID {get;}
-```
-```
 
-```
-```
 public:
 
 property int EplanProcessID {
@@ -26,5 +21,4 @@ property int EplanProcessID {
    int get();
 
 }
-```
-```
+

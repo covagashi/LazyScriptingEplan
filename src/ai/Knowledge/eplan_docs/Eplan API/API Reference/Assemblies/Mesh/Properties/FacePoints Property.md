@@ -8,21 +8,16 @@ Returns points for a given id of face.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D[] FacePoints( 
 
    uint id
 
 ) {get;}
-```
-```
 
-```
-```
 public:
 
 property array<PointD3D>^ FacePoints {
@@ -30,8 +25,7 @@ property array<PointD3D>^ FacePoints {
    array<PointD3D>^ get(uint id);
 
 }
-```
-```
+
 
 #### Parameters
 

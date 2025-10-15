@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new NetDefinitionPointPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property NetDefinitionPointPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property NetDefinitionPointPropertyList^ Properties {
    NetDefinitionPointPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

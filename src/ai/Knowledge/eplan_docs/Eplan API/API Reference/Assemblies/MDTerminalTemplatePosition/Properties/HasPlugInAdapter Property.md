@@ -8,17 +8,12 @@ Does terminal template have a plug adapter?
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool HasPlugInAdapter {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool HasPlugInAdapter {
@@ -28,5 +23,4 @@ property bool HasPlugInAdapter {
    void set (    bool value);
 
 }
-```
-```
+

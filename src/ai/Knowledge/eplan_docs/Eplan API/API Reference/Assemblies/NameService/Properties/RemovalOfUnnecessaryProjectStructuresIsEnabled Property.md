@@ -8,17 +8,12 @@ Determines if removal of unnecessary project structures in the visible device ta
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool RemovalOfUnnecessaryProjectStructuresIsEnabled {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool RemovalOfUnnecessaryProjectStructuresIsEnabled {
@@ -28,5 +23,4 @@ property bool RemovalOfUnnecessaryProjectStructuresIsEnabled {
    void set (    bool value);
 
 }
-```
-```
+

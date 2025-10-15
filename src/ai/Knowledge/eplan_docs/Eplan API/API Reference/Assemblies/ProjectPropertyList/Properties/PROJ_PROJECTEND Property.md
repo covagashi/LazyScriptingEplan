@@ -8,17 +8,12 @@ Project end # 10026.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_PROJECTEND {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_PROJECTEND {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_PROJECTEND {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

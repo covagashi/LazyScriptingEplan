@@ -8,17 +8,12 @@ InstallationSpace from which objects will be displayed in ViewPlacement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public InstallationSpace InstallationSpace {get; set;}
-```
-```
 
-```
-```
 public:
 
 property InstallationSpace^ InstallationSpace {
@@ -28,5 +23,4 @@ property InstallationSpace^ InstallationSpace {
    void set (    InstallationSpace^ value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Model view: Scheme for automatic dimensioning # 36511.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_ADIMSCHEME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_ADIMSCHEME {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_ADIMSCHEME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

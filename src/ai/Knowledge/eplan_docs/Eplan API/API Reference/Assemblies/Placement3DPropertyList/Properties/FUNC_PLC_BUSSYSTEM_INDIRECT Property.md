@@ -8,17 +8,12 @@ Bus system (indirect) # 20338.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLC_BUSSYSTEM_INDIRECT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLC_BUSSYSTEM_INDIRECT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLC_BUSSYSTEM_INDIRECT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

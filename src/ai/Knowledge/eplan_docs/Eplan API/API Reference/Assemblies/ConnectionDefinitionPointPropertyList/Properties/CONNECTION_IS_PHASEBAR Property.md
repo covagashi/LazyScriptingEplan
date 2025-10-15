@@ -8,17 +8,12 @@ Phase busbar connection # 31135.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_IS_PHASEBAR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_IS_PHASEBAR {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_IS_PHASEBAR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

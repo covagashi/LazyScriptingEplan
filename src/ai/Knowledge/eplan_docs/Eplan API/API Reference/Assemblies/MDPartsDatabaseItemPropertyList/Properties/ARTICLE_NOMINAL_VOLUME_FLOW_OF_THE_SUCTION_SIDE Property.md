@@ -8,17 +8,12 @@ Nominal flow rate (intake side) # 26508.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_NOMINAL_VOLUME_FLOW_OF_THE_SUCTION_SIDE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_NOMINAL_VOLUME_FLOW_OF_THE_SUCTION_SIDE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_NOMINAL_VOLUME_FLOW_OF_THE_SUCTION_SIDE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

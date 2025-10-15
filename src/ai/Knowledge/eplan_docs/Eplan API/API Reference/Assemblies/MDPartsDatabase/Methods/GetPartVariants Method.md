@@ -8,21 +8,16 @@ Gets all part variants with the given part number.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPart[] GetPartVariants( 
 
    string sPartNr
 
 )
-```
-```
 
-```
-```
 public:
 
 array<MDPart^>^ GetPartVariants( 
@@ -30,8 +25,7 @@ array<MDPart^>^ GetPartVariants(
    String^ sPartNr
 
 )
-```
-```
+
 
 #### Parameters
 

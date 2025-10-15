@@ -8,17 +8,12 @@ Cable / Conduit: Unit of length # 20065.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLELENGTH_UNIT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLELENGTH_UNIT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLELENGTH_UNIT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -69,4 +63,4 @@ Displayed measuring unit for the cable length or length of the conduit. Possible
 
 15 = yard
 
-29 = Âµm.
+29 = µm.

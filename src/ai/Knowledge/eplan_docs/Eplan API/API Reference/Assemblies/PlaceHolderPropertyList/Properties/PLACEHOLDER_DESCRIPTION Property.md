@@ -8,17 +8,12 @@ Placeholder object description # 19308.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PLACEHOLDER_DESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PLACEHOLDER_DESCRIPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ PLACEHOLDER_DESCRIPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

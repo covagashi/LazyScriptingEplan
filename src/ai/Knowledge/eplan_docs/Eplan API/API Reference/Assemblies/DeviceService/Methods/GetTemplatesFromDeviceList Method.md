@@ -8,21 +8,16 @@ This method returns an array of DeviceService::TemplatesInfo containing informat
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DeviceService.TemplatesInfo[] GetTemplatesFromDeviceList( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 array<DeviceService.TemplatesInfo^>^ GetTemplatesFromDeviceList( 
@@ -30,8 +25,7 @@ array<DeviceService.TemplatesInfo^>^ GetTemplatesFromDeviceList(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

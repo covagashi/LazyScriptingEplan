@@ -8,17 +8,12 @@ Symbol library description # 15011.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMBLIB_DESC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMBLIB_DESC {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMBLIB_DESC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

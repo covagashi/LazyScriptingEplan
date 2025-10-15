@@ -8,21 +8,16 @@ Lock all objects in given project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public EplanResponse LockAllEplanObjects( 
 
    string strFullProjectName
 
 )
-```
-```
 
-```
-```
 public:
 
 EplanResponse^ LockAllEplanObjects( 
@@ -30,8 +25,7 @@ EplanResponse^ LockAllEplanObjects(
    String^ strFullProjectName
 
 )
-```
-```
+
 
 #### Parameters
 

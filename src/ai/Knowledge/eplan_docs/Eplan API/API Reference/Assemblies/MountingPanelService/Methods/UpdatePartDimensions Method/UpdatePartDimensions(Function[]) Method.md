@@ -8,21 +8,16 @@ Transfers dimensions from articles to article placements. Corresponds to the 'De
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void UpdatePartDimensions( 
 
    Function[] arrArticlePlacements
 
 )
-```
-```
 
-```
-```
 public:
 
 void UpdatePartDimensions( 
@@ -30,8 +25,7 @@ void UpdatePartDimensions(
    array<Function^>^ arrArticlePlacements
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Fire protection properties # 26243.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_FIRE_PROTECTION_PROPERTIES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_FIRE_PROTECTION_PROPERTIES {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_FIRE_PROTECTION_PROPERTIES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

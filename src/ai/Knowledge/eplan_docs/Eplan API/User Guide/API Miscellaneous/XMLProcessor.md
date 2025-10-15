@@ -14,11 +14,7 @@ Eplan carries on exporting / importing its  XML  format. Additionally, convers
 
 Import of different formats:
 
-
-
 Export of different formats:
-
-
 
 The following work flow is used:
 
@@ -40,10 +36,8 @@ API conversion modules can be created by implementing the  IXMLProcessor  inte
 
 The following example shows the usage of the interface, where only the export is implemented:
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- public class MySimpleXMLConverter : Eplan.EplApi.ApplicationFramework.IXMLProcessor
+```csharp
+public class MySimpleXMLConverter : Eplan.EplApi.ApplicationFramework.IXMLProcessor
  {
      public MySimpleXMLConverter()
      {
@@ -185,7 +179,7 @@ The following example shows the usage of the interface, where only the export is
          return false;
      }
  }
- ``` | |
+```
 
 **Registering a conversion module**
 

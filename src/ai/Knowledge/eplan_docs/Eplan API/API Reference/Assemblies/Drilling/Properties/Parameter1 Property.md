@@ -8,17 +8,12 @@ Parameter1.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double Parameter1 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double Parameter1 {
@@ -28,8 +23,7 @@ property double Parameter1 {
    void set (    double value);
 
 }
-```
-```
+
 
 Remarks
 

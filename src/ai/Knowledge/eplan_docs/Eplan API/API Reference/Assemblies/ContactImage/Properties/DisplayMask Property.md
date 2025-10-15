@@ -8,17 +8,12 @@ Gets or sets a value indicating whether position of this object is calculated au
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ContactImage.Enums.DisplayMaskType DisplayMask {get; set;}
-```
-```
 
-```
-```
 public:
 
 property ContactImage.Enums.DisplayMaskType DisplayMask {
@@ -28,8 +23,7 @@ property ContactImage.Enums.DisplayMaskType DisplayMask {
    void set (    ContactImage.Enums.DisplayMaskType value);
 
 }
-```
-```
+
 
 Exceptions
 

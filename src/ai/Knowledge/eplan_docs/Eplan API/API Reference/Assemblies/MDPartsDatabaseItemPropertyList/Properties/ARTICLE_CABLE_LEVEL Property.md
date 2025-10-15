@@ -8,17 +8,12 @@ Cable: Voltage level # 26400.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CABLE_LEVEL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CABLE_LEVEL {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CABLE_LEVEL {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

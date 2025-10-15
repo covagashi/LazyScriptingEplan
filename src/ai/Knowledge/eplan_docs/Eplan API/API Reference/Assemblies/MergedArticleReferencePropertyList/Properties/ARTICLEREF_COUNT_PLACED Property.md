@@ -8,17 +8,12 @@ Number of units / quantity (placed) # 20483.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_COUNT_PLACED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_COUNT_PLACED {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_COUNT_PLACED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

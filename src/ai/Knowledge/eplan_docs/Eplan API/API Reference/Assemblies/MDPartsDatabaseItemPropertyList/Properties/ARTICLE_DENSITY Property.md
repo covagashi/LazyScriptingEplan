@@ -8,17 +8,12 @@ Density # 26095.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_DENSITY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_DENSITY {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_DENSITY {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Mass of a material per unit volume. The density is usually expressed in kilograms per cubic meter (kg/mÂ³).
+Mass of a material per unit volume. The density is usually expressed in kilograms per cubic meter (kg/m³).

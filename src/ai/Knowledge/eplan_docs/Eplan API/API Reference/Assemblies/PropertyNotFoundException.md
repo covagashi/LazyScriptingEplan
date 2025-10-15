@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PropertyNotFoundException : InvalidArgumentException
-```
-```
 
-```
-```
 public ref class PropertyNotFoundException : public InvalidArgumentException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [PropertyNotFoundException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyNotFoundException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

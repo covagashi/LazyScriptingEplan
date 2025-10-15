@@ -8,21 +8,16 @@ Sets the page and evaluate the visible names from the full names for all placed 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool EvaluateAndSetAllVisibleNames( 
 
    Page pPage
 
 )
-```
-```
 
-```
-```
 public:
 
 bool EvaluateAndSetAllVisibleNames( 
@@ -30,8 +25,7 @@ bool EvaluateAndSetAllVisibleNames(
    Page^ pPage
 
 )
-```
-```
+
 
 #### Parameters
 

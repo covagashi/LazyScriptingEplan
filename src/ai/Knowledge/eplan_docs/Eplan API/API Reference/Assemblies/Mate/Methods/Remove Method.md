@@ -8,22 +8,16 @@ Removes the Mate object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Remove()
-```
-```
 
-```
-```
 public:
 
 virtual void Remove();
-```
-```
+
 
 Exceptions
 
@@ -39,7 +33,7 @@ Example
 
 The following code removes a user defined mate.
 
-- [C#](#i-tab-content-60281dac-7b70-4598-9569-dafa85cb943d)
+**C#**
 
 ```
 //prepare transformation of mate
@@ -52,15 +46,11 @@ oTransformation.OffsetY = 20.0;
 
 oTransformation.OffsetZ = 0.0;
 
-
-
 //prepare description of mate
 
 Eplan.EplApi.Base.MultiLangString oDescription = new Eplan.EplApi.Base.MultiLangString();
 
 oDescription.AddString(ISOCode.Language.L_en_US, "User defined mounting point number 001.");
-
-
 
 //create new point mate object
 
@@ -68,30 +58,18 @@ MountingPointMate oMountingPointMate = new MountingPointMate();
 
 oMountingPointMate.Create("UserMate001", oDescription, oTransformation);
 
-
-
 //assign mate to 3D placement
 
 oMP.AddMatePersistent(oMountingPointMate);
-
-
 
 //find the new mate
 
 Mate oUserMate001 = oMP.FindTargetMate("UserMate001", false);
 
-
-
 //remove the mate
 
 oUserMate001.Remove();
 
-
-
 //oPlane.FindTargetMate("UserMate001", false) == null
-
-
-
-
 
 ```

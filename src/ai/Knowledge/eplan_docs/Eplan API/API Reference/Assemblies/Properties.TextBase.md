@@ -8,20 +8,14 @@ Identificators of properties owned by TextBase class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.TextBase : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.TextBase : public System.Enum
-```
-```
+
 
 Members
 

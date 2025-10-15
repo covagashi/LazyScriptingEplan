@@ -8,17 +8,12 @@ Hose line identification # 20867.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_HOSE_MARKING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_HOSE_MARKING {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_HOSE_MARKING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Eplan Cloud user ID in the IdentityService.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Sub {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Sub {
@@ -28,5 +23,4 @@ property String^ Sub {
    void set (    String^ value);
 
 }
-```
-```
+

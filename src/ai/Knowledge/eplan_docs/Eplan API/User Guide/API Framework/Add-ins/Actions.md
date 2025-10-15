@@ -12,8 +12,8 @@ An add-in can add new actions to Eplan. Actions can be called from the command 
 
 An action is implemented by a class that inherits the interface  IEplAction. You need to add an implementation of all the functions of the interface. An add-in can contain an arbitrary number of actions.
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
@@ -37,8 +37,6 @@ public class CSharpAction: Eplan.EplApi.ApplicationFramework.IEplAction
          new Decider().Decide(EnumDecisionType.eOkDecision, "CSharpAction was called!", "Eplan.EplAddIn.Demo1", EnumDecisionReturn.eOK, EnumDecisionReturn.eOK);
 
          // TODO: Add your Code here
-
-
 
          return true;
 
@@ -108,16 +106,9 @@ public class CSharpAction: Eplan.EplApi.ApplicationFramework.IEplAction
 
 }
 
-```
-
-```
-
-
 Public Class VBAction
 
    Implements Eplan.EplApi.ApplicationFramework.IEplAction
-
-
 
    '''<summary>
 
@@ -140,8 +131,6 @@ Public Class VBAction
       Return True
 
    End Function 'Execute
-
-
 
    '''<summary>
 
@@ -166,8 +155,6 @@ Public Class VBAction
       Return True
 
    End Function 'OnRegister
-
-
 
    '''<summary>
 
@@ -205,8 +192,8 @@ End Class 'VBAction ' description of second parameter
 
 The parameter of type  ActionCallingContext  can be used to pass parameters to the action. For extracting the parameter values and for setting parameters (as return parameters!), the class  ActionCallingContext  provides a set of functions:
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
@@ -232,11 +219,6 @@ public bool Execute(Eplan.EplApi.ApplicationFramework.ActionCallingContext ctx )
    return true;
 
 }
-
-```
-
-```
-
 
 Public Function Execute(ctx As Eplan.EplApi.ApplicationFramework.ActionCallingContext) As Boolean _
 
@@ -264,8 +246,8 @@ End Function 'Execute
 
 When an action is assigned to a ribbon button, these items are only enabled if the action is registered and enabled. You can enable / disable a registered action via the  IEplActionEnable  interface.
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
@@ -303,11 +285,6 @@ public class TestAction : Eplan.EplApi.ApplicationFramework.IEplAction, Eplan.Ep
         #endregion
 
     }
-
-```
-
-```
-
 
 Public Class TestAction
 

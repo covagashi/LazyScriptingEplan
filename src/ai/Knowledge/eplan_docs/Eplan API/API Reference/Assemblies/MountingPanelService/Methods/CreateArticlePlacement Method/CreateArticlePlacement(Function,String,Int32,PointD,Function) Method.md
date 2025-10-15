@@ -8,11 +8,10 @@ Produces an article placement on the mounting panel. The article must be in the 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateArticlePlacement( 
 
    Function oMountingPanel,
@@ -26,11 +25,7 @@ public void CreateArticlePlacement(
    ref Function oArticlePlacement
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateArticlePlacement( 
@@ -46,8 +41,7 @@ void CreateArticlePlacement(
    Function^% oArticlePlacement
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -76,8 +70,6 @@ Example
 
 ```
 new Settings().SetStringSetting("USER.PanelLayoutGui.Settings.Gripper", "UpperLeft");
-
-
 
 //Note: The article must have width and height specified (the values must be greater than zero).
 ```

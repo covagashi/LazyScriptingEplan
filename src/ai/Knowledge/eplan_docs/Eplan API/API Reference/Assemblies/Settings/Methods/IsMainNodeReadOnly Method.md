@@ -8,21 +8,16 @@ Verifies whether the main node (COMPANY / STATION / USER) of the specified setti
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsMainNodeReadOnly( 
 
    string strSettingPath
 
 )
-```
-```
 
-```
-```
 public:
 
 bool IsMainNodeReadOnly( 
@@ -30,8 +25,7 @@ bool IsMainNodeReadOnly(
    String^ strSettingPath
 
 )
-```
-```
+
 
 #### Parameters
 

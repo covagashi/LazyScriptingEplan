@@ -8,21 +8,16 @@ Moves objects one position up in navigator.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void MoveUp( 
 
    ICollection<PlanningSegment> colObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 void MoveUp( 
@@ -30,8 +25,7 @@ void MoveUp(
    ICollection<PlanningSegment^>^ colObjects
 
 )
-```
-```
+
 
 #### Parameters
 

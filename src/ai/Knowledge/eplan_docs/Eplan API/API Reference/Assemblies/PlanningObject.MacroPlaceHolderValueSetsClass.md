@@ -13,28 +13,22 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Item")]
 
 public class PlanningObject.MacroPlaceHolderValueSetsClass
-```
-```
 
-```
-```
 [DefaultMember("Item")]
 
 public ref class PlanningObject.MacroPlaceHolderValueSetsClass
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-484c3f00-6492-4743-b6fb-f7d00fea4ae4)
+**C#**
 
 ```
 
@@ -42,8 +36,6 @@ Example
 // getting macro placeholder value sets from planning object
 
 var oMacroPlaceHolderValueSets = oPlanningObject.MacroPlaceHolderValueSets;
-
-
 
 // defining value as string in multiple languages
 
@@ -54,8 +46,6 @@ MultiLangString mls = new MultiLangString();
 mls.AddString(ISOCode.Language.L_en_US, text);
 
 mls.AddString(ISOCode.Language.L_de_DE, text);
-
-
 
 // changing every variable to defined value
 
@@ -73,15 +63,9 @@ foreach (var oMacroPlaceHolderValueSet in oMacroPlaceHolderValueSets)
 
 }
 
-
-
 // writing data back to planning object
 
 oMacroPlaceHolderValueSets.Store();
-
-
-
-
 
 ```
 
@@ -92,8 +76,6 @@ Public Constructors
 | Public Constructor | [PlanningObject.MacroPlaceHolderValueSetsClass Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningObject+MacroPlaceHolderValueSetsClass~_ctor.html) | Constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

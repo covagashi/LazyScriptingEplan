@@ -8,21 +8,16 @@ Stores property placement with given scheme to symbol variant.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void StoreWithSymbolPropertyPlacementSchema( 
 
    ushort schemaId
 
 )
-```
-```
 
-```
-```
 public:
 
 void StoreWithSymbolPropertyPlacementSchema( 
@@ -30,8 +25,7 @@ void StoreWithSymbolPropertyPlacementSchema(
    ushort schemaId
 
 )
-```
-```
+
 
 #### Parameters
 

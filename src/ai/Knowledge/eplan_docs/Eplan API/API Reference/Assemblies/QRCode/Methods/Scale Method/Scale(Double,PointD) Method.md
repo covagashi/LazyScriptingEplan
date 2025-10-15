@@ -8,11 +8,10 @@ Scales the QRCode by the specified factor in X and Y axis with scaling origin po
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Scale( 
 
    double factor,
@@ -20,11 +19,7 @@ public void Scale(
    PointD ptOrigin
 
 )
-```
-```
 
-```
-```
 public:
 
 void Scale( 
@@ -34,8 +29,7 @@ void Scale(
    PointD ptOrigin
 
 )
-```
-```
+
 
 #### Parameters
 

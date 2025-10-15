@@ -8,11 +8,10 @@ Creates a NetDefinitionPoint object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public NetDefinitionPoint( 
 
    SymbolReference pSymbolRef,
@@ -22,11 +21,7 @@ public NetDefinitionPoint(
    NetDefinitionPoint.NetbasedRoutingSymbols routingSymbols
 
 )
-```
-```
 
-```
-```
 public:
 
 NetDefinitionPoint( 
@@ -38,8 +33,7 @@ NetDefinitionPoint(
    NetDefinitionPoint.NetbasedRoutingSymbols routingSymbols
 
 )
-```
-```
+
 
 #### Parameters
 

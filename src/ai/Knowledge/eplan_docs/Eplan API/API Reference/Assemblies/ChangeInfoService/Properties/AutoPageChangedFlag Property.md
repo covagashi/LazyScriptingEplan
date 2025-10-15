@@ -8,17 +8,12 @@ Activate or deactivate AUTOPAGECHANGED info handling.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AutoPageChangedFlag {set;}
-```
-```
 
-```
-```
 public:
 
 property bool AutoPageChangedFlag {
@@ -26,5 +21,4 @@ property bool AutoPageChangedFlag {
    void set (    bool value);
 
 }
-```
-```
+

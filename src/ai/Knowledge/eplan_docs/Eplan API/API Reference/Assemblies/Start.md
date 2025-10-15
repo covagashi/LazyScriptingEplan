@@ -14,26 +14,17 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [AttributeUsage(AttributeTargets.Method)]
 
 public class Start : System.Attribute
-```
-```
 
-```
-```
 [AttributeUsage(AttributeTargets.Method)]
 
 public ref class Start : public System.Attribute
-```
-```
-
-
 
 Public Constructors
 
@@ -42,8 +33,6 @@ Public Constructors
 | Public Constructor | [Start Constructor](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.Start~_ctor.html) |  |
 
 [Top](#top)
-
-
 
 Public Properties
 

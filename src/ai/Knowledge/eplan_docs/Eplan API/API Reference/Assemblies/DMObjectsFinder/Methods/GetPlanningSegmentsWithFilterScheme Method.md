@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.Planning.PlanningSegment](Eplan.EplApi.DataModel
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningSegment[] GetPlanningSegmentsWithFilterScheme( 
 
    string strSchemeName
 
 )
-```
-```
 
-```
-```
 public:
 
 array<PlanningSegment^>^ GetPlanningSegmentsWithFilterScheme( 
@@ -30,8 +25,7 @@ array<PlanningSegment^>^ GetPlanningSegmentsWithFilterScheme(
    String^ strSchemeName
 
 )
-```
-```
+
 
 #### Parameters
 

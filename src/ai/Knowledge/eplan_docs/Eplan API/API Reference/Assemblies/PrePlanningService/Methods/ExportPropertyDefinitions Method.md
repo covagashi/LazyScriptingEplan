@@ -8,11 +8,10 @@ Exports all user defined properties from project to file. Properties identified 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExportPropertyDefinitions( 
 
    Project pProject,
@@ -20,11 +19,7 @@ public bool ExportPropertyDefinitions(
    string strFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExportPropertyDefinitions( 
@@ -34,8 +29,7 @@ bool ExportPropertyDefinitions(
    String^ strFileName
 
 )
-```
-```
+
 
 #### Parameters
 

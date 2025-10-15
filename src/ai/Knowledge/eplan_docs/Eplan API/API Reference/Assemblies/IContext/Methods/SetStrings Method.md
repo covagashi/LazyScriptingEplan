@@ -8,28 +8,22 @@ Sets the array filled with strings from the context. (Additional to the paramete
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void SetStrings( 
 
    string[] stringArray
 
 )
-```
-```
 
-```
-```
 void SetStrings( 
 
    array<String^>^ stringArray
 
 )
-```
-```
+
 
 #### Parameters
 

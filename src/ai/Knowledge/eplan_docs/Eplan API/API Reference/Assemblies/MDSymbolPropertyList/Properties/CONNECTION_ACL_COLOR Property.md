@@ -8,17 +8,12 @@ Autoconnecting line: Color # 31005.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue CONNECTION_ACL_COLOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ CONNECTION_ACL_COLOR {
@@ -28,8 +23,7 @@ property MDPropertyValue^ CONNECTION_ACL_COLOR {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Cables: Number of connections to this target / this source # 35110.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLE_COUNTOFWIRES_DESTINATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLE_COUNTOFWIRES_DESTINATION {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLE_COUNTOFWIRES_DESTINATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

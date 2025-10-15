@@ -8,17 +8,12 @@ Gets property id value as [Properties.SymbolReference](Eplan.EplApi.DataModelu~E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.SymbolReference AsSymbolReference {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.SymbolReference AsSymbolReference {
@@ -26,5 +21,4 @@ property Properties.SymbolReference AsSymbolReference {
    Properties.SymbolReference get();
 
 }
-```
-```
+

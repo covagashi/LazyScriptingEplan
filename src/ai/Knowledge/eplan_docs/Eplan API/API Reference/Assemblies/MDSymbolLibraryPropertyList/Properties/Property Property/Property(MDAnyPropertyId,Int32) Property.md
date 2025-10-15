@@ -8,11 +8,10 @@ Method used by operator[] in order to access indexed properties by MDAnyProperty
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new MDPropertyValue Property( 
 
    MDAnyPropertyId id,
@@ -20,11 +19,7 @@ public new MDPropertyValue Property(
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 new property MDPropertyValue^ Property {
@@ -34,8 +29,7 @@ new property MDPropertyValue^ Property {
    void set (MDAnyPropertyId^ id, int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ The RDF (ration of dangerous to all failures)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double RDF {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double RDF {
@@ -28,5 +23,4 @@ property double RDF {
    void set (    double value);
 
 }
-```
-```
+

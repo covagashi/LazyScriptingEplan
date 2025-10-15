@@ -8,11 +8,10 @@ Exports given article placements into files in STEP format.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Placements3DToStep( 
 
    IEnumerable<Placement3D> listPlacements3D,
@@ -20,11 +19,7 @@ public bool Placements3DToStep(
    string strTargetDirectory
 
 )
-```
-```
 
-```
-```
 public:
 
 bool Placements3DToStep( 
@@ -34,8 +29,7 @@ bool Placements3DToStep(
    String^ strTargetDirectory
 
 )
-```
-```
+
 
 #### Parameters
 

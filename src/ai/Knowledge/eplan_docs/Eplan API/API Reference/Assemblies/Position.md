@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Position
-```
-```
 
-```
-```
 public ref class Position
-```
-```
+
 
 Remarks
 
 The class should be used only by Interaction methods. It cannot be used in a normal Action to determine the mouse position.
-
-
 
 Public Constructors
 
@@ -41,8 +33,6 @@ Public Constructors
 | Public Constructor | [Position Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Position~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 
@@ -75,8 +65,6 @@ Public Methods
 | Public Method | [SetFromString](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Position~SetFromString.html) |  |
 
 [Top](#top)
-
-
 
 Public Operators
 

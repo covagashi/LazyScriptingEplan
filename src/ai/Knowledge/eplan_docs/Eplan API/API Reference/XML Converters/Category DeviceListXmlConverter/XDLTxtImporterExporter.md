@@ -5,13 +5,13 @@
 ---
 
 ```
-Imports or exports data of a device list in the system database from or to text format ("*.txt").
-```
+Imports or exports data of a device list in the system database from or to text format ("*.txt").
 
-  
+```
 
 **Remarks**
 
 ```
-No options used.
+No options used.
+
 ```

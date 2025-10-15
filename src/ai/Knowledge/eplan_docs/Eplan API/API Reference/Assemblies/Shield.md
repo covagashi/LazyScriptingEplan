@@ -18,20 +18,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Shield : Eplan.EplApi.DataModel.Function, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
 
-```
-```
 public ref class Shield : public Eplan.EplApi.DataModel.Function, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
+
 
 Remarks
 
@@ -41,7 +35,7 @@ Example
 
 The following example shows how to create and place a Shield on a page.
 
-- [C#](#i-tab-content-9074ffee-f230-4b4f-bd46-31f72bc81660)
+**C#**
 
 ```
 //prepare symbol of Shield
@@ -56,8 +50,6 @@ SymbolLibrary oSymbolLibrary = new SymbolLibrary(oProject, strSymbolLibName);
 
 Symbol oSymbol = new Symbol(oSymbolLibrary, strSymbolName);
 
-
-
 //create Shield
 
 Page oPage = oProject.Pages[14];
@@ -65,10 +57,6 @@ Page oPage = oProject.Pages[14];
 Shield oShield = (Shield)Function.Create(oSymbol.Variants[0], oPage);
 
 oShield.SetLogicalArea(new PointD(50.0, 200.0), new PointD(120.0, 230.0));
-
-
-
-
 
 ```
 
@@ -79,8 +67,6 @@ Public Constructors
 | Public Constructor | [Shield Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Shield~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

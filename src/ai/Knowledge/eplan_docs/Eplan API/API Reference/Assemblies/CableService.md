@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class CableService
-```
-```
 
-```
-```
 public ref class CableService
-```
-```
-
-
 
 Public Constructors
 
@@ -37,9 +28,6 @@ Public Constructors
 | Public Constructor | [CableService Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.CableService~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

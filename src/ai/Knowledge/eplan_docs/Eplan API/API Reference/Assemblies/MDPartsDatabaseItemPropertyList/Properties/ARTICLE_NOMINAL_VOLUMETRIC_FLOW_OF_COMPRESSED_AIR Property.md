@@ -8,17 +8,12 @@ Nominal flow rate (compressed air) # 26510.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_NOMINAL_VOLUMETRIC_FLOW_OF_COMPRESSED_AIR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_NOMINAL_VOLUMETRIC_FLOW_OF_COMPRESSED_AIR {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_NOMINAL_VOLUMETRIC_FLOW_OF_COMPRESSED_AIR {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Quantity of compressed air that a system or device can deliver under defined nominal conditions. The value is usually measured in cubic meters per hour (mÂ³/h) or liters per minute (l/min).
+Quantity of compressed air that a system or device can deliver under defined nominal conditions. The value is usually measured in cubic meters per hour (m³/h) or liters per minute (l/min).

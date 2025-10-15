@@ -8,21 +8,16 @@ Author: Reply # 19503.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_COMMENT_RESPONSE_AUTHOR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_COMMENT_RESPONSE_AUTHOR {
@@ -32,8 +27,7 @@ property PropertyValue^ DMG_COMMENT_RESPONSE_AUTHOR {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

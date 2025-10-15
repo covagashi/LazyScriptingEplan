@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.EObjects.CableUnit](Eplan.EplApi.DataModelu~Epla
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public CableUnit[] GetCableUnits( 
 
    FunctionsFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<CableUnit^>^ GetCableUnits( 
@@ -30,8 +25,7 @@ array<CableUnit^>^ GetCableUnits(
    FunctionsFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Cable / Conduit: Unit for cross-section / diameter (automatic) # 20124.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLE_CROSSSECTION_AUTO_UNIT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLE_CROSSSECTION_AUTO_UNIT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLE_CROSSSECTION_AUTO_UNIT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -43,7 +37,7 @@ Automatically determined unit for the cross-section or diameter of the cable or 
 
 0 = Undefined
 
-1 = mmÂ²
+1 = mm²
 
 2 = sqmm
 
@@ -61,10 +55,10 @@ Automatically determined unit for the cross-section or diameter of the cable or 
 
 9 = inch
 
-10 = Âµm
+10 = µm
 
 11 = kcmil
 
-12 = ÂµmÂ².
+12 = µm².
 
 For pipes and hoses in fluid power and process engineering the property refers to the inner diameter.

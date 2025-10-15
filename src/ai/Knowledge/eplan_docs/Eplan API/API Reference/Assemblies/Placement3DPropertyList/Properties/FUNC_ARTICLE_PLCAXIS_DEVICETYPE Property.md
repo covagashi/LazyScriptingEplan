@@ -8,17 +8,12 @@ Drive: Device type # 20577.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_PLCAXIS_DEVICETYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_PLCAXIS_DEVICETYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ARTICLE_PLCAXIS_DEVICETYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

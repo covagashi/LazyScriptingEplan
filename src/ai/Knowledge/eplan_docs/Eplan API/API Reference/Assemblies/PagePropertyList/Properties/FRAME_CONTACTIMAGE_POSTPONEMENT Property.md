@@ -8,17 +8,12 @@ Contact image offset # 12061.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_CONTACTIMAGE_POSTPONEMENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_CONTACTIMAGE_POSTPONEMENT {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_CONTACTIMAGE_POSTPONEMENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

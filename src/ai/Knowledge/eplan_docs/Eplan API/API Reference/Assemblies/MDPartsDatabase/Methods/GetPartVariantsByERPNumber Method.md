@@ -8,21 +8,16 @@ Gets all part variants with the given ERP number.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPart[] GetPartVariantsByERPNumber( 
 
    string sERPNr
 
 )
-```
-```
 
-```
-```
 public:
 
 array<MDPart^>^ GetPartVariantsByERPNumber( 
@@ -30,8 +25,7 @@ array<MDPart^>^ GetPartVariantsByERPNumber(
    String^ sERPNr
 
 )
-```
-```
+
 
 #### Parameters
 

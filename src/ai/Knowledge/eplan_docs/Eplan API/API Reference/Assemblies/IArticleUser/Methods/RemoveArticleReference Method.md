@@ -8,28 +8,22 @@ Removes the ArticleReference from the IArticleUser
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void RemoveArticleReference( 
 
    ArticleReference artRef
 
 )
-```
-```
 
-```
-```
 void RemoveArticleReference( 
 
    ArticleReference^ artRef
 
 )
-```
-```
+
 
 #### Parameters
 

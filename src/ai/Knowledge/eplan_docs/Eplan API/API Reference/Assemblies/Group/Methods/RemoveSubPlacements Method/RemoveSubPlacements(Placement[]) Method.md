@@ -8,21 +8,16 @@ Remove [Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement.html
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void RemoveSubPlacements( 
 
    Placement[] placements
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void RemoveSubPlacements( 
@@ -30,8 +25,7 @@ virtual void RemoveSubPlacements(
    array<Placement^>^ placements
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ Exports all segment definitions from project to file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExportSegmentDefinitions( 
 
    Project pProject,
@@ -20,11 +19,7 @@ public bool ExportSegmentDefinitions(
    string strFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExportSegmentDefinitions( 
@@ -34,8 +29,7 @@ bool ExportSegmentDefinitions(
    String^ strFileName
 
 )
-```
-```
+
 
 #### Parameters
 

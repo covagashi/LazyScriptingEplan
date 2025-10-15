@@ -8,17 +8,12 @@ All existing 3d connections whose beginning or end is this placement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override Connection3D[] Connection3Ds {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Connection3D^>^ Connection3Ds {
@@ -26,5 +21,4 @@ property array<Connection3D^>^ Connection3Ds {
    array<Connection3D^>^ get() override;
 
 }
-```
-```
+

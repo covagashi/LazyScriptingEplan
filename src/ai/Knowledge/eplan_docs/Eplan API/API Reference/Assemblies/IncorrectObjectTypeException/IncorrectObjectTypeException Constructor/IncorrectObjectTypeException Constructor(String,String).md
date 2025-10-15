@@ -8,11 +8,10 @@ Internal constructor with description.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public IncorrectObjectTypeException( 
 
    string required_type,
@@ -20,11 +19,7 @@ public IncorrectObjectTypeException(
    string object_type
 
 )
-```
-```
 
-```
-```
 public:
 
 IncorrectObjectTypeException( 
@@ -34,8 +29,7 @@ IncorrectObjectTypeException(
    String^ object_type
 
 )
-```
-```
+
 
 #### Parameters
 

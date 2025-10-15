@@ -8,17 +8,12 @@ Busbars: Part variant # 22253.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_BUSBARRAILVARIANT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_BUSBARRAILVARIANT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_BUSBARRAILVARIANT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Importing text to translation database
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ImportDatabaseTexts( 
 
    string strFilename,
@@ -22,11 +21,7 @@ public bool ImportDatabaseTexts(
    string strReferenceLanguage
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ImportDatabaseTexts( 
@@ -38,8 +33,7 @@ bool ImportDatabaseTexts(
    String^ strReferenceLanguage
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ It defines the Cable Property Template group (multi-line)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Combination {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Combination {
@@ -28,5 +23,4 @@ property String^ Combination {
    void set (    String^ value);
 
 }
-```
-```
+

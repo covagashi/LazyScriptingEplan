@@ -8,11 +8,10 @@ Adds the specified right entry to the given category of the custom UserRights fi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AddRight( 
 
    string strRightname,
@@ -20,11 +19,7 @@ public bool AddRight(
    string strCategory
 
 )
-```
-```
 
-```
-```
 public:
 
 bool AddRight( 
@@ -34,8 +29,7 @@ bool AddRight(
    String^ strCategory
 
 )
-```
-```
+
 
 #### Parameters
 

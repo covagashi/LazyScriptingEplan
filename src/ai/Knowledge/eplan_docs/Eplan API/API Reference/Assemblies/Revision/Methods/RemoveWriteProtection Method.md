@@ -8,21 +8,16 @@ Removes write protection on a project (i.e. opens the current revision for chang
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveWriteProtection( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveWriteProtection( 
@@ -30,8 +25,7 @@ void RemoveWriteProtection(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

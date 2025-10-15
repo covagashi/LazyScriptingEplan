@@ -8,17 +8,12 @@ The plug device tag of component template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PlugDeviceTag {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PlugDeviceTag {
@@ -28,5 +23,4 @@ property String^ PlugDeviceTag {
    void set (    String^ value);
 
 }
-```
-```
+

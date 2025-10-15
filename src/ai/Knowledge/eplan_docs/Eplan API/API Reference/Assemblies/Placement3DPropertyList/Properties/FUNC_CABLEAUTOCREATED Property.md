@@ -8,17 +8,12 @@ Automatically generated # 20059.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLEAUTOCREATED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLEAUTOCREATED {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLEAUTOCREATED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

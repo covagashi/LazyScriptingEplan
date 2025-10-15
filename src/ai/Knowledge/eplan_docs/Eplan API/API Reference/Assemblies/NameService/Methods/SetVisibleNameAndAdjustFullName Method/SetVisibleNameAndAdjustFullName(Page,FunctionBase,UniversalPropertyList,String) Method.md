@@ -8,11 +8,10 @@ Sets the page and sets the given visible name as the new visible name to the giv
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SetVisibleNameAndAdjustFullName( 
 
    Page pPage,
@@ -24,11 +23,7 @@ public bool SetVisibleNameAndAdjustFullName(
    string sVisibleNameFormat
 
 )
-```
-```
 
-```
-```
 public:
 
 bool SetVisibleNameAndAdjustFullName( 
@@ -42,8 +37,7 @@ bool SetVisibleNameAndAdjustFullName(
    String^ sVisibleNameFormat
 
 )
-```
-```
+
 
 #### Parameters
 

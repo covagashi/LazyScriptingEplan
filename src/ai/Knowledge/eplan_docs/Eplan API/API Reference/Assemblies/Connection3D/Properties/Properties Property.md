@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new Connection3DPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property Connection3DPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property Connection3DPropertyList^ Properties {
    Connection3DPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

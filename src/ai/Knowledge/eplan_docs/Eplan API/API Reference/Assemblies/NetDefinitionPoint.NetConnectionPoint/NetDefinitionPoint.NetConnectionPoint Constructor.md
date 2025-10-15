@@ -6,11 +6,10 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public NetDefinitionPoint.NetConnectionPoint( 
 
    SymbolReference smbl,
@@ -22,11 +21,7 @@ public NetDefinitionPoint.NetConnectionPoint(
    NetDefinitionPoint pNetDefinitionPoint
 
 )
-```
-```
 
-```
-```
 public:
 
 NetDefinitionPoint.NetConnectionPoint( 
@@ -40,8 +35,7 @@ NetDefinitionPoint.NetConnectionPoint(
    NetDefinitionPoint^ pNetDefinitionPoint
 
 )
-```
-```
+
 
 #### Parameters
 

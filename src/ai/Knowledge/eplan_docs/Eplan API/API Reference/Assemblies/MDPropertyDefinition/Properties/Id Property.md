@@ -8,17 +8,12 @@ Returns MDAnyPropertyId.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual MDAnyPropertyId Id {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property MDAnyPropertyId^ Id {
@@ -26,5 +21,4 @@ virtual property MDAnyPropertyId^ Id {
    MDAnyPropertyId^ get();
 
 }
-```
-```
+

@@ -8,21 +8,16 @@ Date and time # 19505.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_COMMENT_RESPONSE_DATETIME( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_COMMENT_RESPONSE_DATETIME {
@@ -32,8 +27,7 @@ property PropertyValue^ DMG_COMMENT_RESPONSE_DATETIME {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

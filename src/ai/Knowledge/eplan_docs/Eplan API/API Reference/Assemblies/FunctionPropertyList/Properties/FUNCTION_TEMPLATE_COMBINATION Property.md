@@ -8,17 +8,12 @@ Function template: Template group (multi-line) # 20429.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION_TEMPLATE_COMBINATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION_TEMPLATE_COMBINATION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION_TEMPLATE_COMBINATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

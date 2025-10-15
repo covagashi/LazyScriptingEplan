@@ -8,11 +8,10 @@ Indicates whether the converter provides an export.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool CanExportDirect( 
 
    Context oContext,
@@ -20,11 +19,7 @@ bool CanExportDirect(
    ref bool bSupportsProgress
 
 )
-```
-```
 
-```
-```
 bool CanExportDirect( 
 
    Context^ oContext,
@@ -32,8 +27,7 @@ bool CanExportDirect(
    bool% bSupportsProgress
 
 )
-```
-```
+
 
 #### Parameters
 

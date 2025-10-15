@@ -8,21 +8,16 @@ Creates PlanningSegment object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static PlanningSegment Create( 
 
    SegmentDefinition pSegmentDefinition
 
 )
-```
-```
 
-```
-```
 public:
 
 static PlanningSegment^ Create( 
@@ -30,8 +25,7 @@ static PlanningSegment^ Create(
    SegmentDefinition^ pSegmentDefinition
 
 )
-```
-```
+
 
 #### Parameters
 

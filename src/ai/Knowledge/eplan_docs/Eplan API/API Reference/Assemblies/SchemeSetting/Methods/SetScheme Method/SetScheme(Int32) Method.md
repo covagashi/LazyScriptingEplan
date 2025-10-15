@@ -8,21 +8,16 @@ Sets a scheme by its number (LastUsed remains unchanged!)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetScheme( 
 
    int i
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetScheme( 
@@ -30,8 +25,7 @@ void SetScheme(
    int i
 
 )
-```
-```
+
 
 #### Parameters
 

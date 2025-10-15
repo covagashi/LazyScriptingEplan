@@ -8,17 +8,12 @@ CPU: Name # 20433.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCCPU {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCCPU {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCCPU {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

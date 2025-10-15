@@ -8,17 +8,12 @@ Rotation angle for rectangle # 19342.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue RECTANGLE_ANGLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ RECTANGLE_ANGLE {
@@ -28,8 +23,7 @@ property PropertyValue^ RECTANGLE_ANGLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Returns array of 2D and 3D [IFunctionBase](Eplan.EplApi.DataModelu~Eplan.EplApi.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public IFunctionBase[] GetFunctions( 
 
    FunctionsFilter functionsFilter,
@@ -20,11 +19,7 @@ public IFunctionBase[] GetFunctions(
    Functions3DFilter function3DFilter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<IFunctionBase^>^ GetFunctions( 
@@ -34,8 +29,7 @@ array<IFunctionBase^>^ GetFunctions(
    Functions3DFilter^ function3DFilter
 
 )
-```
-```
+
 
 #### Parameters
 

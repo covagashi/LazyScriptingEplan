@@ -8,17 +8,12 @@ If TRUE, connected distributed PE-terminals will be sorted on the strip, so that
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool UniteConnectedPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool UniteConnectedPE {
@@ -28,5 +23,4 @@ property bool UniteConnectedPE {
    void set (    bool value);
 
 }
-```
-```
+

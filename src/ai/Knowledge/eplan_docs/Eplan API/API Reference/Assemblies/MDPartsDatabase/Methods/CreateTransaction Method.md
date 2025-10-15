@@ -8,26 +8,20 @@ Creates a new database transaction.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartsDatabaseTransaction CreateTransaction()
-```
-```
 
-```
-```
 public:
 
 MDPartsDatabaseTransaction^ CreateTransaction();
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-e7396af8-f2d3-4eb2-b014-a0630364e347)
+**C#**
 
 ```
 MDPartsDatabaseTransaction dbTransaction = database.CreateTransaction();

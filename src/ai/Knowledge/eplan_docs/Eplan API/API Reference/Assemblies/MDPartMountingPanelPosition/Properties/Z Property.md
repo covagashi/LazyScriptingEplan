@@ -8,17 +8,12 @@ The Z position of the referenced mounting panel.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double Z {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double Z {
@@ -28,5 +23,4 @@ property double Z {
    void set (    double value);
 
 }
-```
-```
+

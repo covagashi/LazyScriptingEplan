@@ -8,17 +8,12 @@ If connection contains interruption points, this method returns an array of part
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Connection[] SubConnections {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Connection^>^ SubConnections {
@@ -26,5 +21,4 @@ property array<Connection^>^ SubConnections {
    array<Connection^>^ get();
 
 }
-```
-```
+

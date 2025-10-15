@@ -8,11 +8,10 @@ Create a new scheme with a specified name, description and the node name for the
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateScheme( 
 
    string strSettingsNodeName,
@@ -22,11 +21,7 @@ public void CreateScheme(
    MultiLangString mlDescription
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateScheme( 
@@ -38,8 +33,7 @@ void CreateScheme(
    MultiLangString^ mlDescription
 
 )
-```
-```
+
 
 #### Parameters
 

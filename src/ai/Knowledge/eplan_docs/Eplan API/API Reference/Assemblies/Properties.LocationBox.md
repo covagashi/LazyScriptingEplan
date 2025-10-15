@@ -8,20 +8,14 @@ Identificators of properties owned by LocationBox class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.LocationBox : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.LocationBox : public System.Enum
-```
-```
+
 
 Members
 

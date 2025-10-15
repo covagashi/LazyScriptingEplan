@@ -8,11 +8,10 @@ Copies the elements of the `PrjMessagesCollection` to an Array, starting at a pa
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void CopyTo( 
 
    BaseProjectMessage[] messages,
@@ -20,11 +19,7 @@ public virtual void CopyTo(
    int arrayIndex
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void CopyTo( 
@@ -34,8 +29,7 @@ virtual void CopyTo(
    int arrayIndex
 
 )
-```
-```
+
 
 #### Parameters
 

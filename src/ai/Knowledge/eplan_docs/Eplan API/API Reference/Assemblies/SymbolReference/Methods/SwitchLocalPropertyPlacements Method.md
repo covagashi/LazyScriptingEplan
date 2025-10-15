@@ -8,21 +8,16 @@ Copies or removes all local ProperyPlacemnets and sets flag
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SwitchLocalPropertyPlacements( 
 
    bool nUseLocal
 
 )
-```
-```
 
-```
-```
 public:
 
 void SwitchLocalPropertyPlacements( 
@@ -30,8 +25,7 @@ void SwitchLocalPropertyPlacements(
    bool nUseLocal
 
 )
-```
-```
+
 
 #### Parameters
 

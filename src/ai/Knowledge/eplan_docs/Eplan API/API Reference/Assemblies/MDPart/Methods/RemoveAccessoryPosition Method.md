@@ -8,21 +8,16 @@ Removes the given accessory position from the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveAccessoryPosition( 
 
    MDAccessoryPosition accessoryPos
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveAccessoryPosition( 
@@ -30,8 +25,7 @@ void RemoveAccessoryPosition(
    MDAccessoryPosition^ accessoryPos
 
 )
-```
-```
+
 
 #### Parameters
 

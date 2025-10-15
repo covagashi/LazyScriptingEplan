@@ -8,20 +8,14 @@ Enumeration of Pin's connection types
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Pin.ConnPointType : System.Enum
-```
-```
 
-```
-```
 public enum class Pin.ConnPointType : public System.Enum
-```
-```
+
 
 Members
 

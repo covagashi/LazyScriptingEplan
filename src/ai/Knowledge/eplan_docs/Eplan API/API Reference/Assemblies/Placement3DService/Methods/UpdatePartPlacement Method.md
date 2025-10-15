@@ -8,11 +8,10 @@ Updates part placements
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void UpdatePartPlacement( 
 
    Placement3D[] placements3D,
@@ -20,11 +19,7 @@ public void UpdatePartPlacement(
    bool bUpdateMesh
 
 )
-```
-```
 
-```
-```
 public:
 
 void UpdatePartPlacement( 
@@ -34,8 +29,7 @@ void UpdatePartPlacement(
    bool bUpdateMesh
 
 )
-```
-```
+
 
 #### Parameters
 

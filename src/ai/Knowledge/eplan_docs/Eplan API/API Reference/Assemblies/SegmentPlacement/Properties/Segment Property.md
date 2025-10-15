@@ -8,17 +8,12 @@ Corresponding planning segment.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningSegment Segment {get;}
-```
-```
 
-```
-```
 public:
 
 property PlanningSegment^ Segment {
@@ -26,5 +21,4 @@ property PlanningSegment^ Segment {
    PlanningSegment^ get();
 
 }
-```
-```
+

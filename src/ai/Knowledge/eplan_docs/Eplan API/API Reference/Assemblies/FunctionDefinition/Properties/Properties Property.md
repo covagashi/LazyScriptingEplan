@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new FunctionDefinitionPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property FunctionDefinitionPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property FunctionDefinitionPropertyList^ Properties {
    FunctionDefinitionPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

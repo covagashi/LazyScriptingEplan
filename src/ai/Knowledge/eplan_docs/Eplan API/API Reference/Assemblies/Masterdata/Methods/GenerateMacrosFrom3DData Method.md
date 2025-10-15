@@ -8,11 +8,10 @@ Generates 3d macros from step files.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool GenerateMacrosFrom3DData( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public bool GenerateMacrosFrom3DData(
    StringCollection oFileNames
 
 )
-```
-```
 
-```
-```
 public:
 
 bool GenerateMacrosFrom3DData( 
@@ -34,8 +29,7 @@ bool GenerateMacrosFrom3DData(
    StringCollection^ oFileNames
 
 )
-```
-```
+
 
 #### Parameters
 

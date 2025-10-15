@@ -8,21 +8,16 @@ Manual saddle jumpers (internal) # 20350.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TERMINAL_JUMPER_INTERN( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TERMINAL_JUMPER_INTERN {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_TERMINAL_JUMPER_INTERN {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

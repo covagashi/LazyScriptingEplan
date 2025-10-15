@@ -8,19 +8,13 @@ A constant value that indicates an invalid (or undefined) function ID.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static int InvalidId
-```
-```
 
-```
-```
 public:
 
 static int InvalidId
-```
-```
+

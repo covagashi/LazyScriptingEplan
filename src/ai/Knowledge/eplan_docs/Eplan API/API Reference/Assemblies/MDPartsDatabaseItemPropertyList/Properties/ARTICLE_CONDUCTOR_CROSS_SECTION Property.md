@@ -8,17 +8,12 @@ Conductor cross-section # 26120.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CONDUCTOR_CROSS_SECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CONDUCTOR_CROSS_SECTION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CONDUCTOR_CROSS_SECTION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

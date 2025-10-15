@@ -8,21 +8,16 @@ Removes revision data. Used for change tracking.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveRevisionData( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveRevisionData( 
@@ -30,8 +25,7 @@ void RemoveRevisionData(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

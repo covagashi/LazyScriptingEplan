@@ -8,21 +8,16 @@ Synchronization from PID data onto other representations. Corresponds to the Too
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void PIDToOtherPlacementTypes( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void PIDToOtherPlacementTypes( 
@@ -30,8 +25,7 @@ void PIDToOtherPlacementTypes(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

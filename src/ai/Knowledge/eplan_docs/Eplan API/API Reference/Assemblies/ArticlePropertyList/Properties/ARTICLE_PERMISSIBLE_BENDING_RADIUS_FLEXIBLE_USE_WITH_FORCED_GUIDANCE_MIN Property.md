@@ -8,17 +8,12 @@ Permitted bending radius (moving application with forced guidance), min. # 26653
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PERMISSIBLE_BENDING_RADIUS_FLEXIBLE_USE_WITH_FORCED_GUIDANCE_MIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PERMISSIBLE_BENDING_RADIUS_FLEXIBLE_USE_WITH_FORCED_GUIDANCE_MIN {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PERMISSIBLE_BENDING_RADIUS_FLEXIBLE_USE_WITH_FOR
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

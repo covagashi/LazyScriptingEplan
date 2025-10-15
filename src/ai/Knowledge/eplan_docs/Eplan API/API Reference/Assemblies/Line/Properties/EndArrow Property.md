@@ -8,17 +8,12 @@ Returns if Line is ended with an arrow.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool EndArrow {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool EndArrow {
@@ -28,8 +23,7 @@ property bool EndArrow {
    void set (    bool value);
 
 }
-```
-```
+
 
 #### Property Value
 

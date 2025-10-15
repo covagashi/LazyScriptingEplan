@@ -8,20 +8,14 @@ The VerificationState determines the actual adjusted check type
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum IMDMessage.VerificationState : System.Enum
-```
-```
 
-```
-```
 public enum class IMDMessage.VerificationState : public System.Enum
-```
-```
+
 
 Members
 

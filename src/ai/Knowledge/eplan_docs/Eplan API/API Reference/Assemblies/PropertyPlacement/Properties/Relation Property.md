@@ -8,17 +8,12 @@ Gets/Sets Relation of PropertyPlacement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyPlacement.RelationType Relation {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyPlacement.RelationType Relation {
@@ -28,8 +23,7 @@ property PropertyPlacement.RelationType Relation {
    void set (    PropertyPlacement.RelationType value);
 
 }
-```
-```
+
 
 #### Property Value
 

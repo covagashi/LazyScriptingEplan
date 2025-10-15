@@ -8,22 +8,16 @@ Gets a Placement object that represents the macro box graphically on a page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement GetGraphics()
-```
-```
 
-```
-```
 public:
 
 Placement^ GetGraphics();
-```
-```
+
 
 #### Return Value
 

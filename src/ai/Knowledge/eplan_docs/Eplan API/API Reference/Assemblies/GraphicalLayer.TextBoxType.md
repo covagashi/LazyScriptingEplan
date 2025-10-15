@@ -8,20 +8,14 @@ Text box type
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum GraphicalLayer.TextBoxType : System.Enum
-```
-```
 
-```
-```
 public enum class GraphicalLayer.TextBoxType : public System.Enum
-```
-```
+
 
 Members
 

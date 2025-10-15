@@ -13,26 +13,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class FileSelectDecisionContext
-```
-```
 
-```
-```
 public ref class FileSelectDecisionContext
-```
-```
+
 
 Example
 
 Example of using Decider class with a FileSelectDecisionContext :
 
-- [C#](#i-tab-content-d59f5e0a-cb62-4a30-a479-8f874819a5bd)
+**C#**
 
 ```
 
@@ -53,8 +47,6 @@ fileContext.AddFilter("Fenstermakro, Symbolmakro (*.ema, *.ems)", "*.ema;*.ems")
 
 fileContext.AddFilter("All files (*.*)", "*.*");
 
-
-
 Decider oDecision = new Decider();
 
 EnumDecisionReturn eAnswer = oDecision.Decide(fileContext);
@@ -69,10 +61,6 @@ if (eAnswer != EnumDecisionReturn.eOK)
 
 string sExlFile = fileContext.GetFiles()[0];
 
-
-
-
-
 ```
 
 Public Constructors
@@ -82,8 +70,6 @@ Public Constructors
 | Public Constructor | [FileSelectDecisionContext Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

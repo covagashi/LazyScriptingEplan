@@ -8,17 +8,12 @@ Installation site with preceding sign # 1440.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FULLPLACEOFINSTALLATION_WITHPREFIX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FULLPLACEOFINSTALLATION_WITHPREFIX {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FULLPLACEOFINSTALLATION_WITHPREFIX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

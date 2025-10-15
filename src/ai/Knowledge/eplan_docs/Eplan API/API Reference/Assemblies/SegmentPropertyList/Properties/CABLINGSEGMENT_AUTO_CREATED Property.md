@@ -8,17 +8,12 @@ Topology: Automatically generated routing path # 20242.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLINGSEGMENT_AUTO_CREATED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLINGSEGMENT_AUTO_CREATED {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLINGSEGMENT_AUTO_CREATED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Method to export the parts list of a project to an XML/CSV \file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExportPartsList( 
 
    string strFullLinkFileName,
@@ -22,11 +21,7 @@ public void ExportPartsList(
    PartsService.Format fileFormat
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExportPartsList( 
@@ -38,8 +33,7 @@ void ExportPartsList(
    PartsService.Format fileFormat
 
 )
-```
-```
+
 
 #### Parameters
 

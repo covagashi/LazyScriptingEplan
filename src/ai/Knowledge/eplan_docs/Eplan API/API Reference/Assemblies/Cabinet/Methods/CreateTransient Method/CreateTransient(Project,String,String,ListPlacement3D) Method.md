@@ -8,11 +8,10 @@ Creates a transient and not placed Cabinet object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Cabinet CreateTransient( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public static Cabinet CreateTransient(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static Cabinet^ CreateTransient( 
@@ -42,8 +37,7 @@ static Cabinet^ CreateTransient(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

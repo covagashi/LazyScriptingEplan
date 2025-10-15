@@ -8,17 +8,12 @@ Property data represents filter scheme settings for report generation.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string FilterSchemaData {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ FilterSchemaData {
@@ -28,8 +23,7 @@ property String^ FilterSchemaData {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Remarks
 

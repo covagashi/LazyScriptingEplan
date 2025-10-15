@@ -8,20 +8,14 @@ Identificators of properties owned by MDSymbolLibrary class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.MDSymbolLibrary : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.MDSymbolLibrary : public System.Enum
-```
-```
+
 
 Members
 

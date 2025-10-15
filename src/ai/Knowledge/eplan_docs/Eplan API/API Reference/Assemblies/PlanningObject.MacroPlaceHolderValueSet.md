@@ -13,28 +13,17 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Item")]
 
 public class PlanningObject.MacroPlaceHolderValueSet
-```
-```
 
-```
-```
 [DefaultMember("Item")]
 
 public ref class PlanningObject.MacroPlaceHolderValueSet
-```
-```
-
-
-
-
 
 Public Properties
 

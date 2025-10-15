@@ -8,17 +8,12 @@ Subnet mask # 20446.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLC_SUBNETMASK {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLC_SUBNETMASK {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLC_SUBNETMASK {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

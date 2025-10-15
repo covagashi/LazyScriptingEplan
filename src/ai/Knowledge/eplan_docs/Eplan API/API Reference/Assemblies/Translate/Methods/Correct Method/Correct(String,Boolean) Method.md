@@ -8,11 +8,10 @@ Correct translations in project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Correct( 
 
    string strProjectName,
@@ -20,11 +19,7 @@ public void Correct(
    bool bConvertAlreadyTranslatedTexts
 
 )
-```
-```
 
-```
-```
 public:
 
 void Correct( 
@@ -34,8 +29,7 @@ void Correct(
    bool bConvertAlreadyTranslatedTexts
 
 )
-```
-```
+
 
 #### Parameters
 

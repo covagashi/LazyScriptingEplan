@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new BusBarSystemPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property BusBarSystemPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property BusBarSystemPropertyList^ Properties {
    BusBarSystemPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

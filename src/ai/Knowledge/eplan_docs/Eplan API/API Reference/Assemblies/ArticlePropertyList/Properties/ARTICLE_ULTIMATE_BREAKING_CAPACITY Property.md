@@ -8,17 +8,12 @@ Rated ultimate short-circuit breaking capacity (Icu) # 26587.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_ULTIMATE_BREAKING_CAPACITY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_ULTIMATE_BREAKING_CAPACITY {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_ULTIMATE_BREAKING_CAPACITY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

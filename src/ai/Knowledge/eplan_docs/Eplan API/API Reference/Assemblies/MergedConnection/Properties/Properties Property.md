@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new MergedConnectionPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property MergedConnectionPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property MergedConnectionPropertyList^ Properties {
    MergedConnectionPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

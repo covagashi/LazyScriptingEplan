@@ -8,17 +8,12 @@ EPLAN properties of the block reference object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new BlockPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property BlockPropertyList^ Properties {
@@ -26,5 +21,4 @@ new property BlockPropertyList^ Properties {
    BlockPropertyList^ get();
 
 }
-```
-```
+

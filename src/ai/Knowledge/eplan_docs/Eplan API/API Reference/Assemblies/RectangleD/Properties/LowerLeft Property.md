@@ -8,17 +8,12 @@ Returns lower left corner of the rectangle.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD LowerLeft {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD LowerLeft {
@@ -26,5 +21,4 @@ property PointD LowerLeft {
    PointD get();
 
 }
-```
-```
+

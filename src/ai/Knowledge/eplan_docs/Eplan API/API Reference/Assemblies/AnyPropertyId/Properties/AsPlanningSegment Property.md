@@ -8,17 +8,12 @@ Gets property id value as [Properties.PlanningSegment](Eplan.EplApi.DataModelu~E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.PlanningSegment AsPlanningSegment {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.PlanningSegment AsPlanningSegment {
@@ -26,5 +21,4 @@ property Properties.PlanningSegment AsPlanningSegment {
    Properties.PlanningSegment get();
 
 }
-```
-```
+

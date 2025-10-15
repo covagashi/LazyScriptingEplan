@@ -8,17 +8,12 @@ Contents of object represented by this type.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override MultiLangString Contents {get;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ Contents {
@@ -26,8 +21,7 @@ property MultiLangString^ Contents {
    MultiLangString^ get() override;
 
 }
-```
-```
+
 
 #### Property Value
 

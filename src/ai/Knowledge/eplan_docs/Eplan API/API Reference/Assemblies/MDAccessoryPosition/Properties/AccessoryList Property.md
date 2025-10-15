@@ -8,17 +8,12 @@ Returns the referenced AccessoryList if type is AccessoryList
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAccessoryList AccessoryList {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDAccessoryList^ AccessoryList {
@@ -28,5 +23,4 @@ property MDAccessoryList^ AccessoryList {
    void set (    MDAccessoryList^ value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Gets or sets object's graphical layer.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public GraphicalLayer Layer {get; set;}
-```
-```
 
-```
-```
 public:
 
 property GraphicalLayer^ Layer {
@@ -28,8 +23,7 @@ property GraphicalLayer^ Layer {
    void set (    GraphicalLayer^ value);
 
 }
-```
-```
+
 
 Exceptions
 

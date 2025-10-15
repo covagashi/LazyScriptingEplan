@@ -8,19 +8,13 @@ Updates planning object's macro placeholder value sets with data from macro (e.g
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void UpdateFromMacro()
-```
-```
 
-```
-```
 public:
 
 void UpdateFromMacro();
-```
-```
+

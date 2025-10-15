@@ -8,17 +8,12 @@ The VerificationState determines the actual adjusted check type whereas the perm
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public IVerificationBase.VerificationState VerificationState {get; set;}
-```
-```
 
-```
-```
 public:
 
 property IVerificationBase.VerificationState VerificationState {
@@ -28,8 +23,7 @@ property IVerificationBase.VerificationState VerificationState {
    void set (    IVerificationBase.VerificationState value);
 
 }
-```
-```
+
 
 Remarks
 

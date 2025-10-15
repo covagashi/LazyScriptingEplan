@@ -8,11 +8,10 @@ Places a macro assigned to this function together with a special symbol configur
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] PlaceFunctionalMacro( 
 
    Page oPage,
@@ -26,11 +25,7 @@ public StorableObject[] PlaceFunctionalMacro(
    int nVariant
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ PlaceFunctionalMacro( 
@@ -46,8 +41,7 @@ array<StorableObject^>^ PlaceFunctionalMacro(
    int nVariant
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,22 +8,16 @@ Removes the selected report block. The associated report pages remain as they ar
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Freeze()
-```
-```
 
-```
-```
 public:
 
 void Freeze();
-```
-```
+
 
 Exceptions
 

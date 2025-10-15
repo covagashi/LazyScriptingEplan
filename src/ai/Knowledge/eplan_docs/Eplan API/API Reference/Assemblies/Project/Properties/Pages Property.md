@@ -8,17 +8,12 @@ Project's property which return array of Pages placed in project. When the proje
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Page[] Pages {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Page^>^ Pages {
@@ -26,8 +21,7 @@ property array<Page^>^ Pages {
    array<Page^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

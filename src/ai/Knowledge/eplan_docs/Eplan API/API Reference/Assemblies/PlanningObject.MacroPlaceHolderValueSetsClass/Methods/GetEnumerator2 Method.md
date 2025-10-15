@@ -8,22 +8,16 @@ Gets enumertator in collection of MacroPlaceholderValueSets. The same as GetEnum
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual IEnumerator GetEnumerator2()
-```
-```
 
-```
-```
 public:
 
 virtual IEnumerator^ GetEnumerator2();
-```
-```
+
 
 #### Return Value
 

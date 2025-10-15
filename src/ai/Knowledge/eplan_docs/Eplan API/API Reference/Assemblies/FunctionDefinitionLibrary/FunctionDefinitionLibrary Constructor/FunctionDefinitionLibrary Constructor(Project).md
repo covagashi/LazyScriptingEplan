@@ -8,21 +8,16 @@ This constructor initialize function definition library using %%.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FunctionDefinitionLibrary( 
 
    Project project
 
 )
-```
-```
 
-```
-```
 public:
 
 FunctionDefinitionLibrary( 
@@ -30,8 +25,7 @@ FunctionDefinitionLibrary(
    Project^ project
 
 )
-```
-```
+
 
 #### Parameters
 

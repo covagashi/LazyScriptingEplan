@@ -8,17 +8,12 @@ EPLAN properties of the AuxiliaryLine object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new AuxiliaryLinePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property AuxiliaryLinePropertyList^ Properties {
@@ -26,5 +21,4 @@ new property AuxiliaryLinePropertyList^ Properties {
    AuxiliaryLinePropertyList^ get();
 
 }
-```
-```
+

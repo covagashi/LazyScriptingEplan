@@ -8,21 +8,16 @@ Adds project events handler.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddAnyChangeHandler( 
 
    ProjectEventsProvider.AnyChangeHandler handler
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddAnyChangeHandler( 
@@ -30,8 +25,7 @@ void AddAnyChangeHandler(
    ProjectEventsProvider.AnyChangeHandler^ handler
 
 )
-```
-```
+
 
 #### Parameters
 

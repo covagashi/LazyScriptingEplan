@@ -8,17 +8,12 @@ Gets or sets wire harness name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string WireHarnessName {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ WireHarnessName {
@@ -28,5 +23,4 @@ property String^ WireHarnessName {
    void set (    String^ value);
 
 }
-```
-```
+

@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PlanningObject.MacroPlaceHolderValueSetsClass.MacroPlaceHolderValueSetsEnumerator
-```
-```
 
-```
-```
 public ref class PlanningObject.MacroPlaceHolderValueSetsClass.MacroPlaceHolderValueSetsEnumerator
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [PlanningObject.MacroPlaceHolderValueSetsClass.MacroPlaceHolderValueSetsEnumerator Constructor](topic748.html) | Constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ The characteristic of component template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Characteristic {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Characteristic {
@@ -28,5 +23,4 @@ property String^ Characteristic {
    void set (    String^ value);
 
 }
-```
-```
+

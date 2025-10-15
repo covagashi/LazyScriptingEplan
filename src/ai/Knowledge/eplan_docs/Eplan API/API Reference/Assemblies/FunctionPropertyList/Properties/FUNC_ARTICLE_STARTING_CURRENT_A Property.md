@@ -8,21 +8,16 @@ Starting current, max. # 26191.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_STARTING_CURRENT_A( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_STARTING_CURRENT_A {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_STARTING_CURRENT_A {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

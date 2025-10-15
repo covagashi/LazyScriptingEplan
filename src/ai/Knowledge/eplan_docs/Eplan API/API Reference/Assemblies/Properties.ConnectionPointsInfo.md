@@ -8,20 +8,14 @@ Identificators of properties owned by ConnectionPointsInfo class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.ConnectionPointsInfo : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.ConnectionPointsInfo : public System.Enum
-```
-```
+
 
 Members
 

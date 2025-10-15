@@ -8,21 +8,16 @@ Adds a new construction to the parts database
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDConstruction AddConstruction( 
 
    string name
 
 )
-```
-```
 
-```
-```
 public:
 
 MDConstruction^ AddConstruction( 
@@ -30,8 +25,7 @@ MDConstruction^ AddConstruction(
    String^ name
 
 )
-```
-```
+
 
 #### Parameters
 

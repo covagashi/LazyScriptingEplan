@@ -8,17 +8,12 @@ Position and rotation relative to the parent placement represented by transforma
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Matrix3D Transformation {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Matrix3D Transformation {
@@ -28,9 +23,8 @@ property Matrix3D Transformation {
    void set (    Matrix3D value);
 
 }
-```
-```
+
 
 Remarks
 
-Please be aware that coordinates of a mate are relative if it is not persistent, i.e. without assigned Placement. Otherwise they are absolute, i.e. in relation to the point (0,0,0) of its InstallationSpace. Origin is the lower left corner of a placement area. If there isnât any user defined placement area, the default placement area is the XY-plane.
+Please be aware that coordinates of a mate are relative if it is not persistent, i.e. without assigned Placement. Otherwise they are absolute, i.e. in relation to the point (0,0,0) of its InstallationSpace. Origin is the lower left corner of a placement area. If there isn't any user defined placement area, the default placement area is the XY-plane.

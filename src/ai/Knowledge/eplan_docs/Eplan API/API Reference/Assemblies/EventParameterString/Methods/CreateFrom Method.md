@@ -8,21 +8,16 @@ Creates the specific EventParameterString object from the IEventParameter interf
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateFrom( 
 
    IEventParameter pIEventParameter
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateFrom( 
@@ -30,8 +25,7 @@ void CreateFrom(
    IEventParameter^ pIEventParameter
 
 )
-```
-```
+
 
 #### Parameters
 

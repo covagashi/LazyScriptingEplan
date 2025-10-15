@@ -8,17 +8,12 @@ Terminal: Device position # 20367.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TERMINALDEVICEPOSITION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TERMINALDEVICEPOSITION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TERMINALDEVICEPOSITION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

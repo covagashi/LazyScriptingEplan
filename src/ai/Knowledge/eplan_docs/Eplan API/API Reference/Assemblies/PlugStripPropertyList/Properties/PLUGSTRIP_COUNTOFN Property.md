@@ -8,17 +8,12 @@ Plugs: Number of N pins # 35206.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PLUGSTRIP_COUNTOFN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PLUGSTRIP_COUNTOFN {
@@ -28,8 +23,7 @@ property PropertyValue^ PLUGSTRIP_COUNTOFN {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

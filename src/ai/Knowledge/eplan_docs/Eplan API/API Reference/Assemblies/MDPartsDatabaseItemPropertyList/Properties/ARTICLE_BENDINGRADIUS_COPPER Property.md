@@ -8,17 +8,12 @@ Bending radius # 22257.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_BENDINGRADIUS_COPPER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_BENDINGRADIUS_COPPER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_BENDINGRADIUS_COPPER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

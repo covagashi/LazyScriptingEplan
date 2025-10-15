@@ -8,17 +8,12 @@ PLC subdevice: Index # 20384.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNC_PLCTERMINAL_INDEX_OF_STARTADDRESS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNC_PLCTERMINAL_INDEX_OF_STARTADDRESS {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNC_PLCTERMINAL_INDEX_OF_STARTADDRESS {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

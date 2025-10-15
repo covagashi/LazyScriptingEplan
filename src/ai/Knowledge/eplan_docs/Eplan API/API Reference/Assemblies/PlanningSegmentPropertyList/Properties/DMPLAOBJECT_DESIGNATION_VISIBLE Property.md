@@ -8,17 +8,12 @@ Designation (visible) # 44065.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_DESIGNATION_VISIBLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_DESIGNATION_VISIBLE {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_DESIGNATION_VISIBLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

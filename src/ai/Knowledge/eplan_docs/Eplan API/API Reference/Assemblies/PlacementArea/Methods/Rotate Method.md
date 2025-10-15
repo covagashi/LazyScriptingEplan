@@ -8,21 +8,16 @@ Rotates placement area about normal vector.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Rotate( 
 
    double dAngle
 
 )
-```
-```
 
-```
-```
 public:
 
 void Rotate( 
@@ -30,8 +25,7 @@ void Rotate(
    double dAngle
 
 )
-```
-```
+
 
 #### Parameters
 

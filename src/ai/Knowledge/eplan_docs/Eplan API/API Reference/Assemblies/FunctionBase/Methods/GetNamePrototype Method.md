@@ -8,11 +8,10 @@ Sets properties which are used for building name of object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool GetNamePrototype( 
 
    ICollection<AnyPropertyId> pIdentifying,
@@ -20,11 +19,7 @@ public bool GetNamePrototype(
    ICollection<AnyPropertyId> pDescribing
 
 )
-```
-```
 
-```
-```
 public:
 
 bool GetNamePrototype( 
@@ -34,8 +29,7 @@ bool GetNamePrototype(
    ICollection<AnyPropertyId^>^ pDescribing
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Position of mouse in the world coordinate system
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual PointD3D CursorPosition {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property PointD3D CursorPosition {
@@ -28,8 +23,7 @@ virtual property PointD3D CursorPosition {
    void set (    PointD3D value);
 
 }
-```
-```
+
 
 Remarks
 

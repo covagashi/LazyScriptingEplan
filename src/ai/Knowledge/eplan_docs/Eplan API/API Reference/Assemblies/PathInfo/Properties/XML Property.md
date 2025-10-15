@@ -8,17 +8,12 @@ Returns default XML directory.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string XML {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ XML {
@@ -26,8 +21,7 @@ property String^ XML {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

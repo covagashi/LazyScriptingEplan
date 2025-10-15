@@ -8,21 +8,16 @@ Suppress in bill of materials (if filtered) # 20105.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_SUPPRESSINPARTSLIST( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_SUPPRESSINPARTSLIST {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_SUPPRESSINPARTSLIST {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

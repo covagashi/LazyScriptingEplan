@@ -8,17 +8,12 @@ Gets property id value as [Properties.Page](Eplan.EplApi.DataModelu~Eplan.EplApi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.Page AsPage {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.Page AsPage {
@@ -26,5 +21,4 @@ property Properties.Page AsPage {
    Properties.Page get();
 
 }
-```
-```
+

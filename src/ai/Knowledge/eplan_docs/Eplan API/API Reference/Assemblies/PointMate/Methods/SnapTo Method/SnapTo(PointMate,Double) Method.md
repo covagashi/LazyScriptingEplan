@@ -8,11 +8,10 @@ Snap the mate to another point mate.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SnapTo( 
 
    PointMate pTargetMate,
@@ -20,11 +19,7 @@ public void SnapTo(
    double dRotationAngle
 
 )
-```
-```
 
-```
-```
 public:
 
 void SnapTo( 
@@ -34,8 +29,7 @@ void SnapTo(
    double dRotationAngle
 
 )
-```
-```
+
 
 #### Parameters
 

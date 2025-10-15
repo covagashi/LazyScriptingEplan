@@ -8,21 +8,16 @@ Calculates the total weight of a cabinet.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double CalculateCabinetWeight( 
 
    Cabinet cabinet
 
 )
-```
-```
 
-```
-```
 public:
 
 double CalculateCabinetWeight( 
@@ -30,8 +25,7 @@ double CalculateCabinetWeight(
    Cabinet^ cabinet
 
 )
-```
-```
+
 
 #### Parameters
 

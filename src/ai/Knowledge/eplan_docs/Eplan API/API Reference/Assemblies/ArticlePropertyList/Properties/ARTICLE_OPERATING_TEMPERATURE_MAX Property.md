@@ -8,17 +8,12 @@ Operating temperature, max. # 26239.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_OPERATING_TEMPERATURE_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_OPERATING_TEMPERATURE_MAX {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_OPERATING_TEMPERATURE_MAX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

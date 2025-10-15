@@ -8,21 +8,16 @@ Returns an array of modified and not completed installation spaces in the curren
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public InstallationSpace[] GetUncompletedInstallationSpaces( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 array<InstallationSpace^>^ GetUncompletedInstallationSpaces( 
@@ -30,8 +25,7 @@ array<InstallationSpace^>^ GetUncompletedInstallationSpaces(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

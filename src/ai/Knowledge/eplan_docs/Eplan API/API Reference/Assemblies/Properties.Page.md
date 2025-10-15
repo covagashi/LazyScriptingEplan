@@ -8,20 +8,14 @@ Identificators of properties owned by Page class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.Page : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.Page : public System.Enum
-```
-```
+
 
 Members
 

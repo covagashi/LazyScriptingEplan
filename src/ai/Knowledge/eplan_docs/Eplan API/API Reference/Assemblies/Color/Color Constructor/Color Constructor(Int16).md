@@ -8,21 +8,16 @@ constructor id of color
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Color( 
 
    short id
 
 )
-```
-```
 
-```
-```
 public:
 
 Color( 
@@ -30,8 +25,7 @@ Color(
    short id
 
 )
-```
-```
+
 
 #### Parameters
 

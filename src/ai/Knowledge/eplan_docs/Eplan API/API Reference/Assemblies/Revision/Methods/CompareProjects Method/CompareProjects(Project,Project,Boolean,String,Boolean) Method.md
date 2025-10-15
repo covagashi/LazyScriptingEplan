@@ -8,11 +8,10 @@ Compares all possible properties of a project to a comparison project. Used for 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CompareProjects( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public void CompareProjects(
    bool bAppendResult
 
 )
-```
-```
 
-```
-```
 public:
 
 void CompareProjects( 
@@ -46,8 +41,7 @@ void CompareProjects(
    bool bAppendResult
 
 )
-```
-```
+
 
 #### Parameters
 

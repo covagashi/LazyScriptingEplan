@@ -8,21 +8,16 @@ Higher-level function number (leading identifiers) # 1722.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_INSTALLATIONNUMBER_LEADINGPARTS( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_INSTALLATIONNUMBER_LEADINGPARTS {
@@ -32,8 +27,7 @@ property PropertyValue^ DESIGNATION_INSTALLATIONNUMBER_LEADINGPARTS {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

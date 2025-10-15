@@ -8,21 +8,16 @@ PLC address: Data type # 44021.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_PLCADDRESS_DATATYPE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_PLCADDRESS_DATATYPE {
@@ -32,8 +27,7 @@ property PropertyValue^ DMPLAOBJECT_PLCADDRESS_DATATYPE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Constructor.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public CablePropertyListComplete( 
 
    Cable func
 
 )
-```
-```
 
-```
-```
 public:
 
 CablePropertyListComplete( 
@@ -30,8 +25,7 @@ CablePropertyListComplete(
    Cable^ func
 
 )
-```
-```
+
 
 #### Parameters
 

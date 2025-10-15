@@ -8,11 +8,10 @@ Method for renumbering plugs of a project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Plugs( 
 
    Project pProject,
@@ -38,11 +37,7 @@ public void Plugs(
    bool bFillGaps
 
 )
-```
-```
 
-```
-```
 public:
 
 void Plugs( 
@@ -70,8 +65,7 @@ void Plugs(
    bool bFillGaps
 
 )
-```
-```
+
 
 #### Parameters
 

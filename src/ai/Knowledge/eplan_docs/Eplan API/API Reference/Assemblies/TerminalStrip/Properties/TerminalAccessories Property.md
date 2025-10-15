@@ -8,17 +8,12 @@ Returns all [TerminalAccessory](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TerminalAccessory[] TerminalAccessories {get;}
-```
-```
 
-```
-```
 public:
 
 property array<TerminalAccessory^>^ TerminalAccessories {
@@ -26,8 +21,7 @@ property array<TerminalAccessory^>^ TerminalAccessories {
    array<TerminalAccessory^>^ get();
 
 }
-```
-```
+
 
 Exceptions
 

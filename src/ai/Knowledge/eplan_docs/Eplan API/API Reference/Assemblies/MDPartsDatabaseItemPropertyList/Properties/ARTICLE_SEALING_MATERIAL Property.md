@@ -8,17 +8,12 @@ Sealing material # 26067.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SEALING_MATERIAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SEALING_MATERIAL {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SEALING_MATERIAL {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

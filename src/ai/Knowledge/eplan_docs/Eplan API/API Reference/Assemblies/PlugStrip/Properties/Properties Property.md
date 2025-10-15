@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new PlugStripPropertyListComplete Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property PlugStripPropertyListComplete^ Properties {
@@ -26,8 +21,7 @@ new property PlugStripPropertyListComplete^ Properties {
    PlugStripPropertyListComplete^ get();
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -35,7 +29,7 @@ P8 properties of the PlugStrip.
 
 Example
 
-- [C#](#i-tab-content-a21988bd-db8c-4047-b718-1a5882e61f61)
+**C#**
 
 ```
 PlugStrip ps;//a valid PlugStrip

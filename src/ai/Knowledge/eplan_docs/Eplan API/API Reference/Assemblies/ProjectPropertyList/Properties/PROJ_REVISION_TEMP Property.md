@@ -8,17 +8,12 @@ Revision: Temporary reference project # 10164.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_REVISION_TEMP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_REVISION_TEMP {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_REVISION_TEMP {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

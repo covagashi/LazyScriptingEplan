@@ -6,11 +6,10 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool GetResult( 
 
    int nRequest,
@@ -18,11 +17,7 @@ public virtual bool GetResult(
    InteractionContext pContext
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual bool GetResult( 
@@ -32,8 +27,7 @@ virtual bool GetResult(
    InteractionContext^ pContext
 
 )
-```
-```
+
 
 #### Parameters
 

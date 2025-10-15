@@ -8,11 +8,10 @@ Commits an automatic cable selection in the project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AutoCableSelection( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public void AutoCableSelection(
    bool bOnlyAutomaticCables
 
 )
-```
-```
 
-```
-```
 public:
 
 void AutoCableSelection( 
@@ -38,8 +33,7 @@ void AutoCableSelection(
    bool bOnlyAutomaticCables
 
 )
-```
-```
+
 
 #### Parameters
 

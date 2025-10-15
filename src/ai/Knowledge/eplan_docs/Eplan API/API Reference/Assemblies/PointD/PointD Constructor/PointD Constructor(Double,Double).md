@@ -8,11 +8,10 @@ Constructor to initialize a point with a set of coordinates.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD( 
 
    double x,
@@ -20,11 +19,7 @@ public PointD(
    double y
 
 )
-```
-```
 
-```
-```
 public:
 
 PointD( 
@@ -34,8 +29,7 @@ PointD(
    double y
 
 )
-```
-```
+
 
 #### Parameters
 

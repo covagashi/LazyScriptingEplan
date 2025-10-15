@@ -8,20 +8,14 @@ Get the level count this progress supports.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 int GetLevelCount()
-```
-```
 
-```
-```
 int GetLevelCount();
-```
-```
+
 
 #### Return Value
 

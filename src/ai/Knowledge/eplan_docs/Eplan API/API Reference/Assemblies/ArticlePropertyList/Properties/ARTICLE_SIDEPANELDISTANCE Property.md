@@ -8,17 +8,12 @@ Distance side panel # 22167.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SIDEPANELDISTANCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SIDEPANELDISTANCE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SIDEPANELDISTANCE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

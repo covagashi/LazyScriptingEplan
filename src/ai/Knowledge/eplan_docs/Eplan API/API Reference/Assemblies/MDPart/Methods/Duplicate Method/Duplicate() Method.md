@@ -8,22 +8,16 @@ Create a new part with identical data. That new part will get a new unique part 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPart Duplicate()
-```
-```
 
-```
-```
 public:
 
 MDPart^ Duplicate();
-```
-```
+
 
 #### Return Value
 

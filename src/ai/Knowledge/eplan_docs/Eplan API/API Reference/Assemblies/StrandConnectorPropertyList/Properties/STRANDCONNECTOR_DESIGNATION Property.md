@@ -8,17 +8,12 @@ Bundle: Connection point designation # 19070.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue STRANDCONNECTOR_DESIGNATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ STRANDCONNECTOR_DESIGNATION {
@@ -28,8 +23,7 @@ property PropertyValue^ STRANDCONNECTOR_DESIGNATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

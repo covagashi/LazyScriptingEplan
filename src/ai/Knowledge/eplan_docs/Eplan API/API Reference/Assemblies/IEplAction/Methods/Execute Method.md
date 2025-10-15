@@ -8,28 +8,22 @@ Called by the framework when the action is to be performed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool Execute( 
 
    ActionCallingContext oActionCallingContext
 
 )
-```
-```
 
-```
-```
 bool Execute( 
 
    ActionCallingContext^ oActionCallingContext
 
 )
-```
-```
+
 
 #### Parameters
 

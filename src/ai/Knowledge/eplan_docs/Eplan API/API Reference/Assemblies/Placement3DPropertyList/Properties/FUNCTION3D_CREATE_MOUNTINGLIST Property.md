@@ -8,17 +8,12 @@ Output in mounting list # 36032.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_CREATE_MOUNTINGLIST {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_CREATE_MOUNTINGLIST {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_CREATE_MOUNTINGLIST {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

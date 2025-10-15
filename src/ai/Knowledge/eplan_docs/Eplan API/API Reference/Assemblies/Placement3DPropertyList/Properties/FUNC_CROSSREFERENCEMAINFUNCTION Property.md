@@ -8,17 +8,12 @@ Cross-reference display: Auxiliary function as main function # 20314.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CROSSREFERENCEMAINFUNCTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CROSSREFERENCEMAINFUNCTION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CROSSREFERENCEMAINFUNCTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

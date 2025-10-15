@@ -8,17 +8,12 @@ Returns the [PinBase](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase.htm
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PinBase StartSymbolConnPoint {get;}
-```
-```
 
-```
-```
 public:
 
 property PinBase^ StartSymbolConnPoint {
@@ -26,5 +21,4 @@ property PinBase^ StartSymbolConnPoint {
    PinBase^ get();
 
 }
-```
-```
+

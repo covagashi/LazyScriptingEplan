@@ -8,21 +8,16 @@ Get identifier
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Identifier( 
 
    string identifierSetName
 
 ) {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Identifier {
@@ -30,8 +25,7 @@ property String^ Identifier {
    String^ get(String^ identifierSetName);
 
 }
-```
-```
+
 
 #### Parameters
 

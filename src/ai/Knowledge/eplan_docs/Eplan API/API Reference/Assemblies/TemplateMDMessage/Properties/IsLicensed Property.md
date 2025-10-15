@@ -8,17 +8,12 @@ Returns true if the message is licensed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsLicensed {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsLicensed {
@@ -26,5 +21,4 @@ property bool IsLicensed {
    bool get();
 
 }
-```
-```
+

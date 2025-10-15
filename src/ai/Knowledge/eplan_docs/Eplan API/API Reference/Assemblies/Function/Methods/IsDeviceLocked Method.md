@@ -10,21 +10,16 @@ The LockDevice is locked when it was explicitly or implicitly locked.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsDeviceLocked( 
 
    bool bWithCDPs
 
 )
-```
-```
 
-```
-```
 public:
 
 bool IsDeviceLocked( 
@@ -32,8 +27,7 @@ bool IsDeviceLocked(
    bool bWithCDPs
 
 )
-```
-```
+
 
 #### Parameters
 

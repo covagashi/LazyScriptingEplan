@@ -8,21 +8,16 @@ Gets a accessory placement with the given name that is stored in the parts datab
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAccessoryPlacement GetAccessoryPlacement( 
 
    string name
 
 )
-```
-```
 
-```
-```
 public:
 
 MDAccessoryPlacement^ GetAccessoryPlacement( 
@@ -30,8 +25,7 @@ MDAccessoryPlacement^ GetAccessoryPlacement(
    String^ name
 
 )
-```
-```
+
 
 #### Parameters
 

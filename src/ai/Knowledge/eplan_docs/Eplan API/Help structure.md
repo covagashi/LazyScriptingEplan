@@ -24,8 +24,6 @@ Sometimes the setup cannot correctly register the help correctly in Visual Stu
 
 a) Start the Microsoft Help Viewer using Help > Add and Remove Help Content from Visual Studio.
 
-
-
 b) In the Manage Content tab, please select Disk installation source, then browse for the  helpcontentsetup.msha  file in the directory where the API Help was installed.  
 By default it should be in  %ProgramData%\EPLAN\O\_Data\API-Support\<Eplan version>\doc.
 
@@ -34,7 +32,5 @@ c) Select the Add link and press the Update button.
 d) Make sure that the help is registered by browsing the Eplan API content in the Microsoft Help Viewer.
 
 e) In order to use the help integrated with Visual Studio, please set the preferred help to the Help Viewer:
-
-
 
 Please note that as of Visual Studio 2017, Microsoft Help Viewer is an optional installation component, so it must be additionally added by the Visual Studio Installer.

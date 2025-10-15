@@ -8,17 +8,12 @@ Set or get the CustomDefaultPath. This is the path the File Select Dialog opens 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string CustomDefaultPath {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ CustomDefaultPath {
@@ -28,8 +23,7 @@ property String^ CustomDefaultPath {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Remarks
 

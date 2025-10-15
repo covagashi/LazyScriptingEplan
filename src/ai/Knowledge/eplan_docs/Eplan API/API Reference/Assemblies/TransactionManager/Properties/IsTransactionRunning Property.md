@@ -8,17 +8,12 @@ Tells if a read-write API transaction is open.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsTransactionRunning {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsTransactionRunning {
@@ -26,8 +21,7 @@ property bool IsTransactionRunning {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

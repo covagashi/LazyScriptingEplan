@@ -8,17 +8,12 @@ Associated connections: Trade # 31066.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CDP_CON_CRAFT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CDP_CON_CRAFT {
@@ -28,8 +23,7 @@ property PropertyValue^ CDP_CON_CRAFT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Performs the actual action.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Execute( 
 
    ActionCallingContext oCallingContext
 
 )
-```
-```
 
-```
-```
 public:
 
 bool Execute( 
@@ -30,8 +25,7 @@ bool Execute(
    ActionCallingContext^ oCallingContext
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -40,8 +34,8 @@ bool Execute(
 
 #### Return Value
 
-â¢ TRUE: This function was completed successfully.  
-â¢ FALSE: An error occurred while performing the action.
+'¢ TRUE: This function was completed successfully.  
+'¢ FALSE: An error occurred while performing the action.
 
 Exceptions
 

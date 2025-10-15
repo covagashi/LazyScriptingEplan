@@ -8,17 +8,12 @@ Nominal size # 22225.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_WIDTHRATING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_WIDTHRATING {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_WIDTHRATING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

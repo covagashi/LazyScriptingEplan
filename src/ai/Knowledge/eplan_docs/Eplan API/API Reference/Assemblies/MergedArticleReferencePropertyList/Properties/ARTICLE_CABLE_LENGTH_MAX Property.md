@@ -8,17 +8,12 @@ Cable length, max. # 26117.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CABLE_LENGTH_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CABLE_LENGTH_MAX {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CABLE_LENGTH_MAX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

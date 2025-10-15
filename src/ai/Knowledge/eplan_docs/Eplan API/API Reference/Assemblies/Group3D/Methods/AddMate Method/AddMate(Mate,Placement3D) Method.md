@@ -8,11 +8,10 @@ Adds a mate to a group
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddMate( 
 
    Mate customMate,
@@ -20,11 +19,7 @@ public void AddMate(
    Placement3D placement3D
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddMate( 
@@ -34,8 +29,7 @@ void AddMate(
    Placement3D^ placement3D
 
 )
-```
-```
+
 
 #### Parameters
 

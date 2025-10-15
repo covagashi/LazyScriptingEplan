@@ -6,17 +6,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int BookmarkIDStart {get;}
-```
-```
 
-```
-```
 public:
 
 property int BookmarkIDStart {
@@ -24,5 +19,4 @@ property int BookmarkIDStart {
    int get();
 
 }
-```
-```
+

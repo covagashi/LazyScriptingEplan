@@ -8,20 +8,14 @@ DocumentType contains all available types of document.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum DocumentTypeManager.DocumentType : System.Enum
-```
-```
 
-```
-```
 public enum class DocumentTypeManager.DocumentType : public System.Enum
-```
-```
+
 
 Members
 

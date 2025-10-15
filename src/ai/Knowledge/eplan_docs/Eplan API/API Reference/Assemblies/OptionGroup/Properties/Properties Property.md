@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new OptionGroupPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property OptionGroupPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property OptionGroupPropertyList^ Properties {
    OptionGroupPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

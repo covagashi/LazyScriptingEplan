@@ -8,17 +8,12 @@ Cable data # 26046.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CABLE_DATA {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CABLE_DATA {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CABLE_DATA {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

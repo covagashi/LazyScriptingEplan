@@ -8,17 +8,12 @@ Format of full DT: Terminal strip definition # 10641.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_FULLDTFORMAT_TERMINAL_DEF_TEXT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_FULLDTFORMAT_TERMINAL_DEF_TEXT {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_FULLDTFORMAT_TERMINAL_DEF_TEXT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

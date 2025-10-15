@@ -8,11 +8,10 @@ Creates new property definition
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static MDUserDefinedPropertyDefinition Create( 
 
    string strIdentifyingName,
@@ -24,11 +23,7 @@ public static MDUserDefinedPropertyDefinition Create(
    MDPropertyDefinition.MDPropertyType fieldType
 
 )
-```
-```
 
-```
-```
 public:
 
 static MDUserDefinedPropertyDefinition^ Create( 
@@ -42,8 +37,7 @@ static MDUserDefinedPropertyDefinition^ Create(
    MDPropertyDefinition.MDPropertyType fieldType
 
 )
-```
-```
+
 
 #### Parameters
 

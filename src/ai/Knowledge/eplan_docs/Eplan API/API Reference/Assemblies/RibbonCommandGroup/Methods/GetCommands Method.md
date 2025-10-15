@@ -8,21 +8,16 @@ Returns commands of the command group
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Dictionary<uint,RibbonCommand> GetCommands( 
 
    bool bIgnoreDummeItems
 
 )
-```
-```
 
-```
-```
 public:
 
 Dictionary<uint,RibbonCommand^>^ GetCommands( 
@@ -30,8 +25,7 @@ Dictionary<uint,RibbonCommand^>^ GetCommands(
    bool bIgnoreDummeItems
 
 )
-```
-```
+
 
 #### Parameters
 

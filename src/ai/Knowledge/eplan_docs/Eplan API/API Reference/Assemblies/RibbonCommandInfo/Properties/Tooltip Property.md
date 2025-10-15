@@ -8,17 +8,12 @@ Property to get or set tooltip of the button. Optional parameter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Tooltip {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Tooltip {
@@ -28,5 +23,4 @@ property String^ Tooltip {
    void set (    String^ value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Setpoint # 26567.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SET_POINT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SET_POINT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SET_POINT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

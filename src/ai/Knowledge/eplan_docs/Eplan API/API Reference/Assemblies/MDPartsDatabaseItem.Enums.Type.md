@@ -8,20 +8,14 @@ This are the different types of database items that can be stored in parts datab
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MDPartsDatabaseItem.Enums.Type : System.Enum
-```
-```
 
-```
-```
 public enum class MDPartsDatabaseItem.Enums.Type : public System.Enum
-```
-```
+
 
 Members
 

@@ -8,17 +8,12 @@ Current consumption, max. # 26597.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CURRENT_CONSUMPTION_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CURRENT_CONSUMPTION_MAX {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CURRENT_CONSUMPTION_MAX {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

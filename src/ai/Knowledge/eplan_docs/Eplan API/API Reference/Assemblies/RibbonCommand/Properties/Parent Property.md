@@ -8,17 +8,12 @@ Returns command group that the command belongs to
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonCommandGroup Parent {get;}
-```
-```
 
-```
-```
 public:
 
 property RibbonCommandGroup^ Parent {
@@ -26,5 +21,4 @@ property RibbonCommandGroup^ Parent {
    RibbonCommandGroup^ get();
 
 }
-```
-```
+

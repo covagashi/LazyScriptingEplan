@@ -8,17 +8,12 @@ Pin designation of the plug template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PinDesignation {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PinDesignation {
@@ -28,5 +23,4 @@ property String^ PinDesignation {
    void set (    String^ value);
 
 }
-```
-```
+

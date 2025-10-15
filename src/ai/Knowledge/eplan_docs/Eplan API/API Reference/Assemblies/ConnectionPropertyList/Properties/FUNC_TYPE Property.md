@@ -8,17 +8,12 @@ Representation type # 20121.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TYPE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TYPE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

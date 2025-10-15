@@ -8,19 +8,13 @@ Constructor with standard message text from resources identified by IDS\_ERR\_IN
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public InvalidConverter()
-```
-```
 
-```
-```
 public:
 
 InvalidConverter();
-```
-```
+

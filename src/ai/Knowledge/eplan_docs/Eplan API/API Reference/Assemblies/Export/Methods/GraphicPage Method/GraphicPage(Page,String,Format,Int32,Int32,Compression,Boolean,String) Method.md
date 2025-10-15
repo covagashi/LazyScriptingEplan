@@ -8,11 +8,10 @@ Exports a page of a project as image file. [Eplan.EplApi.DataModel.Page.PageType
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void GraphicPage( 
 
    Page oPage,
@@ -32,11 +31,7 @@ public void GraphicPage(
    string strLanguage
 
 )
-```
-```
 
-```
-```
 public:
 
 void GraphicPage( 
@@ -58,8 +53,7 @@ void GraphicPage(
    String^ strLanguage
 
 )
-```
-```
+
 
 #### Parameters
 

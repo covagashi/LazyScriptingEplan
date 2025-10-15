@@ -8,20 +8,14 @@ Quiet modes
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum QuietModes : System.Enum
-```
-```
 
-```
-```
 public enum class QuietModes : public System.Enum
-```
-```
+
 
 Members
 
@@ -34,9 +28,9 @@ Members
 
 Remarks
 
-â¢ ShowAllDialogs: all dialogs will be shown  
-â¢ ShowNoDialogs: no dialogs will be shown  
-â¢ ShowSomeDialogs: only some special dialogs will be shown, e.g.progress bars
+'¢ ShowAllDialogs: all dialogs will be shown  
+'¢ ShowNoDialogs: no dialogs will be shown  
+'¢ ShowSomeDialogs: only some special dialogs will be shown, e.g.progress bars
 
 Inheritance Hierarchy
 

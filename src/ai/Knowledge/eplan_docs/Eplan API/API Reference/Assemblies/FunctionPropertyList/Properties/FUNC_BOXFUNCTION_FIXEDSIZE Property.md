@@ -8,17 +8,12 @@ Disable resizing # 20442.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_BOXFUNCTION_FIXEDSIZE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_BOXFUNCTION_FIXEDSIZE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_BOXFUNCTION_FIXEDSIZE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

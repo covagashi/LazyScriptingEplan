@@ -8,17 +8,12 @@ gets the current element in [Eplan::EplApi::EServices:](Eplan.EplApi.EServicesu~
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual BaseProjectMessage CurrentProjectMessage {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property BaseProjectMessage^ CurrentProjectMessage {
@@ -26,8 +21,7 @@ virtual property BaseProjectMessage^ CurrentProjectMessage {
    BaseProjectMessage^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

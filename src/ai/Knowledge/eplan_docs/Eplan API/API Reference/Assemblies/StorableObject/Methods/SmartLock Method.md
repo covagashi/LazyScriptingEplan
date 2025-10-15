@@ -8,19 +8,13 @@ Tries to lock current object. If object is [Placement](Eplan.EplApi.DataModelu~E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SmartLock()
-```
-```
 
-```
-```
 public:
 
 void SmartLock();
-```
-```
+

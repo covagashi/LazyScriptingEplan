@@ -8,19 +8,13 @@ Is called after start of a new interaction with same or higher priority. In this
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void OnDeactivate()
-```
-```
 
-```
-```
 public:
 
 virtual void OnDeactivate();
-```
-```
+

@@ -8,21 +8,16 @@ Unit for subset / length # 31012.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_PARTIAL_LENGTH_UNIT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_PARTIAL_LENGTH_UNIT {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_PARTIAL_LENGTH_UNIT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 
@@ -79,4 +73,4 @@ Displayed measuring unit in which the subset or length of the part is specified.
 
 15 = yard
 
-29 = Âµm.
+29 = µm.

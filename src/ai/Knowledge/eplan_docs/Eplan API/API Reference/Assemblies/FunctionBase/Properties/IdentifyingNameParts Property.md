@@ -8,17 +8,12 @@ Returns identifying name of the Function.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual FunctionBasePropertyList IdentifyingNameParts {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property FunctionBasePropertyList^ IdentifyingNameParts {
@@ -26,8 +21,7 @@ virtual property FunctionBasePropertyList^ IdentifyingNameParts {
    FunctionBasePropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,7 +31,7 @@ Example
 
 The following example shows how to filter by identifying name.
 
-- [C#](#i-tab-content-abb8d857-07bd-4aca-8eb7-d113b887e7a0)
+**C#**
 
 ```
 
@@ -65,9 +59,5 @@ private Function[] GetSubFunctions(Function oFunction)
     return oResult;
 
 }
-
-
-
-
 
 ```

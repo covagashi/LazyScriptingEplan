@@ -8,17 +8,12 @@ Technical description # 44006.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_TECHNICAL_DESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_TECHNICAL_DESCRIPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_TECHNICAL_DESCRIPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Can have parts data # 20612.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CANHAVEARTICLEDATA {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CANHAVEARTICLEDATA {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CANHAVEARTICLEDATA {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

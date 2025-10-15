@@ -5,17 +5,16 @@
 ---
 
 ```
-Imports or exports PLC data in the system database from or to "Beckhoff TwinCAT3" using AutomationML files. The supported file extension is "*.aml".
-```
+Imports or exports PLC data in the system database from or to "Beckhoff TwinCAT3" using AutomationML files. The supported file extension is "*.aml".
 
-  
+```
 
 **Remarks**
 
 ```
-Visible name = "Beckhoff TwinCAT 3"
-```
+Visible name = "Beckhoff TwinCAT 3"
 
-```
-Required for methods ExportData(), ImportData()
+
+Required for methods ExportData(), ImportData()
+
 ```

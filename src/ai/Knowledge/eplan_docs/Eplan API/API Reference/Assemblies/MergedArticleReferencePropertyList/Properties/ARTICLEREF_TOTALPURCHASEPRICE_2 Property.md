@@ -8,17 +8,12 @@ Total purchase price Currency 2 # 20504.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_TOTALPURCHASEPRICE_2 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_TOTALPURCHASEPRICE_2 {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_TOTALPURCHASEPRICE_2 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

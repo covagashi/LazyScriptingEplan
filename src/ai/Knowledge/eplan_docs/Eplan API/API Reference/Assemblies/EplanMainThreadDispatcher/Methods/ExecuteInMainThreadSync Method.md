@@ -8,11 +8,10 @@ Execute this work in a synchronous main thread.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public object ExecuteInMainThreadSync( 
 
    ExecuteInEplanMainThreadDelegate3 pExecuteDelegate,
@@ -20,11 +19,7 @@ public object ExecuteInMainThreadSync(
    object x
 
 )
-```
-```
 
-```
-```
 public:
 
 Object^ ExecuteInMainThreadSync( 
@@ -34,8 +29,7 @@ Object^ ExecuteInMainThreadSync(
    Object^ x
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Gets or sets the suffix of DimensionItem.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string DimensionSuffix {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ DimensionSuffix {
@@ -28,5 +23,4 @@ property String^ DimensionSuffix {
    void set (    String^ value);
 
 }
-```
-```
+

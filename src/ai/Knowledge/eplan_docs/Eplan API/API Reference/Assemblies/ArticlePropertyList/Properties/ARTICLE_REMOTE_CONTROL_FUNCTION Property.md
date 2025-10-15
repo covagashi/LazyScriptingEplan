@@ -8,17 +8,12 @@ Remote control function # 26041.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_REMOTE_CONTROL_FUNCTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_REMOTE_CONTROL_FUNCTION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_REMOTE_CONTROL_FUNCTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns upper right back absolute coordinate
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D UpperRightBackAbsolute {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD3D UpperRightBackAbsolute {
@@ -26,5 +21,4 @@ property PointD3D UpperRightBackAbsolute {
    PointD3D get();
 
 }
-```
-```
+

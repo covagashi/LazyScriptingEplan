@@ -15,30 +15,21 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [Guid("25B37226-6821-4493-B585-F805EFBC3146")]
 
 [ComVisible(true)]
 
 public class EplanRemoteClient : Eplan.EplApi.GrpcServer.EplanRemoting.EplanRemotingClient, IEplanRemoteClient
-```
-```
 
-```
-```
 [Guid("25B37226-6821-4493-B585-F805EFBC3146")]
 
 [ComVisible(true)]
 
 public ref class EplanRemoteClient : public Eplan.EplApi.GrpcServer.EplanRemoting::EplanRemotingClient, IEplanRemoteClient
-```
-```
-
-
 
 Public Constructors
 

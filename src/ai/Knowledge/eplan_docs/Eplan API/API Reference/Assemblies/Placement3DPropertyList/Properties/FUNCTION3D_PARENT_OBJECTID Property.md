@@ -8,17 +8,12 @@ Superior mounting surface # 36033.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_PARENT_OBJECTID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_PARENT_OBJECTID {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_PARENT_OBJECTID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

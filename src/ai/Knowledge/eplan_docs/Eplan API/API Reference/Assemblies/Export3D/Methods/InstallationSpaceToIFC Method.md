@@ -8,11 +8,10 @@ Exports single installation space into file in IFC format under given name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool InstallationSpaceToIFC( 
 
    InstallationSpace installationSpace,
@@ -24,11 +23,7 @@ public bool InstallationSpaceToIFC(
    string strScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 bool InstallationSpaceToIFC( 
@@ -42,8 +37,7 @@ bool InstallationSpaceToIFC(
    String^ strScheme
 
 )
-```
-```
+
 
 #### Parameters
 

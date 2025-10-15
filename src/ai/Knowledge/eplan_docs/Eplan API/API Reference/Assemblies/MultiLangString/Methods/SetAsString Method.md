@@ -8,21 +8,16 @@ Sets the contents of a MultiLangString with a string passed as argument using la
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetAsString( 
 
    string val
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetAsString( 
@@ -30,8 +25,7 @@ void SetAsString(
    String^ val
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Additional length (default) # 22942.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PART_TERMINAL_ADDITIONALLENGTHDEFAULT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PART_TERMINAL_ADDITIONALLENGTHDEFAULT {
@@ -28,8 +23,7 @@ property PropertyValue^ PART_TERMINAL_ADDITIONALLENGTHDEFAULT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

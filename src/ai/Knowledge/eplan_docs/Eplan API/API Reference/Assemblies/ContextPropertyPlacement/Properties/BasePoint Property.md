@@ -8,17 +8,12 @@ Returns [ContextPropertyPlacement.Enums.BasePoint](Eplan.EplApi.DataModelu~Eplan
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual ContextPropertyPlacement.Enums.BasePoint BasePoint {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property ContextPropertyPlacement.Enums.BasePoint BasePoint {
@@ -28,8 +23,7 @@ virtual property ContextPropertyPlacement.Enums.BasePoint BasePoint {
    void set (    ContextPropertyPlacement.Enums.BasePoint value);
 
 }
-```
-```
+
 
 #### Property Value
 

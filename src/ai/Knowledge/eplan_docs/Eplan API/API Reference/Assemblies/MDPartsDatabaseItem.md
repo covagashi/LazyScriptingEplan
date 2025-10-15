@@ -20,22 +20,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDPartsDatabaseItem : PropertiesAndHandleObject
-```
-```
 
-```
-```
 public ref class MDPartsDatabaseItem : public PropertiesAndHandleObject
-```
-```
-
-
 
 Public Constructors
 
@@ -44,8 +35,6 @@ Public Constructors
 | Public Constructor | [MDPartsDatabaseItem Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem~_ctor().html) | constructor of MDPartsDatabaseItem |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,11 +8,10 @@ Matches templates and wires. No changes on objects are performed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public KeyValuePair<Connection,Connection>[] FindMatchingTemplatePairs( 
 
    Project oProject,
@@ -28,11 +27,7 @@ public KeyValuePair<Connection,Connection>[] FindMatchingTemplatePairs(
    bool bDividePairsBeforeReassign
 
 )
-```
-```
 
-```
-```
 public:
 
 array<KeyValuePair<Connection^,Connection^>>^ FindMatchingTemplatePairs( 
@@ -50,8 +45,7 @@ array<KeyValuePair<Connection^,Connection^>>^ FindMatchingTemplatePairs(
    bool bDividePairsBeforeReassign
 
 )
-```
-```
+
 
 #### Parameters
 

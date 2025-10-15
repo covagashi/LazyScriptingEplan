@@ -8,17 +8,12 @@ Description of the associated defined working section for the this subproject.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString Description {get;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ Description {
@@ -26,8 +21,7 @@ property MultiLangString^ Description {
    MultiLangString^ get();
 
 }
-```
-```
+
 
 Exceptions
 

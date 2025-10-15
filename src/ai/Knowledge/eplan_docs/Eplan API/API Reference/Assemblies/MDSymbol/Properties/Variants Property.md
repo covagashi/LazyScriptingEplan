@@ -8,17 +8,12 @@ a read only list of all MDSymbolVariants in the symbol
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDSymbolVariant[] Variants {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDSymbolVariant^>^ Variants {
@@ -26,8 +21,7 @@ property array<MDSymbolVariant^>^ Variants {
    array<MDSymbolVariant^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

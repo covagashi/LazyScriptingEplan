@@ -8,17 +8,12 @@ Gets or sets the presicion of DimensionItem.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DimensionItem.Enums.DimensionPrecision DimensionPrecision {get; set;}
-```
-```
 
-```
-```
 public:
 
 property DimensionItem.Enums.DimensionPrecision DimensionPrecision {
@@ -28,5 +23,4 @@ property DimensionItem.Enums.DimensionPrecision DimensionPrecision {
    void set (    DimensionItem.Enums.DimensionPrecision value);
 
 }
-```
-```
+

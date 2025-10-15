@@ -8,11 +8,10 @@ Creates not placed ViewPlacement object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public void Create(
    InstallationSpace pInstallationSpace
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -34,8 +29,7 @@ void Create(
    InstallationSpace^ pInstallationSpace
 
 )
-```
-```
+
 
 #### Parameters
 

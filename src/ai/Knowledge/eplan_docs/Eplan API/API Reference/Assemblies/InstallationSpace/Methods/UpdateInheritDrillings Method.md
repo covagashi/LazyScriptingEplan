@@ -8,19 +8,13 @@ Update inherit drills for bended bus bars.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void UpdateInheritDrillings()
-```
-```
 
-```
-```
 public:
 
 void UpdateInheritDrillings();
-```
-```
+

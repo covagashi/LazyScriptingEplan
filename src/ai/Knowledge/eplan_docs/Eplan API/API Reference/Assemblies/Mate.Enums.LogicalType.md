@@ -8,20 +8,14 @@ Logical types of mates.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Mate.Enums.LogicalType : System.Enum
-```
-```
 
-```
-```
 public enum class Mate.Enums.LogicalType : public System.Enum
-```
-```
+
 
 Members
 

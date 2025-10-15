@@ -8,11 +8,10 @@ Adds new command to the command group
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonCommand AddCommand( 
 
    string strButtonText,
@@ -26,11 +25,7 @@ public RibbonCommand AddCommand(
    RibbonIcon icon
 
 )
-```
-```
 
-```
-```
 public:
 
 RibbonCommand^ AddCommand( 
@@ -46,8 +41,7 @@ RibbonCommand^ AddCommand(
    RibbonIcon^ icon
 
 )
-```
-```
+
 
 #### Parameters
 

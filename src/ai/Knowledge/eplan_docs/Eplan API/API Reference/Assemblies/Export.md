@@ -13,26 +13,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Export
-```
-```
 
-```
-```
 public ref class Export
-```
-```
+
 
 Example
 
 The following example shows how to use class Export.
 
-- [C#](#i-tab-content-02c9f066-eb04-477e-9ec2-7548e20944a0)
+**C#**
 
 ```
 Export oExport = new Export();
@@ -45,8 +39,6 @@ oPagesAL.Add(m_oProject.Pages[3]);
 
 oExport.PdfPages(oPagesAL, "EPLAN_default_value", "$(TMP)\\1.pdf", Export.DegreeOfColor.BlackAndWhite, true, "", true);
 
-
-
 ```
 
 Public Constructors
@@ -56,9 +48,6 @@ Public Constructors
 | Public Constructor | [Export Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Export~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

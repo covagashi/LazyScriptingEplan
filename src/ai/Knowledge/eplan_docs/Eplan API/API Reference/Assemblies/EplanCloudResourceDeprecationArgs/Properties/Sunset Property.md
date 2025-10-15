@@ -8,17 +8,12 @@ Date when the Eplan Cloud resource is expected to become unresponsive
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DateTime Sunset {get; set;}
-```
-```
 
-```
-```
 public:
 
 property DateTime Sunset {
@@ -28,5 +23,4 @@ property DateTime Sunset {
    void set (    DateTime value);
 
 }
-```
-```
+

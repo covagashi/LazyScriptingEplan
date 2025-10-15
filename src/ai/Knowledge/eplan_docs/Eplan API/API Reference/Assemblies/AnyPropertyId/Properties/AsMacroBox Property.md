@@ -8,17 +8,12 @@ Gets property id value as [Properties.MacroBox](Eplan.EplApi.DataModelu~Eplan.Ep
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.MacroBox AsMacroBox {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.MacroBox AsMacroBox {
@@ -26,5 +21,4 @@ property Properties.MacroBox AsMacroBox {
    Properties.MacroBox get();
 
 }
-```
-```
+

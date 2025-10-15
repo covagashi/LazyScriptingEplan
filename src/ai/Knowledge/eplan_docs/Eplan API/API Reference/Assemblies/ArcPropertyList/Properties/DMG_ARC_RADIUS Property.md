@@ -8,17 +8,12 @@ Circle radius # 19320.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_ARC_RADIUS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_ARC_RADIUS {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_ARC_RADIUS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

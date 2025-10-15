@@ -8,17 +8,12 @@ Type of scaling used to display objects in ViewPlacement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ViewScaleType ViewScale {get; set;}
-```
-```
 
-```
-```
 public:
 
 property ViewScaleType ViewScale {
@@ -28,8 +23,7 @@ property ViewScaleType ViewScale {
    void set (    ViewScaleType value);
 
 }
-```
-```
+
 
 Remarks
 

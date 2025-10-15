@@ -8,11 +8,10 @@ Copy collection to an array
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void CopyTo( 
 
    string[] array_Renamed,
@@ -20,11 +19,7 @@ public virtual void CopyTo(
    int arrayIndex
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void CopyTo( 
@@ -34,8 +29,7 @@ virtual void CopyTo(
    int arrayIndex
 
 )
-```
-```
+
 
 #### Parameters
 

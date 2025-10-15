@@ -8,21 +8,16 @@ Removes project events handler.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveAnyChangeHandler( 
 
    ProjectEventsProvider.AnyChangeHandler handler
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveAnyChangeHandler( 
@@ -30,8 +25,7 @@ void RemoveAnyChangeHandler(
    ProjectEventsProvider.AnyChangeHandler^ handler
 
 )
-```
-```
+
 
 #### Parameters
 

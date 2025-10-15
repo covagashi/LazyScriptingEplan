@@ -8,17 +8,12 @@ Gets property id value as [Properties.BusBar](Eplan.EplApi.DataModelu~Eplan.EplA
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.BusBar AsBusBar {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.BusBar AsBusBar {
@@ -26,5 +21,4 @@ property Properties.BusBar AsBusBar {
    Properties.BusBar get();
 
 }
-```
-```
+

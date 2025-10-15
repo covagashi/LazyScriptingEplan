@@ -8,17 +8,12 @@ Specifies the direction of the address (input, output, undefined).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningSegment.PLCAddress.Enums.PlcAddressDirection Direction {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PlanningSegment.PLCAddress.Enums.PlcAddressDirection Direction {
@@ -28,5 +23,4 @@ property PlanningSegment.PLCAddress.Enums.PlcAddressDirection Direction {
    void set (    PlanningSegment.PLCAddress.Enums.PlcAddressDirection value);
 
 }
-```
-```
+

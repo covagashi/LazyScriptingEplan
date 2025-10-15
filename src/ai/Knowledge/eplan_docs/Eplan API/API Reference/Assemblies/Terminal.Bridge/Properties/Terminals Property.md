@@ -8,17 +8,12 @@ An array of all terminals that the bridge connects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Terminal[] Terminals {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Terminal^>^ Terminals {
@@ -26,5 +21,4 @@ property array<Terminal^>^ Terminals {
    array<Terminal^>^ get();
 
 }
-```
-```
+

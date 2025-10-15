@@ -8,21 +8,16 @@ Sets the project used. The same as project parameter in the constructor. Used wh
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Initialize( 
 
    Project proj
 
 )
-```
-```
 
-```
-```
 public:
 
 void Initialize( 
@@ -30,8 +25,7 @@ void Initialize(
    Project^ proj
 
 )
-```
-```
+
 
 #### Parameters
 

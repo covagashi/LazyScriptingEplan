@@ -8,17 +8,12 @@ Activate or deactivate automatic change/create information update for a page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ChangeAndCreateInfoUpdateForPage {set;}
-```
-```
 
-```
-```
 public:
 
 property bool ChangeAndCreateInfoUpdateForPage {
@@ -26,5 +21,4 @@ property bool ChangeAndCreateInfoUpdateForPage {
    void set (    bool value);
 
 }
-```
-```
+

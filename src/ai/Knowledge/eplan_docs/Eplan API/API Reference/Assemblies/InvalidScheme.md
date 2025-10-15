@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class InvalidScheme : Eplan.EplApi.DataModel.InvalidArgumentException
-```
-```
 
-```
-```
 public ref class InvalidScheme : public Eplan.EplApi.DataModel.InvalidArgumentException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [InvalidScheme Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Exceptions.InvalidScheme~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

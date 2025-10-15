@@ -8,17 +8,12 @@ Gets/Sets the distance of the dimension text to the dimension line.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double DimensionDistanceToLine {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double DimensionDistanceToLine {
@@ -28,5 +23,4 @@ property double DimensionDistanceToLine {
    void set (    double value);
 
 }
-```
-```
+

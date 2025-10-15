@@ -8,11 +8,10 @@ Creates connection between two 3d placements without specifying connection point
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Placement3D pStartObject,
@@ -20,11 +19,7 @@ public void Create(
    Placement3D pEndObject
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -34,8 +29,7 @@ void Create(
    Placement3D^ pEndObject
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -56,7 +50,7 @@ Exceptions
 
 Example
 
-- [C#](#i-tab-content-fc59d42e-ee27-4e7d-b535-7c037e115003)
+**C#**
 
 ```
 
@@ -66,9 +60,5 @@ Example
 Connection3D oConnection3DNoConnectionPoints = new Connection3D();
 
 oConnection3DNoConnectionPoints.Create(oFunction3D1, oFunction3D2);
-
-
-
-
 
 ```

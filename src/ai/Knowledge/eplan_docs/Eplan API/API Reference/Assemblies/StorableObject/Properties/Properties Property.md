@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObjectPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 property StorableObjectPropertyList^ Properties {
@@ -26,8 +21,7 @@ property StorableObjectPropertyList^ Properties {
    StorableObjectPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Highest page number per structure # 11043.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_MAXNUMBERLOCATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_MAXNUMBERLOCATION {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_MAXNUMBERLOCATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

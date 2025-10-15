@@ -8,17 +8,12 @@ Keep parts at placement # 36457.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTALLATIONSPACE_KEPP_PARTS_BY_INSERT_MACRO {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTALLATIONSPACE_KEPP_PARTS_BY_INSERT_MACRO {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTALLATIONSPACE_KEPP_PARTS_BY_INSERT_MACRO {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

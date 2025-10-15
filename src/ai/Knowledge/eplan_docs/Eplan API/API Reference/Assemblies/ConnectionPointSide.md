@@ -8,20 +8,14 @@ Enumeration of possible connection point types.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ConnectionPointSide : System.Enum
-```
-```
 
-```
-```
 public enum class ConnectionPointSide : public System.Enum
-```
-```
+
 
 Members
 

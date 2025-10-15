@@ -8,21 +8,16 @@ Initializes the Eplan runtime system.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Init( 
 
    string strApplicationModifier
 
 )
-```
-```
 
-```
-```
 public:
 
 void Init( 
@@ -30,8 +25,7 @@ void Init(
    String^ strApplicationModifier
 
 )
-```
-```
+
 
 #### Parameters
 

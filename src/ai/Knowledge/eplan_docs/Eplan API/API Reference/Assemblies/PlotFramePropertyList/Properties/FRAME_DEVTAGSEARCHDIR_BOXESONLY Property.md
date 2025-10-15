@@ -8,17 +8,12 @@ DT adoption: Only from boxes # 12105.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_DEVTAGSEARCHDIR_BOXESONLY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_DEVTAGSEARCHDIR_BOXESONLY {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_DEVTAGSEARCHDIR_BOXESONLY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

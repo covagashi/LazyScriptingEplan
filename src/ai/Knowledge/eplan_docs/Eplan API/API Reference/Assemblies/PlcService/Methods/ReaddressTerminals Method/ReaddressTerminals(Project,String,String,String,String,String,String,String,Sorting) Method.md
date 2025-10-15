@@ -8,11 +8,10 @@ Executes PLC terminals addressing
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ReaddressTerminals( 
 
    Project oProject,
@@ -34,11 +33,7 @@ public void ReaddressTerminals(
    PlcService.Sorting eSorting
 
 )
-```
-```
 
-```
-```
 public:
 
 void ReaddressTerminals( 
@@ -62,8 +57,7 @@ void ReaddressTerminals(
    PlcService.Sorting eSorting
 
 )
-```
-```
+
 
 #### Parameters
 

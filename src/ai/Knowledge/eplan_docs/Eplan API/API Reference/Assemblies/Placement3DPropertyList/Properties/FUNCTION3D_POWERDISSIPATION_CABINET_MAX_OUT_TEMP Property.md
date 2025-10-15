@@ -8,17 +8,12 @@ Thermal design: Max. external temperature # 36051.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_POWERDISSIPATION_CABINET_MAX_OUT_TEMP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_POWERDISSIPATION_CABINET_MAX_OUT_TEMP {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_POWERDISSIPATION_CABINET_MAX_OUT_TEMP {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

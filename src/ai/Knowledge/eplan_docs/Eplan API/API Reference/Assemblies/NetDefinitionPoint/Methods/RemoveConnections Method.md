@@ -8,21 +8,16 @@ Remove connections of NetDefinitionPoint object
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveConnections( 
 
    Connection[] Connections
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveConnections( 
@@ -30,8 +25,7 @@ void RemoveConnections(
    array<Connection^>^ Connections
 
 )
-```
-```
+
 
 #### Parameters
 

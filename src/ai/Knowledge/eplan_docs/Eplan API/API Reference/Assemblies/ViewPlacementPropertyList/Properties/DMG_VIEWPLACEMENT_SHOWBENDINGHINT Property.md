@@ -8,17 +8,12 @@ Show bending note # 36522.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_SHOWBENDINGHINT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_SHOWBENDINGHINT {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_SHOWBENDINGHINT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

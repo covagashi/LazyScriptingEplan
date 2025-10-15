@@ -8,17 +8,12 @@ Specifies, if the Layer is printed
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsPrinted {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsPrinted {
@@ -26,5 +21,4 @@ property bool IsPrinted {
    bool get();
 
 }
-```
-```
+

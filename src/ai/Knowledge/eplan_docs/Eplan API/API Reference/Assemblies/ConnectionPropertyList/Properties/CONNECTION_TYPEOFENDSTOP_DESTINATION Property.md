@@ -8,17 +8,12 @@ Wire termination processing target # 31052.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_TYPEOFENDSTOP_DESTINATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_TYPEOFENDSTOP_DESTINATION {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_TYPEOFENDSTOP_DESTINATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

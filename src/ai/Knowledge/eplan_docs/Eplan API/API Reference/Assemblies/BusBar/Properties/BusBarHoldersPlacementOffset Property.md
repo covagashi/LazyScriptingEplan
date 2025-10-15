@@ -8,17 +8,12 @@ Offset of bus bar holder placements relative to start point of bus bar.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual double BusBarHoldersPlacementOffset {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property double BusBarHoldersPlacementOffset {
@@ -26,5 +21,4 @@ virtual property double BusBarHoldersPlacementOffset {
    double get();
 
 }
-```
-```
+

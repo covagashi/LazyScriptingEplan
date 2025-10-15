@@ -8,17 +8,12 @@ Returns part number of the assembly.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PartNr {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ PartNr {
@@ -26,8 +21,7 @@ property String^ PartNr {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

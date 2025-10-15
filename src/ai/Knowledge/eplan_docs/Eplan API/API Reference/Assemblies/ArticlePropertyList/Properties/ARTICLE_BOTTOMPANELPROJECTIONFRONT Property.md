@@ -8,17 +8,12 @@ Overhang: Base front # 22183.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_BOTTOMPANELPROJECTIONFRONT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_BOTTOMPANELPROJECTIONFRONT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_BOTTOMPANELPROJECTIONFRONT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

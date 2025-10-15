@@ -8,17 +8,12 @@ Returns a full name of the PLC converter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string FullName {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ FullName {
@@ -26,5 +21,4 @@ property String^ FullName {
    String^ get();
 
 }
-```
-```
+

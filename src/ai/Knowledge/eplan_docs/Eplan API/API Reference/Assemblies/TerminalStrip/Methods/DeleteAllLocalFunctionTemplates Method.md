@@ -8,19 +8,13 @@ Removes all local terminal templates from the terminal strip.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DeleteAllLocalFunctionTemplates()
-```
-```
 
-```
-```
 public:
 
 void DeleteAllLocalFunctionTemplates();
-```
-```
+

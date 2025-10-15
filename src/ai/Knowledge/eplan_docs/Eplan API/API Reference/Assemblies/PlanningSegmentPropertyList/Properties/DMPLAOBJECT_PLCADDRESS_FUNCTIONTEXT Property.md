@@ -8,21 +8,16 @@ PLC address: Workstation # 44047.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_PLCADDRESS_STATION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_PLCADDRESS_STATION {
@@ -32,8 +27,7 @@ property PropertyValue^ DMPLAOBJECT_PLCADDRESS_STATION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

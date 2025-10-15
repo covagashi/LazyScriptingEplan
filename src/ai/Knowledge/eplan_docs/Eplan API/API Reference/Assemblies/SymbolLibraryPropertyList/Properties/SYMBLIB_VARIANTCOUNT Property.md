@@ -8,17 +8,12 @@ Number of symbol variants # 15017.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMBLIB_VARIANTCOUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMBLIB_VARIANTCOUNT {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMBLIB_VARIANTCOUNT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

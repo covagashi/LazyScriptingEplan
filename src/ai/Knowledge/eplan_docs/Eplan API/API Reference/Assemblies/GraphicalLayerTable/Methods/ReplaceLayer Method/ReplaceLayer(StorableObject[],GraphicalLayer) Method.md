@@ -8,11 +8,10 @@ Replace [Eplan::EplApi::DataModel:](Eplan.EplApi.DataModelu~Eplan.EplApi.DataMod
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ReplaceLayer( 
 
    StorableObject[] elementsToReplace,
@@ -20,11 +19,7 @@ public void ReplaceLayer(
    GraphicalLayer newLayer
 
 )
-```
-```
 
-```
-```
 public:
 
 void ReplaceLayer( 
@@ -34,8 +29,7 @@ void ReplaceLayer(
    GraphicalLayer^ newLayer
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,20 +8,14 @@ Parameter enum how terminals or pins with alphabetical elements in the designati
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Renumber.Enums.TerminalsWithAlphabeticalCharacters : System.Enum
-```
-```
 
-```
-```
 public enum class Renumber.Enums.TerminalsWithAlphabeticalCharacters : public System.Enum
-```
-```
+
 
 Members
 

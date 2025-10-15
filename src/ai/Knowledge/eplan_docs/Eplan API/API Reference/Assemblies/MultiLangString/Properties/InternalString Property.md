@@ -8,17 +8,12 @@ Sets internal string representation with format validation.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string InternalString {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ InternalString {
@@ -28,5 +23,4 @@ property String^ InternalString {
    void set (    String^ value);
 
 }
-```
-```
+

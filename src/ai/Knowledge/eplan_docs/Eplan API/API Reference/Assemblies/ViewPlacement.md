@@ -16,22 +16,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ViewPlacement : Eplan.EplApi.DataModel.Group, Eplan.EplApi.DataModel.IPlacementsContainer
-```
-```
 
-```
-```
 public ref class ViewPlacement : public Eplan.EplApi.DataModel.Group, Eplan.EplApi.DataModel.IPlacementsContainer
-```
-```
-
-
 
 Public Constructors
 
@@ -40,8 +31,6 @@ Public Constructors
 | Public Constructor | [ViewPlacement Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.ViewPlacement~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

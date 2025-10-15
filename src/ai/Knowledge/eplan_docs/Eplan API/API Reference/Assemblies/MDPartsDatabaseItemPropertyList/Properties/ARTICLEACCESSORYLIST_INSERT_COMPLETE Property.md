@@ -8,17 +8,12 @@ Insert complete accessory list # 22987.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLEACCESSORYLIST_INSERT_COMPLETE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLEACCESSORYLIST_INSERT_COMPLETE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLEACCESSORYLIST_INSERT_COMPLETE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

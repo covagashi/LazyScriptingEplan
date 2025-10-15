@@ -8,17 +8,12 @@ Graphical sub-placements which are drawn in a graphical view.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement[] SubPlacements {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Placement^>^ SubPlacements {
@@ -26,5 +21,4 @@ property array<Placement^>^ SubPlacements {
    array<Placement^>^ get();
 
 }
-```
-```
+

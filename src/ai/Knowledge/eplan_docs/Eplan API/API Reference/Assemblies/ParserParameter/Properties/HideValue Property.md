@@ -8,17 +8,12 @@ Hide the value of the parsed result, all other texts (units and additional texts
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool HideValue {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool HideValue {
@@ -28,5 +23,4 @@ property bool HideValue {
    void set (    bool value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Symbol number # 20168.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_SYMB_NUMBER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_SYMB_NUMBER {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_SYMB_NUMBER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

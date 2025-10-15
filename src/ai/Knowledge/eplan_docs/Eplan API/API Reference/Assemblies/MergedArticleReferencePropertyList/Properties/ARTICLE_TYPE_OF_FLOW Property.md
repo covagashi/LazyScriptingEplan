@@ -8,17 +8,12 @@ Type of flow # 26219.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TYPE_OF_FLOW {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TYPE_OF_FLOW {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TYPE_OF_FLOW {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

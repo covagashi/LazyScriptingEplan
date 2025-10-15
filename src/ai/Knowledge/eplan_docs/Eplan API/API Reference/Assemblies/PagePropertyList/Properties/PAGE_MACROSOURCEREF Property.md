@@ -8,17 +8,12 @@ Macro: Source / reference # 11034.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_MACROSOURCEREF {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_MACROSOURCEREF {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_MACROSOURCEREF {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Determines if page is a logical page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static bool IsLogicalPageDocType( 
 
    DocumentTypeManager.DocumentType nPageType
 
 )
-```
-```
 
-```
-```
 public:
 
 static bool IsLogicalPageDocType( 
@@ -30,8 +25,7 @@ static bool IsLogicalPageDocType(
    DocumentTypeManager.DocumentType nPageType
 
 )
-```
-```
+
 
 #### Parameters
 

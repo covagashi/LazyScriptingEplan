@@ -8,22 +8,16 @@ Returns relative bounding box of a Placement3D.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Rect3D GetBoundingBoxRelative()
-```
-```
 
-```
-```
 public:
 
 Rect3D GetBoundingBoxRelative();
-```
-```
+
 
 Remarks
 

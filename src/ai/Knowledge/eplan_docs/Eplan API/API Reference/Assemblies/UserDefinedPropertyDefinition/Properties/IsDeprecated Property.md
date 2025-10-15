@@ -8,17 +8,12 @@ Allows to check if a given property is marked as deprecated.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override bool IsDeprecated {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsDeprecated {
@@ -26,14 +21,13 @@ property bool IsDeprecated {
    bool get() override;
 
 }
-```
-```
+
 
 #### Property Value
 
-â¢ true = Property is deprecated
+'¢ true = Property is deprecated
 
-â¢ false = Property is not deprecated
+'¢ false = Property is not deprecated
 
 Remarks
 
@@ -41,19 +35,13 @@ Can only be called after retrieving a property list from the given API class. Re
 
 Example
 
-- [C#](#i-tab-content-990d724e-b8e7-4c12-bb67-4b6d4f27bd8b)
+**C#**
 
 ```
 
 
 Function function = page.Functions[0]; // A valid Function object
 
-
-
 bool isDeprecated = function.Properties.FUNC_COUNTER.Definition.IsDeprecated;
-
-
-
-
 
 ```

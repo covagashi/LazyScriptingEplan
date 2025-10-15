@@ -8,17 +8,12 @@ Connecting cable: Application area # 26208.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_APPLICATION_RANGE_OF_THE_CONNECTION_CABLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_APPLICATION_RANGE_OF_THE_CONNECTION_CABLE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_APPLICATION_RANGE_OF_THE_CONNECTION_CABLE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Final Position of CAD Cursor in world coordinates.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual PointD3D FinalPosition {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property PointD3D FinalPosition {
@@ -26,5 +21,4 @@ virtual property PointD3D FinalPosition {
    PointD3D get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Frequency (signal processing) # 26336.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_FREQUENCY_SIGNAL_PROCESSING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_FREQUENCY_SIGNAL_PROCESSING {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_FREQUENCY_SIGNAL_PROCESSING {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

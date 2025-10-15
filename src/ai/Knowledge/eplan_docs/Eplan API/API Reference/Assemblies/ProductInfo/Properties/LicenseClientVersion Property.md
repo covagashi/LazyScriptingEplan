@@ -8,17 +8,12 @@ License Client Version
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string LicenseClientVersion {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ LicenseClientVersion {
@@ -28,5 +23,4 @@ property String^ LicenseClientVersion {
    void set (    String^ value);
 
 }
-```
-```
+

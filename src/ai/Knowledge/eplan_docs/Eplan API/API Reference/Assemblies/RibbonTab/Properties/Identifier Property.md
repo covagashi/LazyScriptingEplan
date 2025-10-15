@@ -8,17 +8,12 @@ Returns tab identifier (as enum or internal id)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonTab.DefaultRibbonTabs Identifier {get;}
-```
-```
 
-```
-```
 public:
 
 property RibbonTab.DefaultRibbonTabs Identifier {
@@ -26,5 +21,4 @@ property RibbonTab.DefaultRibbonTabs Identifier {
    RibbonTab.DefaultRibbonTabs get();
 
 }
-```
-```
+

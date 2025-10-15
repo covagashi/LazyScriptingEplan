@@ -8,17 +8,12 @@ Returns command text
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Text {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Text {
@@ -26,5 +21,4 @@ property String^ Text {
    String^ get();
 
 }
-```
-```
+

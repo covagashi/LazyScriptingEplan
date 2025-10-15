@@ -8,17 +8,12 @@ Minimum cross section that can be connected to this connection point.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double MinCrossSection {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double MinCrossSection {
@@ -28,5 +23,4 @@ property double MinCrossSection {
    void set (    double value);
 
 }
-```
-```
+

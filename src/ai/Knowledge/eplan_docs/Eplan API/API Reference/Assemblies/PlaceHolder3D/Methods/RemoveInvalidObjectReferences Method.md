@@ -8,22 +8,16 @@ Removes invalid (e.g. deleted) object references from a PlaceHolder3D.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void RemoveInvalidObjectReferences()
-```
-```
 
-```
-```
 public:
 
 virtual void RemoveInvalidObjectReferences();
-```
-```
+
 
 Exceptions
 

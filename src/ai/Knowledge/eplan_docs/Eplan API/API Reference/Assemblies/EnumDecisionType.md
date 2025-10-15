@@ -8,20 +8,14 @@ The type one setting can hold data in.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum EnumDecisionType : System.Enum
-```
-```
 
-```
-```
 public enum class EnumDecisionType : public System.Enum
-```
-```
+
 
 Members
 

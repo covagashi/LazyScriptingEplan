@@ -8,17 +8,12 @@ PLC subdevice 12: PLC type designation # 22351.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_PLCGROUP_TYPIDENTIFIER_12 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_PLCGROUP_TYPIDENTIFIER_12 {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_PLCGROUP_TYPIDENTIFIER_12 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

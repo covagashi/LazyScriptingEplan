@@ -8,17 +8,12 @@ Suppress in bill of materials (if filtered) # 20494.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_SUPPRESSINPARTSLIST {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_SUPPRESSINPARTSLIST {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_SUPPRESSINPARTSLIST {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

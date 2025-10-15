@@ -18,26 +18,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class BoxedDevice : Function, IArticleUser, IFunctionBase, IPropertyPlacementsContainer, IWriteProtection
-```
-```
 
-```
-```
 public ref class BoxedDevice : public Function, IArticleUser, IFunctionBase, IPropertyPlacementsContainer, IWriteProtection
-```
-```
+
 
 Example
 
 The following example shows how to use class BoxedDevice.
 
-- [C#](#i-tab-content-1a6b2e7c-bb6a-4e8c-87e2-b0beb14522c8)
+**C#**
 
 ```
 BoxedDevice oBoxedDevice = new BoxedDevice();
@@ -50,8 +44,6 @@ oBoxedDevice.Properties.FUNC_DT_FUNCTIONCODE = "e";
 
 Console.Out.WriteLine(oBoxedDevice.FunctionCategory.ToString());
 
-
-
 ```
 
 Public Constructors
@@ -61,8 +53,6 @@ Public Constructors
 | Public Constructor | [BoxedDevice Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.BoxedDevice~_ctor().html) | Constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

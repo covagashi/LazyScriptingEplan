@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class EplTrace
-```
-```
 
-```
-```
 public ref class EplTrace
-```
-```
+
 
 Example
 
@@ -47,9 +41,6 @@ Public Constructors
 | Public Constructor | [EplTrace Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.EplTrace~_ctor.html) |  |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

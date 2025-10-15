@@ -16,20 +16,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PlaceHolder : GraphicalPlacement, Eplan.EplApi.DataModel.IPlaceHolder, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class PlaceHolder : public GraphicalPlacement, Eplan.EplApi.DataModel.IPlaceHolder, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
+
 
 Remarks
 
@@ -39,7 +33,7 @@ Example
 
 The following example shows how to use class PlaceHolder. Here is example of PlaceHolder having IsChangeable property set.
 
-- [C#](#i-tab-content-4fcf4145-2ce3-4245-b224-d533e562689e)
+**C#**
 
 ```
 
@@ -54,8 +48,6 @@ placeHolder.Location = new PointD(80.0, 200.0);
 
 placeHolder.Name = "PlaceHolder 1";
 
-
-
 // Add variables and set values to records
 
 placeHolder.Variables.Add("X VAR");
@@ -63,8 +55,6 @@ placeHolder.Variables.Add("X VAR");
 placeHolder.ValueSets.Add("Set 1");
 
 placeHolder.ValueSets.Add("Set 2");
-
-
 
 //setting values
 
@@ -74,8 +64,6 @@ oMultiLangString.AddString(ISOCode.Language.L___, "test string");
 
 placeHolder.Values["X VAR", "Set 1"] = oMultiLangString;
 
-
-
 // Set variable for FUNC_TEXT property
 
 Eplan.EplApi.Base.MultiLangString funcText = new MultiLangString();
@@ -84,19 +72,13 @@ funcText.AddString(ISOCode.Language.L_en_US, "<X VAR>");
 
 placeHolder.SetPropertyEntry(oFunction, Properties.Function.FUNCTION_MESSAGETEXT, funcText);
 
-
-
 //Apply record
 
 placeHolder.ApplyRecord("Set 1");
 
-
-
-
-
 ```
 
-- [C#](#i-tab-content-61c43437-cda2-462d-b5ab-840ad6411f46)
+**C#**
 
 ```
 //creating PlaceHolder
@@ -105,8 +87,6 @@ PlaceHolder oPlaceHolder = new PlaceHolder();
 
 oPlaceHolder.Create(m_oTestPage);
 
-
-
 oPlaceHolder.Variables.Add(new PlaceHolder.Variable(oPlaceHolder, "test variable 1"));
 
 oPlaceHolder.Variables.Add("test variable 2");
@@ -114,8 +94,6 @@ oPlaceHolder.Variables.Add("test variable 2");
 oPlaceHolder.Variables.Add("test variable 3");
 
 oPlaceHolder.Variables.Remove("test variable 2");
-
-
 
 //adding value sets
 
@@ -127,8 +105,6 @@ oPlaceHolder.ValueSets.Add("value set 3");
 
 oPlaceHolder.ValueSets.Remove("value set 1");
 
-
-
 //setting values
 
 MultiLangString oMultiLangString = new MultiLangString();
@@ -137,23 +113,17 @@ oMultiLangString.AddString(ISOCode.Language.L___, "test string");
 
 oPlaceHolder.Values["test variable 1", "value set 3"] = oMultiLangString;
 
-
-
 //setting IsChangeable
 
 oPlaceHolder.Variables["test variable 3"].IsChangeable = !oPlaceHolder.Variables[0].IsChangeable;
 
 oPlaceHolder.Variables.Add("test variable 2", true);
 
-
-
 //clearing variables and value sets                 
 
 oPlaceHolder.ValueSets.Clear();
 
 oPlaceHolder.Variables.Clear();
-
-
 
 ```
 

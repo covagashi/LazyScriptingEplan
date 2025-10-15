@@ -8,11 +8,10 @@ Creates or redefines the placement area of Placement3D.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlacementArea( 
 
    Vector3D vDirection,
@@ -20,11 +19,7 @@ public PlacementArea(
    PointD3D oPointRelative
 
 )
-```
-```
 
-```
-```
 public:
 
 PlacementArea( 
@@ -34,8 +29,7 @@ PlacementArea(
    PointD3D oPointRelative
 
 )
-```
-```
+
 
 #### Parameters
 

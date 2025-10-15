@@ -8,17 +8,12 @@ Gets symbol properties.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new SymbolPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property SymbolPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property SymbolPropertyList^ Properties {
    SymbolPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Rail cross-section # 22271.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_RAILCROSSSECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_RAILCROSSSECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_RAILCROSSSECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,11 +8,10 @@ Find source mate by name. Mate namePlacement options
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointMate FindSourceMate( 
 
    string name,
@@ -20,11 +19,7 @@ public PointMate FindSourceMate(
    Mate.Enums.PlacementOptions ePlacementOptions
 
 )
-```
-```
 
-```
-```
 public:
 
 PointMate^ FindSourceMate( 
@@ -34,8 +29,7 @@ PointMate^ FindSourceMate(
    Mate.Enums.PlacementOptions ePlacementOptions
 
 )
-```
-```
+
 
 #### Parameters
 

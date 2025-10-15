@@ -8,17 +8,12 @@ Returns the [FunctionDefinition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual FunctionDefinition FunctionDefinition {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property FunctionDefinition^ FunctionDefinition {
@@ -28,8 +23,7 @@ virtual property FunctionDefinition^ FunctionDefinition {
    void set (    FunctionDefinition^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

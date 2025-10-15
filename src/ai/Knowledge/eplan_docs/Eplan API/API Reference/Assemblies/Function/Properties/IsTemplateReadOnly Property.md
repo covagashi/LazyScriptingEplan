@@ -8,17 +8,12 @@ Determines whether changes made on this template will be stored after UpdateLoca
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsTemplateReadOnly {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsTemplateReadOnly {
@@ -26,5 +21,4 @@ property bool IsTemplateReadOnly {
    bool get();
 
 }
-```
-```
+

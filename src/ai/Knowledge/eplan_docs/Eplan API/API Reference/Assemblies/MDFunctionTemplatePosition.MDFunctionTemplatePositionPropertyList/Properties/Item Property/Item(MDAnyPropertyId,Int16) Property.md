@@ -6,11 +6,10 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue Item( 
 
    MDAnyPropertyId A_0,
@@ -18,11 +17,7 @@ public MDPropertyValue Item(
    short A_1
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ Item {
@@ -32,8 +27,7 @@ property MDPropertyValue^ Item {
    void set (MDAnyPropertyId^ A_0, short A_1, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Gets placement area relative coordinates.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D[] CoordinatesRelative {get;}
-```
-```
 
-```
-```
 public:
 
 property array<PointD3D>^ CoordinatesRelative {
@@ -26,5 +21,4 @@ property array<PointD3D>^ CoordinatesRelative {
    array<PointD3D>^ get();
 
 }
-```
-```
+

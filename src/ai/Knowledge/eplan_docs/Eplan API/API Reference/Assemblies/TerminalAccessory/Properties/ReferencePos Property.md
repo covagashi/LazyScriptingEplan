@@ -8,17 +8,12 @@ Gets position in the reference table of the object (means propertyindex)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new short ReferencePos {get;}
-```
-```
 
-```
-```
 public:
 
 new property short ReferencePos {
@@ -26,5 +21,4 @@ new property short ReferencePos {
    short get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ It describes the maximum force with which, for example, a screw is tightened
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double MaxTighteningTorque {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double MaxTighteningTorque {
@@ -28,5 +23,4 @@ property double MaxTighteningTorque {
    void set (    double value);
 
 }
-```
-```
+

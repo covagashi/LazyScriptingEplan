@@ -8,17 +8,12 @@ Show tab for DT structures # 10008.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_SHOWDTSTRUCTURETAB {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_SHOWDTSTRUCTURETAB {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_SHOWDTSTRUCTURETAB {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Complete structure identifier with preceding sign # 1003.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue LOCATION_FULLNAME_WITHPREFIX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ LOCATION_FULLNAME_WITHPREFIX {
@@ -28,8 +23,7 @@ property PropertyValue^ LOCATION_FULLNAME_WITHPREFIX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

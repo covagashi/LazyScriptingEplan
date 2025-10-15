@@ -8,17 +8,12 @@ Nominal cooling capacity (L35W10 200 l/h) # 26130.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_NOMINAL_COOLING_PERFORMANCE_L35W10_200L_H {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_NOMINAL_COOLING_PERFORMANCE_L35W10_200L_H {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_NOMINAL_COOLING_PERFORMANCE_L35W10_200L_H {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Thermal output that can be dissipated for cooling at a water flow rate of 200 l/h under the condition: heat transfer medium air at the evaporator inlet at 35 Â°C and heat transfer medium water at the condenser inlet at 10 Â°C.
+Thermal output that can be dissipated for cooling at a water flow rate of 200 l/h under the condition: heat transfer medium air at the evaporator inlet at 35 °C and heat transfer medium water at the condenser inlet at 10 °C.

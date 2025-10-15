@@ -8,17 +8,12 @@ InsertionPoint
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool InsertionPointActive {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool InsertionPointActive {
@@ -28,5 +23,4 @@ property bool InsertionPointActive {
    void set (    bool value);
 
 }
-```
-```
+

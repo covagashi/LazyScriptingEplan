@@ -8,17 +8,12 @@ Get the phone number of the User.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Phone {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Phone {
@@ -26,5 +21,4 @@ property String^ Phone {
    String^ get();
 
 }
-```
-```
+

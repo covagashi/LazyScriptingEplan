@@ -8,17 +8,12 @@ PLC bus interface name
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PlcBusInterfaceName {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PlcBusInterfaceName {
@@ -28,5 +23,4 @@ property String^ PlcBusInterfaceName {
    void set (    String^ value);
 
 }
-```
-```
+

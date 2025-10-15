@@ -8,17 +8,12 @@ Returns true if the text frame exist.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool DrawTextBox {get;}
-```
-```
 
-```
-```
 public:
 
 property bool DrawTextBox {
@@ -26,8 +21,7 @@ property bool DrawTextBox {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

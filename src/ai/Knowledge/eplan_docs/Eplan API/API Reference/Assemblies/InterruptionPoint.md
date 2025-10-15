@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class InterruptionPoint : FunctionBase, IFunctionBase, IPropertyPlacementsContainer, IWriteProtection
-```
-```
 
-```
-```
 public ref class InterruptionPoint : public FunctionBase, IFunctionBase, IPropertyPlacementsContainer, IWriteProtection
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [InterruptionPoint Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.InterruptionPoint~_ctor().html) | Constructor. Creates transient InterruptionPoint. |
 
 [Top](#top)
-
-
 
 Public Properties
 

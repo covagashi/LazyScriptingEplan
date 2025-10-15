@@ -8,21 +8,16 @@ Gets the name of the product-sub-group
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static string GetProductSubGroupName( 
 
    MDPartsDatabaseItem.Enums.ProductSubGroup productSubGroup
 
 )
-```
-```
 
-```
-```
 public:
 
 static String^ GetProductSubGroupName( 
@@ -30,8 +25,7 @@ static String^ GetProductSubGroupName(
    MDPartsDatabaseItem.Enums.ProductSubGroup productSubGroup
 
 )
-```
-```
+
 
 #### Parameters
 

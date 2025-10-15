@@ -8,17 +8,12 @@ Returns array of PropertyValue objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue[] ExistingValues {get;}
-```
-```
 
-```
-```
 public:
 
 property array<PropertyValue^>^ ExistingValues {
@@ -26,8 +21,7 @@ property array<PropertyValue^>^ ExistingValues {
    array<PropertyValue^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

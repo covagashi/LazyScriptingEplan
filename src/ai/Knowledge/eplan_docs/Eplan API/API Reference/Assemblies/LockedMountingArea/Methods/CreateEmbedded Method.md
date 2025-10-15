@@ -8,21 +8,16 @@ Creates an embedded object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateEmbedded( 
 
    StorableObject parent
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateEmbedded( 
@@ -30,8 +25,7 @@ void CreateEmbedded(
    StorableObject^ parent
 
 )
-```
-```
+
 
 #### Parameters
 

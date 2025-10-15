@@ -8,22 +8,16 @@ Is called after special input operation has finished.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnInputFinish()
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnInputFinish();
-```
-```
+
 
 #### Return Value
 

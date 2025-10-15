@@ -8,11 +8,10 @@ Starts a check run for all MDParts or only for MDPartsDatabaseMessages marked as
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void VerifyMDPartsDatabaseItems( 
 
    string strVerificationScheme,
@@ -20,11 +19,7 @@ public void VerifyMDPartsDatabaseItems(
    bool bVerifyCompletedMessagesOnly
 
 )
-```
-```
 
-```
-```
 public:
 
 void VerifyMDPartsDatabaseItems( 
@@ -34,8 +29,7 @@ void VerifyMDPartsDatabaseItems(
    bool bVerifyCompletedMessagesOnly
 
 )
-```
-```
+
 
 #### Parameters
 

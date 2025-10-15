@@ -8,17 +8,12 @@ System configuration scheme name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SystemConfiguration {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ SystemConfiguration {
@@ -28,8 +23,7 @@ property String^ SystemConfiguration {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Remarks
 

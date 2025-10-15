@@ -8,17 +8,12 @@ Grouping sign for item designation (automatic) # 36002.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_DESIGNATIONPREFIX_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_DESIGNATIONPREFIX_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_DESIGNATIONPREFIX_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

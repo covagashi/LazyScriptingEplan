@@ -8,17 +8,12 @@ Naming format for interruption points # 10071.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_NAMEFORMAT_INTERRUPTIONPOINT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_NAMEFORMAT_INTERRUPTIONPOINT {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_NAMEFORMAT_INTERRUPTIONPOINT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

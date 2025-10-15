@@ -8,17 +8,12 @@ Returns upper right back relative coordinate
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D UpperRightBackRelative {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD3D UpperRightBackRelative {
@@ -26,5 +21,4 @@ property PointD3D UpperRightBackRelative {
    PointD3D get();
 
 }
-```
-```
+

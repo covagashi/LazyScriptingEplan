@@ -8,17 +8,12 @@ Manual control devices # 26050.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_MANUAL_CONTROLS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_MANUAL_CONTROLS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_MANUAL_CONTROLS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

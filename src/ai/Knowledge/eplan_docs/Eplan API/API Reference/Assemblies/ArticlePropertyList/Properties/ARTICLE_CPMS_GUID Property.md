@@ -8,17 +8,12 @@ Unique external part ID # 22984.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CPMS_GUID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CPMS_GUID {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CPMS_GUID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Trade 'Electrical engineering' # 22131.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CRAFT_ELECTRICAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CRAFT_ELECTRICAL {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CRAFT_ELECTRICAL {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

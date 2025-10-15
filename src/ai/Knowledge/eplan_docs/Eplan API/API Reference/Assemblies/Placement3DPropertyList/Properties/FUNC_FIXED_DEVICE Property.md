@@ -8,17 +8,12 @@ Device protection # 20475.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_FIXED_DEVICE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_FIXED_DEVICE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_FIXED_DEVICE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

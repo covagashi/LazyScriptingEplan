@@ -8,11 +8,10 @@ Constructor.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D( 
 
    double dX,
@@ -22,11 +21,7 @@ public PointD3D(
    double dZ
 
 )
-```
-```
 
-```
-```
 public:
 
 PointD3D( 
@@ -38,8 +33,7 @@ PointD3D(
    double dZ
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,19 +8,13 @@ When a mainframe is set for API offline programs some dialogs which are normally
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ResetQuietMode()
-```
-```
 
-```
-```
 public:
 
 void ResetQuietMode();
-```
-```
+

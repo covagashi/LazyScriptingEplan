@@ -8,17 +8,12 @@ Test voltage # 26133.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TEST_VOLTAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TEST_VOLTAGE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TEST_VOLTAGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Total pressure difference, max. # 26103.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TOTAL_PRESSURE_DIFFERENCE_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TOTAL_PRESSURE_DIFFERENCE_MAX {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TOTAL_PRESSURE_DIFFERENCE_MAX {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

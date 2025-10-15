@@ -8,17 +8,12 @@ The MessageState determines the actual adjusted check type
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Message.MessageStateType MessageState {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Message.MessageStateType MessageState {
@@ -28,5 +23,4 @@ property Message.MessageStateType MessageState {
    void set (    Message.MessageStateType value);
 
 }
-```
-```
+

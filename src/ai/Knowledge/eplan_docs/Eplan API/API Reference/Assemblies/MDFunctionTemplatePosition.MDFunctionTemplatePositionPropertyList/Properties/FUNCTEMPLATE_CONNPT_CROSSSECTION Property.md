@@ -8,17 +8,12 @@ Connection point cross-section / diameter # 21021.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNCTEMPLATE_CONNPT_CROSSSECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNCTEMPLATE_CONNPT_CROSSSECTION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNCTEMPLATE_CONNPT_CROSSSECTION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

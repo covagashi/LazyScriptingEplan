@@ -8,11 +8,10 @@ Call an action.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExecuteAction( 
 
    string strAction,
@@ -20,11 +19,7 @@ public bool ExecuteAction(
    ref CallingContext context
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExecuteAction( 
@@ -34,8 +29,7 @@ bool ExecuteAction(
    CallingContext^% context
 
 )
-```
-```
+
 
 #### Parameters
 

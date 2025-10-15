@@ -8,11 +8,10 @@ This function imports a device list into a given project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ImportDeviceList( 
 
    string strFullLinkFileName,
@@ -22,11 +21,7 @@ public void ImportDeviceList(
    DeviceService.Format fileFormat
 
 )
-```
-```
 
-```
-```
 public:
 
 void ImportDeviceList( 
@@ -38,8 +33,7 @@ void ImportDeviceList(
    DeviceService.Format fileFormat
 
 )
-```
-```
+
 
 #### Parameters
 

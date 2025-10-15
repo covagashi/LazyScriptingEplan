@@ -8,17 +8,12 @@ Name (accessory list) # 22960.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue PART_ACCESSORYLIST_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ PART_ACCESSORYLIST_NAME {
@@ -28,8 +23,7 @@ property MDPropertyValue^ PART_ACCESSORYLIST_NAME {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

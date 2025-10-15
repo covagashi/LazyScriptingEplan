@@ -8,21 +8,16 @@ Writes all settings to a file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Write( 
 
    string strFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 void Write( 
@@ -30,8 +25,7 @@ void Write(
    String^ strFileName
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -51,7 +45,7 @@ Example
 
 Example how to export main settings node by SettingNode:
 
-- [C#](#i-tab-content-5d638278-e73b-48d9-95ea-3a5892f1677e)
+**C#**
 
 ```
 SettingNode oSettingNode = new SettingNode("USER");

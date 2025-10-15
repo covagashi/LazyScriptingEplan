@@ -14,26 +14,17 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [AttributeUsage(AttributeTargets.Method)]
 
 public class DeclareEventHandler : System.Attribute
-```
-```
 
-```
-```
 [AttributeUsage(AttributeTargets.Method)]
 
 public ref class DeclareEventHandler : public System.Attribute
-```
-```
-
-
 
 Public Constructors
 
@@ -42,8 +33,6 @@ Public Constructors
 | Public Constructor | [DeclareEventHandler Constructor](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareEventHandler~_ctor.html) | This function of the script is registered as an event handler in the system. |
 
 [Top](#top)
-
-
 
 Public Properties
 

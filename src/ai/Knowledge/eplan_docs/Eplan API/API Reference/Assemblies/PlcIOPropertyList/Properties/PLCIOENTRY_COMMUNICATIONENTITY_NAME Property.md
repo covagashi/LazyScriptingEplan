@@ -8,17 +8,12 @@ Name of the communication unit # 23400.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PLCIOENTRY_COMMUNICATIONENTITY_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PLCIOENTRY_COMMUNICATIONENTITY_NAME {
@@ -28,8 +23,7 @@ property PropertyValue^ PLCIOENTRY_COMMUNICATIONENTITY_NAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

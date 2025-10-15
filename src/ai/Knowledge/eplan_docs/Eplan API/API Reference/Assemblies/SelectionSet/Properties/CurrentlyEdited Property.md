@@ -8,17 +8,12 @@ Determines Page or InstallationSpace currently edited in graphical editor.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject CurrentlyEdited {get;}
-```
-```
 
-```
-```
 public:
 
 property StorableObject^ CurrentlyEdited {
@@ -26,8 +21,7 @@ property StorableObject^ CurrentlyEdited {
    StorableObject^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

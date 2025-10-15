@@ -8,17 +8,12 @@ Get the computername of the User.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ComputerName {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ ComputerName {
@@ -26,5 +21,4 @@ property String^ ComputerName {
    String^ get();
 
 }
-```
-```
+

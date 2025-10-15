@@ -8,11 +8,10 @@ Returns an array of connection points defined in the symbol's function definitio
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Pin[] GetConnectionPoints( 
 
    Project project,
@@ -20,11 +19,7 @@ public Pin[] GetConnectionPoints(
    out bool bVariableCount
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Pin^>^ GetConnectionPoints( 
@@ -34,8 +29,7 @@ array<Pin^>^ GetConnectionPoints(
    [Out] bool bVariableCount
 
 )
-```
-```
+
 
 #### Parameters
 

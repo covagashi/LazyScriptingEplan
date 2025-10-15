@@ -8,17 +8,12 @@ Relevant to safety # 44060.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_SAFETY_RELEVANT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_SAFETY_RELEVANT {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_SAFETY_RELEVANT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

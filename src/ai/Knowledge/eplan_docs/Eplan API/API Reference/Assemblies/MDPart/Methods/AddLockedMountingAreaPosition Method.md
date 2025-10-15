@@ -8,22 +8,16 @@ Add a new locked mounting area position to the part. That position is added to t
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartLockedMountingAreaPosition AddLockedMountingAreaPosition()
-```
-```
 
-```
-```
 public:
 
 MDPartLockedMountingAreaPosition^ AddLockedMountingAreaPosition();
-```
-```
+
 
 Remarks
 

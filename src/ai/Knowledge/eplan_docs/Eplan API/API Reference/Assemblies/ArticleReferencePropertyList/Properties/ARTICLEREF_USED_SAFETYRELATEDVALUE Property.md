@@ -8,17 +8,12 @@ Safety-related values: Use case in use # 40345.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_USED_SAFETYRELATEDVALUE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_USED_SAFETYRELATEDVALUE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_USED_SAFETYRELATEDVALUE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

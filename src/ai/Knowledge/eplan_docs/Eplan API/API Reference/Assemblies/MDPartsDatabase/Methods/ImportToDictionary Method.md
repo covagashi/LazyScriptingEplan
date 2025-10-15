@@ -8,21 +8,16 @@ Imports parts database translations to the system dictionary (MDTranslationDatab
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ImportToDictionary( 
 
    ISOCode.Language[] languages
 
 )
-```
-```
 
-```
-```
 public:
 
 void ImportToDictionary( 
@@ -30,8 +25,7 @@ void ImportToDictionary(
    array<ISOCode.Language>^ languages
 
 )
-```
-```
+
 
 #### Parameters
 

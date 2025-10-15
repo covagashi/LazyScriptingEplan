@@ -8,17 +8,12 @@ Error message
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ErrorMsg {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ErrorMsg {
@@ -28,5 +23,4 @@ property String^ ErrorMsg {
    void set (    String^ value);
 
 }
-```
-```
+

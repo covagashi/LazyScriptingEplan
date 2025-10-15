@@ -8,17 +8,12 @@ Sequence of individual DT properties # 10091.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_DEVTAGFORMAT_CUSTOMFORMAT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_DEVTAGFORMAT_CUSTOMFORMAT {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_DEVTAGFORMAT_CUSTOMFORMAT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

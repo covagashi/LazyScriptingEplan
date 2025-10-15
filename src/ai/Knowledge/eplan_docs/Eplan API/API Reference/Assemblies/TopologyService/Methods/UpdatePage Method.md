@@ -8,21 +8,16 @@ Updates start and end position of all segment elements found on a page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void UpdatePage( 
 
    Page pPage
 
 )
-```
-```
 
-```
-```
 public:
 
 void UpdatePage( 
@@ -30,8 +25,7 @@ void UpdatePage(
    Page^ pPage
 
 )
-```
-```
+
 
 #### Parameters
 

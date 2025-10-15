@@ -8,17 +8,12 @@ ProjectManager's property which returns first project from the list of opened pr
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Project CurrentProject {get;}
-```
-```
 
-```
-```
 public:
 
 property Project^ CurrentProject {
@@ -26,8 +21,7 @@ property Project^ CurrentProject {
    Project^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

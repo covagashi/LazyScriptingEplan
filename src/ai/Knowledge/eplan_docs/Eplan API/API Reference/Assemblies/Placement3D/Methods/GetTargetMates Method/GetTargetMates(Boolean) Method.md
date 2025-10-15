@@ -8,21 +8,16 @@ Get array of all target mates from this object. Consider mounting clearance
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Mate[] GetTargetMates( 
 
    bool bConsiderMountingClearance
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Mate^>^ GetTargetMates( 
@@ -30,8 +25,7 @@ array<Mate^>^ GetTargetMates(
    bool bConsiderMountingClearance
 
 )
-```
-```
+
 
 #### Parameters
 

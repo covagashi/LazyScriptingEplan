@@ -8,21 +8,16 @@ Gets the element at the specified index.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SubProject this[ 
 
    int index
 
 ]; {get;}
-```
-```
 
-```
-```
 public:
 
 property SubProject^ default [int] {
@@ -30,8 +25,7 @@ property SubProject^ default [int] {
    SubProject^ get(int index);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -5,23 +5,26 @@
 ---
 
 ```
-Action class to navigate to an object in the EPLAN Engineering Configuration.
-```
+Action class to navigate to an object in the EPLAN Engineering Configuration.
 
-  
+```
 
 | Parameter | Description |
 | --- | --- |
-| ``` EECOBJECTID ``` | ``` Object ID in the EEC to navigate to. ``` |
+| ``` EECOBJECTID
+ ``` | ``` Object ID in the EEC to navigate to.
+ ``` |
 
 **Remarks**
 
 ```
-If the object ID is not given or if it is invalid, a "BaseException" is thrown.
+If the object ID is not given or if it is invalid, a "BaseException" is thrown.
+
 ```
 
 **Example**
 
 ```
-navigateToEEC /EECOBJECTID:"?"
+navigateToEEC /EECOBJECTID:"?"
+
 ```

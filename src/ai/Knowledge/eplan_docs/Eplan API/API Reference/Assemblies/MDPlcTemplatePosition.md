@@ -15,24 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDPlcTemplatePosition : MDFunctionTemplatePosition
-```
-```
 
-```
-```
 public ref class MDPlcTemplatePosition : public MDFunctionTemplatePosition
-```
-```
-
-
-
-
 
 Public Properties
 

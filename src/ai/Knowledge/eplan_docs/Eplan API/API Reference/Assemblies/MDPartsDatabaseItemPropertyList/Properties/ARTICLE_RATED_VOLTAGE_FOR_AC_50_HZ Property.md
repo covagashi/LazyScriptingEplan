@@ -8,17 +8,12 @@ Nominal voltage (AC 50 Hz) # 26488.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_RATED_VOLTAGE_FOR_AC_50_HZ {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_RATED_VOLTAGE_FOR_AC_50_HZ {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_RATED_VOLTAGE_FOR_AC_50_HZ {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

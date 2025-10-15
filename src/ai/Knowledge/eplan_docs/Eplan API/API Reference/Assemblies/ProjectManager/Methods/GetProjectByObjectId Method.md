@@ -8,21 +8,16 @@ Gets the project of an object id string. This is the project the object belongs 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Project GetProjectByObjectId( 
 
    string objectId
 
 )
-```
-```
 
-```
-```
 public:
 
 Project^ GetProjectByObjectId( 
@@ -30,8 +25,7 @@ Project^ GetProjectByObjectId(
    String^ objectId
 
 )
-```
-```
+
 
 #### Parameters
 

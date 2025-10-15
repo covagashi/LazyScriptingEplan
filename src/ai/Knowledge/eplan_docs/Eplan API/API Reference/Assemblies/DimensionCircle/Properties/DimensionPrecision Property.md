@@ -8,17 +8,12 @@ Gets/Sets the precision of the dimension circle.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DimensionCircle.Enums.DimensionPrecision DimensionPrecision {get; set;}
-```
-```
 
-```
-```
 public:
 
 property DimensionCircle.Enums.DimensionPrecision DimensionPrecision {
@@ -28,5 +23,4 @@ property DimensionCircle.Enums.DimensionPrecision DimensionPrecision {
    void set (    DimensionCircle.Enums.DimensionPrecision value);
 
 }
-```
-```
+

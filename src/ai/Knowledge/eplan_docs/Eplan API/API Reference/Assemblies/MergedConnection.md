@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MergedConnection : StorableObject
-```
-```
 
-```
-```
 public ref class MergedConnection : public StorableObject
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [MergedConnection Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MergedConnection~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

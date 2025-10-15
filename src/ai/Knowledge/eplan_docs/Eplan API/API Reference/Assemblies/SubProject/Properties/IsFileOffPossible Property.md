@@ -8,17 +8,12 @@ Returns `true` if subproject represened by this object can be exported.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsFileOffPossible {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsFileOffPossible {
@@ -26,5 +21,4 @@ property bool IsFileOffPossible {
    bool get();
 
 }
-```
-```
+

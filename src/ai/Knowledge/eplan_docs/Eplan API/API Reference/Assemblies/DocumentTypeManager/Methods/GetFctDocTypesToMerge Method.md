@@ -8,19 +8,13 @@ Returns those page document types, for which a function placed on this page shou
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static DocumentTypeManager.DocumentType[] GetFctDocTypesToMerge()
-```
-```
 
-```
-```
 public:
 
 static array<DocumentTypeManager.DocumentType>^ GetFctDocTypesToMerge();
-```
-```
+

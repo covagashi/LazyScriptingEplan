@@ -8,21 +8,16 @@ Checks if a part with the given part number exists.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExistsPart( 
 
    string partnr
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExistsPart( 
@@ -30,8 +25,7 @@ bool ExistsPart(
    String^ partnr
 
 )
-```
-```
+
 
 #### Parameters
 

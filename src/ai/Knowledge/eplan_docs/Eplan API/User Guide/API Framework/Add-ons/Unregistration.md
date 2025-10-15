@@ -6,9 +6,7 @@
 
 ## Manual unregistration of an add-on
 
-After clicking the Add-ons option (as shown in figure 1), the same dialog â as shown in figure 2 â will appear. After deactivating the add-on,  the button  will be enabled.
-
-
+After clicking the Add-ons option (as shown in figure 1), the same dialog ' as shown in figure 2 ' will appear. After deactivating the add-on,  the button  will be enabled.
 
 *Figure 7: Unregister add-ons*
 
@@ -48,4 +46,4 @@ To reset the automatic registration with the Registry Editor, you only have to c
 
 ### Automatic unregistration with company settings
 
-To reset the automatic registration with company settings, you should leave the File path for automatic add-on registration field in the Settings: Add-ons dialog â as shown in figure 6 â **empty**.
+To reset the automatic registration with company settings, you should leave the File path for automatic add-on registration field in the Settings: Add-ons dialog ' as shown in figure 6 ' **empty**.

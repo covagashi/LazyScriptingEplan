@@ -8,11 +8,10 @@ Create a new FileSelectDecisionContext Object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FileSelectDecisionContext( 
 
    string strDecisionId,
@@ -20,11 +19,7 @@ public FileSelectDecisionContext(
    EnumDecisionReturn eDefaultDecision
 
 )
-```
-```
 
-```
-```
 public:
 
 FileSelectDecisionContext( 
@@ -34,8 +29,7 @@ FileSelectDecisionContext(
    EnumDecisionReturn eDefaultDecision
 
 )
-```
-```
+
 
 #### Parameters
 

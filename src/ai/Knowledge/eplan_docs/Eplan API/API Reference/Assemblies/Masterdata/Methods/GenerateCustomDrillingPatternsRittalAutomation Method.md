@@ -8,11 +8,10 @@ Generating Drilling Patterns from NC files.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int GenerateCustomDrillingPatternsRittalAutomation( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public int GenerateCustomDrillingPatternsRittalAutomation(
    ref int nCountoursImported
 
 )
-```
-```
 
-```
-```
 public:
 
 int GenerateCustomDrillingPatternsRittalAutomation( 
@@ -42,8 +37,7 @@ int GenerateCustomDrillingPatternsRittalAutomation(
    int% nCountoursImported
 
 )
-```
-```
+
 
 #### Parameters
 

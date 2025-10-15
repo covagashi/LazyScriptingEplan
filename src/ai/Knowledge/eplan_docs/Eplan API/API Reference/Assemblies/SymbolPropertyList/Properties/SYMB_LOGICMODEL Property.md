@@ -8,17 +8,12 @@ Target tracking # 16010.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMB_LOGICMODEL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMB_LOGICMODEL {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMB_LOGICMODEL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

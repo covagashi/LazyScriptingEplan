@@ -8,22 +8,16 @@ Returns the creation time of the message
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DateTime GetTime()
-```
-```
 
-```
-```
 public:
 
 DateTime GetTime();
-```
-```
+
 
 Remarks
 

@@ -8,11 +8,10 @@ Sets the location order, as in the arrLocations parameter, for given hierarchy t
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SetSortedLocations( 
 
    Project.Hierarchy type,
@@ -20,11 +19,7 @@ public bool SetSortedLocations(
    string[] arrLocations
 
 )
-```
-```
 
-```
-```
 public:
 
 bool SetSortedLocations( 
@@ -34,8 +29,7 @@ bool SetSortedLocations(
    array<String^>^ arrLocations
 
 )
-```
-```
+
 
 #### Parameters
 

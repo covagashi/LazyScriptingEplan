@@ -8,21 +8,16 @@ Subset / length: Value # 31010.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_PARTIAL_LENGTH_VALUE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_PARTIAL_LENGTH_VALUE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_PARTIAL_LENGTH_VALUE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

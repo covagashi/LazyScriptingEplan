@@ -8,21 +8,16 @@ Assigns a license to an option on the system, i.e., a license for this option is
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool LockOption( 
 
    LicenseOptions eOption
 
 )
-```
-```
 
-```
-```
 public:
 
 bool LockOption( 
@@ -30,8 +25,7 @@ bool LockOption(
    LicenseOptions eOption
 
 )
-```
-```
+
 
 #### Parameters
 

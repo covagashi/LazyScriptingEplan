@@ -8,17 +8,12 @@ Determines if Option is in [OptionGroup](Eplan.EplApi.DataModelu~Eplan.EplApi.Da
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool HasGroup {get;}
-```
-```
 
-```
-```
 public:
 
 property bool HasGroup {
@@ -26,8 +21,7 @@ property bool HasGroup {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

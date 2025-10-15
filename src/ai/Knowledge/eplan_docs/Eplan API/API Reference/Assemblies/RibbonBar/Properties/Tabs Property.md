@@ -8,17 +8,12 @@ Returns tabs of the ribbon bar
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RibbonTab[] Tabs {get;}
-```
-```
 
-```
-```
 public:
 
 property array<RibbonTab^>^ Tabs {
@@ -26,5 +21,4 @@ property array<RibbonTab^>^ Tabs {
    array<RibbonTab^>^ get();
 
 }
-```
-```
+

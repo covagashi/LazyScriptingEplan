@@ -8,11 +8,10 @@ adds a fragment to the option.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public OptionFragment AddOptionFragment( 
 
    StorableObject[] storableObjects,
@@ -22,11 +21,7 @@ public OptionFragment AddOptionFragment(
    MultiLangString mlDescription
 
 )
-```
-```
 
-```
-```
 public:
 
 OptionFragment^ AddOptionFragment( 
@@ -38,8 +33,7 @@ OptionFragment^ AddOptionFragment(
    MultiLangString^ mlDescription
 
 )
-```
-```
+
 
 #### Parameters
 

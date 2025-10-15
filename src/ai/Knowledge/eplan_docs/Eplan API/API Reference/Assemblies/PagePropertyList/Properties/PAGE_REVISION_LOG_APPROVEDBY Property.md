@@ -8,21 +8,16 @@ Revision: Approved by (change tracking) # 11087.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_REVISION_LOG_APPROVEDBY( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_REVISION_LOG_APPROVEDBY {
@@ -32,8 +27,7 @@ property PropertyValue^ PAGE_REVISION_LOG_APPROVEDBY {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

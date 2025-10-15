@@ -8,17 +8,12 @@ Returns list of properties that was changed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ComparisonEntryDetail[] ComparisonEntryDetails {get;}
-```
-```
 
-```
-```
 public:
 
 property array<ComparisonEntryDetail^>^ ComparisonEntryDetails {
@@ -26,5 +21,4 @@ property array<ComparisonEntryDetail^>^ ComparisonEntryDetails {
    array<ComparisonEntryDetail^>^ get();
 
 }
-```
-```
+

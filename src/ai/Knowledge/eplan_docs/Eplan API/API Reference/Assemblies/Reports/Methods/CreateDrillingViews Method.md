@@ -8,11 +8,10 @@ Creates drilling views report
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateDrillingViews( 
 
    Project oProject,
@@ -22,11 +21,7 @@ public void CreateDrillingViews(
    bool bReplaceExisting
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateDrillingViews( 
@@ -38,8 +33,7 @@ void CreateDrillingViews(
    bool bReplaceExisting
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -63,7 +57,7 @@ Exceptions
 
 Example
 
-- [C#](#i-tab-content-a451d806-b3b6-4538-a67e-3da8d83594e7)
+**C#**
 
 ```
 StringCollection oTemplates = new StringCollection();

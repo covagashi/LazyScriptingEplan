@@ -8,19 +8,13 @@ Default constructor. Creates Filter that matches all [Page](Eplan.EplApi.DataMod
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PagesFilter()
-```
-```
 
-```
-```
 public:
 
 PagesFilter();
-```
-```
+

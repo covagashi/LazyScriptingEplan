@@ -8,21 +8,16 @@ Gets form document type for a specific page document type.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static DocumentTypeManager.DocumentType GetFormType( 
 
    DocumentTypeManager.DocumentType nPageType
 
 )
-```
-```
 
-```
-```
 public:
 
 static DocumentTypeManager.DocumentType GetFormType( 
@@ -30,8 +25,7 @@ static DocumentTypeManager.DocumentType GetFormType(
    DocumentTypeManager.DocumentType nPageType
 
 )
-```
-```
+
 
 #### Parameters
 

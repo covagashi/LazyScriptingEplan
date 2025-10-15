@@ -8,17 +8,12 @@ The cross-section / diameter of the wire template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Diameter {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Diameter {
@@ -28,5 +23,4 @@ property String^ Diameter {
    void set (    String^ value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Maintenance cycle # 26637.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_MAINTENANCE_CYCLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_MAINTENANCE_CYCLE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_MAINTENANCE_CYCLE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

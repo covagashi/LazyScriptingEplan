@@ -8,17 +8,12 @@ Returns and sets length of this object. Length is stored in mm.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual double Length {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property double Length {
@@ -28,8 +23,7 @@ virtual property double Length {
    void set (    double value);
 
 }
-```
-```
+
 
 Exceptions
 

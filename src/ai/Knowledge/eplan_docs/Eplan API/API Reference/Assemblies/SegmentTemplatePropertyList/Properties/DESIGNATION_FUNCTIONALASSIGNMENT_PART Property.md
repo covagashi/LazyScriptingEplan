@@ -8,17 +8,12 @@ Higher-level function number (single component) # 1728.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_INSTALLATIONNUMBER_PART {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_INSTALLATIONNUMBER_PART {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_INSTALLATIONNUMBER_PART {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

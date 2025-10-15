@@ -8,17 +8,12 @@ Layout space name (of the part placement) # 20261.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLEPLACEMENT_INSTALLATIONSPACE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLEPLACEMENT_INSTALLATIONSPACE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ARTICLEPLACEMENT_INSTALLATIONSPACE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

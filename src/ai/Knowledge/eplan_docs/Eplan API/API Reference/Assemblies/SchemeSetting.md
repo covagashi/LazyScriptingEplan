@@ -14,26 +14,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class SchemeSetting
-```
-```
 
-```
-```
 public ref class SchemeSetting
-```
-```
+
 
 Example
 
 Example of using SchemeSetting class
 
-- [C#](#i-tab-content-99052eb7-c7b9-47bb-ad47-66644fb9af1c)
+**C#**
 
 ```
 SchemeSetting oSchemeSetting = new SchemeSetting();
@@ -52,8 +46,6 @@ if (oSchemeSetting.CheckIfSchemeExists(strSchemeName))
 
 }
 
-
-
 ```
 
 Public Constructors
@@ -63,8 +55,6 @@ Public Constructors
 | Public Constructor | [SchemeSetting Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

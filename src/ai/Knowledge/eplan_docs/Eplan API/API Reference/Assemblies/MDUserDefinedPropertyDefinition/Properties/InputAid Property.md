@@ -8,17 +8,12 @@ Input aid of this property definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDUserDefinedPropertyDefinition.Enums.InputAidType InputAid {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDUserDefinedPropertyDefinition.Enums.InputAidType InputAid {
@@ -28,5 +23,4 @@ property MDUserDefinedPropertyDefinition.Enums.InputAidType InputAid {
    void set (    MDUserDefinedPropertyDefinition.Enums.InputAidType value);
 
 }
-```
-```
+

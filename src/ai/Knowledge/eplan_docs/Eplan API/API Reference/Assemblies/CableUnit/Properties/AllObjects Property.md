@@ -8,17 +8,12 @@ Returns an array of StorableObjects which contains the same harness name in prop
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] AllObjects {get;}
-```
-```
 
-```
-```
 public:
 
 property array<StorableObject^>^ AllObjects {
@@ -26,5 +21,4 @@ property array<StorableObject^>^ AllObjects {
    array<StorableObject^>^ get();
 
 }
-```
-```
+

@@ -8,21 +8,16 @@ Checks property existence for used object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Exists( 
 
    AnyPropertyId propertyId
 
 )
-```
-```
 
-```
-```
 public:
 
 bool Exists( 
@@ -30,8 +25,7 @@ bool Exists(
    AnyPropertyId^ propertyId
 
 )
-```
-```
+
 
 #### Parameters
 

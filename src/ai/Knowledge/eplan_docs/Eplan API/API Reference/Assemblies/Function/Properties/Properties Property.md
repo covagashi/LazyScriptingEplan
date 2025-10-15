@@ -8,17 +8,12 @@ EPLAN properties of the Function object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new FunctionPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property FunctionPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property FunctionPropertyList^ Properties {
    FunctionPropertyList^ get();
 
 }
-```
-```
+
 
 Exceptions
 
@@ -41,7 +35,7 @@ Do NOT use this function for `TerminalStrip` and `PlugStrip` objects. Those clas
 
 Example
 
-- [C#](#i-tab-content-b3737530-bb69-4f83-82d4-2f3ba0368d96)
+**C#**
 
 ```
 Function func;

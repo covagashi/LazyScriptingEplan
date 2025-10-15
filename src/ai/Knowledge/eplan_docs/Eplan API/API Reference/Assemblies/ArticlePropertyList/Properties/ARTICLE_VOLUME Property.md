@@ -8,17 +8,12 @@ Volume # 26174.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_VOLUME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_VOLUME {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_VOLUME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

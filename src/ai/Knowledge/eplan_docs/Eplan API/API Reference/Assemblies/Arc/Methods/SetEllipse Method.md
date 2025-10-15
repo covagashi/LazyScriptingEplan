@@ -8,11 +8,10 @@ Sets ellipse
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetEllipse( 
 
    PointD pntLocation,
@@ -24,11 +23,7 @@ public void SetEllipse(
    double nAngle
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetEllipse( 
@@ -42,8 +37,7 @@ void SetEllipse(
    double nAngle
 
 )
-```
-```
+
 
 #### Parameters
 

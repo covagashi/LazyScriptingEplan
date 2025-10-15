@@ -8,17 +8,12 @@ Returns the category of a Function.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override FunctionCategory FunctionCategory {get; set;}
-```
-```
 
-```
-```
 public:
 
 property FunctionCategory FunctionCategory {
@@ -28,8 +23,7 @@ property FunctionCategory FunctionCategory {
    void set (    FunctionCategory value) override;
 
 }
-```
-```
+
 
 #### Property Value
 

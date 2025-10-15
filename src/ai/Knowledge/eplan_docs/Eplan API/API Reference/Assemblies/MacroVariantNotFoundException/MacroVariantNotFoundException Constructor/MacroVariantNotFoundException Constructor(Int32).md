@@ -8,21 +8,16 @@ Constructor with variant index of searched macro.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MacroVariantNotFoundException( 
 
    int variant
 
 )
-```
-```
 
-```
-```
 public:
 
 MacroVariantNotFoundException( 
@@ -30,8 +25,7 @@ MacroVariantNotFoundException(
    int variant
 
 )
-```
-```
+
 
 #### Parameters
 

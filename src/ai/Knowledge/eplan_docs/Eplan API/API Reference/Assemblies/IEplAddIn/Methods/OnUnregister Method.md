@@ -8,17 +8,11 @@ Is called once, when the add-in is removed from the system.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool OnUnregister()
-```
-```
 
-```
-```
 bool OnUnregister();
-```
-```
+

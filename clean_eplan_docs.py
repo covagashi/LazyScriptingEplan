@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 """
 Script para limpiar la documentación de EPLAN.
-Elimina:
-1. Secciones "See Also" y todo lo que viene después
-2. Opcionalmente, enlaces de imágenes rotos
+Limpia:
+1. Tablas de código innecesarias (formato "| C# | Copy Code |")
+2. Líneas de separación vacías redundantes
+3. Bloques de código vacíos
 """
 
 import os
 import re
 from pathlib import Path
 from typing import Tuple
+
 
 def clean_see_also_section(content: str) -> Tuple[str, bool]:
     """
@@ -21,7 +23,7 @@ def clean_see_also_section(content: str) -> Tuple[str, bool]:
     Returns:
         Tupla de (contenido limpio, fue_modificado)
     """
-    # Buscar "See Also" con diferentes variaciones (puede tener espacios, saltos de línea, etc.)
+    # Buscar "See Also" con diferentes variaciones
     pattern = r'\n\s*See Also\s*\n.*'
 
     if re.search(pattern, content, re.IGNORECASE | re.DOTALL):
@@ -31,53 +33,199 @@ def clean_see_also_section(content: str) -> Tuple[str, bool]:
     return content, False
 
 
-def remove_broken_image_links(content: str, base_path: Path) -> Tuple[str, bool]:
+def clean_code_tables(content: str) -> Tuple[str, bool]:
     """
-    Elimina enlaces de imágenes que no existen en el sistema de archivos.
+    Convierte tablas de código en bloques de código normales.
+
+    Detecta patrones como:
+    | C# | Copy Code |
+    | --- | --- |
+    | ``` code ``` | |
+
+    Y los convierte a:
+    ```csharp
+    code
+    ```
 
     Args:
         content: Contenido del archivo markdown
-        base_path: Ruta base del archivo actual para resolver rutas relativas
 
     Returns:
         Tupla de (contenido limpio, fue_modificado)
     """
     modified = False
 
-    # Patrón para encontrar enlaces de imágenes markdown
-    image_pattern = r'!\[([^\]]*)\]\(([^)]+)\)'
+    # Patrón para detectar tablas de código
+    # Captura: | Language | Copy Code |
+    #          | --- | --- |
+    #          | ``` código ``` | |
+    pattern = r'\|\s*(C#|C\+\+/CLI|VB|Python|JavaScript)\s*\|\s*Copy Code\s*\|\s*\n\|\s*---\s*\|\s*---\s*\|\s*\n\|\s*```\s*(.*?)\s*```\s*\|\s*\|'
 
-    def check_image(match):
+    def replace_table(match):
         nonlocal modified
-        alt_text = match.group(1)
-        image_path = match.group(2)
+        modified = True
+        language = match.group(1).strip()
+        code = match.group(2).strip()
 
-        # Si es una URL, la dejamos
-        if image_path.startswith(('http://', 'https://', '//')):
-            return match.group(0)
+        # Mapear lenguajes a identificadores de código
+        lang_map = {
+            'C#': 'csharp',
+            'C++/CLI': 'cpp',
+            'VB': 'vb',
+            'Python': 'python',
+            'JavaScript': 'javascript'
+        }
 
-        # Resolver la ruta relativa
-        full_path = (base_path.parent / image_path).resolve()
+        lang_id = lang_map.get(language, language.lower())
 
-        # Si la imagen no existe, eliminar el enlace
-        if not full_path.exists():
-            modified = True
-            return ''  # Eliminar el enlace completamente
+        # Retornar bloque de código limpio
+        return f'```{lang_id}\n{code}\n```'
 
-        return match.group(0)
-
-    cleaned_content = re.sub(image_pattern, check_image, content)
+    cleaned_content = re.sub(pattern, replace_table, content, flags=re.DOTALL)
 
     return cleaned_content, modified
 
 
-def process_file(file_path: Path, remove_images: bool = False) -> dict:
+def clean_empty_code_blocks(content: str) -> Tuple[str, bool]:
+    """
+    Elimina bloques de código vacíos o que solo contienen espacios.
+
+    Args:
+        content: Contenido del archivo markdown
+
+    Returns:
+        Tupla de (contenido limpio, fue_modificado)
+    """
+    modified = False
+
+    # Patrón para bloques de código vacíos: ``` ``` (con o sin lenguaje)
+    pattern = r'```[a-z]*\s*```'
+
+    if re.search(pattern, content, re.IGNORECASE):
+        cleaned_content = re.sub(pattern, '', content, flags=re.IGNORECASE)
+        modified = True
+        return cleaned_content, modified
+
+    return content, False
+
+
+def clean_redundant_empty_lines(content: str) -> Tuple[str, bool]:
+    """
+    Reduce múltiples líneas vacías consecutivas a máximo 2.
+
+    Args:
+        content: Contenido del archivo markdown
+
+    Returns:
+        Tupla de (contenido limpio, fue_modificado)
+    """
+    original_content = content
+
+    # Reemplazar 3 o más líneas vacías consecutivas por 2
+    cleaned_content = re.sub(r'\n\s*\n\s*\n(\s*\n)+', '\n\n', content)
+
+    modified = cleaned_content != original_content
+    return cleaned_content, modified
+
+
+def clean_duplicate_tab_links(content: str) -> Tuple[str, bool]:
+    """
+    Elimina los enlaces de navegación de tabs de código, manteniendo solo el texto.
+
+    Convierte:
+    - [C#](#i-tab-content-xxx)
+    - [VB](#i-tab-content-yyy)
+
+    En:
+    **C#**
+    **VB**
+
+    Args:
+        content: Contenido del archivo markdown
+
+    Returns:
+        Tupla de (contenido limpio, fue_modificado)
+    """
+    modified = False
+
+    # Patrón para detectar líneas con enlaces de tab-content
+    # Captura el nombre del lenguaje
+    pattern = r'^-\s*\[(C#|C\+\+/CLI|VB|Python|JavaScript|\.NET)\]\(#i-(?:tab-content|syntax)-[A-Za-z0-9-]+\)\s*$'
+
+    lines = content.split('\n')
+    cleaned_lines = []
+
+    for line in lines:
+        match = re.match(pattern, line)
+        if match:
+            modified = True
+            # Reemplazar con el nombre del lenguaje en negrita
+            language = match.group(1)
+            cleaned_lines.append(f'**{language}**')
+        else:
+            cleaned_lines.append(line)
+
+    cleaned_content = '\n'.join(cleaned_lines)
+
+    return cleaned_content, modified
+
+
+def clean_corrupted_characters(content: str) -> Tuple[str, bool]:
+    """
+    Elimina o reemplaza caracteres especiales corruptos.
+
+    Reemplaza:
+    - â → - (guion largo corrupto)
+    - â¢ → (elimina bullet corrupto)
+    - Â → (elimina espacio no-break corrupto)
+    - € → (elimina)
+    - œ → (elimina)
+    - â → " (comillas)
+    - â → " (comillas)
+
+    Args:
+        content: Contenido del archivo markdown
+
+    Returns:
+        Tupla de (contenido limpio, fue_modificado)
+    """
+    original_content = content
+
+    # Diccionario de reemplazos
+    replacements = {
+        'â': '-',        # Guion largo corrupto
+        'â¢': '',        # Bullet point corrupto
+        'Â®': '®',       # Símbolo registered
+        'Â': '',         # Espacio no-break corrupto
+        '€': '',         # Euro corrupto
+        'œ': '',         # Ligadura corrupta
+        'â': '"',       # Comilla izquierda
+        'â': '"',       # Comilla derecha
+        'â': "'",       # Apóstrofe
+        'Â°': '°',       # Símbolo de grado
+        'Â·': '·',       # Middle dot
+        'Ã©': 'é',       # e con acento
+        'Ã¡': 'á',       # a con acento
+        'Ã³': 'ó',       # o con acento
+        'Ãº': 'ú',       # u con acento
+        'Ã­': 'í',       # i con acento
+        'Ã±': 'ñ',       # ñ
+    }
+
+    cleaned_content = content
+    for old_char, new_char in replacements.items():
+        cleaned_content = cleaned_content.replace(old_char, new_char)
+
+    modified = cleaned_content != original_content
+    return cleaned_content, modified
+
+
+def process_file(file_path: Path) -> dict:
     """
     Procesa un archivo markdown individual.
 
     Args:
         file_path: Ruta al archivo
-        remove_images: Si True, también elimina enlaces de imágenes rotos
 
     Returns:
         Diccionario con estadísticas del procesamiento
@@ -87,15 +235,32 @@ def process_file(file_path: Path, remove_images: bool = False) -> dict:
             original_content = f.read()
 
         content = original_content
-        see_also_removed = False
-        images_removed = False
+        stats = {
+            'see_also_removed': False,
+            'code_tables_cleaned': False,
+            'empty_blocks_removed': False,
+            'empty_lines_cleaned': False,
+            'tab_links_cleaned': False,
+            'corrupted_chars_fixed': False
+        }
 
         # Limpiar sección "See Also"
-        content, see_also_removed = clean_see_also_section(content)
+        content, stats['see_also_removed'] = clean_see_also_section(content)
 
-        # Opcionalmente eliminar imágenes rotas
-        if remove_images:
-            content, images_removed = remove_broken_image_links(content, file_path)
+        # Limpiar tablas de código
+        content, stats['code_tables_cleaned'] = clean_code_tables(content)
+
+        # Eliminar bloques de código vacíos
+        content, stats['empty_blocks_removed'] = clean_empty_code_blocks(content)
+
+        # Limpiar líneas vacías redundantes
+        content, stats['empty_lines_cleaned'] = clean_redundant_empty_lines(content)
+
+        # Limpiar enlaces de tabs duplicados
+        content, stats['tab_links_cleaned'] = clean_duplicate_tab_links(content)
+
+        # Limpiar caracteres corruptos
+        content, stats['corrupted_chars_fixed'] = clean_corrupted_characters(content)
 
         # Solo escribir si hubo cambios
         if content != original_content:
@@ -104,8 +269,7 @@ def process_file(file_path: Path, remove_images: bool = False) -> dict:
 
             return {
                 'processed': True,
-                'see_also_removed': see_also_removed,
-                'images_removed': images_removed
+                **stats
             }
 
         return {'processed': False}
@@ -127,11 +291,6 @@ def main():
         default=r'D:\LazyScriptingEplan\src\ai\Knowledge\eplan_docs\Eplan API',
         nargs='?',
         help='Ruta al directorio con los archivos (default: directorio de EPLAN API)'
-    )
-    parser.add_argument(
-        '--remove-images',
-        action='store_true',
-        help='También eliminar enlaces de imágenes rotos'
     )
     parser.add_argument(
         '--dry-run',
@@ -160,12 +319,16 @@ def main():
         'total': len(md_files),
         'modified': 0,
         'see_also_removed': 0,
-        'images_removed': 0,
+        'code_tables_cleaned': 0,
+        'empty_blocks_removed': 0,
+        'empty_lines_cleaned': 0,
+        'tab_links_cleaned': 0,
+        'corrupted_chars_fixed': 0,
         'errors': 0
     }
 
     for i, file_path in enumerate(md_files, 1):
-        if i % 100 == 0:
+        if i % 500 == 0:
             print(f"Procesando: {i}/{len(md_files)} archivos...")
 
         if args.dry_run:
@@ -174,18 +337,18 @@ def main():
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
 
-                _, see_also_found = clean_see_also_section(content)
+                _, code_tables_found = clean_code_tables(content)
 
-                if see_also_found:
+                if code_tables_found:
                     stats['modified'] += 1
-                    stats['see_also_removed'] += 1
+                    stats['code_tables_cleaned'] += 1
                     print(f"  [DRY-RUN] Modificaría: {file_path.relative_to(base_path)}")
 
             except Exception as e:
                 stats['errors'] += 1
                 print(f"  [ERROR] {file_path.relative_to(base_path)}: {e}")
         else:
-            result = process_file(file_path, remove_images=args.remove_images)
+            result = process_file(file_path)
 
             if result.get('error'):
                 stats['errors'] += 1
@@ -194,8 +357,16 @@ def main():
                 stats['modified'] += 1
                 if result.get('see_also_removed'):
                     stats['see_also_removed'] += 1
-                if result.get('images_removed'):
-                    stats['images_removed'] += 1
+                if result.get('code_tables_cleaned'):
+                    stats['code_tables_cleaned'] += 1
+                if result.get('empty_blocks_removed'):
+                    stats['empty_blocks_removed'] += 1
+                if result.get('empty_lines_cleaned'):
+                    stats['empty_lines_cleaned'] += 1
+                if result.get('tab_links_cleaned'):
+                    stats['tab_links_cleaned'] += 1
+                if result.get('corrupted_chars_fixed'):
+                    stats['corrupted_chars_fixed'] += 1
 
     # Mostrar resumen
     print()
@@ -204,9 +375,12 @@ def main():
     print("=" * 60)
     print(f"Total de archivos procesados: {stats['total']}")
     print(f"Archivos modificados: {stats['modified']}")
-    print(f"  - Con 'See Also' eliminado: {stats['see_also_removed']}")
-    if args.remove_images:
-        print(f"  - Con imágenes eliminadas: {stats['images_removed']}")
+    print(f"  - Secciones 'See Also' eliminadas: {stats['see_also_removed']}")
+    print(f"  - Tablas de código limpiadas: {stats['code_tables_cleaned']}")
+    print(f"  - Bloques vacíos eliminados: {stats['empty_blocks_removed']}")
+    print(f"  - Líneas vacías limpiadas: {stats['empty_lines_cleaned']}")
+    print(f"  - Enlaces de tabs convertidos a títulos: {stats['tab_links_cleaned']}")
+    print(f"  - Caracteres corruptos corregidos: {stats['corrupted_chars_fixed']}")
     print(f"Errores: {stats['errors']}")
     print()
 

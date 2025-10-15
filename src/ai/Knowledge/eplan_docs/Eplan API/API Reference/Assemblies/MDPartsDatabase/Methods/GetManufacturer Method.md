@@ -8,21 +8,16 @@ Gets a manufacturer with the given name that is stored in the parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAddress GetManufacturer( 
 
    string shortName
 
 )
-```
-```
 
-```
-```
 public:
 
 MDAddress^ GetManufacturer( 
@@ -30,8 +25,7 @@ MDAddress^ GetManufacturer(
    String^ shortName
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Object identifier # 11036.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_OBJECTCODE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_OBJECTCODE {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_OBJECTCODE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

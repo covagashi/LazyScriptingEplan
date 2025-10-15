@@ -8,17 +8,12 @@ Report: Source project # 11067.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_SOURCE_PROJECT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_SOURCE_PROJECT {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_SOURCE_PROJECT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

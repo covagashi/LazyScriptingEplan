@@ -8,21 +8,16 @@ Constructor.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public EplanResponse( 
 
    CallingContext context
 
 )
-```
-```
 
-```
-```
 public:
 
 EplanResponse( 
@@ -30,8 +25,7 @@ EplanResponse(
    CallingContext^ context
 
 )
-```
-```
+
 
 #### Parameters
 

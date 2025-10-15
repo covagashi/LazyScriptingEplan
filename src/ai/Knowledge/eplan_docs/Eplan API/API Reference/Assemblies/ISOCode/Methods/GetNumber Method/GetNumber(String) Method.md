@@ -8,21 +8,16 @@ Convert language code to language number
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ISOCode.Language GetNumber( 
 
    string strLang
 
 )
-```
-```
 
-```
-```
 public:
 
 ISOCode.Language GetNumber( 
@@ -30,8 +25,7 @@ ISOCode.Language GetNumber(
    String^ strLang
 
 )
-```
-```
+
 
 #### Parameters
 

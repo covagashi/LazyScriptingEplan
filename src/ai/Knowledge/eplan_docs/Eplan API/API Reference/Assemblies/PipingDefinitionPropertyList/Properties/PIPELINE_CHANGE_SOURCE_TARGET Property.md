@@ -8,17 +8,12 @@ Piping: Exchange source and target # 33301.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PIPELINE_CHANGE_SOURCE_TARGET {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PIPELINE_CHANGE_SOURCE_TARGET {
@@ -28,8 +23,7 @@ property PropertyValue^ PIPELINE_CHANGE_SOURCE_TARGET {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

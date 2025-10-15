@@ -8,21 +8,16 @@ Documents: File / hyperlink # 44068.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_DOCUMENTS_URL( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_DOCUMENTS_URL {
@@ -32,8 +27,7 @@ property PropertyValue^ DMPLAOBJECT_DOCUMENTS_URL {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

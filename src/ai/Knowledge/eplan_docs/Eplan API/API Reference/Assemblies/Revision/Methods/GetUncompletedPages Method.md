@@ -8,21 +8,16 @@ Returns an array of modified and not completed pages in the current revision of 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Page[] GetUncompletedPages( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Page^>^ GetUncompletedPages( 
@@ -30,8 +25,7 @@ array<Page^>^ GetUncompletedPages(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

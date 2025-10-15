@@ -8,21 +8,16 @@ Opens the given parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartsDatabase OpenDatabase( 
 
    string databaseName
 
 )
-```
-```
 
-```
-```
 public:
 
 MDPartsDatabase^ OpenDatabase( 
@@ -30,8 +25,7 @@ MDPartsDatabase^ OpenDatabase(
    String^ databaseName
 
 )
-```
-```
+
 
 #### Parameters
 

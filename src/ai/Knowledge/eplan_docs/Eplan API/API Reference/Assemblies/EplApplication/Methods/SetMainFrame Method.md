@@ -8,21 +8,16 @@ Sets a new Mainframe for API offline program. API offline program will show all 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetMainFrame( 
 
    IntPtr pMainWnd
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetMainFrame( 
@@ -30,8 +25,7 @@ void SetMainFrame(
    IntPtr pMainWnd
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -39,7 +33,7 @@ void SetMainFrame(
 
 Example
 
-- [C#](#i-tab-content-cf0cba48-a29f-4fdb-a090-cd5bf4da6c7a)
+**C#**
 
 ```
 p.e. form1 is a System.Windows.Forms.Form

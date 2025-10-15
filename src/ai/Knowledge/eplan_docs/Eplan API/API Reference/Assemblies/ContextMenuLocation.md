@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ContextMenuLocation
-```
-```
 
-```
-```
 public ref class ContextMenuLocation
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [ContextMenuLocation Constructor](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.ContextMenuLocation~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

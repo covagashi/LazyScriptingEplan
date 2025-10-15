@@ -8,21 +8,16 @@ Subtrade 'Pneumatics' # 22159.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SUBCRAFT_PNEUMATICS( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SUBCRAFT_PNEUMATICS {
@@ -32,8 +27,7 @@ property MDPropertyValue^ ARTICLE_SUBCRAFT_PNEUMATICS {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

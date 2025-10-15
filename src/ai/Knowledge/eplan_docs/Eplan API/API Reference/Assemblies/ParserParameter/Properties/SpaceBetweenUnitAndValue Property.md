@@ -8,17 +8,12 @@ Add a space between Unit and the value
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SpaceBetweenUnitAndValue {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool SpaceBetweenUnitAndValue {
@@ -28,5 +23,4 @@ property bool SpaceBetweenUnitAndValue {
    void set (    bool value);
 
 }
-```
-```
+

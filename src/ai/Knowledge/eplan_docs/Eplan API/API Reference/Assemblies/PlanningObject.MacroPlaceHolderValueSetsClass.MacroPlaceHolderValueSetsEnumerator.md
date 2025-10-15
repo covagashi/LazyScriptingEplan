@@ -8,21 +8,16 @@ Constructor
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningObject.MacroPlaceHolderValueSetsClass.MacroPlaceHolderValueSetsEnumerator( 
 
    PlanningObject.MacroPlaceHolderValueSetsClass records
 
 )
-```
-```
 
-```
-```
 public:
 
 PlanningObject.MacroPlaceHolderValueSetsClass.MacroPlaceHolderValueSetsEnumerator( 
@@ -30,8 +25,7 @@ PlanningObject.MacroPlaceHolderValueSetsClass.MacroPlaceHolderValueSetsEnumerato
    PlanningObject.MacroPlaceHolderValueSetsClass^ records
 
 )
-```
-```
+
 
 #### Parameters
 

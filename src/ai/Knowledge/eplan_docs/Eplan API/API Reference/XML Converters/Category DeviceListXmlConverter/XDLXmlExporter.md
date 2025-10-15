@@ -5,13 +5,13 @@
 ---
 
 ```
-Imports or exports data of a device list in the system database from or to an XML file ("*.xml").
-```
+Imports or exports data of a device list in the system database from or to an XML file ("*.xml").
 
-  
+```
 
 **Remarks**
 
 ```
-No options used.
+No options used.
+
 ```

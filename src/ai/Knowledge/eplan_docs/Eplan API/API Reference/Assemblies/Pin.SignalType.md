@@ -8,20 +8,14 @@ Enumeration of Pin's signal types
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Pin.SignalType : System.Enum
-```
-```
 
-```
-```
 public enum class Pin.SignalType : public System.Enum
-```
-```
+
 
 Members
 

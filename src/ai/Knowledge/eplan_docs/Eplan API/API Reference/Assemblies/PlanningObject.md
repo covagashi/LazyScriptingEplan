@@ -15,22 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PlanningObject : PlanningSegment, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
 
-```
-```
 public ref class PlanningObject : public PlanningSegment, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
-
-
 
 Public Constructors
 
@@ -39,8 +30,6 @@ Public Constructors
 | Public Constructor | [PlanningObject Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningObject~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ Version # 16026.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMB_VERSION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMB_VERSION {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMB_VERSION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

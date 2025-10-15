@@ -15,22 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class StorableObjectContext : Eplan.EplApi.ApplicationFramework.ActionCallingContext, Eplan.EplApi.ApplicationFramework.IActionCallingContext, Eplan.EplApi.Base.IContext
-```
-```
 
-```
-```
 public ref class StorableObjectContext : public Eplan.EplApi.ApplicationFramework.ActionCallingContext, Eplan.EplApi.ApplicationFramework.IActionCallingContext, Eplan.EplApi.Base.IContext
-```
-```
-
-
 
 Public Constructors
 
@@ -39,8 +30,6 @@ Public Constructors
 | Public Constructor | [StorableObjectContext Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObjectContext~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,21 +8,16 @@ Sets the [Eplan.EplApi.DataModel.E3D.Placement3DPropertyList](Eplan.EplApi.DataM
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetFilteredPropertyList( 
 
    Placement3DPropertyList searchedPropList
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetFilteredPropertyList( 
@@ -30,8 +25,7 @@ void SetFilteredPropertyList(
    Placement3DPropertyList^ searchedPropList
 
 )
-```
-```
+
 
 #### Parameters
 

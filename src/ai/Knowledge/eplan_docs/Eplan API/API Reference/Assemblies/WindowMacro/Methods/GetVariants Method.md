@@ -8,21 +8,16 @@ Macro variants by representation type "nRepresentationType".
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int[] GetVariants( 
 
    WindowMacro.Enums.RepresentationType nRepresentationType
 
 )
-```
-```
 
-```
-```
 public:
 
 array<int>^ GetVariants( 
@@ -30,8 +25,7 @@ array<int>^ GetVariants(
    WindowMacro.Enums.RepresentationType nRepresentationType
 
 )
-```
-```
+
 
 #### Parameters
 

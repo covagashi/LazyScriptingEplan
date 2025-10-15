@@ -8,17 +8,12 @@ Show drilling pattern # 36519.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_SHOWDRILLINGS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_SHOWDRILLINGS {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_SHOWDRILLINGS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ If true, then placement-filter is active.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool IsPlacementFilterActive {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool IsPlacementFilterActive {
@@ -28,8 +23,7 @@ virtual property bool IsPlacementFilterActive {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

@@ -8,21 +8,16 @@ Returns all [Eplan.EplApi.DataModel.E3D.PlaceHolder3D](Eplan.EplApi.DataModelu~E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlaceHolder3D[] GetPlaceHolders3D( 
 
    PlaceHolders3DFilter pFilter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<PlaceHolder3D^>^ GetPlaceHolders3D( 
@@ -30,8 +25,7 @@ array<PlaceHolder3D^>^ GetPlaceHolders3D(
    PlaceHolders3DFilter^ pFilter
 
 )
-```
-```
+
 
 #### Parameters
 

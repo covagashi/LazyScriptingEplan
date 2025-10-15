@@ -8,17 +8,12 @@ Returns the [Page.PageType](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page~
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DocumentTypeManager.DocumentType DocumentType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property DocumentTypeManager.DocumentType DocumentType {
@@ -28,8 +23,7 @@ property DocumentTypeManager.DocumentType DocumentType {
    void set (    DocumentTypeManager.DocumentType value);
 
 }
-```
-```
+
 
 #### Property Value
 

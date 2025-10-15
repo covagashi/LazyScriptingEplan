@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class License
-```
-```
 
-```
-```
 public ref class License
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [License Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.License~_ctor.html) |  |
 
 [Top](#top)
-
-
 
 Public Properties
 

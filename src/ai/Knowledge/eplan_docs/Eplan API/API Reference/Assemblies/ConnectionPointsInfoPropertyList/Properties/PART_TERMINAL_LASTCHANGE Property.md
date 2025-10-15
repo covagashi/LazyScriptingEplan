@@ -8,17 +8,12 @@ Last editor / Modification date (connection point pattern) # 22944.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PART_TERMINAL_LASTCHANGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PART_TERMINAL_LASTCHANGE {
@@ -28,8 +23,7 @@ property PropertyValue^ PART_TERMINAL_LASTCHANGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

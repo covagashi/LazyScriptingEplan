@@ -8,17 +8,12 @@ Gets/Sets the part number of the Article;
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string partNumber {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ partNumber {
@@ -28,5 +23,4 @@ property String^ partNumber {
    void set (    String^ value);
 
 }
-```
-```
+

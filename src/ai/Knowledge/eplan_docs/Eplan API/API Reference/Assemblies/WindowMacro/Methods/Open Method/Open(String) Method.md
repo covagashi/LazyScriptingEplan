@@ -8,21 +8,16 @@ Opens a macro file using current parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Open( 
 
    string macroFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 void Open( 
@@ -30,8 +25,7 @@ void Open(
    String^ macroFileName
 
 )
-```
-```
+
 
 #### Parameters
 

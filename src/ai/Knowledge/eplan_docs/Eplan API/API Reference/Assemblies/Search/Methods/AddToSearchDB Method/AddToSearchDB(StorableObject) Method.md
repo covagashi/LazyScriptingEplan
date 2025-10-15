@@ -8,21 +8,16 @@ FÃ¼gt ein Objekt der Suchdatenbank hinzu. Es wird die aus den Einstellungen ge
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddToSearchDB( 
 
    StorableObject pObject
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddToSearchDB( 
@@ -30,8 +25,7 @@ void AddToSearchDB(
    StorableObject^ pObject
 
 )
-```
-```
+
 
 #### Parameters
 

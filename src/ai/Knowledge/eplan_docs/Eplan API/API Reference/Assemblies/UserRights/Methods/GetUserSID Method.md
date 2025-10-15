@@ -8,22 +8,16 @@ Gets the user SID.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string GetUserSID()
-```
-```
 
-```
-```
 public:
 
 String^ GetUserSID();
-```
-```
+
 
 #### Return Value
 

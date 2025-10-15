@@ -8,17 +8,12 @@ ProductVersion. This should include also the buildNumber.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ProductVersion {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ProductVersion {
@@ -28,5 +23,4 @@ property String^ ProductVersion {
    void set (    String^ value);
 
 }
-```
-```
+

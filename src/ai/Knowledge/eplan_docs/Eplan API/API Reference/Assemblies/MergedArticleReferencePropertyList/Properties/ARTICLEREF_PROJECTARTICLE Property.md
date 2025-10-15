@@ -8,17 +8,12 @@ Project part # 20495.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_PROJECTARTICLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_PROJECTARTICLE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_PROJECTARTICLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

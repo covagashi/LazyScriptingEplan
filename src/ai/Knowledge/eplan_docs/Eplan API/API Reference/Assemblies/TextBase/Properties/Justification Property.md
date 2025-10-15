@@ -8,17 +8,12 @@ Returns the justification of the Text.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TextBase.JustificationType Justification {get; set;}
-```
-```
 
-```
-```
 public:
 
 property TextBase.JustificationType Justification {
@@ -28,8 +23,7 @@ property TextBase.JustificationType Justification {
    void set (    TextBase.JustificationType value);
 
 }
-```
-```
+
 
 Exceptions
 

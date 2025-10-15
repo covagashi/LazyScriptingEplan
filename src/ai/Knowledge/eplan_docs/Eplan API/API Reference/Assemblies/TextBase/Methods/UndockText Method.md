@@ -8,19 +8,13 @@ Undock text from another oner one. You can see how it works in GUI. Select eleme
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void UndockText()
-```
-```
 
-```
-```
 public:
 
 void UndockText();
-```
-```
+

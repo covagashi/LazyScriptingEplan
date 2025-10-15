@@ -8,11 +8,10 @@ Set the EPLAN platform bin path. The EPLAN product variant path will be searched
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetBinPathsWithAppMod( 
 
    string strPlatformBinPath,
@@ -20,11 +19,7 @@ public void SetBinPathsWithAppMod(
    string strAppMod
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetBinPathsWithAppMod( 
@@ -34,8 +29,7 @@ void SetBinPathsWithAppMod(
    String^ strAppMod
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ If `true` P8 uses settings from property [DisplayMask](Eplan.EplApi.DataModelu~E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AreUserDefinedSettings {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool AreUserDefinedSettings {
@@ -28,8 +23,7 @@ property bool AreUserDefinedSettings {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

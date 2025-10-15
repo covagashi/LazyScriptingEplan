@@ -8,17 +8,12 @@ Returns children of this object which are [Plane](Eplan.EplApi.DataModelu~Eplan.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Plane[] Planes {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Plane^>^ Planes {
@@ -26,5 +21,4 @@ property array<Plane^>^ Planes {
    array<Plane^>^ get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Modification note # 16024.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMB_MODIFICATIONCOMMENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMB_MODIFICATIONCOMMENT {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMB_MODIFICATIONCOMMENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

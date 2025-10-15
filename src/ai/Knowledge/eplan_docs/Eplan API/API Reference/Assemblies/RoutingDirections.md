@@ -8,20 +8,14 @@ Routing directions.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum RoutingDirections : System.Enum
-```
-```
 
-```
-```
 public enum class RoutingDirections : public System.Enum
-```
-```
+
 
 Members
 

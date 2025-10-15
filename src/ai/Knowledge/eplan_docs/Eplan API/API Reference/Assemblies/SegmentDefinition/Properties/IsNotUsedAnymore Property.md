@@ -8,17 +8,12 @@ Determines whether the segment definition in the project is write-protected.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsNotUsedAnymore {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsNotUsedAnymore {
@@ -28,8 +23,7 @@ property bool IsNotUsedAnymore {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

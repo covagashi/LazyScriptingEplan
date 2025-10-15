@@ -8,21 +8,16 @@ Removes translations form parts database
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveTranslation( 
 
    ISOCode.Language[] languages
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveTranslation( 
@@ -30,8 +25,7 @@ void RemoveTranslation(
    array<ISOCode.Language>^ languages
 
 )
-```
-```
+
 
 #### Parameters
 

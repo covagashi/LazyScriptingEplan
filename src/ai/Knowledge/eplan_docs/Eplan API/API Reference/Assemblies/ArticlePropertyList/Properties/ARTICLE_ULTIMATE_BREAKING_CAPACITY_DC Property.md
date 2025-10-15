@@ -8,17 +8,12 @@ Rated breaking capacity (DC) # 26591.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_ULTIMATE_BREAKING_CAPACITY_DC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_ULTIMATE_BREAKING_CAPACITY_DC {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_ULTIMATE_BREAKING_CAPACITY_DC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

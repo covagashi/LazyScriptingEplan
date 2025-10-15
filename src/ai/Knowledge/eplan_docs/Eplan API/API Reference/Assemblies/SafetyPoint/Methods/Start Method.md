@@ -8,19 +8,13 @@ Start recording changes. If already started, has no effect.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Start()
-```
-```
 
-```
-```
 public:
 
 void Start();
-```
-```
+

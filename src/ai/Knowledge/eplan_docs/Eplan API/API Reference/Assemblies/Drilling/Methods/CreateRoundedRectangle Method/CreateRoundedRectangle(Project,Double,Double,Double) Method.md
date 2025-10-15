@@ -8,11 +8,10 @@ Creates new rounded rectangle drilling in project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateRoundedRectangle( 
 
    Project pProject,
@@ -24,11 +23,7 @@ public void CreateRoundedRectangle(
    double dDiameter
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateRoundedRectangle( 
@@ -42,8 +37,7 @@ void CreateRoundedRectangle(
    double dDiameter
 
 )
-```
-```
+
 
 #### Parameters
 

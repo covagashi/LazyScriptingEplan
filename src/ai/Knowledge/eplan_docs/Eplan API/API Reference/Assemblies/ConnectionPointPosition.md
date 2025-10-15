@@ -13,30 +13,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ConnectionPointPosition
-```
-```
 
-```
-```
 public ref class ConnectionPointPosition
-```
-```
+
 
 Remarks
 
 Changes on object of this class are not store automatically. They must be save to parent manually using method `StoreConnectionPointPosition` on parent or [StoreToObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPointPosition~StoreToObject.html).
 
 More information can be found in EPLAN P8 Help under topics: `Defining Connection Point Pattern in Layout Space` for 3d objects and `Topology: Connection point patterns` for topology.
-
-
-
-
 
 Public Properties
 

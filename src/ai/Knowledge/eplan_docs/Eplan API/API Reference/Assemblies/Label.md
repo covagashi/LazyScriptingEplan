@@ -13,26 +13,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Label
-```
-```
 
-```
-```
 public ref class Label
-```
-```
+
 
 Example
 
 The following example shows how to use class Label.
 
-- [C#](#i-tab-content-bd545467-c507-4d58-a3fd-78af35b7eb52)
+**C#**
 
 ```
 
@@ -55,10 +49,6 @@ oLabel.DoLabel(m_oTestProject,
 
     1);                 // Task Repeat = 1
 
-
-
-
-
 ```
 
 Public Constructors
@@ -68,9 +58,6 @@ Public Constructors
 | Public Constructor | [Label Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Label~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

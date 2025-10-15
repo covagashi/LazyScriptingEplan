@@ -8,17 +8,12 @@ Format of displayed DT: Cable connection # 10635.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_DTFORMAT_CABLE_CONNECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_DTFORMAT_CABLE_CONNECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_DTFORMAT_CABLE_CONNECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

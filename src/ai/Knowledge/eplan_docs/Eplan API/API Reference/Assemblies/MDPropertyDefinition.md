@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDPropertyDefinition
-```
-```
 
-```
-```
 public ref class MDPropertyDefinition
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [MDPropertyDefinition Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyDefinition~_ctor(MDAnyPropertyId).html) | Constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

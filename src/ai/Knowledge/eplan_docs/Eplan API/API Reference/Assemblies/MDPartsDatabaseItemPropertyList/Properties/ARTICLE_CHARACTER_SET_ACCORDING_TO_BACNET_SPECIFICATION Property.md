@@ -8,17 +8,12 @@ BACnet: Character set acc. to BACnet specification # 26651.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CHARACTER_SET_ACCORDING_TO_BACNET_SPECIFICATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CHARACTER_SET_ACCORDING_TO_BACNET_SPECIFICATION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CHARACTER_SET_ACCORDING_TO_BACNET_SPECIFICATIO
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -26,17 +26,12 @@ Predefined line type index values are:
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short StyleId {get; set;}
-```
-```
 
-```
-```
 public:
 
 property short StyleId {
@@ -46,8 +41,7 @@ property short StyleId {
    void set (    short value);
 
 }
-```
-```
+
 
 #### Property Value
 

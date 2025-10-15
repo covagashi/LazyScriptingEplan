@@ -8,17 +8,12 @@ Check if the Connection can have [Article](Eplan.EplApi.DataModelu~Eplan.EplApi.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool CanHaveArticleData {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool CanHaveArticleData {
@@ -26,8 +21,7 @@ virtual property bool CanHaveArticleData {
    bool get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Gets a base symbol for this function definition that may exist in the given symb
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Symbol GetBaseSymbolFromSpecifiedSymbolLibrary( 
 
    SymbolLibrary symbolLibrary
 
 )
-```
-```
 
-```
-```
 public:
 
 Symbol^ GetBaseSymbolFromSpecifiedSymbolLibrary( 
@@ -30,8 +25,7 @@ Symbol^ GetBaseSymbolFromSpecifiedSymbolLibrary(
    SymbolLibrary^ symbolLibrary
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ With signal isolation # 16042.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMB_POTENTIALSEPARATED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMB_POTENTIALSEPARATED {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMB_POTENTIALSEPARATED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

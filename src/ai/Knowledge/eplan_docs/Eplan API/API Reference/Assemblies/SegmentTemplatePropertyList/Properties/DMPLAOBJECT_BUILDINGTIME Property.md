@@ -8,17 +8,12 @@ Expenditure construction # 44014.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_BUILDINGTIME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_BUILDINGTIME {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_BUILDINGTIME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

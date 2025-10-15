@@ -8,11 +8,10 @@ Creates file and writes a pre-planning macro from planning segments and their su
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    IEnumerable<PlanningSegment> colSegments,
@@ -22,11 +21,7 @@ public void Create(
    MultiLangString pDescription
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -38,8 +33,7 @@ void Create(
    MultiLangString^ pDescription
 
 )
-```
-```
+
 
 #### Parameters
 

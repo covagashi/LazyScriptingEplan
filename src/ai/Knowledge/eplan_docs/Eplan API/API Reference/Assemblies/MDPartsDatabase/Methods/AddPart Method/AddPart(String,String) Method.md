@@ -8,11 +8,10 @@ Adds a new part into the parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPart AddPart( 
 
    string sPartNr,
@@ -20,11 +19,7 @@ public MDPart AddPart(
    string variant
 
 )
-```
-```
 
-```
-```
 public:
 
 MDPart^ AddPart( 
@@ -34,8 +29,7 @@ MDPart^ AddPart(
    String^ variant
 
 )
-```
-```
+
 
 #### Parameters
 

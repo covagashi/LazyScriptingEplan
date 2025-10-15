@@ -8,17 +8,12 @@ DT (identifying, without subordinate DT) # 20007.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_IDENTDEVICETAGWITHOUTNESTEDDEVTAG {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_IDENTDEVICETAGWITHOUTNESTEDDEVTAG {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_IDENTDEVICETAGWITHOUTNESTEDDEVTAG {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

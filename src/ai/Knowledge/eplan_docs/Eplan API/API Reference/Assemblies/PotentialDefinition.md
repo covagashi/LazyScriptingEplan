@@ -18,22 +18,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PotentialDefinition : SymbolReference, IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class PotentialDefinition : public SymbolReference, IPropertyPlacementsContainer
-```
-```
-
-
 
 Public Constructors
 
@@ -42,8 +33,6 @@ Public Constructors
 | Public Constructor | [PotentialDefinition Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PotentialDefinition~_ctor().html) | Default constructor. Should never be used. Always throws NotImplementedException. It was designed only for COM compatibility. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,11 +8,10 @@ Is called after keyboard inputs by the user.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnChar( 
 
    Position oPosition,
@@ -20,11 +19,7 @@ public virtual RequestCode OnChar(
    char c
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnChar( 
@@ -34,8 +29,7 @@ virtual RequestCode OnChar(
    char c
 
 )
-```
-```
+
 
 #### Parameters
 

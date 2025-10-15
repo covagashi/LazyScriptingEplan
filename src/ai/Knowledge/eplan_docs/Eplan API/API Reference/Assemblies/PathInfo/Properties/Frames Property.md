@@ -8,17 +8,12 @@ Returns default Frames directory.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Frames {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Frames {
@@ -26,8 +21,7 @@ property String^ Frames {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

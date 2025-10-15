@@ -8,21 +8,16 @@ Sets [Eplan.EplApi.Base.PointD](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD.html
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue Set( 
 
    PointD pnt
 
 )
-```
-```
 
-```
-```
 public:
 
 PropertyValue^ Set( 
@@ -30,8 +25,7 @@ PropertyValue^ Set(
    PointD pnt
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Designation (full) # 44009.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_FULLDESIGNATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_FULLDESIGNATION {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_FULLDESIGNATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

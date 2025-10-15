@@ -8,20 +8,14 @@ Enumeration of dimension type
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum DimensionItem.Enums.DimensionType : System.Enum
-```
-```
 
-```
-```
 public enum class DimensionItem.Enums.DimensionType : public System.Enum
-```
-```
+
 
 Members
 

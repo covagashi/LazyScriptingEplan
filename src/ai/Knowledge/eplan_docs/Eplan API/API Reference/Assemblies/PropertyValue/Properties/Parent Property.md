@@ -8,17 +8,12 @@ Property list to which this property value is connected.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public UniversalPropertyList Parent {get;}
-```
-```
 
-```
-```
 public:
 
 property UniversalPropertyList^ Parent {
@@ -26,8 +21,7 @@ property UniversalPropertyList^ Parent {
    UniversalPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

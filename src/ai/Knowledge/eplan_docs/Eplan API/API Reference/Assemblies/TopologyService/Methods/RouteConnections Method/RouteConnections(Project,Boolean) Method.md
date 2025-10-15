@@ -8,11 +8,10 @@ Routes topology connections between all function with representation type [Eplan
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RouteConnections( 
 
    Project pProject,
@@ -20,11 +19,7 @@ public void RouteConnections(
    bool bShowRoutedConnections
 
 )
-```
-```
 
-```
-```
 public:
 
 void RouteConnections( 
@@ -34,8 +29,7 @@ void RouteConnections(
    bool bShowRoutedConnections
 
 )
-```
-```
+
 
 #### Parameters
 

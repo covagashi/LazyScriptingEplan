@@ -8,24 +8,18 @@ Available request which can be done by interaction event handler.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [Flags()]
 
 public enum RequestCode : System.Enum
-```
-```
 
-```
-```
 [Flags()]
 
 public enum class RequestCode : public System.Enum
-```
-```
+
 
 Members
 

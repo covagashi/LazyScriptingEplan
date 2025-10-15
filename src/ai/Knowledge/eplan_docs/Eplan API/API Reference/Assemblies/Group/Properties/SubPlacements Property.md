@@ -8,17 +8,12 @@ Returns all grouped [Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.P
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Placement[] SubPlacements {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property array<Placement^>^ SubPlacements {
@@ -28,8 +23,7 @@ virtual property array<Placement^>^ SubPlacements {
    void set (    array<Placement^>^ value);
 
 }
-```
-```
+
 
 Exceptions
 

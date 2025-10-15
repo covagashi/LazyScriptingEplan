@@ -8,19 +8,13 @@ A constant value that indicates an invalid (or undefined) function group.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static int InvalidGroup
-```
-```
 
-```
-```
 public:
 
 static int InvalidGroup
-```
-```
+

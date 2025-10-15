@@ -8,17 +8,12 @@ Gets macro variant number
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int MacroVariant {get;}
-```
-```
 
-```
-```
 public:
 
 property int MacroVariant {
@@ -26,5 +21,4 @@ property int MacroVariant {
    int get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Number of messages # 15099.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue SYMBLIB_ERRORCOUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ SYMBLIB_ERRORCOUNT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ SYMBLIB_ERRORCOUNT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

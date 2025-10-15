@@ -8,17 +8,12 @@ Macro: Source / reference # 23003.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue MACROBOX_MACRO_SOURCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ MACROBOX_MACRO_SOURCE {
@@ -28,8 +23,7 @@ property PropertyValue^ MACROBOX_MACRO_SOURCE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Left
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double Left {get;}
-```
-```
 
-```
-```
 public:
 
 property double Left {
@@ -26,5 +21,4 @@ property double Left {
    double get();
 
 }
-```
-```
+

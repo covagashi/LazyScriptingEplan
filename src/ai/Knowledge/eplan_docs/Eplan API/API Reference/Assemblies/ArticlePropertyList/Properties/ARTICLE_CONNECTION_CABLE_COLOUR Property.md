@@ -8,17 +8,12 @@ Connecting cable: Color # 26007.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CONNECTION_CABLE_COLOUR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CONNECTION_CABLE_COLOUR {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CONNECTION_CABLE_COLOUR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

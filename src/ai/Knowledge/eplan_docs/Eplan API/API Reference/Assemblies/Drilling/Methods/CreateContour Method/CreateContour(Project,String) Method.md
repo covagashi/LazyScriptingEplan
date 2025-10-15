@@ -8,11 +8,10 @@ Creates a new drilling in the shape of the given contour.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateContour( 
 
    Project pProject,
@@ -20,11 +19,7 @@ public void CreateContour(
    string strContureName
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateContour( 
@@ -34,8 +29,7 @@ void CreateContour(
    String^ strContureName
 
 )
-```
-```
+
 
 #### Parameters
 

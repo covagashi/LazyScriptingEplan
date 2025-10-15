@@ -8,17 +8,12 @@ Cut-out: Width # 36020.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_OPENING_WIDTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_OPENING_WIDTH {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_OPENING_WIDTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

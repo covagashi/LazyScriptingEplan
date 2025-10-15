@@ -8,17 +8,12 @@ Reporting direction # 12103.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_EVALUATION_DIRECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_EVALUATION_DIRECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_EVALUATION_DIRECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

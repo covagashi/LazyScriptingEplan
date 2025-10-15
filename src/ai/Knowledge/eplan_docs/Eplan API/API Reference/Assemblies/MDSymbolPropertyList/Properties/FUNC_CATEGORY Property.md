@@ -8,17 +8,12 @@ Function definition: Category # 20115.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNC_CATEGORY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNC_CATEGORY {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNC_CATEGORY {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

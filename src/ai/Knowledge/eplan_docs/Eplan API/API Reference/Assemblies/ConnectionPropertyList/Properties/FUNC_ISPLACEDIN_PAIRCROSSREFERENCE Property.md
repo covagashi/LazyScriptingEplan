@@ -8,17 +8,12 @@ Function exists with 'Pair cross-reference' representation type # 20472.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ISPLACEDIN_PAIRCROSSREFERENCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ISPLACEDIN_PAIRCROSSREFERENCE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_ISPLACEDIN_PAIRCROSSREFERENCE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

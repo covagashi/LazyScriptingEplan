@@ -8,20 +8,14 @@ License runtime check commands to return to the license system. These values are
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum EplApplication.LicenseRuntimeCheckCommands : System.Enum
-```
-```
 
-```
-```
 public enum class EplApplication.LicenseRuntimeCheckCommands : public System.Enum
-```
-```
+
 
 Members
 

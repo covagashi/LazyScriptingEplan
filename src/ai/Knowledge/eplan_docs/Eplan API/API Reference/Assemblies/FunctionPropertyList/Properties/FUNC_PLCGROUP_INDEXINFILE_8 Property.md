@@ -8,17 +8,12 @@ PLC subdevice 8: Device description: Index in file # 20599.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCGROUP_INDEXINFILE_8 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCGROUP_INDEXINFILE_8 {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCGROUP_INDEXINFILE_8 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

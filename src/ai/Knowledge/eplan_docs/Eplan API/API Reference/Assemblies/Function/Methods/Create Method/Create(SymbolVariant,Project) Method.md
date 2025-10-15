@@ -8,11 +8,10 @@ Creates a Function. It is not placed on any [Page](Eplan.EplApi.DataModelu~Eplan
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Function Create( 
 
    SymbolVariant symbVariant,
@@ -20,11 +19,7 @@ public static Function Create(
    Project proj
 
 )
-```
-```
 
-```
-```
 public:
 
 static Function^ Create( 
@@ -34,8 +29,7 @@ static Function^ Create(
    Project^ proj
 
 )
-```
-```
+
 
 #### Parameters
 

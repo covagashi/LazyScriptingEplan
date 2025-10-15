@@ -8,20 +8,14 @@ Possible types of forced rotation when the snap is done.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Mate.Enums.RotationType : System.Enum
-```
-```
 
-```
-```
 public enum class Mate.Enums.RotationType : public System.Enum
-```
-```
+
 
 Members
 

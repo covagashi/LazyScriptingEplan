@@ -8,17 +8,12 @@ Gets and sets diameter of this object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual double Diameter {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property double Diameter {
@@ -28,5 +23,4 @@ virtual property double Diameter {
    void set (    double value);
 
 }
-```
-```
+

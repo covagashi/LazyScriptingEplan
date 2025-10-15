@@ -8,17 +8,12 @@ Returns [Article](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article.html)s 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Article[] Articles {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property array<Article^>^ Articles {
@@ -26,8 +21,7 @@ virtual property array<Article^>^ Articles {
    array<Article^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

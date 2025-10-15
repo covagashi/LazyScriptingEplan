@@ -8,17 +8,12 @@ Gets the second radius value of the ellipse. This property returns proper value 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double SecondRadius {get;}
-```
-```
 
-```
-```
 public:
 
 property double SecondRadius {
@@ -26,5 +21,4 @@ property double SecondRadius {
    double get();
 
 }
-```
-```
+

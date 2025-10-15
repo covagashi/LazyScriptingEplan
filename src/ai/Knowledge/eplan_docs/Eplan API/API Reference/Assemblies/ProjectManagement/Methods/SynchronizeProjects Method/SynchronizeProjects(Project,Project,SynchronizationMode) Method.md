@@ -8,11 +8,10 @@ Synchronizes all projects data from source project into the target project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SynchronizeProjects( 
 
    Project oSourceProject,
@@ -22,11 +21,7 @@ public bool SynchronizeProjects(
    ProjectManagement.SynchronizationMode eSynchronizationMode
 
 )
-```
-```
 
-```
-```
 public:
 
 bool SynchronizeProjects( 
@@ -38,8 +33,7 @@ bool SynchronizeProjects(
    ProjectManagement.SynchronizationMode eSynchronizationMode
 
 )
-```
-```
+
 
 #### Parameters
 

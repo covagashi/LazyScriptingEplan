@@ -8,11 +8,10 @@ Returns true, if interaction should be enabled in ribbon
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool IsEnabled( 
 
    string strName,
@@ -20,11 +19,7 @@ public virtual bool IsEnabled(
    ActionCallingContext oCallingContext
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual bool IsEnabled( 
@@ -34,8 +29,7 @@ virtual bool IsEnabled(
    ActionCallingContext^ oCallingContext
 
 )
-```
-```
+
 
 #### Parameters
 

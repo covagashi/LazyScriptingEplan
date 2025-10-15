@@ -8,11 +8,10 @@ Method for removing a collection of languages from a project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool RemoveProjectLanguages( 
 
    Project pProject,
@@ -20,11 +19,7 @@ public bool RemoveProjectLanguages(
    StringCollection listLanguages
 
 )
-```
-```
 
-```
-```
 public:
 
 bool RemoveProjectLanguages( 
@@ -34,8 +29,7 @@ bool RemoveProjectLanguages(
    StringCollection^ listLanguages
 
 )
-```
-```
+
 
 #### Parameters
 

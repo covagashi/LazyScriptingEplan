@@ -8,17 +8,12 @@ Rotation type which this mate force while snapping.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Mate.Enums.RotationType RotationType {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Mate.Enums.RotationType RotationType {
@@ -28,5 +23,4 @@ property Mate.Enums.RotationType RotationType {
    void set (    Mate.Enums.RotationType value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Returns a group that the Placement object belongs to. If the Placement object do
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Group Group {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property Group^ Group {
@@ -26,5 +21,4 @@ virtual property Group^ Group {
    Group^ get();
 
 }
-```
-```
+

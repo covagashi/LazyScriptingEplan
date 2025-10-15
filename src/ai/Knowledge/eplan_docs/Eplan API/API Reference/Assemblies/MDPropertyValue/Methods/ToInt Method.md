@@ -8,22 +8,16 @@ Converts this MDPropertyValue object to `long`.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int ToInt()
-```
-```
 
-```
-```
 public:
 
 int ToInt();
-```
-```
+
 
 #### Return Value
 

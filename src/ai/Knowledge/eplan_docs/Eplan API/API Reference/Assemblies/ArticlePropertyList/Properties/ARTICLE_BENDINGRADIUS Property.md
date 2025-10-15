@@ -8,17 +8,12 @@ Min. bending radius # 22063.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_BENDINGRADIUS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_BENDINGRADIUS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_BENDINGRADIUS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

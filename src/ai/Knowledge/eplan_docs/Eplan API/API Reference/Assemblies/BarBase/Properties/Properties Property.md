@@ -8,17 +8,12 @@ EPLAN properties of the BarBase object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new BarBasePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property BarBasePropertyList^ Properties {
@@ -26,5 +21,4 @@ new property BarBasePropertyList^ Properties {
    BarBasePropertyList^ get();
 
 }
-```
-```
+

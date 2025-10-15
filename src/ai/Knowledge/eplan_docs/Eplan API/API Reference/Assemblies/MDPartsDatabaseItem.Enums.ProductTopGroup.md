@@ -8,20 +8,14 @@ This are the different topgroups of database items that can be stored in parts d
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MDPartsDatabaseItem.Enums.ProductTopGroup : System.Enum
-```
-```
 
-```
-```
 public enum class MDPartsDatabaseItem.Enums.ProductTopGroup : public System.Enum
-```
-```
+
 
 Members
 

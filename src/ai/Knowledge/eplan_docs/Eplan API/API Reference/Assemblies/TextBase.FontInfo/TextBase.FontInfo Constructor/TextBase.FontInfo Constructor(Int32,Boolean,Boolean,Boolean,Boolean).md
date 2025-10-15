@@ -8,11 +8,10 @@ Constructor which creates new Font object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TextBase.FontInfo( 
 
    int font_index,
@@ -26,11 +25,7 @@ public TextBase.FontInfo(
    bool strikeout
 
 )
-```
-```
 
-```
-```
 public:
 
 TextBase.FontInfo( 
@@ -46,8 +41,7 @@ TextBase.FontInfo(
    bool strikeout
 
 )
-```
-```
+
 
 #### Parameters
 

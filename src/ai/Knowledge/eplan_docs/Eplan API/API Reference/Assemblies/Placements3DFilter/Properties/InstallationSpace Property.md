@@ -8,17 +8,12 @@ Sets the [Eplan.EplApi.DataModel.E3D.InstallationSpace](Eplan.EplApi.DataModelu~
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public InstallationSpace InstallationSpace {get; set;}
-```
-```
 
-```
-```
 public:
 
 property InstallationSpace^ InstallationSpace {
@@ -28,8 +23,7 @@ property InstallationSpace^ InstallationSpace {
    void set (    InstallationSpace^ value);
 
 }
-```
-```
+
 
 Exceptions
 

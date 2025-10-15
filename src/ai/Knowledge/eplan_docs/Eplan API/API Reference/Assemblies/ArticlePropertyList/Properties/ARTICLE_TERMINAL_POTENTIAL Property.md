@@ -8,17 +8,12 @@ Terminal potential # 26118.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TERMINAL_POTENTIAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TERMINAL_POTENTIAL {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TERMINAL_POTENTIAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

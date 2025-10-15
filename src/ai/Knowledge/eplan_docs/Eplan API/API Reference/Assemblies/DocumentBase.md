@@ -18,22 +18,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class DocumentBase : Group, IPlacementsContainer
-```
-```
 
-```
-```
 public ref class DocumentBase : public Group, IPlacementsContainer
-```
-```
-
-
 
 Public Constructors
 
@@ -42,8 +33,6 @@ Public Constructors
 | Public Constructor | [DocumentBase Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DocumentBase~_ctor().html) | Default constructor. Creates the DocumentBase object. |
 
 [Top](#top)
-
-
 
 Public Properties
 

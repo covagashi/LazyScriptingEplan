@@ -8,20 +8,14 @@ Type of placeholder
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum PlaceHolderText.Enums.Type : System.Enum
-```
-```
 
-```
-```
 public enum class PlaceHolderText.Enums.Type : public System.Enum
-```
-```
+
 
 Members
 

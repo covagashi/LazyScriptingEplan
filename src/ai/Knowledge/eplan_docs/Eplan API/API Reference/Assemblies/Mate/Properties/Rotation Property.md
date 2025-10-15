@@ -8,17 +8,12 @@ Angle by which the components are to be rotated when they are placed on the moun
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double Rotation {get;}
-```
-```
 
-```
-```
 public:
 
 property double Rotation {
@@ -26,9 +21,8 @@ property double Rotation {
    double get();
 
 }
-```
-```
+
 
 Remarks
 
-The possible values are 45Â°, 90Â°, 135Â° (positive and negative) and 180Â°.
+The possible values are 45°, 90°, 135° (positive and negative) and 180°.

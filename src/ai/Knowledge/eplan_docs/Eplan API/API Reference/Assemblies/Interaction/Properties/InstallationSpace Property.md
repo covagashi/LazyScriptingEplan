@@ -8,17 +8,12 @@ Installation space, the editor belongs to.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual InstallationSpace InstallationSpace {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property InstallationSpace^ InstallationSpace {
@@ -26,5 +21,4 @@ virtual property InstallationSpace^ InstallationSpace {
    InstallationSpace^ get();
 
 }
-```
-```
+

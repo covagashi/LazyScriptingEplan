@@ -8,17 +8,12 @@ Plug designation # 20406.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNC_PLCPLUG_DESIGNATION_MANUAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNC_PLCPLUG_DESIGNATION_MANUAL {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNC_PLCPLUG_DESIGNATION_MANUAL {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

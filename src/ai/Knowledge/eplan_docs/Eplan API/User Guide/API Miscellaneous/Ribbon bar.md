@@ -15,11 +15,9 @@ The ribbon is divided into tabs and these tabs into command groups and commands
 
 All ribbon related classes are stored in the  Eplan.EplApi.Gui  namespace. They correspond to the types of ribbon items from the GUI:
 
-
-
 Here is an example of listing ribbon items (tabs, command groups and commands):
 
-- [C#](#i-tab-content-b0f94e1e-7c78-42e3-afa0-16b9656e495d)
+**C#**
 
 ```
 
@@ -72,8 +70,6 @@ Please keep it in mind that some tabs are context sensitive, i.e they are open o
 
 The old menu and toolbars are no longer accessible. The equivalent of the old menu point / toolbar button is now the ribbon command:
 
-
-
 In the API, commands can be created in following places:
 
 - Extensions > API command group
@@ -91,7 +87,7 @@ The following table shows how to create new ribbon items and provides example c
 | Popup menu | Menu.AddPopupMenuItem | RibbonCommandGroup | RibbonTab.AddCommandGroup | menu.AddPopupMenuItem("ActionExample - test2","ActionExample - test2 submenupoint1", "ActionExample", "status text", mainID, 0, false, false); | var commandGroup = ribbonTab.AddCommandGroup("ActionExample - test2"); |
 | Toolbar | toolbar.CreateCustomToolbar | RibbonCommandGroup | RibbonTab.AddCommandGroup | toolbar.CreateCustomToolbar("SelectionSet", Toolbar.ToolBarDockPos.eToolbarLeft, 4, 1, true); | var commandGroup = ribbonTab.AddCommandGroup("SelectionSet"); |
 | Menu item | menu.AddMenuItem( | RibbonCommand | RibbonBar.AddCommand , RibbonCommandGroup.AddCommand | menu.AddMenuItem("UndoAction", "UndoAction");  menu.AddMenuItem("SelectionRecursive", "SelectionRecursiveAction", "", selectionSetID, 1,false, false); | ribbonBar.AddCommand("UndoAction", "UndoAction");  commandGroup.AddCommand("SelectionRecursive", "SelectionRecursiveAction"); |
-| Toolbar button | toolbar.AddButton( | RibbonCommand | RibbonCommandGroup.AddCommand(â¦,index) | toolbar.AddButton("SelectionSet", Int32.MaxValue, "SelectionOneItemAction","C:\\myicons\\0.ico", "SelectionOneItemAction"); | commandGroup.AddCommand("SelectionOneItemAction", "SelectionOneItemAction", 0); |
+| Toolbar button | toolbar.AddButton( | RibbonCommand | RibbonCommandGroup.AddCommand('¦,index) | toolbar.AddButton("SelectionSet", Int32.MaxValue, "SelectionOneItemAction","C:\\myicons\\0.ico", "SelectionOneItemAction"); | commandGroup.AddCommand("SelectionOneItemAction", "SelectionOneItemAction", 0); |
 
 Here is also a list of other old methods and their new counterparts:
 
@@ -121,7 +117,7 @@ Furthermore, below examples present also how to use custom icons, which can be a
 
 Adding standard icons
 
-- [C#](#i-tab-content-6579e1cd-173c-4aca-b53d-7b80c60acdd4)
+**C#**
 
 ```
 
@@ -129,10 +125,6 @@ Adding standard icons
 var ribbonBar = new RibbonBar();
 
 var tab = ribbonBar.AddTab("RibbonIcons");
-
-
-
-
 
 // Adding standard icons to a command action using enum names
 
@@ -143,10 +135,6 @@ commandGroup.AddCommand("Button1", "action1", new RibbonIcon(CommandIcon.Generat
 commandGroup.AddCommand("Button2", "action2", new RibbonIcon(CommandIcon.Amplifier));
 
 commandGroup.AddCommand("Button3", "action3", new RibbonIcon(CommandIcon.Octagon_3));
-
-
-
-
 
 // Adding standard icons to a command action using index numbers
 
@@ -162,7 +150,7 @@ commandGroup.AddCommand("Button6", "action6", new RibbonIcon(181));
 
 Adding custom icons
 
-- [C#](#i-tab-content-d3796d1f-1abe-464c-b6fc-fa7383c36cd3)
+**C#**
 
 ```
 
@@ -175,8 +163,6 @@ commandGroup.AddCommand("Button7", "action7", new RibbonIcon("D:\\Icon2.svg"));
 
 commandGroup.AddCommand("Button8", "action8", new RibbonIcon("D:\\Icon3.svg"));
 
-
-
 // Adding new custom icons to a RibbonBar using the path to the file
 
 RibbonIcon ribbonIcon = ribbonBar.AddIcon("D:\\CarIco.svg");
@@ -184,8 +170,6 @@ RibbonIcon ribbonIcon = ribbonBar.AddIcon("D:\\CarIco.svg");
 commandGroup = tab.AddCommandGroup("AddIcon using path");
 
 commandGroup.AddCommand("Button10", "action10", ribbonIcon);
-
-
 
 // Adding new custom icons to a RibbonBar using the string source
 
@@ -227,8 +211,6 @@ var svgContent = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=
 
  "</svg>";
 
-
-
 commandGroup = tab.AddCommandGroup("AddIcon using source");
 
 ribbonIcon = ribbonBar.AddIcon(svgContent);
@@ -238,8 +220,6 @@ commandGroup.AddCommand("Button13", "action13", ribbonIcon);
 ```
 
 The above examples result in this RibbonBar:
-
-
 
 **RibbonCommandInfo**
 
@@ -251,7 +231,7 @@ The multilanguage properties are used over the non-multilanguage properties if t
 
 The IndexButtonPosition is used to specify the position in a  RibbonCommandGroup.
 
-- [C#](#i-tab-content-d584e512-299e-43e7-bc12-da8dcd01211d)
+**C#**
 
 ```
 
@@ -272,7 +252,7 @@ It is possible to add existing Eplan ribbon command actions to a custom  Comman
 
 The corresponding internal icon is automatically added to the action.
 
-- [C#](#i-tab-content-419649ef-4385-4309-aab2-2c35faac1d91)
+**C#**
 
 ```
 
@@ -291,17 +271,15 @@ var commandAction = commandGroup.AddCommandWithId(commandId);
 
 To find the correct  Command.ID  value for the command, you can check the description log in the Eplan Diagnostics dialog after calling this action from the ribbon (to show the Diagnostics Dialog press [Ctrl] + [VK\_OEM\_5]. [VK\_OEM\_5] corresponds to the [^] key on a German keyboard or to the [\] on a United States 101 keyboard.):
 
-
-
 **SVG Icons limitations**
 
 Our UI libraries provide  SVG  support with the following limitations:
 
-   â¢ Scripts, interactions and external objects are not implemented for security reasons.
+   '¢ Scripts, interactions and external objects are not implemented for security reasons.
 
-   â¢ Animations, videos, sounds and internal images are not implemented.
+   '¢ Animations, videos, sounds and internal images are not implemented.
 
-   â¢ Since  SVG  icons should be small and fast to render, we disabled the following  SVG  elements that can significantly affect drawing performance:  
+   '¢ Since  SVG  icons should be small and fast to render, we disabled the following  SVG  elements that can significantly affect drawing performance:  
   
        -  <pattern>  
   

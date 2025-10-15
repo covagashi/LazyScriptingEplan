@@ -8,11 +8,10 @@ Exports PLC data in the PLC standard exchange format (.pbf files) using the PlcD
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExportData( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public void ExportData(
    bool bOverwrite
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExportData( 
@@ -42,8 +37,7 @@ void ExportData(
    bool bOverwrite
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -31,8 +31,8 @@ Example for project related settings Projects > <project name> > Connections > G
 
 The following example shows how to get the project setting for the project display languages.
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
@@ -42,11 +42,6 @@ Eplan.EplApi.DataModel.ProjectSettings projectSettings =
           new Eplan.EplApi.DataModel.ProjectSettings(oProject);
 
 string languages = projectSettings.GetExpandedStringSetting("TRANSLATEGUI.DISPLAYED_LANGUAGES", 0)
-
-```
-
-```
-
 
 Dim projectSettings As New Eplan.EplApi.DataModel.ProjectSettings(oProject)
 

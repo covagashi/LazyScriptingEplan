@@ -8,21 +8,16 @@ Constructor to create a project dependent instance.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TransactionManager( 
 
    Project project
 
 )
-```
-```
 
-```
-```
 public:
 
 TransactionManager( 
@@ -30,8 +25,7 @@ TransactionManager(
    Project^ project
 
 )
-```
-```
+
 
 #### Parameters
 

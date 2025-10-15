@@ -8,17 +8,12 @@ If each Hole will not been drilled, enter a value > 1
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int DrillNthHole {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int DrillNthHole {
@@ -28,5 +23,4 @@ property int DrillNthHole {
    void set (    int value);
 
 }
-```
-```
+

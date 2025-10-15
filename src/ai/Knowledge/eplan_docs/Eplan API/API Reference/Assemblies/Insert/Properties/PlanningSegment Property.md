@@ -8,17 +8,12 @@ Determines the planning segment to which all function inserted from window macro
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningSegment PlanningSegment {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PlanningSegment^ PlanningSegment {
@@ -28,25 +23,20 @@ property PlanningSegment^ PlanningSegment {
    void set (    PlanningSegment^ value);
 
 }
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-ba02cef9-b00d-4f8c-a528-3f3c2fb153d3)
+**C#**
 
 ```
 //create insert service
 
 Insert oInsert = new Insert();
 
-
-
 //set planning segment to which functions from macro will be assigned
 
 oInsert.PlanningSegment = oPlanningSegment;
-
-
 
 //insert a window macro
 
@@ -62,14 +52,8 @@ StorableObject [] arrInsertedSorableObjects = oInsert.WindowMacro(
 
     Insert.MoveKind.Absolute);
 
-
-
 //get first inserted function 
 
 Function oInsertedFunction = arrInsertedSorableObjects.OfType<Function>().FirstOrDefault();
-
-
-
-
 
 ```

@@ -8,21 +8,16 @@ Writes back the data of merged functions to whose corresponding functions
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static void WriteBackFunctionData( 
 
    MergedFunction[] arrMergedFunctions
 
 )
-```
-```
 
-```
-```
 public:
 
 static void WriteBackFunctionData( 
@@ -30,8 +25,7 @@ static void WriteBackFunctionData(
    array<MergedFunction^>^ arrMergedFunctions
 
 )
-```
-```
+
 
 #### Parameters
 

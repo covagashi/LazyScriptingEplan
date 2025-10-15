@@ -8,17 +8,12 @@ Returns default Documents directory.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Documents {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Documents {
@@ -26,8 +21,7 @@ property String^ Documents {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

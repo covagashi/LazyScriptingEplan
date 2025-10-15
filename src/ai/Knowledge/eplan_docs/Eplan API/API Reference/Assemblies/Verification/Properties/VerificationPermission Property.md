@@ -8,17 +8,12 @@ The permission of a verification determines for what type of check the verificat
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public IVerificationBase.Permission VerificationPermission {get; set;}
-```
-```
 
-```
-```
 public:
 
 property IVerificationBase.Permission VerificationPermission {
@@ -28,8 +23,7 @@ property IVerificationBase.Permission VerificationPermission {
    void set (    IVerificationBase.Permission value);
 
 }
-```
-```
+
 
 Remarks
 

@@ -8,17 +8,12 @@ Is linked to superior segments # 44066.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_IS_LINKED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_IS_LINKED {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_IS_LINKED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

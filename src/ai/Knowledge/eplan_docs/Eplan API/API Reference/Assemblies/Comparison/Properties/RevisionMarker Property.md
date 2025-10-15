@@ -8,17 +8,12 @@ Name of marker for differences found by a project comparison.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string RevisionMarker {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ RevisionMarker {
@@ -28,5 +23,4 @@ property String^ RevisionMarker {
    void set (    String^ value);
 
 }
-```
-```
+

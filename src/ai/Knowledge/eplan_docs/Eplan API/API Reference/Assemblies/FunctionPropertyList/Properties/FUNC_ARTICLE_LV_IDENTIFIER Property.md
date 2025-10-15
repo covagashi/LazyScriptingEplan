@@ -8,21 +8,16 @@ Bill of quantities: Identifier # 26439.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_LV_IDENTIFIER( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_LV_IDENTIFIER {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_LV_IDENTIFIER {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Mounting position # 26035.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_INSTALLATION_POSITION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_INSTALLATION_POSITION {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_INSTALLATION_POSITION {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

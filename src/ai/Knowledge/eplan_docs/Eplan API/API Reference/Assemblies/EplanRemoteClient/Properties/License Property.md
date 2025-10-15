@@ -8,17 +8,12 @@ License file name (\*.lis).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string License {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ License {
@@ -28,5 +23,4 @@ property String^ License {
    void set (    String^ value);
 
 }
-```
-```
+

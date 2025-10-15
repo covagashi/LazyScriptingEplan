@@ -8,20 +8,14 @@ State of connection to database that is currently used.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MDPartsManagement.DataSourceState : System.Enum
-```
-```
 
-```
-```
 public enum class MDPartsManagement.DataSourceState : public System.Enum
-```
-```
+
 
 Members
 

@@ -8,17 +8,12 @@ Do not use main terminals # 20229.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TERMINAL_STRIP_DONT_USE_MAINTERMINAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TERMINAL_STRIP_DONT_USE_MAINTERMINAL {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TERMINAL_STRIP_DONT_USE_MAINTERMINAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns information whether the bridge is 'vertical', i.e. whether it connects o
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsVertical {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsVertical {
@@ -26,5 +21,4 @@ property bool IsVertical {
    bool get();
 
 }
-```
-```
+

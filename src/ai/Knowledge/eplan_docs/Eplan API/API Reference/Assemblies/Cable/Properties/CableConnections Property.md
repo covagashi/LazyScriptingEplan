@@ -8,17 +8,12 @@ Returns an array of Connection objects that exist under the cable definition lin
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Connection[] CableConnections {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Connection^>^ CableConnections {
@@ -26,8 +21,7 @@ property array<Connection^>^ CableConnections {
    array<Connection^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

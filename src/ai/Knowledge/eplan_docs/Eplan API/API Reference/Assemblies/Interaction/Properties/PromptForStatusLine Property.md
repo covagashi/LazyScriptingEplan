@@ -8,17 +8,12 @@ Prompt for status line.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual string PromptForStatusLine {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property String^ PromptForStatusLine {
@@ -28,5 +23,4 @@ virtual property String^ PromptForStatusLine {
    void set (    String^ value);
 
 }
-```
-```
+

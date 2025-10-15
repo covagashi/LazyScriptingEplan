@@ -8,17 +8,12 @@ Characteristic curve # 26403.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CHARACTERISTIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CHARACTERISTIC {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CHARACTERISTIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Removes the given part from the parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemovePart( 
 
    MDPart part
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemovePart( 
@@ -30,8 +25,7 @@ void RemovePart(
    MDPart^ part
 
 )
-```
-```
+
 
 #### Parameters
 

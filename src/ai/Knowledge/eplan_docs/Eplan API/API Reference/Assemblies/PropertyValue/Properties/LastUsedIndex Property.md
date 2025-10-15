@@ -8,17 +8,12 @@ Returns the number of the highest used index. Indexes start at 1. If the propert
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int LastUsedIndex {get;}
-```
-```
 
-```
-```
 public:
 
 property int LastUsedIndex {
@@ -26,8 +21,7 @@ property int LastUsedIndex {
    int get();
 
 }
-```
-```
+
 
 Exceptions
 
@@ -45,18 +39,14 @@ For example:
 
 Example
 
-- [C#](#i-tab-content-c78d74ad-f777-4d9c-844f-d9e6fa7a9fbc)
+**C#**
 
 ```
 
 
 Function function = page.Functions[0]; // A valid Function object
 
-
-
 PropertyValue propertyValue = function.Properties.FUNC_CONNECTIONDESIGNATION;
-
-
 
 if (propertyValue.Definition.IsIndexed)
 
@@ -73,9 +63,5 @@ if (propertyValue.Definition.IsIndexed)
     }
 
 }
-
-
-
-
 
 ```

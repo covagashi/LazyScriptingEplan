@@ -8,11 +8,10 @@ Returns default string value of a setting. The index starts at 0.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string GetStringDefault( 
 
    string strSettingPath,
@@ -20,11 +19,7 @@ public string GetStringDefault(
    int nIdx
 
 )
-```
-```
 
-```
-```
 public:
 
 String^ GetStringDefault( 
@@ -34,8 +29,7 @@ String^ GetStringDefault(
    int nIdx
 
 )
-```
-```
+
 
 #### Parameters
 

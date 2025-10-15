@@ -8,21 +8,16 @@ Removes revision data from placements. Used for change tracking.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveRevisionData( 
 
    IEnumerable<Placement> colPlacements
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveRevisionData( 
@@ -30,8 +25,7 @@ void RemoveRevisionData(
    IEnumerable<Placement^>^ colPlacements
 
 )
-```
-```
+
 
 #### Parameters
 

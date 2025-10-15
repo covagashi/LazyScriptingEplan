@@ -8,11 +8,10 @@ Creates copy of this page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Page CopyTo( 
 
    Project pProject,
@@ -24,11 +23,7 @@ public Page CopyTo(
    bool bOverwrite
 
 )
-```
-```
 
-```
-```
 public:
 
 Page^ CopyTo( 
@@ -42,8 +37,7 @@ Page^ CopyTo(
    bool bOverwrite
 
 )
-```
-```
+
 
 #### Parameters
 

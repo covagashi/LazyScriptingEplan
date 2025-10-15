@@ -8,22 +8,16 @@ Gets the TimeStamp of the last change from a DatabaseItem
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DateTime GetTimeStampOfLastChange()
-```
-```
 
-```
-```
 public:
 
 DateTime GetTimeStampOfLastChange();
-```
-```
+
 
 #### Return Value
 

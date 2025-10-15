@@ -8,11 +8,10 @@ Create new routing spline in P8 project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateTransient( 
 
    InstallationSpace pInstallationSpace,
@@ -20,11 +19,7 @@ public void CreateTransient(
    PointD3D[] arrPointsOnSpline
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateTransient( 
@@ -34,8 +29,7 @@ void CreateTransient(
    array<PointD3D>^ arrPointsOnSpline
 
 )
-```
-```
+
 
 #### Parameters
 

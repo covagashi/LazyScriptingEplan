@@ -8,21 +8,16 @@ Applies a record of values on a PlaceHolder object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void ApplyRecord( 
 
    string strRecordName
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void ApplyRecord( 
@@ -30,8 +25,7 @@ virtual void ApplyRecord(
    String^ strRecordName
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Depth of bus bars (without mount).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual double DepthOfBars {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property double DepthOfBars {
@@ -26,5 +21,4 @@ virtual property double DepthOfBars {
    double get();
 
 }
-```
-```
+

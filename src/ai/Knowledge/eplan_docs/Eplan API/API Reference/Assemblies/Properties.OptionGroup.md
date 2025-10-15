@@ -8,20 +8,14 @@ Identificators of properties owned by OptionGroup class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.OptionGroup : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.OptionGroup : public System.Enum
-```
-```
+
 
 Members
 

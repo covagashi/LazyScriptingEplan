@@ -8,24 +8,18 @@ Event raised when an Eplan Cloud resource is deprecated
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [Nullable(Mono.Cecil.CustomAttributeArgument[])]
 
 event EventHandler<EplanCloudResourceDeprecationArgs> EplanCloudResourceDeprecationEvent
-```
-```
 
-```
-```
 [Nullable(Mono.Cecil.CustomAttributeArgument[])]
 
 event EventHandler<EplanCloudResourceDeprecationArgs^>^ EplanCloudResourceDeprecationEvent
-```
-```
+
 
 Event Data
 

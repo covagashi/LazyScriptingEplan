@@ -8,11 +8,10 @@ Inserts a page macro into a project. You need to set the page, after which the n
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] PageMacro( 
 
    string strEMPFileName,
@@ -26,11 +25,7 @@ public StorableObject[] PageMacro(
    PageMacro.Enums.NumerationMode nNumerationMode
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ PageMacro( 
@@ -46,8 +41,7 @@ array<StorableObject^>^ PageMacro(
    PageMacro.Enums.NumerationMode nNumerationMode
 
 )
-```
-```
+
 
 #### Parameters
 

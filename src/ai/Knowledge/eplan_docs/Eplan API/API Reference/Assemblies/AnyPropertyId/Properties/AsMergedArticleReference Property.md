@@ -8,17 +8,12 @@ Gets property id value as [Properties.MergedArticleReference](Eplan.EplApi.DataM
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.MergedArticleReference AsMergedArticleReference {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.MergedArticleReference AsMergedArticleReference {
@@ -26,5 +21,4 @@ property Properties.MergedArticleReference AsMergedArticleReference {
    Properties.MergedArticleReference get();
 
 }
-```
-```
+

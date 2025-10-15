@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new ConnectionPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property ConnectionPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property ConnectionPropertyList^ Properties {
    ConnectionPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -35,7 +29,7 @@ P8 properties of the Connection.
 
 Example
 
-- [C#](#i-tab-content-27eaf072-1884-4c9e-9d88-72d6d5564b59)
+**C#**
 
 ```
 Connection conn;//a valid connection

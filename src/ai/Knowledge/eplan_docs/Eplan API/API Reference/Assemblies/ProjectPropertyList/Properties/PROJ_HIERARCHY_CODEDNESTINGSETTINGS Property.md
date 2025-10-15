@@ -8,17 +8,12 @@ Nested device tags # 10019.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_HIERARCHY_CODEDNESTINGSETTINGS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_HIERARCHY_CODEDNESTINGSETTINGS {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_HIERARCHY_CODEDNESTINGSETTINGS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

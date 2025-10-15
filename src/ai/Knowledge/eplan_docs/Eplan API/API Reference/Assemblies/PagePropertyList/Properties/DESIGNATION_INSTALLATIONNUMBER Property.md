@@ -8,17 +8,12 @@ Higher-level function number (main identifier) # 1700.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_INSTALLATIONNUMBER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_INSTALLATIONNUMBER {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_INSTALLATIONNUMBER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

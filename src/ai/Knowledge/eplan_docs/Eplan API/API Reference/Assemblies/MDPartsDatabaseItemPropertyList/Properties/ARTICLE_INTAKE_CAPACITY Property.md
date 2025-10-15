@@ -8,17 +8,12 @@ Intake capacity # 26194.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_INTAKE_CAPACITY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_INTAKE_CAPACITY {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_INTAKE_CAPACITY {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-The ability of a system to draw in a certain amount of air or gas per unit of time. The value is given in cubic meters per hour (mÂ³/h).
+The ability of a system to draw in a certain amount of air or gas per unit of time. The value is given in cubic meters per hour (m³/h).

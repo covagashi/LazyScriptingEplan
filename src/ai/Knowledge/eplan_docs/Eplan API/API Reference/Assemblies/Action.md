@@ -14,20 +14,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Action
-```
-```
 
-```
-```
 public ref class Action
-```
-```
+
 
 Remarks
 
@@ -38,8 +32,6 @@ Please mind that Microsoft .NET framework 3.5 contains a class System.Action. If
   
 Action names must not contain a period (".").
 
-
-
 Public Constructors
 
 |  | Name | Description |
@@ -47,8 +39,6 @@ Public Constructors
 | Public Constructor | [Action Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action~_ctor(AfAction).html) | For internal use only. |
 
 [Top](#top)
-
-
 
 Public Properties
 

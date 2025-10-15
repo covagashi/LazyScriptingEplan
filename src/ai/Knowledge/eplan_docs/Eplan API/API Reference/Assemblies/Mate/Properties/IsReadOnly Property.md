@@ -8,17 +8,12 @@ Determines if Mate can be modified.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsReadOnly {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsReadOnly {
@@ -26,8 +21,7 @@ property bool IsReadOnly {
    bool get();
 
 }
-```
-```
+
 
 Remarks
 

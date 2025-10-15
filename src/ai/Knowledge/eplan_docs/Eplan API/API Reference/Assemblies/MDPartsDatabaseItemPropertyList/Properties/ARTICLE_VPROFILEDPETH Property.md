@@ -8,17 +8,12 @@ Profile vertical: Depth # 22190.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_VPROFILEDPETH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_VPROFILEDPETH {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_VPROFILEDPETH {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

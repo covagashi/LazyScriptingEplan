@@ -8,17 +8,12 @@ The location of the referenced mounting panel.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int Location {get; set;}
-```
-```
 
-```
-```
 public:
 
 property int Location {
@@ -28,5 +23,4 @@ property int Location {
    void set (    int value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Use displayed DT as full DT # 20051.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DISABLENAMEEVALUATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DISABLENAMEEVALUATION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DISABLENAMEEVALUATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Identifies a PLC bus port as the master of a bus system.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsPlcMaster {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsPlcMaster {
@@ -28,5 +23,4 @@ property bool IsPlcMaster {
    void set (    bool value);
 
 }
-```
-```
+

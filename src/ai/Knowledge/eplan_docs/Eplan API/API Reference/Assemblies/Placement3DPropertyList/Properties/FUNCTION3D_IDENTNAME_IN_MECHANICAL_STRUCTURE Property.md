@@ -8,17 +8,12 @@ Designation in mechanics structure # 36016.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_IDENTNAME_IN_MECHANICAL_STRUCTURE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_IDENTNAME_IN_MECHANICAL_STRUCTURE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_IDENTNAME_IN_MECHANICAL_STRUCTURE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

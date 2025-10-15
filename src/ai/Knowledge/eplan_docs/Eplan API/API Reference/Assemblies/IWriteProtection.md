@@ -8,26 +8,20 @@ Defines methods to manipulate write protection on object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IWriteProtection
-```
-```
 
-```
-```
 public interface class IWriteProtection
-```
-```
+
 
 Example
 
 The following example shows how to use the interface.
 
-- [C#](#i-tab-content-0ec46a6b-a728-48a0-b772-8e7495a078b8)
+**C#**
 
 ```
 
@@ -46,14 +40,7 @@ using (UndoStep oUndoStep = new UndoManager().CreateUndoStep())
 
 Console.WriteLine(oFunction.Properties.HARNESS_NAME.ToString());  //will be 'old value' returned
 
-
-
-
-
 ```
-
-
-
 
 Public Properties
 

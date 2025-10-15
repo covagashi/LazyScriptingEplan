@@ -8,20 +8,14 @@ Relative position - determines the position of created location in correspondenc
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Project.LocationRelativePosition : System.Enum
-```
-```
 
-```
-```
 public enum class Project.LocationRelativePosition : public System.Enum
-```
-```
+
 
 Members
 

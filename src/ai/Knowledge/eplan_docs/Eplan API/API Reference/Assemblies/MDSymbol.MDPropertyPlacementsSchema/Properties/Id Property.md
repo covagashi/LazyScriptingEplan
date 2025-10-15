@@ -8,17 +8,12 @@ Returns the ID of the property placements configuration
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ushort Id {get;}
-```
-```
 
-```
-```
 public:
 
 property ushort Id {
@@ -26,5 +21,4 @@ property ushort Id {
    ushort get();
 
 }
-```
-```
+

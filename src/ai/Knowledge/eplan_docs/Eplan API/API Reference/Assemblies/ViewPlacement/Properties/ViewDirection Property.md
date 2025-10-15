@@ -8,17 +8,12 @@ The direction from which objects are seen in ViewPlacement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ViewDirectionType ViewDirection {get; set;}
-```
-```
 
-```
-```
 public:
 
 property ViewDirectionType ViewDirection {
@@ -28,8 +23,7 @@ property ViewDirectionType ViewDirection {
    void set (    ViewDirectionType value);
 
 }
-```
-```
+
 
 Remarks
 

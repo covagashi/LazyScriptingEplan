@@ -8,21 +8,16 @@ Property arrangements # 16050.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMB_PROPERTYINSTANCESET( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMB_PROPERTYINSTANCESET {
@@ -32,8 +27,7 @@ property PropertyValue^ SYMB_PROPERTYINSTANCESET {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

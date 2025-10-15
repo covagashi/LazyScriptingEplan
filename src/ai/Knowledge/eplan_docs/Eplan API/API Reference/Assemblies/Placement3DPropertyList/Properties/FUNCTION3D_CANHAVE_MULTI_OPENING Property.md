@@ -8,17 +8,12 @@ Multiple cut-out possible # 36036.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_CANHAVE_MULTI_OPENING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_CANHAVE_MULTI_OPENING {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_CANHAVE_MULTI_OPENING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

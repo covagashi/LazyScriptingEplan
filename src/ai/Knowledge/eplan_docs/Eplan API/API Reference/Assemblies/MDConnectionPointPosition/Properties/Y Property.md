@@ -8,17 +8,12 @@ The Y-position of the connection point
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double Y {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double Y {
@@ -28,5 +23,4 @@ property double Y {
    void set (    double value);
 
 }
-```
-```
+

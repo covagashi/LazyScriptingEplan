@@ -10,8 +10,8 @@ Please mind that the sides of a  Placement3D  are something different than the
 
 The representation of sides is in the  .Corners  property, for example:
 
-**Placement3D.Corners.UpperRightBackAbsolute**  â Returns the upper right back coordinate in an absolute system.  
-**Placement3D.Corners.LowerRightFrontRelative**  â Returns the lower right front coordinate in a relative system.
+**Placement3D.Corners.UpperRightBackAbsolute**  ' Returns the upper right back coordinate in an absolute system.  
+**Placement3D.Corners.LowerRightFrontRelative**  ' Returns the lower right front coordinate in a relative system.
 
 ### Objects with placement area
 
@@ -19,13 +19,7 @@ In this case, orientation is according to placement area.
 
 Example terminal:
 
-
-
-
-
 Example rack:
-
-
 
 ### Objects without placement area
 
@@ -41,8 +35,6 @@ In this case, orientation is according to the absolute axis origin (assumed iden
 | Bottom | side with lowest Z |
 
 SE isometric viewpoint:
-
-
 
 SW isometric viewpoint :
 

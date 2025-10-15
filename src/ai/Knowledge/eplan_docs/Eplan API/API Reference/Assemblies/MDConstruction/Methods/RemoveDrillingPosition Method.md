@@ -8,21 +8,16 @@ Removes the given drilling position from the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveDrillingPosition( 
 
    MDDrillingPosition doorPos
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveDrillingPosition( 
@@ -30,8 +25,7 @@ void RemoveDrillingPosition(
    MDDrillingPosition^ doorPos
 
 )
-```
-```
+
 
 #### Parameters
 

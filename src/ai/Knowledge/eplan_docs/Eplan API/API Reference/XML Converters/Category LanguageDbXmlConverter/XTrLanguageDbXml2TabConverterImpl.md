@@ -5,13 +5,13 @@
 ---
 
 ```
-Imports or exports dictionary data in the system database from or to a simple, tab-separated text format ("*.txt").
-```
+Imports or exports dictionary data in the system database from or to a simple, tab-separated text format ("*.txt").
 
-  
+```
 
 **Remarks**
 
 ```
-No options used.
+No options used.
+
 ```

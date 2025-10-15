@@ -6,17 +6,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.MDSymbolVariant AsMDSymbolVariant {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.MDSymbolVariant AsMDSymbolVariant {
@@ -24,5 +19,4 @@ property Properties.MDSymbolVariant AsMDSymbolVariant {
    Properties.MDSymbolVariant get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Total power consumption # 44011.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_POWER_REQUIREMENT_TOTAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_POWER_REQUIREMENT_TOTAL {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_POWER_REQUIREMENT_TOTAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Cursor position considering ortho-mode.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual PointD3D OrthoPosition {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property PointD3D OrthoPosition {
@@ -28,8 +23,7 @@ virtual property PointD3D OrthoPosition {
    void set (    PointD3D value);
 
 }
-```
-```
+
 
 Remarks
 

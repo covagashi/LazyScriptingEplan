@@ -8,20 +8,14 @@ Order in which addresses are to be assigned
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum PlcService.Sorting : System.Enum
-```
-```
 
-```
-```
 public enum class PlcService.Sorting : public System.Enum
-```
-```
+
 
 Members
 

@@ -8,17 +8,12 @@ Project structure: Installation site # 10003.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_HIERARCHY_PLACEOFINSTALLATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_HIERARCHY_PLACEOFINSTALLATION {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_HIERARCHY_PLACEOFINSTALLATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

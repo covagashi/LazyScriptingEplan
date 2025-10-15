@@ -8,17 +8,12 @@ Pair index # 31050.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_CABLEWIRE_PAIRINDEX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_CABLEWIRE_PAIRINDEX {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_CABLEWIRE_PAIRINDEX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

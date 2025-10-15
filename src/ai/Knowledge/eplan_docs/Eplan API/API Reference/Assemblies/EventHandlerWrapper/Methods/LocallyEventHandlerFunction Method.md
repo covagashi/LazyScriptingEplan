@@ -8,11 +8,10 @@ This function of the local event handler is registered as a handler function of 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [OneWay()]
 
 public void LocallyEventHandlerFunction( 
@@ -20,11 +19,7 @@ public void LocallyEventHandlerFunction(
    IEventParameter pIEventParameter
 
 )
-```
-```
 
-```
-```
 [OneWay()]
 
 public:
@@ -34,8 +29,7 @@ void LocallyEventHandlerFunction(
    IEventParameter^ pIEventParameter
 
 )
-```
-```
+
 
 #### Parameters
 

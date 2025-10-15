@@ -8,28 +8,22 @@ This method will enable to commit the transaction, and \internal open the next t
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Store()
-```
-```
 
-```
-```
 public:
 
 void Store();
-```
-```
+
 
 Example
 
 Store() usage example. In this example Function f Name is set "F1", Description is set "generic function". The changes are stored in the project. Name "F2" is not committed, so it is not stored.
 
-- [C#](#i-tab-content-fcc3837e-7964-458f-a10d-2239e1fabda2)
+**C#**
 
 ```
 using (Transaction txn = new TransactionManager().CreateTransaction())

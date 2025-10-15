@@ -13,26 +13,17 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [ComVisible(true)]
 
 public class EplanServerData
-```
-```
 
-```
-```
 [ComVisible(true)]
 
 public ref class EplanServerData
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [EplanServerData Constructor](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanServerData~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

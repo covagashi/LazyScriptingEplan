@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MRUList
-```
-```
 
-```
-```
 public ref class MRUList
-```
-```
+
 
 Remarks
 
-Projects opened from API donât write automatically into MRUList. This should be done explicitly by the user by calling MRUList.SetProject.
-
-
+Projects opened from API don't write automatically into MRUList. This should be done explicitly by the user by calling MRUList.SetProject.
 
 Public Constructors
 
@@ -41,9 +33,6 @@ Public Constructors
 | Public Constructor | [MRUList Constructor](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.MRUList~_ctor.html) | Creates a new object. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

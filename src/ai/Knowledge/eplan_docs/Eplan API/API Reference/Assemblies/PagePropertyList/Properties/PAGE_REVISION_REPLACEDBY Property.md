@@ -8,17 +8,12 @@ Replaced by # 11086.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_REVISION_REPLACEDBY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_REVISION_REPLACEDBY {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_REVISION_REPLACEDBY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

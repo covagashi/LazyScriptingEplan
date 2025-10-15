@@ -8,17 +8,12 @@ Autoconnecting line: Line thickness # 31016.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_ACL_WIDTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_ACL_WIDTH {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_ACL_WIDTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

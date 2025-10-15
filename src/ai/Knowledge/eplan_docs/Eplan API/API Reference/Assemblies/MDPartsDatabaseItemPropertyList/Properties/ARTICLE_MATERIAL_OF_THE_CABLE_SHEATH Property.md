@@ -8,17 +8,12 @@ Material of the cable jacket # 26640.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_MATERIAL_OF_THE_CABLE_SHEATH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_MATERIAL_OF_THE_CABLE_SHEATH {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_MATERIAL_OF_THE_CABLE_SHEATH {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

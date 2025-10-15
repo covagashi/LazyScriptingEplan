@@ -8,17 +8,12 @@ Manual cross-reference # 20302.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_MANUALCROSSREFERENCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_MANUALCROSSREFERENCE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_MANUALCROSSREFERENCE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Naming format for mechanical devices # 10086.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_NAMEFORMAT_MECHANIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_NAMEFORMAT_MECHANIC {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_NAMEFORMAT_MECHANIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

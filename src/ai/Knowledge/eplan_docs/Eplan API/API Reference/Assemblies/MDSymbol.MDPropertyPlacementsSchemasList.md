@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDSymbol.MDPropertyPlacementsSchemasList
-```
-```
 
-```
-```
 public ref class MDSymbol.MDPropertyPlacementsSchemasList
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [MDSymbol.MDPropertyPlacementsSchemasList Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol+MDPropertyPlacementsSchemasList~_ctor.html) | Constructor MDPropertyPlacementsSchemasList |
 
 [Top](#top)
-
-
 
 Public Properties
 

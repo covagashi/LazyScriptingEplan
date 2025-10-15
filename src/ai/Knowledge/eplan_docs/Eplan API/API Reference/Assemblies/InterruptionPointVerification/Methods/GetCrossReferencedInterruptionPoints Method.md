@@ -8,11 +8,10 @@ Gets all cross reference interruption points with the same name from the project
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void GetCrossReferencedInterruptionPoints( 
 
    InterruptionPoint oInterruptionPoint,
@@ -20,11 +19,7 @@ public void GetCrossReferencedInterruptionPoints(
    ref ArrayList colInterruptionPoints
 
 )
-```
-```
 
-```
-```
 public:
 
 void GetCrossReferencedInterruptionPoints( 
@@ -34,8 +29,7 @@ void GetCrossReferencedInterruptionPoints(
    ArrayList^% colInterruptionPoints
 
 )
-```
-```
+
 
 #### Parameters
 

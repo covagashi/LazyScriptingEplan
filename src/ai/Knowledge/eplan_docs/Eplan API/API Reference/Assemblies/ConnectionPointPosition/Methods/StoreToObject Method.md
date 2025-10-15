@@ -8,22 +8,16 @@ Stores data from connection point position.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void StoreToObject()
-```
-```
 
-```
-```
 public:
 
 void StoreToObject();
-```
-```
+
 
 Remarks
 

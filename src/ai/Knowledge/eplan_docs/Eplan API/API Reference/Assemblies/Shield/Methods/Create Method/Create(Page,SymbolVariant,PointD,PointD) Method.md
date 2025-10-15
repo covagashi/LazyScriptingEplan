@@ -8,11 +8,10 @@ Creates a `Function` object placed on a [Eplan.EplApi.DataModel.Page](Eplan.EplA
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override void Create( 
 
    Page pPage,
@@ -24,11 +23,7 @@ public override void Create(
    PointD oEndPoint
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -42,8 +37,7 @@ void Create(
    PointD oEndPoint
 
 ) override
-```
-```
+
 
 #### Parameters
 

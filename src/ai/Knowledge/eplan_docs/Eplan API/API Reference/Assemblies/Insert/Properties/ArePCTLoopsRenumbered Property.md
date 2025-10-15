@@ -8,17 +8,12 @@ If true, renumbers PCT loop if name already exists.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ArePCTLoopsRenumbered {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool ArePCTLoopsRenumbered {
@@ -28,5 +23,4 @@ property bool ArePCTLoopsRenumbered {
    void set (    bool value);
 
 }
-```
-```
+

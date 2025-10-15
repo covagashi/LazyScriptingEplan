@@ -8,17 +8,12 @@ Is the function range "Output (React)" selected (yes/no)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsOutput {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsOutput {
@@ -28,5 +23,4 @@ property bool IsOutput {
    void set (    bool value);
 
 }
-```
-```
+

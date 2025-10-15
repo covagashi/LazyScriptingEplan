@@ -8,20 +8,14 @@ Pre- defined classifications for MDParts Database messages; every message must b
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum IMDMessage.Classification : System.Enum
-```
-```
 
-```
-```
 public enum class IMDMessage.Classification : public System.Enum
-```
-```
+
 
 Members
 

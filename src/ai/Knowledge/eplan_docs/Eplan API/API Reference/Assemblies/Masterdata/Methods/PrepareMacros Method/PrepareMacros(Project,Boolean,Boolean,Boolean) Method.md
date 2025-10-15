@@ -8,11 +8,10 @@ Prepares and groups all elements belonging to a macro box or page macro.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool PrepareMacros( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public bool PrepareMacros(
    bool bSetHandleOnMacroBoxes
 
 )
-```
-```
 
-```
-```
 public:
 
 bool PrepareMacros( 
@@ -42,8 +37,7 @@ bool PrepareMacros(
    bool bSetHandleOnMacroBoxes
 
 )
-```
-```
+
 
 #### Parameters
 

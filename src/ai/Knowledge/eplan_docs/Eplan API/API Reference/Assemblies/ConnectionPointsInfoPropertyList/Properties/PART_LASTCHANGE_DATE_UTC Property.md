@@ -8,17 +8,12 @@ Modification date (UTC) # 22986.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PART_LASTCHANGE_DATE_UTC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PART_LASTCHANGE_DATE_UTC {
@@ -28,8 +23,7 @@ property PropertyValue^ PART_LASTCHANGE_DATE_UTC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

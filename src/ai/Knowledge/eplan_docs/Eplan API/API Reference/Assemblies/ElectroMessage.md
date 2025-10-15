@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ElectroMessage
-```
-```
 
-```
-```
 public ref class ElectroMessage
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [ElectroMessage Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ElectroMessage~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

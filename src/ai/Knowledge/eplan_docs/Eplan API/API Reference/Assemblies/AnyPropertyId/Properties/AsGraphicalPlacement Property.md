@@ -8,17 +8,12 @@ Gets property id value as [Properties.GraphicalPlacement](Eplan.EplApi.DataModel
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.GraphicalPlacement AsGraphicalPlacement {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.GraphicalPlacement AsGraphicalPlacement {
@@ -26,5 +21,4 @@ property Properties.GraphicalPlacement AsGraphicalPlacement {
    Properties.GraphicalPlacement get();
 
 }
-```
-```
+

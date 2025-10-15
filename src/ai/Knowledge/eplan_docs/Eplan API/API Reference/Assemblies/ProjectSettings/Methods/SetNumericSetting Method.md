@@ -8,11 +8,10 @@ Sets the value of a project setting in a specified path. The type of value will 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void SetNumericSetting( 
 
    string strSettingPath,
@@ -22,11 +21,7 @@ public virtual void SetNumericSetting(
    int nIdx
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void SetNumericSetting( 
@@ -38,8 +33,7 @@ virtual void SetNumericSetting(
    int nIdx
 
 )
-```
-```
+
 
 #### Parameters
 

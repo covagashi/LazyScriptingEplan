@@ -8,17 +8,12 @@ Returns relation id and index encapsulated by Relation class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Relation Relation {get;}
-```
-```
 
-```
-```
 public:
 
 property Relation Relation {
@@ -26,5 +21,4 @@ property Relation Relation {
    Relation get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ The contact / coil index of the component template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ContactIndex {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ContactIndex {
@@ -28,5 +23,4 @@ property String^ ContactIndex {
    void set (    String^ value);
 
 }
-```
-```
+

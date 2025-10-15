@@ -8,11 +8,10 @@ Exports drillings of a 3d objects into DXF files.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool DrillingTemplatesToDXF( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public bool DrillingTemplatesToDXF(
    IEnumerable<Placement3D> oCollection
 
 )
-```
-```
 
-```
-```
 public:
 
 bool DrillingTemplatesToDXF( 
@@ -46,8 +41,7 @@ bool DrillingTemplatesToDXF(
    IEnumerable<Placement3D^>^ oCollection
 
 )
-```
-```
+
 
 #### Parameters
 

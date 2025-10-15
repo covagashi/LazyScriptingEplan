@@ -14,20 +14,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public abstract class InterruptionPointVerification : Verification, IInterruptionPointVerification, IMessage, IVerification, IVerificationBase
-```
-```
 
-```
-```
 public ref class InterruptionPointVerification abstract : public Verification, IInterruptionPointVerification, IMessage, IVerification, IVerificationBase
-```
-```
+
 
 Remarks
 
@@ -37,26 +31,19 @@ Example
 
 Current workaround is to add interface names after class identifier, so such declaration as:
 
-- [C#](#i-tab-content-f328090e-3876-4e8c-9b85-1d0d5a38e450)
+**C#**
 
 ```
 publicclass VerificationExample: PotentialVerification
 
 {}
 
-
-
 //Should be substituted by :
-
-
 
 publicclass VerificationExample: PotentialVerification : IVerification : IMessage
 
 {}
 ```
-
-
-
 
 Public Properties
 

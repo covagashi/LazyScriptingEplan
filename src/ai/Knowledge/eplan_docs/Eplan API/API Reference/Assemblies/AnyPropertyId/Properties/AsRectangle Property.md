@@ -8,17 +8,12 @@ Gets property id value as [Properties.Rectangle](Eplan.EplApi.DataModelu~Eplan.E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.Rectangle AsRectangle {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.Rectangle AsRectangle {
@@ -26,5 +21,4 @@ property Properties.Rectangle AsRectangle {
    Properties.Rectangle get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ The direction for connection of the connection point
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDConnectionPointPosition.ConnectionPointDirection Direction {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDConnectionPointPosition.ConnectionPointDirection Direction {
@@ -28,5 +23,4 @@ property MDConnectionPointPosition.ConnectionPointDirection Direction {
    void set (    MDConnectionPointPosition.ConnectionPointDirection value);
 
 }
-```
-```
+

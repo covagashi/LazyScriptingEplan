@@ -8,21 +8,16 @@ Gets a Symbol object out of the library.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDSymbol GetSymbol( 
 
    int Id
 
 )
-```
-```
 
-```
-```
 public:
 
 MDSymbol^ GetSymbol( 
@@ -30,8 +25,7 @@ MDSymbol^ GetSymbol(
    int Id
 
 )
-```
-```
+
 
 #### Parameters
 

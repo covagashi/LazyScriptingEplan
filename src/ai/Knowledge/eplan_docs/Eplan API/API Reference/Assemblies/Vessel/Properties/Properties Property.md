@@ -8,17 +8,12 @@ EPLAN properties of the Vessel object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new VesselPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property VesselPropertyList^ Properties {
@@ -26,12 +21,11 @@ new property VesselPropertyList^ Properties {
    VesselPropertyList^ get();
 
 }
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-b466e7f3-d59d-428d-ac33-3e482c27797f)
+**C#**
 
 ```
 Function func;

@@ -8,17 +8,12 @@ Flow rate # 26633.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_VOLUME_FLOW_HEATING_M3_H {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_VOLUME_FLOW_HEATING_M3_H {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_VOLUME_FLOW_HEATING_M3_H {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

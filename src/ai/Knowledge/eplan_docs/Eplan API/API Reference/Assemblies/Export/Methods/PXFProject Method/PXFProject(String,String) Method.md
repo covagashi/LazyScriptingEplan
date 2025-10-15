@@ -8,11 +8,10 @@ Exports a project in PXF format.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void PXFProject( 
 
    string strFullLinkFileName,
@@ -20,11 +19,7 @@ public void PXFProject(
    string strExportFilePath
 
 )
-```
-```
 
-```
-```
 public:
 
 void PXFProject( 
@@ -34,8 +29,7 @@ void PXFProject(
    String^ strExportFilePath
 
 )
-```
-```
+
 
 #### Parameters
 

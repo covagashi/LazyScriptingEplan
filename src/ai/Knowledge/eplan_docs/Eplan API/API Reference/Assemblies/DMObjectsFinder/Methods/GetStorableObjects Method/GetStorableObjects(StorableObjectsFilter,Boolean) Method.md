@@ -8,11 +8,10 @@ This function takes all objects of classes StorableObject and inherited from Sto
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] GetStorableObjects( 
 
    StorableObjectsFilter filter,
@@ -20,11 +19,7 @@ public StorableObject[] GetStorableObjects(
    bool bWithPlacements
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ GetStorableObjects( 
@@ -34,8 +29,7 @@ array<StorableObject^>^ GetStorableObjects(
    bool bWithPlacements
 
 )
-```
-```
+
 
 #### Parameters
 

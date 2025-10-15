@@ -8,17 +8,12 @@ Get all support bar area positions of the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartSupportBarPosition[] SupportBarPositions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDPartSupportBarPosition^>^ SupportBarPositions {
@@ -26,8 +21,7 @@ property array<MDPartSupportBarPosition^>^ SupportBarPositions {
    array<MDPartSupportBarPosition^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

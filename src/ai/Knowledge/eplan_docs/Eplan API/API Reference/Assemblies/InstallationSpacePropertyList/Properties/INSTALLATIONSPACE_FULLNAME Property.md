@@ -8,17 +8,12 @@ Layout space name (full) # 36454.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTALLATIONSPACE_FULLNAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTALLATIONSPACE_FULLNAME {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTALLATIONSPACE_FULLNAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Date and time of access token expiration.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DateTimeOffset AccessTokenExpiration {get; set;}
-```
-```
 
-```
-```
 public:
 
 property DateTimeOffset AccessTokenExpiration {
@@ -28,5 +23,4 @@ property DateTimeOffset AccessTokenExpiration {
    void set (    DateTimeOffset value);
 
 }
-```
-```
+

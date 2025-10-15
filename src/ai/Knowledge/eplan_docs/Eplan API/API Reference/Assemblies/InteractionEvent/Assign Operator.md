@@ -8,17 +8,12 @@ Assignment operator.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 This operator type is not supported by C#
-```
-```
 
-```
-```
 public:
 
 InteractionEvent^ operator =( 
@@ -26,8 +21,7 @@ InteractionEvent^ operator =(
    InteractionEvent^ event
 
 )
-```
-```
+
 
 #### Parameters
 

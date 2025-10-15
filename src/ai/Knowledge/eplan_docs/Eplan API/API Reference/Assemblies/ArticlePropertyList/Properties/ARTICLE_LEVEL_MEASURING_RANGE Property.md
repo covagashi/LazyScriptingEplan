@@ -8,17 +8,12 @@ Measuring range: Level # 26452.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_LEVEL_MEASURING_RANGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_LEVEL_MEASURING_RANGE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_LEVEL_MEASURING_RANGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

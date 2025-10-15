@@ -8,17 +8,12 @@ Busbar support: Part variant # 22205.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_BUSBARHOLDERVARIANT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_BUSBARHOLDERVARIANT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_BUSBARHOLDERVARIANT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

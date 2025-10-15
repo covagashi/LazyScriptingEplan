@@ -8,19 +8,13 @@ Get containers of page types, that are relevant for generating connections.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static DocumentTypeManager.DocumentType[] GetPageTypesRelevantForGeneratingConnections()
-```
-```
 
-```
-```
 public:
 
 static array<DocumentTypeManager.DocumentType>^ GetPageTypesRelevantForGeneratingConnections();
-```
-```
+

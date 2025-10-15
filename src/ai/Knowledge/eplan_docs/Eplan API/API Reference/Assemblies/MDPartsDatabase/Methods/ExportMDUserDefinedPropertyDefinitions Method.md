@@ -8,21 +8,16 @@ Exports parts user defined properties.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExportMDUserDefinedPropertyDefinitions( 
 
    string strExportFilePath
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExportMDUserDefinedPropertyDefinitions( 
@@ -30,8 +25,7 @@ bool ExportMDUserDefinedPropertyDefinitions(
    String^ strExportFilePath
 
 )
-```
-```
+
 
 #### Parameters
 

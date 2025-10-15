@@ -7,13 +7,11 @@
 The  SegmentTemplate  class represents segment template objects. They contain common values of some properties.   
 The  Segment  inherits these values from a template.
 
-| C# | Copy Code |
-| --- | --- |
-| ``` 
- SegmentTemplate oSegmentTemplate = new SegmentTemplate();
+```csharp
+SegmentTemplate oSegmentTemplate = new SegmentTemplate();
  oSegmentTemplate.Create(oSegmentDefinition);
  oSegmentTemplate.Name = "SegmentTemplate_006";
- ``` | |
+```
 
 In the GUI, they are visible in the Segment templates navigator:
 

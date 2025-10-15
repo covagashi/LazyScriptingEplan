@@ -18,26 +18,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class ConnectionDefinitionPoint : Function, IArticleUser, IFunctionBase, IPropertyPlacementsContainer, IWriteProtection
-```
-```
 
-```
-```
 public ref class ConnectionDefinitionPoint : public Function, IArticleUser, IFunctionBase, IPropertyPlacementsContainer, IWriteProtection
-```
-```
+
 
 Remarks
 
 Changes in properties of ConnectionDefinitionPoint are not automatically updated in [Connection](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Connection.html). Do update [Connection](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Connection.html) properties it is necessary to execute Eplan.EplApi.HEServices.Generate.Connections()" /> method.
-
-
 
 Public Constructors
 
@@ -46,8 +38,6 @@ Public Constructors
 | Public Constructor | [ConnectionDefinitionPoint Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionDefinitionPoint~_ctor().html) | Constructor. Creates transient ConnectionDefinitionPoint. |
 
 [Top](#top)
-
-
 
 Public Properties
 

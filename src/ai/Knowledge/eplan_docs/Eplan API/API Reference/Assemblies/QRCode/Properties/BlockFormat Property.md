@@ -8,17 +8,12 @@ Gets/sets block format of QRCode.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string BlockFormat {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ BlockFormat {
@@ -28,5 +23,4 @@ property String^ BlockFormat {
    void set (    String^ value);
 
 }
-```
-```
+

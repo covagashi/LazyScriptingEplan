@@ -20,32 +20,24 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Property")]
 
 public class CablePropertyListComplete : CablePropertyList
-```
-```
 
-```
-```
 [DefaultMember("Property")]
 
 public ref class CablePropertyListComplete : public CablePropertyList
-```
-```
+
 
 Remarks
 
 It uses operator[] in order to access its elements (stored properties).
 
 Appending properties: CABLE\_COUNTOFALLWIRES, CABLE\_COUNTOFUSEDWIRES, CABLE\_COUNTOFFREEWIRES, CABLE\_COUNTOFSHIELDS, CABLE\_COUNTOFPEWIRES, CABLE\_COUNTOFNWIRES, CABLE\_COUNTOFNORMALWIRES, CABLE\_DIAGRAMPAGE, CABLE\_CONNECTIONDIAGRAMPAGE is often a time-consuming process.
-
-
 
 Public Constructors
 
@@ -54,8 +46,6 @@ Public Constructors
 | Public Constructor | [CablePropertyListComplete Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.CablePropertyListComplete~_ctor.html) | Constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

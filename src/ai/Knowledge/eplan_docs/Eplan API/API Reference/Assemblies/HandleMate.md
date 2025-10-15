@@ -15,26 +15,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class HandleMate : PointMate
-```
-```
 
-```
-```
 public ref class HandleMate : public PointMate
-```
-```
+
 
 Remarks
 
 The class represents either a standard mate point (with all mouning points permitted) or with extended logic (having a list of assigned mounting points.)
-
-
 
 Public Constructors
 
@@ -43,8 +35,6 @@ Public Constructors
 | Public Constructor | [HandleMate Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.HandleMate~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

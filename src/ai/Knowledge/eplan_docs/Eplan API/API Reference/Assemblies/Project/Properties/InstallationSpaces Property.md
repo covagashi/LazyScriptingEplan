@@ -8,17 +8,12 @@ Returns array of all [Eplan.EplApi.DataModel.E3D.InstallationSpace](Eplan.EplApi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public InstallationSpace[] InstallationSpaces {get;}
-```
-```
 
-```
-```
 public:
 
 property array<InstallationSpace^>^ InstallationSpaces {
@@ -26,5 +21,4 @@ property array<InstallationSpace^>^ InstallationSpaces {
    array<InstallationSpace^>^ get();
 
 }
-```
-```
+

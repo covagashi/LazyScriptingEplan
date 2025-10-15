@@ -8,20 +8,14 @@ Sort order for newly created location.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Project.LocationSortOrder : System.Enum
-```
-```
 
-```
-```
 public enum class Project.LocationSortOrder : public System.Enum
-```
-```
+
 
 Members
 

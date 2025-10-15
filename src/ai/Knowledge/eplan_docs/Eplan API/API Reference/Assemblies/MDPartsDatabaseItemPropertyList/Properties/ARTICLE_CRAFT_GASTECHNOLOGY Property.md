@@ -8,17 +8,12 @@ Trade 'Gas engineering' # 22263.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CRAFT_GASTECHNOLOGY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CRAFT_GASTECHNOLOGY {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CRAFT_GASTECHNOLOGY {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

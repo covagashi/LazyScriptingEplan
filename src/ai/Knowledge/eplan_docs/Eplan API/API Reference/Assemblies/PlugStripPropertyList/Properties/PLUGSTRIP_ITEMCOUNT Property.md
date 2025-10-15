@@ -8,17 +8,12 @@ Plugs: Number of pins and accessories for plug diagram # 35207.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PLUGSTRIP_ITEMCOUNT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PLUGSTRIP_ITEMCOUNT {
@@ -28,8 +23,7 @@ property PropertyValue^ PLUGSTRIP_ITEMCOUNT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

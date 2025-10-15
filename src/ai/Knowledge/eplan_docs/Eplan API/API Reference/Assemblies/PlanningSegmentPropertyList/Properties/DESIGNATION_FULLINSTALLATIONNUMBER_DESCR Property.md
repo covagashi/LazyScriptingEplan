@@ -8,17 +8,12 @@ Higher-level function number with preceding sign # 1740.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DESIGNATION_FULLINSTALLATIONNUMBER_WITHPREFIX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DESIGNATION_FULLINSTALLATIONNUMBER_WITHPREFIX {
@@ -28,8 +23,7 @@ property PropertyValue^ DESIGNATION_FULLINSTALLATIONNUMBER_WITHPREFIX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

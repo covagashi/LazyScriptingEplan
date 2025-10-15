@@ -8,17 +8,12 @@ Returns number of connections from this Pin object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int TargetCount {get;}
-```
-```
 
-```
-```
 public:
 
 property int TargetCount {
@@ -26,8 +21,7 @@ property int TargetCount {
    int get();
 
 }
-```
-```
+
 
 Remarks
 

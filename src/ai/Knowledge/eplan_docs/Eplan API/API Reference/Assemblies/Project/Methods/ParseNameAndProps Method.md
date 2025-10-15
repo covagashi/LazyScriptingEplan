@@ -8,11 +8,10 @@ Parsing of function name with additional properties.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ParseNameAndProps( 
 
    int nFunctionCategory,
@@ -24,11 +23,7 @@ public void ParseNameAndProps(
    UniversalPropertyList outAdditionalProps
 
 )
-```
-```
 
-```
-```
 public:
 
 void ParseNameAndProps( 
@@ -42,8 +37,7 @@ void ParseNameAndProps(
    UniversalPropertyList^ outAdditionalProps
 
 )
-```
-```
+
 
 #### Parameters
 

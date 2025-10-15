@@ -8,17 +8,12 @@ An article's variant contained in the device list.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Variant {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Variant {
@@ -26,5 +21,4 @@ property String^ Variant {
    String^ get();
 
 }
-```
-```
+

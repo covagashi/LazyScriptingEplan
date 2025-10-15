@@ -8,17 +8,12 @@ Gets a property's minimal value specified in the property's definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual MDPropertyValue LowerBound {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property MDPropertyValue^ LowerBound {
@@ -26,8 +21,7 @@ virtual property MDPropertyValue^ LowerBound {
    MDPropertyValue^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

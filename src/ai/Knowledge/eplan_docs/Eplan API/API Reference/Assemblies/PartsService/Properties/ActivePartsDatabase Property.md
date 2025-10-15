@@ -8,17 +8,12 @@ Returns or sets the type of current parts database. Possible values are PartsDat
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PartsService.PartsDatabaseType ActivePartsDatabase {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PartsService.PartsDatabaseType ActivePartsDatabase {
@@ -28,8 +23,7 @@ property PartsService.PartsDatabaseType ActivePartsDatabase {
    void set (    PartsService.PartsDatabaseType value);
 
 }
-```
-```
+
 
 Remarks
 

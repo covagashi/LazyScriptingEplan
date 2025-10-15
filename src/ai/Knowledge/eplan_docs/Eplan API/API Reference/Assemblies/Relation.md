@@ -14,24 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public struct Relation : System.ValueType
-```
-```
 
-```
-```
 public value class Relation : public System.ValueType
-```
-```
-
-
-
-
 
 Public Properties
 

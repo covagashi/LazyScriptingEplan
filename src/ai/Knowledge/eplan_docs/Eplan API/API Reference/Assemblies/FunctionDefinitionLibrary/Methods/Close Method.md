@@ -8,19 +8,13 @@ For internal use. Closes the library. Note: Should be used only if this object w
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Close()
-```
-```
 
-```
-```
 public:
 
 void Close();
-```
-```
+

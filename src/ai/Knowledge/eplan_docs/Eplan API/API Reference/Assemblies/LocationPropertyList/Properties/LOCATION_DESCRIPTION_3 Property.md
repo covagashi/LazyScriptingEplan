@@ -8,17 +8,12 @@ Structure description 3 # 1008.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue LOCATION_DESCRIPTION_3 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ LOCATION_DESCRIPTION_3 {
@@ -28,8 +23,7 @@ property PropertyValue^ LOCATION_DESCRIPTION_3 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

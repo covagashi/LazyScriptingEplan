@@ -8,17 +8,12 @@ Allow manual cable selection only # 20061.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLE_ALLOW_ONLY_MANUEL_CABLE_SELECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLE_ALLOW_ONLY_MANUEL_CABLE_SELECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLE_ALLOW_ONLY_MANUEL_CABLE_SELECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

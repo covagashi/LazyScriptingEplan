@@ -8,11 +8,10 @@ Creates not placed Cabinet object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Cabinet Create( 
 
    Project oProject,
@@ -24,11 +23,7 @@ public static Cabinet Create(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static Cabinet^ Create( 
@@ -42,8 +37,7 @@ static Cabinet^ Create(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

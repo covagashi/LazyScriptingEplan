@@ -8,21 +8,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] GetAllSearchDBEntries( 
 
    Project pProject
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ GetAllSearchDBEntries( 
@@ -30,8 +25,7 @@ array<StorableObject^>^ GetAllSearchDBEntries(
    Project^ pProject
 
 )
-```
-```
+
 
 #### Parameters
 

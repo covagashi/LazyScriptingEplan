@@ -8,21 +8,16 @@ Temperature (medium), max. # 26610.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_TEMPERATUR_MEDIUM_MAX( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_TEMPERATUR_MEDIUM_MAX {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_TEMPERATUR_MEDIUM_MAX {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Power consumption # 26418.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_POWER_CONSUMPTION( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_POWER_CONSUMPTION {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_POWER_CONSUMPTION {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

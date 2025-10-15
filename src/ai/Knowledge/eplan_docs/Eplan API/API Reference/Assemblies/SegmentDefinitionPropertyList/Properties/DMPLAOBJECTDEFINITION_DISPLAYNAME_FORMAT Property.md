@@ -8,17 +8,12 @@ Structure identifiers without separators # 44033.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECTDEFINITION_NO_STRUCTUREDELIMITER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECTDEFINITION_NO_STRUCTUREDELIMITER {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECTDEFINITION_NO_STRUCTUREDELIMITER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

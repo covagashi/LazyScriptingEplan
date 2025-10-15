@@ -8,17 +8,12 @@ Measuring range: Density # 26445.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_MEASURING_RANGE_OF_DENSITY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_MEASURING_RANGE_OF_DENSITY {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_MEASURING_RANGE_OF_DENSITY {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Upgrades parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void UpgradePartsDb( 
 
    string strPartsDatabase
 
 )
-```
-```
 
-```
-```
 public:
 
 void UpgradePartsDb( 
@@ -30,8 +25,7 @@ void UpgradePartsDb(
    String^ strPartsDatabase
 
 )
-```
-```
+
 
 #### Parameters
 

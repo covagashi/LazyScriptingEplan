@@ -8,11 +8,10 @@ Constructor. The collection contains a section of the system message tree.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SysMessagesCollection( 
 
    int nBookmarkID,
@@ -20,11 +19,7 @@ public SysMessagesCollection(
    MessageLevel nErrLevel
 
 )
-```
-```
 
-```
-```
 public:
 
 SysMessagesCollection( 
@@ -34,8 +29,7 @@ SysMessagesCollection(
    MessageLevel nErrLevel
 
 )
-```
-```
+
 
 #### Parameters
 

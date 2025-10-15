@@ -6,17 +6,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Connected {get;}
-```
-```
 
-```
-```
 public:
 
 property bool Connected {
@@ -24,5 +19,4 @@ property bool Connected {
    bool get();
 
 }
-```
-```
+

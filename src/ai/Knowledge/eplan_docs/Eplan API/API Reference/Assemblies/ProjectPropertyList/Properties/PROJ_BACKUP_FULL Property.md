@@ -8,17 +8,12 @@ Data backup: Complete backup # 10510.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BACKUP_FULL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BACKUP_FULL {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_BACKUP_FULL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

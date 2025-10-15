@@ -8,19 +8,13 @@ Creates a new InteractionContext object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public InteractionContext()
-```
-```
 
-```
-```
 public:
 
 InteractionContext();
-```
-```
+

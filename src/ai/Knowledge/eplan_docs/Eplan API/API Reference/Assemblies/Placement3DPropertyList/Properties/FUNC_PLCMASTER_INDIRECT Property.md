@@ -8,17 +8,12 @@ Logical network: Name (indirect) # 20424.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCMASTER_INDIRECT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCMASTER_INDIRECT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCMASTER_INDIRECT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

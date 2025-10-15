@@ -8,11 +8,10 @@ Reorganize legend Ids of a panel layout.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ReorganizeLegendNumbersWithSameNumbers( 
 
    Function oMountingPanel,
@@ -26,11 +25,7 @@ public void ReorganizeLegendNumbersWithSameNumbers(
    bool fSameNumbers
 
 )
-```
-```
 
-```
-```
 public:
 
 void ReorganizeLegendNumbersWithSameNumbers( 
@@ -46,8 +41,7 @@ void ReorganizeLegendNumbersWithSameNumbers(
    bool fSameNumbers
 
 )
-```
-```
+
 
 #### Parameters
 

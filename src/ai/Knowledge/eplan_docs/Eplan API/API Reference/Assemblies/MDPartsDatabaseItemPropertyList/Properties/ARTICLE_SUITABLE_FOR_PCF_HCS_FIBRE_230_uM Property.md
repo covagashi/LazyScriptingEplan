@@ -4,21 +4,16 @@
 
 ---
 
-Suitable for PCF / HCS fiber 230 Âµm # 26357.
+Suitable for PCF / HCS fiber 230 µm # 26357.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SUITABLE_FOR_PCF_HCS_FIBRE_230_uM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SUITABLE_FOR_PCF_HCS_FIBRE_230_uM {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SUITABLE_FOR_PCF_HCS_FIBRE_230_uM {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Specification whether the device is suitable for PCF/HCS fibers 230 Âµm.
+Specification whether the device is suitable for PCF/HCS fibers 230 µm.

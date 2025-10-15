@@ -8,17 +8,12 @@ Revision marker (from property comparison) # 10152.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue INSTANCE_REVISIONMARKER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ INSTANCE_REVISIONMARKER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ INSTANCE_REVISIONMARKER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

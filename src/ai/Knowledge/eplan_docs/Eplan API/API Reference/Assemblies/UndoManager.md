@@ -13,26 +13,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class UndoManager
-```
-```
 
-```
-```
 public ref class UndoManager
-```
-```
+
 
 Example
 
 UndoStep usage - only inside "using".
 
-- [C#](#i-tab-content-8ba104c9-5ba2-460c-9779-cb18609a07cf)
+**C#**
 
 ```
 using (UndoStep undo = new UndoManager().CreateUndoStep())
@@ -63,9 +57,6 @@ Public Constructors
 | Public Constructor | [UndoManager Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UndoManager~_ctor.html) | Constructor. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

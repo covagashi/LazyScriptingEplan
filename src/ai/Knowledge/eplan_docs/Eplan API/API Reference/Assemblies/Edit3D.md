@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Edit3D
-```
-```
 
-```
-```
 public ref class Edit3D
-```
-```
-
-
 
 Public Constructors
 
@@ -37,9 +28,6 @@ Public Constructors
 | Public Constructor | [Edit3D Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Edit3D~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

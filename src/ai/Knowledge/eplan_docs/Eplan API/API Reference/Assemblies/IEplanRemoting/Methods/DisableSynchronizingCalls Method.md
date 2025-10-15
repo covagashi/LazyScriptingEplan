@@ -8,28 +8,22 @@ Disable synchronizing calls. The execution of remote calls are synchronized in E
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void DisableSynchronizingCalls( 
 
    bool bDisable
 
 )
-```
-```
 
-```
-```
 void DisableSynchronizingCalls( 
 
    bool bDisable
 
 )
-```
-```
+
 
 #### Parameters
 

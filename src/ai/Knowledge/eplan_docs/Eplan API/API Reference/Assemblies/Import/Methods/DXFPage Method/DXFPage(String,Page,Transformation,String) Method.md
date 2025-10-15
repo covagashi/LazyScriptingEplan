@@ -8,11 +8,10 @@ Imports a DXF or DWG file into an existing page. You have the possibility to mov
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DXFPage( 
 
    string strDXFFileName,
@@ -24,11 +23,7 @@ public void DXFPage(
    string strScheme
 
 )
-```
-```
 
-```
-```
 public:
 
 void DXFPage( 
@@ -42,8 +37,7 @@ void DXFPage(
    String^ strScheme
 
 )
-```
-```
+
 
 #### Parameters
 

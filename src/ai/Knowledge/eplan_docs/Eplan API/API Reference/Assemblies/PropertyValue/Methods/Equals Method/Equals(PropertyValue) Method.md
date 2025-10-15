@@ -8,21 +8,16 @@ Determines whether two PropertyValues objects have the same value.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Equals( 
 
    PropertyValue other
 
 )
-```
-```
 
-```
-```
 public:
 
 bool Equals( 
@@ -30,8 +25,7 @@ bool Equals(
    PropertyValue^ other
 
 )
-```
-```
+
 
 #### Parameters
 

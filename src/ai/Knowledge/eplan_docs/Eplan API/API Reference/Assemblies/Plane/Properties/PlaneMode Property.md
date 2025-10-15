@@ -8,17 +8,12 @@ Returns PlaneModeType of selected plane.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement3D.Enums.PlaneModeType PlaneMode {get;}
-```
-```
 
-```
-```
 public:
 
 property Placement3D.Enums.PlaneModeType PlaneMode {
@@ -26,5 +21,4 @@ property Placement3D.Enums.PlaneModeType PlaneMode {
    Placement3D.Enums.PlaneModeType get();
 
 }
-```
-```
+

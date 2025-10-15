@@ -8,21 +8,16 @@ Supplier batch number # 26436.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_SUPPLIER_BATCH_NUMBER( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_SUPPLIER_BATCH_NUMBER {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_SUPPLIER_BATCH_NUMBER {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

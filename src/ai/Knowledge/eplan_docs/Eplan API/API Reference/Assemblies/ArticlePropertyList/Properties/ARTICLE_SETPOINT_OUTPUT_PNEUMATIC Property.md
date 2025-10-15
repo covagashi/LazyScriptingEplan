@@ -8,17 +8,12 @@ Target power (pneumatic) # 26145.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SETPOINT_OUTPUT_PNEUMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SETPOINT_OUTPUT_PNEUMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SETPOINT_OUTPUT_PNEUMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

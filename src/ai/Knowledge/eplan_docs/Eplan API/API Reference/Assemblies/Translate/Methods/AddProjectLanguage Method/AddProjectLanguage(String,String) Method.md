@@ -8,11 +8,10 @@ Method for adding a project language. It adds the language to the set of possibl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AddProjectLanguage( 
 
    string strFullLinkFileName,
@@ -20,11 +19,7 @@ public bool AddProjectLanguage(
    string strLanguage
 
 )
-```
-```
 
-```
-```
 public:
 
 bool AddProjectLanguage( 
@@ -34,8 +29,7 @@ bool AddProjectLanguage(
    String^ strLanguage
 
 )
-```
-```
+
 
 #### Parameters
 

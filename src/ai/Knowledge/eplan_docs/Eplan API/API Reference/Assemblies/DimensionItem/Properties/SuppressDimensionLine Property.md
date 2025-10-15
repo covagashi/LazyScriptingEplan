@@ -8,17 +8,12 @@ Gets or sets whether dimension line is suppressed.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SuppressDimensionLine {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool SuppressDimensionLine {
@@ -28,5 +23,4 @@ property bool SuppressDimensionLine {
    void set (    bool value);
 
 }
-```
-```
+

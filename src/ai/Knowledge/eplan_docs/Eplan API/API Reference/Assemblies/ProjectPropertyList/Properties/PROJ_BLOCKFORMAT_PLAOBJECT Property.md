@@ -8,21 +8,16 @@ Block property: Format (pre-planning) # 10661.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BLOCKFORMAT_PLAOBJECT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BLOCKFORMAT_PLAOBJECT {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_BLOCKFORMAT_PLAOBJECT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

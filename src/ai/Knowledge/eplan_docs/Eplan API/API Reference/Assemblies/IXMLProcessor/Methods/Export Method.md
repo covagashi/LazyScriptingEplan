@@ -8,11 +8,10 @@ Converts the XML file to a special file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool Export( 
 
    string strXmlFile,
@@ -22,11 +21,7 @@ bool Export(
    Context oContext
 
 )
-```
-```
 
-```
-```
 bool Export( 
 
    String^ strXmlFile,
@@ -36,8 +31,7 @@ bool Export(
    Context^ oContext
 
 )
-```
-```
+
 
 #### Parameters
 

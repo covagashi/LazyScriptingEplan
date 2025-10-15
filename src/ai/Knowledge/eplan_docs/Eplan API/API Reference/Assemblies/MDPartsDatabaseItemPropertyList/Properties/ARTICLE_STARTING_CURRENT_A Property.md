@@ -8,17 +8,12 @@ Starting current, max. # 26190.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_STARTING_CURRENT_A {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_STARTING_CURRENT_A {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_STARTING_CURRENT_A {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

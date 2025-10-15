@@ -8,17 +8,12 @@ Topology: Routing track specification # 31119.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_CABLING_PATH_PRESETTING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_CABLING_PATH_PRESETTING {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_CABLING_PATH_PRESETTING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

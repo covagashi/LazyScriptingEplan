@@ -8,17 +8,12 @@ Returns all Eplan.EplApi.DataModel.Graphics.PlaceHolder contained in the macro.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlaceHolder[] PlaceHolders {get;}
-```
-```
 
-```
-```
 public:
 
 property array<PlaceHolder^>^ PlaceHolders {
@@ -26,8 +21,7 @@ property array<PlaceHolder^>^ PlaceHolders {
    array<PlaceHolder^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

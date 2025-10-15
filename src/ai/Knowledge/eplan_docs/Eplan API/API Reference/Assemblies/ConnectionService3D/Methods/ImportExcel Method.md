@@ -8,11 +8,10 @@ Imports the Connection3Ds from an Excel file into the given project using a sche
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Connection3D[] ImportExcel( 
 
    Project oProject,
@@ -36,11 +35,7 @@ public Connection3D[] ImportExcel(
    ConnectionService3D.ImportMode eMode
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Connection3D^>^ ImportExcel( 
@@ -66,8 +61,7 @@ array<Connection3D^>^ ImportExcel(
    ConnectionService3D.ImportMode eMode
 
 )
-```
-```
+
 
 #### Parameters
 

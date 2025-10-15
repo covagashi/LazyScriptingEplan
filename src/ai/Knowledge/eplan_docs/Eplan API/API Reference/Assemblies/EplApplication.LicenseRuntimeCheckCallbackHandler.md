@@ -8,11 +8,10 @@ License runtime check Callback handler delegate.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public delegate EplApplication.LicenseRuntimeCheckCommands EplApplication.LicenseRuntimeCheckCallbackHandler( 
 
    int nError,
@@ -22,11 +21,7 @@ public delegate EplApplication.LicenseRuntimeCheckCommands EplApplication.Licens
    EplApplication.LicenseRuntimeCheckModes nLicenseRuntimeCheckMode
 
 )
-```
-```
 
-```
-```
 public delegate EplApplication.LicenseRuntimeCheckCommands EplApplication.LicenseRuntimeCheckCallbackHandler( 
 
    int nError,
@@ -36,8 +31,7 @@ public delegate EplApplication.LicenseRuntimeCheckCommands EplApplication.Licens
    EplApplication.LicenseRuntimeCheckModes nLicenseRuntimeCheckMode
 
 )
-```
-```
+
 
 #### Parameters
 

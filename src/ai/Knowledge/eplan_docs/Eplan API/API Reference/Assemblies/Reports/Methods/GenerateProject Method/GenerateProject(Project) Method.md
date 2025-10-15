@@ -8,21 +8,16 @@ Generate project reports.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void GenerateProject( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void GenerateProject( 
@@ -30,8 +25,7 @@ void GenerateProject(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

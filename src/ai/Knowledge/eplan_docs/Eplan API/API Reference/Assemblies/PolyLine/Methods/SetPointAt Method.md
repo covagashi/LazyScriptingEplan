@@ -8,11 +8,10 @@ Sets one vertex of a polyline If the index of this point does not yet exist it w
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetPointAt( 
 
    int index,
@@ -20,11 +19,7 @@ public void SetPointAt(
    ref PointD point
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetPointAt( 
@@ -34,8 +29,7 @@ void SetPointAt(
    PointD% point
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.Planning.SegmentTemplate](Eplan.EplApi.DataModel
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SegmentTemplate[] GetSegmentTemplates( 
 
    SegmentTemplatesFilter pFilter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<SegmentTemplate^>^ GetSegmentTemplates( 
@@ -30,8 +25,7 @@ array<SegmentTemplate^>^ GetSegmentTemplates(
    SegmentTemplatesFilter^ pFilter
 
 )
-```
-```
+
 
 #### Parameters
 

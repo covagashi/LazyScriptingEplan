@@ -8,17 +8,12 @@ Uri of the Deprecated Eplan Cloud resource
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Uri {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Uri {
@@ -28,5 +23,4 @@ property String^ Uri {
    void set (    String^ value);
 
 }
-```
-```
+

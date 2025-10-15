@@ -14,26 +14,17 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Item")]
 
 public class Symbol : Eplan.EplApi.DataModel.StorableObject
-```
-```
 
-```
-```
 [DefaultMember("Item")]
 
 public ref class Symbol : public Eplan.EplApi.DataModel.StorableObject
-```
-```
-
-
 
 Public Constructors
 
@@ -42,8 +33,6 @@ Public Constructors
 | Public Constructor | [Symbol Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.Symbol~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,21 +8,16 @@ Determines a child node.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual SettingNode GetSubNode( 
 
    string strSubNodePath
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual SettingNode^ GetSubNode( 
@@ -30,8 +25,7 @@ virtual SettingNode^ GetSubNode(
    String^ strSubNodePath
 
 )
-```
-```
+
 
 #### Parameters
 

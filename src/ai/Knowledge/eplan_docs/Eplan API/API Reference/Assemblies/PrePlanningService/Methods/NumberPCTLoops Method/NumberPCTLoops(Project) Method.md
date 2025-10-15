@@ -8,21 +8,16 @@ Numbers all PCTLoops in a Project
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void NumberPCTLoops( 
 
    Project pProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void NumberPCTLoops( 
@@ -30,8 +25,7 @@ void NumberPCTLoops(
    Project^ pProject
 
 )
-```
-```
+
 
 #### Parameters
 

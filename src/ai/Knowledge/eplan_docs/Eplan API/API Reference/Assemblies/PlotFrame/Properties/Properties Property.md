@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new PlotFramePropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property PlotFramePropertyList^ Properties {
@@ -26,8 +21,7 @@ new property PlotFramePropertyList^ Properties {
    PlotFramePropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -41,7 +35,7 @@ Exceptions
 
 Example
 
-- [C#](#i-tab-content-df4345cf-589b-4da2-966a-f59531a484b6)
+**C#**
 
 ```
 PlotFrame oPlotFrame;

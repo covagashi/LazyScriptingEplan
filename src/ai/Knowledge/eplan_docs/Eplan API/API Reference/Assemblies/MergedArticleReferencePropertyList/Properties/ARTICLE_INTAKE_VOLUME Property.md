@@ -8,17 +8,12 @@ Intake volume # 26196.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_INTAKE_VOLUME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_INTAKE_VOLUME {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_INTAKE_VOLUME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -37,4 +31,4 @@ Returns property value of type System.String.
 
 Remarks
 
-Volume of the air or gas drawn in by the device within a certain period. The value is specified in cubic meters (mÂ³).
+Volume of the air or gas drawn in by the device within a certain period. The value is specified in cubic meters (m³).

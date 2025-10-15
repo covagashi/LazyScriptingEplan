@@ -8,17 +8,12 @@ Collection of objects types which will be used to determine objects passed to [I
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual IEnumerable<Type> ObjectsFilter {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property IEnumerable<Type^>^ ObjectsFilter {
@@ -26,8 +21,7 @@ virtual property IEnumerable<Type^>^ ObjectsFilter {
    IEnumerable<Type^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

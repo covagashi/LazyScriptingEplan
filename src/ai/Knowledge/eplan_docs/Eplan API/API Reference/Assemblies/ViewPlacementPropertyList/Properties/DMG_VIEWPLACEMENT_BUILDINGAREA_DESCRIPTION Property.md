@@ -8,17 +8,12 @@ Model view: Layout space description # 36505.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_BUILDINGAREA_DESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_BUILDINGAREA_DESCRIPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_BUILDINGAREA_DESCRIPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

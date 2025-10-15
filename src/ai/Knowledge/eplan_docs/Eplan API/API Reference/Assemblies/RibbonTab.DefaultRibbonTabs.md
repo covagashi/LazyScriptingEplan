@@ -8,20 +8,14 @@ Identifiers of default ribbon tabs
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum RibbonTab.DefaultRibbonTabs : System.Enum
-```
-```
 
-```
-```
 public enum class RibbonTab.DefaultRibbonTabs : public System.Enum
-```
-```
+
 
 Members
 

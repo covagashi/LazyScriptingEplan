@@ -8,11 +8,10 @@ Exports given installation spaces into files in VRML format.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool InstallationSpacesToVrml( 
 
    IEnumerable<InstallationSpace> listInstallationSpaces,
@@ -20,11 +19,7 @@ public bool InstallationSpacesToVrml(
    string strTargetDirectory
 
 )
-```
-```
 
-```
-```
 public:
 
 bool InstallationSpacesToVrml( 
@@ -34,8 +29,7 @@ bool InstallationSpacesToVrml(
    String^ strTargetDirectory
 
 )
-```
-```
+
 
 #### Parameters
 

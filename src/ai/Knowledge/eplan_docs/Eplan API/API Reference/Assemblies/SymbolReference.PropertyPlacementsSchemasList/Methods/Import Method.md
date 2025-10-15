@@ -8,11 +8,10 @@ Imports customer property placements set(s) from the specified file to the symbo
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Import( 
 
    string strTargetFile,
@@ -20,11 +19,7 @@ public void Import(
    bool bOverwrite
 
 )
-```
-```
 
-```
-```
 public:
 
 void Import( 
@@ -34,8 +29,7 @@ void Import(
    bool bOverwrite
 
 )
-```
-```
+
 
 #### Parameters
 

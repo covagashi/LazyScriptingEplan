@@ -8,22 +8,16 @@ Breaks up the block into its individual elements.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement[] BreakUp()
-```
-```
 
-```
-```
 public:
 
 array<Placement^>^ BreakUp();
-```
-```
+
 
 #### Return Value
 

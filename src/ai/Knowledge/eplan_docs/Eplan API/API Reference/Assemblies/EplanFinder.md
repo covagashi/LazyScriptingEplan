@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class EplanFinder
-```
-```
 
-```
-```
 public ref class EplanFinder
-```
-```
-
-
 
 Public Constructors
 
@@ -37,9 +28,6 @@ Public Constructors
 | Public Constructor | [EplanFinder Constructor](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.EplanFinder~_ctor.html) |  |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

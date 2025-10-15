@@ -8,17 +8,12 @@ Gets hierarchy level of location.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Project.Hierarchy HierarchyId {get;}
-```
-```
 
-```
-```
 public:
 
 property Project.Hierarchy HierarchyId {
@@ -26,8 +21,7 @@ property Project.Hierarchy HierarchyId {
    Project.Hierarchy get();
 
 }
-```
-```
+
 
 Exceptions
 

@@ -8,17 +8,12 @@ Creation date # 15504.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FCTDEFLIB_CREATIONDATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FCTDEFLIB_CREATIONDATE {
@@ -28,8 +23,7 @@ property PropertyValue^ FCTDEFLIB_CREATIONDATE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

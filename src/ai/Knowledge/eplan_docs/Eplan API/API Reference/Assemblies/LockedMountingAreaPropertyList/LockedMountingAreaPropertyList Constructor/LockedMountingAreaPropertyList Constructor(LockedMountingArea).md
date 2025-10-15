@@ -8,21 +8,16 @@ Should be used internal only
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public LockedMountingAreaPropertyList( 
 
    LockedMountingArea obj
 
 )
-```
-```
 
-```
-```
 public:
 
 LockedMountingAreaPropertyList( 
@@ -30,8 +25,7 @@ LockedMountingAreaPropertyList(
    LockedMountingArea^ obj
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ The degree of routing segment filling in percent.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double FillingDegree {get;}
-```
-```
 
-```
-```
 public:
 
 property double FillingDegree {
@@ -26,8 +21,7 @@ property double FillingDegree {
    double get();
 
 }
-```
-```
+
 
 Remarks
 

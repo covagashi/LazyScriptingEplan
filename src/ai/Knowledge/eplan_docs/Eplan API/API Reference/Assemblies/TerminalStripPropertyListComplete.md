@@ -20,30 +20,22 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Property")]
 
 public class TerminalStripPropertyListComplete : TerminalStripPropertyList
-```
-```
 
-```
-```
 [DefaultMember("Property")]
 
 public ref class TerminalStripPropertyListComplete : public TerminalStripPropertyList
-```
-```
+
 
 Remarks
 
 It uses operator[] in order to access its elements (stored properties).
-
-
 
 Public Constructors
 
@@ -52,8 +44,6 @@ Public Constructors
 | Public Constructor | [TerminalStripPropertyListComplete Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.TerminalStripPropertyListComplete~_ctor.html) | Constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

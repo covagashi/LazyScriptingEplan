@@ -8,17 +8,12 @@ Current carrying capacity (per I/O signal), max. # 26155.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CURRENT_CARRYING_CAPACITY_MAX_PER_I_O_SIGNAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CURRENT_CARRYING_CAPACITY_MAX_PER_I_O_SIGNAL {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CURRENT_CARRYING_CAPACITY_MAX_PER_I_O_SIGNAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

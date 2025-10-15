@@ -8,17 +8,12 @@ Cross-reference (only main functions) # 20306.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_MAINCROSSREFERENCE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_MAINCROSSREFERENCE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_MAINCROSSREFERENCE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

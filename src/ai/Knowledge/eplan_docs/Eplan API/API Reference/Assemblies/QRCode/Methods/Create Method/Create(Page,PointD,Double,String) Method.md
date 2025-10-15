@@ -8,11 +8,10 @@ Creates the QRCode object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Page page,
@@ -24,11 +23,7 @@ public void Create(
    string strBlockFormat
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -42,8 +37,7 @@ void Create(
    String^ strBlockFormat
 
 )
-```
-```
+
 
 #### Parameters
 

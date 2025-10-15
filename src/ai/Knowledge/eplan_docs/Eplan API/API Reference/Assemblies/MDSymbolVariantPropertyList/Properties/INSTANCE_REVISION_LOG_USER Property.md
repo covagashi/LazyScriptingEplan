@@ -8,17 +8,12 @@ Creator (change tracking) # 19033.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue INSTANCE_REVISION_LOG_USER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ INSTANCE_REVISION_LOG_USER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ INSTANCE_REVISION_LOG_USER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

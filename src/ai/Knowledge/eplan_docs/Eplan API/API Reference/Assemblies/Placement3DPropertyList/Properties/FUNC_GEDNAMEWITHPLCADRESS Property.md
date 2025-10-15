@@ -8,17 +8,12 @@ PLC address (with displayed DT) # 20037.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_GEDNAMEWITHPLCADRESS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_GEDNAMEWITHPLCADRESS {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_GEDNAMEWITHPLCADRESS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

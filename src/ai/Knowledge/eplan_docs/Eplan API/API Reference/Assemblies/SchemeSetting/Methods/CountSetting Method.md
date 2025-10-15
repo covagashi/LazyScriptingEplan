@@ -8,21 +8,16 @@ Number of additional settings existing under the specified setting name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int CountSetting( 
 
    string strSettingPath
 
 )
-```
-```
 
-```
-```
 public:
 
 int CountSetting( 
@@ -30,8 +25,7 @@ int CountSetting(
    String^ strSettingPath
 
 )
-```
-```
+
 
 #### Parameters
 

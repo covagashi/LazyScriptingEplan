@@ -8,17 +8,12 @@ Returns an array of all property ids which can exist for ViewPart objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static AnyPropertyId[] AllViewPartPropIDs {get;}
-```
-```
 
-```
-```
 public:
 
 static property array<AnyPropertyId^>^ AllViewPartPropIDs {
@@ -26,5 +21,4 @@ static property array<AnyPropertyId^>^ AllViewPartPropIDs {
    array<AnyPropertyId^>^ get();
 
 }
-```
-```
+

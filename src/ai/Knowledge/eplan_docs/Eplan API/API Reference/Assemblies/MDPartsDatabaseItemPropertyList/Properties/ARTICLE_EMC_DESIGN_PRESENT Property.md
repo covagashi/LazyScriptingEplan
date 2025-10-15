@@ -8,17 +8,12 @@ EMC version available # 26298.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_EMC_DESIGN_PRESENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_EMC_DESIGN_PRESENT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_EMC_DESIGN_PRESENT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

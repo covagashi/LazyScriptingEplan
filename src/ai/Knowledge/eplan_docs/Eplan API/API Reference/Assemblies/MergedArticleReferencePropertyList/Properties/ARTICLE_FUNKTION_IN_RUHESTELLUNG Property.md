@@ -8,17 +8,12 @@ Function in rest position # 26348.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_FUNKTION_IN_RUHESTELLUNG {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_FUNKTION_IN_RUHESTELLUNG {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_FUNKTION_IN_RUHESTELLUNG {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

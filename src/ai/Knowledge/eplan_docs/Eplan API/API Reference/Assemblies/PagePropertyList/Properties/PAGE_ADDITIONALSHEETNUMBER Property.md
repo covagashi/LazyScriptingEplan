@@ -8,17 +8,12 @@ Suppl. field: Sheet no. # 11033.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_ADDITIONALSHEETNUMBER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_ADDITIONALSHEETNUMBER {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_ADDITIONALSHEETNUMBER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns an array of all property ids which can exist for PotentialDefinition obj
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static AnyPropertyId[] AllPotentialDefinitionPropIDs {get;}
-```
-```
 
-```
-```
 public:
 
 static property array<AnyPropertyId^>^ AllPotentialDefinitionPropIDs {
@@ -26,5 +21,4 @@ static property array<AnyPropertyId^>^ AllPotentialDefinitionPropIDs {
    array<AnyPropertyId^>^ get();
 
 }
-```
-```
+

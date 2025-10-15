@@ -8,17 +8,12 @@ Returns the name of the ConnectionPointsInfo.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual string Name {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property String^ Name {
@@ -26,8 +21,7 @@ virtual property String^ Name {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

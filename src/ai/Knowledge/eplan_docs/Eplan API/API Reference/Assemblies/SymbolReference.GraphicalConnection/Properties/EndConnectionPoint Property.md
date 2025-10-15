@@ -8,17 +8,12 @@ Returns the connection's end connection point.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PinBase EndConnectionPoint {get;}
-```
-```
 
-```
-```
 public:
 
 property PinBase^ EndConnectionPoint {
@@ -26,5 +21,4 @@ property PinBase^ EndConnectionPoint {
    PinBase^ get();
 
 }
-```
-```
+

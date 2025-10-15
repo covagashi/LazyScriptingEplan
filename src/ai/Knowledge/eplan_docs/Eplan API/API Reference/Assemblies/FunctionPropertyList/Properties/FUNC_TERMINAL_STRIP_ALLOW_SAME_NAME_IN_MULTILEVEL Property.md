@@ -8,17 +8,12 @@ Terminal strips: Allow same designations within multi-level terminals # 20290.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TERMINAL_STRIP_ALLOW_SAME_NAME_IN_MULTILEVEL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TERMINAL_STRIP_ALLOW_SAME_NAME_IN_MULTILEVEL {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TERMINAL_STRIP_ALLOW_SAME_NAME_IN_MULTILEVEL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

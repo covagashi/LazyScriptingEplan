@@ -8,17 +8,12 @@ Property to get or set button text.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ButtonText {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ButtonText {
@@ -28,5 +23,4 @@ property String^ ButtonText {
    void set (    String^ value);
 
 }
-```
-```
+

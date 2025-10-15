@@ -16,22 +16,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class DeletedObjectInfo : SymbolReference, IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class DeletedObjectInfo : public SymbolReference, IPropertyPlacementsContainer
-```
-```
-
-
 
 Public Constructors
 
@@ -40,8 +31,6 @@ Public Constructors
 | Public Constructor | [DeletedObjectInfo Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DeletedObjectInfo~_ctor().html) | Default constructor. Should never be used. Always throws NotImplementedException. It was designed only for COM compatibility. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,11 +8,10 @@ Finds an object, that would give the f function its name, if f has no its instan
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public FunctionBase FindNameGivingObject( 
 
    Page page,
@@ -20,11 +19,7 @@ public FunctionBase FindNameGivingObject(
    Function f
 
 )
-```
-```
 
-```
-```
 public:
 
 FunctionBase^ FindNameGivingObject( 
@@ -34,8 +29,7 @@ FunctionBase^ FindNameGivingObject(
    Function^ f
 
 )
-```
-```
+
 
 #### Parameters
 

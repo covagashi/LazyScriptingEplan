@@ -8,17 +8,12 @@ Cables: Connection point length target # 20246.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DEST_CP_LENGTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DEST_CP_LENGTH {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DEST_CP_LENGTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

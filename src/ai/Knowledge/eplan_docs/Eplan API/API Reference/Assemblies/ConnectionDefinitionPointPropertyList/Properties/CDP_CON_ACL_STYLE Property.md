@@ -8,17 +8,12 @@ Associated connections: Line type of autoconnecting line # 31039.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CDP_CON_ACL_STYLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CDP_CON_ACL_STYLE {
@@ -28,8 +23,7 @@ property PropertyValue^ CDP_CON_ACL_STYLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

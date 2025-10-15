@@ -8,21 +8,16 @@ Do a correction on the namelist, if properties for main and nested devicetags ar
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CorrectDeviceTagProperties( 
 
    UniversalPropertyList nameParts
 
 )
-```
-```
 
-```
-```
 public:
 
 bool CorrectDeviceTagProperties( 
@@ -30,8 +25,7 @@ bool CorrectDeviceTagProperties(
    UniversalPropertyList^ nameParts
 
 )
-```
-```
+
 
 #### Parameters
 

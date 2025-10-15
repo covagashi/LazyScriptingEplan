@@ -14,22 +14,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class EplanResponse : CallingContext
-```
-```
 
-```
-```
 public ref class EplanResponse : public CallingContext
-```
-```
-
-
 
 Public Constructors
 
@@ -38,8 +29,6 @@ Public Constructors
 | Public Constructor | [EplanResponse Constructor](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.EplanResponse~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

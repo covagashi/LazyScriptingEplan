@@ -8,17 +8,12 @@ The symbol macro of terminal template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string SymbolMacro {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ SymbolMacro {
@@ -28,5 +23,4 @@ property String^ SymbolMacro {
    void set (    String^ value);
 
 }
-```
-```
+

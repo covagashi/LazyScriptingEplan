@@ -8,17 +8,12 @@ Returns Line's start point.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD StartPoint {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PointD StartPoint {
@@ -28,8 +23,7 @@ property PointD StartPoint {
    void set (    PointD value);
 
 }
-```
-```
+
 
 #### Property Value
 

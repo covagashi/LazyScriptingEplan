@@ -8,17 +8,12 @@ Operating mode # 26283.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TYPE_OF_USE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TYPE_OF_USE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TYPE_OF_USE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

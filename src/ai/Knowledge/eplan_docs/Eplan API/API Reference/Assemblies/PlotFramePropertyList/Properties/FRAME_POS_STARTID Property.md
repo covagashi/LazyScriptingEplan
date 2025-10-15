@@ -8,17 +8,12 @@ Start value (row) # 12026.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_POS_STARTID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_POS_STARTID {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_POS_STARTID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

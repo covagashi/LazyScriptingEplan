@@ -8,11 +8,10 @@ Sets the reference to bitmap file. If the image file is not yet located in the p
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SetFile( 
 
    string fileName,
@@ -22,11 +21,7 @@ public bool SetFile(
    bool overWrite
 
 )
-```
-```
 
-```
-```
 public:
 
 bool SetFile( 
@@ -38,8 +33,7 @@ bool SetFile(
    bool overWrite
 
 )
-```
-```
+
 
 #### Parameters
 

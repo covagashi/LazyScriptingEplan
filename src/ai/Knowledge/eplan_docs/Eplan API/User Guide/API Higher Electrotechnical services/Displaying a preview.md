@@ -16,8 +16,8 @@ The  DrawingService  class also provides the possibility to influence the app
 
 The following example creates a preview of a macro. The first code snippet shows the creation of the display list:
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
@@ -64,11 +64,6 @@ if (!(gProject == null))
 
 }
 
-```
-
-```
-
-
 If oDs Is Nothing Then
 
    oDs = New Eplan.EplApi.HEServices.DrawingService
@@ -103,8 +98,8 @@ End If
 
  The next piece of source code shows drawing the display list in the  Paint  method of a picture box:
 
-- [C#](#i-tab-content-CS)
-- [VB](#i-tab-content-VB)
+**C#**
+**VB**
 
 ```
 
@@ -128,11 +123,6 @@ private void Picture1_Paint(object sender, System.Windows.Forms.PaintEventArgs e
  }
 
 }
-
-```
-
-```
-
 
 Private Sub Picture1_Paint(ByVal sender As Object, ByVal e As System.Windows.Forms.PaintEventArgs) Handles Picture1.Paint
 
@@ -164,13 +154,11 @@ To draw more complex images, it may be necessary to set the resolution and a vi
 
 A viewport is a polygon that represents a part of a page that will be rendered:
 
-
-
 This can be done using the  SetViewport  method. The coordinates should be passed in the graphical coordinate system.
 
 If the given dimensions are not proportional to the drawing area, they are automatically adjusted to keep the aspect ratio:
 
-- [C#](#i-tab-content-0858c9b9-30f5-40b1-91e2-98ec6bd74db5)
+**C#**
 
 ```
 
@@ -181,7 +169,7 @@ If the given dimensions are not proportional to the drawing area, they are autom
 
 In case of 3D drawings, it is also necessary to set the image size, otherwise its quality may be worse than in the Eplan GED:
 
-- [C#](#i-tab-content-45f62620-7d83-48f8-a86d-5b72b0c86050)
+**C#**
 
 ```
 

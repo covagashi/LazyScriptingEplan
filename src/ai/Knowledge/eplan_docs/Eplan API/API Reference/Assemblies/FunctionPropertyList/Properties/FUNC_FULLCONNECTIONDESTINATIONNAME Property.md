@@ -8,21 +8,16 @@ Name of target connection point (full) # 20048.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_FULLCONNECTIONDESTINATIONNAME( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_FULLCONNECTIONDESTINATIONNAME {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_FULLCONNECTIONDESTINATIONNAME {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

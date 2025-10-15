@@ -8,17 +8,12 @@ Get flag whether a function is a safety function
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsSafetyRelevant {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsSafetyRelevant {
@@ -26,5 +21,4 @@ property bool IsSafetyRelevant {
    bool get();
 
 }
-```
-```
+

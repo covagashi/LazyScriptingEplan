@@ -32,17 +32,12 @@ Predefined values for line color index are:
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short ColorId {get; set;}
-```
-```
 
-```
-```
 public:
 
 property short ColorId {
@@ -52,8 +47,7 @@ property short ColorId {
    void set (    short value);
 
 }
-```
-```
+
 
 #### Property Value
 

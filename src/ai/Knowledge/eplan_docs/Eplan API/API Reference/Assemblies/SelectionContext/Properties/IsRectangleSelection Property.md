@@ -8,17 +8,12 @@ Returns true, if rectangle is set.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsRectangleSelection {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsRectangleSelection {
@@ -26,5 +21,4 @@ property bool IsRectangleSelection {
    bool get();
 
 }
-```
-```
+

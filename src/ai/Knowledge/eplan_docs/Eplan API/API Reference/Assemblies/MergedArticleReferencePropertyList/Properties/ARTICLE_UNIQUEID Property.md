@@ -8,17 +8,12 @@ Unique part ID # 22060.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_UNIQUEID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_UNIQUEID {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_UNIQUEID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

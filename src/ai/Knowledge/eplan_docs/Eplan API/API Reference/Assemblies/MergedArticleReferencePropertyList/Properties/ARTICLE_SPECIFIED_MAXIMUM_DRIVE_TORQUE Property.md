@@ -8,17 +8,12 @@ Drive torque (specified), max. # 26570.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SPECIFIED_MAXIMUM_DRIVE_TORQUE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SPECIFIED_MAXIMUM_DRIVE_TORQUE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SPECIFIED_MAXIMUM_DRIVE_TORQUE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

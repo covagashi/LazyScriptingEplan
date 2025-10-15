@@ -8,17 +8,12 @@ Format of displayed DT: Fluid connection splicer / line connector # 10634.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_DTFORMAT_DISTRIBUTOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_DTFORMAT_DISTRIBUTOR {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_DTFORMAT_DISTRIBUTOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

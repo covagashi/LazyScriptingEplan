@@ -8,17 +8,12 @@ Terminal / pin description # 20225.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PINORTERMINALDESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PINORTERMINALDESCRIPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PINORTERMINALDESCRIPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

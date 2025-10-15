@@ -13,46 +13,36 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Insert
-```
-```
 
-```
-```
 public ref class Insert
-```
-```
+
 
 Example
 
 Example shows how to use insert a window macro using Insert class
 
-- [C#](#i-tab-content-a38a0d0f-b99d-4012-b6af-714b28288e7e)
+**C#**
 
 ```
 Insert oInsert = new Insert();
 
 oInsert.WindowMacro("$(MD_MACROS)\\BECK.KL1012.ema", 0, m_oTestProject.Pages[9], new PointD(70.0, 0.0), Insert.MoveKind.Relative);
 
-
-
 ```
 
 Inserting page macro with overwriting some pages
 
-- [C#](#i-tab-content-29d1d5de-08c8-47f4-9442-2c35dfdba9c4)
+**C#**
 
 ```
 PageMacro oPageMacro = new PageMacro();
 
 oPageMacro.Open(@"$(MD_MACROS)\1.emp", m_oTestProject);
-
-
 
 //set new name to only two pages; rest pages will have default names
 
@@ -60,17 +50,11 @@ oPageMacro.Pages[1].Name = "=EB3+ET1/2";
 
 oPageMacro.Pages[3].Name = "=EB3+ET1/3";
 
-
-
 //overwrite 2., 3. and 4. page
 
 Boolean[] arrOverwrite = new Boolean[5] { false, true, true, true, false };
 
-
-
 new Insert().PageMacro(oPageMacro, m_oTestProject, arrOverwrite, PageMacro.Enums.NumerationMode.None);
-
-
 
 ```
 
@@ -81,8 +65,6 @@ Public Constructors
 | Public Constructor | [Insert Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Insert~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

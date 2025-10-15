@@ -8,17 +8,12 @@ Identifier for reports # 22214.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_REPORT_IDENTIFIER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_REPORT_IDENTIFIER {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_REPORT_IDENTIFIER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

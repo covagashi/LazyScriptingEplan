@@ -8,17 +8,12 @@ Returns size of the bitmap in points.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD PhysicalDimension {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD PhysicalDimension {
@@ -26,8 +21,7 @@ property PointD PhysicalDimension {
    PointD get();
 
 }
-```
-```
+
 
 #### Property Value
 

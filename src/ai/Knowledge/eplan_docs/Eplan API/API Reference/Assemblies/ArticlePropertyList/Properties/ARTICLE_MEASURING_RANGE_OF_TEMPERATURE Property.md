@@ -8,17 +8,12 @@ Measuring range: Temperature # 26121.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_MEASURING_RANGE_OF_TEMPERATURE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_MEASURING_RANGE_OF_TEMPERATURE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_MEASURING_RANGE_OF_TEMPERATURE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

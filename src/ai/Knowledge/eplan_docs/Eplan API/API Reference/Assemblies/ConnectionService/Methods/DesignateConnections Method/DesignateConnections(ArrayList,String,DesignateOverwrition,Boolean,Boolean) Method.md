@@ -8,11 +8,10 @@ Designate connections (wires) with connection definition point.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DesignateConnections( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public void DesignateConnections(
    bool bRegenrateConnections
 
 )
-```
-```
 
-```
-```
 public:
 
 void DesignateConnections( 
@@ -46,8 +41,7 @@ void DesignateConnections(
    bool bRegenrateConnections
 
 )
-```
-```
+
 
 #### Parameters
 

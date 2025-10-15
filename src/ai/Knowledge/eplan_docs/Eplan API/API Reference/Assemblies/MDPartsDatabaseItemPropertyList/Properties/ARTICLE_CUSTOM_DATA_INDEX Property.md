@@ -8,21 +8,16 @@ API Parts Management Extension: Name of add-in # 22212.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CUSTOM_DATA_INDEX( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CUSTOM_DATA_INDEX {
@@ -32,8 +27,7 @@ property MDPropertyValue^ ARTICLE_CUSTOM_DATA_INDEX {
    void set (int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Type of construction: Static seal # 26026.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TYPE_OF_STATIC_SEAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TYPE_OF_STATIC_SEAL {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TYPE_OF_STATIC_SEAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

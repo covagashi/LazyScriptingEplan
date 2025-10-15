@@ -8,21 +8,16 @@ Evaluates for a given Function3D the full name from the visible name and sets th
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AdjustFullName( 
 
    IFunctionBase pFunctionBase
 
 )
-```
-```
 
-```
-```
 public:
 
 bool AdjustFullName( 
@@ -30,8 +25,7 @@ bool AdjustFullName(
    IFunctionBase^ pFunctionBase
 
 )
-```
-```
+
 
 #### Parameters
 

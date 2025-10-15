@@ -8,17 +8,12 @@ Is PLC template relevant to safety (yes / no)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsRelevantToSafety {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsRelevantToSafety {
@@ -28,5 +23,4 @@ property bool IsRelevantToSafety {
    void set (    bool value);
 
 }
-```
-```
+

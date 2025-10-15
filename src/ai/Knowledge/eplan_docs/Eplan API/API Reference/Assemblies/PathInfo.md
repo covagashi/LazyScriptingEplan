@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public sealed class PathInfo
-```
-```
 
-```
-```
 public ref class PathInfo sealed
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [PathInfo Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PathInfo~_ctor.html) | Should be used by ProjectManager only! |
 
 [Top](#top)
-
-
 
 Public Properties
 

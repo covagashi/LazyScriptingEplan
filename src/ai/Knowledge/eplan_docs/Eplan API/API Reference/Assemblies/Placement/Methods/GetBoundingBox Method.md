@@ -8,22 +8,16 @@ Placement bounding box. Bounding box is a rectangle which contain this placement
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual PointD[] GetBoundingBox()
-```
-```
 
-```
-```
 public:
 
 virtual array<PointD>^ GetBoundingBox();
-```
-```
+
 
 #### Return Value
 

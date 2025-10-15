@@ -8,21 +8,16 @@ Adds new property configuration for given user defined property definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyConfiguration AddPropertyConfiguration( 
 
    UserDefinedPropertyDefinition pPropertyDef
 
 )
-```
-```
 
-```
-```
 public:
 
 PropertyConfiguration^ AddPropertyConfiguration( 
@@ -30,8 +25,7 @@ PropertyConfiguration^ AddPropertyConfiguration(
    UserDefinedPropertyDefinition^ pPropertyDef
 
 )
-```
-```
+
 
 #### Parameters
 

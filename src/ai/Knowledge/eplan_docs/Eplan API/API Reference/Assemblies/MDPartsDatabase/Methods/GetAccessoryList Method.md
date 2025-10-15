@@ -8,21 +8,16 @@ Gets a accessory list with the given name that is stored in the parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAccessoryList GetAccessoryList( 
 
    string name
 
 )
-```
-```
 
-```
-```
 public:
 
 MDAccessoryList^ GetAccessoryList( 
@@ -30,8 +25,7 @@ MDAccessoryList^ GetAccessoryList(
    String^ name
 
 )
-```
-```
+
 
 #### Parameters
 

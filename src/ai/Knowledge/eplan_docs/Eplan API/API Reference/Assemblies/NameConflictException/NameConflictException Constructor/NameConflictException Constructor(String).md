@@ -8,21 +8,16 @@ Constructor with conflicting name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public NameConflictException( 
 
    string name
 
 )
-```
-```
 
-```
-```
 public:
 
 NameConflictException( 
@@ -30,8 +25,7 @@ NameConflictException(
    String^ name
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Subordinate DT / DT ID # 21005.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNCTEMPLATE_NESTEDDEVICETAG {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNCTEMPLATE_NESTEDDEVICETAG {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNCTEMPLATE_NESTEDDEVICETAG {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

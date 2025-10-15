@@ -8,17 +8,12 @@ Measuring range, max. # 26453.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_MEASURING_RANGE_MAX_ {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_MEASURING_RANGE_MAX_ {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_MEASURING_RANGE_MAX_ {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

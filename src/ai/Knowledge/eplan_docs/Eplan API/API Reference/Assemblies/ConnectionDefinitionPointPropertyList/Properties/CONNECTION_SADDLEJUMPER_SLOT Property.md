@@ -8,17 +8,12 @@ Saddle jumper slot # 31163.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_SADDLEJUMPER_SLOT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_SADDLEJUMPER_SLOT {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_SADDLEJUMPER_SLOT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

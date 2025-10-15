@@ -8,17 +8,12 @@ Customer: State / Region # 10114.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_CUSTOMERREGION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_CUSTOMERREGION {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_CUSTOMERREGION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

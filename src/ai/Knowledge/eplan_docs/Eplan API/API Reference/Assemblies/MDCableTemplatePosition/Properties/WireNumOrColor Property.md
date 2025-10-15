@@ -8,17 +8,12 @@ It defines the Cable property Wirenumber or Color
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string WireNumOrColor {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ WireNumOrColor {
@@ -28,5 +23,4 @@ property String^ WireNumOrColor {
    void set (    String^ value);
 
 }
-```
-```
+

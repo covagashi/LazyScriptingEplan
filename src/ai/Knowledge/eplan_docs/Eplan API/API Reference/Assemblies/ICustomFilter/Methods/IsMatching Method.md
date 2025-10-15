@@ -8,28 +8,22 @@ This method should be overridden in order to implement the filter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool IsMatching( 
 
    StorableObject objectToCheck
 
 )
-```
-```
 
-```
-```
 bool IsMatching( 
 
    StorableObject^ objectToCheck
 
 )
-```
-```
+
 
 #### Parameters
 

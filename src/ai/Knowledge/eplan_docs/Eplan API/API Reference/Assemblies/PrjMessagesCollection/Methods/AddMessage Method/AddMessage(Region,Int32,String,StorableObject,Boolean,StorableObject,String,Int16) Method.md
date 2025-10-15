@@ -8,11 +8,10 @@ Adds a new message to the database with electrotechnical messages (Project data\
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ProjectMessage AddMessage( 
 
    IMessage.Region eRegion,
@@ -30,11 +29,7 @@ public ProjectMessage AddMessage(
    string strAdditionalInfo
 
 )
-```
-```
 
-```
-```
 public:
 
 ProjectMessage^ AddMessage( 
@@ -54,8 +49,7 @@ ProjectMessage^ AddMessage(
    String^ strAdditionalInfo
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -94,7 +88,7 @@ Example
 
 The following example shows how to append the new message 999025 to the message database of the current project.
 
-- [C#](#i-tab-content-2a6b589e-b10d-4b9a-9b91-484ab8dde8f3)
+**C#**
 
 ```
 
@@ -111,8 +105,6 @@ The following example shows how to append the new message 999025 to the message 
 
 }
 
-
-
     if (m_oTestProject != null)
 
 {
@@ -121,20 +113,14 @@ The following example shows how to append the new message 999025 to the message 
 
     Function[] arrFunction = arrPages[5].Functions;
 
-
-
     StorableObject oObject1 = arrFunction[0];
 
     StorableObject oObject2 = arrFunction[1];
-
-
 
     ProjectMessage oProjectMessage = oPrjMessagesCollection.AddMessage(Eplan.EplApi.EServices.IMessage.Region.Externals, 25, "XYZ", oObject1, false, oObject2, "Additional Text");
 
     Console.WriteLine(" Addded message " + oProjectMessage.GetText() + " to the project");
 
 }
-
-
 
 ```

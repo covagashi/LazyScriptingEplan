@@ -8,17 +8,12 @@ Gets/Sets whether sections are active (i.e. visible) for the currently logged-in
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ProjectSections.Enums.State State {get; set;}
-```
-```
 
-```
-```
 public:
 
 property ProjectSections.Enums.State State {
@@ -28,5 +23,4 @@ property ProjectSections.Enums.State State {
    void set (    ProjectSections.Enums.State value);
 
 }
-```
-```
+

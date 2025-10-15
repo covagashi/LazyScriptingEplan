@@ -8,17 +8,12 @@ Returns EPLAN directory
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Eplan {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Eplan {
@@ -26,8 +21,7 @@ property String^ Eplan {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

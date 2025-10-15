@@ -8,21 +8,16 @@ Creates topology functions that are connected to structure routing fulcrums.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateFunctions( 
 
    Project pProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateFunctions( 
@@ -30,8 +25,7 @@ void CreateFunctions(
    Project^ pProject
 
 )
-```
-```
+
 
 #### Parameters
 

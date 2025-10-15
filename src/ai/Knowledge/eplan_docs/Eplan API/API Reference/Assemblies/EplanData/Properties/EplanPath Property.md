@@ -8,17 +8,12 @@ EplanPath is the filepath to the EPLAN installation
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string EplanPath {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ EplanPath {
@@ -28,5 +23,4 @@ property String^ EplanPath {
    void set (    String^ value);
 
 }
-```
-```
+

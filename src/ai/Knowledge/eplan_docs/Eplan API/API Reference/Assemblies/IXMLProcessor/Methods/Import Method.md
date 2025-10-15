@@ -8,11 +8,10 @@ Conversion from sImportFile to sXmlFile. sXmlFile might be passed as "". In this
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 bool Import( 
 
    string strInputFile,
@@ -22,11 +21,7 @@ bool Import(
    Context oContext
 
 )
-```
-```
 
-```
-```
 bool Import( 
 
    String^ strInputFile,
@@ -36,8 +31,7 @@ bool Import(
    Context^ oContext
 
 )
-```
-```
+
 
 #### Parameters
 

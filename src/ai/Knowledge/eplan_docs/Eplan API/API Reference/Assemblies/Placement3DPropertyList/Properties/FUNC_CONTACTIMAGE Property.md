@@ -8,17 +8,12 @@ Contact image display # 20303.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CONTACTIMAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CONTACTIMAGE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CONTACTIMAGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

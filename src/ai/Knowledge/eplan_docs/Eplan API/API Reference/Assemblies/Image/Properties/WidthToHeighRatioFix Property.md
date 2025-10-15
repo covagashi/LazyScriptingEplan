@@ -8,17 +8,12 @@ Boolean value: true if the aspect ratio of the image is the same as in the origi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool WidthToHeighRatioFix {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool WidthToHeighRatioFix {
@@ -28,8 +23,7 @@ property bool WidthToHeighRatioFix {
    void set (    bool value);
 
 }
-```
-```
+
 
 Exceptions
 

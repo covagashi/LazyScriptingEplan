@@ -8,17 +8,12 @@ Bus distribution device # 20189.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCISBUSDISTRIBUTOR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCISBUSDISTRIBUTOR {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCISBUSDISTRIBUTOR {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

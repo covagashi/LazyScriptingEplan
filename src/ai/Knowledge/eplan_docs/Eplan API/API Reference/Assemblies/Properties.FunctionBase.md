@@ -8,20 +8,14 @@ Identificators of properties owned by FunctionBase class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.FunctionBase : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.FunctionBase : public System.Enum
-```
-```
+
 
 Members
 

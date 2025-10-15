@@ -8,19 +8,13 @@ EProxySettings constructor.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public EProxySettings()
-```
-```
 
-```
-```
 public:
 
 EProxySettings();
-```
-```
+

@@ -8,17 +8,12 @@ Name automatically assigned # 20091.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLEAUTONAMED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLEAUTONAMED {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLEAUTONAMED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

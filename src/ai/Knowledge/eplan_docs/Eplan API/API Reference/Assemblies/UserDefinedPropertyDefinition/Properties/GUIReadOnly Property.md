@@ -8,17 +8,12 @@ Gets/Sets a flag which indicates if property is read only in GUI in the project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool GUIReadOnly {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool GUIReadOnly {
@@ -28,5 +23,4 @@ property bool GUIReadOnly {
    void set (    bool value);
 
 }
-```
-```
+

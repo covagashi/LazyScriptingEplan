@@ -8,21 +8,16 @@ Returns an array of MergedConnection objects created from the connections passed
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static MergedConnection[] CreateMergedConnections( 
 
    Connection[] connections
 
 )
-```
-```
 
-```
-```
 public:
 
 static array<MergedConnection^>^ CreateMergedConnections( 
@@ -30,8 +25,7 @@ static array<MergedConnection^>^ CreateMergedConnections(
    array<Connection^>^ connections
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,20 +8,14 @@ Enumeration of MacroBoxUsage
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MacroBox.Enums.TypeOfUsage : System.Enum
-```
-```
 
-```
-```
 public enum class MacroBox.Enums.TypeOfUsage : public System.Enum
-```
-```
+
 
 Members
 

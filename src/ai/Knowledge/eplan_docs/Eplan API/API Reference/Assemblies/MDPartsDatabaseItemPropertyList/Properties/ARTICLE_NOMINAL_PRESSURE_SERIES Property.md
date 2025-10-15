@@ -8,17 +8,12 @@ Nominal pressure series # 26309.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_NOMINAL_PRESSURE_SERIES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_NOMINAL_PRESSURE_SERIES {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_NOMINAL_PRESSURE_SERIES {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

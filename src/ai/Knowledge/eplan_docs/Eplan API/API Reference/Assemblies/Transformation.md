@@ -13,26 +13,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Transformation
-```
-```
 
-```
-```
 public ref class Transformation
-```
-```
+
 
 Example
 
 The following example shows how to use class Import.
 
-- [C#](#i-tab-content-b994b12c-62c1-450d-ade6-373373c64b5c)
+**C#**
 
 ```
 
@@ -51,10 +45,6 @@ oTransformation.YScale = 0.1;
 
 oImport.DXFPage("$(MD_DXFDWG)\\test_6c.dxf", m_oProject.Pages[5], oTransformation, "");
 
-
-
-
-
 ```
 
 Public Constructors
@@ -64,8 +54,6 @@ Public Constructors
 | Public Constructor | [Transformation Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Transformation~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

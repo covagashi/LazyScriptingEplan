@@ -8,22 +8,16 @@ Stores property definition to the database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Store()
-```
-```
 
-```
-```
 public:
 
 bool Store();
-```
-```
+
 
 Remarks
 

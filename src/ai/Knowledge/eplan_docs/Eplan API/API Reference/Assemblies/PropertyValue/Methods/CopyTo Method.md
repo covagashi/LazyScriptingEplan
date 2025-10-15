@@ -8,21 +8,16 @@ Copies property value to destination including all indexes. If source property i
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CopyTo( 
 
    PropertyValue destination
 
 )
-```
-```
 
-```
-```
 public:
 
 void CopyTo( 
@@ -30,8 +25,7 @@ void CopyTo(
    PropertyValue^ destination
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -47,7 +41,7 @@ Exceptions
 
 Example
 
-- [C#](#i-tab-content-20d66762-d228-4229-a767-a17480af720b)
+**C#**
 
 ```
 PropertyValue oProperty = m_oTestProject.Pages[0].Functions[0].Properties[ FUNC_NON_INDEXED_PROPERTY ];
@@ -56,25 +50,15 @@ PropertyValue static_value = "xxx";
 
 static_value.CopyTo ( oProperty ) ; // FUNC_NON_INDEXED_PROPERTY will be changed
 
-
-
 PropertyValue oP1 = m_oTestProject.Pages[0].Functions[0].Properties[ FUNC_INDEXED_PROPERTY_1 ];
 
 PropertyValue oP2 = m_oTestProject.Pages[0].Functions[0].Properties[ FUNC_INDEXED_PROPERTY_2 ];
 
- 
-
 // Let say that oP1.Definition.MaxIndex == 100 and oP2.Definition.MaxIndex == 50
-
-
 
 oP1.CopyTo ( oP2 ); // all non-empty indexes from 1 to 50 will be copied
 
-
-
 UniversalPropertyList ^ UPL = new UniversalPropertyList ( );
-
-
 
 PropertyValue up = UPL [ AnyPropertyId ( FUNC_INDEXED_PROPERTY_1 ) ];
 

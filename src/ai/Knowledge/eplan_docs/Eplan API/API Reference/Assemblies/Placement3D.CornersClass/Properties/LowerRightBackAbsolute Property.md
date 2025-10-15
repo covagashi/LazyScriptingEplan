@@ -8,17 +8,12 @@ Returns lower right back absolute coordinate
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D LowerRightBackAbsolute {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD3D LowerRightBackAbsolute {
@@ -26,5 +21,4 @@ property PointD3D LowerRightBackAbsolute {
    PointD3D get();
 
 }
-```
-```
+

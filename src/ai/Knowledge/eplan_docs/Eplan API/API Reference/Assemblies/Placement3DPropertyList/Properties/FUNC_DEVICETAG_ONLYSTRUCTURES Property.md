@@ -8,17 +8,12 @@ DT (project structures only) # 20020.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DEVICETAG_ONLYSTRUCTURES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DEVICETAG_ONLYSTRUCTURES {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DEVICETAG_ONLYSTRUCTURES {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

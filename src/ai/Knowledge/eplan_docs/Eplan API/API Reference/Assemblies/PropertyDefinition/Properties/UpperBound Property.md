@@ -8,17 +8,12 @@ Returns the maximum value of a property specified in the property definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue UpperBound {get;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ UpperBound {
@@ -26,8 +21,7 @@ property PropertyValue^ UpperBound {
    PropertyValue^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

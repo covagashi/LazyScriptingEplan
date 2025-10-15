@@ -18,24 +18,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class InvalidPageNameException_EmptyName : InvalidPageNameException
-```
-```
 
-```
-```
 public ref class InvalidPageNameException_EmptyName : public InvalidPageNameException
-```
-```
-
-
-
-
 
 Public Properties
 

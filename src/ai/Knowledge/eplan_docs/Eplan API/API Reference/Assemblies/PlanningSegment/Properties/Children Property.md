@@ -8,17 +8,12 @@ Returns all children of this object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningSegment[] Children {get;}
-```
-```
 
-```
-```
 public:
 
 property array<PlanningSegment^>^ Children {
@@ -26,5 +21,4 @@ property array<PlanningSegment^>^ Children {
    array<PlanningSegment^>^ get();
 
 }
-```
-```
+

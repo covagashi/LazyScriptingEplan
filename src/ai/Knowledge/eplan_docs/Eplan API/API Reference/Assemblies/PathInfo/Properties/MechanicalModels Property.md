@@ -8,17 +8,12 @@ Returns default MechanicalModels directory.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string MechanicalModels {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ MechanicalModels {
@@ -26,8 +21,7 @@ property String^ MechanicalModels {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Moves placement area toward the axis of the normal vector of placement area.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool MoveRelative( 
 
    double dOffset
 
 )
-```
-```
 
-```
-```
 public:
 
 bool MoveRelative( 
@@ -30,8 +25,7 @@ bool MoveRelative(
    double dOffset
 
 )
-```
-```
+
 
 #### Parameters
 

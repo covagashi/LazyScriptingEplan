@@ -8,17 +8,12 @@ Connection dimension target # 31097.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_TERMINALSIZE_DESTINATION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_TERMINALSIZE_DESTINATION {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_TERMINALSIZE_DESTINATION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

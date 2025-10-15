@@ -8,17 +8,12 @@ Nominal output torque # 26464.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_RATED_OUTPUT_TORQUE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_RATED_OUTPUT_TORQUE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_RATED_OUTPUT_TORQUE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

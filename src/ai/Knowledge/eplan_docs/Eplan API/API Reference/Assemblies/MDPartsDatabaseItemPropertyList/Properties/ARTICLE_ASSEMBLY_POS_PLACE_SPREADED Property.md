@@ -8,17 +8,12 @@ Distributed placement of assembly # 22040.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_ASSEMBLY_POS_PLACE_SPREADED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_ASSEMBLY_POS_PLACE_SPREADED {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_ASSEMBLY_POS_PLACE_SPREADED {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns the angle (i.e. direction) of the segment relative to the X axis.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double Angle {get;}
-```
-```
 
-```
-```
 public:
 
 property double Angle {
@@ -26,8 +21,7 @@ property double Angle {
    double get();
 
 }
-```
-```
+
 
 Remarks
 

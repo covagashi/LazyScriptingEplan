@@ -8,21 +8,16 @@ Should be used internal only
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlaceHolder3DPropertyList( 
 
    PlaceHolder3D obj
 
 )
-```
-```
 
-```
-```
 public:
 
 PlaceHolder3DPropertyList( 
@@ -30,8 +25,7 @@ PlaceHolder3DPropertyList(
    PlaceHolder3D^ obj
 
 )
-```
-```
+
 
 #### Parameters
 

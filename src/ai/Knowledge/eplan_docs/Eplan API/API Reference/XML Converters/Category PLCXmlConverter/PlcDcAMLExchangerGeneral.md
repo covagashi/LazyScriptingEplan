@@ -5,17 +5,16 @@
 ---
 
 ```
-Imports or exports PLC data in the system database from or to AutomationML files. The supported file extension is "*.aml".
-```
+Imports or exports PLC data in the system database from or to AutomationML files. The supported file extension is "*.aml".
 
-  
+```
 
 **Remarks**
 
 ```
-Visible name = "EPLAN Electric P8"
-```
+Visible name = "EPLAN Electric P8"
 
-```
-Required for methods ExportData(), ImportData()
+
+Required for methods ExportData(), ImportData()
+
 ```

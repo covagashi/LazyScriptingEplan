@@ -8,17 +8,12 @@ Segment template assigned to this object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SegmentTemplate SegmentTemplate {get; set;}
-```
-```
 
-```
-```
 public:
 
 property SegmentTemplate^ SegmentTemplate {
@@ -28,5 +23,4 @@ property SegmentTemplate^ SegmentTemplate {
    void set (    SegmentTemplate^ value);
 
 }
-```
-```
+

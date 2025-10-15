@@ -8,21 +8,16 @@ Active power (general power supply), max. # 26644.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_ACTIVE_POWER_MAX_ASV( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_ACTIVE_POWER_MAX_ASV {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_ACTIVE_POWER_MAX_ASV {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

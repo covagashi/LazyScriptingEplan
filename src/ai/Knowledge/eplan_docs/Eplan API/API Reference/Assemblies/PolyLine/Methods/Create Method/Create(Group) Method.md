@@ -8,21 +8,16 @@ Creates a PolyLine object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static PolyLine Create( 
 
    Group group
 
 )
-```
-```
 
-```
-```
 public:
 
 static PolyLine^ Create( 
@@ -30,8 +25,7 @@ static PolyLine^ Create(
    Group^ group
 
 )
-```
-```
+
 
 #### Parameters
 

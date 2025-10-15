@@ -8,17 +8,12 @@ Asynchronous rows # 12013.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FRAME_ASYNCHRON_POS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FRAME_ASYNCHRON_POS {
@@ -28,8 +23,7 @@ property PropertyValue^ FRAME_ASYNCHRON_POS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

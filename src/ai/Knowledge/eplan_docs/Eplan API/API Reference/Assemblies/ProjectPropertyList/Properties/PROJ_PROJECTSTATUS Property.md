@@ -8,17 +8,12 @@ Project status # 10303.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_PROJECTSTATUS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_PROJECTSTATUS {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_PROJECTSTATUS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

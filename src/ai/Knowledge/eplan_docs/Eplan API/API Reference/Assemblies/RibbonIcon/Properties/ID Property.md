@@ -6,17 +6,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public CommandIcon ID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property CommandIcon ID {
@@ -26,5 +21,4 @@ property CommandIcon ID {
    void set (    CommandIcon value);
 
 }
-```
-```
+

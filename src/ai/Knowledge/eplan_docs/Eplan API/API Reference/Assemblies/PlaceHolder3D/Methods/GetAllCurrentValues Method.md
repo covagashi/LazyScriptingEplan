@@ -8,22 +8,16 @@ Gets a list of all current values in Placeholder.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual PropertyValue[] GetAllCurrentValues()
-```
-```
 
-```
-```
 public:
 
 virtual array<PropertyValue^>^ GetAllCurrentValues();
-```
-```
+
 
 #### Return Value
 

@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CloneTo( 
 
    ref RemotingCallingContext rc
 
 )
-```
-```
 
-```
-```
 public:
 
 void CloneTo( 
@@ -28,8 +23,7 @@ void CloneTo(
    RemotingCallingContext^% rc
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ Activate or deactivate AUTOPAGECHANGED change info handling. Helper will switch 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetAutoPageChangedFlag( 
 
    bool bAutoPageChangedFlag,
@@ -20,11 +19,7 @@ public void SetAutoPageChangedFlag(
    ChangeInfoService.ChangeInfoServiceHelper pHelper
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetAutoPageChangedFlag( 
@@ -34,8 +29,7 @@ void SetAutoPageChangedFlag(
    ChangeInfoService.ChangeInfoServiceHelper^ pHelper
 
 )
-```
-```
+
 
 #### Parameters
 

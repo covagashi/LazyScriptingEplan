@@ -8,17 +8,12 @@ The Z-vector of the connection point
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double ZVector {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double ZVector {
@@ -28,5 +23,4 @@ property double ZVector {
    void set (    double value);
 
 }
-```
-```
+

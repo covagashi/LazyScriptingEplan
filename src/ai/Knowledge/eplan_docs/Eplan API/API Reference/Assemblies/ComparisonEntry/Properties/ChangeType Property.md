@@ -8,17 +8,12 @@ Shows whether the object was changed, deleted, or newly inserted.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ComparisonEntry.StateType ChangeType {get;}
-```
-```
 
-```
-```
 public:
 
 property ComparisonEntry.StateType ChangeType {
@@ -26,5 +21,4 @@ property ComparisonEntry.StateType ChangeType {
    ComparisonEntry.StateType get();
 
 }
-```
-```
+

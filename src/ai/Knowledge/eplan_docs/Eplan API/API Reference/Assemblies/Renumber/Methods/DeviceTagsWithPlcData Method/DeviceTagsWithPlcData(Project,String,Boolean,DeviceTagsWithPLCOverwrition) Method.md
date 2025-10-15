@@ -8,11 +8,10 @@ Method for numbering device tags of a project with PLC data.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DeviceTagsWithPlcData( 
 
    Project pProject,
@@ -24,11 +23,7 @@ public void DeviceTagsWithPlcData(
    Renumber.Enums.DeviceTagsWithPLCOverwrition eOverwriteMode
 
 )
-```
-```
 
-```
-```
 public:
 
 void DeviceTagsWithPlcData( 
@@ -42,8 +37,7 @@ void DeviceTagsWithPlcData(
    Renumber.Enums.DeviceTagsWithPLCOverwrition eOverwriteMode
 
 )
-```
-```
+
 
 #### Parameters
 

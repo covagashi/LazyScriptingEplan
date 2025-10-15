@@ -8,11 +8,10 @@ Places a symbol macro onto a given position of a page. You can set whether absol
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] SymbolMacro( 
 
    string strEMSFileName,
@@ -26,11 +25,7 @@ public StorableObject[] SymbolMacro(
    Insert.MoveKind moveCondition
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ SymbolMacro( 
@@ -46,8 +41,7 @@ array<StorableObject^>^ SymbolMacro(
    Insert.MoveKind moveCondition
 
 )
-```
-```
+
 
 #### Parameters
 

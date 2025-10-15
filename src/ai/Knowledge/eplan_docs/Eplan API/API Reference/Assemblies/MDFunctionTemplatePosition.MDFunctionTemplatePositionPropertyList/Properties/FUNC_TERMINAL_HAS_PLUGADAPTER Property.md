@@ -8,17 +8,12 @@ Terminal with plug-in adapter # 20283.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue FUNC_TERMINAL_HAS_PLUGADAPTER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ FUNC_TERMINAL_HAS_PLUGADAPTER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ FUNC_TERMINAL_HAS_PLUGADAPTER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

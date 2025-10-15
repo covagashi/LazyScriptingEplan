@@ -8,17 +8,12 @@ The Hierarchy4 text of the use case
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString Hierarchy4 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ Hierarchy4 {
@@ -28,5 +23,4 @@ property MultiLangString^ Hierarchy4 {
    void set (    MultiLangString^ value);
 
 }
-```
-```
+

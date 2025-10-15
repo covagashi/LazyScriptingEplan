@@ -8,17 +8,12 @@ Indicates whether planning objects structure will be merged with existing nodes 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ArePlanningObjectsStructureMerged {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool ArePlanningObjectsStructureMerged {
@@ -28,8 +23,7 @@ property bool ArePlanningObjectsStructureMerged {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

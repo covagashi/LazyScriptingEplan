@@ -8,11 +8,10 @@ do a labeling for a project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DoLabel( 
 
    Project oProject,
@@ -32,11 +31,7 @@ public void DoLabel(
    uint nTaskRepeat
 
 )
-```
-```
 
-```
-```
 public:
 
 void DoLabel( 
@@ -58,8 +53,7 @@ void DoLabel(
    uint nTaskRepeat
 
 )
-```
-```
+
 
 #### Parameters
 

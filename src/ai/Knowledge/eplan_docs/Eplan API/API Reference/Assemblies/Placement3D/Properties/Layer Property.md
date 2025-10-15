@@ -8,17 +8,12 @@ Returns the [Eplan.EplApi.DataModel.Graphics.GraphicalLayer](Eplan.EplApi.DataMo
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public GraphicalLayer Layer {get; set;}
-```
-```
 
-```
-```
 public:
 
 property GraphicalLayer^ Layer {
@@ -28,8 +23,7 @@ property GraphicalLayer^ Layer {
    void set (    GraphicalLayer^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns `true` if project exported from this subproject can be inserted back to 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsStorePossible {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsStorePossible {
@@ -26,5 +21,4 @@ property bool IsStorePossible {
    bool get();
 
 }
-```
-```
+

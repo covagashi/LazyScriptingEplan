@@ -8,17 +8,12 @@ Connecting cable: Length # 26206.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CONNECTION_CABLE_LENGTH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CONNECTION_CABLE_LENGTH {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CONNECTION_CABLE_LENGTH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

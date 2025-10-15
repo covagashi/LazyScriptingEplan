@@ -8,21 +8,16 @@ This function deletes the device list in the given project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DeleteDeviceList( 
 
    string strFullLinkFileName
 
 )
-```
-```
 
-```
-```
 public:
 
 void DeleteDeviceList( 
@@ -30,8 +25,7 @@ void DeleteDeviceList(
    String^ strFullLinkFileName
 
 )
-```
-```
+
 
 #### Parameters
 

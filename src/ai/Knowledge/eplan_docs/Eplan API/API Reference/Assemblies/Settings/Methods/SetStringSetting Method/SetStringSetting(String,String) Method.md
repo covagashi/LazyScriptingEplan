@@ -8,11 +8,10 @@ Sets the value of a setting. The index under which setting will be written is ev
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetStringSetting( 
 
    string strSettingPath,
@@ -20,11 +19,7 @@ public void SetStringSetting(
    string strValue
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetStringSetting( 
@@ -34,8 +29,7 @@ void SetStringSetting(
    String^ strValue
 
 )
-```
-```
+
 
 #### Parameters
 

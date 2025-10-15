@@ -8,17 +8,12 @@ Overhang: Side panel bottom # 22166.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SIDEPANELPROJECTIONBOTTOM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SIDEPANELPROJECTIONBOTTOM {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SIDEPANELPROJECTIONBOTTOM {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

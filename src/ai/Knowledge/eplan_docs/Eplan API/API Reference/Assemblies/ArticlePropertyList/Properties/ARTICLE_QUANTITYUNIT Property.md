@@ -8,17 +8,12 @@ Quantity unit # 22042.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_QUANTITYUNIT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_QUANTITYUNIT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_QUANTITYUNIT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns [Connection](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Connection.h
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual Connection[] Connections {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property array<Connection^>^ Connections {
@@ -26,8 +21,7 @@ virtual property array<Connection^>^ Connections {
    array<Connection^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns true if the Text has an alignment box. In GUI it's 'Activate alignment b
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool HasBox {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool HasBox {
@@ -28,8 +23,7 @@ property bool HasBox {
    void set (    bool value);
 
 }
-```
-```
+
 
 #### Property Value
 

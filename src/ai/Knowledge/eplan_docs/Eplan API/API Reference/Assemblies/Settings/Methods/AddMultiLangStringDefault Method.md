@@ -8,11 +8,10 @@ Defines a new default setting for a multilanguage string value.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void AddMultiLangStringDefault( 
 
    string strSettingPath,
@@ -24,11 +23,7 @@ public void AddMultiLangStringDefault(
    ISettings.CreationFlag eFlag
 
 )
-```
-```
 
-```
-```
 public:
 
 void AddMultiLangStringDefault( 
@@ -42,8 +37,7 @@ void AddMultiLangStringDefault(
    ISettings.CreationFlag eFlag
 
 )
-```
-```
+
 
 #### Parameters
 

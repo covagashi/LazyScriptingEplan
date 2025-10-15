@@ -8,17 +8,12 @@ Actual power (hydraulic) # 26381.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_ACTUAL_OUTPUT_HYDRAULIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_ACTUAL_OUTPUT_HYDRAULIC {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_ACTUAL_OUTPUT_HYDRAULIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

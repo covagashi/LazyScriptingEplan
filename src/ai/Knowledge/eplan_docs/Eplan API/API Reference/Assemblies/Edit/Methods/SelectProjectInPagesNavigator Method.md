@@ -8,21 +8,16 @@ Selects the project in pages navigator
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SelectProjectInPagesNavigator( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 bool SelectProjectInPagesNavigator( 
@@ -30,8 +25,7 @@ bool SelectProjectInPagesNavigator(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

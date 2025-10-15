@@ -8,11 +8,10 @@ Exports a complete project as DXF/DWG files. Export settings are taken from the 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DxfDwgProjectToDisk( 
 
    Project prj,
@@ -22,11 +21,7 @@ public void DxfDwgProjectToDisk(
    string sTargetDir
 
 )
-```
-```
 
-```
-```
 public:
 
 void DxfDwgProjectToDisk( 
@@ -38,8 +33,7 @@ void DxfDwgProjectToDisk(
    String^ sTargetDir
 
 )
-```
-```
+
 
 #### Parameters
 

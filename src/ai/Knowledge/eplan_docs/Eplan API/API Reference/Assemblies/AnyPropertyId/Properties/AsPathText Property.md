@@ -8,17 +8,12 @@ Gets property id value as [Properties.PathText](Eplan.EplApi.DataModelu~Eplan.Ep
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.PathText AsPathText {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.PathText AsPathText {
@@ -26,5 +21,4 @@ property Properties.PathText AsPathText {
    Properties.PathText get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Contains supplemental parts # 22423.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_CONTAINS_ADDONPARTS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_CONTAINS_ADDONPARTS {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_CONTAINS_ADDONPARTS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

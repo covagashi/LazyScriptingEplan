@@ -8,22 +8,16 @@ Evaluates the full name for all placed functions and interruption points on page
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool EvaluateAndSetAllNames()
-```
-```
 
-```
-```
 public:
 
 bool EvaluateAndSetAllNames();
-```
-```
+
 
 #### Return Value
 

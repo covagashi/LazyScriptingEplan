@@ -8,28 +8,22 @@ Gets custom proxy connection configuration.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 IdentityClientResponse GetProxySettings( 
 
    ref EProxySettings proxySettings
 
 )
-```
-```
 
-```
-```
 IdentityClientResponse^ GetProxySettings( 
 
    EProxySettings^% proxySettings
 
 )
-```
-```
+
 
 #### Parameters
 

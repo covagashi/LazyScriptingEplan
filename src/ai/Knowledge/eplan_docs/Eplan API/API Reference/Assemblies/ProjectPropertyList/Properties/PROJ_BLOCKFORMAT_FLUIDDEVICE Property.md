@@ -8,21 +8,16 @@ Block property: Format (fluid device) # 10613.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_BLOCKFORMAT_FLUIDDEVICE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_BLOCKFORMAT_FLUIDDEVICE {
@@ -32,8 +27,7 @@ property PropertyValue^ PROJ_BLOCKFORMAT_FLUIDDEVICE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

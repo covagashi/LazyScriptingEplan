@@ -8,22 +8,16 @@ Rollback the database transaction. The changes are not stored.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Rollback()
-```
-```
 
-```
-```
 public:
 
 void Rollback();
-```
-```
+
 
 Remarks
 

@@ -8,17 +8,12 @@ The property gives the search direction of the full device tag, when the visible
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function.Enums.SearchDirection BmkSearchDirection {get;}
-```
-```
 
-```
-```
 public:
 
 property Function.Enums.SearchDirection BmkSearchDirection {
@@ -26,8 +21,7 @@ property Function.Enums.SearchDirection BmkSearchDirection {
    Function.Enums.SearchDirection get();
 
 }
-```
-```
+
 
 #### Property Value
 

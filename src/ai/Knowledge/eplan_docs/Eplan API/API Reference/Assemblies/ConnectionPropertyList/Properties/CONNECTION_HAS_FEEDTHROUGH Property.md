@@ -8,17 +8,12 @@ Mechanical feedthroughs available # 31165.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_HAS_FEEDTHROUGH {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_HAS_FEEDTHROUGH {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_HAS_FEEDTHROUGH {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

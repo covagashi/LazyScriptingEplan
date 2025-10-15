@@ -8,17 +8,12 @@ Gets/Sets pin's SourceOrTarget.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Pin.SourceOrTarget IsSourceOrTarget {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Pin.SourceOrTarget IsSourceOrTarget {
@@ -28,5 +23,4 @@ property Pin.SourceOrTarget IsSourceOrTarget {
    void set (    Pin.SourceOrTarget value);
 
 }
-```
-```
+

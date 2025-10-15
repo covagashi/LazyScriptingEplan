@@ -8,17 +8,12 @@ Determines whether terminal is main.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsMainTerminal {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IsMainTerminal {
@@ -28,8 +23,7 @@ property bool IsMainTerminal {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 
@@ -39,7 +33,7 @@ Example
 
 In order to create a multi-level terminal, please use the following code:
 
-- [C#](#i-tab-content-4362a355-eb26-465c-9d04-c9696d9b88f8)
+**C#**
 
 ```
 
@@ -58,13 +52,9 @@ SymbolVariant oSymbolVariant = new SymbolVariant();
 
 oSymbolVariant.Initialize(oSymbol, nVariant);
 
-
-
 int iDevicePos = 1; // be sure this ID is unique in terminal strip
 
 int iSortPos = 1;
-
-
 
 Terminal term1 = new Terminal();
 
@@ -82,8 +72,6 @@ term1.IsMainTerminal = true;
 
 ++iSortPos;
 
-
-
 Terminal term2 = new Terminal();
 
 term2.Create(oPage, oSymbolVariant);
@@ -99,8 +87,6 @@ term2.Properties.FUNC_TERMINALLEVEL = 2;
 term2.IsMainTerminal = false;
 
 ++iSortPos;
-
-
 
 Terminal term3 = new Terminal();
 
@@ -118,11 +104,7 @@ term3.IsMainTerminal = false;
 
 ++iSortPos;
 
-
-
 ++iDevicePos;  // new device will be created
-
-
 
 Terminal term4 = new Terminal();
 
@@ -140,8 +122,6 @@ term4.IsMainTerminal = true;
 
 ++iSortPos;
 
-
-
 Terminal term5 = new Terminal();
 
 term5.Create(oPage, oSymbolVariant);
@@ -158,8 +138,6 @@ term5.IsMainTerminal = false;
 
 ++iSortPos;
 
-
-
 Terminal term6 = new Terminal();
 
 term6.Create(oPage, oSymbolVariant);
@@ -175,9 +153,5 @@ term6.Properties.FUNC_TERMINALLEVEL = 1;
 term6.IsMainTerminal = false;
 
 ++iSortPos;
-
-
-
-
 
 ```

@@ -8,17 +8,12 @@ DT adoption: Search direction # 20035.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_DEVICETAGSEARCHDIRECTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_DEVICETAGSEARCHDIRECTION {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_DEVICETAGSEARCHDIRECTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ The terminal description of terminal template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string TerminalDescription {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ TerminalDescription {
@@ -28,5 +23,4 @@ property String^ TerminalDescription {
    void set (    String^ value);
 
 }
-```
-```
+

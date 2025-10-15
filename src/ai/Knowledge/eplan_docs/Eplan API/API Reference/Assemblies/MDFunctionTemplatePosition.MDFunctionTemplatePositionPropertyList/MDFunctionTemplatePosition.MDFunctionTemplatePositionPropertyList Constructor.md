@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDFunctionTemplatePosition.MDFunctionTemplatePositionPropertyList( 
 
    MDFunctionTemplatePosition functionTemplatePosition
 
 )
-```
-```
 
-```
-```
 public:
 
 MDFunctionTemplatePosition.MDFunctionTemplatePositionPropertyList( 
@@ -28,8 +23,7 @@ MDFunctionTemplatePosition.MDFunctionTemplatePositionPropertyList(
    MDFunctionTemplatePosition^ functionTemplatePosition
 
 )
-```
-```
+
 
 #### Parameters
 

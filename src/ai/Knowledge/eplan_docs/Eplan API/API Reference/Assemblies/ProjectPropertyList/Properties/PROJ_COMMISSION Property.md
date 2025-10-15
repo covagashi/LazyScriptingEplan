@@ -8,17 +8,12 @@ Commission # 10014.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_COMMISSION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_COMMISSION {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_COMMISSION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

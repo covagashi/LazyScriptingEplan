@@ -18,22 +18,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class NOPLCCPU : HEServicesBase
-```
-```
 
-```
-```
 public ref class NOPLCCPU : public HEServicesBase
-```
-```
-
-
 
 Public Constructors
 
@@ -42,8 +33,6 @@ Public Constructors
 | Public Constructor | [NOPLCCPU Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Exceptions.NOPLCCPU~_ctor.html) | Constructor with standard message text from resources identified by IDS\_ERR\_NO\_PLCCPU\_IN\_PROJECT. |
 
 [Top](#top)
-
-
 
 Public Properties
 

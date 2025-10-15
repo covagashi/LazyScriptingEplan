@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class MDInvalidTimeValueException : MDInvalidArgumentException
-```
-```
 
-```
-```
 public ref class MDInvalidTimeValueException : public MDInvalidArgumentException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [MDInvalidTimeValueException Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDInvalidTimeValueException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

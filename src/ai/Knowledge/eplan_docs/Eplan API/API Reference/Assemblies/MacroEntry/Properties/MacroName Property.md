@@ -8,17 +8,12 @@ Gets macro file name
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string MacroName {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ MacroName {
@@ -26,5 +21,4 @@ property String^ MacroName {
    String^ get();
 
 }
-```
-```
+

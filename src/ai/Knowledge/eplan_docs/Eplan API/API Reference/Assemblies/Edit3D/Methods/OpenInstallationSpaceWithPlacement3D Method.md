@@ -8,21 +8,16 @@ Opens the installation space and selects the Placement passed as oPlacement. The
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void OpenInstallationSpaceWithPlacement3D( 
 
    Placement3D oPlacement
 
 )
-```
-```
 
-```
-```
 public:
 
 void OpenInstallationSpaceWithPlacement3D( 
@@ -30,8 +25,7 @@ void OpenInstallationSpaceWithPlacement3D(
    Placement3D^ oPlacement
 
 )
-```
-```
+
 
 #### Parameters
 

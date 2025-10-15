@@ -8,21 +8,16 @@ Sets `long` value in MDPropertyValue object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue Set( 
 
    int i
 
 )
-```
-```
 
-```
-```
 public:
 
 MDPropertyValue^ Set( 
@@ -30,8 +25,7 @@ MDPropertyValue^ Set(
    int i
 
 )
-```
-```
+
 
 #### Parameters
 

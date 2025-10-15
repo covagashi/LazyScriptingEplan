@@ -8,17 +8,12 @@ Associated connections: Subtrade # 31067.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CDP_CON_SUBCRAFT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CDP_CON_SUBCRAFT {
@@ -28,8 +23,7 @@ property PropertyValue^ CDP_CON_SUBCRAFT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

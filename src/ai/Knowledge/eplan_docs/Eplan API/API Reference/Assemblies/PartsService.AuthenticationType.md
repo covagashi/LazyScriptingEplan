@@ -8,20 +8,14 @@ Logon type
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum PartsService.AuthenticationType : System.Enum
-```
-```
 
-```
-```
 public enum class PartsService.AuthenticationType : public System.Enum
-```
-```
+
 
 Members
 

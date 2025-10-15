@@ -8,11 +8,10 @@ Move this object relative to its parent.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void MoveRelative( 
 
    double x,
@@ -22,11 +21,7 @@ public void MoveRelative(
    double z
 
 )
-```
-```
 
-```
-```
 public:
 
 void MoveRelative( 
@@ -38,8 +33,7 @@ void MoveRelative(
    double z
 
 )
-```
-```
+
 
 #### Parameters
 

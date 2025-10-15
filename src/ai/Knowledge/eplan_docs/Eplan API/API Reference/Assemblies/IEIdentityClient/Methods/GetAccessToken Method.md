@@ -8,28 +8,22 @@ Gets access token for a ClientId.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 IdentityClientResponse GetAccessToken( 
 
    string strClientId
 
 )
-```
-```
 
-```
-```
 IdentityClientResponse^ GetAccessToken( 
 
    String^ strClientId
 
 )
-```
-```
+
 
 #### Parameters
 

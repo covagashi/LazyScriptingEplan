@@ -8,21 +8,16 @@ Checks if a customer info with the given short name exists.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool ExistsCustomer( 
 
    string shortName
 
 )
-```
-```
 
-```
-```
 public:
 
 bool ExistsCustomer( 
@@ -30,8 +25,7 @@ bool ExistsCustomer(
    String^ shortName
 
 )
-```
-```
+
 
 #### Parameters
 

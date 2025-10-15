@@ -16,25 +16,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public abstract class AbstractDMObjectFilter
-```
-```
 
-```
-```
 public ref class AbstractDMObjectFilter abstract
-```
-```
-
-
-
-
-
 
 Public Methods
 

@@ -8,17 +8,12 @@ Trade # 20466.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CRAFT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CRAFT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CRAFT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

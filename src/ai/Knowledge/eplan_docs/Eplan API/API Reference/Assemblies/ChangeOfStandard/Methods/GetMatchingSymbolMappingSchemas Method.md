@@ -8,11 +8,10 @@ Gets symbol scheme names for given symbol libraries mapping.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string[] GetMatchingSymbolMappingSchemas( 
 
    string sourceLibraryName,
@@ -20,11 +19,7 @@ public string[] GetMatchingSymbolMappingSchemas(
    string targetLibraryName
 
 )
-```
-```
 
-```
-```
 public:
 
 array<String^>^ GetMatchingSymbolMappingSchemas( 
@@ -34,8 +29,7 @@ array<String^>^ GetMatchingSymbolMappingSchemas(
    String^ targetLibraryName
 
 )
-```
-```
+
 
 #### Parameters
 

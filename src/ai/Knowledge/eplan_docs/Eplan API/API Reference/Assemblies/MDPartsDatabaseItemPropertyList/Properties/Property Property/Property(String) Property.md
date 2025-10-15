@@ -6,21 +6,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new MDPropertyValue Property( 
 
    string strIdentifyingName
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 new property MDPropertyValue^ Property {
@@ -30,8 +25,7 @@ new property MDPropertyValue^ Property {
    void set (String^ strIdentifyingName, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

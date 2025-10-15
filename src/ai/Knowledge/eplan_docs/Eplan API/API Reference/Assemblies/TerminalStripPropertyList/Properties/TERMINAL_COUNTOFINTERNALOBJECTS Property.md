@@ -8,17 +8,12 @@ Terminal strips: Total number of objects on terminal strip # 35001.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue TERMINAL_COUNTOFINTERNALOBJECTS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ TERMINAL_COUNTOFINTERNALOBJECTS {
@@ -28,8 +23,7 @@ property PropertyValue^ TERMINAL_COUNTOFINTERNALOBJECTS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

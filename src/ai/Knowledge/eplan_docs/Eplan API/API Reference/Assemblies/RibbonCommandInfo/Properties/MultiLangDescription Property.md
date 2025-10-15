@@ -8,17 +8,12 @@ Property to get or set description of the button, multilanguage. If set it is us
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString MultiLangDescription {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ MultiLangDescription {
@@ -28,5 +23,4 @@ property MultiLangString^ MultiLangDescription {
    void set (    MultiLangString^ value);
 
 }
-```
-```
+

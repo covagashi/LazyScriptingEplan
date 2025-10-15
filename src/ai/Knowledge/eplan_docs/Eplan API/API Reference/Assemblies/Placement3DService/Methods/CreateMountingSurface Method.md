@@ -8,11 +8,10 @@ Creates mounting surface for the face identified by points and normal vector.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Plane CreateMountingSurface( 
 
    Function3D pFunction3D,
@@ -24,11 +23,7 @@ public Plane CreateMountingSurface(
    bool bCombineSurfaces
 
 )
-```
-```
 
-```
-```
 public:
 
 Plane^ CreateMountingSurface( 
@@ -42,8 +37,7 @@ Plane^ CreateMountingSurface(
    bool bCombineSurfaces
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -67,7 +61,7 @@ Example
 
 Example shows how to create new mounting surface based on position of given mates.
 
-- [C#](#i-tab-content-8c14a822-9546-49dc-a16b-86b11e3909e2)
+**C#**
 
 ```
 Plane CreateMountingSurfaceForGivenBasePoints(Function3D oFunc3D, string oMateName1, string oMateName2, string oMateName3)
@@ -76,31 +70,21 @@ Plane CreateMountingSurfaceForGivenBasePoints(Function3D oFunc3D, string oMateNa
 
     Mate[] arrMates1 = oFunc3D.GetTargetMates(true);
 
-
-
     Mate oMate1 = oFunc3D.FindTargetMate(oMateName1, false);
 
     Mate oMate2 = oFunc3D.FindTargetMate(oMateName2, false);
 
     Mate oMate3 = oFunc3D.FindTargetMate(oMateName3, false);
 
-
-
     Matrix3D oAbsTransfInv = oFunc3D.AbsoluteTransformation;
 
     oAbsTransfInv.Invert();
-
-
 
     PointD3D oPos1 = GetRelativePointD3D(oAbsTransfInv, oMate1.Transformation);
 
     PointD3D oPos2 = GetRelativePointD3D(oAbsTransfInv, oMate2.Transformation);
 
     PointD3D oPos3 = GetRelativePointD3D(oAbsTransfInv, oMate3.Transformation);
-
-
-
-
 
     Mesh oMesh = oFunc3D.Mesh;
 
@@ -119,8 +103,6 @@ Plane CreateMountingSurfaceForGivenBasePoints(Function3D oFunc3D, string oMateNa
             PointD3D[] arrFace = oMesh.get_FacePoints(i);
 
             oNormalVector = (Vector3D)oMesh.get_FaceNormalVector(i);
-
-
 
             if (IsPointInFaceBorder(arrFace, oPos1) &&
 
@@ -146,8 +128,6 @@ Plane CreateMountingSurfaceForGivenBasePoints(Function3D oFunc3D, string oMateNa
 
     }
 
-
-
     if (arrFoundFace != null && arrFoundFace.Length > 0)
 
     {
@@ -158,13 +138,9 @@ Plane CreateMountingSurfaceForGivenBasePoints(Function3D oFunc3D, string oMateNa
 
     }
 
-
-
     return null;
 
 }
-
-
 
 PointD3D GetRelativePointD3D(Matrix3D oAbsTrasfInv, Matrix3D oPointTransf)
 
@@ -175,8 +151,6 @@ PointD3D GetRelativePointD3D(Matrix3D oAbsTrasfInv, Matrix3D oPointTransf)
     return new PointD3D(oRelativePoint.X, oRelativePoint.Y, oRelativePoint.Z);
 
 }
-
-
 
 bool IsPointInFaceBorder(PointD3D[] arrFace, PointD3D oPoint)
 
@@ -192,14 +166,8 @@ bool IsPointInFaceBorder(PointD3D[] arrFace, PointD3D oPoint)
 
     }
 
-
-
     return false;
 
 }
-
-
-
-
 
 ```

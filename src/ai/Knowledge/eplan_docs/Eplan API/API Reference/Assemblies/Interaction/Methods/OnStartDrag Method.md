@@ -8,21 +8,16 @@ Is called after begin of a dragging operation.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnStartDrag( 
 
    Position oPosition
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnStartDrag( 
@@ -30,8 +25,7 @@ virtual RequestCode OnStartDrag(
    Position^ oPosition
 
 )
-```
-```
+
 
 #### Parameters
 

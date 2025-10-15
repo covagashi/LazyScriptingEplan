@@ -8,17 +8,12 @@ Returns net-based Ids
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string[] NetbasedWiringIds {get;}
-```
-```
 
-```
-```
 public:
 
 property array<String^>^ NetbasedWiringIds {
@@ -26,5 +21,4 @@ property array<String^>^ NetbasedWiringIds {
    array<String^>^ get();
 
 }
-```
-```
+

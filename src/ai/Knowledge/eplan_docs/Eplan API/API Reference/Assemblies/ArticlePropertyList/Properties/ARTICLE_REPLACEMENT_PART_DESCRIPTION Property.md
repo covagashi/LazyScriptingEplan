@@ -8,17 +8,12 @@ Replacement part: Description # 26038.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_REPLACEMENT_PART_DESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_REPLACEMENT_PART_DESCRIPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_REPLACEMENT_PART_DESCRIPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

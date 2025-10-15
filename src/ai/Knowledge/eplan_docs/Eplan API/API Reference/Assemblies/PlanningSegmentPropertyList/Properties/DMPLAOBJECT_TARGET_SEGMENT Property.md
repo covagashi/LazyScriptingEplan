@@ -8,17 +8,12 @@ Target segment # 44071.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMPLAOBJECT_TARGET_SEGMENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMPLAOBJECT_TARGET_SEGMENT {
@@ -28,8 +23,7 @@ property PropertyValue^ DMPLAOBJECT_TARGET_SEGMENT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

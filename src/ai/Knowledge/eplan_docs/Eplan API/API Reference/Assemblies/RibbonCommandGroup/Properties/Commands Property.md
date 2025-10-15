@@ -8,17 +8,12 @@ Returns commands of the command group
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Dictionary<uint,RibbonCommand> Commands {get;}
-```
-```
 
-```
-```
 public:
 
 property Dictionary<uint,RibbonCommand^>^ Commands {
@@ -26,8 +21,7 @@ property Dictionary<uint,RibbonCommand^>^ Commands {
    Dictionary<uint,RibbonCommand^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

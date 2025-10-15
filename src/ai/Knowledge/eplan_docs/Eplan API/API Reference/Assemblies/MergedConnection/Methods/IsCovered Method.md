@@ -8,21 +8,16 @@ Returns if the objects is a connection covered by this merged connection.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsCovered( 
 
    Connection connection
 
 )
-```
-```
 
-```
-```
 public:
 
 bool IsCovered( 
@@ -30,8 +25,7 @@ bool IsCovered(
    Connection^ connection
 
 )
-```
-```
+
 
 #### Parameters
 

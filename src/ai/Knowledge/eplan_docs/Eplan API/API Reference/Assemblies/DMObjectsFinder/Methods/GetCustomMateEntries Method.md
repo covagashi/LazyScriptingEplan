@@ -8,21 +8,16 @@ Returns user defined [Eplan.EplApi.DataModel.E3D.MateEntry](Eplan.EplApi.DataMod
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MateEntry[] GetCustomMateEntries( 
 
    Placements3DFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<MateEntry^>^ GetCustomMateEntries( 
@@ -30,8 +25,7 @@ array<MateEntry^>^ GetCustomMateEntries(
    Placements3DFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

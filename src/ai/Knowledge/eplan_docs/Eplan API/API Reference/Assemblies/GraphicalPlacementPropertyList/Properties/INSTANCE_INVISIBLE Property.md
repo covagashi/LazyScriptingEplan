@@ -8,17 +8,12 @@ Invisible # 19101.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue INSTANCE_INVISIBLE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ INSTANCE_INVISIBLE {
@@ -28,8 +23,7 @@ property PropertyValue^ INSTANCE_INVISIBLE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

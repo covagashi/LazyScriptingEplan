@@ -8,17 +8,12 @@ List of P8 properties of the MergedFunction object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new MergedFunctionPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property MergedFunctionPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property MergedFunctionPropertyList^ Properties {
    MergedFunctionPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

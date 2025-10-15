@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class InvalidIndexException : InvalidArgumentException
-```
-```
 
-```
-```
 public ref class InvalidIndexException : public InvalidArgumentException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [InvalidIndexException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.InvalidIndexException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

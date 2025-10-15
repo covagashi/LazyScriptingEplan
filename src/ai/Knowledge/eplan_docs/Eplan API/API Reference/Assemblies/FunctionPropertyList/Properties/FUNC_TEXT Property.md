@@ -8,17 +8,12 @@ Function text # 20011.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_TEXT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_TEXT {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_TEXT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

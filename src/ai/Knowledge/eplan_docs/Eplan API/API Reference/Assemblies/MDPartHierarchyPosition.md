@@ -16,24 +16,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public abstract class MDPartHierarchyPosition : MDPartsDatabaseItemChildData
-```
-```
 
-```
-```
 public ref class MDPartHierarchyPosition abstract : public MDPartsDatabaseItemChildData
-```
-```
-
-
-
-
 
 Public Properties
 

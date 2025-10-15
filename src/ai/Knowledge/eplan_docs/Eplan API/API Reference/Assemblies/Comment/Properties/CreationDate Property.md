@@ -8,17 +8,12 @@ Date and time when PDF comment was created by the author.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DateTime CreationDate {get;}
-```
-```
 
-```
-```
 public:
 
 property DateTime CreationDate {
@@ -26,5 +21,4 @@ property DateTime CreationDate {
    DateTime get();
 
 }
-```
-```
+

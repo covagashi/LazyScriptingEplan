@@ -8,11 +8,10 @@ Method for numbering device tags in a project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void DeviceTags( 
 
    Function[] pFunctions,
@@ -26,11 +25,7 @@ public void DeviceTags(
    int nIncrementPerIdentifier
 
 )
-```
-```
 
-```
-```
 public:
 
 void DeviceTags( 
@@ -46,8 +41,7 @@ void DeviceTags(
    int nIncrementPerIdentifier
 
 )
-```
-```
+
 
 #### Parameters
 

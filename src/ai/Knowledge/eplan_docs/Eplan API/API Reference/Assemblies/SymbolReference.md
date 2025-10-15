@@ -23,20 +23,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class SymbolReference : Placement, IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class SymbolReference : public Placement, IPropertyPlacementsContainer
-```
-```
+
 
 Remarks
 
@@ -44,7 +38,7 @@ Some properties of Data model classes are not linked with their owners even if f
 
 Example
 
-- [C#](#i-tab-content-2ee8774a-b93f-4cba-939c-2d88d1818fb6)
+**C#**
 
 ```
 oRectangle.Pen.ColorId = 5;
@@ -57,8 +51,6 @@ Public Constructors
 | Public Constructor | [SymbolReference Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference~_ctor().html) | Default constructor. Creates the SymbolReference object. |
 
 [Top](#top)
-
-
 
 Public Properties
 

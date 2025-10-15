@@ -8,17 +8,12 @@ Sets display sequence. The drawing order flag will be used to sort elements acco
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short DrawingOrder {get; set;}
-```
-```
 
-```
-```
 public:
 
 property short DrawingOrder {
@@ -28,8 +23,7 @@ property short DrawingOrder {
    void set (    short value);
 
 }
-```
-```
+
 
 #### Property Value
 

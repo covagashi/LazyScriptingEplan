@@ -8,17 +8,12 @@ Gets all parts that are stored in the parts database.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPart[] Parts {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDPart^>^ Parts {
@@ -26,8 +21,7 @@ property array<MDPart^>^ Parts {
    array<MDPart^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

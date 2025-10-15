@@ -8,28 +8,22 @@ Finds a variable, specified by its name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 int FindVariable( 
 
    string strVarName
 
 )
-```
-```
 
-```
-```
 int FindVariable( 
 
    String^ strVarName
 
 )
-```
-```
+
 
 #### Parameters
 

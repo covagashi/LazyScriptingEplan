@@ -8,21 +8,16 @@ Gets a value or variable of Placeholder3D project property.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual MultiLangString GetProjectPropertyEntry( 
 
    AnyPropertyId oProperty
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual MultiLangString^ GetProjectPropertyEntry( 
@@ -30,8 +25,7 @@ virtual MultiLangString^ GetProjectPropertyEntry(
    AnyPropertyId^ oProperty
 
 )
-```
-```
+
 
 #### Parameters
 

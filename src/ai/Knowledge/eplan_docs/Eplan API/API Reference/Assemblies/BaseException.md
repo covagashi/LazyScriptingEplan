@@ -18,26 +18,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class BaseException : System.ApplicationException
-```
-```
 
-```
-```
 public ref class BaseException : public System.ApplicationException
-```
-```
+
 
 Remarks
 
 Please refer also to the "[Throwing and catching exceptions](ThrowingAndCatchingExceptions.html)" chapter.
-
-
 
 Public Constructors
 
@@ -46,8 +38,6 @@ Public Constructors
 | Public Constructor | [BaseException Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.BaseException~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

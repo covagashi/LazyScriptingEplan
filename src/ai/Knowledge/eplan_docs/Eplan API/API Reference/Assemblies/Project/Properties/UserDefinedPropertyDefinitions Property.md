@@ -8,17 +8,12 @@ Returns array of all [UserDefinedPropertyDefinition](Eplan.EplApi.DataModelu~Epl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public UserDefinedPropertyDefinition[] UserDefinedPropertyDefinitions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<UserDefinedPropertyDefinition^>^ UserDefinedPropertyDefinitions {
@@ -26,5 +21,4 @@ property array<UserDefinedPropertyDefinition^>^ UserDefinedPropertyDefinitions {
    array<UserDefinedPropertyDefinition^>^ get();
 
 }
-```
-```
+

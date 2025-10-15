@@ -8,17 +8,12 @@ Get function definition description
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString Description {get;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ Description {
@@ -26,5 +21,4 @@ property MultiLangString^ Description {
    MultiLangString^ get();
 
 }
-```
-```
+

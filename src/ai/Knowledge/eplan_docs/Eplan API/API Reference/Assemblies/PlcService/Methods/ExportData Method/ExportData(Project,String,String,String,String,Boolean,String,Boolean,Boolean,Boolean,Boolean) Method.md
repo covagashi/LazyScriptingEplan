@@ -8,11 +8,10 @@ Exports PLC data using the specified converter.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ExportData( 
 
    Project oProject,
@@ -38,11 +37,7 @@ public void ExportData(
    bool bExportDeviceSpecificConfValues
 
 )
-```
-```
 
-```
-```
 public:
 
 void ExportData( 
@@ -70,8 +65,7 @@ void ExportData(
    bool bExportDeviceSpecificConfValues
 
 )
-```
-```
+
 
 #### Parameters
 

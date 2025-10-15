@@ -8,17 +8,12 @@ Returns Pin objects of other functions connected directly with this conn. point.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Pin[] TargetPins {get;}
-```
-```
 
-```
-```
 public:
 
 property array<Pin^>^ TargetPins {
@@ -26,8 +21,7 @@ property array<Pin^>^ TargetPins {
    array<Pin^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

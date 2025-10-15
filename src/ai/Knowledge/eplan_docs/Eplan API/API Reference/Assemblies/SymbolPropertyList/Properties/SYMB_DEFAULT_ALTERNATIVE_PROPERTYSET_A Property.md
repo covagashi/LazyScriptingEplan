@@ -8,17 +8,12 @@ Default property arrangement for variant A (alternative) # 16033.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMB_DEFAULT_ALTERNATIVE_PROPERTYSET_A {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMB_DEFAULT_ALTERNATIVE_PROPERTYSET_A {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMB_DEFAULT_ALTERNATIVE_PROPERTYSET_A {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

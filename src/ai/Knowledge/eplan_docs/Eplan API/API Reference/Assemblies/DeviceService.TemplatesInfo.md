@@ -13,24 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class DeviceService.TemplatesInfo
-```
-```
 
-```
-```
 public ref class DeviceService.TemplatesInfo
-```
-```
-
-
-
-
 
 Public Properties
 

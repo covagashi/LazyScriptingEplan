@@ -8,17 +8,12 @@ Part number in module # 22966.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PART_USED_IN_MODULE_FILTER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PART_USED_IN_MODULE_FILTER {
@@ -28,8 +23,7 @@ property PropertyValue^ PART_USED_IN_MODULE_FILTER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

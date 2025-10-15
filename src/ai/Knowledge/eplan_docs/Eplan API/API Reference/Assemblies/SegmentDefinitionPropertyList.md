@@ -15,24 +15,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Property")]
 
 public class SegmentDefinitionPropertyList : Eplan.EplApi.DataModel.StorableObjectPropertyList
-```
-```
 
-```
-```
 [DefaultMember("Property")]
 
 public ref class SegmentDefinitionPropertyList : public Eplan.EplApi.DataModel.StorableObjectPropertyList
-```
-```
+
 
 Remarks
 
@@ -44,7 +38,7 @@ Example
 
 This example shows the different usage of persistent property lists and transient property lists:
 
-- [C#](#i-tab-content-1ca61f3b-8a62-4049-830b-2915df0fac45)
+**C#**
 
 ```
 // Creation of a persistent property list
@@ -55,15 +49,11 @@ oPersistentPropertyList1.FUNC_COMMENT = "Comment";
 
 // Now, oFunction.Properties.FUNC_COMMENT is equals "Comment"
 
-
-
 FunctionPropertyList oPersistentPropertyList2 = new FunctionPropertyList(oFunction);
 
 oPersistentPropertyList2.FUNC_COMMENT = "Test";
 
 // Now, oFunction.Properties.FUNC_COMMENT equals "Test"
-
-
 
 // Creation of a transient property list
 
@@ -77,8 +67,6 @@ oTransientPropertyList.FUNC_COMMENT = "Transient comment";
 
 // Now, oTransientPropertyList.FUNC_COMMENT equals "Test comment"
 
-
-
 ```
 
 Public Constructors
@@ -88,8 +76,6 @@ Public Constructors
 | Public Constructor | [SegmentDefinitionPropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.SegmentDefinitionPropertyList~_ctor().html) | Constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

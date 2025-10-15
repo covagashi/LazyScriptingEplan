@@ -8,20 +8,14 @@ Import Identifier
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum MDPartsDatabase.ImportIdentifier : System.Enum
-```
-```
 
-```
-```
 public enum class MDPartsDatabase.ImportIdentifier : public System.Enum
-```
-```
+
 
 Members
 

@@ -15,22 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class UserRights
-```
-```
 
-```
-```
 public ref class UserRights
-```
-```
-
-
 
 Public Constructors
 
@@ -39,9 +30,6 @@ Public Constructors
 | Public Constructor | [UserRights Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights~_ctor.html) |  |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

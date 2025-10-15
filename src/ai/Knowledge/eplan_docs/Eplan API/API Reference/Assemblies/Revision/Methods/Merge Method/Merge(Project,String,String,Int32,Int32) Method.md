@@ -8,11 +8,10 @@ Unites project revisions. Used for change tracking.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Merge( 
 
    Project oProj,
@@ -26,11 +25,7 @@ public void Merge(
    int nProjectRevisionIndexTo
 
 )
-```
-```
 
-```
-```
 public:
 
 void Merge( 
@@ -46,8 +41,7 @@ void Merge(
    int nProjectRevisionIndexTo
 
 )
-```
-```
+
 
 #### Parameters
 

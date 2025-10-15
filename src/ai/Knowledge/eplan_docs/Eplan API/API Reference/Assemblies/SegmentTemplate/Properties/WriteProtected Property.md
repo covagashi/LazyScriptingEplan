@@ -8,17 +8,12 @@ Check if object is currently write protected or sets Manual write protection
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool WriteProtected {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool WriteProtected {
@@ -28,8 +23,7 @@ virtual property bool WriteProtected {
    void set (    bool value);
 
 }
-```
-```
+
 
 #### Property Value
 

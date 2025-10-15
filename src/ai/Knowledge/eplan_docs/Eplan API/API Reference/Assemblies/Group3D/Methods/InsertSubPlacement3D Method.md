@@ -8,21 +8,16 @@ Inserts [Placement3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placeme
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool InsertSubPlacement3D( 
 
    Placement3D placement3D
 
 )
-```
-```
 
-```
-```
 public:
 
 bool InsertSubPlacement3D( 
@@ -30,8 +25,7 @@ bool InsertSubPlacement3D(
    Placement3D^ placement3D
 
 )
-```
-```
+
 
 #### Parameters
 

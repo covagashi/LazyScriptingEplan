@@ -8,11 +8,10 @@ Returns the value of a setting. If a setting is read that has no value for this 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool GetBoolSetting( 
 
    string strSettingPath,
@@ -20,11 +19,7 @@ public bool GetBoolSetting(
    int nIdx
 
 )
-```
-```
 
-```
-```
 public:
 
 bool GetBoolSetting( 
@@ -34,8 +29,7 @@ bool GetBoolSetting(
    int nIdx
 
 )
-```
-```
+
 
 #### Parameters
 

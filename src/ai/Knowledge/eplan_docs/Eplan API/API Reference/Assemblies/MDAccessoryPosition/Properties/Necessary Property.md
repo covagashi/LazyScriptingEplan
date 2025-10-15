@@ -8,17 +8,12 @@ Returns wether the part / accessory list is neseccary.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Necessary {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool Necessary {
@@ -28,5 +23,4 @@ property bool Necessary {
    void set (    bool value);
 
 }
-```
-```
+

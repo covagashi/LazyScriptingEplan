@@ -8,17 +8,12 @@ Property list to which this property value is connected.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertiesAndHandleObjectPropertyList Parent {get;}
-```
-```
 
-```
-```
 public:
 
 property PropertiesAndHandleObjectPropertyList^ Parent {
@@ -26,8 +21,7 @@ property PropertiesAndHandleObjectPropertyList^ Parent {
    PropertiesAndHandleObjectPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

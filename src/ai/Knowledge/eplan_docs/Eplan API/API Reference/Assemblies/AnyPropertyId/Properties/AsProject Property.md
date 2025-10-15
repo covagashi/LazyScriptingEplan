@@ -8,17 +8,12 @@ Gets property id value as [Properties.Project](Eplan.EplApi.DataModelu~Eplan.Epl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.Project AsProject {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.Project AsProject {
@@ -26,5 +21,4 @@ property Properties.Project AsProject {
    Properties.Project get();
 
 }
-```
-```
+

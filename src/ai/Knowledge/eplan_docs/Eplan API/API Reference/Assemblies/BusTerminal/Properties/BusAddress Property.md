@@ -8,17 +8,12 @@ PLC bus address of the PLC bus port.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string BusAddress {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ BusAddress {
@@ -28,8 +23,7 @@ property String^ BusAddress {
    void set (    String^ value);
 
 }
-```
-```
+
 
 Remarks
 

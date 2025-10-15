@@ -8,11 +8,10 @@ Gets current value for given object, property and index.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual PropertyValue GetCurrentValue( 
 
    StorableObject oObject,
@@ -22,11 +21,7 @@ public virtual PropertyValue GetCurrentValue(
    int oIndex
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual PropertyValue^ GetCurrentValue( 
@@ -38,8 +33,7 @@ virtual PropertyValue^ GetCurrentValue(
    int oIndex
 
 )
-```
-```
+
 
 #### Parameters
 

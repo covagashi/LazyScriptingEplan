@@ -8,17 +8,12 @@ Model view: Display item edges in black # 36526.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_SHOWBLACKWIHTE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_SHOWBLACKWIHTE {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_SHOWBLACKWIHTE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

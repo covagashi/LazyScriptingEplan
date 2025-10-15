@@ -8,21 +8,16 @@ Suitable as monitoring device # 26356.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_SUITABLE_AS_MONITOR( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_SUITABLE_AS_MONITOR {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_SUITABLE_AS_MONITOR {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

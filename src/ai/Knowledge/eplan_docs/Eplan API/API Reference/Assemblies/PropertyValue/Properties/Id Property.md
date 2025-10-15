@@ -8,17 +8,12 @@ Returns the P8 property descriptor (id and index) that the object points to. To 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public AnyPropertyId Id {get;}
-```
-```
 
-```
-```
 public:
 
 property AnyPropertyId^ Id {
@@ -26,8 +21,7 @@ property AnyPropertyId^ Id {
    AnyPropertyId^ get();
 
 }
-```
-```
+
 
 Exceptions
 
@@ -37,55 +31,35 @@ Exceptions
 
 Example
 
-- [C#](#i-tab-content-b7f98ba5-02fe-44be-982d-c13cf08ba5f0)
+**C#**
 
 ```
 
 
 Function function = page.Functions[0]; // A valid Function object
 
-
-
 PropertyValue propertyValue1 = "123"; // Transient object
 
 PropertyValue propertyValue2 = 12; // Also transient object
 
-
-
 PropertyValue propertyValue3 = function.Properties.FUNC_ARTICLE_PARTNR;
 
-
-
 AnyPropertyId propertyId3 = new AnyPropertyId (myProject.Project, "20100");
-
-
 
 Assert.AreEqual(propertyValue3.Id.AsInt, propertyId3.AsInt);
 
 Assert.AreEqual(propertyValue3.Id.Index, 0); // In this case, where the index was not specified, PropertyValue3.Id.Index is 0.
 
-
-
 PropertyValue propertyValue4 = function.Properties.FUNC_ARTICLE_PARTNR[12];
-
-
 
 AnyPropertyId propertyId4 = new AnyPropertyId (myProject.Project, "20100");
 
 propertyId4.Index = 12;
 
-
-
 int propertyId = propertyValue4.Id.AsInt;
 
 int propertyIndex = propertyValue4.Id.Index;
 
-
-
 Assert.AreEqual(propertyValue4.Id.AsInt, propertyId4.AsInt);
-
-
-
-
 
 ```

@@ -8,17 +8,12 @@ Gets or Sets parent object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningSegment Parent {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PlanningSegment^ Parent {
@@ -28,8 +23,7 @@ property PlanningSegment^ Parent {
    void set (    PlanningSegment^ value);
 
 }
-```
-```
+
 
 Exceptions
 

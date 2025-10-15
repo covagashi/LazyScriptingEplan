@@ -8,21 +8,16 @@ Constructor with description.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DataModelException( 
 
    string txt
 
 )
-```
-```
 
-```
-```
 public:
 
 DataModelException( 
@@ -30,8 +25,7 @@ DataModelException(
    String^ txt
 
 )
-```
-```
+
 
 #### Parameters
 

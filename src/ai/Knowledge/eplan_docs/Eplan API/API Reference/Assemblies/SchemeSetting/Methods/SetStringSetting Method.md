@@ -8,11 +8,10 @@ Sets the value of a setting. If a setting is made and an index is specified that
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetStringSetting( 
 
    string strSettingPath,
@@ -22,11 +21,7 @@ public void SetStringSetting(
    int nIdx
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetStringSetting( 
@@ -38,8 +33,7 @@ void SetStringSetting(
    int nIdx
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Supply voltage # 26161.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_SUPPLY_VOLTAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_SUPPLY_VOLTAGE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_SUPPLY_VOLTAGE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

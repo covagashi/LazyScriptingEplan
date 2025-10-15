@@ -8,19 +8,13 @@ Add a new accessory placement position to the part. That accessory placement pos
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAccessoryPlacementPosition AddAccessoryPlacementPosition()
-```
-```
 
-```
-```
 public:
 
 MDAccessoryPlacementPosition^ AddAccessoryPlacementPosition();
-```
-```
+

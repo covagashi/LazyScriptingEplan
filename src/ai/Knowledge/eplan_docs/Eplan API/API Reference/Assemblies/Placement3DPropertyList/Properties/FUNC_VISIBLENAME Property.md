@@ -8,17 +8,12 @@ Name (visible) # 20002.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_VISIBLENAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_VISIBLENAME {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_VISIBLENAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

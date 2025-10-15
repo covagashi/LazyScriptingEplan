@@ -8,17 +8,12 @@ Operating temperature # 26237.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_OPERATING_TEMPERATURE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_OPERATING_TEMPERATURE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_OPERATING_TEMPERATURE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Gets the sorting identifier relative to Location.ParentNode.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public double SortId {get; set;}
-```
-```
 
-```
-```
 public:
 
 property double SortId {
@@ -28,5 +23,4 @@ property double SortId {
    void set (    double value);
 
 }
-```
-```
+

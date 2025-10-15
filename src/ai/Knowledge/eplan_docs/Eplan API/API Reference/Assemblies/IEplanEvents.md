@@ -8,29 +8,17 @@ Declaration of the interface for Eplan events.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]
 
 public interface IEplanEvents
-```
-```
 
-```
-```
 [InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]
 
 public interface class IEplanEvents
-```
-```
-
-
-
-
-
 
 Public Methods
 

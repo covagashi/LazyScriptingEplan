@@ -8,17 +8,12 @@ Replacement part: Original part # 26318.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_REPLACEMENT_FOR_PRODUCT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_REPLACEMENT_FOR_PRODUCT {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_REPLACEMENT_FOR_PRODUCT {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

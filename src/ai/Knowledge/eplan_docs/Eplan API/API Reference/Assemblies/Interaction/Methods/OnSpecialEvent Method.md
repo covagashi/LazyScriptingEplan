@@ -8,21 +8,16 @@ Special event has occurred. Usually caused by user input.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual RequestCode OnSpecialEvent( 
 
    InteractionEvent pEvent
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual RequestCode OnSpecialEvent( 
@@ -30,8 +25,7 @@ virtual RequestCode OnSpecialEvent(
    InteractionEvent^ pEvent
 
 )
-```
-```
+
 
 #### Parameters
 

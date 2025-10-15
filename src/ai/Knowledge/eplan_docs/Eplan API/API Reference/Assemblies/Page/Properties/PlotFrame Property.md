@@ -8,17 +8,12 @@ Returns the page PlotFrame.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlotFrame PlotFrame {get;}
-```
-```
 
-```
-```
 public:
 
 property PlotFrame^ PlotFrame {
@@ -26,8 +21,7 @@ property PlotFrame^ PlotFrame {
    PlotFrame^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

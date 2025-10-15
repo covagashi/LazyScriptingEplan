@@ -8,20 +8,14 @@ Identificators of properties owned by Symbol class.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Properties.Symbol : System.Enum
-```
-```
 
-```
-```
 public enum class Properties.Symbol : public System.Enum
-```
-```
+
 
 Members
 

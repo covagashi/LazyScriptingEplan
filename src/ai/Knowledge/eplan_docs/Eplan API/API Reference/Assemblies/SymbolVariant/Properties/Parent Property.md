@@ -8,17 +8,12 @@ Returns symbol, for which this variant was created.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Symbol Parent {get;}
-```
-```
 
-```
-```
 public:
 
 property Symbol^ Parent {
@@ -26,8 +21,7 @@ property Symbol^ Parent {
    Symbol^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

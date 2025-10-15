@@ -8,21 +8,16 @@ Synchronization from 'cabling' connection data onto all other connection types (
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CablingToAllConnectionTypes( 
 
    Project oProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void CablingToAllConnectionTypes( 
@@ -30,8 +25,7 @@ void CablingToAllConnectionTypes(
    Project^ oProject
 
 )
-```
-```
+
 
 #### Parameters
 

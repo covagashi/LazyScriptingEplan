@@ -8,17 +8,12 @@ Retrieves all possible property ids of a function template
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAnyPropertyId[] AllIds {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDAnyPropertyId^>^ AllIds {
@@ -26,5 +21,4 @@ property array<MDAnyPropertyId^>^ AllIds {
    array<MDAnyPropertyId^>^ get();
 
 }
-```
-```
+

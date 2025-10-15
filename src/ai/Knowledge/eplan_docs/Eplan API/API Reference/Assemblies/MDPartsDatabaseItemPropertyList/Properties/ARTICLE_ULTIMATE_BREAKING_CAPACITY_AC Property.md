@@ -8,17 +8,12 @@ Rated breaking capacity (AC) # 26590.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_ULTIMATE_BREAKING_CAPACITY_AC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_ULTIMATE_BREAKING_CAPACITY_AC {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_ULTIMATE_BREAKING_CAPACITY_AC {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ An array of transient objects representing templates associated with the part nu
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] Templates {get;}
-```
-```
 
-```
-```
 public:
 
 property array<StorableObject^>^ Templates {
@@ -26,5 +21,4 @@ property array<StorableObject^>^ Templates {
    array<StorableObject^>^ get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Check run messages available # 20930.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue MESSAGEMGMT_MESSAGES {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ MESSAGEMGMT_MESSAGES {
@@ -28,8 +23,7 @@ property MDPropertyValue^ MESSAGEMGMT_MESSAGES {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

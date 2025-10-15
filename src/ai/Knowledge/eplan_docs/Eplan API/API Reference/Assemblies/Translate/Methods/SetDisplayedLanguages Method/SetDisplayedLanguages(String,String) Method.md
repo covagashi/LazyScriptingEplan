@@ -8,11 +8,10 @@ Method for adding a language that will be displayed in the project.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SetDisplayedLanguages( 
 
    string strFullLinkFileName,
@@ -20,11 +19,7 @@ public bool SetDisplayedLanguages(
    string strLanguage
 
 )
-```
-```
 
-```
-```
 public:
 
 bool SetDisplayedLanguages( 
@@ -34,8 +29,7 @@ bool SetDisplayedLanguages(
    String^ strLanguage
 
 )
-```
-```
+
 
 #### Parameters
 

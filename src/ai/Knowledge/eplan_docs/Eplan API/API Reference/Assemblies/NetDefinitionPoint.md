@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class NetDefinitionPoint : PotentialDefinition, IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class NetDefinitionPoint : public PotentialDefinition, IPropertyPlacementsContainer
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [NetDefinitionPoint Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.NetDefinitionPoint~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -8,17 +8,12 @@ Font for displayed text.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public TextBase.FontInfo Font {get; set;}
-```
-```
 
-```
-```
 public:
 
 property TextBase.FontInfo^ Font {
@@ -28,5 +23,4 @@ property TextBase.FontInfo^ Font {
    void set (    TextBase.FontInfo^ value);
 
 }
-```
-```
+

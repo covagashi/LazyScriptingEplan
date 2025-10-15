@@ -8,21 +8,16 @@ Sets `System::String` value in MDPropertyValue object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue Set( 
 
    string str
 
 )
-```
-```
 
-```
-```
 public:
 
 MDPropertyValue^ Set( 
@@ -30,8 +25,7 @@ MDPropertyValue^ Set(
    String^ str
 
 )
-```
-```
+
 
 #### Parameters
 

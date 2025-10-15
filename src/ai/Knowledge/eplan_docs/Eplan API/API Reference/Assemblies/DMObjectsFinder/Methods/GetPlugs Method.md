@@ -8,21 +8,16 @@ Returns [Eplan.EplApi.DataModel.EObjects.Plug](Eplan.EplApi.DataModelu~Eplan.Epl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Plug[] GetPlugs( 
 
    FunctionsFilter filter
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Plug^>^ GetPlugs( 
@@ -30,8 +25,7 @@ array<Plug^>^ GetPlugs(
    FunctionsFilter^ filter
 
 )
-```
-```
+
 
 #### Parameters
 

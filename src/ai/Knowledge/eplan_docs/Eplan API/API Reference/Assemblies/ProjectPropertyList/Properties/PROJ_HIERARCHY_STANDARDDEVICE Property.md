@@ -8,17 +8,12 @@ Structure format for general devices # 10055.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_HIERARCHY_STANDARDDEVICE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_HIERARCHY_STANDARDDEVICE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_HIERARCHY_STANDARDDEVICE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Constructor with custom message text.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public OperationCanceledException( 
 
    string message
 
 )
-```
-```
 
-```
-```
 public:
 
 OperationCanceledException( 
@@ -30,8 +25,7 @@ OperationCanceledException(
    String^ message
 
 )
-```
-```
+
 
 #### Parameters
 

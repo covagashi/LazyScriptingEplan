@@ -8,21 +8,16 @@ Assembly structure # 20922.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_ASSEMBLY_STRUCTURE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_ASSEMBLY_STRUCTURE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_ASSEMBLY_STRUCTURE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

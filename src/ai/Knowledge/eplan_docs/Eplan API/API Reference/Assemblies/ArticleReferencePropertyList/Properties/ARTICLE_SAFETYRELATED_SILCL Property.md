@@ -8,17 +8,12 @@ Safety-related values: SIL CL # 40330.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SAFETYRELATED_SILCL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SAFETYRELATED_SILCL {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SAFETYRELATED_SILCL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

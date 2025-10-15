@@ -8,11 +8,10 @@ constructor Transparency (0-255).Red channel value of color (0-255).Green channe
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Color( 
 
    byte transparency,
@@ -24,11 +23,7 @@ public Color(
    byte blue
 
 )
-```
-```
 
-```
-```
 public:
 
 Color( 
@@ -42,8 +37,7 @@ Color(
    byte blue
 
 )
-```
-```
+
 
 #### Parameters
 

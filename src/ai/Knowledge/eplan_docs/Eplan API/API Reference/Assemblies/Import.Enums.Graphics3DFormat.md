@@ -6,20 +6,14 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum Import.Enums.Graphics3DFormat : System.Enum
-```
-```
 
-```
-```
 public enum class Import.Enums.Graphics3DFormat : public System.Enum
-```
-```
+
 
 Members
 

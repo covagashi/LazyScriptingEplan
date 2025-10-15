@@ -6,19 +6,13 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static short Blue
-```
-```
 
-```
-```
 public:
 
 static short Blue
-```
-```
+

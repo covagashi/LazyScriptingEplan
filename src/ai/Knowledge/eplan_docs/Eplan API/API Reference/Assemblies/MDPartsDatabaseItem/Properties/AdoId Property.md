@@ -8,17 +8,12 @@ Gets a unique identifier in the database, where the database item is stored
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int AdoId {get;}
-```
-```
 
-```
-```
 public:
 
 property int AdoId {
@@ -26,5 +21,4 @@ property int AdoId {
    int get();
 
 }
-```
-```
+

@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Translate
-```
-```
 
-```
-```
 public ref class Translate
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [Translate Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Translate~_ctor.html) | Default constructor |
 
 [Top](#top)
-
-
 
 Public Properties
 

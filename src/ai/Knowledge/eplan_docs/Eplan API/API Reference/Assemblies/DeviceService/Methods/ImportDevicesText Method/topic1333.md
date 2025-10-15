@@ -8,11 +8,10 @@ Creates a display list for a macro. A display list is a set of graphical placeme
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CreateDisplayList( 
 
    string strMacroFile,
@@ -26,11 +25,7 @@ public void CreateDisplayList(
    Project pProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void CreateDisplayList( 
@@ -46,8 +41,7 @@ void CreateDisplayList(
    Project^ pProject
 
 )
-```
-```
+
 
 #### Parameters
 

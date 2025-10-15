@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class SysMessagesCollection
-```
-```
 
-```
-```
 public ref class SysMessagesCollection
-```
-```
+
 
 Remarks
 
@@ -36,7 +30,7 @@ Example
 
 Example of looping over the SysMessagesCollection For further examples, see also in SysMessagesEnumerator class.
 
-- [C#](#i-tab-content-cb087abe-a29e-4efb-aebd-4356607c676a)
+**C#**
 
 ```
 // check, whether errors occurred
@@ -48,8 +42,6 @@ Eplan.EplApi.Base.SysMessagesCollection colSysMsg = new Eplan.EplApi.Base.SysMes
 foreach(Eplan.EplApi.Base.BaseException osysMsg in colSysMsg)
 
 {
-
-
 
 	if (osysMsg != null)
 
@@ -69,8 +61,6 @@ Public Constructors
 | Public Constructor | [SysMessagesCollection Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

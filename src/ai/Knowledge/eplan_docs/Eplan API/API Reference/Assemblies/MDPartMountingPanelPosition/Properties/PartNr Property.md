@@ -8,17 +8,12 @@ The part number of the referenced mounting panel part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PartNr {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ PartNr {
@@ -28,5 +23,4 @@ property String^ PartNr {
    void set (    String^ value);
 
 }
-```
-```
+

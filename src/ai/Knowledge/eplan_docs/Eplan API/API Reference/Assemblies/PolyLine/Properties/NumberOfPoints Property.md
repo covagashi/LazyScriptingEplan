@@ -8,17 +8,12 @@ Number of vertices of a poly line.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int NumberOfPoints {get;}
-```
-```
 
-```
-```
 public:
 
 property int NumberOfPoints {
@@ -26,5 +21,4 @@ property int NumberOfPoints {
    int get();
 
 }
-```
-```
+

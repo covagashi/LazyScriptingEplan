@@ -14,39 +14,30 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Variant")]
 
 public class MDSymbol : PropertiesAndHandleObject
-```
-```
 
-```
-```
 [DefaultMember("Variant")]
 
 public ref class MDSymbol : public PropertiesAndHandleObject
-```
-```
+
 
 Example
 
 It is possible to get MDSymbolVariant object from MDSymbol, by indexer :
 
-- [C#](#i-tab-content-ce2bfe8e-3487-492b-b95c-993c72d183d8)
+**C#**
 
 ```
 MDSymbol smbl = ...
 
 MDSymbolVariant v = smbl["A"];
 ```
-
-
-
 
 Public Properties
 

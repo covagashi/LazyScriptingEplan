@@ -8,21 +8,16 @@ Outputs a line to the system message management.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override void Write( 
 
    string message
 
 )
-```
-```
 
-```
-```
 public:
 
 void Write( 
@@ -30,8 +25,7 @@ void Write(
    String^ message
 
 ) override
-```
-```
+
 
 #### Parameters
 

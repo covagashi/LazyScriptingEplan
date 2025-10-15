@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class LocationBox : FunctionBase, IFunctionBase, IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class LocationBox : public FunctionBase, IFunctionBase, IPropertyPlacementsContainer
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [LocationBox Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LocationBox~_ctor().html) | Constructor, creates transient object. |
 
 [Top](#top)
-
-
 
 Public Properties
 

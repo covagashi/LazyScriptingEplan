@@ -16,22 +16,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class SegmentPlacement : Eplan.EplApi.DataModel.SymbolReference, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class SegmentPlacement : public Eplan.EplApi.DataModel.SymbolReference, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
-
-
 
 Public Constructors
 
@@ -40,8 +31,6 @@ Public Constructors
 | Public Constructor | [SegmentPlacement Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.SegmentPlacement~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

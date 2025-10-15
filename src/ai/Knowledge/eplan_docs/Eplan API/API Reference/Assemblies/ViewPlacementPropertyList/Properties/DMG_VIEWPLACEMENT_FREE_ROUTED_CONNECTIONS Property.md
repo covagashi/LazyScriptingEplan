@@ -8,17 +8,12 @@ Model view: Display freely routed wires # 36516.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMG_VIEWPLACEMENT_FREE_ROUTED_CONNECTIONS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMG_VIEWPLACEMENT_FREE_ROUTED_CONNECTIONS {
@@ -28,8 +23,7 @@ property PropertyValue^ DMG_VIEWPLACEMENT_FREE_ROUTED_CONNECTIONS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

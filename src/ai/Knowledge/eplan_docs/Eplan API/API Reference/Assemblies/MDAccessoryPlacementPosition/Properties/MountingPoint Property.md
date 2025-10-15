@@ -8,17 +8,12 @@ Mounting points in a layout space.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDAccessoryPlacementPosition.BasePoint MountingPoint {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDAccessoryPlacementPosition.BasePoint MountingPoint {
@@ -28,8 +23,7 @@ property MDAccessoryPlacementPosition.BasePoint MountingPoint {
    void set (    MDAccessoryPlacementPosition.BasePoint value);
 
 }
-```
-```
+
 
 Remarks
 

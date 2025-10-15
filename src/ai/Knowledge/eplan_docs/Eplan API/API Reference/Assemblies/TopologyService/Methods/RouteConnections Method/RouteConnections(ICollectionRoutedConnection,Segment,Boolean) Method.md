@@ -8,11 +8,10 @@ Routes given topology connections using pointed segment.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RouteConnections( 
 
    ICollection<RoutedConnection> colConnections,
@@ -22,11 +21,7 @@ public void RouteConnections(
    bool bShowRoutedConnections
 
 )
-```
-```
 
-```
-```
 public:
 
 void RouteConnections( 
@@ -38,8 +33,7 @@ void RouteConnections(
    bool bShowRoutedConnections
 
 )
-```
-```
+
 
 #### Parameters
 

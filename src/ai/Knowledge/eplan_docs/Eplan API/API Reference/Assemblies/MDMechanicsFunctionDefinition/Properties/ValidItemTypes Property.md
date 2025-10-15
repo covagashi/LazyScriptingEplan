@@ -8,17 +8,12 @@ Gets all available item types which can be set in Item property for the current 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ItemType[] ValidItemTypes {get;}
-```
-```
 
-```
-```
 public:
 
 property array<ItemType>^ ValidItemTypes {
@@ -26,8 +21,7 @@ property array<ItemType>^ ValidItemTypes {
    array<ItemType>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

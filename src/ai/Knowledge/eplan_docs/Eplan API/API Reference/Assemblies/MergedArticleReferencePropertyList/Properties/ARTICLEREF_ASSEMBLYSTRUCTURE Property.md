@@ -8,17 +8,12 @@ Assembly structure # 20511.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLEREF_ASSEMBLYSTRUCTURE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLEREF_ASSEMBLYSTRUCTURE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLEREF_ASSEMBLYSTRUCTURE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

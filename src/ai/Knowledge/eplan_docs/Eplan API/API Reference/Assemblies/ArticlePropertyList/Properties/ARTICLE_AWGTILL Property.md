@@ -8,17 +8,12 @@ Terminals: AWG to # 22087.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_AWGTILL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_AWGTILL {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_AWGTILL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

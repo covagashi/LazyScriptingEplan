@@ -8,11 +8,10 @@ Changes name of the given location. After that change a location object becomes 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Location ChangeLocationName( 
 
    Location oLocation,
@@ -20,11 +19,7 @@ public Location ChangeLocationName(
    string strName
 
 )
-```
-```
 
-```
-```
 public:
 
 Location^ ChangeLocationName( 
@@ -34,8 +29,7 @@ Location^ ChangeLocationName(
    String^ strName
 
 )
-```
-```
+
 
 #### Parameters
 

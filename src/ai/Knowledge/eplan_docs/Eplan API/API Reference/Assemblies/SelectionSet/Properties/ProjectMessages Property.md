@@ -8,17 +8,12 @@ Gets all selection project's messages.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ProjectMessage[] ProjectMessages {get;}
-```
-```
 
-```
-```
 public:
 
 property array<ProjectMessage^>^ ProjectMessages {
@@ -26,8 +21,7 @@ property array<ProjectMessage^>^ ProjectMessages {
    array<ProjectMessage^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

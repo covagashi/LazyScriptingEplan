@@ -8,17 +8,12 @@ Gets property id value as [Properties.Cable](Eplan.EplApi.DataModelu~Eplan.EplAp
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.Cable AsCable {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.Cable AsCable {
@@ -26,5 +21,4 @@ property Properties.Cable AsCable {
    Properties.Cable get();
 
 }
-```
-```
+

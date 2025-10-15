@@ -8,21 +8,16 @@ Updates project from subproject.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Update( 
 
    SubProject pSubProject
 
 )
-```
-```
 
-```
-```
 public:
 
 void Update( 
@@ -30,8 +25,7 @@ void Update(
    SubProject^ pSubProject
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -48,7 +42,7 @@ Example
 
 Example of updating a master project with content of subproject
 
-- [C#](#i-tab-content-940b1019-a062-4641-9e60-15d81e4e4650)
+**C#**
 
 ```
 
@@ -56,9 +50,5 @@ Example of updating a master project with content of subproject
 //Update from second subproject
 
 oSubProjectsCollection.Update(oSubProjectsCollection[0]);
-
-
-
-
 
 ```

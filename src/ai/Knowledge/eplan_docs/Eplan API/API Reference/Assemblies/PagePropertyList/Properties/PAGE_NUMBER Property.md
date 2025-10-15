@@ -8,17 +8,12 @@ Page number # 11042.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_NUMBER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_NUMBER {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_NUMBER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

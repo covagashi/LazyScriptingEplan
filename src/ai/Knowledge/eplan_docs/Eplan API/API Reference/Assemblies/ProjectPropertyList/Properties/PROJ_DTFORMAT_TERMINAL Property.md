@@ -8,17 +8,12 @@ Format of displayed DT: Terminal # 10622.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_DTFORMAT_TERMINAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_DTFORMAT_TERMINAL {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_DTFORMAT_TERMINAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ConnectionPointPosition EndConnectionPointPosition {get;}
-```
-```
 
-```
-```
 public:
 
 property ConnectionPointPosition^ EndConnectionPointPosition {
@@ -26,8 +21,7 @@ property ConnectionPointPosition^ EndConnectionPointPosition {
    ConnectionPointPosition^ get();
 
 }
-```
-```
+
 
 Remarks
 

@@ -8,11 +8,10 @@ Lock or unlock all Objects.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 void LockUnlockAllObjectsAsynch( 
 
    string strFullProjectName,
@@ -20,11 +19,7 @@ void LockUnlockAllObjectsAsynch(
    bool bLock
 
 )
-```
-```
 
-```
-```
 void LockUnlockAllObjectsAsynch( 
 
    String^ strFullProjectName,
@@ -32,8 +27,7 @@ void LockUnlockAllObjectsAsynch(
    bool bLock
 
 )
-```
-```
+
 
 #### Parameters
 

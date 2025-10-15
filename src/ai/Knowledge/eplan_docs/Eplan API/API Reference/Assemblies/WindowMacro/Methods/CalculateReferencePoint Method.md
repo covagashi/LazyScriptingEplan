@@ -8,21 +8,16 @@ Calculates the reference point of the macro Used to calculate reference point if
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CalculateReferencePoint( 
 
    ref PointD referencePoint
 
 )
-```
-```
 
-```
-```
 public:
 
 bool CalculateReferencePoint( 
@@ -30,8 +25,7 @@ bool CalculateReferencePoint(
    PointD% referencePoint
 
 )
-```
-```
+
 
 #### Parameters
 

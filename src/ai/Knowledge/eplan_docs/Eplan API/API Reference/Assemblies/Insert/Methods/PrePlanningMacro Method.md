@@ -8,11 +8,10 @@ Inserts the pre-planning macros below the given structure segment.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] PrePlanningMacro( 
 
    string strMacroPath,
@@ -22,11 +21,7 @@ public StorableObject[] PrePlanningMacro(
    PlanningSegment pParent
 
 )
-```
-```
 
-```
-```
 public:
 
 array<StorableObject^>^ PrePlanningMacro( 
@@ -38,8 +33,7 @@ array<StorableObject^>^ PrePlanningMacro(
    PlanningSegment^ pParent
 
 )
-```
-```
+
 
 #### Parameters
 

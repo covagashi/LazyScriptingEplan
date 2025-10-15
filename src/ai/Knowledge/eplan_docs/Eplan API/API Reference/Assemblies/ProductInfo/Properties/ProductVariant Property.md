@@ -8,17 +8,12 @@ ProductVariant
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string ProductVariant {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ ProductVariant {
@@ -28,5 +23,4 @@ property String^ ProductVariant {
    void set (    String^ value);
 
 }
-```
-```
+

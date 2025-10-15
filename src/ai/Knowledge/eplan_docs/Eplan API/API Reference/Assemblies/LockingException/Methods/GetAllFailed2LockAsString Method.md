@@ -8,19 +8,13 @@ returns all object ids of the objects which were not locked. In case this except
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual string[] GetAllFailed2LockAsString()
-```
-```
 
-```
-```
 public:
 
 virtual array<String^>^ GetAllFailed2LockAsString();
-```
-```
+

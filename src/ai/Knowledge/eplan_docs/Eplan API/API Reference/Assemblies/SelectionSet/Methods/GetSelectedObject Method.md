@@ -8,21 +8,16 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject GetSelectedObject( 
 
    bool bFirst
 
 )
-```
-```
 
-```
-```
 public:
 
 StorableObject^ GetSelectedObject( 
@@ -30,8 +25,7 @@ StorableObject^ GetSelectedObject(
    bool bFirst
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,19 +8,13 @@ Sets the enumerator to its initial position, which is before the first element i
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Reset()
-```
-```
 
-```
-```
 public:
 
 virtual void Reset();
-```
-```
+

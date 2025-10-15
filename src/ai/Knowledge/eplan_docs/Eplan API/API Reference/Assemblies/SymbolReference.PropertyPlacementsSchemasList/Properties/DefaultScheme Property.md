@@ -8,17 +8,12 @@ Property to get or set a custom property placement scheme (property arrangement)
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolReference.PropertyPlacementsSchema DefaultScheme {get; set;}
-```
-```
 
-```
-```
 public:
 
 property SymbolReference.PropertyPlacementsSchema^ DefaultScheme {
@@ -28,5 +23,4 @@ property SymbolReference.PropertyPlacementsSchema^ DefaultScheme {
    void set (    SymbolReference.PropertyPlacementsSchema^ value);
 
 }
-```
-```
+

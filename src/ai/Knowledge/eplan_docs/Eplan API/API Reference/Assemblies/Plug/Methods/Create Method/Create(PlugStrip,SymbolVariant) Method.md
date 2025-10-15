@@ -8,11 +8,10 @@ Creates a Plug object related to a [PlugStrip](Eplan.EplApi.DataModelu~Eplan.Epl
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    PlugStrip strip,
@@ -20,11 +19,7 @@ public void Create(
    SymbolVariant variant
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -34,8 +29,7 @@ void Create(
    SymbolVariant^ variant
 
 )
-```
-```
+
 
 #### Parameters
 

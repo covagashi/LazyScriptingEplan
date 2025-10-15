@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class TemplateMDMessage
-```
-```
 
-```
-```
 public ref class TemplateMDMessage
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [TemplateMDMessage Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.TemplateMDMessage~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

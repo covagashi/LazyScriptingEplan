@@ -8,17 +8,12 @@ Cables: Voltage # 20044.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_CABLEVOLTAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_CABLEVOLTAGE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_CABLEVOLTAGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

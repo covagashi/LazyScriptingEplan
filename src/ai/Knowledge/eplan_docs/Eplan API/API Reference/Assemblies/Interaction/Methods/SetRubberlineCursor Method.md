@@ -8,22 +8,16 @@ Active Rubber-line cursor.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetRubberlineCursor()
-```
-```
 
-```
-```
 public:
 
 void SetRubberlineCursor();
-```
-```
+
 
 Remarks
 

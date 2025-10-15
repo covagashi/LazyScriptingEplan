@@ -8,21 +8,16 @@ Set the Parameter to resolve the project dependent units, p.e. Length\_Project\_
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetParameter( 
 
    Project project
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetParameter( 
@@ -30,8 +25,7 @@ void SetParameter(
    Project^ project
 
 )
-```
-```
+
 
 #### Parameters
 

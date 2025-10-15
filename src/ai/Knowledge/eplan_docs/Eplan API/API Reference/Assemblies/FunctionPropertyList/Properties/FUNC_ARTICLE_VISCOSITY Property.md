@@ -8,21 +8,16 @@ Viscosity # 26628.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_VISCOSITY( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_VISCOSITY {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_VISCOSITY {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 
@@ -47,4 +41,4 @@ Remarks
 
 Property is indexed. Possible indexes are from 1 to 50.
 
-Measure for the viscosity of the fluid, the greater the viscosity, the more viscous (less flowable) the fluid is. This property is measured in Pascal-Seconds (PaÂ·s) or in the more common unit Millipascal-Seconds (mPaÂ·s). Example: A lubricating oil has a viscosity of 100 mPaÂ·s at 40 Â°C.
+Measure for the viscosity of the fluid, the greater the viscosity, the more viscous (less flowable) the fluid is. This property is measured in Pascal-Seconds (Pa·s) or in the more common unit Millipascal-Seconds (mPa·s). Example: A lubricating oil has a viscosity of 100 mPa·s at 40 °C.

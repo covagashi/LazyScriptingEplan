@@ -8,20 +8,14 @@ Set routing symbol for netbased wiring
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum NetDefinitionPoint.NetbasedRoutingSymbols : System.Enum
-```
-```
 
-```
-```
 public enum class NetDefinitionPoint.NetbasedRoutingSymbols : public System.Enum
-```
-```
+
 
 Members
 

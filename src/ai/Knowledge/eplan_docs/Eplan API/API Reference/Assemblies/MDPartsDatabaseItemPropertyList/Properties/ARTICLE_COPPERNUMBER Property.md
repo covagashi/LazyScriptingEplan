@@ -8,17 +8,12 @@ Copper weight # 22066.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_COPPERNUMBER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_COPPERNUMBER {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_COPPERNUMBER {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

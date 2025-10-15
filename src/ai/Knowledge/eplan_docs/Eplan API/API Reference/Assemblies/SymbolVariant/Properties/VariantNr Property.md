@@ -8,17 +8,12 @@ Returns number that identifies variant of a Symbol.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int VariantNr {get;}
-```
-```
 
-```
-```
 public:
 
 property int VariantNr {
@@ -26,8 +21,7 @@ property int VariantNr {
    int get();
 
 }
-```
-```
+
 
 #### Property Value
 

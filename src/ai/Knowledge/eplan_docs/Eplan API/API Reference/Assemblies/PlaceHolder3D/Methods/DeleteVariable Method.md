@@ -8,21 +8,16 @@ Deletes a variable.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void DeleteVariable( 
 
    string strVarName
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void DeleteVariable( 
@@ -30,8 +25,7 @@ virtual void DeleteVariable(
    String^ strVarName
 
 )
-```
-```
+
 
 #### Parameters
 

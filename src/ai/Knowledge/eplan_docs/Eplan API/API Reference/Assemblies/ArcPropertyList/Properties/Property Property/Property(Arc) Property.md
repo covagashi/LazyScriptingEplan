@@ -8,21 +8,16 @@ Method used by operator[] in order to access properties.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue Property( 
 
    Properties.Arc id
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ Property {
@@ -32,8 +27,7 @@ property PropertyValue^ Property {
    void set (Properties.Arc id, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

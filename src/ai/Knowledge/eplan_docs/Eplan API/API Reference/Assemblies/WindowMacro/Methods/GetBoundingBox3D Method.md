@@ -8,22 +8,16 @@ Returns the least bounding box containing all 3d elements of macro in current va
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Rect3D GetBoundingBox3D()
-```
-```
 
-```
-```
 public:
 
 Rect3D GetBoundingBox3D();
-```
-```
+
 
 #### Return Value
 

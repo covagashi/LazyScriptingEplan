@@ -8,17 +8,12 @@ Installation site: Main identifier (automatic) # 31108.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_PLACEOFINSTALLATION_AUTOMATIC {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_PLACEOFINSTALLATION_AUTOMATIC {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_PLACEOFINSTALLATION_AUTOMATIC {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

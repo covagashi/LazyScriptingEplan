@@ -8,17 +8,12 @@ Control flow rate # 26152.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CONTROL_FLOW_RATE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CONTROL_FLOW_RATE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CONTROL_FLOW_RATE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

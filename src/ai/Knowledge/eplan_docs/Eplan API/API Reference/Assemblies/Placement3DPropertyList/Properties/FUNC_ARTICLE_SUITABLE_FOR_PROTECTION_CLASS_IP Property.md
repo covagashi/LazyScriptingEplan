@@ -8,21 +8,16 @@ Suitable for degree of protection (IP) # 26359.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_SUITABLE_FOR_PROTECTION_CLASS_IP( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_SUITABLE_FOR_PROTECTION_CLASS_IP {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_SUITABLE_FOR_PROTECTION_CLASS_IP {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

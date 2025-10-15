@@ -8,21 +8,16 @@ BACnet: Standard # 26517.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_STANDARD_BACNET_( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_STANDARD_BACNET_ {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_STANDARD_BACNET_ {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

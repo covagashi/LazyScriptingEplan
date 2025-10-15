@@ -11,22 +11,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 internal sealed class RibbonBarRegistration
-```
-```
 
-```
-```
 internal ref class RibbonBarRegistration sealed
-```
-```
-
-
 
 Public Constructors
 
@@ -35,9 +26,6 @@ Public Constructors
 | Public Constructor | [RibbonBarRegistration Constructor](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBarRegistration~_ctor.html) |  |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

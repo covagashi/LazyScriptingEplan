@@ -8,17 +8,12 @@ Sound pressure level acc. to ISO 20145 # 26542.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SOUND_PRESSURE_LEVEL_ACCORDING_TO_ISO_20145 {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SOUND_PRESSURE_LEVEL_ACCORDING_TO_ISO_20145 {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SOUND_PRESSURE_LEVEL_ACCORDING_TO_ISO_20145 {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

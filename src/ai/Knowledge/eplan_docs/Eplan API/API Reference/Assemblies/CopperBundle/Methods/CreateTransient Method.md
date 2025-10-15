@@ -8,11 +8,10 @@ Creates transient and not placed CopperBundle object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static CopperBundle CreateTransient( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public static CopperBundle CreateTransient(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static CopperBundle^ CreateTransient( 
@@ -34,8 +29,7 @@ static CopperBundle^ CreateTransient(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

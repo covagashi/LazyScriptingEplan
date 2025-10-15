@@ -8,17 +8,12 @@ Structure format for black boxes # 10056.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_HIERARCHY_DEVICEBOX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_HIERARCHY_DEVICEBOX {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_HIERARCHY_DEVICEBOX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

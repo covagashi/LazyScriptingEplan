@@ -8,17 +8,12 @@ Indicates if system proxy is used. Default = true.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool UseSystemProxy {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool UseSystemProxy {
@@ -28,5 +23,4 @@ property bool UseSystemProxy {
    void set (    bool value);
 
 }
-```
-```
+

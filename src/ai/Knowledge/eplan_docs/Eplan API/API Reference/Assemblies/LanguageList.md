@@ -14,11 +14,10 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Item")]
 
 [DebuggerTypeProxy(System.Collections.ArrayList/ArrayListDebugView)]
@@ -26,11 +25,7 @@ Syntax
 [DebuggerDisplay("Count = {Count}")]
 
 public class LanguageList : System.Collections.ArrayList
-```
-```
 
-```
-```
 [DefaultMember("Item")]
 
 [DebuggerTypeProxy(System.Collections.ArrayList/ArrayListDebugView)]
@@ -38,10 +33,6 @@ public class LanguageList : System.Collections.ArrayList
 [DebuggerDisplay("Count = {Count}")]
 
 public ref class LanguageList : public System.Collections.ArrayList
-```
-```
-
-
 
 Public Constructors
 
@@ -50,8 +41,6 @@ Public Constructors
 | Public Constructor | [LanguageList Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.LanguageList~_ctor.html) |  |
 
 [Top](#top)
-
-
 
 Public Properties
 

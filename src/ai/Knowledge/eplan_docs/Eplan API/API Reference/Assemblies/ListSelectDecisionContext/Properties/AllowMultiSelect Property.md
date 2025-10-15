@@ -8,17 +8,12 @@ Set or get the flag for multi selection.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AllowMultiSelect {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool AllowMultiSelect {
@@ -28,5 +23,4 @@ property bool AllowMultiSelect {
    void set (    bool value);
 
 }
-```
-```
+

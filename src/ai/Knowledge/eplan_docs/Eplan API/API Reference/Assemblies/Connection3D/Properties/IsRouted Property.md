@@ -8,17 +8,12 @@ Returns true if connection is routed through at least one point.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IsRouted {get;}
-```
-```
 
-```
-```
 public:
 
 property bool IsRouted {
@@ -26,5 +21,4 @@ property bool IsRouted {
    bool get();
 
 }
-```
-```
+

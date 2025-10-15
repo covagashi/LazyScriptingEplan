@@ -8,17 +8,12 @@ Subproject number.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int Number {get;}
-```
-```
 
-```
-```
 public:
 
 property int Number {
@@ -26,5 +21,4 @@ property int Number {
    int get();
 
 }
-```
-```
+

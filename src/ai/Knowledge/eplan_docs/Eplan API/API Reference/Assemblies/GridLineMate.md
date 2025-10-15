@@ -15,22 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class GridLineMate : LineMate
-```
-```
 
-```
-```
 public ref class GridLineMate : public LineMate
-```
-```
-
-
 
 Public Constructors
 
@@ -39,8 +30,6 @@ Public Constructors
 | Public Constructor | [GridLineMate Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.GridLineMate~_ctor().html) |  |
 
 [Top](#top)
-
-
 
 Public Properties
 

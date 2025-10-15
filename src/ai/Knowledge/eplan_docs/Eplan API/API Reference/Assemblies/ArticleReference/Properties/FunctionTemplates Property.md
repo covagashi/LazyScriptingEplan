@@ -8,17 +8,12 @@ Returns an array of transient object (of Connection or Function type) that repre
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public StorableObject[] FunctionTemplates {get;}
-```
-```
 
-```
-```
 public:
 
 property array<StorableObject^>^ FunctionTemplates {
@@ -26,5 +21,4 @@ property array<StorableObject^>^ FunctionTemplates {
    array<StorableObject^>^ get();
 
 }
-```
-```
+

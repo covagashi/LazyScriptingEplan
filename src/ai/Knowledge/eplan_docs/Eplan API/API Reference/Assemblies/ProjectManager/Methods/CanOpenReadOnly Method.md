@@ -8,21 +8,16 @@ Checks if project can be opened for read-only access without data upgrade.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CanOpenReadOnly( 
 
    string projectPath
 
 )
-```
-```
 
-```
-```
 public:
 
 bool CanOpenReadOnly( 
@@ -30,8 +25,7 @@ bool CanOpenReadOnly(
    String^ projectPath
 
 )
-```
-```
+
 
 #### Parameters
 

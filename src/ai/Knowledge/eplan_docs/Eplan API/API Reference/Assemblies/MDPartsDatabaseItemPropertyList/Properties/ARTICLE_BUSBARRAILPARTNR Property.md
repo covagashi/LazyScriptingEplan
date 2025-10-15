@@ -8,17 +8,12 @@ Busbars: Part number # 22252.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_BUSBARRAILPARTNR {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_BUSBARRAILPARTNR {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_BUSBARRAILPARTNR {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

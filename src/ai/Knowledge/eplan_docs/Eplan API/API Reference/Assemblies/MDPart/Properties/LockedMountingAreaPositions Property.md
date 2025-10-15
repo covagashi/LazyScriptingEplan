@@ -8,17 +8,12 @@ Get all locked mounting area positions of the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPartLockedMountingAreaPosition[] LockedMountingAreaPositions {get;}
-```
-```
 
-```
-```
 public:
 
 property array<MDPartLockedMountingAreaPosition^>^ LockedMountingAreaPositions {
@@ -26,8 +21,7 @@ property array<MDPartLockedMountingAreaPosition^>^ LockedMountingAreaPositions {
    array<MDPartLockedMountingAreaPosition^>^ get();
 
 }
-```
-```
+
 
 Remarks
 

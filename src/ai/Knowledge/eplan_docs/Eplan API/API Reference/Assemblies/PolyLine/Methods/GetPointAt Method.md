@@ -8,21 +8,16 @@ Returns the coordinates of a vertex of a polyline
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD GetPointAt( 
 
    int index
 
 )
-```
-```
 
-```
-```
 public:
 
 PointD GetPointAt( 
@@ -30,8 +25,7 @@ PointD GetPointAt(
    int index
 
 )
-```
-```
+
 
 #### Parameters
 

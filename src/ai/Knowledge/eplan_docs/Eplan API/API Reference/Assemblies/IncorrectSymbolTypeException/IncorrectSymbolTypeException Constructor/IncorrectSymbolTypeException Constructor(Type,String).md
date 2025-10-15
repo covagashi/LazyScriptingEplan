@@ -8,11 +8,10 @@ constructor with description of object type and variant (unused now).
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public IncorrectSymbolTypeException( 
 
    Type objectType,
@@ -20,11 +19,7 @@ public IncorrectSymbolTypeException(
    string symbolType
 
 )
-```
-```
 
-```
-```
 public:
 
 IncorrectSymbolTypeException( 
@@ -34,8 +29,7 @@ IncorrectSymbolTypeException(
    String^ symbolType
 
 )
-```
-```
+
 
 #### Parameters
 

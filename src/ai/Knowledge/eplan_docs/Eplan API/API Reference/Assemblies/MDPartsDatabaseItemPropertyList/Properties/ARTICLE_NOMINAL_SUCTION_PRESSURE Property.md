@@ -8,17 +8,12 @@ Nominal intake pressure # 26128.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_NOMINAL_SUCTION_PRESSURE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_NOMINAL_SUCTION_PRESSURE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_NOMINAL_SUCTION_PRESSURE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

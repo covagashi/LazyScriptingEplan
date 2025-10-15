@@ -8,17 +8,12 @@ Connection index # 31078.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_CONNECTION_INDEX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_CONNECTION_INDEX {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_CONNECTION_INDEX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

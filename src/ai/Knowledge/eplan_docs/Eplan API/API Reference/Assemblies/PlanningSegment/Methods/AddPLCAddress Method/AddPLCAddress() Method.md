@@ -8,22 +8,16 @@ Creates new PLC inputs or outputs for this planning object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlanningSegment.PLCAddress AddPLCAddress()
-```
-```
 
-```
-```
 public:
 
 PlanningSegment.PLCAddress^ AddPLCAddress();
-```
-```
+
 
 #### Return Value
 
@@ -37,20 +31,16 @@ Example
 
 The following code adds new PLCAddress to planning object.
 
-- [C#](#i-tab-content-150b06ae-d209-4ae6-9774-78e18884986a)
+**C#**
 
 ```
 //create new planning object
 
 PlanningSegment oNewPCTLoop = PlanningSegment.Create(oSegmentDefinition);
 
-
-
 //add new PLC address
 
 PlanningSegment.PLCAddress oNewAddress = oNewPCTLoop.AddPLCAddress();
-
-
 
 //set values
 
@@ -65,7 +55,5 @@ oNewAddress.SymbolicAddress = "=EB3+ET1-H2:X1";
 oNewAddress.Configuration = "Siemens SIMATIC S7";
 
 oNewAddress.Station = "Station 300";
-
-
 
 ```

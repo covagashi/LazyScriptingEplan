@@ -8,17 +8,12 @@ Last editor / Modification date (accessory list) # 22958.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue PART_ACCESSORYLIST_LASTCHANGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ PART_ACCESSORYLIST_LASTCHANGE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ PART_ACCESSORYLIST_LASTCHANGE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

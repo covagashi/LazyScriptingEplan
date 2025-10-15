@@ -8,17 +8,12 @@ Alignable # 22229.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CAN_BE_LINED_UP {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CAN_BE_LINED_UP {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CAN_BE_LINED_UP {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

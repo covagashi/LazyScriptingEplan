@@ -8,17 +8,12 @@ Returns the second of two [SymbolReference](Eplan.EplApi.DataModelu~Eplan.EplApi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolReference EndSymbolReference {get;}
-```
-```
 
-```
-```
 public:
 
 property SymbolReference^ EndSymbolReference {
@@ -26,8 +21,7 @@ property SymbolReference^ EndSymbolReference {
    SymbolReference^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

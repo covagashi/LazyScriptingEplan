@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PrjMessagesRegisteredCollection
-```
-```
 
-```
-```
 public ref class PrjMessagesRegisteredCollection
-```
-```
+
 
 Remarks
 
 Project is needed when you want to use properties of ElectroMessage, otherwise no project needed.
-
-
 
 Public Constructors
 
@@ -41,8 +33,6 @@ Public Constructors
 | Public Constructor | [PrjMessagesRegisteredCollection Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredCollection~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

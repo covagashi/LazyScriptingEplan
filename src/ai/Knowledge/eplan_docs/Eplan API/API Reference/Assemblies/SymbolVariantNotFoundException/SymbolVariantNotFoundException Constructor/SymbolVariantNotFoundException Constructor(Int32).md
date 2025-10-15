@@ -8,21 +8,16 @@ Constructor with variant index of searched symbol.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolVariantNotFoundException( 
 
    int variant
 
 )
-```
-```
 
-```
-```
 public:
 
 SymbolVariantNotFoundException( 
@@ -30,8 +25,7 @@ SymbolVariantNotFoundException(
    int variant
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Returns default Scripts directory.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Scripts {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Scripts {
@@ -26,8 +21,7 @@ property String^ Scripts {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

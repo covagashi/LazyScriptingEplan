@@ -8,17 +8,12 @@ Gets/Sets if the re-addressing process affects all PLC terminals in the project 
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool OnlySelectedTerminals {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool OnlySelectedTerminals {
@@ -28,5 +23,4 @@ property bool OnlySelectedTerminals {
    void set (    bool value);
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ If true, then this routing segment is ignored while calculating any filling degr
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool IgnoreAtFillingDegreeVisualisation {get; set;}
-```
-```
 
-```
-```
 public:
 
 property bool IgnoreAtFillingDegreeVisualisation {
@@ -28,8 +23,7 @@ property bool IgnoreAtFillingDegreeVisualisation {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

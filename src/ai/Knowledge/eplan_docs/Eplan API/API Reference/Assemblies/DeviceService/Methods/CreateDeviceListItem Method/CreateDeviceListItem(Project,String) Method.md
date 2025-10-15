@@ -8,11 +8,10 @@ Create a new device list entry.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DeviceListEntry CreateDeviceListItem( 
 
    Project oProject,
@@ -20,11 +19,7 @@ public DeviceListEntry CreateDeviceListItem(
    string strPartNumber
 
 )
-```
-```
 
-```
-```
 public:
 
 DeviceListEntry^ CreateDeviceListItem( 
@@ -34,8 +29,7 @@ DeviceListEntry^ CreateDeviceListItem(
    String^ strPartNumber
 
 )
-```
-```
+
 
 #### Parameters
 

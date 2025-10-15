@@ -8,17 +8,12 @@ Deleted object: Revision description (change tracking) # 36615.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue DMDELETEDOBJECTINFO_REVISION_LOG_DESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ DMDELETEDOBJECTINFO_REVISION_LOG_DESCRIPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ DMDELETEDOBJECTINFO_REVISION_LOG_DESCRIPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

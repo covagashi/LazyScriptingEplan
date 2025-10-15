@@ -8,17 +8,12 @@ Name of filter scheme.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string FilterSchemaName {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ FilterSchemaName {
@@ -28,5 +23,4 @@ property String^ FilterSchemaName {
    void set (    String^ value);
 
 }
-```
-```
+

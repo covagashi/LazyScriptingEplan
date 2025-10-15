@@ -8,17 +8,12 @@ Enclosure legend form # 20440.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_MOUNTINGPLATE_CAPTIONFORM {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_MOUNTINGPLATE_CAPTIONFORM {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_MOUNTINGPLATE_CAPTIONFORM {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

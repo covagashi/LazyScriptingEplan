@@ -8,17 +8,12 @@ Allows to access properties of a [ConnectionDefinitionPoint](Eplan.EplApi.DataMo
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ConnectionDefinitionPointPropertyList ConnectionDefPointProperties {get;}
-```
-```
 
-```
-```
 public:
 
 property ConnectionDefinitionPointPropertyList^ ConnectionDefPointProperties {
@@ -26,8 +21,7 @@ property ConnectionDefinitionPointPropertyList^ ConnectionDefPointProperties {
    ConnectionDefinitionPointPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Connection point routing direction of an individual connection point in the conn
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public RoutingDirections RoutingDirection {get; set;}
-```
-```
 
-```
-```
 public:
 
 property RoutingDirections RoutingDirection {
@@ -28,5 +23,4 @@ property RoutingDirections RoutingDirection {
    void set (    RoutingDirections value);
 
 }
-```
-```
+

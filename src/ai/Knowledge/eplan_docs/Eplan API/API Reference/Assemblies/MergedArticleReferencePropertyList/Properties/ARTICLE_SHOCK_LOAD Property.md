@@ -8,17 +8,12 @@ Shock load # 26584.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_SHOCK_LOAD {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_SHOCK_LOAD {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_SHOCK_LOAD {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

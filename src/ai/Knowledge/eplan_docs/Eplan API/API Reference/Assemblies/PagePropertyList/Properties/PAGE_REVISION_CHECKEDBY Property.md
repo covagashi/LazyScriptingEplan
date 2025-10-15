@@ -8,17 +8,12 @@ Checked by # 11082.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_REVISION_CHECKEDBY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_REVISION_CHECKEDBY {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_REVISION_CHECKEDBY {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

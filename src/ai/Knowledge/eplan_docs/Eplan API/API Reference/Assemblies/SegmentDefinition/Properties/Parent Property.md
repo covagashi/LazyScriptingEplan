@@ -8,17 +8,12 @@ Parent of this segment definition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SegmentDefinition Parent {get;}
-```
-```
 
-```
-```
 public:
 
 property SegmentDefinition^ Parent {
@@ -26,5 +21,4 @@ property SegmentDefinition^ Parent {
    SegmentDefinition^ get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ Get the identifocation of the User. This is the abbreviation of the name.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Identification {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ Identification {
@@ -26,5 +21,4 @@ property String^ Identification {
    String^ get();
 
 }
-```
-```
+

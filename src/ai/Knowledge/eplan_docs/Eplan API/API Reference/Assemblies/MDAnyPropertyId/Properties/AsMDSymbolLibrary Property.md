@@ -6,17 +6,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.MDSymbolLibrary AsMDSymbolLibrary {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.MDSymbolLibrary AsMDSymbolLibrary {
@@ -24,5 +19,4 @@ property Properties.MDSymbolLibrary AsMDSymbolLibrary {
    Properties.MDSymbolLibrary get();
 
 }
-```
-```
+

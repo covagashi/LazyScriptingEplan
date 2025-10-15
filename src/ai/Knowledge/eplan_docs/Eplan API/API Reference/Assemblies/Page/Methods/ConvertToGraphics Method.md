@@ -8,22 +8,16 @@ Converts all symbols and connections on the page into graphical instances. Graph
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement[] ConvertToGraphics()
-```
-```
 
-```
-```
 public:
 
 array<Placement^>^ ConvertToGraphics();
-```
-```
+
 
 #### Return Value
 

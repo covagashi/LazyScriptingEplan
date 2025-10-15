@@ -8,17 +8,12 @@ Name of the FunctionDefinition.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString Name {get;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ Name {
@@ -26,8 +21,7 @@ property MultiLangString^ Name {
    MultiLangString^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Macro: Description # 11057.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_MACRODESCRIPTION {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_MACRODESCRIPTION {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_MACRODESCRIPTION {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

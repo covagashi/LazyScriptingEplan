@@ -8,22 +8,16 @@ Gets graphical representation of the DynamicConnectionLine.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement GetGraphics()
-```
-```
 
-```
-```
 public:
 
 Placement^ GetGraphics();
-```
-```
+
 
 #### Return Value
 

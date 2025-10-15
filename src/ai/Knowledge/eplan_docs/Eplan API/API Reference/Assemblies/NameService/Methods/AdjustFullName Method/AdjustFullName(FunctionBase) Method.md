@@ -8,21 +8,16 @@ Evaluates for a given functionbase the full name from the visible name of the fu
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool AdjustFullName( 
 
    FunctionBase pFunctionBase
 
 )
-```
-```
 
-```
-```
 public:
 
 bool AdjustFullName( 
@@ -30,8 +25,7 @@ bool AdjustFullName(
    FunctionBase^ pFunctionBase
 
 )
-```
-```
+
 
 #### Parameters
 

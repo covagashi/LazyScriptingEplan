@@ -8,17 +8,12 @@ Amperage (fuse, on-site) # 26002.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_FUSE_PROTECTION_ON_SITE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_FUSE_PROTECTION_ON_SITE {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_FUSE_PROTECTION_ON_SITE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

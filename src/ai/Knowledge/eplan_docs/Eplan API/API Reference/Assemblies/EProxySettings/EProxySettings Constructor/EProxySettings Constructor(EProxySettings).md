@@ -8,21 +8,16 @@ EProxySettings constructor sets proxy configuration from existing object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public EProxySettings( 
 
    EProxySettings proxyConfig
 
 )
-```
-```
 
-```
-```
 public:
 
 EProxySettings( 
@@ -30,8 +25,7 @@ EProxySettings(
    EProxySettings^ proxyConfig
 
 )
-```
-```
+
 
 #### Parameters
 

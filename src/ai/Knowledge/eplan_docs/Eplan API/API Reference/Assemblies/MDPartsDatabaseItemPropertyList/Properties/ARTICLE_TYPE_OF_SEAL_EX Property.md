@@ -8,17 +8,12 @@ Type of seal (EX) # 26014.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_TYPE_OF_SEAL_EX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_TYPE_OF_SEAL_EX {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_TYPE_OF_SEAL_EX {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

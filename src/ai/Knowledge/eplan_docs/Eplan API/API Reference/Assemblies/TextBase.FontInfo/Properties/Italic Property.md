@@ -8,17 +8,12 @@ Gets whether font is italic or not.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool Italic {get;}
-```
-```
 
-```
-```
 public:
 
 property bool Italic {
@@ -26,5 +21,4 @@ property bool Italic {
    bool get();
 
 }
-```
-```
+

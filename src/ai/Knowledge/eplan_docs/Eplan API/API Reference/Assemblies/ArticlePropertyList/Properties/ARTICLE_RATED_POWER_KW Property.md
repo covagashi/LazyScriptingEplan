@@ -8,17 +8,12 @@ Nominal power # 26474.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_RATED_POWER_KW {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_RATED_POWER_KW {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_RATED_POWER_KW {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

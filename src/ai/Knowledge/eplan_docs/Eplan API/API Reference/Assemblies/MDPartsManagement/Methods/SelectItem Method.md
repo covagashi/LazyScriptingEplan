@@ -8,21 +8,16 @@ Selects the given item in the parts management dialog.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool SelectItem( 
 
    MDPartsDatabaseItem item
 
 )
-```
-```
 
-```
-```
 public:
 
 bool SelectItem( 
@@ -30,8 +25,7 @@ bool SelectItem(
    MDPartsDatabaseItem^ item
 
 )
-```
-```
+
 
 #### Parameters
 

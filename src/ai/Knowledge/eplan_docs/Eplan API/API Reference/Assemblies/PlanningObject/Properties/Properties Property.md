@@ -8,17 +8,12 @@ EPLAN properties of the PlanningObject object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new PlanningObjectPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property PlanningObjectPropertyList^ Properties {
@@ -26,12 +21,11 @@ new property PlanningObjectPropertyList^ Properties {
    PlanningObjectPropertyList^ get();
 
 }
-```
-```
+
 
 Example
 
-- [C#](#i-tab-content-5c59f2a0-f550-413b-b317-8dcc0e564a1c)
+**C#**
 
 ```
 Function func;

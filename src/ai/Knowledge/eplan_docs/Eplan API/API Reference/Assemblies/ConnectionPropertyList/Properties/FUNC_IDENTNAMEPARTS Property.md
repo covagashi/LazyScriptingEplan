@@ -8,17 +8,12 @@ Identifying name elements # 20095.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_IDENTNAMEPARTS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_IDENTNAMEPARTS {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_IDENTNAMEPARTS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

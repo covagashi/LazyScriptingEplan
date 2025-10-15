@@ -8,17 +8,12 @@ Complete structure identifier # 1001.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue LOCATION_FULLNAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ LOCATION_FULLNAME {
@@ -28,8 +23,7 @@ property PropertyValue^ LOCATION_FULLNAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

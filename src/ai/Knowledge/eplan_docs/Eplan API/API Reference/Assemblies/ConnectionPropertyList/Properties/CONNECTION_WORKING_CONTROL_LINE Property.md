@@ -8,17 +8,12 @@ Pressure line / control line # 31057.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_WORKING_CONTROL_LINE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_WORKING_CONTROL_LINE {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_WORKING_CONTROL_LINE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

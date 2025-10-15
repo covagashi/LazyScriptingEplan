@@ -8,11 +8,10 @@ Creates a linear DimensionItem on the given page.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Page oPage,
@@ -24,11 +23,7 @@ public void Create(
    PointD pntEndDimPoint
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -42,8 +37,7 @@ void Create(
    PointD pntEndDimPoint
 
 )
-```
-```
+
 
 #### Parameters
 

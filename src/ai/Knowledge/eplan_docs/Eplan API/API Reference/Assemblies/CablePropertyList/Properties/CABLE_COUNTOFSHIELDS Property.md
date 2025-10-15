@@ -8,17 +8,12 @@ Cables: Number of shields # 35102.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CABLE_COUNTOFSHIELDS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CABLE_COUNTOFSHIELDS {
@@ -28,8 +23,7 @@ property PropertyValue^ CABLE_COUNTOFSHIELDS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

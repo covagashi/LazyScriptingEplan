@@ -15,22 +15,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Connection3D : Eplan.EplApi.DataModel.Connection, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
 
-```
-```
 public ref class Connection3D : public Eplan.EplApi.DataModel.Connection, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IWriteProtection
-```
-```
-
-
 
 Public Constructors
 
@@ -39,8 +30,6 @@ Public Constructors
 | Public Constructor | [Connection3D Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Connection3D~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

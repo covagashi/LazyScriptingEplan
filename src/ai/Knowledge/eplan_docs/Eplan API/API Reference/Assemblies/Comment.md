@@ -18,26 +18,20 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Comment : Text
-```
-```
 
-```
-```
 public ref class Comment : public Text
-```
-```
+
 
 Example
 
 The following example shows how to collect comments from opened project.
 
-- [C#](#i-tab-content-eb3af0ac-a197-4e88-a50e-a76f23930be3)
+**C#**
 
 ```
 //find all comment objects in project
@@ -46,8 +40,6 @@ DMObjectsFinder oFinder = new DMObjectsFinder(m_oTestProject);
 
 Comment[] arrComments = oFinder.GetStorableObjects(null).OfType<Comment>().ToArray();
 
-
-
 //Work on all found comments
 
 foreach (Comment oComment in arrComments)
@@ -55,8 +47,6 @@ foreach (Comment oComment in arrComments)
 {
 
     Console.WriteLine("--- New comment found ---\n");
-
-
 
     //Write to console needed information about comment
 
@@ -72,15 +62,11 @@ foreach (Comment oComment in arrComments)
 
         oComment.Page.Name);
 
-
-
     //change the state of comment
 
     oComment.ReviewState = Comment.Enums.ReviewStateType.Accepted;
 
 }
-
-
 
 ```
 
@@ -91,8 +77,6 @@ Public Constructors
 | Public Constructor | [Comment Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Comment~_ctor().html) | Constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

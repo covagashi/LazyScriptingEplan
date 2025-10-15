@@ -17,26 +17,17 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Property")]
 
 public class PropertiesAndHandleObjectPropertyList
-```
-```
 
-```
-```
 [DefaultMember("Property")]
 
 public ref class PropertiesAndHandleObjectPropertyList
-```
-```
-
-
 
 Public Constructors
 
@@ -45,8 +36,6 @@ Public Constructors
 | Public Constructor | [PropertiesAndHandleObjectPropertyList Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList~_ctor().html) | This constructor creates local property list. Any changes done to this PropertiesAndHandleObjectPropertyList are local. |
 
 [Top](#top)
-
-
 
 Public Properties
 

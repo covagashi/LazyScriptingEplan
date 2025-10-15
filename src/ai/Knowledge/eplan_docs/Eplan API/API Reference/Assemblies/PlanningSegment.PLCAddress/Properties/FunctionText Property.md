@@ -8,17 +8,12 @@ The function text for the PLC connection point.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MultiLangString FunctionText {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MultiLangString^ FunctionText {
@@ -28,5 +23,4 @@ property MultiLangString^ FunctionText {
    void set (    MultiLangString^ value);
 
 }
-```
-```
+

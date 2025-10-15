@@ -8,17 +8,12 @@ Identification # 26405.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_LABELLING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_LABELLING {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_LABELLING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

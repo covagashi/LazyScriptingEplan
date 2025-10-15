@@ -8,21 +8,16 @@ Creates a Line object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Line Create( 
 
    Group group
 
 )
-```
-```
 
-```
-```
 public:
 
 static Line^ Create( 
@@ -30,8 +25,7 @@ static Line^ Create(
    Group^ group
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -17,20 +17,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class BusBar : BarBase, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
 
-```
-```
 public ref class BusBar : public BarBase, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
-```
-```
+
 
 Remarks
 
@@ -38,7 +32,7 @@ Corresponding FunctionCategory for this class is CabMechBusBar.
 
 Example
 
-- [C#](#i-tab-content-5d5baf14-c59e-4ba1-8ee9-d30f04472c2f)
+**C#**
 
 ```
 BusBar oBusBar = BusBar.Create(m_oTestProject, "Connector kit below L1_3D", "1", "c:\\temp\\winkel.fp1", 50.0, oCooperBoundle, oAdditionalObjects);
@@ -53,8 +47,6 @@ Public Constructors
 | Public Constructor | [BusBar Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.BusBar~_ctor().html) | Default constructor. |
 
 [Top](#top)
-
-
 
 Public Properties
 

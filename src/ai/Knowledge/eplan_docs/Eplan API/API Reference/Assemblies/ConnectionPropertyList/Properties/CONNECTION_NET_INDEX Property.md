@@ -8,17 +8,12 @@ Net index # 31076.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CONNECTION_NET_INDEX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CONNECTION_NET_INDEX {
@@ -28,8 +23,7 @@ property PropertyValue^ CONNECTION_NET_INDEX {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

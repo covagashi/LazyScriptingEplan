@@ -8,11 +8,10 @@ Places the function onto the given page, in the given location and with the symb
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void PlaceAt( 
 
    Page oPage,
@@ -24,11 +23,7 @@ public void PlaceAt(
    SymbolVariant pSymbolVariant
 
 )
-```
-```
 
-```
-```
 public:
 
 void PlaceAt( 
@@ -42,8 +37,7 @@ void PlaceAt(
    SymbolVariant^ pSymbolVariant
 
 )
-```
-```
+
 
 #### Parameters
 

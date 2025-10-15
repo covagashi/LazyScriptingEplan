@@ -8,17 +8,12 @@ An array of [SymbolReference.GraphicalConnection](Eplan.EplApi.DataModelu~Eplan.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolReference.GraphicalConnection[] GraphicalConnections {get;}
-```
-```
 
-```
-```
 public:
 
 property array<SymbolReference.GraphicalConnection^>^ GraphicalConnections {
@@ -26,5 +21,4 @@ property array<SymbolReference.GraphicalConnection^>^ GraphicalConnections {
    array<SymbolReference.GraphicalConnection^>^ get();
 
 }
-```
-```
+

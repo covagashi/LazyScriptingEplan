@@ -8,20 +8,14 @@ Supported modes for avoiding multiple designations.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum ConnectionService.AvoidIdenticalDesignations : System.Enum
-```
-```
 
-```
-```
 public enum class ConnectionService.AvoidIdenticalDesignations : public System.Enum
-```
-```
+
 
 Members
 

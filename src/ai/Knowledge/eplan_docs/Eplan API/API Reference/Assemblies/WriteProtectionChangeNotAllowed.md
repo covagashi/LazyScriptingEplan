@@ -17,22 +17,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class WriteProtectionChangeNotAllowed : DataModelException
-```
-```
 
-```
-```
 public ref class WriteProtectionChangeNotAllowed : public DataModelException
-```
-```
-
-
 
 Public Constructors
 
@@ -41,8 +32,6 @@ Public Constructors
 | Public Constructor | [WriteProtectionChangeNotAllowed Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.WriteProtectionChangeNotAllowed~_ctor.html) |  |
 
 [Top](#top)
-
-
 
 Public Properties
 

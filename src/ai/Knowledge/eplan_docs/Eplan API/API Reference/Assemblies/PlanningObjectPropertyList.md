@@ -16,26 +16,17 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [DefaultMember("Property")]
 
 public class PlanningObjectPropertyList : PlanningSegmentPropertyList
-```
-```
 
-```
-```
 [DefaultMember("Property")]
 
 public ref class PlanningObjectPropertyList : public PlanningSegmentPropertyList
-```
-```
-
-
 
 Public Constructors
 
@@ -44,8 +35,6 @@ Public Constructors
 | Public Constructor | [PlanningObjectPropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningObjectPropertyList~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

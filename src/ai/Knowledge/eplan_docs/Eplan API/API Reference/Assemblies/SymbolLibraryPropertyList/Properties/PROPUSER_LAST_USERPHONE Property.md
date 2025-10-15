@@ -8,17 +8,12 @@ Last editor: Phone # 3012.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROPUSER_LAST_USERPHONE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROPUSER_LAST_USERPHONE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROPUSER_LAST_USERPHONE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

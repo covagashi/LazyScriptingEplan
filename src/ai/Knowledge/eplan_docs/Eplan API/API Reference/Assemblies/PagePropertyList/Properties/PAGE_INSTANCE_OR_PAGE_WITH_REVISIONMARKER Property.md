@@ -8,17 +8,12 @@ At least one object or page with revision marker (from property comparison) # 11
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PAGE_INSTANCE_OR_PAGE_WITH_REVISIONMARKER {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PAGE_INSTANCE_OR_PAGE_WITH_REVISIONMARKER {
@@ -28,8 +23,7 @@ property PropertyValue^ PAGE_INSTANCE_OR_PAGE_WITH_REVISIONMARKER {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

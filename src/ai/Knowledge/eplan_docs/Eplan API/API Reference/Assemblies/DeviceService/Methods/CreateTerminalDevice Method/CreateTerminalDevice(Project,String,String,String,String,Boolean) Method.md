@@ -8,11 +8,10 @@ Creates new terminals for a new or existing DT according to a particular numberi
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public bool CreateTerminalDevice( 
 
    Project oProject,
@@ -32,11 +31,7 @@ public bool CreateTerminalDevice(
    bool bNumberByLevels
 
 )
-```
-```
 
-```
-```
 public:
 
 bool CreateTerminalDevice( 
@@ -58,8 +53,7 @@ bool CreateTerminalDevice(
    bool bNumberByLevels
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ Completes modification of selected pages in the current revision of a project. U
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void CompletePages( 
 
    Page[] pagesToComplete,
@@ -24,11 +23,7 @@ public void CompletePages(
    string strReasonOfChange
 
 )
-```
-```
 
-```
-```
 public:
 
 void CompletePages( 
@@ -42,8 +37,7 @@ void CompletePages(
    String^ strReasonOfChange
 
 )
-```
-```
+
 
 #### Parameters
 

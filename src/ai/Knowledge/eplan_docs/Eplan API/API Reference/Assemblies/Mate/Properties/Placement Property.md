@@ -8,17 +8,12 @@
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement3D Placement {get;}
-```
-```
 
-```
-```
 public:
 
 property Placement3D^ Placement {
@@ -26,5 +21,4 @@ property Placement3D^ Placement {
    Placement3D^ get();
 
 }
-```
-```
+

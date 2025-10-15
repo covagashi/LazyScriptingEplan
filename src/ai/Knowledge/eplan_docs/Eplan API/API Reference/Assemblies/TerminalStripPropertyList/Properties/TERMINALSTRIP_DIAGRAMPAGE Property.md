@@ -8,17 +8,12 @@ Terminal strips: Page name of terminal diagram # 35009.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue TERMINALSTRIP_DIAGRAMPAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ TERMINALSTRIP_DIAGRAMPAGE {
@@ -28,8 +23,7 @@ property PropertyValue^ TERMINALSTRIP_DIAGRAMPAGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

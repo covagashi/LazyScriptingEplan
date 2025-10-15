@@ -8,17 +8,12 @@ Determines way how objects are display in ViewPlacement.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ViewStyleType ViewStyle {get; set;}
-```
-```
 
-```
-```
 public:
 
 property ViewStyleType ViewStyle {
@@ -28,8 +23,7 @@ property ViewStyleType ViewStyle {
    void set (    ViewStyleType value);
 
 }
-```
-```
+
 
 Remarks
 

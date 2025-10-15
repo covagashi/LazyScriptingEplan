@@ -8,24 +8,18 @@ Count of records.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 int NumberOfRecords {get;}
-```
-```
 
-```
-```
 property int NumberOfRecords {
 
    int get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns the shielding of the connection.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function Shielding {get;}
-```
-```
 
-```
-```
 public:
 
 property Function^ Shielding {
@@ -26,8 +21,7 @@ property Function^ Shielding {
    Function^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns the count of usage of that part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short Count {get; set;}
-```
-```
 
-```
-```
 public:
 
 property short Count {
@@ -28,5 +23,4 @@ property short Count {
    void set (    short value);
 
 }
-```
-```
+

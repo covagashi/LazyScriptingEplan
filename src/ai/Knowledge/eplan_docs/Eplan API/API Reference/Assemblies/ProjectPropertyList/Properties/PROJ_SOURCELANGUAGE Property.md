@@ -8,17 +8,12 @@ Source language # 10500.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_SOURCELANGUAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_SOURCELANGUAGE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_SOURCELANGUAGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

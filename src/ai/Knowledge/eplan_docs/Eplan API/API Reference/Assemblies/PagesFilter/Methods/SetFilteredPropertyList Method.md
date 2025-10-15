@@ -8,21 +8,16 @@ Sets the [PagePropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PageP
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void SetFilteredPropertyList( 
 
    PagePropertyList searchedPropList
 
 )
-```
-```
 
-```
-```
 public:
 
 void SetFilteredPropertyList( 
@@ -30,8 +25,7 @@ void SetFilteredPropertyList(
    PagePropertyList^ searchedPropList
 
 )
-```
-```
+
 
 #### Parameters
 

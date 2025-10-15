@@ -8,17 +8,12 @@ Returns lower right front relative coordinate
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PointD3D LowerRightFrontRelative {get;}
-```
-```
 
-```
-```
 public:
 
 property PointD3D LowerRightFrontRelative {
@@ -26,5 +21,4 @@ property PointD3D LowerRightFrontRelative {
    PointD3D get();
 
 }
-```
-```
+

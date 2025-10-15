@@ -8,17 +8,12 @@ Current # 22071.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_ELECTRICALCURRENT {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_ELECTRICALCURRENT {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_ELECTRICALCURRENT {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

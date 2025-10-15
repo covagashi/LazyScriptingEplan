@@ -8,21 +8,16 @@ Inrush current # 26296.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_INRUSH_CURRENT( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_INRUSH_CURRENT {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_INRUSH_CURRENT {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

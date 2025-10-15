@@ -8,17 +8,12 @@ Assigns a SignalType to the Pin.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Pin.SignalType Signal {get; set;}
-```
-```
 
-```
-```
 public:
 
 property Pin.SignalType Signal {
@@ -28,5 +23,4 @@ property Pin.SignalType Signal {
    void set (    Pin.SignalType value);
 
 }
-```
-```
+

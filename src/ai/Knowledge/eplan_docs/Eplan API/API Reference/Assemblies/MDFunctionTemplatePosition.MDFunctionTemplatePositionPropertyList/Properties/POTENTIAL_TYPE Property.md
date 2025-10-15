@@ -8,17 +8,12 @@ Potential type # 31006.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue POTENTIAL_TYPE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ POTENTIAL_TYPE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ POTENTIAL_TYPE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

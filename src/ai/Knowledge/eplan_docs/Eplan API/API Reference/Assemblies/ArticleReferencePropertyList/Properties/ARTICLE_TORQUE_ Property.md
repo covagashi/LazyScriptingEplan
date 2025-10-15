@@ -8,17 +8,12 @@ Torque # 26247.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue ARTICLE_TORQUE_ {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ ARTICLE_TORQUE_ {
@@ -28,8 +23,7 @@ property PropertyValue^ ARTICLE_TORQUE_ {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

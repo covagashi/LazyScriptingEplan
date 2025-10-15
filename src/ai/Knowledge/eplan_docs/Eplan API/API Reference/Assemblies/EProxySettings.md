@@ -13,30 +13,21 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 [NullableContext(1)]
 
 [Nullable(0)]
 
 public class EProxySettings
-```
-```
 
-```
-```
 [NullableContext(1)]
 
 [Nullable(0)]
 
 public ref class EProxySettings
-```
-```
-
-
 
 Public Constructors
 
@@ -45,8 +36,6 @@ Public Constructors
 | Public Constructor | [EProxySettings Constructor](Eplan.IdentityClient.Types~Eplan.IdentityClient.EProxySettings~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

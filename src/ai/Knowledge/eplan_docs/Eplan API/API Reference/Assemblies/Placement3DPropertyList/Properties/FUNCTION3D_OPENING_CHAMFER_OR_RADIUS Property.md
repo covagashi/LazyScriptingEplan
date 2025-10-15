@@ -8,17 +8,12 @@ Cut-out: Radius / Chamfer distance # 36023.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_OPENING_CHAMFER_OR_RADIUS {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_OPENING_CHAMFER_OR_RADIUS {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_OPENING_CHAMFER_OR_RADIUS {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

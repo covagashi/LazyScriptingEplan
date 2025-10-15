@@ -8,20 +8,14 @@ The VerificationState determines the actual adjusted check type whereas the perm
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public enum IVerificationBase.VerificationState : System.Enum
-```
-```
 
-```
-```
 public enum class IVerificationBase.VerificationState : public System.Enum
-```
-```
+
 
 Members
 

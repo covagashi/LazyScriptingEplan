@@ -8,17 +8,12 @@ Permissible surface temperature (with stationary lines), max. # 26180.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_PERMISSIBLE_SURFACE_TEMPERATURE_WITH_FIXED_CONDUCTOR_MAX {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_PERMISSIBLE_SURFACE_TEMPERATURE_WITH_FIXED_CONDUCTOR_MAX {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_PERMISSIBLE_SURFACE_TEMPERATURE_WITH_FIXED_CON
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

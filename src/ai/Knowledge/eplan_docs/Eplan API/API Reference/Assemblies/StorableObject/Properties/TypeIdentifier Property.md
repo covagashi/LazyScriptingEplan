@@ -8,17 +8,12 @@ Returns the type of the object as number.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public uint TypeIdentifier {get;}
-```
-```
 
-```
-```
 public:
 
 property uint TypeIdentifier {
@@ -26,8 +21,7 @@ property uint TypeIdentifier {
    uint get();
 
 }
-```
-```
+
 
 #### Property Value
 

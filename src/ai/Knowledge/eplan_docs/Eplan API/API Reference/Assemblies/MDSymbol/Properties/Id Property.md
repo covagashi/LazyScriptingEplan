@@ -8,17 +8,12 @@ Returns the Id of the Symbol.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public short Id {get; set;}
-```
-```
 
-```
-```
 public:
 
 property short Id {
@@ -28,8 +23,7 @@ property short Id {
    void set (    short value);
 
 }
-```
-```
+
 
 #### Property Value
 

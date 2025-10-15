@@ -8,21 +8,16 @@ Get the count of added menu items of a context menu.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public uint GetMenuItemCount( 
 
    ContextMenuLocation contextMenuLocation
 
 )
-```
-```
 
-```
-```
 public:
 
 uint GetMenuItemCount( 
@@ -30,8 +25,7 @@ uint GetMenuItemCount(
    ContextMenuLocation^ contextMenuLocation
 
 )
-```
-```
+
 
 #### Parameters
 

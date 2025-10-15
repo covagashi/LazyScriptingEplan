@@ -8,11 +8,10 @@ Method used by operator[] in order to access indexed properties.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue Property( 
 
    Properties.MDSymbol id,
@@ -20,11 +19,7 @@ public MDPropertyValue Property(
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ Property {
@@ -34,8 +29,7 @@ property MDPropertyValue^ Property {
    void set (Properties.MDSymbol id, int index, MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

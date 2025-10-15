@@ -8,17 +8,12 @@ User Email address.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string Email {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ Email {
@@ -28,5 +23,4 @@ property String^ Email {
    void set (    String^ value);
 
 }
-```
-```
+

@@ -8,21 +8,16 @@ Connection point logic: Type of signal # 20371.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_LOGDEF_SIGNAL_TYPE( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_LOGDEF_SIGNAL_TYPE {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_LOGDEF_SIGNAL_TYPE {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,11 +8,10 @@ Cut off given object at a given position. Page with object needs to be the curre
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public GraphicalPlacement[] CutOff( 
 
    GraphicalPlacement oPlacement,
@@ -20,11 +19,7 @@ public GraphicalPlacement[] CutOff(
    PointD oPoint
 
 )
-```
-```
 
-```
-```
 public:
 
 array<GraphicalPlacement^>^ CutOff( 
@@ -34,8 +29,7 @@ array<GraphicalPlacement^>^ CutOff(
    PointD oPoint
 
 )
-```
-```
+
 
 #### Parameters
 

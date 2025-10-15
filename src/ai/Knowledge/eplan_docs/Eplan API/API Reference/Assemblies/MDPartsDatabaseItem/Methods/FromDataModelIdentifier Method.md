@@ -8,21 +8,16 @@ Returns object found by its data model identifier.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static MDPartsDatabaseItem FromDataModelIdentifier( 
 
    string strObject
 
 )
-```
-```
 
-```
-```
 public:
 
 static MDPartsDatabaseItem^ FromDataModelIdentifier( 
@@ -30,8 +25,7 @@ static MDPartsDatabaseItem^ FromDataModelIdentifier(
    String^ strObject
 
 )
-```
-```
+
 
 #### Parameters
 

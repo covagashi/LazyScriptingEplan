@@ -8,17 +8,12 @@ Actual power (hydraulic), min. # 26385.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_ACTUAL_OUTPUT_HYDRAULIC_MIN {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_ACTUAL_OUTPUT_HYDRAULIC_MIN {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_ACTUAL_OUTPUT_HYDRAULIC_MIN {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

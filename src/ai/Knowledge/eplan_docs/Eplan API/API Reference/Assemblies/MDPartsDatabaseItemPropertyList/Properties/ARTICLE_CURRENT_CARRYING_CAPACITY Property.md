@@ -8,17 +8,12 @@ Current carrying capacity # 26153.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_CURRENT_CARRYING_CAPACITY {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_CURRENT_CARRYING_CAPACITY {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_CURRENT_CARRYING_CAPACITY {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

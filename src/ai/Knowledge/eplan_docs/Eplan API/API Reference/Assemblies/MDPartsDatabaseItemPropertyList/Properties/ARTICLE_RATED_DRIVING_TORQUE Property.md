@@ -8,17 +8,12 @@ Nominal drive torque # 26466.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public MDPropertyValue ARTICLE_RATED_DRIVING_TORQUE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property MDPropertyValue^ ARTICLE_RATED_DRIVING_TORQUE {
@@ -28,8 +23,7 @@ property MDPropertyValue^ ARTICLE_RATED_DRIVING_TORQUE {
    void set (    MDPropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

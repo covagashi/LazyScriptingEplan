@@ -8,11 +8,10 @@ Writes back connection point designations from the overview PLC terminals of the
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Function[] WriteBackConnPointDesignations( 
 
    Project prj,
@@ -26,11 +25,7 @@ public Function[] WriteBackConnPointDesignations(
    bool bAlsoToConnectedPlugsAndTerminals
 
 )
-```
-```
 
-```
-```
 public:
 
 array<Function^>^ WriteBackConnPointDesignations( 
@@ -46,8 +41,7 @@ array<Function^>^ WriteBackConnPointDesignations(
    bool bAlsoToConnectedPlugsAndTerminals
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -80,6 +74,6 @@ Exceptions
 
 Remarks
 
-â¢ The terminals must have a CPU name specified.  
-â¢ The method corresponds to the "Write back connection point designations" dialog in P8.  
-â¢ This functionality has been moved within the GUI: Up to version 2.8, it could be found under "Project Data" > "PLC" > "Write back connection point designations...". Since version 2.9, it is part of the project correction scheme in the GUI.
+'¢ The terminals must have a CPU name specified.  
+'¢ The method corresponds to the "Write back connection point designations" dialog in P8.  
+'¢ This functionality has been moved within the GUI: Up to version 2.8, it could be found under "Project Data" > "PLC" > "Write back connection point designations...". Since version 2.9, it is part of the project correction scheme in the GUI.

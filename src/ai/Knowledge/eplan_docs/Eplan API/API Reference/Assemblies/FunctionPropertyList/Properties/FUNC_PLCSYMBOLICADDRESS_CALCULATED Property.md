@@ -8,17 +8,12 @@ Symbolic address (determined) # 20403.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCSYMBOLICADDRESS_CALCULATED {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCSYMBOLICADDRESS_CALCULATED {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCSYMBOLICADDRESS_CALCULATED {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,21 +8,16 @@ Creates copy of existing module and adds it to article.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Article.Module AddModule( 
 
    Article.Module pSourceModule
 
 )
-```
-```
 
-```
-```
 public:
 
 Article.Module^ AddModule( 
@@ -30,8 +25,7 @@ Article.Module^ AddModule(
    Article.Module^ pSourceModule
 
 )
-```
-```
+
 
 #### Parameters
 

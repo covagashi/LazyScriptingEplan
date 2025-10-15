@@ -8,21 +8,16 @@ Gets/Sets the name of a record, specified by its index.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual string NameOfRecord( 
 
    int nIndex
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property String^ NameOfRecord {
@@ -32,8 +27,7 @@ virtual property String^ NameOfRecord {
    void set (int nIndex, String^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

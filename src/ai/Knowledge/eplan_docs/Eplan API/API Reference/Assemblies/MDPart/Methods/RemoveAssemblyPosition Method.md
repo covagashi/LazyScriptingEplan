@@ -8,21 +8,16 @@ Removes the given assembly position from the part.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void RemoveAssemblyPosition( 
 
    MDPartAssemblyPosition assemblyPos
 
 )
-```
-```
 
-```
-```
 public:
 
 void RemoveAssemblyPosition( 
@@ -30,8 +25,7 @@ void RemoveAssemblyPosition(
    MDPartAssemblyPosition^ assemblyPos
 
 )
-```
-```
+
 
 #### Parameters
 

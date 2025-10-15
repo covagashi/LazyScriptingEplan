@@ -8,17 +8,12 @@ Symbol representation type # 16028.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue SYMB_SYBMOLFUNCTIONTYPE_NAME {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ SYMB_SYBMOLFUNCTIONTYPE_NAME {
@@ -28,8 +23,7 @@ property PropertyValue^ SYMB_SYBMOLFUNCTIONTYPE_NAME {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

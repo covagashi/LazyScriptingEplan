@@ -13,28 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class Article.Assembly
-```
-```
 
-```
-```
 public ref class Article.Assembly
-```
-```
+
 
 Remarks
 
 An assembly is a collection of parts that belong to a device (e.g. a pushbutton with a normally open contact, the appropriate mounting and the button). An assembly has its own part number and can also contain (sub) assemblies.
-
-
-
-
 
 Public Properties
 

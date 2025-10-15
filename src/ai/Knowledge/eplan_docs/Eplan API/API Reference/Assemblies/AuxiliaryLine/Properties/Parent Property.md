@@ -8,17 +8,12 @@ Gets or Sets parent placement. Caution: The Change of the parent will also chang
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public override Placement3D Parent {set;}
-```
-```
 
-```
-```
 public:
 
 property Placement3D^ Parent {
@@ -26,8 +21,7 @@ property Placement3D^ Parent {
    void set (    Placement3D^ value) override;
 
 }
-```
-```
+
 
 Remarks
 

@@ -8,17 +8,12 @@ Name of the File (inclusive path) containing the license to use or to borrow IMP
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string LicenseFile {get; set;}
-```
-```
 
-```
-```
 public:
 
 property String^ LicenseFile {
@@ -28,5 +23,4 @@ property String^ LicenseFile {
    void set (    String^ value);
 
 }
-```
-```
+

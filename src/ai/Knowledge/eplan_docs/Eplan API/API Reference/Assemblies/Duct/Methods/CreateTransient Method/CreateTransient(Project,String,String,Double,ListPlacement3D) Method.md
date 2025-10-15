@@ -8,11 +8,10 @@ Creates transient and not placed Duct object with given length.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static Duct CreateTransient( 
 
    Project oProject,
@@ -26,11 +25,7 @@ public static Duct CreateTransient(
    List<Placement3D> listOfAdditionalObjects
 
 )
-```
-```
 
-```
-```
 public:
 
 static Duct^ CreateTransient( 
@@ -46,8 +41,7 @@ static Duct^ CreateTransient(
    List<Placement3D^>^ listOfAdditionalObjects
 
 )
-```
-```
+
 
 #### Parameters
 

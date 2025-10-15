@@ -8,17 +8,11 @@ Interface declaration for an Parts Database message in EPLAN.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IMDMessage
-```
-```
 
-```
-```
 public interface class IMDMessage
-```
-```
+

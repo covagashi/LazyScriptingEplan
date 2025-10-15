@@ -13,26 +13,18 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class NameService3D
-```
-```
 
-```
-```
 public ref class NameService3D
-```
-```
+
 
 Remarks
 
 When using EPLAN interactively the structure identifiers of a Function 3D on a installation space are adjusted automatically according to the installation space in which the Function 3D is located. In API, the methods of the NameService3D class helps to do this.
-
-
 
 Public Constructors
 
@@ -41,9 +33,6 @@ Public Constructors
 | Public Constructor | [NameService3D Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.NameService3D~_ctor.html) | Constructor. Creates a NameService3D object. |
 
 [Top](#top)
-
-
-
 
 Public Methods
 

@@ -8,17 +8,12 @@ Do not include in addressing # 20380.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_PLCTERMINAL_NO_ADRESSING {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_PLCTERMINAL_NO_ADRESSING {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_PLCTERMINAL_NO_ADRESSING {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ DT (subordinate): Identifier # 20017.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_NESTEDCODE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_NESTEDCODE {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNC_NESTEDCODE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

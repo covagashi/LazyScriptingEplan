@@ -8,17 +8,12 @@ Gets/Sets the actual visibility state of the object.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool IsVisible {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool IsVisible {
@@ -28,8 +23,7 @@ virtual property bool IsVisible {
    void set (    bool value);
 
 }
-```
-```
+
 
 Remarks
 

@@ -8,11 +8,10 @@ Reads numeric value from settings. It can be 16 bit or 32 bit, signed or unsigne
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int GetNumericSetting( 
 
    string strSettingPath,
@@ -20,11 +19,7 @@ public int GetNumericSetting(
    int nIdx
 
 )
-```
-```
 
-```
-```
 public:
 
 int GetNumericSetting( 
@@ -34,8 +29,7 @@ int GetNumericSetting(
    int nIdx
 
 )
-```
-```
+
 
 #### Parameters
 

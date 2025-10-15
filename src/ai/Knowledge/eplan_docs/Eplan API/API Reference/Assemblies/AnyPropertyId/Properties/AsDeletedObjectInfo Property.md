@@ -8,17 +8,12 @@ Gets property id value as [Properties.DeletedObjectInfo](Eplan.EplApi.DataModelu
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Properties.DeletedObjectInfo AsDeletedObjectInfo {get;}
-```
-```
 
-```
-```
 public:
 
 property Properties.DeletedObjectInfo AsDeletedObjectInfo {
@@ -26,5 +21,4 @@ property Properties.DeletedObjectInfo AsDeletedObjectInfo {
    Properties.DeletedObjectInfo get();
 
 }
-```
-```
+

@@ -8,17 +8,12 @@ End customer: Short name # 10130.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJ_ENDCUSTOMERID {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJ_ENDCUSTOMERID {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJ_ENDCUSTOMERID {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

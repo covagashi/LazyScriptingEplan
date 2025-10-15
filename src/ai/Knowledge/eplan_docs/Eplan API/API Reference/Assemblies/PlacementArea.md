@@ -13,22 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PlacementArea
-```
-```
 
-```
-```
 public ref class PlacementArea
-```
-```
-
-
 
 Public Constructors
 
@@ -37,8 +28,6 @@ Public Constructors
 | Public Constructor | [PlacementArea Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.PlacementArea~_ctor(Vector3D,PointD3D).html) | Creates or redefines the placement area of Placement3D. |
 
 [Top](#top)
-
-
 
 Public Properties
 

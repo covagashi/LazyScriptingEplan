@@ -8,21 +8,16 @@ Intake flow rate, min. # 26201.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNC_ARTICLE_INTAKE_VOLUME_FLOW_MIN( 
 
    int index
 
 ) {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNC_ARTICLE_INTAKE_VOLUME_FLOW_MIN {
@@ -32,8 +27,7 @@ property PropertyValue^ FUNC_ARTICLE_INTAKE_VOLUME_FLOW_MIN {
    void set (int index, PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Parameters
 

@@ -8,17 +8,12 @@ Allows access to properties of the SymbolVariant
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public new SymbolVariantPropertyList Properties {get;}
-```
-```
 
-```
-```
 public:
 
 new property SymbolVariantPropertyList^ Properties {
@@ -26,8 +21,7 @@ new property SymbolVariantPropertyList^ Properties {
    SymbolVariantPropertyList^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Returns the name of the macro placeholder
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string PlaceHolderName {get;}
-```
-```
 
-```
-```
 public:
 
 property String^ PlaceHolderName {
@@ -26,8 +21,7 @@ property String^ PlaceHolderName {
    String^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

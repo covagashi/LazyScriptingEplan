@@ -8,11 +8,10 @@ Change length of segment of bended bus bar.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ChangeSegmentLength( 
 
    double dNewLength,
@@ -22,11 +21,7 @@ public void ChangeSegmentLength(
    long nMovingBendingPoint
 
 )
-```
-```
 
-```
-```
 public:
 
 void ChangeSegmentLength( 
@@ -38,8 +33,7 @@ void ChangeSegmentLength(
    int64 nMovingBendingPoint
 
 )
-```
-```
+
 
 #### Parameters
 

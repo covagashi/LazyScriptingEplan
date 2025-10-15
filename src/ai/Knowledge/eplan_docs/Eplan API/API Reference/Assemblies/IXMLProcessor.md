@@ -8,24 +8,13 @@ Interface for implementing an XML processor.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public interface IXMLProcessor : IInterface
-```
-```
 
-```
-```
 public interface class IXMLProcessor : public IInterface
-```
-```
-
-
-
-
 
 Public Properties
 

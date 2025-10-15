@@ -8,11 +8,10 @@ Substitutes variables with their values for a partuclar Project. Returns the cha
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public static string SubstitutePath( 
 
    string strPath,
@@ -20,11 +19,7 @@ public static string SubstitutePath(
    string strProjectPath
 
 )
-```
-```
 
-```
-```
 public:
 
 static String^ SubstitutePath( 
@@ -34,8 +29,7 @@ static String^ SubstitutePath(
    String^ strProjectPath
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,19 +8,13 @@ Returns the position in assembly-structure
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string GetPosInAssemblyStructure()
-```
-```
 
-```
-```
 public:
 
 String^ GetPosInAssemblyStructure();
-```
-```
+

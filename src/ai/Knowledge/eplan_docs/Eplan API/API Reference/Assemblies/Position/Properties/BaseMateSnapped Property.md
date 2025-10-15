@@ -8,17 +8,12 @@ Returns true, if base mate was found.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual bool BaseMateSnapped {get;}
-```
-```
 
-```
-```
 public:
 
 virtual property bool BaseMateSnapped {
@@ -26,5 +21,4 @@ virtual property bool BaseMateSnapped {
    bool get();
 
 }
-```
-```
+

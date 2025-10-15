@@ -8,22 +8,16 @@ Removes the 3D group and all grouped [Placement3D](Eplan.EplApi.DataModelu~Eplan
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void Remove()
-```
-```
 
-```
-```
 public:
 
 virtual void Remove();
-```
-```
+
 
 Exceptions
 

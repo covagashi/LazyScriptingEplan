@@ -8,17 +8,12 @@ Thermal design: Voltage # 10310.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue PROJECT_POWERDISSIPATION_VOLTAGE {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ PROJECT_POWERDISSIPATION_VOLTAGE {
@@ -28,8 +23,7 @@ property PropertyValue^ PROJECT_POWERDISSIPATION_VOLTAGE {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

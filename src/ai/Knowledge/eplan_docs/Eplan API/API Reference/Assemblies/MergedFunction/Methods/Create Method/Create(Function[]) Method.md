@@ -8,21 +8,16 @@ Initializes the MergedFunction object to cover the functions passed in the array
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Create( 
 
    Function[] functions
 
 )
-```
-```
 
-```
-```
 public:
 
 void Create( 
@@ -30,8 +25,7 @@ void Create(
    array<Function^>^ functions
 
 )
-```
-```
+
 
 #### Parameters
 

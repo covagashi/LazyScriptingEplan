@@ -13,24 +13,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public abstract class PartVerification : IMessage, IPartVerification, IVerificationBase
-```
-```
 
-```
-```
 public ref class PartVerification abstract : public IMessage, IPartVerification, IVerificationBase
-```
-```
-
-
-
-
 
 Public Properties
 

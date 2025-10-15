@@ -8,21 +8,16 @@ Copy 3D Placement Placement3D and its children will be copied into the same Proj
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public Placement3D CopyTo( 
 
    Placement3D newParent
 
 )
-```
-```
 
-```
-```
 public:
 
 Placement3D^ CopyTo( 
@@ -30,8 +25,7 @@ Placement3D^ CopyTo(
    Placement3D^ newParent
 
 )
-```
-```
+
 
 #### Parameters
 

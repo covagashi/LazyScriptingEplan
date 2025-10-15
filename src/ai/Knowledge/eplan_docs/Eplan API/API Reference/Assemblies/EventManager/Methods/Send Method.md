@@ -8,11 +8,10 @@ Sends an event to the system.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int Send( 
 
    string strEventName,
@@ -20,11 +19,7 @@ public int Send(
    IEventParameter pEventParameter
 
 )
-```
-```
 
-```
-```
 public:
 
 int Send( 
@@ -34,8 +29,7 @@ int Send(
    IEventParameter^ pEventParameter
 
 )
-```
-```
+
 
 #### Parameters
 
@@ -53,7 +47,7 @@ Example
 
 Send the EventAusCSharpAddIn event with string parameters being passed ([EventParameterString](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString.html))
 
-- [C#](#i-tab-content-bb3656ed-05f6-4c6a-8505-c2fed964a064)
+**C#**
 
 ```
 EventManager oEventManager = new EventManager();
@@ -63,7 +57,5 @@ EventParameterString oEventParamString = new EventParameterString();
 oEventParamString.String = "ParameterAusCSharpAddIn";
 
 long lRetVal = oEventManager.Send("EventAusCSharpAddIn", oEventParamString);
-
-
 
 ```

@@ -8,17 +8,12 @@ Valid data # 31045.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue CDP_ALLOWED_DATA {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ CDP_ALLOWED_DATA {
@@ -28,8 +23,7 @@ property PropertyValue^ CDP_ALLOWED_DATA {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

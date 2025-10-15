@@ -8,21 +8,16 @@ initializes the enumerator for iterating over the collection of all registered e
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void Init( 
 
    bool bOnlyLicensed
 
 )
-```
-```
 
-```
-```
 public:
 
 void Init( 
@@ -30,8 +25,7 @@ void Init(
    bool bOnlyLicensed
 
 )
-```
-```
+
 
 #### Parameters
 

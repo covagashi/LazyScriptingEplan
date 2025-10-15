@@ -8,21 +8,16 @@ Is called to manipulate the position of the static CAD cursor.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual void OnCalculateStaticCursorPos( 
 
    Position oPosition
 
 )
-```
-```
 
-```
-```
 public:
 
 virtual void OnCalculateStaticCursorPos( 
@@ -30,8 +25,7 @@ virtual void OnCalculateStaticCursorPos(
    Position^ oPosition
 
 )
-```
-```
+
 
 #### Parameters
 

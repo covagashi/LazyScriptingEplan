@@ -8,17 +8,12 @@ Gets a PlcIOEntry object associated with this PLC terminal. Returns NULL for non
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PlcIO PlcIOEntry {get;}
-```
-```
 
-```
-```
 public:
 
 property PlcIO^ PlcIOEntry {
@@ -26,5 +21,4 @@ property PlcIO^ PlcIOEntry {
    PlcIO^ get();
 
 }
-```
-```
+

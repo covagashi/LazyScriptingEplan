@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class RibbonBar
-```
-```
 
-```
-```
 public ref class RibbonBar
-```
-```
+
 
 Remarks
 
@@ -36,7 +30,7 @@ Example
 
 Example below shows how to avoid GUI flickering and make sure that RibbonBar will be refreshed just after the add operations are completed. Parameter refreshAfterChanges=true means that refresh will be executed only once on RibbonBar destructor, in this case at the end of using() statement. This technique can be used also for removing elements from RibbonBar.
 
-- [C#](#i-tab-content-a6dbc618-b3c8-4187-acfe-1a68c8cc4792)
+**C#**
 
 ```
 using (var ribbonBar = new RibbonBar(true))
@@ -54,8 +48,6 @@ using (var ribbonBar = new RibbonBar(true))
     commandGroup.AddCommand("MyExampleAction3", "ExampleAction /Parameter:3");
 
 }
-
-
 
 ```
 
@@ -88,8 +80,6 @@ Public Constructors
 | Public Constructor | [RibbonBar Constructor](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBar~_ctor.html) | Overloaded. |
 
 [Top](#top)
-
-
 
 Public Properties
 

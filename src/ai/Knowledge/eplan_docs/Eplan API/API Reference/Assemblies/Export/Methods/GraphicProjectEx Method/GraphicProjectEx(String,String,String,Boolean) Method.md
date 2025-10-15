@@ -8,11 +8,10 @@ Exports a complete project as image files but instead of pages which [Eplan.EplA
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public string[] GraphicProjectEx( 
 
    string strFullLinkFileName,
@@ -24,11 +23,7 @@ public string[] GraphicProjectEx(
    bool bBlackAndWhite
 
 )
-```
-```
 
-```
-```
 public:
 
 array<String^>^ GraphicProjectEx( 
@@ -42,8 +37,7 @@ array<String^>^ GraphicProjectEx(
    bool bBlackAndWhite
 
 )
-```
-```
+
 
 #### Parameters
 

@@ -8,21 +8,16 @@ Imports a settings xml file and sets all the settings it contains.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void ReadSettings( 
 
    string strFilename
 
 )
-```
-```
 
-```
-```
 public:
 
 void ReadSettings( 
@@ -30,8 +25,7 @@ void ReadSettings(
    String^ strFilename
 
 )
-```
-```
+
 
 #### Parameters
 

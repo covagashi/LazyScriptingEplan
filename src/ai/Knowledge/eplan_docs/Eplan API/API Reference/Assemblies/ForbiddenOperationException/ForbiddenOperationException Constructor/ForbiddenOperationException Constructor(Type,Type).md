@@ -8,11 +8,10 @@ Constructor with custom description created with IDS\_ERR\_INVALID\_CLASS\_INHIE
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public ForbiddenOperationException( 
 
    Type functionType,
@@ -20,11 +19,7 @@ public ForbiddenOperationException(
    Type objectType
 
 )
-```
-```
 
-```
-```
 public:
 
 ForbiddenOperationException( 
@@ -34,8 +29,7 @@ ForbiddenOperationException(
    Type^ objectType
 
 )
-```
-```
+
 
 #### Parameters
 

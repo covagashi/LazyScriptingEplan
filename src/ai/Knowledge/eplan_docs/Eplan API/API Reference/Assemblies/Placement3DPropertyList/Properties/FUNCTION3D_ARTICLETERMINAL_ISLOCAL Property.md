@@ -8,17 +8,12 @@ Local connection point pattern # 36005.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public PropertyValue FUNCTION3D_ARTICLETERMINAL_ISLOCAL {get; set;}
-```
-```
 
-```
-```
 public:
 
 property PropertyValue^ FUNCTION3D_ARTICLETERMINAL_ISLOCAL {
@@ -28,8 +23,7 @@ property PropertyValue^ FUNCTION3D_ARTICLETERMINAL_ISLOCAL {
    void set (    PropertyValue^ value);
 
 }
-```
-```
+
 
 #### Property Value
 

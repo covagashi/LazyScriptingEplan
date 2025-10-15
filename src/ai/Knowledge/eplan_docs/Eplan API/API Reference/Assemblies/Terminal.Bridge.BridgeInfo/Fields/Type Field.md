@@ -8,19 +8,13 @@ Bridge connection type. Corresponds to the function definition tag of the connec
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int Type
-```
-```
 
-```
-```
 public:
 
 int Type
-```
-```
+

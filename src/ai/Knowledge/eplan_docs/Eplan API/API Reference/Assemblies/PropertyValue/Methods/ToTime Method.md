@@ -8,22 +8,16 @@ Used in conversion of the PropertyValue object to `time`.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public DateTime ToTime()
-```
-```
 
-```
-```
 public:
 
 DateTime ToTime();
-```
-```
+
 
 #### Return Value
 

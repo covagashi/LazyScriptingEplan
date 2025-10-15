@@ -8,11 +8,10 @@ Creates a project from an imported PXF file.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public void PXFProject( 
 
    string strPXFFilePath,
@@ -20,11 +19,7 @@ public void PXFProject(
    string strDestinationPath
 
 )
-```
-```
 
-```
-```
 public:
 
 void PXFProject( 
@@ -34,8 +29,7 @@ void PXFProject(
    String^ strDestinationPath
 
 )
-```
-```
+
 
 #### Parameters
 

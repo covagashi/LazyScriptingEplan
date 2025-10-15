@@ -8,17 +8,12 @@ Gets description in multiple languages
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public virtual MultiLangString Description {get; set;}
-```
-```
 
-```
-```
 public:
 
 virtual property MultiLangString^ Description {
@@ -28,5 +23,4 @@ virtual property MultiLangString^ Description {
    void set (    MultiLangString^ value);
 
 }
-```
-```
+

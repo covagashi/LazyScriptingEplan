@@ -8,17 +8,12 @@ Gets table of symbol variants.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public SymbolVariant[] Variants {get;}
-```
-```
 
-```
-```
 public:
 
 property array<SymbolVariant^>^ Variants {
@@ -26,8 +21,7 @@ property array<SymbolVariant^>^ Variants {
    array<SymbolVariant^>^ get();
 
 }
-```
-```
+
 
 #### Property Value
 

@@ -8,17 +8,12 @@ Allows to check the maximum index of a given property.
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public int MaxIndex {get;}
-```
-```
 
-```
-```
 public:
 
 property int MaxIndex {
@@ -26,8 +21,7 @@ property int MaxIndex {
    int get();
 
 }
-```
-```
+
 
 #### Property Value
 
@@ -45,19 +39,13 @@ Can only be called after retrieving a property list from the given API class.
 
 Example
 
-- [C#](#i-tab-content-89d9360f-bee0-4f89-aa15-7abf03459aa3)
+**C#**
 
 ```
 
 
 Article article = myProject.Articles[0]; // A valid Article object
 
-
-
 int maxIndex = article.Properties.ARTICLE_HEIGHT.Definition.MaxIndex;
-
-
-
-
 
 ```

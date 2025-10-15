@@ -11,22 +11,13 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public class PlaceHolder.ValueSetsClass.ValueSetEnumerator
-```
-```
 
-```
-```
 public ref class PlaceHolder.ValueSetsClass.ValueSetEnumerator
-```
-```
-
-
 
 Public Constructors
 
@@ -35,8 +26,6 @@ Public Constructors
 | Public Constructor | [PlaceHolder.ValueSetsClass.ValueSetEnumerator Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass+ValueSetEnumerator~_ctor.html) |  |
 
 [Top](#top)
-
-
 
 Public Properties
 

@@ -13,20 +13,14 @@ Inheritance Hierarchy
 
 Syntax
 
-- [C#](#i-syntax-CS)
-- [C++/CLI](#i-syntax-CPP2005)
+**C#**
+**C++/CLI**
 
-```
-```
+
 public sealed class SafetyPoint
-```
-```
 
-```
-```
 public ref class SafetyPoint sealed
-```
-```
+
 
 Remarks
 
@@ -34,12 +28,10 @@ The mechanism is enabled since creation and until disposing of a SafetyPoint obj
 
 Example
 
-- [C#](#i-tab-content-caf9f9fc-1789-4997-8c34-db3242d6c7ae)
+**C#**
 
 ```
 var project = new ProjectManager {LockProjectByDefault = false}.OpenProject(@"$(MD_PROJECTS)\EPLAN-DEMO.elk");
-
-
 
 //view placement '8' (on page =EB3+ETM/4)
 
@@ -52,8 +44,6 @@ ViewPlacement viewPlacement8 = project
     .OfType<ViewPlacement>()
 
     .FirstOrDefault(item => item.Properties.DMG_VIEWPLACEMENT_DESIGNATION.ToString() == "8");
-
-
 
 using (SafetyPoint safetyPoint = SafetyPoint.Create())
 
@@ -71,13 +61,7 @@ using (SafetyPoint safetyPoint = SafetyPoint.Create())
 
 Console.WriteLine(viewPlacement8.IsLocked);         //again false
 
-
-
 ```
-
-
-
-
 
 Public Methods
 
