@@ -9,7 +9,7 @@ Functional assignment (automatic) # 31105.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_FULLFUNCTIONALASSIGNMENT_AUTOMATIC {get; set;}

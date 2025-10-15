@@ -9,7 +9,7 @@ Creates PlanningSegment object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static PlanningSegment Create( 

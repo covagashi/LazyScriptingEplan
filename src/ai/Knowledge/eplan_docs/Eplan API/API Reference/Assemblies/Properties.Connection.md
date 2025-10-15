@@ -9,7 +9,7 @@ Identificators of properties owned by Connection class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Connection : System.Enum

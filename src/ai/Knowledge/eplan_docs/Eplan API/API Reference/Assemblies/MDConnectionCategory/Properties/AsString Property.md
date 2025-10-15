@@ -9,7 +9,7 @@ Representation of connection category as a string
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string AsString {get;}

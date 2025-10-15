@@ -9,7 +9,7 @@ Supply voltage (AC 50 Hz), min. # 26164.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SUPPLY_VOLTAGE_AT_AC_50_HZ_MIN {get; set;}

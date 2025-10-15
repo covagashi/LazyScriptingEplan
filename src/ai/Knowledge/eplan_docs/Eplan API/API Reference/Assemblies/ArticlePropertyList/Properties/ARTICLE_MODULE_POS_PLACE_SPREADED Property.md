@@ -9,7 +9,7 @@ Distributed placement of module # 22288.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MODULE_POS_PLACE_SPREADED {get; set;}

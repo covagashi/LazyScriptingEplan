@@ -9,7 +9,7 @@ Y coordinate of the center # 19322.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_ARC_CENTER_Y {get; set;}

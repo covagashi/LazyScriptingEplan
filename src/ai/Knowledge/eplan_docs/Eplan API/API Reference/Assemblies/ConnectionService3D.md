@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ConnectionService3D
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ConnectionService3D Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ConnectionService3D~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -45,4 +45,4 @@ Public Methods
 | Public Method | [ShowFillingDegree](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ConnectionService3D~ShowFillingDegree.html) | Show or hide filling degree. |
 | Public Method | [SwapSourceAndTarget](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ConnectionService3D~SwapSourceAndTarget.html) | Exchanges the source and target properties of given connection3D. |
 
-[Top](#top)
+

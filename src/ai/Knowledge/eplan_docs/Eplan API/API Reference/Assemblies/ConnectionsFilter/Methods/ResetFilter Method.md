@@ -9,7 +9,7 @@ Resets the filter. Filter matches all [Connection](Eplan.EplApi.DataModelu~Eplan
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override void ResetFilter()

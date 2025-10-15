@@ -9,7 +9,7 @@ Gets pages open in GED.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Page[] OpenedPages {get;}

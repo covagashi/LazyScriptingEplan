@@ -9,7 +9,7 @@ Frequency range # 26342.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_FREQUENCY_RANGE {get; set;}

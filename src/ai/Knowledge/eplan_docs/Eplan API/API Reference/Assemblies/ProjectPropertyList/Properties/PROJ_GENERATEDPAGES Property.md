@@ -9,7 +9,7 @@ Generated report pages # 10302.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_GENERATEDPAGES {get; set;}

@@ -9,7 +9,7 @@ Identificators of properties owned by SegmentPlacement class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.SegmentPlacement : System.Enum

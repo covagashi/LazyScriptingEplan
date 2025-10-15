@@ -9,7 +9,7 @@ Number of characters for column / row # 12029.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_PATHPOS_MINDIGITS {get; set;}

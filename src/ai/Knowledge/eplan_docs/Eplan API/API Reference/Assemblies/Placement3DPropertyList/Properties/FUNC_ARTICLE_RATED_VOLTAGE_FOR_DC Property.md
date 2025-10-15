@@ -9,7 +9,7 @@ Nominal voltage (DC) # 26493.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_RATED_VOLTAGE_FOR_DC( 

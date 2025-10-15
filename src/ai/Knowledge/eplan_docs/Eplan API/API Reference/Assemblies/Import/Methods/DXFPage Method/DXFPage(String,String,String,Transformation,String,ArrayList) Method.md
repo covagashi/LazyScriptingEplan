@@ -9,7 +9,7 @@ Imports a DXF or DWG file into an existing page. You have the possibility to mov
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DXFPage( 

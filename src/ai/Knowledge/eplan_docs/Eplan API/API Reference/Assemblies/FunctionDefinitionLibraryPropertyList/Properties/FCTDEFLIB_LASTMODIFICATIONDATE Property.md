@@ -9,7 +9,7 @@ Modification date # 15501.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FCTDEFLIB_LASTMODIFICATIONDATE {get; set;}

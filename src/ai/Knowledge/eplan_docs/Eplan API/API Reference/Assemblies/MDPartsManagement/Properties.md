@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [SelectedPartsDatabase](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsManagement~SelectedPartsDatabase.html) | The parts database that is currently used. |
 | Public Propertystatic (Shared in Visual Basic) | [SelectedPartsDatabaseAsString](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsManagement~SelectedPartsDatabaseAsString.html) | The parts database that is currently used as a connection string or a file. |
 
-[Top](#top)
+

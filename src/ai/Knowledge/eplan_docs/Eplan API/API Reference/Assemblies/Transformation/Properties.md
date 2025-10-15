@@ -20,4 +20,4 @@ Public Properties
 | Public Property | [YScale](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Transformation~YScale.html) | Set scaling in y-direction |
 | Public Property | [YScaleRef](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Transformation~YScaleRef.html) | Set scaling reference in y-direction |
 
-[Top](#top)
+

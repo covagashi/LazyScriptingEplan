@@ -9,7 +9,7 @@ Allows access to properties of the SymbolVariant
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new SymbolVariantPropertyList Properties {get;}

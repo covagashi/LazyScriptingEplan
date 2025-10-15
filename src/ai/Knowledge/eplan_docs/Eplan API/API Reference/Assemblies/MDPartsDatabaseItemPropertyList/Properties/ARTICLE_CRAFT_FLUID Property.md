@@ -9,7 +9,7 @@ Trade 'Fluid power' # 22132.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CRAFT_FLUID {get; set;}

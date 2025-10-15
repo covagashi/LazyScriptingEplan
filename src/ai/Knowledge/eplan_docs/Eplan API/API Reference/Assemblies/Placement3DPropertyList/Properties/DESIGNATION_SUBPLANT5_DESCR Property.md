@@ -9,7 +9,7 @@ Function designation (sub-identifier 5): Description # 1135.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBPLANT5_DESCR {get; set;}

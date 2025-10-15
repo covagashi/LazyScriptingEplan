@@ -9,7 +9,7 @@ PLC address: Symbolic address: UDT (name) # 44088.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLCADDRESS_SYMBOLICADDRESS_UDT( 

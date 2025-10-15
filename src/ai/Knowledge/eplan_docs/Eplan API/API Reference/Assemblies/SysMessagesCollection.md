@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class SysMessagesCollection
@@ -60,7 +60,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [SysMessagesCollection Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -70,7 +70,7 @@ Public Properties
 | Public Property | [BookmarkIDStart](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection~BookmarkIDStart.html) |  |
 | Public Property | [Count](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection~Count.html) | Gets the number of elements contained in the `SysMessagesCollection`. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -79,4 +79,4 @@ Public Methods
 | Public Method | [GetEnumerator](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection~GetEnumerator.html) | Returns an enumerator that can iterate through a collection. |
 | Public Method | [GetSysMsgEnumerator](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection~GetSysMsgEnumerator.html) | Returns a typed enumerator that can iterate through a collection. |
 
-[Top](#top)
+

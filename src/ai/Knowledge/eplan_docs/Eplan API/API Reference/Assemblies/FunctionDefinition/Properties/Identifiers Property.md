@@ -9,7 +9,7 @@ Gets/sets all identifiers (i.e. for all available standards)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[] Identifiers {get; set;}

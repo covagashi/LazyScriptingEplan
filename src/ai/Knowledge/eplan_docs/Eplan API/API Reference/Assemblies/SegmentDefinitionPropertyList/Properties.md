@@ -27,4 +27,4 @@ Public Properties
 | Public Property | [WRITEPROTECTED](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.SegmentDefinitionPropertyList~WRITEPROTECTED().html) | Change protection # 3014. |
 | Public Property | [WRITEPROTECTED\_AUTOMATIC](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.SegmentDefinitionPropertyList~WRITEPROTECTED_AUTOMATIC().html) | Change protection (hierarchical) # 3015. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Returns default tab
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonTab GetDefaultTab( 

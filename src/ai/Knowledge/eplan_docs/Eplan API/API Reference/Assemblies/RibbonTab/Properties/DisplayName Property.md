@@ -9,7 +9,7 @@ Returns displayed name of a ribbon tab
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DisplayName {get;}

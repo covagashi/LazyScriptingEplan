@@ -9,7 +9,7 @@ Returns variant number of the assembly.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string VariantNr {get;}

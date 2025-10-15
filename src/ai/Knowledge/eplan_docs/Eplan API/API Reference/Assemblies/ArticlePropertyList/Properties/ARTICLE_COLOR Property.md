@@ -9,7 +9,7 @@ Color # 22080.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_COLOR {get; set;}

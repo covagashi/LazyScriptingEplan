@@ -9,7 +9,7 @@ Scope of data backup
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Backup.Amount : System.Enum

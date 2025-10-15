@@ -9,7 +9,7 @@ Creator: Name 3 # 10234.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATORNAME3 {get; set;}

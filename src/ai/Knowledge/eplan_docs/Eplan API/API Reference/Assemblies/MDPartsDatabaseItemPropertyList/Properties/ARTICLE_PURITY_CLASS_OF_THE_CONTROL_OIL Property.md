@@ -9,7 +9,7 @@ Purity class of the control oil # 26060.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PURITY_CLASS_OF_THE_CONTROL_OIL {get; set;}

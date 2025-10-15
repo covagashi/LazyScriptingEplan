@@ -9,7 +9,7 @@ Has linked segments # 44067.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_HAS_LINKS {get; set;}

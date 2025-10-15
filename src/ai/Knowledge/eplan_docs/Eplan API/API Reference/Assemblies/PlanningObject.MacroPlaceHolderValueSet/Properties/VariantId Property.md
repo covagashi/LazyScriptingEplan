@@ -9,7 +9,7 @@ Variant identifier
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int VariantId {get;}

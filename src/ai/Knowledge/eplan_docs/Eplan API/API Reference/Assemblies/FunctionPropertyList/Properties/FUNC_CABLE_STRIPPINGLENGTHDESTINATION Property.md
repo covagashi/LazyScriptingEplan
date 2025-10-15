@@ -9,7 +9,7 @@ Cable / Conduit: Target: Stripping length # 20082.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_STRIPPINGLENGTHDESTINATION {get; set;}

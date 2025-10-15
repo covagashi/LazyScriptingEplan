@@ -9,7 +9,7 @@ Structure identifiers without separators # 44033.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECTDEFINITION_NO_STRUCTUREDELIMITER {get; set;}

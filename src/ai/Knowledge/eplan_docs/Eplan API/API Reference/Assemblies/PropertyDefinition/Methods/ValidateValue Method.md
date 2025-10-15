@@ -9,7 +9,7 @@ Returns the display string used for a given property value. Validates whether th
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ValidateValue( 

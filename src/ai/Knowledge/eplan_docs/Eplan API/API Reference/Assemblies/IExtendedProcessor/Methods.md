@@ -16,4 +16,4 @@ Public Methods
 | Method | [GetExtendedOptions](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IExtendedProcessor~GetExtendedOptions.html) | Function for extended Options. Set the parameters in the context |
 | Method | [ImportDirect](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IExtendedProcessor~ImportDirect.html) | Imports the file to the system EContext may point to an EProgress object to support a progress bar. Returns true if successful. |
 
-[Top](#top)
+

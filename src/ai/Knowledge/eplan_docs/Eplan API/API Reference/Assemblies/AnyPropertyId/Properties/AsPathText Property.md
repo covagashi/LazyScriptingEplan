@@ -9,7 +9,7 @@ Gets property id value as [Properties.PathText](Eplan.EplApi.DataModelu~Eplan.Ep
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.PathText AsPathText {get;}

@@ -9,7 +9,7 @@ Transport capacity # 26324.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PUMPING_CAPACITY {get; set;}

@@ -15,4 +15,4 @@ Public Properties
 | Public Property | [Languages](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDTranslationDatabase~Languages.html) | Returs the list of translation database languages. |
 | Public Property | [NotTranslatedWords](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDTranslationDatabase~NotTranslatedWords.html) | Gets all not translated words. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Type of line end (0-2)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public sbyte LineEndType {get; set;}

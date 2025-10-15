@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [Commit](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ITransaction~Commit.html) |  |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ITransaction~Dispose().html) |  |
 
-[Top](#top)
+

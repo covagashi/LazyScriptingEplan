@@ -9,7 +9,7 @@ Gets property id value as [Properties.LocationBox](Eplan.EplApi.DataModelu~Eplan
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.LocationBox AsLocationBox {get;}

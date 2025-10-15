@@ -7,7 +7,7 @@
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Comment.Enums.ReviewStateType : System.Enum

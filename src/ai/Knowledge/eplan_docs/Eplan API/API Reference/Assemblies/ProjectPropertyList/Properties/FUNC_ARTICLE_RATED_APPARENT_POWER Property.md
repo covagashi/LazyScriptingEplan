@@ -9,7 +9,7 @@ Rated apparent power # 26235.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_RATED_APPARENT_POWER( 

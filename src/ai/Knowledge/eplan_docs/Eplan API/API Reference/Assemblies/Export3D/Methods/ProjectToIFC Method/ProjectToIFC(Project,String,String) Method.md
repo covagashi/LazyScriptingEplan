@@ -9,7 +9,7 @@ Exports project into files in IFC format.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ProjectToIFC( 

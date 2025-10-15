@@ -20,7 +20,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Property")]
@@ -79,7 +79,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [CommentPropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.CommentPropertyList~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -121,7 +121,7 @@ Public Properties
 | Public Property | [TEXT\_CONTENTS](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextPropertyList~TEXT_CONTENTS().html) | Overloaded. Text contents # 19201. (Inherited from [Eplan.EplApi.DataModel.Graphics.TextPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextPropertyList.html)) |
 | Public Property | [WRITEPROTECTED\_AUTOMATIC](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementPropertyList~WRITEPROTECTED_AUTOMATIC().html) | Overloaded. Change protection (hierarchical) # 3015. (Inherited from [Eplan.EplApi.DataModel.PlacementPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementPropertyList.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -132,4 +132,4 @@ Public Methods
 | Public Method | [Exists](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.CommentPropertyList~Exists.html) | Overloaded. Checks property existence for used obiect. |
 | Public Method | [getPropList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList~getPropList.html) | Internal method. (Inherited from [Eplan.EplApi.DataModel.UniversalPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList.html)) |
 
-[Top](#top)
+

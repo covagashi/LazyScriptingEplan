@@ -9,7 +9,7 @@ Removes pre remove events handler.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemovePreRemoveHandler( 

@@ -9,7 +9,7 @@ Wire termination processing target # 31052.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_TYPEOFENDSTOP_DESTINATION {get; set;}

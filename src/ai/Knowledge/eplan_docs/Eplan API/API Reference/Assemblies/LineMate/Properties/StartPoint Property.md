@@ -9,7 +9,7 @@ Beginning of LineMate. Coordinate is relative if Placement is not defined, other
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D StartPoint {get; set;}

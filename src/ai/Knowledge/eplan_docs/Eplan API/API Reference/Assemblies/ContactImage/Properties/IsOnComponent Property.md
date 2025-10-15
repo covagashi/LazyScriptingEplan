@@ -9,7 +9,7 @@ If `true` then object is displayed next to its parent.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsOnComponent {get; set;}

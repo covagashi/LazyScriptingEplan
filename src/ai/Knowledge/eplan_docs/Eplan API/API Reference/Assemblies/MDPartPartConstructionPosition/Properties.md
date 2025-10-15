@@ -15,4 +15,4 @@ Public Properties
 | Public Property | [OffsetX](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartPartConstructionPosition~OffsetX.html) | The x offset of the referenced construction. |
 | Public Property | [OffsetY](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartPartConstructionPosition~OffsetY.html) | The y offset of the referenced construction. |
 
-[Top](#top)
+

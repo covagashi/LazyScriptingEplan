@@ -9,7 +9,7 @@ Temperature, min. # 26614.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_TEMPERATURE_MIN( 

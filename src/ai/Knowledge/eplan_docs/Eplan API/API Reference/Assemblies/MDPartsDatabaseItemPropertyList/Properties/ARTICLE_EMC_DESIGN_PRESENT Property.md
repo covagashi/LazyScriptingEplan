@@ -9,7 +9,7 @@ EMC version available # 26298.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_EMC_DESIGN_PRESENT {get; set;}

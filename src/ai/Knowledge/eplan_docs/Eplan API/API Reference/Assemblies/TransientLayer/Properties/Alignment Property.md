@@ -9,7 +9,7 @@ Specifies the Justification.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public TransientLayer.AlignmentType Alignment {get;}

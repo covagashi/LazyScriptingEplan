@@ -9,7 +9,7 @@ Settings for how to search.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Search.Settings : System.Enum

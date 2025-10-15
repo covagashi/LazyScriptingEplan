@@ -9,7 +9,7 @@ Gets Gui language.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ISOCode GuiLanguage {get;}

@@ -9,7 +9,7 @@ Exports property placements schemes.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ExportPropertyPlacementsSchemas( 

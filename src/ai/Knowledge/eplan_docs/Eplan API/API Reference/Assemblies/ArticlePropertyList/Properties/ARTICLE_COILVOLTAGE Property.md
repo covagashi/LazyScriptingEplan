@@ -9,7 +9,7 @@ Coil: Voltage # 22218.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_COILVOLTAGE {get; set;}

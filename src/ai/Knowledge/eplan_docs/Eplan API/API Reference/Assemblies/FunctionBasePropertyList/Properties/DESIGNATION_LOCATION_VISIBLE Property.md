@@ -9,7 +9,7 @@ Location designation (visible) # 1229.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_LOCATION_VISIBLE {get; set;}

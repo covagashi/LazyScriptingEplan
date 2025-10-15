@@ -9,7 +9,7 @@ Copy Placement and insert the Copy into destination group. Copied placement will
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement CopyTo( 

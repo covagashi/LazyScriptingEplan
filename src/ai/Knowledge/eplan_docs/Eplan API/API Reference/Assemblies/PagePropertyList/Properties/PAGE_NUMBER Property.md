@@ -9,7 +9,7 @@ Page number # 11042.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_NUMBER {get; set;}

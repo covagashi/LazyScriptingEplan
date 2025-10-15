@@ -9,7 +9,7 @@ Returns [Eplan.EplApi.DataModel.ContextPropertyPlacement.Enums.BasePoint](Eplan.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override ContextPropertyPlacement.Enums.BasePoint BasePoint {set;}

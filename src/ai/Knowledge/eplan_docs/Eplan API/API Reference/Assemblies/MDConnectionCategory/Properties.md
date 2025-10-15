@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [AsMultiLangString](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionCategory~AsMultiLangString.html) | Representation of connection category as a mult-lang string |
 | Public Property | [AsString](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionCategory~AsString.html) | Representation of connection category as a string |
 
-[Top](#top)
+

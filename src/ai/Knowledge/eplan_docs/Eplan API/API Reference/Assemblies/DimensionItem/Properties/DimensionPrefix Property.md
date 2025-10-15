@@ -9,7 +9,7 @@ Gets or sets the prefix of DimensionItem.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DimensionPrefix {get; set;}

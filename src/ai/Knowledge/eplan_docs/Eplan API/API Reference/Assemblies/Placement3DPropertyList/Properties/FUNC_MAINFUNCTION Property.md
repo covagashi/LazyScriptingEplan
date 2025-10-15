@@ -9,7 +9,7 @@ Main function # 20122.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_MAINFUNCTION {get; set;}

@@ -9,7 +9,7 @@ Returns the X position of the referenced door.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double X {get; set;}

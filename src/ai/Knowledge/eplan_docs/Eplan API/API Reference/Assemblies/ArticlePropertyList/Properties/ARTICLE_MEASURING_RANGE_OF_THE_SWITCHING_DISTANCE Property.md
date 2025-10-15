@@ -9,7 +9,7 @@ Measuring range: Switching distance # 26127.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MEASURING_RANGE_OF_THE_SWITCHING_DISTANCE {get; set;}

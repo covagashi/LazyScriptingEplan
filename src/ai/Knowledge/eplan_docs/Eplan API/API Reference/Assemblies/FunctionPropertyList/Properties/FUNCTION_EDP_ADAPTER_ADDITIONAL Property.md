@@ -9,7 +9,7 @@ Eplan Data Portal: Configurator supplementary field # 20288.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION_EDP_ADAPTER_ADDITIONAL {get; set;}

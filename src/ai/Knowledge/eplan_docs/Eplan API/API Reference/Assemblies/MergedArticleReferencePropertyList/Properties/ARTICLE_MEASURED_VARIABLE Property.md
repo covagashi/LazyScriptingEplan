@@ -9,7 +9,7 @@ Measurand # 26460.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MEASURED_VARIABLE {get; set;}

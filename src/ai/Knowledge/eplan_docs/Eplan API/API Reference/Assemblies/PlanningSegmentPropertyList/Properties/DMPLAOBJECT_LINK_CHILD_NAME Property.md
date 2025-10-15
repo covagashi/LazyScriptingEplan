@@ -9,7 +9,7 @@ PLC address: Address # 44023.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLCADDRESS_ADDRESS( 

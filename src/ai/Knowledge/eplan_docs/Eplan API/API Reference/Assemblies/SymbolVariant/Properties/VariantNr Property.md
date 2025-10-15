@@ -9,7 +9,7 @@ Returns number that identifies variant of a Symbol.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int VariantNr {get;}

@@ -31,4 +31,4 @@ Public Methods
 | Public Method | [SetFocusToGED](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Edit~SetFocusToGED.html) | Sets focus to GED frame. |
 | Public Method | [SynchronizeObjectsToNavigators](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Edit~SynchronizeObjectsToNavigators.html) | Synchronize objects selected in GUI navigators. Groups will not be resolved, each object of a group must be given in parameter. |
 
-[Top](#top)
+

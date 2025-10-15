@@ -9,7 +9,7 @@ Removes custom icon from the ribbon bar
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveIcon( 

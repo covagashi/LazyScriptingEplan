@@ -9,7 +9,7 @@ Make # 10030.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_MAKE {get; set;}

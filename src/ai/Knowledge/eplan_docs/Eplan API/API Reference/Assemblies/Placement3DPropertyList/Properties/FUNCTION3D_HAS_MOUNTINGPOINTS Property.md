@@ -9,7 +9,7 @@ Has mounting points # 36104.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_HAS_MOUNTINGPOINTS {get; set;}

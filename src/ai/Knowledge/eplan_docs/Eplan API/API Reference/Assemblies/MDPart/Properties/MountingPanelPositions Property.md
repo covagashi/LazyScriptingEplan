@@ -9,7 +9,7 @@ Get all support mounting panel positions of the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartMountingPanelPosition[] MountingPanelPositions {get;}

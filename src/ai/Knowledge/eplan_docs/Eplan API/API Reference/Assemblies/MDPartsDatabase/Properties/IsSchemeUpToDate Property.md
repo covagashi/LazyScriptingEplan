@@ -9,7 +9,7 @@ Test, whether the scheme of the database is up to date.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsSchemeUpToDate {get;}

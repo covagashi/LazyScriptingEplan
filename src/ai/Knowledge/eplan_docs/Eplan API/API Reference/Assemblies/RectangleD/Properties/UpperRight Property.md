@@ -9,7 +9,7 @@ Returns upper right corner of the rectangle.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD UpperRight {get;}

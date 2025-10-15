@@ -9,7 +9,7 @@ Checks if device to which connection is assign is fixed or not.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsFixedDevice {get;}

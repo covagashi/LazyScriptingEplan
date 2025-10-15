@@ -9,7 +9,7 @@ Imports descriptions from pre-planning to project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ImportDescriptions( 

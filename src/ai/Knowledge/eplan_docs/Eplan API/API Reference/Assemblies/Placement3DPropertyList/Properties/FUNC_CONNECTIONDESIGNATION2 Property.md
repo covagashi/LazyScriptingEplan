@@ -9,7 +9,7 @@ Connection point designation 2 # 20076.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CONNECTIONDESIGNATION2 {get; set;}

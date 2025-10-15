@@ -12,4 +12,4 @@ Public Fields
 | --- | --- | --- |
 | Public Fieldstatic (Shared in Visual Basic) | [LicenseRuntimeCheckEvent](Eplan.EplApi.Systemu~Eplan.EplApi.System.EplApplication~LicenseRuntimeCheckEvent.html) | License runtime check callback event |
 
-[Top](#top)
+

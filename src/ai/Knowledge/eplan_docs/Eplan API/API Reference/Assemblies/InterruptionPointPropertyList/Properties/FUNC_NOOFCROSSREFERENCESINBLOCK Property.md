@@ -9,7 +9,7 @@ Cross-reference display: Number of rows / columns # 20050.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_NOOFCROSSREFERENCESINBLOCK {get; set;}

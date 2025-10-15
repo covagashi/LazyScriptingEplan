@@ -9,7 +9,7 @@ Creates locked mounting area object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

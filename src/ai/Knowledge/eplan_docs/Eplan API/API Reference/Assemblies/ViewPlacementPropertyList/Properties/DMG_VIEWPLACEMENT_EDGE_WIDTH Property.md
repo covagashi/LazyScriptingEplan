@@ -9,7 +9,7 @@ Model view: Edge width # 36524.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_EDGE_WIDTH {get; set;}

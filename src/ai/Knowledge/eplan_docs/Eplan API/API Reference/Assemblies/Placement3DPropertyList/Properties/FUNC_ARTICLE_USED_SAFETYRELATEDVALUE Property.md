@@ -9,7 +9,7 @@ Safety-related values: Use case in use # 20307.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_USED_SAFETYRELATEDVALUE( 

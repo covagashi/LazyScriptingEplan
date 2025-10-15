@@ -9,7 +9,7 @@ Connection point logic: Transfer potential to # 20326.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_LOGDEF_POTENTIALTRANSFER( 

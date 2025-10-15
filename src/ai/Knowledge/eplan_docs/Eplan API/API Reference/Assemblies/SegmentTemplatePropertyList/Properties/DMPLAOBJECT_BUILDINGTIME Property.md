@@ -9,7 +9,7 @@ Expenditure construction # 44014.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_BUILDINGTIME {get; set;}

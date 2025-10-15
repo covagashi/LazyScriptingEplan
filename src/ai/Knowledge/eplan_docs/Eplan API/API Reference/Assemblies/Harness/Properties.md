@@ -78,4 +78,4 @@ Public Properties
 | Public Property | [WireHarnessName](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Harness~WireHarnessName.html) | Gets or sets wire harness name. |
 | Public Property | [WriteProtected](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function~WriteProtected.html) | Check if object is currently write protected or sets Manual write protection (Inherited from [Eplan.EplApi.DataModel.Function](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function.html)) |
 
-[Top](#top)
+

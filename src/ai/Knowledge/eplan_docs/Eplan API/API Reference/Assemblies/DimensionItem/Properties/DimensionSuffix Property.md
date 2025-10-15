@@ -9,7 +9,7 @@ Gets or sets the suffix of DimensionItem.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DimensionSuffix {get; set;}

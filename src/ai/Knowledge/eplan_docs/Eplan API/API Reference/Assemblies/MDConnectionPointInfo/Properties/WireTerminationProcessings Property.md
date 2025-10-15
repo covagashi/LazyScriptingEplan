@@ -9,7 +9,7 @@ Returns a map of ids and theirs names of all possible wire termination processin
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public IDictionary<short,MultiLangString> WireTerminationProcessings {get;}

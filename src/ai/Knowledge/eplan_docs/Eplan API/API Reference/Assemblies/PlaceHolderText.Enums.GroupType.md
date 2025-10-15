@@ -9,7 +9,7 @@ Group type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum PlaceHolderText.Enums.GroupType : System.Enum

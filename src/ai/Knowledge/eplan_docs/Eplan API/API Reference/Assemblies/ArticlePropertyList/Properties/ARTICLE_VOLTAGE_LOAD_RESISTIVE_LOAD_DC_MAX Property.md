@@ -9,7 +9,7 @@ Voltage load (resistive load, DC), max. # 26148.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_VOLTAGE_LOAD_RESISTIVE_LOAD_DC_MAX {get; set;}

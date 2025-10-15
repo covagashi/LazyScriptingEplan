@@ -9,7 +9,7 @@ Returns [Eplan.EplApi.DataModel.EObjects.Plug](Eplan.EplApi.DataModelu~Eplan.Epl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Plug[] GetPlugsWithFilterScheme( 

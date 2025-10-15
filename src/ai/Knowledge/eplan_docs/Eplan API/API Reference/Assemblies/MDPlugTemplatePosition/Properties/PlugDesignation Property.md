@@ -9,7 +9,7 @@ Plug designation
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PlugDesignation {get; set;}

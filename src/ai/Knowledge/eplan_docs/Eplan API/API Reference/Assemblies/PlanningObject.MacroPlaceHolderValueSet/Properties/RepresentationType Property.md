@@ -9,7 +9,7 @@ Representation type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int RepresentationType {get;}

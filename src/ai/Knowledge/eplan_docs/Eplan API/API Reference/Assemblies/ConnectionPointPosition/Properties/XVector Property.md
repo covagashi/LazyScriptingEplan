@@ -9,7 +9,7 @@ The X-vector of the connection point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double XVector {get; set;}

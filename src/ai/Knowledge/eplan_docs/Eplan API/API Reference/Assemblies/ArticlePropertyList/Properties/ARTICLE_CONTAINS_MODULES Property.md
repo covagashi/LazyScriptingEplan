@@ -9,7 +9,7 @@ Contains modules # 22424.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CONTAINS_MODULES {get; set;}

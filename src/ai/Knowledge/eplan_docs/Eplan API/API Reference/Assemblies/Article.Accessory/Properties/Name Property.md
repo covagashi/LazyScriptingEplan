@@ -9,7 +9,7 @@ Returns Name (part number) of the article that is referenced from this accessory
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get;}

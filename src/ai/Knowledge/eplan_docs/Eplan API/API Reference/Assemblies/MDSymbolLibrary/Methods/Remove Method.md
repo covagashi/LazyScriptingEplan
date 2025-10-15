@@ -9,7 +9,7 @@ Removes the symbol library.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Remove()

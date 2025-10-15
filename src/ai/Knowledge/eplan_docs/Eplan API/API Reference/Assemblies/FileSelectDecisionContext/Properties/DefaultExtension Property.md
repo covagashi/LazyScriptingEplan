@@ -9,7 +9,7 @@ The default extension of the files to select.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DefaultExtension {get; set;}

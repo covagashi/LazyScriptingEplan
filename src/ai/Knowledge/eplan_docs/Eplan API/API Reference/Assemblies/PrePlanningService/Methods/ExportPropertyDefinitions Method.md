@@ -9,7 +9,7 @@ Exports all user defined properties from project to file. Properties identified 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExportPropertyDefinitions( 

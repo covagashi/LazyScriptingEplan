@@ -9,7 +9,7 @@ Compares every string in every language. If a string is different in one languag
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsEqual( 

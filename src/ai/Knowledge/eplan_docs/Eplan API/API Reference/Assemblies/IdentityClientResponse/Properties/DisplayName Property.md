@@ -9,7 +9,7 @@ DisplayName.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DisplayName {get; set;}

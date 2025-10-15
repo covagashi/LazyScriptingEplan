@@ -9,7 +9,7 @@ Product aspect (single component) # 1828.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_PRODUCT_PART {get; set;}

@@ -9,7 +9,7 @@ Function designation (leading identifiers) # 1122.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_PLANT_LEADINGPARTS( 

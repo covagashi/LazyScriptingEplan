@@ -9,7 +9,7 @@ Sets the contents of a MultiLangString with a string passed as argument using la
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetAsString( 

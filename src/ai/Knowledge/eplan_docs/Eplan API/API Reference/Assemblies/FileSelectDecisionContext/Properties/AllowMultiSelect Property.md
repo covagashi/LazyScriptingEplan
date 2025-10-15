@@ -9,7 +9,7 @@ Set or get the flag for multi selection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AllowMultiSelect {get; set;}

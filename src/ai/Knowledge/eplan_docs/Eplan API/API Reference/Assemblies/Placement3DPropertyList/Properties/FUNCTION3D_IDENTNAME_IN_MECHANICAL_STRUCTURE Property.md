@@ -9,7 +9,7 @@ Designation in mechanics structure # 36016.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_IDENTNAME_IN_MECHANICAL_STRUCTURE {get; set;}

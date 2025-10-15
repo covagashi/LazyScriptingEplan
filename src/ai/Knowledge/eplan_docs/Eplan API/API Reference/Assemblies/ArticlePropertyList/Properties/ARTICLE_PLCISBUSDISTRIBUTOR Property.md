@@ -9,7 +9,7 @@ Bus distribution device # 22053.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PLCISBUSDISTRIBUTOR {get; set;}

@@ -29,4 +29,4 @@ Public Fields
 | Public Fieldstatic (Shared in Visual Basic) | [RevisionMarkerNewInEvaluation](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Color+Id~RevisionMarkerNewInEvaluation.html) |  |
 | Public Fieldstatic (Shared in Visual Basic) | [Yellow](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Color+Id~Yellow.html) |  |
 
-[Top](#top)
+

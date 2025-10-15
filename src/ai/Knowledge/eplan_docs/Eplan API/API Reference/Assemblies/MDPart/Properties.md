@@ -33,4 +33,4 @@ Public Properties
 | Public Property | [UserDefinedPropertyPositions](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPart~UserDefinedPropertyPositions.html) | Gets all user defined property positions |
 | Public Property | [Variant](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPart~Variant.html) | Returns the variant of the part. |
 
-[Top](#top)
+

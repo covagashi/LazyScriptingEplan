@@ -9,7 +9,7 @@ Activate or deactivate connection dirty bit handling. Helper will switch mode au
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetConnectionDirtyActive( 

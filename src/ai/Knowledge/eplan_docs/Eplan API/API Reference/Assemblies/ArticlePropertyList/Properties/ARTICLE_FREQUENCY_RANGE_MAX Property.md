@@ -9,7 +9,7 @@ Frequency range, max. # 26330.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_FREQUENCY_RANGE_MAX {get; set;}

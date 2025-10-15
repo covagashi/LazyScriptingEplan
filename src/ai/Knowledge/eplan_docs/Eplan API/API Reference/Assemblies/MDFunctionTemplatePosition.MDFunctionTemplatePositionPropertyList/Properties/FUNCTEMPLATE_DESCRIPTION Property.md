@@ -9,7 +9,7 @@ Description # 20254.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNCTEMPLATE_DESCRIPTION {get; set;}

@@ -28,4 +28,4 @@ Public Methods
 | Public Method | [TranslateProject](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Translate~TranslateProject.html) | Translates all texts in the specified project. |
 | Public Method | [TranslateText](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Translate~TranslateText.html) | Get translation for the given text, according to project settings. |
 
-[Top](#top)
+

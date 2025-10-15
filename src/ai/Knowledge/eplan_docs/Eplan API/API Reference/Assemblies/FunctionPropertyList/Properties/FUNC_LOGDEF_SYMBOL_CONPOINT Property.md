@@ -9,7 +9,7 @@ Connection point logic: Symbol connection point # 20373.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_LOGDEF_SYMBOL_CONPOINT( 

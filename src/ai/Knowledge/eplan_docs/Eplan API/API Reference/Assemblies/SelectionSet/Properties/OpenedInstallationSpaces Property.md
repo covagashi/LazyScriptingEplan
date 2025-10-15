@@ -9,7 +9,7 @@ Gets installation spaces opened in GED.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InstallationSpace[] OpenedInstallationSpaces {get;}

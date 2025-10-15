@@ -9,7 +9,7 @@ Marked for deletion # 20186.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION_PLCIMPORTCOMPARE_MARKEDTOBEDELETED {get; set;}

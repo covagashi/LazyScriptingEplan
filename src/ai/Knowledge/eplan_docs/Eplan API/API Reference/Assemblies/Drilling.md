@@ -17,7 +17,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Drilling : Function3D, Eplan.EplApi.DataModel.IArticleUser, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
@@ -37,7 +37,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Drilling Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Drilling~_ctor().html) | Default constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -95,7 +95,7 @@ Public Properties
 | Public Property | [VisibleName](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Function3D~VisibleName.html) | Returns the visible name of the Function3D. (Inherited from [Eplan.EplApi.DataModel.E3D.Function3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Function3D.html)) |
 | Public Property | [VisibleNameParts](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Function3D~VisibleNameParts.html) | Returns visible name of the Function3D. (Inherited from [Eplan.EplApi.DataModel.E3D.Function3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Function3D.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -149,4 +149,4 @@ Public Methods
 | Public Method | [ToStringIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~ToStringIdentifier.html) | Returns this object as string identifier. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 | Public Method | [updateDrilling](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Drilling~updateDrilling.html) | Updates the drilling (especially his height). |
 
-[Top](#top)
+

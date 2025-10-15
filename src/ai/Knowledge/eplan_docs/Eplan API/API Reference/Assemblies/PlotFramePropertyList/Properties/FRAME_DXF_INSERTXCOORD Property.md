@@ -9,7 +9,7 @@ DXF export: Insertion point (X) # 12051.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_DXF_INSERTXCOORD {get; set;}

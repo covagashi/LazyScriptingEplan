@@ -9,7 +9,7 @@ Function group. Used by getNamePrototype method.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Project.FunctionGroup : System.Enum

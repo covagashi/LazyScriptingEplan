@@ -9,7 +9,7 @@ Opens the page and selects the Placement passed as oPlacementToSelect. The Place
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void OpenPageWithPlacement( 

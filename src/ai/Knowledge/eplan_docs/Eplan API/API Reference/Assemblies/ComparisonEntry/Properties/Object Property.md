@@ -9,7 +9,7 @@ Returns object which was changed/added or null if object was deleted.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject Object {get;}

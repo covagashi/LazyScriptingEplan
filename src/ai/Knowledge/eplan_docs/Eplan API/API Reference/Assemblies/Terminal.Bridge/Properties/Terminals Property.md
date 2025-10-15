@@ -9,7 +9,7 @@ An array of all terminals that the bridge connects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Terminal[] Terminals {get;}

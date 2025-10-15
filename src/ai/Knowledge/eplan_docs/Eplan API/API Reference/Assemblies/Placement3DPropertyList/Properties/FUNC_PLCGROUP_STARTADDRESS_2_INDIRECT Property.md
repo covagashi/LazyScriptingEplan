@@ -9,7 +9,7 @@ Start address 2 of PLC card (indirect) # 20298.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_STARTADDRESS_2_INDIRECT {get; set;}

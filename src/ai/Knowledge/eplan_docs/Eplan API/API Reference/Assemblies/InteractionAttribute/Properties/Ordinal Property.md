@@ -9,7 +9,7 @@ Overload level of interaction.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Ordinal {get; set;}

@@ -9,7 +9,7 @@ Adds or saves element representing property placements configuration for the sym
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolReference.PropertyPlacementsSchema Add( 

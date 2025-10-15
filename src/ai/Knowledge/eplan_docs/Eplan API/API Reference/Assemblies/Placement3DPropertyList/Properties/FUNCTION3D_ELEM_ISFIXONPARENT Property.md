@@ -9,7 +9,7 @@ Item is immovably attached to the superior item # 36010.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_ELEM_ISFIXONPARENT {get; set;}

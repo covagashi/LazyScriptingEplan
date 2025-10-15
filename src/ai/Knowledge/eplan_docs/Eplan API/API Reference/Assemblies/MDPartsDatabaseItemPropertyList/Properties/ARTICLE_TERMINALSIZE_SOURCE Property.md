@@ -9,7 +9,7 @@ Connection dimension source # 22281.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TERMINALSIZE_SOURCE {get; set;}

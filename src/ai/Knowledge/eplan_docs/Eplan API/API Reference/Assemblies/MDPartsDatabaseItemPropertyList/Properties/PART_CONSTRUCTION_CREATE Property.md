@@ -9,7 +9,7 @@ Creator / Creation date (drilling pattern) # 22939.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_CONSTRUCTION_CREATE {get; set;}

@@ -9,7 +9,7 @@ Function group # 20489.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_FUNCTIONGROUP {get; set;}

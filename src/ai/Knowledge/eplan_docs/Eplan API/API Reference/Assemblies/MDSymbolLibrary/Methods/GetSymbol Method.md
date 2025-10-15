@@ -9,7 +9,7 @@ Gets a Symbol object out of the library.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDSymbol GetSymbol( 

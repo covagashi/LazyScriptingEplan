@@ -9,7 +9,7 @@ DT (subordinate): Subcounter # 20019.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_NESTEDSUFFIX {get; set;}

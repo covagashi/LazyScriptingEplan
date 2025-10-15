@@ -9,7 +9,7 @@ Places a window macro with snapping source mate to a target mate from another ob
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement3D[] WindowMacro( 

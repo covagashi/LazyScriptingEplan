@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionEvent~Dispose().html) | Destructor for deterministic finalization of InteractionEvent object. |
 
-[Top](#top)
+

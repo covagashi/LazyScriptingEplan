@@ -9,7 +9,7 @@ EPLAN properties of the StructureSegment object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new StructureSegmentPropertyList Properties {get;}

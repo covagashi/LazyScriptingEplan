@@ -9,7 +9,7 @@ Distributed terminals cross-reference # 20252.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DISTRIBUTED_TERMINAL_CROSSREFERENCE {get; set;}

@@ -9,7 +9,7 @@ PLC subdevice 9: PLC type designation # 20589.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_TYPEIDENTIFIER_9 {get; set;}

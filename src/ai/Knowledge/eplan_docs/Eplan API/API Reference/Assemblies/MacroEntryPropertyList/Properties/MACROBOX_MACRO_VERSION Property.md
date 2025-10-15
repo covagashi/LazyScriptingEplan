@@ -9,7 +9,7 @@ Macro: Version # 23002.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROBOX_MACRO_VERSION {get; set;}

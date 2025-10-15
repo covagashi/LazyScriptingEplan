@@ -9,7 +9,7 @@ Is called when some object will be removed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public delegate void ProjectEventsProvider.PreRemoveHandler( 

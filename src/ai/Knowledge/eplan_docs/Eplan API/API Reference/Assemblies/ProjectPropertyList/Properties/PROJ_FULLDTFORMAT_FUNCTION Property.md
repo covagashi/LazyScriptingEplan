@@ -9,7 +9,7 @@ Format of full DT: General devices # 10640.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_FULLDTFORMAT_FUNCTION {get; set;}

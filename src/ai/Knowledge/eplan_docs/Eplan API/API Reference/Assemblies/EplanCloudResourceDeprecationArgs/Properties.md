@@ -15,4 +15,4 @@ Public Properties
 | Public Property | [Sunset](Eplan.IdentityClient.Authentification~Eplan.IdentityClient.EplanCloudResourceDeprecationArgs~Sunset.html) | Date when the Eplan Cloud resource is expected to become unresponsive |
 | Public Property | [Uri](Eplan.IdentityClient.Authentification~Eplan.IdentityClient.EplanCloudResourceDeprecationArgs~Uri.html) | Uri of the Deprecated Eplan Cloud resource |
 
-[Top](#top)
+

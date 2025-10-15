@@ -9,7 +9,7 @@ Ambient temperature (during operation), min. # 26158.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MIN_AMBIENT_TEMPERATURE_DURING_OPERATION {get; set;}

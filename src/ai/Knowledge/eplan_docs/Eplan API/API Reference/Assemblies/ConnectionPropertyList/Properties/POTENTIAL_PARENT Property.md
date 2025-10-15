@@ -9,7 +9,7 @@ Superior potential # 33001.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue POTENTIAL_PARENT {get; set;}

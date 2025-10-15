@@ -17,4 +17,4 @@ Public Properties
 | Public Property | [ConnectionDirtyActive](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ChangeInfoService~ConnectionDirtyActive.html) | Activate or deactivate connection dirty bit handling. |
 | Public Property | [Obj2PageActive](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ChangeInfoService~Obj2PageActive.html) | Activate or deactivate change info handling if object belongs to page. |
 
-[Top](#top)
+

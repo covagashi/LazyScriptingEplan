@@ -9,7 +9,7 @@ Default constructor. Creates the Group3D object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Group3D()

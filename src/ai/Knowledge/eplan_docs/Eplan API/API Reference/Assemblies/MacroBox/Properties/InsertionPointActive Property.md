@@ -9,7 +9,7 @@ InsertionPoint
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool InsertionPointActive {get; set;}

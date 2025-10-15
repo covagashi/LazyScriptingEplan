@@ -9,7 +9,7 @@ Returns the placement type of the Symbol.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DocumentTypeManager.DocumentType PlacementType {get; set;}

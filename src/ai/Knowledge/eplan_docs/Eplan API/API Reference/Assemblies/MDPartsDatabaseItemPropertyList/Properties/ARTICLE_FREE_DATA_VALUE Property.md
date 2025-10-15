@@ -9,7 +9,7 @@ Free properties: Value # 22147.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_FREE_DATA_VALUE( 

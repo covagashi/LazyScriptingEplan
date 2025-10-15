@@ -9,7 +9,7 @@ Constructor to initialize a point with a set of coordinates.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD( 

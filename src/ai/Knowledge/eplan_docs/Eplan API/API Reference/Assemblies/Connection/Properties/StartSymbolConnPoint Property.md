@@ -9,7 +9,7 @@ Returns the [PinBase](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase.htm
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PinBase StartSymbolConnPoint {get;}

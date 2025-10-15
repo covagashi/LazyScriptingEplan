@@ -9,7 +9,7 @@ Representation of connection category as a mult-lang string
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString AsMultiLangString {get;}

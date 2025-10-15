@@ -9,7 +9,7 @@ Increment in Y direction
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double IncrementY {get;}

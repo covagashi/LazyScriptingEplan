@@ -9,7 +9,7 @@ Stores data from connection point position.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void StoreToObject()

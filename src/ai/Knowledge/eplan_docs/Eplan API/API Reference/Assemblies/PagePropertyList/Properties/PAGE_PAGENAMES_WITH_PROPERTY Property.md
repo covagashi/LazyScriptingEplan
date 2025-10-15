@@ -9,7 +9,7 @@ Page names per property # 11063.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_PAGENAMES_WITH_PROPERTY {get; set;}

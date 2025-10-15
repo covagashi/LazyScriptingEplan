@@ -9,7 +9,7 @@ Connection dimension target # 22282.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TERMINALSIZE_DESTINATION {get; set;}

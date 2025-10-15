@@ -9,7 +9,7 @@ Returns the part type of the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override MDPartsDatabaseItem.Enums.Type Type {get; set;}

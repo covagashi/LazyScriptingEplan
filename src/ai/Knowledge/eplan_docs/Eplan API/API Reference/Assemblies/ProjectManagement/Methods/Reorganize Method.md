@@ -9,7 +9,7 @@ Reorganizes a project
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Reorganize( 

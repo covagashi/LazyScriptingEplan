@@ -9,7 +9,7 @@ Count of objects referenced by the PlaceHolder.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual int NumberOfReferences {get;}

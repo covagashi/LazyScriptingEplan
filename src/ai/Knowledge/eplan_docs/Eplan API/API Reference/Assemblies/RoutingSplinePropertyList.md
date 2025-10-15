@@ -19,7 +19,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Property")]
@@ -78,7 +78,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [RoutingSplinePropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.RoutingSplinePropertyList~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -1218,7 +1218,7 @@ Public Properties
 | Public Property | [WRITEPROTECTED](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList~WRITEPROTECTED().html) | Overloaded. Change protection # 3014. (Inherited from [Eplan.EplApi.DataModel.E3D.Placement3DPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList.html)) |
 | Public Property | [WRITEPROTECTED\_AUTOMATIC](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList~WRITEPROTECTED_AUTOMATIC().html) | Overloaded. Change protection (hierarchical) # 3015. (Inherited from [Eplan.EplApi.DataModel.E3D.Placement3DPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -1229,4 +1229,4 @@ Public Methods
 | Public Method | [Exists](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Function3DPropertyList~Exists.html) | Overloaded. Checks property existence for used obiect. (Inherited from [Eplan.EplApi.DataModel.E3D.Function3DPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Function3DPropertyList.html)) |
 | Public Method | [getPropList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList~getPropList.html) | Internal method. (Inherited from [Eplan.EplApi.DataModel.UniversalPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList.html)) |
 
-[Top](#top)
+

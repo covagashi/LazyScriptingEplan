@@ -9,7 +9,7 @@ Level in a multi-level terminal.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Level {get; set;}

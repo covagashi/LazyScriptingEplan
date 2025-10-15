@@ -9,7 +9,7 @@ Activates the properties of the installation space for the place holder object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsDocumentReferenceActive {get; set;}

@@ -9,7 +9,7 @@ Returns whether ribbon tab is visible
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsVisible {get;}

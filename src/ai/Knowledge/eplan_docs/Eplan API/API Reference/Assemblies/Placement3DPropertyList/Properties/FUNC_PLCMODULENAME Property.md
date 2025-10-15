@@ -9,7 +9,7 @@ PLC card name # 20437.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCMODULENAME {get; set;}

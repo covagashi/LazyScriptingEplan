@@ -9,7 +9,7 @@ Representation type # 20121.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TYPE {get; set;}

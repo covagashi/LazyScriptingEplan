@@ -9,7 +9,7 @@ Designed as outdoor cable # 26023.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DESIGN_AS_OUTDOOR_CABLE {get; set;}

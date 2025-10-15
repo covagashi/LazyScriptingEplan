@@ -12,7 +12,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class RemotingCallingContext
@@ -25,7 +25,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [RemotingCallingContext Constructor](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -37,7 +37,7 @@ Public Fields
 | Public Field | [m\_strOperationType](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~m_strOperationType.html) |  |
 | Public Field | [m\_strProjectName](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~m_strProjectName.html) |  |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -53,4 +53,4 @@ Public Methods
 | Public Method | [RemoveParameter](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~RemoveParameter.html) |  |
 | Public Method | [SetValid](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~SetValid.html) |  |
 
-[Top](#top)
+

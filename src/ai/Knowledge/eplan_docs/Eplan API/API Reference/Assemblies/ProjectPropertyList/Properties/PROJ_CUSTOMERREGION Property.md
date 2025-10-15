@@ -9,7 +9,7 @@ Customer: State / Region # 10114.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CUSTOMERREGION {get; set;}

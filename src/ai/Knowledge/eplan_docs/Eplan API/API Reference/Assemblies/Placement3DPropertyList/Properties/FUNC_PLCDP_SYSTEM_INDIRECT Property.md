@@ -9,7 +9,7 @@ Physical network: Name (indirect) # 20425.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCDP_SYSTEM_INDIRECT {get; set;}

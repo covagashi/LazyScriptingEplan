@@ -9,7 +9,7 @@ Gets or sets the end point of the DimensionItem.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD EndPoint {get; set;}

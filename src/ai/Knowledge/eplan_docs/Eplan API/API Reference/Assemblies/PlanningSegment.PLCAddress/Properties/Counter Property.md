@@ -9,7 +9,7 @@ For PLC inputs you determine with this check box whether it is a counter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Counter {get; set;}

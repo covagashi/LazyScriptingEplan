@@ -9,7 +9,7 @@ AuthenticationData constructor.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public AuthenticationData()

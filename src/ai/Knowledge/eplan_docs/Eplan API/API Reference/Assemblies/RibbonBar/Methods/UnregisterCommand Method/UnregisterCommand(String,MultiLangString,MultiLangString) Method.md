@@ -9,7 +9,7 @@ Removes a command from the ribbon. If the ribbon doesn't exist yet, the command 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void UnregisterCommand( 

@@ -9,7 +9,7 @@ Cross-section # 26134.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CROSS_SECTION {get; set;}

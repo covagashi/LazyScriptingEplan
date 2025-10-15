@@ -19,4 +19,4 @@ Public Properties
 | Public Property | [Language](Eplan.EplApi.Baseu~Eplan.EplApi.Base.LanguageList~Language.html) | Determines the ISO code of the given index. |
 | Public Property | [SyncRoot](#) | (Inherited from [System.Collections.ArrayList](#)) |
 
-[Top](#top)
+

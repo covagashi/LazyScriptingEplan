@@ -9,7 +9,7 @@ Indicates whether the converter provides an export option.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool CanExport( 

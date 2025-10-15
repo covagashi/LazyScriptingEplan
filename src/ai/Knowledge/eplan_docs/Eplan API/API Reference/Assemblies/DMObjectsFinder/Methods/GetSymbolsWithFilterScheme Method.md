@@ -9,7 +9,7 @@ Returns [Eplan.EplApi.DataModel.MasterData.Symbol](Eplan.EplApi.DataModelu~Eplan
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Symbol[] GetSymbolsWithFilterScheme( 

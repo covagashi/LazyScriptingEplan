@@ -9,7 +9,7 @@ Auxiliary terminal # 20228.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_SECONDARY {get; set;}

@@ -9,7 +9,7 @@ Starting angle # 19323.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_ARC_STARTANGLE {get; set;}

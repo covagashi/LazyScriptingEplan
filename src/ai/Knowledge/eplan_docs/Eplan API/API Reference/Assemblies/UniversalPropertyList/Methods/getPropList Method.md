@@ -9,7 +9,7 @@ Internal method.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EPropertyList getPropList()

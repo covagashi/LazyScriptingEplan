@@ -9,7 +9,7 @@ Project structure: Location designation # 10004.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_LOCATION {get; set;}

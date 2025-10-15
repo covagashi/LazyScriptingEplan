@@ -9,7 +9,7 @@ Macro: Description # 23004.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROBOX_MACRO_DESCRIPTION {get; set;}

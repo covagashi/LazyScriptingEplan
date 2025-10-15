@@ -9,7 +9,7 @@ Specifies the Row Spacing. This property is used for PropertyPlacemets attribute
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double RowSpacing {get; set;}

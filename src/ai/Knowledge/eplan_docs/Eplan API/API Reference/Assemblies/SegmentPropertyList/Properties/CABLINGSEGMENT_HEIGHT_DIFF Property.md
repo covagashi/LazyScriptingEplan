@@ -9,7 +9,7 @@ Topology: Height difference # 20347.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLINGSEGMENT_HEIGHT_DIFF {get; set;}

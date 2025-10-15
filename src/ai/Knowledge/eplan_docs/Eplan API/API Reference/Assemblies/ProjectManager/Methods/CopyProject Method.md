@@ -9,7 +9,7 @@ Copies project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CopyProject( 

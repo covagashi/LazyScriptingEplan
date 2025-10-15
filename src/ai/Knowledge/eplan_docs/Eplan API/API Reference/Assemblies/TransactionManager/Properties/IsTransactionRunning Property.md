@@ -9,7 +9,7 @@ Tells if a read-write API transaction is open.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsTransactionRunning {get;}

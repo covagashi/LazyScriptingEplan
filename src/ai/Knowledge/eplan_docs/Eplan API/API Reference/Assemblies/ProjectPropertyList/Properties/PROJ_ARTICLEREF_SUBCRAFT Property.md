@@ -9,7 +9,7 @@ Subtrade of part reference # 20914.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ARTICLEREF_SUBCRAFT( 

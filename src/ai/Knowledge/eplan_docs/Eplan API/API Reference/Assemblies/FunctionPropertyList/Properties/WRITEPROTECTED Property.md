@@ -9,7 +9,7 @@ Change protection # 3014.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue WRITEPROTECTED {get; set;}

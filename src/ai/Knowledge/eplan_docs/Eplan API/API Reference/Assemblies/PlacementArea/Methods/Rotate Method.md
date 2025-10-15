@@ -9,7 +9,7 @@ Rotates placement area about normal vector.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Rotate( 

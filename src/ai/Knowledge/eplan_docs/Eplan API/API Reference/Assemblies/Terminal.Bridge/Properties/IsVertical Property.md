@@ -9,7 +9,7 @@ Returns information whether the bridge is 'vertical', i.e. whether it connects o
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsVertical {get;}

@@ -9,7 +9,7 @@ Returns size of the bitmap in pixels.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD GetPhysicalDimensionOfImage( 

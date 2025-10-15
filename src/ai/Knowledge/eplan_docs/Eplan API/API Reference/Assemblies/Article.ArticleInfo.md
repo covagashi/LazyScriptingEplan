@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public struct Article.ArticleInfo : System.ValueType, IArticleInfo
@@ -28,7 +28,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Article.ArticleInfo Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article+ArticleInfo~_ctor.html) | Default constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -38,4 +38,4 @@ Public Properties
 | Public Property | [partNumber](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article+ArticleInfo~partNumber.html) | Sets the part number of the Article; |
 | Public Property | [partVariant](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article+ArticleInfo~partVariant.html) | Sets the part variant of the Article; |
 
-[Top](#top)
+

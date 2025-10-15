@@ -9,7 +9,7 @@ The ID of the message.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int MessageId {get;}

@@ -9,7 +9,7 @@ Opens the installation space which contains a given function. The function is se
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void OpenInstallationSpaceWithDeviceName( 

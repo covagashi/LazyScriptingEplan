@@ -9,7 +9,7 @@ Is called after stop of the current interaction and this interaction is reactiva
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void OnReactivate()

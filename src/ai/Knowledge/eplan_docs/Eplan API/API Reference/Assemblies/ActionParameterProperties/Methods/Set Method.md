@@ -9,7 +9,7 @@ Description text of a parameter. Sets name and description text of a parameter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Set( 

@@ -9,7 +9,7 @@ Contents of object represented by this type.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual MultiLangString Contents {get; set;}

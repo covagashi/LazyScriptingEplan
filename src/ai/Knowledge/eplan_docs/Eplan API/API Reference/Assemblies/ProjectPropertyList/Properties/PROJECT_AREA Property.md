@@ -9,7 +9,7 @@ AutomationML: Building # 10952.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJECT_AREA {get; set;}

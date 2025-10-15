@@ -9,7 +9,7 @@ Number allowed # 23201.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DEVICELISTENTRY_COUNTALLOWED {get; set;}

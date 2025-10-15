@@ -9,7 +9,7 @@ Standard gateway # 20613.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLC_STANDARDGATEWAY {get; set;}

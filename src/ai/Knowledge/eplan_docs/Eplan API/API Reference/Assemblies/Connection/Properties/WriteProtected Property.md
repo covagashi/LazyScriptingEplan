@@ -9,7 +9,7 @@ Check if object is currently write protected or sets Manual write protection
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool WriteProtected {get; set;}

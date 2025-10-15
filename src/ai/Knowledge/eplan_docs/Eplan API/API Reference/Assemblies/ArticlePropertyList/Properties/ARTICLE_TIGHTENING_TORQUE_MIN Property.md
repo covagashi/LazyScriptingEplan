@@ -9,7 +9,7 @@ Tightening torque, min. # 26082.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TIGHTENING_TORQUE_MIN {get; set;}

@@ -25,4 +25,4 @@ Public Properties
 | Public Property | [Properties](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MergedArticleReference~Properties.html) | List of P8 properties of the MergedArticleReference object. |
 | Public Property | [TypeIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TypeIdentifier.html) | Returns the type of the object as number. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 
-[Top](#top)
+

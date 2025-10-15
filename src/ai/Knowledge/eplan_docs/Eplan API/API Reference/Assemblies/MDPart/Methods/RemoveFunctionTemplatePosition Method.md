@@ -9,7 +9,7 @@ Removes the given functionTemplate from the part
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveFunctionTemplatePosition( 

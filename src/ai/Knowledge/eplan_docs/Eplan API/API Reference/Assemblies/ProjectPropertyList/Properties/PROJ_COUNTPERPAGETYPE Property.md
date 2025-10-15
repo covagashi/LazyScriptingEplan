@@ -9,7 +9,7 @@ Number of pages per page type # 10200.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_COUNTPERPAGETYPE( 

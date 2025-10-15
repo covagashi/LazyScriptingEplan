@@ -9,7 +9,7 @@ Gets currently used scheme Id that was selected in the GUI in ribbon Tools / Pro
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short PropertyPlacementsSchemaId {get;}

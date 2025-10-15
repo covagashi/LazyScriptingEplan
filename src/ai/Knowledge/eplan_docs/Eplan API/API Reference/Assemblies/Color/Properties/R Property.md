@@ -9,7 +9,7 @@ Gets or sets the red channel value of color (0-255)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public byte R {get; set;}

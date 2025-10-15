@@ -9,7 +9,7 @@ User-defined structure with preceding sign # 1640.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLUSERDEFINED_WITHPREFIX {get; set;}

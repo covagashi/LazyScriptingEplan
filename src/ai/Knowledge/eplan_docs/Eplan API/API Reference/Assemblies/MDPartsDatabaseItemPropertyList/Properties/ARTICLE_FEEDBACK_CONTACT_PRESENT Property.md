@@ -9,7 +9,7 @@ Feedback contact available # 26061.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_FEEDBACK_CONTACT_PRESENT {get; set;}

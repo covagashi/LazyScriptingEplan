@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MountingPointMate : PointMate
@@ -29,7 +29,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MountingPointMate Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.MountingPointMate~_ctor().html) | Default constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -47,7 +47,7 @@ Public Properties
 | Public Property | [Source](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~Source.html) | Returns object from which the mate was returned or changed by: Placement3D.GetTargetMates, Placement3D.GetSourceMates, Placement3D.AddMatePersistent or BaseMate property. (Inherited from [Eplan.EplApi.DataModel.E3D.Mate](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate.html)) |
 | Public Property | [Transformation](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~Transformation.html) | Position and rotation relative to the parent placement represented by transformation matrix. (Inherited from [Eplan.EplApi.DataModel.E3D.Mate](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -63,4 +63,4 @@ Public Methods
 | Public Method | [StoreToObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~StoreToObject.html) | Stores changes into a project database. (Inherited from [Eplan.EplApi.DataModel.E3D.Mate](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate.html)) |
 | Public Method | [Transform](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~Transform.html) | Transform mate position. (Inherited from [Eplan.EplApi.DataModel.E3D.Mate](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate.html)) |
 
-[Top](#top)
+

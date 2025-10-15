@@ -9,7 +9,7 @@ Creates connection between two 3d placements without specifying connection point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

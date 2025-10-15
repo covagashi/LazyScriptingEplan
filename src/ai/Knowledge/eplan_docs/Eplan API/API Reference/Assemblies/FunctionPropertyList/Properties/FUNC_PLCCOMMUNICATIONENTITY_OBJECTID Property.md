@@ -9,7 +9,7 @@ Object ID of communication unit # 20098.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCOMMUNICATIONENTITY_OBJECTID( 

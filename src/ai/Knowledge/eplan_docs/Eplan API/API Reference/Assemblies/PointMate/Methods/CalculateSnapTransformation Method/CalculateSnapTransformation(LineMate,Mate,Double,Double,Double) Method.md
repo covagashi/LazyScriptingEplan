@@ -9,7 +9,7 @@ calculate a transformation matrix, that can be used to transform the associated 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Matrix3D CalculateSnapTransformation( 

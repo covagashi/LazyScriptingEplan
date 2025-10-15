@@ -9,7 +9,7 @@ Part is accessory # 22054.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_IS_ACCESSORY {get; set;}

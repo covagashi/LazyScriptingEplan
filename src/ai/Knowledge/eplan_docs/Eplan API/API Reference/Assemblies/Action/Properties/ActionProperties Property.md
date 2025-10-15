@@ -9,7 +9,7 @@ Descriptive data for this action.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ActionProperties ActionProperties {get;}

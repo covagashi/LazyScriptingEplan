@@ -9,7 +9,7 @@ do a labeling for a given objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DoLabel( 

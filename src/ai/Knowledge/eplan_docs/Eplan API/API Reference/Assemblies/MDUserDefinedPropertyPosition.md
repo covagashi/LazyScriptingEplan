@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDUserDefinedPropertyPosition : MDPartsDatabaseItemChildData
@@ -29,7 +29,7 @@ Public Properties
 | Public Property | [IdentifyingName](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDUserDefinedPropertyPosition~IdentifyingName.html) | Returns identifying name |
 | Public Property | [Value](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDUserDefinedPropertyPosition~Value.html) | Returns value |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -37,4 +37,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose()](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData~Dispose().html) | Destructor for deterministic finalization of MDUserDefinedPropertyPosition object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData.html)) |
 
-[Top](#top)
+

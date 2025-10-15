@@ -16,4 +16,4 @@ Public Methods
 | Public Method | [RemoveDrillingPosition](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConstruction~RemoveDrillingPosition.html) | Removes the given drilling position from the part. |
 | Public Method | [ToDataModelIdentifier](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem~ToDataModelIdentifier.html) | Returns data model identifier which identifies this object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItem](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem.html)) |
 
-[Top](#top)
+

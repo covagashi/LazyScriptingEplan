@@ -9,7 +9,7 @@ Symbol variant assignment (internal) # 16031.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_IMPORTEDVARIANTMAPPING( 

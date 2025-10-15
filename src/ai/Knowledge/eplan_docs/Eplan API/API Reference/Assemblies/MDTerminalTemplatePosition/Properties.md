@@ -34,4 +34,4 @@ Public Properties
 | Public Property | [TerminalDescription](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDTerminalTemplatePosition~TerminalDescription.html) | The terminal description of terminal template |
 | Public Property | [TerminalDesignation](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDTerminalTemplatePosition~TerminalDesignation.html) | The terminal designation of terminal template |
 
-[Top](#top)
+

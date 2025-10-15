@@ -9,7 +9,7 @@ Flow direction: Operating flow direction # 26267.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_FLOW_DIRECTION {get; set;}

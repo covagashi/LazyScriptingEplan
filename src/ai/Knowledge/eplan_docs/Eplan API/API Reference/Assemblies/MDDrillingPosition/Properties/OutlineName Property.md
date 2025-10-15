@@ -9,7 +9,7 @@ The sub name of the outline, if type is FreeOutline
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string OutlineName {get; set;}

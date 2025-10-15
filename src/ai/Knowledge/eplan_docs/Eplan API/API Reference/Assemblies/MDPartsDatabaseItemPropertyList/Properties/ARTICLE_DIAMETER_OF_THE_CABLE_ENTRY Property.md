@@ -9,7 +9,7 @@ Diameter: Cable entry # 26097.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DIAMETER_OF_THE_CABLE_ENTRY {get; set;}

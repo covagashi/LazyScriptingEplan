@@ -9,7 +9,7 @@ Returns [Eplan.EplApi.DataModel.FunctionBasePropertyList](Eplan.EplApi.DataModel
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public FunctionBasePropertyList CollectStructureProperties( 

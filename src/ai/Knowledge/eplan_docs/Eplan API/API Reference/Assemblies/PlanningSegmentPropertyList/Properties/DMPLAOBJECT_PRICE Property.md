@@ -9,7 +9,7 @@ Calculation value # 44018.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PRICE {get; set;}

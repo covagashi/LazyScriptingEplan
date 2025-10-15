@@ -9,7 +9,7 @@ Connection point logic: Number of targets allowed # 20324.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_LOGDEF_DESTINATIONCOUNT( 

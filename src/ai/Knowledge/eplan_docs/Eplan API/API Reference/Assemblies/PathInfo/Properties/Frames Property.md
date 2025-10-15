@@ -9,7 +9,7 @@ Returns default Frames directory.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Frames {get;}

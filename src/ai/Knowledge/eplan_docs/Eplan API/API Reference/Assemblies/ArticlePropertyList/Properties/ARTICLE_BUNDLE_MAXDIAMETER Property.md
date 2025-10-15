@@ -9,7 +9,7 @@ Maximum bundle diameter # 22259.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_BUNDLE_MAXDIAMETER {get; set;}

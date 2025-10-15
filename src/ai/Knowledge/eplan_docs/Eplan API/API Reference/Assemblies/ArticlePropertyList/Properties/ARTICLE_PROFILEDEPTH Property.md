@@ -9,7 +9,7 @@ Profile horizontal: Depth # 22188.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PROFILEDEPTH {get; set;}

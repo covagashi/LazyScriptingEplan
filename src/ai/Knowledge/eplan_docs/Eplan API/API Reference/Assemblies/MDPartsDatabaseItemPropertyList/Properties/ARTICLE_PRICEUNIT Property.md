@@ -9,7 +9,7 @@ Price unit # 22043.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PRICEUNIT {get; set;}

@@ -9,7 +9,7 @@ Gets the groups from user rights management, to which the specified user belongs
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StringCollection GetGroups( 

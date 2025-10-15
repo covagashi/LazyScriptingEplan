@@ -9,7 +9,7 @@ Layout space: Routing track specification # 31094.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_WIRING_PATH_PRESETTING {get; set;}

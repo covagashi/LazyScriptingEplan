@@ -57,4 +57,4 @@ Public Properties
 | Public Property | [UseLocalPropertyPlacements](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D~UseLocalPropertyPlacements.html) | Return true if the instance uses the local property instances, otherwise it uses the ones of the variant. (Inherited from [Eplan.EplApi.DataModel.E3D.Placement3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D.html)) |
 | Public Property | [VisibleName](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.InstallationSpace~VisibleName.html) | Overridden. Returns the visible name of the Function3D. |
 
-[Top](#top)
+

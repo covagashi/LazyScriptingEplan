@@ -9,7 +9,7 @@ Target total flow rate, max. # 26140.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TARGET_TOTAL_VOLUMETRIC_FLOW_MAX {get; set;}

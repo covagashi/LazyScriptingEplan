@@ -9,7 +9,7 @@ Creator: E-mail # 10242.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATOREMAIL {get; set;}

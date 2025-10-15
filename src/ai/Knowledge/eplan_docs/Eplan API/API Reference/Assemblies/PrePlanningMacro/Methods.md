@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.PrePlanningMacro~Dispose().html) | Destructor for deterministic finalization of PrePlanningMacro object. |
 | Public Method | [Open](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.PrePlanningMacro~Open.html) | Opens a macro file and reads the information. |
 
-[Top](#top)
+

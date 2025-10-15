@@ -9,7 +9,7 @@ Advances the enumerator to the next element of [Eplan::EplApi::EServices:](Eplan
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool MoveNext()

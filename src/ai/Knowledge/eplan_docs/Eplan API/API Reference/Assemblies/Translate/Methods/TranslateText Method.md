@@ -9,7 +9,7 @@ Get translation for the given text, according to project settings.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString TranslateText( 

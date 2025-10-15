@@ -30,4 +30,4 @@ Public Properties
 | Public Property | [TextRotation](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.TransientLayer~TextRotation.html) | Layer's rotation of texts |
 | Public Property | [Transparency](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.TransientLayer~Transparency.html) | Specifies transparency of Layer as double with a value between 0.0 and 1.0 |
 
-[Top](#top)
+

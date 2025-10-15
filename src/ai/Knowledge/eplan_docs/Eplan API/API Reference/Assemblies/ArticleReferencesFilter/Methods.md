@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [ResetFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReferencesFilter~ResetFilter.html) | Overridden. Resets the filter. Filter matches all [ArticleReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference.html)s then. |
 | Public Method | [SetFilteredPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReferencesFilter~SetFilteredPropertyList.html) | Sets the [ArticleReferencePropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReferencePropertyList.html) that [ArticleReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference.html)s matching the filter must have. |
 
-[Top](#top)
+

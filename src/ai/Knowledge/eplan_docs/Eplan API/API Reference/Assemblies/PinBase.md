@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PinBase
@@ -29,7 +29,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PinBase Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -40,7 +40,7 @@ Public Properties
 | Public Property | [Location](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase~Location.html) | Gets the connection point's position relative to the symbol's insertion point. |
 | Public Property | [Parent](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase~Parent.html) | Returns the symbol reference that the logical conn. point represented by this object belongs to. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -50,7 +50,7 @@ Public Methods
 | Public Method | [Equals](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase~Equals.html) | Comparison of two PinBase objects. Comparison is made by comparing each of Pin members instead of internal object id. |
 | Public Method | [GetHashCode](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase~GetHashCode.html) | Serves as the default hash function. |
 
-[Top](#top)
+
 
 Public Operators
 
@@ -59,4 +59,4 @@ Public Operators
 | public Operator [Equality](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase~op_Equality.html) | .NET operator for comparing two PinBase objects. |
 | public Operator [Inequality](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase~op_Inequality.html) | .NET operator for comparing two PinBase objects. |
 
-[Top](#top)
+

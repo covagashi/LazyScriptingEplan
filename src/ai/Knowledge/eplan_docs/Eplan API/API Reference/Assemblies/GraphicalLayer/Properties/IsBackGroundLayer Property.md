@@ -9,7 +9,7 @@ Specifies, if the layer is background layer
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsBackGroundLayer {get; set;}

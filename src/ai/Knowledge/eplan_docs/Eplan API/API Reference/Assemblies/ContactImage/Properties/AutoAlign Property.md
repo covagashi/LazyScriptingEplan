@@ -9,7 +9,7 @@ If `true` properties [Location](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.G
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AutoAlign {get; set;}

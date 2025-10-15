@@ -9,7 +9,7 @@ Form name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string FormPos

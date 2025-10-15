@@ -9,7 +9,7 @@ Get all support bar area positions of the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartSupportBarPosition[] SupportBarPositions {get;}

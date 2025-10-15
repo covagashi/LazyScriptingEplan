@@ -9,7 +9,7 @@ TCF: CO2-eq # 26601.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TCF_CO2EQ {get; set;}

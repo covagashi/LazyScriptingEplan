@@ -9,7 +9,7 @@ Gets an object from which a PlaceHolderText was created.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject SourceObject {get;}

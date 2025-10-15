@@ -9,7 +9,7 @@ Gets hierarchy level of location.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project.Hierarchy HierarchyId {get;}

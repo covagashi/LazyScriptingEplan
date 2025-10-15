@@ -9,7 +9,7 @@ Max. working pressure (full) # 22230.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PRESSURE_FULL {get; set;}

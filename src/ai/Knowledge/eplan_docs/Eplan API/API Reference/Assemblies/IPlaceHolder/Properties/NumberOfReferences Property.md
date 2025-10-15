@@ -9,7 +9,7 @@ Count of objects referenced by the Placeholder3D.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 int NumberOfReferences {get;}

@@ -9,7 +9,7 @@ Returns the [Eplan.EplApi.DataModel.Graphics.GraphicalLayer](Eplan.EplApi.DataMo
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public GraphicalLayer Layer {get; set;}

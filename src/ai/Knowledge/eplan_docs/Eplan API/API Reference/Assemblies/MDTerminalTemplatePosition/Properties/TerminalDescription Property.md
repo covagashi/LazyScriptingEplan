@@ -9,7 +9,7 @@ The terminal description of terminal template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string TerminalDescription {get; set;}

@@ -9,7 +9,7 @@ Array of all symbols .
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Symbol[] Symbols {get;}

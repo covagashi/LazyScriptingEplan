@@ -9,7 +9,7 @@ Company address 2 # 10017.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_COMPANYADDRESS2 {get; set;}

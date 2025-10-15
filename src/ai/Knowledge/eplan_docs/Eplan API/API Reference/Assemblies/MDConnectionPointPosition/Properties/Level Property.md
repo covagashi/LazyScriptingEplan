@@ -9,7 +9,7 @@ The level of the connection point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Level {get; set;}

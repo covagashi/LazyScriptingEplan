@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Method | [IsMatching](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ICustomFilter~IsMatching.html) | This method should be overridden in order to implement the filter. |
 
-[Top](#top)
+

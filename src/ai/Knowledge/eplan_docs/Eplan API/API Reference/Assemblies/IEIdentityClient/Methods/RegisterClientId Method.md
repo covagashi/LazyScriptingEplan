@@ -9,7 +9,7 @@ Registers ClientId of an Eplan Cloud service.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 IdentityClientResponse RegisterClientId( 

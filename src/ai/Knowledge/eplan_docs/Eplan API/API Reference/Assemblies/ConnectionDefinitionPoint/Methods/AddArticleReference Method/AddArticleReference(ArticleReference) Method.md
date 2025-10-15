@@ -9,7 +9,7 @@ Adds [ArticleReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleRe
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ArticleReference AddArticleReference( 

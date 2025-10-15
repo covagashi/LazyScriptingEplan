@@ -9,7 +9,7 @@ Gets list of property placements of given type.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public List<PropertyPlacement> GetPropertyPlacements( 

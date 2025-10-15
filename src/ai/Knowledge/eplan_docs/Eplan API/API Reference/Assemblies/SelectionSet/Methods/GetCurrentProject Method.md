@@ -9,7 +9,7 @@ Determines the active project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project GetCurrentProject( 

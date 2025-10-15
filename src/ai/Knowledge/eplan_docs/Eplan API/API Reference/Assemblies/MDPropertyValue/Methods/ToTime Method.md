@@ -9,7 +9,7 @@ Converts this MDPropertyValue object to `System::DateTime`.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DateTime ToTime()

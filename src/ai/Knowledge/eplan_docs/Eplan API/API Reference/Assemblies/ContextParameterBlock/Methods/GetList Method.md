@@ -9,7 +9,7 @@ Get the list saved in this block
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public List<object> GetList()

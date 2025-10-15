@@ -9,7 +9,7 @@ Creates an EPLAN macro from a DXF / DWG file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DXFDWGFiles( 

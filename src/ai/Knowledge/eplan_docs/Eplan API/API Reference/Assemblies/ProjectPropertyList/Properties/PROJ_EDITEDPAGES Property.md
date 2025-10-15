@@ -9,7 +9,7 @@ Created pages # 10301.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_EDITEDPAGES {get; set;}

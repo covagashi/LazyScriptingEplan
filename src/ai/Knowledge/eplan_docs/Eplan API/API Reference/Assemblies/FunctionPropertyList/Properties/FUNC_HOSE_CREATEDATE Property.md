@@ -9,7 +9,7 @@ Manufacturing date # 20868.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_HOSE_CREATEDATE {get; set;}

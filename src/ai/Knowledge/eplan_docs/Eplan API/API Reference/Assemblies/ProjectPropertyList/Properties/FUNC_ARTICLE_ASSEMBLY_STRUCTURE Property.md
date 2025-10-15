@@ -9,7 +9,7 @@ Assembly structure # 20922.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_ASSEMBLY_STRUCTURE( 

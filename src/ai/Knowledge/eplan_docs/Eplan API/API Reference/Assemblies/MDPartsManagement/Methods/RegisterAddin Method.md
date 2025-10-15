@@ -9,7 +9,7 @@ Registers an add-in for the parts management. The given action will be called fo
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool RegisterAddin( 

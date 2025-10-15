@@ -9,7 +9,7 @@ Copies or removes all local ProperyPlacemnets and sets flag
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SwitchLocalPropertyPlacements( 

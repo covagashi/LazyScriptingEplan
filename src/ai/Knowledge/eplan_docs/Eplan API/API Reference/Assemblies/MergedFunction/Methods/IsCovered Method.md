@@ -9,7 +9,7 @@ Returns if the objects is a function or a connection covered by this merged func
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsCovered( 

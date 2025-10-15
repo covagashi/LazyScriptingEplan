@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class EventParameter : IEventParameter
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [EventParameter Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameter~_ctor.html) | For internal use only. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -36,4 +36,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameter~Dispose().html) | For internal use only. |
 | Public Method | [GetInternalParameter](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameter~GetInternalParameter.html) | For internal use only. |
 
-[Top](#top)
+

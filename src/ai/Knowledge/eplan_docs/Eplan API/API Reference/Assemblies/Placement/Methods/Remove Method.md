@@ -9,7 +9,7 @@ Removes placement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Remove()

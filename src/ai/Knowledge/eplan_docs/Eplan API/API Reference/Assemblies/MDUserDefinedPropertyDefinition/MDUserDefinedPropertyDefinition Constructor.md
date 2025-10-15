@@ -9,7 +9,7 @@ Initializes property definition
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDUserDefinedPropertyDefinition( 

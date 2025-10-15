@@ -9,7 +9,7 @@ Returns array of indexes for which property value is not empty. It can be used w
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int[] Indexes {get;}

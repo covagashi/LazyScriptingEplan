@@ -9,7 +9,7 @@ Returns collection of [PlaceHolder3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataM
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlaceHolder3D[] PlaceHolders3D {get;}

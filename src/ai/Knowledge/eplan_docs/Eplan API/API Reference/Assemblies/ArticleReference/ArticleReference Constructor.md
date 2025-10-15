@@ -9,7 +9,7 @@ Constructor used to create transient article reference object. That object can b
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ArticleReference( 

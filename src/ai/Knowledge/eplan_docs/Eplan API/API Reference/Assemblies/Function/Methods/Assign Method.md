@@ -9,7 +9,7 @@ Assigns this function to another, which means that values of this function's pro
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Assign( 

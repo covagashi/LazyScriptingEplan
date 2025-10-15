@@ -9,7 +9,7 @@ Gets the selected index from Entries
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int SelectedIndex {get;}

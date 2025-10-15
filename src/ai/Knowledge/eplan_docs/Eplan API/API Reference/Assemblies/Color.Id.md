@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Color.Id
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Color.Id Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Color+Id~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -52,4 +52,4 @@ Public Fields
 | Public Fieldstatic (Shared in Visual Basic) | [RevisionMarkerNewInEvaluation](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Color+Id~RevisionMarkerNewInEvaluation.html) |  |
 | Public Fieldstatic (Shared in Visual Basic) | [Yellow](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Color+Id~Yellow.html) |  |
 
-[Top](#top)
+

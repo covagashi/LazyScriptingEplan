@@ -9,7 +9,7 @@ Name of FunctionDefinition's Category.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString CategoryName {get;}

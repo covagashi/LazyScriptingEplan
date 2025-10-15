@@ -9,7 +9,7 @@ Pneumatically operated # 26057.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PNEUMATICALLY_OPERATED {get; set;}

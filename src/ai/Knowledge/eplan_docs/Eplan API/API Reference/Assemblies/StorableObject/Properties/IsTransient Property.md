@@ -15,7 +15,7 @@ it is a [Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement.htm
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsTransient {get;}

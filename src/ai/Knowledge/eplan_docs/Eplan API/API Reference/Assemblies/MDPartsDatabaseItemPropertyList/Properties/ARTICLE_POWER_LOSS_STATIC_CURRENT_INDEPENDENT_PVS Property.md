@@ -9,7 +9,7 @@ Power dissipation (static), current-independent # 26160.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_POWER_LOSS_STATIC_CURRENT_INDEPENDENT_PVS {get; set;}

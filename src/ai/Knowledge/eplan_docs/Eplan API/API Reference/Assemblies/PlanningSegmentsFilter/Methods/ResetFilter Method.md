@@ -9,7 +9,7 @@ Resets the filter. Filter matches all [StorableObject](Eplan.EplApi.DataModelu~E
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override void ResetFilter()

@@ -17,4 +17,4 @@ Public Methods
 | Public Method | [Rollback](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SafetyPoint~Rollback.html) | All recorded changed (if any) will be undone without redo. |
 | Public Method | [Start](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SafetyPoint~Start.html) | Start recording changes. If already started, has no effect. |
 
-[Top](#top)
+

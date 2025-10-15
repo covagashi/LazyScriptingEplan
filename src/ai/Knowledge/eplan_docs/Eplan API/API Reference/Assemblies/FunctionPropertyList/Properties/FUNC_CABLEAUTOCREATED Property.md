@@ -9,7 +9,7 @@ Automatically generated # 20059.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLEAUTOCREATED {get; set;}

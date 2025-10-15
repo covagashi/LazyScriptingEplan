@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class HarnessService
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [HarnessService Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.HarnessService~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -37,4 +37,4 @@ Public Methods
 | Public Method | [ExportData](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.HarnessService~ExportData.html) | Overloaded. Exports Harness data. |
 | Public Method | [ImportData](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.HarnessService~ImportData.html) | Overloaded. Imports Harness data from a file. |
 
-[Top](#top)
+

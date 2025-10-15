@@ -9,7 +9,7 @@ Returns radius of Rectangle's corners chamfers.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual double ChamferRadius {get; set;}

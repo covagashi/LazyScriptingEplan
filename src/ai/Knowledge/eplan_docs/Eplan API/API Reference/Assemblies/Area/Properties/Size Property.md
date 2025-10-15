@@ -9,7 +9,7 @@ Size of the area.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD Size {get; set;}

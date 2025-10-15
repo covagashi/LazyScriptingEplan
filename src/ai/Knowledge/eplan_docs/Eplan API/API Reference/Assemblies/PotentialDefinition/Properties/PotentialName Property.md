@@ -9,7 +9,7 @@ Gets/Sets the name of the potential.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PotentialName {get; set;}

@@ -9,7 +9,7 @@ Get drawing limits
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Transformation.DrawingLimits DrawingLimit {get;}

@@ -9,7 +9,7 @@ Gets or sets transparency (0-255) due to internal technical limitations transpar
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public byte Transparency {get; set;}

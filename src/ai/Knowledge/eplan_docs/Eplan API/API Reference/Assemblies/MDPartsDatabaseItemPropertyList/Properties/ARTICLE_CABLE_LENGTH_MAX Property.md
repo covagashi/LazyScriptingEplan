@@ -9,7 +9,7 @@ Cable length, max. # 26117.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CABLE_LENGTH_MAX {get; set;}

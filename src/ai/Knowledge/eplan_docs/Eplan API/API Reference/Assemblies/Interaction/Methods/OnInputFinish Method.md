@@ -9,7 +9,7 @@ Is called after special input operation has finished.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual RequestCode OnInputFinish()

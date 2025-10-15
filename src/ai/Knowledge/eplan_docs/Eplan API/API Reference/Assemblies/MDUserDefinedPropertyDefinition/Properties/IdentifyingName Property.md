@@ -9,7 +9,7 @@ Identifying name
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string IdentifyingName {get;}

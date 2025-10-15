@@ -9,7 +9,7 @@ Gets/Sets whether the precision is set or not.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool DimensionDisableZero {get; set;}

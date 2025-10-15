@@ -9,7 +9,7 @@ Gets/Sets RelationIndex of PropertyPlacement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short RelationIndex {get; set;}

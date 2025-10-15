@@ -9,7 +9,7 @@ Start value (row) # 12026.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_POS_STARTID {get; set;}

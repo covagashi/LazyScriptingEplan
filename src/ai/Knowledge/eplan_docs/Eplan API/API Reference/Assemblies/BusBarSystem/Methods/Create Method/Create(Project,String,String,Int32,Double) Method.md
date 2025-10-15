@@ -9,7 +9,7 @@ Creates not placed Busbar system.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

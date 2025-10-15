@@ -9,7 +9,7 @@ Topology: Connection filter # 20247.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLINGSEGMENT_CONNECTIONFILTER {get; set;}

@@ -9,7 +9,7 @@ Gets parts using the filter from GUI.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPart[] GetPartsWithFilterScheme( 

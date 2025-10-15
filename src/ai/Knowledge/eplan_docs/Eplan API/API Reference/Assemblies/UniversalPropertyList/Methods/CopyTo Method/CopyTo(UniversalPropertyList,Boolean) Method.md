@@ -9,7 +9,7 @@ Copies properties to other property list.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CopyTo( 

@@ -9,7 +9,7 @@ Eplan variant
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string EplanVariant {get; set;}

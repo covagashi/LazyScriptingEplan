@@ -9,7 +9,7 @@
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new OptionBasePropertyList Properties {get;}

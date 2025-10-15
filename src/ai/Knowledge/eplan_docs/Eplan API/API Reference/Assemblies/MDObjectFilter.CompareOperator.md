@@ -9,7 +9,7 @@ CompareOperator
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MDObjectFilter.CompareOperator : System.Enum

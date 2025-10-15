@@ -9,7 +9,7 @@ Nominal current consumption # 26504.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_RATED_CURRENT_CONSUMPTION {get; set;}

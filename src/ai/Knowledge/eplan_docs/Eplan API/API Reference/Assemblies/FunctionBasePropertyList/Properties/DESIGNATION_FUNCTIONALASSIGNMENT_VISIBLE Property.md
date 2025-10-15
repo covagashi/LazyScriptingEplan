@@ -9,7 +9,7 @@ Functional assignment (visible) # 1329.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FUNCTIONALASSIGNMENT_VISIBLE {get; set;}

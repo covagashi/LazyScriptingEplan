@@ -9,7 +9,7 @@ Thermal design: Discharge angle # 36462.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMCABBASE_ANGLE_OUT {get; set;}

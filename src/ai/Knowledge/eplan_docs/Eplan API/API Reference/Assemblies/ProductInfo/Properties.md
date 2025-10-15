@@ -15,4 +15,4 @@ Public Properties
 | Public Property | [ProductVariant](Eplan.IdentityClient.Authentification~Eplan.IdentityClient.Authentification.ProductInfo~ProductVariant.html) | ProductVariant |
 | Public Property | [ProductVersion](Eplan.IdentityClient.Authentification~Eplan.IdentityClient.Authentification.ProductInfo~ProductVersion.html) | ProductVersion. This should include also the buildNumber. |
 
-[Top](#top)
+

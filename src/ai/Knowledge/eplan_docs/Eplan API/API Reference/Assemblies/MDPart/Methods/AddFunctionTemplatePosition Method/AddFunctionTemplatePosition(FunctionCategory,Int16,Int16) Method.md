@@ -9,7 +9,7 @@ Adds a new function template to the part on the last position
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDFunctionTemplatePosition AddFunctionTemplatePosition( 

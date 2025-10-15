@@ -9,7 +9,7 @@ Returns the Designation1 property from the corresponding part
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Designation1 {get;}

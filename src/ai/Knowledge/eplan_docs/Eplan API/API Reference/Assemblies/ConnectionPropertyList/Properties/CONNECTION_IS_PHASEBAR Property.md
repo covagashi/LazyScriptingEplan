@@ -9,7 +9,7 @@ Phase busbar connection # 31135.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_IS_PHASEBAR {get; set;}

@@ -16,4 +16,4 @@ Public Properties
 | Public Property | [ShortName](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAddress~ShortName.html) | Returns the short name of the address. This short name combined with the Type of the address is the unique key. |
 | Public Property | [Type](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAddress~Type.html) | Overridden. Returns the part type of the part. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Higher-level function number # 1720.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLINSTALLATIONNUMBER {get; set;}

@@ -9,7 +9,7 @@ Identification # 26405.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_LABELLING {get; set;}

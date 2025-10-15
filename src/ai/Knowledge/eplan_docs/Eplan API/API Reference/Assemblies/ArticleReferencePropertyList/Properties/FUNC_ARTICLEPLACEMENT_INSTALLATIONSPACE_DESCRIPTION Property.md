@@ -9,7 +9,7 @@ Layout space description # 20235.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLEPLACEMENT_INSTALLATIONSPACE_DESCRIPTION {get; set;}

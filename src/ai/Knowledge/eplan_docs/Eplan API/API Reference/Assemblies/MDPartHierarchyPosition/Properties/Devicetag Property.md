@@ -9,7 +9,7 @@ Returns the device tag of the position.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Devicetag {get; set;}

@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Item")]
@@ -40,7 +40,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [LanguageList Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.LanguageList~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -55,7 +55,7 @@ Public Properties
 | Public Property | [Language](Eplan.EplApi.Baseu~Eplan.EplApi.Base.LanguageList~Language.html) | Determines the ISO code of the given index. |
 | Public Property | [SyncRoot](#) | (Inherited from [System.Collections.ArrayList](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -83,4 +83,4 @@ Public Methods
 | Public Method | [ToArray](#) | Overloaded.  (Inherited from [System.Collections.ArrayList](#)) |
 | Public Method | [TrimToSize](#) | (Inherited from [System.Collections.ArrayList](#)) |
 
-[Top](#top)
+

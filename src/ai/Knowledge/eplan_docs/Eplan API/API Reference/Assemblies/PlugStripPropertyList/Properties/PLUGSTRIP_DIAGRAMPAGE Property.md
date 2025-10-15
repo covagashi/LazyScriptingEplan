@@ -9,7 +9,7 @@ Plugs: Page name of plug diagram # 35201.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLUGSTRIP_DIAGRAMPAGE {get; set;}

@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData~Dispose().html) | Destructor for deterministic finalization of MDPartsDatabaseItemChildData object. |
 
-[Top](#top)
+

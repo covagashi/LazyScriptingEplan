@@ -9,7 +9,7 @@ This name is used to register the type as an interface.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 string InterfaceName {get;}

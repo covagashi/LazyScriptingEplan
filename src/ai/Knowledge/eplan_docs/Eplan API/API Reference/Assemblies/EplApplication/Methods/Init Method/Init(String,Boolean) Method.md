@@ -9,7 +9,7 @@ Initializes the Eplan runtime system.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Init( 

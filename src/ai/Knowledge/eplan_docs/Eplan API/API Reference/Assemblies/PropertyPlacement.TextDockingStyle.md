@@ -9,7 +9,7 @@ Specifies docking style of text.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum PropertyPlacement.TextDockingStyle : System.Enum

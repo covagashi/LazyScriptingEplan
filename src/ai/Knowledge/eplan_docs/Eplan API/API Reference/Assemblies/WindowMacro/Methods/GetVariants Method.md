@@ -9,7 +9,7 @@ Macro variants by representation type "nRepresentationType".
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int[] GetVariants( 

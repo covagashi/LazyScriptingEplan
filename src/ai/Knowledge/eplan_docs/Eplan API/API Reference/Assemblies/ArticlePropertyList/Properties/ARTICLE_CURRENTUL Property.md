@@ -9,7 +9,7 @@ Terminals: Current UL # 22090.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CURRENTUL {get; set;}

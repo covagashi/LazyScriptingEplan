@@ -9,7 +9,7 @@ Model view: Apply viewpoint to mounting surface # 36508.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_CONSIDER_TRANSFORM_OF_PLANE {get; set;}

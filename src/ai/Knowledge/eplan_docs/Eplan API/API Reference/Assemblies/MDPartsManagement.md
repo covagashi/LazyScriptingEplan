@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDPartsManagement
@@ -38,7 +38,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDPartsManagement Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsManagement~_ctor.html) | constructor of MDPartsManagement |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -48,7 +48,7 @@ Public Properties
 | Public Property | [SelectedPartsDatabase](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsManagement~SelectedPartsDatabase.html) | The parts database that is currently used. |
 | Public Propertystatic (Shared in Visual Basic) | [SelectedPartsDatabaseAsString](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsManagement~SelectedPartsDatabaseAsString.html) | The parts database that is currently used as a connection string or a file. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -72,4 +72,4 @@ Public Methods
 | Public Method | [UnregisterTabsheet](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsManagement~UnregisterTabsheet.html) | Unregisters a tab sheet that was registerd with RegisterTabsheet(). |
 | Public Method | [UpgradePartsDb](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsManagement~UpgradePartsDb.html) | Overloaded. Upgrades parts database. |
 
-[Top](#top)
+

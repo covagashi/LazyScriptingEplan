@@ -9,7 +9,7 @@ Gets/Sets the underlying symbol's connection point assigned to this pin or `null
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PinBase SymbolConnPoint {get; set;}

@@ -9,7 +9,7 @@ Adds new module to article.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Article.Module AddModule()

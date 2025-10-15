@@ -9,7 +9,7 @@ Operator of comparison implementation. Checks if two mates have different name o
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool operator !=( 

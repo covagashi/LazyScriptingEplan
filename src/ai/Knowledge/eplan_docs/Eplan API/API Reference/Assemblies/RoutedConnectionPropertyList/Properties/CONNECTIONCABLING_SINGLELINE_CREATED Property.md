@@ -9,7 +9,7 @@ Creates new unplaced segment and assign to it start and end symbol.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

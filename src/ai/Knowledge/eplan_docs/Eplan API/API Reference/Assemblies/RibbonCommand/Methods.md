@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommand~Dispose().html) | Destructor for deterministic finalization of RibbonCommand object. |
 | Public Method | [Remove](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommand~Remove.html) | Removes command |
 
-[Top](#top)
+

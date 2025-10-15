@@ -9,7 +9,7 @@ Finds or creates topology connections for given elements.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RoutedConnection[] CollectConnections( 

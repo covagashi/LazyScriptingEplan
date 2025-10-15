@@ -9,7 +9,7 @@ Total weight # 36108.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_CABINET_TOTALWEIGHT {get; set;}

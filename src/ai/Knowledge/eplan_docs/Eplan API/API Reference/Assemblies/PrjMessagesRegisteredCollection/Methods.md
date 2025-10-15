@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [GetEnumerator](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredCollection~GetEnumerator.html) | Returns an enumerator that can iterate through a collection. |
 | Public Method | [GetRegisteredPrjMsgsEnumerator](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredCollection~GetRegisteredPrjMsgsEnumerator.html) | Returns a typed enumerator that can iterate through a collection. |
 
-[Top](#top)
+

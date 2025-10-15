@@ -9,7 +9,7 @@ PLC address: Symbolic address: UDT (data type) # 44089.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLCADDRESS_SYMBOLICADDRESS_UDT_DATATYPE( 

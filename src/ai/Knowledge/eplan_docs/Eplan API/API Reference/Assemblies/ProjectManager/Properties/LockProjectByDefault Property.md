@@ -9,7 +9,7 @@ Returns whether project(s) are locked by default
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool LockProjectByDefault {get; set;}

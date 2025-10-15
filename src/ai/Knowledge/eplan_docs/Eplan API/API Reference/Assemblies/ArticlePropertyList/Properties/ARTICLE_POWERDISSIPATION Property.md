@@ -9,7 +9,7 @@ Max. power dissipation # 22074.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_POWERDISSIPATION {get; set;}

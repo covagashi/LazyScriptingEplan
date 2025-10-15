@@ -9,7 +9,7 @@ The y offset of the referenced construction.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double OffsetY {get; set;}

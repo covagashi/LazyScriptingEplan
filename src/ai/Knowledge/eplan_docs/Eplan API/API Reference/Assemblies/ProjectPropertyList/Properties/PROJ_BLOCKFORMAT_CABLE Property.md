@@ -9,7 +9,7 @@ Block property: Format (cable / shield) # 10607.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_CABLE( 

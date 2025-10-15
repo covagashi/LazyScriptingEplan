@@ -9,7 +9,7 @@ Pressure level # 26259.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PRESSURE_STAGE {get; set;}

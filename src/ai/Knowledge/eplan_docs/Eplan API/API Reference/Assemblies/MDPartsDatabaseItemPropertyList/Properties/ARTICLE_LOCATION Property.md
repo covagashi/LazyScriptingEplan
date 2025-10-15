@@ -9,7 +9,7 @@ Operating location # 26291.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_LOCATION {get; set;}

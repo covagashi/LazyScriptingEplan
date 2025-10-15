@@ -9,7 +9,7 @@ Naming format for pages # 10070.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_NAMEFORMAT_PAGE {get; set;}

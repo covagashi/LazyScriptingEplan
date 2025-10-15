@@ -9,7 +9,7 @@ Commits the transaction. Cannot be called more than one time for given transacti
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override void Commit()

@@ -9,7 +9,7 @@ Gets the database, where the database item is stored
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartsDatabase Database {get;}

@@ -9,7 +9,7 @@ Last editor / Modification date (drilling pattern) # 22938.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_CONSTRUCTION_LASTCHANGE {get; set;}

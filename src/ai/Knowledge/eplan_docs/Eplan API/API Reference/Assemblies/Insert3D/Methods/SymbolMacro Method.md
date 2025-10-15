@@ -9,7 +9,7 @@ Places objects from symbol macro into layout space.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] SymbolMacro( 

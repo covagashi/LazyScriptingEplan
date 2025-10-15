@@ -9,7 +9,7 @@ PLC subdevice 10: Data length (outputs) # 22333.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PLCGROUP_DATALENGTH_OUTPUTS_10 {get; set;}

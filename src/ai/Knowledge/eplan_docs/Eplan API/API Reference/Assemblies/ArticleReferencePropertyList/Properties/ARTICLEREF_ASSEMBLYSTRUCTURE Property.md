@@ -9,7 +9,7 @@ Assembly structure # 20511.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_ASSEMBLYSTRUCTURE {get; set;}

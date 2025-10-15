@@ -9,7 +9,7 @@ Sort code (interruption point) # 24809.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INTERRUPTIONPOINT_SORT_CODE {get; set;}

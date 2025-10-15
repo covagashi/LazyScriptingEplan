@@ -9,7 +9,7 @@ Is called after input of an angle by the user.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual RequestCode OnAngle( 

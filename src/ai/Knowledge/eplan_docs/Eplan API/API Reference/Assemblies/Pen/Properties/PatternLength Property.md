@@ -9,7 +9,7 @@ Pattern length. The pattern will be stretched, so that the whole pattern fits to
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double PatternLength {get; set;}

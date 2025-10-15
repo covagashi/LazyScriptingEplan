@@ -9,7 +9,7 @@ Creates bended bus bar object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static BusBar Create( 

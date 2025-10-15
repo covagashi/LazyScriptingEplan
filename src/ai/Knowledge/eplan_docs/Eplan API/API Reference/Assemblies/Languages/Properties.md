@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [AlternativeLanguage](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Languages~AlternativeLanguage.html) | Gets alternative language. |
 | Public Property | [GuiLanguage](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Languages~GuiLanguage.html) | Gets Gui language. |
 
-[Top](#top)
+

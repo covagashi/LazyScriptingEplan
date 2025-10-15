@@ -9,7 +9,7 @@ Conductor design (cable) # 26049.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CONDUCTOR_STRUCTURE_CABLE {get; set;}

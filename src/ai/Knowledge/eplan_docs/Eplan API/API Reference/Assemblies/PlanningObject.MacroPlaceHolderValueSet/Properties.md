@@ -19,4 +19,4 @@ Public Properties
 | Public Property | [VariableNames](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningObject+MacroPlaceHolderValueSet~VariableNames.html) | Variable names |
 | Public Property | [VariantId](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningObject+MacroPlaceHolderValueSet~VariantId.html) | Variant identifier |
 
-[Top](#top)
+

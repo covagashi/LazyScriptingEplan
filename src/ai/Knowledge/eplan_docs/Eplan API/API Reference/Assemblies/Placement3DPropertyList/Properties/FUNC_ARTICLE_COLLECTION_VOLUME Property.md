@@ -9,7 +9,7 @@ Retention volume # 26222.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_COLLECTION_VOLUME( 

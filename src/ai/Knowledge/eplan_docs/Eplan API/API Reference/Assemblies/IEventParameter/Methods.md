@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Method | [GetInternalParameter](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEventParameter~GetInternalParameter.html) | For internal use only. |
 
-[Top](#top)
+

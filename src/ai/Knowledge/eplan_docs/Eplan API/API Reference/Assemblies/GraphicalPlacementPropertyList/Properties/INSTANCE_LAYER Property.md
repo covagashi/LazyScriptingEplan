@@ -9,7 +9,7 @@ Layer # 19019.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_LAYER {get; set;}

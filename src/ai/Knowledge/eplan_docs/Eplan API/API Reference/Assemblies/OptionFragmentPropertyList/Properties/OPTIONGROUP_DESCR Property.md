@@ -9,7 +9,7 @@ Project option group: Description # 23104.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue OPTIONGROUP_DESCR {get; set;}

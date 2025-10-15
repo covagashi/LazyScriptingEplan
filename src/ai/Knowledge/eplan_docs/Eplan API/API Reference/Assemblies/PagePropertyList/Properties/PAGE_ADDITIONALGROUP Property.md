@@ -9,7 +9,7 @@ Suppl. field: Group # 11032.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_ADDITIONALGROUP {get; set;}

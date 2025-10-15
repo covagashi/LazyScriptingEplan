@@ -9,7 +9,7 @@ Exports components of design space as xml and step data.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool DesignSpaces( 

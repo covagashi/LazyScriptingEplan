@@ -9,7 +9,7 @@ The RDF (ration of dangerous to all failures)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double RDF {get; set;}

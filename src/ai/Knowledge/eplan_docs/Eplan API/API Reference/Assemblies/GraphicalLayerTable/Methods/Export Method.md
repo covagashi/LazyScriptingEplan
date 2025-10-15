@@ -9,7 +9,7 @@ Exports the layers into an XML file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Export( 

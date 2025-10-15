@@ -9,7 +9,7 @@ Returns the name of the accessory placement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string AccessoryPlacement {get; set;}

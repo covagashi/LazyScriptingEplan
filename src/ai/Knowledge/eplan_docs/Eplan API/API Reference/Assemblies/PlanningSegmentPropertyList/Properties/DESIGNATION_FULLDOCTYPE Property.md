@@ -9,7 +9,7 @@ Document type # 1520.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLDOCTYPE {get; set;}

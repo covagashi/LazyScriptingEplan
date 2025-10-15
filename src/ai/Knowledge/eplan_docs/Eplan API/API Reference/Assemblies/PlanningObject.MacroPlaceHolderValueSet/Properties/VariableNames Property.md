@@ -9,7 +9,7 @@ Variable names
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[] VariableNames {get;}

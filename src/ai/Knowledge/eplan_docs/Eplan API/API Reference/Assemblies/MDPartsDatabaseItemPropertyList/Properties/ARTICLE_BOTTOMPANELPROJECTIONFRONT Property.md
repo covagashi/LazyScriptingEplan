@@ -9,7 +9,7 @@ Overhang: Base front # 22183.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_BOTTOMPANELPROJECTIONFRONT {get; set;}

@@ -9,7 +9,7 @@ Naming format for terminal strips # 10079.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_NAMEFORMAT_TERMINALSTRIP {get; set;}

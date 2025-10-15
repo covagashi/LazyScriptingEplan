@@ -9,7 +9,7 @@ initialize the DCOM security
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ComHelper()

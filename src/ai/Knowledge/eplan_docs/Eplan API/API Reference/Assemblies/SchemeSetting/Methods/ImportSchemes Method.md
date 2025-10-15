@@ -9,7 +9,7 @@ Import all schemes from file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ImportSchemes( 

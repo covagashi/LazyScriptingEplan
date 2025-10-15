@@ -9,7 +9,7 @@ Get database Name
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get;}

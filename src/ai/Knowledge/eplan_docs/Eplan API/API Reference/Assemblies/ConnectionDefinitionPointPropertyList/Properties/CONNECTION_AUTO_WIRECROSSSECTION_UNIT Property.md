@@ -9,7 +9,7 @@ Unit for connection cross-section / diameter (automatic) # 31060.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_AUTO_WIRECROSSSECTION_UNIT {get; set;}

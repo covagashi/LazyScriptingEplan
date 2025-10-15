@@ -9,7 +9,7 @@ Gets or sets the distance of dimension text to dimension line.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double DimensionDistanceToLine {get; set;}

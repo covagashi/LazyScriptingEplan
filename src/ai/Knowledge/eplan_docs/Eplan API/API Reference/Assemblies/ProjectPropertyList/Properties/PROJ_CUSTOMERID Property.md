@@ -9,7 +9,7 @@ Customer: Short name # 10100.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CUSTOMERID {get; set;}

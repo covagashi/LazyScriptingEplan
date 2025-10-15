@@ -9,7 +9,7 @@ Is used to determine whether a license for this option exists in the system and 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool HasOption( 

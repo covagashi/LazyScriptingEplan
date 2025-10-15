@@ -9,7 +9,7 @@ Function group # 22026.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_FUNCTIONGROUP {get; set;}

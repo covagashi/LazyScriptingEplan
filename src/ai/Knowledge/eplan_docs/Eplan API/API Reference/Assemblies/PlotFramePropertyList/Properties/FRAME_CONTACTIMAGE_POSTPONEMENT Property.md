@@ -9,7 +9,7 @@ Contact image offset # 12061.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_CONTACTIMAGE_POSTPONEMENT {get; set;}

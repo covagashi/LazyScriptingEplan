@@ -9,7 +9,7 @@ SelectedVersion is the currently selected eplan version in this dialog
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SelectedVersion {get;}

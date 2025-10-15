@@ -9,7 +9,7 @@ Routes given topology connections using pointed segment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RouteConnections( 

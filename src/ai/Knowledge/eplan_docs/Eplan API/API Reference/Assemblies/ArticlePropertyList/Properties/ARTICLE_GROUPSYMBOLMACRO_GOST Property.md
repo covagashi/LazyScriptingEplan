@@ -9,7 +9,7 @@ Schematic macro: GOST # 22874.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_GROUPSYMBOLMACRO_GOST {get; set;}

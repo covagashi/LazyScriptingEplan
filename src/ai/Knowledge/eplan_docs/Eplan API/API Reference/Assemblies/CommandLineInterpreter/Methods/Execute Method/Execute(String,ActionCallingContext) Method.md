@@ -9,7 +9,7 @@ Execution of a command line expression
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool Execute( 

@@ -9,7 +9,7 @@ If true, renumbers PCT loop if name already exists.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ArePCTLoopsRenumbered {get; set;}

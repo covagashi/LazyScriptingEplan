@@ -9,7 +9,7 @@ Grade of filtration # 26586.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_FILTER_FINENESS {get; set;}

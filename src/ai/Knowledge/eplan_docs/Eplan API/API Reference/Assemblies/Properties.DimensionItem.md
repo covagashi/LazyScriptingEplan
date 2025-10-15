@@ -9,7 +9,7 @@ Identificators of properties owned by DimensionItem class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.DimensionItem : System.Enum

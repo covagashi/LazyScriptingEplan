@@ -9,7 +9,7 @@ Function designation (sub-identifier 3): Description # 1133.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBPLANT3_DESCR {get; set;}

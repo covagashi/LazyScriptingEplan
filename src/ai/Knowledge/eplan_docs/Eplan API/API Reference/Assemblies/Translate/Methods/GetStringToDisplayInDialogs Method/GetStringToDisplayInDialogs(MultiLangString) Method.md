@@ -9,7 +9,7 @@ Get string displayed in project-independent dialogs (like parts management).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetStringToDisplayInDialogs( 

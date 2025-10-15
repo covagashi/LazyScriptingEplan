@@ -9,7 +9,7 @@ ERP / PDM number # 23216.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DEVICELISTENTRY_ERPNR {get; set;}

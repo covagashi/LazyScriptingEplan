@@ -9,7 +9,7 @@ Releases the object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Dispose()

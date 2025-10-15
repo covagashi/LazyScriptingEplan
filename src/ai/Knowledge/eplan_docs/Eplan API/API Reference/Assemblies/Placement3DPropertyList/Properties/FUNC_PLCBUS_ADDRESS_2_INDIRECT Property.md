@@ -9,7 +9,7 @@ Physical network: Bus ID / item number 2 (indirect) # 20387.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCBUS_ADDRESS_2_INDIRECT {get; set;}

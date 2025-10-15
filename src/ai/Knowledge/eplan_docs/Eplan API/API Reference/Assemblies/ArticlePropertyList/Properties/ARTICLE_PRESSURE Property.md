@@ -9,7 +9,7 @@ Max. working pressure # 22124.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PRESSURE {get; set;}

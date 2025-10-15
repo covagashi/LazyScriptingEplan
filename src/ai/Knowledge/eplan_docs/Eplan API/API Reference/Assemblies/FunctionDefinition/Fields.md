@@ -13,4 +13,4 @@ Public Fields
 | Public Fieldstatic (Shared in Visual Basic) | [InvalidGroup](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionDefinition~InvalidGroup.html) | A constant value that indicates an invalid (or undefined) function group. |
 | Public Fieldstatic (Shared in Visual Basic) | [InvalidId](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionDefinition~InvalidId.html) | A constant value that indicates an invalid (or undefined) function ID. |
 
-[Top](#top)
+

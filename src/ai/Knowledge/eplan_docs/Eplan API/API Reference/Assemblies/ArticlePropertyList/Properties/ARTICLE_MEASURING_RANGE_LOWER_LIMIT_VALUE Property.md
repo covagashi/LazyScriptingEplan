@@ -9,7 +9,7 @@ Measuring range: Lower limit # 26456.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MEASURING_RANGE_LOWER_LIMIT_VALUE {get; set;}

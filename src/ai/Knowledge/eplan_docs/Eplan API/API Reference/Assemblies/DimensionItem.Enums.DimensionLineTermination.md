@@ -9,7 +9,7 @@ Enumeration of dimension line termination
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum DimensionItem.Enums.DimensionLineTermination : System.Enum

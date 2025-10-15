@@ -9,7 +9,7 @@ Returns id of compared object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public long ObjectIdOfComparedObject {get;}

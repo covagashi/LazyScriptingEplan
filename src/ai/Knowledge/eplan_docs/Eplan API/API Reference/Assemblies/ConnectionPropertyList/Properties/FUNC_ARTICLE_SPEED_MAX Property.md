@@ -9,7 +9,7 @@ Rotation speed, max. # 26256.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_SPEED_MAX( 

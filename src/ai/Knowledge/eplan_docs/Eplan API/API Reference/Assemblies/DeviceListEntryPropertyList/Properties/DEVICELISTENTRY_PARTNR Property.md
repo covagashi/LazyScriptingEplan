@@ -9,7 +9,7 @@ Part number # 23200.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DEVICELISTENTRY_PARTNR {get; set;}

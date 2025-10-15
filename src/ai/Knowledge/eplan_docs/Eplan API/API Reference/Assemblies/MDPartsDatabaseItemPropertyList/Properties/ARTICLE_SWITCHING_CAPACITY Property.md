@@ -9,7 +9,7 @@ Switching capacity # 26545.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SWITCHING_CAPACITY {get; set;}

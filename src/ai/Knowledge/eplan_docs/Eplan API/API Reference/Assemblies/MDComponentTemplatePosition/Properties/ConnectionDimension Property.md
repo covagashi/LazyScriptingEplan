@@ -9,7 +9,7 @@ The connection dimension of component template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConnectionDimension {get; set;}

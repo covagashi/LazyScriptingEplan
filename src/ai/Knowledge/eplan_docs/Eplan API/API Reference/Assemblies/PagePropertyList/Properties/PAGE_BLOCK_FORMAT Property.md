@@ -9,7 +9,7 @@ Block property: Format # 11091.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_BLOCK_FORMAT( 

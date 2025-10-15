@@ -9,7 +9,7 @@ Specifies the Paragraph Spacing. This property is used for PropertyPlacemets att
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double ParagraphSpacing {get;}

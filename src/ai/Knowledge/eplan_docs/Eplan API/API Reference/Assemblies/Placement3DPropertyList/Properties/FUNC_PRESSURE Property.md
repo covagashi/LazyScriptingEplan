@@ -9,7 +9,7 @@ Max. working pressure # 20870.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PRESSURE {get; set;}

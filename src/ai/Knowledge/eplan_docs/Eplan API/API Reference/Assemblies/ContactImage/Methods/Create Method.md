@@ -9,7 +9,7 @@ Creates the ContactImage object for specified function.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

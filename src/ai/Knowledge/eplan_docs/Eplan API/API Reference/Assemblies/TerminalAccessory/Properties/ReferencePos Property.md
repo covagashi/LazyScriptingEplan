@@ -9,7 +9,7 @@ Gets position in the reference table of the object (means propertyindex)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new short ReferencePos {get;}

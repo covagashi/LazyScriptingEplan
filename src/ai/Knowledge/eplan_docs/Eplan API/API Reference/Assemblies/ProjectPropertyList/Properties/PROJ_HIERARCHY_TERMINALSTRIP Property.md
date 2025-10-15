@@ -9,7 +9,7 @@ Structure format for terminal strips # 10059.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_TERMINALSTRIP {get; set;}

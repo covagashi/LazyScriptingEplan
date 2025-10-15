@@ -16,4 +16,4 @@ Public Methods
 | Public Method | [Set](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ContextParameterBlock~Set.html) | Set one object with a name |
 | Public Method | [SetList](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ContextParameterBlock~SetList.html) | Set a list for this block |
 
-[Top](#top)
+

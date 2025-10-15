@@ -9,7 +9,7 @@ Selects parts from the current parts database
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public KeyValuePair<string,string>[] ShowPartSelectionDialog()

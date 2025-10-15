@@ -20,4 +20,4 @@ Public Methods
 | Public Method | [SetAsInternal](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LockingVector~SetAsInternal.html) | Initializes LockingVectorProxy in API\_Framework. Used automatically, internally. |
 | Public Method | [StartLockingStep](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LockingVector~StartLockingStep.html) | Starts locking step. Use LockingStep instead. |
 
-[Top](#top)
+

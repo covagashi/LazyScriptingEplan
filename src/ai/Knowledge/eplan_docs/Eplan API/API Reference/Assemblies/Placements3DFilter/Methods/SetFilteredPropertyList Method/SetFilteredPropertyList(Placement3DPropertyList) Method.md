@@ -9,7 +9,7 @@ Sets the [Eplan.EplApi.DataModel.E3D.Placement3DPropertyList](Eplan.EplApi.DataM
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetFilteredPropertyList( 

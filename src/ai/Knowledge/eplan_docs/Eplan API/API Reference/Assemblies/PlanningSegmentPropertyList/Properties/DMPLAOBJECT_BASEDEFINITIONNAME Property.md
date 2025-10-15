@@ -9,7 +9,7 @@ Basic segment definition: Name (identifying) # 44039.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_BASEDEFINITIONNAME {get; set;}

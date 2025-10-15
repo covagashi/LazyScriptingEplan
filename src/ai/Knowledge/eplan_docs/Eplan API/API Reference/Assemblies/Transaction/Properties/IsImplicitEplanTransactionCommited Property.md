@@ -9,7 +9,7 @@ Transaction property which returns true if an implicit Eplan transaction was sta
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsImplicitEplanTransactionCommited {get;}

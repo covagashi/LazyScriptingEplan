@@ -9,7 +9,7 @@ Eplan Cloud user ID in the organization.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string OrganizationUserId {get; set;}

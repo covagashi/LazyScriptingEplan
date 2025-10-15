@@ -9,7 +9,7 @@ Returns the name of the value set
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ValueSetName {get;}

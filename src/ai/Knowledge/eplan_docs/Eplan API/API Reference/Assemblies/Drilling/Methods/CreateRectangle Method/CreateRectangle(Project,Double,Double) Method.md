@@ -9,7 +9,7 @@ Creates new rectangle drilling in project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateRectangle( 

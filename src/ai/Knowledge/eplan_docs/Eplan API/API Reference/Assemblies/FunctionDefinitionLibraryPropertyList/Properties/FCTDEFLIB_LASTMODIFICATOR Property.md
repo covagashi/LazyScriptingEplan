@@ -9,7 +9,7 @@ Last editor: Sign-in name # 15505.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FCTDEFLIB_LASTMODIFICATOR {get; set;}

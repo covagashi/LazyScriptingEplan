@@ -9,7 +9,7 @@ The Z-vector of the connection point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double ZVector {get; set;}

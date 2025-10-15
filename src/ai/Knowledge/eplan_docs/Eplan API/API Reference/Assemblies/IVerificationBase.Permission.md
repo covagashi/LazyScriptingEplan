@@ -9,7 +9,7 @@ The permission of a verification determines for what type of check the verificat
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum IVerificationBase.Permission : System.Enum

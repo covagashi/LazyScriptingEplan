@@ -9,7 +9,7 @@ Get containers of page types, that are relevant for generating connections.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static DocumentTypeManager.DocumentType[] GetPageTypesRelevantForGeneratingConnections()

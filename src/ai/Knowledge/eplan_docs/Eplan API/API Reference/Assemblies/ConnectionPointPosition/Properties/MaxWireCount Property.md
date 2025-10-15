@@ -9,7 +9,7 @@ Maximum number of wires that can be connected.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int MaxWireCount {get; set;}

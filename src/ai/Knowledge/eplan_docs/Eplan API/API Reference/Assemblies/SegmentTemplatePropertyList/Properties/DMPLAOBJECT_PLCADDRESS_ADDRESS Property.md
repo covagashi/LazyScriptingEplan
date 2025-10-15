@@ -9,7 +9,7 @@ PLC address: Configuration project # 44048.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLCADDRESS_CONFIGURATIONPROJECT( 

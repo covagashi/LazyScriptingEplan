@@ -9,7 +9,7 @@ Zip code (City) # 22914.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ADDRESS_ZIPTOWN {get; set;}

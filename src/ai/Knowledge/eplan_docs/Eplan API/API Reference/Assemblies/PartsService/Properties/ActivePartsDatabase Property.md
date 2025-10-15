@@ -9,7 +9,7 @@ Returns or sets the type of current parts database. Possible values are PartsDat
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PartsService.PartsDatabaseType ActivePartsDatabase {get; set;}

@@ -9,7 +9,7 @@ The variant of the referenced mounting panel part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Variant {get; set;}

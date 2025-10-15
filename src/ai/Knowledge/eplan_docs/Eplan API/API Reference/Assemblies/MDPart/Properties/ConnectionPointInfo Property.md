@@ -9,7 +9,7 @@ Get the connection point info associated with this part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDConnectionPointInfo ConnectionPointInfo {get;}

@@ -9,7 +9,7 @@ The Z-position of the connection point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Z {get; set;}

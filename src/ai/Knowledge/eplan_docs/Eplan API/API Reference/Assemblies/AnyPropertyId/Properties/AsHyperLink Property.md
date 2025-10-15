@@ -9,7 +9,7 @@ Gets property id value as [Properties.HyperLink](Eplan.EplApi.DataModelu~Eplan.E
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.HyperLink AsHyperLink {get;}

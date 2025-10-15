@@ -9,7 +9,7 @@ Break up assembly during part selection # 22421.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DISASSEMBLE_SELECTION {get; set;}

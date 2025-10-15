@@ -9,7 +9,7 @@ Default Constructor
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public LockedMountingArea()

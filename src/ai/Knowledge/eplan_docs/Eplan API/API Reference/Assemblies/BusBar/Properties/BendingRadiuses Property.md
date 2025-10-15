@@ -9,7 +9,7 @@ Array of Bending Radiuses.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double[] BendingRadiuses {get; set;}

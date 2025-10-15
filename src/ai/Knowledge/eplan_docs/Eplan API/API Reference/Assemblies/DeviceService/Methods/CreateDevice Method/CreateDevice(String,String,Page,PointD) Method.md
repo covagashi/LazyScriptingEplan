@@ -9,7 +9,7 @@ Creates a new device in the project and inserts it on a page. If the article has
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function[] CreateDevice( 

@@ -9,7 +9,7 @@ Returns the bounding box of the macro. This is the size and position of the macr
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD[] GetBoundingBox()

@@ -9,7 +9,7 @@ AutomationML GUID (accessories) # 40348.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_AML_GUID {get; set;}

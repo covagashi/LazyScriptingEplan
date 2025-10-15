@@ -9,7 +9,7 @@ Creates and inserts accessories of a placement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool InsertAccessory3D( 

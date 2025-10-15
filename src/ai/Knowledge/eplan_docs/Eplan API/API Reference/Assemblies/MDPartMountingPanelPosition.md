@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDPartMountingPanelPosition : MDPartsDatabaseItemChildData
@@ -35,7 +35,7 @@ Public Properties
 | Public Property | [Y](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartMountingPanelPosition~Y.html) | The Y position of the referenced mounting panel. |
 | Public Property | [Z](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartMountingPanelPosition~Z.html) | The Z position of the referenced mounting panel. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -43,4 +43,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose()](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData~Dispose().html) | Destructor for deterministic finalization of MDPartMountingPanelPosition object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData.html)) |
 
-[Top](#top)
+

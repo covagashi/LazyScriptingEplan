@@ -9,7 +9,7 @@ Creates a handle point with all mounting points permitted.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

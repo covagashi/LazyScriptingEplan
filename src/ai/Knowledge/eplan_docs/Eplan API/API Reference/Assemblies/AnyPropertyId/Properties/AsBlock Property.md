@@ -9,7 +9,7 @@ Gets property id value as [Properties.Block](Eplan.EplApi.DataModelu~Eplan.EplAp
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.Block AsBlock {get;}

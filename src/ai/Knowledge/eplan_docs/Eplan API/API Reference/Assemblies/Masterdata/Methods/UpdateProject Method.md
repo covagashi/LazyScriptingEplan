@@ -9,7 +9,7 @@ Method for updating project master data.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void UpdateProject( 

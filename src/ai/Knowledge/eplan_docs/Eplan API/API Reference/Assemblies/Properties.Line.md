@@ -9,7 +9,7 @@ Identificators of properties owned by Line class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Line : System.Enum

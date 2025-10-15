@@ -9,7 +9,7 @@ Degree of protection (IP) # 26554.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_PROTECTION_CLASS_IP( 

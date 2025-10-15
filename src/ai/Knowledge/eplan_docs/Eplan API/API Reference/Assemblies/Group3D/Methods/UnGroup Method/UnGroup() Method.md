@@ -9,7 +9,7 @@ Removes all [Placement3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Pla
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void UnGroup()

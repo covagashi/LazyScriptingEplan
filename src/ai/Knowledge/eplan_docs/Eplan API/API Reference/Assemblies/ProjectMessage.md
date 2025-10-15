@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ProjectMessage : BaseProjectMessage
@@ -33,7 +33,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ProjectMessage Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ProjectMessage~_ctor(ProjectMessageHandle).html) |  |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -41,7 +41,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [CreationType](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ProjectMessage~CreationType.html) | Shows the method by which the message was created. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -65,4 +65,4 @@ Public Methods
 | Public Method | [GetUser](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ProjectMessage~GetUser.html) | Returns the computer name of the user, who has been created the message |
 | Public Method | [SetDone](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ProjectMessage~SetDone.html) | Marks message as solved or not. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Removes project
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveProject( 

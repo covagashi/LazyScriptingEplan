@@ -9,7 +9,7 @@ Identifying name elements # 20095.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_IDENTNAMEPARTS {get; set;}

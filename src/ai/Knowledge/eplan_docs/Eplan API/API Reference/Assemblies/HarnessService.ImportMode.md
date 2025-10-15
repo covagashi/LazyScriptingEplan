@@ -9,7 +9,7 @@ Mode for the import can be a combination of following values
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [Flags()]

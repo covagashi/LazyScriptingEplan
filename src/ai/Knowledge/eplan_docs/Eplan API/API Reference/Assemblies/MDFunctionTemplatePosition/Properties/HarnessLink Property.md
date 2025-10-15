@@ -9,7 +9,7 @@ The link to master data in Harness proD
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short HarnessLink {get; set;}

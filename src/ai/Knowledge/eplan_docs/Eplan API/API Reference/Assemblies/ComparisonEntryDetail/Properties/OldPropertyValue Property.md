@@ -9,7 +9,7 @@ Shows the value of the property in the reference project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue OldPropertyValue {get;}

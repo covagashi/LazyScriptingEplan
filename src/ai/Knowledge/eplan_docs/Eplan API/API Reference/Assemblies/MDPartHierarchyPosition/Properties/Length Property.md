@@ -9,7 +9,7 @@ Returns the length of the position.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Length {get; set;}

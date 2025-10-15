@@ -9,7 +9,7 @@ Scaling mode
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Transformation.ScalingMode : System.Enum

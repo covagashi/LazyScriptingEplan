@@ -9,7 +9,7 @@ Determines if removal of unnecessary project structures in the visible device ta
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool RemovalOfUnnecessaryProjectStructuresIsEnabled {get; set;}

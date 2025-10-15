@@ -9,7 +9,7 @@ Number of columns # 12005.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_NUMBER_OF_ROWS {get; set;}

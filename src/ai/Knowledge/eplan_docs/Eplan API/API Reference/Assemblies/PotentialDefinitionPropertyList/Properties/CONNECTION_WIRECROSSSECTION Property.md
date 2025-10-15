@@ -9,7 +9,7 @@ Connection: Cross-section / diameter # 31002.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_WIRECROSSSECTION {get; set;}

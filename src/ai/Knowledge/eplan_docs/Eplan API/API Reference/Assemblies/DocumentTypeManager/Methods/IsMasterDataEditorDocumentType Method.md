@@ -9,7 +9,7 @@ Determines if page is used to edit master data objects like symbols, forms and f
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool IsMasterDataEditorDocumentType( 

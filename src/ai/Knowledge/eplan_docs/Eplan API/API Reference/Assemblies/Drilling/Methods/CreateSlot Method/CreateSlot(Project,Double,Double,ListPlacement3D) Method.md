@@ -9,7 +9,7 @@ Creates new slot drilling in project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Drilling CreateSlot( 

@@ -9,7 +9,7 @@ Rotation angle.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Rotation {get; set;}

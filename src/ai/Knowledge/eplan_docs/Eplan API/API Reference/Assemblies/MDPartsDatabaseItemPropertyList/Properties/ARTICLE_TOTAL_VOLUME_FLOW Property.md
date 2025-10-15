@@ -9,7 +9,7 @@ Total flow rate # 26106.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TOTAL_VOLUME_FLOW {get; set;}

@@ -9,7 +9,7 @@ This property specifies if the rectangle is filled.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override bool IsSurfaceFilled {get; set;}

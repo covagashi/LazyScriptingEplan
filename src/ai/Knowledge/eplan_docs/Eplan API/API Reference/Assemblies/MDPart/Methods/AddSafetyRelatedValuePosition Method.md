@@ -9,7 +9,7 @@ Add a new safety related value position to the part. That position is added to t
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartSafetyRelatedValuePosition AddSafetyRelatedValuePosition()

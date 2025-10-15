@@ -9,7 +9,7 @@ Commits all changes of the ArticleReference to the matching properties of a pare
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void StoreToObject()

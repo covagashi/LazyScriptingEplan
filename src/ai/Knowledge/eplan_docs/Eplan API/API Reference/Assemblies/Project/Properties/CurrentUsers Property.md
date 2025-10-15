@@ -9,7 +9,7 @@ Returns the current users working at this project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public UserInfo[] CurrentUsers {get;}

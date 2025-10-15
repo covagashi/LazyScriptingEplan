@@ -9,7 +9,7 @@ Gets/sets the size of the page's grid.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double GridSize {get; set;}

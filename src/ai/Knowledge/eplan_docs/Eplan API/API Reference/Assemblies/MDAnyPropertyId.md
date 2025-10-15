@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public sealed class MDAnyPropertyId
@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDAnyPropertyId Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAnyPropertyId~_ctor().html) | Default constructor. Creates MDAnyPropertyId object. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -46,7 +46,7 @@ Public Properties
 | Public Property | [Id](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAnyPropertyId~Id.html) | Integer id of this property. |
 | Public Property | [Index](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAnyPropertyId~Index.html) | Index of the property. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -54,7 +54,7 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAnyPropertyId~Dispose().html) | Destructor for deterministic finalization of MDAnyPropertyId object. |
 
-[Top](#top)
+
 
 Public Operators
 
@@ -63,4 +63,4 @@ Public Operators
 | public Operator [Equality](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAnyPropertyId~op_Equality.html) | Equality operator |
 | public Operator [Implicit Type Conversion](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAnyPropertyId~op_Implicit.html) | Overloaded. Converts the specified property number into MDAnyProjectId object. |
 
-[Top](#top)
+

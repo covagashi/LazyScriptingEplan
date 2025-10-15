@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [CreateUndoStep](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UndoManager~CreateUndoStep.html) | Creates object representing a UndoStep. |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UndoManager~Dispose().html) | Virtual deterministic destructor. |
 
-[Top](#top)
+

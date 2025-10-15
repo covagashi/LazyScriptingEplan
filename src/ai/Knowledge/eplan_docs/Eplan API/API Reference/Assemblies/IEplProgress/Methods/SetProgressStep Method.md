@@ -9,7 +9,7 @@ The actual stepping of the progress. The function is called for every level the 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void SetProgressStep( 

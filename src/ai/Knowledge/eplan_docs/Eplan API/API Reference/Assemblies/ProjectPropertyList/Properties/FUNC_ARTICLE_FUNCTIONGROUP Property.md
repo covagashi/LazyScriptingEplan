@@ -9,7 +9,7 @@ Function group # 20902.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_FUNCTIONGROUP( 

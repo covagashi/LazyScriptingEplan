@@ -9,7 +9,7 @@ Type of certificate # 26022.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TYPE_OF_CERTIFICATE {get; set;}

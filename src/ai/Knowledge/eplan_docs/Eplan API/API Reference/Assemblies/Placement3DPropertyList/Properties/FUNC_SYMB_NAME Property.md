@@ -9,7 +9,7 @@ Symbol name # 20112.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_SYMB_NAME {get; set;}

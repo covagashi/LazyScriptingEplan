@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDPartsMessagesEnumerator
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDPartsMessagesEnumerator Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesEnumerator~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,7 +36,7 @@ Public Properties
 | Public Property | [Current](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesEnumerator~Current.html) | gets the current element in [Eplan::EplApi::MasterData:](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseMessages.html) |
 | Public Property | [CurrentMDPartsMessage](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesEnumerator~CurrentMDPartsMessage.html) | gets the current element in [Eplan::EplApi::MasterData:](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseMessages.html) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -47,4 +47,4 @@ Public Methods
 | Public Method | [Reset](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesEnumerator~Reset.html) | Sets the enumerator to its initial position, which is before the first element in [Eplan::EplApi::MasterData:](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseMessages.html) |
 | Public Method | [SetDatabase](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesEnumerator~SetDatabase.html) | initializes the enumerator for iterating over the Parts Database messages collection |
 
-[Top](#top)
+

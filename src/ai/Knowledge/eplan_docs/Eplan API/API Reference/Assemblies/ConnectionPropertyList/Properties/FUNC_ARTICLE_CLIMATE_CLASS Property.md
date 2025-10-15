@@ -9,7 +9,7 @@ Climate class # 26408.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_CLIMATE_CLASS( 

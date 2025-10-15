@@ -9,7 +9,7 @@ Pipe class # 44072.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PIPECLASS {get; set;}

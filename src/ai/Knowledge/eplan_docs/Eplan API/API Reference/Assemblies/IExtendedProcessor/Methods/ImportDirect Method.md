@@ -9,7 +9,7 @@ Imports the file to the system EContext may point to an EProgress object to supp
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool ImportDirect( 

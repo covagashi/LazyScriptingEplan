@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [X](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD~X.html) | X coordinate |
 | Public Property | [Y](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD~Y.html) | Y coordinate |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Synchronizes the specified parts inside the project with the parts in the parts 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void PartToProject( 

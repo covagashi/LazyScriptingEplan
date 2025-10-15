@@ -9,7 +9,7 @@ Indicates whether object is currently hidden in 3D editor view.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsHidden {get;}

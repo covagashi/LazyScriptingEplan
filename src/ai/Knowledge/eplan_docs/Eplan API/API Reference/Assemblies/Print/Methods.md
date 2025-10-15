@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [Pages](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Print~Pages.html) | Overloaded. Prints pages on the specified printer. |
 | Public Method | [Project](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Print~Project.html) | Overloaded. Prints all pages of the given project on the specified printer. |
 
-[Top](#top)
+

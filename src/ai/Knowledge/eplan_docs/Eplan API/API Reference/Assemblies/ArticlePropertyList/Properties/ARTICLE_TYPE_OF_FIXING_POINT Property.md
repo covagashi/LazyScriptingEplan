@@ -9,7 +9,7 @@ Type of attachment point # 26218.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TYPE_OF_FIXING_POINT {get; set;}

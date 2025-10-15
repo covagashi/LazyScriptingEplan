@@ -9,7 +9,7 @@ Trade 'Fluid power (undefined)' # 22264.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CRAFT_FLUID_UNDEFINED {get; set;}

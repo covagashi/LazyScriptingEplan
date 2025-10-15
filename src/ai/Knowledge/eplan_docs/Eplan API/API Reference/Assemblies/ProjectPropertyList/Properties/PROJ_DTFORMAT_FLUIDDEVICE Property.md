@@ -9,7 +9,7 @@ Format of displayed DT: Fluid device # 10633.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DTFORMAT_FLUIDDEVICE {get; set;}

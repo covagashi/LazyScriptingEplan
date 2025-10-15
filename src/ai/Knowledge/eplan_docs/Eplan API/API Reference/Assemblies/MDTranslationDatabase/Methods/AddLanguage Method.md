@@ -9,7 +9,7 @@ Adds new translation database language.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AddLanguage( 

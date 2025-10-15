@@ -9,7 +9,7 @@ Checks whether a scheme is defined.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CheckIfSchemeExists( 

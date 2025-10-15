@@ -9,7 +9,7 @@ Locks all data model objects in the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void LockAllObjects()

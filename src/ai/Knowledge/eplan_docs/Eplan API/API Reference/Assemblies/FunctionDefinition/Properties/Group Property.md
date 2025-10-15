@@ -9,7 +9,7 @@ Group of FunctionDefinition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short Group {get;}

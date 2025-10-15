@@ -9,7 +9,7 @@ Format of displayed DT: Black box # 10630.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DTFORMAT_BLACKBOX {get; set;}

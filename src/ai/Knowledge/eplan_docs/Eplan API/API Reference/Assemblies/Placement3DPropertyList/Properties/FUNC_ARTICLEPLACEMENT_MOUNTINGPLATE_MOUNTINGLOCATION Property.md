@@ -9,7 +9,7 @@ Mounting site (of mounting panel) # 20462.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLEPLACEMENT_MOUNTINGPLATE_MOUNTINGLOCATION {get; set;}

@@ -9,7 +9,7 @@ Sales price Currency 1 # 22107.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SALESPRICE_1 {get; set;}

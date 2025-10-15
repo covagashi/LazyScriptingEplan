@@ -9,7 +9,7 @@ Returns the master plane.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Plane MasterPlane {get;}

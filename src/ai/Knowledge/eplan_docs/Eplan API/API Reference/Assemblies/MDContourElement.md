@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDContourElement
@@ -36,7 +36,7 @@ Public Properties
 | Public Property | [StartPoint](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDContourElement~StartPoint.html) | Starting point of contour element relative to reference point. |
 | Public Property | [TypeOfConture](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDContourElement~TypeOfConture.html) | Type of curve which connects start with end point. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -44,4 +44,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDContourElement~Dispose().html) | Destructor for deterministic finalization of MDContourElement object. |
 
-[Top](#top)
+

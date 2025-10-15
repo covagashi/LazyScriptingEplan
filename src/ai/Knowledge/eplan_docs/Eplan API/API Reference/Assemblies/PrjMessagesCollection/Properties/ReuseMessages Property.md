@@ -9,7 +9,7 @@ Determines whether new message can be duplicated in collection. Default value is
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ReuseMessages {get; set;}

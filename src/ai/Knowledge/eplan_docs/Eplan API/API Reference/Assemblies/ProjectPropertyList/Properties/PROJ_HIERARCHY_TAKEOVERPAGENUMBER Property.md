@@ -9,7 +9,7 @@ Use page name in DT # 10012.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_TAKEOVERPAGENUMBER {get; set;}

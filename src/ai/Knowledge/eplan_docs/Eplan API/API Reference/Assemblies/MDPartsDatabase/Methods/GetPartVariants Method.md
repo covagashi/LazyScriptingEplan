@@ -9,7 +9,7 @@ Gets all part variants with the given part number.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPart[] GetPartVariants( 

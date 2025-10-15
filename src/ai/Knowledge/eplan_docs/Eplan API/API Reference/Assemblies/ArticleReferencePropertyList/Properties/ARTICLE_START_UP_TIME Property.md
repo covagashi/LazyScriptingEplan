@@ -9,7 +9,7 @@ Switch-on time # 26192.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_START_UP_TIME {get; set;}

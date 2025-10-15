@@ -9,7 +9,7 @@ Returns the number of active LockingSteps. This is not the length of the vector,
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int LockingStepCount {get;}

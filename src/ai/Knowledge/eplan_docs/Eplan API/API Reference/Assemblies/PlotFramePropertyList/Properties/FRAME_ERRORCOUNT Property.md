@@ -9,7 +9,7 @@ Number of messages # 12099.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_ERRORCOUNT {get; set;}

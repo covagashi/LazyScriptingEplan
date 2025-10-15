@@ -9,7 +9,7 @@ Enum containing all possible setting of contact image.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [Flags()]

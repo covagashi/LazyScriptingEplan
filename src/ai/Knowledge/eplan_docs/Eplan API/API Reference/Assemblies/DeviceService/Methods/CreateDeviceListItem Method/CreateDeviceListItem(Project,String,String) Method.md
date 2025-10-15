@@ -9,7 +9,7 @@ Create a new device list entry.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DeviceListEntry CreateDeviceListItem( 

@@ -9,7 +9,7 @@ Data transfer rate # 20313.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLC_TRANSMISSIONRATE {get; set;}

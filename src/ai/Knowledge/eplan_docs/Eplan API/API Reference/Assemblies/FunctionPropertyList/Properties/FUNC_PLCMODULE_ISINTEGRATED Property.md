@@ -9,7 +9,7 @@ Integrated module # 20289.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCMODULE_ISINTEGRATED {get; set;}

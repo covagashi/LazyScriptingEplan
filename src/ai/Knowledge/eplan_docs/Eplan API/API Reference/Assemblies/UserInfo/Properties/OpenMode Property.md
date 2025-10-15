@@ -9,7 +9,7 @@ Get the mode in which the user has opened the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ProjectManager.OpenMode OpenMode {get;}

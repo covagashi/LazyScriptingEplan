@@ -9,7 +9,7 @@ Assigns given configurable properties scheme to the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AssignConfigurablePropertiesScheme( 

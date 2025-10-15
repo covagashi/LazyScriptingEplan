@@ -9,7 +9,7 @@ Source: Target number # 31023.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_NR_SOURCE {get; set;}

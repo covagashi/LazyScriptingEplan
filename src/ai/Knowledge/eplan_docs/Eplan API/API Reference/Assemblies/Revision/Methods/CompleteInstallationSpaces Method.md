@@ -9,7 +9,7 @@ Completes modification of installation spaces in the current revision of a proje
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CompleteInstallationSpaces( 

@@ -9,7 +9,7 @@ Suppl. field: Text # 20501.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_ADDITIONAL_TEXTFIELD {get; set;}

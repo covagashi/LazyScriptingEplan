@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PageMacro.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PageMacro.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.PageMacro+Enums~_ctor.html) |  |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Cable length, routed # 26398.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_CABLE_LENGTH_LAID( 

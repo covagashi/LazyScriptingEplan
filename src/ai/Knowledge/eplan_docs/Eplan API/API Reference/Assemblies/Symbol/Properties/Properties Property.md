@@ -9,7 +9,7 @@ Gets symbol properties.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new SymbolPropertyList Properties {get;}

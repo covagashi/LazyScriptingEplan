@@ -9,7 +9,7 @@ Creates model views report
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateViewPlacements( 

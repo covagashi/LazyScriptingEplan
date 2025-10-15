@@ -9,7 +9,7 @@ Imports user defined properties from file to project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ImportPropertyDefinitions( 

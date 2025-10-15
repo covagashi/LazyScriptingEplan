@@ -9,7 +9,7 @@ Description of undo step for this interaction.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Description {get; set;}

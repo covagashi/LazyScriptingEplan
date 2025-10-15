@@ -9,7 +9,7 @@ Returns all [Function](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function.h
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function[] Functions {get;}

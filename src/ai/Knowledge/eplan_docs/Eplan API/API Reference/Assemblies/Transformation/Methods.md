@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Transformation~Dispose().html) | Destructor. |
 
-[Top](#top)
+

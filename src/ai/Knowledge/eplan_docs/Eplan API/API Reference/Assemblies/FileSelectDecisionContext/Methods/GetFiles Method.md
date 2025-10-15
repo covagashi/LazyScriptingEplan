@@ -9,7 +9,7 @@ Get all the files the user has selected in the decider dialog.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[] GetFiles()

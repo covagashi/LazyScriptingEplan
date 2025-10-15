@@ -9,7 +9,7 @@ Adds keywords with texts in specified languages to the translation database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AddKeyword( 

@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDDoorPosition : MDPartsDatabaseItemChildData
@@ -33,7 +33,7 @@ Public Properties
 | Public Property | [Y](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDDoorPosition~Y.html) | Returns the Y position of the referenced door. |
 | Public Property | [Z](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDDoorPosition~Z.html) | Returns the Z position of the referenced door. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -41,4 +41,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose()](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData~Dispose().html) | Destructor for deterministic finalization of MDDoorPosition object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData.html)) |
 
-[Top](#top)
+

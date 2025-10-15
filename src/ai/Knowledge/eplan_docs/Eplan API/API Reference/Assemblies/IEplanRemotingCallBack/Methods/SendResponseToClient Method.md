@@ -9,7 +9,7 @@ Send a response to a Client.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void SendResponseToClient( 

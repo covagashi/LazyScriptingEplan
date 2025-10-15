@@ -9,7 +9,7 @@ Creates an embedded object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateEmbedded( 

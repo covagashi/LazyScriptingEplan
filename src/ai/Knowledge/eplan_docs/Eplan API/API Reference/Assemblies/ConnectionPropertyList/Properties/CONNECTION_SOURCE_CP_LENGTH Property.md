@@ -9,7 +9,7 @@ Connection: Connection point length source # 31080.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_SOURCE_CP_LENGTH {get; set;}

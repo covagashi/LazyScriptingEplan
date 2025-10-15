@@ -9,7 +9,7 @@ Categories of a function.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum FunctionCategory : System.Enum

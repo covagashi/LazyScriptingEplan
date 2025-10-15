@@ -9,7 +9,7 @@ Creates new connection category
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static MDConnectionCategory Create( 

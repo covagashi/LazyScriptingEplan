@@ -9,7 +9,7 @@ Gets HttpClient object. IHttpClientFactory is used internally to create the Http
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 IdentityClientResponse GetHttpClient( 

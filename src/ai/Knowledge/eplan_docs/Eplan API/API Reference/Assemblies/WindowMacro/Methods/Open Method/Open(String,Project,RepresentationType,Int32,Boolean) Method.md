@@ -9,7 +9,7 @@ Returns available value set names
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[] AvailableValueSetNames {get;}

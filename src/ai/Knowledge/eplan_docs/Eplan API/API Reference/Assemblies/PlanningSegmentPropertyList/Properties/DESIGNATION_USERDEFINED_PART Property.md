@@ -9,7 +9,7 @@ User-defined structure (single component) # 1628.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_USERDEFINED_PART {get; set;}

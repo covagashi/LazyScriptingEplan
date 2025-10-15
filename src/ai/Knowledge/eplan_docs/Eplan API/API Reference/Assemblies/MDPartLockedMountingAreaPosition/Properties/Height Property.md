@@ -9,7 +9,7 @@ Height of the locked mounting area
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Height {get; set;}

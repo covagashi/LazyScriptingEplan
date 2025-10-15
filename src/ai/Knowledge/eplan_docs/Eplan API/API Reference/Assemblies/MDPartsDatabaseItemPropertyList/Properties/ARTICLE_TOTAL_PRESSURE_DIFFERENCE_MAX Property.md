@@ -9,7 +9,7 @@ Total pressure difference, max. # 26103.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TOTAL_PRESSURE_DIFFERENCE_MAX {get; set;}

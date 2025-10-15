@@ -9,7 +9,7 @@ Removes all indexed setting.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveAllIndexedSetting( 

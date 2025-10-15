@@ -9,7 +9,7 @@ Gets property id value as [Properties.OptionGroup](Eplan.EplApi.DataModelu~Eplan
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.OptionGroup AsOptionGroup {get;}

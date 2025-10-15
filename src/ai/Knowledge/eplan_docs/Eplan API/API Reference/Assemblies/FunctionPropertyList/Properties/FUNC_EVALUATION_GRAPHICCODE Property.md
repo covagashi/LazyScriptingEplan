@@ -9,7 +9,7 @@ Graphical display in reports # 20089.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_EVALUATION_GRAPHICCODE( 

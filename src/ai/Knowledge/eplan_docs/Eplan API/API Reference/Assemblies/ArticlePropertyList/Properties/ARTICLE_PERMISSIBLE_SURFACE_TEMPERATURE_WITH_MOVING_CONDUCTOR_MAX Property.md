@@ -9,7 +9,7 @@ Permissible surface temperature (with open - not stationary - lines), max. # 261
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PERMISSIBLE_SURFACE_TEMPERATURE_WITH_MOVING_CONDUCTOR_MAX {get; set;}

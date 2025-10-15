@@ -9,7 +9,7 @@ Creates a new event parameter object of the EventParameterString type from the b
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EventParameterString( 

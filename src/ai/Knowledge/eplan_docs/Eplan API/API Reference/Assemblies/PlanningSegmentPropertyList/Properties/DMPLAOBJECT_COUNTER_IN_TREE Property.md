@@ -9,7 +9,7 @@ Sort code (segments) # 44092.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_COUNTER_IN_TREE {get; set;}

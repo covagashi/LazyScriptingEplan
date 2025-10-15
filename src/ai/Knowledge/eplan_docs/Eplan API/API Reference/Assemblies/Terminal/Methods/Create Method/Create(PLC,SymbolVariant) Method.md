@@ -9,7 +9,7 @@ Creates a Terminal object related to a [PLC](Eplan.EplApi.DataModelu~Eplan.EplAp
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

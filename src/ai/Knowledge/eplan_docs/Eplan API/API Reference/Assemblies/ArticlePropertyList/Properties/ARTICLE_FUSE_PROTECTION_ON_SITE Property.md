@@ -9,7 +9,7 @@ Amperage (fuse, on-site) # 26002.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_FUSE_PROTECTION_ON_SITE {get; set;}

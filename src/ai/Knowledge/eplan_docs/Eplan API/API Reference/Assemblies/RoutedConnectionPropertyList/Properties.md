@@ -667,4 +667,4 @@ Public Properties
 | Public Property | [WRITEPROTECTED](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPropertyList~WRITEPROTECTED().html) | Overloaded. Change protection # 3014. (Inherited from [Eplan.EplApi.DataModel.ConnectionPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPropertyList.html)) |
 | Public Property | [WRITEPROTECTED\_AUTOMATIC](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPropertyList~WRITEPROTECTED_AUTOMATIC().html) | Overloaded. Change protection (hierarchical) # 3015. (Inherited from [Eplan.EplApi.DataModel.ConnectionPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPropertyList.html)) |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Identificators of properties owned by Comment class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Comment : System.Enum

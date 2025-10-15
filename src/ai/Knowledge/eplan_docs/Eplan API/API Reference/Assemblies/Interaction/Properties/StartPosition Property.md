@@ -9,7 +9,7 @@ start position of Interaction. The StartPosition is needed to calculate the curr
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Position StartPosition {get; set;}

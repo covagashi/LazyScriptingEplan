@@ -9,7 +9,7 @@ Default constructor. Creates Filter that matches all [InterruptionPoint](Eplan.E
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InterruptionPointsFilter()

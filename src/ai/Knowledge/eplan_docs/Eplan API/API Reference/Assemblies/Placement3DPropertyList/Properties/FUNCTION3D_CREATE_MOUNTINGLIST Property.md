@@ -9,7 +9,7 @@ Output in mounting list # 36032.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_CREATE_MOUNTINGLIST {get; set;}

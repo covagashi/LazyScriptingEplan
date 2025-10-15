@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Plane : Placement3D, Eplan.EplApi.DataModel.IFunctionBase, Eplan.EplApi.DataModel.IPropertyPlacementsContainer
@@ -29,7 +29,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Plane Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Plane~_ctor().html) | Default constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -83,7 +83,7 @@ Public Properties
 | Public Property | [VisibleName](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Plane~VisibleName.html) | Returns the visible name of the IFunctionBase. |
 | Public Property | [VisibleNameParts](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Plane~VisibleNameParts.html) | Returns visible name of the IFunctionBase. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -115,4 +115,4 @@ Public Methods
 | Public Method | [SwitchLocalPropertyPlacements](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D~SwitchLocalPropertyPlacements.html) | Copies or removes all local ProperyPlacemnets and sets flag (Inherited from [Eplan.EplApi.DataModel.E3D.Placement3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D.html)) |
 | Public Method | [ToStringIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~ToStringIdentifier.html) | Returns this object as string identifier. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 
-[Top](#top)
+

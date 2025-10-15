@@ -9,7 +9,7 @@ Sets the given visible name as the new visible name to the given function and ad
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SetVisibleNameAndAdjustFullName( 

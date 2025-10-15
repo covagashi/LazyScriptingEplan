@@ -46,4 +46,4 @@ Public Properties
 | Public Property | [VisibleName](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBase~VisibleName.html) | Returns the visible name of the FunctionBase. (Inherited from [Eplan.EplApi.DataModel.FunctionBase](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBase.html)) |
 | Public Property | [VisibleNameParts](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBase~VisibleNameParts.html) | Returns visible name of the Function. (Inherited from [Eplan.EplApi.DataModel.FunctionBase](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBase.html)) |
 
-[Top](#top)
+

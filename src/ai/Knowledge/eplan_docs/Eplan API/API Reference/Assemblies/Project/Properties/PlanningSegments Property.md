@@ -9,7 +9,7 @@ Returns array of all [Eplan.EplApi.DataModel.Planning.PlanningSegment](Eplan.Epl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlanningSegment[] PlanningSegments {get;}

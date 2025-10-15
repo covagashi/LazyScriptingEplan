@@ -9,7 +9,7 @@ Default constructor. Creates the AnyPropertyId object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public AnyPropertyId()

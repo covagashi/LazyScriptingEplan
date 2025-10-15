@@ -9,7 +9,7 @@ Pre- defined classifications for MDParts Database messages; every message must b
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum IMDMessage.Classification : System.Enum

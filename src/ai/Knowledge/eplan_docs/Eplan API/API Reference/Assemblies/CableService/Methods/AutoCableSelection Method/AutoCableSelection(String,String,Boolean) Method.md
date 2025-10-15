@@ -9,7 +9,7 @@ Commits an automatic cable selection in the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AutoCableSelection( 

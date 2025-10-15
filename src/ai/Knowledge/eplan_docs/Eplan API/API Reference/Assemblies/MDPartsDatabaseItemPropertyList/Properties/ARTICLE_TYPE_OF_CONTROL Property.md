@@ -9,7 +9,7 @@ Type of control # 26017.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TYPE_OF_CONTROL {get; set;}

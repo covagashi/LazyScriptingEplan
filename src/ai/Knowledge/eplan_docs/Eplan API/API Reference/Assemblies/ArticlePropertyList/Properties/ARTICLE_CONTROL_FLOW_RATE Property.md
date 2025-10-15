@@ -9,7 +9,7 @@ Control flow rate # 26152.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CONTROL_FLOW_RATE {get; set;}

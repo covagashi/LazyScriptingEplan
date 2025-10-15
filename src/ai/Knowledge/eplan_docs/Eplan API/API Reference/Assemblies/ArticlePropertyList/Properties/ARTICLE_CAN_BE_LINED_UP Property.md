@@ -9,7 +9,7 @@ Alignable # 22229.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CAN_BE_LINED_UP {get; set;}

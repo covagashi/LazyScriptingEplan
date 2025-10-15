@@ -9,7 +9,7 @@ Sets a value or variable on Placeholder project property. The reference of the o
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void SetProjectPropertyEntry( 

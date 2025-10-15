@@ -9,7 +9,7 @@ Returns default Forms directory.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Forms {get;}

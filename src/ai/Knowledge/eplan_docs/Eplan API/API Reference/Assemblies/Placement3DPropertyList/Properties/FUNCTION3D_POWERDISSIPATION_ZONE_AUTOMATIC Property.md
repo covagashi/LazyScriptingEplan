@@ -9,7 +9,7 @@ Thermal design: Air-conditioning field (automatic) # 36046.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_POWERDISSIPATION_ZONE_AUTOMATIC {get; set;}

@@ -9,7 +9,7 @@ Rotates objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Rotate( 

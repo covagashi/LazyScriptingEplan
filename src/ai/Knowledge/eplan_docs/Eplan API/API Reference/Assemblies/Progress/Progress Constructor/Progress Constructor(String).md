@@ -9,7 +9,7 @@ Creates a new progress bar.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Progress( 

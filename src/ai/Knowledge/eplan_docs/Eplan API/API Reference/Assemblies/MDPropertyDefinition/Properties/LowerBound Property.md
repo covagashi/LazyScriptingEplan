@@ -9,7 +9,7 @@ Gets a property's minimal value specified in the property's definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual MDPropertyValue LowerBound {get;}

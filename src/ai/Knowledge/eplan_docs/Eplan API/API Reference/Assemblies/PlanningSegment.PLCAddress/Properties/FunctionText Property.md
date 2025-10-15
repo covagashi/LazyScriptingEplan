@@ -9,7 +9,7 @@ The function text for the PLC connection point.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString FunctionText {get; set;}

@@ -9,7 +9,7 @@ Gets all user defined property positions
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDUserDefinedPropertyPosition[] UserDefinedPropertyPositions {get;}

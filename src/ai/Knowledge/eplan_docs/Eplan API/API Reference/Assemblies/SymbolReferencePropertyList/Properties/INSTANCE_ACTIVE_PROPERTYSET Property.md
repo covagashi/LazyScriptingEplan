@@ -9,7 +9,7 @@ Property arrangement # 19307.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_ACTIVE_PROPERTYSET {get; set;}

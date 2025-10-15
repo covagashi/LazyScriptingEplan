@@ -9,7 +9,7 @@ Identificators of properties owned by PlotFrame class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.PlotFrame : System.Enum

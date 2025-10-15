@@ -9,7 +9,7 @@ Removes daisy chain from a net definition point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveDaisyChain( 

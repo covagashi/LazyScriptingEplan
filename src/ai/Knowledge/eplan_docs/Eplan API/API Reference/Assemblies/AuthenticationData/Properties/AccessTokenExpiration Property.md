@@ -9,7 +9,7 @@ Date and time of access token expiration.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DateTimeOffset AccessTokenExpiration {get; set;}

@@ -9,7 +9,7 @@ Returns default boolean value of a setting. The index starts at 0.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool GetBoolDefault( 

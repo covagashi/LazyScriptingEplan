@@ -9,7 +9,7 @@ Gets or sets whether dimension value is centered in line.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool DimensionValueCenteredInLine {get; set;}

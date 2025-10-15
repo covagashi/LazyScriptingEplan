@@ -28,4 +28,4 @@ Public Properties
 | Public Property | [SYMBVAR\_SYMBLIB\_NAME](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolVariantPropertyList~SYMBVAR_SYMBLIB_NAME().html) | Symbol library # 16905. |
 | Public Property | [WRITEPROTECTED\_AUTOMATIC](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolVariantPropertyList~WRITEPROTECTED_AUTOMATIC().html) | Change protection (hierarchical) # 3015. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Door: Wall thickness # 22194.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DOORTHICKNESS {get; set;}

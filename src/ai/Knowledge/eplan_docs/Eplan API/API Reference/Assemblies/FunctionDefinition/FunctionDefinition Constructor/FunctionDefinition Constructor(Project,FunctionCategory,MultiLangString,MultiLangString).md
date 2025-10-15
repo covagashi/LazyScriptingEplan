@@ -9,7 +9,7 @@ Constructs and initializes a FunctionDefinition object with the specified functi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public FunctionDefinition( 

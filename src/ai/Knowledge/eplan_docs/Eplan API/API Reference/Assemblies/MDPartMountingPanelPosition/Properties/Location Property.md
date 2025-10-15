@@ -9,7 +9,7 @@ The location of the referenced mounting panel.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Location {get; set;}

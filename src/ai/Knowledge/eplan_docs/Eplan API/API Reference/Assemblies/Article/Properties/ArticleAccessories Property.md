@@ -9,7 +9,7 @@ Returns the list of the accessories from the article.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Article.Accessory[] ArticleAccessories {get;}

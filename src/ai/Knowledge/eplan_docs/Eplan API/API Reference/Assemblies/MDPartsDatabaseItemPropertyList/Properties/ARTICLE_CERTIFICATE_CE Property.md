@@ -9,7 +9,7 @@ Certification: CE # 22113.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CERTIFICATE_CE {get; set;}

@@ -9,7 +9,7 @@ Remove all [Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DeepUnGroup()

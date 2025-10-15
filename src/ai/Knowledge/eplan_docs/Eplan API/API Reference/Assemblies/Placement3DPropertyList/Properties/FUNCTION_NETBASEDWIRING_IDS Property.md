@@ -9,7 +9,7 @@ IDs for net-based connections # 20219.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION_NETBASEDWIRING_IDS {get; set;}

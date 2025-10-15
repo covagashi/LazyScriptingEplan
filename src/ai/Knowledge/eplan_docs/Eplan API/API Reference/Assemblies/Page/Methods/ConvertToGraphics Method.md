@@ -9,7 +9,7 @@ Converts all symbols and connections on the page into graphical instances. Graph
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement[] ConvertToGraphics()

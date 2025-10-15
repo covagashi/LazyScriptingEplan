@@ -9,7 +9,7 @@ State of the Option.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Active {get; set;}

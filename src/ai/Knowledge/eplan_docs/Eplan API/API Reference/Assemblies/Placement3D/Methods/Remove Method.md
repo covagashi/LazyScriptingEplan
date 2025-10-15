@@ -9,7 +9,7 @@ Removes object from project and all its children.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Remove()

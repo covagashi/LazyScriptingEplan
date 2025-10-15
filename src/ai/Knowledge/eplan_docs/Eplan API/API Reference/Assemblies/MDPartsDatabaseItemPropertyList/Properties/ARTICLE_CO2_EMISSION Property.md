@@ -9,7 +9,7 @@ CO2 emission # 26245.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CO2_EMISSION {get; set;}

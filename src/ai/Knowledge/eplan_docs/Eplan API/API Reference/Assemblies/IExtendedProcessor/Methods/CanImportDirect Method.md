@@ -9,7 +9,7 @@ Indicates whether the converter can import external formats
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool CanImportDirect( 

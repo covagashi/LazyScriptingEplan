@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Progress
@@ -154,7 +154,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Progress Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -176,4 +176,4 @@ Public Methods
 | Public Method | [ShowLevel](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress~ShowLevel.html) | Specifies the nesting level up to which a display is made. |
 | Public Method | [Step](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Progress~Step.html) | Uses a step |
 
-[Top](#top)
+

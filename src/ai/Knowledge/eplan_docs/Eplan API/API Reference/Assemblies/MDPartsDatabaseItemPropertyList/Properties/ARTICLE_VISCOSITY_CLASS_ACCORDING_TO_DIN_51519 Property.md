@@ -9,7 +9,7 @@ Viscosity class (acc. to DIN 51519) # 26631.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_VISCOSITY_CLASS_ACCORDING_TO_DIN_51519 {get; set;}

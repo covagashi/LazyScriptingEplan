@@ -9,7 +9,7 @@ Property configurations assigned to this segment definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyConfiguration[] PropertiesConfigurations {get;}

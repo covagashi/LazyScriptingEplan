@@ -18,7 +18,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Property")]
@@ -35,7 +35,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PropertiesAndHandleObjectPropertyList Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList~_ctor().html) | This constructor creates local property list. Any changes done to this PropertiesAndHandleObjectPropertyList are local. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -45,7 +45,7 @@ Public Properties
 | Public Property | [Parent](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList~Parent.html) | PropertiesAndHandleObject to which this property list is connected. |
 | Public Property | [Property](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList~Property.html) | Overloaded. Method used by operator[] in order to access indexed properties by MDAnyPropertyId. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -54,4 +54,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList~Dispose().html) | Destructor for deterministic finalization of PropertiesAndHandleObjectPropertyList object. |
 | Public Method | [Exists](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList~Exists.html) | Checks if property exists for used object. |
 
-[Top](#top)
+

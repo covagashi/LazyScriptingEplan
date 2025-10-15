@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObject~Dispose().html) | Destructor for deterministic finalization of PropertiesAndHandleObject object. (Inherited from [Eplan.EplApi.MasterData.PropertiesAndHandleObject](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObject.html)) |
 | Public Method | [Remove](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolVariant~Remove.html) | Removes the symbol variant from the symbol. |
 
-[Top](#top)
+

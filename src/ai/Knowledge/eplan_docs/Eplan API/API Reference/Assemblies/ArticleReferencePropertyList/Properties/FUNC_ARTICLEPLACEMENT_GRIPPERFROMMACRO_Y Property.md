@@ -9,7 +9,7 @@ Handle from macro: Y coordinate # 20341.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLEPLACEMENT_GRIPPERFROMMACRO_Y {get; set;}

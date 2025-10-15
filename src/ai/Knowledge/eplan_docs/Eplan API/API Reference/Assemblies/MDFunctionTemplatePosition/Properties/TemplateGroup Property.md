@@ -9,7 +9,7 @@ The template group of the function template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string TemplateGroup {get; set;}

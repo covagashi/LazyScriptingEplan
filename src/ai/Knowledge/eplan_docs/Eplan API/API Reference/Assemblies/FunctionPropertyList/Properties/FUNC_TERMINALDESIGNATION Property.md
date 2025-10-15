@@ -9,7 +9,7 @@ Connection point designation # 20028.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINALDESIGNATION( 

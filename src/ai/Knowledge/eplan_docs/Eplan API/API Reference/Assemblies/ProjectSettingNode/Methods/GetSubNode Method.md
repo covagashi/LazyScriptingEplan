@@ -9,7 +9,7 @@ Determines a child node.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override SettingNode GetSubNode( 

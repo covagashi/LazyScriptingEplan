@@ -9,7 +9,7 @@ Creates a new object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ContextMenuLocation( 

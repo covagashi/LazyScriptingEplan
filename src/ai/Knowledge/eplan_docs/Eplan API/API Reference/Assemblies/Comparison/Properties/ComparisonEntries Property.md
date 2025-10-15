@@ -9,7 +9,7 @@ Result of comparison of projects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ComparisonEntry[] ComparisonEntries {get;}

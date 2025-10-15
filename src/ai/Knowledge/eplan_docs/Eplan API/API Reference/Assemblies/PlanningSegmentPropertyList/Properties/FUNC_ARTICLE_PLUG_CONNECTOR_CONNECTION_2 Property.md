@@ -9,7 +9,7 @@ Performance description, standardized: Item keyword (device, utility, service) #
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_POSITION_KEYWORD( 

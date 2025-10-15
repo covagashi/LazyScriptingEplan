@@ -9,7 +9,7 @@ PLC subdevice 5: PLC type designation # 20585.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_TYPEIDENTIFIER_5 {get; set;}

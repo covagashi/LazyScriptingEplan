@@ -9,7 +9,7 @@ Returns the number of faces.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public uint FaceCount {get;}

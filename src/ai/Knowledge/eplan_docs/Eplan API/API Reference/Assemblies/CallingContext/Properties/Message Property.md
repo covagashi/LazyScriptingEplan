@@ -9,7 +9,7 @@ String message
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Message {get; set;}

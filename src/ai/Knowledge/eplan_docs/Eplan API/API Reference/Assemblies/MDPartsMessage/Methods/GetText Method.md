@@ -9,7 +9,7 @@ Returns the the complete text of the message.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetText()

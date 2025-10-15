@@ -9,7 +9,7 @@ External document: Designation # 22279.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_EXTERNAL_DOCUMENT_DESIGNATION( 

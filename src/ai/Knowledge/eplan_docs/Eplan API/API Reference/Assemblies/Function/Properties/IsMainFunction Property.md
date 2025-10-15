@@ -9,7 +9,7 @@ Gets/Sets a flag which indicates a main function of the device.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsMainFunction {get; set;}

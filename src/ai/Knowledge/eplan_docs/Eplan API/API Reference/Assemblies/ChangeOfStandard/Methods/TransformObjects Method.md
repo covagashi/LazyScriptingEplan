@@ -9,7 +9,7 @@ Transforms all objects from source page to target page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Dictionary<StorableObject,StorableObject> TransformObjects( 

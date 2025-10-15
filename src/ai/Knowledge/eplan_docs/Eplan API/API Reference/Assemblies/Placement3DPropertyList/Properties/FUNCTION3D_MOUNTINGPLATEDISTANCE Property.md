@@ -9,7 +9,7 @@ Distance to mounting surface # 36017.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_MOUNTINGPLATEDISTANCE {get; set;}

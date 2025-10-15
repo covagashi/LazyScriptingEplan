@@ -9,7 +9,7 @@ Method for numbering cables in a project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RenumberCables( 

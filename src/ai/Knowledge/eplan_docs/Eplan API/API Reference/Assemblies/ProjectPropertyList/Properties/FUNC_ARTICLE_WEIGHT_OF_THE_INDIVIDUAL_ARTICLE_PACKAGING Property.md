@@ -9,7 +9,7 @@ Weight (individual packaging) # 26377.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_WEIGHT_OF_THE_INDIVIDUAL_ARTICLE_PACKAGING( 

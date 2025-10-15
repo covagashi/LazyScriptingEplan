@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [MoveNext](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass+ValueSetEnumerator~MoveNext.html) |  |
 | Public Method | [Reset](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass+ValueSetEnumerator~Reset.html) |  |
 
-[Top](#top)
+

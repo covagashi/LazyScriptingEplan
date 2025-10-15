@@ -9,7 +9,7 @@ Returns the first object covered by this merged connection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject FirstWinner {get;}

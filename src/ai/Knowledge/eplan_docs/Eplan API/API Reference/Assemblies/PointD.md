@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public struct PointD : System.ValueType
@@ -28,7 +28,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PointD Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -37,7 +37,7 @@ Public Properties
 | Public Property | [X](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD~X.html) | X coordinate |
 | Public Property | [Y](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD~Y.html) | Y coordinate |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -46,7 +46,7 @@ Public Methods
 | Public Method | [GetEPoint](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD~GetEPoint.html) | \internal |
 | Public Method | [SetEPoint](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD~SetEPoint.html) |  |
 
-[Top](#top)
+
 
 Public Operators
 
@@ -54,4 +54,4 @@ Public Operators
 | --- | --- |
 | public Operator [Implicit Type Conversion](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD~op_Implicit.html) |  |
 
-[Top](#top)
+

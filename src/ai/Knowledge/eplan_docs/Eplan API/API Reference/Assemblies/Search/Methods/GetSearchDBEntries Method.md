@@ -9,7 +9,7 @@ Returns objects from a list of search results.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] GetSearchDBEntries( 

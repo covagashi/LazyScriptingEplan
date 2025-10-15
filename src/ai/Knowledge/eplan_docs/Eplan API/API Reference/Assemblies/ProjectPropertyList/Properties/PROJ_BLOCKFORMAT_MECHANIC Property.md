@@ -9,7 +9,7 @@ Block property: Format (mechanical) # 10619.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_MECHANIC( 

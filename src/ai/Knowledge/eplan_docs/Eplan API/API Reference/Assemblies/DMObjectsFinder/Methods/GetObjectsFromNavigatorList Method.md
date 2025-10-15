@@ -9,7 +9,7 @@ Returns all items from the list tab of a navigator.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] GetObjectsFromNavigatorList( 

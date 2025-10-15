@@ -9,7 +9,7 @@ Set configuration type to select different variants for point or destination wir
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolReference.PointVariant SymbolWiringType {get; set;}

@@ -9,7 +9,7 @@ End customer: Full name # 10145.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ENDCUSTOMER_LONGNAME {get; set;}

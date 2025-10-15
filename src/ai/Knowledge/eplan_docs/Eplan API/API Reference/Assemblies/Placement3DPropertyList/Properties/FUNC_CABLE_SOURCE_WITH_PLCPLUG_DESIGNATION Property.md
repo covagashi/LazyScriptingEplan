@@ -9,7 +9,7 @@ Cables: Source (with plug designation) # 20383.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_SOURCE_WITH_PLCPLUG_DESIGNATION {get; set;}

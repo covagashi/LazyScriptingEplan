@@ -9,7 +9,7 @@ Direction of the 3D search vector orthogonal to the screen surface
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual PointD3D Direction {get;}

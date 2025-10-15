@@ -9,7 +9,7 @@ Inserts a page macro into a project. You need to set the page, after which the n
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] PageMacro( 

@@ -9,7 +9,7 @@ Defines the path to the settings node.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Set( 

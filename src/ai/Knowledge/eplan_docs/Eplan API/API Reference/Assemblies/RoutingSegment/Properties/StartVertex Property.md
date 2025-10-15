@@ -9,7 +9,7 @@ Point in 3d space which is the beginning of routing segment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D StartVertex {get; set;}

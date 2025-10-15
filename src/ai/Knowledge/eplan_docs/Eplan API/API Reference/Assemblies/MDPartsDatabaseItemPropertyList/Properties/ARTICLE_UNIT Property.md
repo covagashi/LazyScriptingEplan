@@ -9,7 +9,7 @@ Unit # 26281.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_UNIT {get; set;}

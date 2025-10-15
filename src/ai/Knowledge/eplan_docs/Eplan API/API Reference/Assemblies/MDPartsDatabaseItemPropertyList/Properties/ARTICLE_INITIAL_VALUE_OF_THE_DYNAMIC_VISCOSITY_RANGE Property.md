@@ -9,7 +9,7 @@ Dynamic viscosity range: Start value # 26188.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_INITIAL_VALUE_OF_THE_DYNAMIC_VISCOSITY_RANGE {get; set;}

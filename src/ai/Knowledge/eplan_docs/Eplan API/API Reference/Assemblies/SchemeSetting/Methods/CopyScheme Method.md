@@ -9,7 +9,7 @@ Copy an existing scheme.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CopyScheme( 

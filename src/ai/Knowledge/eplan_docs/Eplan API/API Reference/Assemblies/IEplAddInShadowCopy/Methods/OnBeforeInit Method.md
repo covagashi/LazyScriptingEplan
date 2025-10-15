@@ -9,7 +9,7 @@ Called by the framework before [IEplAddIn.OnInit](Eplan.EplApi.AFu~Eplan.EplApi.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void OnBeforeInit( 

@@ -29,4 +29,4 @@ Public Methods
 | Public Methodstatic (Shared in Visual Basic) | [IsRealLogicalFunctionDocType](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DocumentTypeManager~IsRealLogicalFunctionDocType.html) | Determines, if the given value specifies a real logical function. |
 | Public Methodstatic (Shared in Visual Basic) | [SupportsPageAutoconnecting](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DocumentTypeManager~SupportsPageAutoconnecting.html) | Determines if a page supports auto-connecting. |
 
-[Top](#top)
+

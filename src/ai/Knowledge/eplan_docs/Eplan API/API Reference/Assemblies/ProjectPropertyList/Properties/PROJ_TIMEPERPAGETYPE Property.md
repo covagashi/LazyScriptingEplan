@@ -9,7 +9,7 @@ Last modification time per page type # 10251.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_TIMEPERPAGETYPE( 

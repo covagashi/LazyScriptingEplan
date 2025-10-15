@@ -9,7 +9,7 @@ Format of full DT: Cable / shield # 10647.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_FULLDTFORMAT_CABLE {get; set;}

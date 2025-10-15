@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [ResetFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlanningSegmentsFilter~ResetFilter.html) | Overridden. Resets the filter. Filter matches all [StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)s then. |
 | Public Method | [SetFilteredPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlanningSegmentsFilter~SetFilteredPropertyList.html) | Overloaded. Sets the [Eplan.EplApi.DataModel.Planning.PlanningSegmentPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningSegmentPropertyList.html) that [Eplan.EplApi.DataModel.Planning.PlanningSegment](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningSegment.html)s matching the filter must have. |
 
-[Top](#top)
+

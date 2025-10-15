@@ -9,7 +9,7 @@ Actual power (hydraulic), min. # 26385.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_ACTUAL_OUTPUT_HYDRAULIC_MIN {get; set;}

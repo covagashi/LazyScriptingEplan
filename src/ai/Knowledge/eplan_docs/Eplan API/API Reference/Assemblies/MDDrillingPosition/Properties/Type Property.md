@@ -9,7 +9,7 @@ The type of the drilling
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDDrillingPosition.DrillingType Type {get; set;}

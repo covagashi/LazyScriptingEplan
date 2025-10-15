@@ -9,7 +9,7 @@ Cursor position considering ortho-mode.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual PointD3D OrthoPosition {get; set;}

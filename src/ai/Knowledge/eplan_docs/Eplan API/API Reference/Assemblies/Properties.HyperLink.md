@@ -9,7 +9,7 @@ Identificators of properties owned by HyperLink class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.HyperLink : System.Enum

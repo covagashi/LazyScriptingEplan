@@ -9,7 +9,7 @@ Nominal output torque # 26465.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_RATED_OUTPUT_TORQUE( 

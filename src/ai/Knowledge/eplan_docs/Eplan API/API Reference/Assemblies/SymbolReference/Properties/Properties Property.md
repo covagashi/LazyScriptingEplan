@@ -9,7 +9,7 @@ EPLAN properties of the SymbolReference object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new SymbolReferencePropertyList Properties {get;}

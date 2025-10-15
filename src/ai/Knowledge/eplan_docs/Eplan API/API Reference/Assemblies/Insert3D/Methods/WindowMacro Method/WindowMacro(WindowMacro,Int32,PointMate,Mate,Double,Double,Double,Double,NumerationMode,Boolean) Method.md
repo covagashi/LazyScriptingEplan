@@ -9,7 +9,7 @@ Places a window macro with a given mate to another mate. That means, that the po
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] WindowMacro( 

@@ -9,7 +9,7 @@ Get all Module positions of the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartModulePosition[] ModulePositions {get;}

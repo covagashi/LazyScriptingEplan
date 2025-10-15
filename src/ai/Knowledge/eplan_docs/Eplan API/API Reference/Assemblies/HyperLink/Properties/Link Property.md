@@ -9,7 +9,7 @@ Gets/Sets string representation of the hyperlink.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Link {get; set;}

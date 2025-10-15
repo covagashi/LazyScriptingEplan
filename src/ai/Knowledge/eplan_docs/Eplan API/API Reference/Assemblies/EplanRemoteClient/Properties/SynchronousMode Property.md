@@ -9,7 +9,7 @@ Sets and gets the Synchronous mode.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SynchronousMode {get; set;}

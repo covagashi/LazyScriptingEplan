@@ -9,7 +9,7 @@ DT: Page # 20150.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DT_PAGECOUNTER {get; set;}

@@ -9,7 +9,7 @@ Identificators of properties owned by StrandConnector class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.StrandConnector : System.Enum

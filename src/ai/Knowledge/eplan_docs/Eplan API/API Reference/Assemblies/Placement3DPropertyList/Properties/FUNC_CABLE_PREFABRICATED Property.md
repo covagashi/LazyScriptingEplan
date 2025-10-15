@@ -9,7 +9,7 @@ Use connected devices as source and target # 20621.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_PREFABRICATED {get; set;}

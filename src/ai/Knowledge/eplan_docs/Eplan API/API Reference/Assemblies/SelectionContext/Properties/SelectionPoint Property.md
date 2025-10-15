@@ -9,7 +9,7 @@ Returns point of single selection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD SelectionPoint {get;}

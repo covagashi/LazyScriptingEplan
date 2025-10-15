@@ -9,7 +9,7 @@ Cross-reference (only main functions) # 20306.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_MAINCROSSREFERENCE {get; set;}

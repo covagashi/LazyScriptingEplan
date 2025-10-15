@@ -9,7 +9,7 @@ Constructor
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RoutedConnectionPropertyList()

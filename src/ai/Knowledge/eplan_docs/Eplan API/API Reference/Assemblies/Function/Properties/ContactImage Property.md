@@ -9,7 +9,7 @@ Returns contact image assign to this function or `null`.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ContactImage ContactImage {get;}

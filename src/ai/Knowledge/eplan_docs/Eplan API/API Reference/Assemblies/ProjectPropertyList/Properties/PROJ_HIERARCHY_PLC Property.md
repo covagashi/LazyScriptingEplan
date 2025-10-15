@@ -9,7 +9,7 @@ Structure format for PLC / bus technology # 10057.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_PLC {get; set;}

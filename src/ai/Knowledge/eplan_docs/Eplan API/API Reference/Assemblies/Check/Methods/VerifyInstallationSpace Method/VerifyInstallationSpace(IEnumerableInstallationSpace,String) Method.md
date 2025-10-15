@@ -9,7 +9,7 @@ Starts a check run for the given installation spaces.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void VerifyInstallationSpace( 

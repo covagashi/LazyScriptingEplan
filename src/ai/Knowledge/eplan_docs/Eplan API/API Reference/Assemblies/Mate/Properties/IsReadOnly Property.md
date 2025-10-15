@@ -9,7 +9,7 @@ Determines if Mate can be modified.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsReadOnly {get;}

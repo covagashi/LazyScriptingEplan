@@ -9,7 +9,7 @@ Project's property which return full project's directory name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ProjectDirectoryPath {get;}

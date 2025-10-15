@@ -9,7 +9,7 @@ Starts a locking step. ManualLocking mode is set to ON; Gets the position in Loc
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public LockingStep()

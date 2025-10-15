@@ -9,7 +9,7 @@ flag, wether the locked mounting area is on the front side
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Frontside {get; set;}

@@ -9,7 +9,7 @@ Documents: Designation # 44069.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_DOCUMENTS_DESIGNATION( 

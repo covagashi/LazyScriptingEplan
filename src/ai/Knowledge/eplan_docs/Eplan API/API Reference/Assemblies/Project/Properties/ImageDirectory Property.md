@@ -9,7 +9,7 @@ Project's property which return full project images' directory name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ImageDirectory {get;}

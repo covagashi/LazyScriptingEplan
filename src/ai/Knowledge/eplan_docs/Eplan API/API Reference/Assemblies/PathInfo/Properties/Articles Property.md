@@ -9,7 +9,7 @@ Returns default projects directory.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Articles {get;}

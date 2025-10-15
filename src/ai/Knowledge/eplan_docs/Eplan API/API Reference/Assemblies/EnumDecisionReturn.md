@@ -9,7 +9,7 @@ This enum is returned by the [Decider](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Deci
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum EnumDecisionReturn : System.Enum

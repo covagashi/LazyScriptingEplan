@@ -9,7 +9,7 @@ Activates the properties of the page for the place holder object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool ArePagePropertiesDisplayed {get; set;}

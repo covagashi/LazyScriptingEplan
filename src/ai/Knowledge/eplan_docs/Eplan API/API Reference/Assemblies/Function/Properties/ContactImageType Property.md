@@ -9,7 +9,7 @@ Gets or sets a value indicating where contact image is displayed for this functi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ContactImage.Enums.ContactImageType ContactImageType {get; set;}

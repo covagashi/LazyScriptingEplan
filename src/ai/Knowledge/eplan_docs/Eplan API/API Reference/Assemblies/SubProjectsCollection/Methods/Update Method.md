@@ -9,7 +9,7 @@ Updates project from subproject.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Update( 

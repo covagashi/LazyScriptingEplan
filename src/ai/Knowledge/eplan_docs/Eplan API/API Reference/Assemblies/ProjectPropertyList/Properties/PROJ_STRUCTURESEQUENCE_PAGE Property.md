@@ -9,7 +9,7 @@ Sequence of the project structures in the page name # 10089.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_STRUCTURESEQUENCE_PAGE {get; set;}

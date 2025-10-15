@@ -9,7 +9,7 @@ Constructor with number of variant given by user.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InvalidVariant( 

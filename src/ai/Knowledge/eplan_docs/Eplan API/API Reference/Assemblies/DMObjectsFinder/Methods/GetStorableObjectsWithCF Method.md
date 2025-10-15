@@ -9,7 +9,7 @@ Returns all objects of classes StorableObject and inherited from StorableObject,
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] GetStorableObjectsWithCF( 

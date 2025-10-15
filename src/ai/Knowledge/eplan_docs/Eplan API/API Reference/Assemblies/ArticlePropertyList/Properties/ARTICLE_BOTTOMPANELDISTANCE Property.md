@@ -9,7 +9,7 @@ Distance base # 22185.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_BOTTOMPANELDISTANCE {get; set;}

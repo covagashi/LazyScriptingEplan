@@ -9,7 +9,7 @@ Installation space, the editor belongs to.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual InstallationSpace InstallationSpace {get;}

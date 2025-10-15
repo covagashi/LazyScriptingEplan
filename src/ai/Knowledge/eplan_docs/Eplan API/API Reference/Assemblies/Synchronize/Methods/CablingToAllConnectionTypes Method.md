@@ -9,7 +9,7 @@ Synchronization from 'cabling' connection data onto all other connection types (
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CablingToAllConnectionTypes( 

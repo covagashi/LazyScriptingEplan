@@ -9,7 +9,7 @@ Connection point pattern: Max. AWG # 36078.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_TERMINALPOSITION_MAXCROSSSECTION_AWG( 

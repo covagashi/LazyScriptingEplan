@@ -9,7 +9,7 @@ Pre-planning item number # 44027.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_POSITIONNUMBER {get; set;}

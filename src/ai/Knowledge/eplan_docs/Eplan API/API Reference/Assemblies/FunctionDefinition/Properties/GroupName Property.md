@@ -9,7 +9,7 @@ Name of the FunctionDefinition's Group.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString GroupName {get;}

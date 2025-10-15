@@ -9,7 +9,7 @@ Symbolic address (automatic) # 20404.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCSYMBOLICADDRESS_AUTOMATIC {get; set;}

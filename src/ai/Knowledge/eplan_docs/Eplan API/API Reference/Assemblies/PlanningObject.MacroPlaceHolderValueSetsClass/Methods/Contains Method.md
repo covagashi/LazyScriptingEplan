@@ -9,7 +9,7 @@ Determines whether planning object stores macro placeholder record
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool Contains( 

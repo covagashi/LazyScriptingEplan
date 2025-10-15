@@ -9,7 +9,7 @@ Evaluate all names for all FunctionBase objects in the project by calling Evalua
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void EvaluateAndSetAllNamesTXN( 

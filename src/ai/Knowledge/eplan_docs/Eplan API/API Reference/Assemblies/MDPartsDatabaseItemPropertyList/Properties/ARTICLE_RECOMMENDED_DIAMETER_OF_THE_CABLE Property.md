@@ -9,7 +9,7 @@ Recommended cable diameter # 26297.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_RECOMMENDED_DIAMETER_OF_THE_CABLE {get; set;}

@@ -9,7 +9,7 @@ Sets the page and evaluates for a given functionbase the full name from the visi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AdjustFullName( 

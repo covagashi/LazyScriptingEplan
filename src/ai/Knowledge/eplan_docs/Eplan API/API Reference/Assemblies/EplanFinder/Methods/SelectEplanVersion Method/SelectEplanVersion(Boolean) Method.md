@@ -9,7 +9,7 @@ Select one EPLAN application installed on this machine. When there are more than
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SelectEplanVersion( 

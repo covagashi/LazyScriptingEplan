@@ -9,7 +9,7 @@ Enables access to pages filter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PagesFilter Filter {get; set;}

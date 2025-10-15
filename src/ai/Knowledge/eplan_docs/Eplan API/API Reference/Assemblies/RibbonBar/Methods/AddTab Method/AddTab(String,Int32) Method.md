@@ -9,7 +9,7 @@ Adds a new tab to the ribbon
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonTab AddTab( 

@@ -9,7 +9,7 @@ End customer: Short name # 10130.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ENDCUSTOMERID {get; set;}

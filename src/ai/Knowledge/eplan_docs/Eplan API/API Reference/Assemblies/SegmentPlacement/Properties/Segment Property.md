@@ -9,7 +9,7 @@ Corresponding planning segment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlanningSegment Segment {get;}

@@ -9,7 +9,7 @@ Connection splicers passed through # 31136.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_DISTRIBUTORS {get; set;}

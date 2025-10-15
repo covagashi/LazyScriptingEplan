@@ -9,7 +9,7 @@ Has base points # 36106.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_HAS_REFERENCEPOINTS {get; set;}

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class AssemblyResolver
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [AssemblyResolver Constructor](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.AssemblyResolver~_ctor.html) | Create one AssemblyResolver. This will automatically add an AssemblyResolve Event Handler for this domain. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -40,4 +40,4 @@ Public Methods
 | Public Method | [SetBinPathsWithAppMod](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.AssemblyResolver~SetBinPathsWithAppMod.html) | Set the EPLAN platform bin path. The EPLAN product variant path will be searched with the help of the applicationModifier. |
 | Public Method | [SetEplanBinPath](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.AssemblyResolver~SetEplanBinPath.html) | Set the EPLAN product variant bin path. Note: This path exists only once. Changing it will influence the application. The EPLAN platform path (with the API DLLs) is set automatically. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Remove a parameter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Remove( 

@@ -9,7 +9,7 @@ Adds an item to the `PrjMessagesCollection`.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Add( 

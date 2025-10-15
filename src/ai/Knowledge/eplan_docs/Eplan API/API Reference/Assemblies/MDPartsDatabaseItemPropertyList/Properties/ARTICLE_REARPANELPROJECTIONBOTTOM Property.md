@@ -9,7 +9,7 @@ Overhang: Rear panel bottom # 22172.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_REARPANELPROJECTIONBOTTOM {get; set;}

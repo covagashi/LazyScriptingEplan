@@ -9,7 +9,7 @@ Creates transient and not placed Area object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Area CreateTransient( 

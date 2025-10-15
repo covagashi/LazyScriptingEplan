@@ -9,7 +9,7 @@ PCT type # 16016.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_PLTTYPE {get; set;}

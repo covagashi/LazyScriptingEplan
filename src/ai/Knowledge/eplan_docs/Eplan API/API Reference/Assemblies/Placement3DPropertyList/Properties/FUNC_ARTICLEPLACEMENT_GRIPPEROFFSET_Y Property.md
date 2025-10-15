@@ -9,7 +9,7 @@ Y coordinate Handle # 20209.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLEPLACEMENT_GRIPPEROFFSET_Y {get; set;}

@@ -9,7 +9,7 @@ Returns a rectangle which is the logical area of the object derived from SymbolR
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override RectangleD GetLogicalArea()

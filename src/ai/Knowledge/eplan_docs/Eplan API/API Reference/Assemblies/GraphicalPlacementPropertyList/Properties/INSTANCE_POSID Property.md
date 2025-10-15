@@ -9,7 +9,7 @@ Row number # 19006.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_POSID {get; set;}

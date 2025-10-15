@@ -9,7 +9,7 @@ Sets a block of context parameters (as ContextParameterBlock object).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void SetContextParameter( 

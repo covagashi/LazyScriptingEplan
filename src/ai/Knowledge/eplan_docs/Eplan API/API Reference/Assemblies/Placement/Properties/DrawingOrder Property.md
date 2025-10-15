@@ -9,7 +9,7 @@ Sets display sequence. The drawing order flag will be used to sort elements acco
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short DrawingOrder {get; set;}

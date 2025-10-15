@@ -9,7 +9,7 @@ Used unit quantity # 23205.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DEVICELISTENTRY_COUNTUSED {get; set;}

@@ -17,7 +17,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public abstract class AbstractDMObjectFilter
@@ -31,4 +31,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.AbstractDMObjectFilter~Dispose().html) |  |
 | Public Method | [ResetFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.AbstractDMObjectFilter~ResetFilter.html) |  |
 
-[Top](#top)
+

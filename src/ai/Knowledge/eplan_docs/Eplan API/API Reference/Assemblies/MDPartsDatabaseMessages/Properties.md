@@ -15,4 +15,4 @@ Public Properties
 | Public Property | [ReuseMessages](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseMessages~ReuseMessages.html) | Determines whether new message can be duplicated in collection. Default value is `true`. |
 | Public Property | [ShowImmediately](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseMessages~ShowImmediately.html) | If true, added messages will be immediately displayed in PartsDatabase message management window. Default value is false. |
 
-[Top](#top)
+

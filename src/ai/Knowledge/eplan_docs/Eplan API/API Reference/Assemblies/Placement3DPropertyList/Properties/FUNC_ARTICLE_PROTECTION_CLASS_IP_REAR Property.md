@@ -9,7 +9,7 @@ Degree of protection (IP): Rear side # 26564.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_PROTECTION_CLASS_IP_REAR( 

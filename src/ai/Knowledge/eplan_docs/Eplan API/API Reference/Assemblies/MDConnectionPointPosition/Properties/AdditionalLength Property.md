@@ -9,7 +9,7 @@ The additional length for the connection if it will be connected to the connecti
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double AdditionalLength {get; set;}

@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonIcon~Dispose().html) | Destructor for deterministic finalization of MainRibbon object. |
 
-[Top](#top)
+

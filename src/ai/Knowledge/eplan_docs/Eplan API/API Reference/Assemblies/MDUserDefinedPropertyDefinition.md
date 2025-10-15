@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDUserDefinedPropertyDefinition : MDPropertyDefinition
@@ -33,7 +33,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDUserDefinedPropertyDefinition Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDUserDefinedPropertyDefinition~_ctor.html) | Initializes property definition |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -60,7 +60,7 @@ Public Properties
 | Public Property | [UnitGroup](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDUserDefinedPropertyDefinition~UnitGroup.html) | UnitGroup of this property definition. |
 | Public Property | [UpperBound](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDUserDefinedPropertyDefinition~UpperBound.html) | Overridden. Gets a property's maximal value specified in the property's definition. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -71,4 +71,4 @@ Public Methods
 | Public Method | [Load](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDUserDefinedPropertyDefinition~Load().html) | Loads property definition from the database. |
 | Public Method | [Store](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDUserDefinedPropertyDefinition~Store.html) | Stores property definition to the database. |
 
-[Top](#top)
+

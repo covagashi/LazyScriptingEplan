@@ -9,7 +9,7 @@ Add a filter which files are shown. When the user selects one filter in the deci
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddFilter( 

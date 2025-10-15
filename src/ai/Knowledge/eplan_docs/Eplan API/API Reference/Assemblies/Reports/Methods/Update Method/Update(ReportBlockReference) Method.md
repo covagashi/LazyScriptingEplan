@@ -9,7 +9,7 @@ Updates dynamic formular or embedded report represented by [Eplan.EplApi.DataMod
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Update( 

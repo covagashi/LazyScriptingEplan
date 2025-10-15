@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ContextMenuLocation
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ContextMenuLocation Constructor](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.ContextMenuLocation~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,4 +36,4 @@ Public Properties
 | Public Property | [ContextMenuName](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.ContextMenuLocation~ContextMenuName.html) |  |
 | Public Property | [DialogName](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.ContextMenuLocation~DialogName.html) | Get or Set the Dialog Name the Context menu is located in |
 
-[Top](#top)
+

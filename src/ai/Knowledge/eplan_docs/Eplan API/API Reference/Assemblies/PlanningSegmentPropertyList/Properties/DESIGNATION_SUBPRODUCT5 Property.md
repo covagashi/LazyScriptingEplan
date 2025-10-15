@@ -9,7 +9,7 @@ Product (sub-identifier 5) # 1805.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBPRODUCT5 {get; set;}

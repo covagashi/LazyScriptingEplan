@@ -9,7 +9,7 @@ EPLAN properties of the DaisyChain object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new StorableObjectPropertyList Properties {get;}

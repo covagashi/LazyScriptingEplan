@@ -9,7 +9,7 @@ Returns an array of ArticleReference objects included in this compound.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ArticleReference[] GetArticleReferences()

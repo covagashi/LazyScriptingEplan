@@ -9,7 +9,7 @@ DT (displayed) # 20010.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_VISIBLEDEVICETAG {get; set;}

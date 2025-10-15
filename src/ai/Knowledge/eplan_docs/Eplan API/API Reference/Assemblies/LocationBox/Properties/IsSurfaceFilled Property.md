@@ -9,7 +9,7 @@ Indicates whether surface is filled or not.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsSurfaceFilled {get; set;}

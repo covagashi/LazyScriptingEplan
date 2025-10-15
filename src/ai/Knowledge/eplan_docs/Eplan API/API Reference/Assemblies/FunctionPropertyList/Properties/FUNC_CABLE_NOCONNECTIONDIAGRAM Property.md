@@ -9,7 +9,7 @@ No output to cable-connection diagram # 20087.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_NOCONNECTIONDIAGRAM {get; set;}

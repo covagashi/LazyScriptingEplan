@@ -9,7 +9,7 @@ Removes the article from the [Project](Eplan.EplApi.DataModelu~Eplan.EplApi.Data
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Remove()

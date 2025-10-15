@@ -9,7 +9,7 @@ Checks the validation of the ribbon tab
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Validate()

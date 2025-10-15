@@ -9,7 +9,7 @@ Removes existing PLC input or output from this planning object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemovePLCAddress( 

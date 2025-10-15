@@ -9,7 +9,7 @@ Methods by which a project message have been created.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum IMessage.ProjectMessageCreationType : System.Enum

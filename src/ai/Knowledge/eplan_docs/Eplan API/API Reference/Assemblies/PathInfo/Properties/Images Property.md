@@ -9,7 +9,7 @@ Returns default Images directory.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Images {get;}

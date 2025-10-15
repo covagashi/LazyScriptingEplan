@@ -9,7 +9,7 @@ Mounting type # 26187.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TYPE_OF_MOUNTING {get; set;}

@@ -9,7 +9,7 @@ All [Eplan.EplApi.DataModel.Graphics.GraphicalPlacement](Eplan.EplApi.DataModelu
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public GraphicalPlacement[] AllGraphicalPlacements {get;}

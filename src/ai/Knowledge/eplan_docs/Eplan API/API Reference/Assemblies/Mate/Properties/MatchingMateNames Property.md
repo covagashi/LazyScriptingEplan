@@ -9,7 +9,7 @@ Names of mates that can be snapped to this one separated by '#'.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string MatchingMateNames {get; set;}

@@ -9,7 +9,7 @@ Plugs: Number of N pins # 35206.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLUGSTRIP_COUNTOFN {get; set;}

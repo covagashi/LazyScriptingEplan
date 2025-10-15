@@ -9,7 +9,7 @@ Block property: Format (process engineering) # 10617.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_PROCESS( 

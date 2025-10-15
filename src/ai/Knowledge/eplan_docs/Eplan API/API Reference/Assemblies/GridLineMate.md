@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class GridLineMate : LineMate
@@ -29,7 +29,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [GridLineMate Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.GridLineMate~_ctor().html) |  |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -51,7 +51,7 @@ Public Properties
 | Public Property | [StartPoint](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.LineMate~StartPoint.html) | Beginning of LineMate. Coordinate is relative if Placement is not defined, otherwise it is absolute. (Inherited from [Eplan.EplApi.DataModel.E3D.LineMate](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.LineMate.html)) |
 | Public Property | [Transformation](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~Transformation.html) | Position and rotation relative to the parent placement represented by transformation matrix. (Inherited from [Eplan.EplApi.DataModel.E3D.Mate](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -63,4 +63,4 @@ Public Methods
 | Public Method | [StoreToObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~StoreToObject.html) | Stores changes into a project database. (Inherited from [Eplan.EplApi.DataModel.E3D.Mate](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate.html)) |
 | Public Method | [Transform](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~Transform.html) | Transform mate position. (Inherited from [Eplan.EplApi.DataModel.E3D.Mate](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate.html)) |
 
-[Top](#top)
+

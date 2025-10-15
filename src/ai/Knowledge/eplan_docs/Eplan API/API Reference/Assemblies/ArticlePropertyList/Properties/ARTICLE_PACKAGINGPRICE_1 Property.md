@@ -9,7 +9,7 @@ Purchase price/packaging Currency 1 # 22111.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PACKAGINGPRICE_1 {get; set;}

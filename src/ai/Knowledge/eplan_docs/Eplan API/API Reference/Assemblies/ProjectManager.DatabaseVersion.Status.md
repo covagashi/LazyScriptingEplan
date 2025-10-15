@@ -9,7 +9,7 @@ Enum used for project database status.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ProjectManager.DatabaseVersion.Status : System.Enum

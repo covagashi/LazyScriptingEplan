@@ -9,7 +9,7 @@ Returns, if the device tag of a given function can be nested
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CanDeviceTagBeNested( 

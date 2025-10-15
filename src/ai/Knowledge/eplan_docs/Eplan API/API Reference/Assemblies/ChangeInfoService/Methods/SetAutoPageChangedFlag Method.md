@@ -9,7 +9,7 @@ Activate or deactivate AUTOPAGECHANGED change info handling. Helper will switch 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetAutoPageChangedFlag( 

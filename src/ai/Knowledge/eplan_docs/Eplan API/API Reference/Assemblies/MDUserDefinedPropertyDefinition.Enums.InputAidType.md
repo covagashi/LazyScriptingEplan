@@ -9,7 +9,7 @@ Contains possible types of input aid.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MDUserDefinedPropertyDefinition.Enums.InputAidType : System.Enum

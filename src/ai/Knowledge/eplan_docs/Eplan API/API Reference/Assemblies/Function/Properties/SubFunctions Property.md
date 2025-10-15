@@ -9,7 +9,7 @@ Returns an array of sub-functions of the given main function. Sub-functions are 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function[] SubFunctions {get;}

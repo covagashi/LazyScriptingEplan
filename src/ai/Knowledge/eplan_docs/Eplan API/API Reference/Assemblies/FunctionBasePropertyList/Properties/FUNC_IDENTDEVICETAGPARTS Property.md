@@ -9,7 +9,7 @@ Identifying DT elements # 20096.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_IDENTDEVICETAGPARTS {get; set;}

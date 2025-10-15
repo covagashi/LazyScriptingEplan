@@ -9,7 +9,7 @@ The position of user defined handle.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D ReferencePoint3D {get;}

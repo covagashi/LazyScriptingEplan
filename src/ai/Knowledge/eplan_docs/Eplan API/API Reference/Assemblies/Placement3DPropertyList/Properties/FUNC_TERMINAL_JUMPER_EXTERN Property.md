@@ -9,7 +9,7 @@ Manual saddle jumpers (external) # 20351.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_JUMPER_EXTERN( 

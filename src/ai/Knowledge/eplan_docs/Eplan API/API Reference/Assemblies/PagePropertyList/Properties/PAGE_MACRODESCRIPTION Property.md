@@ -9,7 +9,7 @@ Macro: Description # 11057.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_MACRODESCRIPTION {get; set;}

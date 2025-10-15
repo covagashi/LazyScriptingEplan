@@ -9,7 +9,7 @@ IdentityClient configuration service API version.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConfigurationServiceApiVersion {get; set;}

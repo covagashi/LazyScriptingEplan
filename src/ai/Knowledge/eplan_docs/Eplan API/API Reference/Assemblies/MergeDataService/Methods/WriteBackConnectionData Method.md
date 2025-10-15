@@ -9,7 +9,7 @@ Writes back the data of merged connections to whose corresponding connections
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static void WriteBackConnectionData( 

@@ -9,7 +9,7 @@ Creation date # 22983.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PART_CREATE_DATE {get; set;}

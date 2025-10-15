@@ -9,7 +9,7 @@ Returns [Option](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Option.html)s ma
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Option[] GetOptionObjectsWithFilterScheme( 

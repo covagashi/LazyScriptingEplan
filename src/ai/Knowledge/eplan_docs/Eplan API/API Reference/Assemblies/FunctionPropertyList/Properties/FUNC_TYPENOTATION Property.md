@@ -9,7 +9,7 @@ Type designation of part # 20200.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TYPENOTATION( 

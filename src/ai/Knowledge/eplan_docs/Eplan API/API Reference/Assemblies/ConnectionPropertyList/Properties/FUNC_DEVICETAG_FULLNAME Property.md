@@ -9,7 +9,7 @@ Name (without project structures) # 20058.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DEVICETAG_FULLNAME {get; set;}

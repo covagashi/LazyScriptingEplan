@@ -9,7 +9,7 @@ Show or hide filling degree.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ShowFillingDegree( 

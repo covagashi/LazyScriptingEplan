@@ -9,7 +9,7 @@ Writes back connection point designations from the overview PLC terminals of the
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function[] WriteBackConnPointDesignations( 

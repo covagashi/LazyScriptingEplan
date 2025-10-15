@@ -9,7 +9,7 @@ Safety-related values: PL # 40329.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SAFETYRELATED_PL {get; set;}

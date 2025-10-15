@@ -9,7 +9,7 @@ Refresh token.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string RefreshToken {get; set;}

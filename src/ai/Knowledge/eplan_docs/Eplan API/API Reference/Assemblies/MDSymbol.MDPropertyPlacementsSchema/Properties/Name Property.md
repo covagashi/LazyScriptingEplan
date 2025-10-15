@@ -9,7 +9,7 @@ Returns the name of the property placements configuration
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString Name {get;}

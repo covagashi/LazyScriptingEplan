@@ -9,7 +9,7 @@ Returns grid mate.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public GridMate GridMate {get;}

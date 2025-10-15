@@ -9,7 +9,7 @@ License options provided by the Eplan licensing system.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum LicenseOptions : System.Enum

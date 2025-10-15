@@ -9,7 +9,7 @@ Returns an array of all property ids which can exist for PlaceHolder3D objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static AnyPropertyId[] AllPlaceHolder3DPropIDs {get;}

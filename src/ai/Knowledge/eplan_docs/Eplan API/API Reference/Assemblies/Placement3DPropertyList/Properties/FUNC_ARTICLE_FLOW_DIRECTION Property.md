@@ -9,7 +9,7 @@ Flow direction: Operating flow direction # 26268.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_FLOW_DIRECTION( 

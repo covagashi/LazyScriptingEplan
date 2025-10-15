@@ -9,7 +9,7 @@ Point in 3d space which is the end of routing segment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D EndVertex {get; set;}

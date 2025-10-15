@@ -9,7 +9,7 @@ Exports PLC assignment lists
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ExportAssignmentList( 

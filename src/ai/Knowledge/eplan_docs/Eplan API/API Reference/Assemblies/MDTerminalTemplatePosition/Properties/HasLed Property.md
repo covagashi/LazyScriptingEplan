@@ -9,7 +9,7 @@ Does terminal template have a led?
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool HasLed {get; set;}

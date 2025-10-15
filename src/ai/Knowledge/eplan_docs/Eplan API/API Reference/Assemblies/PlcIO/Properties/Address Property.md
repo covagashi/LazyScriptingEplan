@@ -9,7 +9,7 @@ Returns the PlcIOEntry's hardware address.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Address {get; set;}

@@ -9,7 +9,7 @@ Sets the [Eplan.EplApi.DataModel.Planning.SegmentPlacementPropertyList](Eplan.Ep
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetFilteredPropertyList( 

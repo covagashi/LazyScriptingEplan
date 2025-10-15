@@ -9,7 +9,7 @@ Country # 22918.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ADDRESS_STATE {get; set;}

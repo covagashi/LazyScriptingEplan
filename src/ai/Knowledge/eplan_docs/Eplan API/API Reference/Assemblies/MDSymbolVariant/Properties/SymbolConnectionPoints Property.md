@@ -9,7 +9,7 @@ A read only list of all MDSymbolConnectionPoints from the variant.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDSymbolConnectionPoint[] SymbolConnectionPoints {get;}

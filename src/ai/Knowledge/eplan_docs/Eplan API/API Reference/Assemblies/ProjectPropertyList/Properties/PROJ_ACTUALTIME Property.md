@@ -9,7 +9,7 @@ Time of the day # 10058.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ACTUALTIME {get; set;}

@@ -9,7 +9,7 @@ Text contents # 19201.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue TEXT_CONTENTS {get; set;}

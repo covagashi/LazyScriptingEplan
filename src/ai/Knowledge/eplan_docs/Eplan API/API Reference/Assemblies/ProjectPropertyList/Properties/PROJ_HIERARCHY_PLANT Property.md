@@ -9,7 +9,7 @@ Project structure: Function designation # 10002.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_PLANT {get; set;}

@@ -9,7 +9,7 @@ Source placeholder
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlaceHolder Source {get;}

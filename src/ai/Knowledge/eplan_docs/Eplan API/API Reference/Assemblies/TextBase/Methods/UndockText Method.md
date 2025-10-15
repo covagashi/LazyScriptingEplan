@@ -9,7 +9,7 @@ Undock text from another oner one. You can see how it works in GUI. Select eleme
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void UndockText()

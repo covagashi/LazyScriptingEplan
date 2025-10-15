@@ -9,7 +9,7 @@ If true, model is be rotated by 270 degrees.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ModelRotated270Degrees {get; set;}

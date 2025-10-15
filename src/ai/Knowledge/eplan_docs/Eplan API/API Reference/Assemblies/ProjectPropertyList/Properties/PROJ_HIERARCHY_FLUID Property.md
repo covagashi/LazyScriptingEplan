@@ -9,7 +9,7 @@ Structure format for fluid devices # 10063.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_FLUID {get; set;}

@@ -9,7 +9,7 @@ Gets PlaceHolder layer id.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new short LayerId {get;}

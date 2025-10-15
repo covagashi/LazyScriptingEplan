@@ -9,7 +9,7 @@ Trade of part reference # 40343.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_CRAFT {get; set;}

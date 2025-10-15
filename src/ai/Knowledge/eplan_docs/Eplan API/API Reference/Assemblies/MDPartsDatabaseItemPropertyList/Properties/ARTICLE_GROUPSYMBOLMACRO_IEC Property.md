@@ -9,7 +9,7 @@ Schematic macro: IEC # 22870.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_GROUPSYMBOLMACRO_IEC {get; set;}

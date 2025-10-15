@@ -9,7 +9,7 @@ Returns an object that provides information about the property and its definitio
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyDefinition Definition {get;}

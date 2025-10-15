@@ -9,7 +9,7 @@ Allow same designations # 20811.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_CANHAVESAMENAME {get; set;}

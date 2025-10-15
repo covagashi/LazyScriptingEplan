@@ -9,7 +9,7 @@ Identificators of properties owned by ConnectionDefinitionPoint class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.ConnectionDefinitionPoint : System.Enum

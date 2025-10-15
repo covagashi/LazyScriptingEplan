@@ -9,7 +9,7 @@ Busbars: Part number # 22252.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_BUSBARRAILPARTNR {get; set;}

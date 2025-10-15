@@ -9,7 +9,7 @@ Side panel: Depth # 22168.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SIDEPANELDEPTH {get; set;}

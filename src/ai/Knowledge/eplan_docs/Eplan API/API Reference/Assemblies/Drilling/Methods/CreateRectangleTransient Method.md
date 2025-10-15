@@ -9,7 +9,7 @@ Creates new transient rectangle drilling
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Drilling CreateRectangleTransient( 

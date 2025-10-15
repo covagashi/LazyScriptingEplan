@@ -9,7 +9,7 @@ Functional assignment # 1320.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLFUNCTIONALASSIGNMENT {get; set;}

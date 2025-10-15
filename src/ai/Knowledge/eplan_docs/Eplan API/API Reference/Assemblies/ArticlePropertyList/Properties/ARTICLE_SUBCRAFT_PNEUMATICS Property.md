@@ -9,7 +9,7 @@ Subtrade 'Pneumatics' # 22159.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SUBCRAFT_PNEUMATICS( 

@@ -9,7 +9,7 @@ Cable outer diameter # 26084.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_OUTER_DIAMETER_OF_THE_CABLE {get; set;}

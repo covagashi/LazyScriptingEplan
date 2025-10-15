@@ -9,7 +9,7 @@ Symbol library # 20111.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_SYMBLIB_NAME {get; set;}

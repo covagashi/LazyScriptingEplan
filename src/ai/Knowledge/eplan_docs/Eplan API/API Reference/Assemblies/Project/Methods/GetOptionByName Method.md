@@ -9,7 +9,7 @@ Method for finding [Option](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Optio
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Option GetOptionByName( 

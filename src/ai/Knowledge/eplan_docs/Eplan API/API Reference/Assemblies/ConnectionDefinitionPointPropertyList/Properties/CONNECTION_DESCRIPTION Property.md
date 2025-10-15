@@ -9,7 +9,7 @@ Connection description # 31009.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_DESCRIPTION {get; set;}

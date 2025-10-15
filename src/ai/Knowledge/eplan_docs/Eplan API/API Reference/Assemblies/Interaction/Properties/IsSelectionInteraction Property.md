@@ -9,7 +9,7 @@ Returns `true`, if interaction is a helper interaction to select placements.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsSelectionInteraction {get;}

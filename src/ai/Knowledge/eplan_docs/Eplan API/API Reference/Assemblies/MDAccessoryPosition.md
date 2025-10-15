@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDAccessoryPosition : MDPartsDatabaseItemChildData
@@ -35,7 +35,7 @@ Public Properties
 | Public Property | [Type](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAccessoryPosition~Type.html) | Returns the part type part / accessory list. It sets automatically after property Part or AccessoryList is correctly set |
 | Public Property | [Variant](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAccessoryPosition~Variant.html) | Returns the variant of the referenced part (if type is not AccessoryList). |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -43,4 +43,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose()](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData~Dispose().html) | Destructor for deterministic finalization of MDAccessoryPosition object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData.html)) |
 
-[Top](#top)
+

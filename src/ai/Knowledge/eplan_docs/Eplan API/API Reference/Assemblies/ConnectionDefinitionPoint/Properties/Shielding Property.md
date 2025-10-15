@@ -9,7 +9,7 @@ Returns the shielding of the connection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function Shielding {get;}

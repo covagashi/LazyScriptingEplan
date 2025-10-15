@@ -9,7 +9,7 @@ Creates valid `Block` object from the passed elements. At least two elements mus
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

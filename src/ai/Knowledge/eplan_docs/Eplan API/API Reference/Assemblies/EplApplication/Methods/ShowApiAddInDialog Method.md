@@ -9,7 +9,7 @@ Displays the Eplan API add-ins dialog.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ShowApiAddInDialog()

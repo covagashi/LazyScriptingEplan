@@ -9,7 +9,7 @@ Creator: Title # 10231.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATORTITLE {get; set;}

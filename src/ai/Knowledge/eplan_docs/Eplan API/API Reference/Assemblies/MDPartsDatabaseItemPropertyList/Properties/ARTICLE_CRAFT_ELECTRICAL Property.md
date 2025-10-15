@@ -9,7 +9,7 @@ Trade 'Electrical engineering' # 22131.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CRAFT_ELECTRICAL {get; set;}

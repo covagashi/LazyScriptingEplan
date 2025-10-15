@@ -9,7 +9,7 @@ Revision: Temporary reference project # 10164.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_REVISION_TEMP {get; set;}

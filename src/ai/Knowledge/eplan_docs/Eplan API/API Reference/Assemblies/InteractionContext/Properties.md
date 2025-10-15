@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Placements](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionContext~Placements.html) | Placements in this context. |
 
-[Top](#top)
+

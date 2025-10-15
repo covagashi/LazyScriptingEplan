@@ -9,7 +9,7 @@ Returns an array of Connection objects that exist under the cable definition lin
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Connection[] CableConnections {get;}

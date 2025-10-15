@@ -9,7 +9,7 @@ Subordinate product aspect incl. name supplement # 20336.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DEVICETAG_NESTEDNAME {get; set;}

@@ -9,7 +9,7 @@ Depth of bus bars (without mount).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual double DepthOfBars {get;}

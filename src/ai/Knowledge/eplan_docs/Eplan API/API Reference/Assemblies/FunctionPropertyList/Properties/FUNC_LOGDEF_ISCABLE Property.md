@@ -9,7 +9,7 @@ Connection point logic: Cable connection point # 20322.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_LOGDEF_ISCABLE( 

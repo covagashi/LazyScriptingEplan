@@ -9,7 +9,7 @@ Copies the elements of the `PrjMessagesCollection` to an Array, starting at a pa
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void CopyTo( 

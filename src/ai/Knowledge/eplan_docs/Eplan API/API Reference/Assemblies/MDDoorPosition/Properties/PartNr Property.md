@@ -9,7 +9,7 @@ Returns the part number of the referenced door
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PartNr {get; set;}

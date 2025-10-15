@@ -9,7 +9,7 @@ Model view: Manual displacement # 36501.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_MANUAL_CENTER {get; set;}

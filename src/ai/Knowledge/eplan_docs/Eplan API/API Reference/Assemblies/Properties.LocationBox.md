@@ -9,7 +9,7 @@ Identificators of properties owned by LocationBox class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.LocationBox : System.Enum

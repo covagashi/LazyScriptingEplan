@@ -9,7 +9,7 @@ Service info (Interbus) # 20132.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCOMMUNICATIONENTITY_SERVICEINFO( 

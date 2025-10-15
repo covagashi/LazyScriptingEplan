@@ -9,7 +9,7 @@ Constructor with conflicting name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InvalidPageNameException( 

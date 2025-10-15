@@ -9,7 +9,7 @@ Part group # 20903.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_PIECETYPE( 

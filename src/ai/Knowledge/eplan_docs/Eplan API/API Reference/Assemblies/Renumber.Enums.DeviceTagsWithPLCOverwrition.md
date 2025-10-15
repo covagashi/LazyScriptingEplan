@@ -9,7 +9,7 @@ Parameter enum for device tag numbering with PLC data.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Renumber.Enums.DeviceTagsWithPLCOverwrition : System.Enum

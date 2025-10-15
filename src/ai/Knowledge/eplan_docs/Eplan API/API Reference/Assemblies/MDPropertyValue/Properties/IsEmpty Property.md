@@ -10,7 +10,7 @@ IMPORTANT: If property is indexed you have to specify index.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsEmpty {get;}

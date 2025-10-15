@@ -17,4 +17,4 @@ Public Properties
 | Public Property | [Name](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.NetDefinitionPoint+NetConnectionPoint~Name.html) | Returns name of a connection point |
 | Public Property | [Parent](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase~Parent.html) | Returns the symbol reference that the logical conn. point represented by this object belongs to. (Inherited from [Eplan.EplApi.DataModel.PinBase](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase.html)) |
 
-[Top](#top)
+

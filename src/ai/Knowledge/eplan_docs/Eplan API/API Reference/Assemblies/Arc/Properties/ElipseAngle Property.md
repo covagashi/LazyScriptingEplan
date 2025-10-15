@@ -9,7 +9,7 @@ Gets the engle value of the ellipse. This property returns proper value for the 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double ElipseAngle {get;}

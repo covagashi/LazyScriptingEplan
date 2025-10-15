@@ -9,7 +9,7 @@ Cables: Number of N conductors # 35104.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLE_COUNTOFNWIRES {get; set;}

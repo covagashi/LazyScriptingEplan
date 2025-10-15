@@ -9,7 +9,7 @@ The reference point of the macro defined by the user when storing it.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD ReferencePoint {get; set;}

@@ -9,7 +9,7 @@ Device group # 20294.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DEVICETYPE_MANUAL {get; set;}

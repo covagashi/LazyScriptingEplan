@@ -9,7 +9,7 @@ Check if the parameter `strParameterName` exists
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExistParameter( 

@@ -9,7 +9,7 @@ ProductName
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ProductName {get; set;}

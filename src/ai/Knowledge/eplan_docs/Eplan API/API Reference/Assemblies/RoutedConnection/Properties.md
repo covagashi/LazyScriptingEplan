@@ -57,4 +57,4 @@ Public Properties
 | Public Property | [TypeIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TypeIdentifier.html) | Returns the type of the object as number. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 | Public Property | [WriteProtected](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Connection~WriteProtected.html) | Check if object is currently write protected or sets Manual write protection (Inherited from [Eplan.EplApi.DataModel.Connection](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Connection.html)) |
 
-[Top](#top)
+

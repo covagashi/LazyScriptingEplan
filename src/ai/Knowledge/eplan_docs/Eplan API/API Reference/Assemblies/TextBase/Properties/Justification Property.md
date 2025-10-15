@@ -9,7 +9,7 @@ Returns the justification of the Text.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public TextBase.JustificationType Justification {get; set;}

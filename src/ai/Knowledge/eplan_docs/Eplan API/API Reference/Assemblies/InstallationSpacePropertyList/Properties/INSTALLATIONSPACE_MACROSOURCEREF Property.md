@@ -9,7 +9,7 @@ Macro: Source / reference # 11026.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTALLATIONSPACE_MACROSOURCEREF {get; set;}

@@ -9,7 +9,7 @@ Constructor MDPropertyPlacementsSchemasList
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDSymbol.MDPropertyPlacementsSchemasList( 

@@ -34,4 +34,4 @@ Public Properties
 | Public Property | [StatusCode](Eplan.IdentityClient.Types~Eplan.IdentityClient.IdentityClientResponse~StatusCode.html) | IdentityStatusCode success code. (Inherited from [Eplan.IdentityClient.IdentityClientResponse](Eplan.IdentityClient.Types~Eplan.IdentityClient.IdentityClientResponse.html)) |
 | Public Property | [Sub](Eplan.IdentityClient.Types~Eplan.IdentityClient.AuthenticationData~Sub.html) | Eplan Cloud user ID in the IdentityService. |
 
-[Top](#top)
+

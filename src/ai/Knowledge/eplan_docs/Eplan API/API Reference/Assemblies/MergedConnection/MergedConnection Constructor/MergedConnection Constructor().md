@@ -9,7 +9,7 @@ Constructor. Creates the MergedConnection object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MergedConnection()

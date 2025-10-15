@@ -9,7 +9,7 @@ Name of FunctionDefinition's main group. It is 'Trade' level in function definit
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString MainGroup {get;}

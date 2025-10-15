@@ -9,7 +9,7 @@ Project: Template # 10069.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ORIGIN {get; set;}

@@ -9,7 +9,7 @@ Gets/sets filter scheme on a template of project message.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string FilterScheme {get; set;}

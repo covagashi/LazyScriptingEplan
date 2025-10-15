@@ -9,7 +9,7 @@ Checks whether two 3d objects collides each other.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CheckIfPlacementsCollide( 

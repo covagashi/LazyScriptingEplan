@@ -9,7 +9,7 @@ Adds a new customer to the parts database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAddress AddCustomer( 

@@ -9,7 +9,7 @@ Name of the module in which this action is implemented.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ModuleName {get;}

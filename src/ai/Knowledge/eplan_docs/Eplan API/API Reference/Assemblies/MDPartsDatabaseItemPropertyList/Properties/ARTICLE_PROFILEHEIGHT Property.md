@@ -9,7 +9,7 @@ Profile horizontal: Height # 22187.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PROFILEHEIGHT {get; set;}

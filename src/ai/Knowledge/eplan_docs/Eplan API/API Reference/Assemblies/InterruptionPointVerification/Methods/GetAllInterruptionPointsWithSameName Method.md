@@ -9,7 +9,7 @@ Gets all interruption points with the same name from the project. Can be called 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void GetAllInterruptionPointsWithSameName( 

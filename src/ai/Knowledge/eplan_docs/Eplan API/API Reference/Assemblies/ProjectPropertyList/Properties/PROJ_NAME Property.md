@@ -9,7 +9,7 @@ Project name # 10000.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_NAME {get; set;}

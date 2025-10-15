@@ -9,7 +9,7 @@ Gets a PropertyPlacementsSchema object that represents the selected property pla
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ViewPlacement.PropertyPlacementsSchema Selected {get; set;}

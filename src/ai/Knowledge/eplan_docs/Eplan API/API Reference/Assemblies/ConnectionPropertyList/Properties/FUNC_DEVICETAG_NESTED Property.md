@@ -9,7 +9,7 @@ DT (subordinate, without project structures) # 20004.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DEVICETAG_NESTED {get; set;}

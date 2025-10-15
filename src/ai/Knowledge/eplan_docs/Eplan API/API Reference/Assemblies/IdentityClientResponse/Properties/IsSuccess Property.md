@@ -9,7 +9,7 @@ Indicates if IdentityStatusCode is success.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsSuccess {get;}

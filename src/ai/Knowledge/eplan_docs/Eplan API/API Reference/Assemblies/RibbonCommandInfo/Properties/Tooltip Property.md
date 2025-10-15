@@ -9,7 +9,7 @@ Property to get or set tooltip of the button. Optional parameter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Tooltip {get; set;}

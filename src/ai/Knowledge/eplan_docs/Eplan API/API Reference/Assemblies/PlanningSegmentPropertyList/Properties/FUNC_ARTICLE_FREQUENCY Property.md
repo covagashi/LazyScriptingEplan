@@ -9,7 +9,7 @@ Frequency # 26335.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_FREQUENCY( 

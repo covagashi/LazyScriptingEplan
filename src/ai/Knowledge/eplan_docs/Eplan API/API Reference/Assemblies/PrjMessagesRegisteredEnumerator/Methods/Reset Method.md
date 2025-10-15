@@ -9,7 +9,7 @@ Sets the enumerator to its initial position, which is before the first element i
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Reset()

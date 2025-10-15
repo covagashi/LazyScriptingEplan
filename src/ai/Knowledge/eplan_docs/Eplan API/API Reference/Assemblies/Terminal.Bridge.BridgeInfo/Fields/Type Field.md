@@ -9,7 +9,7 @@ Bridge connection type. Corresponds to the function definition tag of the connec
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Type

@@ -9,7 +9,7 @@ One action can be enabled or disabled. Return true when it is enabled.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool Enabled( 

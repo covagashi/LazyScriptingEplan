@@ -9,7 +9,7 @@ Active power loss # 26621.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_ACTIVE_POWER_LOSS {get; set;}

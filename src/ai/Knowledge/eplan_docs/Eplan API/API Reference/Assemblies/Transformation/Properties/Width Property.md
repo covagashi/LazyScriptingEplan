@@ -9,7 +9,7 @@ Get width of imported element
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Width {get;}

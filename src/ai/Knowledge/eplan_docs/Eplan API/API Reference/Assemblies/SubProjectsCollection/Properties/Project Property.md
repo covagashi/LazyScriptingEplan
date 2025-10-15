@@ -9,7 +9,7 @@ Gets the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project Project {get;}

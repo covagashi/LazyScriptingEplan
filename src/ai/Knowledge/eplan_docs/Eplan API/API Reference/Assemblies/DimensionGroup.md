@@ -17,7 +17,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class DimensionGroup : Group, IPlacementsContainer
@@ -30,7 +30,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [DimensionGroup Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DimensionGroup~_ctor().html) | Constructor. When object created with this constructor, its `create` method must be call. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -56,7 +56,7 @@ Public Properties
 | Public Property | [Tooltip](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement~Tooltip.html) | Gets the tooltips of the object as can be seen in the GED (Inherited from [Eplan.EplApi.DataModel.Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement.html)) |
 | Public Property | [TypeIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TypeIdentifier.html) | Returns the type of the object as number. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -84,4 +84,4 @@ Public Methods
 | Public Method | [ToStringIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~ToStringIdentifier.html) | Returns this object as string identifier. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 | Public Method | [UnGroup](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Group~UnGroup.html) | Overloaded. Remove [Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement.html)s only from a group. (Inherited from [Eplan.EplApi.DataModel.Group](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Group.html)) |
 
-[Top](#top)
+

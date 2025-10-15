@@ -9,7 +9,7 @@ Creation date # 11021.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_CREATIONDATE {get; set;}

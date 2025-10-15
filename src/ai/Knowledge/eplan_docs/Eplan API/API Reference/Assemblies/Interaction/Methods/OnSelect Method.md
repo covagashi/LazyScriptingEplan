@@ -9,7 +9,7 @@ Is called after object selection in the graphical editor by user.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual RequestCode OnSelect( 

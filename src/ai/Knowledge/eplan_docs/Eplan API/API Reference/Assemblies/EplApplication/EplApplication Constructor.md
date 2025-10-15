@@ -9,7 +9,7 @@ Creates a new application class for Eplan
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EplApplication()

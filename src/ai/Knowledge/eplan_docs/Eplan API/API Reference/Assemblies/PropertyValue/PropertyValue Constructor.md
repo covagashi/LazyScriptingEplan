@@ -9,7 +9,7 @@ Default constructor. Creates the PropertyValue object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue()

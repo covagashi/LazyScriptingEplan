@@ -9,7 +9,7 @@ Succeed flag
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Succeed {get; set;}

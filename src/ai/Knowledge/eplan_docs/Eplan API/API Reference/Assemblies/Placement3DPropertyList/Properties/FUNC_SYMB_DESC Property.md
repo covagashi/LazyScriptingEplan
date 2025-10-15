@@ -9,7 +9,7 @@ Symbol description (function) # 20114.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_SYMB_DESC {get; set;}

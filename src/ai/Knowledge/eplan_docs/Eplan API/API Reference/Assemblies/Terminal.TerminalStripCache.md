@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public sealed class Terminal.TerminalStripCache
@@ -53,7 +53,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Terminal.TerminalStripCache Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Terminal+TerminalStripCache~_ctor.html) | Constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -61,4 +61,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Terminal+TerminalStripCache~Dispose().html) | Deterministic finalizer |
 
-[Top](#top)
+

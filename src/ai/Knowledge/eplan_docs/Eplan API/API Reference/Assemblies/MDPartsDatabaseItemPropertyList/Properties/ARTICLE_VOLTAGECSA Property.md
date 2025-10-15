@@ -9,7 +9,7 @@ Terminals: Voltage CSA # 22093.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_VOLTAGECSA {get; set;}

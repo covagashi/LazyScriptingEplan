@@ -9,7 +9,7 @@ Determines all settings.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void GetListOfAllSettings( 

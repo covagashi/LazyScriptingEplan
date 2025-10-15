@@ -9,7 +9,7 @@ Connection: Associated terminal connection point (connection point designation) 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_TERMINAL_CONNECTIONDESIGNATION {get; set;}

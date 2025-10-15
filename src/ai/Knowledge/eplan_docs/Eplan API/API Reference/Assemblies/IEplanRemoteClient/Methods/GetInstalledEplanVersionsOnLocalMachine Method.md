@@ -9,7 +9,7 @@ Get Eplan versions that are currently installed on local machine.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void GetInstalledEplanVersionsOnLocalMachine( 

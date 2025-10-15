@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDComponentTemplatePosition : MDFunctionTemplatePosition
@@ -52,7 +52,7 @@ Public Properties
 | Public Property | [SymbolMacro](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDComponentTemplatePosition~SymbolMacro.html) | The symbol macro of component template |
 | Public Property | [TemplateGroup](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDFunctionTemplatePosition~TemplateGroup.html) | The template group of the function template (Inherited from [Eplan.EplApi.MasterData.MDFunctionTemplatePosition](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDFunctionTemplatePosition.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -60,4 +60,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose()](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData~Dispose().html) | Destructor for deterministic finalization of MDComponentTemplatePosition object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData.html)) |
 
-[Top](#top)
+

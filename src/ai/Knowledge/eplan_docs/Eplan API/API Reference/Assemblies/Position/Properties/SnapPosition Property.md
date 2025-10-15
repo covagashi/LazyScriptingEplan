@@ -9,7 +9,7 @@ Position found snap point near mouse position.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual PointD3D SnapPosition {get; set;}

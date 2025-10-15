@@ -9,7 +9,7 @@ Gets/Sets the actual visibility state of the object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsVisible {get; set;}

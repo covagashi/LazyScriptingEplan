@@ -9,7 +9,7 @@ Number legend Ids of a pro panel objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void NumberLegendItems( 

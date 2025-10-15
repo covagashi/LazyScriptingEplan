@@ -19,4 +19,4 @@ Public Properties
 | Public Property | [ServerName](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanServerData~ServerName.html) | Eplan server Name |
 | Public Property | [ServerPort](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanServerData~ServerPort.html) | Eplan server port |
 
-[Top](#top)
+

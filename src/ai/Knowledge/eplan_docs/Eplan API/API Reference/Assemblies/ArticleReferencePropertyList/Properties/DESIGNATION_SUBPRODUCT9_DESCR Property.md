@@ -9,7 +9,7 @@ Product (sub-identifier 9): Description # 1839.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBPRODUCT9_DESCR {get; set;}

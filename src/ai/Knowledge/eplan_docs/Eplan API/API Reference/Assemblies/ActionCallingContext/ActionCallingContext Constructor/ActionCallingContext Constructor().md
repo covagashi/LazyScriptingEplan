@@ -9,7 +9,7 @@ Creates an ActionCallingContext
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ActionCallingContext()

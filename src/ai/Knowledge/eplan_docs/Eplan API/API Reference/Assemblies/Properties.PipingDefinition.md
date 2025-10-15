@@ -9,7 +9,7 @@ Identificators of properties owned by PipingDefinition class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.PipingDefinition : System.Enum

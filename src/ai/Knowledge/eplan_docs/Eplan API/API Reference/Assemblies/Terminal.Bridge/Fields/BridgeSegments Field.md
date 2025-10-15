@@ -9,7 +9,7 @@ An array of all bridge connections (i.e. segments) that the bridge consists of.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Terminal.Bridge.BridgeInfo[] BridgeSegments

@@ -9,7 +9,7 @@ Storage, transport and packaging (requirement) # 26410.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_STORAGE_TRANSPORT_AND_PACKAGING_REQUIREMENT( 

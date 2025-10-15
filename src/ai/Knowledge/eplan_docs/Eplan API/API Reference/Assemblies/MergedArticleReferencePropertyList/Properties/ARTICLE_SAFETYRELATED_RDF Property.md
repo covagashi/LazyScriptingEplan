@@ -9,7 +9,7 @@ Safety-related values: RDF # 40337.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SAFETYRELATED_RDF {get; set;}

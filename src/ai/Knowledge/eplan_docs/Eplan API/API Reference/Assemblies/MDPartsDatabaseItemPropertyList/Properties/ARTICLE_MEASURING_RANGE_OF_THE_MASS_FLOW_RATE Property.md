@@ -9,7 +9,7 @@ Measuring range: Mass flow # 26451.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MEASURING_RANGE_OF_THE_MASS_FLOW_RATE {get; set;}

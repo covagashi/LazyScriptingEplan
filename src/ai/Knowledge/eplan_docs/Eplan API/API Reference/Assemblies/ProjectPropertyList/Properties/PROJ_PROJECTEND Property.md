@@ -9,7 +9,7 @@ Project end # 10026.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_PROJECTEND {get; set;}

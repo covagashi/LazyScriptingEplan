@@ -9,7 +9,7 @@ X coordinate Handle # 20208.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLEPLACEMENT_GRIPPEROFFSET_X {get; set;}

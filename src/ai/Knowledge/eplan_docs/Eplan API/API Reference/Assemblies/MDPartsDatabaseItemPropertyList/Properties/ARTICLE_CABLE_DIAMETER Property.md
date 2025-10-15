@@ -9,7 +9,7 @@ Cable diameter # 26116.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CABLE_DIAMETER {get; set;}

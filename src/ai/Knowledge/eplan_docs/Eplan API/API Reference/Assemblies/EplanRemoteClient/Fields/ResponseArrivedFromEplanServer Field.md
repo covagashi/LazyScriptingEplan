@@ -9,7 +9,7 @@ Handler to receive Eplan server notifications.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public OnResponseArrivedHandler ResponseArrivedFromEplanServer

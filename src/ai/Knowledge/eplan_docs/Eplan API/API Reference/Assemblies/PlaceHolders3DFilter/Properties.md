@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Name](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlaceHolders3DFilter~Name.html) | Name of objects which will be used to filter objects. |
 
-[Top](#top)
+

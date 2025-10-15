@@ -9,7 +9,7 @@ the used variant
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public WindowMacro.Enums.RepresentationType RepresentationType {get; set;}

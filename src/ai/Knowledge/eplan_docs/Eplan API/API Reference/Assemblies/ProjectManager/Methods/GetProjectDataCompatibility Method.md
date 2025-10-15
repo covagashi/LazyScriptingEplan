@@ -9,7 +9,7 @@ Compares database schemes from current and given project. In the result of this 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ProjectManager.DatabaseVersion.Status GetProjectDataCompatibility( 

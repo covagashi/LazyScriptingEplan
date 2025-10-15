@@ -9,7 +9,7 @@ Types of arcs.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Arc.Enums.Type : System.Enum

@@ -9,7 +9,7 @@ Returns an array of all property ids which can exist for SymbolReference objects
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static AnyPropertyId[] AllSymbolReferencePropIDs {get;}

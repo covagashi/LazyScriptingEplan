@@ -9,7 +9,7 @@ Gets/Sets the page. Page must be set, because most of the NameService class's me
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Page Page {get; set;}

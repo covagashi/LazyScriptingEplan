@@ -9,7 +9,7 @@ Complete structure identifier # 1001.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue LOCATION_FULLNAME {get; set;}

@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [Name](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+Variable~Name.html) | Returns the name of the variable |
 | Public Property | [Source](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+Variable~Source.html) | Source placeholder |
 
-[Top](#top)
+

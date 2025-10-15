@@ -9,7 +9,7 @@ Supply voltage range # 26623.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SUPPLY_VOLTAGE_RANGE {get; set;}

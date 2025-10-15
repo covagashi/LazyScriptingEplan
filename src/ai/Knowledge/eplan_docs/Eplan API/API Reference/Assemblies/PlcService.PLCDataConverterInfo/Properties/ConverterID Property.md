@@ -9,7 +9,7 @@ A converter's ID. The value of this property may be used as strConverterID param
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConverterID {get;}

@@ -9,7 +9,7 @@ Schematic macro: NFPA inch # 22872.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_GROUPSYMBOLMACRO_NFPA_INCH {get; set;}

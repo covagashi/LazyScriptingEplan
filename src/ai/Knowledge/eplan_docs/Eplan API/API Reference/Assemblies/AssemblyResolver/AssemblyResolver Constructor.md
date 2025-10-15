@@ -9,7 +9,7 @@ Create one AssemblyResolver. This will automatically add an AssemblyResolve Even
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public AssemblyResolver()

@@ -9,7 +9,7 @@ Gets whether font is bold or not.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Bold {get;}

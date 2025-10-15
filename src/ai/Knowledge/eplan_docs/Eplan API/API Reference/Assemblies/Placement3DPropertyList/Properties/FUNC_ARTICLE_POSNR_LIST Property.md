@@ -9,7 +9,7 @@ Item number list # 20346.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_POSNR_LIST {get; set;}

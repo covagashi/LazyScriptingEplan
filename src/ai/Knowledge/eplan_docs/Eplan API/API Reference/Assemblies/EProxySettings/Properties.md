@@ -20,4 +20,4 @@ Public Properties
 | Public Property | [User](Eplan.IdentityClient.Types~Eplan.IdentityClient.EProxySettings~User.html) | User name. Default = empty. |
 | Public Property | [UseSystemProxy](Eplan.IdentityClient.Types~Eplan.IdentityClient.EProxySettings~UseSystemProxy.html) | Indicates if system proxy is used. Default = true. |
 
-[Top](#top)
+

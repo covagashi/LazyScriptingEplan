@@ -9,7 +9,7 @@ Returns whether the count of connection points is specified as variable.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsCPsCountVariable {get;}

@@ -9,7 +9,7 @@ Returns the creation time of the message
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DateTime GetTime()

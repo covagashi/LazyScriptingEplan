@@ -9,7 +9,7 @@ Active power # 26641.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ACTIVE_POWER {get; set;}

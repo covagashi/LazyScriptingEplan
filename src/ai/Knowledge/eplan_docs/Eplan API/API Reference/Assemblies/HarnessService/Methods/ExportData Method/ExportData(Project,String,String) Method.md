@@ -9,7 +9,7 @@ Exports Harness data from project without any filtering.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ExportData( 

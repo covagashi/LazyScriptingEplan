@@ -9,7 +9,7 @@ Set scaling in x-direction
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double XScale {get; set;}

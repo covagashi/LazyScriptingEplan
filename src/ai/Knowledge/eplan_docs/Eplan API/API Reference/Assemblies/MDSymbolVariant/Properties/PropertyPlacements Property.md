@@ -9,7 +9,7 @@ A read only list of all PropertyPlacements from the variant.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyPlacement[] PropertyPlacements {get;}

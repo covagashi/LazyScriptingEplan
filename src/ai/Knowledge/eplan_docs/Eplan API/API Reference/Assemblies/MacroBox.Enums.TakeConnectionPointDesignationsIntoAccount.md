@@ -9,7 +9,7 @@ Enumeration of TakeConnectionPointDesignationsIntoAccount
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MacroBox.Enums.TakeConnectionPointDesignationsIntoAccount : System.Enum

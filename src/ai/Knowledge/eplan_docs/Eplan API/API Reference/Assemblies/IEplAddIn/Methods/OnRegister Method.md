@@ -9,7 +9,7 @@ Is called once when a new add-in is selected.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool OnRegister( 

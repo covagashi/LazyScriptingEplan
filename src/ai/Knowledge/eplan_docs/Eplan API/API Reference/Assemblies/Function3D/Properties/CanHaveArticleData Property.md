@@ -9,7 +9,7 @@ Check if the Function3D can have [Eplan.EplApi.DataModel.Article](Eplan.EplApi.D
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool CanHaveArticleData {get;}

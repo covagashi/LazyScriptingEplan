@@ -9,7 +9,7 @@ Initializes function definition library of project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Initialize( 

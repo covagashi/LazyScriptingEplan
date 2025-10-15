@@ -9,7 +9,7 @@ Associated connections: Connection cross-section / diameter # 31029.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_WIRECROSSSECTION {get; set;}

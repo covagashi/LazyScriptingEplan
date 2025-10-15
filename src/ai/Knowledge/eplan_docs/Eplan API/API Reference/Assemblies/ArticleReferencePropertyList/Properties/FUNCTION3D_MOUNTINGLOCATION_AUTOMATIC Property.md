@@ -9,7 +9,7 @@ Mounting site (describing, common) # 36003.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_MOUNTINGLOCATION_AUTOMATIC {get; set;}

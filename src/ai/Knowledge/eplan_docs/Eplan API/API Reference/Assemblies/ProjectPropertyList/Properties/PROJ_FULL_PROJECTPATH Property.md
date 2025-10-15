@@ -9,7 +9,7 @@ Project path (full) # 10045.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_FULL_PROJECTPATH {get; set;}

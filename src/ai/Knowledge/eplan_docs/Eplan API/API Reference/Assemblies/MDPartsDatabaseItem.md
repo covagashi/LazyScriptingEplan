@@ -21,7 +21,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDPartsDatabaseItem : PropertiesAndHandleObject
@@ -34,7 +34,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDPartsDatabaseItem Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem~_ctor().html) | constructor of MDPartsDatabaseItem |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -44,7 +44,7 @@ Public Properties
 | Public Property | [Database](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem~Database.html) | Gets the database, where the database item is stored |
 | Public Property | [Properties](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem~Properties.html) | .NET Property enabling access to P8 properties of the PartsDatabaseItem object. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -60,4 +60,4 @@ Public Methods
 | Public Method | [GetTimeStampOfLastChange](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem~GetTimeStampOfLastChange.html) | Gets the TimeStamp of the last change from a DatabaseItem |
 | Public Method | [ToDataModelIdentifier](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem~ToDataModelIdentifier.html) | Returns data model identifier which identifies this object. |
 
-[Top](#top)
+

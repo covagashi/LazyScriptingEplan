@@ -9,7 +9,7 @@ Format of displayed DT: PLC box # 10625.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DTFORMAT_PLCBOX {get; set;}

@@ -9,7 +9,7 @@ Supported modes for avoiding multiple designations.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ConnectionService.AvoidIdenticalDesignations : System.Enum

@@ -9,7 +9,7 @@ Output speed, min. # 26185.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_OUTPUT_SPEED_MIN {get; set;}

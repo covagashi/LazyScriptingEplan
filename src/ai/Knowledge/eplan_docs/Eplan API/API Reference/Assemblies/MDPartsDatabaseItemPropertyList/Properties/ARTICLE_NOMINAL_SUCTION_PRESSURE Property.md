@@ -9,7 +9,7 @@ Nominal intake pressure # 26128.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NOMINAL_SUCTION_PRESSURE {get; set;}

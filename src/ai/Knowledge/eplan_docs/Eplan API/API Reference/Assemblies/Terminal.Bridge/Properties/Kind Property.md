@@ -9,7 +9,7 @@ A [Terminal.Bridge.Kinds](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObject
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Terminal.Bridge.Kinds Kind {get;}

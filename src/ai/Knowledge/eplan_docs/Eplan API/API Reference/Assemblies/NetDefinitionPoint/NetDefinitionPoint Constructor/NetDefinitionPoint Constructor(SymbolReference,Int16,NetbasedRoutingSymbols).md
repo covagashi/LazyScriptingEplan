@@ -9,7 +9,7 @@ Creates a NetDefinitionPoint object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public NetDefinitionPoint( 

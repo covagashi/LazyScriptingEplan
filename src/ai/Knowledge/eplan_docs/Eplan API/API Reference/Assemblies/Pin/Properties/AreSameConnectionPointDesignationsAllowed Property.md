@@ -9,7 +9,7 @@ Determines if similar connection point designations are allowed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AreSameConnectionPointDesignationsAllowed {get; set;}

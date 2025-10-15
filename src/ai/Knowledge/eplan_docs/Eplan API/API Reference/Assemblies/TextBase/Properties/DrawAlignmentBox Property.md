@@ -9,7 +9,7 @@ Returns the alignment box type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public TextBase.AlignmentBoxType DrawAlignmentBox {get; set;}

@@ -9,7 +9,7 @@ Method for adding a language that will be displayed in the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SetDisplayedLanguages( 

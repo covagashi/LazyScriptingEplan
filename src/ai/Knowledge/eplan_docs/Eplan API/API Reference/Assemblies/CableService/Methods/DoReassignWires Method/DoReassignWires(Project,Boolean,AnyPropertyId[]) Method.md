@@ -9,7 +9,7 @@ All wires in all cables from the project are assigned to a matching template of 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DoReassignWires( 

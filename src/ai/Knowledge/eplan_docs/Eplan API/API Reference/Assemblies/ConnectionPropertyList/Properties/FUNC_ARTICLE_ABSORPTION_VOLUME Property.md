@@ -9,7 +9,7 @@ Reception volume # 26224.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_ABSORPTION_VOLUME( 

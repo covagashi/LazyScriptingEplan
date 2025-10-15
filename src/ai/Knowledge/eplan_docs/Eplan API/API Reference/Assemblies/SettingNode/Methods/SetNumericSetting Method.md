@@ -9,7 +9,7 @@ Sets the value of project settings on a given path. Type of value will be conver
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void SetNumericSetting( 

@@ -9,7 +9,7 @@ Possible directions of address.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum PlanningSegment.PLCAddress.Enums.PlcAddressDirection : System.Enum

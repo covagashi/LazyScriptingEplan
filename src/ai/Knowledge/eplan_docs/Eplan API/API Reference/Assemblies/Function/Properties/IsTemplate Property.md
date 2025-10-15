@@ -9,7 +9,7 @@ Returns true if this is a transient Function object repesenting an uncovered fun
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsTemplate {get;}

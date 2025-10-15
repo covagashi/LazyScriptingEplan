@@ -9,7 +9,7 @@ Separator for terminal strip and plug definitions # 20099.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DEFINITIONSEPARATOR {get; set;}

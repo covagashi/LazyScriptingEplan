@@ -9,7 +9,7 @@ Corrects project items.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CorrectProjectItems( 

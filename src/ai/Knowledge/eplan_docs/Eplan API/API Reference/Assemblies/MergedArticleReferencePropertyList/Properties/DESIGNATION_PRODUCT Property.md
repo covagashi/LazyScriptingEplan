@@ -9,7 +9,7 @@ Product (main identifier) # 1800.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_PRODUCT {get; set;}

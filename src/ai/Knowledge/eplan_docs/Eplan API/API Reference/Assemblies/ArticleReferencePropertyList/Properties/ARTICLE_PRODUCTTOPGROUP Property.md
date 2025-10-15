@@ -9,7 +9,7 @@ Generic product group # 22138.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PRODUCTTOPGROUP {get; set;}

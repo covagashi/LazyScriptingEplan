@@ -9,7 +9,7 @@ Get the value of the parsed result.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double GetValue()

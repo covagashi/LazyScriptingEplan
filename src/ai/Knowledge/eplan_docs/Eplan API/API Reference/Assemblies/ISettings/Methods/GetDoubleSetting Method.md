@@ -9,7 +9,7 @@ Reads double value from settings
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 double GetDoubleSetting( 

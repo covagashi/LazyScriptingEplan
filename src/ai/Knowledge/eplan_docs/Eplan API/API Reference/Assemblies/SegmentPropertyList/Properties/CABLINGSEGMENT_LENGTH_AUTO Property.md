@@ -9,7 +9,7 @@ Topology: Routing length (automatic) # 20250.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLINGSEGMENT_LENGTH_AUTO {get; set;}

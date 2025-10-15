@@ -15,4 +15,4 @@ Public Methods
 | Public Method | [GetMenuItemCount](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.ContextMenu~GetMenuItemCount.html) | Get the count of added menu items of a context menu. |
 | Public Method | [RemoveMenuItem](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.ContextMenu~RemoveMenuItem.html) | Overloaded. Remove the menu item of a context menu. |
 
-[Top](#top)
+

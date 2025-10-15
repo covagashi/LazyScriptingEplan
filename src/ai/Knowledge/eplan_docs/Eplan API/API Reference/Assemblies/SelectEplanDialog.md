@@ -20,7 +20,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [ToolboxItemFilter("System.Windows.Forms.Control.TopLevel")]
@@ -69,7 +69,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [SelectEplanDialog Constructor](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.SelectEplanDialog~_ctor.html) | Constructor with available versions |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -133,7 +133,7 @@ Public Properties
 | Public Property | [Visible](#) | (Inherited from [System.Windows.Forms.Control](#)) |
 | Public Property | [WindowState](#) | (Inherited from [System.Windows.Forms.Form](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -195,7 +195,7 @@ Public Methods
 | Public Method | [Validate](#) | Overloaded.  (Inherited from [System.Windows.Forms.ContainerControl](#)) |
 | Public Method | [ValidateChildren](#) | Overloaded.  (Inherited from [System.Windows.Forms.Form](#)) |
 
-[Top](#top)
+
 
 Public Events
 
@@ -281,4 +281,4 @@ Public Events
 | Public Event | [Validating](#) | (Inherited from [System.Windows.Forms.Control](#)) |
 | Public Event | [VisibleChanged](#) | (Inherited from [System.Windows.Forms.Control](#)) |
 
-[Top](#top)
+

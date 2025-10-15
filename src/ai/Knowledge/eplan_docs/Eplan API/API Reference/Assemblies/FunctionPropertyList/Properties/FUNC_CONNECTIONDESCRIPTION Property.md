@@ -9,7 +9,7 @@ Function: Connection point description # 20023.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CONNECTIONDESCRIPTION( 

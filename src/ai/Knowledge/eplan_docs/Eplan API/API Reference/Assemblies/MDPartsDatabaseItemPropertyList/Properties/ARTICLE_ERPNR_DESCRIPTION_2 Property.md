@@ -9,7 +9,7 @@ ERP / PDM number 2: Description # 22382.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ERPNR_DESCRIPTION_2 {get; set;}

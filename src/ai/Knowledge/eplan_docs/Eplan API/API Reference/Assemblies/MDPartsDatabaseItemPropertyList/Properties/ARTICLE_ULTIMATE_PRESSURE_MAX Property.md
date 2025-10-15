@@ -9,7 +9,7 @@ Final pressure, max. # 26101.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ULTIMATE_PRESSURE_MAX {get; set;}

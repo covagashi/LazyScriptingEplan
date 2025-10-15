@@ -9,7 +9,7 @@ DT: Row # 20153.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DT_ROW {get; set;}

@@ -9,7 +9,7 @@ The bus system of the PLC template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public BusSystemType BusSystemKind {get; set;}

@@ -9,7 +9,7 @@ Allow manual cable selection only # 20061.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_ALLOW_ONLY_MANUEL_CABLE_SELECTION {get; set;}

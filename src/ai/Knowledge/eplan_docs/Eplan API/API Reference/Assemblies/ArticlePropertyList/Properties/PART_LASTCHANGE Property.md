@@ -9,7 +9,7 @@ Last editor / Modification date # 22901.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PART_LASTCHANGE {get; set;}

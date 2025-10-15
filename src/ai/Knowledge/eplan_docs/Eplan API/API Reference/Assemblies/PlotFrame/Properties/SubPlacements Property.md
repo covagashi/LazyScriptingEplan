@@ -9,7 +9,7 @@ Returns all grouped [Eplan.EplApi.DataModel.Placement](Eplan.EplApi.DataModelu~E
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override Placement[] SubPlacements {get;}

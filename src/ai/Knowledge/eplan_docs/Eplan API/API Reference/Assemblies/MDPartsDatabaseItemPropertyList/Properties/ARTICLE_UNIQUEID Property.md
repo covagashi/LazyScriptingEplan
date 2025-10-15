@@ -9,7 +9,7 @@ Unique part ID # 22060.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_UNIQUEID {get; set;}

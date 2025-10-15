@@ -9,7 +9,7 @@ Number of pneumatic ports (outputs) # 26071.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_NUMBER_OF_PNEUMATIC_CONNECTIONS_OUTPUT {get; set;}

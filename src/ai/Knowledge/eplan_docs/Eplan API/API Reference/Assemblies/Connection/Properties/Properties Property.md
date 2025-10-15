@@ -9,7 +9,7 @@
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new ConnectionPropertyList Properties {get;}

@@ -9,7 +9,7 @@ This event is raised whenever an event with the desired name occurs in Eplan.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EventHandlerFunction EplanEvent

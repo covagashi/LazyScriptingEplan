@@ -9,7 +9,7 @@ Variant # 22024.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_VARIANT {get; set;}

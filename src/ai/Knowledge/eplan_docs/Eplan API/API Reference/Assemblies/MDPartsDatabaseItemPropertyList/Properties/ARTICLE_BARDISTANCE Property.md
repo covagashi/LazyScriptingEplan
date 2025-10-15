@@ -9,7 +9,7 @@ Busbars: Rail spacing # 22202.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_BARDISTANCE {get; set;}

@@ -28,4 +28,4 @@ Public Properties
 | Public Property | [UserDefinedPropertyDefinitions](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabase~UserDefinedPropertyDefinitions.html) | Returns user-defined property definitions array |
 | Public Property | [Version](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabase~Version.html) | Returns the parts database version |
 
-[Top](#top)
+

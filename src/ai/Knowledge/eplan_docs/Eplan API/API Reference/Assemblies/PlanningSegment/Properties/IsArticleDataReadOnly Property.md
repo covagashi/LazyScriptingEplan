@@ -9,7 +9,7 @@ Determines whether the article reference data can be changed for this object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsArticleDataReadOnly {get;}

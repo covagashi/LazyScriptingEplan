@@ -9,7 +9,7 @@ Socket size # 36094.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_TERMINALPOSITION_SCREWDRIVES( 

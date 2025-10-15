@@ -9,7 +9,7 @@ Blower air flow # 26353.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_FAN_AIR_FLOW {get; set;}

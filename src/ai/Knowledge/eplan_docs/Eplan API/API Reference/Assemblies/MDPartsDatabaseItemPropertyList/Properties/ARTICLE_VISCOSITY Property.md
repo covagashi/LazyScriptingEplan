@@ -9,7 +9,7 @@ Viscosity # 26627.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_VISCOSITY {get; set;}

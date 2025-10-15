@@ -9,7 +9,7 @@ Authentication date and time.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DateTimeOffset AuthenticationTime {get; set;}

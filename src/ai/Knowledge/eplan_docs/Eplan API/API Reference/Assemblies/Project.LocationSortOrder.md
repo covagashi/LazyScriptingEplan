@@ -9,7 +9,7 @@ Sort order for newly created location.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Project.LocationSortOrder : System.Enum

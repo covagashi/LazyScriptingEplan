@@ -9,7 +9,7 @@ Name of interaction which will be override.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string NameOfBaseInteraction {get; set;}

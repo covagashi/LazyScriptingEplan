@@ -9,7 +9,7 @@ Removes revision data. Used for change tracking.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveRevisionData( 

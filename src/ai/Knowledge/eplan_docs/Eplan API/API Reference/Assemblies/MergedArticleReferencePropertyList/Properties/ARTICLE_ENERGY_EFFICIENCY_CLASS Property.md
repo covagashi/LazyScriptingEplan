@@ -9,7 +9,7 @@ Energy efficiency class # 26301.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_ENERGY_EFFICIENCY_CLASS {get; set;}

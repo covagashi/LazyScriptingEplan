@@ -9,7 +9,7 @@ Lower left corner of selection rectangle.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RectangleD SelectionRectangle {get;}

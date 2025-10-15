@@ -9,7 +9,7 @@ Is called, when the placement below the mouse pointer changes as result of mouse
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void OnElementFound( 

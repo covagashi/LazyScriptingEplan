@@ -9,7 +9,7 @@ Constructor. Creates a transient Article.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Article()

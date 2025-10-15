@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public struct Color : System.ValueType
@@ -28,7 +28,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Color Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Color~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -41,4 +41,4 @@ Public Properties
 | Public Property | [Transparency](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Color~Transparency.html) | Gets or sets transparency (0-255) due to internal technical limitations transparency is always stored as even value so 13 will be stored as 12 for example |
 | Public Property | [TransparencyDefinedByLayer](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Color~TransparencyDefinedByLayer.html) | if true, then transparency must be taken from layer |
 
-[Top](#top)
+

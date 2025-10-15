@@ -9,7 +9,7 @@ Gets all customers that are stored in the parts database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAddress[] Customers {get;}

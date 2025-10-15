@@ -9,7 +9,7 @@ Cables: Target (with plug designation) # 20385.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_DESTINATION_WITH_PLCPLUG_DESIGNATION {get; set;}

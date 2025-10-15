@@ -9,7 +9,7 @@ Returns the number of the highest used index. Indexes start at 1. If the propert
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int LastUsedIndex {get;}

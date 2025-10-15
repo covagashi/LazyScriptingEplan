@@ -15,4 +15,4 @@ Public Properties
 | Property | [SynchronousMode](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.IEplanRemoteClient~SynchronousMode.html) | Sets and gets the Synchronous mode. |
 | Property | [User](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.IEplanRemoteClient~User.html) | User name. This Property should be set before calling any StartEplan method. |
 
-[Top](#top)
+

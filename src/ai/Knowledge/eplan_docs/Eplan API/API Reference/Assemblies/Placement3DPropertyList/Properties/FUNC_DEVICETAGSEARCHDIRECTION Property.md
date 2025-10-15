@@ -9,7 +9,7 @@ DT adoption: Search direction # 20035.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DEVICETAGSEARCHDIRECTION {get; set;}

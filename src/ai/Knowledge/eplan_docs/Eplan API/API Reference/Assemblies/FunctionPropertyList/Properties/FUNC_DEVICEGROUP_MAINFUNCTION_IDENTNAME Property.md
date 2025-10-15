@@ -9,7 +9,7 @@ DT (identifying) of device group main function # 20862.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DEVICEGROUP_MAINFUNCTION_IDENTNAME {get; set;}

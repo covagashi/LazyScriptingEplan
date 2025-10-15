@@ -9,7 +9,7 @@ Supplier name # 22223.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SUPPLIER_NAME {get; set;}

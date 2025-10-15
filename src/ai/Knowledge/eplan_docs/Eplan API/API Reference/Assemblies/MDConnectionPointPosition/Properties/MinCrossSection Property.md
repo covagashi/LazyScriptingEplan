@@ -9,7 +9,7 @@ The minimal wire cross section of the connection point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double MinCrossSection {get; set;}

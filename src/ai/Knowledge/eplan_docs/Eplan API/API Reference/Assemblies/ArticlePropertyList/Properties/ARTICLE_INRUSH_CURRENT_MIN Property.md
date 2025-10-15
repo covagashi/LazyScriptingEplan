@@ -9,7 +9,7 @@ Inrush current, min. # 26099.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_INRUSH_CURRENT_MIN {get; set;}

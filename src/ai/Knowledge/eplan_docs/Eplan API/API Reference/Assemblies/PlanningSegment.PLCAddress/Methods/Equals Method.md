@@ -9,7 +9,7 @@ Operator of comparison implementation. Checks if two PLCAddresses refer to the s
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override bool Equals( 

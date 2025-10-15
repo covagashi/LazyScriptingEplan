@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [AttributeUsage(AttributeTargets.Assembly)]
@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [EplanSignedAssemblyAttribute Constructor](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.EplanSignedAssemblyAttribute~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -41,7 +41,7 @@ Public Properties
 | Public Property | [IsEplanAssembly](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.EplanSignedAssemblyAttribute~IsEplanAssembly.html) | Tells this assembly is an eplan assembly. The licence of this assembly is checked. |
 | Public Property | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -52,4 +52,4 @@ Public Methods
 | Public Method | [IsDefaultAttribute](#) | (Inherited from [System.Attribute](#)) |
 | Public Method | [Match](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
+

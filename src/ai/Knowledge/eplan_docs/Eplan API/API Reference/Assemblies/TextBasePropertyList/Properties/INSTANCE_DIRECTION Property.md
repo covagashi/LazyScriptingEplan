@@ -9,7 +9,7 @@ Alignment # 19016.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_DIRECTION {get; set;}

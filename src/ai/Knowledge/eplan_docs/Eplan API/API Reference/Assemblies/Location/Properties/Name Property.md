@@ -9,7 +9,7 @@ Gets name of location.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get;}

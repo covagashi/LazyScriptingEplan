@@ -9,7 +9,7 @@ Returns value of merged property having given property id.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue GetMergedProperty( 

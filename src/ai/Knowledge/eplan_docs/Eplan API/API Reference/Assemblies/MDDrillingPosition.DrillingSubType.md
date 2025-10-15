@@ -9,7 +9,7 @@ The sub type of the drilling. Depending on that sub type the other parameters wi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MDDrillingPosition.DrillingSubType : System.Enum

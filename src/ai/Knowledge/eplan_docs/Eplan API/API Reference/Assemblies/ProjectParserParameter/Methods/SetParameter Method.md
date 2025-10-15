@@ -9,7 +9,7 @@ Set the Parameter to resolve the project dependent units, p.e. Length\_Project\_
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetParameter( 

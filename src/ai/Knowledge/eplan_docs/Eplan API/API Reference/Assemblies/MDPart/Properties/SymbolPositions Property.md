@@ -9,7 +9,7 @@ Get all symbol positions assigned to the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDSymbolPosition[] SymbolPositions {get;}

@@ -9,7 +9,7 @@ Method to export the parts list of a project to an XML/CSV \file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ExportPartsList( 

@@ -9,7 +9,7 @@ Graphical placement # 19103.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_GEDLOCATION {get; set;}

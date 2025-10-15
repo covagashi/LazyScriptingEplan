@@ -9,7 +9,7 @@ Gets or sets insert macro box property.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MacroBox.Enums.InsertMacroBox InsertMacroBox {get; set;}

@@ -9,7 +9,7 @@ End customer: Phone # 10140.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ENDCUSTOMERTELEPHONE {get; set;}

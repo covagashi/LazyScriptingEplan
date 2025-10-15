@@ -9,7 +9,7 @@ Interconnect devices like in dialog "Interconnect devices".
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Connection[] InterconnectDevices( 

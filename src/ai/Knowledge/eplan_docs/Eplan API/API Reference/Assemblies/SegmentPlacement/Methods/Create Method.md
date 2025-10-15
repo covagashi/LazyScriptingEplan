@@ -9,7 +9,7 @@ Creates and place planning placement on page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

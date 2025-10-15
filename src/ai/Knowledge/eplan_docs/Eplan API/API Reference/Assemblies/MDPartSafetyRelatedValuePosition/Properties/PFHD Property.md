@@ -9,7 +9,7 @@ The PFHD (probability of dangerous failure per hour)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double PFHD {get; set;}

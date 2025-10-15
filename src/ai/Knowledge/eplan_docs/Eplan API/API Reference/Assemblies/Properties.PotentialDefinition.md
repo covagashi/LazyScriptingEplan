@@ -9,7 +9,7 @@ Identificators of properties owned by PotentialDefinition class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.PotentialDefinition : System.Enum

@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Methodstatic (Shared in Visual Basic) | [GetSortModesCount](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PlcService+ReadressingConfig~GetSortModesCount.html) | Returns a number of valid sort modes. |
 
-[Top](#top)
+

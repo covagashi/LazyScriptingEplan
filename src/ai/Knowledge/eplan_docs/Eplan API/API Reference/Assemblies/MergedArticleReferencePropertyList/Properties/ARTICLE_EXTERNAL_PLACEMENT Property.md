@@ -9,7 +9,7 @@ External placement # 22220.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_EXTERNAL_PLACEMENT {get; set;}

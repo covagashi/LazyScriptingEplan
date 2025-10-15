@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Import
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Import Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Import~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -39,4 +39,4 @@ Public Methods
 | Public Method | [PDFComments](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Import~PDFComments.html) | Overloaded. Imports comments from PDF file. |
 | Public Method | [PXFProject](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Import~PXFProject.html) | Overloaded. Creates a project from an imported PXF file. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Model view: Display freely routed pipes # 36523.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_DISPLAY_FREE_ROUTED_PIPES {get; set;}

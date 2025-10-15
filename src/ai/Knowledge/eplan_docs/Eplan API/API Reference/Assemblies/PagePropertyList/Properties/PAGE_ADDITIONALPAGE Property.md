@@ -9,7 +9,7 @@ Suppl. field: Page # 11031.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_ADDITIONALPAGE {get; set;}

@@ -9,7 +9,7 @@ Discontinued part # 22258.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DISCONTINUED {get; set;}

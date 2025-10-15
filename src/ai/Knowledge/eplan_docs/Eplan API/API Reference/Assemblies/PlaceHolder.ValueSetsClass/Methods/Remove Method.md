@@ -9,7 +9,7 @@ Removes a value set
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool Remove( 

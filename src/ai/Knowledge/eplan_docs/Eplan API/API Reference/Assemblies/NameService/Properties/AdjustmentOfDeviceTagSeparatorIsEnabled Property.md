@@ -9,7 +9,7 @@ Determines if adjustment of the visible device tag separator should be forced
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AdjustmentOfDeviceTagSeparatorIsEnabled {get; set;}

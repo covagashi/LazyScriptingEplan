@@ -9,7 +9,7 @@ Terminals: Current CSA # 22092.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CURRENTCSA {get; set;}

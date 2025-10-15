@@ -9,7 +9,7 @@ Adds project events handler.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddAnyChangeHandler( 

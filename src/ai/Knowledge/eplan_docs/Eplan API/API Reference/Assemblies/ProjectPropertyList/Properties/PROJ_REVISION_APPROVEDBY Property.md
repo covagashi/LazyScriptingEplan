@@ -9,7 +9,7 @@ Approved by # 10160.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_REVISION_APPROVEDBY {get; set;}

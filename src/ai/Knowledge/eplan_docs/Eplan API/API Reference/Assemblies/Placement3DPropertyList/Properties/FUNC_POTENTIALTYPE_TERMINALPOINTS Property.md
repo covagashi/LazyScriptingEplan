@@ -9,7 +9,7 @@ Potential type of connection points # 20166.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_POTENTIALTYPE_TERMINALPOINTS {get; set;}

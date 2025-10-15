@@ -9,7 +9,7 @@ Removes unused location from [Project](Eplan.EplApi.DataModelu~Eplan.EplApi.Data
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Remove()

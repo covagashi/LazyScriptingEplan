@@ -24,4 +24,4 @@ Public Methods
 | Public Method | [RemoveProject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager~RemoveProject.html) | Removes project |
 | Public Method | [UpgradeProjectDatabase](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager~UpgradeProjectDatabase.html) | Overloaded. Upgrades project. You can check if project need to be upgrade by GetProjectDataCompatibility. Method makes a copy of old project and sets name to (OldProjectName)(V2).(extension). |
 
-[Top](#top)
+

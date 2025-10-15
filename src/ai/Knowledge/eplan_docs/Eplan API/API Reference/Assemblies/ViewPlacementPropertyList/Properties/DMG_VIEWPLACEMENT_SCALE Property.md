@@ -9,7 +9,7 @@ Model view: Scale # 36510.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_SCALE {get; set;}

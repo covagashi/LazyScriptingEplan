@@ -9,7 +9,7 @@ Is called to calculate the cursor position.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void OnCalculateCursorPos( 

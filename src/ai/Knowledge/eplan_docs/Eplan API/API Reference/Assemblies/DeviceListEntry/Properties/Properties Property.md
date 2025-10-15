@@ -9,7 +9,7 @@ P8 properties of the DeviceListEntry object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new DeviceListEntryPropertyList Properties {get;}

@@ -9,7 +9,7 @@ If connection contains interruption points, this method returns an array of part
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Connection[] SubConnections {get;}

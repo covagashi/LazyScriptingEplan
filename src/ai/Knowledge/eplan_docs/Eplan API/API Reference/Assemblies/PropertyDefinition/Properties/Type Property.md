@@ -9,7 +9,7 @@ Returns information about the type of the property.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyDefinition.PropertyType Type {get;}

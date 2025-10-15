@@ -31,4 +31,4 @@ Public Methods
 | Method | [SetProjectPropertyEntry](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IPlaceHolder~SetProjectPropertyEntry.html) | Sets a value or variable on Placeholder project property. The reference of the object will be added to the Placeholder if necessary. |
 | Method | [SetValue](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IPlaceHolder~SetValue.html) | Sets the value of a variable for a record. |
 
-[Top](#top)
+

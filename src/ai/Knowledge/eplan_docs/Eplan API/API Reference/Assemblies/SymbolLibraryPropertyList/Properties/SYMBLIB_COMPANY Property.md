@@ -9,7 +9,7 @@ Company code # 15019.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMBLIB_COMPANY {get; set;}

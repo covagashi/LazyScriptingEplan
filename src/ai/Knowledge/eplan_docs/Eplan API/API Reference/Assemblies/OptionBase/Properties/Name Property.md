@@ -9,7 +9,7 @@ Name of the option object i.e. [OptionGroup](Eplan.EplApi.DataModelu~Eplan.EplAp
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get; set;}

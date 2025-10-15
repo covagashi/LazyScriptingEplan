@@ -17,4 +17,4 @@ Public Methods
 | Public Method | [GetId](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ElectroMessage~GetId.html) | Returns the Id of the message. |
 | Public Method | [GetTextTemplate](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ElectroMessage~GetTextTemplate.html) | Returns the text template of the message. |
 
-[Top](#top)
+

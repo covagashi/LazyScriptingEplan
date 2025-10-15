@@ -9,7 +9,7 @@ Constructor. Creates the MergedFunction object and initializes it to cover the f
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MergedFunction( 

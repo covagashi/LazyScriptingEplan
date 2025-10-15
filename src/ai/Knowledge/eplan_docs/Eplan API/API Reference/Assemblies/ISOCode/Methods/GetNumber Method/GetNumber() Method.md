@@ -9,7 +9,7 @@ Determines the language.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ISOCode.Language GetNumber()

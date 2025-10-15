@@ -31,4 +31,4 @@ Public Properties
 | Public Property | [UnitGroup](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDUserDefinedPropertyDefinition~UnitGroup.html) | UnitGroup of this property definition. |
 | Public Property | [UpperBound](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDUserDefinedPropertyDefinition~UpperBound.html) | Overridden. Gets a property's maximal value specified in the property's definition. |
 
-[Top](#top)
+

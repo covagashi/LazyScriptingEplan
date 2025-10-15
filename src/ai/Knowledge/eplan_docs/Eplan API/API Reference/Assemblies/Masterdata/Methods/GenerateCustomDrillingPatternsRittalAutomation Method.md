@@ -9,7 +9,7 @@ Generating Drilling Patterns from NC files.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int GenerateCustomDrillingPatternsRittalAutomation( 

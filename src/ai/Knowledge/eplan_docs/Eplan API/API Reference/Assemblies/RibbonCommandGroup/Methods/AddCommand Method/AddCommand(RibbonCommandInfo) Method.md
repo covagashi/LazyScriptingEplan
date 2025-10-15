@@ -9,7 +9,7 @@ Adds new command to the command group. Use this method preferably!
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonCommand AddCommand( 

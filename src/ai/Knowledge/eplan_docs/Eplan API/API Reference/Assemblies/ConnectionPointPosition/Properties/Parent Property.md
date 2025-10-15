@@ -9,7 +9,7 @@ StorableObject to which this property list is connected.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject Parent {get;}

@@ -9,7 +9,7 @@ Destructor for deterministic finalization of LockingVector object. Deactivates o
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Dispose()

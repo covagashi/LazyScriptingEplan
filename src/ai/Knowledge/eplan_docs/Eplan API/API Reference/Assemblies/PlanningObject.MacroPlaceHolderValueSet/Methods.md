@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [ChangeValueSetName](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningObject+MacroPlaceHolderValueSet~ChangeValueSetName.html) | Changes the whole value set data (all variable values) by getting it again from macro. Data is searched by macro name, placeholder name and new value set name. |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningObject+MacroPlaceHolderValueSet~Dispose().html) | Destructor for deterministic finalization of MacroPlaceholderRecord object. |
 
-[Top](#top)
+

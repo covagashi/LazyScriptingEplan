@@ -9,7 +9,7 @@ The connection point description of PLC template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConnectionPointDescription {get; set;}

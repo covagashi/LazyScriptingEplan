@@ -9,7 +9,7 @@ Climate class # 26407.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CLIMATE_CLASS {get; set;}

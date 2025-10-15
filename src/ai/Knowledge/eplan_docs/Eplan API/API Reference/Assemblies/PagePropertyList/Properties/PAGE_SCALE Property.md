@@ -9,7 +9,7 @@ Scale # 11048.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_SCALE {get; set;}

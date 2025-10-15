@@ -9,7 +9,7 @@ Returns all PinBase objects of NetDefinitionPoint
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public NetDefinitionPoint.NetConnectionPoint[] NetConnectionPoints {get;}

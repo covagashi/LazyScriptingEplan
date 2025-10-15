@@ -9,7 +9,7 @@ Minimum bundle diameter # 22260.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_BUNDLE_MINDIAMETER {get; set;}

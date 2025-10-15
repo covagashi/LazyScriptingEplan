@@ -9,7 +9,7 @@ Identificators of properties owned by Image class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Image : System.Enum

@@ -9,7 +9,7 @@ DT: Column # 20152.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DT_COLUMN {get; set;}

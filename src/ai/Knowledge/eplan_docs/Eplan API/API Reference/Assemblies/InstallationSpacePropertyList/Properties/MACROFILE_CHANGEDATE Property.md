@@ -9,7 +9,7 @@ Macro: Modification date # 23019.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROFILE_CHANGEDATE {get; set;}

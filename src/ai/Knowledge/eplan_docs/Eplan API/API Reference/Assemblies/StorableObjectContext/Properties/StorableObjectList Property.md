@@ -9,7 +9,7 @@ Set or get a Storable Object List for this context (additional to the single Sto
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] StorableObjectList {get; set;}

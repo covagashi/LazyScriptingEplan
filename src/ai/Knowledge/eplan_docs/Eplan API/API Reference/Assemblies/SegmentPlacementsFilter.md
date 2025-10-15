@@ -17,7 +17,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class SegmentPlacementsFilter : PlacementsFilter
@@ -76,7 +76,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [SegmentPlacementsFilter Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SegmentPlacementsFilter~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -84,7 +84,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SegmentPlacementsFilter~Page.html) | Overridden. Sets the [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html) that [StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)s matching the filter must be placed on. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -94,4 +94,4 @@ Public Methods
 | Public Method | [ResetFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SegmentPlacementsFilter~ResetFilter.html) | Overridden. Resets the filter. Filter matches all [StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)s then. |
 | Public Method | [SetFilteredPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SegmentPlacementsFilter~SetFilteredPropertyList.html) | Overloaded. Sets the [Eplan.EplApi.DataModel.Planning.SegmentPlacementPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.SegmentPlacementPropertyList.html) that [Eplan.EplApi.DataModel.Planning.SegmentPlacement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.SegmentPlacement.html)s matching the filter must have. |
 
-[Top](#top)
+

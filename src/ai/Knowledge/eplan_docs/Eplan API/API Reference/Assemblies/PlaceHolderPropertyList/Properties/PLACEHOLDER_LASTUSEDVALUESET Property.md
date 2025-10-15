@@ -9,7 +9,7 @@ Placeholder object: Last value set selected # 19301.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLACEHOLDER_LASTUSEDVALUESET {get; set;}

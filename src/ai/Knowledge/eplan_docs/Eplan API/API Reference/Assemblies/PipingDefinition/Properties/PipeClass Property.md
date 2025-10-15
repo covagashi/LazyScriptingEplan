@@ -9,7 +9,7 @@ Gets/Sets pipe class of object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PipeClass {get; set;}

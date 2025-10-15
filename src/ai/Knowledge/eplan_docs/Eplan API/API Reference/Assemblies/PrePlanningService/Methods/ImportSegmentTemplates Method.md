@@ -9,7 +9,7 @@ Imports segment templates from file to project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ImportSegmentTemplates( 

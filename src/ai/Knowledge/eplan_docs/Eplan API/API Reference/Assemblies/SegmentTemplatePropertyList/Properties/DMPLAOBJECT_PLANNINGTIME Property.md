@@ -9,7 +9,7 @@ Expenditure planning # 44012.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLANNINGTIME {get; set;}

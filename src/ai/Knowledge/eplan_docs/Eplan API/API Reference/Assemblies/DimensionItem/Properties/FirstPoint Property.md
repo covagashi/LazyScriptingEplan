@@ -9,7 +9,7 @@ Gets or sets the first point of the DimensionItem.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD FirstPoint {get; set;}

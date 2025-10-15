@@ -9,7 +9,7 @@ Returnes the count of indexed values that are used already by the project settin
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int GetCountOfValues( 

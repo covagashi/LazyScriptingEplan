@@ -9,7 +9,7 @@ The connection dimension of the connection point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConnectionDimension {get; set;}

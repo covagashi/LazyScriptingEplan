@@ -9,7 +9,7 @@ Nominal current # 26312.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_NOMINAL_CURRENT( 

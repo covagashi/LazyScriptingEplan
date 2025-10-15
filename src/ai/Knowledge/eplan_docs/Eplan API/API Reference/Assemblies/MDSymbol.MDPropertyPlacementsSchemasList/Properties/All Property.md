@@ -9,7 +9,7 @@ Gets all schemas from symbol
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDSymbol.MDPropertyPlacementsSchema[] All {get;}

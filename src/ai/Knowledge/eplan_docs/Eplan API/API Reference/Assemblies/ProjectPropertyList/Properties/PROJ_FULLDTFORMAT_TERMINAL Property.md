@@ -9,7 +9,7 @@ Format of full DT: Terminal # 10642.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_FULLDTFORMAT_TERMINAL {get; set;}

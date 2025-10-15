@@ -9,7 +9,7 @@ Mirrors placements
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Mirror( 

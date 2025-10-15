@@ -9,7 +9,7 @@ Numbering direction of 3d objects
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Renumber.Enums.NumberingDirection3D : System.Enum

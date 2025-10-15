@@ -9,7 +9,7 @@ Constructor. Creates the AnyPropertyId object from user-defined property identif
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public AnyPropertyId( 

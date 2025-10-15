@@ -9,7 +9,7 @@ Returns the index of the ArticleReference reference for the given article if it 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int ReferencePos {get;}

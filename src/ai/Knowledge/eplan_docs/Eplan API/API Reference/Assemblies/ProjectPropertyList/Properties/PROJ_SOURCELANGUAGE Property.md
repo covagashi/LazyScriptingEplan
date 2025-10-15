@@ -9,7 +9,7 @@ Source language # 10500.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_SOURCELANGUAGE {get; set;}

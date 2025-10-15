@@ -25,4 +25,4 @@ Public Properties
 | Public Property | [Selection](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.SelectionSet~Selection.html) | Gets the complete selection on the active window. Property `LockProjectByDefault` should be set to `true` before any changes on any inside elements of obtained objects. |
 | Public Property | [SelectionRecursive](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.SelectionSet~SelectionRecursive.html) | Gets the complete selection on the active window. Property `LockProjectByDefault` should be set to `true` before any changes on any inside elements of obtained objects. |
 
-[Top](#top)
+

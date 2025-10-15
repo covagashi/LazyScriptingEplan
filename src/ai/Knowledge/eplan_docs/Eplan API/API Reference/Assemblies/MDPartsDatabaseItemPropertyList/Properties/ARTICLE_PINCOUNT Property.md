@@ -9,7 +9,7 @@ Plugs: Number of pins # 22035.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PINCOUNT {get; set;}

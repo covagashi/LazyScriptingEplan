@@ -9,7 +9,7 @@ Returns tab identifier (as enum or internal id)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonTab.DefaultRibbonTabs Identifier {get;}

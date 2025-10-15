@@ -9,7 +9,7 @@ Connection which are routed by this segment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Connection3D[] RoutedConnections {get;}

@@ -9,7 +9,7 @@ A terminal on the other side of the bridge connection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Terminal BridgedTerminal

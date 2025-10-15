@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Project.DeviceTagSettings
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Project.DeviceTagSettings Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project+DeviceTagSettings~_ctor.html) | Constructor for DeviceTagSettings class which allow to access specified settings values for DeviceTag syntax configuration. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -40,4 +40,4 @@ Public Properties
 | Public Property | [PlantDesignationNumbersOnly](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project+DeviceTagSettings~PlantDesignationNumbersOnly.html) | Representation of XDtcDeviceTagCheck.Hierarchy.PlantDesignationNumbersOnly setting value. In P8-GUI it can be found in the "File" -> "Settings..." Projects/<project>/Devices/DT syntax check:Structure identifier/Valid special characters. When this option is enabled (has `true` value) only numbers can be used in DeviceTag syntax. To make it work [EnableSyntaxCheck](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project+DeviceTagSettings~EnableSyntaxCheck.html) must be `true`. |
 | Public Property | [UserCharacters](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project+DeviceTagSettings~UserCharacters.html) | Representation of XDtcDeviceTagCheck.Hierarchy.UserCharacters setting value. In P8-GUI it can be found in the "File" -> "Settings..." Projects/<project>/Devices/DT syntax check:Structure identifier/Special text characters. It provides possibility to enhance allowed characters used in DeviceTag syntax. To use this property [AllowUserCharacters](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project+DeviceTagSettings~AllowUserCharacters.html) must be `true` like also [EnableSyntaxCheck](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project+DeviceTagSettings~EnableSyntaxCheck.html) must be `true` |
 
-[Top](#top)
+

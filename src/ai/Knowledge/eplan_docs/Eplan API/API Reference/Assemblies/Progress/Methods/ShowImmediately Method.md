@@ -9,7 +9,7 @@ Shows the progress bar without any further delay. When ShowImmediately isnt't ca
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ShowImmediately()

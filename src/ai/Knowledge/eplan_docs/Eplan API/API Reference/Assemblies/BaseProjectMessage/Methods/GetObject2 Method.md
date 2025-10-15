@@ -9,7 +9,7 @@ Returns the second object associated to the message if any
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual StorableObject GetObject2()

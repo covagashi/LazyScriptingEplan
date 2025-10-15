@@ -9,7 +9,7 @@ Determines if a page is interactive.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool IsInteractivePage( 

@@ -9,7 +9,7 @@ Frequency (input voltage) # 26341.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_INPUT_VOLTAGE_FREQUENCY( 

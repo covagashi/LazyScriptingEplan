@@ -9,7 +9,7 @@ Get or set the placement's location.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual PointD Location {get; set;}

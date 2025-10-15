@@ -9,7 +9,7 @@ Exports drillings of a 3d objects as numerical control data for Rittal - Perfore
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool NCForRittalPerforexLC( 

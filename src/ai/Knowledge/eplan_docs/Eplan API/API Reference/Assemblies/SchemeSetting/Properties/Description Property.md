@@ -9,7 +9,7 @@ Returns a multilingual description text of the scheme.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString Description {get;}

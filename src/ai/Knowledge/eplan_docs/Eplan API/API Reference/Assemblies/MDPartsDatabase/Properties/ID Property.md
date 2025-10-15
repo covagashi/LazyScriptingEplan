@@ -9,7 +9,7 @@ Get Database ID
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ID {get;}

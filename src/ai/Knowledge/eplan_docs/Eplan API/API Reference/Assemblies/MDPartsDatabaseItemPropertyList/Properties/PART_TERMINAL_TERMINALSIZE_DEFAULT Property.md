@@ -9,7 +9,7 @@ Connection dimension (default) # 22969.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_TERMINAL_TERMINALSIZE_DEFAULT {get; set;}

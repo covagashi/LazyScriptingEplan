@@ -9,7 +9,7 @@ Imports layers from an XML file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Import( 

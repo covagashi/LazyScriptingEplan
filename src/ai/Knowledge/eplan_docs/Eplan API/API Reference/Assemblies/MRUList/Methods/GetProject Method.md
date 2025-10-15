@@ -9,7 +9,7 @@ Gets project name from list.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetProject( 

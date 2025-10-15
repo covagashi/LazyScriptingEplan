@@ -9,7 +9,7 @@ Creates not placed, article free MountingPanel object with given dimensions.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

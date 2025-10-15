@@ -9,7 +9,7 @@ System configuration scheme name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SystemConfiguration {get; set;}

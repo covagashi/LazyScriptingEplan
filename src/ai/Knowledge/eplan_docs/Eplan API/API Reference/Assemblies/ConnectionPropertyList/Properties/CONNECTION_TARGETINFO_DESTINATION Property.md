@@ -9,7 +9,7 @@ Internal / External index: Target # 31141.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_TARGETINFO_DESTINATION {get; set;}

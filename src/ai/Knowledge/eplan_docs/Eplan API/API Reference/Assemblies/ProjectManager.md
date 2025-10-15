@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ProjectManager
@@ -44,7 +44,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ProjectManager Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager~_ctor.html) | Constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -56,7 +56,7 @@ Public Properties
 | Public Property | [OpenProjects](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager~OpenProjects.html) | Returns list of all open projects. |
 | Public Property | [Paths](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager~Paths.html) | Returns [PathInfo](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PathInfo.html) object. It is intended to provide information about default Eplan Platform paths. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -76,4 +76,4 @@ Public Methods
 | Public Method | [RemoveProject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager~RemoveProject.html) | Removes project |
 | Public Method | [UpgradeProjectDatabase](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager~UpgradeProjectDatabase.html) | Overloaded. Upgrades project. You can check if project need to be upgrade by GetProjectDataCompatibility. Method makes a copy of old project and sets name to (OldProjectName)(V2).(extension). |
 
-[Top](#top)
+

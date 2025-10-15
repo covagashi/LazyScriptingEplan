@@ -9,7 +9,7 @@ Returns a sorted list of logicals (that is everything derived from functionbase)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public FunctionBase[] GetSortedListOfLogicals()

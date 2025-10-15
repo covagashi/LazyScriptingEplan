@@ -9,7 +9,7 @@ Structure identifier # 1000.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue LOCATION_NAME {get; set;}

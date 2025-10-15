@@ -9,7 +9,7 @@ DT ID # 20359.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_MODULE_ID {get; set;}

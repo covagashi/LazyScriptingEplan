@@ -9,7 +9,7 @@ Macro: Source project # 11055.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTALLATIONSPACE_MACROSOURCEPROJECT {get; set;}

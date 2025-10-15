@@ -12,7 +12,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class BasePointMate.Enums
@@ -25,4 +25,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [BasePointMate.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.BasePointMate+Enums~_ctor.html) |  |
 
-[Top](#top)
+

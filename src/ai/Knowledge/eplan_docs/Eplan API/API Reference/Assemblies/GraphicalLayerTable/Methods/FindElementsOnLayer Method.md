@@ -9,7 +9,7 @@ Checks if elements exists on given layer.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] FindElementsOnLayer( 

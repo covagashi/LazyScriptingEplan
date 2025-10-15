@@ -9,7 +9,7 @@ Creates object representing a setting properties step.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SettingPropertiesStep CreateSettingPropertiesStep( 

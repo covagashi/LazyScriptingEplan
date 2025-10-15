@@ -9,7 +9,7 @@ Default constructor. Creates Filter that matches all [Placement](Eplan.EplApi.Da
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlacementsFilter()

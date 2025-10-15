@@ -9,7 +9,7 @@ Decide shows a list select dialog.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EnumDecisionReturn Decide( 

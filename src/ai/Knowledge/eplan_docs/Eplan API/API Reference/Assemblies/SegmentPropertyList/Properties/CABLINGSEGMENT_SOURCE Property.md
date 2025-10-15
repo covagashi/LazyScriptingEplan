@@ -9,7 +9,7 @@ Topology: Source of routing path # 20197.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLINGSEGMENT_SOURCE {get; set;}

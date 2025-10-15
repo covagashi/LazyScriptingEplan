@@ -9,7 +9,7 @@ Returns the [SegmentDefinition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.P
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual SegmentDefinition SegmentDefinition {get; set;}

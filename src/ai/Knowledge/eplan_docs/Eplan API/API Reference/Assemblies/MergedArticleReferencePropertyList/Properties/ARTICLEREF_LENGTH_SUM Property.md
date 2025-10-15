@@ -9,7 +9,7 @@ Total length with unit of the project # 20513.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_LENGTH_SUM {get; set;}

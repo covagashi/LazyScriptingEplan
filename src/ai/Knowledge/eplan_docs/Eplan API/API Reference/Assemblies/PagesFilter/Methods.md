@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [ResetFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PagesFilter~ResetFilter.html) | Overridden. Resets the filter. Filter matches all [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html)s then. |
 | Public Method | [SetFilteredPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PagesFilter~SetFilteredPropertyList.html) | Sets the [PagePropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PagePropertyList.html) that [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html)s matching the filter must have. |
 
-[Top](#top)
+

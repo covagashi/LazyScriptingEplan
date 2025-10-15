@@ -9,7 +9,7 @@ Modification date # 22981.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_LASTCHANGE_DATE {get; set;}

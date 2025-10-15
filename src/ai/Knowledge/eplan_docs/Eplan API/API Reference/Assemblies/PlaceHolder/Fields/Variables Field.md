@@ -9,7 +9,7 @@ Represents variables of a placeholder
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlaceHolder.VariablesClass Variables

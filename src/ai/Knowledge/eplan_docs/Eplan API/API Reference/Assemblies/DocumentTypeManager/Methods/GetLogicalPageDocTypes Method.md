@@ -9,7 +9,7 @@ Gets logical page types.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static DocumentTypeManager.DocumentType[] GetLogicalPageDocTypes()

@@ -9,7 +9,7 @@ Gets the selected PartItem(s) in the parts management (or parts navigator)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartsDatabaseItem[] GetSelectedPartDatabaseItems( 

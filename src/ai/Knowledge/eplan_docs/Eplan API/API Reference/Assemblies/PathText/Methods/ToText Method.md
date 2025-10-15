@@ -9,7 +9,7 @@ Transforms this PathText instance into a Text instance.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Text ToText()

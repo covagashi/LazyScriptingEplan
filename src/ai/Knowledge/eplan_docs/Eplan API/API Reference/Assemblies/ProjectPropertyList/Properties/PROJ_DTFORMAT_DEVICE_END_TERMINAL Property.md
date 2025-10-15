@@ -9,7 +9,7 @@ Format of displayed DT: Device connection point # 10631.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DTFORMAT_DEVICE_END_TERMINAL {get; set;}

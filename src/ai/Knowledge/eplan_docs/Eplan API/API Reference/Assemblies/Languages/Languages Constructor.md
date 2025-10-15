@@ -9,7 +9,7 @@ Creates a new Language object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Languages()

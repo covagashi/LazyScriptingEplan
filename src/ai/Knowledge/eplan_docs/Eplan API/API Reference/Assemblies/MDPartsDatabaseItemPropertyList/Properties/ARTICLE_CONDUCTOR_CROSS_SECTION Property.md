@@ -9,7 +9,7 @@ Conductor cross-section # 26120.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CONDUCTOR_CROSS_SECTION {get; set;}

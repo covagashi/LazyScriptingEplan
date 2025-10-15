@@ -9,7 +9,7 @@ A unit. Every unit enum starts with the group name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Unit : System.Enum

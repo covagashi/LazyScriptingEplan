@@ -9,7 +9,7 @@ Exports unfolding of bended bus bar into DXF files.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CopperForDXF( 

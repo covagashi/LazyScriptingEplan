@@ -9,7 +9,7 @@ Name of the font pointed by index in font table.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get;}

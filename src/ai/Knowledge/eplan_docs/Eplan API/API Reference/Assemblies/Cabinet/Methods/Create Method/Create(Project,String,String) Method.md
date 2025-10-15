@@ -9,7 +9,7 @@ Creates not placed Cabinet object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

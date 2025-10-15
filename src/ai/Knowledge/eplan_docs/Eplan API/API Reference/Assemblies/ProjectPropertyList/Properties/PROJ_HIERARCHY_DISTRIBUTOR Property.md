@@ -9,7 +9,7 @@ Structure format for fluid connection splicer / line connector # 10064.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_DISTRIBUTOR {get; set;}

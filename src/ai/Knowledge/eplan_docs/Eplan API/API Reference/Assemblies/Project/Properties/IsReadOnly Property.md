@@ -9,7 +9,7 @@ Determines if StorableObject is read-only
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override bool IsReadOnly {get;}

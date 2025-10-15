@@ -15,4 +15,4 @@ Public Methods
 | Public Method | [Dispose()](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ITransaction~Dispose().html) | Destructor for deterministic finalization of Transaction object. (Inherited from [Eplan.EplApi.DataModel.ITransaction](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ITransaction.html)) |
 | Public Method | [Store](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Transaction~Store.html) | This method will enable to commit the transaction, and \internal open the next transaction. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Cable reel # 26394.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_CABLE_WINDER( 

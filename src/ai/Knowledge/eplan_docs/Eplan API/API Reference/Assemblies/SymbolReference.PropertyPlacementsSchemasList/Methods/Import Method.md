@@ -9,7 +9,7 @@ Imports customer property placements set(s) from the specified file to the symbo
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Import( 

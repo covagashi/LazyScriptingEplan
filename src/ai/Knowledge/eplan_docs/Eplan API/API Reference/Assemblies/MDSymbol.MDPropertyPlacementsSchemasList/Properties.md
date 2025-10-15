@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [All](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol+MDPropertyPlacementsSchemasList~All.html) | Gets all schemas from symbol |
 
-[Top](#top)
+

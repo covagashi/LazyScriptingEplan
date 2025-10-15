@@ -9,7 +9,7 @@ Return true, if mate is base mate.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsBaseMate {get; set;}

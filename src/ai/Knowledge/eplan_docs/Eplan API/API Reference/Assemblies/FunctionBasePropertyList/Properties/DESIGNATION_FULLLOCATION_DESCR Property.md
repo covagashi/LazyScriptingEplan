@@ -9,7 +9,7 @@ Location designation: Description # 1250.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLLOCATION_DESCR {get; set;}

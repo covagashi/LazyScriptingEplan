@@ -9,7 +9,7 @@ Project structure: User-defined structure # 10007.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_USERDEFINED {get; set;}

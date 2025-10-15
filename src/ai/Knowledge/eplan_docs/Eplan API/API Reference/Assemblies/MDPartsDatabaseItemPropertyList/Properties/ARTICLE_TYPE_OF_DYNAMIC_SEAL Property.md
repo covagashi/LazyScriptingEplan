@@ -9,7 +9,7 @@ Type of construction: Dynamic seal # 26025.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TYPE_OF_DYNAMIC_SEAL {get; set;}

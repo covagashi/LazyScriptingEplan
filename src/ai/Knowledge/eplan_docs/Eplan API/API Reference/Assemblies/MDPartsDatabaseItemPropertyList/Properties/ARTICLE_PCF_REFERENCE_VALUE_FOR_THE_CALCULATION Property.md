@@ -9,7 +9,7 @@ PCF: Reference value for the calculation # 26525.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PCF_REFERENCE_VALUE_FOR_THE_CALCULATION {get; set;}

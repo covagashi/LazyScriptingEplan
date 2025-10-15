@@ -9,7 +9,7 @@ Executes PLC terminals addressing
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ReaddressTerminals( 

@@ -9,7 +9,7 @@ Move this object relative to its parent.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void MoveRelative( 

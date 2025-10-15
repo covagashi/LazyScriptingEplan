@@ -9,7 +9,7 @@ Parameter3.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Parameter3 {get; set;}

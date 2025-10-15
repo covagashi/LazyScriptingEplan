@@ -9,7 +9,7 @@ Location designation (main identifier): Description # 1230.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_LOCATION_DESCR {get; set;}

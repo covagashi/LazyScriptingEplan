@@ -9,7 +9,7 @@ The degree of routing segment filling in percent.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double FillingDegree {get;}

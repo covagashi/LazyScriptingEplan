@@ -9,7 +9,7 @@ Returns relation id and index encapsulated by Relation class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Relation Relation {get;}

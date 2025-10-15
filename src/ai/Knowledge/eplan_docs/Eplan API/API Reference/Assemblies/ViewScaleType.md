@@ -9,7 +9,7 @@ Possible ways of scaling.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ViewScaleType : System.Enum

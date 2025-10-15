@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LockingStep~Dispose().html) | Ends a locking step (identified by internal nLockingStepId). ManualLocking mode is set to its previous value; Original locking state is restored. The same as !LockingStep. |
 
-[Top](#top)
+

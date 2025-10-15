@@ -9,7 +9,7 @@ Returns true if the Group3D object is placed
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsPlaced {get;}

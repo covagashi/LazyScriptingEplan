@@ -9,7 +9,7 @@ Returns comment related to the hyperlink.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Comment {get; set;}

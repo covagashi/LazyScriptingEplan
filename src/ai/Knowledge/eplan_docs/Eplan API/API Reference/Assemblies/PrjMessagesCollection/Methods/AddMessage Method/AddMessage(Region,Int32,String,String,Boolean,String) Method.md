@@ -9,7 +9,7 @@ Adds a new message to the project's message management window.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ProjectMessage AddMessage( 

@@ -9,7 +9,7 @@ Plot frame name # 11016.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_FORMPLOT {get; set;}

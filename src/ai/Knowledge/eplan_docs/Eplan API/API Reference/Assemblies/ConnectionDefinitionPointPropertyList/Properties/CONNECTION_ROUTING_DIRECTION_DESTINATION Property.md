@@ -9,7 +9,7 @@ Routing direction target # 31115.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_ROUTING_DIRECTION_DESTINATION {get; set;}

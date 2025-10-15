@@ -9,7 +9,7 @@ Returns this object created from the string identifier
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool TryParseIdentifier( 

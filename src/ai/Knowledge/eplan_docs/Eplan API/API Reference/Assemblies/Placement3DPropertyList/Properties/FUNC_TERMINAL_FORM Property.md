@@ -9,7 +9,7 @@ Terminal / plug diagram form # 20806.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_FORM {get; set;}

@@ -9,7 +9,7 @@ Removes user-defined category
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Remove()

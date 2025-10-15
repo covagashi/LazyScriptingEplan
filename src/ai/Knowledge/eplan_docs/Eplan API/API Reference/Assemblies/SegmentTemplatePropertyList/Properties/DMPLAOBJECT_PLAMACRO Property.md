@@ -9,7 +9,7 @@ Macro for pre-planning and P&I diagram # 44084.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLAMACRO {get; set;}

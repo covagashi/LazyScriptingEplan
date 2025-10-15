@@ -9,7 +9,7 @@ Special remarks of creator # 11059.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_ANNOTATION {get; set;}

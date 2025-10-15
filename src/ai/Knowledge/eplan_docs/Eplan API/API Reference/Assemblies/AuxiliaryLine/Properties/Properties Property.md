@@ -9,7 +9,7 @@ EPLAN properties of the AuxiliaryLine object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new AuxiliaryLinePropertyList Properties {get;}

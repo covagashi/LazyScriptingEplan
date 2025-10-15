@@ -9,7 +9,7 @@ Suitable for cable diameter # 26350.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SUITABLE_FOR_CABLE_DIAMETERS {get; set;}

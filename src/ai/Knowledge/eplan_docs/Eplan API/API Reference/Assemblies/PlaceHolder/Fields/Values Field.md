@@ -9,7 +9,7 @@ Represents values table of a placeholder
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlaceHolder.ValuesClass Values

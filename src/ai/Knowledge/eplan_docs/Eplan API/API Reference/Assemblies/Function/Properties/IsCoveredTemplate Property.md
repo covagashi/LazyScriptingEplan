@@ -9,7 +9,7 @@ Returns true if this is a Function object that covers a function template in a d
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsCoveredTemplate {get;}

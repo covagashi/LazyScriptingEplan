@@ -9,7 +9,7 @@ Object identification # 2000.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROPUSER_DBOBJECTID {get; set;}

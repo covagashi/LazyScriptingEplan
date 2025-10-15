@@ -9,7 +9,7 @@ Revision: Approved date (change tracking) # 11088.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_REVISION_LOG_APPROVEDDATE( 

@@ -9,7 +9,7 @@ Updates MRU list.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void UpdateMruList( 

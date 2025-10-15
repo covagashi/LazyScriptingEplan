@@ -9,7 +9,7 @@ Safety function # 20216.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_SAFETYRELEVANT {get; set;}

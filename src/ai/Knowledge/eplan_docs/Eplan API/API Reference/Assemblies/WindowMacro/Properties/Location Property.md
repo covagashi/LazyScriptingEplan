@@ -9,7 +9,7 @@ The position of lower left corner of the macro defined by the user when storing 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD Location {get;}

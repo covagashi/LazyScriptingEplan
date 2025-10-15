@@ -9,7 +9,7 @@ Error: Symbol variant # 15102.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMBLIB_VARIANTERROR( 

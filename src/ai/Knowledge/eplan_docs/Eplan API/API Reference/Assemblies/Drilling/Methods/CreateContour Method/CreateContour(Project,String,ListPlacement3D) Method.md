@@ -9,7 +9,7 @@ Creates a new drilling in the shape of the given contour.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Drilling CreateContour( 

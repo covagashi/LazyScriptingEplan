@@ -9,7 +9,7 @@ Pilot pressure, min. # 26151.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CONTROL_PRESSURE_MIN {get; set;}

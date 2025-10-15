@@ -9,7 +9,7 @@ Functional assignment: Main identifier (automatic) # 31106.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_FUNCTIONALASSIGNMENT_AUTOMATIC {get; set;}

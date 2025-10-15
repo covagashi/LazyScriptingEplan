@@ -9,7 +9,7 @@ Material selection list # 26656.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MATERIAL_LIST {get; set;}

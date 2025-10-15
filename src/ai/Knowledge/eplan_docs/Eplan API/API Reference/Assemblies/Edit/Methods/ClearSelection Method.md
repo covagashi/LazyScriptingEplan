@@ -9,7 +9,7 @@ Removes selection from all objects in the GED.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ClearSelection()

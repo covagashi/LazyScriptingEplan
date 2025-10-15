@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [Name](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionEvent~Name.html) | Name of InsertionPoint that was snapped. |
 | Public Property | [Position](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionEvent~Position.html) |  |
 
-[Top](#top)
+

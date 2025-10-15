@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDPartAssemblyPosition : MDPartHierarchyPosition
@@ -37,7 +37,7 @@ Public Properties
 | Public Property | [SupplementaryText](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartAssemblyPosition~SupplementaryText.html) | Returns the additional text of the position |
 | Public Property | [Variant](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartHierarchyPosition~Variant.html) | Returns the part number of the referenced part. (Inherited from [Eplan.EplApi.MasterData.MDPartHierarchyPosition](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartHierarchyPosition.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -45,4 +45,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData~Dispose().html) | Destructor for deterministic finalization of MDPartsDatabaseItemChildData object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData.html)) |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ConnectionPointPosition EndConnectionPointPosition {get;}

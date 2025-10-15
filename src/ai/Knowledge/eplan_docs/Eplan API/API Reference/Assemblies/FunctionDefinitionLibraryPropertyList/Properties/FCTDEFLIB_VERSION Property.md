@@ -9,7 +9,7 @@ Version information of function definition library # 15502.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FCTDEFLIB_VERSION {get; set;}

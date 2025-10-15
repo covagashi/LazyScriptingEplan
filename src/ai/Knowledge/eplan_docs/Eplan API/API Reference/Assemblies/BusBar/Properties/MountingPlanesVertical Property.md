@@ -9,7 +9,7 @@ Array of mounting planes vertical
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Tuple<Plane,Plane>[] MountingPlanesVertical {get;}

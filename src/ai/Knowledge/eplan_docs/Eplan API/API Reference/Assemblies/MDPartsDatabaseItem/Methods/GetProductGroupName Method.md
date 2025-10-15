@@ -9,7 +9,7 @@ Gets the name of the product-group
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static string GetProductGroupName( 

@@ -9,7 +9,7 @@ Number of layout spaces # 10304.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJECT_INSTALLATIONSPACECOUNT {get; set;}

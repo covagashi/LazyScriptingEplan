@@ -9,7 +9,7 @@ Returns, if the function is netconnecting.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsNetConnecting {get; set;}

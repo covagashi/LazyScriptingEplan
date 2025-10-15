@@ -9,7 +9,7 @@ Gets flag which identifies a main function.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsMainFunction {get;}

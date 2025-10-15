@@ -9,7 +9,7 @@ Connect to Eplan Server.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Connect( 

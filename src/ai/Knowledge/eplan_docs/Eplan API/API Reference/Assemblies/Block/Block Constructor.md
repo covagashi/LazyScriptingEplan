@@ -9,7 +9,7 @@ Default constructor. Creates invalid Block object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Block()

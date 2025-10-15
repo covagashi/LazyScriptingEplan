@@ -9,7 +9,7 @@ PLC subdevice 6: PLC type designation # 20586.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_TYPEIDENTIFIER_6 {get; set;}

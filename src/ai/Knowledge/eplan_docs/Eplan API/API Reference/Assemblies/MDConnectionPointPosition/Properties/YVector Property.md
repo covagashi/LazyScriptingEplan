@@ -9,7 +9,7 @@ The Y-vector of the connection point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double YVector {get; set;}

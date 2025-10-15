@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class EventManager
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [EventManager Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventManager~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -35,4 +35,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Send](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventManager~Send.html) | Sends an event to the system. |
 
-[Top](#top)
+

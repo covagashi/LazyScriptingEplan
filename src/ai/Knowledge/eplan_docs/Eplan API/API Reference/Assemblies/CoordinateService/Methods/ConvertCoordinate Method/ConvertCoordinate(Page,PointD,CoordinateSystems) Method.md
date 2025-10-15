@@ -9,7 +9,7 @@ Method that converts from coordinate system based on page type to another
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD ConvertCoordinate( 

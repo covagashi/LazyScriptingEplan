@@ -9,7 +9,7 @@ Specifies the Justification.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public GraphicalLayer.AlignmentType Alignment {get; set;}

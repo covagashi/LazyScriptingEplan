@@ -9,7 +9,7 @@ Block property: Format (connection) # 10608.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_CONNECTION( 

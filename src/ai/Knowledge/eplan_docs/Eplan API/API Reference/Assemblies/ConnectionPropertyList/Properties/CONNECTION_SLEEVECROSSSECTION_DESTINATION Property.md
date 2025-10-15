@@ -9,7 +9,7 @@ Target: Sleeve cross-section # 31054.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_SLEEVECROSSSECTION_DESTINATION {get; set;}

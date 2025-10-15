@@ -9,7 +9,7 @@ Add page names # 12030.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_ADD_PAGENAME {get; set;}

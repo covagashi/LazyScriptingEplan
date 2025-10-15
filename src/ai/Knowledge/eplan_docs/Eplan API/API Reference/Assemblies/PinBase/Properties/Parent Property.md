@@ -9,7 +9,7 @@ Returns the symbol reference that the logical conn. point represented by this ob
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolReference Parent {get;}

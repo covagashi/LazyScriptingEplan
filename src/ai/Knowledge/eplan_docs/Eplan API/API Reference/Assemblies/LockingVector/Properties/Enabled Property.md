@@ -9,7 +9,7 @@ Returns true if locking mechanism is enabled in this version.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Enabled {get;}

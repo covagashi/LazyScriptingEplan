@@ -9,7 +9,7 @@ Constructor with variant index of searched macro.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MacroVariantNotFoundException( 

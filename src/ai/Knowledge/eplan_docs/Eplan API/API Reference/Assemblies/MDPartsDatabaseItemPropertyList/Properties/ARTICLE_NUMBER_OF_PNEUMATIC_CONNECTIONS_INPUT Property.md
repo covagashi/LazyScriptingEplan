@@ -9,7 +9,7 @@ Number of pneumatic ports (inputs) # 26072.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NUMBER_OF_PNEUMATIC_CONNECTIONS_INPUT {get; set;}

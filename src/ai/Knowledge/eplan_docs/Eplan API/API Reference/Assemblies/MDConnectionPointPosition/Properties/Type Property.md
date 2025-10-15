@@ -9,7 +9,7 @@ The type of end treatment for the connection that will be connected to the conne
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Type {get; set;}

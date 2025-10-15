@@ -9,7 +9,7 @@ Execute an action asynchronously.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void ExecuteActionAsynch( 

@@ -9,7 +9,7 @@ Returns points for a given id of face.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D[] FacePoints( 

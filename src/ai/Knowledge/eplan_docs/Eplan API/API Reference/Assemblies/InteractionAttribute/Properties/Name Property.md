@@ -9,7 +9,7 @@ Name under interaction will be registered.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get; set;}

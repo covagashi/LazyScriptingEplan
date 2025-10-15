@@ -9,7 +9,7 @@ PLC subdevice 9: Position (slot / module) # 22313.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PLCDEVICENUMBER_9 {get; set;}

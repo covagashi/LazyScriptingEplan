@@ -9,7 +9,7 @@ Type of flow # 26220.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_TYPE_OF_FLOW( 

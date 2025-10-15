@@ -9,7 +9,7 @@ Returns the exact size of the page, takes into account page scale. The size is c
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD Size {get;}

@@ -9,7 +9,7 @@ Cable: Cross-section # 26136.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CROSS_SECTION_OF_THE_CABLE {get; set;}

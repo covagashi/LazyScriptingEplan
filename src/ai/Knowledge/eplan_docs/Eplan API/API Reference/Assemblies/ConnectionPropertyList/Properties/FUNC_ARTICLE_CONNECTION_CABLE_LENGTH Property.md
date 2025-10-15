@@ -9,7 +9,7 @@ Connecting cable: Length # 26207.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_CONNECTION_CABLE_LENGTH( 

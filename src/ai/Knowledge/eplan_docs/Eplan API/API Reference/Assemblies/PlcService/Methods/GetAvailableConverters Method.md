@@ -9,7 +9,7 @@ Returns a list of PLCDataConverterInfo objects representing registered PLC conve
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlcService.PLCDataConverterInfo[] GetAvailableConverters()

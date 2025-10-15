@@ -9,7 +9,7 @@ Attributes # 22051.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_ATTRIBUTE_VALUE( 

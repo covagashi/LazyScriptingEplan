@@ -9,7 +9,7 @@ User-defined property: Name # 44054.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_USERPROPERTY_NAME( 

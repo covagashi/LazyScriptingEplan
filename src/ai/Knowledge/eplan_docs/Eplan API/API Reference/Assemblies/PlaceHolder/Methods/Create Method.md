@@ -9,7 +9,7 @@ Creates a new PlaceHolder object on the specified Page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

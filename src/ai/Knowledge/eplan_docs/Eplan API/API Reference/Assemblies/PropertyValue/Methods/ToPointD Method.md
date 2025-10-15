@@ -9,7 +9,7 @@ Used in conversion of the PropertyValue object to [Eplan.EplApi.Base.PointD](Epl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD ToPointD()

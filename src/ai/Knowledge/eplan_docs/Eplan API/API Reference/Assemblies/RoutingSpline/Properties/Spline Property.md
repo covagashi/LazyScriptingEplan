@@ -9,7 +9,7 @@ Array of points representing the shape of spline.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D[] Spline {get;}

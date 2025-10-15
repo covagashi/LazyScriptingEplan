@@ -9,7 +9,7 @@ Do not include in addressing # 20380.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCTERMINAL_NO_ADRESSING {get; set;}

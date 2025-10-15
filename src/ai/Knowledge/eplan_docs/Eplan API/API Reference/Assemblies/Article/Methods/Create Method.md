@@ -9,7 +9,7 @@ Creates a Article in Project with the specified strPartnr and strVariant.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

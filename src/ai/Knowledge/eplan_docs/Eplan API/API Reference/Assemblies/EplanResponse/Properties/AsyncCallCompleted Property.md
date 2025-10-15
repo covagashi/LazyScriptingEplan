@@ -9,7 +9,7 @@ Indicates that an asynchronous call is terminated.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AsyncCallCompleted {get; set;}

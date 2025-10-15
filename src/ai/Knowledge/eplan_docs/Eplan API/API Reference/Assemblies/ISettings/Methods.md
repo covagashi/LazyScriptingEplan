@@ -24,4 +24,4 @@ Public Methods
 | Method | [SetNumericSetting](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ISettings~SetNumericSetting.html) | Sets the value of settings on a given path. Type of value will be converted to 16 bit, 32 bit, signed or unsigned value depending on setting type. |
 | Method | [SetStringSetting](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ISettings~SetStringSetting.html) | Sets the value of settings on a given path. |
 
-[Top](#top)
+

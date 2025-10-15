@@ -9,7 +9,7 @@ The X position of the referenced mounting panel.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double X {get; set;}

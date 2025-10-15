@@ -9,7 +9,7 @@ Adds the reference of a Placement object to the placeholder.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void AddReference( 

@@ -9,7 +9,7 @@ Internal / External index: Source # 31140.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_TARGETINFO_SOURCE {get; set;}

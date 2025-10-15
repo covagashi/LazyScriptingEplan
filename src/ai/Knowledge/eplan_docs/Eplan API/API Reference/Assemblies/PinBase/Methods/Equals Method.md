@@ -9,7 +9,7 @@ Comparison of two PinBase objects. Comparison is made by comparing each of Pin m
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override bool Equals( 

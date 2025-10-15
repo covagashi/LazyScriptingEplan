@@ -9,7 +9,7 @@ Function text (common) # 20120.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TEXT_COMMON {get; set;}

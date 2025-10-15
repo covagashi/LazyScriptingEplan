@@ -9,7 +9,7 @@ Schematic macros for company standard # 22882.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_GROUPSYMBOLMACRO_CUSTOM_ALL {get; set;}

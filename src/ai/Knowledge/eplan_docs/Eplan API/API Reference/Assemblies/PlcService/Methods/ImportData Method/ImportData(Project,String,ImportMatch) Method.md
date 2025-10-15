@@ -9,7 +9,7 @@ Imports PLC data from a file in the PLC standard exchange format (.pbf files) us
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ImportData( 

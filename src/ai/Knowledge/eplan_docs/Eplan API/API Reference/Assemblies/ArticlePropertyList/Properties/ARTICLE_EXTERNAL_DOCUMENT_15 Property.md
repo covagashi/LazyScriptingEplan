@@ -9,7 +9,7 @@ External document 15 # 22246.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_EXTERNAL_DOCUMENT_15 {get; set;}

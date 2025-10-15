@@ -9,7 +9,7 @@ Plugs: Assignment to male pin / female pin end # 20052.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PINANDJACK_PLUGSIDE {get; set;}

@@ -9,7 +9,7 @@ Opens the page with the name passed to strPageName and select the function whose
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void OpenPageWithNameAndDeviceName( 

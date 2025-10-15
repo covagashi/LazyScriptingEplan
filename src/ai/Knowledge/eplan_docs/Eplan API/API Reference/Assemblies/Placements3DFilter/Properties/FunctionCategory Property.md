@@ -9,7 +9,7 @@ Gets/Sets the filter's category
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public FunctionCategory FunctionCategory {get; set;}

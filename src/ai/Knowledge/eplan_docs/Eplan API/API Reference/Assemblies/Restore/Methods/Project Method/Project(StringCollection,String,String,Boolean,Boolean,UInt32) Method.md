@@ -9,7 +9,7 @@ Restore projects from archive files.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Project( 

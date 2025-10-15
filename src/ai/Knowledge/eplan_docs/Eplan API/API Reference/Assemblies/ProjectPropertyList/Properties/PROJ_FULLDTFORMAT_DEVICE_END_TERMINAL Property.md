@@ -9,7 +9,7 @@ Format of full DT: Device connection point # 10651.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_FULLDTFORMAT_DEVICE_END_TERMINAL {get; set;}

@@ -29,4 +29,4 @@ Public Properties
 | Public Property | [ValidParents](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.SegmentDefinition~ValidParents.html) | Array with identifying names of segment definitions. |
 | Public Property | [WriteProtected](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.SegmentDefinition~WriteProtected.html) | Check if object is currently write protected or sets Manual write protection |
 
-[Top](#top)
+

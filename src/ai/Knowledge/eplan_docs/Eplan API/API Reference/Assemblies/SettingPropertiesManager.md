@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class SettingPropertiesManager
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [SettingPropertiesManager Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Helpers.SettingPropertiesManager~_ctor.html) | Default constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -35,7 +35,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [CurrentStep](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Helpers.SettingPropertiesManager~CurrentStep.html) | Current active [SettingPropertiesStep](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Helpers.SettingPropertiesStep.html). |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -44,4 +44,4 @@ Public Methods
 | Public Method | [CreateSettingPropertiesStep](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Helpers.SettingPropertiesManager~CreateSettingPropertiesStep.html) | Overloaded. Creates object representing a setting properties step. |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Helpers.SettingPropertiesManager~Dispose().html) | Destructor for deterministic finalization of SettingPropertiesManager object. |
 
-[Top](#top)
+

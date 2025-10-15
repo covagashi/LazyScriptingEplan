@@ -9,7 +9,7 @@ Routing directions.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum RoutingDirections : System.Enum

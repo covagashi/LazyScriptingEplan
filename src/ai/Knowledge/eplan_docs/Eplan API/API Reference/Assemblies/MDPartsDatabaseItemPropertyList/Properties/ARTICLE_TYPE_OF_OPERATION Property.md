@@ -9,7 +9,7 @@ Type of operation # 26236.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TYPE_OF_OPERATION {get; set;}

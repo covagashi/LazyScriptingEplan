@@ -9,7 +9,7 @@ Checked date # 10163.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_REVISION_CHECKEDDATE {get; set;}

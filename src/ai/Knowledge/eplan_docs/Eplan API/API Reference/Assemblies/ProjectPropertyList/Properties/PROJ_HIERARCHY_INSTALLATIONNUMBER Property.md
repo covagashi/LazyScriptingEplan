@@ -9,7 +9,7 @@ Project structure: Higher-level function number # 10005.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_INSTALLATIONNUMBER {get; set;}

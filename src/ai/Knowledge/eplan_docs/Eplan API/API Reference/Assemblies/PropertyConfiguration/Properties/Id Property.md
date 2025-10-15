@@ -9,7 +9,7 @@ Returns AnyPropertyId.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public AnyPropertyId Id {get;}

@@ -9,7 +9,7 @@ Returns all grouped [Placement3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Placement3D[] SubPlacement3Ds {get; set;}

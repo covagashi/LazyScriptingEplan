@@ -9,7 +9,7 @@ Creates not placed Component object from part with given variant of macro.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Component Create( 

@@ -9,7 +9,7 @@ PLC subdevice: Index
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int PlcSubdeviceIndex {get; set;}

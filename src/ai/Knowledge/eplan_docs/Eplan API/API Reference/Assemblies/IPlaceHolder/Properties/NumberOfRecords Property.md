@@ -9,7 +9,7 @@ Count of records.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 int NumberOfRecords {get;}

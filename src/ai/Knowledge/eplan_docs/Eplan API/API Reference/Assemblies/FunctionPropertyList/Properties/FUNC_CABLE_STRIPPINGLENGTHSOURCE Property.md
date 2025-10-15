@@ -9,7 +9,7 @@ Cable / Conduit: Source: Stripping length # 20081.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_STRIPPINGLENGTHSOURCE {get; set;}

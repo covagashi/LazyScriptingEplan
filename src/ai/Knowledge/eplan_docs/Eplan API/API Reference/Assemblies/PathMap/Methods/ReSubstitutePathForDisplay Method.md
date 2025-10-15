@@ -9,7 +9,7 @@ Substitute values with variables. Returns the changed path. Ignores all variable
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static string ReSubstitutePathForDisplay( 

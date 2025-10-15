@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Function](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionsFilter~Function.html) | Sets the [Function](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function.html) that [Connection](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Connection.html)s matching the filter must have as the start or the end function. |
 
-[Top](#top)
+

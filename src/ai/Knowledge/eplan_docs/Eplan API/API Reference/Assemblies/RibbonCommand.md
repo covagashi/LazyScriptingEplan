@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class RibbonCommand
@@ -37,7 +37,7 @@ Public Properties
 | Public Property | [Text](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommand~Text.html) | Returns command text |
 | Public Property | [TooltipText](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommand~TooltipText.html) | Returns tooltip text |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -46,4 +46,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommand~Dispose().html) | Destructor for deterministic finalization of RibbonCommand object. |
 | Public Method | [Remove](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommand~Remove.html) | Removes command |
 
-[Top](#top)
+

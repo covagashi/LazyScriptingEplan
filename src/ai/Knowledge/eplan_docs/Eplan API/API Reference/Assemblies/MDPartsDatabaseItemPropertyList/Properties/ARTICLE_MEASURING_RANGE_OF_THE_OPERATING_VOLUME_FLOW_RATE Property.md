@@ -9,7 +9,7 @@ Measuring range: Actual volume flow # 26123.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MEASURING_RANGE_OF_THE_OPERATING_VOLUME_FLOW_RATE {get; set;}

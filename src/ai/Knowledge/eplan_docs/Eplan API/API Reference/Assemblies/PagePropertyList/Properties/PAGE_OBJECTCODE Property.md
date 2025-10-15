@@ -9,7 +9,7 @@ Object identifier # 11036.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_OBJECTCODE {get; set;}

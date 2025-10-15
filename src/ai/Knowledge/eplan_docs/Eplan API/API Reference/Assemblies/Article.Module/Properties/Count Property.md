@@ -9,7 +9,7 @@ Returns count of parts of the same kind contained in this Module.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Count {get; set;}

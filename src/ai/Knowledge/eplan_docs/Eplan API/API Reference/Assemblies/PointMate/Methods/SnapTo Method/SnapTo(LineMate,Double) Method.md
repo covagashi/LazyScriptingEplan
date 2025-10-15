@@ -9,7 +9,7 @@ Snap this mate to another mate.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SnapTo( 

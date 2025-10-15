@@ -9,7 +9,7 @@ Allows properties access.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new GraphicalPlacementPropertyList Properties {get;}

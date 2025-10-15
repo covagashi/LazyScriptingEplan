@@ -9,7 +9,7 @@ Gets variant
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Variant {get;}

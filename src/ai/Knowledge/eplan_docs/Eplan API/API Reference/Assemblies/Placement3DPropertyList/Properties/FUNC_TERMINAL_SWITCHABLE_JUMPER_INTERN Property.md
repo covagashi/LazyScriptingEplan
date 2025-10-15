@@ -9,7 +9,7 @@ Switching jumper (internal) # 20291.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_SWITCHABLE_JUMPER_INTERN {get; set;}

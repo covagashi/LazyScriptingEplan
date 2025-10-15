@@ -9,7 +9,7 @@ Flow rate (free blowing) # 26175.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_VOLUME_FLOW_FREELY_BLOWING {get; set;}

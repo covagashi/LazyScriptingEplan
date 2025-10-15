@@ -9,7 +9,7 @@ The plug device tag of PLC template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PlugDeviceTag {get; set;}

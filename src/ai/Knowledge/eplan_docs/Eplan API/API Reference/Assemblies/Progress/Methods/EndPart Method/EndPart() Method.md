@@ -9,7 +9,7 @@ End segment
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void EndPart()

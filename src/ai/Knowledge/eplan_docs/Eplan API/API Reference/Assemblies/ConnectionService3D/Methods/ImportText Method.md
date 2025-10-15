@@ -9,7 +9,7 @@ Imports the Connection3Ds from a text file into the given project using a scheme
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Connection3D[] ImportText( 

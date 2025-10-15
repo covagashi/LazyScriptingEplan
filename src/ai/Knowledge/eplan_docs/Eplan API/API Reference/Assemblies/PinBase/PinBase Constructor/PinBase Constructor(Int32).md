@@ -9,7 +9,7 @@ Creates a PinBase object representing a graphical connection point of a symbol.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PinBase( 

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MultiLangString
@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MultiLangString Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString~_ctor().html) | Default constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -40,7 +40,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [InternalString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString~InternalString.html) | Sets internal string representation with format validation. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -61,7 +61,7 @@ Public Methods
 | Public Method | [ToString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString~ToString.html) | Returns a string that represents the current object. |
 | Public Method | [Translatable](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString~Translatable.html) | Indicates whether the MultiLanguageString can be translated. |
 
-[Top](#top)
+
 
 Public Operators
 
@@ -69,4 +69,4 @@ Public Operators
 | --- | --- |
 | public Operator [Equality](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString~op_Equality.html) | Equality operator |
 
-[Top](#top)
+

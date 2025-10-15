@@ -18,4 +18,4 @@ Public Properties
 | Public Property | [OpenMode](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UserInfo~OpenMode.html) | Get the mode in which the user has opened the project. |
 | Public Property | [Phone](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UserInfo~Phone.html) | Get the phone number of the User. |
 
-[Top](#top)
+

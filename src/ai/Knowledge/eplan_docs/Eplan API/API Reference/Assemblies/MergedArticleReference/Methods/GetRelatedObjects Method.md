@@ -9,7 +9,7 @@ Returns an array of data model objects included in this compound.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] GetRelatedObjects()

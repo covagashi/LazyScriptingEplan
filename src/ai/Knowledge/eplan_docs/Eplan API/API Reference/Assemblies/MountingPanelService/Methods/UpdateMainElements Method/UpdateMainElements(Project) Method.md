@@ -9,7 +9,7 @@ Transfers part references of all the part placements in the project to main func
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function[] UpdateMainElements( 

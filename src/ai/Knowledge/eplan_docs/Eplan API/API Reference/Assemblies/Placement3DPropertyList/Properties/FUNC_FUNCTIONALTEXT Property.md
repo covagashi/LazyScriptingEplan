@@ -9,7 +9,7 @@ State # 20285.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_FUNCTIONALTEXT( 

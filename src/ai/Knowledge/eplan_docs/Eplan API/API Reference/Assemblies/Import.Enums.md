@@ -12,7 +12,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Import.Enums
@@ -25,4 +25,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Import.Enums Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Import+Enums~_ctor.html) |  |
 
-[Top](#top)
+

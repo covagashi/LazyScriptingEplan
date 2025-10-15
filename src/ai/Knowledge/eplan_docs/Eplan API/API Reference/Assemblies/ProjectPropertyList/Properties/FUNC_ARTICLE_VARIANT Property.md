@@ -9,7 +9,7 @@ Part variant # 20101.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_VARIANT( 

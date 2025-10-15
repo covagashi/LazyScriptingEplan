@@ -9,7 +9,7 @@ Part number # 22001.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PARTNR {get; set;}

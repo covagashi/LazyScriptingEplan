@@ -9,7 +9,7 @@ Creates the specific EventParameterString object from the IEventParameter interf
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateFrom( 

@@ -9,7 +9,7 @@ Workstation # 10182.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_STATION {get; set;}

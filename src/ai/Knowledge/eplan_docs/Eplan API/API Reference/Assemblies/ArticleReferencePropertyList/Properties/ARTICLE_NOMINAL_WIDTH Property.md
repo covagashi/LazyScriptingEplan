@@ -9,7 +9,7 @@ Nominal size / diameter # 26512.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_NOMINAL_WIDTH {get; set;}

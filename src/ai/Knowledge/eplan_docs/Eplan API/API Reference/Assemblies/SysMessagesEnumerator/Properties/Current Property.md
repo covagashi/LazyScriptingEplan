@@ -9,7 +9,7 @@ gets the current element in [SysMessagesCollection](Eplan.EplApi.Baseu~Eplan.Epl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual object Current {get;}

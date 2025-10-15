@@ -9,7 +9,7 @@ Places a macro assigned to this function together with a special symbol configur
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] PlaceFunctionalMacro( 

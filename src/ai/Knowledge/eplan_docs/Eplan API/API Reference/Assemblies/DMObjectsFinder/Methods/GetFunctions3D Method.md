@@ -9,7 +9,7 @@ Returns [Eplan.EplApi.DataModel.E3D.Function3D](Eplan.EplApi.DataModelu~Eplan.Ep
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function3D[] GetFunctions3D( 

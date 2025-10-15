@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class EplTrace
@@ -40,7 +40,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [EplTrace Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.EplTrace~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -48,4 +48,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Trace](Eplan.EplApi.Baseu~Eplan.EplApi.Base.EplTrace~Trace.html) | Overloaded. Writes the text to EplLog.txt when Trace is on. |
 
-[Top](#top)
+

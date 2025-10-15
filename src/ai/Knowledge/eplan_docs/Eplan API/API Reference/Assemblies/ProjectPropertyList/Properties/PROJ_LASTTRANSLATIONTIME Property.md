@@ -9,7 +9,7 @@ Last translation: Time # 10048.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_LASTTRANSLATIONTIME {get; set;}

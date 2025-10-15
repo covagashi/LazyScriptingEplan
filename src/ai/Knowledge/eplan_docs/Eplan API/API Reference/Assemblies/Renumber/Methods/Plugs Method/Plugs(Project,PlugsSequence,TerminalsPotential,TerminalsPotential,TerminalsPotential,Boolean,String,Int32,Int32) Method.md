@@ -9,7 +9,7 @@ Method for renumbering plugs of a project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Plugs( 

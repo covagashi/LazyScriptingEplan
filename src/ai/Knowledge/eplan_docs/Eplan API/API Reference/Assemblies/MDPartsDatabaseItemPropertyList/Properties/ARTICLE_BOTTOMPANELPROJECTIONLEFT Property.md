@@ -9,7 +9,7 @@ Overhang: Base left # 22181.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_BOTTOMPANELPROJECTIONLEFT {get; set;}

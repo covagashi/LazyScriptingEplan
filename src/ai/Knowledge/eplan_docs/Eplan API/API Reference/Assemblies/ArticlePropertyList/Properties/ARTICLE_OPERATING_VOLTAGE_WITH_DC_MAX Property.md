@@ -9,7 +9,7 @@ Operating voltage (DC), max. # 26091.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_OPERATING_VOLTAGE_WITH_DC_MAX {get; set;}

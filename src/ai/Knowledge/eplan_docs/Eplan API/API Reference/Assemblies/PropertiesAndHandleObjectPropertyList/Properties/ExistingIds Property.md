@@ -9,7 +9,7 @@ Returns array of MDPropertyValue objects. If PropertiesAndHandleObjectPropertyLi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAnyPropertyId[] ExistingIds {get;}

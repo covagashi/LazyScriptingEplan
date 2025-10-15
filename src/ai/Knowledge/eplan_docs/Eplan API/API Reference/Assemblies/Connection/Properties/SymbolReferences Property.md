@@ -9,7 +9,7 @@ This method returns an array of SymbolReferences objects that belong to a connec
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolReference[] SymbolReferences {get;}

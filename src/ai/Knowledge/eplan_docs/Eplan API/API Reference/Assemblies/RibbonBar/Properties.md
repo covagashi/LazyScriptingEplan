@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [Icons](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBar~Icons.html) | Returns icons of the ribbon bar |
 | Public Property | [Tabs](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBar~Tabs.html) | Returns tabs of the ribbon bar |
 
-[Top](#top)
+

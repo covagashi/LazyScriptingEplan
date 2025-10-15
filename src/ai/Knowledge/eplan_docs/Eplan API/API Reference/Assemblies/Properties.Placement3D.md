@@ -9,7 +9,7 @@ Identificators of properties owned by Placement3D class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Placement3D : System.Enum

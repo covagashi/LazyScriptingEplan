@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class SymbolReference.PropertyPlacementsSchema
@@ -29,4 +29,4 @@ Public Properties
 | Public Property | [IsCustom](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference+PropertyPlacementsSchema~IsCustom.html) | Returns the ID of the property placements configuration |
 | Public Property | [Name](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference+PropertyPlacementsSchema~Name.html) | Returns the name of the property placements configuration |
 
-[Top](#top)
+

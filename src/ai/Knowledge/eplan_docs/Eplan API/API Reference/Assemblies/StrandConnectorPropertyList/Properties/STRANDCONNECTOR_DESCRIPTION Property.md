@@ -9,7 +9,7 @@ Bundle: Connection point description # 19071.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue STRANDCONNECTOR_DESCRIPTION {get; set;}

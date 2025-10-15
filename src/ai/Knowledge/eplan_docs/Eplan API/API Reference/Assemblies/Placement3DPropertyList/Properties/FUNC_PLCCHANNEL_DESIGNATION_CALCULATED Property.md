@@ -9,7 +9,7 @@ Channel designation (determined) # 20436.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCHANNEL_DESIGNATION_CALCULATED {get; set;}

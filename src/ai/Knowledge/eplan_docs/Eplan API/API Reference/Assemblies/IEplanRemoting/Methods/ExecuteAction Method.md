@@ -9,7 +9,7 @@ Execute an action synchronously.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool ExecuteAction( 

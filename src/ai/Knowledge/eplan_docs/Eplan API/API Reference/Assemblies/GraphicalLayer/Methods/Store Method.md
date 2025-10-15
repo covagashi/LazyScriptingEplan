@@ -9,7 +9,7 @@ Stores modified layer's properties into project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Store()

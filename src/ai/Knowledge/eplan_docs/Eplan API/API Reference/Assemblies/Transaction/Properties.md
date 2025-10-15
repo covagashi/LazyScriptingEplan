@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [IsImplicitEplanTransactionCommited](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Transaction~IsImplicitEplanTransactionCommited.html) | Transaction property which returns true if an implicit Eplan transaction was started and finished during lifetime of current transaction. |
 
-[Top](#top)
+

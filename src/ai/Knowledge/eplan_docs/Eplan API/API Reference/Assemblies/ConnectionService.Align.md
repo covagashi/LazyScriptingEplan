@@ -9,7 +9,7 @@ Mode for aligning and formatting connection definition points
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ConnectionService.Align : System.Enum

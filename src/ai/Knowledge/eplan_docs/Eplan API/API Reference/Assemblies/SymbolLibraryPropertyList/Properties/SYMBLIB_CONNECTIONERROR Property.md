@@ -9,7 +9,7 @@ Error: Connection point # 15101.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMBLIB_CONNECTIONERROR( 

@@ -9,7 +9,7 @@ Registers an additional tab sheet for the given item type.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool RegisterTabsheet( 

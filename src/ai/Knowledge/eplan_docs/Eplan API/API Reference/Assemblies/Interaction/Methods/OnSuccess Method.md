@@ -9,7 +9,7 @@ Is called after successful input of all necessary data as reaction to the reques
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void OnSuccess( 

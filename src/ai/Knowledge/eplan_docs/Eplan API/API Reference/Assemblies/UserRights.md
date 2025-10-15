@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class UserRights
@@ -29,7 +29,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [UserRights Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -46,4 +46,4 @@ Public Methods
 | Public Method | [IsRightExisting](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights~IsRightExisting.html) | Returns the right existance |
 | Public Method | [SetUser](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights~SetUser.html) | Sets the user. |
 
-[Top](#top)
+

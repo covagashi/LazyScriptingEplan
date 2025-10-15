@@ -9,7 +9,7 @@ Redraws GED surface.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool RedrawGed()

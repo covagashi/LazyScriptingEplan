@@ -9,7 +9,7 @@ Sets ellipse
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetEllipse( 

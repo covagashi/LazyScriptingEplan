@@ -9,7 +9,7 @@ Queries whether the rights management is currently active.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CheckUserRights()

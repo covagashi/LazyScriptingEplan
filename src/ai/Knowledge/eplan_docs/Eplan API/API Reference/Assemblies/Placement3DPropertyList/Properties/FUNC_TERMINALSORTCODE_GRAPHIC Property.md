@@ -9,7 +9,7 @@ Sorting (graphical) # 20810.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINALSORTCODE_GRAPHIC {get; set;}

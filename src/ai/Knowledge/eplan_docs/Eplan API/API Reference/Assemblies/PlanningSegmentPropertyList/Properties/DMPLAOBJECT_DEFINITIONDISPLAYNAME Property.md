@@ -9,7 +9,7 @@ Total number of digital PLC inputs # 44028.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_DIGITAL_PLCINPUT_COUNT {get; set;}

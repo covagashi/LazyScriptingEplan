@@ -9,7 +9,7 @@ Safety-related values: TMT1 # 40332.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SAFETYRELATED_TMT1 {get; set;}

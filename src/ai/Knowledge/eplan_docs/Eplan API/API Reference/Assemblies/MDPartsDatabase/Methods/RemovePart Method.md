@@ -9,7 +9,7 @@ Removes the given part from the parts database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemovePart( 

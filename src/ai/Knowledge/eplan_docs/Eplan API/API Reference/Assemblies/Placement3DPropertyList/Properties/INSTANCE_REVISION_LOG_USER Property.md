@@ -9,7 +9,7 @@ Creator (change tracking) # 19033.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_REVISION_LOG_USER {get; set;}

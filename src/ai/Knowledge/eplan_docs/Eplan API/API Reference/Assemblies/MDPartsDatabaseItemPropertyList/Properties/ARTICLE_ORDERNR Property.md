@@ -9,7 +9,7 @@ Order number # 22003.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ORDERNR {get; set;}

@@ -9,7 +9,7 @@ Sets the [Eplan.EplApi.DataModel.E3D.Placement3D](Eplan.EplApi.DataModelu~Eplan.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement3D Parent {get; set;}

@@ -9,7 +9,7 @@ Returns [Eplan.EplApi.DataModel.Planning.PlanningSegment](Eplan.EplApi.DataModel
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SegmentPlacement[] GetSegmentPlacements( 

@@ -9,7 +9,7 @@ Name of this mate.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string Name {get; set;}

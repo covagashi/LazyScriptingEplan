@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UserInfo~Dispose().html) | Disposing the UserInfo |
 
-[Top](#top)
+

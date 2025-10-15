@@ -9,7 +9,7 @@ Is called after abort of interaction.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void OnCancel()

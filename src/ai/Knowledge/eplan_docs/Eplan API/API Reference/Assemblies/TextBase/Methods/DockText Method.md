@@ -9,7 +9,7 @@ Docks one text to another. You can see how it works in GUI. Select element on sc
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DockText( 

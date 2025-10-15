@@ -9,7 +9,7 @@ Macro: Description # 11019.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTALLATIONSPACE_MACRO_DESCRIPTION {get; set;}

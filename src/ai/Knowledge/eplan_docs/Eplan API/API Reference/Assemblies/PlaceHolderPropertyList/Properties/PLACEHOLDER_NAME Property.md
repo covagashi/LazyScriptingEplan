@@ -9,7 +9,7 @@ Placeholder object name # 19300.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLACEHOLDER_NAME {get; set;}

@@ -9,7 +9,7 @@ Is called after edge was found below the mouse pointer.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual RequestCode OnEdgeBelowMouse( 

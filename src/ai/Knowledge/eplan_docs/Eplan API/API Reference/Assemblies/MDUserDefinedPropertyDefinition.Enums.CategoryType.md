@@ -9,7 +9,7 @@ Contains possible types of category.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MDUserDefinedPropertyDefinition.Enums.CategoryType : System.Enum

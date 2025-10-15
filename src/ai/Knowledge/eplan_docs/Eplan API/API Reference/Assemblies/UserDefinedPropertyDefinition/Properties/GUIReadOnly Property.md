@@ -9,7 +9,7 @@ Gets/Sets a flag which indicates if property is read only in GUI in the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool GUIReadOnly {get; set;}

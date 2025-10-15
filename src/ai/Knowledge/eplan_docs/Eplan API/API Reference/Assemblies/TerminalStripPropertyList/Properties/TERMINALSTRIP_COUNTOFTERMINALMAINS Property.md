@@ -9,7 +9,7 @@ Terminal strips: Number of main terminals # 35012.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue TERMINALSTRIP_COUNTOFTERMINALMAINS {get; set;}

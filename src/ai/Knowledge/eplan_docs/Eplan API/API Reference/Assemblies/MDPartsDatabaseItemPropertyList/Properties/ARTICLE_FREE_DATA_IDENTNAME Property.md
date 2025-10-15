@@ -9,7 +9,7 @@ User-defined properties: Identifying name # 22336.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_FREE_DATA_IDENTNAME( 

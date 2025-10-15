@@ -9,7 +9,7 @@ Evaluates for a given functionbase the visible name and visible name format from
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AdjustVisibleName( 

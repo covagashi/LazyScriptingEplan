@@ -9,7 +9,7 @@ Creates new transient octagon drilling.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Drilling CreateOctagonTransient( 

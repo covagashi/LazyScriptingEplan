@@ -9,7 +9,7 @@ Circuit number # 20317.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CIRCUITNUMBER {get; set;}

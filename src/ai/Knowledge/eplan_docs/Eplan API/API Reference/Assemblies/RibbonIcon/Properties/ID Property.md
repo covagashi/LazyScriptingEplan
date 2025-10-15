@@ -7,7 +7,7 @@
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public CommandIcon ID {get; set;}

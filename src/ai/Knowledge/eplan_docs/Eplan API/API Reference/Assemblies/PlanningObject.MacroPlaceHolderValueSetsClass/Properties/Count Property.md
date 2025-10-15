@@ -9,7 +9,7 @@ Returns number of macro placeholder value sets
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual int Count {get;}

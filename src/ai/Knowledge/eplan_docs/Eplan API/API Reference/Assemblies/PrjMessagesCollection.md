@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PrjMessagesCollection
@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PrjMessagesCollection Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesCollection~_ctor(Project).html) | constructor. initializes the matching enumerator. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -43,7 +43,7 @@ Public Properties
 | Public Property | [ReuseMessages](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesCollection~ReuseMessages.html) | Determines whether new message can be duplicated in collection. Default value is `true`. |
 | Public Property | [ShowImmediately](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesCollection~ShowImmediately.html) | If true, added messages will be immediately displayed in message management window. Default value is false. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -59,4 +59,4 @@ Public Methods
 | Public Method | [GetPrjMsgEnumerator](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesCollection~GetPrjMsgEnumerator.html) | Returns a typed enumerator that can iterate through a collection. |
 | Public Method | [Remove](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesCollection~Remove.html) | Removes the first occurrence of a specific object from the `PrjMessagesCollection`. |
 
-[Top](#top)
+

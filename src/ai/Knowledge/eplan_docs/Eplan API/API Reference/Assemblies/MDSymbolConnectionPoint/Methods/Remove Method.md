@@ -9,7 +9,7 @@ Removes the connection point from the symbol variant.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Remove()

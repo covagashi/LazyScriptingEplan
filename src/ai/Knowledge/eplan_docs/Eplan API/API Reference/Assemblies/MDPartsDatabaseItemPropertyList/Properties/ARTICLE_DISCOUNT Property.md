@@ -9,7 +9,7 @@ Discount # 22221.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DISCOUNT {get; set;}

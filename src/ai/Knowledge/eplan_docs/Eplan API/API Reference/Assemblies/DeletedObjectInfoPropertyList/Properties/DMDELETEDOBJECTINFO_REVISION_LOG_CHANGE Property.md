@@ -9,7 +9,7 @@ Deleted object: Reason for revision change (change tracking) # 36616.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMDELETEDOBJECTINFO_REVISION_LOG_CHANGE {get; set;}

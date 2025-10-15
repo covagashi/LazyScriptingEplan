@@ -9,7 +9,7 @@ Removes the Option.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Remove()

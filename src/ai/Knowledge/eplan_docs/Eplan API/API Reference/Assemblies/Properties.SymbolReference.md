@@ -9,7 +9,7 @@ Identificators of properties owned by SymbolReference class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.SymbolReference : System.Enum

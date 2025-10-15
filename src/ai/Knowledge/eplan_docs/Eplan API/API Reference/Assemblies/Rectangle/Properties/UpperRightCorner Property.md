@@ -9,7 +9,7 @@ Returns upper right corner's coordinates.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD UpperRightCorner {get;}

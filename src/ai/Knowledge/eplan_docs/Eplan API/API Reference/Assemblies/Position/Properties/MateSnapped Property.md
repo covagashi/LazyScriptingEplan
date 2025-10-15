@@ -9,7 +9,7 @@ Returns true, if PreConnectionSnap was snapped.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool MateSnapped {get;}

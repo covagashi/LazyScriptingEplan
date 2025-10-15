@@ -9,7 +9,7 @@ Throughput # 26269.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_THROUGHPUT {get; set;}

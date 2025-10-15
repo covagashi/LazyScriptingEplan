@@ -9,7 +9,7 @@ Ping the Eplan Server.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool Ping()

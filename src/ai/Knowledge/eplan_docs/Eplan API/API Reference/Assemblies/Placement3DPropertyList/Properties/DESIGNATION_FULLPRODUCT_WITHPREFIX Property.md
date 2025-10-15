@@ -9,7 +9,7 @@ Product with preceding sign # 1840.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLPRODUCT_WITHPREFIX {get; set;}

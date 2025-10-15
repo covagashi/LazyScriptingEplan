@@ -9,7 +9,7 @@ Supplementary field # 16013.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMB_SUPPLEMENTARYFIELD( 

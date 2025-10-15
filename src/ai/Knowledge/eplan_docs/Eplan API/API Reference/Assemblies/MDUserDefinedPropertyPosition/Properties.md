@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [IdentifyingName](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDUserDefinedPropertyPosition~IdentifyingName.html) | Returns identifying name |
 | Public Property | [Value](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDUserDefinedPropertyPosition~Value.html) | Returns value |
 
-[Top](#top)
+

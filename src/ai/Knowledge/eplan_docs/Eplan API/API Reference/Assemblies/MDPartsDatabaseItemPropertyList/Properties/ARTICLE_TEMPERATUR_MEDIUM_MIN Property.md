@@ -9,7 +9,7 @@ Temperature (medium), min. # 26611.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TEMPERATUR_MEDIUM_MIN {get; set;}

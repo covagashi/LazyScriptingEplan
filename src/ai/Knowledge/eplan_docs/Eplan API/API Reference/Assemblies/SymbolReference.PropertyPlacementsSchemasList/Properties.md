@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [DefaultScheme](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference+PropertyPlacementsSchemasList~DefaultScheme.html) | Property to get or set a custom property placement scheme (property arrangement) as default one. Once set, the defined property arrangement applies wherever the symbol is used. |
 | Public Property | [Selected](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference+PropertyPlacementsSchemasList~Selected.html) | Gets a PropertyPlacementsSchema object that represents the selected property placements configuration. Sets the current property placements configuration. Note: Changing the current property placements configuration deletes the existing property placements. This can make some API objects of type PropertyPlacement become invalid. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Gets the connection point's position relative to the symbol's insertion point.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD Location {get;}

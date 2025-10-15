@@ -9,7 +9,7 @@ Gets/Sets the name of the Placeholder3D.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 string Name {get; set;}

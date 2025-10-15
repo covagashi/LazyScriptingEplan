@@ -9,7 +9,7 @@ Design of attachment point # 26226.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DESIGN_OF_THE_FIXING_POINT {get; set;}

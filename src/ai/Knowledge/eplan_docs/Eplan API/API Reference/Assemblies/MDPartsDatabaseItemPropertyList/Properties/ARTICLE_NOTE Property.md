@@ -9,7 +9,7 @@ Description # 22009.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NOTE {get; set;}

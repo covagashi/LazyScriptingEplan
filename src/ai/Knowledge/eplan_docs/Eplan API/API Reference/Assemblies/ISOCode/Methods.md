@@ -20,4 +20,4 @@ Public Methods
 | Public Method | [SetNumber](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ISOCode~SetNumber.html) | Sets the language. |
 | Public Method | [SetString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ISOCode~SetString.html) | Sets the language. |
 
-[Top](#top)
+

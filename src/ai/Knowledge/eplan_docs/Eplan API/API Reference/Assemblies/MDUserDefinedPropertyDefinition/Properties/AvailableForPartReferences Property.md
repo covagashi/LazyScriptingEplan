@@ -9,7 +9,7 @@ Also validate for part references property.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AvailableForPartReferences {get;}

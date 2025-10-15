@@ -9,7 +9,7 @@ Specifies docking direction for text.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public TextBase.TextDockingDirection DockingDirection {get; set;}

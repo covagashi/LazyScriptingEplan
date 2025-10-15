@@ -17,4 +17,4 @@ Public Methods
 | Public Method | [Store](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.SubProjectsCollection~Store.html) | Inserts filed-off subproject back into the project. |
 | Public Method | [Update](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.SubProjectsCollection~Update.html) | Updates project from subproject. |
 
-[Top](#top)
+

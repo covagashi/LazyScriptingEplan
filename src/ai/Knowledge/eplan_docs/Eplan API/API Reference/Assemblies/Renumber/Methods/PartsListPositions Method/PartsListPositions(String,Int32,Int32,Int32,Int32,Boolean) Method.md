@@ -9,7 +9,7 @@ Method for renumbering Bill Of Materials positions.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void PartsListPositions( 

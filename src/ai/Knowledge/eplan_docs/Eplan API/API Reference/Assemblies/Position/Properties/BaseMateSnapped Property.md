@@ -9,7 +9,7 @@ Returns true, if base mate was found.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool BaseMateSnapped {get;}

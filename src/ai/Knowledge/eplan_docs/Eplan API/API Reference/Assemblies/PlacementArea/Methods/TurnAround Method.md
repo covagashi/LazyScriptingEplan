@@ -9,7 +9,7 @@ Redefines placement area in the same place but with normal vector in opposite di
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool TurnAround()

@@ -9,7 +9,7 @@ Line # 31146.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_IS_PIPE {get; set;}

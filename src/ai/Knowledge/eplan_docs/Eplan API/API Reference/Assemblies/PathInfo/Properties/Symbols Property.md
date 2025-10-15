@@ -9,7 +9,7 @@ Returns default Sybmols directory.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Symbols {get;}

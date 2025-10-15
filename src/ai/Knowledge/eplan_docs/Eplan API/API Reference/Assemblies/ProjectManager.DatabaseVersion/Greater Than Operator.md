@@ -9,7 +9,7 @@ This operator check if first version is older then second.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool operator >( 

@@ -9,7 +9,7 @@ Moves objects one position up in navigator.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void MoveUp( 

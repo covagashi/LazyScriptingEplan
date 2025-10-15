@@ -9,7 +9,7 @@ Get array of all target mates from this object. Consider mounting clearance
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Mate[] GetTargetMates( 

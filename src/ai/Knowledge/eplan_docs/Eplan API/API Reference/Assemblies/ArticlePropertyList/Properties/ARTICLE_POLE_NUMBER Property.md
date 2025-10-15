@@ -9,7 +9,7 @@ Number of poles # 26531.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_POLE_NUMBER {get; set;}

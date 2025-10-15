@@ -9,7 +9,7 @@ Rollback the database transaction. The changes are not stored.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Rollback()

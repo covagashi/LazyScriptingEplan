@@ -9,7 +9,7 @@ Returns the part type part / accessory list. It sets automatically after propert
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartsDatabaseItem.Enums.Type Type {get; set;}

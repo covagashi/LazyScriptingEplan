@@ -9,7 +9,7 @@ Object description # 20417.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCOBJECT_DESCRIPTION {get; set;}

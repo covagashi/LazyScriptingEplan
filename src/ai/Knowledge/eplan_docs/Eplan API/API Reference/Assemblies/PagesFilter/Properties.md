@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [ExactNameMatching](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PagesFilter~ExactNameMatching.html) | Gets if the filtered function, when is filtered by name, should be matched exactly, it means that if searched name is only its name' prefix, it is not matching to the filter. |
 | Public Property | [Name](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PagesFilter~Name.html) | Returns the name that was set to this filter. |
 
-[Top](#top)
+

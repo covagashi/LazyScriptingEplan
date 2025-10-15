@@ -9,7 +9,7 @@ Gets property id value as [Properties.Symbol](Eplan.EplApi.DataModelu~Eplan.EplA
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.Symbol AsSymbol {get;}

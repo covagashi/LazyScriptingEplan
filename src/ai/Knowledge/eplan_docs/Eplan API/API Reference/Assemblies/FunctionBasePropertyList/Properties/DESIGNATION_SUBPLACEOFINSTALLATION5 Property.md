@@ -9,7 +9,7 @@ Installation site (sub-identifier 5) # 1405.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBPLACEOFINSTALLATION5 {get; set;}

@@ -9,7 +9,7 @@ Creates new function templates out of the macro that is referenced from all the 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateFunctionTemplatesFromMacro( 

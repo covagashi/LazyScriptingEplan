@@ -9,7 +9,7 @@ Creates transient not placed Cabinet based on article which contain macro.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateTransient( 

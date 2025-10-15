@@ -9,7 +9,7 @@ Initializes the merged function to cover the function 3D passed as parameter and
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

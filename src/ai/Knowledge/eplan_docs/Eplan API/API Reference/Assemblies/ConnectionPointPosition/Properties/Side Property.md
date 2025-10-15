@@ -9,7 +9,7 @@ Flag describing if this connection point is internal or external end of connecti
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ConnectionPointSide Side {get; set;}

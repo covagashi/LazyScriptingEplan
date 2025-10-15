@@ -81,4 +81,4 @@ Public Properties
 | Public Property | [SYMBLIB\_NAME](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.SymbolPropertyList~SYMBLIB_NAME().html) | Symbol library # 15000. |
 | Public Property | [SYMBOL\_TRANSFORMATION\_POINT](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.SymbolPropertyList~SYMBOL_TRANSFORMATION_POINT(Int32).html) | Transformation point # 16045. |
 
-[Top](#top)
+

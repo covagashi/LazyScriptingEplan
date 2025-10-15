@@ -9,7 +9,7 @@ Returns a list of PLC configurations existing in a current project
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[] GetAvailableSchemeList()

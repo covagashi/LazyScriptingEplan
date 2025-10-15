@@ -49,4 +49,4 @@ Public Methods
 | Public Method | [SetSelection](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Interaction~SetSelection.html) | Changes the selection. Should only be used inside the OnSelect() method. |
 | Public Method | [SetStaticCursor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Interaction~SetStaticCursor.html) | Overloaded. Sets [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html), that will be temporary drawn as Cursor Representation. |
 
-[Top](#top)
+

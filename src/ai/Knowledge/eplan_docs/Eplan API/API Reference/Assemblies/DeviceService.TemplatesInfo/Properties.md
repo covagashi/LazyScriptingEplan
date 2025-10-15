@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [Templates](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.DeviceService+TemplatesInfo~Templates.html) | An array of transient objects representing templates associated with the part number. |
 | Public Property | [Variant](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.DeviceService+TemplatesInfo~Variant.html) | An article's variant contained in the device list. |
 
-[Top](#top)
+

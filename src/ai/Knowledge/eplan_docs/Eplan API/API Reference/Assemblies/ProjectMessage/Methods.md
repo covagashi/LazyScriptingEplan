@@ -28,4 +28,4 @@ Public Methods
 | Public Method | [GetUser](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ProjectMessage~GetUser.html) | Returns the computer name of the user, who has been created the message |
 | Public Method | [SetDone](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ProjectMessage~SetDone.html) | Marks message as solved or not. |
 
-[Top](#top)
+

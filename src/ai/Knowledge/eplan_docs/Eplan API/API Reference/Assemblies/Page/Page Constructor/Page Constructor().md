@@ -9,7 +9,7 @@ Default constructor. To use object created by this constructor function `Create(
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Page()

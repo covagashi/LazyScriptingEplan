@@ -9,7 +9,7 @@ IdentityClientResponse constructor.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public IdentityClientResponse()

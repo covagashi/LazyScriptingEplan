@@ -9,7 +9,7 @@ Determines if removal of unnecessary main and nested device tag in the visible n
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool RemovalOfUnnecessaryDeviceTagNamePartsIsEnabled {get; set;}

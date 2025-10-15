@@ -9,7 +9,7 @@ The maximal number of wires of the connection point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int MaxWireCount {get; set;}

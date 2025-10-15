@@ -9,7 +9,7 @@ Returns an array of all property ids which can exist for PropertyPlacement objec
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static AnyPropertyId[] AllPropertyPlacementPropIDs {get;}

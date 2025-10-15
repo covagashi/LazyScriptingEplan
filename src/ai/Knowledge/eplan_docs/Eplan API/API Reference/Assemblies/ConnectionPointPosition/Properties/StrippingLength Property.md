@@ -9,7 +9,7 @@ The stripping length describes a length of left insulation
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double StrippingLength {get; set;}

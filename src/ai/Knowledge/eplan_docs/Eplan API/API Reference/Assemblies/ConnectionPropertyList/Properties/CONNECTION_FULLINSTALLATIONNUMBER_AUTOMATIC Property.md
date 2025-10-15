@@ -9,7 +9,7 @@ Higher-level function number (automatic) # 31111.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_FULLINSTALLATIONNUMBER_AUTOMATIC {get; set;}

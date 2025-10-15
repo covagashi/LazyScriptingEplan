@@ -9,7 +9,7 @@ Gets property id value as [Properties.SymbolVariant](Eplan.EplApi.DataModelu~Epl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.SymbolVariant AsSymbolVariant {get;}

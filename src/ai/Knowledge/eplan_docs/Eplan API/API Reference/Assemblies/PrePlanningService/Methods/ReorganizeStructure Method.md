@@ -9,7 +9,7 @@ Reorganizes structure of planning objects in given project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ReorganizeStructure( 

@@ -9,7 +9,7 @@ Eplan product variant bin path. Path to the w3u.exe of the product variant you w
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string EplanBinFolder {get; set;}

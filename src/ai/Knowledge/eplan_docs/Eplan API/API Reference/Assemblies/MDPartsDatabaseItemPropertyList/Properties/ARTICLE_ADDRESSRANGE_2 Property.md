@@ -9,7 +9,7 @@ Address range 2 (SIEMENS STEP 7 Classic) # 22261.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ADDRESSRANGE_2 {get; set;}

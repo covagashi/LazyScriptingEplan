@@ -9,7 +9,7 @@ Gets property id value as [Properties.ArticleReference](Eplan.EplApi.DataModelu~
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.ArticleReference AsArticleReference {get;}

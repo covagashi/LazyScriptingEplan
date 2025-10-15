@@ -9,7 +9,7 @@ Gets count of objects included in this compound.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Count {get;}

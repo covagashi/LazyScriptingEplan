@@ -9,7 +9,7 @@ Gets graphical representation of the DynamicConnectionLine.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement GetGraphics()

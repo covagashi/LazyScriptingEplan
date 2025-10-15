@@ -9,7 +9,7 @@ Creates transient and not placed PlaceHolder3D object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateTransient( 

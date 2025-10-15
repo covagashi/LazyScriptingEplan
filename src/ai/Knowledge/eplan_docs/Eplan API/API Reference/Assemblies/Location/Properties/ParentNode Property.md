@@ -9,7 +9,7 @@ Gets parent of location in the same hierarchy(e.g. for +A.A.A.A it is +A.A.A)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Location ParentNode {get;}

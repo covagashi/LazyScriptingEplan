@@ -9,7 +9,7 @@ Removes the Mate object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Remove()

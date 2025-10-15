@@ -9,7 +9,7 @@ Constructor. Creates a Location and calls `Create` method.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Location( 

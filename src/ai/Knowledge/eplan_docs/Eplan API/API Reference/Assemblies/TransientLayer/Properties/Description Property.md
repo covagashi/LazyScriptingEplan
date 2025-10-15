@@ -9,7 +9,7 @@ Layer's description
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString Description {get;}

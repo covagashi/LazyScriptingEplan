@@ -9,7 +9,7 @@ Segment definition: Name (identifying) # 44001.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_DEFINITIONNAME {get; set;}

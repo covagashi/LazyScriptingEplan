@@ -9,7 +9,7 @@ Reply text # 19504.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_COMMENT_RESPONSE( 

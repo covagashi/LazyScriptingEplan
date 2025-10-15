@@ -9,7 +9,7 @@ Possible uses # 26289.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_POSSIBLE_APPLICATIONS {get; set;}

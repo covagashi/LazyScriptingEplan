@@ -9,7 +9,7 @@ Copies property value to destination including all indexes. If source property i
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CopyTo( 

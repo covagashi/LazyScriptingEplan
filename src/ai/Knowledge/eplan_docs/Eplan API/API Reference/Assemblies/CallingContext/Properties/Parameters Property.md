@@ -9,7 +9,7 @@ Parameters and values
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Dictionary<string,object> Parameters {get; set;}

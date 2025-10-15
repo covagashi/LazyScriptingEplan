@@ -9,7 +9,7 @@ Total number of digital PLC outputs # 44029.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_DIGITAL_PLCOUTPUT_COUNT {get; set;}

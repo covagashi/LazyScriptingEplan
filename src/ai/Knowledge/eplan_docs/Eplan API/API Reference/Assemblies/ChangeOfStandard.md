@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ChangeOfStandard
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ChangeOfStandard Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ChangeOfStandard~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -38,4 +38,4 @@ Public Methods
 | Public Method | [SetSchema](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ChangeOfStandard~SetSchema.html) | Set mapping scheme. |
 | Public Method | [TransformObjects](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ChangeOfStandard~TransformObjects.html) | Transforms all objects from source page to target page. |
 
-[Top](#top)
+

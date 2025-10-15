@@ -9,7 +9,7 @@ Gets the property of the n-th page in this macro
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PageProperty( 

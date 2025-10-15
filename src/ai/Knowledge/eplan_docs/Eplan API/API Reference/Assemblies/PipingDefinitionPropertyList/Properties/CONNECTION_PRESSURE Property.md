@@ -9,7 +9,7 @@ Pressure # 31082.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_PRESSURE {get; set;}

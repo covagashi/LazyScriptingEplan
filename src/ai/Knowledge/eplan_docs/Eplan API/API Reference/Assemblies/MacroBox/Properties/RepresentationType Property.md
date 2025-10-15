@@ -9,7 +9,7 @@ Representation Type property of the macro box
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public WindowMacro.Enums.RepresentationType RepresentationType {get; set;}

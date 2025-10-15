@@ -9,7 +9,7 @@ Structure identifier with separators stored in the object identifier # 11038.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_OBJECTCODE_STRUCTUREWITHOUTPREFIX {get; set;}

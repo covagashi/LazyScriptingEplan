@@ -9,7 +9,7 @@ Total expenditure construction # 44015.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_BUILDINGTIME_TOTAL {get; set;}

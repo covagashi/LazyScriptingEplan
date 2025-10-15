@@ -9,7 +9,7 @@ Creates transient and place planning placement on page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateTransient( 

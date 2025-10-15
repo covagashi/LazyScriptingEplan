@@ -9,7 +9,7 @@ Tightening torque, max. # 26081.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TIGHTENING_TORQUE_MAX {get; set;}

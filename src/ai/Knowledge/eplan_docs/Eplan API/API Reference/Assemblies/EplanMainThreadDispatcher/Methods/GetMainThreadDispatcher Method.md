@@ -9,7 +9,7 @@ Allows to use the dispatcher to work on synchronous and asynchronous threads.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Dispatcher GetMainThreadDispatcher()

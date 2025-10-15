@@ -9,7 +9,7 @@ Index of the end function's connection point (0,1,2,...) that the connection is 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short EndIndex {get; set;}

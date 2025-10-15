@@ -9,7 +9,7 @@ Gets all available product groups of a given product-top-group
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static MDPartsDatabaseItem.Enums.ProductGroup[] GetAvailableProductGroups( 

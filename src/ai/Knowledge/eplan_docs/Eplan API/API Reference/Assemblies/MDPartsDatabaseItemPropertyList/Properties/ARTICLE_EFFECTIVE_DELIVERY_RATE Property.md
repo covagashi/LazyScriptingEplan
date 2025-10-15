@@ -9,7 +9,7 @@ Effective delivery amount # 26271.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_EFFECTIVE_DELIVERY_RATE {get; set;}

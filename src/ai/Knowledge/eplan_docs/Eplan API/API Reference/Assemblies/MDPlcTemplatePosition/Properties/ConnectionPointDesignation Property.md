@@ -9,7 +9,7 @@ The connection point designation of PLC template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConnectionPointDesignation {get; set;}

@@ -18,4 +18,4 @@ Public Methods
 | Public Method | [GetEnumerator2](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+VariablesClass~GetEnumerator2.html) |  |
 | Public Method | [Remove](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+VariablesClass~Remove.html) | Overloaded. Removes a variable |
 
-[Top](#top)
+

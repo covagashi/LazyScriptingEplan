@@ -9,7 +9,7 @@ Verifies the correctness if a variable name of a placeholder. If a variable name
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool IsVariableValid( 

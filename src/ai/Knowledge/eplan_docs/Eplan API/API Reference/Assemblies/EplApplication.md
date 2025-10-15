@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class EplApplication
@@ -171,7 +171,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [EplApplication Constructor](Eplan.EplApi.Systemu~Eplan.EplApi.System.EplApplication~_ctor.html) | Creates a new application class for Eplan |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -179,7 +179,7 @@ Public Fields
 | --- | --- | --- |
 | Public Fieldstatic (Shared in Visual Basic) | [LicenseRuntimeCheckEvent](Eplan.EplApi.Systemu~Eplan.EplApi.System.EplApplication~LicenseRuntimeCheckEvent.html) | License runtime check callback event |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -196,7 +196,7 @@ Public Properties
 | Public Property | [Variant](Eplan.EplApi.Systemu~Eplan.EplApi.System.EplApplication~Variant.html) | Gets application's variant as string (Basic, Trial, Developer, etc.). |
 | Public Property | [Version](Eplan.EplApi.Systemu~Eplan.EplApi.System.EplApplication~Version.html) | Gets version from the application. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -213,4 +213,4 @@ Public Methods
 | Public Method | [ShowSettingDlg](Eplan.EplApi.Systemu~Eplan.EplApi.System.EplApplication~ShowSettingDlg.html) | Displays the Eplan settings dialog. |
 | Public Method | [ShowSystemErrorDlg](Eplan.EplApi.Systemu~Eplan.EplApi.System.EplApplication~ShowSystemErrorDlg.html) | Displays the Eplan System error messages dialog. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Default constructor. Creates the DMObjectsFinder object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DMObjectsFinder()

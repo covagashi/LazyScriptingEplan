@@ -9,7 +9,7 @@ Up to level # 22422.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DISASSEMBLE_SELECTIONLEVEL {get; set;}

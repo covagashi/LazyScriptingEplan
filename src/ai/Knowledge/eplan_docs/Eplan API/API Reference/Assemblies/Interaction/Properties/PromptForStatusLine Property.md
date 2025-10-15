@@ -9,7 +9,7 @@ Prompt for status line.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string PromptForStatusLine {get; set;}

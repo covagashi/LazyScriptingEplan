@@ -9,7 +9,7 @@ Model view: Scheme for automatic dimensioning # 36511.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_ADIMSCHEME {get; set;}

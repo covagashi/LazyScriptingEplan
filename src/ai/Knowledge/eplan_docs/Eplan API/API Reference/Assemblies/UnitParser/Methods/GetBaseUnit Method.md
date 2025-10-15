@@ -9,7 +9,7 @@ Get the base unit of the parsed result of this unit group.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetBaseUnit()

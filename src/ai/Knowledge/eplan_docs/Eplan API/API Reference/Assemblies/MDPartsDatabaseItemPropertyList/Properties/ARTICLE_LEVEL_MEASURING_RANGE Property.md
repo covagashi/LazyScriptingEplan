@@ -9,7 +9,7 @@ Measuring range: Level # 26452.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_LEVEL_MEASURING_RANGE {get; set;}

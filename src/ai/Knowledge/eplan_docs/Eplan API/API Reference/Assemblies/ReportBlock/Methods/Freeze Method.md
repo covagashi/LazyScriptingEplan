@@ -9,7 +9,7 @@ Removes the selected report block. The associated report pages remain as they ar
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Freeze()

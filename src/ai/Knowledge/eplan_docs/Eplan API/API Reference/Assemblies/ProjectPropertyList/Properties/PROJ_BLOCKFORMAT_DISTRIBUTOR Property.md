@@ -9,7 +9,7 @@ Block property: Format (fluid connection splicer / line connector) # 10614.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_DISTRIBUTOR( 

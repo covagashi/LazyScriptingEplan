@@ -9,7 +9,7 @@ Directions from which objects can be seen.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ViewDirectionType : System.Enum

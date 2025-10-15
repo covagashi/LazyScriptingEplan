@@ -9,7 +9,7 @@ Identificators of properties owned by TerminalStrip class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.TerminalStrip : System.Enum

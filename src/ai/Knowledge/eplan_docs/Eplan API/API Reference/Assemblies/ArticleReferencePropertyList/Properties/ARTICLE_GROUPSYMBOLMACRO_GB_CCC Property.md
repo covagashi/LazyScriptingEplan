@@ -9,7 +9,7 @@ Schematic macro: GB/CCC # 22873.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_GROUPSYMBOLMACRO_GB_CCC {get; set;}

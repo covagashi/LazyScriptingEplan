@@ -9,7 +9,7 @@ Relation-Id - identifies which type of navigation will be done.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ushort ToInt()

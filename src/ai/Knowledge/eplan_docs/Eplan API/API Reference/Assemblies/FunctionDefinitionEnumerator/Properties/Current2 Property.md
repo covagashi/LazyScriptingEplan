@@ -9,7 +9,7 @@ Gets the element in the collection at the current position of the enumerator.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual FunctionDefinition Current2 {get;}

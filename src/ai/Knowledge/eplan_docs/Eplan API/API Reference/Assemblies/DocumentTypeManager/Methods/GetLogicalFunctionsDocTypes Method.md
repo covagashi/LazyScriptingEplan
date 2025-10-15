@@ -9,7 +9,7 @@ Gets container of doc types, that are logically relevant if used with functions.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static DocumentTypeManager.DocumentType[] GetLogicalFunctionsDocTypes()

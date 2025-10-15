@@ -9,7 +9,7 @@ Autoconnecting line: Layer # 31017.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue CONNECTION_ACL_LAYER {get; set;}

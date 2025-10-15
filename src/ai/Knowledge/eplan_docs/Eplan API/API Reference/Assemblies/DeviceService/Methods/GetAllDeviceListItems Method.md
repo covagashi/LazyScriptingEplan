@@ -9,7 +9,7 @@ Returns an array of all device list items in the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DeviceListEntry[] GetAllDeviceListItems( 

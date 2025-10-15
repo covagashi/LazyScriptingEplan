@@ -9,7 +9,7 @@ Barcode type # 22209.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_IDENTTYPE {get; set;}

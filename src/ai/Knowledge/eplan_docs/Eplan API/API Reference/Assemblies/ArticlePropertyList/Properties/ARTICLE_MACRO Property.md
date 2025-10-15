@@ -9,7 +9,7 @@ Graphical macro # 22010.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MACRO {get; set;}

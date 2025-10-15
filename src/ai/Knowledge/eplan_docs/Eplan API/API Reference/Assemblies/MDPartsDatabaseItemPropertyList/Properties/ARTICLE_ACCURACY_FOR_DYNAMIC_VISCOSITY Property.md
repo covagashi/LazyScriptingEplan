@@ -9,7 +9,7 @@ Dynamic viscosity: Accuracy # 26362.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ACCURACY_FOR_DYNAMIC_VISCOSITY {get; set;}

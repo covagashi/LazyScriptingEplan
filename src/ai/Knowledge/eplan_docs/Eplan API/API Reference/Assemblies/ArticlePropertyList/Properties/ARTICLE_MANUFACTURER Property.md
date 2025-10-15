@@ -9,7 +9,7 @@ Manufacturer # 22007.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MANUFACTURER {get; set;}

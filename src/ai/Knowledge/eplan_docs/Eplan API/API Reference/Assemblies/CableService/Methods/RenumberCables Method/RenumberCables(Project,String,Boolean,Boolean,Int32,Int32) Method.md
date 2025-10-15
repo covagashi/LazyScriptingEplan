@@ -9,7 +9,7 @@ Starts a check run for the given MDPartsDatabaseItems (MDParts).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void VerifyMDPartsDatabaseItems( 

@@ -9,7 +9,7 @@ Installation site (main identifier) # 1400.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_PLACEOFINSTALLATION {get; set;}

@@ -9,7 +9,7 @@ Returns the article of this articlereference. This is the Article stored in the 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Article Article {get;}

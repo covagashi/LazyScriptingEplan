@@ -9,7 +9,7 @@ Used drilling pattern # 20284.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_CONSTRUCTION( 

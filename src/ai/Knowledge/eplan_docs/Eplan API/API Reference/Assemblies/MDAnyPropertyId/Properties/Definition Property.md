@@ -9,7 +9,7 @@ Definition of property.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyDefinition Definition {get;}

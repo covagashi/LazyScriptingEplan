@@ -9,7 +9,7 @@ Name (identifying) # 20000.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_IDENTNAME {get; set;}

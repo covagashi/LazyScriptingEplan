@@ -9,7 +9,7 @@ Size of NC field. (x == width, y == height)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD FieldSize {get; set;}

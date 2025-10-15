@@ -9,7 +9,7 @@ Material of the cable jacket # 26640.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MATERIAL_OF_THE_CABLE_SHEATH {get; set;}

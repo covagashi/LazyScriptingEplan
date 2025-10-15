@@ -9,7 +9,7 @@ No output to cable overview # 20086.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_NOOVERVIEW {get; set;}

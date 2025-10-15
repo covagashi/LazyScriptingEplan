@@ -9,7 +9,7 @@ Set or get the CustomDefaultPath. This is the path the File Select Dialog opens 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string CustomDefaultPath {get; set;}

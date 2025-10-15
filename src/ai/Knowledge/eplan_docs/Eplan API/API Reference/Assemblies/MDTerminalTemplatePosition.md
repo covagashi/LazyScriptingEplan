@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDTerminalTemplatePosition : MDFunctionTemplatePosition
@@ -51,7 +51,7 @@ Public Properties
 | Public Property | [TerminalDescription](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDTerminalTemplatePosition~TerminalDescription.html) | The terminal description of terminal template |
 | Public Property | [TerminalDesignation](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDTerminalTemplatePosition~TerminalDesignation.html) | The terminal designation of terminal template |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -59,4 +59,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose()](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData~Dispose().html) | Destructor for deterministic finalization of MDTerminalTemplatePosition object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData.html)) |
 
-[Top](#top)
+

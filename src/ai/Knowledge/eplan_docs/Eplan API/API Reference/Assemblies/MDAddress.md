@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDAddress : MDPartsDatabaseItem
@@ -33,7 +33,7 @@ Public Properties
 | Public Property | [ShortName](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAddress~ShortName.html) | Returns the short name of the address. This short name combined with the Type of the address is the unique key. |
 | Public Property | [Type](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAddress~Type.html) | Overridden. Returns the part type of the part. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -43,4 +43,4 @@ Public Methods
 | Public Method | [GetTimeStampOfLastChange](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem~GetTimeStampOfLastChange.html) | Gets the TimeStamp of the last change from a DatabaseItem (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItem](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem.html)) |
 | Public Method | [ToDataModelIdentifier](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem~ToDataModelIdentifier.html) | Returns data model identifier which identifies this object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItem](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem.html)) |
 
-[Top](#top)
+

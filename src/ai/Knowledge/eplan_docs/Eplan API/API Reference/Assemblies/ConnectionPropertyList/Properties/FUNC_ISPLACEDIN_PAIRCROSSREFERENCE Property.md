@@ -9,7 +9,7 @@ Function exists with 'Pair cross-reference' representation type # 20472.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ISPLACEDIN_PAIRCROSSREFERENCE {get; set;}

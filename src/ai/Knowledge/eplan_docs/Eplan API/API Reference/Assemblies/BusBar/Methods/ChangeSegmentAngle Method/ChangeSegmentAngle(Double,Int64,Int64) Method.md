@@ -9,7 +9,7 @@ Change angle between segments of bended bus bar.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ChangeSegmentAngle( 

@@ -9,7 +9,7 @@ Names of all variables in the Placeholder3D.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual StringCollection VariableNames {get;}

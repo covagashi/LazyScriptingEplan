@@ -9,7 +9,7 @@ Identificators of properties owned by Option class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Option : System.Enum

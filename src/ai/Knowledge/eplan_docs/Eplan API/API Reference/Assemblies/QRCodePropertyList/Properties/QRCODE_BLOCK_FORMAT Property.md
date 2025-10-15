@@ -9,7 +9,7 @@ Block property: Format # 19620.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue QRCODE_BLOCK_FORMAT {get; set;}

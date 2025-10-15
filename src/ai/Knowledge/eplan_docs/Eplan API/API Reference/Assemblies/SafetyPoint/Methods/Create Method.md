@@ -9,7 +9,7 @@ Creates SafetyPoint object and starts recording changes.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static SafetyPoint Create()

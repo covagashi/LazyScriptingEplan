@@ -9,7 +9,7 @@ Item number # 20487.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_POSNR {get; set;}

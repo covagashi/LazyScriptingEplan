@@ -9,7 +9,7 @@ Total pressure difference, min. # 26104.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TOTAL_PRESSURE_DIFFERENCE_MIN {get; set;}

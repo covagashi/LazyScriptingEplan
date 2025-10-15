@@ -9,7 +9,7 @@ adds a fragment to the option.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public OptionFragment AddOptionFragment( 

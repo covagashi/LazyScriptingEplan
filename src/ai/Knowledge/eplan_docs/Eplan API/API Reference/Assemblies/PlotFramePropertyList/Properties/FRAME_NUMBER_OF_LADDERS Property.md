@@ -9,7 +9,7 @@ Number of ladders # 12007.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_NUMBER_OF_LADDERS {get; set;}

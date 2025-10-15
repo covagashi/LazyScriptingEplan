@@ -9,7 +9,7 @@ Gets the selected entries
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SelectedEntry {get;}

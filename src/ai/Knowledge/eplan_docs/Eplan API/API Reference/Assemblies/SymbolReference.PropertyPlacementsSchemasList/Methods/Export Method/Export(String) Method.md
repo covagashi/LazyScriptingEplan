@@ -9,7 +9,7 @@ Exports all the customer property placements sets of the symbol to a file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Export( 

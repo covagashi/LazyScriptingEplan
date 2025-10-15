@@ -74,4 +74,4 @@ Public Methods
 | Public Method | [GetTerminalsWithFilterScheme](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DMObjectsFinder~GetTerminalsWithFilterScheme.html) | Returns [Eplan.EplApi.DataModel.EObjects.Terminal](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Terminal.html) matching given filter from the terminals navigator. |
 | Public Method | [Initialize](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DMObjectsFinder~Initialize.html) | Sets the project used. The same as project parameter in the constructor. Used when accessing API registered as COM. |
 
-[Top](#top)
+

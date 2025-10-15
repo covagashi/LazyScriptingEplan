@@ -9,7 +9,7 @@ Pre-planning finished # 44040.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLANNING_COMPLETE {get; set;}

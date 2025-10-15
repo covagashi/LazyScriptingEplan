@@ -9,7 +9,7 @@ Form for wiring diagram # 20234.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_FORM_CONNECTIONDIAGRAM {get; set;}

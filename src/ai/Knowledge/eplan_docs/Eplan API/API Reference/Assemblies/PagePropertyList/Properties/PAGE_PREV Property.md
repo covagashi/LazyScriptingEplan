@@ -9,7 +9,7 @@ Previous page # 11041.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_PREV {get; set;}

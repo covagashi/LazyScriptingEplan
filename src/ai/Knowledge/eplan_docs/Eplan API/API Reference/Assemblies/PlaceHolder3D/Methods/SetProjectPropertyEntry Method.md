@@ -9,7 +9,7 @@ Sets a value or variable on Placeholder3D project property. The reference of the
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void SetProjectPropertyEntry( 

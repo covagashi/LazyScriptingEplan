@@ -9,7 +9,7 @@ Revision description (change tracking) # 11072.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_REVISION_LOG_DESCRIPTION( 

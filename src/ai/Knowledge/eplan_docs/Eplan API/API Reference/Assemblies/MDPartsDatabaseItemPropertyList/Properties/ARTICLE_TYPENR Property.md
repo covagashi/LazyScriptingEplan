@@ -9,7 +9,7 @@ Type number # 22002.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TYPENR {get; set;}

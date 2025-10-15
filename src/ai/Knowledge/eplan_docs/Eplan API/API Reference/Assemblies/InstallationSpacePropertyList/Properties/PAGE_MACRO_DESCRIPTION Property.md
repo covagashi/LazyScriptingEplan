@@ -9,7 +9,7 @@ Macro: Description # 11014.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_MACRO_DESCRIPTION( 

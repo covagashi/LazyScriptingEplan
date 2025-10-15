@@ -9,7 +9,7 @@ Returns an array of MergedFunction objects created from the functions passed in 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static MergedFunction[] CreateMergedFunctions( 

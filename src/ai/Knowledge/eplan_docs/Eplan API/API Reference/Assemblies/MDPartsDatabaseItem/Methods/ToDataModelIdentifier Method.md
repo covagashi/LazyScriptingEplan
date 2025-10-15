@@ -9,7 +9,7 @@ Returns data model identifier which identifies this object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ToDataModelIdentifier()

@@ -9,7 +9,7 @@ Determines way how objects are display in ViewPlacement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ViewStyleType ViewStyle {get; set;}

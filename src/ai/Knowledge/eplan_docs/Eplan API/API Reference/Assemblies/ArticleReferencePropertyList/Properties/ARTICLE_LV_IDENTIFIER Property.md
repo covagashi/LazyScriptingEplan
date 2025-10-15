@@ -9,7 +9,7 @@ Bill of quantities: Identifier # 26438.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_LV_IDENTIFIER {get; set;}

@@ -9,7 +9,7 @@ Continue numbering with PLC data beyond this function # 20813.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CONTINUEPLCNUM {get; set;}

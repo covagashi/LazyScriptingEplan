@@ -9,7 +9,7 @@ Constructor with custom description created with IDS\_ERR\_INVALID\_CLASS\_INHIE
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ForbiddenOperationException( 

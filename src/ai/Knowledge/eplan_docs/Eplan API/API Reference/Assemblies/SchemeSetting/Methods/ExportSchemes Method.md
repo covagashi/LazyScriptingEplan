@@ -9,7 +9,7 @@ Export all schemes to file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ExportSchemes( 

@@ -9,7 +9,7 @@ Description (Segment) # 44005.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_DESCRIPTION {get; set;}

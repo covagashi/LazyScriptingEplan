@@ -9,7 +9,7 @@ Returns the category of a Function.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override FunctionCategory FunctionCategory {get; set;}

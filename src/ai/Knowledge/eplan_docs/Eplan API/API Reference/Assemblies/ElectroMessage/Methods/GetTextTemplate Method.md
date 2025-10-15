@@ -9,7 +9,7 @@ Returns the text template of the message.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetTextTemplate()

@@ -9,7 +9,7 @@ Creates an unplaced BusTerminal object of category **Eplan.EplApi.DataModel.Func
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

@@ -43,4 +43,4 @@ Public Methods
 | Public Method | [SumUpFunctionTemplates](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPart~SumUpFunctionTemplates.html) | For assemblies and modules, sums up the function templates. This method works on this MDPart only and not recursively. All previous MDFunctionTemplatePositions of this MDPart will not be valid anymore. |
 | Public Method | [ToDataModelIdentifier](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem~ToDataModelIdentifier.html) | Returns data model identifier which identifies this object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItem](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem.html)) |
 
-[Top](#top)
+

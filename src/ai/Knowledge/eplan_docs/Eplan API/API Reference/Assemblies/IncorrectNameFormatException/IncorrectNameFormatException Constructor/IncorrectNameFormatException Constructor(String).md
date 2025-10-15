@@ -9,7 +9,7 @@ Constructor with describing message.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public IncorrectNameFormatException( 

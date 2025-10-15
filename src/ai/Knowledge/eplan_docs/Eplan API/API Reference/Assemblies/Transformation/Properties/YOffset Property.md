@@ -9,7 +9,7 @@ Set offset in y-direction
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double YOffset {get; set;}

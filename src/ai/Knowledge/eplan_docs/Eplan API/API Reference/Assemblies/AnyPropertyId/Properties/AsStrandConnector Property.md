@@ -9,7 +9,7 @@ Gets property id value as [Properties.StrandConnector](Eplan.EplApi.DataModelu~E
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.StrandConnector AsStrandConnector {get;}

@@ -58,4 +58,4 @@ Public Properties
 | Public Property | [VisibleName](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Plane~VisibleName.html) | Returns the visible name of the IFunctionBase. |
 | Public Property | [VisibleNameParts](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Plane~VisibleNameParts.html) | Returns visible name of the IFunctionBase. |
 
-[Top](#top)
+

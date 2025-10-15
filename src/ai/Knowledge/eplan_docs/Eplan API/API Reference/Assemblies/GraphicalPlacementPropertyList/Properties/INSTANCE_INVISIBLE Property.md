@@ -9,7 +9,7 @@ Invisible # 19101.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_INVISIBLE {get; set;}

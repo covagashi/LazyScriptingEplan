@@ -9,7 +9,7 @@ Connection point designation (with plug designation (automatic)) # 20183.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCAUTOPLUG_AND_CONNPTDESIGNATION {get; set;}

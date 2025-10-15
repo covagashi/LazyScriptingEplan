@@ -9,7 +9,7 @@ Stores property definition to the database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Store()

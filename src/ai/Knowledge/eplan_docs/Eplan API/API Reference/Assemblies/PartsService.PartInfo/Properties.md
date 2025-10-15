@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [partNumber](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PartsService+PartInfo~partNumber.html) | Gets/Sets the part number of the Article; |
 | Public Property | [partVariant](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PartsService+PartInfo~partVariant.html) | Gets/Sets the part variant of the Article; |
 
-[Top](#top)
+

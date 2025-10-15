@@ -9,7 +9,7 @@ Connection point logic: Source / target # 20611.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_LOGDEF_SRC_OR_DEST( 

@@ -9,7 +9,7 @@ Contact potential # 26119.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CONTACT_POTENTIAL {get; set;}

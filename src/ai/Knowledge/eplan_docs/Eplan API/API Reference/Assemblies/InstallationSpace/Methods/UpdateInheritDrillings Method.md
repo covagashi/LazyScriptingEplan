@@ -9,7 +9,7 @@ Update inherit drills for bended bus bars.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void UpdateInheritDrillings()

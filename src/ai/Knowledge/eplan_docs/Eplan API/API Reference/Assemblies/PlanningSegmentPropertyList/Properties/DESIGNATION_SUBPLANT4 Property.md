@@ -9,7 +9,7 @@ Function designation (sub-identifier 4) # 1104.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBPLANT4 {get; set;}

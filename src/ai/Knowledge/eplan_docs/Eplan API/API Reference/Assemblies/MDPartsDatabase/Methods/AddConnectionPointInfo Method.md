@@ -9,7 +9,7 @@ Adds a new connection point info to the parts data
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDConnectionPointInfo AddConnectionPointInfo( 

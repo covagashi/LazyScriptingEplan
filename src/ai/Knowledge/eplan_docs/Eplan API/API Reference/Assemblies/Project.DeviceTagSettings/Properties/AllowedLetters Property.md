@@ -9,7 +9,7 @@ Representation of XDtcDeviceTagCheck.Hierarchy.AllowedLetters setting value. In 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AllowedLetters {get; set;}

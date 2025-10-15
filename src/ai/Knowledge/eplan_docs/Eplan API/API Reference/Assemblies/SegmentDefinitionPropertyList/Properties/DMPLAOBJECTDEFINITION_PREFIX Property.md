@@ -9,7 +9,7 @@ Segment definition: Preceding sign # 44045.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECTDEFINITION_PREFIX {get; set;}

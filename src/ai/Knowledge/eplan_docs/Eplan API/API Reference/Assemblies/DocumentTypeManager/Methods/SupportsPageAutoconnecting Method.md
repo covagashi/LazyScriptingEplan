@@ -9,7 +9,7 @@ Determines if a page supports auto-connecting.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool SupportsPageAutoconnecting( 

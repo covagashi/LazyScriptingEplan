@@ -9,7 +9,7 @@ Fill capacity # 26345.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_FILLING_LEVEL( 

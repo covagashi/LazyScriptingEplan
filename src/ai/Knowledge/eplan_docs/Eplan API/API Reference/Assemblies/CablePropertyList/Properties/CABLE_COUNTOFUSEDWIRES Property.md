@@ -9,7 +9,7 @@ Cables: Number of used connections # 35100.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLE_COUNTOFUSEDWIRES {get; set;}

@@ -9,7 +9,7 @@ Returns whether command is a custom (i.e made by user) or a build-in
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsCustom {get;}

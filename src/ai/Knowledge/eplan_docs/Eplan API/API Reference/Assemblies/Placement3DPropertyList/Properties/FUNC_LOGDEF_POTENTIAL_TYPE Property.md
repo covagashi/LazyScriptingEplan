@@ -9,7 +9,7 @@ Connection point logic: Potential type # 20370.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_LOGDEF_POTENTIAL_TYPE( 

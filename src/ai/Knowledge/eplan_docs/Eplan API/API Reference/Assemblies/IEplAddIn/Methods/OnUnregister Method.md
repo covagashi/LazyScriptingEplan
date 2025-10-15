@@ -9,7 +9,7 @@ Is called once, when the add-in is removed from the system.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool OnUnregister()

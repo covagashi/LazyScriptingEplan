@@ -9,7 +9,7 @@ Nominal power (pneumatic) # 26477.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NOMINAL_CAPACITY_PNEUMATIC {get; set;}

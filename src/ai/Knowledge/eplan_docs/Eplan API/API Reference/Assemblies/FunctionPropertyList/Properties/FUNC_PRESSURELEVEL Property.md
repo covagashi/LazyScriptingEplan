@@ -9,7 +9,7 @@ Nominal pressure level # 20865.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PRESSURELEVEL {get; set;}

@@ -9,7 +9,7 @@ Position of the AuxiliaryLine end relatively to its parent.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D EndPoint {get; set;}

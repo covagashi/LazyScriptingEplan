@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [String](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString~String.html) | Event parameter of the String type. |
 
-[Top](#top)
+

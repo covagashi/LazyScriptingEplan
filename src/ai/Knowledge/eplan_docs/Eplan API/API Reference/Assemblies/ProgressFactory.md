@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ProgressFactory
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ProgressFactory Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ProgressFactory~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -36,4 +36,4 @@ Public Methods
 | Public Methodstatic (Shared in Visual Basic) | [RegisterProgress](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ProgressFactory~RegisterProgress.html) | Registers the progress in the eplan framework |
 | Public Methodstatic (Shared in Visual Basic) | [UnRegisterProgress](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ProgressFactory~UnRegisterProgress.html) | unRegisters the progress from the eplan framework |
 
-[Top](#top)
+

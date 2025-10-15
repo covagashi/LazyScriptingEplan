@@ -9,7 +9,7 @@ Removes object references from a PlaceHolder.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void RemoveObjectReferences( 

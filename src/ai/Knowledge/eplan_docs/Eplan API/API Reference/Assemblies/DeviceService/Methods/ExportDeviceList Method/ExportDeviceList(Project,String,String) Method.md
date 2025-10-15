@@ -9,7 +9,7 @@ This function exports the device list of a given project. It is used for exporti
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ExportDeviceList( 

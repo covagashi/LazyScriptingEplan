@@ -9,7 +9,7 @@ If true, additional bending texts of bended bus bars will displayed
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ShowBendingText {get; set;}

@@ -9,7 +9,7 @@ Designation of the bus bundle or net on which the PLC bus port hangs.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Network {get; set;}

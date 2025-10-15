@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class UserInfo
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [UserInfo Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UserInfo~_ctor().html) | Struct holding some information about a User of a project. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -41,7 +41,7 @@ Public Properties
 | Public Property | [OpenMode](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UserInfo~OpenMode.html) | Get the mode in which the user has opened the project. |
 | Public Property | [Phone](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UserInfo~Phone.html) | Get the phone number of the User. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -49,4 +49,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UserInfo~Dispose().html) | Disposing the UserInfo |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Trade # 11037.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_CRAFT {get; set;}

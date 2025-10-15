@@ -9,7 +9,7 @@ String for alphanumeric # 12032.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_DEFAULT_ALPHASET {get; set;}

@@ -9,7 +9,7 @@ Gets a Command by a Command Id
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonCommand GetCommandWithId( 

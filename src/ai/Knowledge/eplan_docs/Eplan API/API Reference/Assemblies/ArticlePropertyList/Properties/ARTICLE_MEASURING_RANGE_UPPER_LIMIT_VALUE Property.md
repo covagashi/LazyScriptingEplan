@@ -9,7 +9,7 @@ Measuring range: Upper limit # 26455.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MEASURING_RANGE_UPPER_LIMIT_VALUE {get; set;}

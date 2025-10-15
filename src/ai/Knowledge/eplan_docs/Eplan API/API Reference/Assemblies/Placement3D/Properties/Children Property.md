@@ -9,7 +9,7 @@ Returns all children of this object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement3D[] Children {get;}

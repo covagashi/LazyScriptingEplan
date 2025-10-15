@@ -9,7 +9,7 @@ Cable entry into device # 26395.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CABLE_ENTRY_INTO_THE_DEVICE {get; set;}

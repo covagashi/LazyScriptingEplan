@@ -9,7 +9,7 @@ Get name of the source project from current representation type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SourceProject()

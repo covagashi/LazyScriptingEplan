@@ -9,7 +9,7 @@ This are the different types of database items that can be stored in parts datab
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MDPartsDatabaseItem.Enums.Type : System.Enum

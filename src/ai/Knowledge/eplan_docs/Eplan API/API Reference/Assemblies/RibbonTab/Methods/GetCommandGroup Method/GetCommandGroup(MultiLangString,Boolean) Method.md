@@ -9,7 +9,7 @@ Gets command group by its name
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonCommandGroup GetCommandGroup( 

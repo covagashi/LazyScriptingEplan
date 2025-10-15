@@ -9,7 +9,7 @@ Structure description 3 # 1008.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue LOCATION_DESCRIPTION_3 {get; set;}

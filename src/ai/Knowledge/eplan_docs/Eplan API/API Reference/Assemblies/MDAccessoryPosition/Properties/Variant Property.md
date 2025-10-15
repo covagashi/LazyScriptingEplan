@@ -9,7 +9,7 @@ Returns the variant of the referenced part (if type is not AccessoryList).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Variant {get; set;}

@@ -9,7 +9,7 @@ Creates not placed CopperBundle.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static CopperBundle Create( 

@@ -9,7 +9,7 @@ Engraving text # 20025.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_GRAVINGTEXT {get; set;}

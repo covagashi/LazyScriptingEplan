@@ -9,7 +9,7 @@ EplanVariant is the variant of the EPLAN installation, for example Fluid
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string EplanVariant {get; set;}

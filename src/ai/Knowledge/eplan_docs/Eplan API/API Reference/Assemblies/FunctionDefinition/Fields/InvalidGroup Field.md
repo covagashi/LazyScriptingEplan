@@ -9,7 +9,7 @@ A constant value that indicates an invalid (or undefined) function group.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static int InvalidGroup

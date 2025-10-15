@@ -9,7 +9,7 @@ Signal name # 33006.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue POTENTIAL_SIGNAL {get; set;}

@@ -9,7 +9,7 @@ Connection point designations # 21000.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNCTEMPLATE_CONNPT_DESIGNATION( 

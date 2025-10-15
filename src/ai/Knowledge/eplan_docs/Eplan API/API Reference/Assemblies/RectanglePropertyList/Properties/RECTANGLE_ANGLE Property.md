@@ -9,7 +9,7 @@ Rotation angle for rectangle # 19342.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue RECTANGLE_ANGLE {get; set;}

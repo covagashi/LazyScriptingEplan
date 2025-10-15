@@ -9,7 +9,7 @@ Method for renumbering terminals specified by the collection pFunctions.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Terminals( 

@@ -9,7 +9,7 @@ Unique project ID # 10184.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_GUID {get; set;}

@@ -9,7 +9,7 @@ Safety address: Target # 20439.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCSAFETYADDRESS {get; set;}

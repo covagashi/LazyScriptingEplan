@@ -9,7 +9,7 @@ An array of transient objects representing templates associated with the part nu
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] Templates {get;}

@@ -9,7 +9,7 @@ Determines whether a document is selected. This will only return a document, whe
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DocumentBase Document {get;}

@@ -9,7 +9,7 @@ Part variant # 20488.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_VARIANT {get; set;}

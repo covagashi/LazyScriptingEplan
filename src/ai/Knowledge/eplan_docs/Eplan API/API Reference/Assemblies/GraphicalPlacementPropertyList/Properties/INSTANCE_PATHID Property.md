@@ -9,7 +9,7 @@ Column number # 19005.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_PATHID {get; set;}

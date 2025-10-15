@@ -9,7 +9,7 @@ API Parts Management Extension: Value from add-in # 22213.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CUSTOM_DATA_VALUE( 

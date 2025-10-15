@@ -9,7 +9,7 @@ Nominal voltage (control circuit) # 26496.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_RATED_VOLTAGE_OF_THE_CONTROL_CIRCUIT {get; set;}

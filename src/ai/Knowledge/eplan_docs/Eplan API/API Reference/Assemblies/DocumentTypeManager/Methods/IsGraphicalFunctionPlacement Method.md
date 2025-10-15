@@ -9,7 +9,7 @@ Checks if given DocumentType can be affected to graphical placement of functions
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool IsGraphicalFunctionPlacement( 

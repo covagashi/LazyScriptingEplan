@@ -9,7 +9,7 @@ Gets or sets Color id
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short ColorId {get; set;}

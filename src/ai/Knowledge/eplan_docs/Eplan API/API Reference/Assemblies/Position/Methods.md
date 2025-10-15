@@ -16,4 +16,4 @@ Public Methods
 | Public Method | [IsShiftKeyPressed](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Position~IsShiftKeyPressed.html) | Returns true, if shift key was pressed at the moment, when position was stored. |
 | Public Method | [SetFromString](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Position~SetFromString.html) |  |
 
-[Top](#top)
+

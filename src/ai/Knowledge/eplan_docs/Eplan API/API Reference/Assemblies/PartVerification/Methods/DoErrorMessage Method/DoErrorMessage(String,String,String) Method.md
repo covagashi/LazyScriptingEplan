@@ -9,7 +9,7 @@ Service function for the error output during a test. Text to display is taken fr
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void DoErrorMessage( 

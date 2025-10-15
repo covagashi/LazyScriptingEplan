@@ -9,7 +9,7 @@ Naming format for fluid devices # 10083.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_NAMEFORMAT_FLUID {get; set;}

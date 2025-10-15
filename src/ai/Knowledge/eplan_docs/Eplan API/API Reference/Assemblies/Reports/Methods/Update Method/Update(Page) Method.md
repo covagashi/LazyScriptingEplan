@@ -9,7 +9,7 @@ Updates report pages or all embedded reports on a page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Update( 

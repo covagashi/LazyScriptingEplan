@@ -15,4 +15,4 @@ Public Properties
 | Public Property | [IsReadOnly](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass~IsReadOnly.html) |  |
 | Public Property | [Item](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass~Item.html) |  |
 
-[Top](#top)
+

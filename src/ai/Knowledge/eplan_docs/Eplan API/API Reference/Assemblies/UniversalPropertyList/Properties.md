@@ -15,4 +15,4 @@ Public Properties
 | Public Property | [Parent](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList~Parent.html) | StorableObject to which this property list is connected. |
 | Public Property | [Property](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList~Property.html) | Overloaded. Method used by operator[] in order to access indexed properties by identifying name. |
 
-[Top](#top)
+

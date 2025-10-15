@@ -9,7 +9,7 @@ Intrinsically safe # 16019.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_INTRINSICALLYSAFE {get; set;}

@@ -9,7 +9,7 @@ Rated breaking capacity (AC) # 26590.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_ULTIMATE_BREAKING_CAPACITY_AC {get; set;}

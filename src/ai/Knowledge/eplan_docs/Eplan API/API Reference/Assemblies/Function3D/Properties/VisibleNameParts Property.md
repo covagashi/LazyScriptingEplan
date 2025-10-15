@@ -9,7 +9,7 @@ Returns visible name of the Function3D.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual FunctionBasePropertyList VisibleNameParts {get; set;}

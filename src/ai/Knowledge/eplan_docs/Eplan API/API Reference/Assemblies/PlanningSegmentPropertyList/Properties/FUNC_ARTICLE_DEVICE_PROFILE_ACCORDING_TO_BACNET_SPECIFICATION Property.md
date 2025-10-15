@@ -9,7 +9,7 @@ Effective delivery amount # 26272.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_EFFECTIVE_DELIVERY_RATE( 

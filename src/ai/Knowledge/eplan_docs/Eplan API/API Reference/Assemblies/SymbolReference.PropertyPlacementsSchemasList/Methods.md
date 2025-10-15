@@ -15,4 +15,4 @@ Public Methods
 | Public Method | [Import](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference+PropertyPlacementsSchemasList~Import.html) | Imports customer property placements set(s) from the specified file to the symbol. |
 | Public Method | [Remove](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference+PropertyPlacementsSchemasList~Remove.html) | Removes a PropertyPlacementsSchema object that represents the property placements configuration. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Name of the form without file extension.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string FormName {get; set;}

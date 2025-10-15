@@ -9,7 +9,7 @@ Identifier set names.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[] IdentifierSets {get;}

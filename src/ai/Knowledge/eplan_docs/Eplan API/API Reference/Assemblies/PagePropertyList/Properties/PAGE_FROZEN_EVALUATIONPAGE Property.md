@@ -9,7 +9,7 @@ Frozen report page # 11049.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_FROZEN_EVALUATIONPAGE {get; set;}

@@ -9,7 +9,7 @@ Returns the transformation of macro placement area.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Matrix3D PlacementAreaTransformation {get;}

@@ -9,7 +9,7 @@ Creator: Zip code (P.O. box) # 10243.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATORZIPCODEPOBOX {get; set;}

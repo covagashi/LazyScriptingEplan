@@ -9,7 +9,7 @@ Identificators of properties owned by QRCode class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.QRCode : System.Enum

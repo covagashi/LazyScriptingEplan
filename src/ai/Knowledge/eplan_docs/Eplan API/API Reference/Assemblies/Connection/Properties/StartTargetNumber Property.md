@@ -9,7 +9,7 @@ Target number of start function (1,2,3...)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short StartTargetNumber {get; set;}

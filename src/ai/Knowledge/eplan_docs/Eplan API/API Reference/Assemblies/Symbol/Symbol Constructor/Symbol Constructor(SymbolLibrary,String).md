@@ -9,7 +9,7 @@ Construct symbol from library using name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Symbol( 

@@ -9,7 +9,7 @@ Use placeholder object in Eplan Cogineer # 19314.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLACEHOLDER_USE_IN_COGINEER {get; set;}

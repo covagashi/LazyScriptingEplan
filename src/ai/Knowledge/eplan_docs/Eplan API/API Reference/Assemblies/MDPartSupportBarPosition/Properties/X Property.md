@@ -9,7 +9,7 @@ The x position of the referenced support bar part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double X {get; set;}

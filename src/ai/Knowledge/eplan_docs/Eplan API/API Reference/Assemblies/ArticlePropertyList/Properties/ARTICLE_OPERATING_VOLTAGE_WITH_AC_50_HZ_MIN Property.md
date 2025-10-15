@@ -9,7 +9,7 @@ Operating voltage (AC 50 Hz), min. # 26088.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_OPERATING_VOLTAGE_WITH_AC_50_HZ_MIN {get; set;}

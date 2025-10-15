@@ -9,7 +9,7 @@ All existing 3d connections whose beginning or end is this placement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override Connection3D[] Connection3Ds {get;}

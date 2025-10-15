@@ -9,7 +9,7 @@ Closes database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Close()

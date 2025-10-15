@@ -9,7 +9,7 @@ Returns true, if the property is assigned to at least one property list
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsAssigned {get;}

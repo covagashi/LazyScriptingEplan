@@ -9,7 +9,7 @@ Types of mates.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Mate.Enums.Type : System.Enum

@@ -9,7 +9,7 @@ Thermal design: Min. internal temperature # 36052.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_POWERDISSIPATION_CABINET_MIN_IN_TEMP {get; set;}

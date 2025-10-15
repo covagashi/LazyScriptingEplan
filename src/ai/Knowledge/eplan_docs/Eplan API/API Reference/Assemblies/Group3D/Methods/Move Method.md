@@ -9,7 +9,7 @@ Moves the Group3D object relative to absolute axis origin.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Move( 

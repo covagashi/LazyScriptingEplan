@@ -9,7 +9,7 @@ Z coordinate
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Z {get; set;}

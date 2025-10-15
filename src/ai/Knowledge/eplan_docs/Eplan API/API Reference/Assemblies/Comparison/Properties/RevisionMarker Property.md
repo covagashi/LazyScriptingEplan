@@ -9,7 +9,7 @@ Name of marker for differences found by a project comparison.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string RevisionMarker {get; set;}

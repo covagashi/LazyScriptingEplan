@@ -9,7 +9,7 @@ Gets layer table of custom layers
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public TransientLayerTable CustomLayerTable {get;}

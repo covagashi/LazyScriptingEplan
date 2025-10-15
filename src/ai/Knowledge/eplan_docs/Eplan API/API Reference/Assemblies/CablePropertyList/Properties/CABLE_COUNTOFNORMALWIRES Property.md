@@ -9,7 +9,7 @@ Cables: Number of general connections # 35105.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLE_COUNTOFNORMALWIRES {get; set;}

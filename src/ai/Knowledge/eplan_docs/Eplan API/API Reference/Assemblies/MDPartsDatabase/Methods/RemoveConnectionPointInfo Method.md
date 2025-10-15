@@ -9,7 +9,7 @@ Removes a connection point info out of the parts database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveConnectionPointInfo( 

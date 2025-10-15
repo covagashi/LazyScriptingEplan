@@ -9,7 +9,7 @@ If a PLC bus port itself is a bus master, the name / code of this bus master is 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PlcMaster {get; set;}

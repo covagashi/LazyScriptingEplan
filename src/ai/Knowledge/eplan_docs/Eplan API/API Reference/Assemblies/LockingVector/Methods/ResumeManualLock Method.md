@@ -9,7 +9,7 @@ Internal method, sets internal AutoLockActive flag to value before PauseManualLo
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool ResumeManualLock( 

@@ -9,7 +9,7 @@ Cover: Depth # 22180.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TOPPANELDPEPTH {get; set;}

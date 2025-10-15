@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PlaceHolderText.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PlaceHolderText.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlaceHolderText+Enums~_ctor.html) |  |
 
-[Top](#top)
+

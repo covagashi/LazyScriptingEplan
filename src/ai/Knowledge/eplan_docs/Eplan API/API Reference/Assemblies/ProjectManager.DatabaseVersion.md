@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ProjectManager.DatabaseVersion
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ProjectManager.DatabaseVersion Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager+DatabaseVersion~_ctor().html) | Standard constructor. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -36,7 +36,7 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager+DatabaseVersion~Dispose().html) | Virtual deterministic destructor. |
 | Public Method | [ToString](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager+DatabaseVersion~ToString.html) | Returns a string that represents the current object. |
 
-[Top](#top)
+
 
 Public Operators
 
@@ -49,4 +49,4 @@ Public Operators
 | public Operator [Less Than](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager+DatabaseVersion~op_LessThan.html) | This operator check if first version is younger then second. |
 | public Operator [Less Than or Equal](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager+DatabaseVersion~op_LessThanOrEqual.html) | This operator check if first version is younger or equal to second. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Activate or deactivate connection dirty bit handling.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ConnectionDirtyActive {set;}

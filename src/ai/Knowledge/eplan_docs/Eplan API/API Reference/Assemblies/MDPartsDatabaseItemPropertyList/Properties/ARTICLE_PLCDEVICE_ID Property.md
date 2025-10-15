@@ -9,7 +9,7 @@ Device description: File name # 22037.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PLCDEVICE_ID {get; set;}

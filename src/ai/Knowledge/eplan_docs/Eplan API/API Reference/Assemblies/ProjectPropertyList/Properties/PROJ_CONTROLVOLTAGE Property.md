@@ -9,7 +9,7 @@ Control voltage # 10041.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CONTROLVOLTAGE {get; set;}

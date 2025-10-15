@@ -9,7 +9,7 @@ Model view: Display freely routed hose lines # 36517.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_ROUTED_HOSE_ASSEMBLY {get; set;}

@@ -9,7 +9,7 @@ Product (sub-identifier, complete) # 1821.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLSUBPRODUCT {get; set;}

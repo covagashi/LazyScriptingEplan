@@ -9,7 +9,7 @@ Exports PLC address overview list into csv file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ExportAddressOverview( 

@@ -9,7 +9,7 @@ Identificators of properties owned by DimensionCircle class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.DimensionCircle : System.Enum

@@ -9,7 +9,7 @@ Eplan server port
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int ServerPort {get; set;}

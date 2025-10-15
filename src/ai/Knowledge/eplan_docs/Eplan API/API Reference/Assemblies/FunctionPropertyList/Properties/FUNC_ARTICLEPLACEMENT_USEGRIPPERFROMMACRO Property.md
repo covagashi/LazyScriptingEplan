@@ -9,7 +9,7 @@ Use handle from macro # 20339.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLEPLACEMENT_USEGRIPPERFROMMACRO {get; set;}

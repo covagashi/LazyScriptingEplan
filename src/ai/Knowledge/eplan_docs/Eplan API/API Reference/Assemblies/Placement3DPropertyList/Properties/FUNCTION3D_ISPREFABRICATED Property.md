@@ -9,7 +9,7 @@ Prefabricated # 36011.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_ISPREFABRICATED {get; set;}

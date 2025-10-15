@@ -9,7 +9,7 @@ The symbol of the plug template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Symbol {get; set;}

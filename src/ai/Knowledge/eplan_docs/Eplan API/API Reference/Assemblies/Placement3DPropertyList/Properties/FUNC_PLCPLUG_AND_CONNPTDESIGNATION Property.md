@@ -9,7 +9,7 @@ Connection point designation (with plug designation) # 20435.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCPLUG_AND_CONNPTDESIGNATION {get; set;}

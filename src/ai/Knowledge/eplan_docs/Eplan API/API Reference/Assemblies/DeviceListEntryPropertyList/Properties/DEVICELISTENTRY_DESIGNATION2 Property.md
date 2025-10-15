@@ -9,7 +9,7 @@ Part: Designation 2 # 23211.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DEVICELISTENTRY_DESIGNATION2 {get; set;}

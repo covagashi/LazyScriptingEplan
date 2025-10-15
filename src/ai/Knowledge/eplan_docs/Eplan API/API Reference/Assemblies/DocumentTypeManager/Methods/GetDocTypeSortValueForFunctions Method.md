@@ -9,7 +9,7 @@ Get a "sort value" for a document-type for sorting functions.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static int GetDocTypeSortValueForFunctions( 

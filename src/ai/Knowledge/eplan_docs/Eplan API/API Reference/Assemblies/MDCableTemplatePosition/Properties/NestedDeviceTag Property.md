@@ -9,7 +9,7 @@ It defines the Cable Property Subordinate DT / DT ID(NestedDeviceTag)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string NestedDeviceTag {get; set;}

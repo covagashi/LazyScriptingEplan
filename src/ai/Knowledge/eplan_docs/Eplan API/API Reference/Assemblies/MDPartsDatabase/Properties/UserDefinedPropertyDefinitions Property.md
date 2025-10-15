@@ -9,7 +9,7 @@ Returns user-defined property definitions array
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDUserDefinedPropertyDefinition[] UserDefinedPropertyDefinitions {get;}

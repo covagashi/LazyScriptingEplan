@@ -9,7 +9,7 @@ BACnet: Number of I/O objects # 26212.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_NUMBER_OF_BACNET_I_O_OBJECTS {get; set;}

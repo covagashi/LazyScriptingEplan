@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [CurrentStep](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Helpers.SettingPropertiesManager~CurrentStep.html) | Current active [SettingPropertiesStep](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Helpers.SettingPropertiesStep.html). |
 
-[Top](#top)
+

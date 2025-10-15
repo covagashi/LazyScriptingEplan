@@ -9,7 +9,7 @@ Mounting site (describing) # 20024.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_MOUNTINGLOCATION {get; set;}

@@ -9,7 +9,7 @@ Last modification date per page type # 10250.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DATEPERPAGETYPE( 

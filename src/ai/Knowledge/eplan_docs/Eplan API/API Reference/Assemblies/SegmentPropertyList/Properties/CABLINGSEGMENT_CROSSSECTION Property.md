@@ -9,7 +9,7 @@ Topology: Routing path cross-section # 20248.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLINGSEGMENT_CROSSSECTION {get; set;}

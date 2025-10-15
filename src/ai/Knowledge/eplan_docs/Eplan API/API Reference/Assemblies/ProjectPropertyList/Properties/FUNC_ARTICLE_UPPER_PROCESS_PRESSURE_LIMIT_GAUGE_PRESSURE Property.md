@@ -9,7 +9,7 @@ Process pressure (overpressure), max. # 26521.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_UPPER_PROCESS_PRESSURE_LIMIT_GAUGE_PRESSURE( 

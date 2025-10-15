@@ -9,7 +9,7 @@ Shows the last editor of the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string LastUser {get;}

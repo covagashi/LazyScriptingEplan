@@ -9,7 +9,7 @@ BACnet: Standard # 26516.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_STANDARD_BACNET_ {get; set;}

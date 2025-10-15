@@ -9,7 +9,7 @@ Topology: Routing path types # 20344.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLING_DUCT_TYPES {get; set;}

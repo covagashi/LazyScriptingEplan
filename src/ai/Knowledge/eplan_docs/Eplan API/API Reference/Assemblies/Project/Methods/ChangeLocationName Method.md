@@ -9,7 +9,7 @@ Changes name of the given location. After that change a location object becomes 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Location ChangeLocationName( 

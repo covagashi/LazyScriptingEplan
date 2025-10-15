@@ -9,7 +9,7 @@ Creates topology functions that are connected to structure routing fulcrums.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateFunctions( 

@@ -9,7 +9,7 @@ Method evaluates the full name for a FunctionBase (which is either a Function or
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public UniversalPropertyList EvaluateName( 

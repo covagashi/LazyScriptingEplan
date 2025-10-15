@@ -9,7 +9,7 @@ Sets custom proxy connection configuration.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 IdentityClientResponse SetProxy( 

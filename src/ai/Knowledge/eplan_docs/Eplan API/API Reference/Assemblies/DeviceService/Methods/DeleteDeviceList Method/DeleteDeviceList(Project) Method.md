@@ -9,7 +9,7 @@ This function deletes the device list in the given project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DeleteDeviceList( 

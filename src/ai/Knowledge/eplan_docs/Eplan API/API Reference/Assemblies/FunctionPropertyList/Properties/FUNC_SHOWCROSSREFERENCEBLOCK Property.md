@@ -9,7 +9,7 @@ Cross-reference display: Display # 20049.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_SHOWCROSSREFERENCEBLOCK {get; set;}

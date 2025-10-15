@@ -9,7 +9,7 @@ Plot frame to edit symbol # 15030.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMBLIB_FRAME {get; set;}

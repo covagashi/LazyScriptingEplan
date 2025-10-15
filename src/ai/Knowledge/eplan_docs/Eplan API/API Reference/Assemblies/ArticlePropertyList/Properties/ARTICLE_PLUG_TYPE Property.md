@@ -9,7 +9,7 @@ Plug type # 26574.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PLUG_TYPE {get; set;}

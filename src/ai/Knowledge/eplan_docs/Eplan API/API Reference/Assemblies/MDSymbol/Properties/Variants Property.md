@@ -9,7 +9,7 @@ a read only list of all MDSymbolVariants in the symbol
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDSymbolVariant[] Variants {get;}

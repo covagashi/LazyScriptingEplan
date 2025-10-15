@@ -9,7 +9,7 @@ Cookies.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Cookies {get; set;}

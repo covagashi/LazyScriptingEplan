@@ -9,7 +9,7 @@ Returns the first of two [Eplan.EplApi.DataModel.SymbolReference](Eplan.EplApi.D
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolReference StartSymbolReference {get; set;}

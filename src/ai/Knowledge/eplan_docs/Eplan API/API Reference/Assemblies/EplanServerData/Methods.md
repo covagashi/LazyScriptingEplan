@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Clear](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanServerData~Clear.html) | Clear |
 
-[Top](#top)
+

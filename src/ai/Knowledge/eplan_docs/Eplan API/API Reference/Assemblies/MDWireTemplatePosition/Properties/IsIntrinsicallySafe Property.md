@@ -9,7 +9,7 @@ Is the wire template intrinsically safe (yes / no)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsIntrinsicallySafe {get; set;}

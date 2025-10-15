@@ -9,7 +9,7 @@ Total expenditure planning # 44013.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLANNINGTIME_TOTAL {get; set;}

@@ -9,7 +9,7 @@ Energy efficiency class CN # 26305.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ENERGY_EFFICIENCY_CLASS_CN {get; set;}

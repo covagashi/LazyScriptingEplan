@@ -9,7 +9,7 @@ Unique project ID for the Cloud # 10120.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CLOUD_PROJECT_ID {get; set;}

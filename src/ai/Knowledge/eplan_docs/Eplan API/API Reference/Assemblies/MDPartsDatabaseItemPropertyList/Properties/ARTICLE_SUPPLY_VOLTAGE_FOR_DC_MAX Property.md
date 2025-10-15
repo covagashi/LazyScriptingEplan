@@ -9,7 +9,7 @@ Supply voltage (DC), max. # 26169.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SUPPLY_VOLTAGE_FOR_DC_MAX {get; set;}

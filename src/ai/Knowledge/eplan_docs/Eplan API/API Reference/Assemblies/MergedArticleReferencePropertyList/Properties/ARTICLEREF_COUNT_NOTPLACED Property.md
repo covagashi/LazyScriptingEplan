@@ -9,7 +9,7 @@ Number of units / quantity (unplaced) # 20484.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_COUNT_NOTPLACED {get; set;}

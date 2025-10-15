@@ -9,7 +9,7 @@ Approved by # 11080.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_REVISION_APPROVEDBY {get; set;}

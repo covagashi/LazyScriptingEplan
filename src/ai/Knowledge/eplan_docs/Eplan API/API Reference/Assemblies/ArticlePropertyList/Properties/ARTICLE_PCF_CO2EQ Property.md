@@ -9,7 +9,7 @@ PCF: CO2-eq # 26526.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PCF_CO2EQ {get; set;}

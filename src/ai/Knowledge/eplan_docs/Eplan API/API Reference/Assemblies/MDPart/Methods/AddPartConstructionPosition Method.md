@@ -9,7 +9,7 @@ Add a new part construction position to the part. That position is added to the 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartPartConstructionPosition AddPartConstructionPosition()

@@ -9,7 +9,7 @@ Returns the name of planning segment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get; set;}

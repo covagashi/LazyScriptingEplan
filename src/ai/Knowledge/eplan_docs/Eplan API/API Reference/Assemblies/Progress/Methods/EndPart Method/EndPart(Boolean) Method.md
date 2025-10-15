@@ -9,7 +9,7 @@ Ends segment and closes the window when it is not used. Don't forget to call it 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void EndPart( 

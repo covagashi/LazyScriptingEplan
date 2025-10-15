@@ -9,7 +9,7 @@ Creates a new attribute.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DeclareRegister()

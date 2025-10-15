@@ -9,7 +9,7 @@ Returns angle.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual double Angle {get; set;}

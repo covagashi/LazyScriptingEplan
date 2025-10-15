@@ -9,7 +9,7 @@ Rotation speed, max. # 26255.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SPEED_MAX {get; set;}

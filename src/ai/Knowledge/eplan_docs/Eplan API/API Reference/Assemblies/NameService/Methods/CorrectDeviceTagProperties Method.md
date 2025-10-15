@@ -9,7 +9,7 @@ Do a correction on the namelist, if properties for main and nested devicetags ar
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CorrectDeviceTagProperties( 

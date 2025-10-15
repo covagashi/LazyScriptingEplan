@@ -9,7 +9,7 @@ Replacement part: Number # 26321.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_REPLACEMENT_PART_NUMBER {get; set;}

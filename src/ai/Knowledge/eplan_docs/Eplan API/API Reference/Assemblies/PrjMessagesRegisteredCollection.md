@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PrjMessagesRegisteredCollection
@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PrjMessagesRegisteredCollection Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredCollection~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -40,7 +40,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Count](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredCollection~Count.html) | Gets the number of elements contained in the PrjMessagesRegisteredCollection. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -49,4 +49,4 @@ Public Methods
 | Public Method | [GetEnumerator](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredCollection~GetEnumerator.html) | Returns an enumerator that can iterate through a collection. |
 | Public Method | [GetRegisteredPrjMsgsEnumerator](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredCollection~GetRegisteredPrjMsgsEnumerator.html) | Returns a typed enumerator that can iterate through a collection. |
 
-[Top](#top)
+

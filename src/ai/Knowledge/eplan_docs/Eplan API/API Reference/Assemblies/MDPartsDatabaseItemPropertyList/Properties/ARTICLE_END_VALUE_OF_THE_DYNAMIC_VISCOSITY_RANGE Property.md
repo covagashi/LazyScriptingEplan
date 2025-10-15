@@ -9,7 +9,7 @@ Dynamic viscosity range: End value # 26299.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_END_VALUE_OF_THE_DYNAMIC_VISCOSITY_RANGE {get; set;}

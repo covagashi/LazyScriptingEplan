@@ -9,7 +9,7 @@ Get's stored QRCode string.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetQRCode()

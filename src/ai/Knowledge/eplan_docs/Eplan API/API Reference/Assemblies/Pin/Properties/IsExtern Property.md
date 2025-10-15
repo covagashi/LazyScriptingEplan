@@ -9,7 +9,7 @@ Qualify the Pin is extern or intern.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsExtern {get; set;}

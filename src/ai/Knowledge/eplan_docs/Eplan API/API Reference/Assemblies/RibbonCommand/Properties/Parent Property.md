@@ -9,7 +9,7 @@ Returns command group that the command belongs to
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonCommandGroup Parent {get;}

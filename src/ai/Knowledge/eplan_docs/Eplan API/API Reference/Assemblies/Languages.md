@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Languages
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Languages Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Languages~_ctor.html) | Creates a new Language object. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,7 +36,7 @@ Public Properties
 | Public Property | [AlternativeLanguage](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Languages~AlternativeLanguage.html) | Gets alternative language. |
 | Public Property | [GuiLanguage](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Languages~GuiLanguage.html) | Gets Gui language. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -44,4 +44,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Languages~Dispose().html) | Destructor for deterministic finalization of Languages object. |
 
-[Top](#top)
+

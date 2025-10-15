@@ -9,7 +9,7 @@ Performance description, standardized: Description (device, utility, service) # 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_PERFORMANCE_DESCRIPTION( 

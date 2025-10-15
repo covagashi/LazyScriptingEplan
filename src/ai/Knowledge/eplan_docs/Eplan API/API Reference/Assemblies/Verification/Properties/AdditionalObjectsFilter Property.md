@@ -9,7 +9,7 @@ Type of class which filters objects that are additionally passed to [IVerificati
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Type AdditionalObjectsFilter {get;}

@@ -9,7 +9,7 @@ Delivery length # 22058.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DELIVERYLENGTH {get; set;}

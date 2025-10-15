@@ -9,7 +9,7 @@ Overhang: Cover front # 22177.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TOPPANELPROJECTIONFRONT {get; set;}

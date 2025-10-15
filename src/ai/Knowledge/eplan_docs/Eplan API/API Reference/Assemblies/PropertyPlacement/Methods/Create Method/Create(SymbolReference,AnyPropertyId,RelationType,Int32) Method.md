@@ -9,7 +9,7 @@ Creates the PropertyPlacement object related to parent.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

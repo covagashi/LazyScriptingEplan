@@ -9,7 +9,7 @@ Location on Page and size of this object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RectangleD Area {get; set;}

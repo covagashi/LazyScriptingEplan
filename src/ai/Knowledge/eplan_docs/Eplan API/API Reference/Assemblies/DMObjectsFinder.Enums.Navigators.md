@@ -9,7 +9,7 @@ Specifies navigator
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum DMObjectsFinder.Enums.Navigators : System.Enum

@@ -9,7 +9,7 @@ Identificators of properties owned by MacroEntry class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.MacroEntry : System.Enum

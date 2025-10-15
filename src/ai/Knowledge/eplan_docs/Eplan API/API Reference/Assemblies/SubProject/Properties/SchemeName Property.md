@@ -9,7 +9,7 @@ Name of the associated defined working section for the this subproject.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SchemeName {get;}

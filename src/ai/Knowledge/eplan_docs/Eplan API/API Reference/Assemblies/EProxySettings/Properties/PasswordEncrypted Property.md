@@ -9,7 +9,7 @@ Encrypted password. Default = empty.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PasswordEncrypted {get; set;}

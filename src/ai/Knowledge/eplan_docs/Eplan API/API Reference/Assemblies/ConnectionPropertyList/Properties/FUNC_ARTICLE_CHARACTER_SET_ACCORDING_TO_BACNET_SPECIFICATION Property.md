@@ -9,7 +9,7 @@ BACnet: Character set acc. to BACnet specification # 26652.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_CHARACTER_SET_ACCORDING_TO_BACNET_SPECIFICATION( 

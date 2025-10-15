@@ -9,7 +9,7 @@ This constructor creates local property list. Any changes done to this Propertie
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertiesAndHandleObjectPropertyList()

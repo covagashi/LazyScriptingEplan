@@ -9,7 +9,7 @@ Sets the size of an image by setting the coordinates of the lower left corner an
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetAreaByWidth( 

@@ -15,4 +15,4 @@ Public Methods
 | Public Method | [GetConnectionPoints](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol~GetConnectionPoints.html) | Overloaded. Returns an array of connection points defined in the symbol's function definition. |
 | Public Method | [Remove](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol~Remove.html) | Removes the symbol out of the symbol library. |
 
-[Top](#top)
+

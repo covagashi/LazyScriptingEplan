@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Macro
@@ -34,7 +34,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Macro Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.Macro~_ctor.html) | Constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -45,7 +45,7 @@ Public Properties
 | Public Property | [Description](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.Macro~Description.html) | Gets description in multiple languages |
 | Public Property | [PageProperty](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.Macro~PageProperty.html) | Gets the property of the n-th page in this macro |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -54,4 +54,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.Macro~Dispose().html) | Destructor for deterministic finalization of Macro object. |
 | Public Method | [StoreExternalFilesOfCurrentVariant](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.Macro~StoreExternalFilesOfCurrentVariant.html) | Copies external files into project images directory |
 
-[Top](#top)
+

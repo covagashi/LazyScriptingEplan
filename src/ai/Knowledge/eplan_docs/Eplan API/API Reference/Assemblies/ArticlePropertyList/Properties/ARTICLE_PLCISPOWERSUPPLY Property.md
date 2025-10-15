@@ -9,7 +9,7 @@ Power supply # 22052.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PLCISPOWERSUPPLY {get; set;}

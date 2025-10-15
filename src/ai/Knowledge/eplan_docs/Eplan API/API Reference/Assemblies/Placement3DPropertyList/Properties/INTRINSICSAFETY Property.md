@@ -9,7 +9,7 @@ Intrinsically safe # 31030.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INTRINSICSAFETY {get; set;}

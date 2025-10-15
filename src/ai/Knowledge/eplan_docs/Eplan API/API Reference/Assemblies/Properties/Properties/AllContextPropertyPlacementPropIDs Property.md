@@ -9,7 +9,7 @@ Returns an array of all property ids which can exist for ContextPropertyPlacemen
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static AnyPropertyId[] AllContextPropertyPlacementPropIDs {get;}

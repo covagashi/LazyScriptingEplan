@@ -9,7 +9,7 @@ Layout space name (full) # 36454.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTALLATIONSPACE_FULLNAME {get; set;}

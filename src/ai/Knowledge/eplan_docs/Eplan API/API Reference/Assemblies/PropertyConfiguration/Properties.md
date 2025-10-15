@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [Id](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PropertyConfiguration~Id.html) | Returns AnyPropertyId. |
 | Public Property | [PresetValue](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PropertyConfiguration~PresetValue.html) | The value that is assigned to this property by default. |
 
-[Top](#top)
+

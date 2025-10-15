@@ -9,7 +9,7 @@ Returns the name that was set to this filter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get; set;}

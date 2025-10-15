@@ -9,7 +9,7 @@ Connection point pattern: Max. cross-section # 36063.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_TERMINALPOSITION_MAXCROSSSECTION( 

@@ -9,7 +9,7 @@ Prints all pages of the given project on the specified printer.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Project( 

@@ -9,7 +9,7 @@ Y coordinate starting point # 19311.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue LINE_START_Y {get; set;}

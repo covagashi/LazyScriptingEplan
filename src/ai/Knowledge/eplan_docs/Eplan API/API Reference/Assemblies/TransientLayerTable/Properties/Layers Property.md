@@ -9,7 +9,7 @@ Returns an array of existing transient layers.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public TransientLayer[] Layers {get;}

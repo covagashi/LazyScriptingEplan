@@ -9,7 +9,7 @@ Logon type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Translate.AuthenticationType : System.Enum

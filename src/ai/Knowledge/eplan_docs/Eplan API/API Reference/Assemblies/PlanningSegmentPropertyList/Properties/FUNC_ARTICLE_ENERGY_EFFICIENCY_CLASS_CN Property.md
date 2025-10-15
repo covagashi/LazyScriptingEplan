@@ -9,7 +9,7 @@ Energy efficiency class (motor) # 26304.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_ENERGY_EFFICIENCY_CLASS_MOTOR( 

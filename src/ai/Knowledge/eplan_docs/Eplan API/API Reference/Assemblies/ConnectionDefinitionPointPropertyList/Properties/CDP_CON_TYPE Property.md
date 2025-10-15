@@ -9,7 +9,7 @@ Associated connections: Function definition # 31035.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_TYPE {get; set;}

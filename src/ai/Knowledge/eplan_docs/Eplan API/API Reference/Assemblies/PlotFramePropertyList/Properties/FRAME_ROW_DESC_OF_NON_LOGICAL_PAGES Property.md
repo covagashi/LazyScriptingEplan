@@ -9,7 +9,7 @@ Show column designation on non-logical pages # 12014.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_ROW_DESC_OF_NON_LOGICAL_PAGES {get; set;}

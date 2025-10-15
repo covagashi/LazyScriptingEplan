@@ -9,7 +9,7 @@ Gets or sets whether presicion is setted or not.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool DimensionDisableZero {get; set;}

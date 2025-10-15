@@ -9,7 +9,7 @@ Removes the given support bar position from the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveSupportBarPosition( 

@@ -9,7 +9,7 @@ Wearing part # 22139.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_WEAR {get; set;}

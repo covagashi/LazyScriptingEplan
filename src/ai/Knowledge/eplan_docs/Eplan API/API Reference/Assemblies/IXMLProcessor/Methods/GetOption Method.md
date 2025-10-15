@@ -9,7 +9,7 @@ Returns a settings dialog for this processor. Dialog is only created, but not di
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 IOptions GetOption()

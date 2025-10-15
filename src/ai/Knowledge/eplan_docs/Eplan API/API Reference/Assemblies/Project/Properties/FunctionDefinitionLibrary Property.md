@@ -9,7 +9,7 @@ Returns standard [Eplan.EplApi.DataModel.MasterData.FunctionDefinitionLibrary](E
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public FunctionDefinitionLibrary FunctionDefinitionLibrary {get;}

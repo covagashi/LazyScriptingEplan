@@ -9,7 +9,7 @@ Flame resistance (according to standard) # 26042.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_FLAME_RESISTANCE_ACCORDING_TO_STANDARD {get; set;}

@@ -9,7 +9,7 @@ Base interface for the communication with Eplan Server.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [Guid("155A4EA7-AB45-4c69-9B72-F6CB94BC6323")]
@@ -33,7 +33,7 @@ Public Properties
 | Property | [SynchronousMode](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.IEplanRemoteClient~SynchronousMode.html) | Sets and gets the Synchronous mode. |
 | Property | [User](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.IEplanRemoteClient~User.html) | User name. This Property should be set before calling any StartEplan method. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -51,4 +51,4 @@ Public Methods
 | Method | [StopEplan](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.IEplanRemoteClient~StopEplan.html) | Stops the Eplan instance which is connected to the current client. |
 | Method | [UnlockAllEplanObjects](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.IEplanRemoteClient~UnlockAllEplanObjects.html) | Unlock all objects in given project. |
 
-[Top](#top)
+

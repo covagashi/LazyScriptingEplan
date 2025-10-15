@@ -14,4 +14,4 @@ Public Fields
 | Public Field | [ValueSets](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder~ValueSets.html) | Represents value sets of a placeholder |
 | Public Field | [Variables](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder~Variables.html) | Represents variables of a placeholder |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Connection point pattern: Dual sleeve prescribed # 36065.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_TERMINALPOSITION_TWINSLEEVE( 

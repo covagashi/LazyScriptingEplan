@@ -9,7 +9,7 @@ Routing direction (default) # 22948.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_TERMINAL_DIRECTION {get; set;}

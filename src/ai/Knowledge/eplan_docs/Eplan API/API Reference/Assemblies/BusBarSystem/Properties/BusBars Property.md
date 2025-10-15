@@ -9,7 +9,7 @@ Returns all associated busbar objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public BusBar[] BusBars {get;}

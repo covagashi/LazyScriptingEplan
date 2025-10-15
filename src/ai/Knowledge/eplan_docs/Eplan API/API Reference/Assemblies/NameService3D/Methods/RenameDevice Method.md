@@ -9,7 +9,7 @@ Changes the full names of the found device.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static void RenameDevice( 

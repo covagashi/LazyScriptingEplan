@@ -9,7 +9,7 @@ Updates project structure for navigator (GUI) according to the project settings.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void UpdateProjectStructureFromSettings( 

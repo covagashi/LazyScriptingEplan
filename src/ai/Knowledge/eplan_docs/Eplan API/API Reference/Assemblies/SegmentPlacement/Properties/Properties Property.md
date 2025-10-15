@@ -9,7 +9,7 @@ EPLAN properties of the SegmentPlacement object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new SegmentPlacementPropertyList Properties {get;}

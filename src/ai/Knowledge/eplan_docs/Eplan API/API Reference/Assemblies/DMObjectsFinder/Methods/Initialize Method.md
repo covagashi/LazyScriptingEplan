@@ -9,7 +9,7 @@ Sets the project used. The same as project parameter in the constructor. Used wh
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Initialize( 

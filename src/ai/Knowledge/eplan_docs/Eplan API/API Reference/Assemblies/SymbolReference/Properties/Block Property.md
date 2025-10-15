@@ -9,7 +9,7 @@ Returns a block which this SymbolReference object is part of. If this object is 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Block Block {get;}

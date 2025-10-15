@@ -9,7 +9,7 @@ The MTTF (mean time to failure)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double MTTF {get; set;}

@@ -9,7 +9,7 @@ DT (subordinate): Prefix # 20016.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_NESTEDPREFIX {get; set;}

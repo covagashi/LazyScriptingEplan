@@ -15,4 +15,4 @@ Public Properties
 | Public Property | [Terminals](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Terminal+Bridge~Terminals.html) | An array of all terminals that the bridge connects. |
 | Public Property | [Type](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Terminal+Bridge~Type.html) | A type of the bridge. Corresponds to the function definition tag of the bridge's connections. |
 
-[Top](#top)
+

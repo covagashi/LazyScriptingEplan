@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class DisableConnectionUpdateStep
@@ -44,7 +44,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [DisableConnectionUpdateStep Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DisableConnectionUpdateStep~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -53,4 +53,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DisableConnectionUpdateStep~Dispose().html) | Destructor for deterministic finalization of DisableConnectionUpdateStep object. |
 | Public Methodstatic (Shared in Visual Basic) | [IsActive](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DisableConnectionUpdateStep~IsActive.html) | Returns true if an object of this class has been created and prevents connections from being updated. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ constructor id of color
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Color( 

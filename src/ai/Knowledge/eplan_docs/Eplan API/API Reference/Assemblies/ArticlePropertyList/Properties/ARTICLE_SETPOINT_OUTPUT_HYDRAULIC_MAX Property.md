@@ -9,7 +9,7 @@ Target power (hydraulic), max. # 26143.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SETPOINT_OUTPUT_HYDRAULIC_MAX {get; set;}

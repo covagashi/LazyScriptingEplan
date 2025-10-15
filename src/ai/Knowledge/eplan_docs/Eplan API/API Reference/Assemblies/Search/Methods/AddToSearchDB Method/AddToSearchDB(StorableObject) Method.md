@@ -9,7 +9,7 @@ FÃ¼gt ein Objekt der Suchdatenbank hinzu. Es wird die aus den Einstellungen ge
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddToSearchDB( 

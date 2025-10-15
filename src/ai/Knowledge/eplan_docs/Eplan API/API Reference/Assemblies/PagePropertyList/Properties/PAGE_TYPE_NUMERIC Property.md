@@ -9,7 +9,7 @@ Page type (ID) # 11029.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_TYPE_NUMERIC {get; set;}

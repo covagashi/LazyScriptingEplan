@@ -9,7 +9,7 @@ Gets application's variant as string (Basic, Trial, Developer, etc.).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Variant {get;}

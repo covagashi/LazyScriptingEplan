@@ -9,7 +9,7 @@ Names of devices assign to this report separated by a semicolon.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DeviceTag {get;}

@@ -9,7 +9,7 @@ Returns true if the parts database is read only. That can be if the EPLAN databa
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsReadOnly {get;}

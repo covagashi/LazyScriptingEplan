@@ -9,7 +9,7 @@ Location designation with preceding sign # 1240.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLLOCATION_WITHPREFIX {get; set;}

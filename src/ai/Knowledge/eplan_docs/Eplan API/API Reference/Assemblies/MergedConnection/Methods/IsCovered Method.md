@@ -9,7 +9,7 @@ Returns if the objects is a connection covered by this merged connection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsCovered( 

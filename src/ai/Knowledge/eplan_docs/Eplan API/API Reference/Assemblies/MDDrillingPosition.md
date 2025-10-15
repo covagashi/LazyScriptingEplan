@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDDrillingPosition : MDPartsDatabaseItemChildData
@@ -41,7 +41,7 @@ Public Properties
 | Public Property | [X](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDDrillingPosition~X.html) | The x position of the drilling |
 | Public Property | [Y](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDDrillingPosition~Y.html) | The y position of the drilling |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -49,4 +49,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose()](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData~Dispose().html) | Destructor for deterministic finalization of MDDrillingPosition object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData.html)) |
 
-[Top](#top)
+

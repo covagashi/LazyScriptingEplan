@@ -9,7 +9,7 @@ Cable outer diameter, max. # 26114.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_OUTER_CABLE_DIAMETER_MAX {get; set;}

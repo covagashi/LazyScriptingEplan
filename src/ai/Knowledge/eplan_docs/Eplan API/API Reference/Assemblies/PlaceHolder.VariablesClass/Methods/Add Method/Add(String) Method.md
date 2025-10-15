@@ -9,7 +9,7 @@ Adds new variable
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Add( 

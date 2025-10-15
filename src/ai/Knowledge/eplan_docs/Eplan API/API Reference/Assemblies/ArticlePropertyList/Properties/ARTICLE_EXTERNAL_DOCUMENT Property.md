@@ -9,7 +9,7 @@ External document # 22210.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_EXTERNAL_DOCUMENT( 

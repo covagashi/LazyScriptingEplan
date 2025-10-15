@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class SelectionSet
@@ -86,7 +86,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [SelectionSet Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.SelectionSet~_ctor.html) | Default constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -107,7 +107,7 @@ Public Properties
 | Public Property | [Selection](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.SelectionSet~Selection.html) | Gets the complete selection on the active window. Property `LockProjectByDefault` should be set to `true` before any changes on any inside elements of obtained objects. |
 | Public Property | [SelectionRecursive](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.SelectionSet~SelectionRecursive.html) | Gets the complete selection on the active window. Property `LockProjectByDefault` should be set to `true` before any changes on any inside elements of obtained objects. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -118,4 +118,4 @@ Public Methods
 | Public Method | [GetSelectedObject](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.SelectionSet~GetSelectedObject.html) | \Returns the first selected object. |
 | Public Method | [GetSelectedPages](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.SelectionSet~GetSelectedPages.html) | Gets the selected pages. |
 
-[Top](#top)
+

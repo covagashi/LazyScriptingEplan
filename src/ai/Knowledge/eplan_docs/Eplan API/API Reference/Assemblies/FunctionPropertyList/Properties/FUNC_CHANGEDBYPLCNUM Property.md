@@ -9,7 +9,7 @@ Numbered using PLC data # 20812.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CHANGEDBYPLCNUM {get; set;}

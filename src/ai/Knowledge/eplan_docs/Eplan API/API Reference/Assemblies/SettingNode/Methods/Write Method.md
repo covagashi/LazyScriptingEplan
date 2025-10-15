@@ -9,7 +9,7 @@ Writes all settings to a file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Write( 

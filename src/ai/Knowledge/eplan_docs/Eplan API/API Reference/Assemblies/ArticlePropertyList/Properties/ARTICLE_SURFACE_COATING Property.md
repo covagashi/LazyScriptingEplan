@@ -9,7 +9,7 @@ Surface coating # 26056.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SURFACE_COATING {get; set;}

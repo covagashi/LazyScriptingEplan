@@ -9,7 +9,7 @@ Product (main identifier): Description # 1830.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_PRODUCT_DESCR {get; set;}

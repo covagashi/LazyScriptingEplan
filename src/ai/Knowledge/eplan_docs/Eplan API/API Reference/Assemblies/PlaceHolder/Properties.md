@@ -41,4 +41,4 @@ Public Properties
 | Public Property | [Value](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder~Value.html) | Gets/Sets the value of a variable for a record. |
 | Public Property | [VariableNames](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder~VariableNames.html) | Names of all variables in the PlaceHolder. |
 
-[Top](#top)
+

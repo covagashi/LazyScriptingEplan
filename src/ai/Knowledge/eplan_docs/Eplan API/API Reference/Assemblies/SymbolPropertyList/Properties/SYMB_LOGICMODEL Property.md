@@ -9,7 +9,7 @@ Target tracking # 16010.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMB_LOGICMODEL {get; set;}

@@ -9,7 +9,7 @@ Returns layer table of the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public GraphicalLayerTable LayerTable {get;}

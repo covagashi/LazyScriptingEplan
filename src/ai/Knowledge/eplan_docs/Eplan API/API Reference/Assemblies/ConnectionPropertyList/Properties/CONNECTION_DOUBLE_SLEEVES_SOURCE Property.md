@@ -9,7 +9,7 @@ Dual sleeve prescribed at 2 targets at the source # 31098.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_DOUBLE_SLEEVES_SOURCE {get; set;}

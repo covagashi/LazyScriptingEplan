@@ -9,7 +9,7 @@ Weight (individual packaging) # 26376.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_WEIGHT_OF_THE_INDIVIDUAL_ARTICLE_PACKAGING {get; set;}

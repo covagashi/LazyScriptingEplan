@@ -9,7 +9,7 @@ Macro: Company standard # 23017.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROBOX_COMPANYSTANDARD {get; set;}

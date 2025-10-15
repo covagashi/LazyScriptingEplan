@@ -9,7 +9,7 @@ Layout space in draft mode # 36451.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTALLATIONSPACE_REVISION_LOG_DRAFT {get; set;}

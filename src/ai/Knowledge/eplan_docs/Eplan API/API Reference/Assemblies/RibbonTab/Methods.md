@@ -17,4 +17,4 @@ Public Methods
 | Public Method | [Remove](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonTab~Remove.html) | Removes ribbon tab |
 | Public Method | [Validate](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonTab~Validate.html) | Checks the validation of the ribbon tab |
 
-[Top](#top)
+

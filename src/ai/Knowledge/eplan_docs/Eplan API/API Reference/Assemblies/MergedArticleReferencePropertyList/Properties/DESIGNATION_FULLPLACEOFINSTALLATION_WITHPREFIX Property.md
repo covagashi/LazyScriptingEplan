@@ -9,7 +9,7 @@ Installation site with preceding sign # 1440.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLPLACEOFINSTALLATION_WITHPREFIX {get; set;}

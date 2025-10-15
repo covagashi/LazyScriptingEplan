@@ -9,7 +9,7 @@ Constructor for internal usage only.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Pen( 

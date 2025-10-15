@@ -9,7 +9,7 @@ Returns the opposite plane.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Plane OppositePlane {get;}

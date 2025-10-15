@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ProjectSections
@@ -46,4 +46,4 @@ Public Properties
 | Public Property | [AvailableSchemes](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectSections~AvailableSchemes.html) | Gets all schemes for working sections. |
 | Public Property | [State](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectSections~State.html) | Gets/Sets whether sections are active (i.e. visible) for the currently logged-in user |
 
-[Top](#top)
+

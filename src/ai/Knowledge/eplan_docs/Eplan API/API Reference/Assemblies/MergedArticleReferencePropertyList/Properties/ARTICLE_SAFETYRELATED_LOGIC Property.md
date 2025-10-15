@@ -9,7 +9,7 @@ Safety-related values: Logic (Generate report) # 40328.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SAFETYRELATED_LOGIC {get; set;}

@@ -30,4 +30,4 @@ Public Properties
 | Public Property | [SILCL](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartSafetyRelatedValuePosition~SILCL.html) | The SILCL. (SIL claim limit - for a subsystem) |
 | Public Property | [TMT1](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartSafetyRelatedValuePosition~TMT1.html) | The TMT1 (mission time; proof-test intervall) |
 
-[Top](#top)
+

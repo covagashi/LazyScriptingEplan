@@ -9,7 +9,7 @@ The symbol of component template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Symbol {get; set;}

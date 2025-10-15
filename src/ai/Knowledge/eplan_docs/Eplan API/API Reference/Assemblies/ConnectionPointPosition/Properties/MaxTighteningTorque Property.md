@@ -9,7 +9,7 @@ The maximum tightening torque determines maximum force with which, for example, 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double MaxTighteningTorque {get; set;}

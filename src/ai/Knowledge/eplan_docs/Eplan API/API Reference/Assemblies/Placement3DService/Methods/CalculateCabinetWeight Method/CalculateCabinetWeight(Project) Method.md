@@ -9,7 +9,7 @@ Calculate the total weight of all the cabinets, taking Project as parameter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CalculateCabinetWeight( 

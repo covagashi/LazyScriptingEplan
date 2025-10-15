@@ -9,7 +9,7 @@ Operating voltage (DC), min. # 26092.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_OPERATING_VOLTAGE_WITH_DC_MIN {get; set;}

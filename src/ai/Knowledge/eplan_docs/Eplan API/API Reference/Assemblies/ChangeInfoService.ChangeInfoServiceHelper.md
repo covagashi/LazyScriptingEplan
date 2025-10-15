@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ChangeInfoService.ChangeInfoServiceHelper
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ChangeInfoService.ChangeInfoServiceHelper Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ChangeInfoService+ChangeInfoServiceHelper~_ctor.html) | Constructor. |
 
-[Top](#top)
+

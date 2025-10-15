@@ -20,4 +20,4 @@ Public Properties
 | Public Property | [SortModeIndex](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PlcService+ReadressingConfig~SortModeIndex.html) | Gets/Sets a sort mode that should be used during re-addressing. Should be in range from 0 (default) to the value returned by SortModesCount property -1. |
 | Public Property | [Station](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PlcService+ReadressingConfig~Station.html) | Gets/Sets ... |
 
-[Top](#top)
+

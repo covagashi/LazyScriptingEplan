@@ -56,4 +56,4 @@ Public Methods
 | Public Method | [ToStringIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~ToStringIdentifier.html) | Returns this object as string identifier. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 | Public Method | [UpdateLocalTemplate](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function~UpdateLocalTemplate.html) | Stores changes into object from which template has been taken. (Inherited from [Eplan.EplApi.DataModel.Function](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function.html)) |
 
-[Top](#top)
+

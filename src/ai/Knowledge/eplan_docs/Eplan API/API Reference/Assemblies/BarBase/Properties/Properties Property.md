@@ -9,7 +9,7 @@ EPLAN properties of the BarBase object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new BarBasePropertyList Properties {get;}

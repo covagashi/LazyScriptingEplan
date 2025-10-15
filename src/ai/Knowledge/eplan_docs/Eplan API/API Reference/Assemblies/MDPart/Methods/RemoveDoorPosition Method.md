@@ -9,7 +9,7 @@ Removes the given DoorPosition from the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveDoorPosition( 

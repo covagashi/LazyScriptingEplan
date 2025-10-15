@@ -9,7 +9,7 @@ Returns the P8 property descriptor (id and index) that the object points to. To 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public AnyPropertyId Id {get;}

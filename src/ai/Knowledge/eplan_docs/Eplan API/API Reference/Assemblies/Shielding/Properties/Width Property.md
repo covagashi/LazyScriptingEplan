@@ -9,7 +9,7 @@ Returns width of the shielding.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Width {get;}

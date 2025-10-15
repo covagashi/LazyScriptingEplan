@@ -9,7 +9,7 @@ Creates DynamicConnectionLine object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

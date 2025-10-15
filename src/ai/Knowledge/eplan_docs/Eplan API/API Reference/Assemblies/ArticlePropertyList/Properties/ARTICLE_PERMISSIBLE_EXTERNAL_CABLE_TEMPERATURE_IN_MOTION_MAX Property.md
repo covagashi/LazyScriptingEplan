@@ -9,7 +9,7 @@ Permissible cable outer temperature (when moving), max. # 26178.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PERMISSIBLE_EXTERNAL_CABLE_TEMPERATURE_IN_MOTION_MAX {get; set;}

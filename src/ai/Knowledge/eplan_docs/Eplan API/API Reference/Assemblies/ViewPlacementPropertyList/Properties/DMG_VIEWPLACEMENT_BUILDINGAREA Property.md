@@ -9,7 +9,7 @@ Model view: Layout space name # 36504.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_BUILDINGAREA {get; set;}

@@ -9,7 +9,7 @@ Name (accessory list) # 22960.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ACCESSORYLIST_NAME {get; set;}

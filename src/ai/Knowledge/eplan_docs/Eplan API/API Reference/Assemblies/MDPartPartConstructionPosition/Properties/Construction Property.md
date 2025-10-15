@@ -9,7 +9,7 @@ The referenced construction as MDConstruction object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual MDConstruction Construction {get;}

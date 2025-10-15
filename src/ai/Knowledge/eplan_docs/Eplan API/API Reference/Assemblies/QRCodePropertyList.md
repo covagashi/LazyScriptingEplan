@@ -19,7 +19,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Property")]
@@ -78,7 +78,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [QRCodePropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.QRCodePropertyList~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -119,7 +119,7 @@ Public Properties
 | Public Property | [RECTANGLE\_WIDTH](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.RectanglePropertyList~RECTANGLE_WIDTH().html) | Overloaded. Width # 20221. (Inherited from [Eplan.EplApi.DataModel.Graphics.RectanglePropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.RectanglePropertyList.html)) |
 | Public Property | [WRITEPROTECTED\_AUTOMATIC](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementPropertyList~WRITEPROTECTED_AUTOMATIC().html) | Overloaded. Change protection (hierarchical) # 3015. (Inherited from [Eplan.EplApi.DataModel.PlacementPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementPropertyList.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -130,4 +130,4 @@ Public Methods
 | Public Method | [Exists](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.QRCodePropertyList~Exists.html) | Overloaded. Checks property existence for used obiect. |
 | Public Method | [getPropList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList~getPropList.html) | Internal method. (Inherited from [Eplan.EplApi.DataModel.UniversalPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList.html)) |
 
-[Top](#top)
+

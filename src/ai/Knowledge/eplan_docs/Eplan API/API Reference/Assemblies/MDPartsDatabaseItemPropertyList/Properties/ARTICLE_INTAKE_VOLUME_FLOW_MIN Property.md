@@ -9,7 +9,7 @@ Intake flow rate, min. # 26200.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_INTAKE_VOLUME_FLOW_MIN {get; set;}

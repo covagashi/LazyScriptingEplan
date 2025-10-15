@@ -9,7 +9,7 @@ Revision marker (from property comparison) # 10152.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_REVISIONMARKER {get; set;}

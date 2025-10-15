@@ -9,7 +9,7 @@ Gets access token for a ClientId.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 IdentityClientResponse GetAccessToken( 

@@ -9,7 +9,7 @@ Determines whether terminal is main.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsMainTerminal {get; set;}

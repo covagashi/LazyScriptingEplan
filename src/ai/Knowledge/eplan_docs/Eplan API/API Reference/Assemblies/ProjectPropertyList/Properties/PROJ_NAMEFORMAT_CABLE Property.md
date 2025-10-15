@@ -9,7 +9,7 @@ Naming format for cables # 10081.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_NAMEFORMAT_CABLE {get; set;}

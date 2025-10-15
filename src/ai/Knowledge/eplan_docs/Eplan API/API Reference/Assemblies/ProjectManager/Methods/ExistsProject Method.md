@@ -9,7 +9,7 @@ Check if project placed on given path exist.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExistsProject( 

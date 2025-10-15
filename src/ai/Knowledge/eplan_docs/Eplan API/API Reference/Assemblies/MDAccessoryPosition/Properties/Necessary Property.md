@@ -9,7 +9,7 @@ Returns wether the part / accessory list is neseccary.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Necessary {get; set;}

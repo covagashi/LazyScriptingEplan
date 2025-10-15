@@ -9,7 +9,7 @@ Number of pages per property # 11062.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_NUMBERPAGES_WITH_PROPERTY {get; set;}

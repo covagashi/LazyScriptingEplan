@@ -9,7 +9,7 @@ Deletes the specified right entry from the UserRights database (rights managemen
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool DeleteRight( 

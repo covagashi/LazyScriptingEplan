@@ -9,7 +9,7 @@ Enumeration of dimension's precision types
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum DimensionItem.Enums.DimensionPrecision : System.Enum

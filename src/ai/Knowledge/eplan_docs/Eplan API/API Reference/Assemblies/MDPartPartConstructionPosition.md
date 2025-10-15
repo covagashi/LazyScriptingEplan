@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDPartPartConstructionPosition : MDPartsDatabaseItemChildData
@@ -31,7 +31,7 @@ Public Properties
 | Public Property | [OffsetX](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartPartConstructionPosition~OffsetX.html) | The x offset of the referenced construction. |
 | Public Property | [OffsetY](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartPartConstructionPosition~OffsetY.html) | The y offset of the referenced construction. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -39,4 +39,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose()](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData~Dispose().html) | Destructor for deterministic finalization of MDPartPartConstructionPosition object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData.html)) |
 
-[Top](#top)
+

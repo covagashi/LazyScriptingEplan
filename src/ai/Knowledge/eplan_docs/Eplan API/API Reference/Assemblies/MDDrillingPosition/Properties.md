@@ -25,4 +25,4 @@ Public Properties
 | Public Property | [X](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDDrillingPosition~X.html) | The x position of the drilling |
 | Public Property | [Y](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDDrillingPosition~Y.html) | The y position of the drilling |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Connection category (default) # 22968.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PART_TERMINAL_TYPEOFTERMINAL_DEFAULT {get; set;}

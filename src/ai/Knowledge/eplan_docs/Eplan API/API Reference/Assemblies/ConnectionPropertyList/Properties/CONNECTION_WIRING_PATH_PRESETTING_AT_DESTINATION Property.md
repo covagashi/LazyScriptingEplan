@@ -9,7 +9,7 @@ Layout space: Specification for entry into routing path network (target) # 31116
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_WIRING_PATH_PRESETTING_AT_DESTINATION {get; set;}

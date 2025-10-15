@@ -9,7 +9,7 @@ Identifier block (ID) # 1006.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue LOCATION_TYPENAME_NR {get; set;}

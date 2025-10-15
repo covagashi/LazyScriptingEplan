@@ -9,7 +9,7 @@ List of [Eplan.EplApi.DataModel.E3D.Placement3D](Eplan.EplApi.DataModelu~Eplan.E
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement3D[] IncludedElements {get; set;}

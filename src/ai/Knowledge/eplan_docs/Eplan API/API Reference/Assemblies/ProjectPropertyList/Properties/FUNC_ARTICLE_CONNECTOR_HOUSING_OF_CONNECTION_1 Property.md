@@ -9,7 +9,7 @@ Plug-in connector housing (connection 1) # 26580.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_CONNECTOR_HOUSING_OF_CONNECTION_1( 

@@ -9,7 +9,7 @@ Layer's text height
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double TextHeight {get;}

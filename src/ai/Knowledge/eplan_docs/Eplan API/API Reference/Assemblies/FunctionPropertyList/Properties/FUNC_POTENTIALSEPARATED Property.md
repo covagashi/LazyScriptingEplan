@@ -9,7 +9,7 @@ With signal isolation # 20123.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_POTENTIALSEPARATED {get; set;}

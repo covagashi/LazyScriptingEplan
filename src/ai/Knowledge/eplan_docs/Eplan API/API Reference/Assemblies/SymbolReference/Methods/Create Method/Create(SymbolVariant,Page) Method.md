@@ -9,7 +9,7 @@ Creates a SymbolReference or more specialized object derived from it, depending 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static SymbolReference Create( 

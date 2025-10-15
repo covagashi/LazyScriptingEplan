@@ -9,7 +9,7 @@ This enumeration specifies the representation types, which a macro can contain
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum WindowMacro.Enums.RepresentationType : System.Enum

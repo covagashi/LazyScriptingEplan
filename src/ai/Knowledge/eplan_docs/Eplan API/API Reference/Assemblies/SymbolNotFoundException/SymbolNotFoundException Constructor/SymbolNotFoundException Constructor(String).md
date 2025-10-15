@@ -9,7 +9,7 @@ constructor with name of searched symbol.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolNotFoundException( 

@@ -9,7 +9,7 @@ Modification date # 10023.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_LASTMODIFICATIONDATE {get; set;}

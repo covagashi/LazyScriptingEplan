@@ -12,7 +12,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ContactImage.Enums
@@ -25,4 +25,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ContactImage.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.ContactImage+Enums~_ctor.html) |  |
 
-[Top](#top)
+

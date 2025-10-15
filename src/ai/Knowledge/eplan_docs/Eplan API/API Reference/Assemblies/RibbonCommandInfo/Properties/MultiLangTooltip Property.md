@@ -9,7 +9,7 @@ Property to get or set tooltip of the button, multilanguage. If set it is used i
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString MultiLangTooltip {get; set;}

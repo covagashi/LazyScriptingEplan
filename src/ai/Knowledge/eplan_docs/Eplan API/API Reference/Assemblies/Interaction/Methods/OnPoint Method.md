@@ -9,7 +9,7 @@ Is called after a point input by user via mouse or keyboard. That means, that th
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual RequestCode OnPoint( 

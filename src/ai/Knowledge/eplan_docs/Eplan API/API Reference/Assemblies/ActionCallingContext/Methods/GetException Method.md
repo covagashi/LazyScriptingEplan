@@ -9,7 +9,7 @@ Get Exception
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public BaseException GetException()

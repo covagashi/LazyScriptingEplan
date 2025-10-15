@@ -9,7 +9,7 @@ Length of stroke # 22129.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_STROKELENGTH {get; set;}

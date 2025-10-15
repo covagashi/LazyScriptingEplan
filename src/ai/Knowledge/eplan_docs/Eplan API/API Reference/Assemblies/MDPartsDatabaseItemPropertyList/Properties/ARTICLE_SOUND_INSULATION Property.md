@@ -9,7 +9,7 @@ Sound insulation # 26543.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SOUND_INSULATION {get; set;}

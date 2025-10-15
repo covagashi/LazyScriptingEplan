@@ -9,7 +9,7 @@ Do not use cable when adding up cable lengths # 20060.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_DONT_COUNT_CABLE {get; set;}

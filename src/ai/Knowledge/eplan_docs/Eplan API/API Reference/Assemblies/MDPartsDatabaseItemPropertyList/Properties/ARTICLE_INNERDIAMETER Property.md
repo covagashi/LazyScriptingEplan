@@ -9,7 +9,7 @@ Inner diameter # 22128.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_INNERDIAMETER {get; set;}

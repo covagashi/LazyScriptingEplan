@@ -9,7 +9,7 @@ IP address. Default = empty.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Address {get; set;}

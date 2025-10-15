@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [InitializeComSecurity](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.ComHelper~InitializeComSecurity.html) | initialize the DCOM security which needed to connect to license manager (ELM). |
 
-[Top](#top)
+

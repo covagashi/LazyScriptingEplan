@@ -19,7 +19,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PagesFilter : AbstractDMObjectFilter
@@ -94,7 +94,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PagesFilter Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PagesFilter~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -104,7 +104,7 @@ Public Properties
 | Public Property | [ExactNameMatching](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PagesFilter~ExactNameMatching.html) | Gets if the filtered function, when is filtered by name, should be matched exactly, it means that if searched name is only its name' prefix, it is not matching to the filter. |
 | Public Property | [Name](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PagesFilter~Name.html) | Returns the name that was set to this filter. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -114,4 +114,4 @@ Public Methods
 | Public Method | [ResetFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PagesFilter~ResetFilter.html) | Overridden. Resets the filter. Filter matches all [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html)s then. |
 | Public Method | [SetFilteredPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PagesFilter~SetFilteredPropertyList.html) | Sets the [PagePropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PagePropertyList.html) that [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html)s matching the filter must have. |
 
-[Top](#top)
+

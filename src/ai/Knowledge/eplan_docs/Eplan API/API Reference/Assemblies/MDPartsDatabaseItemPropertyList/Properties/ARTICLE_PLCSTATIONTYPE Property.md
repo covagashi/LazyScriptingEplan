@@ -9,7 +9,7 @@ PLC station: Type # 22269.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PLCSTATIONTYPE {get; set;}

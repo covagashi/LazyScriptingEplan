@@ -9,7 +9,7 @@ Exits from IdentityClient.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 IdentityClientResponse Exit()

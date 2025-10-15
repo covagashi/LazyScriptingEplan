@@ -9,7 +9,7 @@ Segment template: Description # 44049.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLASPECIFICATION_DESCRIPTION {get; set;}

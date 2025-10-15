@@ -9,7 +9,7 @@ Power control # 26048.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_POWER_CONTROL {get; set;}

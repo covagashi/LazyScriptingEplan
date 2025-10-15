@@ -9,7 +9,7 @@ Creates transient and not placed, article free MountingPanel object with given d
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static MountingPanel CreateTransient( 

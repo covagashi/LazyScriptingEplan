@@ -9,7 +9,7 @@ Page counter per property # 11064.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_PAGENUMBER_WITH_PROPERTY {get; set;}

@@ -9,7 +9,7 @@ Gets property id value as [Properties.QRCode](Eplan.EplApi.DataModelu~Eplan.EplA
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.QRCode AsQRCode {get;}

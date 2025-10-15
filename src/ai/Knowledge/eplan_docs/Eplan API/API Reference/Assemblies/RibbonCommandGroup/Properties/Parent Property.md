@@ -9,7 +9,7 @@ Returns ribbon tab that the command group belongs to
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonTab Parent {get;}

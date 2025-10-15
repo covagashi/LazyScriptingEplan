@@ -9,7 +9,7 @@ Returns an array of all property ids which can exist for SegmentDefinition objec
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static AnyPropertyId[] AllSegmentDefinitionPropIDs {get;}

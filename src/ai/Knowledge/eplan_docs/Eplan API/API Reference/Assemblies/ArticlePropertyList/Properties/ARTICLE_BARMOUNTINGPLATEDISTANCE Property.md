@@ -9,7 +9,7 @@ Busbars: Distance between rails and mounting panel # 22203.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_BARMOUNTINGPLATEDISTANCE {get; set;}

@@ -9,7 +9,7 @@ This function takes all objects of classes StorableObject and inherited from Sto
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] GetStorableObjects( 

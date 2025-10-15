@@ -9,7 +9,7 @@ Naming format for structure boxes # 10082.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_NAMEFORMAT_LOCATIONBOX {get; set;}

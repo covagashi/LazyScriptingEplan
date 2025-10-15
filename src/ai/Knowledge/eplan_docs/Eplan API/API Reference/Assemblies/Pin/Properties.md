@@ -37,4 +37,4 @@ Public Properties
 | Public Property | [Type](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin~Type.html) | Assigns a ConnPointType to the Pin. |
 | Public Property | [TypeOfPort](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin~TypeOfPort.html) | Assigns a PortType to the Pin. |
 
-[Top](#top)
+

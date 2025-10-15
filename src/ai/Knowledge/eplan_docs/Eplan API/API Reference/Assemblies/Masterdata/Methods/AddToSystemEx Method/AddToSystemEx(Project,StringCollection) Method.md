@@ -9,7 +9,7 @@ Extendent function for coping stored project master data into the system master 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Hashtable AddToSystemEx( 

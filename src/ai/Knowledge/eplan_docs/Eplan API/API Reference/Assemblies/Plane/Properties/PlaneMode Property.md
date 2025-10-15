@@ -9,7 +9,7 @@ Returns PlaneModeType of selected plane.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement3D.Enums.PlaneModeType PlaneMode {get;}

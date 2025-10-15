@@ -9,7 +9,7 @@ Full name # 22908.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ADDRESS_LONGNAME {get; set;}

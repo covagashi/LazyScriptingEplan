@@ -9,7 +9,7 @@ Returns those page document types, which are considered when collecting elements
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static DocumentTypeManager.DocumentType[] GetFctDocTypesVisibleInNavigator()

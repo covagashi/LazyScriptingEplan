@@ -9,7 +9,7 @@ Checks if the property is empty. If it's not, it could be read. IMPORTANT: If pr
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsEmpty {get;}

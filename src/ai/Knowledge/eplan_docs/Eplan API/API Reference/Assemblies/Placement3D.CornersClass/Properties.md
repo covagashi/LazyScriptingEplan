@@ -27,4 +27,4 @@ Public Properties
 | Public Property | [UpperRightFrontAbsolute](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D+CornersClass~UpperRightFrontAbsolute.html) | Returns upper right front absolute coordinate |
 | Public Property | [UpperRightFrontRelative](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D+CornersClass~UpperRightFrontRelative.html) | Returns upper right front relative coordinate |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Gets the count of the Parameters in this context
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual int GetParameterCount()

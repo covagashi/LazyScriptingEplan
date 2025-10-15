@@ -9,7 +9,7 @@ PLC subdevice 4: Position (slot / module) # 22308.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PLCDEVICENUMBER_4 {get; set;}

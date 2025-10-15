@@ -9,7 +9,7 @@ Gets snap increment
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double SnapIncrement {get;}

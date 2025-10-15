@@ -9,7 +9,7 @@ ERP / PDM number 9: Description # 22389.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ERPNR_DESCRIPTION_9 {get; set;}

@@ -9,7 +9,7 @@ Cable: Voltage level # 26401.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_CABLE_LEVEL( 

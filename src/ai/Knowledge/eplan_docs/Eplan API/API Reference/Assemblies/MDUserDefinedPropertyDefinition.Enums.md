@@ -12,7 +12,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDUserDefinedPropertyDefinition.Enums
@@ -25,4 +25,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDUserDefinedPropertyDefinition.Enums Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDUserDefinedPropertyDefinition+Enums~_ctor.html) |  |
 
-[Top](#top)
+

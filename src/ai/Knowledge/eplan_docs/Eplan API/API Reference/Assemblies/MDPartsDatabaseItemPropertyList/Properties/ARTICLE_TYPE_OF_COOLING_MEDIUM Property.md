@@ -9,7 +9,7 @@ Type of cooling medium # 26020.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TYPE_OF_COOLING_MEDIUM {get; set;}

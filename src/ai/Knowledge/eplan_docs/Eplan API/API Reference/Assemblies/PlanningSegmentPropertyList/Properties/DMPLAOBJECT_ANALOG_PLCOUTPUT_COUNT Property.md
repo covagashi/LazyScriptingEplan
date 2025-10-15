@@ -9,7 +9,7 @@ Basic segment definition: Displayed name # 44042.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_BASEDEFINITIONDISPLAYNAME {get; set;}

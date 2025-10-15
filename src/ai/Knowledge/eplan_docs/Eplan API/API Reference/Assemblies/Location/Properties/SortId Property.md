@@ -9,7 +9,7 @@ Gets the sorting identifier relative to Location.ParentNode.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double SortId {get; set;}

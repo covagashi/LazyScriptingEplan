@@ -9,7 +9,7 @@ Creates transient and not placed Duct object with given length.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateTransient( 

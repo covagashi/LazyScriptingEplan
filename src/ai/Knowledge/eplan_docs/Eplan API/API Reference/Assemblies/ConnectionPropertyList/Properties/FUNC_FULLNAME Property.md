@@ -9,7 +9,7 @@ Name (full) # 20001.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_FULLNAME {get; set;}

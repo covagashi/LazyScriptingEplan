@@ -9,7 +9,7 @@ Topology: Connection splicers passed through (sorted) # 31137.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_CABLING_DISTRIBUTOR( 

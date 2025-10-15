@@ -9,7 +9,7 @@ Returns symbol, for which this variant was created.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Symbol Parent {get;}

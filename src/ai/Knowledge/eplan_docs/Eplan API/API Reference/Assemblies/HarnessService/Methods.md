@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [ExportData](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.HarnessService~ExportData.html) | Overloaded. Exports Harness data. |
 | Public Method | [ImportData](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.HarnessService~ImportData.html) | Overloaded. Imports Harness data from a file. |
 
-[Top](#top)
+

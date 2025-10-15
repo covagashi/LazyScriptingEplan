@@ -9,7 +9,7 @@ The action can be registered under a name determined by the action and an overlo
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool OnRegister( 

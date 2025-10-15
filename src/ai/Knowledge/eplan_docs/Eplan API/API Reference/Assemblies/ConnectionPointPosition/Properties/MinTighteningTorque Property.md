@@ -9,7 +9,7 @@ The minimum tightening torque determines minimum force with which, for example, 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double MinTighteningTorque {get; set;}

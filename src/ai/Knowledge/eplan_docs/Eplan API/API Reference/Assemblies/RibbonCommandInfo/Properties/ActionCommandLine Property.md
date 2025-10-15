@@ -9,7 +9,7 @@ Property to get or set action command line.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ActionCommandLine {get; set;}

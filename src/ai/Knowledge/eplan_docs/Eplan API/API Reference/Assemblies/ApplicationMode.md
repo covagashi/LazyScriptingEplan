@@ -9,7 +9,7 @@ Available application modes.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ApplicationMode : System.Enum

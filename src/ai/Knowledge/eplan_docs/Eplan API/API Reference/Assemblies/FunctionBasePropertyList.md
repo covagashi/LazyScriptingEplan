@@ -21,7 +21,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Property")]
@@ -80,7 +80,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [FunctionBasePropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBasePropertyList~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -335,7 +335,7 @@ Public Properties
 | Public Property | [SUBPROJECT\_NUMBER](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBasePropertyList~SUBPROJECT_NUMBER().html) | Subproject number # 25101. |
 | Public Property | [WRITEPROTECTED\_AUTOMATIC](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementPropertyList~WRITEPROTECTED_AUTOMATIC().html) | Overloaded. Change protection (hierarchical) # 3015. (Inherited from [Eplan.EplApi.DataModel.PlacementPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementPropertyList.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -346,4 +346,4 @@ Public Methods
 | Public Method | [Exists](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBasePropertyList~Exists.html) | Overloaded. Checks property existence for used obiect. |
 | Public Method | [getPropList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList~getPropList.html) | Internal method. (Inherited from [Eplan.EplApi.DataModel.UniversalPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList.html)) |
 
-[Top](#top)
+

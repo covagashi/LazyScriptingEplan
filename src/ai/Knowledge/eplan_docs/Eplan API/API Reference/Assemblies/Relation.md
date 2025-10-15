@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public struct Relation : System.ValueType
@@ -28,7 +28,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Index](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Relation~Index.html) | Relation-Index - which object to get. if index is equal to 0 list of objects will be returned. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -36,4 +36,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [ToInt](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Relation~ToInt.html) | Relation-Id - identifies which type of navigation will be done. |
 
-[Top](#top)
+

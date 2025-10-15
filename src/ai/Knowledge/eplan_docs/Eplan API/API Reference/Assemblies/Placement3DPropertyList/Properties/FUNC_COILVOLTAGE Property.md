@@ -9,7 +9,7 @@ Coil: Voltage # 20054.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_COILVOLTAGE {get; set;}

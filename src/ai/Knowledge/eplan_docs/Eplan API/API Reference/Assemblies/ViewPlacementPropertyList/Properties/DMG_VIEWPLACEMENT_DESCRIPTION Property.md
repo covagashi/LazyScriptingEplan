@@ -9,7 +9,7 @@ Model view: Description # 36500.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_DESCRIPTION {get; set;}

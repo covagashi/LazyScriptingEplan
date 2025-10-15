@@ -9,7 +9,7 @@ GUIReadOnly property value. This property makes a new user-defined property to b
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool GUIReadOnly {get; set;}

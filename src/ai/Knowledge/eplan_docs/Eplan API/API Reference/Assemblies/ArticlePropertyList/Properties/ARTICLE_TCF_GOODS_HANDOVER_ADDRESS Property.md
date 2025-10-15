@@ -9,7 +9,7 @@ TCF: Address for delivery of goods # 26605.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TCF_GOODS_HANDOVER_ADDRESS {get; set;}

@@ -9,7 +9,7 @@ Interface for Eplan.IdentityClient.Authentification namespace.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [NullableContext(1)]
@@ -38,7 +38,7 @@ Public Methods
 | Method | [Signin](Eplan.IdentityClient.Authentification~Eplan.IdentityClient.Authentification.IEIdentityClient~Signin.html) | Signs in to Eplan Cloud. |
 | Method | [Signout](Eplan.IdentityClient.Authentification~Eplan.IdentityClient.Authentification.IEIdentityClient~Signout.html) | Signs out from Eplan Cloud. |
 
-[Top](#top)
+
 
 Public Events
 
@@ -46,4 +46,4 @@ Public Events
 | --- | --- | --- |
 | Event | [EplanCloudResourceDeprecationEvent](topic1734.html) | Event raised when an Eplan Cloud resource is deprecated |
 
-[Top](#top)
+

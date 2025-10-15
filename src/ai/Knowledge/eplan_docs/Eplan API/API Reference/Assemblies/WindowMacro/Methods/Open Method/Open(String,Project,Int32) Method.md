@@ -9,7 +9,7 @@ Opens a macro file and reads the information. The first existing representation 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Open( 

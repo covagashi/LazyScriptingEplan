@@ -9,7 +9,7 @@ Terminal strips: Page name of terminal line-up diagram # 35011.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue TERMINALSTRIP_TERMINALLINEUPDIAGRAMPAGE {get; set;}

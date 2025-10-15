@@ -9,7 +9,7 @@ Gets or sets type of usage.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MacroBox.Enums.TypeOfUsage TypeOfUsage {get; set;}

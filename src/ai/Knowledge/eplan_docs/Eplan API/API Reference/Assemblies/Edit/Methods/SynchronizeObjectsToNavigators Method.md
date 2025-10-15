@@ -9,7 +9,7 @@ Synchronize objects selected in GUI navigators. Groups will not be resolved, eac
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SynchronizeObjectsToNavigators( 

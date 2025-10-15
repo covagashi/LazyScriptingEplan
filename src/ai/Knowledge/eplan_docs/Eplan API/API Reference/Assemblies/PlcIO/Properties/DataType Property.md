@@ -9,7 +9,7 @@ Returns the PlcIOEntry's data type.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DataType {get; set;}

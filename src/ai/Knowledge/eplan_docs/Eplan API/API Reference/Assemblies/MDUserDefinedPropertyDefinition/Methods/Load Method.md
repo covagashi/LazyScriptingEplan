@@ -9,7 +9,7 @@ Loads property definition from the database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Load()

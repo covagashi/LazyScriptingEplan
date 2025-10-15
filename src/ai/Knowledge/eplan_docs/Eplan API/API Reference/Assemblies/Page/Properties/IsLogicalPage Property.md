@@ -9,7 +9,7 @@ Returns if the page is a logical page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsLogicalPage {get;}

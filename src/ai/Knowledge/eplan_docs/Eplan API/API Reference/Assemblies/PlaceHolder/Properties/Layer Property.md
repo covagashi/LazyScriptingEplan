@@ -9,7 +9,7 @@ Gets PlaceHolder graphical layer.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new GraphicalLayer Layer {get; set;}

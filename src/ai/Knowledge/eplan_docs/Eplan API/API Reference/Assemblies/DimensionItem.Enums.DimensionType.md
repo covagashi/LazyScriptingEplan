@@ -9,7 +9,7 @@ Enumeration of dimension type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum DimensionItem.Enums.DimensionType : System.Enum

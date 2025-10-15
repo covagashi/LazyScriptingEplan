@@ -9,7 +9,7 @@ Depth # 22014.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DEPTH {get; set;}

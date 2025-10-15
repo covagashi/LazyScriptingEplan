@@ -9,7 +9,7 @@ Associated connections: Trade # 31066.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_CRAFT {get; set;}

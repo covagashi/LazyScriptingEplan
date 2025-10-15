@@ -9,7 +9,7 @@ Defines methods to manipulate write protection on object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public interface IWriteProtection
@@ -48,7 +48,7 @@ Public Properties
 | --- | --- | --- |
 | Property | [WriteProtected](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IWriteProtection~WriteProtected.html) | Checks if an object is currently write protected or sets manual write protection |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -57,4 +57,4 @@ Public Methods
 | Method | [GetWriteProtectionFlagSet](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IWriteProtection~GetWriteProtectionFlagSet.html) | Checks what kind of a write protection was set. |
 | Method | [PauseWriteProtection](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IWriteProtection~PauseWriteProtection.html) | Temporarily disables write protection. Note that current write protection flags are not cleared. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Angle by which the components are to be rotated when they are placed on the moun
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Rotation {get;}

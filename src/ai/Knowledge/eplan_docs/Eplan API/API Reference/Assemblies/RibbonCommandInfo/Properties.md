@@ -20,4 +20,4 @@ Public Properties
 | Public Property | [MultiLangTooltip](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommandInfo~MultiLangTooltip.html) | Property to get or set tooltip of the button, multilanguage. If set it is used instead of normal text tooltip. Optional parameter. |
 | Public Property | [Tooltip](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommandInfo~Tooltip.html) | Property to get or set tooltip of the button. Optional parameter. |
 
-[Top](#top)
+

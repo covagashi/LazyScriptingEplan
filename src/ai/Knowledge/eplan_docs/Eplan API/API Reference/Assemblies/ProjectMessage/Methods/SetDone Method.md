@@ -9,7 +9,7 @@ Marks message as solved or not.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetDone( 

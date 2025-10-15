@@ -9,7 +9,7 @@ Start-up time # 26314.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_RUN_UP_TIME( 

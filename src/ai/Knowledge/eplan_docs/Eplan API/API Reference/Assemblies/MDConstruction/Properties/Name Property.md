@@ -9,7 +9,7 @@ Returns the name of the construction.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get; set;}

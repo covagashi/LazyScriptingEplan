@@ -9,7 +9,7 @@ Power requirement, max. # 26421.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_POWER_REQUIREMENT_MAX {get; set;}

@@ -9,7 +9,7 @@ Page counter # 11012.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_COUNTER {get; set;}

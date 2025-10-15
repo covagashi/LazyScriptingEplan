@@ -9,7 +9,7 @@ The pair index of the wire template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PairIndex {get; set;}

@@ -9,7 +9,7 @@ Cable unit name # 31162.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue HARNESS_CABLEUNIT {get; set;}

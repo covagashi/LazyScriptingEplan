@@ -9,7 +9,7 @@ Constructor with custom description.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ForbiddenOperationException( 

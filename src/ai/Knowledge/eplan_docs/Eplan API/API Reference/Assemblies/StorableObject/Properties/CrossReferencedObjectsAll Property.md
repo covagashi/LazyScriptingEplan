@@ -9,7 +9,7 @@ Returns an array of objects cross-referenced with this object (i.e. having the s
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] CrossReferencedObjectsAll {get;}

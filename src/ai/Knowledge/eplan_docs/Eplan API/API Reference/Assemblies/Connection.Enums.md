@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Connection.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Connection.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Connection+Enums~_ctor.html) |  |
 
-[Top](#top)
+

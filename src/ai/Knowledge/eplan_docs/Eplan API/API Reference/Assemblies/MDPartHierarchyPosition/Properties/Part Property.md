@@ -9,7 +9,7 @@ Returns the referenced part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPart Part {get;}

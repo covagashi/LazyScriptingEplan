@@ -9,7 +9,7 @@ Creates new transient unplaced segment and assign to it start and end symbol.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateTransient( 

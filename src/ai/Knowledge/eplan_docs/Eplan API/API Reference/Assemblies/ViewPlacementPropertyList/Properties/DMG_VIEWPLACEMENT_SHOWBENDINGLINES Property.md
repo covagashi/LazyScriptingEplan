@@ -9,7 +9,7 @@ Show bending line # 36520.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_SHOWBENDINGLINES {get; set;}

@@ -9,7 +9,7 @@ Part variant description # 22887.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_VARIANT_DESCRIPTION {get; set;}

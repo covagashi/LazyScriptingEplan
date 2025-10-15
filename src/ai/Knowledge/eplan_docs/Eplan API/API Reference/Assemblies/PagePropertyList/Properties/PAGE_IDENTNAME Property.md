@@ -9,7 +9,7 @@ Page name (identifying) # 11010.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_IDENTNAME {get; set;}

@@ -9,7 +9,7 @@ Project option: Description # 23106.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue OPTION_DESCR {get; set;}

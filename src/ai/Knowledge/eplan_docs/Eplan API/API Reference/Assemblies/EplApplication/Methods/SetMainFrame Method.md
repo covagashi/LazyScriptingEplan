@@ -9,7 +9,7 @@ Sets a new Mainframe for API offline program. API offline program will show all 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetMainFrame( 

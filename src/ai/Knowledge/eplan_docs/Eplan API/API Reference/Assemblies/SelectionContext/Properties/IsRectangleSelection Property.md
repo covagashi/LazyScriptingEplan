@@ -9,7 +9,7 @@ Returns true, if rectangle is set.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsRectangleSelection {get;}

@@ -9,7 +9,7 @@ Terminals: AWG from # 22086.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_AWGFROM {get; set;}

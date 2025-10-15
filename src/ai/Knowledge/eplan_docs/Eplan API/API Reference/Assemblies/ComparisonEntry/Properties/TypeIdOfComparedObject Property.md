@@ -9,7 +9,7 @@ Returns type id of compared object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public uint TypeIdOfComparedObject {get;}

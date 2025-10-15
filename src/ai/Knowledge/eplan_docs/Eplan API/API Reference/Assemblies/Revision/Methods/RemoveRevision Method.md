@@ -9,7 +9,7 @@ Deletes last revision. Used for change tracking.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveRevision( 

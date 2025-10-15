@@ -9,7 +9,7 @@ Initializes the merged connection to cover the connection passed as parameter an
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

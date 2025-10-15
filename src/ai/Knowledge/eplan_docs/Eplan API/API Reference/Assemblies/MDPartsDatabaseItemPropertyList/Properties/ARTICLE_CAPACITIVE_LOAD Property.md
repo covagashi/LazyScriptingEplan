@@ -9,7 +9,7 @@ Capacitive load # 26402.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CAPACITIVE_LOAD {get; set;}

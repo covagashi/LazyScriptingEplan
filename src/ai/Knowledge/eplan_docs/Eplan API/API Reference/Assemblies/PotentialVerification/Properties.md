@@ -19,4 +19,4 @@ Public Properties
 | Public Property | [VerificationPermission](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification~VerificationPermission.html) | The permission of a verification determines for what type of check the verification is enabled at most/ maximum. (Inherited from [Eplan.EplApi.EServices.Verification](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification.html)) |
 | Public Property | [VerificationState](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification~VerificationState.html) | The VerificationState determines the actual adjusted check type whereas the permission determines what state is theoretically allowed at most. (Inherited from [Eplan.EplApi.EServices.Verification](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification.html)) |
 
-[Top](#top)
+

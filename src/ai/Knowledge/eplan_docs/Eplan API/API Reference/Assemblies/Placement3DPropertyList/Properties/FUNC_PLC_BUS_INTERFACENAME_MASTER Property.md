@@ -9,7 +9,7 @@ Bus interface: Main bus port # 20448.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLC_BUS_INTERFACENAME_MASTER {get; set;}

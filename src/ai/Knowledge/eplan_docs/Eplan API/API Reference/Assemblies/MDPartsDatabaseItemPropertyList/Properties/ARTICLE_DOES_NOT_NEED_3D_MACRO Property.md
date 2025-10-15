@@ -9,7 +9,7 @@ Part does not require a 3D macro # 22392.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DOES_NOT_NEED_3D_MACRO {get; set;}

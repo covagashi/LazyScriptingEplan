@@ -9,7 +9,7 @@ Without sensor / actuator search for symbolic address # 20196.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCNO_TARGETSEARCH_FOR_AUTOSYMBOLICADDRESS {get; set;}

@@ -9,7 +9,7 @@ Customer code # 10180.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CUSTOMIDENTIFICATION {get; set;}

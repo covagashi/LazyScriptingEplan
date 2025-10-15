@@ -9,7 +9,7 @@ The X-position of the connection point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double XPosition {get; set;}

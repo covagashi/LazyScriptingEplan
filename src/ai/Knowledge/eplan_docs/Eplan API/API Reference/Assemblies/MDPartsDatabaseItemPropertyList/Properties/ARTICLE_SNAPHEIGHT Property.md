@@ -9,7 +9,7 @@ Clip-on height # 22211.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SNAPHEIGHT {get; set;}

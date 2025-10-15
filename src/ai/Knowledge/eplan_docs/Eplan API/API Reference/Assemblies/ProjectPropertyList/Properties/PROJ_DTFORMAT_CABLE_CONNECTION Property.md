@@ -9,7 +9,7 @@ Format of displayed DT: Cable connection # 10635.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DTFORMAT_CABLE_CONNECTION {get; set;}

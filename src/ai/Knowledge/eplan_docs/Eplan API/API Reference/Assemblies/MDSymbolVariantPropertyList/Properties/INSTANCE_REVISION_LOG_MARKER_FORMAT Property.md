@@ -9,7 +9,7 @@ Revision marker format (change tracking) # 19031.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue INSTANCE_REVISION_LOG_MARKER_FORMAT {get; set;}

@@ -9,7 +9,7 @@ Mounting length # 26275.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_INSTALLATION_LENGTH {get; set;}

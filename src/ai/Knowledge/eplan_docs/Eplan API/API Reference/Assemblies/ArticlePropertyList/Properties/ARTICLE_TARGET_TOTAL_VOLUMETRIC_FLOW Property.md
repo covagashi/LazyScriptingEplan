@@ -9,7 +9,7 @@ Target total flow rate # 26139.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TARGET_TOTAL_VOLUMETRIC_FLOW {get; set;}

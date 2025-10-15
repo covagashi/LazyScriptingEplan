@@ -9,7 +9,7 @@ Connection point cross-section / diameter (all) # 20296.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNC_ALLCONNECTIONCROSSSECTIONS {get; set;}

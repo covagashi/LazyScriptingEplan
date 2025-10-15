@@ -9,7 +9,7 @@ Creates file and writes a pre-planning macro from planning segments and their su
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

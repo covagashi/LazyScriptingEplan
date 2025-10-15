@@ -9,7 +9,7 @@ Returns PropertyPlacementsSchemas assigned to this ViewPlacement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ViewPlacement.PropertyPlacementsSchemasList PropertyPlacementsSchemas {get;}

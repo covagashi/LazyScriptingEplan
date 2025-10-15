@@ -9,7 +9,7 @@ Overhang: Base right # 22182.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_BOTTOMPANELPROJECTIONRIGHT {get; set;}

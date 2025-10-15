@@ -9,7 +9,7 @@ Part does not require a drilling pattern # 22394.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DOES_NOT_NEED_DRILL {get; set;}

@@ -9,7 +9,7 @@ Returns the project in which this property definition exists.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project Project {get;}

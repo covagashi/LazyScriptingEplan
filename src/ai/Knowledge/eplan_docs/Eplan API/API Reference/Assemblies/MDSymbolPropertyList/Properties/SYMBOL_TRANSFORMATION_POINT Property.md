@@ -9,7 +9,7 @@ Transformation point # 16045.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMBOL_TRANSFORMATION_POINT( 

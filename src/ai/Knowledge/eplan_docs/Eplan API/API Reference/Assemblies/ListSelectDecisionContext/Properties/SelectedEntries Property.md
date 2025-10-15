@@ -9,7 +9,7 @@ Gets all selected entries (Use this property if multi selection is enabled)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StringCollection SelectedEntries {get;}

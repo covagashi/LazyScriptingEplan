@@ -9,7 +9,7 @@ End customer: E-mail # 10142.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ENDCUSTOMEREMAIL {get; set;}

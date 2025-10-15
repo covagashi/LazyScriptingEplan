@@ -9,7 +9,7 @@ Compares all possible properties of a project to a comparison project. Used for 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CompareProjects( 

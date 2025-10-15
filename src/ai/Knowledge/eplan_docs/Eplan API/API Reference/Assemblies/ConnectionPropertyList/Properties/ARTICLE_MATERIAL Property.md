@@ -9,7 +9,7 @@ Material # 22081.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MATERIAL {get; set;}

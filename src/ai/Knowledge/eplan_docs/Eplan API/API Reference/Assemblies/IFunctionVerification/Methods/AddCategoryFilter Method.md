@@ -9,7 +9,7 @@ This type of check is only performed for a certain function category.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void AddCategoryFilter( 

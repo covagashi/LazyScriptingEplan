@@ -9,7 +9,7 @@ Degree of protection (IP): Mounted # 26562.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_PROTECTION_CLASS_IP_MOUNTED( 

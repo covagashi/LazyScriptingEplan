@@ -9,7 +9,7 @@ Prevent new placement # 16012.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_PREVENTPLACEMENT {get; set;}

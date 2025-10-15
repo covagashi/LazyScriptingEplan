@@ -9,7 +9,7 @@ Order number # 20919.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_ORDERNR( 

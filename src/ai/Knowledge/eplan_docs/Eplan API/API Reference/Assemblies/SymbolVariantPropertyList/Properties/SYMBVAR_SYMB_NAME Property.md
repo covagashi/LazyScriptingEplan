@@ -9,7 +9,7 @@ Symbol name # 16903.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMBVAR_SYMB_NAME {get; set;}

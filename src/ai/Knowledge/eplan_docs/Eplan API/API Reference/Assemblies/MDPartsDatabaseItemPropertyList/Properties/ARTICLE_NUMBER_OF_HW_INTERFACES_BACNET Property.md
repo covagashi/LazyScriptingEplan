@@ -9,7 +9,7 @@ BACnet: Number of hardware interfaces # 26214.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NUMBER_OF_HW_INTERFACES_BACNET {get; set;}

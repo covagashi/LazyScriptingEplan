@@ -9,7 +9,7 @@ Starts and goes to the first element in the collection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Reset()

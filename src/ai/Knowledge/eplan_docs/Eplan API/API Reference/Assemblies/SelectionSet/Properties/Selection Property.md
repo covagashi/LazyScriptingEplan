@@ -9,7 +9,7 @@ Gets the complete selection on the active window. Property `LockProjectByDefault
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] Selection {get;}

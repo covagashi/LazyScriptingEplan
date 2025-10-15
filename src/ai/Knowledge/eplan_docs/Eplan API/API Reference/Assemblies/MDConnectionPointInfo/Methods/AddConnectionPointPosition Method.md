@@ -9,7 +9,7 @@ Adds a new connection terminal (MDConnectionPointPosition) to the connection poi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDConnectionPointPosition AddConnectionPointPosition()

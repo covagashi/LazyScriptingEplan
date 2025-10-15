@@ -9,7 +9,7 @@ Allows to check if a given property is name part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsNamePart {get;}

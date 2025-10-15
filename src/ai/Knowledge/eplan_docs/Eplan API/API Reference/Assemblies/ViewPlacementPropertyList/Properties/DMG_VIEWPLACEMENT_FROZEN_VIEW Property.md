@@ -9,7 +9,7 @@ Model view: Frozen # 36502.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_FROZEN_VIEW {get; set;}

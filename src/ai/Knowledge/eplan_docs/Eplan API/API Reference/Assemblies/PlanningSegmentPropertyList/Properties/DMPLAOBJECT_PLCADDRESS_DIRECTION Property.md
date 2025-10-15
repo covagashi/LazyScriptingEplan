@@ -9,7 +9,7 @@ PLC address: Function text # 44025.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLCADDRESS_FUNCTIONTEXT( 

@@ -9,7 +9,7 @@ Specifies the width of alignment box.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double AlignmentBoxWidth {get; set;}

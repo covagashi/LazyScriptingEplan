@@ -9,7 +9,7 @@ Activation site # 44044.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PCT_LOCATION {get; set;}

@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDPartSupportBarPosition : MDPartsDatabaseItemChildData
@@ -34,7 +34,7 @@ Public Properties
 | Public Property | [Y](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartSupportBarPosition~Y.html) | The y position of the referenced support bar part. |
 | Public Property | [Z](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartSupportBarPosition~Z.html) | The z position of the referenced support bar part. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -42,4 +42,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose()](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData~Dispose().html) | Destructor for deterministic finalization of MDPartSupportBarPosition object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData.html)) |
 
-[Top](#top)
+

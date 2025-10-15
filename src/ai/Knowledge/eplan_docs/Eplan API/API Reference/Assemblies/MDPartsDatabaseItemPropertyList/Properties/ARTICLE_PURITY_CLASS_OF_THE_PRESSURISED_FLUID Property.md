@@ -9,7 +9,7 @@ Purity class of the pressurized fluid # 26059.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PURITY_CLASS_OF_THE_PRESSURISED_FLUID {get; set;}

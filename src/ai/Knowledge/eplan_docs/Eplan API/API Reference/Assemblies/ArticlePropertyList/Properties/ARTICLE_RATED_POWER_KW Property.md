@@ -9,7 +9,7 @@ Nominal power # 26474.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_RATED_POWER_KW {get; set;}

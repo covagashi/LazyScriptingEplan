@@ -9,7 +9,7 @@ Bus-System # 20308.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNC_PLC_BUSSYSTEM {get; set;}

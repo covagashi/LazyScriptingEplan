@@ -9,7 +9,7 @@ Suppress in device tag list (if filtered) # 20093.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_SUPPRESSINDEVICELIST {get; set;}

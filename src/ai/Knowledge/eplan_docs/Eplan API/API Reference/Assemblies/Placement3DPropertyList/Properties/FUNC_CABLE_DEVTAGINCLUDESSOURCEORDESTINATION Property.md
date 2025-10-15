@@ -9,7 +9,7 @@ Cable name includes source / target # 20069.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_DEVTAGINCLUDESSOURCEORDESTINATION {get; set;}

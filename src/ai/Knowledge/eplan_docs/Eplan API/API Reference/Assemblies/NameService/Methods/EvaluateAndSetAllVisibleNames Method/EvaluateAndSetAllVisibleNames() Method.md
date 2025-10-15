@@ -9,7 +9,7 @@ Evaluate the visible names from the full names for all placed functions and inte
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool EvaluateAndSetAllVisibleNames()

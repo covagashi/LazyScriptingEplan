@@ -9,7 +9,7 @@ Stripping length target # 31056.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_STRIPPINGLENGTH_DESIGNATION {get; set;}

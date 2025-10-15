@@ -9,7 +9,7 @@ Sets the handle to point to a specified project settings node.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Set( 

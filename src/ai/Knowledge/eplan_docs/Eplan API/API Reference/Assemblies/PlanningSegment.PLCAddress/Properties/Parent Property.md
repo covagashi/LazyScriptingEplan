@@ -9,7 +9,7 @@ Planning object to which this PLCAddres belongs.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlanningSegment Parent {get;}

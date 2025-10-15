@@ -9,7 +9,7 @@ The station ID for the PLC box to which the PLC connection point belongs.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Station {get; set;}

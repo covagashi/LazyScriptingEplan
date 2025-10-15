@@ -9,7 +9,7 @@ Profile vertical: Depth # 22190.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_VPROFILEDPETH {get; set;}

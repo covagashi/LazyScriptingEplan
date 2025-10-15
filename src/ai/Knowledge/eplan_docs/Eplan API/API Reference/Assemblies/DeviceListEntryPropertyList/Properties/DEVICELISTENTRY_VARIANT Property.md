@@ -9,7 +9,7 @@ Variant # 23209.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DEVICELISTENTRY_VARIANT {get; set;}

@@ -9,7 +9,7 @@ Associated connections: Line thickness of autoconnecting line # 31037.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_ACL_WIDTH {get; set;}

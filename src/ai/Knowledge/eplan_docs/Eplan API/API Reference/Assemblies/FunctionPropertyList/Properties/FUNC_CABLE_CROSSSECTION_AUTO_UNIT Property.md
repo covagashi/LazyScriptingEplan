@@ -9,7 +9,7 @@ Cable / Conduit: Unit for cross-section / diameter (automatic) # 20124.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_CROSSSECTION_AUTO_UNIT {get; set;}

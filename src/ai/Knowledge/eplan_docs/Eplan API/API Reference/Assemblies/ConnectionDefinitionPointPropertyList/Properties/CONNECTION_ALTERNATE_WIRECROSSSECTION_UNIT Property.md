@@ -9,7 +9,7 @@ Unit for alternative connection cross-section / diameter # 31065.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_ALTERNATE_WIRECROSSSECTION_UNIT {get; set;}

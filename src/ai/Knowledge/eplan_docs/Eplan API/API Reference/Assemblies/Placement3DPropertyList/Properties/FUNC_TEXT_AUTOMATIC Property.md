@@ -9,7 +9,7 @@ Function text (automatic) # 20031.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TEXT_AUTOMATIC {get; set;}

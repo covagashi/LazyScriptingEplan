@@ -9,7 +9,7 @@ Enumeration of Pin's source or target
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Pin.SourceOrTarget : System.Enum

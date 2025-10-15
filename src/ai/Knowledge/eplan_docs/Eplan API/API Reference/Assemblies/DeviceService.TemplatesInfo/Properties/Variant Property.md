@@ -9,7 +9,7 @@ An article's variant contained in the device list.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Variant {get;}

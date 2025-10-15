@@ -9,7 +9,7 @@ Sealing # 26000.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SEALING {get; set;}

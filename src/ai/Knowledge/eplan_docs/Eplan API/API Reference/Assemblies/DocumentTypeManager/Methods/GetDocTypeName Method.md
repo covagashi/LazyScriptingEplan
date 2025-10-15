@@ -9,7 +9,7 @@ Map name to identifier.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static string GetDocTypeName( 

@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [GetAfActionParameter](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties~GetAfActionParameter.html) | For internal use only. |
 | Public Method | [Set](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties~Set.html) | Description text of a parameter. Sets name and description text of a parameter. |
 
-[Top](#top)
+

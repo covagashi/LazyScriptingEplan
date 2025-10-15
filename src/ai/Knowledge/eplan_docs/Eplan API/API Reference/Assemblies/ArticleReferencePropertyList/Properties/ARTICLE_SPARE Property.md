@@ -9,7 +9,7 @@ Spare part # 22140.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SPARE {get; set;}

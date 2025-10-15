@@ -9,7 +9,7 @@ Trade 'Process engineering' # 22000.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CRAFT_PROCESS {get; set;}

@@ -9,7 +9,7 @@ Returns true if an object of this class has been created and prevents connection
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool IsActive()

@@ -12,7 +12,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Renumber.Enums
@@ -25,4 +25,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Renumber.Enums Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Renumber+Enums~_ctor.html) |  |
 
-[Top](#top)
+

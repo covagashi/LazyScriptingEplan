@@ -9,7 +9,7 @@ Drive torque (specified), min. # 26573.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_SPECIFIED_MINIMUM_DRIVE_TORQUE( 

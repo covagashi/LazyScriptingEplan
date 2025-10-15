@@ -23,4 +23,4 @@ Public Properties
 | Public Property | [SymbolicAddress](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningSegment+PLCAddress~SymbolicAddress.html) | A single component of the symbolic address can be entered at structure segments and planning objects . These single components are linked at the PLC inputs and outputs of the planning objects starting with the top node and displayed in the Symbolic address (pre-planning) property. This procedure allows unique symbolic addresses to be created for the PLC inputs and outputs. The automatic symbolic address. |
 | Public Property | [SymbolicAddressPart](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningSegment+PLCAddress~SymbolicAddressPart.html) | Symbolic address (single component). |
 
-[Top](#top)
+

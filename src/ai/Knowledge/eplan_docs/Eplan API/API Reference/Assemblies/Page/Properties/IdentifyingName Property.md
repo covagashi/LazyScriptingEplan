@@ -9,7 +9,7 @@ Returns identifying name of the page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string IdentifyingName {get;}

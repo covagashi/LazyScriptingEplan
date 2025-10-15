@@ -21,4 +21,4 @@ Public Properties
 | Public Property | [TemplateGroup](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDFunctionTemplatePosition~TemplateGroup.html) | The template group of the function template (Inherited from [Eplan.EplApi.MasterData.MDFunctionTemplatePosition](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDFunctionTemplatePosition.html)) |
 | Public Property | [ValidItemTypes](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDMechanicsFunctionDefinition~ValidItemTypes.html) | Gets all available item types which can be set in Item property for the current function definition. |
 
-[Top](#top)
+

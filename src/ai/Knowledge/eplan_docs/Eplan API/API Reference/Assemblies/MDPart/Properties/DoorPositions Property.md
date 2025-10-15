@@ -9,7 +9,7 @@ Get all DoorPosition that belongs to the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDDoorPosition[] DoorPositions {get;}

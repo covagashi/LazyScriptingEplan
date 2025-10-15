@@ -9,7 +9,7 @@ Routing track source: X coordinate # 31148.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_ROUTE_SOURCE_XPOS {get; set;}

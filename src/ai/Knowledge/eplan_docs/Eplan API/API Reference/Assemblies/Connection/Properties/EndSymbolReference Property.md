@@ -9,7 +9,7 @@ Returns the second of two [SymbolReference](Eplan.EplApi.DataModelu~Eplan.EplApi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolReference EndSymbolReference {get;}

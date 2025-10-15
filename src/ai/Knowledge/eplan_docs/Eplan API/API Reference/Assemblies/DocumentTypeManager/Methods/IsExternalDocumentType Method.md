@@ -9,7 +9,7 @@ Determines if a document is external. If another external document type is added
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool IsExternalDocumentType( 

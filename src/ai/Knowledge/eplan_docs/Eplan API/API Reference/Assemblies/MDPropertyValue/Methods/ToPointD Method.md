@@ -9,7 +9,7 @@ Conversion this MDPropertyValue object to [Eplan.EplApi.Base.PointD](Eplan.EplAp
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD ToPointD()

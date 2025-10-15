@@ -9,7 +9,7 @@ Identificators of properties owned by OptionFragment class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.OptionFragment : System.Enum

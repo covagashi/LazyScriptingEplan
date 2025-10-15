@@ -9,7 +9,7 @@ Door: Usable height # 22119.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DOORHEIGHT {get; set;}

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class UndoManager
@@ -56,7 +56,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [UndoManager Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UndoManager~_ctor.html) | Constructor. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -65,4 +65,4 @@ Public Methods
 | Public Method | [CreateUndoStep](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UndoManager~CreateUndoStep.html) | Creates object representing a UndoStep. |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UndoManager~Dispose().html) | Virtual deterministic destructor. |
 
-[Top](#top)
+

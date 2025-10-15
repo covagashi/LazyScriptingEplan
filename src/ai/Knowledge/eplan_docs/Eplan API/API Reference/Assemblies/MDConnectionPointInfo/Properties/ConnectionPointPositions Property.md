@@ -9,7 +9,7 @@ Returns a list of connection terminals (MDConnectionPointPosition) They are orde
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDConnectionPointPosition[] ConnectionPointPositions {get;}

@@ -34,4 +34,4 @@ Public Properties
 | Public Property | [UpperBound](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition~UpperBound.html) | Returns the maximum value of a property specified in the property definition. (Inherited from [Eplan.EplApi.DataModel.PropertyDefinition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition.html)) |
 | Public Property | [Usages](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UserDefinedPropertyDefinition~Usages.html) | Usages of this property definition. |
 
-[Top](#top)
+

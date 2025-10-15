@@ -9,7 +9,7 @@ KNX: Supports EIB protocol, incoming # 26066.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SUPPORTS_PROTOCOL_INCOMING_EIB_KNX {get; set;}

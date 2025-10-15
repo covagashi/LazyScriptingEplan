@@ -9,7 +9,7 @@ Reorganize legend Ids of a panel layout.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ReorganizeLegendNumbers( 

@@ -9,7 +9,7 @@ Physical network: Bus ID / item number # 20311.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLC_BUS_ADDRESS {get; set;}

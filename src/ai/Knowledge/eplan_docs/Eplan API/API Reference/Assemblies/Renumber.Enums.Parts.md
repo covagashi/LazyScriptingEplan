@@ -9,7 +9,7 @@ Parameter enum for parts list position numbering. The enum determines, which kin
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Renumber.Enums.Parts : System.Enum

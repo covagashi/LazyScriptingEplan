@@ -9,7 +9,7 @@ Creates or redefines the placement area of Placement3D.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlacementArea( 

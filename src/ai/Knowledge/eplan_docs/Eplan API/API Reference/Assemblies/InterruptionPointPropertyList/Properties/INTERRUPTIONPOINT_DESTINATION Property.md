@@ -9,7 +9,7 @@ Target of interruption point # 24000.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INTERRUPTIONPOINT_DESTINATION {get; set;}

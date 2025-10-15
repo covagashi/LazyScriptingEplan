@@ -9,7 +9,7 @@ Cables: Page name of the cable diagram # 35106.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLE_DIAGRAMPAGE {get; set;}

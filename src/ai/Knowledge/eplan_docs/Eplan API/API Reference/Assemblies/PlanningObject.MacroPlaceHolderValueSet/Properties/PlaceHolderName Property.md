@@ -9,7 +9,7 @@ Returns the name of the macro placeholder
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PlaceHolderName {get;}

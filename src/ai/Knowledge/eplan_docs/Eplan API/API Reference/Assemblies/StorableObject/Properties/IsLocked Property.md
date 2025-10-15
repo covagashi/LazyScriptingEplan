@@ -11,7 +11,7 @@ The StorableObject is locked when it was explicitly or implicitly locked.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsLocked {get;}

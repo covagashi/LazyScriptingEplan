@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public abstract class InterruptionPointVerification : Verification, IInterruptionPointVerification, IMessage, IVerification, IVerificationBase
@@ -58,7 +58,7 @@ Public Properties
 | Public Property | [VerificationPermission](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification~VerificationPermission.html) | The permission of a verification determines for what type of check the verification is enabled at most/ maximum. (Inherited from [Eplan.EplApi.EServices.Verification](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification.html)) |
 | Public Property | [VerificationState](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification~VerificationState.html) | The VerificationState determines the actual adjusted check type whereas the permission determines what state is theoretically allowed at most. (Inherited from [Eplan.EplApi.EServices.Verification](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -75,4 +75,4 @@ Public Methods
 | Public Method | [OnRegister](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification~OnRegister.html) | Overloaded. If true, all messages with the same region and message id are removed after OnStartInspection is called. (Inherited from [Eplan.EplApi.EServices.Verification](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification.html)) |
 | Public Method | [OnStartInspection](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification~OnStartInspection.html) | (Inherited from [Eplan.EplApi.EServices.Verification](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification.html)) |
 
-[Top](#top)
+

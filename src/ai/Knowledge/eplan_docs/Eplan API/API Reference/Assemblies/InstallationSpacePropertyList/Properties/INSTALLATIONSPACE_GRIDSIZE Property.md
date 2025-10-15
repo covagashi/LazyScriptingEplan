@@ -9,7 +9,7 @@ Grid size # 36450.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTALLATIONSPACE_GRIDSIZE {get; set;}

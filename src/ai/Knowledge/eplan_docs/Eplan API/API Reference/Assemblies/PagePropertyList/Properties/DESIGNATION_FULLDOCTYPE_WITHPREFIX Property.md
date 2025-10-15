@@ -9,7 +9,7 @@ Document type with preceding sign # 1540.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLDOCTYPE_WITHPREFIX {get; set;}

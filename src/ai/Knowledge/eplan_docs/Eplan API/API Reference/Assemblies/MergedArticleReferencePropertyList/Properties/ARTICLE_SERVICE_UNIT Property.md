@@ -9,7 +9,7 @@ Performance unit (bill of quantities) # 26429.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SERVICE_UNIT {get; set;}

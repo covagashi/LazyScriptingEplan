@@ -9,7 +9,7 @@ Weight / length # 22067.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CABLEWEIGHT {get; set;}

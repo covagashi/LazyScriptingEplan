@@ -9,7 +9,7 @@ Data backup: Complete backup # 10510.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BACKUP_FULL {get; set;}

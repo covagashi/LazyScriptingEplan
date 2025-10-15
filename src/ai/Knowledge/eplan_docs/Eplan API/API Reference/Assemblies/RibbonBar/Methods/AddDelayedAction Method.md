@@ -9,7 +9,7 @@ Calls an action object on the ribbon. If the ribbon doesn't exist yet, the actio
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddDelayedAction( 

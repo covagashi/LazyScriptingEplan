@@ -9,7 +9,7 @@ Creates new property definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static UserDefinedPropertyDefinition Create( 

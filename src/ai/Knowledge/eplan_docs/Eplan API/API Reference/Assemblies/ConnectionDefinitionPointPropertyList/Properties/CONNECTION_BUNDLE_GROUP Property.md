@@ -9,7 +9,7 @@ Bundle group # 31093.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_BUNDLE_GROUP {get; set;}

@@ -9,7 +9,7 @@ Connection point pattern # 22941.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_REF_TERMINAL_NAME {get; set;}

@@ -9,7 +9,7 @@ PLC card is placed on rack ID # 20410.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCRACK {get; set;}

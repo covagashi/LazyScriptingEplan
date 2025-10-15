@@ -9,7 +9,7 @@ Active Rubber-box cursor.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetRubberboxCursor()

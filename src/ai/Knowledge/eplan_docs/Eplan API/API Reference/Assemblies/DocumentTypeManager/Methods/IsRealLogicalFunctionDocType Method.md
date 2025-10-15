@@ -9,7 +9,7 @@ Determines, if the given value specifies a real logical function.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool IsRealLogicalFunctionDocType( 

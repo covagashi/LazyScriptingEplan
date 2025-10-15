@@ -9,7 +9,7 @@ Sends an event to the system.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Send( 

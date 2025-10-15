@@ -9,7 +9,7 @@ Returns list of properties that was changed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ComparisonEntryDetail[] ComparisonEntryDetails {get;}

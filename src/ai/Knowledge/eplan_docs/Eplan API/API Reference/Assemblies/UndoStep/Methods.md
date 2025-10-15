@@ -16,4 +16,4 @@ Public Methods
 | Public Method | [DoUndo](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UndoStep~DoUndo.html) | Overloaded. Make Undo action - reverse all operations up to last CloseOpenUndo call or initalization of UndoStep object. |
 | Public Method | [SetUndoDescription](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UndoStep~SetUndoDescription.html) | Set description of Undo action. |
 
-[Top](#top)
+

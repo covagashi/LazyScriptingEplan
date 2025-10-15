@@ -9,7 +9,7 @@ Nominal pressure series # 26309.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NOMINAL_PRESSURE_SERIES {get; set;}

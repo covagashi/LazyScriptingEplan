@@ -9,7 +9,7 @@ Location designation (single component) # 1228.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_LOCATION_PART {get; set;}

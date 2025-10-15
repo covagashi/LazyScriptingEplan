@@ -9,7 +9,7 @@ Get string displayed in project dialogs.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetStringToDisplayInDialogs( 

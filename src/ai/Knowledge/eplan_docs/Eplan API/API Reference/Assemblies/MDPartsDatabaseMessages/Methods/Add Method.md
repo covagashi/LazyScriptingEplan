@@ -9,7 +9,7 @@ Adds an item to the `MDPartsDatabaseMessages`.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Add( 

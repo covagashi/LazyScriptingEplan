@@ -9,7 +9,7 @@ Sets the value of settings on a given path.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void SetDoubleSetting( 

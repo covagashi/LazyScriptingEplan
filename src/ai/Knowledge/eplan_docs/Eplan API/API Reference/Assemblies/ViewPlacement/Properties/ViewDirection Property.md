@@ -9,7 +9,7 @@ The direction from which objects are seen in ViewPlacement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ViewDirectionType ViewDirection {get; set;}

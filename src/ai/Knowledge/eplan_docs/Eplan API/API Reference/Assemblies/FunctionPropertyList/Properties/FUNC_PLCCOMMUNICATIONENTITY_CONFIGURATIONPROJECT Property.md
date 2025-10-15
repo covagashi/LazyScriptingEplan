@@ -9,7 +9,7 @@ Configuration project (at communication units) # 20107.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCOMMUNICATIONENTITY_CONFIGURATIONPROJECT( 

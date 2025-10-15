@@ -9,7 +9,7 @@ Implementation # 44043.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PCT_IMPLEMENTATION {get; set;}

@@ -9,7 +9,7 @@ Y coordinate starting point # 19341.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue RECTANGLE_START_Y {get; set;}

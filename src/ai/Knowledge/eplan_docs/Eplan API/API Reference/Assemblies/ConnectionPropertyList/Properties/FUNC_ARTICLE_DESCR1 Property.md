@@ -9,7 +9,7 @@ Part: Designation 1 # 20193.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_DESCR1( 

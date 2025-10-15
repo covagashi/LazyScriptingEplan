@@ -9,7 +9,7 @@ Plugs: Clearance # 22096.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_AIRGAP {get; set;}

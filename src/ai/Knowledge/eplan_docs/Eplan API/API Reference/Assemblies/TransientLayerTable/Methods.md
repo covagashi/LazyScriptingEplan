@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.TransientLayerTable~Dispose().html) | Destructor for deterministic finalization of TransientLayerTable object. |
 
-[Top](#top)
+

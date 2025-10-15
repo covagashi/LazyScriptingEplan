@@ -9,7 +9,7 @@ Copper bundle: Name # 36458.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue COPPERBUNDLE_DESIGNATION {get; set;}

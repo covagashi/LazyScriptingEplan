@@ -9,7 +9,7 @@ Modification date (UTC) # 22986.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PART_LASTCHANGE_DATE_UTC {get; set;}

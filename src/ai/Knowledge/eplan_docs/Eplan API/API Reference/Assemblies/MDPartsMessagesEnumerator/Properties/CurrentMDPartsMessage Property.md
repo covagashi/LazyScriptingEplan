@@ -9,7 +9,7 @@ gets the current element in [Eplan::EplApi::MasterData:](Eplan.EplApi.MasterData
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual MDPartsMessage CurrentMDPartsMessage {get;}

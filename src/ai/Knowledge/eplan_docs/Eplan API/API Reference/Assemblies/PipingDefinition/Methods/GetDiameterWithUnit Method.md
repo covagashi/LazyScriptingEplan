@@ -9,7 +9,7 @@ Gets cross-section / diameter with unit of object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string GetDiameterWithUnit()

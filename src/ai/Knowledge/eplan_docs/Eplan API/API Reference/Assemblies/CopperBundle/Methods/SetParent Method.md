@@ -9,7 +9,7 @@ Sets parent placement. Sets parent placement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override void SetParent( 

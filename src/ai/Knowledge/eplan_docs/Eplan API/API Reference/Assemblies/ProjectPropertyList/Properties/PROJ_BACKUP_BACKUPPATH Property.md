@@ -9,7 +9,7 @@ Data backup: Backup directory # 10517.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BACKUP_BACKUPPATH {get; set;}

@@ -9,7 +9,7 @@ Macro: Representation type # 23007.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROBOX_REPRESENTATION_TYPE {get; set;}

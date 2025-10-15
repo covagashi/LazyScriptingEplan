@@ -9,7 +9,7 @@ Rail cross-section # 22271.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_RAILCROSSSECTION {get; set;}

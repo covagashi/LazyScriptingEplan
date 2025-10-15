@@ -9,7 +9,7 @@ User name (change tracking) # 10191.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_REVISION_LOG_USERNAME( 

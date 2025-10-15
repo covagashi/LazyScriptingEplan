@@ -9,7 +9,7 @@ Serves as the default hash function.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override int GetHashCode()

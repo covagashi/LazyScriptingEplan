@@ -9,7 +9,7 @@ Breaks up the block into its individual elements.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement[] BreakUp()

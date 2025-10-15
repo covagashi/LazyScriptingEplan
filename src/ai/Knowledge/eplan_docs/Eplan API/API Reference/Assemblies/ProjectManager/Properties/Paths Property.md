@@ -9,7 +9,7 @@ Returns [PathInfo](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PathInfo.html)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PathInfo Paths {get;}

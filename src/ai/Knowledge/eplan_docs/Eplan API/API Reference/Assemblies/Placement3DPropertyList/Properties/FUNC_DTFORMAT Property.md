@@ -9,7 +9,7 @@ Format of displayed DT # 20205.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DTFORMAT {get; set;}

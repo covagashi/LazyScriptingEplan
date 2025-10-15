@@ -9,7 +9,7 @@ Gets a read only list of all Symbols in the library
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDSymbol[] Symbols {get;}

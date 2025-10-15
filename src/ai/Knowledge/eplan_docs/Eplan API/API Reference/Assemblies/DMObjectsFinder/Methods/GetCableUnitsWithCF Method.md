@@ -9,7 +9,7 @@ Returns [Eplan.EplApi.DataModel.EObjects.CableUnit](Eplan.EplApi.DataModelu~Epla
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public CableUnit[] GetCableUnitsWithCF( 

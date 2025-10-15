@@ -9,7 +9,7 @@ PLC subdevice 3: Data length (inputs) # 22291.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PLCGROUP_DATALENGTH_INPUTS_3 {get; set;}

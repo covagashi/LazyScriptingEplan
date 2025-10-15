@@ -9,7 +9,7 @@ Flow # 31085.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_FLOW {get; set;}

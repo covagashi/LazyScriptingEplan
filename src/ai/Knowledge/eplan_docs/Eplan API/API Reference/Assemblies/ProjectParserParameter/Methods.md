@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ParserParameter~Dispose().html) | Destructor for deterministic finalization of ParserParameter object. (Inherited from [Eplan.EplApi.Base.ParserParameter](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ParserParameter.html)) |
 | Public Method | [SetParameter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.ProjectParserParameter~SetParameter.html) | Set the Parameter to resolve the project dependent units, p.e. Length\_Project\_cable |
 
-[Top](#top)
+

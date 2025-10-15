@@ -9,7 +9,7 @@ Assembly # 20905.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_ASSEMBLY( 

@@ -9,7 +9,7 @@ This operator check if first version is differ then second.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool operator !=( 

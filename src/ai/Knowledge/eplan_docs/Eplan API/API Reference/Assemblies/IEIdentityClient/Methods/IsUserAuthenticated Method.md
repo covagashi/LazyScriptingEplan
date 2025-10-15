@@ -9,7 +9,7 @@ Is the current user authenticated
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool IsUserAuthenticated()

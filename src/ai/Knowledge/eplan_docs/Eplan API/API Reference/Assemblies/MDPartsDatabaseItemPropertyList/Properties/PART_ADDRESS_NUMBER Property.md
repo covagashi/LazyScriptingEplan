@@ -9,7 +9,7 @@ Customer number # 22921.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ADDRESS_NUMBER {get; set;}

@@ -9,7 +9,7 @@ Is called on move of cursor by mouse or keys.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void OnCursorMove( 

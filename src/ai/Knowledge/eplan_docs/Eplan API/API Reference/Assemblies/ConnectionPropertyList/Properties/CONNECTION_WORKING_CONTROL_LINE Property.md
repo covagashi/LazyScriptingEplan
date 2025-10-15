@@ -9,7 +9,7 @@ Pressure line / control line # 31057.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_WORKING_CONTROL_LINE {get; set;}

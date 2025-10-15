@@ -9,7 +9,7 @@ Product subgroup # 22028.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PRODUCTSUBGROUP {get; set;}

@@ -9,7 +9,7 @@ Distance cover # 22179.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TOPPANELDISTANCE {get; set;}

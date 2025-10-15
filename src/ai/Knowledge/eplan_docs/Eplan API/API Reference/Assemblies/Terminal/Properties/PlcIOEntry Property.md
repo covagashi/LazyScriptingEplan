@@ -9,7 +9,7 @@ Gets a PlcIOEntry object associated with this PLC terminal. Returns NULL for non
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlcIO PlcIOEntry {get;}

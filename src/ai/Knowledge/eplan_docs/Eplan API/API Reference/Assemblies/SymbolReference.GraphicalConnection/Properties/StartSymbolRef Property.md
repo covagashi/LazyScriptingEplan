@@ -9,7 +9,7 @@ Returns the first connected symbol.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolReference StartSymbolRef {get;}

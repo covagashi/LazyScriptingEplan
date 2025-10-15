@@ -9,7 +9,7 @@ Macro: Type of usage # 23011.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROBOX_USAGE {get; set;}

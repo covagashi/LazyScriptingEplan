@@ -9,7 +9,7 @@ Provision of cable # 26232.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PROVISION_OF_THE_CABLE {get; set;}

@@ -9,7 +9,7 @@ Name of objects which will be used to filter objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get; set;}

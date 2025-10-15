@@ -9,7 +9,7 @@ Identificators of properties owned by OptionGroup class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.OptionGroup : System.Enum

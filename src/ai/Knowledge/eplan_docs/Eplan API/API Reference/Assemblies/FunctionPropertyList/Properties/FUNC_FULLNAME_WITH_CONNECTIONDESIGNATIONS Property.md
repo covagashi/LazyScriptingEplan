@@ -9,7 +9,7 @@ Name (complete with connection point designations) # 20342.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_FULLNAME_WITH_CONNECTIONDESIGNATIONS {get; set;}

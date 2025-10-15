@@ -9,7 +9,7 @@ Array of names of devices assign to this report stored in property lists.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public FunctionBasePropertyList[] DeviceTagNameParts {get; set;}

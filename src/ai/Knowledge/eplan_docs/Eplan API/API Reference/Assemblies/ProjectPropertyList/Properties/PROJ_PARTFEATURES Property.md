@@ -9,7 +9,7 @@ Part features # 10033.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_PARTFEATURES {get; set;}

@@ -9,7 +9,7 @@ Method for renumbering pages specified by the collection pages;
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Pages( 

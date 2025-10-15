@@ -25,4 +25,4 @@ Public Methods
 | Public Method | [ReorganizeStructure](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PrePlanningService~ReorganizeStructure.html) | Reorganizes structure of planning objects in given project. |
 | Public Method | [UpdateDetailPlanning](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PrePlanningService~UpdateDetailPlanning.html) | Overloaded. Updates data to ensure that the property values in all planning objects from project are the same as in assigned functions. |
 
-[Top](#top)
+

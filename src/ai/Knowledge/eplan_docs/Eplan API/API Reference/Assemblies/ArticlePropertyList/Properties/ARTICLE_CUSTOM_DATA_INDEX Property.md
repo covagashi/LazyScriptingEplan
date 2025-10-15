@@ -9,7 +9,7 @@ API Parts Management Extension: Name of add-in # 22212.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CUSTOM_DATA_INDEX( 

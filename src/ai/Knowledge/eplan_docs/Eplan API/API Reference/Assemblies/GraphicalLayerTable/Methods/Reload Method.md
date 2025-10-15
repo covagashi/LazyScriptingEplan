@@ -9,7 +9,7 @@ Updates table's content with the project
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Reload()

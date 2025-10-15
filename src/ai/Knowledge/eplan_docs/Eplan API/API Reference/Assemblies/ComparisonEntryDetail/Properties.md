@@ -24,4 +24,4 @@ Public Properties
 | Public Property | [PropertyValue](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Revisions.ComparisonEntryDetail~PropertyValue.html) | Shows the value of the property in the current project. |
 | Public Property | [TypeIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TypeIdentifier.html) | Returns the type of the object as number. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 
-[Top](#top)
+

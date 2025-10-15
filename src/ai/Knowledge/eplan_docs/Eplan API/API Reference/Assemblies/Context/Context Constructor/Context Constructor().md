@@ -9,7 +9,7 @@ Creates a new Context object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Context()

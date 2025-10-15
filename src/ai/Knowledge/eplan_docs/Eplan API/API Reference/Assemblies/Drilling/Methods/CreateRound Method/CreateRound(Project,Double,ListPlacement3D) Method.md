@@ -9,7 +9,7 @@ Creates unplaced new round drilling in project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Drilling CreateRound( 

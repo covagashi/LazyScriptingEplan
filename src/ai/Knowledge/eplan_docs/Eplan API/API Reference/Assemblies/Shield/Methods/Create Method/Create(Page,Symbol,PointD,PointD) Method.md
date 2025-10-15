@@ -9,7 +9,7 @@ Creates new Shield object of given dimensions and places on page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

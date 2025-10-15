@@ -9,7 +9,7 @@ IdentityStatusCode success code.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public IdentityStatusCode StatusCode {get; set;}

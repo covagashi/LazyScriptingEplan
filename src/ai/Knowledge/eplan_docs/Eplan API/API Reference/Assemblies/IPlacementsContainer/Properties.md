@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Property | [SubPlacements](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IPlacementsContainer~SubPlacements.html) | Returns array of placements combined in the container. |
 
-[Top](#top)
+

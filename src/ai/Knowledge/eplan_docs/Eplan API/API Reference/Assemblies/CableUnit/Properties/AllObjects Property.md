@@ -9,7 +9,7 @@ Returns an array of StorableObjects which contains the same harness name in prop
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] AllObjects {get;}

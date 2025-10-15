@@ -7,7 +7,7 @@
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ContextMenuName {get; set;}

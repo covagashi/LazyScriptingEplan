@@ -9,7 +9,7 @@ Returns all [Plug](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Plug.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Plug[] Plugs {get;}

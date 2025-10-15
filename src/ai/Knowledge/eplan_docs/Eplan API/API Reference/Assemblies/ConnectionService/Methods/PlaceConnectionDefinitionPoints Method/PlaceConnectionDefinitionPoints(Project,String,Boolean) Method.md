@@ -9,7 +9,7 @@ Automatic optimization of nets and connections routed in them.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool OptimizeNetAutomatically( 

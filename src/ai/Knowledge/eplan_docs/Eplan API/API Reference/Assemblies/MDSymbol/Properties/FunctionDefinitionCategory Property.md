@@ -9,7 +9,7 @@ Category of FunctionDefinition as enum value.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public FunctionCategory FunctionDefinitionCategory {get; set;}

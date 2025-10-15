@@ -9,7 +9,7 @@ TCF: Number of calculation methods # 26079.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NUMBER_OF_TCF_METHODS {get; set;}

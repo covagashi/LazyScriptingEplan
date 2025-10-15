@@ -21,4 +21,4 @@ Public Methods
 | Public Method | [FindKeyword](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDTranslationDatabase~FindKeyword.html) | Finds keyword. |
 | Public Method | [Open](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDTranslationDatabase~Open.html) | Opens translation database using user settings. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Returns all [Eplan.EplApi.DataModel.EObjects.TerminalStrip](Eplan.EplApi.DataMod
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public TerminalStrip[] TerminalStrips {get;}

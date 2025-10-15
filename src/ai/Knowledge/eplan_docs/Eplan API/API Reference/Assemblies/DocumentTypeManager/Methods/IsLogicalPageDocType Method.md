@@ -9,7 +9,7 @@ Determines if page is a logical page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool IsLogicalPageDocType( 

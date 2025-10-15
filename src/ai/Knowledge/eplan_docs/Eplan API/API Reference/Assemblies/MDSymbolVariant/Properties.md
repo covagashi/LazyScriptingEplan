@@ -16,4 +16,4 @@ Public Properties
 | Public Property | [PropertyPlacements](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolVariant~PropertyPlacements.html) | A read only list of all PropertyPlacements from the variant. |
 | Public Property | [SymbolConnectionPoints](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolVariant~SymbolConnectionPoints.html) | A read only list of all MDSymbolConnectionPoints from the variant. |
 
-[Top](#top)
+

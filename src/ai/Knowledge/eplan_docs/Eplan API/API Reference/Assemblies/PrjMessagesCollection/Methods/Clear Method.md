@@ -9,7 +9,7 @@ Removes all items from the `PrjMessagesCollection`.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Clear()

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MacroBox.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MacroBox.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MacroBox+Enums~_ctor.html) |  |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Higher-level function number (sub-identifier, complete) # 1721.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLSUBINSTALLATIONNUMBER {get; set;}

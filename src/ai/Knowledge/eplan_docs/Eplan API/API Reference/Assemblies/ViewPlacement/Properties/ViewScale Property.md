@@ -9,7 +9,7 @@ Type of scaling used to display objects in ViewPlacement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ViewScaleType ViewScale {get; set;}

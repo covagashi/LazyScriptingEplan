@@ -9,7 +9,7 @@ Device protection # 20475.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_FIXED_DEVICE {get; set;}

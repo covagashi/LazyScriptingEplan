@@ -9,7 +9,7 @@ Creates reports from templates of given document type.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateReportsFromTemplates( 

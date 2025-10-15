@@ -9,7 +9,7 @@ Returns array of all P8 properties id which can exist for MDPartsDatabaseItem ob
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static MDAnyPropertyId[] AllMDPartsDatabaseItemPropIDs {get;}

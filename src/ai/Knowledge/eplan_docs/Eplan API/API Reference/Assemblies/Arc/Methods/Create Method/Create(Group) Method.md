@@ -9,7 +9,7 @@ Creates a Arc object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Arc Create( 

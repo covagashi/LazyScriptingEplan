@@ -9,7 +9,7 @@ Exports PLC data using the specified converter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ExportData( 

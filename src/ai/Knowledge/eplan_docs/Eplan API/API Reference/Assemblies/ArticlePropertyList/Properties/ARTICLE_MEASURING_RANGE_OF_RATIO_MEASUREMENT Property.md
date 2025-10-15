@@ -9,7 +9,7 @@ Measuring range: Ratio measurement # 26450.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MEASURING_RANGE_OF_RATIO_MEASUREMENT {get; set;}

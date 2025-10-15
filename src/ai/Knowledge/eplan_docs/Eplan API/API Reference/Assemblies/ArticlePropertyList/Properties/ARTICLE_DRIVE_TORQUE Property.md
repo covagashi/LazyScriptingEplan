@@ -9,7 +9,7 @@ Drive torque # 26008.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DRIVE_TORQUE {get; set;}

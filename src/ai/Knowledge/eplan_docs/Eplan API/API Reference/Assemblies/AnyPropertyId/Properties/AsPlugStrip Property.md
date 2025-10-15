@@ -9,7 +9,7 @@ Gets property id value as [Properties.PlugStrip](Eplan.EplApi.DataModelu~Eplan.E
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.PlugStrip AsPlugStrip {get;}

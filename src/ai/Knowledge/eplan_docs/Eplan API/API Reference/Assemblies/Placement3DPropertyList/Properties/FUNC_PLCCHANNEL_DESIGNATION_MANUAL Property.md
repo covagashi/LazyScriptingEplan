@@ -9,7 +9,7 @@ Channel designation # 20407.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCHANNEL_DESIGNATION_MANUAL {get; set;}

@@ -9,7 +9,7 @@ Parameter enum for pages numbering.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Renumber.Enums.SubPages : System.Enum

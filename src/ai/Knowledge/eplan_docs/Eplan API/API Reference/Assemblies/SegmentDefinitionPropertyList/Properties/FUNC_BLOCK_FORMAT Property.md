@@ -9,7 +9,7 @@ Block property: Format # 20202.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_BLOCK_FORMAT( 

@@ -9,7 +9,7 @@ Sets the page and sets the given full name as the new full name to the given fun
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SetFullNameAndAdjustVisibleName( 

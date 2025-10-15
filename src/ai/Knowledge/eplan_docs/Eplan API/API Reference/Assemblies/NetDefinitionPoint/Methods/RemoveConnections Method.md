@@ -9,7 +9,7 @@ Remove connections of NetDefinitionPoint object
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveConnections( 

@@ -9,7 +9,7 @@ The referenced mounting panel part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPart Part {get;}

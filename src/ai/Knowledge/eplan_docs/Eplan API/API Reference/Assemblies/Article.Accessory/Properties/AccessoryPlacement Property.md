@@ -9,7 +9,7 @@ Returns the name of the accessory placement, if the referenced article is used t
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string AccessoryPlacement {get;}

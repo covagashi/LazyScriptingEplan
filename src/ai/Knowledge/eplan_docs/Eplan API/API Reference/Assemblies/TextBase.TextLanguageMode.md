@@ -9,7 +9,7 @@ Specifies language mode of text.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum TextBase.TextLanguageMode : System.Enum

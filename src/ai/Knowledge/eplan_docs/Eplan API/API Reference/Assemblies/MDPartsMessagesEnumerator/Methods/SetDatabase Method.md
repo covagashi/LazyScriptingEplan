@@ -9,7 +9,7 @@ initializes the enumerator for iterating over the Parts Database messages collec
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetDatabase( 

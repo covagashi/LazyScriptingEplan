@@ -9,7 +9,7 @@ Suitable as monitoring device # 26356.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_SUITABLE_AS_MONITOR( 

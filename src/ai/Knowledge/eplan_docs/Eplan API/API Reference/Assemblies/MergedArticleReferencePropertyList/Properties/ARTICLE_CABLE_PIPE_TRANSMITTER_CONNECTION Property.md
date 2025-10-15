@@ -9,7 +9,7 @@ Measuring transducer: Line connection (cable / pipe) # 26202.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CABLE_PIPE_TRANSMITTER_CONNECTION {get; set;}

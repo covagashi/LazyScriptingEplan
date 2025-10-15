@@ -9,7 +9,7 @@ Is called after restart of the interaction.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual RequestCode OnRestart()

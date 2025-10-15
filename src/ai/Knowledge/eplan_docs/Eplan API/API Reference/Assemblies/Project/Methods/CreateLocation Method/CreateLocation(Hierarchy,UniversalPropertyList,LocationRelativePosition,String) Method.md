@@ -9,7 +9,7 @@ Creates location in the given hierarchy, and places it in position eRelPos relat
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CreateLocation( 

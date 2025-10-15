@@ -9,7 +9,7 @@ Moves placement area toward the axis of the normal vector of placement area.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool MoveRelative( 

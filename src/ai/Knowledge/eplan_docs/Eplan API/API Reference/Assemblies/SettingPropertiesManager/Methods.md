@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [CreateSettingPropertiesStep](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Helpers.SettingPropertiesManager~CreateSettingPropertiesStep.html) | Overloaded. Creates object representing a setting properties step. |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Helpers.SettingPropertiesManager~Dispose().html) | Destructor for deterministic finalization of SettingPropertiesManager object. |
 
-[Top](#top)
+

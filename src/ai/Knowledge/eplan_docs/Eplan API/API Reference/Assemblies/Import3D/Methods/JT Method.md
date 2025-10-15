@@ -9,7 +9,7 @@ Imports a 3D file
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InstallationSpace JT( 

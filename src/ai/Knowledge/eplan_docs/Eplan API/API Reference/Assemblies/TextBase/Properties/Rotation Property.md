@@ -9,7 +9,7 @@ Returns the rotation of the Text, in radians.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Rotation {get; set;}

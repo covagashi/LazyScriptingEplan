@@ -9,7 +9,7 @@ Searches on the specified project for a search string. The search settings will 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Project( 

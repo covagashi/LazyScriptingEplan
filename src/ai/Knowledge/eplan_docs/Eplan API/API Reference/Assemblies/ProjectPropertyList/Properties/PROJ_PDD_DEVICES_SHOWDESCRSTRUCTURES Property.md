@@ -9,7 +9,7 @@ Show descriptive identifiers in device navigators # 10095.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_PDD_DEVICES_SHOWDESCRSTRUCTURES {get; set;}

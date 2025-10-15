@@ -9,7 +9,7 @@ Total amount (number of units) # 20499.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_COUNT_TOTAL {get; set;}

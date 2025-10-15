@@ -9,7 +9,7 @@ Certification: VDE # 22050.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CERTIFICATE_VDE {get; set;}

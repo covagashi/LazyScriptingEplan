@@ -9,7 +9,7 @@ Identificators of properties owned by PlaceHolder class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.PlaceHolder : System.Enum

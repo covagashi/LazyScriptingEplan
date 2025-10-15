@@ -20,4 +20,4 @@ Public Properties
 | Public Property | [UniteConnected](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.TerminalsService+OptimizeDistributedTerminalsConfig~UniteConnected.html) | If TRUE, connected distributed terminals will be sorted on the strip, so that they are located together on the strip. Default is TRUE. |
 | Public Property | [UniteConnectedPE](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.TerminalsService+OptimizeDistributedTerminalsConfig~UniteConnectedPE.html) | If TRUE, connected distributed PE-terminals will be sorted on the strip, so that they are located together on the strip. Default is TRUE. |
 
-[Top](#top)
+

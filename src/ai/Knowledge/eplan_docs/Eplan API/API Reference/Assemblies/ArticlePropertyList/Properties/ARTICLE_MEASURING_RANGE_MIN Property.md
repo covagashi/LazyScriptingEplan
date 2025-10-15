@@ -9,7 +9,7 @@ Measuring range, min. # 26454.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MEASURING_RANGE_MIN {get; set;}

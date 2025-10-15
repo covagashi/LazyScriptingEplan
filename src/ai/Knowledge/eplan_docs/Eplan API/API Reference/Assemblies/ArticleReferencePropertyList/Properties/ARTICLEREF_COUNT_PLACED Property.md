@@ -9,7 +9,7 @@ Number of units / quantity (placed) # 20483.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_COUNT_PLACED {get; set;}

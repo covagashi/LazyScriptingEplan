@@ -9,7 +9,7 @@ Hierarchy level of the device structure
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Project.Hierarchy : System.Enum

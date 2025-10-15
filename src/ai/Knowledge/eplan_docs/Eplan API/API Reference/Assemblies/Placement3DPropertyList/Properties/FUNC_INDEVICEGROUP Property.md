@@ -9,7 +9,7 @@ Grouped by device # 20469.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_INDEVICEGROUP {get; set;}

@@ -9,7 +9,7 @@ DNS/PROFINET device name # 20309.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLC_DNS {get; set;}

@@ -9,7 +9,7 @@ Returns all Eplan.EplApi.DataModel.Placement3D contained in the macro.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement3D[] Objects3D {get;}

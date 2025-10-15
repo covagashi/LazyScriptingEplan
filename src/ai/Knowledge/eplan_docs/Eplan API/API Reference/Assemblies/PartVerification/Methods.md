@@ -18,4 +18,4 @@ Public Methods
 | Public Method | [OnRegister](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PartVerification~OnRegister.html) | Overloaded. Called by Eplan when the new project message is added to the system. If a new project message was added to a registered add-in, the add-in must be registered over again. |
 | Public Method | [OnStartInspection](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PartVerification~OnStartInspection.html) |  |
 
-[Top](#top)
+

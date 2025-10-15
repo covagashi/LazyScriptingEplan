@@ -9,7 +9,7 @@ Type of control (technology) # 26019.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TYPE_OF_CONTROL_TECHNOLOGY {get; set;}

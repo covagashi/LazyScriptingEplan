@@ -9,7 +9,7 @@ GMP-relevant # 44061.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_GMP_RELEVANT {get; set;}

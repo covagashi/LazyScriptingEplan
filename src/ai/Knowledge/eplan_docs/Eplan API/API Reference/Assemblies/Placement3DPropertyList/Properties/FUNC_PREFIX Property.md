@@ -9,7 +9,7 @@ DT: Prefix # 20012.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PREFIX {get; set;}

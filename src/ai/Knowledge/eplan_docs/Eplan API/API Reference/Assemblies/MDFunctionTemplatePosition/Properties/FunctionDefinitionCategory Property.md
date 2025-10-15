@@ -9,7 +9,7 @@ The category of the function definition set to the function template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public FunctionCategory FunctionDefinitionCategory {get; set;}

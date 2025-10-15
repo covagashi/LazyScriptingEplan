@@ -9,7 +9,7 @@ Connect to service.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void Connect()

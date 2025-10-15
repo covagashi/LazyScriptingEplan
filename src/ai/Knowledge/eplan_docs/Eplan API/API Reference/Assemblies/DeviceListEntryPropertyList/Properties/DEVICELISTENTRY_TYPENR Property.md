@@ -9,7 +9,7 @@ Type number # 23203.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DEVICELISTENTRY_TYPENR {get; set;}

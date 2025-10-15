@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [ToInt](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Relation~ToInt.html) | Relation-Id - identifies which type of navigation will be done. |
 
-[Top](#top)
+

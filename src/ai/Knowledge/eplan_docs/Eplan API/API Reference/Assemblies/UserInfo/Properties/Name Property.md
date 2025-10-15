@@ -9,7 +9,7 @@ Get the long name of the User.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get;}

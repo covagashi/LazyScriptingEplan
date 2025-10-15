@@ -9,7 +9,7 @@ BACnet # 26227.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_BACNET {get; set;}

@@ -9,7 +9,7 @@ Logical network: Name # 20414.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCMASTER {get; set;}

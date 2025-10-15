@@ -21,7 +21,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PlacementsFilter : StorableObjectsFilter
@@ -93,7 +93,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PlacementsFilter Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementsFilter~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -101,7 +101,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementsFilter~Page.html) | Overridden. Sets the [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html) that [StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)s matching the filter must be placed on. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -111,4 +111,4 @@ Public Methods
 | Public Method | [ResetFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementsFilter~ResetFilter.html) | Overridden. Resets the filter. Filter matches all [StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)s then. |
 | Public Method | [SetFilteredPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementsFilter~SetFilteredPropertyList.html) | Overloaded. Sets the [PlacementPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementPropertyList.html) that [Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement.html)s matching the filter must have. |
 
-[Top](#top)
+

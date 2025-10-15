@@ -9,7 +9,7 @@ Customer: Street # 10105.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CUSTOMERSTREET {get; set;}

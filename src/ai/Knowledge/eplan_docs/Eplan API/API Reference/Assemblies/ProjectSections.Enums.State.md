@@ -7,7 +7,7 @@
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ProjectSections.Enums.State : System.Enum

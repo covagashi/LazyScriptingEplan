@@ -9,7 +9,7 @@ Designate connections (wires) with connection definition point.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DesignateConnections( 

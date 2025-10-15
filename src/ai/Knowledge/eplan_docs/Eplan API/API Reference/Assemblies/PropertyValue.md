@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Item")]
@@ -160,7 +160,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PropertyValue Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyValue~_ctor().html) | Default constructor. Creates the PropertyValue object. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -174,7 +174,7 @@ Public Properties
 | Public Property | [LastUsedIndex](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyValue~LastUsedIndex.html) | Returns the number of the highest used index. Indexes start at 1. If the property is not indexed or there is no used index, LastUsedIndex is 0. To use the LastUsedIndex property, the PropertyValue object must point to a project property (persistent property).It cannot point to an individual value (transient property). |
 | Public Property | [Parent](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyValue~Parent.html) | Property list to which this property value is connected. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -194,7 +194,7 @@ Public Methods
 | Public Method | [ToString](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyValue~ToString.html) | Overloaded. Returns string value of this property. When type of property is MultiLangString then only the specified language is returned. In case of a transient PropertyValue object, the stored value is returned without any cast. When property can not be read, `default_value` is returned instead of throwing an `EmptyPropertyException` . |
 | Public Method | [ToTime](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyValue~ToTime.html) | Used in conversion of the PropertyValue object to `time`. |
 
-[Top](#top)
+
 
 Public Operators
 
@@ -204,4 +204,4 @@ Public Operators
 | public Operator [Implicit Type Conversion](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyValue~op_Implicit.html) | Overloaded. Used in conversion of the PropertyValue object to `int`. |
 | public Operator [Inequality](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyValue~op_Inequality.html) |  |
 
-[Top](#top)
+

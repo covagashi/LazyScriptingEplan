@@ -16,4 +16,4 @@ Public Methods
 | Public Method | [SymbolMacro](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Insert~SymbolMacro.html) | Overloaded. Places a symbol macro onto a given position of a page. You can set whether absolute coordinates or coordinates relative to its original position on the page should be used. |
 | Public Method | [WindowMacro](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Insert~WindowMacro.html) | Overloaded. Places a window macro onto a given position of a page. You can set whether absolute coordinates or coordinates relative to its original position on the page should be used. |
 
-[Top](#top)
+

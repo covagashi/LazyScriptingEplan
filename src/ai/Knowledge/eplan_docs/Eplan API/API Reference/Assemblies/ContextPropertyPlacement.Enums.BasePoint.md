@@ -9,7 +9,7 @@ Enumeration of BasePoint type There can be set only several values for some obje
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ContextPropertyPlacement.Enums.BasePoint : System.Enum

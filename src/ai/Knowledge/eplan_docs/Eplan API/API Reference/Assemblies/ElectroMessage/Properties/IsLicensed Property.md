@@ -9,7 +9,7 @@ Returns true if the message is licensed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsLicensed {get;}

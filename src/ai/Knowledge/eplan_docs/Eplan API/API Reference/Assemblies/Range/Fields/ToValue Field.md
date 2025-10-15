@@ -9,7 +9,7 @@ Maximal value(end, stop)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public object ToValue

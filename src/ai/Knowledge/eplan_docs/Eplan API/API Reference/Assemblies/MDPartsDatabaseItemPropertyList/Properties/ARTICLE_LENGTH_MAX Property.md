@@ -9,7 +9,7 @@ Length, max. # 26413.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_LENGTH_MAX {get; set;}

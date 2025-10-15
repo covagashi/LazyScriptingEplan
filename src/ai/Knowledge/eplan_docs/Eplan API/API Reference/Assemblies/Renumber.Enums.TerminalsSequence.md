@@ -9,7 +9,7 @@ Parameter enum for the terminal sequence during terminal numbering..
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Renumber.Enums.TerminalsSequence : System.Enum

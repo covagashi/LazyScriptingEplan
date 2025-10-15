@@ -9,7 +9,7 @@ Replace [Eplan::EplApi::DataModel:](Eplan.EplApi.DataModelu~Eplan.EplApi.DataMod
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ReplaceLayer( 

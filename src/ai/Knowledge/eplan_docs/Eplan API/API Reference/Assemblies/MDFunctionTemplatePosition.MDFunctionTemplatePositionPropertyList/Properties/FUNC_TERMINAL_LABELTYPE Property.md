@@ -9,7 +9,7 @@ Labeling type # 20365.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNC_TERMINAL_LABELTYPE {get; set;}

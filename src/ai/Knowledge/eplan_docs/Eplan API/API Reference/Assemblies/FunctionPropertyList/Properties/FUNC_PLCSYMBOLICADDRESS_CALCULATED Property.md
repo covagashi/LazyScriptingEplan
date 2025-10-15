@@ -9,7 +9,7 @@ Symbolic address (determined) # 20403.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCSYMBOLICADDRESS_CALCULATED {get; set;}

@@ -9,7 +9,7 @@ Gets property id value as [Properties.CopperBundle](Eplan.EplApi.DataModelu~Epla
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.CopperBundle AsCopperBundle {get;}

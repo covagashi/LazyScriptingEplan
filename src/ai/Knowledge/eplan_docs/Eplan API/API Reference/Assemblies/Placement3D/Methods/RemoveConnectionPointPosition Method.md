@@ -9,7 +9,7 @@ Removes connection point data stored under given index.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveConnectionPointPosition( 

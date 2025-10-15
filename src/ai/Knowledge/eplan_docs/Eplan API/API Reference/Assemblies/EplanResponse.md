@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class EplanResponse : CallingContext
@@ -28,7 +28,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [EplanResponse Constructor](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.EplanResponse~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -39,7 +39,7 @@ Public Properties
 | Public Property | [Parameters](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext~Parameters.html) | Parameters and values (Inherited from [Eplan.EplApi.Remoting.CallingContext](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext.html)) |
 | Public Property | [Succeed](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext~Succeed.html) | Succeed flag (Inherited from [Eplan.EplApi.Remoting.CallingContext](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -50,4 +50,4 @@ Public Methods
 | Public Method | [Remove](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext~Remove.html) | Remove a parameter. (Inherited from [Eplan.EplApi.Remoting.CallingContext](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext.html)) |
 | Public Method | [Set](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext~Set.html) | Sets a new parameter. (Inherited from [Eplan.EplApi.Remoting.CallingContext](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext.html)) |
 
-[Top](#top)
+

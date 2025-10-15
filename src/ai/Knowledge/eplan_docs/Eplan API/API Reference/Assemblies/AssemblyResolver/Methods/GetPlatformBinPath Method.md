@@ -9,7 +9,7 @@ Get the EPLAN platform bin path. The bin path where the w3Sharedu.dll is in and 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetPlatformBinPath()

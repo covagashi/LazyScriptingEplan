@@ -9,7 +9,7 @@ Page, the editor belongs to.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Page Page {get;}

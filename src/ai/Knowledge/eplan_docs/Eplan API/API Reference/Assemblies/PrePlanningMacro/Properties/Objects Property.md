@@ -9,7 +9,7 @@ Returns all objects stored in the macro.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] Objects {get;}

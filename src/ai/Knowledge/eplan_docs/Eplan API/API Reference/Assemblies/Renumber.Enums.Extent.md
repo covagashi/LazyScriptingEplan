@@ -9,7 +9,7 @@ Parameter enum to define the scope of numbering:
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Renumber.Enums.Extent : System.Enum

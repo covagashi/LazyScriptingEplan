@@ -9,7 +9,7 @@ ProductVersion. This should include also the buildNumber.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ProductVersion {get; set;}

@@ -9,7 +9,7 @@ Connection point logic: Target tracking (PLC) to # 20449.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_LOGDEF_PLCDESTINATIONTRACKING( 

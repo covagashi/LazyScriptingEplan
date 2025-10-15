@@ -9,7 +9,7 @@ Exports a complete project as DXF/DWG files. Export settings are taken from the 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DxfDwgProject( 

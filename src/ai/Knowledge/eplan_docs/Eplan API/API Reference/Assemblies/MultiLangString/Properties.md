@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [InternalString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString~InternalString.html) | Sets internal string representation with format validation. |
 
-[Top](#top)
+

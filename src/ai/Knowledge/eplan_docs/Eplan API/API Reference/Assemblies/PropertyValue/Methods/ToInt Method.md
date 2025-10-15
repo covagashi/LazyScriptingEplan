@@ -9,7 +9,7 @@ Used in conversion of the PropertyValue object to `int`.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int ToInt()

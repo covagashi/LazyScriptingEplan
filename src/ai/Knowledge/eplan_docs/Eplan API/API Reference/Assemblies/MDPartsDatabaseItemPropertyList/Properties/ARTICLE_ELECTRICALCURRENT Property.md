@@ -9,7 +9,7 @@ Current # 22071.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ELECTRICALCURRENT {get; set;}

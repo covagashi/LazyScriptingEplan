@@ -9,7 +9,7 @@ Copies stored project master data into the system master data pool.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Hashtable AddToSystemEx( 

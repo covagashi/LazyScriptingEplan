@@ -9,7 +9,7 @@ Gets the end angle value of the arc. This property returns 0 for ellipse type.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double EndAngle {get;}

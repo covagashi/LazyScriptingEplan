@@ -9,7 +9,7 @@ Revision index (change tracking) # 11071.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_REVISION_LOG_NAME( 

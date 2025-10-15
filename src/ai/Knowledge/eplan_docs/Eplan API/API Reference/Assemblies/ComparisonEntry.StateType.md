@@ -9,7 +9,7 @@ Possible types of changes.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ComparisonEntry.StateType : System.Enum

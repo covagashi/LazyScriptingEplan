@@ -9,7 +9,7 @@ Gets a value or variable on a property of an object referenced by a PlaceHolder.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual MultiLangString GetPropertyEntry( 

@@ -9,7 +9,7 @@ Parameter enum for numbering terminals with "Allow same designations" property .
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Renumber.Enums.MultipleTerminals : System.Enum

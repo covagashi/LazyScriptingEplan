@@ -9,7 +9,7 @@ Get all objects of the same macro
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] ObjectsOfSameMacro {get;}

@@ -9,7 +9,7 @@ Property arrangement: Automatic X coordinate (path) # 12063.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_AUTOX_OFFSET {get; set;}

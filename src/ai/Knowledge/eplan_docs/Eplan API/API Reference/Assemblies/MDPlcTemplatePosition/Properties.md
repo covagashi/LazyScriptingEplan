@@ -33,4 +33,4 @@ Public Properties
 | Public Property | [SymbolMacro](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPlcTemplatePosition~SymbolMacro.html) | The symbol macro of PLC template |
 | Public Property | [TemplateGroup](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDFunctionTemplatePosition~TemplateGroup.html) | The template group of the function template (Inherited from [Eplan.EplApi.MasterData.MDFunctionTemplatePosition](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDFunctionTemplatePosition.html)) |
 
-[Top](#top)
+

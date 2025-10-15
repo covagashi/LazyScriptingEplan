@@ -9,7 +9,7 @@ Gets table of symbol variants.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolVariant[] Variants {get;}

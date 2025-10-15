@@ -9,7 +9,7 @@ Temperature # 31084.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_TEMPERATURE {get; set;}

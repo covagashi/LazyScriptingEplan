@@ -9,7 +9,7 @@ Determines the list of languages, which the given storableObjects have in common
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool GetCommonLanguages( 

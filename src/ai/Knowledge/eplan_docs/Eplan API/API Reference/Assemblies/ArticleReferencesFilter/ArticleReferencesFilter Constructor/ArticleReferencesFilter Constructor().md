@@ -9,7 +9,7 @@ Default constructor. Creates Filter that matches all [ArticleReference](Eplan.Ep
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ArticleReferencesFilter()

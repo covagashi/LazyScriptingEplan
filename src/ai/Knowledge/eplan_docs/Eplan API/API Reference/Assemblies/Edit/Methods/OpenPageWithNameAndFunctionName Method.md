@@ -9,7 +9,7 @@ Opens the page which contains a given function. The function is selected in the 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void OpenPageWithNameAndFunctionName( 

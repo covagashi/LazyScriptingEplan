@@ -9,7 +9,7 @@ Documents: File / hyperlink # 44068.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_DOCUMENTS_URL( 

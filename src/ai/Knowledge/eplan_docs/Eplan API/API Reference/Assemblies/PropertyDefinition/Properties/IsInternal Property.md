@@ -9,7 +9,7 @@ Allows to check if a given property is marked as internal. Don't use this proper
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsInternal {get;}

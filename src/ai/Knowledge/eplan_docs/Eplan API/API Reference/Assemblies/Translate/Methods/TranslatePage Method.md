@@ -9,7 +9,7 @@ Translates all texts of a page in the specified project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void TranslatePage( 

@@ -9,7 +9,7 @@ returns the object id of the first object which was not locked. .
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string GetFirstFailed2LockAsString()

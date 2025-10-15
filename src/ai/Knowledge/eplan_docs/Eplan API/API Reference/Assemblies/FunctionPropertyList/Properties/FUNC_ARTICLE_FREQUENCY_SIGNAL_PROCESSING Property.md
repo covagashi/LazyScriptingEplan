@@ -9,7 +9,7 @@ Frequency (signal processing) # 26337.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_FREQUENCY_SIGNAL_PROCESSING( 

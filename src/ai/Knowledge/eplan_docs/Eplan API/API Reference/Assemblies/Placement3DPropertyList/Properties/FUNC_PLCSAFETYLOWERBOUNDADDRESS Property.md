@@ -9,7 +9,7 @@ Safety address: Lower value # 20617.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCSAFETYLOWERBOUNDADDRESS {get; set;}

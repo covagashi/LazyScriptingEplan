@@ -9,7 +9,7 @@ Gets all connection point infos that are stored in the parts database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDConnectionPointInfo[] ConnectionPointInfos {get;}

@@ -9,7 +9,7 @@ Returns an array of SymbolReference::PropertyPlacementsSchema elements represent
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolReference.PropertyPlacementsSchema[] All {get;}

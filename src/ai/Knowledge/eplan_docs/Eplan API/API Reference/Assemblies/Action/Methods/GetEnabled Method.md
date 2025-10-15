@@ -9,7 +9,7 @@ Returns whether an action is enabled
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool GetEnabled( 

@@ -19,4 +19,4 @@ Public Methods
 | Public Method | [LineUp](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Placement3DService~LineUp.html) | Lines up together the given children of a mounting rail to the certain target direction. |
 | Public Method | [UpdatePartPlacement](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Placement3DService~UpdatePartPlacement.html) | Updates part placements |
 
-[Top](#top)
+

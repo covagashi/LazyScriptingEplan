@@ -9,7 +9,7 @@ Determine if object was create automatically by P8.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CreatedAutomatically {get;}

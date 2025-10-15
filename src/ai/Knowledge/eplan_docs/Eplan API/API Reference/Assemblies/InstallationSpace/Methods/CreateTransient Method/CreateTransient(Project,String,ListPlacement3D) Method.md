@@ -9,7 +9,7 @@ Creates transient InstallationSpace object and sets a name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static InstallationSpace CreateTransient( 

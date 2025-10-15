@@ -9,7 +9,7 @@ Removes object and all its children only from layout space.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemovePlacement()

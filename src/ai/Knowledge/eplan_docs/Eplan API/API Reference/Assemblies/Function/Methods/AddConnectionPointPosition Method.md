@@ -9,7 +9,7 @@ Creates new connection point position.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ConnectionPointPosition AddConnectionPointPosition()

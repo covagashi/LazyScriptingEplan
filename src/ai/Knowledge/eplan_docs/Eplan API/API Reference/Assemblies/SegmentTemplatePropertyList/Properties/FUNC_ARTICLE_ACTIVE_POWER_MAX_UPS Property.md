@@ -9,7 +9,7 @@ Actual power (hydraulic) # 26382.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_ACTUAL_OUTPUT_HYDRAULIC( 

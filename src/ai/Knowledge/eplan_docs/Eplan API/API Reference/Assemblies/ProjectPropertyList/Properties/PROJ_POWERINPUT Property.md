@@ -9,7 +9,7 @@ Feed-in # 10039.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_POWERINPUT {get; set;}

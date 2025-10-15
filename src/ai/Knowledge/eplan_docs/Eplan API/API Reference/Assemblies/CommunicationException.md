@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class CommunicationException : Grpc.Core.RpcException
@@ -29,7 +29,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [CommunicationException Constructor](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.CommunicationException~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -47,7 +47,7 @@ Public Properties
 | Public Property | [TargetSite](#) | (Inherited from [System.Exception](#)) |
 | Public Property | [Trailers](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.CommunicationException~Trailers.html) | (Inherited from Grpc.Core.RpcException) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -58,4 +58,4 @@ Public Methods
 | Public Method | [GetType](#) | (Inherited from [System.Exception](#)) |
 | Public Method | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
+

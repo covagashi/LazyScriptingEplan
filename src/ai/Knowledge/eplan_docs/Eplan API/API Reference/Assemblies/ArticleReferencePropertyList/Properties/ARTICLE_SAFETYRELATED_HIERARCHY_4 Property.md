@@ -9,7 +9,7 @@ Safety-related values: Hierarchy level 4 # 40324.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SAFETYRELATED_HIERARCHY_4 {get; set;}

@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDConnectionPointInfo : MDPartsDatabaseItem
@@ -41,7 +41,7 @@ Public Properties
 | Public Property | [Type](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionPointInfo~Type.html) | Overridden. Returns the part type of the part. |
 | Public Property | [WireTerminationProcessings](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionPointInfo~WireTerminationProcessings.html) | Returns a map of ids and theirs names of all possible wire termination processing. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -53,4 +53,4 @@ Public Methods
 | Public Method | [RemoveConnectionPointPosition](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionPointInfo~RemoveConnectionPointPosition.html) | Removes the given connection point position from the connection point info. |
 | Public Method | [ToDataModelIdentifier](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem~ToDataModelIdentifier.html) | Returns data model identifier which identifies this object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItem](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem.html)) |
 
-[Top](#top)
+

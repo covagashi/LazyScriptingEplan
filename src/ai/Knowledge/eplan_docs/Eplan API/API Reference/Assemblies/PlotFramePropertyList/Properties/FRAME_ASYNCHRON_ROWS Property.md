@@ -9,7 +9,7 @@ Asynchronous columns # 12012.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_ASYNCHRON_ROWS {get; set;}

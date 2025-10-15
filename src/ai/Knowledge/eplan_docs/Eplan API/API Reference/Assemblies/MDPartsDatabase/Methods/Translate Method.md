@@ -9,7 +9,7 @@ Translates all multilingual texts in an article database
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Translate()

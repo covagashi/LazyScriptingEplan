@@ -9,7 +9,7 @@ Updates part placements
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void UpdatePartPlacement( 

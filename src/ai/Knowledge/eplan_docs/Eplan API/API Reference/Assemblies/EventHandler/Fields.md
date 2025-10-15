@@ -14,4 +14,4 @@ Public Fields
 | Public Field | [EplanNameEvent](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler~EplanNameEvent.html) | This event is raised whenever an event with the desired name occurs in Eplan. The original name of the event is also given. |
 | Public Field | [EplanNameEventResult](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler~EplanNameEventResult.html) | This event is raised whenever an event with the desired name occurs in Eplan. The original name of the event is also given. Additional a return value is supported. |
 
-[Top](#top)
+

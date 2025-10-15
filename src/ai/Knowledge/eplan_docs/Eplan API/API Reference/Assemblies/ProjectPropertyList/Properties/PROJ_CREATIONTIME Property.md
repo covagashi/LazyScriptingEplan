@@ -9,7 +9,7 @@ Creation time # 10046.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATIONTIME {get; set;}

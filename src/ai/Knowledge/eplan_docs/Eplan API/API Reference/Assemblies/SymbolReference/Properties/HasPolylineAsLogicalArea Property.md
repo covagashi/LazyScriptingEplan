@@ -9,7 +9,7 @@ Returns true if the symbol's logical area is a polyline (consisting of segments)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool HasPolylineAsLogicalArea {get;}

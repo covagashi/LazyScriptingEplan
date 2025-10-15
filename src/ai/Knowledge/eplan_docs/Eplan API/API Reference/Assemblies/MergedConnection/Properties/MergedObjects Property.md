@@ -9,7 +9,7 @@ Returns an array of [Connection](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Connection[] MergedObjects {get;}

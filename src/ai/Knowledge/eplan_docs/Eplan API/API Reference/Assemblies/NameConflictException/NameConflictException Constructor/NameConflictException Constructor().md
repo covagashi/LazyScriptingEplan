@@ -9,7 +9,7 @@ Standard constructor.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public NameConflictException()

@@ -9,7 +9,7 @@ Removes the first occurrence of a specific object from the `PrjMessagesCollectio
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool Remove( 

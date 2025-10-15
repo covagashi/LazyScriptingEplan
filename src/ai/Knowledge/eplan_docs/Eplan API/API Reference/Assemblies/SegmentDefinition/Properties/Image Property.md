@@ -9,7 +9,7 @@ Name of icon displayed in tree view of the pre-planning navigator for this defin
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Image {get; set;}

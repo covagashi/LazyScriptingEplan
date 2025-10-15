@@ -9,7 +9,7 @@ Technical characteristics # 20027.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNC_TECHNICAL_CHARACTERISTIC {get; set;}

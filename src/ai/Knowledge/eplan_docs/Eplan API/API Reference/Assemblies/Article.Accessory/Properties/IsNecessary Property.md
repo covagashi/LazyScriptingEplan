@@ -9,7 +9,7 @@ Returns if the referenced Accessory is necessary
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsNecessary {get;}

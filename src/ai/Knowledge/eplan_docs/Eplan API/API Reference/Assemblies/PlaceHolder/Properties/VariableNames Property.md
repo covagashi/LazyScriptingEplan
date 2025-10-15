@@ -9,7 +9,7 @@ Names of all variables in the PlaceHolder.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual StringCollection VariableNames {get;}

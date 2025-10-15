@@ -9,7 +9,7 @@ Power consumption # 26417.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_POWER_CONSUMPTION {get; set;}

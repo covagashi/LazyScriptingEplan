@@ -9,7 +9,7 @@ Modification time (automatic) # 11001.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_LASTAUTOMODIFICATIONTIME {get; set;}

@@ -9,7 +9,7 @@ Y extension of part # 20459.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLEPLACEMENT_PLACEMENT_YSIZE {get; set;}

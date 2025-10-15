@@ -9,7 +9,7 @@ PLC subdevice 10: Safety address: Target # 20631.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCSAFETYADDRESS_10 {get; set;}

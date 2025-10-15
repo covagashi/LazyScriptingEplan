@@ -9,7 +9,7 @@ This property corresponds with the "Individual objects assignment" flag in the m
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ReferencesActive {get; set;}

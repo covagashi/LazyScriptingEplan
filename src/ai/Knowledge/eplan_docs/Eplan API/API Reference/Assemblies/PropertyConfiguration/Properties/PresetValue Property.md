@@ -9,7 +9,7 @@ The value that is assigned to this property by default.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString PresetValue {get; set;}

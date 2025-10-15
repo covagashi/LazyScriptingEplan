@@ -9,7 +9,7 @@ Technical characteristics (of main function) # 20460.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLEPLACEMENT_DEVICE_TECHNICAL_CHARACTERISTIC {get; set;}

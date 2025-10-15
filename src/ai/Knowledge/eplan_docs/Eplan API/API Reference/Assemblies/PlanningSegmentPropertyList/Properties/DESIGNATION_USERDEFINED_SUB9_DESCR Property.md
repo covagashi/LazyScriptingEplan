@@ -9,7 +9,7 @@ Total number of analog PLC inputs # 44030.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_ANALOG_PLCINPUT_COUNT {get; set;}

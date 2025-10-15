@@ -9,7 +9,7 @@ Street # 22913.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ADDRESS_STREET {get; set;}

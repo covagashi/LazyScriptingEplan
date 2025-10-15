@@ -9,7 +9,7 @@ Mounting clearance Depth: Rear # 22157.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SPACING_REAR {get; set;}

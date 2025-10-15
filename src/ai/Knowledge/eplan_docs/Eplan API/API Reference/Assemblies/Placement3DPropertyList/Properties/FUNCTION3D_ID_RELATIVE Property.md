@@ -9,7 +9,7 @@ Item ID (relative to macro, EEC) # 36035.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_ID_RELATIVE {get; set;}

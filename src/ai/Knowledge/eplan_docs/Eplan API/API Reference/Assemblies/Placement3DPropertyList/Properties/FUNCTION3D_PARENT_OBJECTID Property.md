@@ -9,7 +9,7 @@ Superior mounting surface # 36033.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_PARENT_OBJECTID {get; set;}

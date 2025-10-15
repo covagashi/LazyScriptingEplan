@@ -9,7 +9,7 @@ Represents this reference an assembly
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsAssembly {get;}

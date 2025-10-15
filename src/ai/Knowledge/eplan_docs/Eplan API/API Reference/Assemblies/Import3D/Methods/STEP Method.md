@@ -9,7 +9,7 @@ Imports a STEP file
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InstallationSpace STEP( 

@@ -9,7 +9,7 @@ Creates a `Function` object placed on a [Page](Eplan.EplApi.DataModelu~Eplan.Epl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Create( 

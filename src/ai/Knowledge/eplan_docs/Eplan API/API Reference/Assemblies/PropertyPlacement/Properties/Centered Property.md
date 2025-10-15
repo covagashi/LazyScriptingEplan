@@ -9,7 +9,7 @@ The property specifies whether the block (main property + docked properties) sho
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyPlacement.TextDockingStyle Centered {get; set;}

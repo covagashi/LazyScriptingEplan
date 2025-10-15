@@ -9,7 +9,7 @@ Returns project in context of which the verification is run.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project Project {get;}

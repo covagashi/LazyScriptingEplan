@@ -9,7 +9,7 @@ Gets the TimeStamp of the last change from a DatabaseItem
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DateTime GetTimeStampOfLastChange()

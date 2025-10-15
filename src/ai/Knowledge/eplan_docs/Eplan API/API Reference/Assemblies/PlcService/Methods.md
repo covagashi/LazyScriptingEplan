@@ -24,4 +24,4 @@ Public Methods
 | Public Method | [ReaddressTerminals](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PlcService~ReaddressTerminals.html) | Overloaded. Executes PLC terminals addressing |
 | Public Method | [WriteBackConnPointDesignations](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PlcService~WriteBackConnPointDesignations.html) | Overloaded. Writes back connection point designations from the selected overview PLC terminals to associated schematic PLC terminals. |
 
-[Top](#top)
+

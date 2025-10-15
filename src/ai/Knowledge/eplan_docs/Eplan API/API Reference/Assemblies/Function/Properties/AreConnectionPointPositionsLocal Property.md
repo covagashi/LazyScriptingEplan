@@ -9,7 +9,7 @@ Determines if connection point data are saved locally at the part placement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AreConnectionPointPositionsLocal {get; set;}

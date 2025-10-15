@@ -9,7 +9,7 @@ The Hierarchy4 text of the use case
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString Hierarchy4 {get; set;}

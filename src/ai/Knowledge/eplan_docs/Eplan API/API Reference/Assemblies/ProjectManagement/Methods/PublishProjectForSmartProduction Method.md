@@ -9,7 +9,7 @@ Publishes a project
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void PublishProjectForSmartProduction( 

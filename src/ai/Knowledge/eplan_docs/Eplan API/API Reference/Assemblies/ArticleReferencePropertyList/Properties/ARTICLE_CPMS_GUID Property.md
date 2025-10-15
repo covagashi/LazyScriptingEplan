@@ -9,7 +9,7 @@ Unique external part ID # 22984.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CPMS_GUID {get; set;}

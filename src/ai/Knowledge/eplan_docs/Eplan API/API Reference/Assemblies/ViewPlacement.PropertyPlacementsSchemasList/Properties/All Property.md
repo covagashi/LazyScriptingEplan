@@ -9,7 +9,7 @@ Returns an array of ViewPlacement::PropertyPlacementsSchema elements representin
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ViewPlacement.PropertyPlacementsSchema[] All {get;}

@@ -9,7 +9,7 @@ Check if the Project can have [Article](Eplan.EplApi.DataModelu~Eplan.EplApi.Dat
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool CanHaveArticleData {get;}

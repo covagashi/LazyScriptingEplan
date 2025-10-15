@@ -9,7 +9,7 @@ Synchronization from 'panellayout 3D' connection data onto all other connection 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void PanelLayout3DToAllConnectionTypes( 

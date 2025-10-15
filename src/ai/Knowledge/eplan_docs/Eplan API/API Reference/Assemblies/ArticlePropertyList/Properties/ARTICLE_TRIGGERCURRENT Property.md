@@ -9,7 +9,7 @@ Tripping current # 22075.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TRIGGERCURRENT {get; set;}

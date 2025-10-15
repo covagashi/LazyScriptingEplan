@@ -9,7 +9,7 @@ EPLAN properties of the SegmentDefinition object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new SegmentDefinitionPropertyList Properties {get;}

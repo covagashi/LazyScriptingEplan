@@ -9,7 +9,7 @@ Returns first instance embedded in this line.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement GetFirstEmbeddedInstance()

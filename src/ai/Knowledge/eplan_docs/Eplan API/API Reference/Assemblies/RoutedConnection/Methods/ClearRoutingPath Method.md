@@ -9,7 +9,7 @@ Clears all segments from routing path.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ClearRoutingPath()

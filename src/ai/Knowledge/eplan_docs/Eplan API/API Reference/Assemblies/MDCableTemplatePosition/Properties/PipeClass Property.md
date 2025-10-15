@@ -9,7 +9,7 @@ It defines the Cable Property PipeClass
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PipeClass {get; set;}

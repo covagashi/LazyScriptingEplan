@@ -9,7 +9,7 @@ Conduit connection # 31086.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_IS_PACKET {get; set;}

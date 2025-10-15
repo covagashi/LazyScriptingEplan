@@ -9,7 +9,7 @@ Returns the parts database version
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Version {get;}

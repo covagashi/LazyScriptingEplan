@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [Serializable()]
@@ -34,4 +34,4 @@ Public Properties
 | Public Property | [EplanVariant](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.EplanData~EplanVariant.html) | EplanVariant is the variant of the EPLAN installation, for example Fluid |
 | Public Property | [EplanVersion](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.EplanData~EplanVersion.html) | EplanVersion is the version number of the EPLAN installation, for example 1.8.6 |
 
-[Top](#top)
+

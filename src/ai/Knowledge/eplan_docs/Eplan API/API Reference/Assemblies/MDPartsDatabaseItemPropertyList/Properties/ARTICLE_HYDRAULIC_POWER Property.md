@@ -9,7 +9,7 @@ Hydraulic power # 26110.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_HYDRAULIC_POWER {get; set;}

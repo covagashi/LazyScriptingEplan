@@ -9,7 +9,7 @@ Subtrade 'Electrical engineering' # 22077.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SUBCRAFT_ELECTRICAL( 

@@ -9,7 +9,7 @@ Macro: Source project # 11056.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_MACROSOURCEPROJECT {get; set;}

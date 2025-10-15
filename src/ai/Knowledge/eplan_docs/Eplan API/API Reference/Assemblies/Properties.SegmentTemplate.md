@@ -9,7 +9,7 @@ Identificators of properties owned by SegmentTemplate class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.SegmentTemplate : System.Enum

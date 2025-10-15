@@ -9,7 +9,7 @@ Type of project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Project.ProjectType : System.Enum

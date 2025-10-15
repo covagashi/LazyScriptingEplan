@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ListSelectDecisionContext~Dispose().html) | Destructor for deterministic finalization of ListSelectDecisionContext object. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Font size # 19017.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_SIZE {get; set;}

@@ -9,7 +9,7 @@ Method for removing a project language. It removes the language from the set of 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveProjectLanguage( 

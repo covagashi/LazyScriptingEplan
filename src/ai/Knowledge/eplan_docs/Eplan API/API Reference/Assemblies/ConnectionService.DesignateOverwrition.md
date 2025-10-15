@@ -9,7 +9,7 @@ Mode for overwriting connection designations.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ConnectionService.DesignateOverwrition : System.Enum

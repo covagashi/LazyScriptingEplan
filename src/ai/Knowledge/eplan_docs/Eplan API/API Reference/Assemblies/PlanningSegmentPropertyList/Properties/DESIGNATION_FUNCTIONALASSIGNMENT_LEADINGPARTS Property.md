@@ -9,7 +9,7 @@ Functional assignment (single component) # 1328.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FUNCTIONALASSIGNMENT_PART {get; set;}

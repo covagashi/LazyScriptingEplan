@@ -9,7 +9,7 @@ Product configurator identifier # 36076.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_ID_EXTERNALPRODUCTCONFIGURATOR_AUTOMATIC {get; set;}

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Export3D
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Export3D Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Export3D~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -54,4 +54,4 @@ Public Methods
 | Public Method | [ProjectToStep](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Export3D~ProjectToStep.html) | Overloaded. Exports project into files in STEP format. |
 | Public Method | [ProjectToVrml](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Export3D~ProjectToVrml.html) | Exports all installation spaces from project into files in VRML format. |
 
-[Top](#top)
+

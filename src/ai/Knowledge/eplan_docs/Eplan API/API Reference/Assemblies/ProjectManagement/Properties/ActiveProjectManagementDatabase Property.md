@@ -9,7 +9,7 @@ Returns or sets the type of current project management database. Possible values
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ProjectManagement.DatabaseType ActiveProjectManagementDatabase {get; set;}

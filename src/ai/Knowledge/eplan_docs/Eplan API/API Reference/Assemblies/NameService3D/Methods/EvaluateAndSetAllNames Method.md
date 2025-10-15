@@ -9,7 +9,7 @@ Evaluates the full name for all placed 3D functions in installation space by cal
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool EvaluateAndSetAllNames()

@@ -9,7 +9,7 @@ PLC address: CPU # 44022.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLCADDRESS_CPU( 

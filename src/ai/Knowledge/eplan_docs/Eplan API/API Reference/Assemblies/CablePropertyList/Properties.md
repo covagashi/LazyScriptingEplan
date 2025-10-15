@@ -1064,4 +1064,4 @@ Public Properties
 | Public Property | [WRITEPROTECTED](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionPropertyList~WRITEPROTECTED().html) | Overloaded. Change protection # 3014. (Inherited from [Eplan.EplApi.DataModel.FunctionPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionPropertyList.html)) |
 | Public Property | [WRITEPROTECTED\_AUTOMATIC](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementPropertyList~WRITEPROTECTED_AUTOMATIC().html) | Overloaded. Change protection (hierarchical) # 3015. (Inherited from [Eplan.EplApi.DataModel.PlacementPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementPropertyList.html)) |
 
-[Top](#top)
+

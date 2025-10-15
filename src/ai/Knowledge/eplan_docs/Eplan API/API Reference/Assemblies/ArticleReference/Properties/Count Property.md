@@ -9,7 +9,7 @@ Sets and gets count
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Count {get; set;}

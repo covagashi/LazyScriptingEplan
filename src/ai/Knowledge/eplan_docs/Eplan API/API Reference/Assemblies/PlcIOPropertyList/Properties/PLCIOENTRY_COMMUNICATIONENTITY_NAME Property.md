@@ -9,7 +9,7 @@ Name of the communication unit # 23400.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLCIOENTRY_COMMUNICATIONENTITY_NAME {get; set;}

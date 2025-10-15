@@ -9,7 +9,7 @@ Final pressure, preset # 26100.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ULTIMATE_PRESSURE_SET {get; set;}

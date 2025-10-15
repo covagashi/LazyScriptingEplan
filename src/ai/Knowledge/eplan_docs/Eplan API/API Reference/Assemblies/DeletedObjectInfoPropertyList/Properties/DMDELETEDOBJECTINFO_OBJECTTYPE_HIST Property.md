@@ -9,7 +9,7 @@ Deleted object (further): Type # 36606.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMDELETEDOBJECTINFO_OBJECTTYPE_HIST( 

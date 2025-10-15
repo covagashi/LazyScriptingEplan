@@ -9,7 +9,7 @@ Checks, if layer object is attached to existing project's layer.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool isValid {get;}

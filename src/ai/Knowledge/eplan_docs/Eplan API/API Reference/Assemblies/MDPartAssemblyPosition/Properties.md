@@ -20,4 +20,4 @@ Public Properties
 | Public Property | [SupplementaryText](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartAssemblyPosition~SupplementaryText.html) | Returns the additional text of the position |
 | Public Property | [Variant](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartHierarchyPosition~Variant.html) | Returns the part number of the referenced part. (Inherited from [Eplan.EplApi.MasterData.MDPartHierarchyPosition](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartHierarchyPosition.html)) |
 
-[Top](#top)
+

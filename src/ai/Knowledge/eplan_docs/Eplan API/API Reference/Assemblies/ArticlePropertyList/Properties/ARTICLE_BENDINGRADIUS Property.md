@@ -9,7 +9,7 @@ Min. bending radius # 22063.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_BENDINGRADIUS {get; set;}

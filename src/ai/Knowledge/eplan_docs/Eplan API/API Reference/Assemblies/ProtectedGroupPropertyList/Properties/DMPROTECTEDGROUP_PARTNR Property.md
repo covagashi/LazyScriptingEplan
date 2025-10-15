@@ -9,7 +9,7 @@ Protected group: Part number # 36700.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPROTECTEDGROUP_PARTNR {get; set;}

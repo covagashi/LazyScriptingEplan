@@ -9,7 +9,7 @@ Format of displayed DT: Plug definition # 10623.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DTFORMAT_CONNECTOR_DEF_TEXT {get; set;}

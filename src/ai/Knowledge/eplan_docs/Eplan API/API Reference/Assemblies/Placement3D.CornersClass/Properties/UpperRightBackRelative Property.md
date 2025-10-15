@@ -9,7 +9,7 @@ Returns upper right back relative coordinate
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D UpperRightBackRelative {get;}

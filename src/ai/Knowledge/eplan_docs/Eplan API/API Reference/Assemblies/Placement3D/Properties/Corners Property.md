@@ -9,7 +9,7 @@ Represents coordinates of corners
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement3D.CornersClass Corners {get;}

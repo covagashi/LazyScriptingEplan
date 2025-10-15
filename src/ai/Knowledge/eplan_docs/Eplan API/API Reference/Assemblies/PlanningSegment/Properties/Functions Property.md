@@ -9,7 +9,7 @@ Returns array of functions and 3d functions assigned to this object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public IFunctionBase[] Functions {get;}

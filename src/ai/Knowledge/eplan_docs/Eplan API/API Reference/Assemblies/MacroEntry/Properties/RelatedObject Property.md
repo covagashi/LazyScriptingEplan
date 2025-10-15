@@ -9,7 +9,7 @@ Gets related object, i.e. the same as under context menu point 'Go to Graphic'
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject RelatedObject {get;}

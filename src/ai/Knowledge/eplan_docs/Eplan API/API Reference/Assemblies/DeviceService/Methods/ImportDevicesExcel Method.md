@@ -9,7 +9,7 @@ This function imports devices from an Excel file into a given project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] ImportDevicesExcel( 

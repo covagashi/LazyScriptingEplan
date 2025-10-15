@@ -9,7 +9,7 @@ Sets a new action text.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetActionText( 

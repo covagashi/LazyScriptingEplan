@@ -9,7 +9,7 @@ Watermark (revision) # 11003.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_REVISION_WATERMARK {get; set;}

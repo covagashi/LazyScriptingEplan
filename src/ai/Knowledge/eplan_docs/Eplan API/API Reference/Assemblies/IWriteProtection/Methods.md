@@ -13,4 +13,4 @@ Public Methods
 | Method | [GetWriteProtectionFlagSet](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IWriteProtection~GetWriteProtectionFlagSet.html) | Checks what kind of a write protection was set. |
 | Method | [PauseWriteProtection](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IWriteProtection~PauseWriteProtection.html) | Temporarily disables write protection. Note that current write protection flags are not cleared. |
 
-[Top](#top)
+

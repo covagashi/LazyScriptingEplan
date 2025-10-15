@@ -9,7 +9,7 @@ Part does not require a connection point pattern # 22393.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DOES_NOT_NEED_CPP {get; set;}

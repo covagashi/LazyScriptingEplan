@@ -9,7 +9,7 @@ Highest page number per structure # 11043.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_MAXNUMBERLOCATION {get; set;}

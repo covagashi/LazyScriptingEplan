@@ -9,7 +9,7 @@ Gets/Sets the potential forwarding for connections of the same function or conne
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Pin[] OppositePin {get; set;}

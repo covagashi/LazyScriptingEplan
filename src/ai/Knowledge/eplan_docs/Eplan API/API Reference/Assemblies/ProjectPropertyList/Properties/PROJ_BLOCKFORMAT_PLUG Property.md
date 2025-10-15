@@ -9,7 +9,7 @@ Block property: Format (pin) # 10604.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_PLUG( 

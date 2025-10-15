@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDPartLockedMountingAreaPosition : MDPartsDatabaseItemChildData
@@ -33,7 +33,7 @@ Public Properties
 | Public Property | [X](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartLockedMountingAreaPosition~X.html) | X position of the locked mounting area |
 | Public Property | [Y](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartLockedMountingAreaPosition~Y.html) | Y position of the locked mounting area |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -41,4 +41,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose()](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData~Dispose().html) | Destructor for deterministic finalization of MDPartLockedMountingAreaPosition object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData.html)) |
 
-[Top](#top)
+

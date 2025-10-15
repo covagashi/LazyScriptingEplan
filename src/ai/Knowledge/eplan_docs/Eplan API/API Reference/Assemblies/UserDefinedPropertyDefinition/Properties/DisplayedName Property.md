@@ -9,7 +9,7 @@ Name displayed in GUI for this property definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString DisplayedName {get; set;}

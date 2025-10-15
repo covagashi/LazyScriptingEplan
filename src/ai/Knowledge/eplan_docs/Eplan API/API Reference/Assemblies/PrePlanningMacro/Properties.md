@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [Description](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.PrePlanningMacro~Description.html) | The description for this macro file. |
 | Public Property | [Objects](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.PrePlanningMacro~Objects.html) | Returns all objects stored in the macro. |
 
-[Top](#top)
+

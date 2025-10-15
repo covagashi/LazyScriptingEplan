@@ -9,7 +9,7 @@ Adds reference to object, that belongs to macro
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddReference( 

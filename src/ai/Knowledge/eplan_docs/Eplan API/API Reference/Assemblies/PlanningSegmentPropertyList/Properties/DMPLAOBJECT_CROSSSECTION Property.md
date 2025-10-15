@@ -9,7 +9,7 @@ Connection: Cross-section / diameter # 44085.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_CROSSSECTION {get; set;}

@@ -9,7 +9,7 @@ Function text (of main function) # 20463.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLEPLACEMENT_DEVICE_FUNCTIONTEXT {get; set;}

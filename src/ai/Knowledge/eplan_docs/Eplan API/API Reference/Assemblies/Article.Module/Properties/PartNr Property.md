@@ -9,7 +9,7 @@ Returns part number of the Module.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PartNr {get; set;}

@@ -9,7 +9,7 @@ Returns string value of this property. When type of property is MultiLangString 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ToString( 

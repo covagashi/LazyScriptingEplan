@@ -9,7 +9,7 @@ The potential type of the wire template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PinPotentialType PotentialType {get; set;}

@@ -16,4 +16,4 @@ Public Properties
 | Public Property | [Property](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObjectPropertyList~Property.html) | Overloaded. Method used by operator[] in order to access indexed properties. |
 | Public Property | [PROPUSER\_DBOBJECTID](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObjectPropertyList~PROPUSER_DBOBJECTID().html) | Object identification # 2000. |
 
-[Top](#top)
+

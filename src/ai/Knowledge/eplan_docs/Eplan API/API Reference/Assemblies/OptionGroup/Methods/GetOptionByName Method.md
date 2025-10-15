@@ -9,7 +9,7 @@ Returns [Option](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Option.html) ass
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Option GetOptionByName( 

@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.SelectionContext~Dispose().html) | Destructor for deterministic finalization of SelectionContext object. |
 
-[Top](#top)
+

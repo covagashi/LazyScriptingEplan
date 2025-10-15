@@ -9,7 +9,7 @@ Gets a Placement object that represents the macro box graphically on a page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement GetGraphics()

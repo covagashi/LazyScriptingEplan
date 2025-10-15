@@ -9,7 +9,7 @@ Length (prefabricated) # 22055.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CABLELENGTH {get; set;}

@@ -9,7 +9,7 @@ Script address. Default = empty.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ScriptAddress {get; set;}

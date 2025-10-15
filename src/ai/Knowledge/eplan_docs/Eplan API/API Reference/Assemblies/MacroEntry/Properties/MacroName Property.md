@@ -9,7 +9,7 @@ Gets macro file name
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string MacroName {get;}

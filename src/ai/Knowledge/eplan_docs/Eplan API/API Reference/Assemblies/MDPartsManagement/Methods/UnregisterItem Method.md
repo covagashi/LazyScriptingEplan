@@ -9,7 +9,7 @@ The given item type will be unregisterd.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool UnregisterItem( 

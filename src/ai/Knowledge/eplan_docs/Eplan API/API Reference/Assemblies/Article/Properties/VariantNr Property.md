@@ -9,7 +9,7 @@ Returns article's variant number.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string VariantNr {get;}

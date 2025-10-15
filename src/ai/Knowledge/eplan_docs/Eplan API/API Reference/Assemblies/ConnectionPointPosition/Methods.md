@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPointPosition~Dispose().html) | Destructor for deterministic finalization of ConnectionPointPosition object. |
 | Public Method | [StoreToObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPointPosition~StoreToObject.html) | Stores data from connection point position. |
 
-[Top](#top)
+

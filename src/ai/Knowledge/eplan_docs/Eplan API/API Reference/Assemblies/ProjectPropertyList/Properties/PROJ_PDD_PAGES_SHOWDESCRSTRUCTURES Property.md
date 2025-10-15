@@ -9,7 +9,7 @@ Show descriptive identifiers in page tree # 10093.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_PDD_PAGES_SHOWDESCRSTRUCTURES {get; set;}

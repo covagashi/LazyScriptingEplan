@@ -9,7 +9,7 @@ The data type specifies the address range. Possible values are, e.g., BOOL, BYTE
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DataType {get; set;}

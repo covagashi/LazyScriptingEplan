@@ -9,7 +9,7 @@ No output to terminal line-up diagram # 20859.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_NOLINEUPDIAGRAM {get; set;}

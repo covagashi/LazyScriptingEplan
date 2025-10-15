@@ -9,7 +9,7 @@ Get the value of the parsed result in the base unit of this unit group.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double GetBaseValue()

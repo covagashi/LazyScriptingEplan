@@ -9,7 +9,7 @@ Gets/Sets substance name of object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Substance {get; set;}

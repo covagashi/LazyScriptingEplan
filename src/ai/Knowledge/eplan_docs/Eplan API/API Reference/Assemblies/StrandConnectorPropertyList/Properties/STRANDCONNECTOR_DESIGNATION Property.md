@@ -9,7 +9,7 @@ Bundle: Connection point designation # 19070.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue STRANDCONNECTOR_DESIGNATION {get; set;}

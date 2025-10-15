@@ -9,7 +9,7 @@ Gets parent of the Group3D object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Placement3D Parent {get;}

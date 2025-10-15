@@ -9,7 +9,7 @@ Gets a value indicating whether the MDPartsDatabaseMessages is read-only.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsReadOnly {get;}

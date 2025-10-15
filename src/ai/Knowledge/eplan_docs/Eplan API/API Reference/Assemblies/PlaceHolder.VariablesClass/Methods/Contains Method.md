@@ -9,7 +9,7 @@ Determines whether placeholder stores a variable
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool Contains( 

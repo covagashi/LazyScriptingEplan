@@ -9,7 +9,7 @@ Supply voltage (DC) # 26168.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SUPPLY_VOLTAGE_FOR_DC {get; set;}

@@ -9,7 +9,7 @@ Keep parts at placement # 36457.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTALLATIONSPACE_KEPP_PARTS_BY_INSERT_MACRO {get; set;}

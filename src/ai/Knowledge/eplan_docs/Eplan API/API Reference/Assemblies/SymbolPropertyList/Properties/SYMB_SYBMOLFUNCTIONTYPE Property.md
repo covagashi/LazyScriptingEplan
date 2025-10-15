@@ -9,7 +9,7 @@ Symbol representation type (encoded) # 16027.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMB_SYBMOLFUNCTIONTYPE {get; set;}

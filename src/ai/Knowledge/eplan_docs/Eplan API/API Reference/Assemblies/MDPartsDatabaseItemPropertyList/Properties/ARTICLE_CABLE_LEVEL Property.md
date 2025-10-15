@@ -9,7 +9,7 @@ Cable: Voltage level # 26400.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CABLE_LEVEL {get; set;}

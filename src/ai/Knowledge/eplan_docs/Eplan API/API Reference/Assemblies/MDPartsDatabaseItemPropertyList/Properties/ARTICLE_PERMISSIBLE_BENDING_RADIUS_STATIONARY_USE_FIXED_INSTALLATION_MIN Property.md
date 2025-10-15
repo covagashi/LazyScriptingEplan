@@ -9,7 +9,7 @@ Permitted bending radius (stationary application / permanent installation), min.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PERMISSIBLE_BENDING_RADIUS_STATIONARY_USE_FIXED_INSTALLATION_MIN {get; set;}

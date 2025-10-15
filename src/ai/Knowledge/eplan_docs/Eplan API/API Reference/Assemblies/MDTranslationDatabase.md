@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDTranslationDatabase
@@ -77,7 +77,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDTranslationDatabase Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDTranslationDatabase~_ctor.html) | Constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -88,7 +88,7 @@ Public Properties
 | Public Property | [Languages](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDTranslationDatabase~Languages.html) | Returs the list of translation database languages. |
 | Public Property | [NotTranslatedWords](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDTranslationDatabase~NotTranslatedWords.html) | Gets all not translated words. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -105,4 +105,4 @@ Public Methods
 | Public Method | [FindKeyword](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDTranslationDatabase~FindKeyword.html) | Finds keyword. |
 | Public Method | [Open](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDTranslationDatabase~Open.html) | Opens translation database using user settings. |
 
-[Top](#top)
+

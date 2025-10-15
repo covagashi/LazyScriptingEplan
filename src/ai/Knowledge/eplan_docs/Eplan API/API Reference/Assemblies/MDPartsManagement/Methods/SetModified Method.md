@@ -9,7 +9,7 @@ Set the parts management dialog modified.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SetModified()

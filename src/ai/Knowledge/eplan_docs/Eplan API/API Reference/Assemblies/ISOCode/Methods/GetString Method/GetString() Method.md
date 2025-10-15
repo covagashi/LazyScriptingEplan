@@ -9,7 +9,7 @@ Determines string of language setting.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetString()

@@ -9,7 +9,7 @@ Format of displayed DT: PLC connection point # 10626.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DTFORMAT_PLC_TERMINAL {get; set;}

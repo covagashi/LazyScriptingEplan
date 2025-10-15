@@ -9,7 +9,7 @@ Interface declaration for an Eplan add-in. If an assembly is to be loaded as an 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [Guid("772B6E84-84D0-3597-8397-363C01BB41B6")]
@@ -30,4 +30,4 @@ Public Methods
 | Method | [OnRegister](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddIn~OnRegister.html) | Is called once when a new add-in is selected. |
 | Method | [OnUnregister](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddIn~OnUnregister.html) | Is called once, when the add-in is removed from the system. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Creates new route of an existing connection 3d.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RoutingSegment[] RouteConnection( 

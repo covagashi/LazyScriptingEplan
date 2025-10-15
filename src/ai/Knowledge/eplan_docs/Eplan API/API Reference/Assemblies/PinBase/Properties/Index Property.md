@@ -9,7 +9,7 @@ Returns an index of this connection point. NOTE: This may be an index amongst a 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Index {get;}

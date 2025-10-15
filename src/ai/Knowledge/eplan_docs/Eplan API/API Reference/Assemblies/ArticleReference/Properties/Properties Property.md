@@ -9,7 +9,7 @@ Represents ArticleReference properties
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new ArticleReferencePropertyList Properties {get;}

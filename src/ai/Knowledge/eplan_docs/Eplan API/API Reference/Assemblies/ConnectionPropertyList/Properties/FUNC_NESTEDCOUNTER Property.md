@@ -9,7 +9,7 @@ DT (subordinate):Counter # 20018.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_NESTEDCOUNTER {get; set;}

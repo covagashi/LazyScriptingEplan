@@ -9,7 +9,7 @@ Project's property which return Name of Project - project name only without path
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ProjectName {get; set;}

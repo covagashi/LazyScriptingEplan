@@ -9,7 +9,7 @@ Type of construction: Measuring transducer # 26028.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DESIGN_OF_THE_TRANSDUCER {get; set;}

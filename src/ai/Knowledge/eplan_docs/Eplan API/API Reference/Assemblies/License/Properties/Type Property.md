@@ -9,7 +9,7 @@ Gets license type: local, remote (network) or borrowed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public LicenseType Type {get;}

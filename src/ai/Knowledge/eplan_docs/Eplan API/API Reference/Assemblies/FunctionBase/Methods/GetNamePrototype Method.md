@@ -9,7 +9,7 @@ Sets properties which are used for building name of object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool GetNamePrototype( 

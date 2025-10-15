@@ -9,7 +9,7 @@ Returns true if this is a Connection object that covers a wire's template in the
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsCoveredTemplate {get;}

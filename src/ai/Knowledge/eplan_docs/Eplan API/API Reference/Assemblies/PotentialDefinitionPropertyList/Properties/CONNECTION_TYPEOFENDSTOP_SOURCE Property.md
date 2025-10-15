@@ -9,7 +9,7 @@ Wire termination processing source # 31051.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_TYPEOFENDSTOP_SOURCE {get; set;}

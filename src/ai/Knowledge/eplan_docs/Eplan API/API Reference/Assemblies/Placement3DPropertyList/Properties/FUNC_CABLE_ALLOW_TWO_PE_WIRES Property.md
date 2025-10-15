@@ -9,7 +9,7 @@ Allow multiple PE conductors # 20062.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_ALLOW_TWO_PE_WIRES {get; set;}

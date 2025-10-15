@@ -9,7 +9,7 @@ Terminal / plug connection diagram form # 20852.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_CONNECTIONDIAGRAM {get; set;}

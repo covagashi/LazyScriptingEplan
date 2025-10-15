@@ -9,7 +9,7 @@ PLC subdevice 7: Safety address: Lower value # 20664.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCSAFETYLOWERBOUNDADDRESS_7 {get; set;}

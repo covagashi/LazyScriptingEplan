@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [Dispose()](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition~Dispose().html) | Destructor for deterministic finalization of UserDefinedPropertyDefinition object. (Inherited from [Eplan.EplApi.DataModel.PropertyDefinition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition.html)) |
 | Public Method | [ValidateValue](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition~ValidateValue.html) | Returns the display string used for a given property value. Validates whether the value meets the requirements of the property definition. (Inherited from [Eplan.EplApi.DataModel.PropertyDefinition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition.html)) |
 
-[Top](#top)
+

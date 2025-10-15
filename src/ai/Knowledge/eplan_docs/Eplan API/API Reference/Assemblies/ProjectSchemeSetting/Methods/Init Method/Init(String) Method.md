@@ -9,7 +9,7 @@ Initializes object with a settings node path.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override void Init( 

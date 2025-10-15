@@ -9,7 +9,7 @@ Returns number of connections from this Pin object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int TargetCount {get;}

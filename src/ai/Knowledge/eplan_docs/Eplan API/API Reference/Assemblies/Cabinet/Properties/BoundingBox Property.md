@@ -9,7 +9,7 @@ Returns bounding box of this Cabinet.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Rect3D BoundingBox {get;}

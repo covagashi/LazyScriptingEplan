@@ -9,7 +9,7 @@ Continuous row / column designation # 12031.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_CONT_LADDER_DESCR {get; set;}

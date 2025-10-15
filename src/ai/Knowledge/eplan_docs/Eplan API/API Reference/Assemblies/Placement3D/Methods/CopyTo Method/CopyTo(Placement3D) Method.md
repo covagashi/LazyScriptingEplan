@@ -9,7 +9,7 @@ Copy 3D Placement Placement3D and its children will be copied into the same Proj
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement3D CopyTo( 

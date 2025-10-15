@@ -9,7 +9,7 @@ Returns [Article](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article.html)s 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Article[] Articles {get;}

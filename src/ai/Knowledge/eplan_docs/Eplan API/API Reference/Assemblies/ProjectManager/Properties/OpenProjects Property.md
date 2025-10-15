@@ -9,7 +9,7 @@ Returns list of all open projects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project[] OpenProjects {get;}

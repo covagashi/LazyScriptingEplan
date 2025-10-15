@@ -9,7 +9,7 @@ Function: Connection point designation # 20022.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CONNECTIONDESIGNATION( 

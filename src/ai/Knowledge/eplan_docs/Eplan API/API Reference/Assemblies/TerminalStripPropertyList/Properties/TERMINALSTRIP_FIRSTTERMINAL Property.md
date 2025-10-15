@@ -9,7 +9,7 @@ Terminal strips: First terminal # 35007.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue TERMINALSTRIP_FIRSTTERMINAL {get; set;}

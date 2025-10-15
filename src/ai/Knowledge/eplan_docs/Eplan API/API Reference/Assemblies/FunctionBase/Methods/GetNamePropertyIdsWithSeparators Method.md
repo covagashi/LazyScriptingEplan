@@ -9,7 +9,7 @@ Gets name prototype properties id with separators.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DictionaryEntry[] GetNamePropertyIdsWithSeparators()

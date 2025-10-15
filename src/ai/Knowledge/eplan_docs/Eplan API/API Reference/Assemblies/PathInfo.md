@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public sealed class PathInfo
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PathInfo Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PathInfo~_ctor.html) | Should be used by ProjectManager only! |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -51,7 +51,7 @@ Public Properties
 | Public Property | [Translations](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PathInfo~Translations.html) | Returns default Translations directory. |
 | Public Property | [XML](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PathInfo~XML.html) | Returns default XML directory. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -59,4 +59,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PathInfo~Dispose().html) | Virtual deterministic destructor. |
 
-[Top](#top)
+

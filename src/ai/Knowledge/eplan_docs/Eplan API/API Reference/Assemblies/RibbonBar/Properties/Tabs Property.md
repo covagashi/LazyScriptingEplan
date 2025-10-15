@@ -9,7 +9,7 @@ Returns tabs of the ribbon bar
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonTab[] Tabs {get;}

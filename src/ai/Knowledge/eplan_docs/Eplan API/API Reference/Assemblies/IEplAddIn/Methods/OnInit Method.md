@@ -9,7 +9,7 @@ Is called if the add-in is to be loaded at system start-up.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool OnInit()

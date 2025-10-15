@@ -9,7 +9,7 @@ Writes a macro file from the pages and then if there was at least one valid page
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

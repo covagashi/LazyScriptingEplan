@@ -9,7 +9,7 @@ Imports parts database translations to the system dictionary (MDTranslationDatab
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ImportToDictionary( 

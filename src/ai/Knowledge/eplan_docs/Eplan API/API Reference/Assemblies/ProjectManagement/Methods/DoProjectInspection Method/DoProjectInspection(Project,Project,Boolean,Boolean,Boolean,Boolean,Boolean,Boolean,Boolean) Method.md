@@ -9,7 +9,7 @@ Compares two projects and writes the results as project messages into the messag
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool DoProjectInspection( 

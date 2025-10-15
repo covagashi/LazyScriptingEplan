@@ -17,4 +17,4 @@ Public Methods
 | Public Method | [UpdateMainElements](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.MountingPanelService~UpdateMainElements.html) | Overloaded. Transfers part references of a part placement to the corresponding main function. Corresponds to the 'Devices -> 2D panel layout -> Navigator -> Update main elements' ribbon item. |
 | Public Method | [UpdatePartDimensions](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.MountingPanelService~UpdatePartDimensions.html) | Overloaded. Transfers dimensions from articles to article placements. Corresponds to the 'Devices -> 2D panel layout -> Navigator -> Update part dimensions' ribbon item. |
 
-[Top](#top)
+

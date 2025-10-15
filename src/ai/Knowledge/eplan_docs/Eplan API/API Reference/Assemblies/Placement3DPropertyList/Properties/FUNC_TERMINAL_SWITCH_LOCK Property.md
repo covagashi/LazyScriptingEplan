@@ -9,7 +9,7 @@ Switching lock # 20293.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_SWITCH_LOCK {get; set;}

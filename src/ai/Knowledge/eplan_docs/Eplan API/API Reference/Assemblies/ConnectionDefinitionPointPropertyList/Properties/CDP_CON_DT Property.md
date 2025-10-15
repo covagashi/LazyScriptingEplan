@@ -9,7 +9,7 @@ Associated connections: Device tag (identifying) # 31027.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_DT {get; set;}

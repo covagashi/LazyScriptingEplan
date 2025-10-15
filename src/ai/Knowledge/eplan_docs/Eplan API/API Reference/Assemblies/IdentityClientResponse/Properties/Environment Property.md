@@ -9,7 +9,7 @@ Environment information.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Environment {get; set;}

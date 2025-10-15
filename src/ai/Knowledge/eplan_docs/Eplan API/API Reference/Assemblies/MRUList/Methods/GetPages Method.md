@@ -9,7 +9,7 @@ Gets all page names.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[] GetPages( 

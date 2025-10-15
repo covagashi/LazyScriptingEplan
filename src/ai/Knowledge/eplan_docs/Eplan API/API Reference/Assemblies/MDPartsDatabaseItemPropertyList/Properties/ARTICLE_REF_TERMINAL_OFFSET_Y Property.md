@@ -9,7 +9,7 @@ Connection point pattern: Offset Y-direction # 22278.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_REF_TERMINAL_OFFSET_Y {get; set;}

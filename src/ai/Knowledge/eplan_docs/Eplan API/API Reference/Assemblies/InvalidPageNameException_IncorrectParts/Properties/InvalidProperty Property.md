@@ -9,7 +9,7 @@ Provides a hint about which hierarchy property is invalid.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public AnyPropertyId InvalidProperty {get;}

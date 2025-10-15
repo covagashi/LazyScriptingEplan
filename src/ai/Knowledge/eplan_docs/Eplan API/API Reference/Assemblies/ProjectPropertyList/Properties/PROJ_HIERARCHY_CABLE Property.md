@@ -9,7 +9,7 @@ Structure format for cables # 10061.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_CABLE {get; set;}

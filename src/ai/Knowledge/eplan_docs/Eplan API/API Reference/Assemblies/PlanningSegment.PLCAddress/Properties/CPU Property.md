@@ -9,7 +9,7 @@ The name of the CPU for the PLC box to which the PLC connection point belongs.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string CPU {get; set;}

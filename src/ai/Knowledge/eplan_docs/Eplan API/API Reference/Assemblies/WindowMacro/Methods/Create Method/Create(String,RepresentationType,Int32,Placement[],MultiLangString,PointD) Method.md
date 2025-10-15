@@ -9,7 +9,7 @@ Writes a window macro file from the pPlacements If at least one given Placement 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

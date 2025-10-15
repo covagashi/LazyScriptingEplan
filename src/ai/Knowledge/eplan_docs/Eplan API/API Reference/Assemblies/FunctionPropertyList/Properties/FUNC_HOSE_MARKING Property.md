@@ -9,7 +9,7 @@ Hose line identification # 20867.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_HOSE_MARKING {get; set;}

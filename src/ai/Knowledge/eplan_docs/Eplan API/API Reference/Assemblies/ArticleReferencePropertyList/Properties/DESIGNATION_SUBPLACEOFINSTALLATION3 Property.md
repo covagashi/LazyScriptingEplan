@@ -9,7 +9,7 @@ Installation site (sub-identifier 3) # 1403.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBPLACEOFINSTALLATION3 {get; set;}

@@ -9,7 +9,7 @@ Default constructor. Creates the DocumentBase object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DocumentBase()

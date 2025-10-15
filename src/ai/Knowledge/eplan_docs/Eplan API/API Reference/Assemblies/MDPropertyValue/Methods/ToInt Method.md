@@ -9,7 +9,7 @@ Converts this MDPropertyValue object to `long`.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int ToInt()

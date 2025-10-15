@@ -9,7 +9,7 @@ Weight (in kg/1000 m) # 26374.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_WEIGHT_KG_1000_M {get; set;}

@@ -9,7 +9,7 @@ Removes all pages from project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveAllPages()

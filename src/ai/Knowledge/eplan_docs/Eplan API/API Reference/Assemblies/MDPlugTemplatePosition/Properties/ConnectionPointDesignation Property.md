@@ -9,7 +9,7 @@ The designation of the plug template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConnectionPointDesignation {get; set;}

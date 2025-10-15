@@ -79,4 +79,4 @@ Public Properties
 | Public Property | [Definition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.AnyPropertyId~Definition.html) | Definition of property. |
 | Public Property | [Index](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.AnyPropertyId~Index.html) | Index of the property. |
 
-[Top](#top)
+

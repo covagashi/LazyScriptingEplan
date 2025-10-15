@@ -9,7 +9,7 @@ Integer number of this property. When setting a property by number, be aware, th
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int AsInt {get; set;}

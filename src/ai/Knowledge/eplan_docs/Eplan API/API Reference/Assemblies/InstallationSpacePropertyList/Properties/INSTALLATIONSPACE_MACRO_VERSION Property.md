@@ -9,7 +9,7 @@ Macro: Version # 11025.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTALLATIONSPACE_MACRO_VERSION {get; set;}

@@ -9,7 +9,7 @@ Finds all connections on the same scheme as `oSourceConnection` that transmit th
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void TrackSignal( 

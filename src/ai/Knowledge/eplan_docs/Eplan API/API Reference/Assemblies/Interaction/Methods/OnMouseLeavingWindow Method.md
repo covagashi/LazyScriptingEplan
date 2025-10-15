@@ -9,7 +9,7 @@ Is called after Mouse leave the window.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual RequestCode OnMouseLeavingWindow( 

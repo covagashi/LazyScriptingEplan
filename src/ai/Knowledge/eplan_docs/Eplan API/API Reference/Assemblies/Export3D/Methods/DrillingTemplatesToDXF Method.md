@@ -9,7 +9,7 @@ Exports drillings of a 3d objects into DXF files.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool DrillingTemplatesToDXF( 

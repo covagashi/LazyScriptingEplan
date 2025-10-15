@@ -9,7 +9,7 @@ Family # 22885.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_FAMILY {get; set;}

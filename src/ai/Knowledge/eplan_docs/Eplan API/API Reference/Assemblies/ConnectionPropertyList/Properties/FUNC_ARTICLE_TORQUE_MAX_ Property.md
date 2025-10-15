@@ -9,7 +9,7 @@ Torque, max. # 26254.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_TORQUE_MAX_( 

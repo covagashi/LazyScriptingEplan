@@ -9,7 +9,7 @@ One progress part ends. Perhaps you want to set a new actiontext for this part!
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void EndPartCalled( 

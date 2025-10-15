@@ -9,7 +9,7 @@ Converts an MultiLangString to a string. The languages are appended to one anoth
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetAsString()

@@ -9,7 +9,7 @@ BACnet: Service in accord. with BACnet specification # 26033.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SERVICE_ACCORDING_TO_BACNET_SPECIFICATION {get; set;}

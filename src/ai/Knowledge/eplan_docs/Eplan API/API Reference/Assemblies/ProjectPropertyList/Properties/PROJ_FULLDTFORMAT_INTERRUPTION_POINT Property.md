@@ -9,7 +9,7 @@ Format of full DT: Interruption point # 10649.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_FULLDTFORMAT_INTERRUPTION_POINT {get; set;}

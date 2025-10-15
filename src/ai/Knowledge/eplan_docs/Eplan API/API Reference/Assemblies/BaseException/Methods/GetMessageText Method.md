@@ -9,7 +9,7 @@ Returns the text of the system message without the index
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetMessageText()

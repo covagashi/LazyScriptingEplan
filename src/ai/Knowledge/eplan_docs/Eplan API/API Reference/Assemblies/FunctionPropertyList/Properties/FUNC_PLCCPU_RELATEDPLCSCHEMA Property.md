@@ -9,7 +9,7 @@ PLC-specific settings # 20315.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCPU_RELATEDPLCSCHEMA {get; set;}

@@ -9,7 +9,7 @@ Drawing number # 11030.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_DRAWINGID {get; set;}

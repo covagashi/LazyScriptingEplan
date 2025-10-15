@@ -9,7 +9,7 @@ This progress supports cancel or not. Disable the close button of a progress whe
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void SetAllowCancel( 

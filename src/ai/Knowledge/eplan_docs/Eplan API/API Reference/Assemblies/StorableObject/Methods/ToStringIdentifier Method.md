@@ -9,7 +9,7 @@ Returns this object as string identifier.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ToStringIdentifier()

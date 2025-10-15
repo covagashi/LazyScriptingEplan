@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Group3D : Eplan.EplApi.DataModel.StorableObject
@@ -28,7 +28,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Group3D Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Group3D~_ctor().html) | Default constructor. Creates the Group3D object. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -49,7 +49,7 @@ Public Properties
 | Public Property | [SubPlacement3Ds](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Group3D~SubPlacement3Ds.html) | Returns all grouped [Placement3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D.html)s. |
 | Public Property | [TypeIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TypeIdentifier.html) | Returns the type of the object as number. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -73,4 +73,4 @@ Public Methods
 | Public Method | [ToStringIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~ToStringIdentifier.html) | Returns this object as string identifier. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 | Public Method | [UnGroup](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Group3D~UnGroup.html) | Overloaded. Removes [Placement3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D.html)s only from the 3D group. |
 
-[Top](#top)
+

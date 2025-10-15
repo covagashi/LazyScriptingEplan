@@ -9,7 +9,7 @@ Description (address) # 22922.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ADDRESS_NOTE {get; set;}

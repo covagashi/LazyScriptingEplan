@@ -9,7 +9,7 @@ Enumeration of Pin's signal types
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Pin.SignalType : System.Enum

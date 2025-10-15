@@ -9,7 +9,7 @@ Service time # 20909.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_LIFETIME( 

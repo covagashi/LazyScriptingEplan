@@ -48,4 +48,4 @@ Public Properties
 | Public Property | [SYMBLIB\_VERSION](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.SymbolLibraryPropertyList~SYMBLIB_VERSION().html) | Version # 15012. |
 | Public Property | [SYMBOLLIBRARY\_REMOVED\_VARIANT](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.SymbolLibraryPropertyList~SYMBOLLIBRARY_REMOVED_VARIANT().html) | Compressed symbol library # 15031. |
 
-[Top](#top)
+

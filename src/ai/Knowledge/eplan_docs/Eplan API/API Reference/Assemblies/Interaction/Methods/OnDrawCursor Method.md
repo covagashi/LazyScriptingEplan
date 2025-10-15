@@ -9,7 +9,7 @@ Is called to get drawable objects for the cursor representation.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual StorableObject[] OnDrawCursor( 

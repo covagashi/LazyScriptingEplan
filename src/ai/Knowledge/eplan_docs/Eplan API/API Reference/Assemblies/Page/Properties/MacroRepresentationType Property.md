@@ -9,7 +9,7 @@ Page's property describing type of macro. This type is used to find a suitable v
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public WindowMacro.Enums.RepresentationType MacroRepresentationType {get;}

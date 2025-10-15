@@ -20,4 +20,4 @@ Public Properties
 | Property | [Value](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IPlaceHolder~Value.html) | Gets/Sets the value of a variable for a record. |
 | Property | [VariableNames](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IPlaceHolder~VariableNames.html) | Names of all variables in the Placeholder3D. |
 
-[Top](#top)
+

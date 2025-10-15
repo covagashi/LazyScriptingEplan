@@ -9,7 +9,7 @@ Drive torque (specified), max. # 26571.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_SPECIFIED_MAXIMUM_DRIVE_TORQUE( 

@@ -9,7 +9,7 @@ Creates a Rectangle object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Rectangle Create( 

@@ -9,7 +9,7 @@ Part group # 20490.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_PIECETYPE {get; set;}

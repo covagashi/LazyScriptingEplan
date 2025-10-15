@@ -9,7 +9,7 @@ Creates routing segments for installation space.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateRoutingSegments( 

@@ -9,7 +9,7 @@ PLC subdevice 5: Start address (inputs) # 20393.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_STARTADDRESS_5_INPUTS {get; set;}

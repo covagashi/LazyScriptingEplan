@@ -9,7 +9,7 @@ Function template: Template group (multi-line) # 20429.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION_TEMPLATE_COMBINATION {get; set;}

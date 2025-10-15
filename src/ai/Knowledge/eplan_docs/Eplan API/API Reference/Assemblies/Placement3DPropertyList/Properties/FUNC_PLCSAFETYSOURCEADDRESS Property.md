@@ -9,7 +9,7 @@ Safety address: Source # 20615.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCSAFETYSOURCEADDRESS {get; set;}

@@ -9,7 +9,7 @@ Plug designation # 20406.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCPLUG_DESIGNATION_MANUAL {get; set;}

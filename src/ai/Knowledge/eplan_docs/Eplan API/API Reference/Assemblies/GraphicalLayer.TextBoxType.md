@@ -9,7 +9,7 @@ Text box type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum GraphicalLayer.TextBoxType : System.Enum

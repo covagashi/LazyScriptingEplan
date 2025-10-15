@@ -9,7 +9,7 @@ TCF: Address for acceptance of goods # 26606.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TCF_GOODS_ACCEPTANCE_ADDRESS {get; set;}

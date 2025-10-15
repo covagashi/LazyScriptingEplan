@@ -29,4 +29,4 @@ Public Properties
 | Public Property | [StartPosition](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Interaction~StartPosition.html) | start position of Interaction. The StartPosition is needed to calculate the current position while ortho mode is active or after input of length or angle the start position is automatically set after point input and before call of OnPoint after start of an interaction StartPosition is null (Inherited from [Eplan.EplApi.EServices.Ged.Interaction](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Interaction.html)) |
 | Public Property | [WereLogicalPlacementsChanged](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Interaction~WereLogicalPlacementsChanged.html) | Returns true, if logical placements were changed. (Inherited from [Eplan.EplApi.EServices.Ged.Interaction](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Interaction.html)) |
 
-[Top](#top)
+

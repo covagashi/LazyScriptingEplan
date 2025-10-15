@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [Current](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesEnumerator~Current.html) | gets the current element in [Eplan::EplApi::EServices:](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesCollection.html) |
 | Public Property | [CurrentProjectMessage](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesEnumerator~CurrentProjectMessage.html) | gets the current element in [Eplan::EplApi::EServices:](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesCollection.html) |
 
-[Top](#top)
+

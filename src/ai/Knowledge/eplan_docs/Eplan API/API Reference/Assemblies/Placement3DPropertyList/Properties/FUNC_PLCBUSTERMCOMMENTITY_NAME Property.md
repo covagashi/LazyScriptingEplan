@@ -9,7 +9,7 @@ Communication unit (at PLC connection points) # 20163.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCBUSTERMCOMMENTITY_NAME {get; set;}

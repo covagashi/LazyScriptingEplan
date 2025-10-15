@@ -9,7 +9,7 @@ Merges collection of layout space components in such a way that their are treate
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement3D Unite( 

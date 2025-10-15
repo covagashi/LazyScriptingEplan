@@ -9,7 +9,7 @@ Destructor for deterministic finalization of Interaction object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Dispose()

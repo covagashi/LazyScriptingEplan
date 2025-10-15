@@ -9,7 +9,7 @@ Returns `true` if project exported from this subproject can be inserted back to 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsStorePossible {get;}

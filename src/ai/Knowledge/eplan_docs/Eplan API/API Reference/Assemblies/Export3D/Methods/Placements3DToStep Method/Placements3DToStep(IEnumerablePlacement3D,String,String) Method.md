@@ -9,7 +9,7 @@ Exports given article placements into files in STEP format.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Placements3DToStep( 

@@ -9,7 +9,7 @@ Terminal / Pin designation # 20030.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNC_PINORTERMINALNUMBER {get; set;}

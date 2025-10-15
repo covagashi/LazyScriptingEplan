@@ -9,7 +9,7 @@ Returns an array of all bridges connected to terminals of the terminal strip.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Terminal.Bridge[] Bridges {get;}

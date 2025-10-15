@@ -9,7 +9,7 @@ Gets version from the application.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Version {get;}

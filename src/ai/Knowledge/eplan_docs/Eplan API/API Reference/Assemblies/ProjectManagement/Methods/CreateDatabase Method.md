@@ -9,7 +9,7 @@ Create a new projectmanagement database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateDatabase( 

@@ -9,7 +9,7 @@ User # 10181.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_IDENTIFICATION {get; set;}

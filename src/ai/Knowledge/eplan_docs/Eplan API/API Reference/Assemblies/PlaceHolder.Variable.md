@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PlaceHolder.Variable
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PlaceHolder.Variable Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+Variable~_ctor.html) | Constructor for variable |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -37,4 +37,4 @@ Public Properties
 | Public Property | [Name](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+Variable~Name.html) | Returns the name of the variable |
 | Public Property | [Source](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+Variable~Source.html) | Source placeholder |
 
-[Top](#top)
+

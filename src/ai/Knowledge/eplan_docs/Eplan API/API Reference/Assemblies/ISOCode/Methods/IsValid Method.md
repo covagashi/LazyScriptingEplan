@@ -9,7 +9,7 @@ Determines whether a valid language has been set.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsValid()

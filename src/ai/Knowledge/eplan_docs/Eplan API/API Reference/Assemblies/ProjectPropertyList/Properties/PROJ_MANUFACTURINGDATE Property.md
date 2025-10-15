@@ -9,7 +9,7 @@ Manufacturing date # 10042.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_MANUFACTURINGDATE {get; set;}

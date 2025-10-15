@@ -9,7 +9,7 @@ Creates copy of existing module and adds it to article.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Article.Module AddModule( 

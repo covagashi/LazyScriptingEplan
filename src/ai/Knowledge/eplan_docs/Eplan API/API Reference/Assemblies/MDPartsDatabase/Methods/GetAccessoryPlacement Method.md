@@ -9,7 +9,7 @@ Gets a accessory placement with the given name that is stored in the parts datab
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAccessoryPlacement GetAccessoryPlacement( 

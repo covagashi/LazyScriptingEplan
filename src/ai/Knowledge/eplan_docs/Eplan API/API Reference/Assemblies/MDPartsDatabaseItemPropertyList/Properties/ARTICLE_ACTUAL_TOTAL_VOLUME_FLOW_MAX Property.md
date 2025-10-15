@@ -9,7 +9,7 @@ Actual total flow rate, max. # 26112.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ACTUAL_TOTAL_VOLUME_FLOW_MAX {get; set;}

@@ -9,7 +9,7 @@ Property arrangements # 16050.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMB_PROPERTYINSTANCESET( 

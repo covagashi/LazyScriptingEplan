@@ -9,7 +9,7 @@ Number of process connections points # 26068.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NUMBER_OF_PROCESS_CONNECTIONS {get; set;}

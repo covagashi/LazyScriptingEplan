@@ -9,7 +9,7 @@ Gets all used connection points from the project. Can be called within the execu
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void GetUsedConnectingPoints( 

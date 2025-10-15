@@ -43,4 +43,4 @@ Public Properties
 | Public Property | [RECTANGLE\_WIDTH](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.RectanglePropertyList~RECTANGLE_WIDTH().html) | Overloaded. Width # 20221. (Inherited from [Eplan.EplApi.DataModel.Graphics.RectanglePropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.RectanglePropertyList.html)) |
 | Public Property | [WRITEPROTECTED\_AUTOMATIC](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementPropertyList~WRITEPROTECTED_AUTOMATIC().html) | Overloaded. Change protection (hierarchical) # 3015. (Inherited from [Eplan.EplApi.DataModel.PlacementPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementPropertyList.html)) |
 
-[Top](#top)
+

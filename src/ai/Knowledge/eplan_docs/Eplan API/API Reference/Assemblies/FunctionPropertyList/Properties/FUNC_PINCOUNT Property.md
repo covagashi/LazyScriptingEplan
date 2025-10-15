@@ -9,7 +9,7 @@ Plugs: Number of pins # 20056.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PINCOUNT {get; set;}

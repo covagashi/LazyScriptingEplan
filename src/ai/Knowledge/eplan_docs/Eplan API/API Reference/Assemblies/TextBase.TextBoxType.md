@@ -9,7 +9,7 @@ Text box type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum TextBase.TextBoxType : System.Enum

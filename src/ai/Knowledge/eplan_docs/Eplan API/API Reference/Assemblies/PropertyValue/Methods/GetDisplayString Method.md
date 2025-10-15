@@ -9,7 +9,7 @@ Display value of property as [Eplan.EplApi.Base.MultiLangString](Eplan.EplApi.Ba
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString GetDisplayString()

@@ -9,7 +9,7 @@ Connection type # 22254.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_WIRETYPE {get; set;}

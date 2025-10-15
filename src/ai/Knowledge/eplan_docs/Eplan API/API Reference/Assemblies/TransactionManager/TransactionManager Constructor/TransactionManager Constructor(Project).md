@@ -9,7 +9,7 @@ Constructor to create a project dependent instance.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public TransactionManager( 

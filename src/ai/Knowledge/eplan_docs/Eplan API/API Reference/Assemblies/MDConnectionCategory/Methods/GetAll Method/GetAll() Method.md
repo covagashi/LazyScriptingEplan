@@ -9,7 +9,7 @@ Returns a list of possible categories of connections.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static MDConnectionCategory[] GetAll()

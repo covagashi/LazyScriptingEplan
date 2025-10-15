@@ -7,7 +7,7 @@
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDSymbol.MDPropertyPlacementsSchemasList PropertyPlacementsSchemas {get;}

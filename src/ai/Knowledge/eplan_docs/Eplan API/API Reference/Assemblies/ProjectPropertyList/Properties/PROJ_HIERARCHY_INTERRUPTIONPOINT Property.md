@@ -9,7 +9,7 @@ Structure format for interruption points # 10051.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_INTERRUPTIONPOINT {get; set;}

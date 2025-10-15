@@ -9,7 +9,7 @@ Converts the symbol representing this object into a group of graphical placement
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Group ConvertToGraphics()

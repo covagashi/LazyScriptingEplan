@@ -9,7 +9,7 @@ Optimize all distributed terminals of the selected terminal strips
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool OptimizeDistributedTerminals( 

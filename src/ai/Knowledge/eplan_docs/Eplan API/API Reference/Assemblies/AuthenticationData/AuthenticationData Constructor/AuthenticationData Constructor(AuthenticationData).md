@@ -9,7 +9,7 @@ AuthenticationData constructor sets authentication data from existing object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public AuthenticationData( 

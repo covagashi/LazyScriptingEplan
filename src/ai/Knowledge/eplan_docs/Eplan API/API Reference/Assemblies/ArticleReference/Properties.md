@@ -31,4 +31,4 @@ Public Properties
 | Public Property | [TypeIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TypeIdentifier.html) | Returns the type of the object as number. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 | Public Property | [VariantNr](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference~VariantNr.html) | Sets and gets ArticleReference's variant number. |
 
-[Top](#top)
+

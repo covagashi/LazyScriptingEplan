@@ -9,7 +9,7 @@ Fills the Article with data from the system parts database
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool LoadFromMasterdata()

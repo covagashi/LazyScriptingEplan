@@ -9,7 +9,7 @@ Planning object to which macro placeholder value sets belong
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlanningObject Source {get;}

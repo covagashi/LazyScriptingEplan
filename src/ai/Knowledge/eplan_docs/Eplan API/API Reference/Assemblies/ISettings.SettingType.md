@@ -9,7 +9,7 @@ The type one setting can hold data in.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ISettings.SettingType : System.Enum

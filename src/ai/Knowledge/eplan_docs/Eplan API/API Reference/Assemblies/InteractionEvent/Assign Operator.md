@@ -9,7 +9,7 @@ Assignment operator.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 This operator type is not supported by C#

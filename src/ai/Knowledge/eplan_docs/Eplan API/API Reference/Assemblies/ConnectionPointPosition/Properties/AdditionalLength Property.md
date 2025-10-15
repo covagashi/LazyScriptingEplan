@@ -9,7 +9,7 @@ Additional length of the connection point position.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double AdditionalLength {get; set;}

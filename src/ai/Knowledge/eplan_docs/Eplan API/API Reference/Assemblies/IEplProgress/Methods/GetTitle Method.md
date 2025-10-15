@@ -9,7 +9,7 @@ Get the Title of the progress window.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 string GetTitle()

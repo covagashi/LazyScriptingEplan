@@ -9,7 +9,7 @@ Function designation (sub-identifier 6): Description # 1136.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBPLANT6_DESCR {get; set;}

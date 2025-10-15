@@ -9,7 +9,7 @@ Function designation: Main identifier (automatic) # 31102.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_PLANT_AUTOMATIC {get; set;}

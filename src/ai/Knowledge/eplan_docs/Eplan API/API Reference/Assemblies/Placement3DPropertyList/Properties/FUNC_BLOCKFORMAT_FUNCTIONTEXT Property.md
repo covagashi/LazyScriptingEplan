@@ -9,7 +9,7 @@ Block property: Format (function text, automatic) # 20545.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_BLOCKFORMAT_FUNCTIONTEXT {get; set;}

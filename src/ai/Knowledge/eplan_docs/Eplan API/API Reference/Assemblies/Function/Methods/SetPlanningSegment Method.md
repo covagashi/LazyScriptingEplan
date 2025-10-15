@@ -9,7 +9,7 @@ Assigns [Eplan.EplApi.DataModel.Planning.PlanningSegment](Eplan.EplApi.DataModel
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetPlanningSegment( 

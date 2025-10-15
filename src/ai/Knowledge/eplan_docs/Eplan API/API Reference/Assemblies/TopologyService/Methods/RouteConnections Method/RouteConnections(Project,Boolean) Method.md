@@ -9,7 +9,7 @@ Routes topology connections between all function with representation type [Eplan
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RouteConnections( 

@@ -9,7 +9,7 @@ TCF: Reference value for the calculation # 26600.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TCF_REFERENCE_VALUE_FOR_CALCULATION {get; set;}

@@ -9,7 +9,7 @@ Intake pressure, min. # 26005.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_INTAKE_PRESSURE_MIN {get; set;}

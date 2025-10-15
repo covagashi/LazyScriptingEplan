@@ -9,7 +9,7 @@ Terminal potential # 26118.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TERMINAL_POTENTIAL {get; set;}

@@ -9,7 +9,7 @@ The maximal wire cross section AWG of the connection point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string MaxCrossSectionAWG {get; set;}

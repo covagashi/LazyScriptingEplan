@@ -9,7 +9,7 @@ X starting point: Clamping space # 36080.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_TERMINALPOSITION_CLAMPSPACE_STARTXPOS( 

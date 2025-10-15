@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Check
@@ -50,7 +50,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Check Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Check~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -62,4 +62,4 @@ Public Methods
 | Public Method | [VerifyPages](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Check~VerifyPages.html) | Overloaded. Starts a check run for the given pages. |
 | Public Method | [VerifyProject](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Check~VerifyProject.html) | Overloaded. Starts a check run for the given project. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Returns number of sub projects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Count {get;}

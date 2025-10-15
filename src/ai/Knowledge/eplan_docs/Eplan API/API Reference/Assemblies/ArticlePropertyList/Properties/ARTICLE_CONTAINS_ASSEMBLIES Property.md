@@ -9,7 +9,7 @@ Contains assemblies # 22425.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CONTAINS_ASSEMBLIES {get; set;}

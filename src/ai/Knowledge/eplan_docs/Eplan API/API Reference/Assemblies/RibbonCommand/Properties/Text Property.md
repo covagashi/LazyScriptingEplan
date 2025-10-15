@@ -9,7 +9,7 @@ Returns command text
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Text {get;}

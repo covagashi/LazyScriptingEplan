@@ -9,7 +9,7 @@ Returns mesh.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Mesh Mesh {get;}

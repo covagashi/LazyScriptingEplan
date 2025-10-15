@@ -9,7 +9,7 @@ Associated connections: Line type of autoconnecting line # 31039.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_ACL_STYLE {get; set;}

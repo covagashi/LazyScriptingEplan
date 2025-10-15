@@ -9,7 +9,7 @@ A Delevoper Assertion. When the boolean Expression fails, the debugged applicati
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Assert( 

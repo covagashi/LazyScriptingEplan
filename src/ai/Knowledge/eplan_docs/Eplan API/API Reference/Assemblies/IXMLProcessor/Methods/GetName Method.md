@@ -9,7 +9,7 @@ Returns the name of the converter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 string GetName()

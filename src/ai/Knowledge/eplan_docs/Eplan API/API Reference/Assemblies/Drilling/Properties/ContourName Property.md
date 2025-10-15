@@ -9,7 +9,7 @@ Name of the drilling contour.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ContourName {get;}

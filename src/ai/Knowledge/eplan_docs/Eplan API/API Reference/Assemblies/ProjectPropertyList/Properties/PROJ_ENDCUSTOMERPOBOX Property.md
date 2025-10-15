@@ -9,7 +9,7 @@ End customer: P.O. box # 10136.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ENDCUSTOMERPOBOX {get; set;}

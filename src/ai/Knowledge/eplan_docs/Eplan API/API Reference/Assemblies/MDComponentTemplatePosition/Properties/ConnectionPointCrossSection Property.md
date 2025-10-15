@@ -9,7 +9,7 @@ The connection point cross-section of component template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConnectionPointCrossSection {get; set;}

@@ -9,7 +9,7 @@ Block property: Format (PLC box) # 10605.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_PLCBOX( 

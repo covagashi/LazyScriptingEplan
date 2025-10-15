@@ -9,7 +9,7 @@ Creation date # 16021.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMB_CREATIONDATE {get; set;}

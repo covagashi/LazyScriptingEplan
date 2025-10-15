@@ -9,7 +9,7 @@ Maximum cross section that can be connected to this connection point.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double MaxCrossSection {get; set;}

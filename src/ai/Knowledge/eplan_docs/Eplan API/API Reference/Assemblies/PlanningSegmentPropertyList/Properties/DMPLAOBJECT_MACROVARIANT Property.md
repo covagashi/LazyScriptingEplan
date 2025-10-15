@@ -9,7 +9,7 @@ Macro: Variant # 44093.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_MACROVARIANT {get; set;}

@@ -9,7 +9,7 @@ X coordinate # 19002.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_XCOORD {get; set;}

@@ -9,7 +9,7 @@ Modification date (manual) # 16025.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_LASTMANUMODIFICATIONDATE {get; set;}

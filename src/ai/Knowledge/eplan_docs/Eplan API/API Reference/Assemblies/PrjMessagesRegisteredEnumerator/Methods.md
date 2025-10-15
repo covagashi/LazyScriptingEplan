@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [MoveNext](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredEnumerator~MoveNext.html) | Advances the enumerator to the next element of [Eplan::EplApi::EServices:](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredCollection.html) |
 | Public Method | [Reset](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredEnumerator~Reset.html) | Sets the enumerator to its initial position, which is before the first element in [Eplan::EplApi::EServices:](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredCollection.html) |
 
-[Top](#top)
+

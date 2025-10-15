@@ -9,7 +9,7 @@ Creates object representing a read-write transaction.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Transaction CreateTransaction()

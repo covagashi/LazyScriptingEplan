@@ -9,7 +9,7 @@ Exports generate schematic configuration into xml file. TODO:
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ExportGenerateSchematicConfiguration( 

@@ -45,4 +45,4 @@ Public Properties
 | Public Property | [VisibleName](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBase~VisibleName.html) | Returns the visible name of the FunctionBase. |
 | Public Property | [VisibleNameParts](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBase~VisibleNameParts.html) | Returns visible name of the Function. |
 
-[Top](#top)
+

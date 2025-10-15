@@ -9,7 +9,7 @@ Returns relative transformation matrix
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Matrix3D RelativeTransformation {get;}

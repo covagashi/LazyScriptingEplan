@@ -9,7 +9,7 @@ Displays the Eplan Open project dialog and opens the selected project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void OpenProjectDlg()

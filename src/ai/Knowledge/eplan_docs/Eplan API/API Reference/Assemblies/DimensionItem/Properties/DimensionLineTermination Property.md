@@ -9,7 +9,7 @@ Gets or sets the dimension line termination.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DimensionItem.Enums.DimensionLineTermination DimensionLineTermination {get; set;}

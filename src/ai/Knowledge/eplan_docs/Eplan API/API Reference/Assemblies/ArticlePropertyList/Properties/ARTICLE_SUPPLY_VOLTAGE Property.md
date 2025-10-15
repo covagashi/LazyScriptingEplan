@@ -9,7 +9,7 @@ Supply voltage # 26161.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SUPPLY_VOLTAGE {get; set;}

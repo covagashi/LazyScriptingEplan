@@ -9,7 +9,7 @@ Finds all connections which are in the same circuit as `oSourceConnection` and h
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void TrackPotential( 

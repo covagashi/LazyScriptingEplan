@@ -9,7 +9,7 @@ Construct empty symbol.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Symbol()

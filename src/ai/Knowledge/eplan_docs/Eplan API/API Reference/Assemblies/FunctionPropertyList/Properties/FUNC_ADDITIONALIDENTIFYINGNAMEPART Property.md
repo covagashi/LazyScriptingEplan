@@ -9,7 +9,7 @@ Additional identifying name element # 20032.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ADDITIONALIDENTIFYINGNAMEPART {get; set;}

@@ -9,7 +9,7 @@ Input aid of this property definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public UserDefinedPropertyDefinition.Enums.InputAidType InputAid {get; set;}

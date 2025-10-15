@@ -9,7 +9,7 @@ Gets/Sets a flag which indicates if property will not be longer displayed in pro
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool DoNotUse {get; set;}

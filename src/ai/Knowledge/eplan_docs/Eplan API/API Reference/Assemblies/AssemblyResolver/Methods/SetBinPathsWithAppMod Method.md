@@ -9,7 +9,7 @@ Set the EPLAN platform bin path. The EPLAN product variant path will be searched
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetBinPathsWithAppMod( 

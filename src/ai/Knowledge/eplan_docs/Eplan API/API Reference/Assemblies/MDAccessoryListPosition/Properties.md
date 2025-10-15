@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [PartNr](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAccessoryListPosition~PartNr.html) | Returns the part number of the referenced part. |
 | Public Property | [Variant](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAccessoryListPosition~Variant.html) | Returns the part number of the referenced part. |
 
-[Top](#top)
+

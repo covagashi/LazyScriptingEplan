@@ -9,7 +9,7 @@ Is PLC template relevant to safety (yes / no)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsRelevantToSafety {get; set;}

@@ -9,7 +9,7 @@ Valid data # 31045.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_ALLOWED_DATA {get; set;}

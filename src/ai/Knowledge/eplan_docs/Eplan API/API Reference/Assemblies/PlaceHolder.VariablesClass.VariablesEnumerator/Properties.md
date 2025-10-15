@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [Current](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+VariablesClass+VariablesEnumerator~Current.html) |  |
 | Public Property | [Current2](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+VariablesClass+VariablesEnumerator~Current2.html) |  |
 
-[Top](#top)
+

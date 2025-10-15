@@ -9,7 +9,7 @@ Number of attachment points # 26076.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NUMBER_OF_FIXING_POINTS {get; set;}

@@ -9,7 +9,7 @@ Name of the installation variant.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get; set;}

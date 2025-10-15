@@ -9,7 +9,7 @@ Data type for import/export
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MDPartsDatabase.DataFormat : System.Enum

@@ -9,7 +9,7 @@ Returns the Type of the Symbol.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDSymbol.Enums.SymbolType Type {get; set;}

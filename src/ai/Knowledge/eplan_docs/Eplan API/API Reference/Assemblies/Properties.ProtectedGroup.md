@@ -9,7 +9,7 @@ Identificators of properties owned by ProtectedGroup class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.ProtectedGroup : System.Enum

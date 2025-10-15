@@ -9,7 +9,7 @@ Cable / Conduit: Number of connections, cross-section / diameter with unit, leng
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_AUTO_WIRECOUNT_CROSSSECTION_UNIT_LENGTH_UNIT {get; set;}

@@ -9,7 +9,7 @@ Current consumption, max. # 26597.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CURRENT_CONSUMPTION_MAX {get; set;}

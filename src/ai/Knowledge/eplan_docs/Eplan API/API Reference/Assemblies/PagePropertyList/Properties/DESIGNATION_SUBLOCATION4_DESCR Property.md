@@ -9,7 +9,7 @@ Location designation (sub-identifier 4): Description # 1234.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBLOCATION4_DESCR {get; set;}

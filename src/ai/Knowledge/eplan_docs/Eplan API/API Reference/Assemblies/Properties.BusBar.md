@@ -9,7 +9,7 @@ Identificators of properties owned by BusBar class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.BusBar : System.Enum

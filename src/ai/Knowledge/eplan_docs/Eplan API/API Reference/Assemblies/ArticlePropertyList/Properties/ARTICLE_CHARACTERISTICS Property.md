@@ -9,7 +9,7 @@ Technical characteristics # 22017.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CHARACTERISTICS {get; set;}

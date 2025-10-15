@@ -9,7 +9,7 @@ Gets whether font is italic or not.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Italic {get;}

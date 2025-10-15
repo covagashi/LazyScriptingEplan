@@ -9,7 +9,7 @@ Enumeration, which determines whether a macro will be placed using absolute coor
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Insert.MoveKind : System.Enum

@@ -9,7 +9,7 @@ Return the selected projects of the active dialog as an array. If you select ele
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project[] SelectedProjects {get;}

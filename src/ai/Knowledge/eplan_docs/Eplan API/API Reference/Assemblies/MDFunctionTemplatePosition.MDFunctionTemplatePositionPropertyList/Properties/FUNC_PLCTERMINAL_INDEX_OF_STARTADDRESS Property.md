@@ -9,7 +9,7 @@ PLC subdevice: Index # 20384.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNC_PLCTERMINAL_INDEX_OF_STARTADDRESS {get; set;}

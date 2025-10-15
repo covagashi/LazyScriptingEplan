@@ -9,7 +9,7 @@ Start IP address # 20165.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCOMMUNICATIONENTITY_STARTIPADDRESS( 

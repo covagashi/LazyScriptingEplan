@@ -9,7 +9,7 @@ Returns formated display string of the content
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string GetDisplayString()

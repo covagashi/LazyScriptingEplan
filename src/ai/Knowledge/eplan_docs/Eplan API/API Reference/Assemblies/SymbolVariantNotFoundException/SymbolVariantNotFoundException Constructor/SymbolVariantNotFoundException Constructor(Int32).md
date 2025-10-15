@@ -9,7 +9,7 @@ Constructor with variant index of searched symbol.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolVariantNotFoundException( 

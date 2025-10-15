@@ -9,7 +9,7 @@ MasterSystemID # 20334.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLC_MASTERSYSTEMID {get; set;}

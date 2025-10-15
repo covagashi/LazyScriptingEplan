@@ -9,7 +9,7 @@ Uri of the Deprecated Eplan Cloud resource
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Uri {get; set;}

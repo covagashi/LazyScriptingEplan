@@ -9,7 +9,7 @@ Saddle jumper option # 20808.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_JUMPERBAR {get; set;}

@@ -9,7 +9,7 @@ PLC address: Counter # 44064.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLCADDRESS_COUNTER( 

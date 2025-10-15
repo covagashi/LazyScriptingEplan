@@ -9,7 +9,7 @@ Display format: Segment name # 44002.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECTDEFINITION_DISPLAYNAME_FORMAT {get; set;}

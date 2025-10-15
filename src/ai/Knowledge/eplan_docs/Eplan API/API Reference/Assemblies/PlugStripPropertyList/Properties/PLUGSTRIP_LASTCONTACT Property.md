@@ -9,7 +9,7 @@ Plugs: Last pin # 35204.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLUGSTRIP_LASTCONTACT {get; set;}

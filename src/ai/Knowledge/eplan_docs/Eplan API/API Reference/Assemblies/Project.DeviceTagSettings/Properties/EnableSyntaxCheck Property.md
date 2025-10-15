@@ -9,7 +9,7 @@ Representation of XDtcDeviceTagCheck.Hierarchy.ActivateDeviceTagCheck settings v
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool EnableSyntaxCheck {get; set;}

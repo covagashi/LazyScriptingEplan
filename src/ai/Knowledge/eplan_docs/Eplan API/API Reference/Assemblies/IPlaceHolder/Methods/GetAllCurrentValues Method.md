@@ -9,7 +9,7 @@ Gets a list of all current values in Placeholder.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 PropertyValue[] GetAllCurrentValues()

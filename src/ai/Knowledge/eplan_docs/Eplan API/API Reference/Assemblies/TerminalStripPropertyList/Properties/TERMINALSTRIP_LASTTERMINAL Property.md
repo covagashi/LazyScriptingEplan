@@ -9,7 +9,7 @@ Terminal strips: Last terminal # 35008.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue TERMINALSTRIP_LASTTERMINAL {get; set;}

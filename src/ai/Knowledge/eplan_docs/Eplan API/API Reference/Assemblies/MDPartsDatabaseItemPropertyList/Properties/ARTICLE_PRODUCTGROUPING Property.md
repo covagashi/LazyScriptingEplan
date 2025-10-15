@@ -9,7 +9,7 @@ Product grouping # 22367.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PRODUCTGROUPING {get; set;}

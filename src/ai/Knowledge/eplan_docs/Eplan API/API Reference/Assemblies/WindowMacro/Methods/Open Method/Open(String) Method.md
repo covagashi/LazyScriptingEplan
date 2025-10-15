@@ -9,7 +9,7 @@ Opens a macro file using current parts database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Open( 

@@ -9,7 +9,7 @@ Returns the connection's start connection point.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PinBase StartConnectionPoint {get;}

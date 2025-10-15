@@ -9,7 +9,7 @@ Returns an array of all property ids which can exist for Line objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static AnyPropertyId[] AllLinePropIDs {get;}

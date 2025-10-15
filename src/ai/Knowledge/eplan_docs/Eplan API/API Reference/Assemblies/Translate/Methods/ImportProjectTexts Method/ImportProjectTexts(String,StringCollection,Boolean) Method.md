@@ -9,7 +9,7 @@ Method for importing texts from the project into the dictionary (language databa
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ImportProjectTexts( 

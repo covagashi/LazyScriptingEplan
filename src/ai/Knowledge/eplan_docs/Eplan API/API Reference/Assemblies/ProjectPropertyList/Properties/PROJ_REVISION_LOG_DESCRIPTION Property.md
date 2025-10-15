@@ -9,7 +9,7 @@ Revision comment (change tracking) # 10156.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_REVISION_LOG_DESCRIPTION( 

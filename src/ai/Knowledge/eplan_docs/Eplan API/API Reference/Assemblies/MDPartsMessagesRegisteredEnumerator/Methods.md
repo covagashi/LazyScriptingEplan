@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [MoveNext](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesRegisteredEnumerator~MoveNext.html) | Advances the enumerator to the next element of [Eplan::EplApi::MasterData:](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesRegisteredCollection.html) |
 | Public Method | [Reset](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesRegisteredEnumerator~Reset.html) | Sets the enumerator to its initial position, which is before the first element in [Eplan::EplApi::MasterData:](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesRegisteredCollection.html) |
 
-[Top](#top)
+

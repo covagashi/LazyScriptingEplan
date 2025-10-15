@@ -9,7 +9,7 @@ Spare quantity # 23206.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DEVICELISTENTRY_RESERVE {get; set;}

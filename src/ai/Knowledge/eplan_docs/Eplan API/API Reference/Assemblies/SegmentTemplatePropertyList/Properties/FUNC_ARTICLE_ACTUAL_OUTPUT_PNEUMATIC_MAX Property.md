@@ -9,7 +9,7 @@ Actual power (pneumatic), min. # 26392.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_ACTUAL_POWER_PNEUMATIC_MIN( 

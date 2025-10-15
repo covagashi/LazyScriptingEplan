@@ -9,7 +9,7 @@ Target segment # 44071.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_TARGET_SEGMENT {get; set;}

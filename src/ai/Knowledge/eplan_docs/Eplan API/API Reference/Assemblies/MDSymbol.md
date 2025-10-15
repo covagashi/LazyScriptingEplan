@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Variant")]
@@ -55,7 +55,7 @@ Public Properties
 | Public Property | [Variant](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol~Variant.html) | Index operator to get a variant by its name. Valid names are "A" or "a" through "H" or "h". |
 | Public Property | [Variants](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol~Variants.html) | a read only list of all MDSymbolVariants in the symbol |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -66,4 +66,4 @@ Public Methods
 | Public Method | [GetConnectionPoints](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol~GetConnectionPoints.html) | Overloaded. Returns an array of connection points defined in the symbol's function definition. |
 | Public Method | [Remove](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol~Remove.html) | Removes the symbol out of the symbol library. |
 
-[Top](#top)
+

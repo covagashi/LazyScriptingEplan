@@ -9,7 +9,7 @@ Scale used to display objects in ViewPlacement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Scale {get; set;}

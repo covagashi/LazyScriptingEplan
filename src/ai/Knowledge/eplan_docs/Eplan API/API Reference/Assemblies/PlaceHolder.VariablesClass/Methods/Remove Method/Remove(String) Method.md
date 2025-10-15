@@ -9,7 +9,7 @@ Removes a variable
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Remove( 

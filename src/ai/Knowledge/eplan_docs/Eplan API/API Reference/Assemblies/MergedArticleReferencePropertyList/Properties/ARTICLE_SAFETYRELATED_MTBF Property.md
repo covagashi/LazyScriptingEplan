@@ -9,7 +9,7 @@ Safety-related values: MTBF # 40336.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SAFETYRELATED_MTBF {get; set;}

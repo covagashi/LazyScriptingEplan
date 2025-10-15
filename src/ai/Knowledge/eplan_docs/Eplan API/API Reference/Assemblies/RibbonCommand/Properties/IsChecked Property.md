@@ -9,7 +9,7 @@ Returns whether a command is checked
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsChecked {get;}

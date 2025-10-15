@@ -9,7 +9,7 @@ Autoconnecting line: Pattern length # 31018.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_ACL_FACTOR {get; set;}

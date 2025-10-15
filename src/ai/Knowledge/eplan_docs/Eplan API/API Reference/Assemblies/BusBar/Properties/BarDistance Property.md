@@ -9,7 +9,7 @@ Distance of bars in busbar-system (distance is from top of bar to top of bar not
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual double BarDistance {get;}

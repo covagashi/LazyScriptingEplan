@@ -9,7 +9,7 @@ Associated connections: Color of autoconnecting line # 31038.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_ACL_COLOR {get; set;}

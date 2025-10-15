@@ -9,7 +9,7 @@ Used in conversion of the PropertyValue object to [Eplan.EplApi.Base.MultiLangSt
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString ToMultiLangString()

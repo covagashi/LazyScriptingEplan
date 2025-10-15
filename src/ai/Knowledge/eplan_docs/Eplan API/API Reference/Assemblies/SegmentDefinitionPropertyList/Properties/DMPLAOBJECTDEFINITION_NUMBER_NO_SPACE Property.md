@@ -9,7 +9,7 @@ Segment definition: Separator symbolic address # 44090.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECTDEFINITION_PREFIX_SA {get; set;}

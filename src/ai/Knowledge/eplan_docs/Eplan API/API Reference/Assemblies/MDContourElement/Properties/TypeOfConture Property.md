@@ -9,7 +9,7 @@ Type of curve which connects start with end point.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDContourElement.ContureType TypeOfConture {get;}

@@ -9,7 +9,7 @@ Terminal designation 1-base index.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int TargetIndex {get; set;}

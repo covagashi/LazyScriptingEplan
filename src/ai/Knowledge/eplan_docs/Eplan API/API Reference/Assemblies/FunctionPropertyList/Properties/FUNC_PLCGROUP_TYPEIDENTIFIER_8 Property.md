@@ -9,7 +9,7 @@ PLC subdevice 8: PLC type designation # 20588.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_TYPEIDENTIFIER_8 {get; set;}

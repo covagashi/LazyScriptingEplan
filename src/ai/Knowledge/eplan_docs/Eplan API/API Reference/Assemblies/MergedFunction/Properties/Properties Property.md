@@ -9,7 +9,7 @@ List of P8 properties of the MergedFunction object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new MergedFunctionPropertyList Properties {get;}

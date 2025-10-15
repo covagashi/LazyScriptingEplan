@@ -9,7 +9,7 @@ Index for additional data # 21002.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNCTEMPLATE_INDEX( 

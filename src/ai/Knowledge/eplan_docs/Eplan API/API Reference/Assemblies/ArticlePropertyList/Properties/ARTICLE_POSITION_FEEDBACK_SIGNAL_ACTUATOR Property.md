@@ -9,7 +9,7 @@ Feedback signal available # 26062.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_POSITION_FEEDBACK_SIGNAL_ACTUATOR {get; set;}

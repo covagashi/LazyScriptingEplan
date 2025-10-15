@@ -9,7 +9,7 @@ Revision created by (change tracking) # 10157.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_REVISION_LOG_USER( 

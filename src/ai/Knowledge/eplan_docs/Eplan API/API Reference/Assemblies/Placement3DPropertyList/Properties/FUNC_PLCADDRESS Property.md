@@ -9,7 +9,7 @@ PLC address # 20400.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCADDRESS {get; set;}

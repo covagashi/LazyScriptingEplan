@@ -9,7 +9,7 @@ Data backup: Backup medium # 10515.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BACKUP_MEDIUM {get; set;}

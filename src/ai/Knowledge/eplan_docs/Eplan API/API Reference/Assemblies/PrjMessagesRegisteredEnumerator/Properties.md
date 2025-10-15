@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Current](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredEnumerator~Current.html) | gets the current element in [Eplan::EplApi::EServices:](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredCollection.html) |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Start page name with document type # 10450.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ADDITIONALINFO_DOCUMENTSTRUCTUREINFRONT {get; set;}

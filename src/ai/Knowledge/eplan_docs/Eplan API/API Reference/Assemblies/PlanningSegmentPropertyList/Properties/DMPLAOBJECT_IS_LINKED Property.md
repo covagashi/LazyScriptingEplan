@@ -9,7 +9,7 @@ Is linked to superior segments # 44066.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_IS_LINKED {get; set;}

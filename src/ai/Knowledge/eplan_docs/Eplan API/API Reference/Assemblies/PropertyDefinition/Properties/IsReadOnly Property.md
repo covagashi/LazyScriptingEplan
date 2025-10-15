@@ -9,7 +9,7 @@ Allows to check if a given property is read-only.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsReadOnly {get;}

@@ -9,7 +9,7 @@ Name of page containing connection # 31026.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_PAGENAME {get; set;}

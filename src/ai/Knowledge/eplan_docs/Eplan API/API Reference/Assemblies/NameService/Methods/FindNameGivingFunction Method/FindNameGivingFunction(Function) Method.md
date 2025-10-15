@@ -9,7 +9,7 @@ Finds the function, that would give hActual the function name, if hActual has no
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function FindNameGivingFunction( 

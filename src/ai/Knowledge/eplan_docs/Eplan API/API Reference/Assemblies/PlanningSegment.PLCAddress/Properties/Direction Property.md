@@ -9,7 +9,7 @@ Specifies the direction of the address (input, output, undefined).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlanningSegment.PLCAddress.Enums.PlcAddressDirection Direction {get; set;}

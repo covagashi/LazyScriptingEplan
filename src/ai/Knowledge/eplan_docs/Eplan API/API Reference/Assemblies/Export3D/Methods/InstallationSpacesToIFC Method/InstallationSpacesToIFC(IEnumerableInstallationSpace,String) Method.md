@@ -9,7 +9,7 @@ Exports given installation spaces into files in IFC format.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool InstallationSpacesToIFC( 

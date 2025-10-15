@@ -9,7 +9,7 @@ PLC subdevice 3: PLC type designation # 20583.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_TYPEIDENTIFIER_3 {get; set;}

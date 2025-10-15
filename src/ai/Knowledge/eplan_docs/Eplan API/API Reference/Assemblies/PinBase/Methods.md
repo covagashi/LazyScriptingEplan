@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [Equals](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase~Equals.html) | Comparison of two PinBase objects. Comparison is made by comparing each of Pin members instead of internal object id. |
 | Public Method | [GetHashCode](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase~GetHashCode.html) | Serves as the default hash function. |
 
-[Top](#top)
+

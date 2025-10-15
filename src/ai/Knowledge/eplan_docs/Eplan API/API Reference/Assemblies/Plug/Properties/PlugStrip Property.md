@@ -9,7 +9,7 @@ Returns [PlugStrip](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Plug
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlugStrip PlugStrip {get;}

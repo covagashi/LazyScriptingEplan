@@ -9,7 +9,7 @@ Layer's name
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get;}

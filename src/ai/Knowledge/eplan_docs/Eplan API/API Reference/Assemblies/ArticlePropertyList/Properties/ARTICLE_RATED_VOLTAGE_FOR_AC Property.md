@@ -9,7 +9,7 @@ Nominal voltage (AC) # 26490.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_RATED_VOLTAGE_FOR_AC {get; set;}

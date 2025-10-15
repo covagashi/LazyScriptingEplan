@@ -9,7 +9,7 @@ Temperature coefficient # 22274.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TEMPERATURE_COEFFICIENT {get; set;}

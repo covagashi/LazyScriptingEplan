@@ -9,7 +9,7 @@ Grid size, Y coordinate
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double SizeY {get;}

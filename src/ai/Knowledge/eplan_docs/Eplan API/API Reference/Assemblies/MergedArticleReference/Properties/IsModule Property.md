@@ -9,7 +9,7 @@ Returns true if this compound is a module.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsModule {get;}

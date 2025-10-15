@@ -9,7 +9,7 @@ Higher-level function number (main identifier) # 1700.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_INSTALLATIONNUMBER {get; set;}

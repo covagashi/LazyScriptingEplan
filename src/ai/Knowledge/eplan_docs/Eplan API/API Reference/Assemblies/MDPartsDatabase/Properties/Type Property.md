@@ -9,7 +9,7 @@ Returns the type of the database (SQL or EPLAN)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartsDatabase.MDPartsDatabaseType Type {get;}

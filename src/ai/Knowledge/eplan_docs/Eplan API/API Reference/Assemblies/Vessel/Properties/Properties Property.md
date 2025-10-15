@@ -9,7 +9,7 @@ EPLAN properties of the Vessel object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new VesselPropertyList Properties {get;}

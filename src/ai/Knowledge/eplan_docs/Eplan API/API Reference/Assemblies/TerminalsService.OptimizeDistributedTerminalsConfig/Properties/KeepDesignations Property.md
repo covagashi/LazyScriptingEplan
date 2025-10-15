@@ -9,7 +9,7 @@ If TRUE, the distributed terminals will keep their device tag. If FALSE, the dis
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool KeepDesignations {get; set;}

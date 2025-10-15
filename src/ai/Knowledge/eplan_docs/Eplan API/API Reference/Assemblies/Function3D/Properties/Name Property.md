@@ -9,7 +9,7 @@ Returns the name of the Function3D.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string Name {get; set;}

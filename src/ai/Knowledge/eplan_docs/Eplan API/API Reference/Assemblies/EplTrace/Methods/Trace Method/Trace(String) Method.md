@@ -9,7 +9,7 @@ Writes the text to EplLog.txt when Trace is on. The Calling Assembly is asked fo
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Trace( 

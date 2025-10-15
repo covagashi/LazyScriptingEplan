@@ -9,7 +9,7 @@ Registers the progress in the eplan framework
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static void RegisterProgress( 

@@ -9,7 +9,7 @@ Discontinued part # 23215.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DEVICELISTENTRY_DISCONTINUED {get; set;}

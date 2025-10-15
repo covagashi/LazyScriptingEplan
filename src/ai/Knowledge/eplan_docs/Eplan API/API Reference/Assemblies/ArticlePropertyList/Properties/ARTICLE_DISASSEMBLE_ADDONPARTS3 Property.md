@@ -9,7 +9,7 @@ Include supplemental parts (summarized parts list / manufacturing data) # 22419.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DISASSEMBLE_ADDONPARTS3 {get; set;}

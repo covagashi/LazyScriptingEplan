@@ -9,7 +9,7 @@ Allows to check maximal index value of given property.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override int MaxIndex {get;}

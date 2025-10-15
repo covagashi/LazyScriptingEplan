@@ -9,7 +9,7 @@ Indicates if system proxy is used. Default = true.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool UseSystemProxy {get; set;}

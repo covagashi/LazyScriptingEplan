@@ -9,7 +9,7 @@ Reads [MultiLangString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString.htm
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 MultiLangString GetMultiLangStringSetting( 

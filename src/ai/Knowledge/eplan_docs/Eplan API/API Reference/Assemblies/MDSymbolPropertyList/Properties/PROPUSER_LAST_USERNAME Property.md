@@ -9,7 +9,7 @@ Last editor: Name # 3011.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PROPUSER_LAST_USERNAME {get; set;}

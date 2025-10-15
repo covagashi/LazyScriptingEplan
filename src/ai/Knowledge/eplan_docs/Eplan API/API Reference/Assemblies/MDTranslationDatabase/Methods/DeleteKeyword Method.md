@@ -9,7 +9,7 @@ Deletes keyword.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool DeleteKeyword( 

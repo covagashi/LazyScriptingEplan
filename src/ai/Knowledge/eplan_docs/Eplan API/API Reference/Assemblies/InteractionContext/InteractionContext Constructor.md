@@ -9,7 +9,7 @@ Creates a new InteractionContext object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InteractionContext()

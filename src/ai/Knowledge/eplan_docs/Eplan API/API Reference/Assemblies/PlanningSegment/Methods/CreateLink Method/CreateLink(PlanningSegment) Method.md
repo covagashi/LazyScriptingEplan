@@ -9,7 +9,7 @@ Creates a link between this object and given targetSegment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CreateLink( 

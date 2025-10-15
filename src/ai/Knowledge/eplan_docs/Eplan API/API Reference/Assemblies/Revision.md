@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Revision
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Revision Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Revision~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -50,4 +50,4 @@ Public Methods
 | Public Method | [RemoveRevisionMarkers](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Revision~RemoveRevisionMarkers.html) | Overloaded. Removes revision marker. Used for change tracking. |
 | Public Method | [RemoveWriteProtection](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Revision~RemoveWriteProtection.html) | Removes write protection on a project (i.e. opens the current revision for changes). Used for change tracking. |
 
-[Top](#top)
+

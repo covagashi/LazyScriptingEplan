@@ -9,7 +9,7 @@ Gets/Sets a value that indicates whether the text is docked or not. Setting IsDo
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsDocked {get; set;}

@@ -9,7 +9,7 @@ Change current representation type and variant of macro This function is more ef
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ChangeCurrentVariant( 

@@ -9,7 +9,7 @@ Color # 19010.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_COLOR {get; set;}

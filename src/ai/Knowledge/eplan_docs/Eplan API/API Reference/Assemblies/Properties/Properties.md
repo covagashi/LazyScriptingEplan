@@ -15,4 +15,4 @@ Public Properties
 | Public Propertystatic (Shared in Visual Basic) | [AllMDSymbolPropIDs](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.Properties~AllMDSymbolPropIDs.html) | Returns array of all P8 properties id which can exist for MDSymbol objects. |
 | Public Propertystatic (Shared in Visual Basic) | [AllMDSymbolVariantPropIDs](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.Properties~AllMDSymbolVariantPropIDs.html) | Returns array of all P8 properties id which can exist for MDSymbolVariant objects. |
 
-[Top](#top)
+

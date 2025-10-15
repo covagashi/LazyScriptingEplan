@@ -9,7 +9,7 @@ Superior structure format for all devices # 10054.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_MASTERDEVICES {get; set;}

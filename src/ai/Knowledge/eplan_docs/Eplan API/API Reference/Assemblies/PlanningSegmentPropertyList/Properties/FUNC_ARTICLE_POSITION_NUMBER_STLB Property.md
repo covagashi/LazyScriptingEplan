@@ -9,7 +9,7 @@ Possible uses # 26290.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_POSSIBLE_APPLICATIONS( 

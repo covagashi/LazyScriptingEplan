@@ -9,7 +9,7 @@ Method for completing project master data.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CompleteProject( 

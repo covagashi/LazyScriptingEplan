@@ -9,7 +9,7 @@ Replacement part: Original part # 26319.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_REPLACEMENT_FOR_PRODUCT( 

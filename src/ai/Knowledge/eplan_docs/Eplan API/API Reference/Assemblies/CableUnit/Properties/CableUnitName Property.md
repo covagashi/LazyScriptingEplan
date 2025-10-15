@@ -9,7 +9,7 @@ Gets or sets wire harness name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string CableUnitName {get; set;}

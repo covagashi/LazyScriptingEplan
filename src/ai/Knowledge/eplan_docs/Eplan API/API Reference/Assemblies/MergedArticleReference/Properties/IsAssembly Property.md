@@ -9,7 +9,7 @@ Returns true if this compound is an articles assembly.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsAssembly {get;}

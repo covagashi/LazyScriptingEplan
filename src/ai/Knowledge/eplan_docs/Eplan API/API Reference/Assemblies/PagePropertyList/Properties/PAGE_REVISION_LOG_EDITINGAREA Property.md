@@ -9,7 +9,7 @@ Defined working section (from change tracking) # 11079.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_REVISION_LOG_EDITINGAREA( 

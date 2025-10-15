@@ -9,7 +9,7 @@ Routing track target: Y coordinate # 31152.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_ROUTE_DESTINATION_YPOS {get; set;}

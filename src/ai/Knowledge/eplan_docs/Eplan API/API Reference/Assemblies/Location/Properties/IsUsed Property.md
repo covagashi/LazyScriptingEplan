@@ -9,7 +9,7 @@ Gets if the location is currently used
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsUsed {get;}

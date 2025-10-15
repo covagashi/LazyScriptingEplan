@@ -9,7 +9,7 @@ Physical network: Name # 20413.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCDP_SYSTEM {get; set;}

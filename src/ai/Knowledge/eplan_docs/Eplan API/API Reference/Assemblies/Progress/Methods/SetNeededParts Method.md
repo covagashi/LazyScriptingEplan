@@ -9,7 +9,7 @@ Specifies how many segments are required.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetNeededParts( 

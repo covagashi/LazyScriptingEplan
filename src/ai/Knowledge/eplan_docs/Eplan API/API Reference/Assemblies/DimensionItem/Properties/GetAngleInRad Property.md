@@ -9,7 +9,7 @@ Gets angle value in radians for angular dimension type only.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double GetAngleInRad {get;}

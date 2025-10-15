@@ -16,4 +16,4 @@ Public Fields
 | Public Field | [m\_strOperationType](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~m_strOperationType.html) |  |
 | Public Field | [m\_strProjectName](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.RemotingCallingContext~m_strProjectName.html) |  |
 
-[Top](#top)
+

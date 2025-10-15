@@ -18,7 +18,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class NotIndexedPropertyException : DataModelException
@@ -31,7 +31,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [NotIndexedPropertyException Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.NotIndexedPropertyException~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -39,7 +39,7 @@ Public Fields
 | --- | --- | --- |
 | Public Field | [Property](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.NotIndexedPropertyException~Property.html) | Property which was used with index. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -56,7 +56,7 @@ Public Properties
 | Public Property | [StackTrace](#) | (Inherited from [System.Exception](#)) |
 | Public Property | [TargetSite](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -72,4 +72,4 @@ Public Methods
 | Public Method | [GetType](#) | (Inherited from [System.Exception](#)) |
 | Public Method | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
+

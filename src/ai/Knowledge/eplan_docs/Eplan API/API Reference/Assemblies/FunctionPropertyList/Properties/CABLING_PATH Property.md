@@ -9,7 +9,7 @@ Topology: Routing track # 20237.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLING_PATH {get; set;}

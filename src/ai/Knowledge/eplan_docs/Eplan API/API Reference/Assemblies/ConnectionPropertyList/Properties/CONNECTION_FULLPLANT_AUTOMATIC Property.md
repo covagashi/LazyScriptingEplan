@@ -9,7 +9,7 @@ Function designation (automatic) # 31101.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_FULLPLANT_AUTOMATIC {get; set;}

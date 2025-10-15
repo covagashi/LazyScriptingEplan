@@ -9,7 +9,7 @@ Texture # 22219.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_ECABINET_MACRO {get; set;}

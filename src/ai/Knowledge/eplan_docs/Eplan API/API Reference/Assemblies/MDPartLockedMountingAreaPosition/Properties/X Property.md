@@ -9,7 +9,7 @@ X position of the locked mounting area
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double X {get; set;}

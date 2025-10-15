@@ -9,7 +9,7 @@ Method for numbering device tags of a collection of functions with PLC data.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DeviceTagsWithPlcData( 

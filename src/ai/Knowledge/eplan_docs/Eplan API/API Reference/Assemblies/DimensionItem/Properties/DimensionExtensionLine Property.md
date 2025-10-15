@@ -9,7 +9,7 @@ Gets or sets the length of dimension extension help line.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double DimensionExtensionLine {get; set;}

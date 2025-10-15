@@ -9,7 +9,7 @@ Subproject of # 25100.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJECT_SUBPROJECTORIGIN {get; set;}

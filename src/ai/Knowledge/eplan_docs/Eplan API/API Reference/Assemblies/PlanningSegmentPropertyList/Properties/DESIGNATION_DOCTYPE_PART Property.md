@@ -9,7 +9,7 @@ Document type (single component) # 1528.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_DOCTYPE_PART {get; set;}

@@ -9,7 +9,7 @@ Minimum cross section that can be connected to this connection point.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double MinCrossSection {get; set;}

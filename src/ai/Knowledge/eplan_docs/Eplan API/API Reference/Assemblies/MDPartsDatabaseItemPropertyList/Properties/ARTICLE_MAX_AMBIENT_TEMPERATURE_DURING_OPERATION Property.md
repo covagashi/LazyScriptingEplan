@@ -9,7 +9,7 @@ Ambient temperature (during operation), max. # 26157.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MAX_AMBIENT_TEMPERATURE_DURING_OPERATION {get; set;}

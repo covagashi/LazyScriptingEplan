@@ -9,7 +9,7 @@ Struct holding some information about a User of a project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public UserInfo()

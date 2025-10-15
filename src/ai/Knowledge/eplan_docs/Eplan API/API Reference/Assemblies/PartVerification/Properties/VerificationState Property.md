@@ -9,7 +9,7 @@ The VerificationState determines the actual adjusted check type whereas the perm
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public IVerificationBase.VerificationState VerificationState {get; set;}

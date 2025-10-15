@@ -9,7 +9,7 @@ Associated connections: Unit of connection cross-section / diameter (automatic) 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_AUTO_WIRECROSSSECTION_UNIT {get; set;}

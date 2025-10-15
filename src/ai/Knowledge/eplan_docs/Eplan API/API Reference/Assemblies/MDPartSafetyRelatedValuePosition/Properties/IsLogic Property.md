@@ -9,7 +9,7 @@ Is the function range "Logic (Generate raport)" selected (yes/no)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsLogic {get; set;}

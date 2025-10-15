@@ -9,7 +9,7 @@ Creates new graphical layer in graphical table. This function calls Eplan.EplApi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

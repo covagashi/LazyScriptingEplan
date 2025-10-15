@@ -9,7 +9,7 @@ Free properties: Unit # 22148.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_FREE_DATA_UNIT( 

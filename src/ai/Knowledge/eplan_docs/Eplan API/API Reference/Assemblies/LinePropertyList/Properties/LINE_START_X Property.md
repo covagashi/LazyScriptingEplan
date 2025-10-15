@@ -9,7 +9,7 @@ X coordinate starting point # 19310.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue LINE_START_X {get; set;}

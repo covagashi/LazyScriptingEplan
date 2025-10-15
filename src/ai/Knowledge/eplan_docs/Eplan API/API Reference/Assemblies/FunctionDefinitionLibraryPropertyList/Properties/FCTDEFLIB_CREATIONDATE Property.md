@@ -9,7 +9,7 @@ Creation date # 15504.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FCTDEFLIB_CREATIONDATE {get; set;}

@@ -9,7 +9,7 @@ Returns the file names of all master data stored in the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StringCollection ProjectEntries( 

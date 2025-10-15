@@ -9,7 +9,7 @@ Returns array of property ids. Returns array of AnyPropertyId objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public AnyPropertyId[] ExistingIds {get;}

@@ -9,7 +9,7 @@ Functional assignment with preceding sign # 1340.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLFUNCTIONALASSIGNMENT_WITHPREFIX {get; set;}

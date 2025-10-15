@@ -9,7 +9,7 @@ It defines the Cable Property Description
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString Description {get; set;}

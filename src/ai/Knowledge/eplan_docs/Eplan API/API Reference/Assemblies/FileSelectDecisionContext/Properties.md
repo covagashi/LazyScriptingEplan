@@ -17,4 +17,4 @@ Public Properties
 | Public Property | [OpenFileFlag](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext~OpenFileFlag.html) | Set or get the openfileflag. Set this flag when you want to open a file Do not set it when you want to save a file. |
 | Public Property | [Title](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext~Title.html) | The title for the decider. |
 
-[Top](#top)
+

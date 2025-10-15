@@ -9,7 +9,7 @@ Called by EPLAN when a check routine has been completed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void OnEndInspection()

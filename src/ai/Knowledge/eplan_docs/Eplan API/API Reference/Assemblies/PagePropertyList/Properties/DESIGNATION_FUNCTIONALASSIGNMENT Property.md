@@ -9,7 +9,7 @@ Functional assignment (main identifier) # 1300.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FUNCTIONALASSIGNMENT {get; set;}

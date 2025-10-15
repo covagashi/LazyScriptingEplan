@@ -16,4 +16,4 @@ Public Properties
 | Public Property | [Name](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article+Accessory~Name.html) | Returns Name (part number) of the article that is referenced from this accessory position |
 | Public Property | [Variant](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article+Accessory~Variant.html) | Returns Variant of the article that is referenced from this accessory position |
 
-[Top](#top)
+

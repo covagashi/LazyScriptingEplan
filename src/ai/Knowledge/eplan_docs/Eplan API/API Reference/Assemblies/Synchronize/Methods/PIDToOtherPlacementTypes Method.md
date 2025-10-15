@@ -9,7 +9,7 @@ Synchronization from PID data onto other representations. Corresponds to the Too
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void PIDToOtherPlacementTypes( 

@@ -9,7 +9,7 @@ Creates new hexagon drilling.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Drilling CreateHexagon( 

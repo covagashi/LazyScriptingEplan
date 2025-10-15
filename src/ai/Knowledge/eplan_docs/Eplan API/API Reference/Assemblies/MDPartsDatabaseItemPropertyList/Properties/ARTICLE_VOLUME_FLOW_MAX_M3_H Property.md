@@ -9,7 +9,7 @@ Flow rate (m³/h), max. # 26176.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_VOLUME_FLOW_MAX_M3_H {get; set;}

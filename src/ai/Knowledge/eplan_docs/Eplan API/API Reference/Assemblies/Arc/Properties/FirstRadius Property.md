@@ -9,7 +9,7 @@ Gets the first radius value of the ellipse. This property returns proper value f
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double FirstRadius {get;}

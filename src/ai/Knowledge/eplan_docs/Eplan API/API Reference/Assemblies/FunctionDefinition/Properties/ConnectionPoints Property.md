@@ -9,7 +9,7 @@ Array of function definition's connection points.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Pin[] ConnectionPoints {get;}

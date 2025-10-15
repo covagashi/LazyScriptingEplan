@@ -9,7 +9,7 @@ Graphical sub-placements which are drawn in a graphical view.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement[] SubPlacements {get;}

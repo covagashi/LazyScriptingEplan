@@ -9,7 +9,7 @@ IdentityClient token.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string IdentityToken {get; set;}

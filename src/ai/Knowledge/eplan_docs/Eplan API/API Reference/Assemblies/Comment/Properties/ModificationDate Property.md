@@ -9,7 +9,7 @@ Shows when the PDF comment was last changed by the author.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DateTime ModificationDate {get;}

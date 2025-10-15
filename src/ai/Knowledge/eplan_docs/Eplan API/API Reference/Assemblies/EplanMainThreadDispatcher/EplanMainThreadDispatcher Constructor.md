@@ -9,7 +9,7 @@ Creates a new dispatcher
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EplanMainThreadDispatcher()

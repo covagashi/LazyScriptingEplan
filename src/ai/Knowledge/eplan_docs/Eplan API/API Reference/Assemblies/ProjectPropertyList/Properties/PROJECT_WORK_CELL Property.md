@@ -9,7 +9,7 @@ AutomationML: Area # 10954.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJECT_WORK_CELL {get; set;}

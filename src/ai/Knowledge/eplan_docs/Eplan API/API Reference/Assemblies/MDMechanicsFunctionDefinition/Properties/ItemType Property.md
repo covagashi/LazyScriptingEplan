@@ -9,7 +9,7 @@ Gets/Sets item of the function definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ItemType ItemType {get; set;}

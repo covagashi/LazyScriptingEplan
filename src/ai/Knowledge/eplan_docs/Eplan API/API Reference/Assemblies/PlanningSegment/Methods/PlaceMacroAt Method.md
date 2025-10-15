@@ -9,7 +9,7 @@ Places a macro on a given page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] PlaceMacroAt( 

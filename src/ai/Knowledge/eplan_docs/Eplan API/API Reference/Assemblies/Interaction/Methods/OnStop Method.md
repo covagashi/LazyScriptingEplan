@@ -9,7 +9,7 @@ Is called before an interaction stops.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void OnStop()

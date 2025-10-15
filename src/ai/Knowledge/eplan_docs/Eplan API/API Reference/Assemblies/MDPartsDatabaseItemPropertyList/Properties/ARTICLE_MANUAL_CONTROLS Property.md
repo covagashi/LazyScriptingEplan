@@ -9,7 +9,7 @@ Manual control devices # 26050.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MANUAL_CONTROLS {get; set;}

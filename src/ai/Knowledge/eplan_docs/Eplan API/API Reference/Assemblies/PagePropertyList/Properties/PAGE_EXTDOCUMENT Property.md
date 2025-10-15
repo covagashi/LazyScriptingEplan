@@ -9,7 +9,7 @@ External document # 11058.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_EXTDOCUMENT {get; set;}

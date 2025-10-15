@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Layer")]
@@ -36,7 +36,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [TransientLayerTable Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.TransientLayerTable~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -45,7 +45,7 @@ Public Properties
 | Public Property | [Layer](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.TransientLayerTable~Layer.html) | Overloaded. Returns one the project's layer as TransientLayer object. If specified layer not exist, null is returned. |
 | Public Property | [Layers](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.TransientLayerTable~Layers.html) | Returns an array of existing transient layers. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -53,4 +53,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.TransientLayerTable~Dispose().html) | Destructor for deterministic finalization of TransientLayerTable object. |
 
-[Top](#top)
+

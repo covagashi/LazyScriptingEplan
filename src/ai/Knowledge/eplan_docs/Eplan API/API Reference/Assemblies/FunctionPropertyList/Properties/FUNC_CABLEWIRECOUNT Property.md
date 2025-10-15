@@ -9,7 +9,7 @@ Cable / Conduit: Number of connections # 20042.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLEWIRECOUNT {get; set;}

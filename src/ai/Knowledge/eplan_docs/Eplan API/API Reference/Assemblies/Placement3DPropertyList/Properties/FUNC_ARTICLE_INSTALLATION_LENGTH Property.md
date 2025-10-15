@@ -9,7 +9,7 @@ Mounting length # 26276.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_INSTALLATION_LENGTH( 

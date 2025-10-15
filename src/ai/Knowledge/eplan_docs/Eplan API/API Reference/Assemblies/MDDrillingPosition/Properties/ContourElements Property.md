@@ -9,7 +9,7 @@ List of sections from user defined contour (outline).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDContourElement[] ContourElements {get;}

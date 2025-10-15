@@ -9,7 +9,7 @@ PCF: Address for delivery of goods # 26530.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PCF_GOODS_TRANSFER_ADDRESS {get; set;}

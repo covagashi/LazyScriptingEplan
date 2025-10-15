@@ -9,7 +9,7 @@ Version # 22104.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_FIRMWAREVERSION {get; set;}

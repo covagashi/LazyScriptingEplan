@@ -9,7 +9,7 @@ Operating temperature, max. # 26239.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_OPERATING_TEMPERATURE_MAX {get; set;}

@@ -9,7 +9,7 @@ Cross-reference display: Auxiliary function as main function # 20314.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CROSSREFERENCEMAINFUNCTION {get; set;}

@@ -9,7 +9,7 @@ Possible ways how contour element can be drawn.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MDContourElement.ContureType : System.Enum

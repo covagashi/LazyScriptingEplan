@@ -9,7 +9,7 @@ Revision date (change tracking) # 10158.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_REVISION_LOG_DATE( 

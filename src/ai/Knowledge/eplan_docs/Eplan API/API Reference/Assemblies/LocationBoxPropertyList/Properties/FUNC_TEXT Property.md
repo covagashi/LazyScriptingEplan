@@ -9,7 +9,7 @@ Function text # 20011.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TEXT {get; set;}

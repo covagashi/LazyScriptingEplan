@@ -9,7 +9,7 @@ Creates an StorableObjectContext
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObjectContext()

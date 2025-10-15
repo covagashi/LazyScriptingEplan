@@ -9,7 +9,7 @@ User-defined structure (automatic) # 31109.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_FULLUSERDEFINED_AUTOMATIC {get; set;}

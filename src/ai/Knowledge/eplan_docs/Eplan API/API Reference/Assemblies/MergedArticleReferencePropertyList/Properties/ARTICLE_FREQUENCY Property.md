@@ -9,7 +9,7 @@ Frequency # 26334.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_FREQUENCY {get; set;}

@@ -9,7 +9,7 @@ Get or set name of the page. When setting this property, it is not checked wheth
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get; set;}

@@ -9,7 +9,7 @@ Energy efficiency class (motor) # 26303.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ENERGY_EFFICIENCY_CLASS_MOTOR {get; set;}

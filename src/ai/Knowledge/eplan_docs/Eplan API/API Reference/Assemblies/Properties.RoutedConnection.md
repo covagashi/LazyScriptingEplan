@@ -9,7 +9,7 @@ Identificators of properties owned by RoutedConnection class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.RoutedConnection : System.Enum

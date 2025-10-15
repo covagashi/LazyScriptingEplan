@@ -9,7 +9,7 @@ Z position: Tool # 36090.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_TERMINALPOSITION_OPERATIONVEC_ZPOS( 

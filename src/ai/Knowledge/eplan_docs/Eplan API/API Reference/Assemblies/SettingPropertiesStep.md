@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class SettingPropertiesStep
@@ -32,4 +32,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Helpers.SettingPropertiesStep~Dispose().html) | Destructor for deterministic finalization of SettingPropertiesStep object. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Sets [Pen](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Pen.html) rel
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Pen Pen {get; set;}

@@ -9,7 +9,7 @@ Field type of this property definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyDefinition.MDPropertyType FieldType {get; set;}

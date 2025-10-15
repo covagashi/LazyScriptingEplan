@@ -9,7 +9,7 @@ Subnet mask # 20446.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLC_SUBNETMASK {get; set;}

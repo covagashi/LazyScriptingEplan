@@ -9,7 +9,7 @@ Connection point logic: Connection point type # 20329.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_LOGDEF_TYPE( 

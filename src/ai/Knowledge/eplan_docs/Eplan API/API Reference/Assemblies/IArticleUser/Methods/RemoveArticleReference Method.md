@@ -9,7 +9,7 @@ Removes the ArticleReference from the IArticleUser
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void RemoveArticleReference( 

@@ -9,7 +9,7 @@ License runtime check Callback handler delegate.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public delegate EplApplication.LicenseRuntimeCheckCommands EplApplication.LicenseRuntimeCheckCallbackHandler( 

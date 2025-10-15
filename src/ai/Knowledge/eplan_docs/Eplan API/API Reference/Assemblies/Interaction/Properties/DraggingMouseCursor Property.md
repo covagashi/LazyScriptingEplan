@@ -9,7 +9,7 @@ Mouse cursor which will be used for next dragging operation.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual MouseCursorType DraggingMouseCursor {get; set;}

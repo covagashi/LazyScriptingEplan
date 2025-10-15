@@ -9,7 +9,7 @@ Creator # 16020.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_CREATOR {get; set;}

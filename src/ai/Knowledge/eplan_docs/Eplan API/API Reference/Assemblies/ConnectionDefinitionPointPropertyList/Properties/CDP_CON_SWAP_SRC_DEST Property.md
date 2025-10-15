@@ -9,7 +9,7 @@ Associated connections: Exchange source and target # 31036.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_SWAP_SRC_DEST {get; set;}

@@ -9,7 +9,7 @@ Returns true, if object-snap was found.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool PointSnapped {get;}

@@ -9,7 +9,7 @@ Net index # 31076.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_NET_INDEX {get; set;}

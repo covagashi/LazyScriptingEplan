@@ -9,7 +9,7 @@ Main function # 16018.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_MAINFUNCTION {get; set;}

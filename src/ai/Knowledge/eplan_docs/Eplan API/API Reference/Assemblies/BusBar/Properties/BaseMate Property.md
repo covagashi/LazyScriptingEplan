@@ -9,7 +9,7 @@ Returns default target mate for placing devices on this bus bar.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public LineMate BaseMate {get;}

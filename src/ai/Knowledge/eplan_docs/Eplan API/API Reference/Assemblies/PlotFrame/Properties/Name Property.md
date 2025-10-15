@@ -9,7 +9,7 @@ Get the name of the plot frame.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get;}

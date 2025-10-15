@@ -9,7 +9,7 @@ Number of messages # 15099.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMBLIB_ERRORCOUNT {get; set;}

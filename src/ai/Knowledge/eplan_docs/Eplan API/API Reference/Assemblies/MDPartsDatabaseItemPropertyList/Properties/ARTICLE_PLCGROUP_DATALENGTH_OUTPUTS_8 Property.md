@@ -9,7 +9,7 @@ PLC subdevice 8: Data length (outputs) # 22331.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PLCGROUP_DATALENGTH_OUTPUTS_8 {get; set;}

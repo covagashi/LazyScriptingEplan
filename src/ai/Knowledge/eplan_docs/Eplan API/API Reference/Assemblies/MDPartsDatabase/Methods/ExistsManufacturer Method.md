@@ -9,7 +9,7 @@ Checks if a manufacturer / supplier info with the given short name exists.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExistsManufacturer( 

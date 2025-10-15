@@ -9,7 +9,7 @@ Deletes all unused variables.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void DeleteUnusedVariables()

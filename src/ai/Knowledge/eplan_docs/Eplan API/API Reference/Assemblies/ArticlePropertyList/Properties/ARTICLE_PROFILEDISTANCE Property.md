@@ -9,7 +9,7 @@ Adjoining distance # 22191.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PROFILEDISTANCE {get; set;}

@@ -9,7 +9,7 @@ Disposing the UserInfo
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Dispose()

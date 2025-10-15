@@ -9,7 +9,7 @@ Returns array of placements combined in this block.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Placement[] SubPlacements {get;}

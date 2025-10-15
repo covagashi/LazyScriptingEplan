@@ -9,7 +9,7 @@ The cross-section / diameter of the wire template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Diameter {get; set;}

@@ -9,7 +9,7 @@ Subordinate DT / DT ID # 21005.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNCTEMPLATE_NESTEDDEVICETAG {get; set;}

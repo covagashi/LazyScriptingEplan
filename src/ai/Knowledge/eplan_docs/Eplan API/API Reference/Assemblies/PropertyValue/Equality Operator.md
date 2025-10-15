@@ -9,7 +9,7 @@ Determines whether two PropertyValues objects have the same value.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool operator ==( 

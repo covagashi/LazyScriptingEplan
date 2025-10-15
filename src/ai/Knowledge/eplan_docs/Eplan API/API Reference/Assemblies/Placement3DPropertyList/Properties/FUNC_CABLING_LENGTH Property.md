@@ -9,7 +9,7 @@ Topology: Routing length # 20240.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLING_LENGTH {get; set;}

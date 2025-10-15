@@ -9,7 +9,7 @@ Potential type # 31006.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue POTENTIAL_TYPE {get; set;}

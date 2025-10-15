@@ -9,7 +9,7 @@ Add a new module position to the part. That position is added to the end of the 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartModulePosition AddModulePosition()

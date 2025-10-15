@@ -9,7 +9,7 @@ Add copy of a mate to a Placement3D.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddMatePersistent( 

@@ -9,7 +9,7 @@ The MTBF (meam time between failures)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double MTBF {get; set;}

@@ -9,7 +9,7 @@ Identificators of properties owned by SymbolLibrary class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.SymbolLibrary : System.Enum

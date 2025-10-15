@@ -9,7 +9,7 @@ Allow shields connected on both sides # 20063.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_ALLOW_TWO_SIDED_SHIELDINGS {get; set;}

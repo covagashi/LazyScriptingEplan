@@ -9,7 +9,7 @@ Number of vertices of a poly line.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int NumberOfPoints {get;}

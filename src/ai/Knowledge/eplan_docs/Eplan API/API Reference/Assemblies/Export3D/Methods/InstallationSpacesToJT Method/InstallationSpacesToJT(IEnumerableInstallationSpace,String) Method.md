@@ -9,7 +9,7 @@ Exports given installation spaces into files in JT format.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool InstallationSpacesToJT( 

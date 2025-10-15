@@ -9,7 +9,7 @@ Plugs: Total number of pins # 35209.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLUGSTRIP_COUNTOFINTERNALOBJECTS {get; set;}

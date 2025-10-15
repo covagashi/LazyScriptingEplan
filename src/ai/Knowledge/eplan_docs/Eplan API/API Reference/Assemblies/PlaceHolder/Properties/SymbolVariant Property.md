@@ -9,7 +9,7 @@ Specifies [Eplan.EplApi.DataModel.MasterData.SymbolVariant](Eplan.EplApi.DataMod
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolVariant SymbolVariant {get; set;}

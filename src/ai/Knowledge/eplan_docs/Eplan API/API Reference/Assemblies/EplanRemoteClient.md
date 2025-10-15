@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [Guid("25B37226-6821-4493-B585-F805EFBC3146")]
@@ -37,7 +37,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [EplanRemoteClient Constructor](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanRemoteClient~_ctor.html) | Constructor. |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -45,7 +45,7 @@ Public Fields
 | --- | --- | --- |
 | Public Field | [ResponseArrivedFromEplanServer](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanRemoteClient~ResponseArrivedFromEplanServer.html) | Handler to receive Eplan server notifications. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -57,7 +57,7 @@ Public Properties
 | Public Property | [SynchronousMode](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanRemoteClient~SynchronousMode.html) | Sets and gets the Synchronous mode. |
 | Public Property | [User](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanRemoteClient~User.html) | Eplan log-in user used for Rights Management. User settings will be used from this user. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -81,4 +81,4 @@ Public Methods
 | Public Method | [UnlockAllEplanObjects](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanRemoteClient~UnlockAllEplanObjects.html) | Unlock all objects in given project. |
 | Public Method | [WithHost](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanRemoteClient~WithHost.html) | (Inherited from Grpc.Core.ClientBase<EplanRemoting.EplanRemotingClient>) |
 
-[Top](#top)
+

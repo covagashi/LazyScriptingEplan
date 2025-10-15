@@ -9,7 +9,7 @@ Method # 26051.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_METHOD {get; set;}

@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Property")]
@@ -75,7 +75,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [SymbolLibraryPropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.SymbolLibraryPropertyList~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -119,7 +119,7 @@ Public Properties
 | Public Property | [SYMBLIB\_VERSION](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.SymbolLibraryPropertyList~SYMBLIB_VERSION().html) | Version # 15012. |
 | Public Property | [SYMBOLLIBRARY\_REMOVED\_VARIANT](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.SymbolLibraryPropertyList~SYMBOLLIBRARY_REMOVED_VARIANT().html) | Compressed symbol library # 15031. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -130,4 +130,4 @@ Public Methods
 | Public Method | [Exists](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.SymbolLibraryPropertyList~Exists.html) | Overloaded. Checks property existence for used obiect. |
 | Public Method | [getPropList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList~getPropList.html) | Internal method. (Inherited from [Eplan.EplApi.DataModel.UniversalPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList.html)) |
 
-[Top](#top)
+

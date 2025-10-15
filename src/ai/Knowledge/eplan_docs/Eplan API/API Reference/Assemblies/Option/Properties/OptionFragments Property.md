@@ -9,7 +9,7 @@ Returns all Eplan.EplApi.DataModel.OptionFragment contained in the option.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public OptionFragment[] OptionFragments {get;}

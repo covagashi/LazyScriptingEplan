@@ -9,7 +9,7 @@ Item number (manufacturer) # 26535.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_POSITION_NUMBER_MANUFACTURER( 

@@ -9,7 +9,7 @@ Drive: Device type # 22340.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PLCAXIS_DEVICETYPE {get; set;}

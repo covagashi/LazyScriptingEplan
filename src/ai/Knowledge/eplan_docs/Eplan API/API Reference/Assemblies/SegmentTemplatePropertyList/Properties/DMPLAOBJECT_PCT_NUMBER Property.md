@@ -9,7 +9,7 @@ Number # 44038.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PCT_NUMBER {get; set;}

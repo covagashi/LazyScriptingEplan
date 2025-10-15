@@ -9,7 +9,7 @@ License file name (\*.lis).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string License {get; set;}

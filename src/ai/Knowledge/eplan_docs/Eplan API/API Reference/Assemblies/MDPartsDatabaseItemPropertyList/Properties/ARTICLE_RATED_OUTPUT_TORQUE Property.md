@@ -9,7 +9,7 @@ Nominal output torque # 26464.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_RATED_OUTPUT_TORQUE {get; set;}

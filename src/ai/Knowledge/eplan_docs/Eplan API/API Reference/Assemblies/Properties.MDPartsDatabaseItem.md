@@ -9,7 +9,7 @@ Identificators of properties owned by MDPartsDatabaseItem class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.MDPartsDatabaseItem : System.Enum

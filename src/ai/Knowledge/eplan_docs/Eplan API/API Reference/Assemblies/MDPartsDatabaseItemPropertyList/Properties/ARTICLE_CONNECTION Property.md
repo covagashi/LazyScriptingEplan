@@ -9,7 +9,7 @@ Connection point # 22130.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CONNECTION {get; set;}

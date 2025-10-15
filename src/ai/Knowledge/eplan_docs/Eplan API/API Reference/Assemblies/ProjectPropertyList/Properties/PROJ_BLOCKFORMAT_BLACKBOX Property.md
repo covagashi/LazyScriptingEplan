@@ -9,7 +9,7 @@ Block property: Format (black box) # 10610.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_BLACKBOX( 

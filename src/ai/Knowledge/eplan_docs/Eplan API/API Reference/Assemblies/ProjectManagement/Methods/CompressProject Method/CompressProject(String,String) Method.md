@@ -9,7 +9,7 @@ Compresses a project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CompressProject( 

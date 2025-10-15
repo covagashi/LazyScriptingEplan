@@ -9,7 +9,7 @@ Creator: Phone # 10240.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATORTELEPHONE {get; set;}

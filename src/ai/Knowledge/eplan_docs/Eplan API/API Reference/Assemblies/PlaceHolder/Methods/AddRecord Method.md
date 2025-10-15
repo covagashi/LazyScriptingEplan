@@ -9,7 +9,7 @@ Adds a new record with the specified name to the PlaceHolder object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual int AddRecord( 

@@ -9,7 +9,7 @@ Get all accessory-placement positions that belongs to the accessory placement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAccessoryPlacementPosition[] AccessoryPlacementPositions {get;}

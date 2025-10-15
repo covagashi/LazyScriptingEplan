@@ -9,7 +9,7 @@ Intake capacity # 26195.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_INTAKE_CAPACITY( 

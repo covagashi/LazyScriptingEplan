@@ -20,7 +20,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Rectangle : GraphicalPlacement
@@ -33,7 +33,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Rectangle Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Rectangle~_ctor().html) | Constructor. When object created with this constructor, its `create` method must be call. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -70,7 +70,7 @@ Public Properties
 | Public Property | [UpperRightCorner](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Rectangle~UpperRightCorner.html) | Returns upper right corner's coordinates. |
 | Public Property | [Width](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Rectangle~Width.html) | Returns width of the rectangle. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -92,4 +92,4 @@ Public Methods
 | Public Method | [SmartLock](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~SmartLock.html) | Tries to lock current object. If object is [Eplan.EplApi.DataModel.Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement.html) - it's page will be locked as well; [Eplan.EplApi.DataModel.E3D.Placement3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D.html) locks it's installation space; [Eplan.EplApi.DataModel.Function](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function.html) locks all it's connections and connection definition points; [Eplan.EplApi.DataModel.Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html) locks all placements from this page. Throws [Eplan.EplApi.Base.LockingException](Eplan.EplApi.Baseu~Eplan.EplApi.Base.LockingException.html) on failure. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 | Public Method | [ToStringIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~ToStringIdentifier.html) | Returns this object as string identifier. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 
-[Top](#top)
+

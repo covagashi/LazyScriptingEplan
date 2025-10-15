@@ -9,7 +9,7 @@ Duty cycle # 26294.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_DUTY_CYCLE( 

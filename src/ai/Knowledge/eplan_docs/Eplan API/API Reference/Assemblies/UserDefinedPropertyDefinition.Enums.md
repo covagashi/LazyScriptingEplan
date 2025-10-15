@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class UserDefinedPropertyDefinition.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [UserDefinedPropertyDefinition.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UserDefinedPropertyDefinition+Enums~_ctor.html) |  |
 
-[Top](#top)
+

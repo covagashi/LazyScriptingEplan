@@ -9,7 +9,7 @@ Adds local terminal templates to the terminal strip.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddLocalFunctionTemplates( 

@@ -9,7 +9,7 @@ Default constructor.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonBar()

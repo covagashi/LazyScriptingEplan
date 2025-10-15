@@ -9,7 +9,7 @@ Ends a locking step (identified by internal nLockingStepId). ManualLocking mode 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Dispose()

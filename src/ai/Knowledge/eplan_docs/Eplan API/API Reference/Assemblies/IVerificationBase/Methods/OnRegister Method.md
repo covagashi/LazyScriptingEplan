@@ -9,7 +9,7 @@ Called by EPLAN when the new check is added to the system.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void OnRegister( 

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PrjMessagesRegisteredEnumerator
@@ -64,7 +64,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PrjMessagesRegisteredEnumerator Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredEnumerator~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -72,7 +72,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Current](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredEnumerator~Current.html) | gets the current element in [Eplan::EplApi::EServices:](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredCollection.html) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -82,4 +82,4 @@ Public Methods
 | Public Method | [MoveNext](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredEnumerator~MoveNext.html) | Advances the enumerator to the next element of [Eplan::EplApi::EServices:](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredCollection.html) |
 | Public Method | [Reset](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredEnumerator~Reset.html) | Sets the enumerator to its initial position, which is before the first element in [Eplan::EplApi::EServices:](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredCollection.html) |
 
-[Top](#top)
+

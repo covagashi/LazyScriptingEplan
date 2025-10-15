@@ -9,7 +9,7 @@ Returns the current MacroPlaceholderValueSet.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual PlanningObject.MacroPlaceHolderValueSet Current {get;}

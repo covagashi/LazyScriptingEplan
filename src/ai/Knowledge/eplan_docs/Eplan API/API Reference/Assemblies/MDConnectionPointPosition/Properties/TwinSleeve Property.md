@@ -9,7 +9,7 @@ Twin sleeve (yes/no)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool TwinSleeve {get; set;}

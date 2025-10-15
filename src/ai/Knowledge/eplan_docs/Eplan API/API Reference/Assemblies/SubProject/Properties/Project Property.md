@@ -9,7 +9,7 @@ Project for which the subproject is defined.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project Project {get;}

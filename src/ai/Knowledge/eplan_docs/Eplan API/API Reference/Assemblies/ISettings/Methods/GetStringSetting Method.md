@@ -9,7 +9,7 @@ Reads string value from settings
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 string GetStringSetting( 

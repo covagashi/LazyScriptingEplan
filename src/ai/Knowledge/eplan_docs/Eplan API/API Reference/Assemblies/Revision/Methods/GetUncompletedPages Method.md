@@ -9,7 +9,7 @@ Returns an array of modified and not completed pages in the current revision of 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Page[] GetUncompletedPages( 

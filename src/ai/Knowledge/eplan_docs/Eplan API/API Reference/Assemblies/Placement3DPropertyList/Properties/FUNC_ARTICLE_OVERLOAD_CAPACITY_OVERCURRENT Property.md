@@ -9,7 +9,7 @@ Overload capability: Overcurrent # 26620.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_OVERLOAD_CAPACITY_OVERCURRENT( 

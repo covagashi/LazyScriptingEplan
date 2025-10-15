@@ -9,7 +9,7 @@ Sets application's GUI language. Used before calling Init method.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void InitGuiLanguage( 

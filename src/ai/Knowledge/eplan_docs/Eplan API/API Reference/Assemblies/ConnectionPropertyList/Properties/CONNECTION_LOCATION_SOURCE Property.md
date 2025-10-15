@@ -9,7 +9,7 @@ Source: Placement # 31021.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_LOCATION_SOURCE {get; set;}

@@ -9,7 +9,7 @@ Restore master data from archive files.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void MasterData( 

@@ -9,7 +9,7 @@ Line Style Factor when positive or Pattern Length when negative. Default value =
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double StyleFactor {get; set;}

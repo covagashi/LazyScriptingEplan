@@ -9,7 +9,7 @@ Removes project events handler.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveAnyChangeHandler( 

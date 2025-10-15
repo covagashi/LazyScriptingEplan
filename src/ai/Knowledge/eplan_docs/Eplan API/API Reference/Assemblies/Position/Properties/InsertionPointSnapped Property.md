@@ -9,7 +9,7 @@ Returns true, if InsertionPoint was snapped.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool InsertionPointSnapped {get;}

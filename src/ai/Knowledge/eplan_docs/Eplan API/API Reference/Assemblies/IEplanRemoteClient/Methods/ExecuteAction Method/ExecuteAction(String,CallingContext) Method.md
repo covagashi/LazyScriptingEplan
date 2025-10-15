@@ -9,7 +9,7 @@ Execute an action.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool ExecuteAction( 

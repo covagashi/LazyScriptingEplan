@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PlanningSegment.PLCAddress
@@ -38,7 +38,7 @@ Public Properties
 | Public Property | [SymbolicAddress](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningSegment+PLCAddress~SymbolicAddress.html) | A single component of the symbolic address can be entered at structure segments and planning objects . These single components are linked at the PLC inputs and outputs of the planning objects starting with the top node and displayed in the Symbolic address (pre-planning) property. This procedure allows unique symbolic addresses to be created for the PLC inputs and outputs. The automatic symbolic address. |
 | Public Property | [SymbolicAddressPart](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningSegment+PLCAddress~SymbolicAddressPart.html) | Symbolic address (single component). |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -47,4 +47,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningSegment+PLCAddress~Dispose().html) | Destructor for deterministic finalization of PLCAddress object. |
 | Public Method | [Equals](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningSegment+PLCAddress~Equals.html) | Operator of comparison implementation. Checks if two PLCAddresses refer to the same object in the project. |
 
-[Top](#top)
+

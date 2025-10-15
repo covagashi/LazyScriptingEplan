@@ -9,7 +9,7 @@ Boolean value: true if the aspect ratio of the image is the same as in the origi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool WidthToHeighRatioFix {get; set;}

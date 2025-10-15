@@ -9,7 +9,7 @@ Start position in X direction
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double StartPositionX {get;}

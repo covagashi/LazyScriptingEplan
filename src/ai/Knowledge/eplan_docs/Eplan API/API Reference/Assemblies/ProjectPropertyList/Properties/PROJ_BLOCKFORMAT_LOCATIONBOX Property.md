@@ -9,7 +9,7 @@ Block property: Format (structure box) # 10662.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_LOCATIONBOX( 

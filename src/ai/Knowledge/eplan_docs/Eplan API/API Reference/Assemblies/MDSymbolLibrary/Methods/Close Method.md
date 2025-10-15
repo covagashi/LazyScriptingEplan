@@ -9,7 +9,7 @@ Closes (and saves) the symbol library.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Close()

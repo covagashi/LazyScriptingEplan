@@ -9,7 +9,7 @@ Add new local template based on function definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject AddLocalTemplate( 

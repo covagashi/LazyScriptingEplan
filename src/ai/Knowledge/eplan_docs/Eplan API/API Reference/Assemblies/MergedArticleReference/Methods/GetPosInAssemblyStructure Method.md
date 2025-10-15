@@ -9,7 +9,7 @@ Returns the position in assembly-structure
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetPosInAssemblyStructure()

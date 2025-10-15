@@ -9,7 +9,7 @@ Gets symbol scheme names for given symbol libraries mapping.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[] GetMatchingSymbolMappingSchemas( 

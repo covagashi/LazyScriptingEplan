@@ -9,7 +9,7 @@ PLC subdevice 4: Name # 22296.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PLCDEVICENAME_4 {get; set;}

@@ -9,7 +9,7 @@ Terminal: Device position # 20367.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINALDEVICEPOSITION {get; set;}

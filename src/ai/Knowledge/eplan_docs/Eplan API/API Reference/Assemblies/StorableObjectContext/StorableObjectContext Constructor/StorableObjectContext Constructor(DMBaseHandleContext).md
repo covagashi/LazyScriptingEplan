@@ -9,7 +9,7 @@ For internal use only.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObjectContext( 

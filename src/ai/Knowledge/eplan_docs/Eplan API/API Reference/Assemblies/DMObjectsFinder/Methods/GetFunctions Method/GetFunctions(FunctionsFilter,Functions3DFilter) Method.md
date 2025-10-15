@@ -9,7 +9,7 @@ Returns array of 2D and 3D [IFunctionBase](Eplan.EplApi.DataModelu~Eplan.EplApi.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public IFunctionBase[] GetFunctions( 

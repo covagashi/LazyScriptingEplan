@@ -9,7 +9,7 @@ Symbol for reports # 22228.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_REPORT_SYMBOL( 

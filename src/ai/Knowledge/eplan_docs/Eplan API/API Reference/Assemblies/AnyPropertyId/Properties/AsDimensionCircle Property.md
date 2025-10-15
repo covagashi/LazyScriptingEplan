@@ -9,7 +9,7 @@ Gets property id value as [Properties.DimensionCircle](Eplan.EplApi.DataModelu~E
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.DimensionCircle AsDimensionCircle {get;}

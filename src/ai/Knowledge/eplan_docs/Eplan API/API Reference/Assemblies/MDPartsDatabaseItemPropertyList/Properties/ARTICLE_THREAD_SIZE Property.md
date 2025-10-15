@@ -9,7 +9,7 @@ Thread dimension # 26108.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_THREAD_SIZE {get; set;}

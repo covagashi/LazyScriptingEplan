@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Generate
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Generate Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Generate~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -37,4 +37,4 @@ Public Methods
 | Public Method | [Connections](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Generate~Connections.html) | Overloaded. Updates connections on given pages from one project. Project is taken from first page. |
 | Public Method | [Dispose](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Generate~Dispose().html) | Destructor |
 
-[Top](#top)
+

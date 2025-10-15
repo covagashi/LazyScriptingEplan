@@ -9,7 +9,7 @@ Project option section: Description # 23105.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue OPTIONFRAGMENT_DESCR {get; set;}

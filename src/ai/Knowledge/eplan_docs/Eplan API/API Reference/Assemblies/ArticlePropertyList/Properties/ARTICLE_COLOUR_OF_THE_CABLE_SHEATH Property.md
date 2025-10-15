@@ -9,7 +9,7 @@ Cable jacket: Color # 26040.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_COLOUR_OF_THE_CABLE_SHEATH {get; set;}

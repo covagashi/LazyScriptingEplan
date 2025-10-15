@@ -9,7 +9,7 @@ Finds all connections in the same net as `oSourceConnection`.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void TrackNet( 

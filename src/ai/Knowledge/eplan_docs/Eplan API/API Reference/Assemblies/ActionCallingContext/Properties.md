@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [SysMessages](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionCallingContext~SysMessages.html) | Gets system messages |
 
-[Top](#top)
+

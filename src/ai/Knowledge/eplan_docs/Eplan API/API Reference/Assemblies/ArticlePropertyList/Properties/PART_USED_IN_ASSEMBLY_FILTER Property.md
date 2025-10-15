@@ -9,7 +9,7 @@ Part number in assembly # 22967.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PART_USED_IN_ASSEMBLY_FILTER {get; set;}

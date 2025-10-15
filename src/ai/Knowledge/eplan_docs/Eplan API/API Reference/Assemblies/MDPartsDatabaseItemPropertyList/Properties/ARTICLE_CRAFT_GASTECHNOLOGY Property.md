@@ -9,7 +9,7 @@ Trade 'Gas engineering' # 22263.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CRAFT_GASTECHNOLOGY {get; set;}

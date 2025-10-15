@@ -9,7 +9,7 @@ Sets the value of settings on a given path. Type of value will be converted to 1
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void SetNumericSetting( 

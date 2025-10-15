@@ -9,7 +9,7 @@ Permissible surface temperature (with stationary lines), max. # 26180.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PERMISSIBLE_SURFACE_TEMPERATURE_WITH_FIXED_CONDUCTOR_MAX {get; set;}

@@ -9,7 +9,7 @@ Identificators of properties owned by ArticleReference class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.ArticleReference : System.Enum

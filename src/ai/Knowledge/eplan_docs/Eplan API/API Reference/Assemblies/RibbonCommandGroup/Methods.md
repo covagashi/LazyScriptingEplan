@@ -18,4 +18,4 @@ Public Methods
 | Public Method | [GetCommandWithId](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommandGroup~GetCommandWithId.html) | Gets a Command by a Command Id |
 | Public Method | [Remove](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommandGroup~Remove.html) | Removes command group |
 
-[Top](#top)
+

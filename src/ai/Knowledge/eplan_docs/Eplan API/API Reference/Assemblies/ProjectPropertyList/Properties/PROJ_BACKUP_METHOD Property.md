@@ -9,7 +9,7 @@ Data backup: Method # 10514.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BACKUP_METHOD {get; set;}

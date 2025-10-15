@@ -9,7 +9,7 @@ Removes all messages from the `MDPartsDatabaseMessages`.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Clear()

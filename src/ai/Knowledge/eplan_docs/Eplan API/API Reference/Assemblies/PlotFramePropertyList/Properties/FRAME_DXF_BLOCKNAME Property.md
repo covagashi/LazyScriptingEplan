@@ -9,7 +9,7 @@ DXF export: Name of block # 12050.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_DXF_BLOCKNAME {get; set;}

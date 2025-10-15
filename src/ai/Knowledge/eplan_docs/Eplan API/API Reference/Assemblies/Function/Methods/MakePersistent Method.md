@@ -9,7 +9,7 @@ Instantiates the function represented by this object. Primarily used for instant
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void MakePersistent()

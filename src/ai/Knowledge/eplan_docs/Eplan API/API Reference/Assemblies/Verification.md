@@ -17,7 +17,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public abstract class Verification : IMessage, IVerification, IVerificationBase
@@ -37,7 +37,7 @@ Public Properties
 | Public Property | [VerificationPermission](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification~VerificationPermission.html) | The permission of a verification determines for what type of check the verification is enabled at most/ maximum. |
 | Public Property | [VerificationState](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification~VerificationState.html) | The VerificationState determines the actual adjusted check type whereas the permission determines what state is theoretically allowed at most. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -51,4 +51,4 @@ Public Methods
 | Public Method | [OnRegister](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification~OnRegister.html) | Overloaded. If true, all messages with the same region and message id are removed after OnStartInspection is called. |
 | Public Method | [OnStartInspection](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification~OnStartInspection.html) |  |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Nominal voltage # 26487.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_RATED_VOLTAGE( 

@@ -9,7 +9,7 @@ Tries to lock current object in database for exclusive access. Throws [Eplan.Epl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void LockObject()

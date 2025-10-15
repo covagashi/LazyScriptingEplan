@@ -9,7 +9,7 @@ Scales the QRCode by the specified factor in X and Y axis.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Scale( 

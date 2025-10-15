@@ -9,7 +9,7 @@ Sets `double` value in MDPropertyValue object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue Set( 

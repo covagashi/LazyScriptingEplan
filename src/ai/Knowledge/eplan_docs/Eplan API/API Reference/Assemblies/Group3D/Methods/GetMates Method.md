@@ -9,7 +9,7 @@ Gets group mates
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Mate[] GetMates()

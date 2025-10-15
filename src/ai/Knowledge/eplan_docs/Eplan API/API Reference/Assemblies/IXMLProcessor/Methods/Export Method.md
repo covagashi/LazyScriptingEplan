@@ -9,7 +9,7 @@ Converts the XML file to a special file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool Export( 

@@ -9,7 +9,7 @@ Exchanges the source and target properties of given connection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SwapSourceAndTarget( 

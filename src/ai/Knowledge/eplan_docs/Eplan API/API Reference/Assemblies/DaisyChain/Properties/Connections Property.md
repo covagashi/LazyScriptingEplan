@@ -9,7 +9,7 @@ Returns connections
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Connection[] Connections {get;}

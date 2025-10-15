@@ -9,7 +9,7 @@ The region associated with the message. Is automatically set.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public IMessage.Region Region {get; set;}

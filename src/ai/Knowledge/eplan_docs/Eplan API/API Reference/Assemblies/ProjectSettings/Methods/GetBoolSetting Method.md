@@ -9,7 +9,7 @@ Reads bool value from project settings
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool GetBoolSetting( 

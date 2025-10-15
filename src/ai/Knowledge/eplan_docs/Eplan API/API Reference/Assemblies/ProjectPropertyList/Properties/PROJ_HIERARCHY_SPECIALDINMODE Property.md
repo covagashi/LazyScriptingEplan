@@ -9,7 +9,7 @@ Superior structure formats # 10029.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_SPECIALDINMODE {get; set;}

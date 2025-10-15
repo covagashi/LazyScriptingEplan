@@ -9,7 +9,7 @@ Counter page number # 25020.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_COUNTERPAGENUMBER {get; set;}

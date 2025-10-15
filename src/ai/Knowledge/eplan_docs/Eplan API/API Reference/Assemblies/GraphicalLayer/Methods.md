@@ -16,4 +16,4 @@ Public Methods
 | Public Method | [GetHashCode](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayer~GetHashCode.html) | Serves as the default hash function. |
 | Public Method | [Store](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayer~Store.html) | Stores modified layer's properties into project. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Constructor with the name of a symbol library being opened.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolLibraryOpeningFailedException( 

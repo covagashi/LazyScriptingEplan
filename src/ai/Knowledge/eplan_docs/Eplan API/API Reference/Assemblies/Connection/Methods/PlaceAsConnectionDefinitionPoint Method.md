@@ -9,7 +9,7 @@ Places this connection as a connection def. point on the given schematic page an
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void PlaceAsConnectionDefinitionPoint( 

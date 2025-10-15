@@ -9,7 +9,7 @@ Gets sources and targets of the cable.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void GetSourcesAndTargets( 

@@ -9,7 +9,7 @@ Item type of this Function3D, corresponds to value of the 'Item' list in GUI.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ItemType ItemType {get; set;}

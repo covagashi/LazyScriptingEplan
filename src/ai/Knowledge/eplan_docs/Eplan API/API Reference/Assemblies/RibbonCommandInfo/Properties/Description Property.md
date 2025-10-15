@@ -9,7 +9,7 @@ Property to get or set description of the button. Optional parameter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Description {get; set;}

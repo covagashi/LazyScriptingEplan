@@ -9,7 +9,7 @@ Product (automatic) # 31134.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_FULLPRODUCT_AUTOMATIC {get; set;}

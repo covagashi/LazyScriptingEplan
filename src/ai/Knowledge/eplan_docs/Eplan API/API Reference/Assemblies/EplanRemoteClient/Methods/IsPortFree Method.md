@@ -9,7 +9,7 @@ Checks if the port is free.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool IsPortFree( 

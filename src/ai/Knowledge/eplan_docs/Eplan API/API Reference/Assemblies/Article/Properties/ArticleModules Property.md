@@ -9,7 +9,7 @@ Returns an array of [Article.Module](Eplan.EplApi.DataModelu~Eplan.EplApi.DataMo
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Article.Module[] ArticleModules {get;}

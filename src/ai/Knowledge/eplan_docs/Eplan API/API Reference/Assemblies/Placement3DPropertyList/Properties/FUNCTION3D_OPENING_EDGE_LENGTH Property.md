@@ -9,7 +9,7 @@ Cut-out: Edge length # 36024.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_OPENING_EDGE_LENGTH {get; set;}

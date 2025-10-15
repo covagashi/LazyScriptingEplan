@@ -9,7 +9,7 @@ Returns the length of the segment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Length {get;}

@@ -9,7 +9,7 @@ Supplier batch number # 26436.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_SUPPLIER_BATCH_NUMBER( 

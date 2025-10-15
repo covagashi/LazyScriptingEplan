@@ -9,7 +9,7 @@ DT (identifying, without subordinate DT) # 20007.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_IDENTDEVICETAGWITHOUTNESTEDDEVTAG {get; set;}

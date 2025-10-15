@@ -9,7 +9,7 @@ Imports segment definitions from file to project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ImportSegmentDefinitions( 

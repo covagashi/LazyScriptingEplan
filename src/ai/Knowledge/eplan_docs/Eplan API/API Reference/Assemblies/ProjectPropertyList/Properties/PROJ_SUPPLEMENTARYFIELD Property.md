@@ -9,7 +9,7 @@ Supplementary field # 10901.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_SUPPLEMENTARYFIELD( 

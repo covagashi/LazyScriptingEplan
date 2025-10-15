@@ -9,7 +9,7 @@ Distance side panel # 22167.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SIDEPANELDISTANCE {get; set;}

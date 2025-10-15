@@ -9,7 +9,7 @@ Starts locking step. Use LockingStep instead.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual int StartLockingStep()

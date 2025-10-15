@@ -9,7 +9,7 @@ File / Document # 19304.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FILE {get; set;}

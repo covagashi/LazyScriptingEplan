@@ -9,7 +9,7 @@ Item requires holes in mounting surface # 36014.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_ELEM_NEEDSDRILL {get; set;}

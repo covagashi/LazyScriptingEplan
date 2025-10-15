@@ -9,7 +9,7 @@ Returns commands of the command group
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Dictionary<uint,RibbonCommand> Commands {get;}

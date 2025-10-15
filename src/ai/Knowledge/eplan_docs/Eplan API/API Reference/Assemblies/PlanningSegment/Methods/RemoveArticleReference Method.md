@@ -9,7 +9,7 @@ Removes the ArticleReference from the PlanningSegment
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void RemoveArticleReference( 

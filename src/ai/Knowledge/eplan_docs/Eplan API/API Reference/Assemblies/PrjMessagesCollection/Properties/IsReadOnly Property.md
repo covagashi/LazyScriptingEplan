@@ -9,7 +9,7 @@ Gets a value indicating whether the PrjMessagesCollection is read-only.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsReadOnly {get;}

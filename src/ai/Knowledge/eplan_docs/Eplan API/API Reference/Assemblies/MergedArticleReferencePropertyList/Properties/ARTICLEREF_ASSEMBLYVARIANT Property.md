@@ -9,7 +9,7 @@ Assembly variant # 20512.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_ASSEMBLYVARIANT {get; set;}

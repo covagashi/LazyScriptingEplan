@@ -9,7 +9,7 @@ Removes the given parts database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveDatabase( 

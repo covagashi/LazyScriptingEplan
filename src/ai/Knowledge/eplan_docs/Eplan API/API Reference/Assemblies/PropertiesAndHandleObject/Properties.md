@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Properties](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObject~Properties.html) | Property enabling access to MasterData properties of the PropertiesAndHandleObject object. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Determines if page description is generated automatically.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsAutomaticPageDescription {get; set;}

@@ -9,7 +9,7 @@ Suppress the last zeroes of a floating result.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SuppressFloatingZeroes {get; set;}

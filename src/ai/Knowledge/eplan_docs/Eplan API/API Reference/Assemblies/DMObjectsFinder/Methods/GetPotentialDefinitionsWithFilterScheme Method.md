@@ -9,7 +9,7 @@ Returns [PotentialDefinition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pot
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PotentialDefinition[] GetPotentialDefinitionsWithFilterScheme( 

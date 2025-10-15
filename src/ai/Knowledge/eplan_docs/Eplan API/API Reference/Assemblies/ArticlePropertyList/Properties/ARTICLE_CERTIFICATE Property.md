@@ -9,7 +9,7 @@ Certification: General # 22048.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CERTIFICATE {get; set;}

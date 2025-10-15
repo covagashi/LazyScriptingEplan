@@ -9,7 +9,7 @@ Nominal power (hydraulic) # 26476.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NOMINAL_POWER_HYDRAULIC {get; set;}

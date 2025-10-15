@@ -9,7 +9,7 @@ Adds new icon to the ribbon bar
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonIcon AddIcon( 

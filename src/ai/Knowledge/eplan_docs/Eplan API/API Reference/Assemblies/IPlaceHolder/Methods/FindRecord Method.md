@@ -9,7 +9,7 @@ Finds a record by name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 int FindRecord( 

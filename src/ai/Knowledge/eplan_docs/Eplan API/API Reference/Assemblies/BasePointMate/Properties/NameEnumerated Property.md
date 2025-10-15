@@ -9,7 +9,7 @@ Name (enumerated)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public BasePointMate.Enums.Name NameEnumerated {get; set;}

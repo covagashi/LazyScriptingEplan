@@ -9,7 +9,7 @@ Removes the given connection point position from the connection point info.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveConnectionPointPosition( 

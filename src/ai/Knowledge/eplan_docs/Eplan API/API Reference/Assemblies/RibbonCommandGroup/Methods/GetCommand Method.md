@@ -9,7 +9,7 @@ Gets a command by a command line
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonCommand GetCommand( 

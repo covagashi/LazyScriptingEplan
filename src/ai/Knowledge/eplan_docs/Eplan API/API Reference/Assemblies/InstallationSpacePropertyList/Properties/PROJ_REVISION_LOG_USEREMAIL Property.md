@@ -9,7 +9,7 @@ User: E-mail address (change tracking) # 10193.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_REVISION_LOG_USEREMAIL( 

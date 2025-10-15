@@ -9,7 +9,7 @@ Returns 1-based index of property ARTICLE\_REPORT\_SYMBOL under which data repre
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int RefPos {get;}

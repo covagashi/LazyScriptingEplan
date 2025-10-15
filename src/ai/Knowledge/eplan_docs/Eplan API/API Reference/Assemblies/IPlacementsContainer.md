@@ -9,7 +9,7 @@ Declares a get accessor function for the container SubPlacements property.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public interface IPlacementsContainer
@@ -22,4 +22,4 @@ Public Properties
 | --- | --- | --- |
 | Property | [SubPlacements](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IPlacementsContainer~SubPlacements.html) | Returns array of placements combined in the container. |
 
-[Top](#top)
+

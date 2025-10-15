@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Count](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesRegisteredCollection~Count.html) | Gets the number of elements contained in the MDPartsMessagesRegisteredCollection. |
 
-[Top](#top)
+

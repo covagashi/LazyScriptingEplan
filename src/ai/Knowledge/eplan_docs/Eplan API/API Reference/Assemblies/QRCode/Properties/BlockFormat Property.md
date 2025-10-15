@@ -9,7 +9,7 @@ Gets/sets block format of QRCode.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string BlockFormat {get; set;}

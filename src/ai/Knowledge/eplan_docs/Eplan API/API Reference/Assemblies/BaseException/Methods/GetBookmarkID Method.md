@@ -9,7 +9,7 @@ Sets a label in the system error message management for getting a section of the
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int GetBookmarkID()

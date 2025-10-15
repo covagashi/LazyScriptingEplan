@@ -9,7 +9,7 @@ Returns identifying name of the Function.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual FunctionBasePropertyList IdentifyingNameParts {get;}

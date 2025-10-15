@@ -9,7 +9,7 @@ Creates the Text object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override void Create( 

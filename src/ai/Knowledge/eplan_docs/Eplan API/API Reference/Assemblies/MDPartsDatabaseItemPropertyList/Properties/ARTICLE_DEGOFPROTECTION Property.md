@@ -9,7 +9,7 @@ Terminals: Degree of protection # 22082.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DEGOFPROTECTION {get; set;}

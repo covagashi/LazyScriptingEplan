@@ -9,7 +9,7 @@ The name of the shielding that shields the wire
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ShieldedBy {get; set;}

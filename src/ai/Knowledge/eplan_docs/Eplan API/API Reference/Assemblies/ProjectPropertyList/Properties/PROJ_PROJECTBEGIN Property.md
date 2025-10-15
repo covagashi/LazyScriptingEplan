@@ -9,7 +9,7 @@ Project start # 10028.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_PROJECTBEGIN {get; set;}

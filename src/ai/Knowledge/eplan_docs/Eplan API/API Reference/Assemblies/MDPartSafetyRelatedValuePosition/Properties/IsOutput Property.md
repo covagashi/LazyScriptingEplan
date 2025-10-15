@@ -9,7 +9,7 @@ Is the function range "Output (React)" selected (yes/no)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsOutput {get; set;}

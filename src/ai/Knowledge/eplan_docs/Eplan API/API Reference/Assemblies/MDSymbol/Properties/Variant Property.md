@@ -9,7 +9,7 @@ Index operator to get a variant by its name. Valid names are "A" or "a" through 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDSymbolVariant this[ 

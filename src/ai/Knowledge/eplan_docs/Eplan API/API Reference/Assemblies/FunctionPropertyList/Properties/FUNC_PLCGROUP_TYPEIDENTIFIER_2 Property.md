@@ -9,7 +9,7 @@ PLC subdevice 2: PLC type designation # 20582.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_TYPEIDENTIFIER_2 {get; set;}

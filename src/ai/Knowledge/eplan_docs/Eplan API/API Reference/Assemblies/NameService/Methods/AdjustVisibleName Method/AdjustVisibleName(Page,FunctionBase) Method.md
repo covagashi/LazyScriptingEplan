@@ -9,7 +9,7 @@ Sets the page and evaluates for a given functionbase the visible name and visibl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AdjustVisibleName( 

@@ -9,7 +9,7 @@ Creates an ActionProperties object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ActionProperties()

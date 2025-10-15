@@ -9,7 +9,7 @@ Determines the number of child nodes.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public uint GetCountOfNodes()

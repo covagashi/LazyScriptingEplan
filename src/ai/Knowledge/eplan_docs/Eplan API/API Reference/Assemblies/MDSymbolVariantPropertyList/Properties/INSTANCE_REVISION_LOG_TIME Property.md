@@ -9,7 +9,7 @@ Modification time (change tracking) # 19034.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue INSTANCE_REVISION_LOG_TIME {get; set;}

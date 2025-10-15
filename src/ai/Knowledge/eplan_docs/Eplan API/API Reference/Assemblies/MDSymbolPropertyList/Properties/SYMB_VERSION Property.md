@@ -9,7 +9,7 @@ Version # 16026.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_VERSION {get; set;}

@@ -9,7 +9,7 @@ Returns `true`, if special object placement mode is active.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsObjectPlacementModeActive {get;}

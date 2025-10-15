@@ -9,7 +9,7 @@ The characteristic of the relay template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Characteristic {get; set;}

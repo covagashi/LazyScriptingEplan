@@ -15,4 +15,4 @@ Public Properties
 | Public Property | [ReuseMessages](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesCollection~ReuseMessages.html) | Determines whether new message can be duplicated in collection. Default value is `true`. |
 | Public Property | [ShowImmediately](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesCollection~ShowImmediately.html) | If true, added messages will be immediately displayed in message management window. Default value is false. |
 
-[Top](#top)
+

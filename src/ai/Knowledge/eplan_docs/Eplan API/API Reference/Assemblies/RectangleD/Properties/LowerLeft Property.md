@@ -9,7 +9,7 @@ Returns lower left corner of the rectangle.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD LowerLeft {get;}

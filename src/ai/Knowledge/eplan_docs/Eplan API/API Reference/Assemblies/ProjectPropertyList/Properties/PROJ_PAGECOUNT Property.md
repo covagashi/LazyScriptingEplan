@@ -9,7 +9,7 @@ Total no. of pages # 10300.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_PAGECOUNT {get; set;}

@@ -9,7 +9,7 @@ Returns value
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString Value {get;}

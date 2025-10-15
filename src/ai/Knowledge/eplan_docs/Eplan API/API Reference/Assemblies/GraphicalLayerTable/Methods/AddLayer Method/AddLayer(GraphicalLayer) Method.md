@@ -9,7 +9,7 @@ Creates new layer from GraphicalLayer object. Note: Layer name must be unique in
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public GraphicalLayer AddLayer( 

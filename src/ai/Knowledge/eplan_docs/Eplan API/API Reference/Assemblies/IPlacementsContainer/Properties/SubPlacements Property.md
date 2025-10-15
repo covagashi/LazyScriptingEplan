@@ -9,7 +9,7 @@ Returns array of placements combined in the container.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 Placement[] SubPlacements {get;}

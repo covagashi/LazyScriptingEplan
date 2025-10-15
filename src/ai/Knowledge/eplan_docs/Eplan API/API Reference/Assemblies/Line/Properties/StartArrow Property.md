@@ -9,7 +9,7 @@ Returns if Line starts with an arrow.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool StartArrow {get; set;}

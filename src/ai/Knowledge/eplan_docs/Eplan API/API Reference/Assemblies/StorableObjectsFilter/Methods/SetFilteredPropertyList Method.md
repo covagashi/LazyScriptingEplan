@@ -9,7 +9,7 @@ Sets the [StorableObjectPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataM
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetFilteredPropertyList( 

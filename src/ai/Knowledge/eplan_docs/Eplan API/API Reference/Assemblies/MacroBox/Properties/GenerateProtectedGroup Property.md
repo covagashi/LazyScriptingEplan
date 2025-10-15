@@ -9,7 +9,7 @@ Gets or sets generate protected group property.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool GenerateProtectedGroup {get; set;}

@@ -9,7 +9,7 @@ Type of heating / cooling # 26015.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TYPE_OF_HEATING_COOLING {get; set;}

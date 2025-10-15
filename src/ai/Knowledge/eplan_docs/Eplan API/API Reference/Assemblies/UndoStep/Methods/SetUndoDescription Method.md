@@ -9,7 +9,7 @@ Set description of Undo action.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetUndoDescription( 

@@ -9,7 +9,7 @@ Scans directory for projects to add them into the project management.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void LoadDirectory( 

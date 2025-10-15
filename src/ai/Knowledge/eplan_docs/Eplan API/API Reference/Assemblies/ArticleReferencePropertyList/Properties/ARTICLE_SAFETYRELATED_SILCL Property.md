@@ -9,7 +9,7 @@ Safety-related values: SIL CL # 40330.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SAFETYRELATED_SILCL {get; set;}

@@ -9,7 +9,7 @@ PLC subdevice 6: PLC type designation # 22345.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PLCGROUP_TYPIDENTIFIER_6 {get; set;}

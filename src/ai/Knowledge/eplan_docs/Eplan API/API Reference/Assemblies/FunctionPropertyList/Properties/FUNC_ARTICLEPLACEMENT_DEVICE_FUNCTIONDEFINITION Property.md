@@ -9,7 +9,7 @@ Function definition (of main function) # 20461.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLEPLACEMENT_DEVICE_FUNCTIONDEFINITION {get; set;}

@@ -9,7 +9,7 @@ Device description: Index in file # 20381.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCDEVICE_INDEX {get; set;}

@@ -9,7 +9,7 @@ Nominal voltage (AC 50 Hz) # 26489.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_RATED_VOLTAGE_FOR_AC_50_HZ( 

@@ -9,7 +9,7 @@ This method will enable to commit the transaction, and \internal open the next t
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Store()

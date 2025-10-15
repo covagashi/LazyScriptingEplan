@@ -9,7 +9,7 @@ Returns upper right front relative coordinate
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D UpperRightFrontRelative {get;}

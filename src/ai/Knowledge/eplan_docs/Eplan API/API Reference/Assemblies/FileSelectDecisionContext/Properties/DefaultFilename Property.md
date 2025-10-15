@@ -9,7 +9,7 @@ The default name of a file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DefaultFilename {get; set;}

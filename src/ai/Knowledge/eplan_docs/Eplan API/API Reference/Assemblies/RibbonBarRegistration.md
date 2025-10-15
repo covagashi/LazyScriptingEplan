@@ -12,7 +12,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 internal sealed class RibbonBarRegistration
@@ -25,7 +25,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [RibbonBarRegistration Constructor](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBarRegistration~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -34,4 +34,4 @@ Public Methods
 | Public Method | [AddRegistrationCommand](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBarRegistration~AddRegistrationCommand.html) |  |
 | Public Method | [Dispose](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBarRegistration~Dispose().html) |  |
 
-[Top](#top)
+

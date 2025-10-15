@@ -9,7 +9,7 @@ Creator: State / Region # 10244.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATORREGION {get; set;}

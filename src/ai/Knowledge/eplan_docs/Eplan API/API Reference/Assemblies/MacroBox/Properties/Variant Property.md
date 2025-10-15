@@ -9,7 +9,7 @@ Variant
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Variant {get; set;}

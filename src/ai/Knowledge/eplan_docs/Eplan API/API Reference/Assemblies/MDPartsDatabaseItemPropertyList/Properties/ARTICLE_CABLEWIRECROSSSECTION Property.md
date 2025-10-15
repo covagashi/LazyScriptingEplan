@@ -9,7 +9,7 @@ Connection: Cross-section / diameter # 22032.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CABLEWIRECROSSSECTION {get; set;}

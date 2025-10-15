@@ -9,7 +9,7 @@ Sets product information
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool SetProductInfo( 

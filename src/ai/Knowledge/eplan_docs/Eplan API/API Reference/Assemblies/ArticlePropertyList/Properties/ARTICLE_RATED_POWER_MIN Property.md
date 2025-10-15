@@ -9,7 +9,7 @@ Nominal power (in kW), min. # 26480.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_RATED_POWER_MIN {get; set;}

@@ -18,4 +18,4 @@ Public Properties
 | Public Property | [LastUsedIndex](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~LastUsedIndex.html) | Returns number of highest used index. Index value starts from 1. If it is a not indexed-property or if their index is not used, LastUsedIndex is 0.  An object of MDPropertyValue has to point to online property. |
 | Public Property | [Parent](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~Parent.html) | Property list to which this property value is connected. |
 
-[Top](#top)
+

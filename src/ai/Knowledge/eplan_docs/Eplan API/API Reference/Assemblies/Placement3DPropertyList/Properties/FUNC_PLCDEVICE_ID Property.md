@@ -9,7 +9,7 @@ Device description: File name # 20415.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCDEVICE_ID {get; set;}

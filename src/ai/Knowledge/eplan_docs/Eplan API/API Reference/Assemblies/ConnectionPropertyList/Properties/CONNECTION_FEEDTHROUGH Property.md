@@ -9,7 +9,7 @@ Routed mechanical feedthroughs # 31164.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_FEEDTHROUGH {get; set;}

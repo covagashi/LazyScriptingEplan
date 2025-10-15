@@ -9,7 +9,7 @@ Set user name
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string User {set;}

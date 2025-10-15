@@ -9,7 +9,7 @@ Cables: Number of all connections # 35108.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLE_COUNTOFALLWIRES {get; set;}

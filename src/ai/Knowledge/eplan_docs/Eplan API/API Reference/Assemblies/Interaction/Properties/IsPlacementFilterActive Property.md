@@ -9,7 +9,7 @@ If true, then placement-filter is active.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsPlacementFilterActive {get; set;}

@@ -9,7 +9,7 @@ PLC subdevice 6: Name # 22298.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PLCDEVICENAME_6 {get; set;}

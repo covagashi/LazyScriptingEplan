@@ -9,7 +9,7 @@ Measuring range: Pressure # 26124.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MEASURING_RANGE_OF_PRESSURE {get; set;}

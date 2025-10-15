@@ -9,7 +9,7 @@ Creates a MergedArticleReference object out of an array of ArticleReference obje
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

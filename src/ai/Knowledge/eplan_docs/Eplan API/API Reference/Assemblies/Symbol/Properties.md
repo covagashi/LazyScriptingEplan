@@ -26,4 +26,4 @@ Public Properties
 | Public Property | [TypeIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TypeIdentifier.html) | Returns the type of the object as number. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 | Public Property | [Variants](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.Symbol~Variants.html) | Gets table of symbol variants. |
 
-[Top](#top)
+

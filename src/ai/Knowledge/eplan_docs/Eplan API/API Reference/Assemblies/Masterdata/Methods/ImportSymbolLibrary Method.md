@@ -9,7 +9,7 @@ Imports symbol library
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ImportSymbolLibrary( 

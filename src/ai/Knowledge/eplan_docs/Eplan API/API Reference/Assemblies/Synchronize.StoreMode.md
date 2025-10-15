@@ -9,7 +9,7 @@ Store mode determines, whether parts, which are already existing in the parts da
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Synchronize.StoreMode : System.Enum

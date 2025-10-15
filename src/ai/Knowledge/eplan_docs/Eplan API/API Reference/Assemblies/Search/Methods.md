@@ -20,4 +20,4 @@ Public Methods
 | Public Method | [Project](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Search~Project.html) | Overloaded. Searches on the specified project for a search string. The search settings will influence the result. The found object will be written to the active list of results. |
 | Public Method | [Replace](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Search~Replace.html) | Replaces text in a searched objects. |
 
-[Top](#top)
+

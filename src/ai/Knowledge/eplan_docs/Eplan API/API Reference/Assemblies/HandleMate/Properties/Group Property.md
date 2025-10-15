@@ -9,7 +9,7 @@ Retrieves a group the a handle belongs to
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Group3D Group {get;}

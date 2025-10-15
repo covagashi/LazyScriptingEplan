@@ -9,7 +9,7 @@ Shock load # 26584.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SHOCK_LOAD {get; set;}

@@ -9,7 +9,7 @@ Returns the value of a string setting. If a setting is read that has no value fo
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string GetExpandedStringSetting( 

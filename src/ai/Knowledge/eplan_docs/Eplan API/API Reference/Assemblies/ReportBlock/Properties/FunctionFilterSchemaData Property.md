@@ -9,7 +9,7 @@ Property data represents function filter scheme settings for report generation.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string FunctionFilterSchemaData {get; set;}

@@ -9,7 +9,7 @@ Error: Function definition # 15100.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMBLIB_FUNCDEFERROR( 

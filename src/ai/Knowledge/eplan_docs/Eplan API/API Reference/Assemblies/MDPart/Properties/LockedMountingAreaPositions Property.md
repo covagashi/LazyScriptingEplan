@@ -9,7 +9,7 @@ Get all locked mounting area positions of the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartLockedMountingAreaPosition[] LockedMountingAreaPositions {get;}

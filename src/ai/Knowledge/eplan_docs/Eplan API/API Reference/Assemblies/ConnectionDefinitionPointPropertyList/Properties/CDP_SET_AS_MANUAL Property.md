@@ -9,7 +9,7 @@ Manually set # 31046.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_SET_AS_MANUAL {get; set;}

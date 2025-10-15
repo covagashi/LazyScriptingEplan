@@ -9,7 +9,7 @@ Mounting clearance Width: Left # 22152.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SPACING_LEFT {get; set;}

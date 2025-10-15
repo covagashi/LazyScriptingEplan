@@ -9,7 +9,7 @@ Creates a new symbol with a unique Id and a unique strName.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDSymbol AddSymbol( 

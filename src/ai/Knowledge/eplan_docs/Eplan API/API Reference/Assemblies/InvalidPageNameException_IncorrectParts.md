@@ -19,7 +19,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class InvalidPageNameException_IncorrectParts : InvalidPageNameException
@@ -43,7 +43,7 @@ Public Properties
 | Public Property | [StackTrace](#) | (Inherited from [System.Exception](#)) |
 | Public Property | [TargetSite](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -54,4 +54,4 @@ Public Methods
 | Public Method | [GetType](#) | (Inherited from [System.Exception](#)) |
 | Public Method | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
+

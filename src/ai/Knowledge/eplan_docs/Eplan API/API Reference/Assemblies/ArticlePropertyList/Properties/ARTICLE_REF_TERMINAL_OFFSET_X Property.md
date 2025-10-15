@@ -9,7 +9,7 @@ Connection point pattern: Offset X-direction # 22277.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_REF_TERMINAL_OFFSET_X {get; set;}

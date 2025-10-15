@@ -9,7 +9,7 @@ Defines a new default setting for a multilanguage string value.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddMultiLangStringDefault( 

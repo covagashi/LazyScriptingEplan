@@ -9,7 +9,7 @@ Applies a record of values on a PlaceHolder object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void ApplyRecord( 

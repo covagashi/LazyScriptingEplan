@@ -9,7 +9,7 @@ Types of stored values
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MDPropertyDefinition.MDPropertyType : System.Enum

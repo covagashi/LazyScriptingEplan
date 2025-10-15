@@ -9,7 +9,7 @@ Pipe class # 20863.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PIPECLASS {get; set;}

@@ -9,7 +9,7 @@ Project: Type # 10031.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_TYPE {get; set;}

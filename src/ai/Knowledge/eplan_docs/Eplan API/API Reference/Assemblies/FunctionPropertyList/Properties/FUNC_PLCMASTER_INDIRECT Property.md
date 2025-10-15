@@ -9,7 +9,7 @@ Logical network: Name (indirect) # 20424.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCMASTER_INDIRECT {get; set;}

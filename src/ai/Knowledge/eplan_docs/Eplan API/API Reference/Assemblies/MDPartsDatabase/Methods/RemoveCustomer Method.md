@@ -9,7 +9,7 @@ Removes a customer out of the parts database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveCustomer( 

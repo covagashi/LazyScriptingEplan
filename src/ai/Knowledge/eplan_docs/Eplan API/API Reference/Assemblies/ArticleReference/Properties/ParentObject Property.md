@@ -9,7 +9,7 @@ Returns the Object this ArticleReference belongs to.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject ParentObject {get;}

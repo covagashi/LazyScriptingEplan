@@ -9,7 +9,7 @@ Emergency control function (closed) # 26054.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_EMERGENCY_CONTROL_FUNCTION_CLOSED {get; set;}

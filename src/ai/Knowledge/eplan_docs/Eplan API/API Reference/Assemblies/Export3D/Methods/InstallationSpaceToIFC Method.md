@@ -9,7 +9,7 @@ Exports single installation space into file in IFC format under given name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool InstallationSpaceToIFC( 

@@ -9,7 +9,7 @@ Returns the PlcIOEntry's CPU ID.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PlcCpu {get; set;}

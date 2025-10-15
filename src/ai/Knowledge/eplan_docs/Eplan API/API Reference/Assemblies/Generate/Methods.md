@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [Connections](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Generate~Connections.html) | Overloaded. Updates connections on given pages from one project. Project is taken from first page. |
 | Public Method | [Dispose](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Generate~Dispose().html) | Destructor |
 
-[Top](#top)
+

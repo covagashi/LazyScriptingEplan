@@ -9,7 +9,7 @@ Returns tooltip text
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string TooltipText {get; set;}

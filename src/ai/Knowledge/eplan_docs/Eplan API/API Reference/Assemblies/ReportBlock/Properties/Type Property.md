@@ -9,7 +9,7 @@ Type of evaluation.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DocumentTypeManager.DocumentType Type {get; set;}

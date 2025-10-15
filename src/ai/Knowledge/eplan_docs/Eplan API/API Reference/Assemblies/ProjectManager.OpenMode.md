@@ -9,7 +9,7 @@ Enum used for OpenProject
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ProjectManager.OpenMode : System.Enum

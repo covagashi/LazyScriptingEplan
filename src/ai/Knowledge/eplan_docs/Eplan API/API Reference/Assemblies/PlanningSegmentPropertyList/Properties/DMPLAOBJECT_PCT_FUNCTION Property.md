@@ -9,7 +9,7 @@ Processing function # 44037.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PCT_FUNCTION {get; set;}

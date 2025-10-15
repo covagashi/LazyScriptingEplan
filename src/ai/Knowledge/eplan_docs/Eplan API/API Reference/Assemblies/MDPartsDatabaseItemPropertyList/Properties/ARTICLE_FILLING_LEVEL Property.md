@@ -9,7 +9,7 @@ Fill capacity # 26344.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_FILLING_LEVEL {get; set;}

@@ -9,7 +9,7 @@ function to re-align and re-format connection definition points.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AlignAndFormatConnectionDefinitionPoints( 

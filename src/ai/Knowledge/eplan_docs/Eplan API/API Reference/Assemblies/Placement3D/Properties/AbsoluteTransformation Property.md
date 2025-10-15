@@ -9,7 +9,7 @@ Absolute position and rotation represented by transformation matrix.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Matrix3D AbsoluteTransformation {get; set;}

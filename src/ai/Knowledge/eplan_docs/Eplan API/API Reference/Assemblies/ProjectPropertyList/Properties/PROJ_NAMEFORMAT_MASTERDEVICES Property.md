@@ -9,7 +9,7 @@ Superior naming format for all devices # 10074.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_NAMEFORMAT_MASTERDEVICES {get; set;}

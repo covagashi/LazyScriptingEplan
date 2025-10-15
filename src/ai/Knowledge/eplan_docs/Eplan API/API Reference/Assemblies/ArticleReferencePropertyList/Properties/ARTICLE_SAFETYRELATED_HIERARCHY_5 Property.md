@@ -9,7 +9,7 @@ Safety-related values: Hierarchy level 5 # 40325.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SAFETYRELATED_HIERARCHY_5 {get; set;}

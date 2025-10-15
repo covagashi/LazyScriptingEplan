@@ -9,7 +9,7 @@ Returns true, if the layer is a custom layer.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool isCustom {get;}

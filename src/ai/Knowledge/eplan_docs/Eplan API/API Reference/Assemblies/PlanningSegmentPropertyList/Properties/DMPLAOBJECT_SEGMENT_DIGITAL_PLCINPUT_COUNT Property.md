@@ -9,7 +9,7 @@ Number of digital PLC outputs # 44080.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_SEGMENT_DIGITAL_PLCOUTPUT_COUNT {get; set;}

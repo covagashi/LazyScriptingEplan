@@ -9,7 +9,7 @@ Usage count # 1005.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue LOCATION_USE {get; set;}

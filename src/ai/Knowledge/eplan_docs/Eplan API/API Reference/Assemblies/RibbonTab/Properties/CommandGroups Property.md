@@ -9,7 +9,7 @@ Returns all command groups a ribbon tab
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonCommandGroup[] CommandGroups {get;}

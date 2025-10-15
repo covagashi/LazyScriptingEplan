@@ -9,7 +9,7 @@ Form name # 11015.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_FORMULAR {get; set;}

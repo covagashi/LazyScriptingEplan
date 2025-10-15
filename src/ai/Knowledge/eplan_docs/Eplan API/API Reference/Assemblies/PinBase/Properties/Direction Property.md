@@ -9,7 +9,7 @@ Gets the connection point's direction.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PinBase.Directions Direction {get;}

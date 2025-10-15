@@ -9,7 +9,7 @@ Revision time (change tracking) # 11078.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_REVISION_LOG_TIME( 

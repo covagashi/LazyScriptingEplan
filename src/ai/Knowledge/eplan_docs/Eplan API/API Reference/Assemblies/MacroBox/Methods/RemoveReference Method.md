@@ -9,7 +9,7 @@ Remove reference
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveReference( 

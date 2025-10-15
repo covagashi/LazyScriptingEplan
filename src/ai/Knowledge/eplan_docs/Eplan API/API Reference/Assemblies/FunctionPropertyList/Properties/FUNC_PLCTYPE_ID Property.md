@@ -9,7 +9,7 @@ PLC type designation # 20416.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCTYPE_ID {get; set;}

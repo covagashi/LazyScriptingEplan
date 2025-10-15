@@ -9,7 +9,7 @@ Associated connections: Potential type # 31062.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_POTENTIAL_TYPE {get; set;}

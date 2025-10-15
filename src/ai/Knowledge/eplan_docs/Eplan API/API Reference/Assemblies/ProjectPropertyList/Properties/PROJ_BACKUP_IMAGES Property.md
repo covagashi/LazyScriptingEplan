@@ -9,7 +9,7 @@ Data backup: Back up image files # 10512.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BACKUP_IMAGES {get; set;}

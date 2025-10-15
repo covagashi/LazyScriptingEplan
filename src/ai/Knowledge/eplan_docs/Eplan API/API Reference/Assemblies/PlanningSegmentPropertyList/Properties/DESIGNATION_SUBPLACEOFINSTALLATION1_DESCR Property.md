@@ -9,7 +9,7 @@ Installation site (sub-identifier 2) # 1402.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBPLACEOFINSTALLATION2 {get; set;}

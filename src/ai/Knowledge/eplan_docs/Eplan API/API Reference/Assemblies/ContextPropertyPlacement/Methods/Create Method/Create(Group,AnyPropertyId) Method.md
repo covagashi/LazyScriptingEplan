@@ -9,7 +9,7 @@ Creates and inserts it into a group ContextPropertyPlacement which displays symb
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static ContextPropertyPlacement Create( 

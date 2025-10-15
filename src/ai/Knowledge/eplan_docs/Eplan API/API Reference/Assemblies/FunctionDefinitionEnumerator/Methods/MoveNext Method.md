@@ -9,7 +9,7 @@ Advances the enumerator to the next element of the collection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool MoveNext()

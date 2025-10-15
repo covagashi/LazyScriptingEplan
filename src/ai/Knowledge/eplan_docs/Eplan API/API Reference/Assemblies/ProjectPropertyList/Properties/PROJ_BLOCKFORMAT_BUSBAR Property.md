@@ -9,7 +9,7 @@ Block property: Format (busbar) # 10612.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_BUSBAR( 

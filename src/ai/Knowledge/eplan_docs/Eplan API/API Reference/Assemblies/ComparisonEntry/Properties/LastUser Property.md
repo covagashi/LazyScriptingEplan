@@ -9,7 +9,7 @@ Shows the last editor of the page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string LastUser {get;}

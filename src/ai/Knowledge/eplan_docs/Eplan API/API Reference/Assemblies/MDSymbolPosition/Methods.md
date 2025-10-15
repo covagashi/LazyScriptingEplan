@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolPosition~Dispose().html) | Destructor for deterministic finalization of MDSymbolPosition object. |
 | Public Method | [RemoveSymbolPosition](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolPosition~RemoveSymbolPosition.html) | Removes the symbol position from part. |
 
-[Top](#top)
+

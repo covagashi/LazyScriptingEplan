@@ -9,7 +9,7 @@ Returns a string that represents the current object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override string ToString()

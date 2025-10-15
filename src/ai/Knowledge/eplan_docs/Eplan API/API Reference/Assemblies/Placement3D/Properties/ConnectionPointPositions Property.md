@@ -9,7 +9,7 @@ Array of connection points data.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ConnectionPointPosition[] ConnectionPointPositions {get;}

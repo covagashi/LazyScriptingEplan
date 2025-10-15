@@ -9,7 +9,7 @@ Retrieves all possible property ids of a function template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAnyPropertyId[] AllIds {get;}

@@ -9,7 +9,7 @@ Constructor. The collection contains a section of the system message tree.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SysMessagesCollection( 

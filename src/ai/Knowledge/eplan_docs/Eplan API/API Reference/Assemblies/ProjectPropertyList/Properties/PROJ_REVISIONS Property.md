@@ -9,7 +9,7 @@ Revisions # 10150.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_REVISIONS( 

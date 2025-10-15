@@ -9,7 +9,7 @@ Number of symbol variants # 15017.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMBLIB_VARIANTCOUNT {get; set;}

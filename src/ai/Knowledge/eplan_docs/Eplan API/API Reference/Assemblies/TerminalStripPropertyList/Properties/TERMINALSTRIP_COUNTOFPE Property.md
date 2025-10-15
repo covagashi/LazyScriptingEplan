@@ -9,7 +9,7 @@ Terminal strips: Number of PE terminals # 35004.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue TERMINALSTRIP_COUNTOFPE {get; set;}

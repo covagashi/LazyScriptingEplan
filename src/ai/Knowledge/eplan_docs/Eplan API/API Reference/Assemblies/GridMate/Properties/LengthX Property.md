@@ -9,7 +9,7 @@ Number of cells in X direction
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int LengthX {get;}

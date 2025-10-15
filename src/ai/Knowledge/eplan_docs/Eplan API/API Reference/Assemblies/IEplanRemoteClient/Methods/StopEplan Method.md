@@ -9,7 +9,7 @@ Stops the Eplan instance which is connected to the current client.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool StopEplan()

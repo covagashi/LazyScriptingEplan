@@ -9,7 +9,7 @@ Scale (ratio) # 11044.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_SCALE_RELATION {get; set;}

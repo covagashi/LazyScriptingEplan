@@ -9,7 +9,7 @@ Plugs: Number of SH pins # 35200.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLUGSTRIP_COUNTOFSH {get; set;}

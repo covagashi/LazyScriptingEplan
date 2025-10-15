@@ -9,7 +9,7 @@ Pre- defined classifications for project messages; every project message must be
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum IMessage.Classification : System.Enum

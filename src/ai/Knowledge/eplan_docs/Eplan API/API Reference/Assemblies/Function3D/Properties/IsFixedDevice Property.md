@@ -9,7 +9,7 @@ Set or checks if device of this Function3d is fixed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsFixedDevice {get; set;}

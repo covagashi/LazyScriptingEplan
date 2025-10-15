@@ -9,7 +9,7 @@ Product (sub-identifier 4): Description # 1834.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBPRODUCT4_DESCR {get; set;}

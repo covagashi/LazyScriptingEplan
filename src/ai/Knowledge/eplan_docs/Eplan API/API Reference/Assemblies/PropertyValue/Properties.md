@@ -18,4 +18,4 @@ Public Properties
 | Public Property | [LastUsedIndex](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyValue~LastUsedIndex.html) | Returns the number of the highest used index. Indexes start at 1. If the property is not indexed or there is no used index, LastUsedIndex is 0. To use the LastUsedIndex property, the PropertyValue object must point to a project property (persistent property).It cannot point to an individual value (transient property). |
 | Public Property | [Parent](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyValue~Parent.html) | Property list to which this property value is connected. |
 
-[Top](#top)
+

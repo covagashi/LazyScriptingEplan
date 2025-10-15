@@ -9,7 +9,7 @@ Constructor. Creates a transient Terminal.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Terminal()

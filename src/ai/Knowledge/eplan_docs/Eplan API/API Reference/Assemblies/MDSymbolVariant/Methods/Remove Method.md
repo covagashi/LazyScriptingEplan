@@ -9,7 +9,7 @@ Removes the symbol variant from the symbol.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Remove()

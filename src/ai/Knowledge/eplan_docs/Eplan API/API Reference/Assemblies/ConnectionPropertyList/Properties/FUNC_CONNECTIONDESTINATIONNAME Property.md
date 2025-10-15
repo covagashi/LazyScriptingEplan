@@ -9,7 +9,7 @@ Name of target connection point # 20077.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CONNECTIONDESTINATIONNAME( 

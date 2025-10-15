@@ -9,7 +9,7 @@ Standard # 22227.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NORM {get; set;}

@@ -9,7 +9,7 @@ Last editor: Sign-in name # 11022.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_LASTMODIFICATOR {get; set;}

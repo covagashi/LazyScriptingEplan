@@ -9,7 +9,7 @@ Returns all associated holders objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Component[] Holder {get;}

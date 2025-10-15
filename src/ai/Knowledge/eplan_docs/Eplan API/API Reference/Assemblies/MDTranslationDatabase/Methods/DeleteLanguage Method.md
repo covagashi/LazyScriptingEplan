@@ -9,7 +9,7 @@ Deletes translation database language.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool DeleteLanguage( 

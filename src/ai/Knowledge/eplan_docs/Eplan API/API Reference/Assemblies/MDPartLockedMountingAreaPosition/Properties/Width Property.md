@@ -9,7 +9,7 @@ Width of the locked mounting area
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Width {get; set;}

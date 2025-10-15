@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ListSelectDecisionContext
@@ -77,7 +77,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ListSelectDecisionContext Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ListSelectDecisionContext~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -90,7 +90,7 @@ Public Properties
 | Public Property | [SelectedIndex](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ListSelectDecisionContext~SelectedIndex.html) | Gets the selected index from Entries |
 | Public Property | [Title](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ListSelectDecisionContext~Title.html) | The title for the decider. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -98,4 +98,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ListSelectDecisionContext~Dispose().html) | Destructor for deterministic finalization of ListSelectDecisionContext object. |
 
-[Top](#top)
+

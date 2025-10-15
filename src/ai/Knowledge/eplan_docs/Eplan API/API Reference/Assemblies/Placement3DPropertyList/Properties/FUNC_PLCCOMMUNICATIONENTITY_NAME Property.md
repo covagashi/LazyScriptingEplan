@@ -9,7 +9,7 @@ Communication unit (at communication units) # 20106.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCOMMUNICATIONENTITY_NAME( 

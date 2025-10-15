@@ -9,7 +9,7 @@ Block property: Format (PCT loop function) # 10616.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_PLTFUNCTION( 

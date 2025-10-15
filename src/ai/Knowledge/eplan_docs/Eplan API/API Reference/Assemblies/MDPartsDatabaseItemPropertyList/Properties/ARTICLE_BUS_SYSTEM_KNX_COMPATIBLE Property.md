@@ -9,7 +9,7 @@ KNX: Compatible # 26031.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_BUS_SYSTEM_KNX_COMPATIBLE {get; set;}

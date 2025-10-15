@@ -9,7 +9,7 @@ Constructor Constructs a handle so that it points to a project settings node spe
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ProjectSettingNode( 

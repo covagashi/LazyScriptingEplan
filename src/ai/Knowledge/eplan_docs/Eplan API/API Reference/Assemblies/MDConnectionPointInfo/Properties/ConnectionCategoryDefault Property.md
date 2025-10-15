@@ -9,7 +9,7 @@ Standard connection category
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDConnectionCategory ConnectionCategoryDefault {get; set;}

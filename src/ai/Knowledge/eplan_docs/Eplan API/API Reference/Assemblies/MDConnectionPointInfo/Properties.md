@@ -19,4 +19,4 @@ Public Properties
 | Public Property | [Type](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionPointInfo~Type.html) | Overridden. Returns the part type of the part. |
 | Public Property | [WireTerminationProcessings](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionPointInfo~WireTerminationProcessings.html) | Returns a map of ids and theirs names of all possible wire termination processing. |
 
-[Top](#top)
+

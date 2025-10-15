@@ -9,7 +9,7 @@ PCF: Number of calculation methods # 26078.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NUMBER_OF_PCF_METHODS {get; set;}

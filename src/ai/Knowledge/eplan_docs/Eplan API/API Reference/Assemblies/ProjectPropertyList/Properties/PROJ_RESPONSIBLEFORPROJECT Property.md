@@ -9,7 +9,7 @@ Responsible for project # 10025.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_RESPONSIBLEFORPROJECT {get; set;}

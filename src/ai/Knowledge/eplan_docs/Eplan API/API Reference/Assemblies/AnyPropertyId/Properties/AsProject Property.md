@@ -9,7 +9,7 @@ Gets property id value as [Properties.Project](Eplan.EplApi.DataModelu~Eplan.Epl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.Project AsProject {get;}

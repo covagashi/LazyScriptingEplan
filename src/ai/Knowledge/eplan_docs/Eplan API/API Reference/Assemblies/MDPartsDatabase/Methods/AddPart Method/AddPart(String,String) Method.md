@@ -9,7 +9,7 @@ Adds a new part into the parts database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPart AddPart( 

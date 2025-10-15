@@ -9,7 +9,7 @@ Custom icons to ribbon commands
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum CommandIcon : System.Enum

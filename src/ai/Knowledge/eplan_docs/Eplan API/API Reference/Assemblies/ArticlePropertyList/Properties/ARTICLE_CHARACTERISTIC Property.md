@@ -9,7 +9,7 @@ Characteristic curve # 26403.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CHARACTERISTIC {get; set;}

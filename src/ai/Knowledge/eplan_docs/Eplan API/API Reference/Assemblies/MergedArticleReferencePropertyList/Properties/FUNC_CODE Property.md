@@ -9,7 +9,7 @@ DT: Identifier # 20013.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CODE {get; set;}

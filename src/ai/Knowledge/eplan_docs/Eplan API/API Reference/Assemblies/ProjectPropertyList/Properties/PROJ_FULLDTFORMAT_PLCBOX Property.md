@@ -9,7 +9,7 @@ Format of full DT: PLC box # 10645.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_FULLDTFORMAT_PLCBOX {get; set;}

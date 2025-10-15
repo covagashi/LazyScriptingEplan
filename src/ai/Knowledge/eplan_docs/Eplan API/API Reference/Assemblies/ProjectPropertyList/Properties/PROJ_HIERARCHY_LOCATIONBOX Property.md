@@ -9,7 +9,7 @@ Structure format for structure boxes # 10062.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_LOCATIONBOX {get; set;}

@@ -9,7 +9,7 @@ Gets/Sets a value that indicates whether the text fitting in Alignement Box is p
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AlignmentBoxTextFittingPermitted {get; set;}

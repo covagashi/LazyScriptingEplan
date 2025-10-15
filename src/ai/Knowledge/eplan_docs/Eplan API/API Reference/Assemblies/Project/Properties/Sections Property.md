@@ -9,7 +9,7 @@ Returns an object used to manage project sections.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ProjectSections Sections {get;}

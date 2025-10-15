@@ -9,7 +9,7 @@ Produces an article placement on the mounting panel. The article must be in the 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateArticlePlacement( 

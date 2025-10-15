@@ -9,7 +9,7 @@ Mass flow # 26442.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MASS_FLOW {get; set;}

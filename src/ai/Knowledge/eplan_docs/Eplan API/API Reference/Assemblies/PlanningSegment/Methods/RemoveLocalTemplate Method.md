@@ -9,7 +9,7 @@ Removes a local template from this object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveLocalTemplate( 

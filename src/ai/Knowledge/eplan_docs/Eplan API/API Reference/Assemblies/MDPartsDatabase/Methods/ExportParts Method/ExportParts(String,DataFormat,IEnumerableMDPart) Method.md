@@ -9,7 +9,7 @@ Exports specified parts from the system's parts database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExportParts( 

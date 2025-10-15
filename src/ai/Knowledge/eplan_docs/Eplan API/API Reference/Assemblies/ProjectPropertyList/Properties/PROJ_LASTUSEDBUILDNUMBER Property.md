@@ -9,7 +9,7 @@ Eplan build number of the last modification or update # 10044.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_LASTUSEDBUILDNUMBER {get; set;}

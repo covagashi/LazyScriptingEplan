@@ -9,7 +9,7 @@ Returns a all distributed terminals associated with this distributed terminal. R
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Terminal[] DistributedTerminals {get;}

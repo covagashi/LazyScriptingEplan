@@ -16,4 +16,4 @@ Public Methods
 | Public Method | [VerifyPages](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Check~VerifyPages.html) | Overloaded. Starts a check run for the given pages. |
 | Public Method | [VerifyProject](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Check~VerifyProject.html) | Overloaded. Starts a check run for the given project. |
 
-[Top](#top)
+

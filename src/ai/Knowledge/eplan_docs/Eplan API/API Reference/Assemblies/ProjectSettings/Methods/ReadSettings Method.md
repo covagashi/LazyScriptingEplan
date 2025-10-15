@@ -9,7 +9,7 @@ Reads settings from settings file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ReadSettings( 

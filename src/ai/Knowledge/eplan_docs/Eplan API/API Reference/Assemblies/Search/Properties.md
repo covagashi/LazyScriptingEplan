@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Setting](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Search~Setting.html) | Gets/Sets whether the specified setting of a search is enabled |
 
-[Top](#top)
+

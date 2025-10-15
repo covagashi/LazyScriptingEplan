@@ -9,7 +9,7 @@ PLC object ID (at communication units) # 20139.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCOMMUNICATIONENTITY_PLCOBJECTID( 

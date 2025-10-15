@@ -9,7 +9,7 @@ Degree of protection (IP): Rear side # 26563.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PROTECTION_CLASS_IP_REAR {get; set;}

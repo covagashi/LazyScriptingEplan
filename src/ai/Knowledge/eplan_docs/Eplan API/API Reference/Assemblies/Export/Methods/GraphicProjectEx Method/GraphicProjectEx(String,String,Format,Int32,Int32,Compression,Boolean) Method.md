@@ -9,7 +9,7 @@ Exports a complete project as image files but instead of pages which [Eplan.EplA
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[] GraphicProjectEx( 

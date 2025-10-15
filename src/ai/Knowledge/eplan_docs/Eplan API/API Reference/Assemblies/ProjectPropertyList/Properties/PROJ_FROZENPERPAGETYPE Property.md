@@ -9,7 +9,7 @@ Number of frozen pages per page type # 10065.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_FROZENPERPAGETYPE( 

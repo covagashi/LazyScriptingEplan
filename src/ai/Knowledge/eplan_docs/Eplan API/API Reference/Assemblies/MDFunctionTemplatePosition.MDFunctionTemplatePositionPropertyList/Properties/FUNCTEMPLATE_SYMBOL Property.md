@@ -9,7 +9,7 @@ Symbol (compatibility) # 21001.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNCTEMPLATE_SYMBOL {get; set;}

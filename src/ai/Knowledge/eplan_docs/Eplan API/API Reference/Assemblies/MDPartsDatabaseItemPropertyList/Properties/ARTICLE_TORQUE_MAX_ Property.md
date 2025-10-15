@@ -9,7 +9,7 @@ Torque, max. # 26253.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TORQUE_MAX_ {get; set;}

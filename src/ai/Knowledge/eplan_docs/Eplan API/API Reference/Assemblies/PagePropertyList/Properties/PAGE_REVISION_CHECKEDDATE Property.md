@@ -9,7 +9,7 @@ Checked date # 11083.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_REVISION_CHECKEDDATE {get; set;}

@@ -9,7 +9,7 @@ Returns the connection's end connection point.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PinBase EndConnectionPoint {get;}

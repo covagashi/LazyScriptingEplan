@@ -9,7 +9,7 @@ Called by the framework when the action is to be performed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool Execute( 

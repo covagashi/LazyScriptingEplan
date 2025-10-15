@@ -9,7 +9,7 @@ Error: Graphic # 12100.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_GRAPHICERROR( 

@@ -9,7 +9,7 @@ DT: Subcounter # 20015.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_SUFFIX {get; set;}

@@ -9,7 +9,7 @@ Places the segment onto the given page, in the given location.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolReference PlaceAt( 

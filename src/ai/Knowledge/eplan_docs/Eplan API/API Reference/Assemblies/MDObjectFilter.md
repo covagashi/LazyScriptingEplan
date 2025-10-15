@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDObjectFilter
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDObjectFilter Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDObjectFilter~_ctor.html) | Default constructor. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -37,4 +37,4 @@ Public Methods
 | Public Method | [AddPropertyCondition](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDObjectFilter~AddPropertyCondition.html) | Add a property condition to the object filter. Adding multiple conditions without a separating OR-condition means, they must all match (logical AND-combination) |
 | Public Method | [Dispose](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDObjectFilter~Dispose().html) | Destructor for deterministic finalization of MDObjectFilterConditions object. |
 
-[Top](#top)
+

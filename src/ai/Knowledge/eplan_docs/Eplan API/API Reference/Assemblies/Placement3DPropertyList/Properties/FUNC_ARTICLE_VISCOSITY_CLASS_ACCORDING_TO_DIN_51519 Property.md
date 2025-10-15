@@ -9,7 +9,7 @@ Viscosity class (acc. to DIN 51519) # 26632.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_VISCOSITY_CLASS_ACCORDING_TO_DIN_51519( 

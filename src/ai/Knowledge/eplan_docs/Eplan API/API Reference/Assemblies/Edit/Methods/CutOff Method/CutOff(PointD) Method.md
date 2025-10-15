@@ -9,7 +9,7 @@ Cut off objects at a given position, from page currently opened in graphical edi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public GraphicalPlacement[] CutOff( 

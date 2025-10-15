@@ -9,7 +9,7 @@ Modification date (manual) # 11023.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_LASTMANUMODIFICATIONDATE {get; set;}

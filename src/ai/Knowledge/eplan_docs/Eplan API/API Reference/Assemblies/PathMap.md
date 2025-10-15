@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PathMap
@@ -78,7 +78,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PathMap Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PathMap~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -89,4 +89,4 @@ Public Methods
 | Public Methodstatic (Shared in Visual Basic) | [ReSubstitutePathForDisplay](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PathMap~ReSubstitutePathForDisplay.html) | Substitute values with variables. Returns the changed path. Ignores all variables which are not visible in P8 Dialogs. |
 | Public Methodstatic (Shared in Visual Basic) | [SubstitutePath](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PathMap~SubstitutePath.html) | Overloaded. Substitutes variables with their values for a partuclar Project. Returns the changed path. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Available response status codes.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum IdentityStatusCode : System.Enum

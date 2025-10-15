@@ -9,7 +9,7 @@ Conversion from sImportFile to sXmlFile. sXmlFile might be passed as "". In this
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool Import( 

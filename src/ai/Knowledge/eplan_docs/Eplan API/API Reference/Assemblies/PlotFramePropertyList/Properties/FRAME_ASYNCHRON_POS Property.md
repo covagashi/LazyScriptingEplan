@@ -9,7 +9,7 @@ Asynchronous rows # 12013.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_ASYNCHRON_POS {get; set;}

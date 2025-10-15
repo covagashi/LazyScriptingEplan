@@ -9,7 +9,7 @@ Transport volume # 26329.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_PUMPING_VOLUME( 

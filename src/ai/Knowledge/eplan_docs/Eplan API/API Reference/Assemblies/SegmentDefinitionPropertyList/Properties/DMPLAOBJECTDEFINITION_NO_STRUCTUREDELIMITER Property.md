@@ -9,7 +9,7 @@ Segment definition: No blank space before the number # 44091.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECTDEFINITION_NUMBER_NO_SPACE {get; set;}

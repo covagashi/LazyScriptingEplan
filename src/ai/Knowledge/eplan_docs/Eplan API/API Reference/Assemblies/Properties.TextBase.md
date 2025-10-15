@@ -9,7 +9,7 @@ Identificators of properties owned by TextBase class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.TextBase : System.Enum

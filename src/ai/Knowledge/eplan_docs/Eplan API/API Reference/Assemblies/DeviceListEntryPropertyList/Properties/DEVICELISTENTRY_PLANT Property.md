@@ -9,7 +9,7 @@ System part # 23208.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DEVICELISTENTRY_PLANT {get; set;}

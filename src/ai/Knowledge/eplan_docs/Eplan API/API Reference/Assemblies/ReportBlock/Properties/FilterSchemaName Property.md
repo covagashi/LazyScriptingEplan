@@ -9,7 +9,7 @@ Name of filter scheme.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string FilterSchemaName {get; set;}

@@ -9,7 +9,7 @@ Exports a page of a project as image file. [Eplan.EplApi.DataModel.Page.PageType
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GraphicPageEx( 

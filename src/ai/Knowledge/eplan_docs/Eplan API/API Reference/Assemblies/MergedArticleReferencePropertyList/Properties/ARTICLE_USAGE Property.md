@@ -9,7 +9,7 @@ Procurement # 22144.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_USAGE {get; set;}

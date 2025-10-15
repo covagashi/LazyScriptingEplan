@@ -9,7 +9,7 @@ Returns the index of the symbol variant.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public sbyte Index {get; set;}

@@ -9,7 +9,7 @@ Level # 20034.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINALLEVEL {get; set;}

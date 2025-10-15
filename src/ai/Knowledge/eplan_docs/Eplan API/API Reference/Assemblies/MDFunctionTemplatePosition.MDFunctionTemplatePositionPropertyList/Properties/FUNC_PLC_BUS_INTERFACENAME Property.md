@@ -9,7 +9,7 @@ Bus interface: Name # 20447.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNC_PLC_BUS_INTERFACENAME {get; set;}

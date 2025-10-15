@@ -9,7 +9,7 @@ Hose line length # 20866.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_HOSE_LENGTH {get; set;}

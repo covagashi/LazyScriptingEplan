@@ -9,7 +9,7 @@ Returns object from which the mate was returned or changed by: Placement3D.GetTa
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement3D Source {get;}

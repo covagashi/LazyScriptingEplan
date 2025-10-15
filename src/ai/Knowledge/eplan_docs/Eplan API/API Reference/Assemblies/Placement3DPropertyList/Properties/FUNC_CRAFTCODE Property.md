@@ -9,7 +9,7 @@ Media code # 20316.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CRAFTCODE {get; set;}

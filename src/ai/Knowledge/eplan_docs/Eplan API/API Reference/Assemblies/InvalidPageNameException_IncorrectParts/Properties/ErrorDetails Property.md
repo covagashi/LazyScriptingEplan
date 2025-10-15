@@ -9,7 +9,7 @@ Provides additional information about the error.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ErrorDetails {get;}

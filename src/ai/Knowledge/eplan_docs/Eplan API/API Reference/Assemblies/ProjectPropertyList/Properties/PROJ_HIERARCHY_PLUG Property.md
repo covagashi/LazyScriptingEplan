@@ -9,7 +9,7 @@ Structure format for plugs # 10060.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_PLUG {get; set;}

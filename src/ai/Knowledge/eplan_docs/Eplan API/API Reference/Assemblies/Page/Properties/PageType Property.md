@@ -9,7 +9,7 @@ Gets/sets a page's property describing type of document
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DocumentTypeManager.DocumentType PageType {get; set;}

@@ -9,7 +9,7 @@ Safety function # 21006.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNCTEMPLATE_SAFETYRELEVANT {get; set;}

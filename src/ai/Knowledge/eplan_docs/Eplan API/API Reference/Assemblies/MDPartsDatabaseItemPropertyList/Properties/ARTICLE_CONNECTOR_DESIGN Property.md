@@ -9,7 +9,7 @@ Plug-in connector design # 26063.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CONNECTOR_DESIGN {get; set;}

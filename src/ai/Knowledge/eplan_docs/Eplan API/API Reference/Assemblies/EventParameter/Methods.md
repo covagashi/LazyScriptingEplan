@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameter~Dispose().html) | For internal use only. |
 | Public Method | [GetInternalParameter](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameter~GetInternalParameter.html) | For internal use only. |
 
-[Top](#top)
+

@@ -17,7 +17,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class FunctionsFilter : PlacementsFilter
@@ -113,7 +113,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [FunctionsFilter Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionsFilter~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -125,7 +125,7 @@ Public Properties
 | Public Property | [Name](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionsFilter~Name.html) | Gets/Sets the name that was set to this filter. |
 | Public Property | [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionsFilter~Page.html) | Overridden. Sets the [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html) that [StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)s matching the filter must be placed on. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -136,4 +136,4 @@ Public Methods
 | Public Method | [SetFilteredPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionsFilter~SetFilteredPropertyList.html) | Overloaded. Sets the [FunctionBasePropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBasePropertyList.html) that [Function](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function.html)s matching the filter must have. |
 | Public Method | [SetIdentifyingPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionsFilter~SetIdentifyingPropertyList.html) | Overloaded. Sets the [FunctionBasePropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBasePropertyList.html) that identifies the matching [Function](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function.html)s. |
 
-[Top](#top)
+

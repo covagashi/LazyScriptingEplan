@@ -9,7 +9,7 @@ Block property: Format (general devices) # 10600.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_FUNCTION( 

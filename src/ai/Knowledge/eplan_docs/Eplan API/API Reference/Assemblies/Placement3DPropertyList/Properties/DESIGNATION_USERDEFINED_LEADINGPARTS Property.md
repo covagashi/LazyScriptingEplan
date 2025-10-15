@@ -9,7 +9,7 @@ User-defined structure (leading identifiers) # 1622.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_USERDEFINED_LEADINGPARTS( 

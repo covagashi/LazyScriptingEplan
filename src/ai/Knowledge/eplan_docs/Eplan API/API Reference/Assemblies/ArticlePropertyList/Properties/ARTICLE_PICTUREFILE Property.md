@@ -9,7 +9,7 @@ Image file # 22045.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PICTUREFILE {get; set;}

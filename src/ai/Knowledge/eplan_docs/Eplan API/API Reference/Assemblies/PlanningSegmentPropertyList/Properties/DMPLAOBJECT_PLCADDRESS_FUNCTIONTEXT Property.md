@@ -9,7 +9,7 @@ PLC address: Workstation # 44047.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLCADDRESS_STATION( 

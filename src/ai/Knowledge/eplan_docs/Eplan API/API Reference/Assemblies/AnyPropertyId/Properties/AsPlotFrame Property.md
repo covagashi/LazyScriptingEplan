@@ -9,7 +9,7 @@ Gets property id value as [Properties.PlotFrame](Eplan.EplApi.DataModelu~Eplan.E
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.PlotFrame AsPlotFrame {get;}

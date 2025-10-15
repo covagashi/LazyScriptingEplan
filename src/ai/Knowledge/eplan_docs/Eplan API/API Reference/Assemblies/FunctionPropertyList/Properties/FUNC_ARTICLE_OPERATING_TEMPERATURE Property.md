@@ -9,7 +9,7 @@ Operating temperature # 26238.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_OPERATING_TEMPERATURE( 

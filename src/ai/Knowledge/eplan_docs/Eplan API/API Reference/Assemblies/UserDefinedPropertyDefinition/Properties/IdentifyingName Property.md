@@ -9,7 +9,7 @@ Identifying name of this property definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string IdentifyingName {get;}

@@ -9,7 +9,7 @@ Representation of XDtcDeviceTagCheck.Hierarchy.PlantDesignationNumbersOnly setti
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool PlantDesignationNumbersOnly {get; set;}

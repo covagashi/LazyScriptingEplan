@@ -9,7 +9,7 @@ Starting current, max. # 26190.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_STARTING_CURRENT_A {get; set;}

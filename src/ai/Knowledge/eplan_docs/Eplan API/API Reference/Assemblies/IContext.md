@@ -9,7 +9,7 @@ IContext is an abstract interface for Context classes.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public interface IContext
@@ -32,4 +32,4 @@ Public Methods
 | Method | [GetStrings](Eplan.EplApi.Baseu~Eplan.EplApi.Base.IContext~GetStrings.html) | Gets array filled with strings from the context. |
 | Method | [SetStrings](Eplan.EplApi.Baseu~Eplan.EplApi.Base.IContext~SetStrings.html) | Sets the array filled with strings from the context. (Additional to the parameters) |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Initializes the SymbolVariant object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Initialize( 

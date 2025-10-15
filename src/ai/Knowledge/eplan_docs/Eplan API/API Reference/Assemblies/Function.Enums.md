@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Function.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Function.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function+Enums~_ctor.html) |  |
 
-[Top](#top)
+

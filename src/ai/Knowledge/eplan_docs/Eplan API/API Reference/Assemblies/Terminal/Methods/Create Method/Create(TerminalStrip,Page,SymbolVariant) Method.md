@@ -9,7 +9,7 @@ Creates a Terminal object related to a [TerminalStrip](Eplan.EplApi.DataModelu~E
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

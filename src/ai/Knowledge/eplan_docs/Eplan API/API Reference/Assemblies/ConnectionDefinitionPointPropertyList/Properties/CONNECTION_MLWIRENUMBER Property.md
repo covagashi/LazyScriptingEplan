@@ -9,7 +9,7 @@ Connection: Color (multilingual) # 31061.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_MLWIRENUMBER {get; set;}

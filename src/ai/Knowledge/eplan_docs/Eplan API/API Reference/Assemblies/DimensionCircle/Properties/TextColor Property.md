@@ -31,7 +31,7 @@ Predefined values for line colour index are:
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short TextColor {get; set;}

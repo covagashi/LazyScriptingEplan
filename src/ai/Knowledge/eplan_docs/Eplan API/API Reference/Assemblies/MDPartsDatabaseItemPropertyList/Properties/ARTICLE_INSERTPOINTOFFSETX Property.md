@@ -9,7 +9,7 @@ Busbar support: Vertical offset # 22207.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_INSERTPOINTOFFSETX {get; set;}

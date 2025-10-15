@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PrjMessagesEnumerator
@@ -64,7 +64,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PrjMessagesEnumerator Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesEnumerator~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -73,7 +73,7 @@ Public Properties
 | Public Property | [Current](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesEnumerator~Current.html) | gets the current element in [Eplan::EplApi::EServices:](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesCollection.html) |
 | Public Property | [CurrentProjectMessage](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesEnumerator~CurrentProjectMessage.html) | gets the current element in [Eplan::EplApi::EServices:](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesCollection.html) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -84,4 +84,4 @@ Public Methods
 | Public Method | [Reset](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesEnumerator~Reset.html) | Sets the enumerator to its initial position, which is before the first element in [Eplan::EplApi::EServices:](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesCollection.html) |
 | Public Method | [SetProject](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesEnumerator~SetProject.html) | initializes the enumerator for iterating over the project messages collection |
 
-[Top](#top)
+

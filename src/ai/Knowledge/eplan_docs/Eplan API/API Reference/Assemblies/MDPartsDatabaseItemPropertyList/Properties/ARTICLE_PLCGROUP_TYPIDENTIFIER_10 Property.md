@@ -9,7 +9,7 @@ PLC subdevice 10: PLC type designation # 22349.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PLCGROUP_TYPIDENTIFIER_10 {get; set;}

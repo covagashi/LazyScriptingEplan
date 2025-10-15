@@ -9,7 +9,7 @@ Bundle connections of project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void BundleConnections( 

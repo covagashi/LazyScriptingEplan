@@ -9,7 +9,7 @@ Connection point pattern: Wire termination processing (Eplan Cabinet) # 36061.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_TERMINALPOSITION_CONTACTTYPE( 

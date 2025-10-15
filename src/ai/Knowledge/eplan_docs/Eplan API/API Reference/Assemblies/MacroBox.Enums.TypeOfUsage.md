@@ -9,7 +9,7 @@ Enumeration of MacroBoxUsage
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MacroBox.Enums.TypeOfUsage : System.Enum

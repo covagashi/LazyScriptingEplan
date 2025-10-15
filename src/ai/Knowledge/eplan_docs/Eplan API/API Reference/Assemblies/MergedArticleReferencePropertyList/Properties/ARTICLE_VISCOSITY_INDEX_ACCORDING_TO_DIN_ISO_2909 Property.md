@@ -9,7 +9,7 @@ Viscosity index (acc. to DIN ISO 2909) # 26629.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_VISCOSITY_INDEX_ACCORDING_TO_DIN_ISO_2909 {get; set;}

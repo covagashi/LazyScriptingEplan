@@ -9,7 +9,7 @@ Unique name that was specified when the segment definition was created.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string IdentifyingName {get;}

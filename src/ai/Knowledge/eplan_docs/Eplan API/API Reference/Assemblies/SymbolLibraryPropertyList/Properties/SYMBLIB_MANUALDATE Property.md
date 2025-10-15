@@ -9,7 +9,7 @@ Modification date (manual) # 15024.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMBLIB_MANUALDATE {get; set;}

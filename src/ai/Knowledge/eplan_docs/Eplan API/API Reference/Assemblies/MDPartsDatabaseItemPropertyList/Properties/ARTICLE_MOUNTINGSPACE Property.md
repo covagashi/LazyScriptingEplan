@@ -9,7 +9,7 @@ Space requirement # 22047.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MOUNTINGSPACE {get; set;}

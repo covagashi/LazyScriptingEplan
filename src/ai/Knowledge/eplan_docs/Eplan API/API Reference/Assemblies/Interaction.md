@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Interaction
@@ -110,7 +110,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Interaction Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Interaction~_ctor.html) | Default constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -134,7 +134,7 @@ Public Properties
 | Public Property | [StartPosition](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Interaction~StartPosition.html) | start position of Interaction. The StartPosition is needed to calculate the current position while ortho mode is active or after input of length or angle the start position is automatically set after point input and before call of OnPoint after start of an interaction StartPosition is null |
 | Public Property | [WereLogicalPlacementsChanged](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Interaction~WereLogicalPlacementsChanged.html) | Returns true, if logical placements were changed. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -179,4 +179,4 @@ Public Methods
 | Public Method | [SetSelection](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Interaction~SetSelection.html) | Changes the selection. Should only be used inside the OnSelect() method. |
 | Public Method | [SetStaticCursor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Interaction~SetStaticCursor.html) | Overloaded. Sets [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html), that will be temporary drawn as Cursor Representation. |
 
-[Top](#top)
+

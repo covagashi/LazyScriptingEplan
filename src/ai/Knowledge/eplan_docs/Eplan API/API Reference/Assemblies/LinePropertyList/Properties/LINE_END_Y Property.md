@@ -9,7 +9,7 @@ Y coordinate end point # 19313.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue LINE_END_Y {get; set;}

@@ -9,7 +9,7 @@ Power consumption, max. # 26420.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_MAX_POWER_CONSUMPTION( 

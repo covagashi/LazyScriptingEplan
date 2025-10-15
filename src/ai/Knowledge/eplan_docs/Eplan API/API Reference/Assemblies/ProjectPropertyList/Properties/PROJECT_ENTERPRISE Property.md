@@ -9,7 +9,7 @@ AutomationML: Company # 10950.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJECT_ENTERPRISE {get; set;}

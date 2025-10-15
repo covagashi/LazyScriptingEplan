@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class DimensionGroup.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [DimensionGroup.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DimensionGroup+Enums~_ctor.html) |  |
 
-[Top](#top)
+

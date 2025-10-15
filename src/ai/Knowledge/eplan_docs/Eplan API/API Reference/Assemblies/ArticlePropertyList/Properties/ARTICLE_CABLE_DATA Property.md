@@ -9,7 +9,7 @@ Cable data # 26046.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CABLE_DATA {get; set;}

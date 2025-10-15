@@ -9,7 +9,7 @@ Cable entry available # 26047.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CABLE_ENTRY_AVAILABLE {get; set;}

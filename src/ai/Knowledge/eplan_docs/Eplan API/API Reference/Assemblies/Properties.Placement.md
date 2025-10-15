@@ -9,7 +9,7 @@ Identificators of properties owned by Placement class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Placement : System.Enum

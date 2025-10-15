@@ -9,7 +9,7 @@ Identifiers of default ribbon tabs
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum RibbonTab.DefaultRibbonTabs : System.Enum

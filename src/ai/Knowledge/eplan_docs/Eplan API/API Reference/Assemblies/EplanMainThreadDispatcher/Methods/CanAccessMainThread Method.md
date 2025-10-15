@@ -9,7 +9,7 @@ Allows the user to access the main thread both synchronously and asynchronously.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool CanAccessMainThread()

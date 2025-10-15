@@ -19,4 +19,4 @@ Public Properties
 | Public Property | [Type](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAccessoryPosition~Type.html) | Returns the part type part / accessory list. It sets automatically after property Part or AccessoryList is correctly set |
 | Public Property | [Variant](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAccessoryPosition~Variant.html) | Returns the variant of the referenced part (if type is not AccessoryList). |
 
-[Top](#top)
+

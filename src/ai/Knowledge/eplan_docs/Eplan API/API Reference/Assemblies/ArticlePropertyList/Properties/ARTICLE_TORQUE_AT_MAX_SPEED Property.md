@@ -9,7 +9,7 @@ Torque (at max. rotation speed) # 26249.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TORQUE_AT_MAX_SPEED {get; set;}

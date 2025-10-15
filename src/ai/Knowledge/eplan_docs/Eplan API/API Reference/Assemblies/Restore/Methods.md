@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [MasterData](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Restore~MasterData.html) | Restore master data from archive files. |
 | Public Method | [Project](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Restore~Project.html) | Overloaded. Restore projects from archive files. |
 
-[Top](#top)
+

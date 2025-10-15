@@ -9,7 +9,7 @@ License runtime check commands to return to the license system. These values are
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum EplApplication.LicenseRuntimeCheckCommands : System.Enum

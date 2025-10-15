@@ -12,7 +12,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PlanningSegment.PLCAddress.Enums
@@ -25,4 +25,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PlanningSegment.PLCAddress.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningSegment+PLCAddress+Enums~_ctor.html) |  |
 
-[Top](#top)
+

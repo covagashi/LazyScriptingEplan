@@ -9,7 +9,7 @@ Return [Eplan.EplApi.DataModel.AnyPropertyId](Eplan.EplApi.DataModelu~Eplan.EplA
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public AnyPropertyId DisplayedProperty {get; set;}

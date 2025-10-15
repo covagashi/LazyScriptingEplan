@@ -9,7 +9,7 @@ Method for numbering device tags in a project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DeviceTags( 

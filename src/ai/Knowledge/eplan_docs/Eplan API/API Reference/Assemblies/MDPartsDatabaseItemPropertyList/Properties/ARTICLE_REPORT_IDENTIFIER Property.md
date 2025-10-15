@@ -9,7 +9,7 @@ Identifier for reports # 22214.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_REPORT_IDENTIFIER {get; set;}

@@ -9,7 +9,7 @@ Returns default MechanicalModels directory.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string MechanicalModels {get;}

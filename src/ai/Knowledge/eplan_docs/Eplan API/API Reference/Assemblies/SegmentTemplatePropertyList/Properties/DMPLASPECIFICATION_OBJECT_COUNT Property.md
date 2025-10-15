@@ -9,7 +9,7 @@ Usage count # 44057.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLASPECIFICATION_OBJECT_COUNT {get; set;}

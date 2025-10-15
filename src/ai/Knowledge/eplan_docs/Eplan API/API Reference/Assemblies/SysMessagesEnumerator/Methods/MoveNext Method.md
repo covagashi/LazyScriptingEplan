@@ -9,7 +9,7 @@ Advances the enumerator to the next element of [SysMessagesCollection](Eplan.Epl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool MoveNext()

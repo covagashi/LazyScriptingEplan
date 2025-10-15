@@ -9,7 +9,7 @@ Provides a mechanism for framework to pass information about original location o
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public interface IEplAddInShadowCopy
@@ -152,4 +152,4 @@ Public Methods
 | --- | --- | --- |
 | Method | [OnBeforeInit](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddInShadowCopy~OnBeforeInit.html) | Called by the framework before [IEplAddIn.OnInit](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddIn~OnInit.html) and passes the location from which add-in assembly has been registered. |
 
-[Top](#top)
+

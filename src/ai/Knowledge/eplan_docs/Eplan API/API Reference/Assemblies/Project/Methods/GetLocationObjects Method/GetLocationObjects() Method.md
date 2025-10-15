@@ -9,7 +9,7 @@ Returns array of all project's location objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Location[] GetLocationObjects()

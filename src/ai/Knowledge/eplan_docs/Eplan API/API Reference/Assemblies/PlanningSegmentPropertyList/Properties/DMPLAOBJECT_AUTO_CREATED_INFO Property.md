@@ -9,7 +9,7 @@ Automatically generated # 44074.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_AUTO_CREATED_INFO {get; set;}

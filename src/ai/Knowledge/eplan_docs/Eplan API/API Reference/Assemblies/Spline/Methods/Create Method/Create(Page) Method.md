@@ -9,7 +9,7 @@ Creates the Spline object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new void Create( 

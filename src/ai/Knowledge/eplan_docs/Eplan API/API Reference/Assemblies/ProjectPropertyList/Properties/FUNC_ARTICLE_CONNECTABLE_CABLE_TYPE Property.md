@@ -9,7 +9,7 @@ Connectable cable type # 31179.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_CONNECTABLE_CABLE_TYPE( 

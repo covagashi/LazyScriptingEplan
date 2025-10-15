@@ -9,7 +9,7 @@ Installation site (sub-identifier 8): Description # 1438.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBPLACEOFINSTALLATION8_DESCR {get; set;}

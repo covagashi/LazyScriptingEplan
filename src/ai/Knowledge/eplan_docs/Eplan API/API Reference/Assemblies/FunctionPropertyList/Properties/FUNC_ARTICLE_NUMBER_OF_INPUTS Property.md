@@ -9,7 +9,7 @@ Number of inputs # 26217.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_NUMBER_OF_INPUTS( 

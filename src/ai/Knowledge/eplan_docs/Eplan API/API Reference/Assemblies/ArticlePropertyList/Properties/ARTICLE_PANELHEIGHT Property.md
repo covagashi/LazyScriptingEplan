@@ -9,7 +9,7 @@ Mounting panel: Usable height # 22116.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PANELHEIGHT {get; set;}

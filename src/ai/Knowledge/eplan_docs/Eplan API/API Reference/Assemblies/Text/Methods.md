@@ -29,4 +29,4 @@ Public Methods
 | Public Method | [ToStringIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~ToStringIdentifier.html) | Returns this object as string identifier. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 | Public Method | [UndockText](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextBase~UndockText.html) | Undock text from another oner one. You can see how it works in GUI. Select element on schematic, display properties, show property placements and dock / undock them. (Inherited from [Eplan.EplApi.DataModel.Graphics.TextBase](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextBase.html)) |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ It defines the Cable property ShieldedBY
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ShieldedBy {get; set;}

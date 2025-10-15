@@ -9,7 +9,7 @@ BACnet: Protocol # 26540.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PROTOCOL_BACNET {get; set;}

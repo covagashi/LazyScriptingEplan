@@ -9,7 +9,7 @@ Returns selected mate objects
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Mate[] Mates {get;}

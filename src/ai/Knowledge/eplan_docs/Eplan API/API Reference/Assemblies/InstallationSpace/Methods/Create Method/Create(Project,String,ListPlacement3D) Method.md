@@ -9,7 +9,7 @@ Creates InstallationSpace object and sets a name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static InstallationSpace Create( 

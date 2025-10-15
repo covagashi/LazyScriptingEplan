@@ -9,7 +9,7 @@ This constructor creates local property list. Each function of UniversalProperty
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public UniversalPropertyList()

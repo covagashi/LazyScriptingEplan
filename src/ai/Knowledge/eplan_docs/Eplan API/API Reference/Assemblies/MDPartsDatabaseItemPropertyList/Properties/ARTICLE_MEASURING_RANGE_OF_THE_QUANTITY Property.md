@@ -9,7 +9,7 @@ Measuring range: Quantity # 26449.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MEASURING_RANGE_OF_THE_QUANTITY {get; set;}

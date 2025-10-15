@@ -9,7 +9,7 @@ Predefined property for accessing following project settings: EnableSyntaxCheck,
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project.DeviceTagSettings DeviceTagConfig {get;}

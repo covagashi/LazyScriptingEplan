@@ -9,7 +9,7 @@ Revision: Original project name (complete) # 10151.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_REVISIONSPARENT {get; set;}

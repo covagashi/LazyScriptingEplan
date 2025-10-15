@@ -9,7 +9,7 @@ Registers a new item type into the parts management. That item type will be show
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool RegisterItem( 

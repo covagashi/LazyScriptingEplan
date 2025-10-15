@@ -9,7 +9,7 @@ Removes all local connection templates from the cable.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DeleteAllLocalFunctionTemplates()

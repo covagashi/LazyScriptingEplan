@@ -9,7 +9,7 @@ Returns array of PropertyValue objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue[] ExistingValues {get;}

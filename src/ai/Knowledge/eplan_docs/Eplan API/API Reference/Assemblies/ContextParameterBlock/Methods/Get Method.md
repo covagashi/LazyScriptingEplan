@@ -9,7 +9,7 @@ Get one object with this name
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Get( 

@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PropertyConfiguration~Dispose().html) | Destructor for deterministic finalization of PropertyConfiguration object. |
 | Public Method | [Remove](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PropertyConfiguration~Remove.html) | Removes object from segment definition. |
 
-[Top](#top)
+

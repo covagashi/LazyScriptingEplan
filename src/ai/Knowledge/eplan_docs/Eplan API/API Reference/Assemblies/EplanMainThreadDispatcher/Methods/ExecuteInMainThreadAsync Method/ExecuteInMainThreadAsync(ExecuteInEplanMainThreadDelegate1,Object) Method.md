@@ -9,7 +9,7 @@ Execute this work in a asynchronous main thread.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ExecuteInMainThreadAsync( 

@@ -9,7 +9,7 @@ Moves object one position down in navigator.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void MoveDown( 

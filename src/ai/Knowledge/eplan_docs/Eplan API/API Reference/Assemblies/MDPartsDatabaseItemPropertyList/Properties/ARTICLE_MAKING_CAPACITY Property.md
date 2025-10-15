@@ -9,7 +9,7 @@ Rated ultimate short-circuit making capacity (Icm) # 26589.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MAKING_CAPACITY {get; set;}

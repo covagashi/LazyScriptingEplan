@@ -9,7 +9,7 @@ Gets property id value as [Properties.PlcIO](Eplan.EplApi.DataModelu~Eplan.EplAp
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.PlcIO AsPlcIO {get;}

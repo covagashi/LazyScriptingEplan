@@ -9,7 +9,7 @@ Column numbering format # 12011.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_FORMAT_OF_ROW_NUMBERS {get; set;}

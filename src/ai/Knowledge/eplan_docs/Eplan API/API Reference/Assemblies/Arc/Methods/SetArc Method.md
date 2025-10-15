@@ -9,7 +9,7 @@ Sets arc
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetArc( 

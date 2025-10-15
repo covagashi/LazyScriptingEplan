@@ -9,7 +9,7 @@ Exports drillings of a 3d objects as templates into PDF files.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool DrillingTemplatesToPDF( 

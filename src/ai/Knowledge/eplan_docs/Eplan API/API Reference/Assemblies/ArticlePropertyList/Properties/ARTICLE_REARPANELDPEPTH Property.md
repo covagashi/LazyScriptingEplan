@@ -9,7 +9,7 @@ Rear panel: Depth # 22174.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_REARPANELDPEPTH {get; set;}

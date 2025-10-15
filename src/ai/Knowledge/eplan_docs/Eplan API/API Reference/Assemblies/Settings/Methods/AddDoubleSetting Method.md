@@ -9,7 +9,7 @@ Defines a new setting for a double value.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddDoubleSetting( 

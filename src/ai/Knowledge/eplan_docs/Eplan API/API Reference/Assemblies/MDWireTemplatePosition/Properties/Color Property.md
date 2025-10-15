@@ -9,7 +9,7 @@ The color / number of the wire template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Color {get; set;}

@@ -9,7 +9,7 @@ Returns array of PLC inputs and outputs for this planning object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlanningSegment.PLCAddress[] PLCAddresses {get;}

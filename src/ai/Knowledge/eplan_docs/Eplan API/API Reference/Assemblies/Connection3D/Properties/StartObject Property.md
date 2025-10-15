@@ -9,7 +9,7 @@ Returns the first of two [Function3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataM
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function3D StartObject {get;}

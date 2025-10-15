@@ -9,7 +9,7 @@ Topology: Target of routing path # 20256.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLINGSEGMENT_DESTINATION {get; set;}

@@ -9,7 +9,7 @@ Manage bus ports at the superior device # 20620.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLC_MANAGED_BUSTERMINALS_BY_PARENT {get; set;}

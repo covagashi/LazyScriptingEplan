@@ -9,7 +9,7 @@ Returns [Eplan.EplApi.DataModel.Graphics.PropertyPlacement](Eplan.EplApi.DataMod
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual PropertyPlacement[] PropertyPlacements {get;}

@@ -9,7 +9,7 @@ Number of units / quantity (unplaced, 3D) # 20509.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_COUNT_NOTPLACED_3D {get; set;}

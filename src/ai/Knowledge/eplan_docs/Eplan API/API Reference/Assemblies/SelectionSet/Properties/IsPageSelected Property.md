@@ -9,7 +9,7 @@ Determines whether a page is selected.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsPageSelected {get;}

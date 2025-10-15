@@ -9,7 +9,7 @@ Project structure: Product # 10099.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_PRODUCT {get; set;}

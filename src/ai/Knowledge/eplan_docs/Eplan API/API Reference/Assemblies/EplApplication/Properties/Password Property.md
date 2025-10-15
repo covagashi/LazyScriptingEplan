@@ -9,7 +9,7 @@ Set user password
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Password {set;}

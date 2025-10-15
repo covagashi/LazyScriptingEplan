@@ -9,7 +9,7 @@ PLC device: TemplateIdentifier # 22338.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PLCTEMPLATEREFERENCE {get; set;}

@@ -9,7 +9,7 @@ Connection point number # 16001.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_CONNECTIONNUMBER( 

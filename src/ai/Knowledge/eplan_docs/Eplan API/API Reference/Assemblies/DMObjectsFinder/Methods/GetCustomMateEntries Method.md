@@ -9,7 +9,7 @@ Returns user defined [Eplan.EplApi.DataModel.E3D.MateEntry](Eplan.EplApi.DataMod
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MateEntry[] GetCustomMateEntries( 

@@ -9,7 +9,7 @@ Returns true, if logical placements were changed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool WereLogicalPlacementsChanged {get;}

@@ -9,7 +9,7 @@ Thermal design: Simultaneity factor (device) # 36045.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_POWERDISSIPATION_SIMULTANEITYFACTOR {get; set;}

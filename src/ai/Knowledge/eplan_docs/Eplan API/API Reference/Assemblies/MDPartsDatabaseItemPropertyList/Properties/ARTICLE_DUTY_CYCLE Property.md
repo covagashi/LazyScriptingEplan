@@ -9,7 +9,7 @@ Duty cycle # 26293.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DUTY_CYCLE {get; set;}

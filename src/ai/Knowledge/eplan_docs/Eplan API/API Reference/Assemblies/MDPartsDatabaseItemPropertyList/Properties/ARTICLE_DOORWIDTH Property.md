@@ -9,7 +9,7 @@ Door: Usable width # 22120.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DOORWIDTH {get; set;}

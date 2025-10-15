@@ -9,7 +9,7 @@ A type implementing this interface can be registered as an EPLAN interface.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public interface IInterface
@@ -22,4 +22,4 @@ Public Properties
 | --- | --- | --- |
 | Property | [InterfaceName](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IInterface~InterfaceName.html) | This name is used to register the type as an interface. |
 
-[Top](#top)
+

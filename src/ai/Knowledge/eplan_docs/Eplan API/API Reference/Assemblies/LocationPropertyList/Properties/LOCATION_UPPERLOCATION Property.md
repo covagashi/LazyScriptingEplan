@@ -9,7 +9,7 @@ Structure identifier superior # 1011.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue LOCATION_UPPERLOCATION( 

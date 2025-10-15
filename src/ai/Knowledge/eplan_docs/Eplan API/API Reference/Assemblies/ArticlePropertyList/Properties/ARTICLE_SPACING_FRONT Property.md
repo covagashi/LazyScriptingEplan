@@ -9,7 +9,7 @@ Mounting clearance Depth: Front # 22156.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SPACING_FRONT {get; set;}

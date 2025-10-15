@@ -9,7 +9,7 @@ Supplementary field 9 # 20148.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCOMMUNICATIONENTITY_SUPPLEMENTARYFIELD09( 

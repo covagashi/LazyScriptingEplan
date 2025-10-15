@@ -9,7 +9,7 @@ Initializes the MergedConnection object to cover the connections passed in the a
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

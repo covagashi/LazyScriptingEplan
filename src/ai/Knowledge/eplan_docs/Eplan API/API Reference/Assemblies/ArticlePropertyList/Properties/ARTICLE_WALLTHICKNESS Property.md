@@ -9,7 +9,7 @@ Wall thickness # 22216.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_WALLTHICKNESS {get; set;}

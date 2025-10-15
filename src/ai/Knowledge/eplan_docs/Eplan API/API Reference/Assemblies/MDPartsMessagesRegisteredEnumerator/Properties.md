@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Current](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesRegisteredEnumerator~Current.html) | Gets the current element in [Eplan::EplApi::MasterData:](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesRegisteredCollection.html) |
 
-[Top](#top)
+

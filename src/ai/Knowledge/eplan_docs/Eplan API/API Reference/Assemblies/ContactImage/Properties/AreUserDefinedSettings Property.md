@@ -9,7 +9,7 @@ If `true` P8 uses settings from property [DisplayMask](Eplan.EplApi.DataModelu~E
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AreUserDefinedSettings {get; set;}

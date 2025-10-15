@@ -9,7 +9,7 @@ Temperature (medium), max. # 26609.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TEMPERATUR_MEDIUM_MAX {get; set;}

@@ -23,4 +23,4 @@ Public Methods
 | Public Method | [TrackPotential](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ConnectionService~TrackPotential.html) | Finds all connections which are in the same circuit as `oSourceConnection` and have the same potential. |
 | Public Method | [TrackSignal](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ConnectionService~TrackSignal.html) | Finds all connections on the same scheme as `oSourceConnection` that transmit the same signal. |
 
-[Top](#top)
+

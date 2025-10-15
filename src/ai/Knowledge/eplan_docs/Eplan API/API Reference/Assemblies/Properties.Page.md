@@ -9,7 +9,7 @@ Identificators of properties owned by Page class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Page : System.Enum

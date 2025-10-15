@@ -9,7 +9,7 @@ Removes the given UserDefinedPropertyPosition from a part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveUserDefinedPropertyPosition( 

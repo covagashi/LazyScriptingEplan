@@ -9,7 +9,7 @@ Resets positions of items of a 3d macro according to one of its objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ResetPositions3D( 

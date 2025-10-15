@@ -9,7 +9,7 @@ Is called after import has been completed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool PostImport()

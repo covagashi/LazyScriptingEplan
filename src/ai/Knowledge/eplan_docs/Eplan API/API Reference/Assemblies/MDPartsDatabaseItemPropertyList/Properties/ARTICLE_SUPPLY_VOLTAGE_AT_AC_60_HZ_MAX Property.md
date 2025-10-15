@@ -9,7 +9,7 @@ Supply voltage (AC 60 Hz), max. # 26166.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SUPPLY_VOLTAGE_AT_AC_60_HZ_MAX {get; set;}

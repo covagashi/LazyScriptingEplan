@@ -9,7 +9,7 @@ Thread dimension (fitting) # 26109.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_THREAD_SIZE_FITTING {get; set;}

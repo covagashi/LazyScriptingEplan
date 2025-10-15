@@ -9,7 +9,7 @@ Layout space name # 36452.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTALLATIONSPACE_DESIGNATION {get; set;}

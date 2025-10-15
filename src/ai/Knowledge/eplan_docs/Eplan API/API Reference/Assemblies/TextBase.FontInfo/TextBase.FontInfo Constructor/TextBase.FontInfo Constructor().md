@@ -9,7 +9,7 @@ Constructor only for COMs. Do not use it.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public TextBase.FontInfo()

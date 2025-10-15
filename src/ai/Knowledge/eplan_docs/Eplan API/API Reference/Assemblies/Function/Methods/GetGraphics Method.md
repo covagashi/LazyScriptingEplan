@@ -9,7 +9,7 @@ Gets graphical representation of the Function.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement GetGraphics()

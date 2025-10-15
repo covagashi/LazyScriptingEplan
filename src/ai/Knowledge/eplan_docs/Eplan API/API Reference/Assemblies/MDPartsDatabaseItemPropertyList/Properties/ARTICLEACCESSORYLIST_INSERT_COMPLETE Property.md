@@ -9,7 +9,7 @@ Insert complete accessory list # 22987.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLEACCESSORYLIST_INSERT_COMPLETE {get; set;}

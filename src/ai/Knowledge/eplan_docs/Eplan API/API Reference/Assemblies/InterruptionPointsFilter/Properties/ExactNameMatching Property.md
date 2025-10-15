@@ -9,7 +9,7 @@ Sets if the filtered function, when is filtered by name, should be matched exact
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExactNameMatching {get; set;}

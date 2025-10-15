@@ -9,7 +9,7 @@ Returns the main data model object included in this compound.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject GetMainReleatedObject()

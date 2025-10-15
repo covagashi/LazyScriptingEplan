@@ -9,7 +9,7 @@ Holding power # 22073.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_HOLDINGPOWER {get; set;}

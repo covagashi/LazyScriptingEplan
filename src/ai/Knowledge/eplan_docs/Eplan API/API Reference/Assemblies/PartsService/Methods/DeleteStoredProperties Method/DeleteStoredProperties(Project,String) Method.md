@@ -9,7 +9,7 @@ Deletes stored properties from a project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DeleteStoredProperties( 

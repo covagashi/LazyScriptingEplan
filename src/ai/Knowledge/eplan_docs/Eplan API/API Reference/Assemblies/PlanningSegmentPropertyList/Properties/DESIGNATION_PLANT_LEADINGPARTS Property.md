@@ -9,7 +9,7 @@ Product (leading identifiers) # 1822.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_PRODUCT_LEADINGPARTS( 

@@ -9,7 +9,7 @@ Used in conversion of the PropertyValue object to `time`.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DateTime ToTime()

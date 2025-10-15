@@ -9,7 +9,7 @@ Counter target in cross-reference # 24351.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INTERRUPTIONPOINT_CROSSREFDESTINATION {get; set;}

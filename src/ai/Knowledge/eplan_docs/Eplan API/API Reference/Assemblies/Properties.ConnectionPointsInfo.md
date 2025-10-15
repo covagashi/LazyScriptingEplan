@@ -9,7 +9,7 @@ Identificators of properties owned by ConnectionPointsInfo class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.ConnectionPointsInfo : System.Enum

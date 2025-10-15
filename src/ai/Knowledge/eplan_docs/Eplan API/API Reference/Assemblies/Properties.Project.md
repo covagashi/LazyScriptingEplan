@@ -9,7 +9,7 @@ Identificators of properties owned by Project class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Project : System.Enum

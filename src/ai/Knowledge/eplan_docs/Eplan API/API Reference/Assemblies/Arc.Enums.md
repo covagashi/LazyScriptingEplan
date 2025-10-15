@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Arc.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Arc.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Arc+Enums~_ctor.html) |  |
 
-[Top](#top)
+

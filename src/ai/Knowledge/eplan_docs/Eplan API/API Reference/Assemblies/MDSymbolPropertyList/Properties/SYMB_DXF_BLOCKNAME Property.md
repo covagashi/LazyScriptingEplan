@@ -9,7 +9,7 @@ DXF export: Name of block # 16040.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_DXF_BLOCKNAME {get; set;}

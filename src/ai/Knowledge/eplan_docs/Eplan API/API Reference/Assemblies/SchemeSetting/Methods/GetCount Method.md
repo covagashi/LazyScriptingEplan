@@ -9,7 +9,7 @@ Returns the number of various schemes in this scheme.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int GetCount()

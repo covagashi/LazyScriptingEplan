@@ -9,7 +9,7 @@ License file name (\*.lis). This Property should be set before calling any Start
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 string License {get; set;}

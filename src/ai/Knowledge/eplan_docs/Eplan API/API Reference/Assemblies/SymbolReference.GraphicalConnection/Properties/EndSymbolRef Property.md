@@ -9,7 +9,7 @@ Returns the second connected symbol.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolReference EndSymbolRef {get;}

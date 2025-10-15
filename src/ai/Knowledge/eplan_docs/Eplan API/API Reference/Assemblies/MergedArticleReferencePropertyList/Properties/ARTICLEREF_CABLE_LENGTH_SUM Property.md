@@ -9,7 +9,7 @@ Total cable length # 20500.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_CABLE_LENGTH_SUM {get; set;}

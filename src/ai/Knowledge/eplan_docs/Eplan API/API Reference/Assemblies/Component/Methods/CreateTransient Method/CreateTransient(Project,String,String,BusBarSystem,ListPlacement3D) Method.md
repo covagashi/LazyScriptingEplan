@@ -9,7 +9,7 @@ Creates not placed Component object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Component CreateTransient( 

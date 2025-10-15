@@ -9,7 +9,7 @@ Cable / Conduit: Length # 20046.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLELENGTH_VALUE {get; set;}

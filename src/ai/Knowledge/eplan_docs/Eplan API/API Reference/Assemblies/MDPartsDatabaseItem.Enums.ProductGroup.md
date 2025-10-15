@@ -9,7 +9,7 @@ This are the different groups of database items that can be stored in parts data
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MDPartsDatabaseItem.Enums.ProductGroup : System.Enum

@@ -9,7 +9,7 @@ Number of pneumatic ports (exhaust) # 26073.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NUMBER_OF_PNEUMATIC_CONNECTIONS_EXHAUST {get; set;}

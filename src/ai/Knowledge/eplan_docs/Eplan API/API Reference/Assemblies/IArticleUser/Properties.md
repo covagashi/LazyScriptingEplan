@@ -13,4 +13,4 @@ Public Properties
 | Property | [ArticleReferences](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IArticleUser~ArticleReferences.html) | Returns [ArticleReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference.html)s that are referenced by IArticleUser. |
 | Property | [CanHaveArticleData](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IArticleUser~CanHaveArticleData.html) | Check if the IArticleUser can have [Article](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article.html)s. |
 
-[Top](#top)
+

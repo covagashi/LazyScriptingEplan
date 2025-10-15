@@ -9,7 +9,7 @@ Shows name of the page where differences were found.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PageName {get;}

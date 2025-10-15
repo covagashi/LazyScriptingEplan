@@ -9,7 +9,7 @@ Get if the unit needs extra parameter to get resolved. Use the project dependend
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool UnitFromParameter {get;}

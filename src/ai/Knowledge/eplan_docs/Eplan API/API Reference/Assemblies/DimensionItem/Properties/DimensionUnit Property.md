@@ -9,7 +9,7 @@ Gets or sets the unit of DimensionItem.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DimensionItem.Enums.DimensionUnit DimensionUnit {get; set;}

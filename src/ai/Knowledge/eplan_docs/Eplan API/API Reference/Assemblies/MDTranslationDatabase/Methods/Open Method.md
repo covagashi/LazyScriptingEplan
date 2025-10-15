@@ -9,7 +9,7 @@ Opens translation database using user settings.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Open( 

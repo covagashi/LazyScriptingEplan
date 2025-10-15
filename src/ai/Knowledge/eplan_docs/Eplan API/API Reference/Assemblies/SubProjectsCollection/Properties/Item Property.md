@@ -9,7 +9,7 @@ Gets the element at the specified index.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SubProject this[ 

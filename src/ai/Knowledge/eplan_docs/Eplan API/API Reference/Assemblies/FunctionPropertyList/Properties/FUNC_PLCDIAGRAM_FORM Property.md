@@ -9,7 +9,7 @@ PLC diagram form # 20187.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCDIAGRAM_FORM {get; set;}

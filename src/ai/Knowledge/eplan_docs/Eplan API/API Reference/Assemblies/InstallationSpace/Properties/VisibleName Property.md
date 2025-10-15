@@ -9,7 +9,7 @@ Returns the visible name of the Function3D.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override string VisibleName {get; set;}

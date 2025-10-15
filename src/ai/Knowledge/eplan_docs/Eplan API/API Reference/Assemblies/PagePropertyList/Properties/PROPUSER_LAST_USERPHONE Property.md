@@ -9,7 +9,7 @@ Last editor: Phone # 3012.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROPUSER_LAST_USERPHONE {get; set;}

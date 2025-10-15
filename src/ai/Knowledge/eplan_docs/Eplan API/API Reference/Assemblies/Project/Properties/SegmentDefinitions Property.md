@@ -9,7 +9,7 @@ Returns array of all [Eplan.EplApi.DataModel.Planning.SegmentDefinition](Eplan.E
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SegmentDefinition[] SegmentDefinitions {get;}

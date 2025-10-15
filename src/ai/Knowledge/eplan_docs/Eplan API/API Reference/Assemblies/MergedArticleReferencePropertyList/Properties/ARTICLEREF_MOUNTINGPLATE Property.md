@@ -9,7 +9,7 @@ Mounting panel # 20485.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_MOUNTINGPLATE {get; set;}

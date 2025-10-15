@@ -9,7 +9,7 @@ Creates DimensionItem on a given page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

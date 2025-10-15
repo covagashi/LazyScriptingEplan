@@ -9,7 +9,7 @@ Suppress in bill of materials (if filtered) # 20105.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_SUPPRESSINPARTSLIST( 

@@ -9,7 +9,7 @@ Creates not placed Duct object with default length.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

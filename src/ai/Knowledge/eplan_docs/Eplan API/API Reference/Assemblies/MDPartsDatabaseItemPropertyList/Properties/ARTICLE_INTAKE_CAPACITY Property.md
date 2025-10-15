@@ -9,7 +9,7 @@ Intake capacity # 26194.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_INTAKE_CAPACITY {get; set;}

@@ -9,7 +9,7 @@ Supply voltage (AC 50 Hz), max. # 26163.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SUPPLY_VOLTAGE_AT_AC_50_HZ_MAX {get; set;}

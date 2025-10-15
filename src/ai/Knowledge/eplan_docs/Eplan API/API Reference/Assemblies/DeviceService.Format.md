@@ -9,7 +9,7 @@ Import/Export format
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum DeviceService.Format : System.Enum

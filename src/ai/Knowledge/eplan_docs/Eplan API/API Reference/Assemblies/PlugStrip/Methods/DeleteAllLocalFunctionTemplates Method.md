@@ -9,7 +9,7 @@ Removes all local plug templates from the plug strip.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DeleteAllLocalFunctionTemplates()

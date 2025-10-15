@@ -9,7 +9,7 @@ Constructor which spans rectangle on two points.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RectangleD( 

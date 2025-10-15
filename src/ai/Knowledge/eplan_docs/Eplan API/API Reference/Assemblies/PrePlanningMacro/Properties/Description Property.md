@@ -9,7 +9,7 @@ The description for this macro file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString Description {get; set;}

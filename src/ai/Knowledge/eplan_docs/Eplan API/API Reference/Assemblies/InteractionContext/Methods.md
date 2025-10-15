@@ -22,4 +22,4 @@ Public Methods
 | Public Method | [SetEContext](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~SetEContext.html) | For internal use only. (Inherited from [Eplan.EplApi.Base.Context](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context.html)) |
 | Public Method | [SetStrings](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~SetStrings.html) | Sets the array filled with strings from the context. (Additional to the parameters) (Inherited from [Eplan.EplApi.Base.Context](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context.html)) |
 
-[Top](#top)
+

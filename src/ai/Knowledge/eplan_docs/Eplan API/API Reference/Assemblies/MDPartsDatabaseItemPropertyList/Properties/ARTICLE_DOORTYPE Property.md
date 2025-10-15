@@ -9,7 +9,7 @@ Door: Type # 22192.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DOORTYPE {get; set;}

@@ -9,7 +9,7 @@ Returns the size of the macro. When available it is the size of the macro box, o
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD Size {get;}

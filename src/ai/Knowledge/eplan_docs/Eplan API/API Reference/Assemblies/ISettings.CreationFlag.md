@@ -9,7 +9,7 @@ Creation flag
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ISettings.CreationFlag : System.Enum

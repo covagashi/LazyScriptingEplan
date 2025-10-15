@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PlanningObject.MacroPlaceHolderValueSetsClass.MacroPlaceHolderValueSetsEnumerator
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PlanningObject.MacroPlaceHolderValueSetsClass.MacroPlaceHolderValueSetsEnumerator Constructor](topic748.html) | Constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,7 +36,7 @@ Public Properties
 | Public Property | [Current](topic753.html) | Returns the current MacroPlaceholderValueSet. |
 | Public Property | [Current2](topic754.html) | Returns the current MacroPlaceholderValueSet. The same as Current. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -46,4 +46,4 @@ Public Methods
 | Public Method | [MoveNext](topic750.html) | Moves to the next element in the collection. |
 | Public Method | [Reset](topic751.html) | Starts and goes to the first element in the collection. |
 
-[Top](#top)
+

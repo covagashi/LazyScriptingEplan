@@ -9,7 +9,7 @@ Plot frame dimensions: X axis # 12033.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_AREA_X {get; set;}

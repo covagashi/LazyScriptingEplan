@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PlcService.ReadressingConfig
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PlcService.ReadressingConfig Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PlcService+ReadressingConfig~_ctor.html) | Default constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -43,7 +43,7 @@ Public Properties
 | Public Property | [SortModeIndex](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PlcService+ReadressingConfig~SortModeIndex.html) | Gets/Sets a sort mode that should be used during re-addressing. Should be in range from 0 (default) to the value returned by SortModesCount property -1. |
 | Public Property | [Station](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PlcService+ReadressingConfig~Station.html) | Gets/Sets ... |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -51,4 +51,4 @@ Public Methods
 | --- | --- | --- |
 | Public Methodstatic (Shared in Visual Basic) | [GetSortModesCount](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PlcService+ReadressingConfig~GetSortModesCount.html) | Returns a number of valid sort modes. |
 
-[Top](#top)
+

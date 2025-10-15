@@ -9,7 +9,7 @@ The name of the referenced construction.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get; set;}

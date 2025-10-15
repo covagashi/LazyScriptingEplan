@@ -9,7 +9,7 @@ Check if the Function can have [Article](Eplan.EplApi.DataModelu~Eplan.EplApi.Da
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool CanHaveArticleData {get;}

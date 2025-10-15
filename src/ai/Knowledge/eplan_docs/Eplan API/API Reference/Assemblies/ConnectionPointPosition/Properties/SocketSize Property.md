@@ -9,7 +9,7 @@ The socket size is the dimension of a socket (the tip)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SocketSize {get; set;}

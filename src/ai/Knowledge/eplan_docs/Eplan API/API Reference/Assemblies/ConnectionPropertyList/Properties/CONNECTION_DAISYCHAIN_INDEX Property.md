@@ -9,7 +9,7 @@ Daisy chain index # 31077.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_DAISYCHAIN_INDEX {get; set;}

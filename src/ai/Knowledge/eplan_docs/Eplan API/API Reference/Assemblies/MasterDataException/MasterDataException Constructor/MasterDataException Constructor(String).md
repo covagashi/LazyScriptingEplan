@@ -9,7 +9,7 @@ Constructor with description.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MasterDataException( 

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Mate.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Mate.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate+Enums~_ctor.html) |  |
 
-[Top](#top)
+

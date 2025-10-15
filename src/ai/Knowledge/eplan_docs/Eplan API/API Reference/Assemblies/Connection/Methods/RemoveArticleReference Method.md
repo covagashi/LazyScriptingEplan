@@ -9,7 +9,7 @@ Removes the ArticleReference from the Connecttion
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void RemoveArticleReference( 

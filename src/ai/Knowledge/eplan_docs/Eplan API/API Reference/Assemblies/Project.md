@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Project : StorableObject, IArticleUser
@@ -33,7 +33,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Project Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project~_ctor().html) | Default constructor. Should never be used. Always throws NotImplementedException. It was designed only for COM compatibility. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -80,7 +80,7 @@ Public Properties
 | Public Property | [TypeOfProject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project~TypeOfProject.html) | Type of project To change this property project will be reopened temporarily in exclusive mode. If project cannot be reopened in exclusive mode BaseException will be thrown. |
 | Public Property | [UserDefinedPropertyDefinitions](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project~UserDefinedPropertyDefinitions.html) | Returns array of all [UserDefinedPropertyDefinition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UserDefinedPropertyDefinition.html) from this project. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -114,4 +114,4 @@ Public Methods
 | Public Method | [ToString](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project~ToString.html) | Returns a string that represents the current object. |
 | Public Method | [ToStringIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~ToStringIdentifier.html) | Returns this object as string identifier. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 
-[Top](#top)
+

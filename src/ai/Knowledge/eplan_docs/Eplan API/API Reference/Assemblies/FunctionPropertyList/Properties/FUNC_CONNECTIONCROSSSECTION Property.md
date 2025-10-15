@@ -9,7 +9,7 @@ Connection point cross-section # 20057.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CONNECTIONCROSSSECTION {get; set;}

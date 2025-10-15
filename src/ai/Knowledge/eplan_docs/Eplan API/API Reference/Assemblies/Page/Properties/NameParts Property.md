@@ -9,7 +9,7 @@ Gets/Sets the name of a page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PagePropertyList NameParts {get; set;}

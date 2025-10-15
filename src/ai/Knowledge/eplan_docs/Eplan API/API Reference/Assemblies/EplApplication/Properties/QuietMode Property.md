@@ -9,7 +9,7 @@ Quiet mode in which Eplan P8 has been started.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EplApplication.QuietModes QuietMode {get; set;}

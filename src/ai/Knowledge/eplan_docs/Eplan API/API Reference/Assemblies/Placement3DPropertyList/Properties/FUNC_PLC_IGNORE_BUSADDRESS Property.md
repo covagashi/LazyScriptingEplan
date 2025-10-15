@@ -9,7 +9,7 @@ Ignore missing bus ID # 20412.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLC_IGNORE_BUSADDRESS {get; set;}

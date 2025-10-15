@@ -9,7 +9,7 @@ Shielded by # 31049.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue CONNECTION_CABLEWIRE_SHIELDEDBY {get; set;}

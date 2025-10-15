@@ -17,4 +17,4 @@ Public Properties
 | Public Property | [Y](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDDoorPosition~Y.html) | Returns the Y position of the referenced door. |
 | Public Property | [Z](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDDoorPosition~Z.html) | Returns the Z position of the referenced door. |
 
-[Top](#top)
+

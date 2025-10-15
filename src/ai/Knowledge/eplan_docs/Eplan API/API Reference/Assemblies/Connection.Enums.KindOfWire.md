@@ -9,7 +9,7 @@ Kind of wire
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Connection.Enums.KindOfWire : System.Enum

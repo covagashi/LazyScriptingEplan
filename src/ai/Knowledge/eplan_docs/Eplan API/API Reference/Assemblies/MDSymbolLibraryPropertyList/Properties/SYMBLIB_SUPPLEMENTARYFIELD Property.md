@@ -9,7 +9,7 @@ Supplementary field # 15901.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMBLIB_SUPPLEMENTARYFIELD( 

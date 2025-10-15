@@ -9,7 +9,7 @@ Returns lower left back absolute coordinate
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D LowerLeftBackAbsolute {get;}

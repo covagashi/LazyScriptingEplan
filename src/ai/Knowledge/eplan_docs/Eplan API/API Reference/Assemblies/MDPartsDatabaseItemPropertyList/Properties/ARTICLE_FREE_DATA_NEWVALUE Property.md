@@ -9,7 +9,7 @@ User-defined properties: Value # 22337.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_FREE_DATA_NEWVALUE( 

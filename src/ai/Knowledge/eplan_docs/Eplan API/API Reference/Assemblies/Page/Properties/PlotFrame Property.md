@@ -9,7 +9,7 @@ Returns the page PlotFrame.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlotFrame PlotFrame {get;}

@@ -9,7 +9,7 @@ Export all untranslatable words from article database to file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ExportUntranslatableWords( 

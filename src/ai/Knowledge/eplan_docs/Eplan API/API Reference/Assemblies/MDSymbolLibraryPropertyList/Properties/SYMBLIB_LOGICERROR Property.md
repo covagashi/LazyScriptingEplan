@@ -9,7 +9,7 @@ Error: Connection point logic # 15104.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMBLIB_LOGICERROR( 

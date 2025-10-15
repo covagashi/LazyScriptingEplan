@@ -9,7 +9,7 @@ Gets property id value as [Properties.MergedArticleReference](Eplan.EplApi.DataM
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.MergedArticleReference AsMergedArticleReference {get;}

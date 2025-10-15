@@ -9,7 +9,7 @@ Cable / Conduit: Screw connection size # 20080.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_SCREWCONNECTIONSIZE {get; set;}

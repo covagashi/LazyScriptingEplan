@@ -9,7 +9,7 @@ Returns an array of all property ids which can exist for OptionBase objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static AnyPropertyId[] AllOptionBasePropIDs {get;}

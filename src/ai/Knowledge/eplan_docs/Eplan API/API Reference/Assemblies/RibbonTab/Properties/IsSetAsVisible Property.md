@@ -9,7 +9,7 @@ Set/Get availability of ribbon tab (checked or unchecked) in ribbon bar
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsSetAsVisible {get; set;}

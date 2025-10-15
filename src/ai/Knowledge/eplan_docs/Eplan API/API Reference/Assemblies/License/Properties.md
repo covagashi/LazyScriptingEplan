@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [DongleNumber](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.License~DongleNumber.html) | Get the dongle number |
 | Public Property | [Type](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.License~Type.html) | Gets license type: local, remote (network) or borrowed. |
 
-[Top](#top)
+

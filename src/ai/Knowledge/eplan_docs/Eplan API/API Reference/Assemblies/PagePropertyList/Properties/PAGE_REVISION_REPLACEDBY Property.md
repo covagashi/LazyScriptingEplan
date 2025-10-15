@@ -9,7 +9,7 @@ Replaced by # 11086.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_REVISION_REPLACEDBY {get; set;}

@@ -9,7 +9,7 @@ Activate or deactivate article time stamp handling.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ArticleTimeStampActive {set;}

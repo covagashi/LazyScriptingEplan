@@ -9,7 +9,7 @@ Number of objects in the block.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Count {get;}

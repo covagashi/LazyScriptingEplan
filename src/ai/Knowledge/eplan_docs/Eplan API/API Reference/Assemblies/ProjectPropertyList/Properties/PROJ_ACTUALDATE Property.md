@@ -9,7 +9,7 @@ Date # 10027.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ACTUALDATE {get; set;}

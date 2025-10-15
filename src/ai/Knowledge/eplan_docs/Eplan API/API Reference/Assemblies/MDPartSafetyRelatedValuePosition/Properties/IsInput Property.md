@@ -9,7 +9,7 @@ Is the function range "Input (Range)" selected (yes/no)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsInput {get; set;}

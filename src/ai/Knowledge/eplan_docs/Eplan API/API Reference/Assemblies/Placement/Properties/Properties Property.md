@@ -9,7 +9,7 @@ Exposes P8 properties.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new PlacementPropertyList Properties {get;}

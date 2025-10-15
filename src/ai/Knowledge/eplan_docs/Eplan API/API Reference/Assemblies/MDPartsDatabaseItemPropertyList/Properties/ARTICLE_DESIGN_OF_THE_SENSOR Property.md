@@ -9,7 +9,7 @@ Type of construction: Sensor # 26029.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DESIGN_OF_THE_SENSOR {get; set;}

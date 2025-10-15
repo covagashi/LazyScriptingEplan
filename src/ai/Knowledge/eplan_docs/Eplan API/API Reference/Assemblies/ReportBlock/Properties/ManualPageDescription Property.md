@@ -9,7 +9,7 @@ Text used for describing page, if automatic page description if switched off.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString ManualPageDescription {get; set;}

@@ -9,7 +9,7 @@ Gets whether is Sector.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Sector {get; set;}

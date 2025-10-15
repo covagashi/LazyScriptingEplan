@@ -9,7 +9,7 @@ Macro: Source / reference # 23003.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROBOX_MACRO_SOURCE {get; set;}

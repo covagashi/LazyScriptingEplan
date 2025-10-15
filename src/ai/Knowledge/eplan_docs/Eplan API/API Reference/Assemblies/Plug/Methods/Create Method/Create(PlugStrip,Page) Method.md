@@ -15,7 +15,7 @@ Creates a Plug object related to a [PlugStrip](Eplan.EplApi.DataModelu~Eplan.Epl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

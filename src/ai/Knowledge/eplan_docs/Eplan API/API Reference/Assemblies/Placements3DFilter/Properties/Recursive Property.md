@@ -9,7 +9,7 @@ Gets a value indicating whether [DMObjectsFinder](Eplan.EplApi.DataModelu~Eplan.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Recursive {get; set;}

@@ -9,7 +9,7 @@ Removes object from segment definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Remove()

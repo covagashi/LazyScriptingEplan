@@ -9,7 +9,7 @@ PCF: Calculation method # 26524.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PCF_CALCULATION_METHOD {get; set;}

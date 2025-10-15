@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [GetChecked](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action~GetChecked.html) | Returns 'checked' state of an action |
 | Public Method | [GetEnabled](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action~GetEnabled.html) | Returns whether an action is enabled |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Suppress generation of the enclosure legend # 20441.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_MOUNTINGPLATE_FORMEVALUATION {get; set;}

@@ -9,7 +9,7 @@ Maintenance cycle # 26637.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MAINTENANCE_CYCLE {get; set;}

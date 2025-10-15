@@ -9,7 +9,7 @@ PLC subdevice 1: PLC type designation # 22365.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PLCGROUP_TYPIDENTIFIER_1 {get; set;}

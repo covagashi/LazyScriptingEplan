@@ -9,7 +9,7 @@ X coordinate of the center # 19321.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_ARC_CENTER_X {get; set;}

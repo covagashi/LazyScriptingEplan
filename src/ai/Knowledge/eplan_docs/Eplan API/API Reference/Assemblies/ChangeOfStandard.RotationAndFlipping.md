@@ -9,7 +9,7 @@ Rotation and flipping
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ChangeOfStandard.RotationAndFlipping : System.Enum

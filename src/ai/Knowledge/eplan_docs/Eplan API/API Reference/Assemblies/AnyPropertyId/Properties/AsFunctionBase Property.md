@@ -9,7 +9,7 @@ Gets property id value as [Properties.FunctionBase](Eplan.EplApi.DataModelu~Epla
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.FunctionBase AsFunctionBase {get;}

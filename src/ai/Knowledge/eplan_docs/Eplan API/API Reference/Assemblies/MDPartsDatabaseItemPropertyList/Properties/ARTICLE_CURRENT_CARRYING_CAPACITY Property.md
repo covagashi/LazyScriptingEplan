@@ -9,7 +9,7 @@ Current carrying capacity # 26153.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CURRENT_CARRYING_CAPACITY {get; set;}

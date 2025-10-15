@@ -9,7 +9,7 @@ The UnitGroup Property. When first UnitID is set,the group is automatically defi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public UnitGroup Group {get; set;}

@@ -9,7 +9,7 @@ Used in conversion of the PropertyValue object to `bool`.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ToBool()

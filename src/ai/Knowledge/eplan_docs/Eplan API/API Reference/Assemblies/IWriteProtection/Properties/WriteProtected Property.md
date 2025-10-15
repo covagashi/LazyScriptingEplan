@@ -9,7 +9,7 @@ Checks if an object is currently write protected or sets manual write protection
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool WriteProtected {get; set;}

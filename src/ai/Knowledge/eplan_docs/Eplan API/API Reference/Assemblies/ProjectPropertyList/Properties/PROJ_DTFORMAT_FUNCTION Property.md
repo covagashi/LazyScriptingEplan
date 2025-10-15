@@ -9,7 +9,7 @@ Format of displayed DT: General devices # 10620.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DTFORMAT_FUNCTION {get; set;}

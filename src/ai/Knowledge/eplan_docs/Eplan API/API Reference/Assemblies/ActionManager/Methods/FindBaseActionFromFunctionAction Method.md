@@ -9,7 +9,7 @@ This function searches the base action for an existing action in scripting. the 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Action FindBaseActionFromFunctionAction( 

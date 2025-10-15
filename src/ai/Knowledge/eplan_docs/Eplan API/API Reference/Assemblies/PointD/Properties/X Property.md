@@ -9,7 +9,7 @@ X coordinate
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double X {get; set;}

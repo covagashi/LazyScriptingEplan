@@ -9,7 +9,7 @@ Default target mate for this Plane.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlaneMate BaseMate {get;}

@@ -9,7 +9,7 @@ Returns commands of a ribbon tab
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Dictionary<uint,string> GetCommands( 

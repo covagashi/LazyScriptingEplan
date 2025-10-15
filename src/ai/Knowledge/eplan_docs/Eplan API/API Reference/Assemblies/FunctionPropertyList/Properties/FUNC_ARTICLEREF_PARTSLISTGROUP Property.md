@@ -9,7 +9,7 @@ Bill of materials group # 20924.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLEREF_PARTSLISTGROUP( 

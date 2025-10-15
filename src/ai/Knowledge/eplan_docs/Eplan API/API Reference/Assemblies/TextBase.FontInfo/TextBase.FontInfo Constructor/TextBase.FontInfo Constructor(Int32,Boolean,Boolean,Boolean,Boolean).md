@@ -9,7 +9,7 @@ Constructor which creates new Font object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public TextBase.FontInfo( 

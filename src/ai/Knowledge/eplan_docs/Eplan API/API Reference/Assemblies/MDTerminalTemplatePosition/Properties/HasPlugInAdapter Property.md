@@ -9,7 +9,7 @@ Does terminal template have a plug adapter?
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool HasPlugInAdapter {get; set;}

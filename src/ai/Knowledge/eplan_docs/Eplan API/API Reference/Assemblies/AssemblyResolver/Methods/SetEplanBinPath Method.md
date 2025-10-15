@@ -9,7 +9,7 @@ Set the EPLAN product variant bin path. Note: This path exists only once. Changi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetEplanBinPath( 

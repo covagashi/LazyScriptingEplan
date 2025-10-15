@@ -9,7 +9,7 @@ Terminal: Color # 26039.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CLAMP_COLOUR {get; set;}

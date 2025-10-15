@@ -9,7 +9,7 @@ Bottom
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Bottom {get;}

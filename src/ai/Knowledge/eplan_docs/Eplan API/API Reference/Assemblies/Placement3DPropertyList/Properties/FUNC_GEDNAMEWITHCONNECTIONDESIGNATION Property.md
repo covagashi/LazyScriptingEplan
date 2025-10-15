@@ -9,7 +9,7 @@ Connection point designation (with displayed DT) # 20036.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_GEDNAMEWITHCONNECTIONDESIGNATION {get; set;}

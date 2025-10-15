@@ -9,7 +9,7 @@ Creates unplaced bended bus bar object with given bending radius and form.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static BusBar Create( 

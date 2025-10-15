@@ -9,7 +9,7 @@ Project's property which gives information if the project is opened or is not.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsOpen {get;}

@@ -9,7 +9,7 @@ DT (subordinate): Row # 20173.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DT2_ROW {get; set;}

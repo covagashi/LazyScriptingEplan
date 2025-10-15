@@ -9,7 +9,7 @@ Subslot # 20312.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLC_SUBSLOT {get; set;}

@@ -9,7 +9,7 @@ Returns the language code as a string.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetString( 

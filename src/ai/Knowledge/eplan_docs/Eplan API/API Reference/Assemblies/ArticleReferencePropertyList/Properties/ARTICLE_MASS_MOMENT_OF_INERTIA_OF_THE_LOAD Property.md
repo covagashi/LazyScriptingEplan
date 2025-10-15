@@ -9,7 +9,7 @@ Mass moment of inertia of the load # 26443.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MASS_MOMENT_OF_INERTIA_OF_THE_LOAD {get; set;}

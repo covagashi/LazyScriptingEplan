@@ -9,7 +9,7 @@ Display of all counter targets # 24021.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INTERRUPTIONPOINT_SHOWALLCROSSREFERENCEDESTINATIONS {get; set;}

@@ -9,7 +9,7 @@ Supply voltage (DC), min. # 26170.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SUPPLY_VOLTAGE_FOR_DC_MIN {get; set;}

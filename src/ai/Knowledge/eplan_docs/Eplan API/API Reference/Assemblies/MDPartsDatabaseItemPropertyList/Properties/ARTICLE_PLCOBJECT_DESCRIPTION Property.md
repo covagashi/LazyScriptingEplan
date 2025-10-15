@@ -9,7 +9,7 @@ Object description # 22038.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PLCOBJECT_DESCRIPTION {get; set;}

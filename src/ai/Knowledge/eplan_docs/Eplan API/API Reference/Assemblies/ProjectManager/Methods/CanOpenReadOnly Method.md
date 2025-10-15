@@ -9,7 +9,7 @@ Checks if project can be opened for read-only access without data upgrade.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CanOpenReadOnly( 

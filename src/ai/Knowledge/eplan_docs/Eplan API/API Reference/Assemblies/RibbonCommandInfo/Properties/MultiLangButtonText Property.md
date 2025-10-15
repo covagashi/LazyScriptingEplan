@@ -9,7 +9,7 @@ Property to get or set button text, multilanguage. If set it is used instead of 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString MultiLangButtonText {get; set;}

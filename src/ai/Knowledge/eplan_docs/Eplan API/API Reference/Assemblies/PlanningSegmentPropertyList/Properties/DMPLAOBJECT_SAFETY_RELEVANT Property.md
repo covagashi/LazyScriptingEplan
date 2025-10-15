@@ -9,7 +9,7 @@ Relevant to safety # 44060.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_SAFETY_RELEVANT {get; set;}

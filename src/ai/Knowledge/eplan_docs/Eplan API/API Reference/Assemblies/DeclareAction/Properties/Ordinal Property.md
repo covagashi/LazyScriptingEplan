@@ -9,7 +9,7 @@ Overload level of the action.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Ordinal {get;}

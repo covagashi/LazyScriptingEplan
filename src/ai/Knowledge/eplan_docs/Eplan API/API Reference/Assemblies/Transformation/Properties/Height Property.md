@@ -9,7 +9,7 @@ Get height of imported element
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Height {get;}

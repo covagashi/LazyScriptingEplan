@@ -9,7 +9,7 @@ Gets/Sets the precision of the dimension circle.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DimensionCircle.Enums.DimensionPrecision DimensionPrecision {get; set;}

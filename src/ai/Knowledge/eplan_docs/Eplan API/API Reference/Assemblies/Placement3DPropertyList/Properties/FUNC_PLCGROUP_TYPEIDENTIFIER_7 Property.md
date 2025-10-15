@@ -9,7 +9,7 @@ PLC subdevice 7: PLC type designation # 20587.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_TYPEIDENTIFIER_7 {get; set;}

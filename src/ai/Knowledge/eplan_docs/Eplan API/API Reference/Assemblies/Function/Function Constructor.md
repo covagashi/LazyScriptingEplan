@@ -9,7 +9,7 @@ Constructor. Creates a transient Function.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function()

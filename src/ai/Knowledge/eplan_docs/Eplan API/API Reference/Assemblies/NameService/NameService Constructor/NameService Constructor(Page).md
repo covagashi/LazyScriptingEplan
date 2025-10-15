@@ -9,7 +9,7 @@ Constructor. Creates a NameService and call `set_Page` method.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public NameService( 

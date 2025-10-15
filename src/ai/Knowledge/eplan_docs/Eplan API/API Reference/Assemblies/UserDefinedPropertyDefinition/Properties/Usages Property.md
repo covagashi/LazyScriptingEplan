@@ -9,7 +9,7 @@ Usages of this property definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public UserDefinedPropertyDefinition.Enums.ClientType[] Usages {get;}

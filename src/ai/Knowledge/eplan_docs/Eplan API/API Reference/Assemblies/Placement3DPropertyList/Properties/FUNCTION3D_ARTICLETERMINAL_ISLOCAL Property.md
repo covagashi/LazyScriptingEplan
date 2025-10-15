@@ -9,7 +9,7 @@ Local connection point pattern # 36005.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_ARTICLETERMINAL_ISLOCAL {get; set;}

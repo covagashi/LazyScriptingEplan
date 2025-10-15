@@ -9,7 +9,7 @@ Block property: Format (terminal) # 10602.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_TERMINAL( 

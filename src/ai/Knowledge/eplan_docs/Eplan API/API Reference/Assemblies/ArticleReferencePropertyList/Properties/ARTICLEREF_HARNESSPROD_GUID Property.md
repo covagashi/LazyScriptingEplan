@@ -9,7 +9,7 @@ Harness proD GUID # 40347.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_HARNESSPROD_GUID {get; set;}

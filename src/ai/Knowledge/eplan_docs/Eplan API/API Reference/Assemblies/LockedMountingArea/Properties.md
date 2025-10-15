@@ -41,4 +41,4 @@ Public Properties
 | Public Property | [UpperRightCorner](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Rectangle~UpperRightCorner.html) | Returns upper right corner's coordinates. (Inherited from [Eplan.EplApi.DataModel.Graphics.Rectangle](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Rectangle.html)) |
 | Public Property | [Width](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Rectangle~Width.html) | Returns width of the rectangle. (Inherited from [Eplan.EplApi.DataModel.Graphics.Rectangle](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Rectangle.html)) |
 
-[Top](#top)
+

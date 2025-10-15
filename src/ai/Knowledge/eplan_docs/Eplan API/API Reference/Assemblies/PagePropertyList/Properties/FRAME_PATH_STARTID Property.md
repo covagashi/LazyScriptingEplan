@@ -9,7 +9,7 @@ Start value (column) # 12025.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_PATH_STARTID {get; set;}

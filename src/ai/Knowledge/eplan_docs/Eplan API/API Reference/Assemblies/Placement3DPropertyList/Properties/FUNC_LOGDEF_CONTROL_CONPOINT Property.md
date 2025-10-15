@@ -9,7 +9,7 @@ Connection point logic: Pressure / control port # 20369.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_LOGDEF_CONTROL_CONPOINT( 

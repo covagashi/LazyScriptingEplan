@@ -9,7 +9,7 @@ Returns an array of transient object (of Connection or Function type) that repre
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] FunctionTemplates {get;}

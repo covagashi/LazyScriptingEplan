@@ -9,7 +9,7 @@ Continuous connection between the connection points # 20331.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DISTRIBUTOR_CONNECTED_CONNPOINTS {get; set;}

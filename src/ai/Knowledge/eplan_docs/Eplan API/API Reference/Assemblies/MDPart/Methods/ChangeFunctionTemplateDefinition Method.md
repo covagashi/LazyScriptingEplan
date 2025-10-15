@@ -9,7 +9,7 @@ Changes function definition of a function template position
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ChangeFunctionTemplateDefinition( 

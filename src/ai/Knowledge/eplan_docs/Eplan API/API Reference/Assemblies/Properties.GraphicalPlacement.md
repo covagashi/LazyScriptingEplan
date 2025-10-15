@@ -9,7 +9,7 @@ Identificators of properties owned by GraphicalPlacement class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.GraphicalPlacement : System.Enum

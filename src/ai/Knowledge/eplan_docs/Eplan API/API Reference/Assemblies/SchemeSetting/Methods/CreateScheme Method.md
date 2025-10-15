@@ -9,7 +9,7 @@ Create a new scheme with a specified name, description and the node name for the
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateScheme( 

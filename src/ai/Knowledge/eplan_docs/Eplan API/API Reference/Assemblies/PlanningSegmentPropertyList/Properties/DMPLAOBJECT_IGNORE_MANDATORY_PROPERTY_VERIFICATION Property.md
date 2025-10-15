@@ -9,7 +9,7 @@ Linked segments: Name # 44063.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_LINK_CHILD_NAME( 

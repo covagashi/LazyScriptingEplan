@@ -9,7 +9,7 @@ Returns array of project's location objects for given hierarchy type (PLANT, LOC
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Location[] GetLocationObjects( 

@@ -9,7 +9,7 @@ Location designation: Main identifier (automatic) # 31104.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_LOCATION_AUTOMATIC {get; set;}

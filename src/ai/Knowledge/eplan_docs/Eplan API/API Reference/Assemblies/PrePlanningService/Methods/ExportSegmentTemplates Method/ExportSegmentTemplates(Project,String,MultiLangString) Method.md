@@ -9,7 +9,7 @@ Exports all segment templates from project to file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExportSegmentTemplates( 

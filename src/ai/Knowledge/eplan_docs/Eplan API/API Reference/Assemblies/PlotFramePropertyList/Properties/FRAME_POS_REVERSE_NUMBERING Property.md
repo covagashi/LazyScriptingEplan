@@ -9,7 +9,7 @@ Inverse row numbering # 12036.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_POS_REVERSE_NUMBERING {get; set;}

@@ -9,7 +9,7 @@ Type of construction: Device # 26364.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_UNIT_DESIGN {get; set;}

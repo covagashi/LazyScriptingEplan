@@ -9,7 +9,7 @@ Format of displayed DT: Busbar # 10632.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DTFORMAT_BUSBAR {get; set;}

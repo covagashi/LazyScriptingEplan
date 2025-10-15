@@ -9,7 +9,7 @@ License type: local, network (remote) or borrowed
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum LicenseType : System.Enum

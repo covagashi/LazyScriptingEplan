@@ -9,7 +9,7 @@ Closes the library. Note: Should be used only if this object was initialized wit
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Close()

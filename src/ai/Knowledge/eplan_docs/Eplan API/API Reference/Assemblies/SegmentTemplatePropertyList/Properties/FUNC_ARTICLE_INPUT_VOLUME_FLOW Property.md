@@ -9,7 +9,7 @@ Inrush current # 26296.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_INRUSH_CURRENT( 

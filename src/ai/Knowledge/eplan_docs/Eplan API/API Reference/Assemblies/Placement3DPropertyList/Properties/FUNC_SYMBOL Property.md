@@ -9,7 +9,7 @@ Symbol # 20575.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_SYMBOL {get; set;}

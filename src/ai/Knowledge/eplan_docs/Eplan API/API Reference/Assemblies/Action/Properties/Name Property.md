@@ -9,7 +9,7 @@ Name used to identify this action in the system.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get;}

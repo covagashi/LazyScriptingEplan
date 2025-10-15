@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class RibbonTab
@@ -34,7 +34,7 @@ Public Properties
 | Public Property | [IsVisible](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonTab~IsVisible.html) | Returns whether ribbon tab is visible |
 | Public Property | [Name](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonTab~Name.html) | Returns name of a ribbon tab |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -47,4 +47,4 @@ Public Methods
 | Public Method | [Remove](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonTab~Remove.html) | Removes ribbon tab |
 | Public Method | [Validate](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonTab~Validate.html) | Checks the validation of the ribbon tab |
 
-[Top](#top)
+

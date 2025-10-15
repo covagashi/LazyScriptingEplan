@@ -9,7 +9,7 @@ Connection point designations (all) # 20038.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNC_ALLCONNECTIONDESIGNATIONS {get; set;}

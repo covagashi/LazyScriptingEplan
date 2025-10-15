@@ -9,7 +9,7 @@ Symbol description # 16011.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMB_DESC {get; set;}

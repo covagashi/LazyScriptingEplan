@@ -9,7 +9,7 @@ Returns the maximum value of a property specified in the property definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue UpperBound {get;}

@@ -9,7 +9,7 @@ This function imports devices into a given project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] ImportDevices( 

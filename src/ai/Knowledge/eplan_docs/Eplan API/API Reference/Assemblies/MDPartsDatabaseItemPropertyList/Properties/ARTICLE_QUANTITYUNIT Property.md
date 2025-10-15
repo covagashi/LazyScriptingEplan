@@ -9,7 +9,7 @@ Quantity unit # 22042.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_QUANTITYUNIT {get; set;}

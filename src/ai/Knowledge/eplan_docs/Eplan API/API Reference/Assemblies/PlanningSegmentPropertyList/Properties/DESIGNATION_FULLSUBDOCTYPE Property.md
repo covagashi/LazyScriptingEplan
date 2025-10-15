@@ -9,7 +9,7 @@ Document type (sub-identifier, complete) # 1521.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLSUBDOCTYPE {get; set;}

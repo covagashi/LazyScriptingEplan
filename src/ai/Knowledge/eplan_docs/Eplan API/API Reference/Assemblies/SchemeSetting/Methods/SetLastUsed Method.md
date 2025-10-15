@@ -9,7 +9,7 @@ Sets the strName scheme as the current one. Value in node LastUsed will be strNa
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetLastUsed( 

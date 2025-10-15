@@ -13,7 +13,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [CLSCompliant(false)]

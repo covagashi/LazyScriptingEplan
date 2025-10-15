@@ -9,7 +9,7 @@ Returns all Eplan.EplApi.DataModel.Placements, with no parent.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement[] TopLevelObjects {get;}

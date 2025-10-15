@@ -9,7 +9,7 @@ Start address value to use for analog addresses. If empty, a default value will 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string AnalogStartAddress {get; set;}

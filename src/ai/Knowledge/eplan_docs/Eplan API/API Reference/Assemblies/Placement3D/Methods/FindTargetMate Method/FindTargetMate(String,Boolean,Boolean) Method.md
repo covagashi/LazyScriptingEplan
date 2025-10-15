@@ -9,7 +9,7 @@ Find target mate by name. Mate nameConsider mounting clearanceConsider child mou
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Mate FindTargetMate( 

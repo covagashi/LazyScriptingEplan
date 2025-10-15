@@ -9,7 +9,7 @@ Mounting panel: Usable width # 22117.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PANELWIDTH {get; set;}

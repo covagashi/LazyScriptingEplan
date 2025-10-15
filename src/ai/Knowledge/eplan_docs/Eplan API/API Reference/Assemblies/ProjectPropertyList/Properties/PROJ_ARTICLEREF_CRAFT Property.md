@@ -9,7 +9,7 @@ Trade of part reference # 20913.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ARTICLEREF_CRAFT( 

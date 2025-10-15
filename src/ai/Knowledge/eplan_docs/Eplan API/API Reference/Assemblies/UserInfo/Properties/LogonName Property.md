@@ -9,7 +9,7 @@ Get the logon name of the User.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string LogonName {get;}

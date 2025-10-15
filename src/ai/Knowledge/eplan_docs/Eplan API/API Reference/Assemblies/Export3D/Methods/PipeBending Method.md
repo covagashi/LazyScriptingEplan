@@ -9,7 +9,7 @@ Exports pipe bending.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool PipeBending( 

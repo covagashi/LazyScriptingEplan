@@ -9,7 +9,7 @@ Identificators of properties owned by Block class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Block : System.Enum

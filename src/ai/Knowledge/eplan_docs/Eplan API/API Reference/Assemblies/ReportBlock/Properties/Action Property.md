@@ -9,7 +9,7 @@ Gets/Sets a name of an action which may be used for customizing the report throu
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Action {get; set;}

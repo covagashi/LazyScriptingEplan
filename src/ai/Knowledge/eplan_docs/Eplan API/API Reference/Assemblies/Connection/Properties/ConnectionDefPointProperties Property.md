@@ -9,7 +9,7 @@ Allows to access properties of a [ConnectionDefinitionPoint](Eplan.EplApi.DataMo
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ConnectionDefinitionPointPropertyList ConnectionDefPointProperties {get;}

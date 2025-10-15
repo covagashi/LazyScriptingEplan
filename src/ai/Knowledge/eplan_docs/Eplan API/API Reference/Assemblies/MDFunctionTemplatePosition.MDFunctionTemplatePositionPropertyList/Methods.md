@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [GetProperty](topic1465.html) | Overloaded. Gets internal property by id and index |
 | Public Method | [SetProperty](topic1468.html) | Overloaded. Sets internal property by id and index |
 
-[Top](#top)
+

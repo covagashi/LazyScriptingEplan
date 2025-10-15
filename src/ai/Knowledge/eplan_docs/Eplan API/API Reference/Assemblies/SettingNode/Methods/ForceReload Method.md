@@ -9,7 +9,7 @@ Reloads settings node.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ForceReload()

@@ -9,7 +9,7 @@ Show drilling pattern # 36519.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_SHOWDRILLINGS {get; set;}

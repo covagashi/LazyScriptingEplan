@@ -9,7 +9,7 @@ Color for P&I diagram # 44086.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PID_COLOR {get; set;}

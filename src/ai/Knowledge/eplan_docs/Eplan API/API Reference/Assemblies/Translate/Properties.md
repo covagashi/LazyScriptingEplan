@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [ActiveTranslateDatabase](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Translate~ActiveTranslateDatabase.html) | Returns or sets the type of current translate database. Possible values are DatabaseType.SQL and DatabaseType.EPLAN |
 | Public Property | [TranslateDatabase](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Translate~TranslateDatabase.html) | Returns or sets the complete filename of the current translate database or connection string if SQL connection is selected. |
 
-[Top](#top)
+

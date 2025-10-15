@@ -9,7 +9,7 @@ Determines Page or InstallationSpace currently edited in graphical editor.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject CurrentlyEdited {get;}

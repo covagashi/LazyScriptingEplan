@@ -9,7 +9,7 @@ PLC subdevice 8: Position (slot / module) # 20540.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCDEVICENUMBER_8 {get; set;}

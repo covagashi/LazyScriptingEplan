@@ -9,7 +9,7 @@ Stripping length # 36096.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_TERMINALPOSITION_STRIPPINGLENGTH( 

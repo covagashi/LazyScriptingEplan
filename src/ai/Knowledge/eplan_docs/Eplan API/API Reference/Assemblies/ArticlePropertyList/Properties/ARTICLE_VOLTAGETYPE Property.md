@@ -9,7 +9,7 @@ Voltage type # 22070.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_VOLTAGETYPE {get; set;}

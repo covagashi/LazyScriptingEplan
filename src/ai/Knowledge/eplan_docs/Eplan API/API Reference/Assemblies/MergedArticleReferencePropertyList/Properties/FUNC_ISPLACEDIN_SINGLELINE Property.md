@@ -9,7 +9,7 @@ Function exists with 'Single-line' representation type # 20471.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ISPLACEDIN_SINGLELINE {get; set;}

@@ -9,7 +9,7 @@ Verifies whether specified setting exists.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExistSetting( 

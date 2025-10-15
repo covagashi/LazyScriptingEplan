@@ -9,7 +9,7 @@ Deletes all report pages belonging to a report block.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Delete()

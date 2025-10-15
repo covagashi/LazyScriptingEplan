@@ -9,7 +9,7 @@ Sets the reference to bitmap file. If the image file is not yet located in the p
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SetFile( 

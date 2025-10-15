@@ -9,7 +9,7 @@ Creates new transient slot drilling.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Drilling CreateSlotTransient( 

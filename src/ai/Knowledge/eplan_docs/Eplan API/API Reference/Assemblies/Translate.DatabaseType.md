@@ -9,7 +9,7 @@ Database type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Translate.DatabaseType : System.Enum

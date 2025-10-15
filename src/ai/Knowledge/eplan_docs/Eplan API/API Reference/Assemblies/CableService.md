@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class CableService
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [CableService Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.CableService~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -41,4 +41,4 @@ Public Methods
 | Public Method | [FindMatchingTemplatePairs](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.CableService~FindMatchingTemplatePairs.html) | Matches templates and wires. No changes on objects are performed. |
 | Public Method | [RenumberCables](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.CableService~RenumberCables.html) | Overloaded. Method for numbering cables in a project. |
 
-[Top](#top)
+

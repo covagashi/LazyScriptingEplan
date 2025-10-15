@@ -9,7 +9,7 @@ Rename all functions of device.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RenameDevice( 

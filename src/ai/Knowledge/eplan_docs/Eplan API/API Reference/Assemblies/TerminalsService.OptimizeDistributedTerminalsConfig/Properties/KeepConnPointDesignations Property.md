@@ -9,7 +9,7 @@ If TRUE, the connection points will keep their designations. If FALSE, the conne
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool KeepConnPointDesignations {get; set;}

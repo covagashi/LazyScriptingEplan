@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Translate
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Translate Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Translate~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,7 +36,7 @@ Public Properties
 | Public Property | [ActiveTranslateDatabase](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Translate~ActiveTranslateDatabase.html) | Returns or sets the type of current translate database. Possible values are DatabaseType.SQL and DatabaseType.EPLAN |
 | Public Property | [TranslateDatabase](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Translate~TranslateDatabase.html) | Returns or sets the complete filename of the current translate database or connection string if SQL connection is selected. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -60,4 +60,4 @@ Public Methods
 | Public Method | [TranslateProject](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Translate~TranslateProject.html) | Translates all texts in the specified project. |
 | Public Method | [TranslateText](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Translate~TranslateText.html) | Get translation for the given text, according to project settings. |
 
-[Top](#top)
+

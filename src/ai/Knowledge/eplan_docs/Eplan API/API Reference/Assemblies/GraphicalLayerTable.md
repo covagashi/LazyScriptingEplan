@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Layer")]
@@ -32,7 +32,7 @@ Public Properties
 | Public Property | [Layer](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayerTable~Layer.html) | Overloaded. Returns one the project's layer as GraphicalLayer object. If specified layer not exist, null is returned. |
 | Public Property | [Layers](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayerTable~Layers.html) | Returns an array of all existing project's layers. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -50,4 +50,4 @@ Public Methods
 | Public Method | [RemoveLayer](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayerTable~RemoveLayer(GraphicalLayer).html) | Removes specified layer from the table. Note: Only custom layer can be removed. |
 | Public Method | [ReplaceLayer](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayerTable~ReplaceLayer.html) | Overloaded. Replace [Eplan::EplApi::DataModel:](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayer.html) for given array of objects. |
 
-[Top](#top)
+

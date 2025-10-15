@@ -9,7 +9,7 @@ Part group # 22027.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PIECETYPE {get; set;}

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Terminal.Bridge.BridgeInfo
@@ -30,4 +30,4 @@ Public Fields
 | Public Field | [Kind](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Terminal+Bridge+BridgeInfo~Kind.html) | Kind of the bridge connection: internal, external, small, saddleslot 3, saddleslot 4 or saddleslot 5. [Terminal.Bridge.Kinds](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Terminal+Bridge+Kinds.html) |
 | Public Field | [Type](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Terminal+Bridge+BridgeInfo~Type.html) | Bridge connection type. Corresponds to the function definition tag of the connection. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Physical network: Bus ID / item number 2 # 20386.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLC_BUS_ADDRESS_2 {get; set;}

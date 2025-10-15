@@ -9,7 +9,7 @@ Sets rectangular logical area for objects derived from SymbolReference.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override void SetLogicalArea( 

@@ -9,7 +9,7 @@ Assignment: Property / value to graphic # 13026.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FORM_BEHAVIOUR_PROPERTY_VAL_GRAPHIC( 

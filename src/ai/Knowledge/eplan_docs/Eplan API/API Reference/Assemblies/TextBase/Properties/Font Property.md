@@ -9,7 +9,7 @@ Font for displayed text.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public TextBase.FontInfo Font {get; set;}

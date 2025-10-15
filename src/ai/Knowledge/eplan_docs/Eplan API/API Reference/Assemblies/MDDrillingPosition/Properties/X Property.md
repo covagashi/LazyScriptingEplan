@@ -9,7 +9,7 @@ The x position of the drilling
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double X {get; set;}

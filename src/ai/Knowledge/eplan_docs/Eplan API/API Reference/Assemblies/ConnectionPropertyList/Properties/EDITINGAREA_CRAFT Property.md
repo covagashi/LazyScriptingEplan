@@ -9,7 +9,7 @@ Trade (Defined working sections) # 25000.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue EDITINGAREA_CRAFT {get; set;}

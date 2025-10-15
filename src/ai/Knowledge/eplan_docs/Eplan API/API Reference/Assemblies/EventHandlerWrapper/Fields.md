@@ -12,4 +12,4 @@ Public Fields
 | --- | --- | --- |
 | Public Field | [EplanEventLocally](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandlerWrapper~EplanEventLocally.html) | Local event handler |
 
-[Top](#top)
+

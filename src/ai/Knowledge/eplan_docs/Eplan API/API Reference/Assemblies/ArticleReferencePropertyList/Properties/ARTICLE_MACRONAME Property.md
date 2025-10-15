@@ -9,7 +9,7 @@ Graphical macro (without macro directory name) # 22018.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MACRONAME {get; set;}

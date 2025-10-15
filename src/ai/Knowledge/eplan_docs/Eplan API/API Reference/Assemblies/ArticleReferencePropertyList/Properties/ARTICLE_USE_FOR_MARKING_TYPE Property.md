@@ -9,7 +9,7 @@ Usage for labeling type # 26625.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_USE_FOR_MARKING_TYPE {get; set;}

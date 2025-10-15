@@ -9,7 +9,7 @@ Creates transient and not placed routing accessory object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateTransient( 

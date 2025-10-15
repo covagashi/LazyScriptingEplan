@@ -9,7 +9,7 @@ Temperature range (medium), min. # 26617.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TEMPERATURE_RANGE_MEDIUM_MIN {get; set;}

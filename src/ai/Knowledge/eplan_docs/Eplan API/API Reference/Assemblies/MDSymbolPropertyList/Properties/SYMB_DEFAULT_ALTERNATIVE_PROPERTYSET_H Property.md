@@ -9,7 +9,7 @@ Default property arrangement for variant H (alternative) # 16041.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_DEFAULT_ALTERNATIVE_PROPERTYSET_H {get; set;}

@@ -9,7 +9,7 @@ Creates copy of this page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Page CopyTo( 

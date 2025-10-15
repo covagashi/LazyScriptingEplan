@@ -9,7 +9,7 @@ Performance description, standardized: Description (device, utility, service) # 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PERFORMANCE_DESCRIPTION {get; set;}

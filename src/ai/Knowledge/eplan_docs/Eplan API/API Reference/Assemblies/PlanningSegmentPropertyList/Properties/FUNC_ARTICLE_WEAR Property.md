@@ -9,7 +9,7 @@ Wearing part # 20908.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_WEAR( 

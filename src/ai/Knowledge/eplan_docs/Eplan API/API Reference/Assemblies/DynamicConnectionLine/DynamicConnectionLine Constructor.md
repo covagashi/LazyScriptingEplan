@@ -9,7 +9,7 @@ constructor, creates transient object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DynamicConnectionLine()

@@ -9,7 +9,7 @@ Autoconnecting line: Line type # 31015.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue CONNECTION_ACL_STYLE {get; set;}

@@ -9,7 +9,7 @@ X end point: Clamping space # 36083.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_TERMINALPOSITION_CLAMPSPACE_ENDXPOS( 

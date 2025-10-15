@@ -9,7 +9,7 @@ Gets all constructions that are stored in the parts database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDConstruction[] Constructions {get;}

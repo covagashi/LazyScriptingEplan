@@ -16,4 +16,4 @@ Public Methods
 | Public Method | [RemoveAnyChangeHandler](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectEventsProvider~RemoveAnyChangeHandler.html) | Removes project events handler. |
 | Public Method | [RemovePreRemoveHandler](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectEventsProvider~RemovePreRemoveHandler.html) | Removes pre remove events handler. |
 
-[Top](#top)
+

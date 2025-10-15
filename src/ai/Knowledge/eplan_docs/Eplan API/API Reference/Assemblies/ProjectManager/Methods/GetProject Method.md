@@ -9,7 +9,7 @@ Gets an already open project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project GetProject( 

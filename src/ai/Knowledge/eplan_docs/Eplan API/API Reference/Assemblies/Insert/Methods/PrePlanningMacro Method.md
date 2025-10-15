@@ -9,7 +9,7 @@ Inserts the pre-planning macros below the given structure segment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] PrePlanningMacro( 

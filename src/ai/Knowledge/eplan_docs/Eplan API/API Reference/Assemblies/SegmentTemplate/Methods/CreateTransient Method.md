@@ -9,7 +9,7 @@ Creates transient SegmentTemplate object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateTransient( 

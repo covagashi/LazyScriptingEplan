@@ -9,7 +9,7 @@ PLC station: ID (indirect) # 20420.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCSTATIONNAME_INDIRECT {get; set;}

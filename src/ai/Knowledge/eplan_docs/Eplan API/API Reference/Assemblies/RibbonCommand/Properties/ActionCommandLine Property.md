@@ -9,7 +9,7 @@ Returns action name with parameters
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ActionCommandLine {get;}

@@ -9,7 +9,7 @@ Sort code (terminal / pin) # 20809.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINALSORTCODE {get; set;}

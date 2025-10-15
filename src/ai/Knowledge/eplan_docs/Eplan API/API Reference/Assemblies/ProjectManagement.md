@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ProjectManagement
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ProjectManagement Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ProjectManagement~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,7 +36,7 @@ Public Properties
 | Public Property | [ActiveProjectManagementDatabase](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ProjectManagement~ActiveProjectManagementDatabase.html) | Returns or sets the type of current project management database. Possible values are DatabaseType.SQL and DatabaseType.EPLAN |
 | Public Property | [ProjectManagementDatabase](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ProjectManagement~ProjectManagementDatabase.html) | Returns or sets the complete filename of the current projectmanagement database or connection string if SQL connection is selected. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -59,4 +59,4 @@ Public Methods
 | Public Method | [SynchronizeProjects](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ProjectManagement~SynchronizeProjects.html) | Overloaded. Synchronizes all projects data from source project into the target project. |
 | Public Method | [UpdateProjectStructureFromSettings](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ProjectManagement~UpdateProjectStructureFromSettings.html) | Updates project structure for navigator (GUI) according to the project settings. |
 
-[Top](#top)
+

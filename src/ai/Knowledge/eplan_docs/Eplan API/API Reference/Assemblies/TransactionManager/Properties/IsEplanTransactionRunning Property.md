@@ -9,7 +9,7 @@ Tells if a P8 transaction is open.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsEplanTransactionRunning {get;}

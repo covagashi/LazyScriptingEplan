@@ -9,7 +9,7 @@ Get the dongle number
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DongleNumber {get;}

@@ -9,7 +9,7 @@ Reads numeric value from settings. It can be 16 bit or 32 bit, signed or unsigne
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int GetNumericSetting( 

@@ -9,7 +9,7 @@ Returns all linked segments for this object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlanningSegment[] LinkedSegments {get;}

@@ -28,4 +28,4 @@ Public Methods
 | Public Method | [SetVisibleNameAndAdjustFullName](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.NameService~SetVisibleNameAndAdjustFullName.html) | Overloaded. Sets the page and sets the given visible name as the new visible name to the given function and adjusts the full name of that function accordingly (by calling "EvaluateName"). |
 | Public Method | [UpdateConnectionDefinitionPointsParent](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.NameService~UpdateConnectionDefinitionPointsParent.html) | Overloaded. Sets the page and updates the graphical parent of a connection definition point |
 
-[Top](#top)
+

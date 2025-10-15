@@ -9,7 +9,7 @@ Gets parameter value.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Get( 

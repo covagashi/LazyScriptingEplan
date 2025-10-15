@@ -9,7 +9,7 @@ Torque # 26247.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TORQUE_ {get; set;}

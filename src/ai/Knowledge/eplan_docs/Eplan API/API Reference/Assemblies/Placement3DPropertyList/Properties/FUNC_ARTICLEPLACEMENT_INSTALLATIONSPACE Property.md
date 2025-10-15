@@ -9,7 +9,7 @@ Layout space name (of the part placement) # 20261.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLEPLACEMENT_INSTALLATIONSPACE {get; set;}

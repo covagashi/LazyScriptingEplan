@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDSymbol.MDPropertyPlacementsSchemasList
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDSymbol.MDPropertyPlacementsSchemasList Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol+MDPropertyPlacementsSchemasList~_ctor.html) | Constructor MDPropertyPlacementsSchemasList |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -35,7 +35,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [All](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol+MDPropertyPlacementsSchemasList~All.html) | Gets all schemas from symbol |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -44,4 +44,4 @@ Public Methods
 | Public Method | [Add](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol+MDPropertyPlacementsSchemasList~Add.html) |  |
 | Public Method | [Remove](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol+MDPropertyPlacementsSchemasList~Remove.html) |  |
 
-[Top](#top)
+

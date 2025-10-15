@@ -9,7 +9,7 @@ Used by the [Decider](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Decider.html), to det
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum EnumDecisionIcon : System.Enum

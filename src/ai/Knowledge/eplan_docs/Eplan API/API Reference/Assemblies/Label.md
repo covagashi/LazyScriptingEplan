@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Label
@@ -57,7 +57,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Label Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Label~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -66,4 +66,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Label~Dispose().html) | Destructor |
 | Public Method | [DoLabel](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Label~DoLabel.html) | Overloaded. do a labeling for a given objects. |
 
-[Top](#top)
+

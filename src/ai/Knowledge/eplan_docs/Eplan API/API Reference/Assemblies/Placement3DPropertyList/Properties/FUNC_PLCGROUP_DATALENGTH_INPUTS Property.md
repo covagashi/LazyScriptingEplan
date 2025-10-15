@@ -9,7 +9,7 @@ PLC device: Data length (inputs) # 20548.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_DATALENGTH_INPUTS {get; set;}

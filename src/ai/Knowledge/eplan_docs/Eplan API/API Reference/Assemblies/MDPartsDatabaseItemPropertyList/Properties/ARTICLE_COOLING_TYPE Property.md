@@ -9,7 +9,7 @@ Type of cooling # 26016.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_COOLING_TYPE {get; set;}

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PartsService
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PartsService Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PartsService~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -35,7 +35,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [ActivePartsDatabase](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PartsService~ActivePartsDatabase.html) | Returns or sets the type of current parts database. Possible values are PartsDatabaseType.SQL and PartsDatabaseType.EPLAN |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -51,4 +51,4 @@ Public Methods
 | Public Method | [IsPartsSelectionOnProject](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PartsService~IsPartsSelectionOnProject.html) | Check if the project's parts selection is set to project. |
 | Public Method | [MoveArticleReference](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PartsService~MoveArticleReference.html) | Moves ArticleReference to another index or to another object or both. |
 
-[Top](#top)
+

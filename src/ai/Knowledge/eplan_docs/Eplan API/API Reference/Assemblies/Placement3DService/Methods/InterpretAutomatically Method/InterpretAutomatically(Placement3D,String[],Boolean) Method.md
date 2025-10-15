@@ -9,7 +9,7 @@ Starts automatic interpretation.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void InterpretAutomatically( 

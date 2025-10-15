@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Article.Module
@@ -37,7 +37,7 @@ Public Properties
 | Public Property | [PartNr](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article+Module~PartNr.html) | Returns part number of the Module. |
 | Public Property | [VariantNr](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article+Module~VariantNr.html) | Returns variant number of the Module. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -45,4 +45,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article+Module~Dispose().html) | Destructor for deterministic finalization of Module object. |
 
-[Top](#top)
+

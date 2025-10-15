@@ -9,7 +9,7 @@ Returns displayed value sets as a string array
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[] _Displayed {get;}

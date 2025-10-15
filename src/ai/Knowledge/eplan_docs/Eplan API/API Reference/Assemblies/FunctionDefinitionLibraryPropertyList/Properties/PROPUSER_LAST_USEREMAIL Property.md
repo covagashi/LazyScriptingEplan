@@ -9,7 +9,7 @@ Last editor: E-mail # 3013.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROPUSER_LAST_USEREMAIL {get; set;}

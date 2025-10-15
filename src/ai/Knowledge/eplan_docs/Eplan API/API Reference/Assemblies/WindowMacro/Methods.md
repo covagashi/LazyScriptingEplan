@@ -28,4 +28,4 @@ Public Methods
 | Public Method | [StoreExternalFilesOfCurrentVariant](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.Macro~StoreExternalFilesOfCurrentVariant.html) | Copies external files into project images directory (Inherited from [Eplan.EplApi.DataModel.MasterData.Macro](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.Macro.html)) |
 | Public Method | [Version](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.WindowMacro~Version.html) | Get version from current representation type |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Updates start and end position of all segment elements found on a page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void UpdatePage( 

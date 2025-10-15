@@ -9,7 +9,7 @@ Format of full DT: Pin # 10644.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_FULLDTFORMAT_PLUG {get; set;}

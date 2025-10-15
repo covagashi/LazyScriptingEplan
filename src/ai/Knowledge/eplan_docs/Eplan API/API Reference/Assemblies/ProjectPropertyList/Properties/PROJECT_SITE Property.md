@@ -9,7 +9,7 @@ AutomationML: Works # 10951.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJECT_SITE {get; set;}

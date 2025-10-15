@@ -9,7 +9,7 @@ Removes specified layer from the table. Note: Only custom layer can be removed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool RemoveLayer( 

@@ -9,7 +9,7 @@ Returns the level of message as [MessageLevel](Eplan.EplApi.Baseu~Eplan.EplApi.B
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MessageLevel MessageLevel {get;}

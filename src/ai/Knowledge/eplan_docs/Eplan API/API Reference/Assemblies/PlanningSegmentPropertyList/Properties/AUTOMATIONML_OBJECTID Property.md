@@ -9,7 +9,7 @@ AutomationML GUID # 25030.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue AUTOMATIONML_OBJECTID {get; set;}

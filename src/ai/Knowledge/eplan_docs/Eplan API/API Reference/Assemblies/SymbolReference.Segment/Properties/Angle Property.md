@@ -9,7 +9,7 @@ Returns the angle (i.e. direction) of the segment relative to the X axis.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Angle {get;}

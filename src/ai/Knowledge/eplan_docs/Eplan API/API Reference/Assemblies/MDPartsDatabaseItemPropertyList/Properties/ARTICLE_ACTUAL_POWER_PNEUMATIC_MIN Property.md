@@ -9,7 +9,7 @@ Actual power (pneumatic), min. # 26391.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ACTUAL_POWER_PNEUMATIC_MIN {get; set;}

@@ -9,7 +9,7 @@ Used in conversion of the PropertyValue object to `double`.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double ToDouble()

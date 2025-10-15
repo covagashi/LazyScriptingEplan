@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [Item](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.SubProjectsCollection~Item.html) | Gets the element at the specified index. |
 | Public Property | [Project](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.SubProjectsCollection~Project.html) | Gets the project. |
 
-[Top](#top)
+

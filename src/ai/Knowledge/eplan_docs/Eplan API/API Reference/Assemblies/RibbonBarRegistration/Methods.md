@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [AddRegistrationCommand](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBarRegistration~AddRegistrationCommand.html) |  |
 | Public Method | [Dispose](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBarRegistration~Dispose().html) |  |
 
-[Top](#top)
+

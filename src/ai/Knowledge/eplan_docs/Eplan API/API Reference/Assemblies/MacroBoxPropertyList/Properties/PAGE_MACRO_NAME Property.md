@@ -9,7 +9,7 @@ Macro: Name # 11008.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_MACRO_NAME( 

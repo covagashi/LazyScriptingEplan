@@ -9,7 +9,7 @@ Method enters a message in the system-wide message tree.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void FixMessage()

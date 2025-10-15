@@ -9,7 +9,7 @@ Material thickness # 26096.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_THICKNESS_OF_MATERIAL {get; set;}

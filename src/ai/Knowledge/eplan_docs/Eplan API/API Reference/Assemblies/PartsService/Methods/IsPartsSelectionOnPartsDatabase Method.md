@@ -9,7 +9,7 @@ Check if the user parts selection is set to parts database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsPartsSelectionOnPartsDatabase( 

@@ -9,7 +9,7 @@ Model view: Display item silhouettes # 36513.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_SHOWSILOUETTES {get; set;}

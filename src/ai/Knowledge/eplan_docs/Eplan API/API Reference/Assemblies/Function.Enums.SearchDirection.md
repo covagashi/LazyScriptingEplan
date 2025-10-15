@@ -9,7 +9,7 @@ Specifies search direction for a Function
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Function.Enums.SearchDirection : System.Enum

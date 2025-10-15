@@ -9,7 +9,7 @@ Determines the planning segment to which all function inserted from window macro
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlanningSegment PlanningSegment {get; set;}

@@ -9,7 +9,7 @@ Set or get the openfileflag. Set this flag when you want to open a file Do not s
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool OpenFileFlag {get; set;}

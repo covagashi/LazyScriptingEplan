@@ -9,7 +9,7 @@ Degree of protection (IP): Measuring head # 26558.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_PROTECTION_CLASS_IP_OF_THE_MEASURING_HEAD( 

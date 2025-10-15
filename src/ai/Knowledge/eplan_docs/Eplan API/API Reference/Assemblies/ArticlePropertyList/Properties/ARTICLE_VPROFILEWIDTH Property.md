@@ -9,7 +9,7 @@ Profile vertical: Width # 22189.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_VPROFILEWIDTH {get; set;}

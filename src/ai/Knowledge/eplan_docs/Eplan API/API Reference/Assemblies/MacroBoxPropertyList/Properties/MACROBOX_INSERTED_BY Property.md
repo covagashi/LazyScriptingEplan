@@ -9,7 +9,7 @@ Macro: Inserted by # 23006.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROBOX_INSERTED_BY {get; set;}

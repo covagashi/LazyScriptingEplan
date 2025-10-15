@@ -9,7 +9,7 @@ Model view: Rotation # 36514.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_ORIENTATION {get; set;}

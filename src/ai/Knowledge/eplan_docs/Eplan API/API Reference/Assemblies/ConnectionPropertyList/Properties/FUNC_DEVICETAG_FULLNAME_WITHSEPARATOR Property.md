@@ -9,7 +9,7 @@ Name (without project structures, with preceding sign) # 20214.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DEVICETAG_FULLNAME_WITHSEPARATOR {get; set;}

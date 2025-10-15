@@ -9,7 +9,7 @@ Return true if the instance uses the local property instances, otherwise it uses
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool UseLocalPropertyPlacements {get; set;}

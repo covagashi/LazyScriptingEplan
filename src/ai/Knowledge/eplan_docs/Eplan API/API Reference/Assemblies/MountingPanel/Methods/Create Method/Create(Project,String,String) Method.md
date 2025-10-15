@@ -9,7 +9,7 @@ Creates not placed MountingPanel object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

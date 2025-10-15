@@ -9,7 +9,7 @@ Returns the string in the requested language
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetString( 

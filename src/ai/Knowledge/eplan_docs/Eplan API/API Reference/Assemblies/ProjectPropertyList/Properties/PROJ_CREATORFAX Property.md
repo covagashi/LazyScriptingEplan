@@ -9,7 +9,7 @@ Creator: Fax # 10241.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATORFAX {get; set;}

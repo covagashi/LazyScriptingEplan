@@ -9,7 +9,7 @@ DT (subordinate): Subpage # 20171.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DT2_PAGESUBCOUNTER {get; set;}

@@ -9,7 +9,7 @@ It defines the Cable Property Template group (multi-line)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Combination {get; set;}

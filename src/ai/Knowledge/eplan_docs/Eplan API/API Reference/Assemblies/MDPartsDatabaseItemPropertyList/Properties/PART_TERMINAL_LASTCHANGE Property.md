@@ -9,7 +9,7 @@ Last editor / Modification date (connection point pattern) # 22944.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_TERMINAL_LASTCHANGE {get; set;}

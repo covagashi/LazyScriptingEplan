@@ -9,7 +9,7 @@ Job number # 10013.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DRAWINGNUMBER {get; set;}

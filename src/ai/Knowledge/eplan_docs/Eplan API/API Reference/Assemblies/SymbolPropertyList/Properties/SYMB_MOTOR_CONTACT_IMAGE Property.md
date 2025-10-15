@@ -9,7 +9,7 @@ Symbol for contact image of motor overload switch # 16032.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMB_MOTOR_CONTACT_IMAGE {get; set;}

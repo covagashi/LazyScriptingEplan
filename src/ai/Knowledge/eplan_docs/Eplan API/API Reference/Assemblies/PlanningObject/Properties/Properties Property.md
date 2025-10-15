@@ -9,7 +9,7 @@ EPLAN properties of the PlanningObject object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new PlanningObjectPropertyList Properties {get;}

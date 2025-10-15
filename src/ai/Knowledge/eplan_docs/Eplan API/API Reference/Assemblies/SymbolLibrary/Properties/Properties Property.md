@@ -9,7 +9,7 @@ Internal properties list.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new SymbolLibraryPropertyList Properties {get;}

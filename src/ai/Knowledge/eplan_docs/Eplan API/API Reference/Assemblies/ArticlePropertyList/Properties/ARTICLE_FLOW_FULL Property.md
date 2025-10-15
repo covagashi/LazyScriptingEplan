@@ -9,7 +9,7 @@ Flow (full) # 22232.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_FLOW_FULL {get; set;}

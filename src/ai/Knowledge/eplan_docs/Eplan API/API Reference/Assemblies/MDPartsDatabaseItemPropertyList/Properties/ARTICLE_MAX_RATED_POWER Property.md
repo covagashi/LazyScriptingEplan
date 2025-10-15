@@ -9,7 +9,7 @@ Nominal power (in kW), max. # 26478.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MAX_RATED_POWER {get; set;}

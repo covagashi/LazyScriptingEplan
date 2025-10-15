@@ -9,7 +9,7 @@ Symbol variant # 20113.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_SYMB_VARIANT {get; set;}

@@ -9,7 +9,7 @@ Deprecation Date of the Eplan Cloud resource
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DateTime Deprecation {get; set;}

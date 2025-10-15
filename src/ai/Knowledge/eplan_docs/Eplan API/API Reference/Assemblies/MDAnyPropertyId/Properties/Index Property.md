@@ -9,7 +9,7 @@ Index of the property.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short Index {get; set;}

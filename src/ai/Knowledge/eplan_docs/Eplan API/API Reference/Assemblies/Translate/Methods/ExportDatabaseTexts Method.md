@@ -9,7 +9,7 @@ Exporting text from translation database
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExportDatabaseTexts( 

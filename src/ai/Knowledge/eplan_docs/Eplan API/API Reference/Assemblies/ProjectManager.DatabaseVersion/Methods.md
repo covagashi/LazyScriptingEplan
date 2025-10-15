@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager+DatabaseVersion~Dispose().html) | Virtual deterministic destructor. |
 | Public Method | [ToString](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager+DatabaseVersion~ToString.html) | Returns a string that represents the current object. |
 
-[Top](#top)
+

@@ -28,4 +28,4 @@ Public Properties
 | Public Property | [Translations](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PathInfo~Translations.html) | Returns default Translations directory. |
 | Public Property | [XML](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PathInfo~XML.html) | Returns default XML directory. |
 
-[Top](#top)
+

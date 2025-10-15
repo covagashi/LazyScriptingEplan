@@ -9,7 +9,7 @@ TCF: Calculation # 26604.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TCF_TRANSPORT_CARBON_FOOTPRINT_CALCULATION {get; set;}

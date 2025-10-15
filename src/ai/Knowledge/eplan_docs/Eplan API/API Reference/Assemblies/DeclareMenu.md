@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [AttributeUsage(AttributeTargets.Method)]
@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [DeclareMenu Constructor](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareMenu~_ctor.html) | Creates a new attribute. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -40,7 +40,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -51,4 +51,4 @@ Public Methods
 | Public Method | [IsDefaultAttribute](#) | (Inherited from [System.Attribute](#)) |
 | Public Method | [Match](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
+

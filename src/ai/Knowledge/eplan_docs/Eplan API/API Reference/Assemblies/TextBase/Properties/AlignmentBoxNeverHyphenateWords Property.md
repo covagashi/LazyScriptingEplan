@@ -9,7 +9,7 @@ Specifies that words are wrapped.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AlignmentBoxNeverHyphenateWords {get; set;}

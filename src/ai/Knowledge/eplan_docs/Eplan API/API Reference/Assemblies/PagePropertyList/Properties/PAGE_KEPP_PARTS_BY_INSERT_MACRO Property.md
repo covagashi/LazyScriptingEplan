@@ -9,7 +9,7 @@ Keep parts at placement # 11035.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_KEPP_PARTS_BY_INSERT_MACRO {get; set;}

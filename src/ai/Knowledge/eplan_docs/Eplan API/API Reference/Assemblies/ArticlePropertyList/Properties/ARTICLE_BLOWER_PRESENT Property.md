@@ -9,7 +9,7 @@ Blower available # 26352.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_BLOWER_PRESENT {get; set;}

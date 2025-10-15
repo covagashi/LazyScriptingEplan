@@ -9,7 +9,7 @@ Assigns this connection to another, which means that values of this connection's
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Assign( 

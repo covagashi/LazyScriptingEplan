@@ -9,7 +9,7 @@ Returns the article of this assembly.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Article Article {get;}

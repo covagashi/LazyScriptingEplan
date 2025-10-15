@@ -9,7 +9,7 @@ Topology: Routing track specification # 31119.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_CABLING_PATH_PRESETTING {get; set;}

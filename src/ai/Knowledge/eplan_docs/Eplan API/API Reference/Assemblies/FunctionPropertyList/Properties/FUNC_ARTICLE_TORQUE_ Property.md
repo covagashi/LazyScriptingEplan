@@ -9,7 +9,7 @@ Torque # 26248.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_TORQUE_( 

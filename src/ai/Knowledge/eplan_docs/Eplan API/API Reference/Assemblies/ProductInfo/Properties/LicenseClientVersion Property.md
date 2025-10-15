@@ -9,7 +9,7 @@ License Client Version
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string LicenseClientVersion {get; set;}

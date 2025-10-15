@@ -9,7 +9,7 @@ Constructor. When object created with this constructor, its `create` method must
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Text()

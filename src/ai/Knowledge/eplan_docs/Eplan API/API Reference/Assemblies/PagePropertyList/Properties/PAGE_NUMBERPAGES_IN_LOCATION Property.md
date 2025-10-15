@@ -9,7 +9,7 @@ Number of pages per structure # 11004.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_NUMBERPAGES_IN_LOCATION {get; set;}

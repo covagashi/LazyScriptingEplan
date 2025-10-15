@@ -9,7 +9,7 @@ Row height # 12002.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_POSITIONSIZE( 

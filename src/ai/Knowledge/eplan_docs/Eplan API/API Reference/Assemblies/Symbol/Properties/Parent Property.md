@@ -9,7 +9,7 @@ Gets parent - symbol library
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolLibrary Parent {get;}

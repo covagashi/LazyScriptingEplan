@@ -9,7 +9,7 @@ Adds a new variable to the PlaceHolder object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual int AddVariable( 

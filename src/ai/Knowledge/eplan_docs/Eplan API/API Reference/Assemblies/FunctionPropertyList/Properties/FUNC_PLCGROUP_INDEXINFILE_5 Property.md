@@ -9,7 +9,7 @@ PLC subdevice 5: Device description: Index in file # 20596.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_INDEXINFILE_5 {get; set;}

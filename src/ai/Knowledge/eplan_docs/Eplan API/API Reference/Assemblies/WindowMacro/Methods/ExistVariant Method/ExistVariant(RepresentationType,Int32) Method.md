@@ -9,7 +9,7 @@ checks, if the variant exists inside the window macro
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExistVariant( 

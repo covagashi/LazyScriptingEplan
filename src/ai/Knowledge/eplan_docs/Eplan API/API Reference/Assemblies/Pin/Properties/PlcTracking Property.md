@@ -9,7 +9,7 @@ Assigns a pin designation or index for PLC tracking.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PlcTracking {get; set;}

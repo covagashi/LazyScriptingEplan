@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Property")]
@@ -37,7 +37,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDSymbolVariantPropertyList Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolVariantPropertyList~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -61,7 +61,7 @@ Public Properties
 | Public Property | [SYMBVAR\_SYMBLIB\_NAME](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolVariantPropertyList~SYMBVAR_SYMBLIB_NAME().html) | Symbol library # 16905. |
 | Public Property | [WRITEPROTECTED\_AUTOMATIC](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolVariantPropertyList~WRITEPROTECTED_AUTOMATIC().html) | Change protection (hierarchical) # 3015. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -70,4 +70,4 @@ Public Methods
 | Public Method | [Dispose()](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList~Dispose().html) | Destructor for deterministic finalization of MDSymbolVariantPropertyList object. (Inherited from [Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList.html)) |
 | Public Method | [Exists](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolVariantPropertyList~Exists.html) | Overloaded. Checks property existence for used obiect. |
 
-[Top](#top)
+

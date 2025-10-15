@@ -7,7 +7,7 @@
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.MDSymbol AsMDSymbol {get;}

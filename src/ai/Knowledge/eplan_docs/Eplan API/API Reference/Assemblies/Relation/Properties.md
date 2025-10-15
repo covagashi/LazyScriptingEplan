@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Index](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Relation~Index.html) | Relation-Index - which object to get. if index is equal to 0 list of objects will be returned. |
 
-[Top](#top)
+

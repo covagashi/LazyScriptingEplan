@@ -9,7 +9,7 @@ Function designation (visible) # 1129.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_PLANT_VISIBLE {get; set;}

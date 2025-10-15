@@ -9,7 +9,7 @@ Represents mate object of a mate entry
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Mate Mate {get;}

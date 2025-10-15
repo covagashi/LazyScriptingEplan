@@ -9,7 +9,7 @@ Name of the IFunctionBase.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 FunctionBasePropertyList NameParts {get; set;}

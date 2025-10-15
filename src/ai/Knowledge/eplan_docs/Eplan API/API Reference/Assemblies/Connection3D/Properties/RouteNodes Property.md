@@ -9,7 +9,7 @@ Array of route elements space through which connection is routed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement3D[] RouteNodes {get;}

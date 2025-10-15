@@ -9,7 +9,7 @@ Opens Installations space with the name passed to strName.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InstallationSpace OpenInstallationSpace( 

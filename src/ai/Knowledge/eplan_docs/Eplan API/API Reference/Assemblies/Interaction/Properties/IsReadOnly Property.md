@@ -9,7 +9,7 @@ Returns `true`, if function does not change the project database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsReadOnly {get;}

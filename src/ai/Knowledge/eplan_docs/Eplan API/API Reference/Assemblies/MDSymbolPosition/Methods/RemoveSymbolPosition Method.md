@@ -9,7 +9,7 @@ Removes the symbol position from part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveSymbolPosition()

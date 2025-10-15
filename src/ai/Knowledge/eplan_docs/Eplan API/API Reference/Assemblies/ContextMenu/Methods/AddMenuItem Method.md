@@ -9,7 +9,7 @@ Adds a new menu item at the end of a context menu.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AddMenuItem( 

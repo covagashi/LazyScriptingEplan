@@ -9,7 +9,7 @@ Gets or Sets parent placement. Caution: The Change of the parent will also chang
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override Placement3D Parent {set;}

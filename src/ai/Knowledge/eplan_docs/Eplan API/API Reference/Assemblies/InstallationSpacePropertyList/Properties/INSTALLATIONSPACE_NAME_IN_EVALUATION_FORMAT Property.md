@@ -9,7 +9,7 @@ Layout space name (in reports) # 36455.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTALLATIONSPACE_NAME_IN_EVALUATION_FORMAT {get; set;}

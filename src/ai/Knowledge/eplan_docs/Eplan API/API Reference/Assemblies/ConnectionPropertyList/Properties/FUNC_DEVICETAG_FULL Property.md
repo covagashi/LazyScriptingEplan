@@ -9,7 +9,7 @@ DT (full, without project structures) # 20009.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DEVICETAG_FULL {get; set;}

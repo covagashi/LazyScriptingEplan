@@ -9,7 +9,7 @@ Returns the name of the IFunctionBase.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 string Name {get; set;}

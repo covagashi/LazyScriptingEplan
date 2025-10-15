@@ -9,7 +9,7 @@ Specifies docking direction of text.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum TextBase.TextDockingDirection : System.Enum

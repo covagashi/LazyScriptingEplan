@@ -9,7 +9,7 @@ Translates all texts in the specified project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void TranslateProject( 

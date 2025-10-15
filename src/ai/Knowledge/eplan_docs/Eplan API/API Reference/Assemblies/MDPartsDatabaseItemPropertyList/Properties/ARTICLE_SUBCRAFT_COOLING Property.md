@@ -9,7 +9,7 @@ Subtrade 'Cooling' # 22196.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SUBCRAFT_COOLING( 

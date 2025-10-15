@@ -9,7 +9,7 @@ DT adoption: Search direction conforming to GOST standard # 12104.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_DEVTAGSEARCHDIR_FOR_GOST {get; set;}

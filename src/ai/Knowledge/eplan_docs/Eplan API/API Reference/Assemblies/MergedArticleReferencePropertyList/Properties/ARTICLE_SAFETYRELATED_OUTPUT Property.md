@@ -9,7 +9,7 @@ Safety-related values: Output (React) # 40327.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SAFETYRELATED_OUTPUT {get; set;}

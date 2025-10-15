@@ -9,7 +9,7 @@ Manual cross-reference # 20302.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_MANUALCROSSREFERENCE {get; set;}

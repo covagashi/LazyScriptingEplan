@@ -9,7 +9,7 @@ Opens the page, selects the Placement passed as oPlacementToMove and move the Pl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void BringToFront( 

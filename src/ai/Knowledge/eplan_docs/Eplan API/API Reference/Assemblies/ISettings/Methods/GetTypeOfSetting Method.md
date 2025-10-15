@@ -9,7 +9,7 @@ Returns the type of the setting.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 ISettings.SettingType GetTypeOfSetting( 

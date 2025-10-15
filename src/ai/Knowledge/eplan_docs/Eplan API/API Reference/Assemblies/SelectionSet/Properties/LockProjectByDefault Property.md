@@ -9,7 +9,7 @@ If set to true, the objects returned and the rest objects from project by the Se
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool LockProjectByDefault {get; set;}

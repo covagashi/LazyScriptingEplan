@@ -7,7 +7,7 @@
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum UserDefinedPropertyDefinition.Enums.UnitGroup : System.Enum

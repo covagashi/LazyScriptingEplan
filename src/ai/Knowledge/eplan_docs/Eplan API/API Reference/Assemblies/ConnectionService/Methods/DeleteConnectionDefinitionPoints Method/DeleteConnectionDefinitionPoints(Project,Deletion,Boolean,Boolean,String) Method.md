@@ -9,7 +9,7 @@ Delete wire designations and connection definition points.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DeleteConnectionDefinitionPoints( 

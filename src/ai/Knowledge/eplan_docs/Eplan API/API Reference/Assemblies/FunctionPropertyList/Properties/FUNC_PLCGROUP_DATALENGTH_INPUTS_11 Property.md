@@ -9,7 +9,7 @@ PLC subdevice 11: Data length (inputs) # 20559.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_DATALENGTH_INPUTS_11 {get; set;}

@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Trace](Eplan.EplApi.Baseu~Eplan.EplApi.Base.EplTrace~Trace.html) | Overloaded. Writes the text to EplLog.txt when Trace is on. |
 
-[Top](#top)
+

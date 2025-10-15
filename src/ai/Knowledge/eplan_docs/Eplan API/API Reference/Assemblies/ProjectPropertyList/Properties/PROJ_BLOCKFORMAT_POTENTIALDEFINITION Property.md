@@ -9,7 +9,7 @@ Block property: Format (potential definition) # 10096.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_POTENTIALDEFINITION( 

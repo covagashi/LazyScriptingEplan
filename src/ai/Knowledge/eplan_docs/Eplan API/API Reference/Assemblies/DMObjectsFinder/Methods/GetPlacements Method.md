@@ -9,7 +9,7 @@ This function takes objects of classes Placement and inherited from Placement ex
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement[] GetPlacements( 

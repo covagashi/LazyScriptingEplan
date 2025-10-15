@@ -9,7 +9,7 @@ Removes a construction out of the parts database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveConstruction( 

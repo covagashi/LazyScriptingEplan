@@ -13,4 +13,4 @@ Public Fields
 | Public Field | [FromValue](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Range~FromValue.html) | Minimal value(begin, start) |
 | Public Field | [ToValue](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Range~ToValue.html) | Maximal value(end, stop) |
 
-[Top](#top)
+

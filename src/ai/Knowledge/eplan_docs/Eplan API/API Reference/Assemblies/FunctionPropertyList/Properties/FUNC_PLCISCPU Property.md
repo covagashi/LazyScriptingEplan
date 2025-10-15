@@ -9,7 +9,7 @@ CPU # 20167.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCISCPU {get; set;}

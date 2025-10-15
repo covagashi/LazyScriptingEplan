@@ -9,7 +9,7 @@ Name under which the segment definition will be displayed in the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString DisplayedName {get; set;}

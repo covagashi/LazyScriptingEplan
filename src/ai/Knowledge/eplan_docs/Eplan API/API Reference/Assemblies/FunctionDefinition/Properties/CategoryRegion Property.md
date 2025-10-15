@@ -9,7 +9,7 @@ Name of FunctionDefinition's region category. It is 'Area' level in function def
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString CategoryRegion {get;}

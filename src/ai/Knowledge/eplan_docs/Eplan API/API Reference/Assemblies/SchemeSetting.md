@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class SchemeSetting
@@ -54,7 +54,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [SchemeSetting Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -64,7 +64,7 @@ Public Properties
 | Public Property | [MLangName](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting~MLangName.html) | Returns a multilingual scheme name. |
 | Public Property | [ReadOnly](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting~ReadOnly.html) | Gives write permission to settings of this scheme. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -101,4 +101,4 @@ Public Methods
 | Public Method | [SetScheme](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting~SetScheme.html) | Overloaded. Sets a scheme by its name (LastUsed remains unchanged!) |
 | Public Method | [SetStringSetting](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SchemeSetting~SetStringSetting.html) | Sets the value of a setting. If a setting is made and an index is specified that exceeds the number of values, the corresponding values are created, based on the predefined value. The index starts at 0. |
 
-[Top](#top)
+

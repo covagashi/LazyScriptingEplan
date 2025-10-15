@@ -9,7 +9,7 @@ DT: Section # 20154.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DT_SECTION {get; set;}

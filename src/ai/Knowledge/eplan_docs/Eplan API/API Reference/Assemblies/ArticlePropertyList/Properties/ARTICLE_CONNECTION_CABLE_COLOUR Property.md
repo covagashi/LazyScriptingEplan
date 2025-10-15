@@ -9,7 +9,7 @@ Connecting cable: Color # 26007.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CONNECTION_CABLE_COLOUR {get; set;}

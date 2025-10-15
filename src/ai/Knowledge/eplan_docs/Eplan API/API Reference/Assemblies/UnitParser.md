@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class UnitParser
@@ -63,7 +63,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [UnitParser Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.UnitParser~_ctor.html) | The Constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -78,4 +78,4 @@ Public Methods
 | Public Method | [ToDisplay](Eplan.EplApi.Baseu~Eplan.EplApi.Base.UnitParser~ToDisplay.html) | Convert the value to a new unit (of parameterForConversion) of this group and make a display string out of it. |
 | Public Method | [ValueToUnit](Eplan.EplApi.Baseu~Eplan.EplApi.Base.UnitParser~ValueToUnit.html) | Convert the value to a new unit (of parameterForConversion) of this group. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ BACnet: Device profile according to BACnet specification # 26368.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DEVICE_PROFILE_ACCORDING_TO_BACNET_SPECIFICATION {get; set;}

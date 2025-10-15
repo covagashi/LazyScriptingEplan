@@ -9,7 +9,7 @@ Connecting cable: Application area # 26208.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_APPLICATION_RANGE_OF_THE_CONNECTION_CABLE {get; set;}

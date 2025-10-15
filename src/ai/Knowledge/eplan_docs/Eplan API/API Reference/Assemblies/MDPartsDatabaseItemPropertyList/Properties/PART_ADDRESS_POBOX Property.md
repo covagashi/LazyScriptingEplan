@@ -9,7 +9,7 @@ P.O. box # 22917.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ADDRESS_POBOX {get; set;}

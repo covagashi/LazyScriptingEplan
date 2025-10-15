@@ -9,7 +9,7 @@ Synchronization mode.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ProjectManagement.SynchronizationMode : System.Enum

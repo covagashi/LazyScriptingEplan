@@ -9,7 +9,7 @@ Routing track target: X coordinate # 31151.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_ROUTE_DESTINATION_XPOS {get; set;}

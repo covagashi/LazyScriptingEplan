@@ -9,7 +9,7 @@ Sequence of individual DT properties # 10091.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DEVTAGFORMAT_CUSTOMFORMAT {get; set;}

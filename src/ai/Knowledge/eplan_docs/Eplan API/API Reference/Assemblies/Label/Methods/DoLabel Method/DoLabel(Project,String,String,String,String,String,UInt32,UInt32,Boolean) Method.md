@@ -9,7 +9,7 @@ do a labeling for a project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DoLabel( 

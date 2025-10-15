@@ -9,7 +9,7 @@ Autoconnecting line: Line thickness # 31016.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue CONNECTION_ACL_WIDTH {get; set;}

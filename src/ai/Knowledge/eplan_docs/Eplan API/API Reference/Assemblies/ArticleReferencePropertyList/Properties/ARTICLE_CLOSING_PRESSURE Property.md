@@ -9,7 +9,7 @@ Closing pressure # 26551.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CLOSING_PRESSURE {get; set;}

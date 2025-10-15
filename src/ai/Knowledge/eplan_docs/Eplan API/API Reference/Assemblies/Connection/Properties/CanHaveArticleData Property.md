@@ -9,7 +9,7 @@ Check if the Connection can have [Article](Eplan.EplApi.DataModelu~Eplan.EplApi.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool CanHaveArticleData {get;}

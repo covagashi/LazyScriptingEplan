@@ -9,7 +9,7 @@ The plug device tag of component template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PlugDeviceTag {get; set;}

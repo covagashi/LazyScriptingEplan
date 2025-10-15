@@ -9,7 +9,7 @@ Thermal design: Simultaneity factor (automatic) # 36044.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_POWERDISSIPATION_SIMULTANEITYFACTOR_AUTOMATIC {get; set;}

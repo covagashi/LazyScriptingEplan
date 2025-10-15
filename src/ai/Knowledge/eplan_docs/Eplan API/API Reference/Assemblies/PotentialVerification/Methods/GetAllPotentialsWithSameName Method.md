@@ -9,7 +9,7 @@ Returns all potentials of the project with the same name. Can be called within t
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void GetAllPotentialsWithSameName( 

@@ -9,7 +9,7 @@ Identificators of properties owned by FunctionDefinitionLibrary class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.FunctionDefinitionLibrary : System.Enum

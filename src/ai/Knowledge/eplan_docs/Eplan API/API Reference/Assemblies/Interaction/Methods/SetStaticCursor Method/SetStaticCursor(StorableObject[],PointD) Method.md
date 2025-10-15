@@ -9,7 +9,7 @@ Sets [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplAp
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void SetStaticCursor( 

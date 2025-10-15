@@ -9,7 +9,7 @@ An array of the symbols's connection points
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PinBase[] GraphicalConnectionPoints {get;}

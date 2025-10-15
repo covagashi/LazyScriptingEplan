@@ -9,7 +9,7 @@ Name of InsertionPoint that was snapped.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string Name {get;}

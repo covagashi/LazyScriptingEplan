@@ -9,7 +9,7 @@ Intake flow rate, max. # 26198.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SUCTION_VOLUME_FLOW_MAX {get; set;}

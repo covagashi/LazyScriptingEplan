@@ -9,7 +9,7 @@ Gets all cross reference interruption points with the same name from the project
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void GetCrossReferencedInterruptionPoints( 

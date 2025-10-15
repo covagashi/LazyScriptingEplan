@@ -9,7 +9,7 @@ Returns an array of bridge segments groups connected to all terminals of the ter
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Terminal.Bridge[] Bridges_NotOptimized {get;}

@@ -9,7 +9,7 @@ Exports the specified setting to an XML file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void WriteSetting( 

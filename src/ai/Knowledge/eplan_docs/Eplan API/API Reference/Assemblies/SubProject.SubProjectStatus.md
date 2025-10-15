@@ -9,7 +9,7 @@ Possible statuses of subproject.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum SubProject.SubProjectStatus : System.Enum

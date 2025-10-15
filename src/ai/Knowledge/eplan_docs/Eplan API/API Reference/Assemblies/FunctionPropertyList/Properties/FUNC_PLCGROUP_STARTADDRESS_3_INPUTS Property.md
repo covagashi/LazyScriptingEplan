@@ -9,7 +9,7 @@ PLC subdevice 3: Start address (inputs) # 20382.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_STARTADDRESS_3_INPUTS {get; set;}

@@ -9,7 +9,7 @@ Get identifier
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Identifier {get;}

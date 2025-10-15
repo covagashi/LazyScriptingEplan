@@ -9,7 +9,7 @@ Active Rubber-line cursor.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetRubberlineCursor()

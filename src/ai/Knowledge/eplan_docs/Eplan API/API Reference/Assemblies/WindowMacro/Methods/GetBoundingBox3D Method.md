@@ -9,7 +9,7 @@ Returns the least bounding box containing all 3d elements of macro in current va
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Rect3D GetBoundingBox3D()

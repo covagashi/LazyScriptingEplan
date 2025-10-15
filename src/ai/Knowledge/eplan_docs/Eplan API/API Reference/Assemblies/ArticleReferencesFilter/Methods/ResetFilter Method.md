@@ -9,7 +9,7 @@ Resets the filter. Filter matches all [ArticleReference](Eplan.EplApi.DataModelu
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override void ResetFilter()

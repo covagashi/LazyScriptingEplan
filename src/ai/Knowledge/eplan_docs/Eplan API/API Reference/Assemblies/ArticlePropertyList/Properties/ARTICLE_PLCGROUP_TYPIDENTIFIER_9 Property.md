@@ -9,7 +9,7 @@ PLC subdevice 9: PLC type designation # 22348.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PLCGROUP_TYPIDENTIFIER_9 {get; set;}

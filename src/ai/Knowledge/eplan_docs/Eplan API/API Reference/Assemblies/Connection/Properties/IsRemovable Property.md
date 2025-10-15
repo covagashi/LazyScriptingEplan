@@ -9,7 +9,7 @@ Returns true if the Connection can be removed
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsRemovable {get;}

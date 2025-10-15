@@ -9,7 +9,7 @@ Target power (pneumatic) # 26145.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SETPOINT_OUTPUT_PNEUMATIC {get; set;}

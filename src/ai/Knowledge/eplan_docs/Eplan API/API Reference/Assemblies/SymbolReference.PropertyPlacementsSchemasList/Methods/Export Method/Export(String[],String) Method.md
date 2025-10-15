@@ -9,7 +9,7 @@ Exports the specified customer property placements sets to a file. Note: Only cu
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Export( 

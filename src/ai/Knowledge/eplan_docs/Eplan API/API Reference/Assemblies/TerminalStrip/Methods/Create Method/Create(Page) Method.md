@@ -9,7 +9,7 @@ Creates a TerminalStrip object placed on a [Eplan.EplApi.DataModel.Page](Eplan.E
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

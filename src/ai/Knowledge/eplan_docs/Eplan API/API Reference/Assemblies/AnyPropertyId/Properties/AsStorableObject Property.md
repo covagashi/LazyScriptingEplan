@@ -9,7 +9,7 @@ Gets property id value as [Properties.StorableObject](Eplan.EplApi.DataModelu~Ep
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.StorableObject AsStorableObject {get;}

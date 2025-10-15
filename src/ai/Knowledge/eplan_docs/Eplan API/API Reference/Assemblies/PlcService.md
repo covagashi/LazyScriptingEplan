@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PlcService
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PlcService Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PlcService~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -47,4 +47,4 @@ Public Methods
 | Public Method | [ReaddressTerminals](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PlcService~ReaddressTerminals.html) | Overloaded. Executes PLC terminals addressing |
 | Public Method | [WriteBackConnPointDesignations](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PlcService~WriteBackConnPointDesignations.html) | Overloaded. Writes back connection point designations from the selected overview PLC terminals to associated schematic PLC terminals. |
 
-[Top](#top)
+

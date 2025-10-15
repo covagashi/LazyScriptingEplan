@@ -9,7 +9,7 @@ Lubrication / maintenance # 22141.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MAINTENANCE {get; set;}

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class EventParameterString : IEventParameter
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [EventParameterString Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -35,7 +35,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [String](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString~String.html) | Event parameter of the String type. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -45,4 +45,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString~Dispose().html) | Releases the object. |
 | Public Method | [GetInternalParameter](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventParameterString~GetInternalParameter.html) | For internal use only. |
 
-[Top](#top)
+

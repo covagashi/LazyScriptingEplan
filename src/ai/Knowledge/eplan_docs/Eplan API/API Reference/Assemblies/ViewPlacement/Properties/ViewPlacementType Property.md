@@ -9,7 +9,7 @@ Type of view which is displayed in ViewPlacement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ViewPlacementType ViewPlacementType {get; set;}

@@ -9,7 +9,7 @@ Removes the given part construction position from the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemovePartConstructionPosition( 

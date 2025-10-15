@@ -9,7 +9,7 @@ Array of route elements space through which routing hose is routed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement3D[] RouteNodes {get;}

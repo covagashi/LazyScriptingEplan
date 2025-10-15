@@ -9,7 +9,7 @@ Disable resizing # 20442.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_BOXFUNCTION_FIXEDSIZE {get; set;}

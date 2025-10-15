@@ -15,4 +15,4 @@ Public Methods
 | Public Method | [Load](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDUserDefinedPropertyDefinition~Load().html) | Loads property definition from the database. |
 | Public Method | [Store](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDUserDefinedPropertyDefinition~Store.html) | Stores property definition to the database. |
 
-[Top](#top)
+

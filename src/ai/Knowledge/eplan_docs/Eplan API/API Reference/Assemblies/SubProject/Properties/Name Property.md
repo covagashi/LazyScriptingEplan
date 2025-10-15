@@ -9,7 +9,7 @@ Displayed scheme name of the associated defined working section for the this sub
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString Name {get;}

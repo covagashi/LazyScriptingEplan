@@ -9,7 +9,7 @@ Creates new bending point on a plane of the bus bar
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Plane[] CreateNewBendingPoint( 

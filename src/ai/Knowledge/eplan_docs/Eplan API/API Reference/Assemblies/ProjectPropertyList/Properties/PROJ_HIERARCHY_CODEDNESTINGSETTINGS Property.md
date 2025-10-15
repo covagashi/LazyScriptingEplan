@@ -9,7 +9,7 @@ Nested device tags # 10019.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_CODEDNESTINGSETTINGS {get; set;}

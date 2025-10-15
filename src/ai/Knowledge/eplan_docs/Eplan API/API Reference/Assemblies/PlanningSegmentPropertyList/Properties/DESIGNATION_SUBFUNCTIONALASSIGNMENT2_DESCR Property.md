@@ -9,7 +9,7 @@ Functional assignment (sub-identifier 3) # 1303.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBFUNCTIONALASSIGNMENT3 {get; set;}

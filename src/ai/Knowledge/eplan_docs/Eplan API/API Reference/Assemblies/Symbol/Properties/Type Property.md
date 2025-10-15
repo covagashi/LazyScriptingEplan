@@ -9,7 +9,7 @@ Gets symbol type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Symbol.SymbolType Type {get;}

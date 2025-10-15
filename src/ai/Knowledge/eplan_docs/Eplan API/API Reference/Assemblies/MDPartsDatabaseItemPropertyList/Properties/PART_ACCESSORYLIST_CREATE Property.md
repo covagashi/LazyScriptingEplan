@@ -9,7 +9,7 @@ Creator / Creation date (accessory list) # 22936.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ACCESSORYLIST_CREATE {get; set;}

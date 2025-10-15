@@ -9,7 +9,7 @@ Identificators of properties owned by FunctionBase class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.FunctionBase : System.Enum

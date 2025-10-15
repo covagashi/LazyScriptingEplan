@@ -9,7 +9,7 @@ Pressure range # 26472.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NOMINAL_PRESSURE_RANGE {get; set;}

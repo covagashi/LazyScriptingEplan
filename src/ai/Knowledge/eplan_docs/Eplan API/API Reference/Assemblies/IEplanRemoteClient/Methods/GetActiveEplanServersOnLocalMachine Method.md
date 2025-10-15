@@ -9,7 +9,7 @@ Get Eplan Servers that are currently active on local machine.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void GetActiveEplanServersOnLocalMachine( 

@@ -9,7 +9,7 @@ Gets/sets the Star source property
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsStarSource {get; set;}

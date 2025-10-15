@@ -9,7 +9,7 @@ Input lead # 10040.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_LEADIN {get; set;}

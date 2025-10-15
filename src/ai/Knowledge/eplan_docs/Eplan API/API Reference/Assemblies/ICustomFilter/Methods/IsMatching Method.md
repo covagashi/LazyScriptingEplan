@@ -9,7 +9,7 @@ This method should be overridden in order to implement the filter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool IsMatching( 

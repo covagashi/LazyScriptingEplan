@@ -9,7 +9,7 @@ All [Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement.html)s 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement[] AllFirstLevelPlacements {get;}

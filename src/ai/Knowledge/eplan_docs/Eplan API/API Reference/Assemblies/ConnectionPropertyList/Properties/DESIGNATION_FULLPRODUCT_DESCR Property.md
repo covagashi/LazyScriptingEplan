@@ -9,7 +9,7 @@ Product: Description # 1850.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLPRODUCT_DESCR {get; set;}

@@ -9,7 +9,7 @@ Minimal value(begin, start)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public object FromValue

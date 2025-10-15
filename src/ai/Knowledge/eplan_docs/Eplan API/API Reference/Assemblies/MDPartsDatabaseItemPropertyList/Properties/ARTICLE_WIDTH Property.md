@@ -9,7 +9,7 @@ Width # 22013.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_WIDTH {get; set;}

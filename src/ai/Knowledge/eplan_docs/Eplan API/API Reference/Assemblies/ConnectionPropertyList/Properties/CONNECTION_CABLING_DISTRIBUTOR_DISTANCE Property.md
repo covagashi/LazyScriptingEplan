@@ -9,7 +9,7 @@ Topology: Distance between connection splicers and source # 31138.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_CABLING_DISTRIBUTOR_DISTANCE( 

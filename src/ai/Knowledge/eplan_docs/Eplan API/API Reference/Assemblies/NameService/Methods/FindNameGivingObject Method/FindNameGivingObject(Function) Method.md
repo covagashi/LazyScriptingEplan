@@ -9,7 +9,7 @@ Finds an object, that would give the f function its name, when f has no its inst
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public FunctionBase FindNameGivingObject( 

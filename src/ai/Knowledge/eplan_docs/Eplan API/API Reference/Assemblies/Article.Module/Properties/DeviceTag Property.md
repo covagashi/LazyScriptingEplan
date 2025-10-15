@@ -9,7 +9,7 @@ Returns device tag of the Module.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DeviceTag {get; set;}

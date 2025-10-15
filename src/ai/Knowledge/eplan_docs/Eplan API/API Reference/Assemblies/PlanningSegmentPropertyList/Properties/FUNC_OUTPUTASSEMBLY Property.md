@@ -9,7 +9,7 @@ Output group # 20033.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_OUTPUTASSEMBLY {get; set;}

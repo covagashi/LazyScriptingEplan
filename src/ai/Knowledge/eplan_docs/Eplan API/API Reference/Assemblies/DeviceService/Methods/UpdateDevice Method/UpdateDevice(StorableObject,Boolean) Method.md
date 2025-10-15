@@ -9,7 +9,7 @@ Updates a given device or a connection with data from the referenced article(s).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool UpdateDevice( 

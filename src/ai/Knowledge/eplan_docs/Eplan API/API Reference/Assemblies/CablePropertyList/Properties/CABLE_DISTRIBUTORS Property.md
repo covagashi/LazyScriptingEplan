@@ -9,7 +9,7 @@ Cables: Connection splicers passed through # 35111.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLE_DISTRIBUTORS {get; set;}

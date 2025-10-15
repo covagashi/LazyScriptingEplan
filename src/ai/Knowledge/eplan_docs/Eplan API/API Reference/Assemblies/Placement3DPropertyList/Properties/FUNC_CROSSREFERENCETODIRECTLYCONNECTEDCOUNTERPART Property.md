@@ -9,7 +9,7 @@ Cross-reference to plug counterpiece # 20304.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CROSSREFERENCETODIRECTLYCONNECTEDCOUNTERPART {get; set;}

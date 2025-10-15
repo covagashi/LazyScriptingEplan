@@ -22,4 +22,4 @@ Public Properties
 | Public Property | [Text](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommand~Text.html) | Returns command text |
 | Public Property | [TooltipText](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommand~TooltipText.html) | Returns tooltip text |
 
-[Top](#top)
+

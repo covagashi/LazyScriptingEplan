@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [ConvertCoordinate](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.CoordinateService~ConvertCoordinate.html) | Overloaded. Method that converts from coordinate system based on page type to another |
 | Public Method | [Dispose](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.CoordinateService~Dispose().html) | Destructor |
 
-[Top](#top)
+

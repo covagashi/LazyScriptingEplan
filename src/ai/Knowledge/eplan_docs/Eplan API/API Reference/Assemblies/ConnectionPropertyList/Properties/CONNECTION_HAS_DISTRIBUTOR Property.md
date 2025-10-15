@@ -9,7 +9,7 @@ Connection splicers exist # 31139.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_HAS_DISTRIBUTOR {get; set;}

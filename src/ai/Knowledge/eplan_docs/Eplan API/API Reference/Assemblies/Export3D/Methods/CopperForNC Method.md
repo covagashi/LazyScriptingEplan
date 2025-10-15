@@ -9,7 +9,7 @@ Exports unfolding of bended bus bar as numerical control data.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CopperForNC( 

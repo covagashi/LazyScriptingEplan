@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Import3D
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Import3D Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Import3D~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -38,4 +38,4 @@ Public Methods
 | Public Method | [JT](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Import3D~JT.html) | Imports a 3D file |
 | Public Method | [STEP](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Import3D~STEP.html) | Imports a STEP file |
 
-[Top](#top)
+

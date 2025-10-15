@@ -9,7 +9,7 @@ This function imports a device list into a given project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ImportDeviceList( 

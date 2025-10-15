@@ -9,7 +9,7 @@ Returns an enumerator that iterates through the function definitions of this lib
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual IEnumerator<FunctionDefinition> GetEnumerator2()

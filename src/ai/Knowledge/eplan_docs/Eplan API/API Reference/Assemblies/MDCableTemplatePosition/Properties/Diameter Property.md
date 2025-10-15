@@ -9,7 +9,7 @@ The cross-section / diameter of the cable template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Diameter {get; set;}

@@ -9,7 +9,7 @@ Sales price Currency 2 # 22108.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SALESPRICE_2 {get; set;}

@@ -9,7 +9,7 @@ Intrinsically safe # 21003.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNCTEMPLATE_INTRINSICALLYSAFE {get; set;}

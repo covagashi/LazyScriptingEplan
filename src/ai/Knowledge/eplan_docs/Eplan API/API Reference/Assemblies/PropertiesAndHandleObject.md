@@ -18,7 +18,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PropertiesAndHandleObject
@@ -31,7 +31,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Properties](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObject~Properties.html) | Property enabling access to MasterData properties of the PropertiesAndHandleObject object. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -39,4 +39,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObject~Dispose().html) | Destructor for deterministic finalization of PropertiesAndHandleObject object. |
 
-[Top](#top)
+

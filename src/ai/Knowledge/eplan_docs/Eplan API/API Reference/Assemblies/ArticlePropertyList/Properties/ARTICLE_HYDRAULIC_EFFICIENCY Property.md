@@ -9,7 +9,7 @@ Hydraulic efficiency # 26380.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_HYDRAULIC_EFFICIENCY {get; set;}

@@ -15,4 +15,4 @@ Public Methods
 | Public Method | [SetSchema](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ChangeOfStandard~SetSchema.html) | Set mapping scheme. |
 | Public Method | [TransformObjects](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ChangeOfStandard~TransformObjects.html) | Transforms all objects from source page to target page. |
 
-[Top](#top)
+

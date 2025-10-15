@@ -9,7 +9,7 @@ Reporting direction # 12103.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_EVALUATION_DIRECTION {get; set;}

@@ -9,7 +9,7 @@ No. of connections and cross-section / diameter # 22069.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_WIRECROSSSECTION_AND_DIAMETER {get; set;}

@@ -9,7 +9,7 @@ Adds new command group to existing ribbon tab
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonCommandGroup AddCommandGroup( 

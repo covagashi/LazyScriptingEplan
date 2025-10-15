@@ -9,7 +9,7 @@ Creates a new object to handle events.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EventHandler()

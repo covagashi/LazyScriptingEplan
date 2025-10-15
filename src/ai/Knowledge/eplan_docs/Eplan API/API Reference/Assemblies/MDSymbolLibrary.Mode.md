@@ -9,7 +9,7 @@ Mode of Open method.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MDSymbolLibrary.Mode : System.Enum

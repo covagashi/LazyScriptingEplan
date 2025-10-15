@@ -9,7 +9,7 @@ Exports to a special file. All Parameter are in the context.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool ExportDirect( 

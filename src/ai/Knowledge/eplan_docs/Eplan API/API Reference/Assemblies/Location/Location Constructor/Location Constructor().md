@@ -9,7 +9,7 @@ Constructor. When an object is created with this constructor, its `Create` metho
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Location()

@@ -9,7 +9,7 @@ constructor of MDPartsManagement
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartsManagement()

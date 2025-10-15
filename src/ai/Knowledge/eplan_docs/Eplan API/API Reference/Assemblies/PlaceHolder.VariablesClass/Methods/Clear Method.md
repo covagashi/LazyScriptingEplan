@@ -9,7 +9,7 @@ Removes variables from a placeholder
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Clear()

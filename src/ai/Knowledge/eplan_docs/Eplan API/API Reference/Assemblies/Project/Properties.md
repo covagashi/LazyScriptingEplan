@@ -51,4 +51,4 @@ Public Properties
 | Public Property | [TypeOfProject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project~TypeOfProject.html) | Type of project To change this property project will be reopened temporarily in exclusive mode. If project cannot be reopened in exclusive mode BaseException will be thrown. |
 | Public Property | [UserDefinedPropertyDefinitions](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Project~UserDefinedPropertyDefinitions.html) | Returns array of all [UserDefinedPropertyDefinition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UserDefinedPropertyDefinition.html) from this project. |
 
-[Top](#top)
+

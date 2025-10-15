@@ -9,7 +9,7 @@ Cables: Number of shields # 35102.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLE_COUNTOFSHIELDS {get; set;}

@@ -9,7 +9,7 @@ EPLAN properties of the SegmentTemplate object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new SegmentTemplatePropertyList Properties {get;}

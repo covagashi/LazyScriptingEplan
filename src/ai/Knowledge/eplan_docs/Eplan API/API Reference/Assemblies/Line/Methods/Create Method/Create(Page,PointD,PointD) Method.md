@@ -9,7 +9,7 @@ Creates the Line object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

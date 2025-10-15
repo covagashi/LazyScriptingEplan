@@ -17,4 +17,4 @@ Public Properties
 | Public Property | [UpperRight](Eplan.EplApi.Baseu~Eplan.EplApi.Base.RectangleD~UpperRight.html) | Returns upper right corner of the rectangle. |
 | Public Property | [Width](Eplan.EplApi.Baseu~Eplan.EplApi.Base.RectangleD~Width.html) | Returns width of the rectangle. |
 
-[Top](#top)
+

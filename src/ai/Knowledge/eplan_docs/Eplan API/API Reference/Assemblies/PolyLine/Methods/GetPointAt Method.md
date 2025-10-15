@@ -9,7 +9,7 @@ Returns the coordinates of a vertex of a polyline
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD GetPointAt( 

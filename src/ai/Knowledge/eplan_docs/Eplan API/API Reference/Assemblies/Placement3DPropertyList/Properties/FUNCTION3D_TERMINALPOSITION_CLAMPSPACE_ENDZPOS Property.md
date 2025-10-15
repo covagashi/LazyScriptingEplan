@@ -9,7 +9,7 @@ Z end point: Clamping space # 36085.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_TERMINALPOSITION_CLAMPSPACE_ENDZPOS( 

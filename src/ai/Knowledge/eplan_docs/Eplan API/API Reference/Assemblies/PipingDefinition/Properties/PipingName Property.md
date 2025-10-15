@@ -9,7 +9,7 @@ Gets/Sets piping name of object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PipingName {get; set;}

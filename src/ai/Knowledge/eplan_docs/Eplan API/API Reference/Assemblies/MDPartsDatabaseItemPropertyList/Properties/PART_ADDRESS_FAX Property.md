@@ -9,7 +9,7 @@ Fax # 22923.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ADDRESS_FAX {get; set;}

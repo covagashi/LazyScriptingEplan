@@ -9,7 +9,7 @@ Specifies, if the layer is locked
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool isLocked {get; set;}

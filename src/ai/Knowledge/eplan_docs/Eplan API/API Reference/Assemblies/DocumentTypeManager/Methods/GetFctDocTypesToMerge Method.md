@@ -9,7 +9,7 @@ Returns those page document types, for which a function placed on this page shou
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static DocumentTypeManager.DocumentType[] GetFctDocTypesToMerge()

@@ -9,7 +9,7 @@ EPLAN properties of the PCTLoop object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new PCTLoopPropertyList Properties {get;}

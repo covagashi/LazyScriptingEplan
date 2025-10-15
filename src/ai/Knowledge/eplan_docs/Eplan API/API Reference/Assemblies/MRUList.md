@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MRUList
@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MRUList Constructor](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.MRUList~_ctor.html) | Creates a new object. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -46,4 +46,4 @@ Public Methods
 | Public Method | [SetProject](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.MRUList~SetProject.html) | Sets project. |
 | Public Method | [UpdateMruList](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.MRUList~UpdateMruList.html) | Updates MRU list. |
 
-[Top](#top)
+

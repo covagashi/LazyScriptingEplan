@@ -22,4 +22,4 @@ Public Methods
 | Public Method | [PrepareMacros](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Masterdata~PrepareMacros.html) | Overloaded. Prepares and groups all elements belonging to a macro box or page macro. |
 | Public Method | [UpdateProject](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Masterdata~UpdateProject.html) | Method for updating project master data. |
 
-[Top](#top)
+

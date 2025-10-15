@@ -9,7 +9,7 @@ This constructor initialize function definition library using %%.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public FunctionDefinitionLibrary( 

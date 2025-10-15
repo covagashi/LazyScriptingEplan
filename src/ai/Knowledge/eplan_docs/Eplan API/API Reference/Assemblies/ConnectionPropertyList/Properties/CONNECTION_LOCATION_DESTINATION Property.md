@@ -9,7 +9,7 @@ Target: Placement # 31022.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_LOCATION_DESTINATION {get; set;}

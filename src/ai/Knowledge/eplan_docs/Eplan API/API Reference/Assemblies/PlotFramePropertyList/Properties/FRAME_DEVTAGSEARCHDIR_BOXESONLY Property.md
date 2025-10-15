@@ -9,7 +9,7 @@ DT adoption: Only from boxes # 12105.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_DEVTAGSEARCHDIR_BOXESONLY {get; set;}

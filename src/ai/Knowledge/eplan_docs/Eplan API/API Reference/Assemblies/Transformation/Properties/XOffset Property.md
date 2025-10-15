@@ -9,7 +9,7 @@ Set offset in x-direction
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double XOffset {get; set;}

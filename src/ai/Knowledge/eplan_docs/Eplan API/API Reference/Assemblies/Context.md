@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Context : IContext
@@ -29,7 +29,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Context Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -47,4 +47,4 @@ Public Methods
 | Public Method | [SetEContext](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~SetEContext.html) | For internal use only. |
 | Public Method | [SetStrings](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~SetStrings.html) | Sets the array filled with strings from the context. (Additional to the parameters) |
 
-[Top](#top)
+

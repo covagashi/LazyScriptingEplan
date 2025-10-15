@@ -9,7 +9,7 @@ Possible types of forced rotation when the snap is done.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Mate.Enums.RotationType : System.Enum

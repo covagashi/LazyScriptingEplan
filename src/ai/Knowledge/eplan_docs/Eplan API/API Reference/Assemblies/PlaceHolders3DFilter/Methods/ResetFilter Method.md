@@ -9,7 +9,7 @@ Resets the filter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override void ResetFilter()

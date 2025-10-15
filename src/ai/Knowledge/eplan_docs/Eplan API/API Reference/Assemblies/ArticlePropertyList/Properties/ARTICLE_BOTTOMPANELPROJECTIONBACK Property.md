@@ -9,7 +9,7 @@ Overhang: Base back # 22184.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_BOTTOMPANELPROJECTIONBACK {get; set;}

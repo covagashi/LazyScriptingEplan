@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PageMacro : Macro
@@ -28,7 +28,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PageMacro Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.PageMacro~_ctor.html) | Constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -41,7 +41,7 @@ Public Properties
 | Public Property | [Pages](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.PageMacro~Pages.html) | Overridden. Returns pages, which are contained in the macro. |
 | Public Property | [PlaceHolders](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.PageMacro~PlaceHolders.html) | Returns all Eplan.EplApi.DataModel.Graphics.PlaceHolder contained in the macro. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -52,4 +52,4 @@ Public Methods
 | Public Method | [Open](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.PageMacro~Open(String,Project).html) | Opens a macro file and retrieves infomation from it. |
 | Public Method | [StoreExternalFilesOfCurrentVariant](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.Macro~StoreExternalFilesOfCurrentVariant.html) | Copies external files into project images directory (Inherited from [Eplan.EplApi.DataModel.MasterData.Macro](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.Macro.html)) |
 
-[Top](#top)
+

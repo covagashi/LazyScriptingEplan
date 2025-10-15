@@ -27,7 +27,7 @@ Predefined line type index values are:
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short StyleId {get; set;}

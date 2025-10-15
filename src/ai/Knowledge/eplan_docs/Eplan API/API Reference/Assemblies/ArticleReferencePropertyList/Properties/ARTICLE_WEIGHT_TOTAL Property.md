@@ -9,7 +9,7 @@ Total weight (part) # 26372.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_WEIGHT_TOTAL {get; set;}

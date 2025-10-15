@@ -9,7 +9,7 @@ If true, all messages with the same region and message id are removed after OnSt
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public abstract void OnRegister( 

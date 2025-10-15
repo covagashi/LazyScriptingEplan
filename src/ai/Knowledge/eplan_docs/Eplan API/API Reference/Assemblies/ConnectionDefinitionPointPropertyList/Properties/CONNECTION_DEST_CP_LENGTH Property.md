@@ -9,7 +9,7 @@ Connection: Connection point length target # 31083.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_DEST_CP_LENGTH {get; set;}

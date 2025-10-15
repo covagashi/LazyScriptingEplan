@@ -9,7 +9,7 @@ Constructor with name of scheme given by user.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InvalidScheme( 

@@ -9,7 +9,7 @@ Constructor. Creates a NameService3D object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public NameService3D( 

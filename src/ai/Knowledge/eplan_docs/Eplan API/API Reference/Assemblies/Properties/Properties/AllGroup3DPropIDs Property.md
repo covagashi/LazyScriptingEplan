@@ -9,7 +9,7 @@ Returns an array of all property ids which can exist for Group3D objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static AnyPropertyId[] AllGroup3DPropIDs {get;}

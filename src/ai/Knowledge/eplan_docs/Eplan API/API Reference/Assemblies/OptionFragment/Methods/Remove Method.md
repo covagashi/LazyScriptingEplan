@@ -9,7 +9,7 @@ Removes the OptionFragment
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Remove()

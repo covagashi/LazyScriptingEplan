@@ -9,7 +9,7 @@ Check if the Group is editable.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsEditable()

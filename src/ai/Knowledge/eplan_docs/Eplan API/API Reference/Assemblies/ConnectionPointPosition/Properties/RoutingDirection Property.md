@@ -9,7 +9,7 @@ Connection point routing direction of an individual connection point in the conn
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RoutingDirections RoutingDirection {get; set;}

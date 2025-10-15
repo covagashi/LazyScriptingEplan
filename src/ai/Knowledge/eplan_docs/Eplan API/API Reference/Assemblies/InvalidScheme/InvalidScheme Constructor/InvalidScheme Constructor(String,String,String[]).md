@@ -9,7 +9,7 @@ Constructor with scheme parameter name, scheme name and all the valid scheme nam
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InvalidScheme( 

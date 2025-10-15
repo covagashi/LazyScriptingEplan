@@ -9,7 +9,7 @@ Cables: Number of PE conductors # 35103.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLE_COUNTOFPEWIRES {get; set;}

@@ -9,7 +9,7 @@ Thermal design: Air-conditioning field # 36054.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_POWERDISSIPATION_CABINET_ZONE {get; set;}

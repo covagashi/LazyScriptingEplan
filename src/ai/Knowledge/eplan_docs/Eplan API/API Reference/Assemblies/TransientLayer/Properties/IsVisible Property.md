@@ -9,7 +9,7 @@ Specifies visibility of the Layer
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsVisible {get;}

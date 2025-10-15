@@ -9,7 +9,7 @@ PLC bus address of the PLC bus port.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string BusAddress {get; set;}

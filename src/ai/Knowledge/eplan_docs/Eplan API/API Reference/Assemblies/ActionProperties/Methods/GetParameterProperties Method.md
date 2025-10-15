@@ -9,7 +9,7 @@ Returns all descriptions of the context parameters.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ArrayList GetParameterProperties()

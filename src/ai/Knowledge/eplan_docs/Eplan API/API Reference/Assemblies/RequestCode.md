@@ -9,7 +9,7 @@ Available request which can be done by interaction event handler.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [Flags()]

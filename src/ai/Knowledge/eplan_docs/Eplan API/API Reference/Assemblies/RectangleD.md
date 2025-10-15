@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public struct RectangleD : System.ValueType
@@ -28,7 +28,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [RectangleD Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.RectangleD~_ctor.html) | Constructor which spans rectangle on two points. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -41,4 +41,4 @@ Public Properties
 | Public Property | [UpperRight](Eplan.EplApi.Baseu~Eplan.EplApi.Base.RectangleD~UpperRight.html) | Returns upper right corner of the rectangle. |
 | Public Property | [Width](Eplan.EplApi.Baseu~Eplan.EplApi.Base.RectangleD~Width.html) | Returns width of the rectangle. |
 
-[Top](#top)
+

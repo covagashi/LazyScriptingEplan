@@ -9,7 +9,7 @@ Sets page names.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SetPages( 

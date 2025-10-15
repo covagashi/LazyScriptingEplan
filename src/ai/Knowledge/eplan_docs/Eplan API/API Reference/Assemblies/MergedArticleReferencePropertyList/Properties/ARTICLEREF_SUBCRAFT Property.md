@@ -9,7 +9,7 @@ Subtrade of part reference # 40344.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_SUBCRAFT {get; set;}

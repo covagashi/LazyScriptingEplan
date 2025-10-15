@@ -9,7 +9,7 @@ Gets the selected pages.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Page[] GetSelectedPages()

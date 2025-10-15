@@ -9,7 +9,7 @@ Creates a new SymbolLibrary
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static MDSymbolLibrary Create( 

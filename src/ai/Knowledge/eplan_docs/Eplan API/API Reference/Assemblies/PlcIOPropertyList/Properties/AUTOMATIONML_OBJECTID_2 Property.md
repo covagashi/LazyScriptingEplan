@@ -9,7 +9,7 @@ AutomationML GUID 2 # 25031.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue AUTOMATIONML_OBJECTID_2( 

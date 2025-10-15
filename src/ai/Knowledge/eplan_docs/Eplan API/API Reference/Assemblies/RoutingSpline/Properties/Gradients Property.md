@@ -9,7 +9,7 @@ Array of gradients an nodes of spline.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D[] Gradients {get; set;}

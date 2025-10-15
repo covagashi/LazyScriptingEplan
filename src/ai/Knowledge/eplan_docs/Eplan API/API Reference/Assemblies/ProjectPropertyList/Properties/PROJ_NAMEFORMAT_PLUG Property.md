@@ -9,7 +9,7 @@ Naming format for plugs # 10080.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_NAMEFORMAT_PLUG {get; set;}

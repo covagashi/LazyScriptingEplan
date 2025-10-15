@@ -9,7 +9,7 @@ Last translation: Date # 10024.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_LASTTRANSLATIONDATE {get; set;}

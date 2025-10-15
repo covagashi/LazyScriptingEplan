@@ -9,7 +9,7 @@ Assigns a SignalType to the Pin.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Pin.SignalType Signal {get; set;}

@@ -9,7 +9,7 @@ Returns true if topology line is a direct line.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsDirectLine {get;}

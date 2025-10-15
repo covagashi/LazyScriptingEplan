@@ -9,7 +9,7 @@ Constructor with an option.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Export( 

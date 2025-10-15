@@ -9,7 +9,7 @@ Returns [BoxedDevice](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.BoxedDevice
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public BoxedDevice[] GetBoxedDevicesWithCF( 

@@ -9,7 +9,7 @@ Drilling pattern # 22217.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_REF_CONSTRUCTION_NAME {get; set;}

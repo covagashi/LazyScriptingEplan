@@ -9,7 +9,7 @@ Format of displayed DT: Fluid connection splicer / line connector # 10634.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DTFORMAT_DISTRIBUTOR {get; set;}

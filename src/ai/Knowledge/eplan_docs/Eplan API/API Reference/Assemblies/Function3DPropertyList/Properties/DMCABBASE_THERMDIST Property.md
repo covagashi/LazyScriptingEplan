@@ -9,7 +9,7 @@ Thermal design: Maximum reach # 36460.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMCABBASE_THERMDIST {get; set;}

@@ -9,7 +9,7 @@ Supplier # 22008.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SUPPLIER {get; set;}

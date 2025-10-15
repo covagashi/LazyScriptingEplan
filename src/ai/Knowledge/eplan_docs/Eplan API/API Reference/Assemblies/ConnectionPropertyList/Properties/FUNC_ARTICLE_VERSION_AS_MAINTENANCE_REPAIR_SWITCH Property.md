@@ -9,7 +9,7 @@ Design as maintenance / repair switch # 31178.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_VERSION_AS_MAINTENANCE_REPAIR_SWITCH( 

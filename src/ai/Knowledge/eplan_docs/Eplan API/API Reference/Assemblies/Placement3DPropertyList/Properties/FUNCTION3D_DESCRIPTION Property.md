@@ -9,7 +9,7 @@ Item description # 36018.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_DESCRIPTION {get; set;}

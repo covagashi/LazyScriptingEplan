@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [ActiveProjectManagementDatabase](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ProjectManagement~ActiveProjectManagementDatabase.html) | Returns or sets the type of current project management database. Possible values are DatabaseType.SQL and DatabaseType.EPLAN |
 | Public Property | [ProjectManagementDatabase](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ProjectManagement~ProjectManagementDatabase.html) | Returns or sets the complete filename of the current projectmanagement database or connection string if SQL connection is selected. |
 
-[Top](#top)
+

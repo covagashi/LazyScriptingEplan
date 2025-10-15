@@ -9,7 +9,7 @@ Gets or sets object's graphical layer.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public GraphicalLayer Layer {get; set;}

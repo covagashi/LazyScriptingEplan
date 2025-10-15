@@ -24,4 +24,4 @@ Public Properties
 | Public Property | [ScreenPosition](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Position~ScreenPosition.html) | Position of mouse in the system (Windows) coordinate system. |
 | Public Property | [SnapPosition](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Position~SnapPosition.html) | Position found snap point near mouse position. |
 
-[Top](#top)
+

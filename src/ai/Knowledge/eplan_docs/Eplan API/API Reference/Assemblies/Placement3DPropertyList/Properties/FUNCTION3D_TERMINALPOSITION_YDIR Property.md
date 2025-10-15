@@ -9,7 +9,7 @@ Connection point pattern: Y vector # 36073.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_TERMINALPOSITION_YDIR( 

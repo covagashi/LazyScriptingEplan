@@ -9,7 +9,7 @@ Indicates if proxy is active. Default = false.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Active {get; set;}

@@ -21,4 +21,4 @@ Public Methods
 | Public Method | [IsRightExisting](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights~IsRightExisting.html) | Returns the right existance |
 | Public Method | [SetUser](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.UserRights~SetUser.html) | Sets the user. |
 
-[Top](#top)
+

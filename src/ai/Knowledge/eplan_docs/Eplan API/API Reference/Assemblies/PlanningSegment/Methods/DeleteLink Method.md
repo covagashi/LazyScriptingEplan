@@ -9,7 +9,7 @@ Deletes a link from this object that links given targetSegment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool DeleteLink( 

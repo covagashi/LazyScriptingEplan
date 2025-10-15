@@ -9,7 +9,7 @@ Create a new part with identical data. That new part will get a new unique part 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPart Duplicate()

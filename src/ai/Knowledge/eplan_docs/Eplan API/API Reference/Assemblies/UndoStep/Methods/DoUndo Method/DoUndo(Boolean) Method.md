@@ -9,7 +9,7 @@ Make Undo action - reverse all operations up to last CloseOpenUndo call or inita
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DoUndo( 

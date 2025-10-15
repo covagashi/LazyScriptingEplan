@@ -9,7 +9,7 @@ Checks if a part with the given part number exists.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExistsPart( 

@@ -9,7 +9,7 @@ If true, digital addresses will be changed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ChangeDigital {get; set;}

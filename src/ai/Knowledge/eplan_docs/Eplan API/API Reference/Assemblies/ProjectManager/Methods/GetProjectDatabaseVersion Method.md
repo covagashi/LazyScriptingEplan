@@ -9,7 +9,7 @@ Project database version.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ProjectManager.DatabaseVersion GetProjectDatabaseVersion( 

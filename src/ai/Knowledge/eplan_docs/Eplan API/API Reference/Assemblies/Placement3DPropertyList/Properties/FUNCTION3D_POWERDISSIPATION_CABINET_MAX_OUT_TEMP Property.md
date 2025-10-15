@@ -9,7 +9,7 @@ Thermal design: Max. external temperature # 36051.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_POWERDISSIPATION_CABINET_MAX_OUT_TEMP {get; set;}

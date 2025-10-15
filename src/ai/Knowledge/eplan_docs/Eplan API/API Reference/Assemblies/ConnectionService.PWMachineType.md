@@ -9,7 +9,7 @@ Supported types of wire fabrication machine for wire manufacturing data export.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ConnectionService.PWMachineType : System.Enum

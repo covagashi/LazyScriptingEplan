@@ -9,7 +9,7 @@ Reads string value from project settings
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string GetStringSetting( 

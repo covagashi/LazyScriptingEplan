@@ -9,7 +9,7 @@ Format of full DT: Fluid connection splicer / line connector # 10654.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_FULLDTFORMAT_DISTRIBUTOR {get; set;}

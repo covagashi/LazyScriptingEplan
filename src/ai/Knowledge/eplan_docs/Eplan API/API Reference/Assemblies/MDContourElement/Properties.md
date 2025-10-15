@@ -16,4 +16,4 @@ Public Properties
 | Public Property | [StartPoint](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDContourElement~StartPoint.html) | Starting point of contour element relative to reference point. |
 | Public Property | [TypeOfConture](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDContourElement~TypeOfConture.html) | Type of curve which connects start with end point. |
 
-[Top](#top)
+

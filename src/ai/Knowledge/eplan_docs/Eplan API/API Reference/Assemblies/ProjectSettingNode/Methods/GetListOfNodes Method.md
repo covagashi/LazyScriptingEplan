@@ -9,7 +9,7 @@ Determines all settings nodes.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override void GetListOfNodes( 

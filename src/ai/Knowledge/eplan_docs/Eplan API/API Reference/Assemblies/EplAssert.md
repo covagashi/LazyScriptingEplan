@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class EplAssert
@@ -42,7 +42,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [EplAssert Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.EplAssert~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -50,4 +50,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Assert](Eplan.EplApi.Baseu~Eplan.EplApi.Base.EplAssert~Assert.html) | A Delevoper Assertion. When the boolean Expression fails, the debugged application fails into the debugger. Some Text is written to the EplLog.txt |
 
-[Top](#top)
+

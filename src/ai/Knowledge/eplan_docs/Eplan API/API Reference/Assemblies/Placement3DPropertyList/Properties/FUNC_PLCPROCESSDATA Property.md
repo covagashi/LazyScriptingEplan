@@ -9,7 +9,7 @@ Process object # 20097.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCPROCESSDATA {get; set;}

@@ -9,7 +9,7 @@ Nominal size # 22225.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_WIDTHRATING {get; set;}

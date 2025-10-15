@@ -9,7 +9,7 @@ Converts this MDPropertyValue object to `doule`.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double ToDouble()

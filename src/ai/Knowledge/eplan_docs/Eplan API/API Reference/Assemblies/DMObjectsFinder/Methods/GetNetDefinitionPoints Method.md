@@ -9,7 +9,7 @@ This function takes objects of class [NetDefinitionPoint](Eplan.EplApi.DataModel
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public NetDefinitionPoint[] GetNetDefinitionPoints( 

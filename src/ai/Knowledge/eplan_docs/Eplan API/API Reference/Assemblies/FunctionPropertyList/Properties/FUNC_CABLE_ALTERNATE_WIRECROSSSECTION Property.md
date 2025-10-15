@@ -9,7 +9,7 @@ Cable / Conduit: Alternative cross-section / diameter # 20125.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_ALTERNATE_WIRECROSSSECTION {get; set;}

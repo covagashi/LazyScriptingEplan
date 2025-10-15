@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class TerminalsService
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [TerminalsService Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.TerminalsService~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -37,4 +37,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.TerminalsService~Dispose().html) | Destructor |
 | Public Method | [OptimizeDistributedTerminals](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.TerminalsService~OptimizeDistributedTerminals.html) | Overloaded. Optimize all distributed terminals of all terminal strips in the project |
 
-[Top](#top)
+

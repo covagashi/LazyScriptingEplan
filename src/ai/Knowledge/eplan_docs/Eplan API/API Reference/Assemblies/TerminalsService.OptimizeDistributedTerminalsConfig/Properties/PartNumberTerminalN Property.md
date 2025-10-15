@@ -9,7 +9,7 @@ Part number that the distributed main terminal with 'N' potential will get. If t
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PartNumberTerminalN {get; set;}

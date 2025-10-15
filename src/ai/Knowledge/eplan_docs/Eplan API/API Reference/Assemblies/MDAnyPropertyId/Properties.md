@@ -18,4 +18,4 @@ Public Properties
 | Public Property | [Id](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAnyPropertyId~Id.html) | Integer id of this property. |
 | Public Property | [Index](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAnyPropertyId~Index.html) | Index of the property. |
 
-[Top](#top)
+

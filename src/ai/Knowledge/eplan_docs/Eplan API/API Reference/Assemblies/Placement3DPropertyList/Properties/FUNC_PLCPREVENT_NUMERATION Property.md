@@ -9,7 +9,7 @@ Prevent numbering with PLC data # 20430.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCPREVENT_NUMERATION {get; set;}

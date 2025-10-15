@@ -9,7 +9,7 @@ Adds local plug templates to the plug strip.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddLocalFunctionTemplates( 

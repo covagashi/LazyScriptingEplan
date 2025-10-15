@@ -9,7 +9,7 @@ Number of connections # 22031.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CABLEWIRECOUNT {get; set;}

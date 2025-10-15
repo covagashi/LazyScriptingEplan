@@ -9,7 +9,7 @@ Gets placement area absolute coordinates.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D[] Coordinates {get;}

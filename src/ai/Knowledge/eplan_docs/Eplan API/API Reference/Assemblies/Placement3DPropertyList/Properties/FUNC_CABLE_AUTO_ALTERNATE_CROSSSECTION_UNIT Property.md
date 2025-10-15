@@ -9,7 +9,7 @@ Cable / Conduit: Alternative cross-section / diameter with unit # 20127.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_AUTO_ALTERNATE_CROSSSECTION_UNIT {get; set;}

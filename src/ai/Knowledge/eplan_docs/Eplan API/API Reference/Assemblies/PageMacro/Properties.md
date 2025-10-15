@@ -17,4 +17,4 @@ Public Properties
 | Public Property | [Pages](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.PageMacro~Pages.html) | Overridden. Returns pages, which are contained in the macro. |
 | Public Property | [PlaceHolders](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.PageMacro~PlaceHolders.html) | Returns all Eplan.EplApi.DataModel.Graphics.PlaceHolder contained in the macro. |
 
-[Top](#top)
+

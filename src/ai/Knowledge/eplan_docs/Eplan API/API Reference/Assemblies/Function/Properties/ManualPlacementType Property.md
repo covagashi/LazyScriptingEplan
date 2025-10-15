@@ -9,7 +9,7 @@ Gets custom placement type. Placement type express how function will be shown on
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DocumentTypeManager.DocumentType ManualPlacementType {get; set;}

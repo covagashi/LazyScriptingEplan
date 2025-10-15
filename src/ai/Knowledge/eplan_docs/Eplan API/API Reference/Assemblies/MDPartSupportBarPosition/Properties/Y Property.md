@@ -9,7 +9,7 @@ The y position of the referenced support bar part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Y {get; set;}

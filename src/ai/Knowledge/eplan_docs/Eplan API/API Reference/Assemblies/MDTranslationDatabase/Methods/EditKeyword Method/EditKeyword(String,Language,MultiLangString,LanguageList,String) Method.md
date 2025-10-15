@@ -9,7 +9,7 @@ Edits keyword
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool EditKeyword( 

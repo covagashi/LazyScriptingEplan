@@ -9,7 +9,7 @@ Mounting panel: Max. mounting depth # 22118.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PANELDEPTH {get; set;}

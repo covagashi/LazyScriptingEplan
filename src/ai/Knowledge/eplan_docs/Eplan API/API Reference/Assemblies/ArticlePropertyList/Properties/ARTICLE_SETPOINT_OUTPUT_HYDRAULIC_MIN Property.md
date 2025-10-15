@@ -9,7 +9,7 @@ Target power (hydraulic), min. # 26144.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SETPOINT_OUTPUT_HYDRAULIC_MIN {get; set;}

@@ -9,7 +9,7 @@ Exports a missing-word list of the given objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExportMissingTranslation( 

@@ -9,7 +9,7 @@ Plugs: Standard / inverse # 22098.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_STANDARDINVERS {get; set;}

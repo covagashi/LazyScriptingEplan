@@ -9,7 +9,7 @@ Number of connecting points # 16902.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMBVAR_CONPOINTSCOUNT {get; set;}

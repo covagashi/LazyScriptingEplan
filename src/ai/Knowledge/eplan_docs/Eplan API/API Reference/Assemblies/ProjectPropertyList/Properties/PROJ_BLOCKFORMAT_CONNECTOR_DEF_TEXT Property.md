@@ -9,7 +9,7 @@ Block property: Format (plug definition) # 10603.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_CONNECTOR_DEF_TEXT( 

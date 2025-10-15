@@ -9,7 +9,7 @@ Method used by operator[] in order to access indexed properties by MDAnyProperty
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new MDPropertyValue Property( 

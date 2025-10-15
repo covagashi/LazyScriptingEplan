@@ -9,7 +9,7 @@ Specific heat output # 26569.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_HEAT_OUTPUT_SPECIFIC {get; set;}

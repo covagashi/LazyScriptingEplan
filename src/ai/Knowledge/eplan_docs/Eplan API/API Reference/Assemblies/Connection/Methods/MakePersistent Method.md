@@ -9,7 +9,7 @@ Allows to create non-placed connection from a connection template. In effect con
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void MakePersistent()

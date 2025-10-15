@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ConnectionsFilter : AbstractDMObjectFilter
@@ -108,7 +108,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ConnectionsFilter Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionsFilter~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -116,7 +116,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Function](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionsFilter~Function.html) | Sets the [Function](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function.html) that [Connection](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Connection.html)s matching the filter must have as the start or the end function. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -126,4 +126,4 @@ Public Methods
 | Public Method | [ResetFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionsFilter~ResetFilter.html) | Overridden. Resets the filter. Filter matches all [Connection](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Connection.html)s then. |
 | Public Method | [SetFilteredPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionsFilter~SetFilteredPropertyList.html) | Sets the [ConnectionPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPropertyList.html) that [Connection](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Connection.html)s matching the filter must have. |
 
-[Top](#top)
+

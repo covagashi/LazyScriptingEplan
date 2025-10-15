@@ -9,7 +9,7 @@ Displays the Eplan System error messages dialog.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ShowSystemErrorDlg()

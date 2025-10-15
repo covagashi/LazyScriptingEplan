@@ -12,7 +12,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PlaceHolder.VariablesClass.VariablesEnumerator
@@ -25,7 +25,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PlaceHolder.VariablesClass.VariablesEnumerator Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+VariablesClass+VariablesEnumerator~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -34,7 +34,7 @@ Public Properties
 | Public Property | [Current](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+VariablesClass+VariablesEnumerator~Current.html) |  |
 | Public Property | [Current2](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+VariablesClass+VariablesEnumerator~Current2.html) |  |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -44,4 +44,4 @@ Public Methods
 | Public Method | [MoveNext](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+VariablesClass+VariablesEnumerator~MoveNext.html) |  |
 | Public Method | [Reset](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+VariablesClass+VariablesEnumerator~Reset.html) |  |
 
-[Top](#top)
+

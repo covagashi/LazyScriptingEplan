@@ -9,7 +9,7 @@ Design # 26229.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TYPE_OF_CONSTRUCTION {get; set;}

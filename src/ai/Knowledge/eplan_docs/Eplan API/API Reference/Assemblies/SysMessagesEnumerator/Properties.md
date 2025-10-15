@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Current](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesEnumerator~Current.html) | gets the current element in [SysMessagesCollection](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection.html) |
 
-[Top](#top)
+

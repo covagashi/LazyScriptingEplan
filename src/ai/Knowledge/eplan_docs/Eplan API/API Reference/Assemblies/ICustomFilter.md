@@ -9,7 +9,7 @@ This is an interface that can be used for user-defined filtering in [DMObjectsFi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public interface ICustomFilter
@@ -61,4 +61,4 @@ Public Methods
 | --- | --- | --- |
 | Method | [IsMatching](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ICustomFilter~IsMatching.html) | This method should be overridden in order to implement the filter. |
 
-[Top](#top)
+

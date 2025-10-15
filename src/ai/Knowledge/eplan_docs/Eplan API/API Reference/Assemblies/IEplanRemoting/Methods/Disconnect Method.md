@@ -9,7 +9,7 @@ Disconnect from service.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void Disconnect()

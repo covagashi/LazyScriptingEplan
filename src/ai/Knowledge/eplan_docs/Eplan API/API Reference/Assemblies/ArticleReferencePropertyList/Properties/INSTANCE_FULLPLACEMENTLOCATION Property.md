@@ -9,7 +9,7 @@ Placement # 19007.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_FULLPLACEMENTLOCATION {get; set;}

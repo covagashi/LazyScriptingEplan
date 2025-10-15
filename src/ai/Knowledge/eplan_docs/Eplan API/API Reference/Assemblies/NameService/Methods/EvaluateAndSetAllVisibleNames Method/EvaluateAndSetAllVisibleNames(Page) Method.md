@@ -9,7 +9,7 @@ Sets the page and evaluate the visible names from the full names for all placed 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool EvaluateAndSetAllVisibleNames( 

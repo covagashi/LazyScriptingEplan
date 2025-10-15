@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Placement3DService
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Placement3DService Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Placement3DService~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -42,4 +42,4 @@ Public Methods
 | Public Method | [LineUp](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Placement3DService~LineUp.html) | Lines up together the given children of a mounting rail to the certain target direction. |
 | Public Method | [UpdatePartPlacement](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Placement3DService~UpdatePartPlacement.html) | Updates part placements |
 
-[Top](#top)
+

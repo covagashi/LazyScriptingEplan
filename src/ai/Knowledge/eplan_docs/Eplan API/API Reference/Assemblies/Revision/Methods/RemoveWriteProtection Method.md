@@ -9,7 +9,7 @@ Removes write protection on a project (i.e. opens the current revision for chang
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveWriteProtection( 

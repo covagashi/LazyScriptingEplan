@@ -9,7 +9,7 @@ Start address value to use for digital addresses. If empty, a default value will
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DigitalStartAddress {get; set;}

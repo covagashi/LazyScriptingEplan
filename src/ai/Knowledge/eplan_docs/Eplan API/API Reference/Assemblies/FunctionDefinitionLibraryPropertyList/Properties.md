@@ -25,4 +25,4 @@ Public Properties
 | Public Property | [PROPUSER\_LAST\_USERNAME](topic735.html) | Last editor: Name # 3011. |
 | Public Property | [PROPUSER\_LAST\_USERPHONE](topic736.html) | Last editor: Phone # 3012. |
 
-[Top](#top)
+

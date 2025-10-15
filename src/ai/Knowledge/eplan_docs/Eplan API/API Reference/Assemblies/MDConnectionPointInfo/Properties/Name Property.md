@@ -9,7 +9,7 @@ Returns the name of the connection point info. This name is the unique key.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get; set;}

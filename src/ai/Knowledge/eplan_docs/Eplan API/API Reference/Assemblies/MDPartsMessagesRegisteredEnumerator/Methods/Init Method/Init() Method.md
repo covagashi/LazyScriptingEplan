@@ -9,7 +9,7 @@ Initializes the enumerator for iterating over the collection of all registered m
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Init()

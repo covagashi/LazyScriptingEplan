@@ -9,7 +9,7 @@ Plugs: Pin type # 22099.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CONTACTTYPE {get; set;}

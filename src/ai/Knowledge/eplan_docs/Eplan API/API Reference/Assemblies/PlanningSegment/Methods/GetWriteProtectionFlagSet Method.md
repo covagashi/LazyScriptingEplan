@@ -9,7 +9,7 @@ Checks if a specific write protection kind was set.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool GetWriteProtectionFlagSet( 

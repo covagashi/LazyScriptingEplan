@@ -9,7 +9,7 @@ Measuring range: Concentration measurement # 26448.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MEASURING_RANGE_OF_THE_CONCENTRATION_MEASUREMENT {get; set;}

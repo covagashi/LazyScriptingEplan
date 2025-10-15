@@ -9,7 +9,7 @@ Break up in summarized parts list # 22292.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DISASSEMBLE_MODE {get; set;}

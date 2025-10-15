@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [PartNr](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReferencesFilter~PartNr.html) | Gets/Sets the part number that was set to this filter. |
 
-[Top](#top)
+

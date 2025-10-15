@@ -9,7 +9,7 @@ Gets all accessory lists that are stored in the parts database. They are sorted 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAccessoryPlacement[] AccessoryPlacements {get;}

@@ -9,7 +9,7 @@ Array of points in 3d space through which routing hose is routed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D[] RoutePoints {get;}

@@ -9,7 +9,7 @@ Structure of the tree structure in the device navigators # 10094.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_PDD_DEVICES_HIERARCHY {get; set;}

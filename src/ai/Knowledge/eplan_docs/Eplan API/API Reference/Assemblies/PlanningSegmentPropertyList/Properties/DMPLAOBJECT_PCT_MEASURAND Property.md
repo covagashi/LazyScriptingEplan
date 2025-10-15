@@ -9,7 +9,7 @@ Measurand # 44036.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PCT_MEASURAND {get; set;}

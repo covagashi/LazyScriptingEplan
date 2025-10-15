@@ -9,7 +9,7 @@ String for column designation # 12027.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_PATH_ALPHASET( 

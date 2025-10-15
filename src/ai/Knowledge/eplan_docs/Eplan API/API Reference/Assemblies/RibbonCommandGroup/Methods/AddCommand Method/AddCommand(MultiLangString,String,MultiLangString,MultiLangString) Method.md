@@ -9,7 +9,7 @@ Backs up master data. Master data include: Symbol libraries, plot frames, forms,
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void MasterData( 

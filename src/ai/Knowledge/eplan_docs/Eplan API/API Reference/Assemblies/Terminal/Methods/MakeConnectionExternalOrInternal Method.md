@@ -9,7 +9,7 @@ Forces one of the terminal's connections to be treated as internal or external c
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void MakeConnectionExternalOrInternal( 

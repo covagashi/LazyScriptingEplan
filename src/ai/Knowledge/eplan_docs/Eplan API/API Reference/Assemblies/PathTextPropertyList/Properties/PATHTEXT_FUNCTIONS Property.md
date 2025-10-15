@@ -9,7 +9,7 @@ Affected functions # 19800.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PATHTEXT_FUNCTIONS {get; set;}

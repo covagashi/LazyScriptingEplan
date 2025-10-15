@@ -9,7 +9,7 @@ Center mismatch # 22215.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MIDDLEOFFSET {get; set;}

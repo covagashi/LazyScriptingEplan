@@ -25,4 +25,4 @@ Public Methods
 | Public Method | [ToString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString~ToString.html) | Returns a string that represents the current object. |
 | Public Method | [Translatable](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString~Translatable.html) | Indicates whether the MultiLanguageString can be translated. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ User-defined property arrangement: Name # 19008.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_USER_DEFINED_PROPERTYSET {get; set;}

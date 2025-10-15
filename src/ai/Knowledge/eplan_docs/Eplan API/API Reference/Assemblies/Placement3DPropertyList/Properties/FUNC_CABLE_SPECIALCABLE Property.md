@@ -9,7 +9,7 @@ Special cable # 20066.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_SPECIALCABLE {get; set;}

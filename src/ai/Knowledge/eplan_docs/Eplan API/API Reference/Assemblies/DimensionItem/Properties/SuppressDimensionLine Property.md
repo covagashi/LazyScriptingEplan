@@ -9,7 +9,7 @@ Gets or sets whether dimension line is suppressed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SuppressDimensionLine {get; set;}

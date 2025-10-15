@@ -9,7 +9,7 @@ Mounting position # 26035.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_INSTALLATION_POSITION {get; set;}

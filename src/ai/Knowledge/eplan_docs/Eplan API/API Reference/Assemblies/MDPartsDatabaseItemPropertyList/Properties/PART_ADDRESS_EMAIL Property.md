@@ -9,7 +9,7 @@ E-mail # 22920.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ADDRESS_EMAIL {get; set;}

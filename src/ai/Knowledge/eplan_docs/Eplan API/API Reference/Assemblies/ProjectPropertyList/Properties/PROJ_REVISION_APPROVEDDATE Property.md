@@ -9,7 +9,7 @@ Approved date # 10161.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_REVISION_APPROVEDDATE {get; set;}

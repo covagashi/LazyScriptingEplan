@@ -9,7 +9,7 @@ Customer: P.O. box # 10106.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CUSTOMERPOBOX {get; set;}

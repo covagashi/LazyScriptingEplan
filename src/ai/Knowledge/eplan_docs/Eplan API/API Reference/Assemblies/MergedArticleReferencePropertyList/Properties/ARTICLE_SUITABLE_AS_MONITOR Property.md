@@ -9,7 +9,7 @@ Suitable as monitoring device # 26355.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SUITABLE_AS_MONITOR {get; set;}

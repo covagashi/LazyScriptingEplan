@@ -25,4 +25,4 @@ Public Properties
 | Public Property | [SubPlacement3Ds](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Group3D~SubPlacement3Ds.html) | Returns all grouped [Placement3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D.html)s. |
 | Public Property | [TypeIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TypeIdentifier.html) | Returns the type of the object as number. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Name (accessory placement) # 22970.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ACCESSORYPLACEMENT_NAME {get; set;}

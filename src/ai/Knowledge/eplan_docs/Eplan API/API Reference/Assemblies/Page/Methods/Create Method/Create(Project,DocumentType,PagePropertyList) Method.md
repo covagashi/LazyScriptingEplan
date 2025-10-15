@@ -9,7 +9,7 @@ Creates a new Page object. It is placed in the project under location given as p
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

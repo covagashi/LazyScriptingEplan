@@ -9,7 +9,7 @@ Base: Depth # 22186.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_BOTTOMPANELDEPTH {get; set;}

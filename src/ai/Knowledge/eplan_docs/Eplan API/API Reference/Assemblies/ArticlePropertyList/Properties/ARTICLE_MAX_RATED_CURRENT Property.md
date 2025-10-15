@@ -9,7 +9,7 @@ Nominal current, max. # 26500.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MAX_RATED_CURRENT {get; set;}

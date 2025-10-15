@@ -9,7 +9,7 @@ Returns the string that is to be displayed in accordance with the passed languag
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetStringToDisplay( 

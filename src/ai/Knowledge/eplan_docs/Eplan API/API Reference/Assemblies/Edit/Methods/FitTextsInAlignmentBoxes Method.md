@@ -9,7 +9,7 @@ Fit the text in Alignement Boxes
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool FitTextsInAlignmentBoxes( 

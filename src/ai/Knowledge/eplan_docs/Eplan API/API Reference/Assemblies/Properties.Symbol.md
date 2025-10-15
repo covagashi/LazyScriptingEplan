@@ -9,7 +9,7 @@ Identificators of properties owned by Symbol class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Symbol : System.Enum

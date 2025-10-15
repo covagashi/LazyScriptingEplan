@@ -9,7 +9,7 @@ Queries whether the operation was canceled.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Canceled()

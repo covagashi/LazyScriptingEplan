@@ -9,7 +9,7 @@ PLC subdevice 2: PLC type designation # 22341.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PLCGROUP_TYPIDENTIFIER_2 {get; set;}

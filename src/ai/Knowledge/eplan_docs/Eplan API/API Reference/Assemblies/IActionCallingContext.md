@@ -9,7 +9,7 @@ Interface class for the [ActionCallingContext](Eplan.EplApi.AFu~Eplan.EplApi.App
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public interface IActionCallingContext

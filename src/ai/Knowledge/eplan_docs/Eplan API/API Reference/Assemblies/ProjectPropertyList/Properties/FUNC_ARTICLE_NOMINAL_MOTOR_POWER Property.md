@@ -9,7 +9,7 @@ Motor nominal power # 26463.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_NOMINAL_MOTOR_POWER( 

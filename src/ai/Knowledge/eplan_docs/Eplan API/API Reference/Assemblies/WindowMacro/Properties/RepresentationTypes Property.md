@@ -9,7 +9,7 @@ macro Representation Types.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public WindowMacro.Enums.RepresentationType[] RepresentationTypes {get;}

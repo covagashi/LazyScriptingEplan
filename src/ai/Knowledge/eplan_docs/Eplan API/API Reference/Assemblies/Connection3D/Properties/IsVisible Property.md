@@ -9,7 +9,7 @@ Indicates whether connectionobject is currently visible in 3D editor view.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsVisible {get;}

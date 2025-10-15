@@ -9,7 +9,7 @@ Door fold # 22160.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DOOR_RABBET {get; set;}

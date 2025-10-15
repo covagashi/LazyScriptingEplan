@@ -9,7 +9,7 @@ Gets or sets the blue channel value of color (0-255)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public byte B {get; set;}

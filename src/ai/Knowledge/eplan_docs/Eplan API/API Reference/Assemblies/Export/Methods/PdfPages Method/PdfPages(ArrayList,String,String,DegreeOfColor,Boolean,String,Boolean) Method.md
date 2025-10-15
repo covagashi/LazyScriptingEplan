@@ -9,7 +9,7 @@ Exports pages of one project as PDF file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void PdfPages( 

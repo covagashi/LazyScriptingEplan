@@ -9,7 +9,7 @@ Creates a PlugStrip object placed on a [Eplan.EplApi.DataModel.Page](Eplan.EplAp
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

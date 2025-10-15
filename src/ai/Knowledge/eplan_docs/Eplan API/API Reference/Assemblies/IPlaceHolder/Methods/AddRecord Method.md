@@ -9,7 +9,7 @@ Adds a new record with the specified name to the Placeholder3D object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 int AddRecord( 

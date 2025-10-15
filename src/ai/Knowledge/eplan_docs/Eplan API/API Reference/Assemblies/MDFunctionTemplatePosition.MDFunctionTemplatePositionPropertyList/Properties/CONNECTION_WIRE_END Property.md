@@ -9,7 +9,7 @@ plug contact at end of wire # 21027.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue CONNECTION_WIRE_END {get; set;}

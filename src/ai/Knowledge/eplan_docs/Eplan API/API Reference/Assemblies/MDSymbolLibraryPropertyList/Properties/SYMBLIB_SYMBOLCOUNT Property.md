@@ -9,7 +9,7 @@ Number of symbols # 15015.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMBLIB_SYMBOLCOUNT {get; set;}

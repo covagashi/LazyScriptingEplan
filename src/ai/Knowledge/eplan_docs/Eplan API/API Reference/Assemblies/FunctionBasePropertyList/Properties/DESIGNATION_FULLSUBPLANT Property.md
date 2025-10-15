@@ -9,7 +9,7 @@ Function designation (sub-identifier, complete) # 1121.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLSUBPLANT {get; set;}

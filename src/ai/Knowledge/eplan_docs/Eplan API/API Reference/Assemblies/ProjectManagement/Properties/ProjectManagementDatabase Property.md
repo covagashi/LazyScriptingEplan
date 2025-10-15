@@ -9,7 +9,7 @@ Returns or sets the complete filename of the current projectmanagement database 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ProjectManagementDatabase {get; set;}

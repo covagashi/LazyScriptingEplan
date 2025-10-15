@@ -9,7 +9,7 @@ Topology: Structure # 20245.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLING_STRUCTURE {get; set;}

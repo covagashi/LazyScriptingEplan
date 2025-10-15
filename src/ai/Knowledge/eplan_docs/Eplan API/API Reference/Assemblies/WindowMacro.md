@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class WindowMacro : Macro
@@ -36,7 +36,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [WindowMacro Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.WindowMacro~_ctor.html) | Constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -63,7 +63,7 @@ Public Properties
 | Public Property | [TopLevelObjects3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.WindowMacro~TopLevelObjects3D.html) | Returns all Eplan.EplApi.DataModel.Placement3D, with no parent. |
 | Public Property | [Variant](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.WindowMacro~Variant.html) | The used variant. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -87,4 +87,4 @@ Public Methods
 | Public Method | [StoreExternalFilesOfCurrentVariant](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.Macro~StoreExternalFilesOfCurrentVariant.html) | Copies external files into project images directory (Inherited from [Eplan.EplApi.DataModel.MasterData.Macro](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.Macro.html)) |
 | Public Method | [Version](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.WindowMacro~Version.html) | Get version from current representation type |
 
-[Top](#top)
+

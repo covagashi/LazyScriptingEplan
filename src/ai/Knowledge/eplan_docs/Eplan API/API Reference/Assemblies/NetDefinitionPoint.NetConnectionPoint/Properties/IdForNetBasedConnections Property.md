@@ -9,7 +9,7 @@ Returns Id for net-based connections
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string IdForNetBasedConnections {get;}

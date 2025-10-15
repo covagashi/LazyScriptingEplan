@@ -9,7 +9,7 @@ The variant of the referenced assembly part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Variant {get; set;}

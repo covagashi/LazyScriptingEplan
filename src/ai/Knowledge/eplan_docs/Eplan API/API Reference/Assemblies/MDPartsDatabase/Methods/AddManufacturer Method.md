@@ -9,7 +9,7 @@ Adds a new manufacturer to the parts data
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAddress AddManufacturer( 

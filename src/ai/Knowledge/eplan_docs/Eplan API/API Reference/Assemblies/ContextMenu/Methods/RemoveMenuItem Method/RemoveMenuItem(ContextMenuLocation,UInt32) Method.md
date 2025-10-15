@@ -9,7 +9,7 @@ Remove the menu item of a context menu of the index.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool RemoveMenuItem( 

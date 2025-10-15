@@ -9,7 +9,7 @@ Adds the description of another context parameter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddParameter( 

@@ -9,7 +9,7 @@ Throughput # 26270.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_THROUGHPUT( 

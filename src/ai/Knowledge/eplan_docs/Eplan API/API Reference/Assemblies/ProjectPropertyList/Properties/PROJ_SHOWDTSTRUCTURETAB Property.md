@@ -9,7 +9,7 @@ Show tab for DT structures # 10008.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_SHOWDTSTRUCTURETAB {get; set;}

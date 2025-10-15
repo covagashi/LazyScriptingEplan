@@ -9,7 +9,7 @@ Revision name (change tracking) # 10155.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_REVISION_LOG_NAME( 

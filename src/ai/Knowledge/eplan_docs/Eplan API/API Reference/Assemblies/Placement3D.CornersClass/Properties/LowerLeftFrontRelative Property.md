@@ -9,7 +9,7 @@ Returns lower left front relative coordinate
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D LowerLeftFrontRelative {get;}

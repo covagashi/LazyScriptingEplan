@@ -9,7 +9,7 @@ Returns [Connection](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Connection.h
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Connection[] GetConnectionsWithFilterScheme( 

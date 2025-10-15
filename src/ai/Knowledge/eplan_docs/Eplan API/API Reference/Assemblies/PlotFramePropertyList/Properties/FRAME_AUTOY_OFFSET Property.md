@@ -9,7 +9,7 @@ Property arrangement: Automatic Y coordinate (path) # 12062.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_AUTOY_OFFSET {get; set;}

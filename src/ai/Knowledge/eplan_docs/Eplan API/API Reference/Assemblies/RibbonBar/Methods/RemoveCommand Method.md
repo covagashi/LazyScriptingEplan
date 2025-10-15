@@ -9,7 +9,7 @@ Removes command from Extensions->API group
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool RemoveCommand( 

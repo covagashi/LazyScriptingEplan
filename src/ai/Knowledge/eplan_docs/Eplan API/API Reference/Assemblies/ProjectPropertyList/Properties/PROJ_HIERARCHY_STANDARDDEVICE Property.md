@@ -9,7 +9,7 @@ Structure format for general devices # 10055.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_STANDARDDEVICE {get; set;}

@@ -9,7 +9,7 @@ Gets or sets the height of the text.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double TextHeight {get; set;}

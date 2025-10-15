@@ -9,7 +9,7 @@ Convert language code to language number
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ISOCode.Language GetNumber( 

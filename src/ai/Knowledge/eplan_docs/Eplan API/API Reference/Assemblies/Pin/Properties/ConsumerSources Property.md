@@ -9,7 +9,7 @@ consumer source
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConsumerSources {get; set;}

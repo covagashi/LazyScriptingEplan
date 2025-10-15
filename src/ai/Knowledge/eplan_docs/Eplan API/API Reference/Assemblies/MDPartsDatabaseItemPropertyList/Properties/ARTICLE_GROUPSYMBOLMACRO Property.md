@@ -9,7 +9,7 @@ Schematic macro # 22145.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_GROUPSYMBOLMACRO {get; set;}

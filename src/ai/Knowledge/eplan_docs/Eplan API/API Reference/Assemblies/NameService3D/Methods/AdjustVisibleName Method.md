@@ -9,7 +9,7 @@ Evaluates for a given Function3D the visible name and visible name format from t
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AdjustVisibleName( 

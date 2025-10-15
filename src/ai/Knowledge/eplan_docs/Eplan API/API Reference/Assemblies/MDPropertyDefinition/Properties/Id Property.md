@@ -9,7 +9,7 @@ Returns MDAnyPropertyId.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual MDAnyPropertyId Id {get;}

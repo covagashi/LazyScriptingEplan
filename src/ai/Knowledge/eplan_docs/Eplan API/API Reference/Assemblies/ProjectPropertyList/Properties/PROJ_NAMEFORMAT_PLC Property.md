@@ -9,7 +9,7 @@ Naming format for PLC / bus technology # 10077.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_NAMEFORMAT_PLC {get; set;}

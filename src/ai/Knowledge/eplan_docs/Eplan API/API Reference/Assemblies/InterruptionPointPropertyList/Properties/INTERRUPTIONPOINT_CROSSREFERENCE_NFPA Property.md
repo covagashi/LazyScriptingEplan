@@ -9,7 +9,7 @@ Cross-reference for NFPA standard # 24302.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INTERRUPTIONPOINT_CROSSREFERENCE_NFPA {get; set;}

@@ -9,7 +9,7 @@ Reads value from settings. Substitutes path fragments (like $Eplan).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 string GetExpandedStringSetting( 

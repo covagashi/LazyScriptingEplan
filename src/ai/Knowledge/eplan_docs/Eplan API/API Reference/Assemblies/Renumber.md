@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Renumber
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Renumber Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Renumber~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -42,4 +42,4 @@ Public Methods
 | Public Method | [Plugs](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Renumber~Plugs.html) | Overloaded. Method for renumbering plugs specified by the collection pFunctions. |
 | Public Method | [Terminals](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Renumber~Terminals.html) | Overloaded. Method for renumbering terminals specified by the collection pFunctions. |
 
-[Top](#top)
+

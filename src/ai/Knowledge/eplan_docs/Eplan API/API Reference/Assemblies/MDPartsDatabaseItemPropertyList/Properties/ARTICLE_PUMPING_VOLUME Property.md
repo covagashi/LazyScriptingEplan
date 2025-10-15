@@ -9,7 +9,7 @@ Transport volume # 26328.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PUMPING_VOLUME {get; set;}

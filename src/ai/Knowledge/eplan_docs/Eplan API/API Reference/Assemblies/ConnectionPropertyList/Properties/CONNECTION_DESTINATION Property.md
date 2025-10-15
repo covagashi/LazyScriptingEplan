@@ -9,7 +9,7 @@ Target # 31020.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_DESTINATION {get; set;}

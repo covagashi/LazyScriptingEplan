@@ -9,7 +9,7 @@ Sets the [Function](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function.html
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function Function {get; set;}

@@ -9,7 +9,7 @@ Constructor. Creates layer object detached from project with specified name and 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public GraphicalLayer( 

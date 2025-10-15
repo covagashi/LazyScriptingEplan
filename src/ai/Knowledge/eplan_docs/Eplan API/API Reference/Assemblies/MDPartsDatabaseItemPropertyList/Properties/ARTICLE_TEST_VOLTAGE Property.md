@@ -9,7 +9,7 @@ Test voltage # 26133.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TEST_VOLTAGE {get; set;}

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MergeDataService
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MergeDataService Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.MergeDataService~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -37,4 +37,4 @@ Public Methods
 | Public Methodstatic (Shared in Visual Basic) | [WriteBackConnectionData](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.MergeDataService~WriteBackConnectionData.html) | Writes back the data of merged connections to whose corresponding connections |
 | Public Methodstatic (Shared in Visual Basic) | [WriteBackFunctionData](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.MergeDataService~WriteBackFunctionData.html) | Writes back the data of merged functions to whose corresponding functions |
 
-[Top](#top)
+

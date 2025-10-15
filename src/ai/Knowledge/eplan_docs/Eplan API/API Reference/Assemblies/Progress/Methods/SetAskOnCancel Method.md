@@ -9,7 +9,7 @@ Asks to confirm the cancel request.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetAskOnCancel( 

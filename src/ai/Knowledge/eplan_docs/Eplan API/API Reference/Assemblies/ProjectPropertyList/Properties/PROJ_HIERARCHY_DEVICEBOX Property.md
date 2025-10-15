@@ -9,7 +9,7 @@ Structure format for black boxes # 10056.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_DEVICEBOX {get; set;}

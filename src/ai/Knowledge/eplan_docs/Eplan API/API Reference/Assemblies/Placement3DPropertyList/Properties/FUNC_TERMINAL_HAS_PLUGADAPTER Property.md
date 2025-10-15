@@ -9,7 +9,7 @@ Terminal with plug-in adapter # 20283.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_HAS_PLUGADAPTER {get; set;}

@@ -9,7 +9,7 @@ Enumeration, which determines whether a macro will be placed using absolute or r
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Insert3D.MoveKind : System.Enum

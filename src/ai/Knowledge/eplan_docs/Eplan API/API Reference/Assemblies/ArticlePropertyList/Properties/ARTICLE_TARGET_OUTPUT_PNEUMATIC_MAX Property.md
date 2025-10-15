@@ -9,7 +9,7 @@ Target power (pneumatic), max. # 26146.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TARGET_OUTPUT_PNEUMATIC_MAX {get; set;}

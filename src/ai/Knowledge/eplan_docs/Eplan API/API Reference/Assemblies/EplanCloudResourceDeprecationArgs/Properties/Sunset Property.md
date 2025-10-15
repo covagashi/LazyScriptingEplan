@@ -9,7 +9,7 @@ Date when the Eplan Cloud resource is expected to become unresponsive
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DateTime Sunset {get; set;}

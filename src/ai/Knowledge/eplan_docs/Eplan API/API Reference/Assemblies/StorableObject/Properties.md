@@ -21,4 +21,4 @@ Public Properties
 | Public Property | [Properties](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~Properties.html) | .NET Property enabling access to P8 properties of the StorableObject object. |
 | Public Property | [TypeIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TypeIdentifier.html) | Returns the type of the object as number. |
 
-[Top](#top)
+

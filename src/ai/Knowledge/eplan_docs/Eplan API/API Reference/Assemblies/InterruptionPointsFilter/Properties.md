@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [Name](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.InterruptionPointsFilter~Name.html) | Returns the name that was set to this filter. |
 | Public Property | [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.InterruptionPointsFilter~Page.html) | Overridden. Sets the [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html) that [StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)s matching the filter must be placed on. |
 
-[Top](#top)
+

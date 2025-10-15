@@ -9,7 +9,7 @@ Eplan log-in user used for Rights Management. User settings will be used from th
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string User {get; set;}

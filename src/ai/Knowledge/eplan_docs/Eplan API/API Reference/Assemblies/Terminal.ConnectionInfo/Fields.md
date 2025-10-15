@@ -18,4 +18,4 @@ Public Fields
 | Public Field | [FunctionPinName](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Terminal+ConnectionInfo~FunctionPinName.html) | Name of pin to which connection is assigned. |
 | Public Field | [PinIndex](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Terminal+ConnectionInfo~PinIndex.html) | Index of pin to which cable is connected. |
 
-[Top](#top)
+

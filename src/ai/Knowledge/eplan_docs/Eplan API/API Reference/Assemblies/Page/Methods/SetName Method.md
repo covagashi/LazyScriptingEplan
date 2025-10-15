@@ -9,7 +9,7 @@ Sets the name of the page. Name parts should be given in the PagePropertyList.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetName( 

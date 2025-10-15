@@ -9,7 +9,7 @@ This function of the local event handler is registered as a handler function of 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [OneWay()]

@@ -9,7 +9,7 @@ Signs out from Eplan Cloud.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 Task<IdentityClientResponse> Signout()

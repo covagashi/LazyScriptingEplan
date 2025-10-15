@@ -9,7 +9,7 @@ Subtrade 'Hydraulics' # 22158.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SUBCRAFT_HYDRAULICS( 

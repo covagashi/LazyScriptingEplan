@@ -9,7 +9,7 @@ Structure format for busbars # 10053.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_BUSBAR {get; set;}

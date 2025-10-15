@@ -9,7 +9,7 @@ Name # 16000.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_NAME {get; set;}

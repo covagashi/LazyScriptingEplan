@@ -9,7 +9,7 @@ The start of any parse. Set the text to parse and fill the unit of this text in 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Set( 

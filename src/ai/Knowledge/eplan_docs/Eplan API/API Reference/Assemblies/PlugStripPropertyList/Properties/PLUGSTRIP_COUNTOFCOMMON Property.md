@@ -9,7 +9,7 @@ Plugs: Number of general pins # 35208.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLUGSTRIP_COUNTOFCOMMON {get; set;}

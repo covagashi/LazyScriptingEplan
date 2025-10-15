@@ -9,7 +9,7 @@ Creates object representing a UndoStep.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public UndoStep CreateUndoStep()

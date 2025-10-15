@@ -9,7 +9,7 @@ Makes a 3d object invisible in opened 3d graphic editor view.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Hide( 

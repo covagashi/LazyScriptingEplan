@@ -9,7 +9,7 @@ Removes unused translations.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DeleteAllStringsExceptFor( 

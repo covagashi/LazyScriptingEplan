@@ -9,7 +9,7 @@ Gets Eplan cloud user profile information.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 Task<IdentityClientResponse> GetUserProfile()

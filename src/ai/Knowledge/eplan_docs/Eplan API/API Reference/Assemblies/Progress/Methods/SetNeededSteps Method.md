@@ -9,7 +9,7 @@ Indicates how many steps are required to reach 100%. E.g. used for loops.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetNeededSteps( 

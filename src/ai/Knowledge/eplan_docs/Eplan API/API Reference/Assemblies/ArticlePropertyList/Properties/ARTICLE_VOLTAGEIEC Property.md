@@ -9,7 +9,7 @@ Terminals: Voltage IEC # 22089.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_VOLTAGEIEC {get; set;}

@@ -9,7 +9,7 @@ Check if the project's parts selection is set to project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsPartsSelectionOnProject( 

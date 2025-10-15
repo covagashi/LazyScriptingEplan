@@ -9,7 +9,7 @@ Property which was used with index.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ushort Property

@@ -9,7 +9,7 @@ Returns the location of the connection point.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD Location {get; set;}

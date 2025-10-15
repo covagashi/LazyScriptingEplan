@@ -9,7 +9,7 @@ Returns true if the leader line is activated
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsLeaderLineActivated {get; set;}

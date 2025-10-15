@@ -9,7 +9,7 @@ Node group (Interbus) # 20130.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCOMMUNICATIONENTITY_PARTICIPANTGROUP( 

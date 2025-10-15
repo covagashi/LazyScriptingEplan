@@ -37,4 +37,4 @@ Public Properties
 | Public Property | [Z](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionPointPosition~Z.html) | The Z-position of the connection point |
 | Public Property | [ZVector](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionPointPosition~ZVector.html) | The Z-vector of the connection point |
 
-[Top](#top)
+

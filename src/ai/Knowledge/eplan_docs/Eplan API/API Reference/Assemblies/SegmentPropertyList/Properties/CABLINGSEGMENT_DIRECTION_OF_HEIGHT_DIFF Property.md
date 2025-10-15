@@ -9,7 +9,7 @@ Topology: Direction for height difference # 20348.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLINGSEGMENT_DIRECTION_OF_HEIGHT_DIFF {get; set;}

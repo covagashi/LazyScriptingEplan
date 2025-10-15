@@ -9,7 +9,7 @@ Completes current revision of a project. Used for change tracking.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CompleteProject( 

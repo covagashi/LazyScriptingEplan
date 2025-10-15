@@ -9,7 +9,7 @@ Identificators of properties owned by PlcIO class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.PlcIO : System.Enum

@@ -9,7 +9,7 @@ Operating temperature, min. # 26242.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_OPERATING_TEMPERATURE_MIN( 

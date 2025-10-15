@@ -9,7 +9,7 @@ Gets/Sets the generic product group of the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual MDPartsDatabaseItem.Enums.ProductTopGroup GenericProductGroup {get; set;}

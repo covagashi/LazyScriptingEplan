@@ -9,7 +9,7 @@ It defines the Cable property Pairindex
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PairIndex {get; set;}

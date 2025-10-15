@@ -9,7 +9,7 @@ Return true when the user pressed the cancel button
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool CancelPressed()

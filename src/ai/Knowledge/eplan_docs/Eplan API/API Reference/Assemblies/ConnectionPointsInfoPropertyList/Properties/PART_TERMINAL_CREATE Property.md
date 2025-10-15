@@ -9,7 +9,7 @@ Creator / Creation date (connection point pattern) # 22943.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PART_TERMINAL_CREATE {get; set;}

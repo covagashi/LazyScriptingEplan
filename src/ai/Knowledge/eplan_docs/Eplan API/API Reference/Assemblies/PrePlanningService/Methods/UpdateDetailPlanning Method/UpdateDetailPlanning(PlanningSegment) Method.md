@@ -9,7 +9,7 @@ Updates data to ensure that the property values in planning object are the same 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void UpdateDetailPlanning( 

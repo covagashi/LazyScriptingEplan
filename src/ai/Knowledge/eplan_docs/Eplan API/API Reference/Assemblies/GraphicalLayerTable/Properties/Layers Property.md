@@ -9,7 +9,7 @@ Returns an array of all existing project's layers.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public GraphicalLayer[] Layers {get;}

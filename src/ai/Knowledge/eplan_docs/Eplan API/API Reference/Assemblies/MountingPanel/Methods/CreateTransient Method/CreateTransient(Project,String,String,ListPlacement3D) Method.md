@@ -9,7 +9,7 @@ Creates transient and not placed MountingPanel object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static MountingPanel CreateTransient( 

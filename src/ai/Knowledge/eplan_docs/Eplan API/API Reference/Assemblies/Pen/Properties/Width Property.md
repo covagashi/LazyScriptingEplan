@@ -9,7 +9,7 @@ Line width. Normally it is 0.13 - 2. Please use "-16002" as "from layer" value.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Width {get; set;}

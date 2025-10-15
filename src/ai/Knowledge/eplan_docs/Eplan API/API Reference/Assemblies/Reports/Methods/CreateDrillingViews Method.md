@@ -9,7 +9,7 @@ Creates drilling views report
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateDrillingViews( 

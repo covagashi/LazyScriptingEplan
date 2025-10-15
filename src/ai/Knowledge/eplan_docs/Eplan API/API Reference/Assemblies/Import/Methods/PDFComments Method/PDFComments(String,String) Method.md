@@ -9,7 +9,7 @@ Imports comments from PDF file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int PDFComments( 

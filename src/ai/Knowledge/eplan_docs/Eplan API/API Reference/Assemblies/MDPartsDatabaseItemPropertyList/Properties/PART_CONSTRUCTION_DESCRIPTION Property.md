@@ -9,7 +9,7 @@ Description (Drilling pattern) # 22930.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_CONSTRUCTION_DESCRIPTION {get; set;}

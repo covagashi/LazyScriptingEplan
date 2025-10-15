@@ -9,7 +9,7 @@ The sub type of the drilling
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDDrillingPosition.DrillingSubType SubType {get; set;}

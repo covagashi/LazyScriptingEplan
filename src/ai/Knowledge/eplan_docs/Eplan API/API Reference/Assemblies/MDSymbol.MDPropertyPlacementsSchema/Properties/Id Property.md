@@ -9,7 +9,7 @@ Returns the ID of the property placements configuration
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ushort Id {get;}

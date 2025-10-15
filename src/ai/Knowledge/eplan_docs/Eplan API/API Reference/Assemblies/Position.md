@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Position
@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Position Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Position~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -52,7 +52,7 @@ Public Properties
 | Public Property | [ScreenPosition](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Position~ScreenPosition.html) | Position of mouse in the system (Windows) coordinate system. |
 | Public Property | [SnapPosition](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Position~SnapPosition.html) | Position found snap point near mouse position. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -64,7 +64,7 @@ Public Methods
 | Public Method | [IsShiftKeyPressed](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Position~IsShiftKeyPressed.html) | Returns true, if shift key was pressed at the moment, when position was stored. |
 | Public Method | [SetFromString](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Position~SetFromString.html) |  |
 
-[Top](#top)
+
 
 Public Operators
 
@@ -73,4 +73,4 @@ Public Operators
 | public Operator [Assign](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Position~op_Assign.html) | Assignment constructor. |
 | public Operator [Implicit Type Conversion](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Position~op_Implicit.html) | Overloaded. Used in conversion from [Eplan.EplApi.Base.PointD](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD.html) to the `Position` object. |
 
-[Top](#top)
+

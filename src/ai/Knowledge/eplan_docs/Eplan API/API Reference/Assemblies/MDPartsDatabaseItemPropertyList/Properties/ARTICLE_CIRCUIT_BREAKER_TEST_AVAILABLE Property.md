@@ -9,7 +9,7 @@ Power circuit breaker - test available # 26433.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CIRCUIT_BREAKER_TEST_AVAILABLE {get; set;}

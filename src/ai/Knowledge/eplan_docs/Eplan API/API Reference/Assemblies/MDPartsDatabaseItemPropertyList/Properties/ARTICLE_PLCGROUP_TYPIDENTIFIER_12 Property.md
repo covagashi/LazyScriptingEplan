@@ -9,7 +9,7 @@ PLC subdevice 12: PLC type designation # 22351.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PLCGROUP_TYPIDENTIFIER_12 {get; set;}

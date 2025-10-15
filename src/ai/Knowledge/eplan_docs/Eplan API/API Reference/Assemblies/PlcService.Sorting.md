@@ -9,7 +9,7 @@ Order in which addresses are to be assigned
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum PlcService.Sorting : System.Enum

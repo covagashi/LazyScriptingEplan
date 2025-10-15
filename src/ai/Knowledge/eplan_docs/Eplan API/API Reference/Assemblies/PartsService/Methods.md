@@ -20,4 +20,4 @@ Public Methods
 | Public Method | [IsPartsSelectionOnProject](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PartsService~IsPartsSelectionOnProject.html) | Check if the project's parts selection is set to project. |
 | Public Method | [MoveArticleReference](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PartsService~MoveArticleReference.html) | Moves ArticleReference to another index or to another object or both. |
 
-[Top](#top)
+

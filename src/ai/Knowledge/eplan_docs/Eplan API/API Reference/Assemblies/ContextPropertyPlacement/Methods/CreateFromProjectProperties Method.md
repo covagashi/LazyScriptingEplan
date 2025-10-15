@@ -9,7 +9,7 @@ Creates and insert into page ContextPropertyPlacement which displays project pro
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateFromProjectProperties( 

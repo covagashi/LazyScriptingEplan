@@ -9,7 +9,7 @@ Returns true if a parts database is open. Instead of SQL Server returns true if 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsOpen {get;}

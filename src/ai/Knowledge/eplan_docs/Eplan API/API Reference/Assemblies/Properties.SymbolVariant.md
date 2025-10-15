@@ -9,7 +9,7 @@ Identificators of properties owned by SymbolVariant class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.SymbolVariant : System.Enum

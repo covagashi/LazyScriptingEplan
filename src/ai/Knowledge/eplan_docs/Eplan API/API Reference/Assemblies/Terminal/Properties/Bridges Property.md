@@ -9,7 +9,7 @@ This property returns information about all [Terminal.Bridge](Eplan.EplApi.DataM
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Terminal.Bridge[] Bridges {get;}

@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [ContextMenuName](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.ContextMenuLocation~ContextMenuName.html) |  |
 | Public Property | [DialogName](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.ContextMenuLocation~DialogName.html) | Get or Set the Dialog Name the Context menu is located in |
 
-[Top](#top)
+

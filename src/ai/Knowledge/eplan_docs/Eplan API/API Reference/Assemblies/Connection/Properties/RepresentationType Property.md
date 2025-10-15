@@ -9,7 +9,7 @@ Gets/Sets connection's representation type.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DocumentTypeManager.DocumentType RepresentationType {get; set;}

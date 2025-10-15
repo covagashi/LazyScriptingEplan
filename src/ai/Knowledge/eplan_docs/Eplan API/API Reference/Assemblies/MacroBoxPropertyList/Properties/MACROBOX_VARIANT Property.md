@@ -9,7 +9,7 @@ Macro: Variant # 23008.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROBOX_VARIANT {get; set;}

@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [ActivePartsDatabase](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.PartsService~ActivePartsDatabase.html) | Returns or sets the type of current parts database. Possible values are PartsDatabaseType.SQL and PartsDatabaseType.EPLAN |
 
-[Top](#top)
+

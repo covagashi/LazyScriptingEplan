@@ -33,4 +33,4 @@ Public Properties
 | Public Property | [Variant](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.TerminalAccessory~Variant.html) | Gets variant |
 | Public Property | [VariantNr](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference~VariantNr.html) | Sets and gets ArticleReference's variant number. (Inherited from [Eplan.EplApi.DataModel.ArticleReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference.html)) |
 
-[Top](#top)
+

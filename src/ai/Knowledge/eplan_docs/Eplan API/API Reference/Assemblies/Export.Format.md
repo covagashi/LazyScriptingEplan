@@ -9,7 +9,7 @@ Image format
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Export.Format : System.Enum

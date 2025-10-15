@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class SubProject
@@ -34,7 +34,7 @@ Public Properties
 | Public Property | [SchemeName](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.SubProject~SchemeName.html) | Name of the associated defined working section for the this subproject. |
 | Public Property | [Status](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.SubProject~Status.html) | Status of this subproject. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -42,4 +42,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.SubProject~Dispose().html) | Destructor for deterministic finalization of SubProject object. |
 
-[Top](#top)
+

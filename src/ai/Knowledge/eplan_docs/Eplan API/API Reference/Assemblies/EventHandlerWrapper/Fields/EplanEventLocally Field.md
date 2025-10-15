@@ -9,7 +9,7 @@ Local event handler
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EventHandlerFunction EplanEventLocally

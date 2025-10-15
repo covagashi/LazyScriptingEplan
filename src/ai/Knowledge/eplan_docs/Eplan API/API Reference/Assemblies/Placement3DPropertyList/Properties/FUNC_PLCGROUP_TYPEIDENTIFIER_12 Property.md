@@ -9,7 +9,7 @@ PLC subdevice 12: PLC type designation # 20592.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_TYPEIDENTIFIER_12 {get; set;}

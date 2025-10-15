@@ -9,7 +9,7 @@ Structure identifier superior: Description # 1012.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue LOCATION_UPPERLOCATION_DESCRIPTION( 

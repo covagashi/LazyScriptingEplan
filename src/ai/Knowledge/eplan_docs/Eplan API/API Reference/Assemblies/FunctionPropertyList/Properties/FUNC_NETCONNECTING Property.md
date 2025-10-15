@@ -9,7 +9,7 @@ Net-connecting # 20217.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_NETCONNECTING {get; set;}

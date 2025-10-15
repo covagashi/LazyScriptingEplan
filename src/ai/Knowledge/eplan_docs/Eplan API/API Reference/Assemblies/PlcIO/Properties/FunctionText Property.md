@@ -9,7 +9,7 @@ Returns the PlcIOEntry's comment (function text).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString FunctionText {get; set;}

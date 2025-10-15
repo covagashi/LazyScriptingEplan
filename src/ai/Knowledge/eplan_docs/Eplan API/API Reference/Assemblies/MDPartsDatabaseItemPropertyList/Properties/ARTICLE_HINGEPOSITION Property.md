@@ -9,7 +9,7 @@ Door: Hinge # 22193.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_HINGEPOSITION {get; set;}

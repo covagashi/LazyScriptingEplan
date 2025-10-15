@@ -9,7 +9,7 @@ Checks if given property is indexed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override bool IsIndexed {get;}

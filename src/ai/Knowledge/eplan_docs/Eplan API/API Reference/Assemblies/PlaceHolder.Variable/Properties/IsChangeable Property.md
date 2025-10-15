@@ -9,7 +9,7 @@ Returns true if variable is set as changeable
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsChangeable {get; set;}

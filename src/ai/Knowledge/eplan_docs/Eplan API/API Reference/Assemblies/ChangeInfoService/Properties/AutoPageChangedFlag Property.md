@@ -9,7 +9,7 @@ Activate or deactivate AUTOPAGECHANGED info handling.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AutoPageChangedFlag {set;}

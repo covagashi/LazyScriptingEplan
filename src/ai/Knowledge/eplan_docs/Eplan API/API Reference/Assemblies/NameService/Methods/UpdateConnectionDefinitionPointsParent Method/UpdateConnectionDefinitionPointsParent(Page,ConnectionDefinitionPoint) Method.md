@@ -9,7 +9,7 @@ Sets the page and updates the graphical parent of a connection definition point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void UpdateConnectionDefinitionPointsParent( 

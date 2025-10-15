@@ -9,7 +9,7 @@ checks, if the variant, that is defined by the properties exists inside the wind
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExistVariant()

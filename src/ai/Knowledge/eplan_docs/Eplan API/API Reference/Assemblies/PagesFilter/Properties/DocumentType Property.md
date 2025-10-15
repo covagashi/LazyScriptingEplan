@@ -9,7 +9,7 @@ Returns the [Page.PageType](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page~
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DocumentTypeManager.DocumentType DocumentType {get; set;}

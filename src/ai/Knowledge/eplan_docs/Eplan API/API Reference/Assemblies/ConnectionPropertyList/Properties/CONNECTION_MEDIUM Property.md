@@ -9,7 +9,7 @@ Substance # 31068.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_MEDIUM {get; set;}

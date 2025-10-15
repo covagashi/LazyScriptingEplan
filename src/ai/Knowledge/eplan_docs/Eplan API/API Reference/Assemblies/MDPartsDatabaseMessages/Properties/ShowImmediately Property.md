@@ -9,7 +9,7 @@ If true, added messages will be immediately displayed in PartsDatabase message m
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ShowImmediately {get; set;}

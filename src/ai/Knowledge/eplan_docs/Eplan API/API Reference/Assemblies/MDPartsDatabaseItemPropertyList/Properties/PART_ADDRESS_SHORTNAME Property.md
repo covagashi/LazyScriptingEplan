@@ -9,7 +9,7 @@ Short name # 22900.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ADDRESS_SHORTNAME {get; set;}

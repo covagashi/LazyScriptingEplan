@@ -9,7 +9,7 @@ Gets/Sets a list of StorableObject references to a PlaceHolder3D object. The ori
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual StorableObject[] AssignedObjects {get; set;}

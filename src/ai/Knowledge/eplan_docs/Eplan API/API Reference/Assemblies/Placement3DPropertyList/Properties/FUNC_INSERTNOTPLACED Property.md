@@ -9,7 +9,7 @@ Insert from macro as unplaced # 20094.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_INSERTNOTPLACED {get; set;}

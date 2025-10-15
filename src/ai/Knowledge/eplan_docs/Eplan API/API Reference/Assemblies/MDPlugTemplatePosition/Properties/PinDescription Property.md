@@ -9,7 +9,7 @@ Pin description of the plug template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PinDescription {get; set;}

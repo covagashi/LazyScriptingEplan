@@ -9,7 +9,7 @@ Returns array of all [Eplan.EplApi.DataModel.Planning.SegmentTemplate](Eplan.Epl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SegmentTemplate[] SegmentTemplates {get;}

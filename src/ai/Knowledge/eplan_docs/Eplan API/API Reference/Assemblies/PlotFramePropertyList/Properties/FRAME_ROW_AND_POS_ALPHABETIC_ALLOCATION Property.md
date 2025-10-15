@@ -9,7 +9,7 @@ Alphabetical column / row distribution # 12010.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_ROW_AND_POS_ALPHABETIC_ALLOCATION {get; set;}

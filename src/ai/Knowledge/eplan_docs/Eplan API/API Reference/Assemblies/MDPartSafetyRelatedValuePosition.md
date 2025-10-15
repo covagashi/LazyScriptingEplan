@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDPartSafetyRelatedValuePosition : MDPartsDatabaseItemChildData
@@ -46,7 +46,7 @@ Public Properties
 | Public Property | [SILCL](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartSafetyRelatedValuePosition~SILCL.html) | The SILCL. (SIL claim limit - for a subsystem) |
 | Public Property | [TMT1](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartSafetyRelatedValuePosition~TMT1.html) | The TMT1 (mission time; proof-test intervall) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -54,4 +54,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose()](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData~Dispose().html) | Destructor for deterministic finalization of MDPartSafetyRelatedValuePosition object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData.html)) |
 
-[Top](#top)
+

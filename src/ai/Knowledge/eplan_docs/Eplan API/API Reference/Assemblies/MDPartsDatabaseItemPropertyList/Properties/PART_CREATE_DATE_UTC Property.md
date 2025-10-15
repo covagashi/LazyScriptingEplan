@@ -9,7 +9,7 @@ Creation date (UTC) # 22985.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_CREATE_DATE_UTC {get; set;}

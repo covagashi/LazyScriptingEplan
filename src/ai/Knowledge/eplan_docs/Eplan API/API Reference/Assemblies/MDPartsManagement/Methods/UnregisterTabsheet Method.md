@@ -9,7 +9,7 @@ Unregisters a tab sheet that was registerd with RegisterTabsheet().
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool UnregisterTabsheet( 

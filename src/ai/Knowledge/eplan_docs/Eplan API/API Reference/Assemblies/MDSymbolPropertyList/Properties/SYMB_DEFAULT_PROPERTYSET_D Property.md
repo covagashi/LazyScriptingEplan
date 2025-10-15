@@ -9,7 +9,7 @@ Default property arrangement for variant D # 16007.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_DEFAULT_PROPERTYSET_D {get; set;}

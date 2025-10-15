@@ -9,7 +9,7 @@ Returnes the number of default values of a setting.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int GetCountOfDefaultValues( 

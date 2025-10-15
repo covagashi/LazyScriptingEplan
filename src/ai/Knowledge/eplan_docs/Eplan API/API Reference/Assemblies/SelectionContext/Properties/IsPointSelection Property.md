@@ -9,7 +9,7 @@ Returns true, if point has been selected.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsPointSelection {get;}

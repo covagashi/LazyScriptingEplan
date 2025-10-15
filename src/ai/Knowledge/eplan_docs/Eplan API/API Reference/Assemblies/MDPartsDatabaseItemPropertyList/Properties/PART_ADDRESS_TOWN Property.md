@@ -9,7 +9,7 @@ City # 22915.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ADDRESS_TOWN {get; set;}

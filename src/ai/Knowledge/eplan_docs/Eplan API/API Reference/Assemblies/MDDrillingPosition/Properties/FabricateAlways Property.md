@@ -9,7 +9,7 @@ Boolean flag that shows wether the drill is fabricated always. even if the termi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool FabricateAlways {get; set;}

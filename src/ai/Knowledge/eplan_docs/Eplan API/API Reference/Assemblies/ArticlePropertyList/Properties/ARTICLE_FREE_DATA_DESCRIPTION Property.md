@@ -9,7 +9,7 @@ Free properties: Displayed name # 22146.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_FREE_DATA_DESCRIPTION( 

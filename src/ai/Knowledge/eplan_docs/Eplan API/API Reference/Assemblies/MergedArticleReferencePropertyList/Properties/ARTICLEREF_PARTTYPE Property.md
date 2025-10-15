@@ -9,7 +9,7 @@ Record type # 20486.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_PARTTYPE {get; set;}

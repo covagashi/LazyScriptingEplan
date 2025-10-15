@@ -9,7 +9,7 @@ Associated connections: Layer for autoconnecting line # 31042.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_ACL_LAYER {get; set;}

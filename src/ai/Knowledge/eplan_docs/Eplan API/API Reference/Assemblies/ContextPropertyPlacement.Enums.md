@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ContextPropertyPlacement.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ContextPropertyPlacement.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ContextPropertyPlacement+Enums~_ctor.html) |  |
 
-[Top](#top)
+

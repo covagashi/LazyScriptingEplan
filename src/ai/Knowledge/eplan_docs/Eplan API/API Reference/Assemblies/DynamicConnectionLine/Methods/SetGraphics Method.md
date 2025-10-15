@@ -9,7 +9,7 @@ Sets graphic representation from 2 points.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetGraphics( 

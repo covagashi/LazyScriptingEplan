@@ -9,7 +9,7 @@ Alternative (Interbus) # 20131.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCOMMUNICATIONENTITY_ALTERNATIVE( 

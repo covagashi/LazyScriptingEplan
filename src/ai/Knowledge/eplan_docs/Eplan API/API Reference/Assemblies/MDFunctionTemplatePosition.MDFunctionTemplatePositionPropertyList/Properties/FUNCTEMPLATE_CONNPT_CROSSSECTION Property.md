@@ -9,7 +9,7 @@ Connection point cross-section / diameter # 21021.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNCTEMPLATE_CONNPT_CROSSSECTION {get; set;}

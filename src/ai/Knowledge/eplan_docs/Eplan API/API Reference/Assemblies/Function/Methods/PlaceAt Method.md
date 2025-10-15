@@ -9,7 +9,7 @@ Places the function onto the given page, in the given location and with the symb
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void PlaceAt( 

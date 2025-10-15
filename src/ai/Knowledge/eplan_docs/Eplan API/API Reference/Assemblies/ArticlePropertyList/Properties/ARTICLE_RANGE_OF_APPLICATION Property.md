@@ -9,7 +9,7 @@ Operating area # 26285.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_RANGE_OF_APPLICATION {get; set;}

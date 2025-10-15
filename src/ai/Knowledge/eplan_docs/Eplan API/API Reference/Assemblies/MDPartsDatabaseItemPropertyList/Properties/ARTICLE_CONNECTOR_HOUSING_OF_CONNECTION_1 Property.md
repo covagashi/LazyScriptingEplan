@@ -9,7 +9,7 @@ Plug-in connector housing (connection 1) # 26579.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CONNECTOR_HOUSING_OF_CONNECTION_1 {get; set;}

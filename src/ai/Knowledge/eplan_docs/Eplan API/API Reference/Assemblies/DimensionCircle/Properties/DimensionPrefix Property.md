@@ -9,7 +9,7 @@ Gets/Sets the prefix of the dimension circle.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DimensionPrefix {get; set;}

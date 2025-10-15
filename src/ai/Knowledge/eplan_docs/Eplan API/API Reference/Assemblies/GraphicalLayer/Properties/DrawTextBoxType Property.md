@@ -9,7 +9,7 @@ Returns the GraphicalLayer text box type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public GraphicalLayer.TextBoxType DrawTextBoxType {get; set;}

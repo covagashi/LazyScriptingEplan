@@ -9,7 +9,7 @@ Set the action text for the complete progress (This is the level 2)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void SetOverallActionText( 

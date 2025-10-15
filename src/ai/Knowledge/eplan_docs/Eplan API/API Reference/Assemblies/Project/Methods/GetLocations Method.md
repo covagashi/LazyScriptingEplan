@@ -9,7 +9,7 @@ Returns array of names of project's location for given hierarchy type (PLANT, LO
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[] GetLocations( 

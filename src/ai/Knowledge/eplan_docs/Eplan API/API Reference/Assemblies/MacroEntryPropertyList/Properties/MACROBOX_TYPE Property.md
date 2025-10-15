@@ -9,7 +9,7 @@ Macro: Type # 23010.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROBOX_TYPE {get; set;}

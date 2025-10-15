@@ -9,7 +9,7 @@ Cut-out depth (copper) # 36037.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_OPENING_DEPTH_COPPER {get; set;}

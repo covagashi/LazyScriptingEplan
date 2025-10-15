@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class RibbonCommandInfo
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [RibbonCommandInfo Constructor](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommandInfo~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -43,7 +43,7 @@ Public Properties
 | Public Property | [MultiLangTooltip](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommandInfo~MultiLangTooltip.html) | Property to get or set tooltip of the button, multilanguage. If set it is used instead of normal text tooltip. Optional parameter. |
 | Public Property | [Tooltip](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommandInfo~Tooltip.html) | Property to get or set tooltip of the button. Optional parameter. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -51,4 +51,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommandInfo~Dispose().html) | Destructor for deterministic finalization of RibbonCommandInfo object. |
 
-[Top](#top)
+

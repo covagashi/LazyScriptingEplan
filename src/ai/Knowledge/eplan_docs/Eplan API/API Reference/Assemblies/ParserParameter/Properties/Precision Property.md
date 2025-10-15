@@ -9,7 +9,7 @@ Set the precision of the result (Values used for calculation: 0 up to 8)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Precision {get; set;}

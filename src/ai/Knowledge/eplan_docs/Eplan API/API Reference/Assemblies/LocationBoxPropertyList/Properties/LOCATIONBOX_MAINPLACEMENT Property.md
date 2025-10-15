@@ -9,7 +9,7 @@ Main placement # 20305.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue LOCATIONBOX_MAINPLACEMENT {get; set;}

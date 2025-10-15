@@ -9,7 +9,7 @@ Interface for implementing an XML processor.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public interface IXMLProcessor : IInterface
@@ -22,7 +22,7 @@ Public Properties
 | --- | --- | --- |
 | Property | [InterfaceName](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IInterface~InterfaceName.html) | This name is used to register the type as an interface. (Inherited from [Eplan.EplApi.ApplicationFramework.IInterface](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IInterface.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -39,4 +39,4 @@ Public Methods
 | Method | [PostExport](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor~PostExport.html) | Is called after export has been completed. |
 | Method | [PostImport](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IXMLProcessor~PostImport.html) | Is called after import has been completed. |
 
-[Top](#top)
+

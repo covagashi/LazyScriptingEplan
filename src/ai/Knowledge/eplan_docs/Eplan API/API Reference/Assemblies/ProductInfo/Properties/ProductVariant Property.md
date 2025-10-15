@@ -9,7 +9,7 @@ ProductVariant
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ProductVariant {get; set;}

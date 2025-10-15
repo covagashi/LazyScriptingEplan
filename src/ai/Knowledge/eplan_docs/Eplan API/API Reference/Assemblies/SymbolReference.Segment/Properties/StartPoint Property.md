@@ -9,7 +9,7 @@ Returns the begin point of the segment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD StartPoint {get;}

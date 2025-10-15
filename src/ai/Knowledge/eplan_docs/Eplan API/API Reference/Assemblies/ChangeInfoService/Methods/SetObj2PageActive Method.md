@@ -9,7 +9,7 @@ Activate or deactivate change info handling if object belongs to page. Helper wi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetObj2PageActive( 

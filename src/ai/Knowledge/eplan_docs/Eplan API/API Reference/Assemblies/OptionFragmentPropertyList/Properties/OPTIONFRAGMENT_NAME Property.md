@@ -9,7 +9,7 @@ Project option section: Name # 23102.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue OPTIONFRAGMENT_NAME {get; set;}

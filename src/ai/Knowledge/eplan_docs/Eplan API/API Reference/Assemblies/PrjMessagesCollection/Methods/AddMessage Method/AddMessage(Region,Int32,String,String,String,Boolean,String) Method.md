@@ -9,7 +9,7 @@ Adds a new message associated with part number to the project's message manageme
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ProjectMessage AddMessage( 

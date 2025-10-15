@@ -7,7 +7,7 @@
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public interface IRemotePostServer
@@ -20,4 +20,4 @@ Public Methods
 | --- | --- | --- |
 | Method | [Execute](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.IRemotePostServer~Execute.html) |  |
 
-[Top](#top)
+

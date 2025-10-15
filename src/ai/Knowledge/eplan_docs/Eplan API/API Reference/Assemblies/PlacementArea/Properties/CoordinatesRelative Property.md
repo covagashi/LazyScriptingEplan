@@ -9,7 +9,7 @@ Gets placement area relative coordinates.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D[] CoordinatesRelative {get;}

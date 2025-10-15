@@ -9,7 +9,7 @@ List of P8 properties of the MergedArticleReference object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new MergedArticleReferencePropertyList Properties {get;}

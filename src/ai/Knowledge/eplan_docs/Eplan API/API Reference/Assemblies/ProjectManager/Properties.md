@@ -16,4 +16,4 @@ Public Properties
 | Public Property | [OpenProjects](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager~OpenProjects.html) | Returns list of all open projects. |
 | Public Property | [Paths](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectManager~Paths.html) | Returns [PathInfo](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PathInfo.html) object. It is intended to provide information about default Eplan Platform paths. |
 
-[Top](#top)
+

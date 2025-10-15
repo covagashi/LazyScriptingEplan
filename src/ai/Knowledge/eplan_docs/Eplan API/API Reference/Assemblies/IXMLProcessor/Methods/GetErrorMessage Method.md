@@ -9,7 +9,7 @@ Returns an error message if an error occured during export/import.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 string GetErrorMessage()

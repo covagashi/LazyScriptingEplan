@@ -9,7 +9,7 @@ Returns array of all P8 properties id which can exist for MDSymbol objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static MDAnyPropertyId[] AllMDSymbolPropIDs {get;}

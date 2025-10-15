@@ -558,4 +558,4 @@ Public Properties
 | Public Property | [PROPUSER\_LAST\_USERPHONE](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectPropertyList~PROPUSER_LAST_USERPHONE().html) | Last editor: Phone # 3012. |
 | Public Property | [SUBPROJECT\_NUMBER](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectPropertyList~SUBPROJECT_NUMBER().html) | Subproject number # 25101. |
 
-[Top](#top)
+

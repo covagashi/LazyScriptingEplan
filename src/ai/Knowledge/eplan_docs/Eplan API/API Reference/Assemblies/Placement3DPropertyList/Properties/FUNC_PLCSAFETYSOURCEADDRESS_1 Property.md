@@ -9,7 +9,7 @@ PLC subdevice 1: Safety address: Source # 20634.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCSAFETYSOURCEADDRESS_1 {get; set;}

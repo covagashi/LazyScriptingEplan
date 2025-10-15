@@ -9,7 +9,7 @@ Identificators of properties owned by Connection3D class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Connection3D : System.Enum

@@ -9,7 +9,7 @@ Thermal design: Installation situation # 36049.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_POWERDISSIPATION_CABINET_SITUATION {get; set;}

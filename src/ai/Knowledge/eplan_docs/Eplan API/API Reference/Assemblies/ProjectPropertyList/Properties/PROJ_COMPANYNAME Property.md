@@ -9,7 +9,7 @@ Company name # 10015.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_COMPANYNAME {get; set;}

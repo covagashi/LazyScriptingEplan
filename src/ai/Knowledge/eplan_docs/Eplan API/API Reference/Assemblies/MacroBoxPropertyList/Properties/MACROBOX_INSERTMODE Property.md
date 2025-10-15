@@ -9,7 +9,7 @@ Macro: Also insert macro box # 23013.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROBOX_INSERTMODE {get; set;}

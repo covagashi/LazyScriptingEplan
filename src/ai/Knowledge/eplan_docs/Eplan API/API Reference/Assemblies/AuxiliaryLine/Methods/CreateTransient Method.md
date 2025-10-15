@@ -9,7 +9,7 @@ Creates transient, not placed AuxiliaryLine object with defined start and end po
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static AuxiliaryLine CreateTransient( 

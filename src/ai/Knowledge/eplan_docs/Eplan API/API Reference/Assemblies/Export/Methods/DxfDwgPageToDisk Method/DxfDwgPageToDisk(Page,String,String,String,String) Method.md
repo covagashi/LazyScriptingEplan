@@ -9,7 +9,7 @@ Exports a page of a project as a DXF/DWG file. Export settings are taken from th
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DxfDwgPageToDisk( 

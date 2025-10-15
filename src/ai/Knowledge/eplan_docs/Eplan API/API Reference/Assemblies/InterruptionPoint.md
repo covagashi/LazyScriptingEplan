@@ -18,7 +18,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class InterruptionPoint : FunctionBase, IFunctionBase, IPropertyPlacementsContainer, IWriteProtection
@@ -31,7 +31,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [InterruptionPoint Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.InterruptionPoint~_ctor().html) | Constructor. Creates transient InterruptionPoint. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -74,7 +74,7 @@ Public Properties
 | Public Property | [VisibleNameParts](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBase~VisibleNameParts.html) | Returns visible name of the Function. (Inherited from [Eplan.EplApi.DataModel.FunctionBase](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBase.html)) |
 | Public Property | [WriteProtected](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.InterruptionPoint~WriteProtected.html) | Check if object is currently write protected or sets Manual write protection |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -104,4 +104,4 @@ Public Methods
 | Public Method | [SwitchLocalPropertyPlacements](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference~SwitchLocalPropertyPlacements.html) | Copies or removes all local ProperyPlacemnets and sets flag (Inherited from [Eplan.EplApi.DataModel.SymbolReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference.html)) |
 | Public Method | [ToStringIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~ToStringIdentifier.html) | Returns this object as string identifier. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 
-[Top](#top)
+

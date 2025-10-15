@@ -9,7 +9,7 @@ PLC device: TemplateIdentifier # 20580.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_PLCTEMPLATEREFERENCE {get; set;}

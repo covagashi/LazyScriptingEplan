@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [BookmarkIDStart](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection~BookmarkIDStart.html) |  |
 | Public Property | [Count](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection~Count.html) | Gets the number of elements contained in the `SysMessagesCollection`. |
 
-[Top](#top)
+

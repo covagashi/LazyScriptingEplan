@@ -9,7 +9,7 @@ Represents any class that can store displayed properties
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public interface IPropertyPlacementsContainer
@@ -22,4 +22,4 @@ Public Properties
 | --- | --- | --- |
 | Property | [PropertyPlacements](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IPropertyPlacementsContainer~PropertyPlacements.html) |  |
 
-[Top](#top)
+

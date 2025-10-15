@@ -9,7 +9,7 @@ Find source mate by name. Mate namePlacement optionsConsider child mounting surf
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointMate FindSourceMate( 

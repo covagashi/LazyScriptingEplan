@@ -9,7 +9,7 @@ Type of flow # 26219.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TYPE_OF_FLOW {get; set;}

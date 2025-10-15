@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class RibbonBar
@@ -79,7 +79,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [RibbonBar Constructor](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBar~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -89,7 +89,7 @@ Public Properties
 | Public Property | [Icons](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBar~Icons.html) | Returns icons of the ribbon bar |
 | Public Property | [Tabs](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBar~Tabs.html) | Returns tabs of the ribbon bar |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -107,4 +107,4 @@ Public Methods
 | Public Method | [RemoveIcon](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBar~RemoveIcon.html) | Removes custom icon from the ribbon bar |
 | Public Method | [UnregisterCommand](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBar~UnregisterCommand.html) | Overloaded. Removes a command from the ribbon. If the ribbon doesn't exist yet, the command will be removed after the system start is finished |
 
-[Top](#top)
+

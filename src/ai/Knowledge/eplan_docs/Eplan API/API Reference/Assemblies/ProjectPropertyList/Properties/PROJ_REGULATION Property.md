@@ -9,7 +9,7 @@ Regulation # 10036.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_REGULATION {get; set;}

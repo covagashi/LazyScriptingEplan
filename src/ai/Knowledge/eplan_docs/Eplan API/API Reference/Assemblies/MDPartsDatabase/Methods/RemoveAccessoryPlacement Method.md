@@ -9,7 +9,7 @@ Removes a accessory placement out of the parts datbase.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveAccessoryPlacement( 

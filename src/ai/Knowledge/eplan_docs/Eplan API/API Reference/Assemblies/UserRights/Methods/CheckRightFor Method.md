@@ -9,7 +9,7 @@ Checks the execute permission of an action
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CheckRightFor( 

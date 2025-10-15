@@ -9,7 +9,7 @@ Returns the PlcIOEntry's symbolic address.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SymbolicAddress {get; set;}

@@ -9,7 +9,7 @@ Temperature (medium), min. # 26612.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_TEMPERATUR_MEDIUM_MIN( 

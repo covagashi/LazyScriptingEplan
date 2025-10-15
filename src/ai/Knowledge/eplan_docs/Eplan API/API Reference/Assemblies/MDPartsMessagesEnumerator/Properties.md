@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [Current](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesEnumerator~Current.html) | gets the current element in [Eplan::EplApi::MasterData:](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseMessages.html) |
 | Public Property | [CurrentMDPartsMessage](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesEnumerator~CurrentMDPartsMessage.html) | gets the current element in [Eplan::EplApi::MasterData:](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseMessages.html) |
 
-[Top](#top)
+

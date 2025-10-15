@@ -9,7 +9,7 @@ Measurement accuracy # 26458.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MEASURING_ACCURACY {get; set;}

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Restore
@@ -57,7 +57,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Restore Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Restore~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -67,4 +67,4 @@ Public Methods
 | Public Method | [MasterData](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Restore~MasterData.html) | Restore master data from archive files. |
 | Public Method | [Project](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Restore~Project.html) | Overloaded. Restore projects from archive files. |
 
-[Top](#top)
+

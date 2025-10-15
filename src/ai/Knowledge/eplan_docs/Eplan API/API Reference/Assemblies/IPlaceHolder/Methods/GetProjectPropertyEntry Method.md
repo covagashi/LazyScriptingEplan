@@ -9,7 +9,7 @@ Gets a value or variable of Placeholder project property.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 MultiLangString GetProjectPropertyEntry( 

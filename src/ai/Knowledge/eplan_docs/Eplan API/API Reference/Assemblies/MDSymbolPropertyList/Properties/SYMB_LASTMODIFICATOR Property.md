@@ -9,7 +9,7 @@ Last editor: Sign-in name # 16022.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_LASTMODIFICATOR {get; set;}

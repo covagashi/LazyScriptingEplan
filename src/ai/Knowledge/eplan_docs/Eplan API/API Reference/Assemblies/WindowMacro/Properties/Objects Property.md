@@ -9,7 +9,7 @@ Returns all Eplan.EplApi.DataModel.Placement contained in the macro.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement[] Objects {get;}

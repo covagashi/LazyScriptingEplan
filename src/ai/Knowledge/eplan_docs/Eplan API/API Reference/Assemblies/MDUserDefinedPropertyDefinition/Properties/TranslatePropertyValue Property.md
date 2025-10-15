@@ -9,7 +9,7 @@ Translate property value.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool TranslatePropertyValue {get; set;}

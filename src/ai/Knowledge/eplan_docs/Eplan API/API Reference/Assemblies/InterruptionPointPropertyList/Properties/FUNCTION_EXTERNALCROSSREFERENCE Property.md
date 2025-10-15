@@ -9,7 +9,7 @@ Cross-reference (external) # 25102.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION_EXTERNALCROSSREFERENCE {get; set;}

@@ -9,7 +9,7 @@ Manual saddle jumpers (internal) # 20350.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_JUMPER_INTERN( 

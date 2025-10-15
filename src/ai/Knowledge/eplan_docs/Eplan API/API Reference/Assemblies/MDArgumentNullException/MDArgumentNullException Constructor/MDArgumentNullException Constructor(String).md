@@ -9,7 +9,7 @@ Constructor with parameter name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDArgumentNullException( 

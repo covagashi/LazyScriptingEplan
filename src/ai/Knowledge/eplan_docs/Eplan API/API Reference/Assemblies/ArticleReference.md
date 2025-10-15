@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ArticleReference : StorableObject
@@ -34,7 +34,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ArticleReference Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference~_ctor(String,String,UInt32).html) | Constructor used to create transient article reference object. That object can be passed as a parameter to ConnectionDefinitionPoint() function. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -61,7 +61,7 @@ Public Properties
 | Public Property | [TypeIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TypeIdentifier.html) | Returns the type of the object as number. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 | Public Property | [VariantNr](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference~VariantNr.html) | Sets and gets ArticleReference's variant number. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -77,4 +77,4 @@ Public Methods
 | Public Method | [StoreToObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference~StoreToObject.html) | Commits all changes of the ArticleReference to the matching properties of a parent object (Project/Function/Connection). |
 | Public Method | [ToStringIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~ToStringIdentifier.html) | Returns this object as string identifier. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 
-[Top](#top)
+

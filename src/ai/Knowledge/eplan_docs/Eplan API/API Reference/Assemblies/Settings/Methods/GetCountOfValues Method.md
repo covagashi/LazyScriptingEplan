@@ -9,7 +9,7 @@ Returnes the number of values of a setting.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int GetCountOfValues( 

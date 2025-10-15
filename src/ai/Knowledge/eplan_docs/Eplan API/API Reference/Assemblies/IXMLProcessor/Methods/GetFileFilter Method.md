@@ -9,7 +9,7 @@ Returns the filter string for the file selection box.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 string GetFileFilter()

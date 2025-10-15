@@ -9,7 +9,7 @@ Last editor # 22980.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_LASTCHANGE_USER {get; set;}

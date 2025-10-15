@@ -9,7 +9,7 @@ Gets property id value as [Properties.InstallationSpace](Eplan.EplApi.DataModelu
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.InstallationSpace AsInstallationSpace {get;}

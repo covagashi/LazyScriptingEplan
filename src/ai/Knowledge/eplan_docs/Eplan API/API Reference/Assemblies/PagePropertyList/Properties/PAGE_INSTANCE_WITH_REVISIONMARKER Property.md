@@ -9,7 +9,7 @@ At least one object with revision marker (from property comparison) # 11005.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_INSTANCE_WITH_REVISIONMARKER {get; set;}

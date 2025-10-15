@@ -9,7 +9,7 @@ Available alternates to the deprecated resource
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Link {get; set;}

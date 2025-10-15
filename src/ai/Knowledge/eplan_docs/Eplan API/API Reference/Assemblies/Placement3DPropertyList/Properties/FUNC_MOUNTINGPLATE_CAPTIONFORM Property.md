@@ -9,7 +9,7 @@ Enclosure legend form # 20440.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_MOUNTINGPLATE_CAPTIONFORM {get; set;}

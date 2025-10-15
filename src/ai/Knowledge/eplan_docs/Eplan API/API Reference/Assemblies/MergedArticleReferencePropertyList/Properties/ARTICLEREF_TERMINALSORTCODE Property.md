@@ -9,7 +9,7 @@ Sorting of part on terminal strip # 40342.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_TERMINALSORTCODE {get; set;}

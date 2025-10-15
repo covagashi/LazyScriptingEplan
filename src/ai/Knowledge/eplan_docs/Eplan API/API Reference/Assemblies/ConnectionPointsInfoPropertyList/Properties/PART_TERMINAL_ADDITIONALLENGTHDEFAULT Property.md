@@ -9,7 +9,7 @@ Additional length (default) # 22942.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PART_TERMINAL_ADDITIONALLENGTHDEFAULT {get; set;}

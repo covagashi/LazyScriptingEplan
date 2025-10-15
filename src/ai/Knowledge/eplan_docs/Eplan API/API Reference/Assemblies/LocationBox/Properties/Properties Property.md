@@ -9,7 +9,7 @@ Allows user access to LocationBox properties.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new LocationBoxPropertyList Properties {get;}

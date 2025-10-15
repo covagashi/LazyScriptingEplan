@@ -9,7 +9,7 @@ Gets/Sets, if the function separates potentials.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool HasPotentialSeparated {get; set;}

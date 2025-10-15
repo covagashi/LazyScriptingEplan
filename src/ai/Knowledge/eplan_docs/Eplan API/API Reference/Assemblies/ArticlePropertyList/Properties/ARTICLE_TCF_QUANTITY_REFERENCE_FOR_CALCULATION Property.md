@@ -9,7 +9,7 @@ TCF: Quantity for the calculation # 26602.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TCF_QUANTITY_REFERENCE_FOR_CALCULATION {get; set;}

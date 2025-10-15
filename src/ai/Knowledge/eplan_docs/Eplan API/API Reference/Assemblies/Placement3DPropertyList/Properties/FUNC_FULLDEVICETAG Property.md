@@ -9,7 +9,7 @@ DT (full) # 20006.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_FULLDEVICETAG {get; set;}

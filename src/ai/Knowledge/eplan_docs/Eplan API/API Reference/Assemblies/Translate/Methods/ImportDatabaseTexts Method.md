@@ -9,7 +9,7 @@ Importing text to translation database
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ImportDatabaseTexts( 

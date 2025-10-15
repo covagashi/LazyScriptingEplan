@@ -9,7 +9,7 @@ Plugs: First pin # 35203.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLUGSTRIP_FIRSTCONTACT {get; set;}

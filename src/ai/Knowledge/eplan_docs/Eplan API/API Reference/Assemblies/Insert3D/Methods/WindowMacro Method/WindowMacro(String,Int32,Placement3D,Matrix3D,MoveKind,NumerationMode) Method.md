@@ -9,7 +9,7 @@ Places objects from window macro into layout space.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] WindowMacro( 

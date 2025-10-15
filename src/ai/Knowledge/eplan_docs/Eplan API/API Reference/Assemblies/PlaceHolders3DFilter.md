@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PlaceHolders3DFilter : AbstractDMObjectFilter
@@ -74,7 +74,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PlaceHolders3DFilter Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlaceHolders3DFilter~_ctor.html) | Default constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -82,7 +82,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Name](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlaceHolders3DFilter~Name.html) | Name of objects which will be used to filter objects. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -91,4 +91,4 @@ Public Methods
 | Public Method | [Dispose()](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.AbstractDMObjectFilter~Dispose().html) | Destructor for deterministic finalization of PlaceHolders3DFilter object. (Inherited from [Eplan.EplApi.DataModel.AbstractDMObjectFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.AbstractDMObjectFilter.html)) |
 | Public Method | [ResetFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlaceHolders3DFilter~ResetFilter.html) | Overridden. Resets the filter. |
 
-[Top](#top)
+

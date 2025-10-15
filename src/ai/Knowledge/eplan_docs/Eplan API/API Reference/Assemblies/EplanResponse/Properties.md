@@ -15,4 +15,4 @@ Public Properties
 | Public Property | [Parameters](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext~Parameters.html) | Parameters and values (Inherited from [Eplan.EplApi.Remoting.CallingContext](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext.html)) |
 | Public Property | [Succeed](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext~Succeed.html) | Succeed flag (Inherited from [Eplan.EplApi.Remoting.CallingContext](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext.html)) |
 
-[Top](#top)
+

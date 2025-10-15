@@ -9,7 +9,7 @@ Removes all property configuration from segment definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemovePropertiesConfigurations()

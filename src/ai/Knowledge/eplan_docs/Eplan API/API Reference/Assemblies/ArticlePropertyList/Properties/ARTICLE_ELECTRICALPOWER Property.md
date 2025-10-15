@@ -9,7 +9,7 @@ Switching capacity # 22072.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_ELECTRICALPOWER {get; set;}

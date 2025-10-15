@@ -9,7 +9,7 @@ decide shows the dialog. When the application id in quiet mode, the batch decisi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EnumDecisionReturn Decide( 

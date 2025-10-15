@@ -9,7 +9,7 @@ Font # 19015.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_FONT {get; set;}

@@ -9,7 +9,7 @@ Updates connections in the given project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Connections( 

@@ -9,7 +9,7 @@ Identificators of properties owned by InterruptionPoint class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.InterruptionPoint : System.Enum

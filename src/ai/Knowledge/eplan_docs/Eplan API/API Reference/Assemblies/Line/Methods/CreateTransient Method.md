@@ -9,7 +9,7 @@ Creates transient and not placed Line object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override void CreateTransient( 

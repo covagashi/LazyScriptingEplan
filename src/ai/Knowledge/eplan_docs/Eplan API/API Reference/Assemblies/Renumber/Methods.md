@@ -19,4 +19,4 @@ Public Methods
 | Public Method | [Plugs](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Renumber~Plugs.html) | Overloaded. Method for renumbering plugs specified by the collection pFunctions. |
 | Public Method | [Terminals](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Renumber~Terminals.html) | Overloaded. Method for renumbering terminals specified by the collection pFunctions. |
 
-[Top](#top)
+

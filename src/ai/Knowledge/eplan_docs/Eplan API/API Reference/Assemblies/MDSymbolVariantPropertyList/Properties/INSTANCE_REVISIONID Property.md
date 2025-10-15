@@ -9,7 +9,7 @@ Revision change marker (from property comparison) # 10153.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue INSTANCE_REVISIONID {get; set;}

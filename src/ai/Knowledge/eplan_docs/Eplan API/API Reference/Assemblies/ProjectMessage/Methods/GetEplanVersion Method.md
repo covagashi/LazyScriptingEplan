@@ -9,7 +9,7 @@ Returns the creation version of the message
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetEplanVersion()

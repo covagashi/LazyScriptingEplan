@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SegmentPlacementsFilter~Page.html) | Overridden. Sets the [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html) that [StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)s matching the filter must be placed on. |
 
-[Top](#top)
+

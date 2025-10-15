@@ -9,7 +9,7 @@ Function definition # 21004.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNCTEMPLATE_FUNCTIONDEFINITION {get; set;}

@@ -9,7 +9,7 @@ Data backup: Reorganize project # 10513.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BACKUP_COMPRESS {get; set;}

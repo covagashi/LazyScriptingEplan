@@ -9,7 +9,7 @@ Outputs a line to the system message management.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override void Write( 

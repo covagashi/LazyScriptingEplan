@@ -9,7 +9,7 @@ Setpoint # 26567.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SET_POINT {get; set;}

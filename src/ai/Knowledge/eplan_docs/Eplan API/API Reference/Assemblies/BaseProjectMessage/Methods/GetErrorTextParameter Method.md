@@ -9,7 +9,7 @@ The replacement text for this message.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string GetErrorTextParameter()

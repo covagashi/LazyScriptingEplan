@@ -9,7 +9,7 @@ Remove Cursor-Representation.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ClearCursor()

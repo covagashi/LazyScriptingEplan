@@ -9,7 +9,7 @@ Target total flow rate, min. # 26141.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TARGET_TOTAL_VOLUMETRIC_FLOW_MIN {get; set;}

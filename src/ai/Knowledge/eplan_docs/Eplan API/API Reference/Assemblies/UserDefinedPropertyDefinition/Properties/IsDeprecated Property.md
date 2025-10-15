@@ -9,7 +9,7 @@ Allows to check if a given property is marked as deprecated.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override bool IsDeprecated {get;}

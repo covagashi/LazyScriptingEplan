@@ -9,7 +9,7 @@ Sets the location order, as in the arrLocations parameter, for given hierarchy t
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SetSortedLocations( 

@@ -9,7 +9,7 @@ Full file name of the image file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string FileName {get; set;}

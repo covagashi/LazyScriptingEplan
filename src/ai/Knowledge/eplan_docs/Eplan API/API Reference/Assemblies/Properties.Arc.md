@@ -9,7 +9,7 @@ Identificators of properties owned by Arc class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Arc : System.Enum

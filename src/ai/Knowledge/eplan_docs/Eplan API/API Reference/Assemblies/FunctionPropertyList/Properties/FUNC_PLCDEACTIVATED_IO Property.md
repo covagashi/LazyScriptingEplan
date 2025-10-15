@@ -9,7 +9,7 @@ Deactivated I/O connection point # 20438.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCDEACTIVATED_IO {get; set;}

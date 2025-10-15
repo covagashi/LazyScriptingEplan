@@ -9,7 +9,7 @@ The MessageState determines the actual adjusted check type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Message.MessageStateType MessageState {get; set;}

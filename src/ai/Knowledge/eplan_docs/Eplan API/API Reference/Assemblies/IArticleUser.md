@@ -9,7 +9,7 @@ Defines methods to manipulate article references.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public interface IArticleUser
@@ -23,7 +23,7 @@ Public Properties
 | Property | [ArticleReferences](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IArticleUser~ArticleReferences.html) | Returns [ArticleReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference.html)s that are referenced by IArticleUser. |
 | Property | [CanHaveArticleData](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IArticleUser~CanHaveArticleData.html) | Check if the IArticleUser can have [Article](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article.html)s. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -32,4 +32,4 @@ Public Methods
 | Method | [AddArticleReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IArticleUser~AddArticleReference.html) | Overloaded. Adds a new [ArticleReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference.html) to the IArticleUser. Returns the added [ArticleReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference.html). |
 | Method | [RemoveArticleReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IArticleUser~RemoveArticleReference.html) | Removes the ArticleReference from the IArticleUser |
 
-[Top](#top)
+

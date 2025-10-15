@@ -18,4 +18,4 @@ Public Methods
 | Public Method | [UpdateSegmentsFilling](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.TopologyService~UpdateSegmentsFilling.html) | Overloaded. Calculates and sets value of property CABLINGSEGMENT\_FILLING for all segments in project. |
 | Public Method | [UpdateTopologySegment](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.TopologyService~UpdateTopologySegment.html) | Updates start and end position of a segment. |
 
-[Top](#top)
+

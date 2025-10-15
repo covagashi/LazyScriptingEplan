@@ -9,7 +9,7 @@ The channel designation of PLC template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ChannelDesignation {get; set;}

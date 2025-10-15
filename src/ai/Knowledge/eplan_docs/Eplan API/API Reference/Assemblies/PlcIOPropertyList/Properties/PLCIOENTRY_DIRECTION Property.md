@@ -9,7 +9,7 @@ Direction # 23403.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLCIOENTRY_DIRECTION {get; set;}

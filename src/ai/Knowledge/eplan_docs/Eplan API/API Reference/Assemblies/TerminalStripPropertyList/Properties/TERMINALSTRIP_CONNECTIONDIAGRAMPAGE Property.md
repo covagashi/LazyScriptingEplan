@@ -9,7 +9,7 @@ Terminal strips: Page name of terminal-connection diagram # 35010.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue TERMINALSTRIP_CONNECTIONDIAGRAMPAGE {get; set;}

@@ -9,7 +9,7 @@ Get the computername of the User.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ComputerName {get;}

@@ -9,7 +9,7 @@ PropertiesAndHandleObject to which this property list is connected.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertiesAndHandleObject Parent {get;}

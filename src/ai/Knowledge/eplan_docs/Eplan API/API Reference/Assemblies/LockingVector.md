@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class LockingVector
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [LockingVector Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LockingVector~_ctor.html) | Constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,7 +36,7 @@ Public Properties
 | Public Property | [Enabled](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LockingVector~Enabled.html) | Returns true if locking mechanism is enabled in this version. |
 | Public Property | [LockingStepCount](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LockingVector~LockingStepCount.html) | Returns the number of active LockingSteps. This is not the length of the vector, because the locking-operations are stored(represented) there (not the LockingSteps). |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -52,4 +52,4 @@ Public Methods
 | Public Method | [SetAsInternal](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LockingVector~SetAsInternal.html) | Initializes LockingVectorProxy in API\_Framework. Used automatically, internally. |
 | Public Method | [StartLockingStep](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LockingVector~StartLockingStep.html) | Starts locking step. Use LockingStep instead. |
 
-[Top](#top)
+

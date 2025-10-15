@@ -9,7 +9,7 @@ Gets a manufacturer with the given name that is stored in the parts database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAddress GetManufacturer( 

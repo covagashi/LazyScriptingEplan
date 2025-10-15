@@ -9,7 +9,7 @@ Change of standard: Do not rotate and flip # 11060.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_DONT_CHANGESTANDARD {get; set;}

@@ -9,7 +9,7 @@ Destructor for deterministic finalization of PropertiesAndHandleObjectPropertyLi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Dispose()

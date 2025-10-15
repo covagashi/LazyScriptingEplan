@@ -9,7 +9,7 @@ Returns the [ConnectionDefinitionPoint](Eplan.EplApi.DataModelu~Eplan.EplApi.Dat
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ConnectionDefinitionPoint[] ConnectionDefPoints {get;}

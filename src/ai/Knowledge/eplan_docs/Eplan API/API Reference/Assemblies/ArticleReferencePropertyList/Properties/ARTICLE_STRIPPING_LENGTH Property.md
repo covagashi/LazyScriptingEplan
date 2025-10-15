@@ -9,7 +9,7 @@ Jacket (cable) stripping length # 26010.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_STRIPPING_LENGTH {get; set;}

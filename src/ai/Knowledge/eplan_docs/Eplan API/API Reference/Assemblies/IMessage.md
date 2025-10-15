@@ -9,7 +9,7 @@ Interface declaration for an electrotechnical message in EPLAN. If an add-in wan
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public interface IMessage
@@ -24,4 +24,4 @@ Public Methods
 | Method | [GetMessageText](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.IMessage~GetMessageText.html) | Called by EPLAN when the message text should be shown. |
 | Method | [OnRegister](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.IMessage~OnRegister.html) | Called by EPLAN when the new project message is added to the system. If a new project message was added to a registered add-in, the add-in must be registered over again. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Service ClientId name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ClientId {get; set;}

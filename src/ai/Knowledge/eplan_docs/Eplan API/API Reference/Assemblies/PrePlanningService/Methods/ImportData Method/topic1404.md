@@ -9,7 +9,7 @@ Imports lists with pre-planning data that were created in external applications.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ImportData( 

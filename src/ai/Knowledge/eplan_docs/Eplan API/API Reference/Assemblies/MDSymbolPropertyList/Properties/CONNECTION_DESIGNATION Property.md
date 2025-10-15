@@ -9,7 +9,7 @@ Connection designation # 31011.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue CONNECTION_DESIGNATION {get; set;}

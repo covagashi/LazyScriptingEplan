@@ -9,7 +9,7 @@ Gets a parameter from the Context.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void GetParameter( 

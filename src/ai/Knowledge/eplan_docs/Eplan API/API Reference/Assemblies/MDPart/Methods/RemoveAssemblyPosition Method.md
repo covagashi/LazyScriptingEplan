@@ -9,7 +9,7 @@ Removes the given assembly position from the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveAssemblyPosition( 

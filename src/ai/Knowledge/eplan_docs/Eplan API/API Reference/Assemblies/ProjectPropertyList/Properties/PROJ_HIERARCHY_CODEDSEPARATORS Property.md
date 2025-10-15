@@ -9,7 +9,7 @@ Separator for structures # 10018.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_CODEDSEPARATORS {get; set;}

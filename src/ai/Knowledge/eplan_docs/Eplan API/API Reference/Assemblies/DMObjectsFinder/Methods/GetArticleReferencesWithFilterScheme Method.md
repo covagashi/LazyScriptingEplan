@@ -9,7 +9,7 @@ Returns [ArticleReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Articl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ArticleReference[] GetArticleReferencesWithFilterScheme( 

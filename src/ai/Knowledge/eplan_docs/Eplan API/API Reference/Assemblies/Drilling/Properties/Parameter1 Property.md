@@ -9,7 +9,7 @@ Parameter1.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Parameter1 {get; set;}

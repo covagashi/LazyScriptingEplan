@@ -9,7 +9,7 @@ Rail material # 22272.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_RAILMATERIAL {get; set;}

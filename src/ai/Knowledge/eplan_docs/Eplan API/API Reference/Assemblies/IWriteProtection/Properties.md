@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Property | [WriteProtected](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IWriteProtection~WriteProtected.html) | Checks if an object is currently write protected or sets manual write protection |
 
-[Top](#top)
+

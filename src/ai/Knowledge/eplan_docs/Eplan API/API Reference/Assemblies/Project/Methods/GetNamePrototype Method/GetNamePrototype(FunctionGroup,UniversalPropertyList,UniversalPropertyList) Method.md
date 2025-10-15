@@ -9,7 +9,7 @@ Gets the name prototype for a given function group. For given function group two
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool GetNamePrototype( 

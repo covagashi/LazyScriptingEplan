@@ -9,7 +9,7 @@ PLC subdevice 3: PLC type designation # 22342.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PLCGROUP_TYPIDENTIFIER_3 {get; set;}

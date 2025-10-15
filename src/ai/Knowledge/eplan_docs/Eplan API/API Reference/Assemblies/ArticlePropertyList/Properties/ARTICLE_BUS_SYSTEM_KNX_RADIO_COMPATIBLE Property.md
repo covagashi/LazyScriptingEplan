@@ -9,7 +9,7 @@ KNX: KNX-RF compatible # 26032.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_BUS_SYSTEM_KNX_RADIO_COMPATIBLE {get; set;}

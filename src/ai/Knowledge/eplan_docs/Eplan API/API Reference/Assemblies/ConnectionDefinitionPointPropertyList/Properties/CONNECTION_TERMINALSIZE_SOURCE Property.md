@@ -9,7 +9,7 @@ Connection dimension source # 31096.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_TERMINALSIZE_SOURCE {get; set;}

@@ -9,7 +9,7 @@ Gets property id value as [Properties.PipingDefinition](Eplan.EplApi.DataModelu~
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.PipingDefinition AsPipingDefinition {get;}

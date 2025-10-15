@@ -9,7 +9,7 @@ Segment template assigned to this object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SegmentTemplate SegmentTemplate {get; set;}

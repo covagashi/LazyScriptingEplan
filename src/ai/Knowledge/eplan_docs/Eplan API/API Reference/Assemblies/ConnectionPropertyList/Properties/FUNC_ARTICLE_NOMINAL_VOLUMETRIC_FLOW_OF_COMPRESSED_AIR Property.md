@@ -9,7 +9,7 @@ Nominal flow rate (compressed air) # 26511.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_NOMINAL_VOLUMETRIC_FLOW_OF_COMPRESSED_AIR( 

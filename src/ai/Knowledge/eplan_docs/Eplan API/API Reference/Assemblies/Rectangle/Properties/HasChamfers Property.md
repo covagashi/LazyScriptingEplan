@@ -9,7 +9,7 @@ Returns if the rectangle has chamfers.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool HasChamfers {get; set;}

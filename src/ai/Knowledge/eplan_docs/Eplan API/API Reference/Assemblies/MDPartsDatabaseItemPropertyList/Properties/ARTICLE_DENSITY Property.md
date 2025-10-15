@@ -9,7 +9,7 @@ Density # 26095.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DENSITY {get; set;}

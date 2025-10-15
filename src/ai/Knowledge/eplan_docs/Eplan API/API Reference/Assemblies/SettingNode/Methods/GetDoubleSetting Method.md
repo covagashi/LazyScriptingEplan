@@ -9,7 +9,7 @@ Returns the value of a setting. If a setting is read that has no value for this 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual double GetDoubleSetting( 

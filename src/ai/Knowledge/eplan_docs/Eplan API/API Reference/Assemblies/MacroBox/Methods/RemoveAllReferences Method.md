@@ -9,7 +9,7 @@ Remove all references
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveAllReferences()

@@ -9,7 +9,7 @@ Destroys DeletedObjectInfo object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Destroy()

@@ -9,7 +9,7 @@ Gets the kind of arc object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Arc.Enums.Type Kind {get;}

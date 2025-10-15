@@ -9,7 +9,7 @@ Creates not placed AuxiliaryLine object with defined start and end position.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public AuxiliaryLine( 

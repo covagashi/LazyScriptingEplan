@@ -9,7 +9,7 @@ Constructor with available versions
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SelectEplanDialog( 

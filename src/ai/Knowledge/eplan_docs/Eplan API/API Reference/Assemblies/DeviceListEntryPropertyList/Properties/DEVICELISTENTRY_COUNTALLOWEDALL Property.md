@@ -9,7 +9,7 @@ Total number allowed # 23204.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DEVICELISTENTRY_COUNTALLOWEDALL {get; set;}

@@ -9,7 +9,7 @@ Item number # 20318.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_COMPONENTNUMBER {get; set;}

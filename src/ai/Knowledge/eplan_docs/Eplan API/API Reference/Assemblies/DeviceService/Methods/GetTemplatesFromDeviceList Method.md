@@ -9,7 +9,7 @@ This method returns an array of DeviceService::TemplatesInfo containing informat
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DeviceService.TemplatesInfo[] GetTemplatesFromDeviceList( 

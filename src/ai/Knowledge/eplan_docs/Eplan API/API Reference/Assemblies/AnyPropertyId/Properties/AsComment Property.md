@@ -9,7 +9,7 @@ Gets property id value as [Properties.Comment](Eplan.EplApi.DataModelu~Eplan.Epl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.Comment AsComment {get;}

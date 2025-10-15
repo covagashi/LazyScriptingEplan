@@ -9,7 +9,7 @@ Creates a display list for a macro. A display list is a set of graphical placeme
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateDisplayList( 

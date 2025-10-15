@@ -9,7 +9,7 @@ Property Id and index
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public AnyPropertyId PropDescr {get;}

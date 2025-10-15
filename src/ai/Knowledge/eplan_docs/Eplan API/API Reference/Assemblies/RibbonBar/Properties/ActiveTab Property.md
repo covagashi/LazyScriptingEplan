@@ -9,7 +9,7 @@ Returns active tab
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonTab ActiveTab {get;}

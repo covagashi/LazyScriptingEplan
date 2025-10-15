@@ -9,7 +9,7 @@ Subtrade 'Lubrication' # 22195.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SUBCRAFT_LUBRICATION( 

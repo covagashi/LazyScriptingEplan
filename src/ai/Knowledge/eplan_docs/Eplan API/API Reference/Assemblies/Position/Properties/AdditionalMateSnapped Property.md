@@ -9,7 +9,7 @@ Returns true, if additional mate was found.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool AdditionalMateSnapped {get;}

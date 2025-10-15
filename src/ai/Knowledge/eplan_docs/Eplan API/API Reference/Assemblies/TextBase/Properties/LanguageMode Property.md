@@ -9,7 +9,7 @@ Specifies language mode of text.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public TextBase.TextLanguageMode LanguageMode {get; set;}

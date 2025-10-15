@@ -9,7 +9,7 @@ Returns net-based Ids
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[] NetbasedWiringIds {get;}

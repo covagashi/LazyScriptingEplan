@@ -9,7 +9,7 @@ Gets property id value as [Properties.Image](Eplan.EplApi.DataModelu~Eplan.EplAp
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.Image AsImage {get;}

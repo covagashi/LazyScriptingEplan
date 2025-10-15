@@ -9,7 +9,7 @@ Lines up together the given children of a mounting rail to the certain target di
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool LineUp( 

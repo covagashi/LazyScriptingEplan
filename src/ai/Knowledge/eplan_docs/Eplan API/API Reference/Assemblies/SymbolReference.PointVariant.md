@@ -9,7 +9,7 @@ Configuration types to select different variants for point or destination wiring
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum SymbolReference.PointVariant : System.Enum

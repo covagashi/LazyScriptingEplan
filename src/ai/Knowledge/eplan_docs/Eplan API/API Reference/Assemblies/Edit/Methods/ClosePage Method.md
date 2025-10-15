@@ -9,7 +9,7 @@ closes a page and the associated GEDs
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ClosePage( 

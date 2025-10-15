@@ -18,4 +18,4 @@ Public Properties
 | Public Property | [OffsetZ](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAccessoryPlacementPosition~OffsetZ.html) | Move in Z direction for the respective placement. |
 | Public Property | [Rotation](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAccessoryPlacementPosition~Rotation.html) | Rotation angle. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Gets/Sets ...
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConfigurationProject {get; set;}

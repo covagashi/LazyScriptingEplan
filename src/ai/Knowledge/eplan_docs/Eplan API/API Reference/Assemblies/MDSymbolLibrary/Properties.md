@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [Symbol](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolLibrary~Symbol.html) | Index operator to get a symbol by its name. |
 | Public Property | [Symbols](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolLibrary~Symbols.html) | Gets a read only list of all Symbols in the library |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Installation site: Main identifier (automatic) # 31108.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_PLACEOFINSTALLATION_AUTOMATIC {get; set;}

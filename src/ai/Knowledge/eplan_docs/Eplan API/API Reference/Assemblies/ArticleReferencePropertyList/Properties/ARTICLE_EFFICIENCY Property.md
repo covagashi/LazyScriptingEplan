@@ -9,7 +9,7 @@ Efficiency # 26649.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_EFFICIENCY {get; set;}

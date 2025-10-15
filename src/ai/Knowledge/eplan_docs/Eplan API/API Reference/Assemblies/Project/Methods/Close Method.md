@@ -9,7 +9,7 @@ Closes the project. Must not be called before Remove()
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Close()

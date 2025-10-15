@@ -9,7 +9,7 @@ Returns name of a connection point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get;}

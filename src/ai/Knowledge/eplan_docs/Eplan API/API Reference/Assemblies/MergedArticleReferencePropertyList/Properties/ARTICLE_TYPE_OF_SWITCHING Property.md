@@ -9,7 +9,7 @@ Circuit type # 26547.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TYPE_OF_SWITCHING {get; set;}

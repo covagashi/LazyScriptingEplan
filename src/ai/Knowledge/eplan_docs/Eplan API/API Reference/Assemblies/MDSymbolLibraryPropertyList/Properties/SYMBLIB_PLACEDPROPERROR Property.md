@@ -9,7 +9,7 @@ Error: Property placement # 15106.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMBLIB_PLACEDPROPERROR( 

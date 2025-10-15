@@ -9,7 +9,7 @@ Signal range of the PLC template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SignalRange {get; set;}

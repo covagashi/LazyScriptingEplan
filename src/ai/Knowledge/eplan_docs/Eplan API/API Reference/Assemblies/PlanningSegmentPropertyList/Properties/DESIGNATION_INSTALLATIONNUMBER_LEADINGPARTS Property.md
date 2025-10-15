@@ -9,7 +9,7 @@ Higher-level function number (single component) # 1728.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_INSTALLATIONNUMBER_PART {get; set;}

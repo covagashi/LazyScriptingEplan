@@ -9,7 +9,7 @@ Pressure level of secondary housing # 26262.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_SECONDARY_CASING_PRESSURE_STAGE( 

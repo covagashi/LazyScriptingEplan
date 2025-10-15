@@ -7,7 +7,7 @@
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 PropertyPlacement[] PropertyPlacements {get;}

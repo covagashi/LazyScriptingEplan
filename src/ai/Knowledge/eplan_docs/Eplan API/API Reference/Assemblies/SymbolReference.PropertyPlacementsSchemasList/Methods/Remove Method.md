@@ -9,7 +9,7 @@ Removes a PropertyPlacementsSchema object that represents the property placement
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Remove( 

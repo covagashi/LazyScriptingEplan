@@ -9,7 +9,7 @@ Connection point pattern: Plug designation # 36068.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_TERMINALPOSITION_DEVICETAG( 

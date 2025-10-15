@@ -9,7 +9,7 @@ Name of connection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConnectionName

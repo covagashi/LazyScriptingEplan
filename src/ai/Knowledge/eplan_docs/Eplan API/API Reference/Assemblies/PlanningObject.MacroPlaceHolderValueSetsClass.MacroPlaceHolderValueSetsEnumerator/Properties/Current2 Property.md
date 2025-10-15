@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [Current](topic753.html) | Returns the current MacroPlaceholderValueSet. |
 | Public Property | [Current2](topic754.html) | Returns the current MacroPlaceholderValueSet. The same as Current. |
 
-[Top](#top)
+

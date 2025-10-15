@@ -9,7 +9,7 @@ Macro: Name # 11018.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTALLATIONSPACE_MACRO_NAME {get; set;}

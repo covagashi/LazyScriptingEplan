@@ -9,7 +9,7 @@ Array of [Segment](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Topology.Segme
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Segment[] RouteHints {get; set;}

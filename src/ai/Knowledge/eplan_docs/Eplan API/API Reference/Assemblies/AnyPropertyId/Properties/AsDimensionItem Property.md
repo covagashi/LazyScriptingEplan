@@ -9,7 +9,7 @@ Gets property id value as [Properties.DimensionItem](Eplan.EplApi.DataModelu~Epl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.DimensionItem AsDimensionItem {get;}

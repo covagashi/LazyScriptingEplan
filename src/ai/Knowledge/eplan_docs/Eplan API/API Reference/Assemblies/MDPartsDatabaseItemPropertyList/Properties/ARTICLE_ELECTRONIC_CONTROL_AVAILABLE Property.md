@@ -9,7 +9,7 @@ Electronic control available # 26037.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ELECTRONIC_CONTROL_AVAILABLE {get; set;}

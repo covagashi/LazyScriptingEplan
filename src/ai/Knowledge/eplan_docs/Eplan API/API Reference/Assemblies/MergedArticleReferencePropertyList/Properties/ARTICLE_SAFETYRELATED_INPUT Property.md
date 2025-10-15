@@ -9,7 +9,7 @@ Safety-related values: Input (Collect) # 40326.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SAFETYRELATED_INPUT {get; set;}

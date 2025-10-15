@@ -16,4 +16,4 @@ Public Properties
 | Public Property | [SynchronousMode](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanRemoteClient~SynchronousMode.html) | Sets and gets the Synchronous mode. |
 | Public Property | [User](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanRemoteClient~User.html) | Eplan log-in user used for Rights Management. User settings will be used from this user. |
 
-[Top](#top)
+

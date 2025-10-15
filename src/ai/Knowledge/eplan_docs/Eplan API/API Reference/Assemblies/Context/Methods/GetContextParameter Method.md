@@ -9,7 +9,7 @@ Get the Block of Context Parameters of this Context.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual ContextParameterBlock GetContextParameter()

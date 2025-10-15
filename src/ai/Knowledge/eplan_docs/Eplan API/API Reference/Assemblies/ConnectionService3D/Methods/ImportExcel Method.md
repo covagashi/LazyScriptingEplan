@@ -9,7 +9,7 @@ Imports the Connection3Ds from an Excel file into the given project using a sche
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Connection3D[] ImportExcel( 

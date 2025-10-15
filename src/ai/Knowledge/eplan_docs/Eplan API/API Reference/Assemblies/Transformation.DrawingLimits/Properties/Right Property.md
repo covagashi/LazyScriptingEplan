@@ -9,7 +9,7 @@ Right
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Right {get;}

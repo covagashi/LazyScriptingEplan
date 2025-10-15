@@ -9,7 +9,7 @@ Identificators of properties owned by Rectangle class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Rectangle : System.Enum

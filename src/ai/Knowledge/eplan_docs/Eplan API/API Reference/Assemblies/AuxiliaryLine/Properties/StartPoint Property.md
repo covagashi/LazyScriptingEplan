@@ -9,7 +9,7 @@ Position of the AuxiliaryLine beginning relatively to its parent.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D StartPoint {get; set;}

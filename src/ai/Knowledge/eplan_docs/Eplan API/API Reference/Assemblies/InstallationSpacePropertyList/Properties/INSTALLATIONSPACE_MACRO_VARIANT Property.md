@@ -9,7 +9,7 @@ Macro: Variant # 36019.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTALLATIONSPACE_MACRO_VARIANT {get; set;}

@@ -9,7 +9,7 @@ The maximal wire cross section of the connection point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double MaxCrossSection {get; set;}

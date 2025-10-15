@@ -9,7 +9,7 @@ Terminals: Current IEC # 22088.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CURRENTIEC {get; set;}

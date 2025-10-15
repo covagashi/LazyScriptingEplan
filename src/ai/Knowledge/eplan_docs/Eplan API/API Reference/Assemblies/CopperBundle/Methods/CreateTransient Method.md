@@ -9,7 +9,7 @@ Creates transient and not placed CopperBundle object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static CopperBundle CreateTransient( 

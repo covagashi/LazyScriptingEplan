@@ -9,7 +9,7 @@ Returns array of all [UserDefinedPropertyDefinition](Eplan.EplApi.DataModelu~Epl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public UserDefinedPropertyDefinition[] UserDefinedPropertyDefinitions {get;}

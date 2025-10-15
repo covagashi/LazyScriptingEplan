@@ -9,7 +9,7 @@ Grid # 15013.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMBLIB_LOGICGRID {get; set;}

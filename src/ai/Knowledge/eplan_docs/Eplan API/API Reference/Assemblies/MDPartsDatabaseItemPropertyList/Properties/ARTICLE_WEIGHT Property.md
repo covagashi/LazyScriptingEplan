@@ -9,7 +9,7 @@ Weight # 22046.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_WEIGHT {get; set;}

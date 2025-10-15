@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public struct PointD3D : System.ValueType
@@ -28,7 +28,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PointD3D Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD3D~_ctor.html) | Constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -38,7 +38,7 @@ Public Properties
 | Public Property | [Y](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD3D~Y.html) | Y coordinate |
 | Public Property | [Z](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD3D~Z.html) | Z coordinate |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -47,4 +47,4 @@ Public Methods
 | Public Method | [GetEPoint3D](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD3D~GetEPoint3D.html) | \internal |
 | Public Method | [SetEPoint3D](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD3D~SetEPoint3D.html) |  |
 
-[Top](#top)
+

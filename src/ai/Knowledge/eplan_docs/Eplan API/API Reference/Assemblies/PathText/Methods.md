@@ -30,4 +30,4 @@ Public Methods
 | Public Method | [ToText](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PathText~ToText.html) | Transforms this PathText instance into a Text instance. |
 | Public Method | [UndockText](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextBase~UndockText.html) | Undock text from another oner one. You can see how it works in GUI. Select element on schematic, display properties, show property placements and dock / undock them. (Inherited from [Eplan.EplApi.DataModel.Graphics.TextBase](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextBase.html)) |
 
-[Top](#top)
+

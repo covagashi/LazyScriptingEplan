@@ -9,7 +9,7 @@ Number of outputs # 26011.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_NUMBER_OF_OUTPUTS {get; set;}

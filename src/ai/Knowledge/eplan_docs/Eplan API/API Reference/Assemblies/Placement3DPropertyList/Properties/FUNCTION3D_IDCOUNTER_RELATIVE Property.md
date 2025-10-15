@@ -9,7 +9,7 @@ Counter in item ID (relative to macro, EEC) # 36034.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_IDCOUNTER_RELATIVE {get; set;}

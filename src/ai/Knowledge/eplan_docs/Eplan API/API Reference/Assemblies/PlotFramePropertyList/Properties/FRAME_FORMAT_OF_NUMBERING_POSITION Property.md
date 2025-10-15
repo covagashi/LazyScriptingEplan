@@ -9,7 +9,7 @@ Row numbering format # 12009.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_FORMAT_OF_NUMBERING_POSITION {get; set;}

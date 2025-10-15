@@ -9,7 +9,7 @@ Identificators of properties owned by MDSymbol class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.MDSymbol : System.Enum

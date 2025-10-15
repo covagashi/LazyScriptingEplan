@@ -9,7 +9,7 @@ Returns number of variables
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual int Count {get;}

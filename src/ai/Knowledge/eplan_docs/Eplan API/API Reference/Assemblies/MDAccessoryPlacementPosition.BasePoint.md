@@ -9,7 +9,7 @@ Base points are predefined mounting points in a layout space where accessory pla
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MDAccessoryPlacementPosition.BasePoint : System.Enum

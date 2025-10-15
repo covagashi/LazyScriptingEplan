@@ -9,7 +9,7 @@ Generate project reports.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void GenerateProject( 

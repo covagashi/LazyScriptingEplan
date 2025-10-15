@@ -9,7 +9,7 @@ Gets whether font is underlined or not.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Underline {get;}

@@ -9,7 +9,7 @@ State of connection to database that is currently used.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MDPartsManagement.DataSourceState : System.Enum

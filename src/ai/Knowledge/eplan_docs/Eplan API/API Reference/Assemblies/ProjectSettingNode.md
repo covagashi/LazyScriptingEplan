@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ProjectSettingNode : Eplan.EplApi.Base.SettingNode
@@ -33,7 +33,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ProjectSettingNode Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectSettingNode~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -78,4 +78,4 @@ Public Methods
 | Public Method | [SetStringSetting](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SettingNode~SetStringSetting.html) | Sets the value of a setting. If a setting is made and an index is specified that exceeds the number of values, the corresponding values are created, based on the predefined value. The index starts at 0. (Inherited from [Eplan.EplApi.Base.SettingNode](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SettingNode.html)) |
 | Public Method | [Write](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SettingNode~Write.html) | Writes all settings to a file. (Inherited from [Eplan.EplApi.Base.SettingNode](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SettingNode.html)) |
 
-[Top](#top)
+

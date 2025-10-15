@@ -9,7 +9,7 @@ Plugs: Number of male pins # 35210.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLUGSTRIP_COUNTOFPINS {get; set;}

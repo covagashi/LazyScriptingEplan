@@ -9,7 +9,7 @@ Reads bool value from settings.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool GetBoolSetting( 

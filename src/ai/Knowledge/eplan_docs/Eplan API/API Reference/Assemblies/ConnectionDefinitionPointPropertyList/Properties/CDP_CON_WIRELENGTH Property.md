@@ -9,7 +9,7 @@ Associated connections: Length # 31033.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_WIRELENGTH {get; set;}

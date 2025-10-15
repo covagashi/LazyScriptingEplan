@@ -9,7 +9,7 @@ Device group main function # 20861.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_IS_DEVICEGROUP_MAINFUNCTION {get; set;}

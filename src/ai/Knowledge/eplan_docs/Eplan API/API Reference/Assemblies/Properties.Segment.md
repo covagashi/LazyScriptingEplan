@@ -9,7 +9,7 @@ Identificators of properties owned by Segment class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Segment : System.Enum

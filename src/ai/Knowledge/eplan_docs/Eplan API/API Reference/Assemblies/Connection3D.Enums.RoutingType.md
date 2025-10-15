@@ -9,7 +9,7 @@ Types of routing.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Connection3D.Enums.RoutingType : System.Enum

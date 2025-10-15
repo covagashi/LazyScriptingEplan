@@ -9,7 +9,7 @@ Sets circle
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetCircle( 

@@ -9,7 +9,7 @@ Exits the Eplan runtime system.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Exit()

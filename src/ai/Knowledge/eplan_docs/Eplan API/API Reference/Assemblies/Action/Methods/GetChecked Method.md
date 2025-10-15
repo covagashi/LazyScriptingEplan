@@ -9,7 +9,7 @@ Returns 'checked' state of an action
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int GetChecked( 

@@ -9,7 +9,7 @@ Returns the [SettingNode](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SettingNode.html)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SettingNode GetNodeHandle()

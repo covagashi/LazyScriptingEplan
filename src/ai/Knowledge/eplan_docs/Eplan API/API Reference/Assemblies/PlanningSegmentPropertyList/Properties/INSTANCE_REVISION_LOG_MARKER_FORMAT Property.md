@@ -9,7 +9,7 @@ Segment definition: Preceding sign also at the beginning # 44046.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECTDEFINITION_BEGINWITHPREFIX {get; set;}

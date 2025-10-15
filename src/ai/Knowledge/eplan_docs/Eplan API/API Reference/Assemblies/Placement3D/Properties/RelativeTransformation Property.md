@@ -9,7 +9,7 @@ Position and rotation relative to the parent placement represented by transforma
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Matrix3D RelativeTransformation {get; set;}

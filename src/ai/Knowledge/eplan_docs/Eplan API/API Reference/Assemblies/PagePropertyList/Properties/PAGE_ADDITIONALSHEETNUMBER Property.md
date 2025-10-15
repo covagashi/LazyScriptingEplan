@@ -9,7 +9,7 @@ Suppl. field: Sheet no. # 11033.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_ADDITIONALSHEETNUMBER {get; set;}

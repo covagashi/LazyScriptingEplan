@@ -9,7 +9,7 @@ Format of full DT # 20206.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_FULLDTFORMAT {get; set;}

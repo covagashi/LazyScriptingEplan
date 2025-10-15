@@ -9,7 +9,7 @@ The group of the symbol variant. That is needed to add graphical placements.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Group AsGroup {get;}

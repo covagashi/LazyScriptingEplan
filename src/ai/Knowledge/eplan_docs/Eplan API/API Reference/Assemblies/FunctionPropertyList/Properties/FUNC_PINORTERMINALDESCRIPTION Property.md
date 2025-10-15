@@ -9,7 +9,7 @@ Terminal / pin description # 20225.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PINORTERMINALDESCRIPTION {get; set;}

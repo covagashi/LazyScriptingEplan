@@ -9,7 +9,7 @@ Stores changes into a project database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool StoreToObject()

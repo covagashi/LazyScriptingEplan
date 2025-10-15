@@ -9,7 +9,7 @@ Contains supplemental parts # 22423.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CONTAINS_ADDONPARTS {get; set;}

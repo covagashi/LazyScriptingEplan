@@ -9,7 +9,7 @@ Gets/Sets pin's SourceOrTarget.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Pin.SourceOrTarget IsSourceOrTarget {get; set;}

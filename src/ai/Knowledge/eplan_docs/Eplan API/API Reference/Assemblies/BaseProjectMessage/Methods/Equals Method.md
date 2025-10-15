@@ -9,7 +9,7 @@ Determines whether the specified `BaseProjectMessage` is equal to the current `B
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override bool Equals( 

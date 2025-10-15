@@ -9,7 +9,7 @@ Macro: Source project # 23005.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROBOX_SOURCEPROJECT {get; set;}

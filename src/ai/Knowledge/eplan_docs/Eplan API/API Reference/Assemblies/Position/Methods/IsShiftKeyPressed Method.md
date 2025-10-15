@@ -9,7 +9,7 @@ Returns true, if shift key was pressed at the moment, when position was stored.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsShiftKeyPressed()

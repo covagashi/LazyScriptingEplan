@@ -9,7 +9,7 @@ Called by EPLAN when a check routine starts in the system.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void OnStartInspection( 

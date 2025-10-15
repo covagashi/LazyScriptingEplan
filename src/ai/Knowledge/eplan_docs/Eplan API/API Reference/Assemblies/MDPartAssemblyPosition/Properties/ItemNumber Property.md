@@ -9,7 +9,7 @@ Returns the item number of the position
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ItemNumber {get; set;}

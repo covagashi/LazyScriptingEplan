@@ -9,7 +9,7 @@ PLC station: Type # 20409.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCSTATIONTYPE {get; set;}

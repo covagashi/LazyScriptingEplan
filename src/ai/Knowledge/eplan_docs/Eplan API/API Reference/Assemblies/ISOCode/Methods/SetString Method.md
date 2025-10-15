@@ -9,7 +9,7 @@ Sets the language.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetString( 

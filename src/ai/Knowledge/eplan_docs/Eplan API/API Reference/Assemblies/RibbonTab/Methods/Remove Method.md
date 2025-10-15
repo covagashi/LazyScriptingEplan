@@ -9,7 +9,7 @@ Removes ribbon tab
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Remove()

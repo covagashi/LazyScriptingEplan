@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Transformation.DrawingLimits
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Transformation.DrawingLimits Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Transformation+DrawingLimits~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -38,4 +38,4 @@ Public Properties
 | Public Property | [Right](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Transformation+DrawingLimits~Right.html) | Right |
 | Public Property | [Top](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Transformation+DrawingLimits~Top.html) | Top |
 
-[Top](#top)
+

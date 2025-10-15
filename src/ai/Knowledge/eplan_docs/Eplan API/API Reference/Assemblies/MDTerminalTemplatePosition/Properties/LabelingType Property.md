@@ -9,7 +9,7 @@ The labeling type of the terminal template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string LabelingType {get; set;}

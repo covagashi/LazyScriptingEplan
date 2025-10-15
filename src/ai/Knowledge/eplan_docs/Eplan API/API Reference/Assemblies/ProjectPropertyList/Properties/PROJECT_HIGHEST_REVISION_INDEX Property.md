@@ -9,7 +9,7 @@ Highest revision index (change tracking) # 10098.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJECT_HIGHEST_REVISION_INDEX {get; set;}

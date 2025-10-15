@@ -9,7 +9,7 @@ Part is included in a module # 20906.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_MODULE_PART( 

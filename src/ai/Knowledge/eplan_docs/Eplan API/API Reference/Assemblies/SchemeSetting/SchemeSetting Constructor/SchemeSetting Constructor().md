@@ -9,7 +9,7 @@ Creates a new object for editing schemes.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SchemeSetting()

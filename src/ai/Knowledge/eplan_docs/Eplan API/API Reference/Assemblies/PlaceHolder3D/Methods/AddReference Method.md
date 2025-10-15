@@ -9,7 +9,7 @@ Adds the reference of a Placement3D object to the Placeholder3D.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void AddReference( 

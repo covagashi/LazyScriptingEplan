@@ -9,7 +9,7 @@ Starts a check run for the given pages.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void VerifyPages( 

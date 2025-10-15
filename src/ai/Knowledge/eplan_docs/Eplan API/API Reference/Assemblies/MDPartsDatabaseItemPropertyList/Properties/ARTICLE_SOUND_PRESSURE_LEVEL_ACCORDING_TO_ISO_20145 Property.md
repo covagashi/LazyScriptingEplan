@@ -9,7 +9,7 @@ Sound pressure level acc. to ISO 20145 # 26542.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SOUND_PRESSURE_LEVEL_ACCORDING_TO_ISO_20145 {get; set;}

@@ -9,7 +9,7 @@ Gets or sets whether first extension help line is displayed or not.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExtensionLineFirst {get; set;}

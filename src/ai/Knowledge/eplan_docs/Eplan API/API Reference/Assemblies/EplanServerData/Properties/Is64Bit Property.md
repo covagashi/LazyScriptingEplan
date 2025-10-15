@@ -9,7 +9,7 @@ Is 64 Bit Eplan process?
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Is64Bit {get;}

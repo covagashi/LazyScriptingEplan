@@ -9,7 +9,7 @@ PCF: Life cycle phase # 26527.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PCF_LIFE_CYCLE_PHASE {get; set;}

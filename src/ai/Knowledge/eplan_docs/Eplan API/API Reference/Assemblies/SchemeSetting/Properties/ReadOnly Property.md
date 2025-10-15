@@ -9,7 +9,7 @@ Gives write permission to settings of this scheme.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ReadOnly {get;}

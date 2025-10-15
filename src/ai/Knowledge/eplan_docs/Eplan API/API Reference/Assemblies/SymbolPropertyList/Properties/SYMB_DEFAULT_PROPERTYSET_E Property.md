@@ -9,7 +9,7 @@ Default property arrangement for variant E # 16008.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMB_DEFAULT_PROPERTYSET_E {get; set;}

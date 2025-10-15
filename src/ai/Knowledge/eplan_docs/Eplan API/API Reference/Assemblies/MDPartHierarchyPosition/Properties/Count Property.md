@@ -9,7 +9,7 @@ Returns the count of usage of that part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short Count {get; set;}

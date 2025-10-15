@@ -9,7 +9,7 @@ Returns the project to which the StorableObject belongs.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override Project Project {get;}

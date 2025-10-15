@@ -9,7 +9,7 @@ Returns Line's end point.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD EndPoint {get; set;}

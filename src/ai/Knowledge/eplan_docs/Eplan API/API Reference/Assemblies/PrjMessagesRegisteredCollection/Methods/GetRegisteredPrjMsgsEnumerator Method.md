@@ -9,7 +9,7 @@ Returns a typed enumerator that can iterate through a collection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PrjMessagesRegisteredEnumerator GetRegisteredPrjMsgsEnumerator()

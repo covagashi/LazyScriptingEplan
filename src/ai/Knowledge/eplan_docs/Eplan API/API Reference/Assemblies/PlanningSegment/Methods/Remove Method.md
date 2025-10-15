@@ -9,7 +9,7 @@ Removes object from PlanningSegment with all its children.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Remove()

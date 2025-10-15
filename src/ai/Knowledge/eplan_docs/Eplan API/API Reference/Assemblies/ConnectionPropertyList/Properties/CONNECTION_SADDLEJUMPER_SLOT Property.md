@@ -9,7 +9,7 @@ Saddle jumper slot # 31163.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_SADDLEJUMPER_SLOT {get; set;}

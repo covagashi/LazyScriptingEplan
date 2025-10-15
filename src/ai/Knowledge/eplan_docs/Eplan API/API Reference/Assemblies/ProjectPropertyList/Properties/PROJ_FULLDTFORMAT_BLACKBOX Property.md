@@ -9,7 +9,7 @@ Format of full DT: Black box # 10650.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_FULLDTFORMAT_BLACKBOX {get; set;}

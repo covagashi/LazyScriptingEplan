@@ -9,7 +9,7 @@ Move in Y direction for the respective placement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double OffsetY {get; set;}

@@ -9,7 +9,7 @@ Left
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Left {get;}

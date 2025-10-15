@@ -9,7 +9,7 @@ Function designation (main identifier) # 1100.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_PLANT {get; set;}

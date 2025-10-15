@@ -9,7 +9,7 @@ Type number # 22002.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TYPENR {get; set;}

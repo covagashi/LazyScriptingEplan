@@ -9,7 +9,7 @@ Exports parts user defined properties.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExportMDUserDefinedPropertyDefinitions( 

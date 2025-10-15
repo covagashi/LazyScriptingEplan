@@ -9,7 +9,7 @@ Number of pneumatic ports # 26070.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NUMBER_OF_PNEUMATIC_CONNECTION {get; set;}

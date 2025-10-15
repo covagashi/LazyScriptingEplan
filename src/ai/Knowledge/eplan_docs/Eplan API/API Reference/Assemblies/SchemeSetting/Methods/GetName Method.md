@@ -9,7 +9,7 @@ Returns a language-independent, internal scheme identifier.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetName()

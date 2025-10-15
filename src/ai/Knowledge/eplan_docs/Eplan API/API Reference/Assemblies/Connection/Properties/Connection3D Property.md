@@ -9,7 +9,7 @@ Returns the [Eplan.EplApi.DataModel.E3D.Connection3D](Eplan.EplApi.DataModelu~Ep
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Connection3D Connection3D {get;}

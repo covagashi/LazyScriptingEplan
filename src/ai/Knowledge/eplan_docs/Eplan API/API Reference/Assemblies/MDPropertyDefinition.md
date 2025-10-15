@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDPropertyDefinition
@@ -28,7 +28,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDPropertyDefinition Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyDefinition~_ctor(MDAnyPropertyId).html) | Constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -43,7 +43,7 @@ Public Properties
 | Public Property | [Type](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyDefinition~Type.html) | Returns information about type of the property. [MDPropertyDefinition.MDPropertyType](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyDefinition+MDPropertyType.html) |
 | Public Property | [UpperBound](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyDefinition~UpperBound.html) | Gets a property's maximal value specified in the property's definition. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -51,4 +51,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyDefinition~Dispose().html) | Destructor for deterministic finalization of MDPropertyDefinition object. |
 
-[Top](#top)
+

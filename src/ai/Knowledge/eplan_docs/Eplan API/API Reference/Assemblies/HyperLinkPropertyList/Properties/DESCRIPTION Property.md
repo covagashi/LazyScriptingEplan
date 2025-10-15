@@ -9,7 +9,7 @@ Description (Hyperlink) # 19305.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESCRIPTION {get; set;}

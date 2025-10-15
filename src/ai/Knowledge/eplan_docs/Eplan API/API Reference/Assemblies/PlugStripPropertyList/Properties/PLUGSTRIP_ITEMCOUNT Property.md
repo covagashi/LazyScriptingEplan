@@ -9,7 +9,7 @@ Plugs: Number of pins and accessories for plug diagram # 35207.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLUGSTRIP_ITEMCOUNT {get; set;}

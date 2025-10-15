@@ -9,7 +9,7 @@ PLC subdevice 7: PLC type designation # 22346.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PLCGROUP_TYPIDENTIFIER_7 {get; set;}

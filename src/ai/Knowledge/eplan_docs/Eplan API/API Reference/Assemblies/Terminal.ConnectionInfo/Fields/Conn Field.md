@@ -9,7 +9,7 @@ Connection object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Connection Conn

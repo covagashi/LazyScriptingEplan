@@ -9,7 +9,7 @@ Returns the page the Placement is on, or assigns a Page object to the placement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override Page Page {get;}

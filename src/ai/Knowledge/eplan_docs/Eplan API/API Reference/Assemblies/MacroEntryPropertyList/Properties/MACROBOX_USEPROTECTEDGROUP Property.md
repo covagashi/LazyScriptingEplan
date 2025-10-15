@@ -9,7 +9,7 @@ Macro: Protected group # 23012.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROBOX_USEPROTECTEDGROUP {get; set;}

@@ -9,7 +9,7 @@ Extra length # 36031.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_ROUTING_WIRING_OPENING_EXTRALENGTH {get; set;}

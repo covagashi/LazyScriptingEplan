@@ -9,7 +9,7 @@ Returns default Scripts directory.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Scripts {get;}

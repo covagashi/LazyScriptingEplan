@@ -9,7 +9,7 @@ Create a new device.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateDevice( 

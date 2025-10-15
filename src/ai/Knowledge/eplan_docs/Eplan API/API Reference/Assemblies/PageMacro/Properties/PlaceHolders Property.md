@@ -9,7 +9,7 @@ Returns all Eplan.EplApi.DataModel.Graphics.PlaceHolder contained in the macro.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlaceHolder[] PlaceHolders {get;}

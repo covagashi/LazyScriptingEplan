@@ -9,7 +9,7 @@ Purchase price/price unit Currency 2 # 22110.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PURCHASEPRICE_2 {get; set;}

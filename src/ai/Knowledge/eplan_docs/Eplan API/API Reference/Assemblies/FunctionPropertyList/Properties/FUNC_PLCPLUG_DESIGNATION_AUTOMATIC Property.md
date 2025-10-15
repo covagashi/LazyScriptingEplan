@@ -9,7 +9,7 @@ Plug designation (automatic) # 20431.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCPLUG_DESIGNATION_AUTOMATIC {get; set;}

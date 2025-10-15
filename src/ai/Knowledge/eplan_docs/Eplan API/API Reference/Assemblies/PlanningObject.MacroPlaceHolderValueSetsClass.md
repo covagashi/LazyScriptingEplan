@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Item")]
@@ -75,7 +75,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PlanningObject.MacroPlaceHolderValueSetsClass Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningObject+MacroPlaceHolderValueSetsClass~_ctor.html) | Constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -85,7 +85,7 @@ Public Properties
 | Public Property | [Item](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningObject+MacroPlaceHolderValueSetsClass~Item.html) | Overloaded. |
 | Public Property | [Source](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningObject+MacroPlaceHolderValueSetsClass~Source.html) | Planning object to which macro placeholder value sets belong |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -99,4 +99,4 @@ Public Methods
 | Public Method | [Store](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningObject+MacroPlaceHolderValueSetsClass~Store.html) | Stores back macro placeholder value sets to planning object. |
 | Public Method | [UpdateFromMacro](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningObject+MacroPlaceHolderValueSetsClass~UpdateFromMacro.html) | Updates planning object's macro placeholder value sets with data from macro (e.g. after macro has changed) |
 
-[Top](#top)
+

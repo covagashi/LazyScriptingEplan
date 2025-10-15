@@ -9,7 +9,7 @@ Adds a copy of FunctionTemplate to the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDFunctionTemplatePosition AddFunctionTemplatePosition( 

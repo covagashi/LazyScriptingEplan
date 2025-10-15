@@ -9,7 +9,7 @@ The value determines if target is taken from net-based routing or not.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AreTargetsSpecifed {get; set;}

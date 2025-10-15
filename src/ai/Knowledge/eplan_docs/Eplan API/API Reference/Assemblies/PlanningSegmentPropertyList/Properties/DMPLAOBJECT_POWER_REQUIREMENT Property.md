@@ -9,7 +9,7 @@ Power consumption # 44010.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_POWER_REQUIREMENT {get; set;}

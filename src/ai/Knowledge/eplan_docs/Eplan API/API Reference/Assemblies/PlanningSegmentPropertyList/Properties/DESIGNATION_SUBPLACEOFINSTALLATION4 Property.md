@@ -9,7 +9,7 @@ Installation site (sub-identifier 4): Description # 1434.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBPLACEOFINSTALLATION4_DESCR {get; set;}

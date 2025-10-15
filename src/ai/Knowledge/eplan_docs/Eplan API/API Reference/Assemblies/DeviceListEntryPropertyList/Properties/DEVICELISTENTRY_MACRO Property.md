@@ -9,7 +9,7 @@ Macro # 23214.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DEVICELISTENTRY_MACRO {get; set;}

@@ -9,7 +9,7 @@ The referenced support bar part as MDPart object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual MDPart Part {get;}

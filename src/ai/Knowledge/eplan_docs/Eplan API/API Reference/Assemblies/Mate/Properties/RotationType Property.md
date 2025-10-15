@@ -9,7 +9,7 @@ Rotation type which this mate force while snapping.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Mate.Enums.RotationType RotationType {get; set;}

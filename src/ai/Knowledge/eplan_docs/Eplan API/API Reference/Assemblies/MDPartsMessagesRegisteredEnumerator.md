@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDPartsMessagesRegisteredEnumerator
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDPartsMessagesRegisteredEnumerator Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesRegisteredEnumerator~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -35,7 +35,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Current](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesRegisteredEnumerator~Current.html) | Gets the current element in [Eplan::EplApi::MasterData:](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesRegisteredCollection.html) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -45,4 +45,4 @@ Public Methods
 | Public Method | [MoveNext](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesRegisteredEnumerator~MoveNext.html) | Advances the enumerator to the next element of [Eplan::EplApi::MasterData:](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesRegisteredCollection.html) |
 | Public Method | [Reset](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesRegisteredEnumerator~Reset.html) | Sets the enumerator to its initial position, which is before the first element in [Eplan::EplApi::MasterData:](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesRegisteredCollection.html) |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Enclosures # 10038.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ENCLOSURES {get; set;}

@@ -9,7 +9,7 @@ Creates object on page from information contained in SymbolVariant object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolReference Create( 

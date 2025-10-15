@@ -9,7 +9,7 @@ Calculates the reference point of the macro Used to calculate reference point if
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CalculateReferencePoint3D( 

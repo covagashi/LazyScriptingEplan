@@ -271,4 +271,4 @@ Public Properties
 | Public Property | [SUBPROJECT\_NUMBER](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBasePropertyList~SUBPROJECT_NUMBER().html) | Overloaded. Subproject number # 25101. (Inherited from [Eplan.EplApi.DataModel.FunctionBasePropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBasePropertyList.html)) |
 | Public Property | [WRITEPROTECTED\_AUTOMATIC](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementPropertyList~WRITEPROTECTED_AUTOMATIC().html) | Overloaded. Change protection (hierarchical) # 3015. (Inherited from [Eplan.EplApi.DataModel.PlacementPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementPropertyList.html)) |
 
-[Top](#top)
+

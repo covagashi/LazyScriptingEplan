@@ -9,7 +9,7 @@ For a connection point, this shows how the end of the connection is handled, for
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int WireTerminationProcessing {get; set;}

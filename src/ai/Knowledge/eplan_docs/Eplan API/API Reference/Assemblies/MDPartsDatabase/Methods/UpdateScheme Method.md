@@ -9,7 +9,7 @@ Updates the scheme of the database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void UpdateScheme()

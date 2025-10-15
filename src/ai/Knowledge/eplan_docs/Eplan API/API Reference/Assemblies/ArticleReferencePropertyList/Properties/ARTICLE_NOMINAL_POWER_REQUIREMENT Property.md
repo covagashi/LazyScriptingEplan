@@ -9,7 +9,7 @@ Nominal power requirement # 26484.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_NOMINAL_POWER_REQUIREMENT {get; set;}

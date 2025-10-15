@@ -9,7 +9,7 @@ Volume # 26174.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_VOLUME {get; set;}

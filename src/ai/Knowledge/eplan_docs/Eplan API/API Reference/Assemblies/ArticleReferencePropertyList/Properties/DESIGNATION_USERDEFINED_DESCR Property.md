@@ -9,7 +9,7 @@ User-defined structure (main identifier): Description # 1630.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_USERDEFINED_DESCR {get; set;}

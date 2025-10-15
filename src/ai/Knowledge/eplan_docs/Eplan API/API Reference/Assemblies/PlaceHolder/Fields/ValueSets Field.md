@@ -9,7 +9,7 @@ Represents value sets of a placeholder
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlaceHolder.ValueSetsClass ValueSets

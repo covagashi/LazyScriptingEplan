@@ -9,7 +9,7 @@ Domain name. Default = empty.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Domain {get; set;}

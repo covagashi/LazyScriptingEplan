@@ -9,7 +9,7 @@ Output speed, max. # 26184.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_OUTPUT_SPEED_MAX( 

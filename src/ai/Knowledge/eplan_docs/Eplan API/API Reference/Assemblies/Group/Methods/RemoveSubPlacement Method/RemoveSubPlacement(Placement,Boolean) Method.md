@@ -9,7 +9,7 @@ Remove [Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement.html
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void RemoveSubPlacement( 

@@ -9,7 +9,7 @@ Activate or deactivate automatic change/create information update for a page. He
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetChangeAndCreateInfoUpdateForPage( 

@@ -9,7 +9,7 @@ Method to import a parts list file into the project. The import file may be an X
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ImportPartsList( 

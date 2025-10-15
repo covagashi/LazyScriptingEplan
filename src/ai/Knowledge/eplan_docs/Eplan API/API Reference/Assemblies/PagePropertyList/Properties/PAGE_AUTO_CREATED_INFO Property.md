@@ -9,7 +9,7 @@ Automatically generated # 11006.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_AUTO_CREATED_INFO {get; set;}

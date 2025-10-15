@@ -9,7 +9,7 @@ List of possible types of article database items.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum EplApplication.PartsDatabaseItemType : System.Enum

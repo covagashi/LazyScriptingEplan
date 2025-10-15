@@ -9,7 +9,7 @@ Is called to manipulate the position of the static CAD cursor.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void OnCalculateStaticCursorPos( 

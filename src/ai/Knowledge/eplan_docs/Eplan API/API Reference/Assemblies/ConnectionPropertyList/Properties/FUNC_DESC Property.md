@@ -9,7 +9,7 @@ Function definition: Description # 20117.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DESC {get; set;}

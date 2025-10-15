@@ -9,7 +9,7 @@ Sets symbol variant for Function.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetSymbolVariant( 

@@ -9,7 +9,7 @@ Number used to sort elements in current branch of planning tree.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double SortId {get; set;}

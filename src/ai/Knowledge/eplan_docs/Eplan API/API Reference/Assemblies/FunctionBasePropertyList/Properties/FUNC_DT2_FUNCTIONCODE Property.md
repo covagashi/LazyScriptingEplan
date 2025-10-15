@@ -9,7 +9,7 @@ DT (subordinate): Application # 20175.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DT2_FUNCTIONCODE {get; set;}

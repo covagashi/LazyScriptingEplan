@@ -9,7 +9,7 @@ Plug designation (automatic): Suppress search # 20579.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_SUPRESS_SEARCH_PLCPLUG_DESIGNATION {get; set;}

@@ -9,7 +9,7 @@ Power factor (cos phi) # 26657.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_POWER_FACTOR {get; set;}

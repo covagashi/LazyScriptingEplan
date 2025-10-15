@@ -9,7 +9,7 @@ Places a window macro onto a given position of a page. You can set whether absol
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] WindowMacro( 

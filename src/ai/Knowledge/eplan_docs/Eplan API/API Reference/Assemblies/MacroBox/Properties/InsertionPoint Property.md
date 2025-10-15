@@ -9,7 +9,7 @@ Coordinates of insertion point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD InsertionPoint {get; set;}

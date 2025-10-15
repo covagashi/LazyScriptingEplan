@@ -9,7 +9,7 @@ Nominal rotation speed # 26469.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_RATED_SPEED( 

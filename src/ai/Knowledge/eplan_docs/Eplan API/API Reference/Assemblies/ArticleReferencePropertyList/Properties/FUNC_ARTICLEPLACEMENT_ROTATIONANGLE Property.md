@@ -9,7 +9,7 @@ Angle # 20451.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLEPLACEMENT_ROTATIONANGLE {get; set;}

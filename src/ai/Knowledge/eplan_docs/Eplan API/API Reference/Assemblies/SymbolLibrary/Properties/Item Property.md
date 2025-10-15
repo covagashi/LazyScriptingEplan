@@ -9,7 +9,7 @@ Index operator to searching Symbol from given name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Symbol this[ 

@@ -9,7 +9,7 @@ Returns the visible name of the IFunctionBase.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 string VisibleName {get; set;}

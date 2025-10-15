@@ -9,7 +9,7 @@ Overview cross-reference # 20301.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCPAIRCROSSREFERENCE {get; set;}

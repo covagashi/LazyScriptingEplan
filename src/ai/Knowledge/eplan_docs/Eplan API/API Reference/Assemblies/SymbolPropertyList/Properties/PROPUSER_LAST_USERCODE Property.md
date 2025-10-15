@@ -9,7 +9,7 @@ Last editor: ID # 3010.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROPUSER_LAST_USERCODE {get; set;}

@@ -56,4 +56,4 @@ Public Methods
 | Public Method | [Translate](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabase~Translate.html) | Translates all multilingual texts in an article database |
 | Public Method | [UpdateScheme](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabase~UpdateScheme.html) | Updates the scheme of the database. |
 
-[Top](#top)
+

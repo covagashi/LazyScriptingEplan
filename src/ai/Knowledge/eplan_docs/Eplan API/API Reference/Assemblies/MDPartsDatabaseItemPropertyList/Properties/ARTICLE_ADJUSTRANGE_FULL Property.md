@@ -9,7 +9,7 @@ Control range (full) # 22231.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ADJUSTRANGE_FULL {get; set;}

@@ -9,7 +9,7 @@ Block property: Replacement text # 10660.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKPROPERTY_REPLACETEXT( 

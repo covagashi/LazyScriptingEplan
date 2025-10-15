@@ -9,7 +9,7 @@ Color of 3D Placement
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Color Color {get; set;}

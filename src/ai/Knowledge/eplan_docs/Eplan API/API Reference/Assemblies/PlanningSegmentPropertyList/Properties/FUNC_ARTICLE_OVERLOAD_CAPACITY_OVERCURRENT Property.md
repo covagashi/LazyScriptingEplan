@@ -9,7 +9,7 @@ Subset / length # 31008.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_PARTIAL_LENGTH( 

@@ -9,7 +9,7 @@ Returs the list of translation database languages.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public LanguageList Languages {get;}

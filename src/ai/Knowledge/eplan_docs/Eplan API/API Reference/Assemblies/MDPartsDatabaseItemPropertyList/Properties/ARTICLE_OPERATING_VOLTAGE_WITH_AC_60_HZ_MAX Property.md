@@ -9,7 +9,7 @@ Operating voltage (AC 60 Hz), max. # 26089.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_OPERATING_VOLTAGE_WITH_AC_60_HZ_MAX {get; set;}

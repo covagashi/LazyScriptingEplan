@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Property")]
@@ -37,7 +37,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDPartsDatabaseItemPropertyList Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemPropertyList~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -954,7 +954,7 @@ Public Properties
 | Public Property | [PART\_USED\_IN\_MODULE\_FILTER](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemPropertyList~PART_USED_IN_MODULE_FILTER().html) | Part number in module # 22966. |
 | Public Property | [Property](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemPropertyList~Property.html) | Overloaded. Method used by operator[] in order to access indexed properties. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -963,4 +963,4 @@ Public Methods
 | Public Method | [Dispose()](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList~Dispose().html) | Destructor for deterministic finalization of MDPartsDatabaseItemPropertyList object. (Inherited from [Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList.html)) |
 | Public Method | [Exists](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemPropertyList~Exists.html) | Overloaded. Checks property existence for used obiect. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Transfers dimensions from articles to article placements. Corresponds to the 'De
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function[] UpdatePartDimensions( 

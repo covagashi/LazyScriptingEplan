@@ -9,7 +9,7 @@ Power requirement, min. # 26424.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_POWER_REQUIREMENT_MIN( 

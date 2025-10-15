@@ -9,7 +9,7 @@ Add a property condition to the object filter. Adding multiple conditions withou
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddPropertyCondition( 

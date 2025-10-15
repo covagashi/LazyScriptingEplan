@@ -9,7 +9,7 @@ Constructor. Creates a valid pen object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Pen()

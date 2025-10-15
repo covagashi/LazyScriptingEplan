@@ -9,7 +9,7 @@ Status of this subproject.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SubProject.SubProjectStatus Status {get;}

@@ -9,7 +9,7 @@ Version # 16026.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMB_VERSION {get; set;}

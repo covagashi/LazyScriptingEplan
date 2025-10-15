@@ -34,4 +34,4 @@ Public Properties
 | Public Property | [TypeIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TypeIdentifier.html) | Returns the type of the object as number. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 | Public Property | [Width](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Shielding~Width.html) | Returns width of the shielding. |
 
-[Top](#top)
+

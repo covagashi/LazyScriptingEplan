@@ -9,7 +9,7 @@ Is called on end of sub-interaction.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual RequestCode OnReturnFromSubInteraction( 

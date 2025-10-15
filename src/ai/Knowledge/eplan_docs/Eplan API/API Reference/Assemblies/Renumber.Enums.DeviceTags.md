@@ -9,7 +9,7 @@ Parameter enum for device tag numbering. The enum members can be combined by a l
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Renumber.Enums.DeviceTags : System.Enum

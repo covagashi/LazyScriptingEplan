@@ -9,7 +9,7 @@ Converts macro representation type to a displayed name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static string MacroRepresentationTypeNameFromId( 

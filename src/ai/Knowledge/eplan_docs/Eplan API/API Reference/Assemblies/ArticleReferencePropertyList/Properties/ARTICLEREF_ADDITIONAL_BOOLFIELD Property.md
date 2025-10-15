@@ -9,7 +9,7 @@ Suppl. field: Yes / No # 20502.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_ADDITIONAL_BOOLFIELD {get; set;}

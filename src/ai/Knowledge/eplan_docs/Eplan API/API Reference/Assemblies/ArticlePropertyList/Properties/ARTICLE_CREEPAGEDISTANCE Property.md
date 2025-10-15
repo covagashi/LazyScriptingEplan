@@ -9,7 +9,7 @@ Plugs: Creepage distance # 22097.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CREEPAGEDISTANCE {get; set;}

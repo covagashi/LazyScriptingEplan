@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Insert
@@ -64,7 +64,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Insert Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Insert~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -75,7 +75,7 @@ Public Properties
 | Public Property | [ArePlanningObjectsStructureMerged](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Insert~ArePlanningObjectsStructureMerged.html) | Indicates whether planning objects structure will be merged with existing nodes or renumbered and added. |
 | Public Property | [PlanningSegment](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Insert~PlanningSegment.html) | Determines the planning segment to which all function inserted from window macro on page will be assign. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -87,4 +87,4 @@ Public Methods
 | Public Method | [SymbolMacro](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Insert~SymbolMacro.html) | Overloaded. Places a symbol macro onto a given position of a page. You can set whether absolute coordinates or coordinates relative to its original position on the page should be used. |
 | Public Method | [WindowMacro](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Insert~WindowMacro.html) | Overloaded. Places a window macro onto a given position of a page. You can set whether absolute coordinates or coordinates relative to its original position on the page should be used. |
 
-[Top](#top)
+

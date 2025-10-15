@@ -9,7 +9,7 @@ The characteristic of component template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Characteristic {get; set;}

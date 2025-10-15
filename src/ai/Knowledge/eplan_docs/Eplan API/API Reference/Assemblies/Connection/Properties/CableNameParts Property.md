@@ -9,7 +9,7 @@ Gets/Sets a cable's name to the connection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public FunctionBasePropertyList CableNameParts {get; set;}

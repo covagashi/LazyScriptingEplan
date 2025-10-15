@@ -9,7 +9,7 @@ Detailed write protection states.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum IWriteProtection.WriteProtectionKind : System.Enum

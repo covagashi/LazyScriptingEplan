@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Method | [Enabled](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplActionEnable~Enabled.html) | One action can be enabled or disabled. Return true when it is enabled. |
 
-[Top](#top)
+

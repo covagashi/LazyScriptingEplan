@@ -9,7 +9,7 @@ Initializes LockingVectorProxy in API\_Framework. Used automatically, internally
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SetAsInternal()

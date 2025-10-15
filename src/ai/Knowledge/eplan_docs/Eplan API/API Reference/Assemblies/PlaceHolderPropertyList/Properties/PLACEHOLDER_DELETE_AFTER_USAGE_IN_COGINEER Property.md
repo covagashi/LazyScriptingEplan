@@ -9,7 +9,7 @@ Remove placeholder object after generation with Eplan Cogineer # 19315.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLACEHOLDER_DELETE_AFTER_USAGE_IN_COGINEER {get; set;}

@@ -9,7 +9,7 @@ PropertyPlacement bounding box. Bounding box is a rectangle which contain this p
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual PointD[] GetBoundingBox( 

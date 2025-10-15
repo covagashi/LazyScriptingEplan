@@ -9,7 +9,7 @@ Returns the valid / actually used indexes. It can be used with the PropertyValue
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int[] Indexes {get;}

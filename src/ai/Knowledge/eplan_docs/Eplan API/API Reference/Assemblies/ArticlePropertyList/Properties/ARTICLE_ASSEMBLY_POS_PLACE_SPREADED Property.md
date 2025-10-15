@@ -9,7 +9,7 @@ Distributed placement of assembly # 22040.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_ASSEMBLY_POS_PLACE_SPREADED {get; set;}

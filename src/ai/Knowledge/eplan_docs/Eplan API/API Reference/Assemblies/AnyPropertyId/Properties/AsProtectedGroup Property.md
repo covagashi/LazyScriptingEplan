@@ -9,7 +9,7 @@ Gets property id value as [Properties.ProtectedGroup](Eplan.EplApi.DataModelu~Ep
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.ProtectedGroup AsProtectedGroup {get;}

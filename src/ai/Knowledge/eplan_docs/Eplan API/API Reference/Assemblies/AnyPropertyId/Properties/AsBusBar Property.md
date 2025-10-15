@@ -9,7 +9,7 @@ Gets property id value as [Properties.BusBar](Eplan.EplApi.DataModelu~Eplan.EplA
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.BusBar AsBusBar {get;}

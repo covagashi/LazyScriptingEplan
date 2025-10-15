@@ -9,7 +9,7 @@ Represents the method that will be invoked when Eplan Server sends a response to
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public delegate void OnResponseArrivedHandler( 

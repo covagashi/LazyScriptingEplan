@@ -9,7 +9,7 @@ Representation of XDtcDeviceTagCheck.Hierarchy.AllowSpecialCharacters setting va
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AllowSpecialCharacters {get; set;}

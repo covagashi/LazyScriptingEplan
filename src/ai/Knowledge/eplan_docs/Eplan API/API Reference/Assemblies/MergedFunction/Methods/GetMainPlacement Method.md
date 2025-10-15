@@ -9,7 +9,7 @@ Returns main placement this MergedFunction by parameters.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void GetMainPlacement( 

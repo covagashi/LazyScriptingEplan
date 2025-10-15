@@ -9,7 +9,7 @@ Mouse cursor types which can be used in dragging operation.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MouseCursorType : System.Enum

@@ -9,7 +9,7 @@ License runtime check modes
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum EplApplication.LicenseRuntimeCheckModes : System.Enum

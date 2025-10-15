@@ -9,7 +9,7 @@ Allows canceling.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetAllowCancel( 

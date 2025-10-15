@@ -9,7 +9,7 @@ Connection point logic: External # 20321.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_LOGDEF_ISEXTERN( 

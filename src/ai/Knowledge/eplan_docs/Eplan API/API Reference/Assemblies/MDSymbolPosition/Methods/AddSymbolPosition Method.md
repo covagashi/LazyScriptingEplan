@@ -9,7 +9,7 @@ Add a new symbol position to part. Symbol is added at the first available index 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static MDSymbolPosition AddSymbolPosition( 

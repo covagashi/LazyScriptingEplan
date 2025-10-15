@@ -9,7 +9,7 @@ Emergency control function # 26053.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_EMERGENCY_CONTROL_FUNCTION {get; set;}

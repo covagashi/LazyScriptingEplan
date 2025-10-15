@@ -9,7 +9,7 @@ Constructor to initialize a point from a 3D Point the z Coordinate value will be
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD( 

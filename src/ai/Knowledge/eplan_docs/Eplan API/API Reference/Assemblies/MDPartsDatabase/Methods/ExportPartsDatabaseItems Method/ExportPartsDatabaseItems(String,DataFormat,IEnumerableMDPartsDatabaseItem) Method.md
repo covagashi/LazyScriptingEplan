@@ -9,7 +9,7 @@ Exports specified parts and other specified parts management items such as addre
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExportPartsDatabaseItems( 

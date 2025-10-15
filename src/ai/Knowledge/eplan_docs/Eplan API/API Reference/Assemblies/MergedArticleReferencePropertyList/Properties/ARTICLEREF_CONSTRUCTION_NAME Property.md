@@ -9,7 +9,7 @@ Used drilling pattern: Name # 40340.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_CONSTRUCTION_NAME {get; set;}

@@ -9,7 +9,7 @@ Configuration project (automatic, at bus ports) # 20581.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCONFIGURATIONPROJECT_AUTOMATIC {get; set;}

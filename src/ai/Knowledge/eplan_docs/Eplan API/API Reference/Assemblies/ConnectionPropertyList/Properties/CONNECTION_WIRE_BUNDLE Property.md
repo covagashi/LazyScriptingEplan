@@ -9,7 +9,7 @@ Bundle # 31092.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_WIRE_BUNDLE {get; set;}

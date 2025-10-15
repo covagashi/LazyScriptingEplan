@@ -9,7 +9,7 @@ Function designation (sub-identifier 2) # 1102.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBPLANT2 {get; set;}

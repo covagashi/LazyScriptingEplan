@@ -9,7 +9,7 @@ Method used by operator[] in order to access properties by AnyPropertyId.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue Property( 

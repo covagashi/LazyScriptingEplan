@@ -9,7 +9,7 @@ Imports parts to the system database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ImportParts( 

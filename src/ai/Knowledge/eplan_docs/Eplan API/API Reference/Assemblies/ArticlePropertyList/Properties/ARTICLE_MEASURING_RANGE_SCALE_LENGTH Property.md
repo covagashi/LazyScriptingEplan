@@ -9,7 +9,7 @@ Measuring range / scale length # 26457.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MEASURING_RANGE_SCALE_LENGTH {get; set;}

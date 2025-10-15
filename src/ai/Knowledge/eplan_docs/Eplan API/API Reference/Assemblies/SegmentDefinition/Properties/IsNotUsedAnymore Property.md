@@ -9,7 +9,7 @@ Determines whether the segment definition in the project is write-protected.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsNotUsedAnymore {get; set;}

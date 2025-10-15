@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [GetInstalledEplanVersions](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.EplanFinder~GetInstalledEplanVersions.html) | Overloaded. Get EPLAN versions which are currently installed on local machine. |
 | Public Method | [SelectEplanVersion](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.EplanFinder~SelectEplanVersion.html) | Overloaded. Select one EPLAN application installed on this machine. When there are more than one installed, a select dialog will appear. |
 
-[Top](#top)
+

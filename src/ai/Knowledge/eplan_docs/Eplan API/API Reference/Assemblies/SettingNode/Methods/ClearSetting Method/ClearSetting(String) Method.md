@@ -9,7 +9,7 @@ Deletes values. The setting definition is maintained.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void ClearSetting( 

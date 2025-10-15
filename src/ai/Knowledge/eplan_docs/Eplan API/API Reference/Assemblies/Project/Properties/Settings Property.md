@@ -9,7 +9,7 @@ Project settings
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ProjectSettings Settings {get;}

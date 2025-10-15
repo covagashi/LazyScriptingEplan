@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [CreationType](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ProjectMessage~CreationType.html) | Shows the method by which the message was created. |
 
-[Top](#top)
+

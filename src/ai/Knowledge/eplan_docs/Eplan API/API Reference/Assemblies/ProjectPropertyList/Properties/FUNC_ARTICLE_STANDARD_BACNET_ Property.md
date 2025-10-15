@@ -9,7 +9,7 @@ BACnet: Standard # 26517.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_STANDARD_BACNET_( 

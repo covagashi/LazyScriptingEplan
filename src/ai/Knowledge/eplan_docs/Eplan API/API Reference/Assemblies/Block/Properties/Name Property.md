@@ -9,7 +9,7 @@ Name of the referenced block.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get; set;}

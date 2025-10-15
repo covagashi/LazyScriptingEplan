@@ -9,7 +9,7 @@ Removes the given mounting panel position from the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveMountingPanelPosition( 

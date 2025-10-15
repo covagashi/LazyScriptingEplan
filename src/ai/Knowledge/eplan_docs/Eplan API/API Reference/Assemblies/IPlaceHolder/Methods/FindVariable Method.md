@@ -9,7 +9,7 @@ Finds a variable, specified by its name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 int FindVariable( 

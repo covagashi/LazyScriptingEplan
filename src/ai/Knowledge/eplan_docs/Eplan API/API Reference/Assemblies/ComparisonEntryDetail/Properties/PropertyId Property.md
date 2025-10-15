@@ -9,7 +9,7 @@ Shows the changed property id.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public AnyPropertyId PropertyId {get;}

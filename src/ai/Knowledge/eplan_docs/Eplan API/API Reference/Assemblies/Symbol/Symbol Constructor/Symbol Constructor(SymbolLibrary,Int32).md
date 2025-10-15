@@ -9,7 +9,7 @@ Constructor symbol from library using number.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Symbol( 

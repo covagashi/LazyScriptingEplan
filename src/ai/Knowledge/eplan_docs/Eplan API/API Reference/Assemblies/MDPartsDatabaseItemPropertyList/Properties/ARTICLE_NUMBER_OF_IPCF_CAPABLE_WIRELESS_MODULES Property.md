@@ -9,7 +9,7 @@ Number of iPCF compatible wireless modules # 26077.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NUMBER_OF_IPCF_CAPABLE_WIRELESS_MODULES {get; set;}

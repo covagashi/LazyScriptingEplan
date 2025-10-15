@@ -9,7 +9,7 @@ Returns an enumerator that can iterate through a collection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual IEnumerator<SubProject> GetEnumerator2()

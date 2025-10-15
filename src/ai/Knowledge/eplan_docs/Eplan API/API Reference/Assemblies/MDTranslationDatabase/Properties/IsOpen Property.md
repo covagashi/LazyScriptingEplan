@@ -9,7 +9,7 @@ Returns true if database is open.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsOpen {get;}

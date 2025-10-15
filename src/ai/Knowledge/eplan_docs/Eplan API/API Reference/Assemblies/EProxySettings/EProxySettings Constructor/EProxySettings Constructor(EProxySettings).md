@@ -9,7 +9,7 @@ EProxySettings constructor sets proxy configuration from existing object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EProxySettings( 

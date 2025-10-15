@@ -9,7 +9,7 @@ Event parameter of the String type.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string String {get; set;}

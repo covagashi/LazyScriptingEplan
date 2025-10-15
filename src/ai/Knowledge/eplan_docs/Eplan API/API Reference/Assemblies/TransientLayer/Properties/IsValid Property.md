@@ -9,7 +9,7 @@ Checks, if Layer object is valid.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsValid {get;}

@@ -9,7 +9,7 @@ Management service URL.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ManagementServiceUrl {get; set;}

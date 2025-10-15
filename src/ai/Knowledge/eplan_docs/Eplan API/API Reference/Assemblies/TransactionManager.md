@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class TransactionManager
@@ -52,7 +52,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [TransactionManager Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.TransactionManager~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -61,7 +61,7 @@ Public Properties
 | Public Property | [IsEplanTransactionRunning](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.TransactionManager~IsEplanTransactionRunning.html) | Tells if a P8 transaction is open. |
 | Public Property | [IsTransactionRunning](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.TransactionManager~IsTransactionRunning.html) | Tells if a read-write API transaction is open. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -69,4 +69,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [CreateTransaction](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.TransactionManager~CreateTransaction.html) | Creates object representing a read-write transaction. |
 
-[Top](#top)
+

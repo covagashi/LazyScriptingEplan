@@ -9,7 +9,7 @@ Gets/Sets the action name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ActionName {get; set;}

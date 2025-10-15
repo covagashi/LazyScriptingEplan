@@ -9,7 +9,7 @@ Project name (full) # 10009.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_FULL_PROJECTNAME {get; set;}

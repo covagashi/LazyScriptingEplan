@@ -9,7 +9,7 @@ Actual power (hydraulic) # 26381.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ACTUAL_OUTPUT_HYDRAULIC {get; set;}

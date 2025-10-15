@@ -9,7 +9,7 @@ Alternative connection cross-section / diameter # 31025.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_ALTERNATE_WIRECROSSSECTION {get; set;}

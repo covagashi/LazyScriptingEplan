@@ -9,7 +9,7 @@ Quantity / subset in unit of project # 20507.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_QUANTITY_IN_PROJECT_UNIT {get; set;}

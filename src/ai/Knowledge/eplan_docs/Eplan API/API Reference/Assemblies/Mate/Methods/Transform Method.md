@@ -9,7 +9,7 @@ Transform mate position.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Transform( 

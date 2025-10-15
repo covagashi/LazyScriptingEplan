@@ -9,7 +9,7 @@ Function designation with preceding sign # 1140.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLPLANT_WITHPREFIX {get; set;}

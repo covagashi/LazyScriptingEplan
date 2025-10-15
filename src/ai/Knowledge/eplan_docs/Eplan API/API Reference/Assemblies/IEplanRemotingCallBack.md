@@ -9,7 +9,7 @@ Communication Callback interface to send a response to a Client.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public interface IEplanRemotingCallBack
@@ -22,4 +22,4 @@ Public Methods
 | --- | --- | --- |
 | Method | [SendResponseToClient](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.IEplanRemotingCallBack~SendResponseToClient.html) | Send a response to a Client. |
 
-[Top](#top)
+

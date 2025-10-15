@@ -9,7 +9,7 @@ When the P8 version is started offline, no P8 mainframe is available. Then this 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool InOfflineMode {get;}

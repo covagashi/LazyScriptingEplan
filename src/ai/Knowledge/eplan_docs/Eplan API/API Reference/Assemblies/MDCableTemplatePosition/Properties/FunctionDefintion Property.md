@@ -9,7 +9,7 @@ It defines the Cable Property FunctionDefintion
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string FunctionDefintion {get; set;}

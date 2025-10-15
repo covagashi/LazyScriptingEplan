@@ -9,7 +9,7 @@ Slot width # 22286.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SLOT_GAP {get; set;}

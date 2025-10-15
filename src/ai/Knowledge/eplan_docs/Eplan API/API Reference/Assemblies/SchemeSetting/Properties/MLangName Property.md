@@ -9,7 +9,7 @@ Returns a multilingual scheme name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString MLangName {get;}

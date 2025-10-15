@@ -9,7 +9,7 @@ Verification if function is inside BoxedDevice.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsFunctionInside( 

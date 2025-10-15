@@ -9,7 +9,7 @@ Creates not placed transient Busbar system.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static BusBarSystem CreateTransient( 

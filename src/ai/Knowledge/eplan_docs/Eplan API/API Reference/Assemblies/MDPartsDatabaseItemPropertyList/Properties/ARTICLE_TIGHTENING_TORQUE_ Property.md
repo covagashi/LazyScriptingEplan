@@ -9,7 +9,7 @@ Tightening torque # 26080.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TIGHTENING_TORQUE_ {get; set;}

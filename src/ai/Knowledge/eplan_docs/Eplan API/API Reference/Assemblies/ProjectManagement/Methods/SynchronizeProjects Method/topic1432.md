@@ -9,7 +9,7 @@ Synchronizes projects data from source project into the target project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SynchronizeProjects( 

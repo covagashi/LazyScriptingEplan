@@ -9,7 +9,7 @@ Connection point type # 26204.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CONNECTION_TYPE {get; set;}

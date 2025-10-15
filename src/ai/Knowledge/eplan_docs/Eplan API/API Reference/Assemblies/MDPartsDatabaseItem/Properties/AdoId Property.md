@@ -9,7 +9,7 @@ Gets a unique identifier in the database, where the database item is stored
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int AdoId {get;}

@@ -9,7 +9,7 @@ Initializes the merged function to cover the function passed as parameter and al
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

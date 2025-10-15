@@ -9,7 +9,7 @@ Interface declaration for a progress. When a progress is to be registered for an
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public interface IEplProgress
@@ -35,4 +35,4 @@ Public Methods
 | Method | [SetProgressStep](Eplan.EplApi.Baseu~Eplan.EplApi.Base.IEplProgress~SetProgressStep.html) | The actual stepping of the progress. The function is called for every level the progress supports. |
 | Method | [SetTitle](Eplan.EplApi.Baseu~Eplan.EplApi.Base.IEplProgress~SetTitle.html) | Set the Title of the progress window. |
 
-[Top](#top)
+

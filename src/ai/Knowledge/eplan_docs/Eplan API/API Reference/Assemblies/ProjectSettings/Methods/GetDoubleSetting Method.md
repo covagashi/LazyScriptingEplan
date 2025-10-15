@@ -9,7 +9,7 @@ Reads double value from project settings
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual double GetDoubleSetting( 

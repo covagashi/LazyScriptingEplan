@@ -9,7 +9,7 @@ PLC address (with displayed DT) # 20037.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_GEDNAMEWITHPLCADRESS {get; set;}

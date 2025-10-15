@@ -9,7 +9,7 @@ Location designation (automatic) # 31103.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_FULLLOCATION_AUTOMATIC {get; set;}

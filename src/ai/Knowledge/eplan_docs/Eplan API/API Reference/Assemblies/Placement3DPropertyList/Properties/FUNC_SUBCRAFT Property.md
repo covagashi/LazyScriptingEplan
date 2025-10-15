@@ -9,7 +9,7 @@ Subtrade # 20467.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_SUBCRAFT {get; set;}

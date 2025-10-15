@@ -9,7 +9,7 @@ Nominal drive torque # 26467.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_RATED_DRIVING_TORQUE( 

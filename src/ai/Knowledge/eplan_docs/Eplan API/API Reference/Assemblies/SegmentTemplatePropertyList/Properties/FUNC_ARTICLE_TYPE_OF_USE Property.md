@@ -9,7 +9,7 @@ Operating mode # 26284.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_TYPE_OF_USE( 

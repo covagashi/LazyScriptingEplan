@@ -9,7 +9,7 @@ Equality operator.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool operator ==( 

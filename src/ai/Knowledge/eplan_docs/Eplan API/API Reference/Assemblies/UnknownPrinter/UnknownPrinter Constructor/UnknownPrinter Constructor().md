@@ -9,7 +9,7 @@ Constructor with standard message text from resources identified by IDS\_ERR\_UN
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public UnknownPrinter()

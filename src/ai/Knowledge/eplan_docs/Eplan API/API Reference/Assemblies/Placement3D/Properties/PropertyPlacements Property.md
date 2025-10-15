@@ -9,7 +9,7 @@ Returns [PropertyPlacementsSchemas](Eplan.EplApi.DataModelu~Eplan.EplApi.DataMod
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual PropertyPlacement[] PropertyPlacements {get;}

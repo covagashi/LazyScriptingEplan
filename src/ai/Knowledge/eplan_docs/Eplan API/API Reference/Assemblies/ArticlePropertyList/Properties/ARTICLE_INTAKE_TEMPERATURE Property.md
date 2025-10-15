@@ -9,7 +9,7 @@ Intake temperature # 26006.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_INTAKE_TEMPERATURE {get; set;}

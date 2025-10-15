@@ -9,7 +9,7 @@ Returns placements inserted by interaction.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual StorableObject[] InsertedItems {get; set;}

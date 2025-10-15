@@ -9,7 +9,7 @@ Type of bus system to which a PLC bus port is assigned as a bus node.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public BusSystemType BusSystemKind {get; set;}

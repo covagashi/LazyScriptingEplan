@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class UserDefinedPropertyDefinition : PropertyDefinition
@@ -33,7 +33,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [UserDefinedPropertyDefinition Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UserDefinedPropertyDefinition~_ctor().html) | Default constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -63,7 +63,7 @@ Public Properties
 | Public Property | [UpperBound](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition~UpperBound.html) | Returns the maximum value of a property specified in the property definition. (Inherited from [Eplan.EplApi.DataModel.PropertyDefinition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition.html)) |
 | Public Property | [Usages](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UserDefinedPropertyDefinition~Usages.html) | Usages of this property definition. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -73,4 +73,4 @@ Public Methods
 | Public Method | [Dispose()](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition~Dispose().html) | Destructor for deterministic finalization of UserDefinedPropertyDefinition object. (Inherited from [Eplan.EplApi.DataModel.PropertyDefinition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition.html)) |
 | Public Method | [ValidateValue](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition~ValidateValue.html) | Returns the display string used for a given property value. Validates whether the value meets the requirements of the property definition. (Inherited from [Eplan.EplApi.DataModel.PropertyDefinition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition.html)) |
 
-[Top](#top)
+

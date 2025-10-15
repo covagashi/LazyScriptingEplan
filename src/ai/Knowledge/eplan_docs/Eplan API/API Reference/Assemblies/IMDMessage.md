@@ -9,7 +9,7 @@ Interface declaration for an Parts Database message in EPLAN.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public interface IMDMessage

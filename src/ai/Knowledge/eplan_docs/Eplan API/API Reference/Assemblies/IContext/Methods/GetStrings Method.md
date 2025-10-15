@@ -9,7 +9,7 @@ Gets array filled with strings from the context.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 string[] GetStrings()

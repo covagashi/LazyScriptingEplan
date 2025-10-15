@@ -9,7 +9,7 @@ Additional dimension of the drilling. Depends on type and sub type.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Dimension1 {get; set;}

@@ -9,7 +9,7 @@ Product group # 22041.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PRODUCTGROUP {get; set;}

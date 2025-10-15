@@ -9,7 +9,7 @@ Torque (at min. rotation speed) # 26251.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TORQUE_AT_MIN_SPEED {get; set;}

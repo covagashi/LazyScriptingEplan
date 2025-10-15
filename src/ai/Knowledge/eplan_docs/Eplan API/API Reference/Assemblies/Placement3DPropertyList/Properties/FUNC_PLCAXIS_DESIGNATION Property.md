@@ -9,7 +9,7 @@ Drive # 20576.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCAXIS_DESIGNATION( 

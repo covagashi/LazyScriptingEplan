@@ -9,7 +9,7 @@ Creator: Country # 10239.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATORCOUNTRY {get; set;}

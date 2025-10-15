@@ -9,7 +9,7 @@ Exports given installation spaces into files in VRML format.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool InstallationSpacesToVrml( 

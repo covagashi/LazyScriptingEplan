@@ -9,7 +9,7 @@ Terminal strips sort methods
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum DeviceService.TerminalStripSortMethods : System.Enum

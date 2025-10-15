@@ -9,7 +9,7 @@ Gets or sets take connection point designations into account property.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MacroBox.Enums.TakeConnectionPointDesignationsIntoAccount TakeConnectionPointDesignationsIntoAccount {get; set;}

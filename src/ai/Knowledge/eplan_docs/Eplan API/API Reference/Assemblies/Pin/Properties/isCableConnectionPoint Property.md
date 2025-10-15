@@ -9,7 +9,7 @@ Assigns whether it is possible to connect a cable to the Pin.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool isCableConnectionPoint {get; set;}

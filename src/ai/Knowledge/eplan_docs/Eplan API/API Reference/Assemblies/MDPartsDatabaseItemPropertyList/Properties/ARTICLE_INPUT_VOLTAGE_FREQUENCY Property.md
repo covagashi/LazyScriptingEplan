@@ -9,7 +9,7 @@ Frequency (input voltage) # 26340.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_INPUT_VOLTAGE_FREQUENCY {get; set;}

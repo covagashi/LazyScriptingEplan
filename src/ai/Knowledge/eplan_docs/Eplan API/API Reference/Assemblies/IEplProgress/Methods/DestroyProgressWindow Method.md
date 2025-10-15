@@ -9,7 +9,7 @@ Remove the progress window again
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void DestroyProgressWindow()

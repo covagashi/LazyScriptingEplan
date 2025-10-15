@@ -9,7 +9,7 @@ Identificators of properties owned by InstallationSpace class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.InstallationSpace : System.Enum

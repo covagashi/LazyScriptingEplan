@@ -9,7 +9,7 @@ Unregisters an add-in that was registered with RegisterAddin.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool UnregisterAddin( 

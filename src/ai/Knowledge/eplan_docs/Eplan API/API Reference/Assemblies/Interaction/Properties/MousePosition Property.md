@@ -9,7 +9,7 @@ current mouse position
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Position MousePosition {get;}

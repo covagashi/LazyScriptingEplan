@@ -9,7 +9,7 @@ Deletes a record.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void DeleteRecord( 

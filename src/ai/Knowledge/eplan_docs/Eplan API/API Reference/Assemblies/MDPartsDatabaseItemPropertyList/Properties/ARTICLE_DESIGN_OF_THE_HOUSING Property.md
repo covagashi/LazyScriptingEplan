@@ -9,7 +9,7 @@ Type of construction: Housing # 26027.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DESIGN_OF_THE_HOUSING {get; set;}

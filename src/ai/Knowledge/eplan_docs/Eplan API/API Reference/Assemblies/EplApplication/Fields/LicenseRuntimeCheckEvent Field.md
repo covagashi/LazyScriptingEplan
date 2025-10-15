@@ -9,7 +9,7 @@ License runtime check callback event
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static EplApplication.LicenseRuntimeCheckCallbackHandler LicenseRuntimeCheckEvent

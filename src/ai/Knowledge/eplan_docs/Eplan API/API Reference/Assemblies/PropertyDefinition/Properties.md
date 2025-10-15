@@ -23,4 +23,4 @@ Public Properties
 | Public Property | [Type](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition~Type.html) | Returns information about the type of the property. |
 | Public Property | [UpperBound](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition~UpperBound.html) | Returns the maximum value of a property specified in the property definition. |
 
-[Top](#top)
+

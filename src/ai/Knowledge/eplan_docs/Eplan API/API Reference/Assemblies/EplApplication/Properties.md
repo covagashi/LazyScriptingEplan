@@ -21,4 +21,4 @@ Public Properties
 | Public Property | [Variant](Eplan.EplApi.Systemu~Eplan.EplApi.System.EplApplication~Variant.html) | Gets application's variant as string (Basic, Trial, Developer, etc.). |
 | Public Property | [Version](Eplan.EplApi.Systemu~Eplan.EplApi.System.EplApplication~Version.html) | Gets version from the application. |
 
-[Top](#top)
+

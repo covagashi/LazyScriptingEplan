@@ -9,7 +9,7 @@ The designation of the relay template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConnectionPointDesignation {get; set;}

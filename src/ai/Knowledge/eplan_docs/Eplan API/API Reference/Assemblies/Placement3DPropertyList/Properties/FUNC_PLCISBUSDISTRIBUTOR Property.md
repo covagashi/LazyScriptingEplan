@@ -9,7 +9,7 @@ Bus distribution device # 20189.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCISBUSDISTRIBUTOR {get; set;}

@@ -9,7 +9,7 @@ Layout space: Connection filter # 36026.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_ROUTING_CONNECTIONFILTER {get; set;}

@@ -9,7 +9,7 @@ Property enabling access to MasterData properties of the PropertiesAndHandleObje
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertiesAndHandleObjectPropertyList Properties {get;}

@@ -9,7 +9,7 @@ Cable / Conduit: Type # 20040.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLETYPE {get; set;}

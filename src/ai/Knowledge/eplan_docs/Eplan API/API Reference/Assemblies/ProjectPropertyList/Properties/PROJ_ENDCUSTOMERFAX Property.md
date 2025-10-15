@@ -9,7 +9,7 @@ End customer: Fax # 10141.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ENDCUSTOMERFAX {get; set;}

@@ -9,7 +9,7 @@ Operating area: Cable # 26287.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_APPLICATION_AREA_OF_THE_CABLE {get; set;}

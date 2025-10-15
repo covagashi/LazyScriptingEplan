@@ -9,7 +9,7 @@ Ping a service.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void Ping()

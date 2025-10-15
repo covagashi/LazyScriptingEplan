@@ -9,7 +9,7 @@ Identifier for reports # 22214.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_REPORT_IDENTIFIER {get; set;}

@@ -9,7 +9,7 @@ Name (connection point pattern) # 22945.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PART_TERMINAL_NAME {get; set;}

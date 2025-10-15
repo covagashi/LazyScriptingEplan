@@ -9,7 +9,7 @@ Determines the ISO code of the given index.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual ISOCode.Language Language( 

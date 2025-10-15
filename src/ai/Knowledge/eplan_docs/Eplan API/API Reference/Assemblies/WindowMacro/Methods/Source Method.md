@@ -9,7 +9,7 @@ Get name of the source from current representation type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Source()

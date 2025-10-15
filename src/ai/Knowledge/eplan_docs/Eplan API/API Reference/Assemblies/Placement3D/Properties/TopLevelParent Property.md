@@ -9,7 +9,7 @@ Gets the root 3d placement from tree of 3d elements which this object is part of
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement3D TopLevelParent {get;}

@@ -9,7 +9,7 @@ Plugs: Type of construction # 22100.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DESIGN {get; set;}

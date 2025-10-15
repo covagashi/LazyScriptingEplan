@@ -9,7 +9,7 @@ Terminal strips: Number of terminals and accessories for terminal diagram # 3500
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue TERMINALSTRIP_ITEMCOUNT {get; set;}

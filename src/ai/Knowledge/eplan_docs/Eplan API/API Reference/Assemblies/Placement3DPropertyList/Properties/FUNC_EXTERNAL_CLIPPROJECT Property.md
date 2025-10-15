@@ -9,7 +9,7 @@ Suppl. field for CLIP PROJECT data # 20090.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_EXTERNAL_CLIPPROJECT( 

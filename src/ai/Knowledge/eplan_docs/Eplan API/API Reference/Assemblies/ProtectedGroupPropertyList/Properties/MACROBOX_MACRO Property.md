@@ -9,7 +9,7 @@ Macro: File name # 23001.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROBOX_MACRO {get; set;}

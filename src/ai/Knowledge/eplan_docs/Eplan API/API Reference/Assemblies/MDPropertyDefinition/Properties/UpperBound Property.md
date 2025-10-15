@@ -9,7 +9,7 @@ Gets a property's maximal value specified in the property's definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual MDPropertyValue UpperBound {get;}

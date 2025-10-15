@@ -9,7 +9,7 @@ Project description # 10011.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_INSTALLATIONNAME {get; set;}

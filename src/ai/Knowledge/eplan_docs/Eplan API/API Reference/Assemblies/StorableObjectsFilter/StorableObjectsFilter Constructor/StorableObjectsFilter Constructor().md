@@ -9,7 +9,7 @@ Default constructor. Creates Filter that matches all [StorableObject](Eplan.EplA
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObjectsFilter()

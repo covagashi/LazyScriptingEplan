@@ -9,7 +9,7 @@ Design temperature # 26083.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DESIGN_TEMPERATURE {get; set;}

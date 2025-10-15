@@ -9,7 +9,7 @@ PLC address: Symbolic address (single component) # 44052.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLCADDRESS_SYMBOLICADDRESS_PART( 

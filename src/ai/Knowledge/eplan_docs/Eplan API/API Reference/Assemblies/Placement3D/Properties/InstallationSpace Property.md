@@ -9,7 +9,7 @@ Returns [InstallationSpace](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.I
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InstallationSpace InstallationSpace {get;}

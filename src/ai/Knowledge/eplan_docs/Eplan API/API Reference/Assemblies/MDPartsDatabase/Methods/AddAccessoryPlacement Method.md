@@ -9,7 +9,7 @@ Adds a new accessory placement to the parts database
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAccessoryPlacement AddAccessoryPlacement( 

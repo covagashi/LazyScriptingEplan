@@ -9,7 +9,7 @@ Determines if Option is in [OptionGroup](Eplan.EplApi.DataModelu~Eplan.EplApi.Da
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool HasGroup {get;}

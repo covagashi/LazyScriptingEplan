@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Count](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesRegisteredCollection~Count.html) | Gets the number of elements contained in the PrjMessagesRegisteredCollection. |
 
-[Top](#top)
+

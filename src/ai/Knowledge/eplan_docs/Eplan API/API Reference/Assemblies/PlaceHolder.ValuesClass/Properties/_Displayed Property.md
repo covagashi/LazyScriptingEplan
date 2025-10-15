@@ -9,7 +9,7 @@ Returns displayed values as a two-dimensional string array
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[,] _Displayed {get;}

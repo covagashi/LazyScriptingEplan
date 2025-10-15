@@ -9,7 +9,7 @@ Naming format for fluid connection splicer / line connector # 10084.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_NAMEFORMAT_DISTRIBUTOR {get; set;}

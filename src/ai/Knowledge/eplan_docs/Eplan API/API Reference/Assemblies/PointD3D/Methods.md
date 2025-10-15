@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [GetEPoint3D](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD3D~GetEPoint3D.html) | \internal |
 | Public Method | [SetEPoint3D](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD3D~SetEPoint3D.html) |  |
 
-[Top](#top)
+

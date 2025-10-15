@@ -9,7 +9,7 @@ Transport capacity # 26325.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_PUMPING_CAPACITY( 

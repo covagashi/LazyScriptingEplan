@@ -9,7 +9,7 @@ Adds new property configuration for given user defined property definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyConfiguration AddPropertyConfiguration( 

@@ -9,7 +9,7 @@ The name of the configuration project for the PLC box to which the PLC connectio
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Configuration {get; set;}

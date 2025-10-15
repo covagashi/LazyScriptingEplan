@@ -9,7 +9,7 @@ Creates and insert into page ContextPropertyPlacement which displays page proper
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateFromPageProperties( 

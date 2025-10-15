@@ -21,4 +21,4 @@ Public Methods
 | Public Method | [ShowSettingDlg](Eplan.EplApi.Systemu~Eplan.EplApi.System.EplApplication~ShowSettingDlg.html) | Displays the Eplan settings dialog. |
 | Public Method | [ShowSystemErrorDlg](Eplan.EplApi.Systemu~Eplan.EplApi.System.EplApplication~ShowSystemErrorDlg.html) | Displays the Eplan System error messages dialog. |
 
-[Top](#top)
+

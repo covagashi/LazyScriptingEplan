@@ -9,7 +9,7 @@ If each Hole will not been drilled, enter a value > 1
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int DrillNthHole {get; set;}

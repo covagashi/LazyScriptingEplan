@@ -12,4 +12,4 @@ Public Fields
 | --- | --- | --- |
 | Public Field | [ResponseArrivedFromEplanServer](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanRemoteClient~ResponseArrivedFromEplanServer.html) | Handler to receive Eplan server notifications. |
 
-[Top](#top)
+

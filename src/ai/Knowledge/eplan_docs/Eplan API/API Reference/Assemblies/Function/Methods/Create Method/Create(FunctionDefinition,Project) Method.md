@@ -9,7 +9,7 @@ Creates a not placed Function from [FunctionDefinition](Eplan.EplApi.DataModelu~
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Function Create( 

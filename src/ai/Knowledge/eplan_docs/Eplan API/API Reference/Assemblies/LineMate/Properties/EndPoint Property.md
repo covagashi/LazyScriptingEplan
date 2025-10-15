@@ -9,7 +9,7 @@ End of LineMate. Coordinate is relative if Placement is not defined, otherwise i
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D EndPoint {get; set;}

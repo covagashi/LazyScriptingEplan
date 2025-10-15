@@ -22,4 +22,4 @@ Public Methods
 | Public Method | [ShowFillingDegree](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ConnectionService3D~ShowFillingDegree.html) | Show or hide filling degree. |
 | Public Method | [SwapSourceAndTarget](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ConnectionService3D~SwapSourceAndTarget.html) | Exchanges the source and target properties of given connection3D. |
 
-[Top](#top)
+

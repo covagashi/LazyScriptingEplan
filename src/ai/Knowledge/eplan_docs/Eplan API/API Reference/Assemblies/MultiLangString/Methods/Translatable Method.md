@@ -9,7 +9,7 @@ Indicates whether the MultiLanguageString can be translated.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Translatable()

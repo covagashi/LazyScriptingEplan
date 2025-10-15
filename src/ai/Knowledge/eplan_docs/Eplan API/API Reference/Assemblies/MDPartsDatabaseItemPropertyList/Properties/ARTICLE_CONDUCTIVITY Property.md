@@ -9,7 +9,7 @@ Conductivity (at +20 °C) # 22273.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CONDUCTIVITY {get; set;}

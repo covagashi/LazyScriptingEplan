@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Reports
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Reports Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Reports~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -43,4 +43,4 @@ Public Methods
 | Public Method | [GenerateProject](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Reports~GenerateProject.html) | Overloaded. Generate project reports. |
 | Public Method | [Update](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Reports~Update.html) | Overloaded. Updates dynamic formular or embedded report represented by [Eplan.EplApi.DataModel.ReportBlockReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ReportBlockReference.html). |
 
-[Top](#top)
+

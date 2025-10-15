@@ -9,7 +9,7 @@ Input flow rate # 26280.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_INPUT_VOLUME_FLOW( 

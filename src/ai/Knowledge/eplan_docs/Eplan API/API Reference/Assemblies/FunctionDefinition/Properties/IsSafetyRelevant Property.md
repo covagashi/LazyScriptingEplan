@@ -9,7 +9,7 @@ Get flag whether a function is a safety function
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsSafetyRelevant {get;}

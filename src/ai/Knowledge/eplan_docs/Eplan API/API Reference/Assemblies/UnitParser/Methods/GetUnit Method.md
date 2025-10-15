@@ -9,7 +9,7 @@ Get the unit of the parsed result.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetUnit()

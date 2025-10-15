@@ -9,7 +9,7 @@ The group of one unit. Conversion is only possible inside groups
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum UnitGroup : System.Enum

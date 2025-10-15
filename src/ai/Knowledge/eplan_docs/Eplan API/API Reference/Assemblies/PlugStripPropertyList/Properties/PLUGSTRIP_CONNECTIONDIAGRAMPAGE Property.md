@@ -9,7 +9,7 @@ Plugs: Page name of pin-connection diagram # 35202.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLUGSTRIP_CONNECTIONDIAGRAMPAGE {get; set;}

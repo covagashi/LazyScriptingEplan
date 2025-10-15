@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [CreateTransaction](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.TransactionManager~CreateTransaction.html) | Creates object representing a read-write transaction. |
 
-[Top](#top)
+

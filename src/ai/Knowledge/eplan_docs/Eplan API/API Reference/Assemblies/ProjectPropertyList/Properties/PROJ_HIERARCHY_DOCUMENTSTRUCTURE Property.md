@@ -9,7 +9,7 @@ Project structure: Document type # 10006.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_DOCUMENTSTRUCTURE {get; set;}

@@ -9,7 +9,7 @@ The VerificationState determines the actual adjusted check type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum IMDMessage.VerificationState : System.Enum

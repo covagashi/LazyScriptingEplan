@@ -9,7 +9,7 @@ Error: Property placement # 12101.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_PLACEDPROPERROR( 

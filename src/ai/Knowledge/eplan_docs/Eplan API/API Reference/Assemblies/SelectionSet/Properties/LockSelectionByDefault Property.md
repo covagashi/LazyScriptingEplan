@@ -9,7 +9,7 @@ If set to true, the objects returned by the SelectionSet methods are locked. Def
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool LockSelectionByDefault {get; set;}

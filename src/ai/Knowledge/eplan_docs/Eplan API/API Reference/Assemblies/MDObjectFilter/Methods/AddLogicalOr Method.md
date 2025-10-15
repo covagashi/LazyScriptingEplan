@@ -9,7 +9,7 @@ Add a logical or - operator
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddLogicalOr()

@@ -9,7 +9,7 @@ Gets property id value as [Properties.ConnectionDefinitionPoint](Eplan.EplApi.Da
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.ConnectionDefinitionPoint AsConnectionDefinitionPoint {get;}

@@ -9,7 +9,7 @@ Returns one the project's layer as TransientLayer object. If specified layer not
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public TransientLayer Layer( 

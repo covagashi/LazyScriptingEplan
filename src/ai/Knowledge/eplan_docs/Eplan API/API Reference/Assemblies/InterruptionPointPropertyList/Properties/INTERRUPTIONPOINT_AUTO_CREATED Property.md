@@ -9,7 +9,7 @@ Automatically generated # 24001.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INTERRUPTIONPOINT_AUTO_CREATED {get; set;}

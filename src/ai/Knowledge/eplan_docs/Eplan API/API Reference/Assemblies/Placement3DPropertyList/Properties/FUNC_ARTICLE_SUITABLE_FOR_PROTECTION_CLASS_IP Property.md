@@ -9,7 +9,7 @@ Suitable for degree of protection (IP) # 26359.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_SUITABLE_FOR_PROTECTION_CLASS_IP( 

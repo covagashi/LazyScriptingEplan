@@ -9,7 +9,7 @@ Electrical interface # 26036.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_ELECTRICAL_INTERFACE {get; set;}

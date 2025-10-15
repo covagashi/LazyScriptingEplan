@@ -9,7 +9,7 @@ Associated connections: Connection description # 31032.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_DESCRIPTION {get; set;}

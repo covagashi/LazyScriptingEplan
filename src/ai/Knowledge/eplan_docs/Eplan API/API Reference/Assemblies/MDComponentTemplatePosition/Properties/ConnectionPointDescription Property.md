@@ -9,7 +9,7 @@ The connection point description of component template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConnectionPointDescription {get; set;}

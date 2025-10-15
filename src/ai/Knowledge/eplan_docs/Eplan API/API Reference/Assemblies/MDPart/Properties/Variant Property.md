@@ -9,7 +9,7 @@ Returns the variant of the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Variant {get; set;}

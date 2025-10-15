@@ -9,7 +9,7 @@ unRegisters the progress from the eplan framework
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static void UnRegisterProgress( 

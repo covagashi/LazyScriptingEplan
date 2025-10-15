@@ -9,7 +9,7 @@ Power consumption, max. # 26419.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MAX_POWER_CONSUMPTION {get; set;}

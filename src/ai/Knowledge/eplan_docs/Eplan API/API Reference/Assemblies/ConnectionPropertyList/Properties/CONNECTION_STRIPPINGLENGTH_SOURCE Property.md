@@ -9,7 +9,7 @@ Stripping length source # 31055.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_STRIPPINGLENGTH_SOURCE {get; set;}

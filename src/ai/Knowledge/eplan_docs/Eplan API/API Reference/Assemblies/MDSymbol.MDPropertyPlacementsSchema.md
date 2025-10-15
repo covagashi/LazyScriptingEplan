@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDSymbol.MDPropertyPlacementsSchema
@@ -28,4 +28,4 @@ Public Properties
 | Public Property | [Id](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol+MDPropertyPlacementsSchema~Id.html) | Returns the ID of the property placements configuration |
 | Public Property | [Name](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol+MDPropertyPlacementsSchema~Name.html) | Returns the name of the property placements configuration |
 
-[Top](#top)
+

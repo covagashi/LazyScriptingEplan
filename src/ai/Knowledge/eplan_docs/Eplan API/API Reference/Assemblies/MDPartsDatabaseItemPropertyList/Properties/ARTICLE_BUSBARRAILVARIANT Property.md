@@ -9,7 +9,7 @@ Busbars: Part variant # 22253.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_BUSBARRAILVARIANT {get; set;}

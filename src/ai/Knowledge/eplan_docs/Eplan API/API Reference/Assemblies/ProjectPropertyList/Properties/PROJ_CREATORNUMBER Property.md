@@ -9,7 +9,7 @@ Creator: Customer number # 10246.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATORNUMBER {get; set;}

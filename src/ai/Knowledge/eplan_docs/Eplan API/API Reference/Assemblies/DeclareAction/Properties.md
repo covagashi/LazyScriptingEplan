@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [Ordinal](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareAction~Ordinal.html) | Overload level of the action. |
 | Public Property | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
+

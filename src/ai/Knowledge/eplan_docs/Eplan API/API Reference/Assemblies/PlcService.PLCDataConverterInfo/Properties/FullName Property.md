@@ -9,7 +9,7 @@ Returns a full name of the PLC converter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string FullName {get;}

@@ -9,7 +9,7 @@ Exports PLC data in the PLC standard exchange format (.pbf files) using the PlcD
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ExportData( 

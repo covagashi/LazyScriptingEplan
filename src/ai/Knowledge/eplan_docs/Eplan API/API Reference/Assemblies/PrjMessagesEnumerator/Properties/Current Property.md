@@ -9,7 +9,7 @@ gets the current element in [Eplan::EplApi::EServices:](Eplan.EplApi.EServicesu~
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual object Current {get;}

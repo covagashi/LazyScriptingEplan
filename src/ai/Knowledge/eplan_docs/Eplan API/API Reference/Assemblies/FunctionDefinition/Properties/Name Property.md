@@ -9,7 +9,7 @@ Name of the FunctionDefinition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString Name {get;}

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class TransientLayer
@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [TransientLayer Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.TransientLayer~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -58,7 +58,7 @@ Public Properties
 | Public Property | [TextRotation](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.TransientLayer~TextRotation.html) | Layer's rotation of texts |
 | Public Property | [Transparency](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.TransientLayer~Transparency.html) | Specifies transparency of Layer as double with a value between 0.0 and 1.0 |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -68,7 +68,7 @@ Public Methods
 | Public Method | [Equals](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.TransientLayer~Equals.html) | .NET operator for comparing two TransientLayers. Comparison is made by comparing each of TransientLayers members instead of internal object id. |
 | Public Method | [GetHashCode](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.TransientLayer~GetHashCode.html) | Serves as the default hash function. |
 
-[Top](#top)
+
 
 Public Operators
 
@@ -76,4 +76,4 @@ Public Operators
 | --- | --- |
 | public Operator [Equality](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.TransientLayer~op_Equality.html) | .NET operator for comparing two TransientLayers. Comparison is made by comparing each of TransientLayers members instead of internal object id. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Topology: Fill capacity # 20332.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLINGSEGMENT_FILLING {get; set;}

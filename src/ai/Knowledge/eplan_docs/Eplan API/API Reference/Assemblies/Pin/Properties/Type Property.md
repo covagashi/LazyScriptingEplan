@@ -9,7 +9,7 @@ Assigns a ConnPointType to the Pin.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Pin.ConnPointType Type {get; set;}

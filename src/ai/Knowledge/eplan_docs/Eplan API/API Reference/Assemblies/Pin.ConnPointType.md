@@ -9,7 +9,7 @@ Enumeration of Pin's connection types
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Pin.ConnPointType : System.Enum

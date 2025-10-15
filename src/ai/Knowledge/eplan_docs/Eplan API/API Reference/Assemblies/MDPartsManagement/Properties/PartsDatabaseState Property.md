@@ -9,7 +9,7 @@ Value of state connection to database that is currently used.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartsManagement.DataSourceState PartsDatabaseState {get;}

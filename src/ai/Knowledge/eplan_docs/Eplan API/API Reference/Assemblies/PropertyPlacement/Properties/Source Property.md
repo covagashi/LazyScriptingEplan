@@ -9,7 +9,7 @@ Returns the object, that properties are shown by this PropertyPlacement
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual StorableObject Source {get;}

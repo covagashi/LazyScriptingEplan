@@ -9,7 +9,7 @@ Property placement type.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum SymbolReference.PropertyPlacementType : System.Enum

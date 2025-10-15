@@ -9,7 +9,7 @@ IdentityClientResponse constructor sets response data from existing object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public IdentityClientResponse( 

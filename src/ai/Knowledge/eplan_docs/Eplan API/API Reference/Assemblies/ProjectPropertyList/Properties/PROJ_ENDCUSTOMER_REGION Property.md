@@ -9,7 +9,7 @@ End customer: State / Region # 10144.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ENDCUSTOMER_REGION {get; set;}

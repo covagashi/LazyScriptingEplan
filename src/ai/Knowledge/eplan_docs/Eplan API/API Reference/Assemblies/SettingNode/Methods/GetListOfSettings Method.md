@@ -9,7 +9,7 @@ Determines all settings of this node.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void GetListOfSettings( 

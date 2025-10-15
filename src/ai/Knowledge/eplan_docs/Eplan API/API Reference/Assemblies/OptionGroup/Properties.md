@@ -24,4 +24,4 @@ Public Properties
 | Public Property | [Properties](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.OptionGroup~Properties.html) | .NET Property enabling access to P8 properties of the OptionGroup. |
 | Public Property | [TypeIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TypeIdentifier.html) | Returns the type of the object as number. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 
-[Top](#top)
+

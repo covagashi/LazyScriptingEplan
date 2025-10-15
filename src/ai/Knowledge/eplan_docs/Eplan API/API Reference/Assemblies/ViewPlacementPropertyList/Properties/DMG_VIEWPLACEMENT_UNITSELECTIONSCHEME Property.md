@@ -9,7 +9,7 @@ Model view: Selection scheme # 36506.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_UNITSELECTIONSCHEME {get; set;}

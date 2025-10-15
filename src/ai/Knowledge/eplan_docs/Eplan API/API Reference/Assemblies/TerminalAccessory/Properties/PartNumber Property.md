@@ -9,7 +9,7 @@ Gets part number
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PartNumber {get;}

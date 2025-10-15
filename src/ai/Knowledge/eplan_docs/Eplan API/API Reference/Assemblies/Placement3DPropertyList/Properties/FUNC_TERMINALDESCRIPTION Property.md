@@ -9,7 +9,7 @@ Connection point description # 20029.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINALDESCRIPTION( 

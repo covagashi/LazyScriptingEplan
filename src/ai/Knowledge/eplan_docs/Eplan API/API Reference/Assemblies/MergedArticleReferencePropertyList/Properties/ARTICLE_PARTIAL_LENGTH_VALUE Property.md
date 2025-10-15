@@ -9,7 +9,7 @@ Subset / length: Value # 20497.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PARTIAL_LENGTH_VALUE {get; set;}

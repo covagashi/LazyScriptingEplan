@@ -9,7 +9,7 @@ Allows the user to add a progress bar when main thread is working.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddProgressBackgroundWork( 

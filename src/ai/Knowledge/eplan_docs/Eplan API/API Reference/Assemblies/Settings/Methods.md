@@ -48,4 +48,4 @@ Public Methods
 | Public Method | [SetStringSetting](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Settings~SetStringSetting.html) | Overloaded. Sets the value of a setting. The index under which setting will be written is evaluated automatically. First free index is used. The index starts at 0. |
 | Public Method | [WriteSetting](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Settings~WriteSetting.html) | Exports the specified setting to an XML file. |
 
-[Top](#top)
+

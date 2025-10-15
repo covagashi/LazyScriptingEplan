@@ -9,7 +9,7 @@ Possible visibility states. These values are return by the [Placement.IsSetAsVis
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Placement.Visibility : System.Enum

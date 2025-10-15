@@ -9,7 +9,7 @@ Possible modes of plane.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Placement3D.Enums.PlaneModeType : System.Enum

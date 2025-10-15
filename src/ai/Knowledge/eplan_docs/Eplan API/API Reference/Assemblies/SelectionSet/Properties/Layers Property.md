@@ -9,7 +9,7 @@ Gets the selected layers of the active project as an array.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public GraphicalLayer[] Layers {get;}

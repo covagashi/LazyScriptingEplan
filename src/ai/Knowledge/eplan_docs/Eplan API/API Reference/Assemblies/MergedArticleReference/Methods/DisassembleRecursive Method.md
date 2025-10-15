@@ -9,7 +9,7 @@ Disassembles assembly or module, returns NULL if it wasn't an assembly or module
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MergedArticleReference[] DisassembleRecursive( 

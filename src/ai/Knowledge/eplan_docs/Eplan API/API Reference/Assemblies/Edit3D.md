@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Edit3D
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Edit3D Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Edit3D~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -44,4 +44,4 @@ Public Methods
 | Public Method | [Unhide](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Edit3D~Unhide.html) | Makes a 3d object visible in opened 3d graphic editor view. |
 | Public Method | [Unite](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Edit3D~Unite.html) | Merges collection of layout space components in such a way that their are treated like `one` object. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Cables: Connection point length target # 20246.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DEST_CP_LENGTH {get; set;}

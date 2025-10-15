@@ -9,7 +9,7 @@ Data Portal import date # 22391.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_EDP_IMPORT_DATE {get; set;}

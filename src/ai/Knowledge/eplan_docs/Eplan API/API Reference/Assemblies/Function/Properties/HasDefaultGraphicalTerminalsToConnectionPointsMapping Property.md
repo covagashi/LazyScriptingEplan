@@ -9,7 +9,7 @@ Determines if connection points to graphical terminals mapping is the default ma
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool HasDefaultGraphicalTerminalsToConnectionPointsMapping {get;}

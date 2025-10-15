@@ -9,7 +9,7 @@ Returns [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html)s matchi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Page[] GetPages( 

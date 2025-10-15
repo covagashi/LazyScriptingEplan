@@ -9,7 +9,7 @@ Type of project # 10902.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_NUMERICTYPE {get; set;}

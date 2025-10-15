@@ -9,7 +9,7 @@ Width # 20221.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue RECTANGLE_WIDTH {get; set;}

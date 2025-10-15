@@ -9,7 +9,7 @@ Switching current (resistive load) # 26138.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SWITCHING_CURRENT_RESISTIVE_LOAD {get; set;}

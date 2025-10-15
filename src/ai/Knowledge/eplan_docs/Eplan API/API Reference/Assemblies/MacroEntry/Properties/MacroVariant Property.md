@@ -9,7 +9,7 @@ Gets macro variant number
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int MacroVariant {get;}

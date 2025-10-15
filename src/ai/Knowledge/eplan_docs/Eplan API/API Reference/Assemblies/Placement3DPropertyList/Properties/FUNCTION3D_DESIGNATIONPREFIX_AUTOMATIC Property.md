@@ -9,7 +9,7 @@ Grouping sign for item designation (automatic) # 36002.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_DESIGNATIONPREFIX_AUTOMATIC {get; set;}

@@ -9,7 +9,7 @@ Reorders property placements of one type, which are assigned to this SymbolRefer
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public List<PropertyPlacement> ReorderPropertyPlacements( 

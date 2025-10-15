@@ -9,7 +9,7 @@ Position of mouse in the system (Windows) coordinate system.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual PointD ScreenPosition {get; set;}

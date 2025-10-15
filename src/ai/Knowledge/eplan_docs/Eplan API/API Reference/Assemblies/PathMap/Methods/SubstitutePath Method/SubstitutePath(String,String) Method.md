@@ -9,7 +9,7 @@ Substitutes variables with their values for a partuclar Project. Returns the cha
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static string SubstitutePath( 

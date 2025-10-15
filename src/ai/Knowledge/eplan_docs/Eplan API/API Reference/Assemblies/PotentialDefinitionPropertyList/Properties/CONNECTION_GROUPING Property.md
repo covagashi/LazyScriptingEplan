@@ -9,7 +9,7 @@ Grouping # 31069.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_GROUPING {get; set;}

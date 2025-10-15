@@ -9,7 +9,7 @@ Gets all FuctionTemplates as MDFunctionTemplatePosition object from the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDFunctionTemplatePosition[] FunctionTemplatePositions {get;}

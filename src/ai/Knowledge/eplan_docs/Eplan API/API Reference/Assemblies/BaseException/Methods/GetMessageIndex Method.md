@@ -9,7 +9,7 @@ returns the identifying S- number of a system message
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetMessageIndex()

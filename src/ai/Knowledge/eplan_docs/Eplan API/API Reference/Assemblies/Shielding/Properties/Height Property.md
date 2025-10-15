@@ -9,7 +9,7 @@ Returns height of the shielding.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Height {get;}

@@ -9,7 +9,7 @@ Function designation (single component) # 1128.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_PLANT_PART {get; set;}

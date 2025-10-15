@@ -9,7 +9,7 @@ Starting point of contour element relative to reference point.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD StartPoint {get;}

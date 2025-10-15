@@ -9,7 +9,7 @@ Set the action text for the current progress (This is the level 1)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void SetActionText( 

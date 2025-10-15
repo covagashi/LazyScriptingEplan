@@ -9,7 +9,7 @@ Project structure: Installation site # 10003.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_PLACEOFINSTALLATION {get; set;}

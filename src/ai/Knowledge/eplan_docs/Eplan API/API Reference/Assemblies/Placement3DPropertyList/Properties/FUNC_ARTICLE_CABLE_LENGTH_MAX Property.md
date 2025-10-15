@@ -9,7 +9,7 @@ Cable length, max. # 26399.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_CABLE_LENGTH_MAX( 

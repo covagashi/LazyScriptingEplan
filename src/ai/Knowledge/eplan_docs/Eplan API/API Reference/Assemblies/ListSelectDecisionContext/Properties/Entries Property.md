@@ -9,7 +9,7 @@ Gets all entries
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StringCollection Entries {get;}

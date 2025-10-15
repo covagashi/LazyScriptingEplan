@@ -9,7 +9,7 @@ Returns the exact size of the page's plot frame. The size is calculated from cen
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD Size {get;}

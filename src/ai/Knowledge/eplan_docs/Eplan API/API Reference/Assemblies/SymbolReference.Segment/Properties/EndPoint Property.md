@@ -9,7 +9,7 @@ Returns the end point of the segment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD EndPoint {get;}

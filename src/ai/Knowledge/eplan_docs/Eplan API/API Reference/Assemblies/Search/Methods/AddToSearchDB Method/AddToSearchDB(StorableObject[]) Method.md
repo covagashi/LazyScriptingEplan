@@ -9,7 +9,7 @@ Adds objects to the currently active list of search results.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddToSearchDB( 

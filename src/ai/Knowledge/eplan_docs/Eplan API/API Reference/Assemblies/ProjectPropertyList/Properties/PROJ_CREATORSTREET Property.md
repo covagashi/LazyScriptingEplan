@@ -9,7 +9,7 @@ Creator: Street # 10235.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATORSTREET {get; set;}

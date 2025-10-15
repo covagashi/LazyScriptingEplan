@@ -9,7 +9,7 @@ DT (superior, without project structures) # 20003.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DEVICETAG_MAIN {get; set;}

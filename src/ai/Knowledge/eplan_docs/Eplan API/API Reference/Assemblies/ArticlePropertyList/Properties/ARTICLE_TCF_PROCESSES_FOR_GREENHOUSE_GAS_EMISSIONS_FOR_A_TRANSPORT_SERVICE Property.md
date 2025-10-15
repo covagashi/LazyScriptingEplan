@@ -9,7 +9,7 @@ TCF: Processes for greenhouse gas emissions in a transport service # 26603.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TCF_PROCESSES_FOR_GREENHOUSE_GAS_EMISSIONS_FOR_A_TRANSPORT_SERVICE {get; set;}

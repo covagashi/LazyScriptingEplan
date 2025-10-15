@@ -9,7 +9,7 @@ Switching frequency # 26544.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SWITCHING_FREQUENCY {get; set;}

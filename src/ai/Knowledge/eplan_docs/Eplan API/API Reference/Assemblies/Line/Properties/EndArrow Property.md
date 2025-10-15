@@ -9,7 +9,7 @@ Returns if Line is ended with an arrow.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool EndArrow {get; set;}

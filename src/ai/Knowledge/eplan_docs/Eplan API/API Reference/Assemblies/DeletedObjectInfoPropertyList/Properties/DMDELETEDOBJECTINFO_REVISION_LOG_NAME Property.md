@@ -9,7 +9,7 @@ Deleted object: Revision index # 36614.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMDELETEDOBJECTINFO_REVISION_LOG_NAME {get; set;}

@@ -9,7 +9,7 @@ The maximum number of Connections on the Pin.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short MaxConnectionCount {get; set;}

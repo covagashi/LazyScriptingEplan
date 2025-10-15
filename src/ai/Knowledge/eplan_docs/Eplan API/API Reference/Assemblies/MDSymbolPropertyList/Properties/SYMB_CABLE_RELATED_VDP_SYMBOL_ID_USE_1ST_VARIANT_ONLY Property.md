@@ -9,7 +9,7 @@ Use first variant of connection definition point symbol # 16030.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_CABLE_RELATED_VDP_SYMBOL_ID_USE_1ST_VARIANT_ONLY {get; set;}

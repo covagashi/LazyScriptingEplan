@@ -9,7 +9,7 @@ Connection point descriptions (all) # 20039.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ALLCONNECTIONDESCRIPTIONS {get; set;}

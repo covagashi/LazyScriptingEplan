@@ -9,7 +9,7 @@ Mounting points in a layout space.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAccessoryPlacementPosition.BasePoint MountingPoint {get; set;}

@@ -9,7 +9,7 @@ Change protection (hierarchical) # 3015.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue WRITEPROTECTED_AUTOMATIC {get; set;}

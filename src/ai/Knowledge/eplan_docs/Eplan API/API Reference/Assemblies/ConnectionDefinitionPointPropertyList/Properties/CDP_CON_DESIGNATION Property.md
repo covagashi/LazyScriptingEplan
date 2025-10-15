@@ -9,7 +9,7 @@ Associated connections: Connection designation # 31028.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_DESIGNATION {get; set;}

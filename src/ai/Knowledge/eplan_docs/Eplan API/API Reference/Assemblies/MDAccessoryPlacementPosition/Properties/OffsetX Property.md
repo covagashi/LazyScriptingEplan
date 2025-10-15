@@ -9,7 +9,7 @@ Move in X direction for the respective placement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double OffsetX {get; set;}

@@ -9,7 +9,7 @@ DT (full, without project structures, with preceding sign) # 20213.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DEVICETAG_FULL_WITHSEPARATOR {get; set;}

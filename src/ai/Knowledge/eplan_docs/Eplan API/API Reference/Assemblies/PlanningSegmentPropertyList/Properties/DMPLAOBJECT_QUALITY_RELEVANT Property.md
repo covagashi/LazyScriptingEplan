@@ -9,7 +9,7 @@ Quality-relevant # 44062.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_QUALITY_RELEVANT {get; set;}

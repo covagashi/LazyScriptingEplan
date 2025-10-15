@@ -9,7 +9,7 @@ Protected routing # 31113.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_PROTECTED_ROUTING {get; set;}

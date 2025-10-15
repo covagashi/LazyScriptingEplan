@@ -9,7 +9,7 @@ Gets/Sets the product sub group of the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual MDPartsDatabaseItem.Enums.ProductSubGroup ProductSubGroup {get; set;}

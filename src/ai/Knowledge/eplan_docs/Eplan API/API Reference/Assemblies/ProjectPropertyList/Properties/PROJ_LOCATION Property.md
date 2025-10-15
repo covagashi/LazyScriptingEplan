@@ -9,7 +9,7 @@ Location # 10035.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_LOCATION {get; set;}

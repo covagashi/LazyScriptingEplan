@@ -9,7 +9,7 @@ Root placement to which the editor belongs.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Placement3D RootPlacement3D {get;}

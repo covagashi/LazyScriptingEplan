@@ -9,7 +9,7 @@ If this terminal is the main part of a multi-level terminal, this property retur
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Terminal[] SubTerminals {get;}

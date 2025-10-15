@@ -9,7 +9,7 @@ Error (symbol editor) # 15201.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMBLIB_ERRORSYMBOLED( 

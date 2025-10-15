@@ -28,4 +28,4 @@ Public Methods
 | Public Method | [SortTerminalStrips](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.DeviceService~SortTerminalStrips.html) | Sorts terminal strips with one of the following sort methods specified by sortKind parameter: - Default, - Numeric, - AlphaNumeric, - Position, - ExtCable, - Bridges, - WriteSortIdToAll |
 | Public Method | [UpdateDevice](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.DeviceService~UpdateDevice.html) | Overloaded. Updates a given device or a connection with data from the referenced article(s). This method can not be used for wire inside cable, but only for whole cable or single connection. |
 
-[Top](#top)
+

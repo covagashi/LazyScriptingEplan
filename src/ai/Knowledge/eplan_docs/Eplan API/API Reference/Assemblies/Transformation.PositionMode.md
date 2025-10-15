@@ -9,7 +9,7 @@ Position mode
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Transformation.PositionMode : System.Enum

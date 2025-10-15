@@ -9,7 +9,7 @@ Active power (emergency power system), max. # 26645.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_ACTIVE_POWER_MAX_NEA {get; set;}

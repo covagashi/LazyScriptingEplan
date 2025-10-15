@@ -9,7 +9,7 @@ Higher-level function number with preceding sign # 1740.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLINSTALLATIONNUMBER_WITHPREFIX {get; set;}

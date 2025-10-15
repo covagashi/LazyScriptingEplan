@@ -9,7 +9,7 @@ Function definition: Category / Group / Definition # 20188.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNC_CATEGORY_GROUP_ID {get; set;}

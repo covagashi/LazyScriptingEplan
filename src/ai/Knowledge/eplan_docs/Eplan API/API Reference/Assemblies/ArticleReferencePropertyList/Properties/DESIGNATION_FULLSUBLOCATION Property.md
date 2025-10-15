@@ -9,7 +9,7 @@ Location designation (sub-identifier, complete) # 1221.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLSUBLOCATION {get; set;}

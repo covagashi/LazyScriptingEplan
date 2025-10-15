@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextBase+FontInfo~Dispose().html) | Destructor for deterministic finalization of FontInfo object. |
 
-[Top](#top)
+

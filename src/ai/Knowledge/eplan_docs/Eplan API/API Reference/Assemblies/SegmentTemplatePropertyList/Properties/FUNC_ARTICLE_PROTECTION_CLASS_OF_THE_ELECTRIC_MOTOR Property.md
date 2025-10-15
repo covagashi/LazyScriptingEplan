@@ -9,7 +9,7 @@ BACnet: Protocol # 26541.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_PROTOCOL_BACNET( 

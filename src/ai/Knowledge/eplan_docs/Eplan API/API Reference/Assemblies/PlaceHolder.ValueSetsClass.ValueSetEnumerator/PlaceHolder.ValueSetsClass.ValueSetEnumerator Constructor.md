@@ -7,7 +7,7 @@
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlaceHolder.ValueSetsClass.ValueSetEnumerator( 

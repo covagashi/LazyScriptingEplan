@@ -9,7 +9,7 @@ Suppl. field: Text # 20915.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_ADDITIONAL_TEXTFIELD( 

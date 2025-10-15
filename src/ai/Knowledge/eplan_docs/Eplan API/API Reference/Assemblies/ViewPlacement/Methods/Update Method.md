@@ -9,7 +9,7 @@ Updates contents of ViewPlacement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Update()

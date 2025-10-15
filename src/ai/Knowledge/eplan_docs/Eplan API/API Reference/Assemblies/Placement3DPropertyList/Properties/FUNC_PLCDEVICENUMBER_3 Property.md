@@ -9,7 +9,7 @@ PLC subdevice 3: Position (slot / module) # 20535.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCDEVICENUMBER_3 {get; set;}

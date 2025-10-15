@@ -9,7 +9,7 @@ Gets/Sets the name of a record, specified by its index.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string NameOfRecord( 

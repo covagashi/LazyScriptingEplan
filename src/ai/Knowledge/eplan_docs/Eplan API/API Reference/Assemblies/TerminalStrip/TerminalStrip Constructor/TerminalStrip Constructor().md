@@ -9,7 +9,7 @@ Constructor. When object is created with this constructor, its `create` method m
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public TerminalStrip()

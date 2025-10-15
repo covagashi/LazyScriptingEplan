@@ -9,7 +9,7 @@ Grid offset Y # 12004.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_EVALUATION_AREA_START_POINT_Y {get; set;}

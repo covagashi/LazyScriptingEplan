@@ -9,7 +9,7 @@ Returns if the referenced Accessory is an accessory list
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsAccessoryList {get;}

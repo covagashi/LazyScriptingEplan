@@ -9,7 +9,7 @@ Material of the inner conductor # 26639.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MATERIAL_OF_THE_CABLE_INNER_CONDUCTOR {get; set;}

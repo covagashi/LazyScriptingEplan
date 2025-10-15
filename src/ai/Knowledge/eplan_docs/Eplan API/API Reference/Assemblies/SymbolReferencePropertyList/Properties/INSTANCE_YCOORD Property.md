@@ -9,7 +9,7 @@ Y coordinate # 19003.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_YCOORD {get; set;}

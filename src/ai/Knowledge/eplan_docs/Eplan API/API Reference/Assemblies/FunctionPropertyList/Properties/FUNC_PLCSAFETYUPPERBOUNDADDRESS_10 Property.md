@@ -9,7 +9,7 @@ PLC subdevice 10: Safety address: Upper value # 20655.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCSAFETYUPPERBOUNDADDRESS_10 {get; set;}

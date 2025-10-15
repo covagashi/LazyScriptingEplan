@@ -9,7 +9,7 @@ Enables access to P8 properties of the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new ProjectPropertyList Properties {get;}

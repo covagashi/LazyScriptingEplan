@@ -9,7 +9,7 @@ One action can have the state on off or mixed. Return 0 for off, 1 for on, and 2
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 int Checked( 

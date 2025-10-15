@@ -9,7 +9,7 @@ Associated connections: Pattern length for autoconnecting line # 31041.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_ACL_FACTOR {get; set;}

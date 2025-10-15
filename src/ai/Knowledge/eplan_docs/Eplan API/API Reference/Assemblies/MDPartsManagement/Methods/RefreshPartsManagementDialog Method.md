@@ -9,7 +9,7 @@ Refreshes the parts management dialog. That is useful after making changes on th
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RefreshPartsManagementDialog()

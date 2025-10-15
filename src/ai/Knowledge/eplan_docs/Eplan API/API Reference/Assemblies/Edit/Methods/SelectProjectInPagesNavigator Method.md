@@ -9,7 +9,7 @@ Selects the project in pages navigator
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SelectProjectInPagesNavigator( 

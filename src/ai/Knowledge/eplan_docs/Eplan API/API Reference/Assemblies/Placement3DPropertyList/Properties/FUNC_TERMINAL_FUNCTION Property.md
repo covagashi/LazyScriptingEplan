@@ -9,7 +9,7 @@ Terminal category # 20230.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_FUNCTION {get; set;}

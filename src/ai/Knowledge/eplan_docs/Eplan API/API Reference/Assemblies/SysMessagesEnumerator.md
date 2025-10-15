@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class SysMessagesEnumerator
@@ -88,7 +88,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [SysMessagesEnumerator Constructor](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesEnumerator~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -96,7 +96,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Current](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesEnumerator~Current.html) | gets the current element in [SysMessagesCollection](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection.html) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -107,4 +107,4 @@ Public Methods
 | Public Method | [MoveNext](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesEnumerator~MoveNext.html) | Advances the enumerator to the next element of [SysMessagesCollection](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection.html) |
 | Public Method | [Reset](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesEnumerator~Reset.html) | Sets the enumerator to its initial position, which is before the first element in [SysMessagesCollection](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection.html) |
 
-[Top](#top)
+

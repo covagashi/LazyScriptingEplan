@@ -9,7 +9,7 @@ Get the EPLAN product variant bin path. The EPLAN product variant bin path where
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetEplanBinPath()

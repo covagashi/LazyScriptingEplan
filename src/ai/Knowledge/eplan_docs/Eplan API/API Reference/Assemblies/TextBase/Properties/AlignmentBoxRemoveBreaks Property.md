@@ -9,7 +9,7 @@ Specifies that breaks are removed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AlignmentBoxRemoveBreaks {get; set;}

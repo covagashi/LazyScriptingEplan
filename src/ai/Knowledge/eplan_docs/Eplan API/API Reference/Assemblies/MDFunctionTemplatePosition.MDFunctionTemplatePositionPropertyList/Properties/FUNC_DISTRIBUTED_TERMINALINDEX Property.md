@@ -9,7 +9,7 @@ Distributed terminal index # 20223.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNC_DISTRIBUTED_TERMINALINDEX {get; set;}

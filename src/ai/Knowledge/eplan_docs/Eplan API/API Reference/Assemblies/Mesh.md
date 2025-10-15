@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Mesh
@@ -29,4 +29,4 @@ Public Properties
 | Public Property | [FaceNormalVector](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mesh~FaceNormalVector.html) | Returns normal vector for face with a given id. |
 | Public Property | [FacePoints](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mesh~FacePoints.html) | Returns points for a given id of face. |
 
-[Top](#top)
+

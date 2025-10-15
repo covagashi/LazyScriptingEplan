@@ -9,7 +9,7 @@ Function definition: Area # 20088.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNC_CATEGORY_REGION {get; set;}

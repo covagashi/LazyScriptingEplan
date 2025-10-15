@@ -9,7 +9,7 @@ Removes the connection from the [Project](Eplan.EplApi.DataModelu~Eplan.EplApi.D
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Remove()

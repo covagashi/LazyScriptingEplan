@@ -9,7 +9,7 @@ All changes done up to this point should be accepted. Locked objects are freed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Commit()

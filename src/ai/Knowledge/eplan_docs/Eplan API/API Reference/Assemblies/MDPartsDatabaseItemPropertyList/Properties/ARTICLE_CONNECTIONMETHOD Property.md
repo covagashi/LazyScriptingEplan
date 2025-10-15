@@ -9,7 +9,7 @@ Plugs: Connecting technique # 22101.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CONNECTIONMETHOD {get; set;}

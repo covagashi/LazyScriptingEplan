@@ -9,7 +9,7 @@ Subproject number # 25101.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SUBPROJECT_NUMBER {get; set;}

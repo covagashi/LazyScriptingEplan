@@ -9,7 +9,7 @@ Property to get or set the icon of the button. Optional parameter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonIcon Icon {get; set;}

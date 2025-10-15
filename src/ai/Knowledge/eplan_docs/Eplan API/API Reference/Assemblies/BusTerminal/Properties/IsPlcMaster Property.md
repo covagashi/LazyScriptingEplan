@@ -9,7 +9,7 @@ Identifies a PLC bus port as the master of a bus system.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsPlcMaster {get; set;}

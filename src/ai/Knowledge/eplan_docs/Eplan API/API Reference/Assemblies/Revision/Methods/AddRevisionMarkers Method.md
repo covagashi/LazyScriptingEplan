@@ -9,7 +9,7 @@ Adds revision markers to the changed project. Used for change tracking.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddRevisionMarkers( 

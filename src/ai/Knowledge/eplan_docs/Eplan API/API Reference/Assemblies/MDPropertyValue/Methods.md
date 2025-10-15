@@ -21,4 +21,4 @@ Public Methods
 | Public Method | [ToString](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~ToString.html) | Overloaded. Returns string value of this property. When type of property is MultiLangString then only specified language is returned. In case of offline MDPropertyValue object, stored value is returned without any cast. When property can not be read, `default_value` is returned instead of throwing `MDEmptyPropertyException` . |
 | Public Method | [ToTime](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~ToTime.html) | Converts this MDPropertyValue object to `System::DateTime`. |
 
-[Top](#top)
+

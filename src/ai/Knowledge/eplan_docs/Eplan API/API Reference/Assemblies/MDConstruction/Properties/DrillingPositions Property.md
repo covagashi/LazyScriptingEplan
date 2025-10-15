@@ -9,7 +9,7 @@ Get all drilling positions that belongs to the construction.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDDrillingPosition[] DrillingPositions {get;}

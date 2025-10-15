@@ -9,7 +9,7 @@ PLC address: Data type # 44021.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLCADDRESS_DATATYPE( 

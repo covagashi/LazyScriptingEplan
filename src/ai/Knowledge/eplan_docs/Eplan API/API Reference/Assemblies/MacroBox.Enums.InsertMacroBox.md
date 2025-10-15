@@ -9,7 +9,7 @@ Enumeration of InsertMacroBox
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MacroBox.Enums.InsertMacroBox : System.Enum

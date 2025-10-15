@@ -9,7 +9,7 @@ Exports drillings from a 3d objects as numerical control data for Steinhauer mac
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool NCForSteinhauer( 

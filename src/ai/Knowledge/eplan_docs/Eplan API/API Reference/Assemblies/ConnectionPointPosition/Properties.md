@@ -42,4 +42,4 @@ Public Properties
 | Public Property | [ZPosition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPointPosition~ZPosition.html) | The Z-position of the connection point |
 | Public Property | [ZVector](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPointPosition~ZVector.html) | The Z-vector of the connection point |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Flow rate # 26265.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_FLOW_RATE {get; set;}

@@ -9,7 +9,7 @@ Process pressure (absolute pressure), max. # 26519.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_UPPER_PROCESS_PRESSURE_LIMIT_ABSOLUTE_PRESSURE( 

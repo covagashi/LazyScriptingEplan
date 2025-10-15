@@ -9,7 +9,7 @@ this is the function prototype called when an Eplan event is raised.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void EplanNameEvent( 

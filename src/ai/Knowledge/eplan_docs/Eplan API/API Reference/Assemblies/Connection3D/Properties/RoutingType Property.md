@@ -9,7 +9,7 @@ Gets or sets type of routing (with/without using a network)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Connection3D.Enums.RoutingType RoutingType {get; set;}

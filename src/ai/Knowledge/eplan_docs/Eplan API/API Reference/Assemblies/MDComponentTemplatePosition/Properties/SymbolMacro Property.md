@@ -9,7 +9,7 @@ The symbol macro of component template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SymbolMacro {get; set;}

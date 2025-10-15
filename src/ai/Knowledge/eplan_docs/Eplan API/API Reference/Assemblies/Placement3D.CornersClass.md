@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Placement3D.CornersClass
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Placement3D.CornersClass Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D+CornersClass~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -50,4 +50,4 @@ Public Properties
 | Public Property | [UpperRightFrontAbsolute](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D+CornersClass~UpperRightFrontAbsolute.html) | Returns upper right front absolute coordinate |
 | Public Property | [UpperRightFrontRelative](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D+CornersClass~UpperRightFrontRelative.html) | Returns upper right front relative coordinate |
 
-[Top](#top)
+

@@ -20,7 +20,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ContextPropertyPlacement : Eplan.EplApi.DataModel.Graphics.PropertyPlacement
@@ -38,7 +38,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ContextPropertyPlacement Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ContextPropertyPlacement~_ctor().html) | Constructor. When object created with this constructor, its `create` method must be call. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -98,7 +98,7 @@ Public Properties
 | Public Property | [Tooltip](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement~Tooltip.html) | Gets the tooltips of the object as can be seen in the GED (Inherited from [Eplan.EplApi.DataModel.Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement.html)) |
 | Public Property | [TypeIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TypeIdentifier.html) | Returns the type of the object as number. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -125,4 +125,4 @@ Public Methods
 | Public Method | [ToStringIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~ToStringIdentifier.html) | Returns this object as string identifier. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 | Public Method | [UndockText](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextBase~UndockText.html) | Undock text from another oner one. You can see how it works in GUI. Select element on schematic, display properties, show property placements and dock / undock them. (Inherited from [Eplan.EplApi.DataModel.Graphics.TextBase](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextBase.html)) |
 
-[Top](#top)
+

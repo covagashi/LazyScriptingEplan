@@ -9,7 +9,7 @@ Power requirement, min. # 26423.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_POWER_REQUIREMENT_MIN {get; set;}

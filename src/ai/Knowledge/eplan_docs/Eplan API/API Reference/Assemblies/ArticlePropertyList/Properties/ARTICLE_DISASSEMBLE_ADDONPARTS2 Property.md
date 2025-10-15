@@ -9,7 +9,7 @@ Include supplemental parts (parts list) # 22416.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DISASSEMBLE_ADDONPARTS2 {get; set;}

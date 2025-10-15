@@ -21,4 +21,4 @@ Public Methods
 | Public Method | [GetPartNumber](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.BaseProjectMessage~GetPartNumber.html) | Returns the part number associated to the message if any. |
 | Public Method | [GetPartVariant](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.BaseProjectMessage~GetPartVariant.html) | Returns the part variant associated to the message if any. |
 
-[Top](#top)
+

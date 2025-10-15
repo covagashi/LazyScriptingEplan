@@ -9,7 +9,7 @@ Shows whether the object was changed, deleted, or newly inserted.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ComparisonEntry.StateType ChangeType {get;}

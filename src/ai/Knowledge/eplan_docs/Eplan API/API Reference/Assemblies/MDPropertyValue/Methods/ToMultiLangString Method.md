@@ -9,7 +9,7 @@ Converts this MDPropertyValue object to [Eplan.EplApi.Base.MultiLangString](Epla
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString ToMultiLangString()

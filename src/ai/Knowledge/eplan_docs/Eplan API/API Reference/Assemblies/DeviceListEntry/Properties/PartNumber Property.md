@@ -9,7 +9,7 @@ Gets or sets the device list entry's part number.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string PartNumber {get; set;}

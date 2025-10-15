@@ -9,7 +9,7 @@ Specifies relation type of property placement
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum PropertyPlacement.RelationType : System.Enum

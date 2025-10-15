@@ -9,7 +9,7 @@ ERP / PDM number 4 # 31169.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_ERPNR_4( 

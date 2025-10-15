@@ -9,7 +9,7 @@ Gets/Sets the name of the signal.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SignalName {get; set;}

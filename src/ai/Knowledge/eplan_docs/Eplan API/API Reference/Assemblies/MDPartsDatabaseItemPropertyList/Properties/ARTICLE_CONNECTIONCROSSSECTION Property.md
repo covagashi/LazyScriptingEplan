@@ -9,7 +9,7 @@ Connection point cross-section # 22036.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CONNECTIONCROSSSECTION {get; set;}

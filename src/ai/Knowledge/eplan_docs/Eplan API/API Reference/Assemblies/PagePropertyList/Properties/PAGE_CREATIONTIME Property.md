@@ -9,7 +9,7 @@ Creation time # 11002.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_CREATIONTIME {get; set;}

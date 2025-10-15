@@ -9,7 +9,7 @@ Gets or sets Scheme name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Scheme {get; set;}

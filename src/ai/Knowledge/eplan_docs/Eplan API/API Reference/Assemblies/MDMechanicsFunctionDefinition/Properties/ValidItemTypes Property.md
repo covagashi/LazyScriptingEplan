@@ -9,7 +9,7 @@ Gets all available item types which can be set in Item property for the current 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ItemType[] ValidItemTypes {get;}

@@ -9,7 +9,7 @@ returns all object ids of the objects which were not locked. In case this except
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string[] GetAllFailed2LockAsString()

@@ -9,7 +9,7 @@ Create the progress Window
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void CreateProgressWindow()

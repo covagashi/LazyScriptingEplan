@@ -9,7 +9,7 @@ Bus interface: Name (indirect) # 20390.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLC_BUS_INTERFACENAME_INDIRECT {get; set;}

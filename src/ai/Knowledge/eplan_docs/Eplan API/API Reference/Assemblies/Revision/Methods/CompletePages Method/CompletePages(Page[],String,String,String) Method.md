@@ -9,7 +9,7 @@ Completes modification of selected pages in the current revision of a project. U
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CompletePages( 

@@ -9,7 +9,7 @@ User-defined structure (visible) # 1629.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_USERDEFINED_VISIBLE {get; set;}

@@ -9,7 +9,7 @@ Sets the ArticleReference at the reference position of the ArticleReference.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ArticleReference ArticleReference {set;}

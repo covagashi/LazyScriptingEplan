@@ -9,7 +9,7 @@ Returns collection of all pages assigned to the planning segment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Page[] Pages {get;}

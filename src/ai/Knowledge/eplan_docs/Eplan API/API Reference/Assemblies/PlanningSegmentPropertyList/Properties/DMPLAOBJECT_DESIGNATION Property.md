@@ -9,7 +9,7 @@ Designation # 44004.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_DESIGNATION {get; set;}

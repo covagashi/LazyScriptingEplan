@@ -9,7 +9,7 @@ If true, then this routing segment is ignored while calculating any filling degr
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IgnoreAtFillingDegreeVisualisation {get; set;}

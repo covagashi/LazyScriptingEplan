@@ -9,7 +9,7 @@ Thread size (metric) # 26107.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_THREAD_SIZE_METRIC {get; set;}

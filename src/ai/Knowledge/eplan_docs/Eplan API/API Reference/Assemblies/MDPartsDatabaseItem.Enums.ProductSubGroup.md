@@ -9,7 +9,7 @@ This are the different subgroups of database items that can be stored in parts d
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MDPartsDatabaseItem.Enums.ProductSubGroup : System.Enum

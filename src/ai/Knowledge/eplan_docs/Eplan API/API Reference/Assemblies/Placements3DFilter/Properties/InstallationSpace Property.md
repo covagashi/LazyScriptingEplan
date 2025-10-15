@@ -9,7 +9,7 @@ Sets the [Eplan.EplApi.DataModel.E3D.InstallationSpace](Eplan.EplApi.DataModelu~
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InstallationSpace InstallationSpace {get; set;}

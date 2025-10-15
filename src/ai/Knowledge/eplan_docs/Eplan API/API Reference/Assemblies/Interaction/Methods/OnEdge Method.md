@@ -9,7 +9,7 @@ Is called after edged of a 3D mesh was selected by user.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual RequestCode OnEdge( 

@@ -9,7 +9,7 @@ Legend item # 20450.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLEPLACEMENT_CAPTIONID {get; set;}

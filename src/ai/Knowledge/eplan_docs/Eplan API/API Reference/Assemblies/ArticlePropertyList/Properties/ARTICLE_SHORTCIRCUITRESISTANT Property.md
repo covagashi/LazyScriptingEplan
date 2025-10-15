@@ -9,7 +9,7 @@ Short-circuit proof # 22115.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SHORTCIRCUITRESISTANT {get; set;}

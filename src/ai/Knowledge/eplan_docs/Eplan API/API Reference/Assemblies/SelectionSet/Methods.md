@@ -15,4 +15,4 @@ Public Methods
 | Public Method | [GetSelectedObject](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.SelectionSet~GetSelectedObject.html) | \Returns the first selected object. |
 | Public Method | [GetSelectedPages](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.SelectionSet~GetSelectedPages.html) | Gets the selected pages. |
 
-[Top](#top)
+

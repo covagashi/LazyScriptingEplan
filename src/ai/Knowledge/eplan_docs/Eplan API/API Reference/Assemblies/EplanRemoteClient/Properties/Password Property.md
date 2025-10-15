@@ -9,7 +9,7 @@ Eplan log-in password used for Rights Management.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Password {get; set;}

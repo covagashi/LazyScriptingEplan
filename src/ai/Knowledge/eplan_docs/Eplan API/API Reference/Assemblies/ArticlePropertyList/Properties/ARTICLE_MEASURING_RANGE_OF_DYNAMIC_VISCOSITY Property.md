@@ -9,7 +9,7 @@ Measuring range: Dynamic viscosity # 26446.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MEASURING_RANGE_OF_DYNAMIC_VISCOSITY {get; set;}

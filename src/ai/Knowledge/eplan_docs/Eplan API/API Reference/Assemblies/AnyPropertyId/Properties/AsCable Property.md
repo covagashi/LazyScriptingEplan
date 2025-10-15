@@ -9,7 +9,7 @@ Gets property id value as [Properties.Cable](Eplan.EplApi.DataModelu~Eplan.EplAp
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.Cable AsCable {get;}

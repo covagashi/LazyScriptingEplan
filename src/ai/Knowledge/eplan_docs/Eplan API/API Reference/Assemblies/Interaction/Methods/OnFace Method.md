@@ -9,7 +9,7 @@ Is called after face of a 3D mesh was selected by user.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual RequestCode OnFace( 

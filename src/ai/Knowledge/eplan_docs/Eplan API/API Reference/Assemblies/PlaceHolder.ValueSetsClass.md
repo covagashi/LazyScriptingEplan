@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Item")]
@@ -31,7 +31,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PlaceHolder.ValueSetsClass Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass~_ctor.html) | Constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -42,7 +42,7 @@ Public Properties
 | Public Property | [IsReadOnly](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass~IsReadOnly.html) |  |
 | Public Property | [Item](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass~Item.html) |  |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -56,4 +56,4 @@ Public Methods
 | Public Method | [GetEnumerator2](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass~GetEnumerator2.html) |  |
 | Public Method | [Remove](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass~Remove.html) | Removes a value set |
 
-[Top](#top)
+

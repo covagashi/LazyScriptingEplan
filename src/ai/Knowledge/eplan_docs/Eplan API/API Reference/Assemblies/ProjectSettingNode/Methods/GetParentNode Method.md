@@ -9,7 +9,7 @@ Determines the parent node.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override SettingNode GetParentNode()

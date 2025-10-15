@@ -9,7 +9,7 @@ Associated project revision (change tracking) # 11075.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_REVISION_LOG_PROJ_REV( 

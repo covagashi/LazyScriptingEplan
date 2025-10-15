@@ -9,7 +9,7 @@ Autoconnecting line: Color # 31005.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue CONNECTION_ACL_COLOR {get; set;}

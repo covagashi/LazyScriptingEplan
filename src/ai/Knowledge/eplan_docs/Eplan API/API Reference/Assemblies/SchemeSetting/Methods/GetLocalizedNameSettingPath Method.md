@@ -9,7 +9,7 @@ Returns Setting path to the localized name of this scheme.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetLocalizedNameSettingPath()

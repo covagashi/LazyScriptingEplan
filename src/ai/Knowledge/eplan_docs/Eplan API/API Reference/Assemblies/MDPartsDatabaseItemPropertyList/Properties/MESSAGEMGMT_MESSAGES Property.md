@@ -9,7 +9,7 @@ Check run messages available # 20930.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue MESSAGEMGMT_MESSAGES {get; set;}

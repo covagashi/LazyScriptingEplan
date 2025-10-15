@@ -9,7 +9,7 @@ Returns a list of PLC config. projects included in the EPLAN P8's project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[] GetPLCConfigurationProjects( 

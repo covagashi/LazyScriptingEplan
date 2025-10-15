@@ -9,7 +9,7 @@ Service short-circuit breaking capacity (Ics) # 26588.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SERVICE_BREAKING_CAPACITY {get; set;}

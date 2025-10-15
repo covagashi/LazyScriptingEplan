@@ -9,7 +9,7 @@ Returns array of all [Eplan.EplApi.DataModel.E3D.InstallationSpace](Eplan.EplApi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InstallationSpace[] InstallationSpaces {get;}

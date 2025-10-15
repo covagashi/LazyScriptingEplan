@@ -9,7 +9,7 @@ Constructor for DeviceTagSettings class which allow to access specified settings
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project.DeviceTagSettings( 

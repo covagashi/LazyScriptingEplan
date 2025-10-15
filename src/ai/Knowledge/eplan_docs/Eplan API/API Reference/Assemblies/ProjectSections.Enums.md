@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ProjectSections.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ProjectSections.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectSections+Enums~_ctor.html) |  |
 
-[Top](#top)
+

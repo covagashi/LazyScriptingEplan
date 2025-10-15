@@ -9,7 +9,7 @@ Weight in displayed unit # 22059.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_WEIGHT_DISPLAY_UNIT {get; set;}

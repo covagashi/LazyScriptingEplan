@@ -9,7 +9,7 @@ Synchronization from 'multi-line' connection data onto all other connection type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void MultilineToAllConnectionTypes( 

@@ -9,7 +9,7 @@ distance between busbars.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double BarDistance {get;}

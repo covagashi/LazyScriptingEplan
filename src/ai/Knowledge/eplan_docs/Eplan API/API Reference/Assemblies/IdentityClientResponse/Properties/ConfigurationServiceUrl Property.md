@@ -9,7 +9,7 @@ IdentityClient configuration service URL.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConfigurationServiceUrl {get; set;}

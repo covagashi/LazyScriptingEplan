@@ -9,7 +9,7 @@ Returns the [FunctionDefinition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override FunctionDefinition FunctionDefinition {get; set;}

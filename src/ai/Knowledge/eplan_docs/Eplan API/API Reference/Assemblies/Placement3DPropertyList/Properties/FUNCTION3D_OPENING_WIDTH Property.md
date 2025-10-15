@@ -9,7 +9,7 @@ Cut-out: Width # 36020.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_OPENING_WIDTH {get; set;}

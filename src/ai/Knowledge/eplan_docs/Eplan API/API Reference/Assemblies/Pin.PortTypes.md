@@ -9,7 +9,7 @@ Enumeration of Pin's port types
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Pin.PortTypes : System.Enum

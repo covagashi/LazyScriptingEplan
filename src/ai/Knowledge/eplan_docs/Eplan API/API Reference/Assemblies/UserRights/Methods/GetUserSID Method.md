@@ -9,7 +9,7 @@ Gets the user SID.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetUserSID()

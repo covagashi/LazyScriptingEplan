@@ -9,7 +9,7 @@ Returns the text box type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public TextBase.TextBoxType DrawTextBoxType {get; set;}

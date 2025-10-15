@@ -9,7 +9,7 @@ Gets/Sets whether the value of the dimension (the dimension's text) is automatic
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool DimensionCalculated {get; set;}

@@ -9,7 +9,7 @@ Bus coupler / head station # 22019.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PLCISBUSCOUPLER {get; set;}

@@ -9,7 +9,7 @@ MAC address # 20128.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCOMMUNICATIONENTITY_MACADDRESS( 

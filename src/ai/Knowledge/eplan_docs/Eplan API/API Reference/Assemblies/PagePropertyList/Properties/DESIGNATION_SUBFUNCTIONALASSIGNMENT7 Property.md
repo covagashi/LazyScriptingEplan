@@ -9,7 +9,7 @@ Functional assignment (sub-identifier 7) # 1307.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBFUNCTIONALASSIGNMENT7 {get; set;}

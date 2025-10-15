@@ -9,7 +9,7 @@ Service short-circuit breaking capacity (Ics as % of Icu) # 26592.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SERVICE_BREAKING_CAPACITY_PERCENT {get; set;}

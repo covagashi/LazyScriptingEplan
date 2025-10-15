@@ -9,7 +9,7 @@ Removes the given drilling position from the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveDrillingPosition( 

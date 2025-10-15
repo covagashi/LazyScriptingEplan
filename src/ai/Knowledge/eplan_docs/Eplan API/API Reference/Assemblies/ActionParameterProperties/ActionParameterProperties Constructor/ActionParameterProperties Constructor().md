@@ -9,7 +9,7 @@ Creates a new instance.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ActionParameterProperties()

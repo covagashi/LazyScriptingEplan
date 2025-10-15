@@ -9,7 +9,7 @@ Revision: Change tracking started # 10154.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_REVISION_LOG_START {get; set;}

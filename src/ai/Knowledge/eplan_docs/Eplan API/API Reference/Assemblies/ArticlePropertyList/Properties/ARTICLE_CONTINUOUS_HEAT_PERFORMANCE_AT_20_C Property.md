@@ -9,7 +9,7 @@ Continuous heating power (at 20°C) # 26094.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CONTINUOUS_HEAT_PERFORMANCE_AT_20_C {get; set;}

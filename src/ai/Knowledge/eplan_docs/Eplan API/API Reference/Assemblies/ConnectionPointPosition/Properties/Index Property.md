@@ -9,7 +9,7 @@ An index in connection position points list.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short Index {get;}

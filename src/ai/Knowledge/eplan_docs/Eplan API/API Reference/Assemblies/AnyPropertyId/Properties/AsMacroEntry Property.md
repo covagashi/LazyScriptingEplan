@@ -9,7 +9,7 @@ Gets property id value as [Properties.MacroEntry](Eplan.EplApi.DataModelu~Eplan.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.MacroEntry AsMacroEntry {get;}

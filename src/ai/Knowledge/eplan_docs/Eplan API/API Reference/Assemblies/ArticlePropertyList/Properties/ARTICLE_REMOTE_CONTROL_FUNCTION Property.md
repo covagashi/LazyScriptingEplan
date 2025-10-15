@@ -9,7 +9,7 @@ Remote control function # 26041.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_REMOTE_CONTROL_FUNCTION {get; set;}

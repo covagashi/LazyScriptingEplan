@@ -9,7 +9,7 @@ Revision marker (change tracking) # 19030.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue INSTANCE_REVISION_LOG_MARKER {get; set;}

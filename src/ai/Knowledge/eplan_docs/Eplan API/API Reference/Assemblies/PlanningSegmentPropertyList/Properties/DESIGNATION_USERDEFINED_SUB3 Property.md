@@ -9,7 +9,7 @@ User-defined structure (sub-identifier 3) # 1603.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_USERDEFINED_SUB3 {get; set;}

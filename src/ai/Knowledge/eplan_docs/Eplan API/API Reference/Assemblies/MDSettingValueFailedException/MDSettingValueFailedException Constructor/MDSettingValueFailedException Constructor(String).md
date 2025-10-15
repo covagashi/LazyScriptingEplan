@@ -9,7 +9,7 @@ Internal constructor with description.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDSettingValueFailedException( 

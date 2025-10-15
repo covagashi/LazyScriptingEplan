@@ -9,7 +9,7 @@ Topology: Connection point extra length # 20241.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLING_CP_ADDITIONAL_LENGTH {get; set;}

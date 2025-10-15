@@ -9,7 +9,7 @@ Gets/Sets visibility of the object as set in its properties dialog.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Placement.Visibility IsSetAsVisible {get; set;}

@@ -9,7 +9,7 @@ Connection point pattern: Min. AWG # 36077.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_TERMINALPOSITION_MINCROSSSECTION_AWG( 

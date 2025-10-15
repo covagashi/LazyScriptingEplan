@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Comment.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Comment.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Comment+Enums~_ctor.html) |  |
 
-[Top](#top)
+

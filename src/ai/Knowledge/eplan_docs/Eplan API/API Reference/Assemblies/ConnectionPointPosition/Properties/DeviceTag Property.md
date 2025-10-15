@@ -9,7 +9,7 @@ DT of the plug used to connect the connection point.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DeviceTag {get; set;}

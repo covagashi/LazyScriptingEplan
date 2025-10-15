@@ -9,7 +9,7 @@ Overhang: Cover back # 22178.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TOPPANELPROJECTIONBACK {get; set;}

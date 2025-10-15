@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [NullableContext(1)]
@@ -36,7 +36,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [IdentityClientResponse Constructor](Eplan.IdentityClient.Types~Eplan.IdentityClient.IdentityClientResponse~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -57,4 +57,4 @@ Public Properties
 | Public Property | [RefreshToken](Eplan.IdentityClient.Types~Eplan.IdentityClient.IdentityClientResponse~RefreshToken.html) | Refresh token. |
 | Public Property | [StatusCode](Eplan.IdentityClient.Types~Eplan.IdentityClient.IdentityClientResponse~StatusCode.html) | IdentityStatusCode success code. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Plugs: Number of PE pins # 35205.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLUGSTRIP_COUNTOFPE {get; set;}

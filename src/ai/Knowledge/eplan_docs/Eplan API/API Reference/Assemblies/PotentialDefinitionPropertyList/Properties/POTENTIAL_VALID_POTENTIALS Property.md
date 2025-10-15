@@ -9,7 +9,7 @@ Possible counter potentials # 33005.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue POTENTIAL_VALID_POTENTIALS {get; set;}

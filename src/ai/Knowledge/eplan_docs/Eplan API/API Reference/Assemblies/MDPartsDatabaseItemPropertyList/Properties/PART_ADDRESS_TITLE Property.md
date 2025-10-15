@@ -9,7 +9,7 @@ Title # 22909.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ADDRESS_TITLE {get; set;}

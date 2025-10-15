@@ -9,7 +9,7 @@ Pressure area: Dimension # 26001.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DIMENSIONS_OF_THE_PRESSURED_AREA {get; set;}

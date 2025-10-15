@@ -9,7 +9,7 @@ Evaluated functions.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function[] Functions {get; set;}

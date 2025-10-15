@@ -9,7 +9,7 @@ PLC subdevice 1: PLC type designation # 20607.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_TYPEIDENTIFIER_1 {get; set;}

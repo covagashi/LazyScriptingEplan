@@ -9,7 +9,7 @@ The B10D (average count of cycles until 10% of the devices failed dangerously)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double B10D {get; set;}

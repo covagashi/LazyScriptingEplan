@@ -9,7 +9,7 @@ Intake volume # 26197.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_INTAKE_VOLUME( 

@@ -9,7 +9,7 @@ Modification date (change tracking) # 19032.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue INSTANCE_REVISION_LOG_DATE {get; set;}

@@ -9,7 +9,7 @@ An article's part number contained in the device list.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PartNumber {get;}

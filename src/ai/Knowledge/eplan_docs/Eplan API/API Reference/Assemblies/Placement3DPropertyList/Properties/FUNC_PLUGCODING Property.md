@@ -9,7 +9,7 @@ Plugs: Coding # 20856.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLUGCODING {get; set;}

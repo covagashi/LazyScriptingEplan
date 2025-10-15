@@ -9,7 +9,7 @@ Opens a symbol library of the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Initialize( 

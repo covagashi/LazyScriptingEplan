@@ -9,7 +9,7 @@ PLC subdevice 11: PLC type designation # 20591.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_TYPEIDENTIFIER_11 {get; set;}

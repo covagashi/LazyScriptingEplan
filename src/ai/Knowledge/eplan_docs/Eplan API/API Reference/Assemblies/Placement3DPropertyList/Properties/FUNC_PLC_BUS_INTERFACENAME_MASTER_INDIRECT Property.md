@@ -9,7 +9,7 @@ Bus interface: Main bus port (indirect) # 20391.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLC_BUS_INTERFACENAME_MASTER_INDIRECT {get; set;}

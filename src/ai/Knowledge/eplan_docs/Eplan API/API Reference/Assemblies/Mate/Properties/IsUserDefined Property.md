@@ -9,7 +9,7 @@ Returns true, if mate is used defined.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsUserDefined {get;}

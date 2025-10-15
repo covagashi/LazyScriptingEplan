@@ -9,7 +9,7 @@ Terminal strips: Number of SH terminals # 35000.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue TERMINALSTRIP_COUNTOFSH {get; set;}

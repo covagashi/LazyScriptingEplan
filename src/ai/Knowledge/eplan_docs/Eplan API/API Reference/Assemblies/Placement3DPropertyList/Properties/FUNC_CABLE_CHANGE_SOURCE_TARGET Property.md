@@ -9,7 +9,7 @@ Cables: Exchange source and target # 20064.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_CHANGE_SOURCE_TARGET {get; set;}

@@ -9,7 +9,7 @@ Gets the symbol libraries used by the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolLibrary[] SymbolLibraries {get;}

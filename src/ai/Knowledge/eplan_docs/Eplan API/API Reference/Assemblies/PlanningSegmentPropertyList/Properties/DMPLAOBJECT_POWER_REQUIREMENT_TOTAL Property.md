@@ -9,7 +9,7 @@ Total expenditure software # 44017.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PROGRAMMINGTIME_TOTAL {get; set;}

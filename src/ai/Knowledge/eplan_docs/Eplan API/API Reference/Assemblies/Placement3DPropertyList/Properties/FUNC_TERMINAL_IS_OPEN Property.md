@@ -9,7 +9,7 @@ Terminal opened # 20232.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_IS_OPEN {get; set;}

@@ -9,7 +9,7 @@ Name of this connection point position.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get; set;}

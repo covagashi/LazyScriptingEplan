@@ -9,7 +9,7 @@ Macro: Take connection point designations into account # 23014.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROBOX_USECONNECTIONPOINTDESIGNATION {get; set;}

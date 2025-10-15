@@ -9,7 +9,7 @@ Changes the whole value set data (all variable values) by getting it again from 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ChangeValueSetName( 

@@ -9,7 +9,7 @@ Replacement part: Description # 26038.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_REPLACEMENT_PART_DESCRIPTION {get; set;}

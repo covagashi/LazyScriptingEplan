@@ -17,7 +17,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Functions3DFilter : Placements3DFilter
@@ -76,7 +76,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Functions3DFilter Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Functions3DFilter~_ctor.html) | Default constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -88,7 +88,7 @@ Public Properties
 | Public Property | [Parent](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placements3DFilter~Parent.html) | Sets the [Eplan.EplApi.DataModel.E3D.Placement3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D.html) for which all children will be found. (Inherited from [Eplan.EplApi.DataModel.Placements3DFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placements3DFilter.html)) |
 | Public Property | [Recursive](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placements3DFilter~Recursive.html) | Gets a value indicating whether [DMObjectsFinder](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DMObjectsFinder.html) search for children recursively traversing from parent down. (Inherited from [Eplan.EplApi.DataModel.Placements3DFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placements3DFilter.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -98,4 +98,4 @@ Public Methods
 | Public Method | [ResetFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObjectsFilter~ResetFilter.html) | Resets the filter. Filter matches all [StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)s then. (Inherited from [Eplan.EplApi.DataModel.StorableObjectsFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObjectsFilter.html)) |
 | Public Method | [SetFilteredPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placements3DFilter~SetFilteredPropertyList.html) | Overloaded. Sets the [Eplan.EplApi.DataModel.E3D.Placement3DPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3DPropertyList.html) that will be used for searching [Eplan.EplApi.DataModel.E3D.Placement3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D.html). (Inherited from [Eplan.EplApi.DataModel.Placements3DFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placements3DFilter.html)) |
 
-[Top](#top)
+

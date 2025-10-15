@@ -9,7 +9,7 @@ Connection point pattern defined for this article. Returns `null` if article doe
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ConnectionPointsInfo ConnectionPointsInfo {get;}

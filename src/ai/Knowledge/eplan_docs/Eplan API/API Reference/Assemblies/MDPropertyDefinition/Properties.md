@@ -19,4 +19,4 @@ Public Properties
 | Public Property | [Type](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyDefinition~Type.html) | Returns information about type of the property. [MDPropertyDefinition.MDPropertyType](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyDefinition+MDPropertyType.html) |
 | Public Property | [UpperBound](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyDefinition~UpperBound.html) | Gets a property's maximal value specified in the property's definition. |
 
-[Top](#top)
+

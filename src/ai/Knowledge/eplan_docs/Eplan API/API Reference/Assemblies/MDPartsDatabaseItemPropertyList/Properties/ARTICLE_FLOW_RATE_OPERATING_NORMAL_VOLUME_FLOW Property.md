@@ -9,7 +9,7 @@ Flow rate (operating / standard volume flow) # 26263.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_FLOW_RATE_OPERATING_NORMAL_VOLUME_FLOW {get; set;}

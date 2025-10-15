@@ -9,7 +9,7 @@ Intake flow rate, min. # 26201.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_INTAKE_VOLUME_FLOW_MIN( 

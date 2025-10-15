@@ -9,7 +9,7 @@ Relative position - determines the position of created location in correspondenc
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Project.LocationRelativePosition : System.Enum

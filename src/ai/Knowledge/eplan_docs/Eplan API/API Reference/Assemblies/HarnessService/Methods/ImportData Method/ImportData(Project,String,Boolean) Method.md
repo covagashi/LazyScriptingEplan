@@ -9,7 +9,7 @@ Imports Harness data from a file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] ImportData( 

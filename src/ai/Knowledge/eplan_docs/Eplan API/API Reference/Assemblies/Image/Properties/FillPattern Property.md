@@ -9,7 +9,7 @@ Gets or sets the fill pattern. Pattern types Bitmap, Eplan and System are not su
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override GraphicalPlacement.FillPatternType FillPattern {set;}

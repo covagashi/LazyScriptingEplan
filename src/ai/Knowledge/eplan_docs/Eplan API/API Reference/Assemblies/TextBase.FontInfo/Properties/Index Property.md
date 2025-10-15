@@ -9,7 +9,7 @@ Gets zero-based index of the font. Font table is in settings: COMPANY.GedViewer.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Index {get;}

@@ -9,7 +9,7 @@ Name # 22931.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_CONSTRUCTION_NAME {get; set;}

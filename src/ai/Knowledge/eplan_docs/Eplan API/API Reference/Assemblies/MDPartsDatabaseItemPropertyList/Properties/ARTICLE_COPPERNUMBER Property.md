@@ -9,7 +9,7 @@ Copper weight # 22066.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_COPPERNUMBER {get; set;}

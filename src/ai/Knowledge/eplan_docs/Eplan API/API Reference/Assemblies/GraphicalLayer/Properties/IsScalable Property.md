@@ -9,7 +9,7 @@ Specifies if scale is considered with this layer
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsScalable {get; set;}

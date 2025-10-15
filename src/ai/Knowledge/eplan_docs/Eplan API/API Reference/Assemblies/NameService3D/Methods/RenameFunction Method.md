@@ -9,7 +9,7 @@ Changes the full names of the function and its children.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static void RenameFunction( 

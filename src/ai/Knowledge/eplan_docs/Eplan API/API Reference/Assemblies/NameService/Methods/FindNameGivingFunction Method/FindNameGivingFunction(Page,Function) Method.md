@@ -9,7 +9,7 @@ Sets the page and finds the function, that would give hActual the function name,
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function FindNameGivingFunction( 

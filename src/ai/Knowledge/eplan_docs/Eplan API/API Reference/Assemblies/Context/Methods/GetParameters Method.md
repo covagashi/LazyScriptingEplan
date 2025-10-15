@@ -9,7 +9,7 @@ Gets array filled with parameters names from the context.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string[] GetParameters()

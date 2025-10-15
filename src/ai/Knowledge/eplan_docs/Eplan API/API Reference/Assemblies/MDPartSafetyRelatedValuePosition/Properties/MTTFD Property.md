@@ -9,7 +9,7 @@ The MTTFD (mean time to dangerous failure)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double MTTFD {get; set;}

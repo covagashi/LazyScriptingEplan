@@ -9,7 +9,7 @@ Representation type / report type # 19021.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_TYPE {get; set;}

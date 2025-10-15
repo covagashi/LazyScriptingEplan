@@ -9,7 +9,7 @@ Returns an array of [Article.Assembly](Eplan.EplApi.DataModelu~Eplan.EplApi.Data
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Article.Assembly[] ArticleAssemblies {get;}

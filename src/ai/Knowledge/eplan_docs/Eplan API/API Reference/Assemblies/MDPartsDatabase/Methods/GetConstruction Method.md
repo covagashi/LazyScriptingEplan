@@ -9,7 +9,7 @@ Gets a construction with the given name that is stored in the parts database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDConstruction GetConstruction( 

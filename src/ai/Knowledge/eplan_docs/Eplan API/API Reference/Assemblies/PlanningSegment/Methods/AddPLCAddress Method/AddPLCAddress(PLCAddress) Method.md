@@ -9,7 +9,7 @@ Creates copy of existing PLC inputs or outputs for this planning object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlanningSegment.PLCAddress AddPLCAddress( 

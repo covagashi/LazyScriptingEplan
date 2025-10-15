@@ -9,7 +9,7 @@ Creates a new PlaceHolder3D object on the specified InstallationSpace.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

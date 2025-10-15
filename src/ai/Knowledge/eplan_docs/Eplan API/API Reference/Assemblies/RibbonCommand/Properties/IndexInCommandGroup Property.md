@@ -9,7 +9,7 @@ Returns index of command in command group
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int IndexInCommandGroup {get;}

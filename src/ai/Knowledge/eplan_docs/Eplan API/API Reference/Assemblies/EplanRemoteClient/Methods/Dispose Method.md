@@ -9,7 +9,7 @@ Dispose.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Dispose()

@@ -9,7 +9,7 @@ Returns the [PotentialDefinition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PotentialDefinition[] PotentialDefinitions {get;}

@@ -9,7 +9,7 @@ Translates all texts of a StorableObject (also project or page).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool TranslateObjects( 

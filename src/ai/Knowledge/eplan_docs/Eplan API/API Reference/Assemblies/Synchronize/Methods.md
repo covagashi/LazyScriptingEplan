@@ -23,4 +23,4 @@ Public Methods
 | Public Method | [PIDToOtherPlacementTypes](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Synchronize~PIDToOtherPlacementTypes.html) | Synchronization from PID data onto other representations. Corresponds to the Tools' -> 'Synchronization' -> 'PI diagram --> all representation types' ribbon item. |
 | Public Method | [SinglelineToMultilineAndOverview](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Synchronize~SinglelineToMultilineAndOverview.html) | Synchronization from 'single-line' data onto 'multi-line' and 'overview' data. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Cable length, routed # 26397.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CABLE_LENGTH_LAID {get; set;}

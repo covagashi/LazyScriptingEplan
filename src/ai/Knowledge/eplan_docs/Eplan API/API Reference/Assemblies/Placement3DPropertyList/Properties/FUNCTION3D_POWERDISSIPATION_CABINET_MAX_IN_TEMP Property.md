@@ -9,7 +9,7 @@ Thermal design: Max. internal temperature # 36053.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_POWERDISSIPATION_CABINET_MAX_IN_TEMP {get; set;}

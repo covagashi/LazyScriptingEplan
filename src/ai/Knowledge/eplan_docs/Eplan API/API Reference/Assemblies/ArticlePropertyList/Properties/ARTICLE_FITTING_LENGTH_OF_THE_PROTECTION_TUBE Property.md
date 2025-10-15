@@ -9,7 +9,7 @@ Mounting length: Protective tube # 26277.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_FITTING_LENGTH_OF_THE_PROTECTION_TUBE {get; set;}

@@ -9,7 +9,7 @@ Gets or Sets parent object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlanningSegment Parent {get; set;}

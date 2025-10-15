@@ -9,7 +9,7 @@ if true, then transparency must be taken from layer
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool TransparencyDefinedByLayer {get; set;}

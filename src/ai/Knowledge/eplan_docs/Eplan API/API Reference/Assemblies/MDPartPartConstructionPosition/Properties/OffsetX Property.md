@@ -9,7 +9,7 @@ The x offset of the referenced construction.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double OffsetX {get; set;}

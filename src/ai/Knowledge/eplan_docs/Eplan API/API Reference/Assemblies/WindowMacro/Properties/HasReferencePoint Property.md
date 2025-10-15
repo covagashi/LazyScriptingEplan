@@ -9,7 +9,7 @@ Returns true if a reference point has been defined for this macro.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool HasReferencePoint {get;}

@@ -9,7 +9,7 @@ The contact / coil index of the relay template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ContactIndex {get; set;}

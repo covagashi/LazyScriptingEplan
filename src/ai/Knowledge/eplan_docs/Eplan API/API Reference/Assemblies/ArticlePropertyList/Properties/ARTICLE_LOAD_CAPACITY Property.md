@@ -9,7 +9,7 @@ Load capacity of the cable # 26085.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_LOAD_CAPACITY {get; set;}

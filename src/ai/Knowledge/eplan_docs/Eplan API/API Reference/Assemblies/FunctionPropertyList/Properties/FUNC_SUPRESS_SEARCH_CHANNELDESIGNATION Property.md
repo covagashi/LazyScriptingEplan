@@ -9,7 +9,7 @@ Channel designation (automatic): Suppress search # 20578.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_SUPRESS_SEARCH_CHANNELDESIGNATION {get; set;}

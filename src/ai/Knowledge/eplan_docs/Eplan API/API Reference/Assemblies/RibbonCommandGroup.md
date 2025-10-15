@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class RibbonCommandGroup
@@ -30,7 +30,7 @@ Public Properties
 | Public Property | [Name](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommandGroup~Name.html) | Returns name of the command group |
 | Public Property | [Parent](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommandGroup~Parent.html) | Returns ribbon tab that the command group belongs to |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -44,4 +44,4 @@ Public Methods
 | Public Method | [GetCommandWithId](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommandGroup~GetCommandWithId.html) | Gets a Command by a Command Id |
 | Public Method | [Remove](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommandGroup~Remove.html) | Removes command group |
 
-[Top](#top)
+

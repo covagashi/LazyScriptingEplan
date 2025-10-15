@@ -9,7 +9,7 @@ Returns `true`, if interaction should restart after stop.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsAutorestartEnabled {get;}

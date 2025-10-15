@@ -9,7 +9,7 @@ Overhang: Cover left # 22175.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TOPPANELPROJECTIONLEFT {get; set;}

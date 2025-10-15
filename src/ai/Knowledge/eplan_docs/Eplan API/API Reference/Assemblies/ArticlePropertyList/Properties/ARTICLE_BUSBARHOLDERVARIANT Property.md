@@ -9,7 +9,7 @@ Busbar support: Part variant # 22205.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_BUSBARHOLDERVARIANT {get; set;}

@@ -9,7 +9,7 @@ Gets/Sets a sort mode that should be used during re-addressing. Should be in ran
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public uint SortModeIndex {get; set;}

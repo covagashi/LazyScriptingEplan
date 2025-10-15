@@ -9,7 +9,7 @@ Array of points on spline (these are the nodes of the spline).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D[] PointsOnSpline {get; set;}

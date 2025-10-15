@@ -9,7 +9,7 @@ Safety-related values: PFHD # 40331.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SAFETYRELATED_PFHD {get; set;}

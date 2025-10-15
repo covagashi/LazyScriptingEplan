@@ -9,7 +9,7 @@ The length of the referenced support bar part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Length {get; set;}

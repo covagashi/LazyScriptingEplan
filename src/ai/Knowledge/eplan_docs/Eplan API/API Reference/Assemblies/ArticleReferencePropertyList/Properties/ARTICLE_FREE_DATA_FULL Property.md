@@ -9,7 +9,7 @@ Free properties: Value and unit (full) # 22234.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_FREE_DATA_FULL( 

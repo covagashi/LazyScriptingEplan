@@ -9,7 +9,7 @@ PCF: Quantity for the calculation # 26528.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PCF_QUANTITY_FOR_CALCULATION {get; set;}

@@ -19,4 +19,4 @@ Public Properties
 | Public Property | [IsVisible](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonTab~IsVisible.html) | Returns whether ribbon tab is visible |
 | Public Property | [Name](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonTab~Name.html) | Returns name of a ribbon tab |
 
-[Top](#top)
+

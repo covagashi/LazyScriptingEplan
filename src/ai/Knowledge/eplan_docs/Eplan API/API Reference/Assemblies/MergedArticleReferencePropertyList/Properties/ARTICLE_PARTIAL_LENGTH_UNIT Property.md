@@ -9,7 +9,7 @@ Unit for subset / length # 20498.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PARTIAL_LENGTH_UNIT {get; set;}

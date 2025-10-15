@@ -9,7 +9,7 @@ Total number of PLC counter inputs # 44059.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLCCOUNTER_COUNT {get; set;}

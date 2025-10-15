@@ -9,7 +9,7 @@ Inverse column numbering # 12035.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_PATH_REVERSE_NUMBERING {get; set;}

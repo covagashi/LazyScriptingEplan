@@ -9,7 +9,7 @@ Contains results in the search results list # 11045.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_HAS_RESULTS_IN_SEARCHLIST {get; set;}

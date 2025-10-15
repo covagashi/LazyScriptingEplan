@@ -18,7 +18,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Mate
@@ -36,7 +36,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Mate Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~_ctor().html) | Default constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -54,7 +54,7 @@ Public Properties
 | Public Property | [Source](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~Source.html) | Returns object from which the mate was returned or changed by: Placement3D.GetTargetMates, Placement3D.GetSourceMates, Placement3D.AddMatePersistent or BaseMate property. |
 | Public Property | [Transformation](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~Transformation.html) | Position and rotation relative to the parent placement represented by transformation matrix. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -66,7 +66,7 @@ Public Methods
 | Public Method | [StoreToObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~StoreToObject.html) | Stores changes into a project database. |
 | Public Method | [Transform](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~Transform.html) | Transform mate position. |
 
-[Top](#top)
+
 
 Public Operators
 
@@ -75,4 +75,4 @@ Public Operators
 | public Operator [Equality](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~op_Equality.html) | Operator of comparison implementation. Checks if two mates have same name and belongs to the same object. |
 | public Operator [Inequality](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~op_Inequality.html) | Operator of comparison implementation. Checks if two mates have different name or not belongs to the same object. |
 
-[Top](#top)
+

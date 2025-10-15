@@ -9,7 +9,7 @@ Set a list for this block
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetList( 

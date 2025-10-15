@@ -9,7 +9,7 @@ The y position of the drilling
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Y {get; set;}

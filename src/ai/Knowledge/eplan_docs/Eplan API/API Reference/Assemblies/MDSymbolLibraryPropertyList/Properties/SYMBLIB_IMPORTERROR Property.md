@@ -9,7 +9,7 @@ Error (import) # 15200.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMBLIB_IMPORTERROR( 

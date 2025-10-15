@@ -9,7 +9,7 @@ Sorts terminal strips with one of the following sort methods specified by sortKi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SortTerminalStrips( 

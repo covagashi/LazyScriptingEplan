@@ -9,7 +9,7 @@ Display only the first Value.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool OnlyFirstValue {get; set;}

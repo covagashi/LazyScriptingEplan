@@ -9,7 +9,7 @@ Connection point descriptions # 21007.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNCTEMPLATE_CONNPT_DESCRIPTION( 

@@ -9,7 +9,7 @@ Organization name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string OrganizationName {get; set;}

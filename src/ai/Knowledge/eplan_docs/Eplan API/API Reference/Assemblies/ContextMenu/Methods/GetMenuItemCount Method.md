@@ -9,7 +9,7 @@ Get the count of added menu items of a context menu.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public uint GetMenuItemCount( 

@@ -9,7 +9,7 @@ Returns height of the rectangle.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Height {get;}

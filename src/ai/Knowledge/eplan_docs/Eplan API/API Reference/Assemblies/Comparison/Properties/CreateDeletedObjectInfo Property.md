@@ -9,7 +9,7 @@ Determines of markers was and will be created for deleted objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CreateDeletedObjectInfo {get; set;}

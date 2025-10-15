@@ -9,7 +9,7 @@ Connection dimension target # 31097.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_TERMINALSIZE_DESTINATION {get; set;}

@@ -9,7 +9,7 @@ Checked by # 11082.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_REVISION_CHECKEDBY {get; set;}

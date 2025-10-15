@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class QuietModeStep
@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [QuietModeStep Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.QuietModeStep~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -40,4 +40,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.QuietModeStep~Dispose().html) |  |
 
-[Top](#top)
+

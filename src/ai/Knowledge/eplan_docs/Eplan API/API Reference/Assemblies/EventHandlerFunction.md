@@ -9,7 +9,7 @@ Functions of this type can be registered as event handlers in the class [EventHa
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public delegate void EventHandlerFunction( 

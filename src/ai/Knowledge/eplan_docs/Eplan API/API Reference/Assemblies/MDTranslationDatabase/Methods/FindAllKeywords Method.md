@@ -9,7 +9,7 @@ Finds all keywords selected by the searched text in given language.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int FindAllKeywords( 

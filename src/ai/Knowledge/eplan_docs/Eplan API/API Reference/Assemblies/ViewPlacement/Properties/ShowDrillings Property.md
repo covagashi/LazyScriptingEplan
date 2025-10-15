@@ -9,7 +9,7 @@ If true, drillings of bended bus bars will displayed
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ShowDrillings {get; set;}

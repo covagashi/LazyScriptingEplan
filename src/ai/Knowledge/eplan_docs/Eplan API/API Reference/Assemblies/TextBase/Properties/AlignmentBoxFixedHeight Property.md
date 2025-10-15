@@ -9,7 +9,7 @@ Specifies that height is fixed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AlignmentBoxFixedHeight {get; set;}

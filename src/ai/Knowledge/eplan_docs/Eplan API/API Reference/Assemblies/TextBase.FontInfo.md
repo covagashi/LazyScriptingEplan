@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class TextBase.FontInfo
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [TextBase.FontInfo Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextBase+FontInfo~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -40,7 +40,7 @@ Public Properties
 | Public Property | [Strikeout](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextBase+FontInfo~Strikeout.html) | Gets whether font is strikeout or not. |
 | Public Property | [Underline](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextBase+FontInfo~Underline.html) | Gets whether font is underlined or not. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -48,4 +48,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextBase+FontInfo~Dispose().html) | Destructor for deterministic finalization of FontInfo object. |
 
-[Top](#top)
+

@@ -27,4 +27,4 @@ Public Methods
 | Public Method | [RemoveRevisionMarkers](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Revision~RemoveRevisionMarkers.html) | Overloaded. Removes revision marker. Used for change tracking. |
 | Public Method | [RemoveWriteProtection](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Revision~RemoveWriteProtection.html) | Removes write protection on a project (i.e. opens the current revision for changes). Used for change tracking. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Called by EPLAN when a specific MDPartsDatabaseItem is to be checked. Currently 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void Execute( 

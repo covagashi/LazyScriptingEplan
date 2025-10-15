@@ -9,7 +9,7 @@ This method sets visibility of the function's graphical representation to depend
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetVisibilityDependingOnLayer()

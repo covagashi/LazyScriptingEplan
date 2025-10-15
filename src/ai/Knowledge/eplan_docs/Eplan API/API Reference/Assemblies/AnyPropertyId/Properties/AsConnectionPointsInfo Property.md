@@ -9,7 +9,7 @@ Gets property id value as [Properties.ConnectionPointsInfo](Eplan.EplApi.DataMod
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.ConnectionPointsInfo AsConnectionPointsInfo {get;}

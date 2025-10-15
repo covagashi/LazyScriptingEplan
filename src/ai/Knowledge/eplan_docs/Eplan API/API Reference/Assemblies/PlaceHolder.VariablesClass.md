@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Item")]
@@ -31,7 +31,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PlaceHolder.VariablesClass Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+VariablesClass~_ctor.html) | Constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -42,7 +42,7 @@ Public Properties
 | Public Property | [IsReadOnly](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+VariablesClass~IsReadOnly.html) |  |
 | Public Property | [Item](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+VariablesClass~Item.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -56,4 +56,4 @@ Public Methods
 | Public Method | [GetEnumerator2](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+VariablesClass~GetEnumerator2.html) |  |
 | Public Method | [Remove](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+VariablesClass~Remove.html) | Overloaded. Removes a variable |
 
-[Top](#top)
+

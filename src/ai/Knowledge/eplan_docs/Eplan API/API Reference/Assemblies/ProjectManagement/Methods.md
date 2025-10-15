@@ -27,4 +27,4 @@ Public Methods
 | Public Method | [SynchronizeProjects](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ProjectManagement~SynchronizeProjects.html) | Overloaded. Synchronizes all projects data from source project into the target project. |
 | Public Method | [UpdateProjectStructureFromSettings](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ProjectManagement~UpdateProjectStructureFromSettings.html) | Updates project structure for navigator (GUI) according to the project settings. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ User-defined structure: Description # 1650.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLUSERDEFINED_DESCR {get; set;}

@@ -9,7 +9,7 @@ Position of mouse in the world coordinate system
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual PointD3D CursorPosition {get; set;}

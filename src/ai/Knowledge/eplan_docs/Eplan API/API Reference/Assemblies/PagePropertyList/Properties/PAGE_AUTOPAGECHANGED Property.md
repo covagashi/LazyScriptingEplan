@@ -9,7 +9,7 @@ Automatic page modified # 11050.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_AUTOPAGECHANGED {get; set;}

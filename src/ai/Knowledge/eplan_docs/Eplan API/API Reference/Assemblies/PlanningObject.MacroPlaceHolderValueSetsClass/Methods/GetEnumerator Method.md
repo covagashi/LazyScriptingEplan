@@ -9,7 +9,7 @@ Gets enumertator in collection of MacroPlaceholderValueSets
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual IEnumerator<PlanningObject.MacroPlaceHolderValueSet> GetEnumerator()

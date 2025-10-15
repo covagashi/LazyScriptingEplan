@@ -9,7 +9,7 @@ Zip code (P.O. box) # 22916.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ADDRESS_ZIPPOBOX {get; set;}

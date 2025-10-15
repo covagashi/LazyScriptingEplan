@@ -9,7 +9,7 @@ Mounting surface # 22022.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MOUNTINGSITE {get; set;}

@@ -9,7 +9,7 @@ Removes revision markers from a project. Used for change tracking.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveRevisionMarkers( 

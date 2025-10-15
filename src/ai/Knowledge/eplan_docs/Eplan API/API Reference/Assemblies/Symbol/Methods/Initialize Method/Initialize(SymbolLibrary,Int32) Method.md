@@ -9,7 +9,7 @@ Function for initialization. Should be explicit or hidden.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Initialize( 

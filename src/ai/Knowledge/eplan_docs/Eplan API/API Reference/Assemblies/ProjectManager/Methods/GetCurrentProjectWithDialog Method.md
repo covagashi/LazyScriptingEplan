@@ -9,7 +9,7 @@ Gets current project. If there are more than one project open, then displays a d
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project GetCurrentProjectWithDialog()

@@ -9,7 +9,7 @@ EPLAN properties of the Area object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new AreaPropertyList Properties {get;}

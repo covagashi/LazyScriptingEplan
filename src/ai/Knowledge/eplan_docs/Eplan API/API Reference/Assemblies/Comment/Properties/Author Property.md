@@ -9,7 +9,7 @@ Windows login name of the person who originally created the PDF comment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Author {get;}

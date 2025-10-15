@@ -9,7 +9,7 @@ Collection of objects types which will be used to determine objects passed to [I
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual IEnumerable<Type> ObjectsFilter {get;}

@@ -9,7 +9,7 @@ Change length of segment of bended bus bar.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ChangeSegmentLength( 

@@ -9,7 +9,7 @@ User-defined structure (sub-identifier 4) # 1604.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_USERDEFINED_SUB4 {get; set;}

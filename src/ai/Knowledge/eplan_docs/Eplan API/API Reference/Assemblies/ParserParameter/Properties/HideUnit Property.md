@@ -9,7 +9,7 @@ Hide the unit of the parsed result.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool HideUnit {get; set;}

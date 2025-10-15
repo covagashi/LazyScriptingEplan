@@ -9,7 +9,7 @@ Address range (SIEMENS STEP 7 Classic) # 20432.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCADDRESSRANGE {get; set;}

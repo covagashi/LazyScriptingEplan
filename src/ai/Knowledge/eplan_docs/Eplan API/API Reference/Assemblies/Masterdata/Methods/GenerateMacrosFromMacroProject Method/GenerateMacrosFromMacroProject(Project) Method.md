@@ -9,7 +9,7 @@ Generate macros from project. Project must have property "Type of project" set t
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void GenerateMacrosFromMacroProject( 

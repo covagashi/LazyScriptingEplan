@@ -9,7 +9,7 @@ Cables: Connection point length source # 20243.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_SOURCE_CP_LENGTH {get; set;}

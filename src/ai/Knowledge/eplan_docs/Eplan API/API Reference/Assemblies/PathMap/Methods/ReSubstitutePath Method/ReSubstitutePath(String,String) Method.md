@@ -9,7 +9,7 @@ Substitute values with variable strVariableName. Returns the changed path.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static string ReSubstitutePath( 

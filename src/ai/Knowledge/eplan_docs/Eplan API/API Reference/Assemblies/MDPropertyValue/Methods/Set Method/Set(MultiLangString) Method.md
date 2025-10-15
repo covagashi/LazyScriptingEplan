@@ -9,7 +9,7 @@ Sets [Eplan.EplApi.Base.MultiLangString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Mu
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue Set( 

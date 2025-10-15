@@ -9,7 +9,7 @@ EProxySettings constructor.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EProxySettings()

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class CoordinateService
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [CoordinateService Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.CoordinateService~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -36,4 +36,4 @@ Public Methods
 | Public Method | [ConvertCoordinate](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.CoordinateService~ConvertCoordinate.html) | Overloaded. Method that converts from coordinate system based on page type to another |
 | Public Method | [Dispose](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.CoordinateService~Dispose().html) | Destructor |
 
-[Top](#top)
+

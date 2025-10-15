@@ -9,7 +9,7 @@ Net-connecting # 16043.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMB_NETCONNECTING {get; set;}

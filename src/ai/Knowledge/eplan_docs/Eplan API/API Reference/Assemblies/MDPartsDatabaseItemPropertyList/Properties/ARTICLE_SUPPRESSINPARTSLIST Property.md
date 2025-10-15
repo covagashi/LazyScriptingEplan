@@ -9,7 +9,7 @@ Suppress in bill of materials # 22886.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SUPPRESSINPARTSLIST {get; set;}

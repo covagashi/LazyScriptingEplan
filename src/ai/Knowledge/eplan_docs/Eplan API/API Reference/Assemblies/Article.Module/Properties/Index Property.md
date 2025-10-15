@@ -9,7 +9,7 @@ Index of module in article array of modules.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Index {get;}

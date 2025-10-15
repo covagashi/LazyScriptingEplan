@@ -9,7 +9,7 @@ Adds local connection templates to the cable.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddLocalFunctionTemplates( 

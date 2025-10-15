@@ -9,7 +9,7 @@ Returns Pin objects of other functions connected directly with this conn. point.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Pin[] TargetPins {get;}

@@ -9,7 +9,7 @@ Reassign all elements from `sourceLayer` to `targetLayer`.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ReassignLayer( 

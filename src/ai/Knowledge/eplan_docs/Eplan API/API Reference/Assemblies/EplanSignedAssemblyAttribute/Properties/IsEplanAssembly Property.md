@@ -9,7 +9,7 @@ Tells this assembly is an eplan assembly. The licence of this assembly is checke
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsEplanAssembly {get;}

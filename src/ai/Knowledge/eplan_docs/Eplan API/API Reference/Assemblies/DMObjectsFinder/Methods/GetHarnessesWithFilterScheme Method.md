@@ -9,7 +9,7 @@ Returns [Eplan.EplApi.DataModel.EObjects.Harness](Eplan.EplApi.DataModelu~Eplan.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Harness[] GetHarnessesWithFilterScheme( 

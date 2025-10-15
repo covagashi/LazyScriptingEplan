@@ -9,7 +9,7 @@ ERP / PDM number 9 # 22378.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_ERPNR_9 {get; set;}

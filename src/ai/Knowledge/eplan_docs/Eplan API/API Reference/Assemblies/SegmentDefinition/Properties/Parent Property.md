@@ -9,7 +9,7 @@ Parent of this segment definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SegmentDefinition Parent {get;}

@@ -9,7 +9,7 @@ For internal use only. Needed if the scheme exists in a project's settings Destr
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Dispose()

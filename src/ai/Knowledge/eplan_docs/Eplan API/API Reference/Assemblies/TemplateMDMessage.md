@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class TemplateMDMessage
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [TemplateMDMessage Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.TemplateMDMessage~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,7 +36,7 @@ Public Properties
 | Public Property | [FilterScheme](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.TemplateMDMessage~FilterScheme.html) | Gets/sets filter scheme on a template of Parts Database message. |
 | Public Property | [IsLicensed](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.TemplateMDMessage~IsLicensed.html) | Returns true if the message is licensed. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -48,4 +48,4 @@ Public Methods
 | Public Method | [GetId](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.TemplateMDMessage~GetId.html) | Returns the Id of the message. |
 | Public Method | [GetTextTemplate](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.TemplateMDMessage~GetTextTemplate.html) | Returns the text template of the message. |
 
-[Top](#top)
+

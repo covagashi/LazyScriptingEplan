@@ -9,7 +9,7 @@ Plugs: Pin arrangement # 22095.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CONTACTOR_ARRANGEMENT {get; set;}

@@ -9,7 +9,7 @@ Creator / Creation date (accessory placement) # 22972.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ACCESSORYPLACEMENT_CREATE {get; set;}

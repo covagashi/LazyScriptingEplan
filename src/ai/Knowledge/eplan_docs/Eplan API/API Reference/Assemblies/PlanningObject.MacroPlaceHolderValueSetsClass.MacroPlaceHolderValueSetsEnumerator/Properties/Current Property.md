@@ -9,7 +9,7 @@ Returns the current MacroPlaceholderValueSet. The same as Current.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual object Current2 {get;}

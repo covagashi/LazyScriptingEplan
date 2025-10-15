@@ -9,7 +9,7 @@ End customer: Zip code (P.O. box) # 10143.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ENDCUSTOMERZIPCODEPOBOX {get; set;}

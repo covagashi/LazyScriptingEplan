@@ -9,7 +9,7 @@ Number of bus bars in busbar-system.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual long BarCount {get;}

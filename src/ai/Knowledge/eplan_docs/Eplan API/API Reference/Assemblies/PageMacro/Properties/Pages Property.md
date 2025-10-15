@@ -9,7 +9,7 @@ Returns pages, which are contained in the macro.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override Page[] Pages {get;}

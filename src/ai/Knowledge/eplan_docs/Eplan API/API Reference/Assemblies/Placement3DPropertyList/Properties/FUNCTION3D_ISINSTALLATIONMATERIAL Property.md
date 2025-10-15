@@ -9,7 +9,7 @@ Is associated mounting material # 36015.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_ISINSTALLATIONMATERIAL {get; set;}

@@ -9,7 +9,7 @@ Determines the number of child settings (subordinate settings).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public uint GetCountOfSettings()

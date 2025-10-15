@@ -9,7 +9,7 @@ Calculates the total weight of a cabinet.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double CalculateCabinetWeight( 

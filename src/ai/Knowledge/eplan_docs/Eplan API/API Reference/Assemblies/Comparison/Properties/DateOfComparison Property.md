@@ -9,7 +9,7 @@ Time when comparison was done.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DateTime DateOfComparison {get;}

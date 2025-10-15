@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Property")]
@@ -72,7 +72,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [UniversalPropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList~_ctor().html) | This constructor creates local property list. Each function of UniversalPropertyList will work on local property list. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -83,7 +83,7 @@ Public Properties
 | Public Property | [Parent](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList~Parent.html) | StorableObject to which this property list is connected. |
 | Public Property | [Property](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList~Property.html) | Overloaded. Method used by operator[] in order to access indexed properties by identifying name. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -94,4 +94,4 @@ Public Methods
 | Public Method | [Exists](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList~Exists.html) | Overloaded. Checks property existence for used object. |
 | Public Method | [getPropList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList~getPropList.html) | Internal method. |
 
-[Top](#top)
+

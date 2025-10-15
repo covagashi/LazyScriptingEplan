@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Property | [PropertyPlacements](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IPropertyPlacementsContainer~PropertyPlacements.html) |  |
 
-[Top](#top)
+

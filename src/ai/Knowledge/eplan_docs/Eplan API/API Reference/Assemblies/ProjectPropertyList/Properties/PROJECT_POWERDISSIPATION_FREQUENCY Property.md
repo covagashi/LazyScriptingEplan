@@ -9,7 +9,7 @@ Thermal design: Frequency # 10311.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJECT_POWERDISSIPATION_FREQUENCY {get; set;}

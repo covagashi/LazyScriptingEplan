@@ -9,7 +9,7 @@ Checks if a construction with the given name exists.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExistsConstruction( 

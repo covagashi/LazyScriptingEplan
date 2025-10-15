@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDIndexedPropertyException : MasterDataException
@@ -29,7 +29,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDIndexedPropertyException Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDIndexedPropertyException~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -37,7 +37,7 @@ Public Fields
 | --- | --- | --- |
 | Public Field | [Property](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDIndexedPropertyException~Property.html) | Property which was used without index. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -54,7 +54,7 @@ Public Properties
 | Public Property | [StackTrace](#) | (Inherited from [System.Exception](#)) |
 | Public Property | [TargetSite](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -70,4 +70,4 @@ Public Methods
 | Public Method | [GetType](#) | (Inherited from [System.Exception](#)) |
 | Public Method | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
+

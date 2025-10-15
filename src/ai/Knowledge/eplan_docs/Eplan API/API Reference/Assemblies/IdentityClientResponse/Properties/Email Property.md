@@ -9,7 +9,7 @@ User Email address.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Email {get; set;}

@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [Guid("B44C4085-E6B8-3622-A1EF-50DF81A26485")]
@@ -38,7 +38,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ActionCallingContext Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionCallingContext~_ctor().html) | Creates an ActionCallingContext |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -46,7 +46,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [SysMessages](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionCallingContext~SysMessages.html) | Gets system messages |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -67,4 +67,4 @@ Public Methods
 | Public Method | [SetEContext](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~SetEContext.html) | For internal use only. (Inherited from [Eplan.EplApi.Base.Context](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context.html)) |
 | Public Method | [SetStrings](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~SetStrings.html) | Sets the array filled with strings from the context. (Additional to the parameters) (Inherited from [Eplan.EplApi.Base.Context](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context.html)) |
 
-[Top](#top)
+

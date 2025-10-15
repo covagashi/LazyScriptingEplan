@@ -9,7 +9,7 @@ Door opening: Offset top # 22161.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DOOR_OFFSET_TOP {get; set;}

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDPartsDatabaseTransaction
@@ -54,4 +54,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseTransaction~Dispose().html) | Destructor for deterministic finalization of MDPartsDatabaseTransaction object. |
 | Public Method | [Rollback](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseTransaction~Rollback.html) | Rollback the database transaction. The changes are not stored. |
 
-[Top](#top)
+

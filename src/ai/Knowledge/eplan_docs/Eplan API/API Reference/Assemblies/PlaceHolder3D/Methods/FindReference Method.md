@@ -9,7 +9,7 @@ Finds an object in the list of object referenced by a Placeholder3D.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual int FindReference( 

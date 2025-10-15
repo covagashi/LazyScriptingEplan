@@ -9,7 +9,7 @@ The spacing repeat of the drilling.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double SpacingRepeat {get; set;}

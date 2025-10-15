@@ -9,7 +9,7 @@ Returns daisy chains of a net definition point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DaisyChain[] DaisyChains {get;}

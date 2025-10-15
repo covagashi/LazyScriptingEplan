@@ -9,7 +9,7 @@ If true, added messages will be immediately displayed in message management wind
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ShowImmediately {get; set;}

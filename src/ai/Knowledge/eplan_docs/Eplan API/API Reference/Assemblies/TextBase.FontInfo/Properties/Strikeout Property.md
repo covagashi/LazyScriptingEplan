@@ -9,7 +9,7 @@ Gets whether font is strikeout or not.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Strikeout {get;}

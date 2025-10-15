@@ -9,7 +9,7 @@ Format of displayed DT: Cable / shield # 10627.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DTFORMAT_CABLE {get; set;}

@@ -15,4 +15,4 @@ Public Properties
 | Public Property | [Description](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.Macro~Description.html) | Gets description in multiple languages |
 | Public Property | [PageProperty](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.Macro~PageProperty.html) | Gets the property of the n-th page in this macro |
 
-[Top](#top)
+

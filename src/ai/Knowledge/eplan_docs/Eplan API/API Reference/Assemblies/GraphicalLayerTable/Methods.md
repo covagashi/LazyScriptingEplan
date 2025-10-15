@@ -22,4 +22,4 @@ Public Methods
 | Public Method | [RemoveLayer](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayerTable~RemoveLayer(GraphicalLayer).html) | Removes specified layer from the table. Note: Only custom layer can be removed. |
 | Public Method | [ReplaceLayer](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayerTable~ReplaceLayer.html) | Overloaded. Replace [Eplan::EplApi::DataModel:](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayer.html) for given array of objects. |
 
-[Top](#top)
+

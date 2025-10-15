@@ -9,7 +9,7 @@ Indicates whether the converter can convert external formats to XML.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool CanImport( 

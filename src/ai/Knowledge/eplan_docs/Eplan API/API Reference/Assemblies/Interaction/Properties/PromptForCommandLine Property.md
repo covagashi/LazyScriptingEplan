@@ -9,7 +9,7 @@ Prompt for command line.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string PromptForCommandLine {get; set;}

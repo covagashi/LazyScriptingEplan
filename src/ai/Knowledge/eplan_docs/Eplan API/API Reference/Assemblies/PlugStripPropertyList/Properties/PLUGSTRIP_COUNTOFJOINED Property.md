@@ -9,7 +9,7 @@ Plugs: Number of pins (male and female pin) # 35212.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLUGSTRIP_COUNTOFJOINED {get; set;}

@@ -9,7 +9,7 @@ Adds a new message associated with part number to the PartsDatabase message mana
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartsMessage AddMessage( 

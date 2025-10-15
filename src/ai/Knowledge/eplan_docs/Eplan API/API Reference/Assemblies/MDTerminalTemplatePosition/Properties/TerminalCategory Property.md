@@ -9,7 +9,7 @@ The terminal category of terminal template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDFunctionTemplatePosition.TerminalFunctionType TerminalCategory {get; set;}

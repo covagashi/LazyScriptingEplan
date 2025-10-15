@@ -9,7 +9,7 @@ Get or set planning objects to which this page is assigned or null.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlanningSegment PlanningSegment {get; set;}

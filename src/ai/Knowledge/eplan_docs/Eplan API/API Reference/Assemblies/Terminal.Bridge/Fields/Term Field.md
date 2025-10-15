@@ -9,7 +9,7 @@ One of the terminal connected by the bridge.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Terminal Term

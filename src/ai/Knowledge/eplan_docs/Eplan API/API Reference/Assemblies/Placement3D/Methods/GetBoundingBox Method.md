@@ -9,7 +9,7 @@ Returns bounding box of a Placement3D.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Rect3D GetBoundingBox( 

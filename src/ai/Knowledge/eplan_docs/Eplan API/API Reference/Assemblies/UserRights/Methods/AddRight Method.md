@@ -9,7 +9,7 @@ Adds the specified right entry to the given category of the custom UserRights fi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AddRight( 

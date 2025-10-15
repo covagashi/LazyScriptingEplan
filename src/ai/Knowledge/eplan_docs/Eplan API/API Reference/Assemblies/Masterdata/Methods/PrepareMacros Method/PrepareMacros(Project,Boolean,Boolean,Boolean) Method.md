@@ -9,7 +9,7 @@ Prepares and groups all elements belonging to a macro box or page macro.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool PrepareMacros( 

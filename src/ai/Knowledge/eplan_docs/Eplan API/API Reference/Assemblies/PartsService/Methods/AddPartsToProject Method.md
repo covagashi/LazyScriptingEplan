@@ -9,7 +9,7 @@ Store parts in the project, and adds project part references.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddPartsToProject( 

@@ -9,7 +9,7 @@ Maintenance interval # 26635.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_MAINTENANCE_INTERVAL {get; set;}

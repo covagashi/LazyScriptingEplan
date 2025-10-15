@@ -9,7 +9,7 @@ Block property: Value # 19621.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue QRCODE_BLOCK_VALUE {get; set;}

@@ -9,7 +9,7 @@ Description (Accessory list) # 22959.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ACCESSORYLIST_DESCRIPTION {get; set;}

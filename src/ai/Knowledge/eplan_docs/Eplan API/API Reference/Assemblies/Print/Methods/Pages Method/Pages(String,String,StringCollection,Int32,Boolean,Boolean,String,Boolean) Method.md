@@ -9,7 +9,7 @@ Prints pages on the specified printer.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Pages( 

@@ -9,7 +9,7 @@ Returns [Eplan.EplApi.DataModel.Planning.SegmentTemplate](Eplan.EplApi.DataModel
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SegmentTemplate[] GetSegmentTemplatesWithFilterScheme( 

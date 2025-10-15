@@ -9,7 +9,7 @@ Supplementary field # 11901.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_SUPPLEMENTARYFIELD( 

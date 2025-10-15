@@ -9,7 +9,7 @@ Check if there exist a setting on path given as a parameter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool ExistSetting( 

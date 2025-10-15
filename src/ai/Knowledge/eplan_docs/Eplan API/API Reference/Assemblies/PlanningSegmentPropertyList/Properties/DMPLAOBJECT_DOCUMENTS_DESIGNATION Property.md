@@ -9,7 +9,7 @@ Do not check for pre-planning depth # 44034.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_IGNORE_MANDATORY_PROPERTY_VERIFICATION {get; set;}

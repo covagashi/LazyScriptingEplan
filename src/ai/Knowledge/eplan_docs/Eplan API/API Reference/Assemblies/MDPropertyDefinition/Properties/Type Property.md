@@ -9,7 +9,7 @@ Returns information about type of the property. [MDPropertyDefinition.MDProperty
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual MDPropertyDefinition.MDPropertyType Type {get;}

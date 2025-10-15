@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class DimensionCircle.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [DimensionCircle.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.DimensionCircle+Enums~_ctor.html) |  |
 
-[Top](#top)
+

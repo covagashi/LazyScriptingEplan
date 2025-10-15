@@ -9,7 +9,7 @@ Returns number of repetitions of consecutive messages with the same text (i.e. e
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int NumberOfOccurrences {get;}

@@ -9,7 +9,7 @@ Determines if intrinsic safety is possible.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IntrinsicSafetyPossible {get; set;}

@@ -9,7 +9,7 @@ TCF: Calculation method # 26599.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TCF_CALCULATION_METHOD {get; set;}

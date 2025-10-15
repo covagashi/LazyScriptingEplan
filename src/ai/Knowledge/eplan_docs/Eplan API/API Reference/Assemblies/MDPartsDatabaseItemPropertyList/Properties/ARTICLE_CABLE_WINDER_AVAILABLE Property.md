@@ -9,7 +9,7 @@ Cable reel available # 26045.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CABLE_WINDER_AVAILABLE {get; set;}

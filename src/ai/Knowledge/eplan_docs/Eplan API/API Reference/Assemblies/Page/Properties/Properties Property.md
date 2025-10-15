@@ -9,7 +9,7 @@ Property enabling access to internal properties of the Page object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new PagePropertyList Properties {get;}

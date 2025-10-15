@@ -9,7 +9,7 @@ Gets/Sets substance state of object. Sets the same property as [PotentialDefinit
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SubstanceState {get; set;}

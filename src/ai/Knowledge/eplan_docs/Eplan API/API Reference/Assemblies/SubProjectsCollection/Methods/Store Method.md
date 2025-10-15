@@ -9,7 +9,7 @@ Inserts filed-off subproject back into the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Store( 

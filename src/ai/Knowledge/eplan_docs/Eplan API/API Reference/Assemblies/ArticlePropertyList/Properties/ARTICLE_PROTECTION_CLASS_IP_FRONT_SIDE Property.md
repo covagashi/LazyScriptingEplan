@@ -9,7 +9,7 @@ Degree of protection (IP): Front side # 26559.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PROTECTION_CLASS_IP_FRONT_SIDE {get; set;}

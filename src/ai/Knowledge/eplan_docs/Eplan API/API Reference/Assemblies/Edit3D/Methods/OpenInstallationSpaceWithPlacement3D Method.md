@@ -9,7 +9,7 @@ Opens the installation space and selects the Placement passed as oPlacement. The
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void OpenInstallationSpaceWithPlacement3D( 

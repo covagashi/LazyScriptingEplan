@@ -9,7 +9,7 @@ Type of a bridge connection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Terminal.Bridge.Kinds : System.Enum

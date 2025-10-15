@@ -9,7 +9,7 @@ Part of a part definition # 20508.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_ARTICLEDEFINITION {get; set;}

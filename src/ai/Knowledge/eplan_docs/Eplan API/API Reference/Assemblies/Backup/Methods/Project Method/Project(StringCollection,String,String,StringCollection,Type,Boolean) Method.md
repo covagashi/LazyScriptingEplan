@@ -9,7 +9,7 @@ All wires in cable are assigned to a matching template of the cable or shielding
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DoReassignWires( 

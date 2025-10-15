@@ -9,7 +9,7 @@ Removes the entry from the project's device list.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DeleteDeviceListItem( 

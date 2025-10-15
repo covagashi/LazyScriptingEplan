@@ -9,7 +9,7 @@ Specifies that width is fixed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AlignmentBoxFixedWidth {get; set;}

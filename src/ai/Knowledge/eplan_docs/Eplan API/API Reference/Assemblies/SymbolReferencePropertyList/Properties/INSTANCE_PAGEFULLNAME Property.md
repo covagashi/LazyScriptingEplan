@@ -9,7 +9,7 @@ Page name (full) # 19023.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_PAGEFULLNAME {get; set;}

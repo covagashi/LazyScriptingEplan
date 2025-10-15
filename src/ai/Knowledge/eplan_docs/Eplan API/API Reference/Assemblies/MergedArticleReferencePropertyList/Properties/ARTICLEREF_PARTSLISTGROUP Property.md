@@ -9,7 +9,7 @@ Bill of materials group # 22289.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_PARTSLISTGROUP {get; set;}

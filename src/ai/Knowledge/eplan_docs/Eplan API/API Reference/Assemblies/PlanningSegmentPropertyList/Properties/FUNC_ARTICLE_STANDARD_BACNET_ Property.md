@@ -9,7 +9,7 @@ Starting current, max. # 26191.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_STARTING_CURRENT_A( 

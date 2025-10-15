@@ -9,7 +9,7 @@ Sets SQL connection parameters.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetSQLServerConnectionParameters( 

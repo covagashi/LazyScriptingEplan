@@ -9,7 +9,7 @@ Returns [MDPropertyValue](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPro
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue this[ 

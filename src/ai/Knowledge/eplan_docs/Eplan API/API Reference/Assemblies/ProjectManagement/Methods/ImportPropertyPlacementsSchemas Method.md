@@ -9,7 +9,7 @@ Imports property placements schemes.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Tuple<string,string>[] ImportPropertyPlacementsSchemas( 

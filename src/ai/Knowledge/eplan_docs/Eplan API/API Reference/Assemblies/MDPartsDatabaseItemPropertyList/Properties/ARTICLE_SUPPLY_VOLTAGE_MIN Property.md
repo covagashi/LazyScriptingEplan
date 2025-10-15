@@ -9,7 +9,7 @@ Supply voltage, min. # 26173.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SUPPLY_VOLTAGE_MIN {get; set;}

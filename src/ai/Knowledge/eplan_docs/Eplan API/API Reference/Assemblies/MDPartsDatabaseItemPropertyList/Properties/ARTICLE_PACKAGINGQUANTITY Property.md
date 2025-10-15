@@ -9,7 +9,7 @@ Quantity/packaging # 22122.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PACKAGINGQUANTITY {get; set;}

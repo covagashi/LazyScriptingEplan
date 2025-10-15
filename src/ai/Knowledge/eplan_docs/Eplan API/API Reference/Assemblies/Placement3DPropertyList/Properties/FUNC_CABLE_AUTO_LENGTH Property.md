@@ -9,7 +9,7 @@ Cable / Conduit: Length in unit of the project # 20078.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_AUTO_LENGTH {get; set;}

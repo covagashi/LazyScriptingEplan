@@ -9,7 +9,7 @@ Gets/Sets whether the unit is displayed or not.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool DimensionShowUnits {get; set;}

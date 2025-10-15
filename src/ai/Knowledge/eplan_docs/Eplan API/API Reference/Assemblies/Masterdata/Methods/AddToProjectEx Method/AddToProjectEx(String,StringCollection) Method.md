@@ -9,7 +9,7 @@ Extented method for storing system master data in the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Hashtable AddToProjectEx( 

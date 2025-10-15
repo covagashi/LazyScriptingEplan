@@ -9,7 +9,7 @@ Nominal flow rate # 26507.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_NOMINAL_VOLUME_FLOW( 

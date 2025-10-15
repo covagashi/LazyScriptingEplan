@@ -9,7 +9,7 @@ Gets handle mate
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public HandleMate GroupHandleMate {get;}

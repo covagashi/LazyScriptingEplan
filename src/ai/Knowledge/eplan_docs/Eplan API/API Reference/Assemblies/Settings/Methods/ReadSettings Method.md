@@ -9,7 +9,7 @@ Imports a settings xml file and sets all the settings it contains.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ReadSettings( 

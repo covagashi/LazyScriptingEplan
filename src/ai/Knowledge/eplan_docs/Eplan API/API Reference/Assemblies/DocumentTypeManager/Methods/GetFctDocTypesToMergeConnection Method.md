@@ -9,7 +9,7 @@ Returns those page document types, for which a connection placed on this page sh
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static DocumentTypeManager.DocumentType[] GetFctDocTypesToMergeConnection()

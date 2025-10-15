@@ -9,7 +9,7 @@ Adds a new construction to the parts database
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDConstruction AddConstruction( 

@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class InteractionContext : Eplan.EplApi.Base.Context, Eplan.EplApi.Base.IContext
@@ -28,7 +28,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [InteractionContext Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionContext~_ctor().html) | Creates a new InteractionContext object. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,7 +36,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Placements](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionContext~Placements.html) | Placements in this context. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -54,4 +54,4 @@ Public Methods
 | Public Method | [SetEContext](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~SetEContext.html) | For internal use only. (Inherited from [Eplan.EplApi.Base.Context](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context.html)) |
 | Public Method | [SetStrings](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context~SetStrings.html) | Sets the array filled with strings from the context. (Additional to the parameters) (Inherited from [Eplan.EplApi.Base.Context](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Context.html)) |
 
-[Top](#top)
+

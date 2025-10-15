@@ -9,7 +9,7 @@ Returns true if this compound representing an articles assembly can be placed di
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CanBePlacedDisassembled {get;}

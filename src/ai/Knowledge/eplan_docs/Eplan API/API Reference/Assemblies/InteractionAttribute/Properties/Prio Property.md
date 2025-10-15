@@ -9,7 +9,7 @@ Priority of interaction.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Prio {get; set;}

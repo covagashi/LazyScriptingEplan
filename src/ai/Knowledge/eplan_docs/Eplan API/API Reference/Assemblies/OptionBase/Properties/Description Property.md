@@ -9,7 +9,7 @@ Description of the option object i.e. [OptionGroup](Eplan.EplApi.DataModelu~Epla
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString Description {get; set;}

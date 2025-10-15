@@ -9,7 +9,7 @@ Higher-level function number: Description # 1750.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLINSTALLATIONNUMBER_DESCR {get; set;}

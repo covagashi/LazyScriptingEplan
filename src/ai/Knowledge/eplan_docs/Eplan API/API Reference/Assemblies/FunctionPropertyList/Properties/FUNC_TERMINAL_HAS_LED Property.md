@@ -9,7 +9,7 @@ Terminal with LED # 20231.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_HAS_LED {get; set;}

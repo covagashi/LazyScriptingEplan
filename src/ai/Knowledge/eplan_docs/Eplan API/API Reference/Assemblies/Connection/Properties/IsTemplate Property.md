@@ -9,7 +9,7 @@ Returns true if this is a transient Connection object representing a cable wire'
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsTemplate {get;}

@@ -9,7 +9,7 @@ This property specifies if the polyline is filled. When the polyline is not clos
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsSurfaceFilled {get; set;}

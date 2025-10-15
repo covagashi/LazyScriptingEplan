@@ -9,7 +9,7 @@ Gets a base symbol for this function definition that may exist in the given symb
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Symbol GetBaseSymbolFromSpecifiedSymbolLibrary( 

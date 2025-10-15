@@ -9,7 +9,7 @@ Part number # 20481.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_PARTNO {get; set;}

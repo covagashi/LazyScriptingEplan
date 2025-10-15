@@ -9,7 +9,7 @@ Display all cross-references # 24020.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INTERRUPTIONPOINT_SHOWALLCROSSREFERENCES {get; set;}

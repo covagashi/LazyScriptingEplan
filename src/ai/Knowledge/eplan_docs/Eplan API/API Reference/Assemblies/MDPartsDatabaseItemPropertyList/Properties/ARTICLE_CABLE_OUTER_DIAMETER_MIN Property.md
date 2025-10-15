@@ -9,7 +9,7 @@ Cable outer diameter, min. # 26115.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CABLE_OUTER_DIAMETER_MIN {get; set;}

@@ -9,7 +9,7 @@ Logical types of mates.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Mate.Enums.LogicalType : System.Enum

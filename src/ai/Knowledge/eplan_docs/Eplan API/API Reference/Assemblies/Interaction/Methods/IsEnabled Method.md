@@ -9,7 +9,7 @@ Returns true, if interaction should be enabled in ribbon
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsEnabled( 

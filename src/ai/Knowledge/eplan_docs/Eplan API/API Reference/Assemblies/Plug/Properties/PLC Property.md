@@ -9,7 +9,7 @@ Returns [PLC](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.PLC.html) 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PLC PLC {get;}

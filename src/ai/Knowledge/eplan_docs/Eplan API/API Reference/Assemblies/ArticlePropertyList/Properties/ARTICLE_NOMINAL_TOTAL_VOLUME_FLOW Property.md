@@ -9,7 +9,7 @@ Nominal total flow rate # 26129.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_NOMINAL_TOTAL_VOLUME_FLOW {get; set;}

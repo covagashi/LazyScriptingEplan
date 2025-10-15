@@ -9,7 +9,7 @@ Reads numeric value from project settings. It can be 16 bit or 32 bit, signed or
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual int GetNumericSetting( 

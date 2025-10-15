@@ -9,7 +9,7 @@ The target info of the connection point (internal/external/index)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int TargetInfo {get; set;}

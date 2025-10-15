@@ -9,7 +9,7 @@ Creation date # 10021.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATIONDATE {get; set;}

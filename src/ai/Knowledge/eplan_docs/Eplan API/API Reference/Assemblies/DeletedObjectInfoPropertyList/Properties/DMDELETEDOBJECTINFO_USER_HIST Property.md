@@ -9,7 +9,7 @@ User name (further) # 36607.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMDELETEDOBJECTINFO_USER_HIST( 

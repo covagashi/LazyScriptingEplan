@@ -9,7 +9,7 @@ Destructor for deterministic finalization of GraphicalLayer object. Destroys lay
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Dispose()

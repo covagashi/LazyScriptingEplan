@@ -9,7 +9,7 @@ Description (Connection point pattern) # 22946.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PART_TERMINAL_DESCRIPTION {get; set;}

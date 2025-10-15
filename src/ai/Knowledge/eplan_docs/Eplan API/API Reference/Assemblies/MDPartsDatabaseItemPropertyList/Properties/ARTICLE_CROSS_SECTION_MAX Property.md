@@ -9,7 +9,7 @@ Cross-section, max. # 26137.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CROSS_SECTION_MAX {get; set;}

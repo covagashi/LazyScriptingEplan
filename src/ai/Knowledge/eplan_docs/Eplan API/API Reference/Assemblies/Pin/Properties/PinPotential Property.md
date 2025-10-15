@@ -9,7 +9,7 @@ Assigns a PotentialType to the Pin.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PinPotentialType PinPotential {get; set;}

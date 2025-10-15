@@ -9,7 +9,7 @@ Create a new Decider Object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Decider()

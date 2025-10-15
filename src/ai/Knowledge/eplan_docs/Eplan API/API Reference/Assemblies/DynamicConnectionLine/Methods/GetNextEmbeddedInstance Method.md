@@ -9,7 +9,7 @@ Returns next instance embedded in this line after one given as a parameter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement GetNextEmbeddedInstance( 

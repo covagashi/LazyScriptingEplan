@@ -9,7 +9,7 @@ Eplan server Data
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EplanServerData( 

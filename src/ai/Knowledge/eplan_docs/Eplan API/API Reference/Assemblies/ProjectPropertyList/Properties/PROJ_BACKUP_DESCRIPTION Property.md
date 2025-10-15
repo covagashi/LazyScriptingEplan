@@ -9,7 +9,7 @@ Data backup: Description # 10518.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BACKUP_DESCRIPTION {get; set;}

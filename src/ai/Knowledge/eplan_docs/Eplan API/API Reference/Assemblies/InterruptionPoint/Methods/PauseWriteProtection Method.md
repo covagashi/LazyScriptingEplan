@@ -9,7 +9,7 @@ Temporarily disables write protection. Note that current write protection flags 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void PauseWriteProtection( 

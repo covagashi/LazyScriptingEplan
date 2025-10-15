@@ -9,7 +9,7 @@ Removes invalid (e.g. deleted) object references from a PlaceHolder3D.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void RemoveInvalidObjectReferences()

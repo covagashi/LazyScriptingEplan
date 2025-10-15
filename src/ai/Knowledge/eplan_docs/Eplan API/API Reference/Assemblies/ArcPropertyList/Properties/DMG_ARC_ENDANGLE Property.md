@@ -9,7 +9,7 @@ End angle # 19324.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_ARC_ENDANGLE {get; set;}

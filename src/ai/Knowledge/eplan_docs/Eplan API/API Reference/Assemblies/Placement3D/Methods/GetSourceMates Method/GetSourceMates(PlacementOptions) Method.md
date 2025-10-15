@@ -9,7 +9,7 @@ Get array of all source mates from this object. Placement options
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointMate[] GetSourceMates( 

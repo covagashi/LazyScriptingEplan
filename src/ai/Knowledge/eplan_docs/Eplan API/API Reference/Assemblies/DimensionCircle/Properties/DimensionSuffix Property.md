@@ -9,7 +9,7 @@ Gets/sets the suffix of the dimension circle.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DimensionSuffix {get; set;}

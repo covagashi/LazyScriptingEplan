@@ -9,7 +9,7 @@ Overhang: Side panel back # 22164.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SIDEPANELPROJECTIONBACK {get; set;}

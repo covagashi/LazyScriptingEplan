@@ -9,7 +9,7 @@ Constructor of Eplan Communication Exception
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public CommunicationException( 

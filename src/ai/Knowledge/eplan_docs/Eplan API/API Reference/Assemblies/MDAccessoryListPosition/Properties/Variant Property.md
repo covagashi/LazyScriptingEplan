@@ -9,7 +9,7 @@ Returns the part number of the referenced part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Variant {get; set;}

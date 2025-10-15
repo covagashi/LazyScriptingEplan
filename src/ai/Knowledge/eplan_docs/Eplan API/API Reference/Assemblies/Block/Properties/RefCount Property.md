@@ -9,7 +9,7 @@ Number of references.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int RefCount {get;}

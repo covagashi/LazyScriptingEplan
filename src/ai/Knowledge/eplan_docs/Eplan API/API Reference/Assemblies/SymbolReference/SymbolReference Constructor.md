@@ -9,7 +9,7 @@ Default constructor. Creates the SymbolReference object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolReference()

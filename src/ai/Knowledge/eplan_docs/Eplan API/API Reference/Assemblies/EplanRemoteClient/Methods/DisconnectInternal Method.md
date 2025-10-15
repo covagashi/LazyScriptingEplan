@@ -9,7 +9,7 @@ Disconnect from Eplan Server.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DisconnectInternal( 

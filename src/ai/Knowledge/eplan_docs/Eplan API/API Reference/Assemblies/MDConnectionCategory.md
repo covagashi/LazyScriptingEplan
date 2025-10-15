@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public struct MDConnectionCategory : System.ValueType
@@ -36,7 +36,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDConnectionCategory Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionCategory~_ctor(Int32).html) | Initializes new connection category with internal number |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -46,7 +46,7 @@ Public Properties
 | Public Property | [AsMultiLangString](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionCategory~AsMultiLangString.html) | Representation of connection category as a mult-lang string |
 | Public Property | [AsString](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionCategory~AsString.html) | Representation of connection category as a string |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -57,4 +57,4 @@ Public Methods
 | Public Method | [Remove](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionCategory~Remove.html) | Removes user-defined category |
 | Public Method | [ToString](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionCategory~ToString.html) | Returns a string that represents the current object. |
 
-[Top](#top)
+

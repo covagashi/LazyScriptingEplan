@@ -9,7 +9,7 @@ Number of connectable valves # 26009.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NUMBER_OF_CONNECTABLE_VALVES {get; set;}

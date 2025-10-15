@@ -9,7 +9,7 @@ Connection point type # 26205.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_CONNECTION_TYPE( 

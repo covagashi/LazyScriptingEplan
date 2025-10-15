@@ -9,7 +9,7 @@ Creator: Zip code (City) # 10237.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATORZIPCODE {get; set;}

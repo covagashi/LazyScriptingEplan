@@ -9,7 +9,7 @@ Current database version provided by this software.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ProjectManager.DatabaseVersion CurrentDatabaseVersion {get;}

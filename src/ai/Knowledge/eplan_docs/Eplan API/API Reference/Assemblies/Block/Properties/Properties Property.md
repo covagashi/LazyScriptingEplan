@@ -9,7 +9,7 @@ EPLAN properties of the block reference object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new BlockPropertyList Properties {get;}

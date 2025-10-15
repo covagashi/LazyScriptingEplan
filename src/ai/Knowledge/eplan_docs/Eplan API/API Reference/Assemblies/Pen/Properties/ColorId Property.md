@@ -33,7 +33,7 @@ Predefined values for line color index are:
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short ColorId {get; set;}

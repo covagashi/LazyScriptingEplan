@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class SymbolReference.Segment
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [SymbolReference.Segment Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference+Segment~_ctor(ValueType,ValueType).html) |  |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -38,4 +38,4 @@ Public Properties
 | Public Property | [Length](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference+Segment~Length.html) | Returns the length of the segment. |
 | Public Property | [StartPoint](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference+Segment~StartPoint.html) | Returns the begin point of the segment. |
 
-[Top](#top)
+

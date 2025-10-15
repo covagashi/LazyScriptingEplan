@@ -9,7 +9,7 @@ Returns [InterruptionPoint](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Inter
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InterruptionPoint[] GetInterruptionPointsWithFilterScheme( 

@@ -9,7 +9,7 @@ Returns default Translations directory.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Translations {get;}

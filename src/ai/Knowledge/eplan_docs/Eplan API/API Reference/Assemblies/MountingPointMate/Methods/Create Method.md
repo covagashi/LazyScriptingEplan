@@ -9,7 +9,7 @@ Creates a mounting point mate.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

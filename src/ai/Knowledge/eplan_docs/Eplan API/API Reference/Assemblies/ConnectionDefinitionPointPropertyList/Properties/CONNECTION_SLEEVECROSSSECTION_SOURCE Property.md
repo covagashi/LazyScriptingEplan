@@ -9,7 +9,7 @@ Source: Sleeve cross-section # 31053.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_SLEEVECROSSSECTION_SOURCE {get; set;}

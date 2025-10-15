@@ -9,7 +9,7 @@ Customer: Description # 10117.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CUSTOMERNOTE {get; set;}

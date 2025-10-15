@@ -9,7 +9,7 @@ Part number that the distributed main terminal with 'Normal' potential will get.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PartNumberTerminal {get; set;}

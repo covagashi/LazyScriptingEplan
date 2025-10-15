@@ -9,7 +9,7 @@ Type of surface # 26225.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SURFACE {get; set;}

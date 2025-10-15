@@ -9,7 +9,7 @@ Cable / Conduit: Designation in graphic # 20067.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_DESIGNATION {get; set;}

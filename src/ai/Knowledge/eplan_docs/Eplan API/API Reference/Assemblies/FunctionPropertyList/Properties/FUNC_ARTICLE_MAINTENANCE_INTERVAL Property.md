@@ -9,7 +9,7 @@ Maintenance interval # 26636.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_MAINTENANCE_INTERVAL( 

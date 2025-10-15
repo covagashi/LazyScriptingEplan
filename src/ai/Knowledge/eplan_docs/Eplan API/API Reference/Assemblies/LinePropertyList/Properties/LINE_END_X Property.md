@@ -9,7 +9,7 @@ X coordinate end point # 19312.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue LINE_END_X {get; set;}

@@ -9,7 +9,7 @@ Sets the page and returns a sorted list of logicals (that is everything derived 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public FunctionBase[] GetSortedListOfLogicals( 

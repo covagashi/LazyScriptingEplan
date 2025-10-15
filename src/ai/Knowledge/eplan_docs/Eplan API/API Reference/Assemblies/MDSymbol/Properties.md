@@ -22,4 +22,4 @@ Public Properties
 | Public Property | [Variant](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol~Variant.html) | Index operator to get a variant by its name. Valid names are "A" or "a" through "H" or "h". |
 | Public Property | [Variants](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol~Variants.html) | a read only list of all MDSymbolVariants in the symbol |
 
-[Top](#top)
+

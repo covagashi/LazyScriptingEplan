@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [NullableContext(1)]
@@ -36,7 +36,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [EplanCloudResourceDeprecationArgs Constructor](Eplan.IdentityClient.Authentification~Eplan.IdentityClient.EplanCloudResourceDeprecationArgs~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -47,4 +47,4 @@ Public Properties
 | Public Property | [Sunset](Eplan.IdentityClient.Authentification~Eplan.IdentityClient.EplanCloudResourceDeprecationArgs~Sunset.html) | Date when the Eplan Cloud resource is expected to become unresponsive |
 | Public Property | [Uri](Eplan.IdentityClient.Authentification~Eplan.IdentityClient.EplanCloudResourceDeprecationArgs~Uri.html) | Uri of the Deprecated Eplan Cloud resource |
 
-[Top](#top)
+

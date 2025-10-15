@@ -9,7 +9,7 @@ Parameter enum for PE and N terminals during terminal numbering.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Renumber.Enums.TerminalsPotential : System.Enum

@@ -9,7 +9,7 @@ Designation (full) # 44009.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_FULLDESIGNATION {get; set;}

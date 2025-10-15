@@ -9,7 +9,7 @@ Creator: Full name # 10245.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATORLONGNAME {get; set;}

@@ -9,7 +9,7 @@ Name of symbol library.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SymbolLibraryName {get; set;}

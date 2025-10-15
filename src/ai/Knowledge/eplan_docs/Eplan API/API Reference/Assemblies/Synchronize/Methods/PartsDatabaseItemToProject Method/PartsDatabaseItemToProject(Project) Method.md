@@ -9,7 +9,7 @@ Synchronizes the database items (like parts, manufactures addresses, etc.) store
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void PartsDatabaseItemToProject( 

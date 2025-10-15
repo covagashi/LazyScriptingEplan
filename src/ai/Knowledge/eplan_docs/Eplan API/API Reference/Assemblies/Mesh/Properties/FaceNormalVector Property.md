@@ -9,7 +9,7 @@ Returns normal vector for face with a given id.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ValueType FaceNormalVector( 

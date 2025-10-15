@@ -9,7 +9,7 @@ Mass # 26441.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_MASS( 

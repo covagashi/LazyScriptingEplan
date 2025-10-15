@@ -9,7 +9,7 @@ This method sets the visibility of the graphical instance to depend on the layer
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void SetVisibilityDependingOnLayer()

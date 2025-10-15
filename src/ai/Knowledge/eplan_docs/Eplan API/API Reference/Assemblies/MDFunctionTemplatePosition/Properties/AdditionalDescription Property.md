@@ -9,7 +9,7 @@ Refers to the Description column in GUI.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual MultiLangString AdditionalDescription {get; set;}

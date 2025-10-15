@@ -9,7 +9,7 @@ Returns macro placeholder value sets for given planning object
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlanningObject.MacroPlaceHolderValueSetsClass MacroPlaceHolderValueSets {get;}

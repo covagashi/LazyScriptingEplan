@@ -9,7 +9,7 @@ Designed as maintenance / repair switch # 26012.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_VERSION_AS_MAINTENANCE_REPAIR_SWITCH {get; set;}

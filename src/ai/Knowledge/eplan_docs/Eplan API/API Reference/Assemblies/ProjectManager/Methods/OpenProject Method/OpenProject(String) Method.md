@@ -9,7 +9,7 @@ Opens a project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project OpenProject( 

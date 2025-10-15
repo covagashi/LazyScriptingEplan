@@ -9,7 +9,7 @@ Rotation angle for text # 19343.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue TEXT_ANGLE {get; set;}

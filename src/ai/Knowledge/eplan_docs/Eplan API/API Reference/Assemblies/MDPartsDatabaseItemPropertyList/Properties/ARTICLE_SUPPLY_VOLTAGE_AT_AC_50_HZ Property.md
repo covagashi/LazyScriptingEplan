@@ -9,7 +9,7 @@ Supply voltage (AC 50 Hz) # 26162.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SUPPLY_VOLTAGE_AT_AC_50_HZ {get; set;}

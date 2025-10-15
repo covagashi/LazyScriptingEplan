@@ -9,7 +9,7 @@ Name of the object. Useful if object was deleted.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string EntryName {get;}

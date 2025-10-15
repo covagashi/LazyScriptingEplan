@@ -9,7 +9,7 @@ Accessory code # 22025.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_ACCESSORYID {get; set;}

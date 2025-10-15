@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDPartsMessage
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDPartsMessage Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessage~_ctor(ProjectMessageHandle).html) |  |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -45,4 +45,4 @@ Public Methods
 | Public Method | [GetUser](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessage~GetUser.html) | Returns the computer name of the user, who has been created the message |
 | Public Method | [SetDone](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessage~SetDone.html) | Marks message as solved or not. |
 
-[Top](#top)
+

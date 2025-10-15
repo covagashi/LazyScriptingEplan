@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDAccessoryPlacementPosition : MDPartsDatabaseItemChildData
@@ -34,7 +34,7 @@ Public Properties
 | Public Property | [OffsetZ](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAccessoryPlacementPosition~OffsetZ.html) | Move in Z direction for the respective placement. |
 | Public Property | [Rotation](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAccessoryPlacementPosition~Rotation.html) | Rotation angle. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -42,4 +42,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose()](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData~Dispose().html) | Destructor for deterministic finalization of MDAccessoryPlacementPosition object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData.html)) |
 
-[Top](#top)
+

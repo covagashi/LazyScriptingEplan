@@ -9,7 +9,7 @@ PLC station: TemplateIdentifier # 20614.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCSTATION_TEMPLATEIDENTIFIER {get; set;}

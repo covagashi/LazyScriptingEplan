@@ -9,7 +9,7 @@ Returns true if the list of name's properties is empty
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsNameEmpty {get;}

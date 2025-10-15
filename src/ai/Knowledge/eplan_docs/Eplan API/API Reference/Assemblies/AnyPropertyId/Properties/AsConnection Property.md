@@ -9,7 +9,7 @@ Gets property id value as [Properties.Connection](Eplan.EplApi.DataModelu~Eplan.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.Connection AsConnection {get;}

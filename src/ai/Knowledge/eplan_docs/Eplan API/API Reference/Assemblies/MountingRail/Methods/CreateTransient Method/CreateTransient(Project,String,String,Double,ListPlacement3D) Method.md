@@ -9,7 +9,7 @@ Creates transient and not placed MountingRail object with given length.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static MountingRail CreateTransient( 

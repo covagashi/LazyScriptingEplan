@@ -9,7 +9,7 @@ Returns the [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html) whe
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Page Page {get;}

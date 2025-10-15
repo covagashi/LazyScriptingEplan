@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [ComVisible(true)]
@@ -36,7 +36,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [CallingContext Constructor](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext~_ctor.html) | Constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -46,7 +46,7 @@ Public Properties
 | Public Property | [Parameters](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext~Parameters.html) | Parameters and values |
 | Public Property | [Succeed](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext~Succeed.html) | Succeed flag |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -57,4 +57,4 @@ Public Methods
 | Public Method | [Remove](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext~Remove.html) | Remove a parameter. |
 | Public Method | [Set](Eplan.EplApi.Remotingu~Eplan.EplApi.Remoting.CallingContext~Set.html) | Sets a new parameter. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Hide the value of the parsed result, all other texts (units and additional texts
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool HideValue {get; set;}

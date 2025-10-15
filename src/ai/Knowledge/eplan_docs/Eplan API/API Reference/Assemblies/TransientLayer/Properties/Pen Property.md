@@ -9,7 +9,7 @@ Layer's pen
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Pen Pen {get;}

@@ -9,7 +9,7 @@ Clear
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Clear()

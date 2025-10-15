@@ -9,7 +9,7 @@ Position / (slot / module) (indirect) # 20422.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCSOCKET_INDIRECT {get; set;}

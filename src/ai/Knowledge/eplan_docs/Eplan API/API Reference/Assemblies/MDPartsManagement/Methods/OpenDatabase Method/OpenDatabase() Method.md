@@ -9,7 +9,7 @@ Opens the parts database configured in the settings.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartsDatabase OpenDatabase()

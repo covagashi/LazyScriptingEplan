@@ -9,7 +9,7 @@ Creates cables in the given project. The functionality includes three steps: cre
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Cables( 

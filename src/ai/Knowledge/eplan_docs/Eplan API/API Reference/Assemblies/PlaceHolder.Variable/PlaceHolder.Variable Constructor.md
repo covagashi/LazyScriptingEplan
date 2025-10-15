@@ -9,7 +9,7 @@ Constructor for variable
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlaceHolder.Variable( 

@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDContourElement~Dispose().html) | Destructor for deterministic finalization of MDContourElement object. |
 
-[Top](#top)
+

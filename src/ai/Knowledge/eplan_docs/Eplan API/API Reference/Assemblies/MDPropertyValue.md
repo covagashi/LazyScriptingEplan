@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Item")]
@@ -95,7 +95,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDPropertyValue Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~_ctor().html) | Default constructor. Creates a MDPropertyValue object. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -109,7 +109,7 @@ Public Properties
 | Public Property | [LastUsedIndex](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~LastUsedIndex.html) | Returns number of highest used index. Index value starts from 1. If it is a not indexed-property or if their index is not used, LastUsedIndex is 0.  An object of MDPropertyValue has to point to online property. |
 | Public Property | [Parent](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~Parent.html) | Property list to which this property value is connected. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -126,7 +126,7 @@ Public Methods
 | Public Method | [ToString](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~ToString.html) | Overloaded. Returns string value of this property. When type of property is MultiLangString then only specified language is returned. In case of offline MDPropertyValue object, stored value is returned without any cast. When property can not be read, `default_value` is returned instead of throwing `MDEmptyPropertyException` . |
 | Public Method | [ToTime](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~ToTime.html) | Converts this MDPropertyValue object to `System::DateTime`. |
 
-[Top](#top)
+
 
 Public Operators
 
@@ -134,4 +134,4 @@ Public Operators
 | --- | --- |
 | public Operator [Implicit Type Conversion](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyValue~op_Implicit.html) | Overloaded. Converts MDPropertyValue object to `long`. |
 
-[Top](#top)
+

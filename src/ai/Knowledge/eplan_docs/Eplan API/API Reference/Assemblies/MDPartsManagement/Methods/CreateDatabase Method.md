@@ -9,7 +9,7 @@ Create a new parts database.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartsDatabase CreateDatabase( 

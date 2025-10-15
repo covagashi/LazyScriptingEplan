@@ -16,4 +16,4 @@ Public Methods
 | Method | [OnRegister](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddIn~OnRegister.html) | Is called once when a new add-in is selected. |
 | Method | [OnUnregister](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAddIn~OnUnregister.html) | Is called once, when the add-in is removed from the system. |
 
-[Top](#top)
+

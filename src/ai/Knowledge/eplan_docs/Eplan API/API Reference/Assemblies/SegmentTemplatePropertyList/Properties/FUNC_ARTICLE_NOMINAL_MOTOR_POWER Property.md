@@ -9,7 +9,7 @@ Nominal power consumption # 26483.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_NOMINAL_POWER_CONSUMPTION( 

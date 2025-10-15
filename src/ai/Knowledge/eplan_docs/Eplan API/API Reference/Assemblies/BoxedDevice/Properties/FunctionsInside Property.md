@@ -9,7 +9,7 @@ Returns an array of all existing functions in BoxedDevice.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function[] FunctionsInside {get;}

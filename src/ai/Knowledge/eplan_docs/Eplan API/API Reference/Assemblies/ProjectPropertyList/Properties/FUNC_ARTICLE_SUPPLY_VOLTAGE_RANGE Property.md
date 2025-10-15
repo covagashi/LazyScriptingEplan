@@ -9,7 +9,7 @@ Supply voltage range # 26624.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_SUPPLY_VOLTAGE_RANGE( 

@@ -9,7 +9,7 @@ Eplan version
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string EplanVersion {get; set;}

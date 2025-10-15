@@ -9,7 +9,7 @@ initialize the DCOM security which needed to connect to license manager (ELM).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void InitializeComSecurity()

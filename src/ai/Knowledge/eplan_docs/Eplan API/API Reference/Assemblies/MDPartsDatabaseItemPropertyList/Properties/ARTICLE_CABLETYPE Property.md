@@ -9,7 +9,7 @@ Cable type / Type designation # 22030.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CABLETYPE {get; set;}

@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [Add](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol+MDPropertyPlacementsSchemasList~Add.html) |  |
 | Public Method | [Remove](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol+MDPropertyPlacementsSchemasList~Remove.html) |  |
 
-[Top](#top)
+

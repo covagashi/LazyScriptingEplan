@@ -9,7 +9,7 @@ Routing path / Curve: Length (automatic) # 36028.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_ROUTING_SEGMENT_LENGTH_AUTOMATIC {get; set;}

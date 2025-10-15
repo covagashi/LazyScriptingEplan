@@ -9,7 +9,7 @@ Returns all functions of the project with the same name. Can be called within th
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void GetAllFunctionsWithSameName( 

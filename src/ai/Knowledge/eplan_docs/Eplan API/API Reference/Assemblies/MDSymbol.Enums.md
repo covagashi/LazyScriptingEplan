@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDSymbol.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDSymbol.Enums Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbol+Enums~_ctor.html) |  |
 
-[Top](#top)
+

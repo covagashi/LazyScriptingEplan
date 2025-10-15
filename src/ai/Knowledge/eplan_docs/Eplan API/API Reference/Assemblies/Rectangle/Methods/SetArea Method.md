@@ -9,7 +9,7 @@ Sets the size of a rectangle using the coordinates of the two opposite corners
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void SetArea( 

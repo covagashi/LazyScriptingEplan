@@ -9,7 +9,7 @@ Format of displayed DT: Interruption point # 10629.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DTFORMAT_INTERRUPTION_POINT {get; set;}

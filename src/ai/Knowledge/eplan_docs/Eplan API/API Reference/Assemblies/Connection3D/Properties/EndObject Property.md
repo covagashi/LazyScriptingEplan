@@ -9,7 +9,7 @@ Returns the second of two [Function3D](Eplan.EplApi.DataModelu~Eplan.EplApi.Data
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function3D EndObject {get;}

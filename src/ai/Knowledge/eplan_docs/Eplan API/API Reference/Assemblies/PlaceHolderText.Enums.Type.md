@@ -9,7 +9,7 @@ Type of placeholder
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum PlaceHolderText.Enums.Type : System.Enum

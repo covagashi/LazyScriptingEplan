@@ -9,7 +9,7 @@ Gets alternative language.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ISOCode AlternativeLanguage {get;}

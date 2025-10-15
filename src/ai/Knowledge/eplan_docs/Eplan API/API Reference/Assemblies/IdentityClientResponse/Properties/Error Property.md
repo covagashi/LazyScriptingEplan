@@ -9,7 +9,7 @@ Error message.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Error {get; set;}

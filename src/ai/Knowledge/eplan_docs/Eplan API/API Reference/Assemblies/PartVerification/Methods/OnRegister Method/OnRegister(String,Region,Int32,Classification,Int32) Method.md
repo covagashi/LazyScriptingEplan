@@ -9,7 +9,7 @@ Called by Eplan when the new project message is added to the system. If a new pr
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public abstract void OnRegister( 

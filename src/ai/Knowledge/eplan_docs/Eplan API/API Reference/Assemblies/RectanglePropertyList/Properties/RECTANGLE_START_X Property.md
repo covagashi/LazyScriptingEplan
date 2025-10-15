@@ -9,7 +9,7 @@ X coordinate starting point # 19340.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue RECTANGLE_START_X {get; set;}

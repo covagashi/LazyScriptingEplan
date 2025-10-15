@@ -9,7 +9,7 @@ Lock or unlock all Objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 EplanResponse LockUnlockAllObjects( 

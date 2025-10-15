@@ -9,7 +9,7 @@ Returns all objects of classes Placement and inherited from Placement, except [P
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement[] GetPlacementsWithCF( 

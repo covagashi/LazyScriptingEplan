@@ -9,7 +9,7 @@ The constructor.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DMObjectsFinder( 

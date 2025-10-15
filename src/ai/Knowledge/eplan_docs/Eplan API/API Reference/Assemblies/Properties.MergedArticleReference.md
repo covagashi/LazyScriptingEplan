@@ -9,7 +9,7 @@ Identificators of properties owned by MergedArticleReference class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.MergedArticleReference : System.Enum

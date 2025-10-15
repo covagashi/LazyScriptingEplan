@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ViewPlacement.PropertyPlacementsSchemasList
@@ -28,4 +28,4 @@ Public Properties
 | Public Property | [All](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.ViewPlacement+PropertyPlacementsSchemasList~All.html) | Returns an array of ViewPlacement::PropertyPlacementsSchema elements representing predefined property placements configurations for the symbol. Each of the predefined configuration is represented by a name visible in the GUI and an ID that may be used to select a specific configuration. |
 | Public Property | [Selected](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.ViewPlacement+PropertyPlacementsSchemasList~Selected.html) | Gets a PropertyPlacementsSchema object that represents the selected property placements configuration. Sets the current property placements configuration. |
 
-[Top](#top)
+

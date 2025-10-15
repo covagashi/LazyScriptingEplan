@@ -9,7 +9,7 @@ Check if the SegmentTemplate can have [Eplan.EplApi.DataModel.Article](Eplan.Epl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool CanHaveArticleData {get;}

@@ -9,7 +9,7 @@ AutomationML GUID (accessories) # 20399.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_AML_GUID( 

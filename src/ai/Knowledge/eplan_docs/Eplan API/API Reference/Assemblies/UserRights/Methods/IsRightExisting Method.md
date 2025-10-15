@@ -9,7 +9,7 @@ Returns the right existance
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsRightExisting( 

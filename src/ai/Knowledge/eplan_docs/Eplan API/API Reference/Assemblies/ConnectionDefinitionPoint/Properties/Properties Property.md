@@ -9,7 +9,7 @@ Allows user to access properties of the ConnectionDefinitionPoint.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new ConnectionDefinitionPointPropertyList Properties {get;}

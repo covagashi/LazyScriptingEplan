@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Article+Module~Dispose().html) | Destructor for deterministic finalization of Module object. |
 
-[Top](#top)
+

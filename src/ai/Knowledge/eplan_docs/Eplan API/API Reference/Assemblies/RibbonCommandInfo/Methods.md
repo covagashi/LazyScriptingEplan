@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommandInfo~Dispose().html) | Destructor for deterministic finalization of RibbonCommandInfo object. |
 
-[Top](#top)
+

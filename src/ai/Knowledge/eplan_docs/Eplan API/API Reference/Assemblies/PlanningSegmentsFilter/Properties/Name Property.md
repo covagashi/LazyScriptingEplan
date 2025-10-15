@@ -9,7 +9,7 @@ Value compared with property DMPLAOBJECT\_FULLDESIGNATION while searching for pl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get; set;}

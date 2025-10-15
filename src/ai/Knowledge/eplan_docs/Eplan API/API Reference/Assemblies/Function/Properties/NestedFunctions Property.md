@@ -9,7 +9,7 @@ Returns an array of nested functions of the given main function. Nested-function
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function[] NestedFunctions {get;}

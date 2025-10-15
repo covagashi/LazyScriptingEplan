@@ -9,7 +9,7 @@ An integer specifying a default [Eplan.EplApi.DataModel.FunctionDefinition.Group
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int FunctionDefinitionGroup {get; set;}

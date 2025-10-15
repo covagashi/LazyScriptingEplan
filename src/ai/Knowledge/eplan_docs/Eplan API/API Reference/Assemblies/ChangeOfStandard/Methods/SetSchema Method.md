@@ -9,7 +9,7 @@ Set mapping scheme.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetSchema( 

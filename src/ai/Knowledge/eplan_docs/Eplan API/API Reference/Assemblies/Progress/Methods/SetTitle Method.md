@@ -9,7 +9,7 @@ Sets the title of the progress bar.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetTitle( 

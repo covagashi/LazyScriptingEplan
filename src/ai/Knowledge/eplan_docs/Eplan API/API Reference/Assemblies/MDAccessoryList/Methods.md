@@ -16,4 +16,4 @@ Public Methods
 | Public Method | [RemoveAccessoryListPosition](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDAccessoryList~RemoveAccessoryListPosition.html) | Removes the given AccessoryList position from the part. |
 | Public Method | [ToDataModelIdentifier](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem~ToDataModelIdentifier.html) | Returns data model identifier which identifies this object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItem](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItem.html)) |
 
-[Top](#top)
+

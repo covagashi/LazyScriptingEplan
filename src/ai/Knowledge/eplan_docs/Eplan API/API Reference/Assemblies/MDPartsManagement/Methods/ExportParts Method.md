@@ -9,7 +9,7 @@ Exports parts and other parts management items like addresses, constructions, te
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ExportParts( 

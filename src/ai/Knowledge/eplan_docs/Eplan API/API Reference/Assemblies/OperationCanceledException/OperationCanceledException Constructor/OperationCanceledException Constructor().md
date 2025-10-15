@@ -9,7 +9,7 @@ Constructor with standard message text.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public OperationCanceledException()

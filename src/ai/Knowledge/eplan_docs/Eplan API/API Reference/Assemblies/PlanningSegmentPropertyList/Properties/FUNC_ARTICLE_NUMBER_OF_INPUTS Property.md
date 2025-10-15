@@ -9,7 +9,7 @@ Number of outputs # 31177.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_NUMBER_OF_OUTPUTS( 

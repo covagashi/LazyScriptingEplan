@@ -48,4 +48,4 @@ Public Properties
 | Public Property | [ViewScale](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.ViewPlacement~ViewScale.html) | Type of scaling used to display objects in ViewPlacement. |
 | Public Property | [ViewStyle](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.ViewPlacement~ViewStyle.html) | Determines way how objects are display in ViewPlacement. |
 
-[Top](#top)
+

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ProjectSettings : Eplan.EplApi.Base.ISettings
@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ProjectSettings Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectSettings~_ctor.html) | Constructor. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -66,4 +66,4 @@ Public Methods
 | Public Method | [SetNumericSetting](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectSettings~SetNumericSetting.html) | Sets the value of a project setting in a specified path. The type of value will be converted to 16 bit, 32 bit, signed or unsigned value depending on the setting type. |
 | Public Method | [SetStringSetting](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectSettings~SetStringSetting.html) | Overloaded. Sets the value of a project setting in a specified path. |
 
-[Top](#top)
+

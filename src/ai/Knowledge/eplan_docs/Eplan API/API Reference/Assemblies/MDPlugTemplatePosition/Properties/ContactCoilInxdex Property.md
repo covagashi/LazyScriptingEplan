@@ -9,7 +9,7 @@ Specifies the index of the coil or contact.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ContactCoilInxdex {get; set;}

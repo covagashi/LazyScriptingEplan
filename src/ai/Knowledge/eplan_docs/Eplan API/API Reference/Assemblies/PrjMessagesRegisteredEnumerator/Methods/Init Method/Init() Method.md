@@ -9,7 +9,7 @@ initializes the enumerator for iterating over the collection of all registered e
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Init()

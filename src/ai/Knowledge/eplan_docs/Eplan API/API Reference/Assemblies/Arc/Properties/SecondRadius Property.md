@@ -9,7 +9,7 @@ Gets the second radius value of the ellipse. This property returns proper value 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double SecondRadius {get;}

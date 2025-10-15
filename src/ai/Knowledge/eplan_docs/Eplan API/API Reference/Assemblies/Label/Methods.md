@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Label~Dispose().html) | Destructor |
 | Public Method | [DoLabel](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Label~DoLabel.html) | Overloaded. do a labeling for a given objects. |
 
-[Top](#top)
+

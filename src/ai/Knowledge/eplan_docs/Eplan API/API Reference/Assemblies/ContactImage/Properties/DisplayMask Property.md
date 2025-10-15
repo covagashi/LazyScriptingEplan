@@ -9,7 +9,7 @@ Gets or sets a value indicating whether position of this object is calculated au
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ContactImage.Enums.DisplayMaskType DisplayMask {get; set;}

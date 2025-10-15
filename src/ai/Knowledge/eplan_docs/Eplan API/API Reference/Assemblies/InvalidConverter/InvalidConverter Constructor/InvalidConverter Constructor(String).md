@@ -9,7 +9,7 @@ Constructor with name of converter given by user.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InvalidConverter( 

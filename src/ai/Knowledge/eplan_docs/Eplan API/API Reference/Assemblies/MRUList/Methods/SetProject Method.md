@@ -9,7 +9,7 @@ Sets project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SetProject( 

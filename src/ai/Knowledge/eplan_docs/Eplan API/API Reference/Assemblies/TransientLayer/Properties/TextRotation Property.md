@@ -9,7 +9,7 @@ Layer's rotation of texts
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double TextRotation {get;}

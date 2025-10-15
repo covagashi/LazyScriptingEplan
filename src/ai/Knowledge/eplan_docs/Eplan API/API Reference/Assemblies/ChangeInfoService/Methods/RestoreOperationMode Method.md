@@ -9,7 +9,7 @@ Restore previous operation mode.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RestoreOperationMode( 

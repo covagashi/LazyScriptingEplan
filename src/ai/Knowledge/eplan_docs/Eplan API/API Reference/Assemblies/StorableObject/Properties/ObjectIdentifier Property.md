@@ -9,7 +9,7 @@ Returns the object identifier as number. The number is unique for all objects of
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public long ObjectIdentifier {get;}

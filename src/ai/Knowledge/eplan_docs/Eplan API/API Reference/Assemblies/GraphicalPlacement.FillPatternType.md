@@ -9,7 +9,7 @@ FillPaternType used for getting and setting FillPattern on PolyLine.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum GraphicalPlacement.FillPatternType : System.Enum

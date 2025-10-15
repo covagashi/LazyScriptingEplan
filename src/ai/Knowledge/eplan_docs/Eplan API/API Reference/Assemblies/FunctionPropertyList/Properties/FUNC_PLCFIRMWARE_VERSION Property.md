@@ -9,7 +9,7 @@ Version # 20418.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCFIRMWARE_VERSION {get; set;}

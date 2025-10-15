@@ -9,7 +9,7 @@ Function in rest position # 26348.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_FUNKTION_IN_RUHESTELLUNG {get; set;}

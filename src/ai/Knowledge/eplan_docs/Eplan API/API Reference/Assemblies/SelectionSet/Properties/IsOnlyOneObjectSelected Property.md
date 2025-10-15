@@ -9,7 +9,7 @@ Determines whether exactly one object is selected.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsOnlyOneObjectSelected {get;}

@@ -9,7 +9,7 @@ The z position of the referenced support bar part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Z {get; set;}

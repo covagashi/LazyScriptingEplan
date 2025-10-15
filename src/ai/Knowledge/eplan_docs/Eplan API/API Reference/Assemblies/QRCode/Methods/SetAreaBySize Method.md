@@ -9,7 +9,7 @@ Sets the size of an QRCode.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetAreaBySize( 

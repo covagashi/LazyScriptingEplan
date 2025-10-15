@@ -9,7 +9,7 @@ Returns name of the page's type.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PageTypeName {get;}

@@ -9,7 +9,7 @@ The begin of a new progress part. Perhaps you want to set a new actiontext for t
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void BeginPartCalled( 

@@ -9,7 +9,7 @@ Connection point logic: Type of signal # 20371.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_LOGDEF_SIGNAL_TYPE( 

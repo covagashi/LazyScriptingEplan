@@ -9,7 +9,7 @@ Source placeholder value sets
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlanningObject.MacroPlaceHolderValueSetsClass Source {get;}

@@ -9,7 +9,7 @@ Operating temperature # 26237.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_OPERATING_TEMPERATURE {get; set;}

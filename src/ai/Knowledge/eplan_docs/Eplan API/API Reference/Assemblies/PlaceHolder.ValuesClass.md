@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Item")]
@@ -31,7 +31,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PlaceHolder.ValuesClass Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValuesClass~_ctor.html) | Constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -40,4 +40,4 @@ Public Properties
 | Public Property | [\_Displayed](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValuesClass~_Displayed.html) | Returns displayed values as a two-dimensional string array |
 | Public Property | [Item](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValuesClass~Item.html) |  |
 
-[Top](#top)
+

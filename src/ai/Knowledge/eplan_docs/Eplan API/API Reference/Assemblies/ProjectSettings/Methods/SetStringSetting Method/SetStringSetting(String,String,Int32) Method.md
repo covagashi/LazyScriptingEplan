@@ -9,7 +9,7 @@ Sets the value of a project setting in a specified path.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void SetStringSetting( 

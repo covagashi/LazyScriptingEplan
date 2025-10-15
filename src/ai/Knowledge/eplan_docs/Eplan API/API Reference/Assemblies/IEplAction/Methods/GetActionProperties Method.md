@@ -9,7 +9,7 @@ Returns descriptive data for the action. For documentation purposes only.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void GetActionProperties( 

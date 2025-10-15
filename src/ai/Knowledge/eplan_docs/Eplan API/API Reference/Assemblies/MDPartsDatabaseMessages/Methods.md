@@ -19,4 +19,4 @@ Public Methods
 | Public Method | [GetEnumerator2](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseMessages~GetEnumerator2.html) | Returns an enumerator that can iterate through a collection. |
 | Public Method | [Remove](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseMessages~Remove.html) | Removes the first occurrence of a message from the `MDPartsDatabaseMessages`. |
 
-[Top](#top)
+

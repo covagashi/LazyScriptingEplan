@@ -9,7 +9,7 @@ Part allocation # 20491.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_ASSIGNMENT {get; set;}

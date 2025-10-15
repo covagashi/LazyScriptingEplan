@@ -9,7 +9,7 @@ Material # 20864.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_MATERIAL {get; set;}

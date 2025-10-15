@@ -9,7 +9,7 @@ This object should live "forever."
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual object InitializeLifetimeService()

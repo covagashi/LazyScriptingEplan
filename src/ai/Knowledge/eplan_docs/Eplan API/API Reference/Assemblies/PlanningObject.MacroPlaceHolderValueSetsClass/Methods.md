@@ -18,4 +18,4 @@ Public Methods
 | Public Method | [Store](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningObject+MacroPlaceHolderValueSetsClass~Store.html) | Stores back macro placeholder value sets to planning object. |
 | Public Method | [UpdateFromMacro](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningObject+MacroPlaceHolderValueSetsClass~UpdateFromMacro.html) | Updates planning object's macro placeholder value sets with data from macro (e.g. after macro has changed) |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Record type # 22023.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PARTTYPE {get; set;}

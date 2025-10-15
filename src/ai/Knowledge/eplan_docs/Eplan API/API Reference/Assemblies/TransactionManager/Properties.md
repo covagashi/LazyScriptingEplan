@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [IsEplanTransactionRunning](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.TransactionManager~IsEplanTransactionRunning.html) | Tells if a P8 transaction is open. |
 | Public Property | [IsTransactionRunning](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.TransactionManager~IsTransactionRunning.html) | Tells if a read-write API transaction is open. |
 
-[Top](#top)
+

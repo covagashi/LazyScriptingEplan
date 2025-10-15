@@ -15,4 +15,4 @@ Public Methods
 | Public Method | [Reset](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesEnumerator~Reset.html) | Sets the enumerator to its initial position, which is before the first element in [Eplan::EplApi::MasterData:](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseMessages.html) |
 | Public Method | [SetDatabase](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessagesEnumerator~SetDatabase.html) | initializes the enumerator for iterating over the Parts Database messages collection |
 
-[Top](#top)
+

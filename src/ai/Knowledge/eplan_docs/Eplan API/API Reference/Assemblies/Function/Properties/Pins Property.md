@@ -9,7 +9,7 @@ Gets/Sets an array of the function's connection points.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Pin[] Pins {get; set;}

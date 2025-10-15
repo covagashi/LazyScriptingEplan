@@ -9,7 +9,7 @@ Environmental consideration # 10034.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ENVIRONMENTALCONSIDERATION {get; set;}

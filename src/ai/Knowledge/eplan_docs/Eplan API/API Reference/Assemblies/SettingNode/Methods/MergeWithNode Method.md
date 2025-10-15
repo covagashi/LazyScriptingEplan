@@ -9,7 +9,7 @@ Merges settings nodes.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool MergeWithNode( 

@@ -9,7 +9,7 @@ Default constructor. The collection contains all system messages that actually e
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SysMessagesCollection()

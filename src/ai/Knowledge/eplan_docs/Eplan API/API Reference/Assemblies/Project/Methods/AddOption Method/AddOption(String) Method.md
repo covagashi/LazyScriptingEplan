@@ -9,7 +9,7 @@ Adds [Option](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Option.html) to the
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Option AddOption( 

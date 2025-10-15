@@ -20,4 +20,4 @@ Public Methods
 | Public Method | [GetPrjMsgEnumerator](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesCollection~GetPrjMsgEnumerator.html) | Returns a typed enumerator that can iterate through a collection. |
 | Public Method | [Remove](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PrjMessagesCollection~Remove.html) | Removes the first occurrence of a specific object from the `PrjMessagesCollection`. |
 
-[Top](#top)
+

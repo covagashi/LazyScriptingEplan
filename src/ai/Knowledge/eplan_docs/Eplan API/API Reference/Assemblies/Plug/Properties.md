@@ -77,4 +77,4 @@ Public Properties
 | Public Property | [VisibleNameParts](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBase~VisibleNameParts.html) | Returns visible name of the Function. (Inherited from [Eplan.EplApi.DataModel.FunctionBase](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.FunctionBase.html)) |
 | Public Property | [WriteProtected](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function~WriteProtected.html) | Check if object is currently write protected or sets Manual write protection (Inherited from [Eplan.EplApi.DataModel.Function](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Function.html)) |
 
-[Top](#top)
+

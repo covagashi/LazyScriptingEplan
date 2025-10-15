@@ -9,7 +9,7 @@ Master data types
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Backup.MasterDataType : System.Enum

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ElectroMessage
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ElectroMessage Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ElectroMessage~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,7 +36,7 @@ Public Properties
 | Public Property | [FilterScheme](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ElectroMessage~FilterScheme.html) | Gets/sets filter scheme on a template of project message. |
 | Public Property | [IsLicensed](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ElectroMessage~IsLicensed.html) | Returns true if the message is licensed. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -49,4 +49,4 @@ Public Methods
 | Public Method | [GetId](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ElectroMessage~GetId.html) | Returns the Id of the message. |
 | Public Method | [GetTextTemplate](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ElectroMessage~GetTextTemplate.html) | Returns the text template of the message. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Returns [Eplan.EplApi.DataModel.Planning.SegmentDefinition](Eplan.EplApi.DataMod
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SegmentDefinition GetSegmentDefinition( 

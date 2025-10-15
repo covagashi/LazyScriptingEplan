@@ -9,7 +9,7 @@ Matches templates and wires. No changes on objects are performed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public KeyValuePair<Connection,Connection>[] FindMatchingTemplatePairs( 

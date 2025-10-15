@@ -9,7 +9,7 @@ Stores changes into object from which template has been taken.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void UpdateLocalTemplate()

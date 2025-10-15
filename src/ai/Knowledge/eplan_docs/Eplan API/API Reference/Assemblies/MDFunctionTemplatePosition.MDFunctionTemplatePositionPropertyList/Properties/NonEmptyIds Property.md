@@ -9,7 +9,7 @@ Retrieves all non-empty property ids
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAnyPropertyId[] NonEmptyIds {get;}

@@ -9,7 +9,7 @@ Trade # 20466.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CRAFT {get; set;}

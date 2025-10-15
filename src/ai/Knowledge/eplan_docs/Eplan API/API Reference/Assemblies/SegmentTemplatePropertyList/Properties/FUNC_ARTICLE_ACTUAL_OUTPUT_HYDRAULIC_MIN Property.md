@@ -9,7 +9,7 @@ Actual power (pneumatic) # 26388.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_ACTUAL_OUTPUT_PNEUMATIC( 

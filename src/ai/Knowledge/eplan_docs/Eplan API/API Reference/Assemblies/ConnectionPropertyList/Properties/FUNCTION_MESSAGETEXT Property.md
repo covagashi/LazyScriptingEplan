@@ -9,7 +9,7 @@ Message text # 20185.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION_MESSAGETEXT {get; set;}

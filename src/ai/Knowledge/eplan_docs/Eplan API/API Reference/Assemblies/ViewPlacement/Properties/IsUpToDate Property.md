@@ -9,7 +9,7 @@ If true, the viewplacement is still uptodate
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsUpToDate {get;}

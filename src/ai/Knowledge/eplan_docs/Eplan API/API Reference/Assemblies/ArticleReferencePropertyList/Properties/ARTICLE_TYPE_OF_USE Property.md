@@ -9,7 +9,7 @@ Operating mode # 26283.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TYPE_OF_USE {get; set;}

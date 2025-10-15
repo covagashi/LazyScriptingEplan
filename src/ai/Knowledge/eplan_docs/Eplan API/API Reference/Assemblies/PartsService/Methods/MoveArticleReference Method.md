@@ -9,7 +9,7 @@ Moves ArticleReference to another index or to another object or both.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ArticleReference MoveArticleReference( 

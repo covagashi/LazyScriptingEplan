@@ -9,7 +9,7 @@ Returns Variant of the article that is referenced from this accessory position
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Variant {get;}

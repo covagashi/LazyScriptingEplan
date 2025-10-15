@@ -9,7 +9,7 @@ Door: Max. mounting depth # 22121.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DOORDEPTH {get; set;}

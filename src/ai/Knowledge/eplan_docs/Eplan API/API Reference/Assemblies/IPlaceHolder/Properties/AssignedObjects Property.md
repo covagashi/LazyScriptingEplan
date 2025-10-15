@@ -9,7 +9,7 @@ Gets/Sets a list of StorableObject references to a PlaceHolder object. The origi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 StorableObject[] AssignedObjects {get; set;}

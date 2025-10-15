@@ -18,4 +18,4 @@ Public Methods
 | Method | [OnRegister](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.IVerificationBase~OnRegister.html) | Called by EPLAN when the new check is added to the system. (Inherited from [Eplan.EplApi.EServices.IVerificationBase](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.IVerificationBase.html)) |
 | Method | [OnStartInspection](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.IVerificationBase~OnStartInspection.html) | Called by EPLAN when a check routine starts in the system. (Inherited from [Eplan.EplApi.EServices.IVerificationBase](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.IVerificationBase.html)) |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Degree of protection # 10037.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DEGOFPROTECTION {get; set;}

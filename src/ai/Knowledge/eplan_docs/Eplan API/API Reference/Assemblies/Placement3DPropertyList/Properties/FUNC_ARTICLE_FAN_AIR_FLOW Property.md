@@ -9,7 +9,7 @@ Blower air flow # 26354.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_FAN_AIR_FLOW( 

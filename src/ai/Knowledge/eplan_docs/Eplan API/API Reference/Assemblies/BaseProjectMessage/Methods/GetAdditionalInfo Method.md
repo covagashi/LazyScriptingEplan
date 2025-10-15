@@ -9,7 +9,7 @@ Returns an additional text if any
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string GetAdditionalInfo()

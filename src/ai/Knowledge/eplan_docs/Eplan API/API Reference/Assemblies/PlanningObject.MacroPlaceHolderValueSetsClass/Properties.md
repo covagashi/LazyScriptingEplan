@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [Item](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningObject+MacroPlaceHolderValueSetsClass~Item.html) | Overloaded. |
 | Public Property | [Source](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PlanningObject+MacroPlaceHolderValueSetsClass~Source.html) | Planning object to which macro placeholder value sets belong |
 
-[Top](#top)
+

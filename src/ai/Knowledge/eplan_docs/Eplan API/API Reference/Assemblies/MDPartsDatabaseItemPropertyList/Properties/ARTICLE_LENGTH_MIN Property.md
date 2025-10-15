@@ -9,7 +9,7 @@ Length, min. # 26415.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_LENGTH_MIN {get; set;}

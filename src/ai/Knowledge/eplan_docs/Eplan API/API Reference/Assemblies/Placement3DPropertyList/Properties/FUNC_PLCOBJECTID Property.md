@@ -9,7 +9,7 @@ PLC object ID (at functions) # 20162.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCOBJECTID {get; set;}

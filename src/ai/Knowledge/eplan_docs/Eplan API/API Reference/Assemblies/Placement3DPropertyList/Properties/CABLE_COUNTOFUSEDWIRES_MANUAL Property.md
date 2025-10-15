@@ -9,7 +9,7 @@ Number of connections used (single-line cables) # 35109.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLE_COUNTOFUSEDWIRES_MANUAL {get; set;}

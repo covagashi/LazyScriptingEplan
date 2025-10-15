@@ -9,7 +9,7 @@ Clears the list of search results.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ClearSearchDB( 

@@ -9,7 +9,7 @@ Loads the ProjectInfo.xml file. and sets project properties accordingly.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ReadProjectInfo( 

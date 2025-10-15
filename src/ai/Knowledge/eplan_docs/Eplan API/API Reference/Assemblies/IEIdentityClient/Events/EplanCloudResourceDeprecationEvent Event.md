@@ -9,7 +9,7 @@ Event raised when an Eplan Cloud resource is deprecated
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [Nullable(Mono.Cecil.CustomAttributeArgument[])]

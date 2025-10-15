@@ -9,7 +9,7 @@ Frequency # 33004.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue POTENTIAL_FREQUENCE {get; set;}

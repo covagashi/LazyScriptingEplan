@@ -9,7 +9,7 @@ Returns drilling objects which are generated based on drilling pattern assigned 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Drilling[] GetDrillingsFromDrillingPattern( 

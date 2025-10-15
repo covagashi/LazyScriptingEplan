@@ -9,7 +9,7 @@ Object identification: Source # 31160.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_SOURCE_DBOBJECTID {get; set;}

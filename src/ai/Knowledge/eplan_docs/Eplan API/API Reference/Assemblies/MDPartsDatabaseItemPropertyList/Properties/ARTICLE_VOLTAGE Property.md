@@ -9,7 +9,7 @@ Voltage # 22033.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_VOLTAGE {get; set;}

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDPartsDatabaseMessages
@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDPartsDatabaseMessages Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseMessages~_ctor(MDPartsDatabase).html) | Constructor initializes the matching enumerator. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -43,7 +43,7 @@ Public Properties
 | Public Property | [ReuseMessages](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseMessages~ReuseMessages.html) | Determines whether new message can be duplicated in collection. Default value is `true`. |
 | Public Property | [ShowImmediately](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseMessages~ShowImmediately.html) | If true, added messages will be immediately displayed in PartsDatabase message management window. Default value is false. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -58,4 +58,4 @@ Public Methods
 | Public Method | [GetEnumerator2](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseMessages~GetEnumerator2.html) | Returns an enumerator that can iterate through a collection. |
 | Public Method | [Remove](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseMessages~Remove.html) | Removes the first occurrence of a message from the `MDPartsDatabaseMessages`. |
 
-[Top](#top)
+

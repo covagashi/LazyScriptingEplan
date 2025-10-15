@@ -9,7 +9,7 @@ Gets/Sets the unit of the dimension circle.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DimensionCircle.Enums.DimensionUnit DimensionUnit {get; set;}

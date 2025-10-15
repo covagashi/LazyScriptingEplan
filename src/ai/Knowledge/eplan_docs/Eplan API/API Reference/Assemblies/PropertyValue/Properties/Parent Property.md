@@ -9,7 +9,7 @@ Property list to which this property value is connected.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public UniversalPropertyList Parent {get;}

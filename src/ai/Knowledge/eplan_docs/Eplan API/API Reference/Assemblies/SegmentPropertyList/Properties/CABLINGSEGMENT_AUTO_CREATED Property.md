@@ -9,7 +9,7 @@ Topology: Automatically generated routing path # 20242.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLINGSEGMENT_AUTO_CREATED {get; set;}

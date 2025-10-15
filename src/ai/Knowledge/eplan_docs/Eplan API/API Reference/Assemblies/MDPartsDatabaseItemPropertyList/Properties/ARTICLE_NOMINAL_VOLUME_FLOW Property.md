@@ -9,7 +9,7 @@ Nominal flow rate # 26506.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NOMINAL_VOLUME_FLOW {get; set;}

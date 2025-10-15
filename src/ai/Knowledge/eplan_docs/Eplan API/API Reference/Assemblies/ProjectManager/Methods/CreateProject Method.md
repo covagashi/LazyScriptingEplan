@@ -9,7 +9,7 @@ Create project with given name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project CreateProject( 

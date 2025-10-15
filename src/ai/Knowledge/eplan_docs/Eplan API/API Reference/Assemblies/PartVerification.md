@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public abstract class PartVerification : IMessage, IPartVerification, IVerificationBase
@@ -31,7 +31,7 @@ Public Properties
 | Public Property | [VerificationPermission](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PartVerification~VerificationPermission.html) |  |
 | Public Property | [VerificationState](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PartVerification~VerificationState.html) | The VerificationState determines the actual adjusted check type whereas the permission determines what state is theoretically allowed at most. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -45,4 +45,4 @@ Public Methods
 | Public Method | [OnRegister](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PartVerification~OnRegister.html) | Overloaded. Called by Eplan when the new project message is added to the system. If a new project message was added to a registered add-in, the add-in must be registered over again. |
 | Public Method | [OnStartInspection](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PartVerification~OnStartInspection.html) |  |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Changes the selection. Should only be used inside the OnSelect() method.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetSelection( 

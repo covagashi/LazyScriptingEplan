@@ -9,7 +9,7 @@ Naming format for busbars # 10073.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_NAMEFORMAT_BUSBAR {get; set;}

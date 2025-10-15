@@ -9,7 +9,7 @@ Identificators of properties owned by DeviceListEntry class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.DeviceListEntry : System.Enum

@@ -17,7 +17,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class InterruptionPointsFilter : PlacementsFilter
@@ -89,7 +89,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [InterruptionPointsFilter Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.InterruptionPointsFilter~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -99,7 +99,7 @@ Public Properties
 | Public Property | [Name](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.InterruptionPointsFilter~Name.html) | Returns the name that was set to this filter. |
 | Public Property | [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.InterruptionPointsFilter~Page.html) | Overridden. Sets the [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html) that [StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)s matching the filter must be placed on. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -109,4 +109,4 @@ Public Methods
 | Public Method | [ResetFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.InterruptionPointsFilter~ResetFilter.html) | Overridden. Resets the filter. Filter matches all [StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)s then. |
 | Public Method | [SetFilteredPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.InterruptionPointsFilter~SetFilteredPropertyList.html) | Overloaded. Sets the [InterruptionPointPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.InterruptionPointPropertyList.html) that [InterruptionPoint](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.InterruptionPoint.html)s matching the filter must have. |
 
-[Top](#top)
+

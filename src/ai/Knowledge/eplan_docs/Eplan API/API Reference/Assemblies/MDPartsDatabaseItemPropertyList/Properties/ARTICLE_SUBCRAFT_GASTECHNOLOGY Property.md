@@ -9,7 +9,7 @@ Subtrade 'Gas engineering' # 22266.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SUBCRAFT_GASTECHNOLOGY( 

@@ -9,7 +9,7 @@ Returns and sets length of this object. Length is stored in mm.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override double Length {set;}

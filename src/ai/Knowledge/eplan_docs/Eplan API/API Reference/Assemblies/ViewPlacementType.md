@@ -9,7 +9,7 @@ Types of view.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ViewPlacementType : System.Enum

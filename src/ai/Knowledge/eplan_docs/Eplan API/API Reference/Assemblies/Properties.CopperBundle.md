@@ -9,7 +9,7 @@ Identificators of properties owned by CopperBundle class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.CopperBundle : System.Enum

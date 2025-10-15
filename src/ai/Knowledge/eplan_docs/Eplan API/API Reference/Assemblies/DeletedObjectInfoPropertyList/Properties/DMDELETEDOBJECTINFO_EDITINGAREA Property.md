@@ -9,7 +9,7 @@ Defined working section # 36617.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMDELETEDOBJECTINFO_EDITINGAREA {get; set;}

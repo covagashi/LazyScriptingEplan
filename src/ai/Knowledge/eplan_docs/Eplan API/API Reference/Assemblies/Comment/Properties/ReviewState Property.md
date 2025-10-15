@@ -9,7 +9,7 @@ State of the comment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Comment.Enums.ReviewStateType ReviewState {get; set;}

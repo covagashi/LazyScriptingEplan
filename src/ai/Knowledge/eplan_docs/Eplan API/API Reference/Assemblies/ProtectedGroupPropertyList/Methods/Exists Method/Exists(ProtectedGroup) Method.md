@@ -9,7 +9,7 @@ Checks property existence for used obiect.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Exists( 

@@ -9,7 +9,7 @@ Get flag whether a function is net-connecting
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsNetConnecting {get;}

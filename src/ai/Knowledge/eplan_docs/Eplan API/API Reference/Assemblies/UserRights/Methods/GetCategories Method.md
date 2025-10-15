@@ -9,7 +9,7 @@ Returns the identifiers of all existing user rights categories.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StringCollection GetCategories()

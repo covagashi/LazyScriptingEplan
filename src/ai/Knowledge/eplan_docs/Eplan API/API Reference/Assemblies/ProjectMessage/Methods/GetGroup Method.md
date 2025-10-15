@@ -9,7 +9,7 @@ Returns the region associated with the message.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override IMessage.Region GetGroup()

@@ -9,7 +9,7 @@ Gets all schemes for working sections.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[] AvailableSchemes {get;}

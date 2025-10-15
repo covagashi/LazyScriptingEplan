@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [MoveNext](topic750.html) | Moves to the next element in the collection. |
 | Public Method | [Reset](topic751.html) | Starts and goes to the first element in the collection. |
 
-[Top](#top)
+

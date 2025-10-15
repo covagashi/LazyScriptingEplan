@@ -9,7 +9,7 @@ Number of analog PLC inputs # 44081.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_SEGMENT_ANALOG_PLCINPUT_COUNT {get; set;}

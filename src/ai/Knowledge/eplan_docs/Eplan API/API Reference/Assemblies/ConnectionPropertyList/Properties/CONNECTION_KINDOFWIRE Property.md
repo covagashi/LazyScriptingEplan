@@ -9,7 +9,7 @@ Connection: Association # 31142.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_KINDOFWIRE {get; set;}

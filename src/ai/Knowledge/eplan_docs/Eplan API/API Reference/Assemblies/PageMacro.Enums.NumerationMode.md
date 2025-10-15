@@ -9,7 +9,7 @@ This enumeration specifies insertion mode, when inserting a macro via the Eplan.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum PageMacro.Enums.NumerationMode : System.Enum

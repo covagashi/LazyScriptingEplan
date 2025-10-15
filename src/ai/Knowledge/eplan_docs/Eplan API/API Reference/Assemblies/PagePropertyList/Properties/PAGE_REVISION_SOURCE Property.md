@@ -9,7 +9,7 @@ Origin # 11084.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_REVISION_SOURCE {get; set;}

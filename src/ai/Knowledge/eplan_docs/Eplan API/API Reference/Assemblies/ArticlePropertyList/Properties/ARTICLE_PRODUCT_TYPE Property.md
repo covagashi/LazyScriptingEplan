@@ -9,7 +9,7 @@ Product type # 26058.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PRODUCT_TYPE {get; set;}

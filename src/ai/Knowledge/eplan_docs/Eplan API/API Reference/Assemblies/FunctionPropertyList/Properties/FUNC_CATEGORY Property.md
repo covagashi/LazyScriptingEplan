@@ -9,7 +9,7 @@ Function definition: Category # 20115.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CATEGORY {get; set;}

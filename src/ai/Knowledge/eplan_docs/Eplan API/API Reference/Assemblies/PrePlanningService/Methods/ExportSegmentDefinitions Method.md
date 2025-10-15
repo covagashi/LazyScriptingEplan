@@ -9,7 +9,7 @@ Exports all segment definitions from project to file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExportSegmentDefinitions( 

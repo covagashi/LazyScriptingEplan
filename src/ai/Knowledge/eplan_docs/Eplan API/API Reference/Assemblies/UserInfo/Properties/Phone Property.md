@@ -9,7 +9,7 @@ Get the phone number of the User.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Phone {get;}

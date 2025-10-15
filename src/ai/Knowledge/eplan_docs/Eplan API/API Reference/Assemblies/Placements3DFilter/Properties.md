@@ -16,4 +16,4 @@ Public Properties
 | Public Property | [Parent](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placements3DFilter~Parent.html) | Sets the [Eplan.EplApi.DataModel.E3D.Placement3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D.html) for which all children will be found. |
 | Public Property | [Recursive](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placements3DFilter~Recursive.html) | Gets a value indicating whether [DMObjectsFinder](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DMObjectsFinder.html) search for children recursively traversing from parent down. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Volume capacity # 26323.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_CAPACITY( 

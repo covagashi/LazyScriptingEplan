@@ -9,7 +9,7 @@ Verifies whether the main node (COMPANY / STATION / USER) of the specified setti
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsMainNodeReadOnly( 

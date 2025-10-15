@@ -9,7 +9,7 @@ A single component of the symbolic address can be entered at structure segments 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SymbolicAddress {get; set;}

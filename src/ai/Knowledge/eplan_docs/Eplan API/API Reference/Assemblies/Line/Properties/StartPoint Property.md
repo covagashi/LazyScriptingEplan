@@ -9,7 +9,7 @@ Returns Line's start point.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD StartPoint {get; set;}

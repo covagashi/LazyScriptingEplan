@@ -9,7 +9,7 @@ Connection index # 31078.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_CONNECTION_INDEX {get; set;}

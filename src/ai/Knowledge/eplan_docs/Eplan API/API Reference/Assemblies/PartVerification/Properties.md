@@ -16,4 +16,4 @@ Public Properties
 | Public Property | [VerificationPermission](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PartVerification~VerificationPermission.html) |  |
 | Public Property | [VerificationState](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.PartVerification~VerificationState.html) | The VerificationState determines the actual adjusted check type whereas the permission determines what state is theoretically allowed at most. |
 
-[Top](#top)
+

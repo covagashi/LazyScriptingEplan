@@ -9,7 +9,7 @@ removes automatically created cables and connection definition points. Automatic
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DeleteAutoCable( 

@@ -9,7 +9,7 @@ Inserts a page macro into project. User can specify which pages can be overwritt
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] PageMacro( 

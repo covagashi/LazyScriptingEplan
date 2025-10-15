@@ -9,7 +9,7 @@ The LambdaD
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double LambdaD {get; set;}

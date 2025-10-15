@@ -9,7 +9,7 @@ Category of this property definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public UserDefinedPropertyDefinition.Enums.CategoryType Category {get; set;}

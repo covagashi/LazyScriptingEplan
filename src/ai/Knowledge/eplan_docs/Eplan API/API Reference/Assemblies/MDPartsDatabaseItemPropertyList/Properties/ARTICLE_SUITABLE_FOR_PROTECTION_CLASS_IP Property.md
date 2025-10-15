@@ -9,7 +9,7 @@ Suitable for degree of protection (IP) # 26358.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SUITABLE_FOR_PROTECTION_CLASS_IP {get; set;}

@@ -9,7 +9,7 @@ Identificators of properties owned by MDSymbolVariant class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.MDSymbolVariant : System.Enum

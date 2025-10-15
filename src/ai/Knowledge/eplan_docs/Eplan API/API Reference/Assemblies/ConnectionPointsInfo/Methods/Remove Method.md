@@ -9,7 +9,7 @@ Removes the connection points info from the [Project](Eplan.EplApi.DataModelu~Ep
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Remove()

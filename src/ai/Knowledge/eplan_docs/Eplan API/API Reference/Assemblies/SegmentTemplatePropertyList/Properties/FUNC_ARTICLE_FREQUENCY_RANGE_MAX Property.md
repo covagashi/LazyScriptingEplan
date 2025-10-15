@@ -9,7 +9,7 @@ Frequency range, min. # 26333.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_FREQUENCY_RANGE_MIN( 

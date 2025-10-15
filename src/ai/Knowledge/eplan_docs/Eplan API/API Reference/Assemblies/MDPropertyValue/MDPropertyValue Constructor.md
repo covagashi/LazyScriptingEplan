@@ -9,7 +9,7 @@ Default constructor. Creates a MDPropertyValue object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue()

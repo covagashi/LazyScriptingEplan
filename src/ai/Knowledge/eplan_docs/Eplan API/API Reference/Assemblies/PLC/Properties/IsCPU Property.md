@@ -9,7 +9,7 @@ Gets or sets value of CPU flag.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsCPU {get; set;}

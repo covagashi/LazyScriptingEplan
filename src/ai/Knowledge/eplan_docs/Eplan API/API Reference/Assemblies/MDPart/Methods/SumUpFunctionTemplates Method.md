@@ -9,7 +9,7 @@ For assemblies and modules, sums up the function templates. This method works on
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SumUpFunctionTemplates()

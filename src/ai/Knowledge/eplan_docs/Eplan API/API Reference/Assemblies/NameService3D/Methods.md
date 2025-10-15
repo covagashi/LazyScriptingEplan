@@ -20,4 +20,4 @@ Public Methods
 | Public Methodstatic (Shared in Visual Basic) | [RenameFunction](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.NameService3D~RenameFunction.html) | Changes the full names of the function and its children. |
 | Public Methodstatic (Shared in Visual Basic) | [SetName](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.NameService3D~SetName.html) | Sets a default device tag to the function. |
 
-[Top](#top)
+

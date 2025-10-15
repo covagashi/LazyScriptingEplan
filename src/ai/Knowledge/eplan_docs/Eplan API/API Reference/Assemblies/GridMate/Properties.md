@@ -30,4 +30,4 @@ Public Properties
 | Public Property | [StartPositionY](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.GridMate~StartPositionY.html) | Start position in Y direction |
 | Public Property | [Transformation](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~Transformation.html) | Position and rotation relative to the parent placement represented by transformation matrix. (Inherited from [Eplan.EplApi.DataModel.E3D.Mate](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate.html)) |
 
-[Top](#top)
+

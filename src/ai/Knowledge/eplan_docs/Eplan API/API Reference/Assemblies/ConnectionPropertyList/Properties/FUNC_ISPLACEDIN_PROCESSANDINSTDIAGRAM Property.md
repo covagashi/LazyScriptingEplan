@@ -9,7 +9,7 @@ Function exists with 'P&I diagram' representation type # 20474.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ISPLACEDIN_PROCESSANDINSTDIAGRAM {get; set;}

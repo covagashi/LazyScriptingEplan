@@ -9,7 +9,7 @@ Gets/Sets the part number that was set to this filter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PartNr {get; set;}

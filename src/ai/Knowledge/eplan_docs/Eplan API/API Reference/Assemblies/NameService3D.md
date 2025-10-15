@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class NameService3D
@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [NameService3D Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.NameService3D~_ctor.html) | Constructor. Creates a NameService3D object. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -48,4 +48,4 @@ Public Methods
 | Public Methodstatic (Shared in Visual Basic) | [RenameFunction](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.NameService3D~RenameFunction.html) | Changes the full names of the function and its children. |
 | Public Methodstatic (Shared in Visual Basic) | [SetName](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.NameService3D~SetName.html) | Sets a default device tag to the function. |
 
-[Top](#top)
+

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class SymbolReference.GraphicalConnection
@@ -30,4 +30,4 @@ Public Properties
 | Public Property | [StartConnectionPoint](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference+GraphicalConnection~StartConnectionPoint.html) | Returns the connection's start connection point. |
 | Public Property | [StartSymbolRef](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference+GraphicalConnection~StartSymbolRef.html) | Returns the first connected symbol. |
 
-[Top](#top)
+

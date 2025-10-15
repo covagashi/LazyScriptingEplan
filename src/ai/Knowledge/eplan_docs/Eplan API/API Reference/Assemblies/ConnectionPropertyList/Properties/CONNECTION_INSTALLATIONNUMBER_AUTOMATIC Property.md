@@ -9,7 +9,7 @@ Higher-level function number: Main identifier (automatic) # 31112.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_INSTALLATIONNUMBER_AUTOMATIC {get; set;}

@@ -9,7 +9,7 @@ DT (project structures only) # 20020.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DEVICETAG_ONLYSTRUCTURES {get; set;}

@@ -9,7 +9,7 @@ Opens the page with the name passed to strPageName and sets the cursor to the po
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void OpenPageWithNameAndXYCoords( 

@@ -9,7 +9,7 @@ Index of PlcAddress in planning objects array of plc addresses.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Index {get;}

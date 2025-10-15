@@ -9,7 +9,7 @@ The spacing end of the drilling.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double SpacingEnd {get; set;}

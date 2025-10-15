@@ -9,7 +9,7 @@ Get all accessory positions that belongs to the accessory list.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAccessoryListPosition[] AccessoryListPositions {get;}

@@ -9,7 +9,7 @@ Quantity / subset in unit of project # 31044.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_QUANTITY_IN_PROJECT_UNIT( 

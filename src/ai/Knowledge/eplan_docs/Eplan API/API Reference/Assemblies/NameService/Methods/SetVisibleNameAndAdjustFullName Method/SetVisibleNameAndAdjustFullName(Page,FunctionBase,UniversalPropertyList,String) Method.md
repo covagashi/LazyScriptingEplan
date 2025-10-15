@@ -9,7 +9,7 @@ Sets the page and sets the given visible name as the new visible name to the giv
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SetVisibleNameAndAdjustFullName( 

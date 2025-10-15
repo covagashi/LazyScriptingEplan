@@ -9,7 +9,7 @@ User-defined structure (sub-identifier 2): Description # 1632.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_USERDEFINED_SUB2_DESCR {get; set;}

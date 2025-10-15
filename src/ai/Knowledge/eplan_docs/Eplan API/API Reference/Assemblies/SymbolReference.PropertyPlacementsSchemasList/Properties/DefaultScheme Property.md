@@ -9,7 +9,7 @@ Property to get or set a custom property placement scheme (property arrangement)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolReference.PropertyPlacementsSchema DefaultScheme {get; set;}

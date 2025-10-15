@@ -9,7 +9,7 @@ Connection point cross-section / diameter # 20295.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CONNECTIONCROSSSECTIONS( 

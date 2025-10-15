@@ -16,7 +16,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Property")]
@@ -75,7 +75,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ProjectPropertyList Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectPropertyList~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -629,7 +629,7 @@ Public Properties
 | Public Property | [PROPUSER\_LAST\_USERPHONE](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectPropertyList~PROPUSER_LAST_USERPHONE().html) | Last editor: Phone # 3012. |
 | Public Property | [SUBPROJECT\_NUMBER](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectPropertyList~SUBPROJECT_NUMBER().html) | Subproject number # 25101. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -640,4 +640,4 @@ Public Methods
 | Public Method | [Exists](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ProjectPropertyList~Exists.html) | Overloaded. Checks property existence for used obiect. |
 | Public Method | [getPropList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList~getPropList.html) | Internal method. (Inherited from [Eplan.EplApi.DataModel.UniversalPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList.html)) |
 
-[Top](#top)
+

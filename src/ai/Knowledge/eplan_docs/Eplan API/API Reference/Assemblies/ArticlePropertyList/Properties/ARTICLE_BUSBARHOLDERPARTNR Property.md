@@ -9,7 +9,7 @@ Busbar support: Part number # 22204.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_BUSBARHOLDERPARTNR {get; set;}

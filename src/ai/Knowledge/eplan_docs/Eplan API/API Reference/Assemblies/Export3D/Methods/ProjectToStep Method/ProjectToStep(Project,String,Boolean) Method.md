@@ -9,7 +9,7 @@ Exports project into files in STEP format.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ProjectToStep( 

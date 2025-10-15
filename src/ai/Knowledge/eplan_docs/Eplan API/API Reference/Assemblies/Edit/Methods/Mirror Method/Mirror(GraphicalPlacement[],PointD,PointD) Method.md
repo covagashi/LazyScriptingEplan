@@ -9,7 +9,7 @@ Moves objects to its mirror position.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Mirror( 

@@ -9,7 +9,7 @@ Gets/sets the flag which corresponds to "Do not translate automatically" checkbo
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsAutomaticallyTranslated {get; set;}

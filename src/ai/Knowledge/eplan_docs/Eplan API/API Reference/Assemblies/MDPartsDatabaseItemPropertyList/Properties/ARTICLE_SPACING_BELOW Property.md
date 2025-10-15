@@ -9,7 +9,7 @@ Mounting clearance Height: Below # 22155.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SPACING_BELOW {get; set;}

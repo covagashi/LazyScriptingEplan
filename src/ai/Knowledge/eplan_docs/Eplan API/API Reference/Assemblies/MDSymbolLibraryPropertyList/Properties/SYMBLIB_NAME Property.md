@@ -9,7 +9,7 @@ Symbol library # 15000.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMBLIB_NAME {get; set;}

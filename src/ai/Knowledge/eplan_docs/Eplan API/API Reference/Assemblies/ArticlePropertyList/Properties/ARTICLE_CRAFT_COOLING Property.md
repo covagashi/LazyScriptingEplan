@@ -9,7 +9,7 @@ Trade 'Cooling' # 22137.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CRAFT_COOLING {get; set;}

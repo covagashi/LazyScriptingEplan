@@ -9,7 +9,7 @@ Returns or sets the object of a persistent [PropertyValue](Eplan.EplApi.DataMode
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue this[ 

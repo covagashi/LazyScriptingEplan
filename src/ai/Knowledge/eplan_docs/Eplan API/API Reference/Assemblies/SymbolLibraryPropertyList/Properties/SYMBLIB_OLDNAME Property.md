@@ -9,7 +9,7 @@ Name of original symbol library # 15098.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMBLIB_OLDNAME {get; set;}

@@ -9,7 +9,7 @@ The grid size in millimeters. p.e. "4#" means 4 times grid size
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double GridSize {get; set;}

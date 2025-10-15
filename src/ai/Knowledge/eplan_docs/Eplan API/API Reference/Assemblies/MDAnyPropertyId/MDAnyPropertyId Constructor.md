@@ -9,7 +9,7 @@ Default constructor. Creates MDAnyPropertyId object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAnyPropertyId()

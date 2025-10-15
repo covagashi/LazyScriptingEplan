@@ -9,7 +9,7 @@ Defines for which event the [IEplanEvents](Eplan.EplApi.AFu~Eplan.EplApi.Applica
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetEvent( 

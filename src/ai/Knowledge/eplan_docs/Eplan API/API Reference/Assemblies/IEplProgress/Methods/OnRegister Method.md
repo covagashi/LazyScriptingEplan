@@ -9,7 +9,7 @@ Register the progress
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool OnRegister( 

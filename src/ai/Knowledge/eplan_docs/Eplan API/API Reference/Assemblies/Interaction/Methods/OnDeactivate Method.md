@@ -9,7 +9,7 @@ Is called after start of a new interaction with same or higher priority. In this
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void OnDeactivate()

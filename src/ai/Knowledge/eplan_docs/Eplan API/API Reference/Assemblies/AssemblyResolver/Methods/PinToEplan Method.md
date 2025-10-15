@@ -9,7 +9,7 @@ Pin an offline application to an EPLAN application. When the EPLAN product varia
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void PinToEplan()

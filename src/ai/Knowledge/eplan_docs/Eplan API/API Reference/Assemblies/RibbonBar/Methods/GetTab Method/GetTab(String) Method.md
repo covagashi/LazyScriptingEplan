@@ -9,7 +9,7 @@ Returns tab by name
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonTab GetTab( 

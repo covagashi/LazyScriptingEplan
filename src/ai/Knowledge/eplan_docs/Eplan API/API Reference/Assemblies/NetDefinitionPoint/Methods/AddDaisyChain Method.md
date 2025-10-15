@@ -9,7 +9,7 @@ Creates new DaisyChain object
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DaisyChain AddDaisyChain( 

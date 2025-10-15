@@ -9,7 +9,7 @@ Gets the tooltips of the object as can be seen in the GED
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Tooltip {get;}

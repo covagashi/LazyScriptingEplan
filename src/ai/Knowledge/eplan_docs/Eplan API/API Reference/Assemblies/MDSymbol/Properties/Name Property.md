@@ -9,7 +9,7 @@ Returns the Name of the Symbol.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get; set;}

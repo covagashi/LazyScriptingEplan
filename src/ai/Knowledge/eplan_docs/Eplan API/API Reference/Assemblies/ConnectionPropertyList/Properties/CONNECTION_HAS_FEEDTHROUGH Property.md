@@ -9,7 +9,7 @@ Mechanical feedthroughs available # 31165.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_HAS_FEEDTHROUGH {get; set;}

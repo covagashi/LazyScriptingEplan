@@ -9,7 +9,7 @@ Gets/Sets the actual visibility state of the function's graphical representation
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsVisible {get; set;}

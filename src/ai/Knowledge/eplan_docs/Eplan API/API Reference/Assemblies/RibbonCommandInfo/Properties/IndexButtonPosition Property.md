@@ -9,7 +9,7 @@ Property to get or set the position index of the button. Optional parameter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int IndexButtonPosition {get; set;}

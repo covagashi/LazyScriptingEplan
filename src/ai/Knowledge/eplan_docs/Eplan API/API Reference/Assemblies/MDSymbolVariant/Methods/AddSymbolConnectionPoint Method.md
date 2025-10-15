@@ -9,7 +9,7 @@ Adds a new connection point to the symbol variant.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDSymbolConnectionPoint AddSymbolConnectionPoint()

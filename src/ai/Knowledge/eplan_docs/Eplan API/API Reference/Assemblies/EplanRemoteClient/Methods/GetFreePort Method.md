@@ -9,7 +9,7 @@ Returns first free port which can act as a tunnel for remote server.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool GetFreePort( 

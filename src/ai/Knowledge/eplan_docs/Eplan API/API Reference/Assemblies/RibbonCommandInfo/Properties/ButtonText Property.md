@@ -9,7 +9,7 @@ Property to get or set button text.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ButtonText {get; set;}

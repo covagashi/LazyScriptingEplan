@@ -9,7 +9,7 @@ Mode for deleting wire designations and connection definition points
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ConnectionService.Deletion : System.Enum

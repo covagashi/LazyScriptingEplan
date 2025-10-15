@@ -9,7 +9,7 @@ Adds a new net connection point and creates connection
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddConnectionPoint( 

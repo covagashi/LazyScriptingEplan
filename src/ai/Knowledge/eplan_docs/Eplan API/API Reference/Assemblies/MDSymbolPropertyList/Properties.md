@@ -79,4 +79,4 @@ Public Properties
 | Public Property | [SYMBLIB\_NAME](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolPropertyList~SYMBLIB_NAME().html) | Symbol library # 15000. |
 | Public Property | [SYMBOL\_TRANSFORMATION\_POINT](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolPropertyList~SYMBOL_TRANSFORMATION_POINT(Int32).html) | Transformation point # 16045. |
 
-[Top](#top)
+

@@ -19,4 +19,4 @@ Public Methods
 | Public Method | [ToDisplay](Eplan.EplApi.Baseu~Eplan.EplApi.Base.UnitParser~ToDisplay.html) | Convert the value to a new unit (of parameterForConversion) of this group and make a display string out of it. |
 | Public Method | [ValueToUnit](Eplan.EplApi.Baseu~Eplan.EplApi.Base.UnitParser~ValueToUnit.html) | Convert the value to a new unit (of parameterForConversion) of this group. |
 
-[Top](#top)
+

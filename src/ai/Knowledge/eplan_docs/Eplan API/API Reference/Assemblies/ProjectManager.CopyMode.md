@@ -9,7 +9,7 @@ Enum used in CopyProject() method. Determines what should be copied.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ProjectManager.CopyMode : System.Enum

@@ -9,7 +9,7 @@ Symbolic address (single component) # 44053.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_SYMBOLICADDRESS_PART {get; set;}

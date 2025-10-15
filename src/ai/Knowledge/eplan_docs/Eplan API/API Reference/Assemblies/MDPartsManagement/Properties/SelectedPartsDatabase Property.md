@@ -9,7 +9,7 @@ The parts database that is currently used.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartsDatabase SelectedPartsDatabase {get; set;}

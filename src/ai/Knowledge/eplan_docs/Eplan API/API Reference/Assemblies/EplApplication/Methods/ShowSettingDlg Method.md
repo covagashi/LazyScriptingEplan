@@ -9,7 +9,7 @@ Displays the Eplan settings dialog.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ShowSettingDlg()

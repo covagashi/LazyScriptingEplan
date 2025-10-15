@@ -9,7 +9,7 @@ The connection dimension of the relay template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConnectionDimension {get; set;}

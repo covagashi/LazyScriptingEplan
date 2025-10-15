@@ -9,7 +9,7 @@ Starts a new segment. All parallel segments should result in a sum of 100%.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void BeginPart( 

@@ -9,7 +9,7 @@ Replaces text in a searched objects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Replace( 

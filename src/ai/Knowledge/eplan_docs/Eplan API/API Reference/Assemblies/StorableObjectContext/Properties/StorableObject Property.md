@@ -9,7 +9,7 @@ Set or get a Storable Object for this context
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject StorableObject {get; set;}

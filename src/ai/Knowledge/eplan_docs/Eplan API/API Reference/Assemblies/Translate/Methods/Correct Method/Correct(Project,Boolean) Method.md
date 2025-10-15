@@ -9,7 +9,7 @@ Correct translations in project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Correct( 

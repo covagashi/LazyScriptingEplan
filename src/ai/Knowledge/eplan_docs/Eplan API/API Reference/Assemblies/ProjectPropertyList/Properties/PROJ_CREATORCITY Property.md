@@ -9,7 +9,7 @@ Creator: City # 10238.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATORCITY {get; set;}

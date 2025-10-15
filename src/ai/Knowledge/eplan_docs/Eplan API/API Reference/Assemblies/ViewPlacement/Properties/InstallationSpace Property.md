@@ -9,7 +9,7 @@ InstallationSpace from which objects will be displayed in ViewPlacement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InstallationSpace InstallationSpace {get; set;}

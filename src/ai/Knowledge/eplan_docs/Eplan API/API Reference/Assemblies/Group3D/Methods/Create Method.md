@@ -9,7 +9,7 @@ Creates a new Group3D object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

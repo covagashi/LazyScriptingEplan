@@ -9,7 +9,7 @@ Thermal design: Simultaneity factor # 10312.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJECT_POWERDISSIPATION_SIMULTANEITYFACTOR {get; set;}

@@ -9,7 +9,7 @@ Suitable for PCF / HCS fiber 230 µm # 26357.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SUITABLE_FOR_PCF_HCS_FIBRE_230_uM {get; set;}

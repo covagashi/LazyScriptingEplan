@@ -9,7 +9,7 @@ Control signal: Type # 26583.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CONTROL_SIGNAL_TYPE {get; set;}

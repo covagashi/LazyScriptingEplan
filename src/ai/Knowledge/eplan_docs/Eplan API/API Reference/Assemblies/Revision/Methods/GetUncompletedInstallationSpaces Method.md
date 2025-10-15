@@ -9,7 +9,7 @@ Returns an array of modified and not completed installation spaces in the curren
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InstallationSpace[] GetUncompletedInstallationSpaces( 

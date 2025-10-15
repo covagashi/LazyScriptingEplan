@@ -9,7 +9,7 @@ Sets the [Page](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Page.html) that [
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override Page Page {set;}

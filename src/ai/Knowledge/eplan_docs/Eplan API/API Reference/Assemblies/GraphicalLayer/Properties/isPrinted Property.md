@@ -9,7 +9,7 @@ Specifies, if the layer is printed
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool isPrinted {get; set;}

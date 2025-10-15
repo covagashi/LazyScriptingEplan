@@ -9,7 +9,7 @@ checks if message has been marked as solved
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool GetDone()

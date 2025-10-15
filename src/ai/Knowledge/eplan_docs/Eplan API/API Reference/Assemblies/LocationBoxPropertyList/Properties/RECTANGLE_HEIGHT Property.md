@@ -9,7 +9,7 @@ Height # 20222.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue RECTANGLE_HEIGHT {get; set;}

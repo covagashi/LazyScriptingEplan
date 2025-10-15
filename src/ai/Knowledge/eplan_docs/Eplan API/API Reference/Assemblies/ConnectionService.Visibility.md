@@ -9,7 +9,7 @@ Supported modes for changing visibility of designations.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ConnectionService.Visibility : System.Enum

@@ -9,7 +9,7 @@ Copies external files into project images directory
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void StoreExternalFilesOfCurrentVariant()

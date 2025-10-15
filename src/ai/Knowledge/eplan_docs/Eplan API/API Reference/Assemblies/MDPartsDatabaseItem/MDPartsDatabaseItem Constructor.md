@@ -9,7 +9,7 @@ constructor of MDPartsDatabaseItem
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartsDatabaseItem()

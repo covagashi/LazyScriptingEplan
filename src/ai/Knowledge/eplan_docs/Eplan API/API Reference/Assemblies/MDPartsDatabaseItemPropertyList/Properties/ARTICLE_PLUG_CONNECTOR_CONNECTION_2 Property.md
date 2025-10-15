@@ -9,7 +9,7 @@ Plug-in connector (connection 2) # 26577.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PLUG_CONNECTOR_CONNECTION_2 {get; set;}

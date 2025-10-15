@@ -9,7 +9,7 @@ The angle of the drilling
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Angle {get; set;}

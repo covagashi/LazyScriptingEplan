@@ -9,7 +9,7 @@ Parametric rules # 19100.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTANCE_PARAMETRICRULE {get; set;}

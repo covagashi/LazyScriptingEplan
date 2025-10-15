@@ -9,7 +9,7 @@ Rotation speed, min. # 26257.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SPEED_MIN {get; set;}

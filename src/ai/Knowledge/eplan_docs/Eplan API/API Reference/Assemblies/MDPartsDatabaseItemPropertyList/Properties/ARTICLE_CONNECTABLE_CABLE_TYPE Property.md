@@ -9,7 +9,7 @@ Connectable cable type # 26182.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CONNECTABLE_CABLE_TYPE {get; set;}

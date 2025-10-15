@@ -9,7 +9,7 @@ Returns [Eplan.EplApi.DataModel.Graphics.PlaceHolder](Eplan.EplApi.DataModelu~Ep
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlaceHolder[] GetPlaceholdersWithFilterScheme( 

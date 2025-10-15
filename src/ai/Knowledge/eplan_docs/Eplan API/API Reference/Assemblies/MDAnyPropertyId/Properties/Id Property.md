@@ -9,7 +9,7 @@ Integer id of this property.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Id {get; set;}

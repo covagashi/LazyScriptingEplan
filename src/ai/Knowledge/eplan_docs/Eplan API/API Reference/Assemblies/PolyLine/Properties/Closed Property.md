@@ -9,7 +9,7 @@ True, if the poly line is closed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Closed {get; set;}

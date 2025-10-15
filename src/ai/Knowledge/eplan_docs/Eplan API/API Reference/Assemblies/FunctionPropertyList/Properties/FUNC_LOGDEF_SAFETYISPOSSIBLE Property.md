@@ -9,7 +9,7 @@ Connection point logic: Intrinsic safety possible # 20323.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_LOGDEF_SAFETYISPOSSIBLE( 

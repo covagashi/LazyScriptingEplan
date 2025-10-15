@@ -9,7 +9,7 @@ Sets [Eplan.EplApi.Base.PointD](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD.html
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue Set( 

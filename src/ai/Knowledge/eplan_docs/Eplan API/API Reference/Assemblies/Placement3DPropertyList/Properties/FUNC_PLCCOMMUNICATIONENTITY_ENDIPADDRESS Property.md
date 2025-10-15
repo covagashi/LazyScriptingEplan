@@ -9,7 +9,7 @@ End IP address # 20169.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCOMMUNICATIONENTITY_ENDIPADDRESS( 

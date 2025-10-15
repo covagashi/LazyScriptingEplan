@@ -9,7 +9,7 @@ Restores information stored in template to planning object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RevertToTemplate()

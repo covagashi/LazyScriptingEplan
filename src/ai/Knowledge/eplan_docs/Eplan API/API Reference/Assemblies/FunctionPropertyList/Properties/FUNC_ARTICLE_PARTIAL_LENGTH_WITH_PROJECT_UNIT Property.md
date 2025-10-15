@@ -9,7 +9,7 @@ Subset / length with unit of project # 31043.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_PARTIAL_LENGTH_WITH_PROJECT_UNIT( 

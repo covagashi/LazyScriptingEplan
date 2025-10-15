@@ -9,7 +9,7 @@ Updates planning object's macro placeholder value sets with data from macro (e.g
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void UpdateFromMacro()

@@ -9,7 +9,7 @@ Wire termination processing (Eplan Cabinet, default) # 22947.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_TERMINAL_TYPEDEFAULT {get; set;}

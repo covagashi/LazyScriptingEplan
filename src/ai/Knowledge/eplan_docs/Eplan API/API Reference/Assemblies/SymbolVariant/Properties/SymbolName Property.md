@@ -9,7 +9,7 @@ Returns number of the symbol in the library (unique for library) assigned to the
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SymbolName {get;}

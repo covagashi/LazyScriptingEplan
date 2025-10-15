@@ -9,7 +9,7 @@ Gets layer id of layer assigned to this object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short LayerId {get;}

@@ -21,4 +21,4 @@ Public Methods
 | Public Method | [OnRegister](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification~OnRegister.html) | Overloaded. If true, all messages with the same region and message id are removed after OnStartInspection is called. (Inherited from [Eplan.EplApi.EServices.Verification](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification.html)) |
 | Public Method | [OnStartInspection](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification~OnStartInspection.html) | (Inherited from [Eplan.EplApi.EServices.Verification](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Verification.html)) |
 
-[Top](#top)
+

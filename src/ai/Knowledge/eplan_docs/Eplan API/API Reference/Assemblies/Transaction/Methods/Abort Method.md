@@ -9,7 +9,7 @@ Aborts the transaction. Cannot be called more than one time for given transactio
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Abort()

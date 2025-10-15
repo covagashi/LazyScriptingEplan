@@ -9,7 +9,7 @@ State (substance) # 31081.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_STATE {get; set;}

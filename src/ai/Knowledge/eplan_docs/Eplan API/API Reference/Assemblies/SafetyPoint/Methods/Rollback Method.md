@@ -9,7 +9,7 @@ All recorded changed (if any) will be undone without redo.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Rollback()

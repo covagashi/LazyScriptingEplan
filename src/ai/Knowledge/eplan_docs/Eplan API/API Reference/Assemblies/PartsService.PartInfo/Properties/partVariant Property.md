@@ -9,7 +9,7 @@ Gets/Sets the part variant of the Article;
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string partVariant {get; set;}

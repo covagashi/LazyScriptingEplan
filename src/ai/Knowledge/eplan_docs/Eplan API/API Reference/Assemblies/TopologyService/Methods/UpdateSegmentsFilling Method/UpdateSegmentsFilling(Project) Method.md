@@ -9,7 +9,7 @@ Calculates and sets value of property CABLINGSEGMENT\_FILLING for all segments i
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool UpdateSegmentsFilling( 

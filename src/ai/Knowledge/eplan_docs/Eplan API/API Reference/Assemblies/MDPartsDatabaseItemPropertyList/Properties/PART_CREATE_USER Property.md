@@ -9,7 +9,7 @@ Creator # 22982.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_CREATE_USER {get; set;}

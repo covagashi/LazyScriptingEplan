@@ -30,4 +30,4 @@ Public Properties
 | Public Property | [TemplateGroup](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDFunctionTemplatePosition~TemplateGroup.html) | The template group of the function template (Inherited from [Eplan.EplApi.MasterData.MDFunctionTemplatePosition](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDFunctionTemplatePosition.html)) |
 | Public Property | [WireNumOrColor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDCableTemplatePosition~WireNumOrColor.html) | It defines the Cable property Wirenumber or Color |
 
-[Top](#top)
+

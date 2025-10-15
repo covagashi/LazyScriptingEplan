@@ -27,4 +27,4 @@ Public Properties
 | Public Property | [RevisionMarker](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Revisions.Comparison~RevisionMarker.html) | Name of marker for differences found by a project comparison. |
 | Public Property | [TypeIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TypeIdentifier.html) | Returns the type of the object as number. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 
-[Top](#top)
+

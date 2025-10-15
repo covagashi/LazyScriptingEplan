@@ -9,7 +9,7 @@ Get the email address of the User.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string EMail {get;}

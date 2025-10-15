@@ -9,7 +9,7 @@ Returns description of the command that is visible in a tooltip
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Description {get; set;}

@@ -9,7 +9,7 @@ Distance of the pinch point # 22287.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DISTANCE_WIRE_HOLD_BACK_NOSE {get; set;}

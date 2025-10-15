@@ -9,7 +9,7 @@ Gets system messages
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SysMessagesCollection SysMessages {get; set;}

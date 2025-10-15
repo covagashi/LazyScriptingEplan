@@ -9,7 +9,7 @@ The TMT1 (mission time; proof-test intervall)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double TMT1 {get; set;}

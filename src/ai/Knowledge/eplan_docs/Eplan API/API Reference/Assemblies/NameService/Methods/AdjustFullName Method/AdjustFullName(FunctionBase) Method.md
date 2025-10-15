@@ -9,7 +9,7 @@ Evaluates for a given functionbase the full name from the visible name of the fu
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AdjustFullName( 

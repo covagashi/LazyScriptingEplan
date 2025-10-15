@@ -9,7 +9,7 @@ Kind of the bridge connection: internal, external, small, saddleslot 3, saddlesl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Terminal.Bridge.Kinds Kind

@@ -9,7 +9,7 @@ Sets the [FunctionPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.F
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetFilteredPropertyList( 

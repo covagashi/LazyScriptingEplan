@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDPartsDatabase
@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDPartsDatabase Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabase~_ctor(String).html) | Opens parts database |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -56,7 +56,7 @@ Public Properties
 | Public Property | [UserDefinedPropertyDefinitions](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabase~UserDefinedPropertyDefinitions.html) | Returns user-defined property definitions array |
 | Public Property | [Version](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabase~Version.html) | Returns the parts database version |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -108,4 +108,4 @@ Public Methods
 | Public Method | [Translate](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabase~Translate.html) | Translates all multilingual texts in an article database |
 | Public Method | [UpdateScheme](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabase~UpdateScheme.html) | Updates the scheme of the database. |
 
-[Top](#top)
+

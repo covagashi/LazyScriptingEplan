@@ -9,7 +9,7 @@ Subtrade 'Mechanics' # 22094.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SUBCRAFT_MECHANICS( 

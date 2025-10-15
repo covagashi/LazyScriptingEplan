@@ -9,7 +9,7 @@ Gets or sets the offset from the first dimension, meaning the distance of the fi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double OffsetFromFirstExtensionLine {get; set;}

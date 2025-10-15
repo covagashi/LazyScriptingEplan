@@ -9,7 +9,7 @@ Do not use main terminals # 20229.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_STRIP_DONT_USE_MAINTERMINAL {get; set;}

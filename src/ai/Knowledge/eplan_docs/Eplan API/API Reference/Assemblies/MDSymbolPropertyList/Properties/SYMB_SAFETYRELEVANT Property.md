@@ -9,7 +9,7 @@ Safety function # 16044.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_SAFETYRELEVANT {get; set;}

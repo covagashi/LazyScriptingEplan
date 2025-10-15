@@ -9,7 +9,7 @@ Compression for TIFF format
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Export.Compression : System.Enum

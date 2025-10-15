@@ -9,7 +9,7 @@ Net name # 33007.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue POTENTIAL_NETNAME {get; set;}

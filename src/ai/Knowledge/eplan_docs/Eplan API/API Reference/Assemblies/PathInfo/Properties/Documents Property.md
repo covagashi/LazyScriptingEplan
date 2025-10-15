@@ -9,7 +9,7 @@ Returns default Documents directory.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Documents {get;}

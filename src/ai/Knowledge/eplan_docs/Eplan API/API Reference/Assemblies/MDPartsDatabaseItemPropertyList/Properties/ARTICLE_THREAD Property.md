@@ -9,7 +9,7 @@ Thread # 22127.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_THREAD {get; set;}

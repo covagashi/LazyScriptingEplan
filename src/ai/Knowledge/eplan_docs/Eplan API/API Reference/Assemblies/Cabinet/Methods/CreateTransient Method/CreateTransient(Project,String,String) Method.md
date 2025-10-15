@@ -9,7 +9,7 @@ Creates a transient and not placed Cabinet object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateTransient( 

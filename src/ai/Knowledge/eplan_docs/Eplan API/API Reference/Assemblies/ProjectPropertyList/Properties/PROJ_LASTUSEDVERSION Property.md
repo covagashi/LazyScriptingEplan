@@ -9,7 +9,7 @@ Eplan version of the last modification or update # 10043.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_LASTUSEDVERSION {get; set;}

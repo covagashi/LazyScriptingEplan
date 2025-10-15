@@ -9,7 +9,7 @@ Sets internal string representation with format validation.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string InternalString {get; set;}

@@ -9,7 +9,7 @@ Called by EPLAN when the message text should be shown.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 string GetMessageText()

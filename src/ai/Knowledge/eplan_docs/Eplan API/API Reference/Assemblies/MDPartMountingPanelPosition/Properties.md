@@ -19,4 +19,4 @@ Public Properties
 | Public Property | [Y](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartMountingPanelPosition~Y.html) | The Y position of the referenced mounting panel. |
 | Public Property | [Z](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartMountingPanelPosition~Z.html) | The Z position of the referenced mounting panel. |
 
-[Top](#top)
+

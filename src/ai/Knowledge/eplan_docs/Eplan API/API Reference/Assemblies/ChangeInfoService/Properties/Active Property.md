@@ -9,7 +9,7 @@ Activate or deactivate change info handling.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Active {set;}

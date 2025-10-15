@@ -9,7 +9,7 @@ Creates the Cabinet object on an InstallationSpace.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

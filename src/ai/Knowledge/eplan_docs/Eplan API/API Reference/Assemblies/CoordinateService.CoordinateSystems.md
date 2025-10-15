@@ -9,7 +9,7 @@ Enumeration of coordinate systems
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum CoordinateService.CoordinateSystems : System.Enum

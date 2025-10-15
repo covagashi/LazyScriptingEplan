@@ -9,7 +9,7 @@ Is called after end of a dragging operation.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual RequestCode OnEndDrag( 

@@ -9,7 +9,7 @@ Array of [Terminal.ConnectionInfo](Eplan.EplApi.DataModelu~Eplan.EplApi.DataMode
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Terminal.ConnectionInfo[] ExternalConnections {get;}

@@ -9,7 +9,7 @@ Places the function onto the given page, in the given location
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function Place( 

@@ -9,7 +9,7 @@ Date and time of grace period start.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DateTimeOffset GracePeriodStartTime {get; set;}

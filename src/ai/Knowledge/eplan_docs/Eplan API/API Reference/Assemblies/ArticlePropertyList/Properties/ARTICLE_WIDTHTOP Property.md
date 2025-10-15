@@ -9,7 +9,7 @@ Width top # 22198.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_WIDTHTOP {get; set;}

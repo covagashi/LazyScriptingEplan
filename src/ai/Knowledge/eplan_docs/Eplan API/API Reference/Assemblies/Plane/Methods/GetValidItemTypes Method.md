@@ -9,7 +9,7 @@ Returns array of Additional Types that are valid for Plane.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ItemType[] GetValidItemTypes()

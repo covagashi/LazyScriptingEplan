@@ -9,7 +9,7 @@ Import Identifier
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MDPartsDatabase.ImportIdentifier : System.Enum

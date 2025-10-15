@@ -9,7 +9,7 @@ Constructor with custom message text.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public HEServicesBase( 

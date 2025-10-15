@@ -9,7 +9,7 @@ Structure format for pages # 10050.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_PAGE {get; set;}

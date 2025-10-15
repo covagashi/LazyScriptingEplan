@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Placement3D.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Placement3D.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Placement3D+Enums~_ctor.html) |  |
 
-[Top](#top)
+

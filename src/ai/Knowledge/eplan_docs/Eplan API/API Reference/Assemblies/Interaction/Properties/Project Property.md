@@ -9,7 +9,7 @@ Project, the editor belongs to.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Project Project {get;}

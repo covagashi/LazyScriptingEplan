@@ -9,7 +9,7 @@ Constructor to create not-placed Connection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Connection( 

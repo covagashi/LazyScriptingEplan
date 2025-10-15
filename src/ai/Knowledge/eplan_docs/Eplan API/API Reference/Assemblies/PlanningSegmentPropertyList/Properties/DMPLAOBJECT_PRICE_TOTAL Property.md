@@ -9,7 +9,7 @@ Total calculation value # 44019.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PRICE_TOTAL {get; set;}

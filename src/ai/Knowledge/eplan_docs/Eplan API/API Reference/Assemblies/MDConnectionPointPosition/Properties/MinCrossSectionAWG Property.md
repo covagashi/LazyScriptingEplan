@@ -9,7 +9,7 @@ The minimal wire cross section AWG of the connection point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string MinCrossSectionAWG {get; set;}

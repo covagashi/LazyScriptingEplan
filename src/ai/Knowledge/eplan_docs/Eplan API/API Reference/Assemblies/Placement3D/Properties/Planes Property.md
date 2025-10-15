@@ -9,7 +9,7 @@ Returns children of this object which are [Plane](Eplan.EplApi.DataModelu~Eplan.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Plane[] Planes {get;}

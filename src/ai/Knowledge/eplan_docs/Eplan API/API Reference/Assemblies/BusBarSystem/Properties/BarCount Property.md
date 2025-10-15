@@ -9,7 +9,7 @@ number of busbars.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int BarCount {get;}

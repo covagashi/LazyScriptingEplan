@@ -9,7 +9,7 @@ Expenditure software # 44016.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PROGRAMMINGTIME {get; set;}

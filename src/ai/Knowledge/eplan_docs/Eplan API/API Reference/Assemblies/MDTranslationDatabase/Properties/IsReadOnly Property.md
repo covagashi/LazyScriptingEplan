@@ -9,7 +9,7 @@ Returns true if database is opened in readonly mode.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsReadOnly {get;}

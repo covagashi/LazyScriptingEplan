@@ -9,7 +9,7 @@ Adds the revision markers of all deleted objects in the comparison project. Note
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddRevisionMarkersForDeletedInRevisionProject( 

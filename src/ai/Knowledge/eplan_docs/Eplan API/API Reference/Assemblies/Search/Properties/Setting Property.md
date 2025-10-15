@@ -9,7 +9,7 @@ Gets/Sets whether the specified setting of a search is enabled
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool this[ 

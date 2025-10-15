@@ -9,7 +9,7 @@ Returns the part variant associated to the message if any.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetPartVariant()

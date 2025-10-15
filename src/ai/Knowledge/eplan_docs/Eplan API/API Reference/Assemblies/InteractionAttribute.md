@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [AttributeUsage(AttributeTargets.Class)]
@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [InteractionAttribute Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionAttribute~_ctor.html) | Default constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -44,7 +44,7 @@ Public Properties
 | Public Property | [Prio](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionAttribute~Prio.html) | Priority of interaction. |
 | Public Property | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -56,4 +56,4 @@ Public Methods
 | Public Method | [IsDefaultAttribute](#) | (Inherited from [System.Attribute](#)) |
 | Public Method | [Match](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
+

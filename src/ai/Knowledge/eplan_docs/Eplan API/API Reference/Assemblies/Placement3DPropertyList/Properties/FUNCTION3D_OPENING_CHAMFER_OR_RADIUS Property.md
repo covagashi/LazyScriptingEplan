@@ -9,7 +9,7 @@ Cut-out: Radius / Chamfer distance # 36023.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_OPENING_CHAMFER_OR_RADIUS {get; set;}

@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Pen~Dispose().html) | Destructor for deterministic finalization of Pen object. |
 | Public Method | [GetHashCode](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Pen~GetHashCode.html) | Serves as the default hash function. |
 
-[Top](#top)
+

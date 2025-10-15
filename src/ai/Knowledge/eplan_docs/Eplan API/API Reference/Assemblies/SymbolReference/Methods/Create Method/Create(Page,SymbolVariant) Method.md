@@ -9,7 +9,7 @@ Creates a SymbolReference. It is placed on the page passed as a parameter, using
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Create( 

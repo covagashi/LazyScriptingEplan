@@ -18,4 +18,4 @@ Public Properties
 | Public Property | [Y](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartSupportBarPosition~Y.html) | The y position of the referenced support bar part. |
 | Public Property | [Z](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartSupportBarPosition~Z.html) | The z position of the referenced support bar part. |
 
-[Top](#top)
+

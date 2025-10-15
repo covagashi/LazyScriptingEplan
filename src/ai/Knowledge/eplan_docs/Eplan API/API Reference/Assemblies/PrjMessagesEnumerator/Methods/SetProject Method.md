@@ -9,7 +9,7 @@ initializes the enumerator for iterating over the project messages collection
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetProject( 

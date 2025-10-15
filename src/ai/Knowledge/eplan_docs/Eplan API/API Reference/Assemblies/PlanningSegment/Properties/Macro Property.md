@@ -9,7 +9,7 @@ Macro file with window or page macros, used when placing the macro.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Macro {get; set;}

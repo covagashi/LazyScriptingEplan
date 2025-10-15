@@ -9,7 +9,7 @@ Returns a string array of available formats that may be used for exporting PLC d
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[] GetAvailableFormats( 

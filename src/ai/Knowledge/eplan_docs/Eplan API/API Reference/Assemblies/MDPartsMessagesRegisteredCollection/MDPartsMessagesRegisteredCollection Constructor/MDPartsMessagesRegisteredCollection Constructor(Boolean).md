@@ -9,7 +9,7 @@ Constructor. Initializes the matching enumerator.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartsMessagesRegisteredCollection( 

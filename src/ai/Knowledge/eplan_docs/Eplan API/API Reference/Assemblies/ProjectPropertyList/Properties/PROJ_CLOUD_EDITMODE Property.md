@@ -9,7 +9,7 @@ Processing mode for the cloud # 10122.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CLOUD_EDITMODE {get; set;}

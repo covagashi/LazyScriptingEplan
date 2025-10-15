@@ -9,7 +9,7 @@ Adds [OptionGroup](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.OptionGroup.ht
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public OptionGroup AddOptionGroup( 

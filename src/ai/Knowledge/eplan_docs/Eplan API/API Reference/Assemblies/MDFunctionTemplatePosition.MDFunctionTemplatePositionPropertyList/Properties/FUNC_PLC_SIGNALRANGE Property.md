@@ -9,7 +9,7 @@ Signal range # 20388.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNC_PLC_SIGNALRANGE {get; set;}

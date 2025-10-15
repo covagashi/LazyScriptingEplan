@@ -9,7 +9,7 @@ Connection point direction of an individual connection point in the connection p
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D DirectionOfConnectionPoint {get; set;}

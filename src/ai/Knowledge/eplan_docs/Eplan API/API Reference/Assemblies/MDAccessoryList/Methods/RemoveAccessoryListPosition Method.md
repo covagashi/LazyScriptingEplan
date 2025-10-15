@@ -9,7 +9,7 @@ Removes the given AccessoryList position from the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveAccessoryListPosition( 

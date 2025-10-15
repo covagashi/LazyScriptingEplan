@@ -9,7 +9,7 @@ Macro: Eplan version # 23018.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROFILE_EPLANVERSION {get; set;}

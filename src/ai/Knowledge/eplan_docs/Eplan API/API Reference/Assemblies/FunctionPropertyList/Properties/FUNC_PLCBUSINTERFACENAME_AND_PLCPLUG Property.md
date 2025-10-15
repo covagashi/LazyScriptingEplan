@@ -9,7 +9,7 @@ Bus interface: Name (with plug designation) # 20443.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCBUSINTERFACENAME_AND_PLCPLUG {get; set;}

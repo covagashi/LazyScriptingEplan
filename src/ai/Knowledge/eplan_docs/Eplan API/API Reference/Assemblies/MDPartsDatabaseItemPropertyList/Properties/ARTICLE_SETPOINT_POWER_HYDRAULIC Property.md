@@ -9,7 +9,7 @@ Target power (hydraulic) # 26142.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SETPOINT_POWER_HYDRAULIC {get; set;}

@@ -9,7 +9,7 @@ Modification date (automatic) # 15023.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMBLIB_LASTMODIFICATIONDATE {get; set;}

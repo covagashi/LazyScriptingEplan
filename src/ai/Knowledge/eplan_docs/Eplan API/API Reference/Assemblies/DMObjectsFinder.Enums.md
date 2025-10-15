@@ -12,7 +12,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class DMObjectsFinder.Enums
@@ -25,4 +25,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [DMObjectsFinder.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.DMObjectsFinder+Enums~_ctor.html) |  |
 
-[Top](#top)
+

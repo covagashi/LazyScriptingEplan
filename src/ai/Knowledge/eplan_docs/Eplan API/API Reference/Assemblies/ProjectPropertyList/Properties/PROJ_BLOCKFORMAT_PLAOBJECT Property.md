@@ -9,7 +9,7 @@ Block property: Format (pre-planning) # 10661.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_PLAOBJECT( 

@@ -9,7 +9,7 @@ Assigns a PortType to the Pin.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Pin.PortTypes TypeOfPort {get; set;}

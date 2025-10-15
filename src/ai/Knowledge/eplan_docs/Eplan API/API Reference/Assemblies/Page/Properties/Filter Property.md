@@ -9,7 +9,7 @@ Page's property that allows to access current page's filter. It affects properti
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public FunctionsFilter Filter {get;}

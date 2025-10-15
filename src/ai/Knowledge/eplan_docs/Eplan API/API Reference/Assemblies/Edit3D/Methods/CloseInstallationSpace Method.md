@@ -9,7 +9,7 @@ Closes the Intended InstallationSpace
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CloseInstallationSpace( 

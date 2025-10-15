@@ -9,7 +9,7 @@ ProjectManager's property which returns first project from the list of opened pr
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project CurrentProject {get;}

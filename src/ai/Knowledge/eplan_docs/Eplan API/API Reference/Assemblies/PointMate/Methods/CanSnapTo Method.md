@@ -9,7 +9,7 @@ Check, if this mate can snap to targetMate
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CanSnapTo( 

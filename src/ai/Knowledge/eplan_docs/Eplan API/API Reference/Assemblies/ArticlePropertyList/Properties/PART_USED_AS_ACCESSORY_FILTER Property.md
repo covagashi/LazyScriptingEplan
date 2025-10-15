@@ -9,7 +9,7 @@ Part number in accessory # 22963.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PART_USED_AS_ACCESSORY_FILTER {get; set;}

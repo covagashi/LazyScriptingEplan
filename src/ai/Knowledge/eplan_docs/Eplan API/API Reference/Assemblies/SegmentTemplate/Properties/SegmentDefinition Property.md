@@ -9,7 +9,7 @@ Definition object of this templates.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual SegmentDefinition SegmentDefinition {get; set;}

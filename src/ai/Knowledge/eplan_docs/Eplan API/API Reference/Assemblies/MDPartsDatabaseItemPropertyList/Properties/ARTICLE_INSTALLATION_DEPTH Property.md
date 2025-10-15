@@ -9,7 +9,7 @@ Mounting depth # 22268.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_INSTALLATION_DEPTH {get; set;}

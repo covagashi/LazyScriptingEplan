@@ -9,7 +9,7 @@ Weight (packaging) # 26378.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_WEIGHT_OF_THE_PACKAGING {get; set;}

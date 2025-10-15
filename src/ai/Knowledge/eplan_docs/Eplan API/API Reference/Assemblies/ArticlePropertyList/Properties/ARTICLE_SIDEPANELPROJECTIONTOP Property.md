@@ -9,7 +9,7 @@ Overhang: Side panel top # 22165.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SIDEPANELPROJECTIONTOP {get; set;}

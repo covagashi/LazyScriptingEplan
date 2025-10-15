@@ -9,7 +9,7 @@ PLC address: Symbolic address: Group # 44087.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLCADDRESS_SYMBOLICADDRESS_GROUP( 

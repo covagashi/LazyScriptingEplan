@@ -9,7 +9,7 @@ Group number # 22044.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_GROUPNUMBER {get; set;}

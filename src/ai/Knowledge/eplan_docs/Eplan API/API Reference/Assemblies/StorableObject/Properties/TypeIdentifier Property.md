@@ -9,7 +9,7 @@ Returns the type of the object as number.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public uint TypeIdentifier {get;}

@@ -9,7 +9,7 @@ Interruption point: Description # 24810.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INTERRUPTIONPOINT_DESCRIPTION {get; set;}

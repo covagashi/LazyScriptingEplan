@@ -9,7 +9,7 @@ Opens a project in the requested mode if possible.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project OpenProject( 

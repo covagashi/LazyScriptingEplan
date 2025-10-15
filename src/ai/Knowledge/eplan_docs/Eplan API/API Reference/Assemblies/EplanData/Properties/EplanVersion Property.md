@@ -9,7 +9,7 @@ EplanVersion is the version number of the EPLAN installation, for example 1.8.6
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string EplanVersion {get; set;}

@@ -9,7 +9,7 @@ For internal use.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SelectionSet _setObjectTypes( 

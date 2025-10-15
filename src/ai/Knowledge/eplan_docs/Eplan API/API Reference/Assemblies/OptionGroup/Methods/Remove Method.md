@@ -9,7 +9,7 @@ Removes the OptionGroup.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Remove()

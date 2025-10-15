@@ -23,4 +23,4 @@ Public Methods
 | Public Method | [Write](Eplan.EplApi.Baseu~Eplan.EplApi.Base.TraceListener~Write.html) | Overloaded. Overridden. Outputs a line to the system message management. |
 | Public Method | [WriteLine](Eplan.EplApi.Baseu~Eplan.EplApi.Base.TraceListener~WriteLine.html) | Overloaded. Overridden. Outputs a line to the system message management. |
 
-[Top](#top)
+

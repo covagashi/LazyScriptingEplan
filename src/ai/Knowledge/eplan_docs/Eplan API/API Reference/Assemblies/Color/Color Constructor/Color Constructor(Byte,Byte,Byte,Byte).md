@@ -9,7 +9,7 @@ constructor Transparency (0-255).Red channel value of color (0-255).Green channe
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Color( 

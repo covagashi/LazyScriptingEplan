@@ -9,7 +9,7 @@ Gets the current element in [Eplan::EplApi::MasterData:](Eplan.EplApi.MasterData
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual object Current {get;}

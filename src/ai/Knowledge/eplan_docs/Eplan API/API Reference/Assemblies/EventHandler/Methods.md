@@ -15,4 +15,4 @@ Public Methods
 | Public Method | [RaiseEventResult](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler~RaiseEventResult.html) | For internal use only. |
 | Public Method | [SetEvent](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler~SetEvent.html) | Defines for which event the [IEplanEvents](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplanEvents.html) is raised. |
 
-[Top](#top)
+

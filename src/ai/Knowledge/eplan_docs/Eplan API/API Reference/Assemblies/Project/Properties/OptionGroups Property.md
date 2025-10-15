@@ -9,7 +9,7 @@ Returns array of [OptionGroup](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Op
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public OptionGroup[] OptionGroups {get;}

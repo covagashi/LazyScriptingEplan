@@ -9,7 +9,7 @@ PLC address: Direction # 44020.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PLCADDRESS_DIRECTION( 

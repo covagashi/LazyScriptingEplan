@@ -14,4 +14,4 @@ Public Methods
 | Public Methodstatic (Shared in Visual Basic) | [WriteBackConnectionData](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.MergeDataService~WriteBackConnectionData.html) | Writes back the data of merged connections to whose corresponding connections |
 | Public Methodstatic (Shared in Visual Basic) | [WriteBackFunctionData](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.MergeDataService~WriteBackFunctionData.html) | Writes back the data of merged functions to whose corresponding functions |
 
-[Top](#top)
+

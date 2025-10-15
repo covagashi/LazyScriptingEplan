@@ -9,7 +9,7 @@ Page in draft mode # 11076.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_REVISION_LOG_DRAFT {get; set;}

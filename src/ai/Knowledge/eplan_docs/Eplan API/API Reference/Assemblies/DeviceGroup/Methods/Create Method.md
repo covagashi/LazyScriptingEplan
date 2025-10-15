@@ -9,7 +9,7 @@ Creates a new Group object. It is placed on the page of first placement given as
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override void Create( 

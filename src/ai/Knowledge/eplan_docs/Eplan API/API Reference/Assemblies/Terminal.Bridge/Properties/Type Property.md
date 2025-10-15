@@ -9,7 +9,7 @@ A type of the bridge. Corresponds to the function definition tag of the bridge's
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Type {get;}

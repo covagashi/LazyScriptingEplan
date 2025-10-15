@@ -9,7 +9,7 @@ Quiet modes
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum QuietModes : System.Enum

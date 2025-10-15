@@ -9,7 +9,7 @@ No output to terminal / plug diagram # 20851.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_NODIAGRAM {get; set;}

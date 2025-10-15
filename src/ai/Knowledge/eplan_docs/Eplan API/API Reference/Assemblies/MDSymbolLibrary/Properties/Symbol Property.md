@@ -9,7 +9,7 @@ Index operator to get a symbol by its name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDSymbol this[ 

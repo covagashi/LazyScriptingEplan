@@ -9,7 +9,7 @@ Rack # 20427.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCTHISRACK {get; set;}

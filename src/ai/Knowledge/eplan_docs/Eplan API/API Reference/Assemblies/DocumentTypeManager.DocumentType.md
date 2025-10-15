@@ -9,7 +9,7 @@ DocumentType contains all available types of document.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum DocumentTypeManager.DocumentType : System.Enum

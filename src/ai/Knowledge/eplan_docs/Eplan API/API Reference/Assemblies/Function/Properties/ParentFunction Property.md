@@ -9,7 +9,7 @@ Gets parent function (a main function having the same identifying name or, in ca
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Function ParentFunction {get;}

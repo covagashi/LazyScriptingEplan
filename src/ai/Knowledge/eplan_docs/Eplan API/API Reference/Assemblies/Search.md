@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Setting")]
@@ -94,7 +94,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Search Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Search~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -102,7 +102,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Setting](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Search~Setting.html) | Gets/Sets whether the specified setting of a search is enabled |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -118,4 +118,4 @@ Public Methods
 | Public Method | [Project](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Search~Project.html) | Overloaded. Searches on the specified project for a search string. The search settings will influence the result. The found object will be written to the active list of results. |
 | Public Method | [Replace](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Search~Replace.html) | Replaces text in a searched objects. |
 
-[Top](#top)
+

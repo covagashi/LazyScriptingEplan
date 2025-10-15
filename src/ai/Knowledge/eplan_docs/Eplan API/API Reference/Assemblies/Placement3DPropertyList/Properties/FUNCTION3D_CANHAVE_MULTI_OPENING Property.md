@@ -9,7 +9,7 @@ Multiple cut-out possible # 36036.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_CANHAVE_MULTI_OPENING {get; set;}

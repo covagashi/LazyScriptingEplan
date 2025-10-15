@@ -9,7 +9,7 @@ Creates location in the given hierarchy with a given sort order.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CreateLocation( 

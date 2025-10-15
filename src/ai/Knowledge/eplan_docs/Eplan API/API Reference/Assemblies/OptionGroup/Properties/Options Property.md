@@ -9,7 +9,7 @@ Returns array of [Option](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Option.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Option[] Options {get;}

@@ -9,7 +9,7 @@ Path to reference project that was used to compare projects.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ComparisonProjectName {get;}

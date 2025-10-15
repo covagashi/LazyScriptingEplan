@@ -9,7 +9,7 @@ Intake volume # 26196.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_INTAKE_VOLUME {get; set;}

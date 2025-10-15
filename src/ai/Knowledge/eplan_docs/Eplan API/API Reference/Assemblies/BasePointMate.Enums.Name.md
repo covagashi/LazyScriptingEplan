@@ -9,7 +9,7 @@ Base point name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum BasePointMate.Enums.Name : System.Enum

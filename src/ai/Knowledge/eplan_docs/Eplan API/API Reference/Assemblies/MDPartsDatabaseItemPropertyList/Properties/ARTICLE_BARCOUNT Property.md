@@ -9,7 +9,7 @@ Busbars: Number of rails # 22201.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_BARCOUNT {get; set;}

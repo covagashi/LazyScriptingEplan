@@ -9,7 +9,7 @@ Color / Grey levels for PDF
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Export.DegreeOfColor : System.Enum

@@ -9,7 +9,7 @@ Returns true if the text frame exist.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool DrawTextBox {get; set;}

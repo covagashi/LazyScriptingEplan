@@ -9,7 +9,7 @@ Is called when something has changed in any project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public delegate void ProjectEventsProvider.AnyChangeHandler( 

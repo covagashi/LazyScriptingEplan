@@ -9,7 +9,7 @@ Function designation # 1120.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLPLANT {get; set;}

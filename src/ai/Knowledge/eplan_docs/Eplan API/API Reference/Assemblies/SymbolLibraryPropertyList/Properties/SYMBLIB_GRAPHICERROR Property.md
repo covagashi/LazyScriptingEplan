@@ -9,7 +9,7 @@ Error: Symbol graphic # 15105.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMBLIB_GRAPHICERROR( 

@@ -9,7 +9,7 @@ Eplan Cloud user ID in the IdentityService.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Sub {get; set;}

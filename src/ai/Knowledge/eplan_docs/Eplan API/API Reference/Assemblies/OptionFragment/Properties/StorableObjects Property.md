@@ -9,7 +9,7 @@ Returns all objects contained in the OptionFragment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] StorableObjects {get; set;}

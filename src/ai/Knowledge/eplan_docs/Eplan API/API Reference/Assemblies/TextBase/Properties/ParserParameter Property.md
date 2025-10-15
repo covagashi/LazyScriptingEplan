@@ -9,7 +9,7 @@ Set / Get Parameters of the text
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ProjectParserParameter ParserParameter {get; set;}

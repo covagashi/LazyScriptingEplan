@@ -9,7 +9,7 @@ Contact: Switching capacity # 20055.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CONTACTORPOWER {get; set;}

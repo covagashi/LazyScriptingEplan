@@ -9,7 +9,7 @@ Function template: Description # 20389.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION_TEMPLATE_DESCRIPTION {get; set;}

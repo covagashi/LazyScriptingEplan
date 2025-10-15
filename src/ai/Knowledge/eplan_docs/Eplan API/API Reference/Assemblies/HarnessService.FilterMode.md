@@ -9,7 +9,7 @@ Scope of data export
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum HarnessService.FilterMode : System.Enum

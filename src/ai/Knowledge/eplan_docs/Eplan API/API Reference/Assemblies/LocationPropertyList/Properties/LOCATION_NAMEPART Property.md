@@ -9,7 +9,7 @@ Structure identifier: superior name component # 1010.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue LOCATION_NAMEPART( 

@@ -9,7 +9,7 @@ Substance # 44078.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_SUBSTANCE {get; set;}

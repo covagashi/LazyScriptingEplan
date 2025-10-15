@@ -9,7 +9,7 @@ Adds a command to the ribbon. If the ribbon doesn't exist yet, the command will 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RegisterCommand( 

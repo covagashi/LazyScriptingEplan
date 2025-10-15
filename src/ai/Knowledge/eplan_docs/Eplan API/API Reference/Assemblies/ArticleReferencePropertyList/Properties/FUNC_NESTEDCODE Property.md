@@ -9,7 +9,7 @@ DT (subordinate): Identifier # 20017.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_NESTEDCODE {get; set;}

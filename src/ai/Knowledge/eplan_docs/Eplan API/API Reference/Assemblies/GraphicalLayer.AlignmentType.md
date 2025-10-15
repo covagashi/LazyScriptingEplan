@@ -9,7 +9,7 @@ Alignment
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum GraphicalLayer.AlignmentType : System.Enum

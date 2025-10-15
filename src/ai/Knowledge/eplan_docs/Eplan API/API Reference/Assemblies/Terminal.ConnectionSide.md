@@ -9,7 +9,7 @@ Sides of a terminal (internal or external) where connections may be connected.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Terminal.ConnectionSide : System.Enum

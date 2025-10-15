@@ -9,7 +9,7 @@ Array of bending points.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D[] BendingPoints {get; set;}

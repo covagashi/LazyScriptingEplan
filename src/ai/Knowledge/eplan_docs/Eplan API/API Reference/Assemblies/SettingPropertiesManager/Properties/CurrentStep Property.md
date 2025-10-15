@@ -9,7 +9,7 @@ Current active [SettingPropertiesStep](Eplan.EplApi.DataModelu~Eplan.EplApi.Data
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SettingPropertiesStep CurrentStep {get;}

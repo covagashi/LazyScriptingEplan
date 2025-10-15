@@ -9,7 +9,7 @@ Creates location prototype using property list pProps. Property identifiers that
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool GetLocationPrototype( 

@@ -9,7 +9,7 @@ Protection type class (motor) # 26565.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PROTECTION_CLASS_OF_THE_ELECTRIC_MOTOR {get; set;}

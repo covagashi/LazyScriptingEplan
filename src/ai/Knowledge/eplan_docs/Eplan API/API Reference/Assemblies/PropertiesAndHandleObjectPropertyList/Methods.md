@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList~Dispose().html) | Destructor for deterministic finalization of PropertiesAndHandleObjectPropertyList object. |
 | Public Method | [Exists](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList~Exists.html) | Checks if property exists for used object. |
 
-[Top](#top)
+

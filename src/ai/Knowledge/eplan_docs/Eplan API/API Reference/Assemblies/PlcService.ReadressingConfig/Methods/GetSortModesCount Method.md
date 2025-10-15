@@ -9,7 +9,7 @@ Returns a number of valid sort modes.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static uint GetSortModesCount()

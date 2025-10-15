@@ -9,7 +9,7 @@ Potential value # 33003.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue POTENTIAL_VALUE {get; set;}

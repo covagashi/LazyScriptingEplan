@@ -9,7 +9,7 @@ Model view: Display item edges in black # 36526.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_SHOWBLACKWIHTE {get; set;}

@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [IsEplanAssembly](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.EplanSignedAssemblyAttribute~IsEplanAssembly.html) | Tells this assembly is an eplan assembly. The licence of this assembly is checked. |
 | Public Property | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
+

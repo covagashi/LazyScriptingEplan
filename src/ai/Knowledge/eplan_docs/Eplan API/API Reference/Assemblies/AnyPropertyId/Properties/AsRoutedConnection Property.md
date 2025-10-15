@@ -9,7 +9,7 @@ Gets property id value as [Properties.RoutedConnection](Eplan.EplApi.DataModelu~
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.RoutedConnection AsRoutedConnection {get;}

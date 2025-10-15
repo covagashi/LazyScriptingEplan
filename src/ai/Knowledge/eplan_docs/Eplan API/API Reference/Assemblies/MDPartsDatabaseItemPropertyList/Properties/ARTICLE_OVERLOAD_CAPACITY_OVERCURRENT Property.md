@@ -9,7 +9,7 @@ Overload capability: Overcurrent # 26619.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_OVERLOAD_CAPACITY_OVERCURRENT {get; set;}

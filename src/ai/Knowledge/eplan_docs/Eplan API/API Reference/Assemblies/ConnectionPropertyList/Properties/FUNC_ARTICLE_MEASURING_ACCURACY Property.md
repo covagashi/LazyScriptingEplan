@@ -9,7 +9,7 @@ Measurement accuracy # 26459.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_MEASURING_ACCURACY( 

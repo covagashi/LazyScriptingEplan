@@ -9,7 +9,7 @@ It defines the Cable property Wirenumber or Color
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string WireNumOrColor {get; set;}

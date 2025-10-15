@@ -9,7 +9,7 @@ Moves to the next element in the collection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool MoveNext()

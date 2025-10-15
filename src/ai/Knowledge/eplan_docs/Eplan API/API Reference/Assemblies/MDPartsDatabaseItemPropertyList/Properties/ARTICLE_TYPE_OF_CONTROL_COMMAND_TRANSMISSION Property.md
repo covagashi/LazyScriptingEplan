@@ -9,7 +9,7 @@ Type of control (command transmission) # 26018.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TYPE_OF_CONTROL_COMMAND_TRANSMISSION {get; set;}

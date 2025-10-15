@@ -9,7 +9,7 @@ Returns [Eplan.EplApi.DataModel.ArticleReference](Eplan.EplApi.DataModelu~Eplan.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual ArticleReference[] ArticleReferences {get;}

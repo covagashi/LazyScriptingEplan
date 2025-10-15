@@ -9,7 +9,7 @@ Total number of packagings # 20514.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_NUMBEROFPACKAGES {get; set;}

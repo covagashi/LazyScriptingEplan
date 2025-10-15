@@ -9,7 +9,7 @@ Default target mate for this MountingRail.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public LineMate BaseMate {get;}

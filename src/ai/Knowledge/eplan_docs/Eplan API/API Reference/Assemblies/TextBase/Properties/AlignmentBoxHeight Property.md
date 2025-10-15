@@ -9,7 +9,7 @@ Specifies the height of alignment box.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double AlignmentBoxHeight {get; set;}

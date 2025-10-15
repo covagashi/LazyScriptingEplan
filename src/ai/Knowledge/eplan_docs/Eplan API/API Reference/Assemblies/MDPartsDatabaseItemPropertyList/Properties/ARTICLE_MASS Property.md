@@ -9,7 +9,7 @@ Mass # 26440.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MASS {get; set;}

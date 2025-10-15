@@ -9,7 +9,7 @@ Block property: Format (fluid device) # 10613.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_FLUIDDEVICE( 

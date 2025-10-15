@@ -9,7 +9,7 @@ Name # 16000.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMB_NAME {get; set;}

@@ -9,7 +9,7 @@ Installation site (automatic) # 31107.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_FULLPLACEOFINSTALLATION_AUTOMATIC {get; set;}

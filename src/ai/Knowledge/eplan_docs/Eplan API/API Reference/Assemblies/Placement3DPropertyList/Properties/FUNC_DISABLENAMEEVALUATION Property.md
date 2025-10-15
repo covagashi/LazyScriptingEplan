@@ -9,7 +9,7 @@ Use displayed DT as full DT # 20051.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DISABLENAMEEVALUATION {get; set;}

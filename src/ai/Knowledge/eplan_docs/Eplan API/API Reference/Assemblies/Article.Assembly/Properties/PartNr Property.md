@@ -9,7 +9,7 @@ Returns part number of the assembly.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PartNr {get;}

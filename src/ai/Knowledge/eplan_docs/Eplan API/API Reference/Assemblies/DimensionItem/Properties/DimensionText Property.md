@@ -9,7 +9,7 @@ Gets or sets the value of DimensionItem.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DimensionText {get; set;}

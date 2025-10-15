@@ -9,7 +9,7 @@ Function in rest position # 26349.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_FUNKTION_IN_RUHESTELLUNG( 

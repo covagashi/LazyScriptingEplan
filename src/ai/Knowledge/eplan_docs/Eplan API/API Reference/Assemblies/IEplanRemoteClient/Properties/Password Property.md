@@ -9,7 +9,7 @@ Password. This Property should be set before calling any StartEplan method.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 string Password {get; set;}

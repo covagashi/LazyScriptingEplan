@@ -9,7 +9,7 @@ Symbol macro (compatibility) # 21008.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNCTEMPLATE_SYMBOLMACRO {get; set;}

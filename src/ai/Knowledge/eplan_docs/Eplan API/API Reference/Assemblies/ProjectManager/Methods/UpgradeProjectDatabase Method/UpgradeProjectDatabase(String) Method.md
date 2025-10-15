@@ -9,7 +9,7 @@ Upgrades project. You can check if project need to be upgrade by GetProjectDataC
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool UpgradeProjectDatabase( 

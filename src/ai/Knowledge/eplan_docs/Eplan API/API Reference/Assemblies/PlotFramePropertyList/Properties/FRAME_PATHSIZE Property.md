@@ -9,7 +9,7 @@ Column width # 12102.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_PATHSIZE( 

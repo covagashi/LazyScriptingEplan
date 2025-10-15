@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class DimensionItem.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [DimensionItem.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.DimensionItem+Enums~_ctor.html) |  |
 
-[Top](#top)
+

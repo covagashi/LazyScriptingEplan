@@ -9,7 +9,7 @@ Sets a new parameter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Set( 

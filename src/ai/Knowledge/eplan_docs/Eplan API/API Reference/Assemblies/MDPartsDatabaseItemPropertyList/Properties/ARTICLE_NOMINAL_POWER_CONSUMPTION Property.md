@@ -9,7 +9,7 @@ Nominal power consumption # 26482.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NOMINAL_POWER_CONSUMPTION {get; set;}

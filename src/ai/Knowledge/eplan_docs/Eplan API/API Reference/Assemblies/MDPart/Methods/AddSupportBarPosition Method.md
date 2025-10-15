@@ -9,7 +9,7 @@ Add a new support bar position to the part. That position is added to the end of
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartSupportBarPosition AddSupportBarPosition()

@@ -9,7 +9,7 @@ Assembly # 20492.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_ASSEMBLY {get; set;}

@@ -9,7 +9,7 @@ Gets/Sets whether sections are active (i.e. visible) for the currently logged-in
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ProjectSections.Enums.State State {get; set;}

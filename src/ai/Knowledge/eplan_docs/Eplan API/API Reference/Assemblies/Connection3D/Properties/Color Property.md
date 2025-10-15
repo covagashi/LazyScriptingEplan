@@ -9,7 +9,7 @@ Represents color in which connection is displayed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Color Color {get; set;}

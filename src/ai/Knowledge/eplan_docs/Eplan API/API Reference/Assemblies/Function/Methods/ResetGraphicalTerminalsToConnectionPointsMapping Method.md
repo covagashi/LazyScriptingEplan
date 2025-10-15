@@ -9,7 +9,7 @@ Resets connection points to graphical terminals mapping.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ResetGraphicalTerminalsToConnectionPointsMapping()

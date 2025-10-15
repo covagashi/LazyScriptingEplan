@@ -9,7 +9,7 @@ Resets the node to default. All settings inside are deleted and copied from defa
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ResetNode()

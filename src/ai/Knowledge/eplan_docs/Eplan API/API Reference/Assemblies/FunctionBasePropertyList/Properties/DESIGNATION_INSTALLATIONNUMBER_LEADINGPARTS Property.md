@@ -9,7 +9,7 @@ Higher-level function number (leading identifiers) # 1722.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_INSTALLATIONNUMBER_LEADINGPARTS( 

@@ -9,7 +9,7 @@ Stores property placement with given scheme to symbol variant.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void StoreWithSymbolPropertyPlacementSchema( 

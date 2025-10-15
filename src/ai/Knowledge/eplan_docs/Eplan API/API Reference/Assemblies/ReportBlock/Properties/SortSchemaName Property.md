@@ -9,7 +9,7 @@ Name of sort scheme.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SortSchemaName {get; set;}

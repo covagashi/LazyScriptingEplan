@@ -9,7 +9,7 @@ Adds a new message to the database with electrotechnical messages (Project data\
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ProjectMessage AddMessage( 

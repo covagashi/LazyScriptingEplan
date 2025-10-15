@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class NetDefinitionPoint.NetConnectionPoint : PinBase
@@ -28,7 +28,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [NetDefinitionPoint.NetConnectionPoint Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.NetDefinitionPoint+NetConnectionPoint~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -41,7 +41,7 @@ Public Properties
 | Public Property | [Name](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.NetDefinitionPoint+NetConnectionPoint~Name.html) | Returns name of a connection point |
 | Public Property | [Parent](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase~Parent.html) | Returns the symbol reference that the logical conn. point represented by this object belongs to. (Inherited from [Eplan.EplApi.DataModel.PinBase](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase.html)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -52,4 +52,4 @@ Public Methods
 | Public Method | [GetHashCode](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase~GetHashCode.html) | Serves as the default hash function. (Inherited from [Eplan.EplApi.DataModel.PinBase](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase.html)) |
 | Public Method | [ToString](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.NetDefinitionPoint+NetConnectionPoint~ToString.html) | Returns a string that represents the current object. |
 
-[Top](#top)
+

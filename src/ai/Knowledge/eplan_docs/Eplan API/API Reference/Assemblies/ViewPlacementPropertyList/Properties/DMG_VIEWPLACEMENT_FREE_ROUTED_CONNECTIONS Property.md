@@ -9,7 +9,7 @@ Model view: Display freely routed wires # 36516.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_FREE_ROUTED_CONNECTIONS {get; set;}

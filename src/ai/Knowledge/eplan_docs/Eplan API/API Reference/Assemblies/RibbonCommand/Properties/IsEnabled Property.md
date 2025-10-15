@@ -9,7 +9,7 @@ Returns whether a command enabled
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsEnabled {get;}

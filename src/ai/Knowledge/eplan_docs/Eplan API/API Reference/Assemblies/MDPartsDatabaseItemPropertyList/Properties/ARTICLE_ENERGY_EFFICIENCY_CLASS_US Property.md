@@ -9,7 +9,7 @@ Energy efficiency class US # 26307.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ENERGY_EFFICIENCY_CLASS_US {get; set;}

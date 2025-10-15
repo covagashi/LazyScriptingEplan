@@ -9,7 +9,7 @@ PLC card is placed on head station # 22290.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PLCISMOUNTEDONHEADMODULE {get; set;}

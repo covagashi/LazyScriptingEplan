@@ -9,7 +9,7 @@ Permitted bending radius (moving application / free movement), min. # 26654.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PERMISSIBLE_BENDING_RADIUS_FLEXIBLE_USE_FREE_MOVEMENT_MIN {get; set;}

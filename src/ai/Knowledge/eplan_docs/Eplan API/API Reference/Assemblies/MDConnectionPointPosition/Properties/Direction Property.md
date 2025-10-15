@@ -9,7 +9,7 @@ The direction for connection of the connection point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDConnectionPointPosition.ConnectionPointDirection Direction {get; set;}

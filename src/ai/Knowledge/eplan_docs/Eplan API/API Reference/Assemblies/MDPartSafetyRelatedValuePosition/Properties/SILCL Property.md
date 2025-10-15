@@ -9,7 +9,7 @@ The SILCL. (SIL claim limit - for a subsystem)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SILCL {get; set;}

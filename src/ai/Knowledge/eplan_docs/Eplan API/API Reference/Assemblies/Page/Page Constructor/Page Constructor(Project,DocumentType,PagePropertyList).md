@@ -9,7 +9,7 @@ This constructor call the `Create(...)` method automatically.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Page( 

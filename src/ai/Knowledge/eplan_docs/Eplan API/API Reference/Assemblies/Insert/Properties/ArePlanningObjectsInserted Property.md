@@ -9,7 +9,7 @@ Indicates whether additional planning objects are inserted from macro into proje
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ArePlanningObjectsInserted {get; set;}

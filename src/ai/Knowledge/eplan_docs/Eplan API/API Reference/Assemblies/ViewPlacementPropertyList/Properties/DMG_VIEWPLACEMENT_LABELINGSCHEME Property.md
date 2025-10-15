@@ -9,7 +9,7 @@ Model view: Item labeling # 36507.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_LABELINGSCHEME {get; set;}

@@ -9,7 +9,7 @@ Provision of cable gland # 26230.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PROVISION_OF_THE_CABLE_GLAND {get; set;}

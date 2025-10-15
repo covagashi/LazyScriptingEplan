@@ -9,7 +9,7 @@ Adds a new FunctionTemplate to the part. That FunctionTemplate is added to the e
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDFunctionTemplatePosition AddFunctionTemplatePosition()

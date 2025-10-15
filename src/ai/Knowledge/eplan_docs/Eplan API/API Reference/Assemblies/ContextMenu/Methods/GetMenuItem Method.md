@@ -9,7 +9,7 @@ Get the menu item of a context menu from the index.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool GetMenuItem( 

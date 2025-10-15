@@ -9,7 +9,7 @@ Part number that the distributed main terminal with 'PE' potential will get. If 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PartNumberTerminalPE {get; set;}

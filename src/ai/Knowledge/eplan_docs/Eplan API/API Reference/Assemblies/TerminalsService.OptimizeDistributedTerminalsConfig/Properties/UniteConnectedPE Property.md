@@ -9,7 +9,7 @@ If TRUE, connected distributed PE-terminals will be sorted on the strip, so that
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool UniteConnectedPE {get; set;}

@@ -9,7 +9,7 @@ Item # 21025.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNCTIONTEMPLATE_FUNCTIONDEFINITION_SUBTYPE {get; set;}

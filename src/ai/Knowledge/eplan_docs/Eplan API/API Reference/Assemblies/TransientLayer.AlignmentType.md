@@ -9,7 +9,7 @@ Alignment
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum TransientLayer.AlignmentType : System.Enum

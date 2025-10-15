@@ -9,7 +9,7 @@ Nominal pressure level # 22226.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PRESSURELEVEL {get; set;}

@@ -9,7 +9,7 @@ Cross-reference display: Max. number of cross-references # 20198.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_MAXCROSSREFERENCEBLOCKCOUNT {get; set;}

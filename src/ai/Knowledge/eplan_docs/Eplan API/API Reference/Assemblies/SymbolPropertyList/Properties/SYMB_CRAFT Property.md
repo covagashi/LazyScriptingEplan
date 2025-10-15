@@ -9,7 +9,7 @@ Trade (function definition) # 16017.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMB_CRAFT {get; set;}

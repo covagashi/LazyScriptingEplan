@@ -9,7 +9,7 @@ Configuration project (at PLC boxes and bus ports) # 20161.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCONFIGURATIONPROJECT {get; set;}

@@ -9,7 +9,7 @@ Type of construction: Device # 26365.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_UNIT_DESIGN( 

@@ -9,7 +9,7 @@ Get all safety related valud positions of the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartSafetyRelatedValuePosition[] SafetyRelatedValuePositions {get;}

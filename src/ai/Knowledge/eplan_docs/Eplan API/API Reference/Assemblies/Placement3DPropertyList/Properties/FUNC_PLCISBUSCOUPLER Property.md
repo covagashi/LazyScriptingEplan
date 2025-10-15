@@ -9,7 +9,7 @@ Bus coupler / head station # 20164.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCISBUSCOUPLER {get; set;}

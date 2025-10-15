@@ -9,7 +9,7 @@ Number identifying symbol in the symbol library.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int SymbolNumber {get; set;}

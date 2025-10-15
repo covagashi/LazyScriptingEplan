@@ -9,7 +9,7 @@ Cross-reference (configurable) # 24300.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INTERRUPTIONPOINT_CROSSREFERENCE {get; set;}

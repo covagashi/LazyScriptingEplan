@@ -9,7 +9,7 @@ Data backup: Back up external documents # 10511.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BACKUP_EXTDOCS {get; set;}

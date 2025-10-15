@@ -9,7 +9,7 @@ Symbolic address: Group # 20610.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCSYMBOLICADDRESS_GROUP {get; set;}

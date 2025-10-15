@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [Current](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.FunctionDefinitionEnumerator~Current.html) | Gets the element in the collection at the current position of the enumerator. |
 | Public Property | [Current2](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.FunctionDefinitionEnumerator~Current2.html) | Gets the element in the collection at the current position of the enumerator. |
 
-[Top](#top)
+

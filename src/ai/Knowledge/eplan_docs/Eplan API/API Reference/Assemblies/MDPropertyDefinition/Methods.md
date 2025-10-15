@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPropertyDefinition~Dispose().html) | Destructor for deterministic finalization of MDPropertyDefinition object. |
 
-[Top](#top)
+

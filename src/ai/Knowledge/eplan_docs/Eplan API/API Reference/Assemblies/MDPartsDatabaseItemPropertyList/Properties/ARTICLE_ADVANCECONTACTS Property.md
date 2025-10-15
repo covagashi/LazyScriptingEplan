@@ -9,7 +9,7 @@ Plugs: Leading pins # 22102.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ADVANCECONTACTS {get; set;}

@@ -9,7 +9,7 @@ Eplan Data Portal: Configurator # 20287.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION_EDP_ADAPTER {get; set;}

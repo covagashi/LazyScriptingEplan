@@ -9,7 +9,7 @@ Sets the value of a project setting in a specified path to the first free index.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void SetStringSetting( 

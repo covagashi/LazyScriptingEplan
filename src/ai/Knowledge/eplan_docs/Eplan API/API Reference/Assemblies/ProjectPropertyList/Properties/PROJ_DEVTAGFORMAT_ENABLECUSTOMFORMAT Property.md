@@ -9,7 +9,7 @@ Edit DT in individual fields # 10090.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DEVTAGFORMAT_ENABLECUSTOMFORMAT {get; set;}

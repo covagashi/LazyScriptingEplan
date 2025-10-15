@@ -9,7 +9,7 @@ String for row designation # 12028.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_POS_ALPHASET( 

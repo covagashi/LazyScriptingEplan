@@ -9,7 +9,7 @@ EplanPath is the filepath to the EPLAN installation
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string EplanPath {get; set;}

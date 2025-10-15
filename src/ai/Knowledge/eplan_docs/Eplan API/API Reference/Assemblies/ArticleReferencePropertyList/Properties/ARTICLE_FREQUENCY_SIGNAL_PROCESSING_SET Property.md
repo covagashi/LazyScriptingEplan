@@ -9,7 +9,7 @@ Frequency (signal processing), set # 26338.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_FREQUENCY_SIGNAL_PROCESSING_SET {get; set;}

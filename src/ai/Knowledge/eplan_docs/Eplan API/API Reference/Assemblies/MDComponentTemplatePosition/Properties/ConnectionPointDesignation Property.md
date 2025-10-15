@@ -9,7 +9,7 @@ The connection point designation of component template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConnectionPointDesignation {get; set;}

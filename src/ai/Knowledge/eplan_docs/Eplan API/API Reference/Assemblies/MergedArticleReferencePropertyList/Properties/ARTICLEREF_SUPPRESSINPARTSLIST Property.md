@@ -9,7 +9,7 @@ Suppress in bill of materials (if filtered) # 20494.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_SUPPRESSINPARTSLIST {get; set;}

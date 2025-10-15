@@ -9,7 +9,7 @@ TODO
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public interface IPlaceHolder
@@ -30,7 +30,7 @@ Public Properties
 | Property | [Value](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IPlaceHolder~Value.html) | Gets/Sets the value of a variable for a record. |
 | Property | [VariableNames](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IPlaceHolder~VariableNames.html) | Names of all variables in the Placeholder3D. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -57,4 +57,4 @@ Public Methods
 | Method | [SetProjectPropertyEntry](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IPlaceHolder~SetProjectPropertyEntry.html) | Sets a value or variable on Placeholder project property. The reference of the object will be added to the Placeholder if necessary. |
 | Method | [SetValue](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IPlaceHolder~SetValue.html) | Sets the value of a variable for a record. |
 
-[Top](#top)
+

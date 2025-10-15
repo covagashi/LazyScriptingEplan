@@ -9,7 +9,7 @@ Creates a link between two given PlanningSegments.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool CreateLink( 

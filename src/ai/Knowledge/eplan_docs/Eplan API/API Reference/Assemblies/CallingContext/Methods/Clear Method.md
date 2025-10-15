@@ -9,7 +9,7 @@ Clear all parameters.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Clear()

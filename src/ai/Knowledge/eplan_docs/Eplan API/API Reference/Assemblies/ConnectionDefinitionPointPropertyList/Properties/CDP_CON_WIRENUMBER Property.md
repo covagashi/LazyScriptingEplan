@@ -9,7 +9,7 @@ Associated connections: Connection: Color / number # 31031.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_WIRENUMBER {get; set;}

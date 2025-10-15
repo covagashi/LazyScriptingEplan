@@ -9,7 +9,7 @@ Device description # 23202.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DEVICELISTENTRY_DESCRIPTION {get; set;}

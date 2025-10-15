@@ -9,7 +9,7 @@ All referenced objects
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement[] ReferencedPlacements {get; set;}

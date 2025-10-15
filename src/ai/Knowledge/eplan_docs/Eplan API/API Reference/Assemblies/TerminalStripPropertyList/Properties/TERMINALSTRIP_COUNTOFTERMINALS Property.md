@@ -9,7 +9,7 @@ Terminal strips: Number of terminals # 35006.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue TERMINALSTRIP_COUNTOFTERMINALS {get; set;}

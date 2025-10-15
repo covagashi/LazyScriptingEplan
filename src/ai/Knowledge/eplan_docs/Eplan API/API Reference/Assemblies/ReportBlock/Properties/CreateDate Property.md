@@ -9,7 +9,7 @@ Gets creation date
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ValueType CreateDate {get;}

@@ -9,7 +9,7 @@ Default variant # 16003.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMB_DEFAULT_VARIANT {get; set;}

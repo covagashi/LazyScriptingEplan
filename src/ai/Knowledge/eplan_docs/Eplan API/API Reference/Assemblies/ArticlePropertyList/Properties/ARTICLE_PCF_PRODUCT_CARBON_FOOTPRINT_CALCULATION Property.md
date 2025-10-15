@@ -9,7 +9,7 @@ PCF: Calculation # 26529.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PCF_PRODUCT_CARBON_FOOTPRINT_CALCULATION {get; set;}

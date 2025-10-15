@@ -9,7 +9,7 @@ If this object is the main function of a device or a cable, this property return
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] FunctionTemplates {get;}

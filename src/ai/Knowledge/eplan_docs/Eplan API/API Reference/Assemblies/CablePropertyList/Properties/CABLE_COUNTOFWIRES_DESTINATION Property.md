@@ -9,7 +9,7 @@ Cables: Number of connections to this target / this source # 35110.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLE_COUNTOFWIRES_DESTINATION {get; set;}

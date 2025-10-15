@@ -9,7 +9,7 @@ An item is part of a device which cannot be further broken down, such as a motor
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ItemType : System.Enum

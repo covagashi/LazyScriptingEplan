@@ -9,7 +9,7 @@ Hole pattern # 26437.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_HOLE_PATTERN {get; set;}

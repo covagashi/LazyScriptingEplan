@@ -9,7 +9,7 @@ Total purchase price Currency 1 # 20503.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_TOTALPURCHASEPRICE_1 {get; set;}

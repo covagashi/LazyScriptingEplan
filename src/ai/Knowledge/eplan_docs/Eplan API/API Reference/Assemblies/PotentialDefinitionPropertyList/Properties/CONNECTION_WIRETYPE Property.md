@@ -9,7 +9,7 @@ Connection: Type designation # 31048.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_WIRETYPE {get; set;}

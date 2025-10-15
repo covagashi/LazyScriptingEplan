@@ -9,7 +9,7 @@ Constructor. Creates transient InterruptionPoint.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public InterruptionPoint()

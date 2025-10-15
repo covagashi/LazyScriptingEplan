@@ -9,7 +9,7 @@ Returns true if connection is routed through at least one point.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsRouted {get;}

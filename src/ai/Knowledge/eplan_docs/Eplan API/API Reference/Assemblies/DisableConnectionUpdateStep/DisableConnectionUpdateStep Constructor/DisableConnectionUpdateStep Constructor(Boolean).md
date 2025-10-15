@@ -9,7 +9,7 @@ Do disable. If bUpdateCreatedConns parameter is true and this object is used tog
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DisableConnectionUpdateStep( 

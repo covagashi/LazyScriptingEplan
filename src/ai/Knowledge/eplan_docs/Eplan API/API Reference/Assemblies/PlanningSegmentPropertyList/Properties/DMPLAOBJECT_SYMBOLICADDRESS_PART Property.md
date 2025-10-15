@@ -9,7 +9,7 @@ Technical description # 44006.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_TECHNICAL_DESCRIPTION {get; set;}

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class SelectionContext
@@ -30,7 +30,7 @@ Public Properties
 | Public Property | [SelectionPoint](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.SelectionContext~SelectionPoint.html) | Returns point of single selection. |
 | Public Property | [SelectionRectangle](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.SelectionContext~SelectionRectangle.html) | Lower left corner of selection rectangle. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -38,4 +38,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.SelectionContext~Dispose().html) | Destructor for deterministic finalization of SelectionContext object. |
 
-[Top](#top)
+

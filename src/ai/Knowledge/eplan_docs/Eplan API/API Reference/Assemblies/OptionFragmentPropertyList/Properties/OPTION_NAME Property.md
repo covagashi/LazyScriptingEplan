@@ -9,7 +9,7 @@ Project option: Name # 23101.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue OPTION_NAME {get; set;}

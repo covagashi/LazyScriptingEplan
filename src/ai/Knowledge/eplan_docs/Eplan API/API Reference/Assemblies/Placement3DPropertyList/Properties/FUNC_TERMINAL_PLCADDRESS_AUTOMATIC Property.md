@@ -9,7 +9,7 @@ Connected PLC address (automatic) # 20855.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_PLCADDRESS_AUTOMATIC {get; set;}

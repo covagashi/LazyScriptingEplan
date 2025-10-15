@@ -9,7 +9,7 @@ Gets/Sets whether the dimension's text is automatically positioned (in relation 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool DimensionPositionCalculated {get; set;}

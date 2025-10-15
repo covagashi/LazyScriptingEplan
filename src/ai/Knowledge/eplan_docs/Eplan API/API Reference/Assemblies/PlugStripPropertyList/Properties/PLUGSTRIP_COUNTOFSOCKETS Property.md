@@ -9,7 +9,7 @@ Plugs: Number of female pins # 35211.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PLUGSTRIP_COUNTOFSOCKETS {get; set;}

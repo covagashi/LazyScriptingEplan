@@ -9,7 +9,7 @@ Adds a new accessory list to the parts database
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAccessoryList AddAccessoryList( 

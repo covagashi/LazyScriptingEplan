@@ -9,7 +9,7 @@ Determine direction of drilling this element.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CounterClockWise {get;}

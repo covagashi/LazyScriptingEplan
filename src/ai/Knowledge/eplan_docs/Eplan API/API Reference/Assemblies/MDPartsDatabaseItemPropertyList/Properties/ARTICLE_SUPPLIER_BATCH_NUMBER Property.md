@@ -9,7 +9,7 @@ Supplier batch number # 26435.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SUPPLIER_BATCH_NUMBER {get; set;}

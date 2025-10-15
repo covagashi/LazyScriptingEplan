@@ -9,7 +9,7 @@ Mounting rail alignments
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Placement3DService.AlignmentDirection : System.Enum

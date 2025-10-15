@@ -9,7 +9,7 @@ Returns a list of full names of all the languages.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int GetAllLongNames( 

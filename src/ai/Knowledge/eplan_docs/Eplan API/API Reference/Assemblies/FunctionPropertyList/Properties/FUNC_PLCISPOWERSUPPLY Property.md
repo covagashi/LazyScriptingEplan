@@ -9,7 +9,7 @@ Power supply # 20184.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCISPOWERSUPPLY {get; set;}

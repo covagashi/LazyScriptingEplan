@@ -9,7 +9,7 @@ Hook-up # 44056.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_HOOKUP {get; set;}

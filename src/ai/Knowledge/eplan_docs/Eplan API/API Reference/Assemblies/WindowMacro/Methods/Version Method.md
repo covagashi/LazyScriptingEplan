@@ -9,7 +9,7 @@ Get version from current representation type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Version()

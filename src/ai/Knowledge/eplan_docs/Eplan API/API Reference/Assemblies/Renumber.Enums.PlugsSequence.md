@@ -9,7 +9,7 @@ Parameter enum for plug numbering.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Renumber.Enums.PlugsSequence : System.Enum

@@ -9,7 +9,7 @@ Get flag whether signal is separated
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsSignalSeparated {get;}

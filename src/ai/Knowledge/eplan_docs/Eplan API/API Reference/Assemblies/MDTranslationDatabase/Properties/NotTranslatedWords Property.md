@@ -9,7 +9,7 @@ Gets all not translated words.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public List<string> NotTranslatedWords {get;}

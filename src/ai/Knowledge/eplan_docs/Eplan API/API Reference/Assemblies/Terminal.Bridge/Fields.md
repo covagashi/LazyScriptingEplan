@@ -13,4 +13,4 @@ Public Fields
 | Public Field | [BridgeSegments](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Terminal+Bridge~BridgeSegments.html) | An array of all bridge connections (i.e. segments) that the bridge consists of. |
 | Public Field | [Term](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.Terminal+Bridge~Term.html) | One of the terminal connected by the bridge. |
 
-[Top](#top)
+

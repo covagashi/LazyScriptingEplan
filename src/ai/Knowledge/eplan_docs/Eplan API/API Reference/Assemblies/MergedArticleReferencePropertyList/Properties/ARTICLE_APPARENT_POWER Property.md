@@ -9,7 +9,7 @@ Apparent power # 26549.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_APPARENT_POWER {get; set;}

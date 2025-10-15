@@ -9,7 +9,7 @@ Removes command
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Remove()

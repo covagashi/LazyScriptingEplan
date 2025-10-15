@@ -9,7 +9,7 @@ Number of pneumatic ports (control ports) # 26074.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_NUMBER_OF_PNEUMATIC_CONNECTIONS_CONTROL_CONNECTION {get; set;}

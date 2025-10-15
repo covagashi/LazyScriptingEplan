@@ -9,7 +9,7 @@ It describes the maximum force with which, for example, a screw is tightened
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double MaxTighteningTorque {get; set;}

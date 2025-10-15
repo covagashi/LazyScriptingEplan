@@ -9,7 +9,7 @@ Routes given topology connections.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RouteConnections( 

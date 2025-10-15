@@ -9,7 +9,7 @@ Contact image display # 20303.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CONTACTIMAGE {get; set;}

@@ -9,7 +9,7 @@ The parts database that is currently used as a connection string or a file.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static string SelectedPartsDatabaseAsString {get;}

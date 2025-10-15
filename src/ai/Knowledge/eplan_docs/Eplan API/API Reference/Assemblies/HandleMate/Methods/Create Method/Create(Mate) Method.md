@@ -9,7 +9,7 @@ Creates a handle mate from existing mate
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

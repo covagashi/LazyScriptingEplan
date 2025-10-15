@@ -19,4 +19,4 @@ Public Properties
 | Public Property | [SummedUp](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDFunctionTemplatePosition~SummedUp.html) | Returns TRUE if the function template is part of an assembly or module and is summed up |
 | Public Property | [TemplateGroup](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDFunctionTemplatePosition~TemplateGroup.html) | The template group of the function template |
 
-[Top](#top)
+

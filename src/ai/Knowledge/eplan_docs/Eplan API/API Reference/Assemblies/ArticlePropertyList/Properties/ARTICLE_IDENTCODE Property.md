@@ -9,7 +9,7 @@ Barcode number # 22208.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_IDENTCODE {get; set;}

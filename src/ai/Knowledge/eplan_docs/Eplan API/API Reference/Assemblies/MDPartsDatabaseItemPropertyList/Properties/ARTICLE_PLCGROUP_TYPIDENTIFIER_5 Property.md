@@ -9,7 +9,7 @@ PLC subdevice 5: PLC type designation # 22344.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PLCGROUP_TYPIDENTIFIER_5 {get; set;}

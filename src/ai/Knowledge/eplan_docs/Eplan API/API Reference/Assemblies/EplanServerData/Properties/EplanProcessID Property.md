@@ -9,7 +9,7 @@ Eplan Process ID
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int EplanProcessID {get;}

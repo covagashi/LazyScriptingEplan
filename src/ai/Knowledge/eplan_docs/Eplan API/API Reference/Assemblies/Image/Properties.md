@@ -44,4 +44,4 @@ Public Properties
 | Public Property | [Width](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Rectangle~Width.html) | Returns width of the rectangle. (Inherited from [Eplan.EplApi.DataModel.Graphics.Rectangle](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Rectangle.html)) |
 | Public Property | [WidthToHeighRatioFix](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.Image~WidthToHeighRatioFix.html) | Boolean value: true if the aspect ratio of the image is the same as in the original image file. |
 
-[Top](#top)
+

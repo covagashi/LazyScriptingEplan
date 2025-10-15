@@ -9,7 +9,7 @@ Returns the Shielding objects the connection is composed of. It does not return 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function[] Shieldings {get;}

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class Transformation
@@ -53,7 +53,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [Transformation Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Transformation~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -69,7 +69,7 @@ Public Properties
 | Public Property | [YScale](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Transformation~YScale.html) | Set scaling in y-direction |
 | Public Property | [YScaleRef](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Transformation~YScaleRef.html) | Set scaling reference in y-direction |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -77,4 +77,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Transformation~Dispose().html) | Destructor. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Connection color / number # 31004.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue CONNECTION_WIRENUMBER {get; set;}

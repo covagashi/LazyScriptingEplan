@@ -9,7 +9,7 @@ Move in Z direction for the respective placement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double OffsetZ {get; set;}

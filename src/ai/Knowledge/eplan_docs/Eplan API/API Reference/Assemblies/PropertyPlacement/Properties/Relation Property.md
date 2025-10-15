@@ -9,7 +9,7 @@ Gets/Sets Relation of PropertyPlacement.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyPlacement.RelationType Relation {get; set;}

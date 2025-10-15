@@ -9,7 +9,7 @@ Reception volume # 26223.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ABSORPTION_VOLUME {get; set;}

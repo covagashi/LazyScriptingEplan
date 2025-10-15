@@ -9,7 +9,7 @@ The cancel was resetted.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void ResetCanceled()

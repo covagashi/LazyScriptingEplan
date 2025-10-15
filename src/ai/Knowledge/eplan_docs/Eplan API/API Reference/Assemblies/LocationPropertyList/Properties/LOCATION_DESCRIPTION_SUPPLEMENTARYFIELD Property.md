@@ -9,7 +9,7 @@ Structure description Supplementary field # 1009.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue LOCATION_DESCRIPTION_SUPPLEMENTARYFIELD( 

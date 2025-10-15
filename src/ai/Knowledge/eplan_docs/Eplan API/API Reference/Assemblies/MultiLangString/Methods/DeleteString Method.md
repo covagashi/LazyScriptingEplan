@@ -9,7 +9,7 @@ Deletes the language setting.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DeleteString( 

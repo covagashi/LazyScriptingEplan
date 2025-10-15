@@ -9,7 +9,7 @@ Page description # 11011.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_NOMINATIOMN {get; set;}

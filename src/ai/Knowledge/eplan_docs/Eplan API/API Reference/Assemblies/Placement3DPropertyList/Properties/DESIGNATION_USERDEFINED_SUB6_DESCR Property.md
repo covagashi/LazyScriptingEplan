@@ -9,7 +9,7 @@ User-defined structure (sub-identifier 6): Description # 1636.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_USERDEFINED_SUB6_DESCR {get; set;}

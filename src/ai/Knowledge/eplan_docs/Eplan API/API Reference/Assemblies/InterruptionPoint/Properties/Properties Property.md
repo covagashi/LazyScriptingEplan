@@ -9,7 +9,7 @@ Allows user access to InterruptionPoint properties.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new InterruptionPointPropertyList Properties {get;}

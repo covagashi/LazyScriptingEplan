@@ -9,7 +9,7 @@ CPU: Name # 20253.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCPU_NAME( 

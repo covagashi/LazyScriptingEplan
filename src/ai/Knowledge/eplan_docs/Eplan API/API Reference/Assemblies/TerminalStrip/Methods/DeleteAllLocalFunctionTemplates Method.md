@@ -9,7 +9,7 @@ Removes all local terminal templates from the terminal strip.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DeleteAllLocalFunctionTemplates()

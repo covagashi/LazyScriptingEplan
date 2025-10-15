@@ -9,7 +9,7 @@ Gets type of DimensionGroup.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DimensionGroup.Enums.DimensionType DimensionType {get;}

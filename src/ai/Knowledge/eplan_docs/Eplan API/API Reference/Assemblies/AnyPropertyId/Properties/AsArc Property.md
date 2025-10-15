@@ -9,7 +9,7 @@ Gets property id value as [Properties.Arc](Eplan.EplApi.DataModelu~Eplan.EplApi.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.Arc AsArc {get;}

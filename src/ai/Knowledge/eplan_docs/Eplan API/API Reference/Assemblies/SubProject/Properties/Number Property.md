@@ -9,7 +9,7 @@ Subproject number.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int Number {get;}

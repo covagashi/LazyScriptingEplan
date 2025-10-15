@@ -22,4 +22,4 @@ Public Methods
 | Public Method | [GetUser](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessage~GetUser.html) | Returns the computer name of the user, who has been created the message |
 | Public Method | [SetDone](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsMessage~SetDone.html) | Marks message as solved or not. |
 
-[Top](#top)
+

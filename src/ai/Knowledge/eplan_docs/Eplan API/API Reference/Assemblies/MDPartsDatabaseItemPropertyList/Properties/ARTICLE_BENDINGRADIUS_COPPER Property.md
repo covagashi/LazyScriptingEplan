@@ -9,7 +9,7 @@ Bending radius # 22257.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_BENDINGRADIUS_COPPER {get; set;}

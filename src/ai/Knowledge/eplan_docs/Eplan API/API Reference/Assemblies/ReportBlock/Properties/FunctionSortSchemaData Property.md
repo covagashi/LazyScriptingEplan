@@ -9,7 +9,7 @@ Property data represents function sort scheme settings for report generation.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string FunctionSortSchemaData {get; set;}

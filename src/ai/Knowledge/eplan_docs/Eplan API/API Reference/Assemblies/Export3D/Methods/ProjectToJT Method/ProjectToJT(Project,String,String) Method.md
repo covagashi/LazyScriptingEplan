@@ -9,7 +9,7 @@ Exports project into files in JT format.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ProjectToJT( 

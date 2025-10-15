@@ -9,7 +9,7 @@ Sets a default device tag to the function. (I.e. a device tag which is automatic
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SetName( 

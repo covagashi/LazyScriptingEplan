@@ -9,7 +9,7 @@ Stores data from connection point position in function under given index.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void StoreConnectionPointPosition( 

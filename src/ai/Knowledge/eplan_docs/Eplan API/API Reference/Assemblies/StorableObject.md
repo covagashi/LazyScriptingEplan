@@ -42,7 +42,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class StorableObject
@@ -64,7 +64,7 @@ Public Properties
 | Public Property | [Properties](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~Properties.html) | .NET Property enabling access to P8 properties of the StorableObject object. |
 | Public Property | [TypeIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TypeIdentifier.html) | Returns the type of the object as number. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -80,7 +80,7 @@ Public Methods
 | Public Method | [ToStringIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~ToStringIdentifier.html) | Returns this object as string identifier. |
 | Public Methodstatic (Shared in Visual Basic) | [TryParseIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TryParseIdentifier.html) | Overloaded. Returns this object created from the string identifier for the databaseid newDbId. |
 
-[Top](#top)
+
 
 Public Operators
 
@@ -89,4 +89,4 @@ Public Operators
 | public Operator [Equality](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~op_Equality.html) | Operator of comparison implementation. Checks if two StorableObjects refer to the same object in the project. |
 | public Operator [Inequality](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~op_Inequality.html) | Operator of comparison implementation. Checks if two StorableObjects refer to different object in the project. |
 
-[Top](#top)
+

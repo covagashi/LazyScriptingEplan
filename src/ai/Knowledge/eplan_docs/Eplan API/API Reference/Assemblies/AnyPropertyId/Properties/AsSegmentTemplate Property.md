@@ -9,7 +9,7 @@ Gets property id value as [Properties.SegmentTemplate](Eplan.EplApi.DataModelu~E
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.SegmentTemplate AsSegmentTemplate {get;}

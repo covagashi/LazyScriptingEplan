@@ -9,7 +9,7 @@ Returns the additional text of the position
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SupplementaryText {get; set;}

@@ -9,7 +9,7 @@ License number of dongle # 10185.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_SERIALNUMBERDONGLE {get; set;}

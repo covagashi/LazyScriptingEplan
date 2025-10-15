@@ -9,7 +9,7 @@ Decide shows a file select dialog.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EnumDecisionReturn Decide( 

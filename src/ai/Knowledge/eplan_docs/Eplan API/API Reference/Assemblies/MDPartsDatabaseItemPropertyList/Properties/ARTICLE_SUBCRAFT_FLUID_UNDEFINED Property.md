@@ -9,7 +9,7 @@ Subtrade 'Fluid power (undefined)' # 22267.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SUBCRAFT_FLUID_UNDEFINED( 

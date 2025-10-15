@@ -9,7 +9,7 @@ Total cooling capacity (at 35/35°C) # 26105.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TOTAL_COOLING_CAPACITY_AT_35_35_C {get; set;}

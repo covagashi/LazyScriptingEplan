@@ -10,7 +10,7 @@ An object of MDPropertyValue has to point to online property.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int LastUsedIndex {get;}

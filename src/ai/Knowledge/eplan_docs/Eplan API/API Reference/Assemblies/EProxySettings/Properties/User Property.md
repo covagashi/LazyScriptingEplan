@@ -9,7 +9,7 @@ User name. Default = empty.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string User {get; set;}

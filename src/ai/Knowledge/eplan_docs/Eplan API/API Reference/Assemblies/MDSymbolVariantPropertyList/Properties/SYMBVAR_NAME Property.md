@@ -9,7 +9,7 @@ Variant name # 16901.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMBVAR_NAME {get; set;}

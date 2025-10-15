@@ -9,7 +9,7 @@ Returns the Id of the Symbol.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short Id {get; set;}

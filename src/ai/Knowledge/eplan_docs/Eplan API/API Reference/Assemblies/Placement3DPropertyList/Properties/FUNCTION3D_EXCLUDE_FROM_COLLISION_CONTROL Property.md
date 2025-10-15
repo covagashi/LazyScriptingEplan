@@ -9,7 +9,7 @@ Exclude from collision check # 36111.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_EXCLUDE_FROM_COLLISION_CONTROL {get; set;}

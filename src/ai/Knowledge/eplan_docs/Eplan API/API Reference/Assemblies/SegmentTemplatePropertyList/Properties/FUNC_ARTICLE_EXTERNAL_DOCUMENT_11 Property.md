@@ -9,7 +9,7 @@ Part: External document 12 # 20271.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_EXTERNAL_DOCUMENT_12( 

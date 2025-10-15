@@ -9,7 +9,7 @@ Sets the [ArticleReferencePropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.Dat
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetFilteredPropertyList( 

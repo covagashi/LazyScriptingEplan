@@ -9,7 +9,7 @@ Gets the pin's actual designation. This value is equal to FUNC\_CONNECTIONDESIGN
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get;}

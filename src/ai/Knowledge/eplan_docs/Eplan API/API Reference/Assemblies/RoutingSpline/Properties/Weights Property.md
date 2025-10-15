@@ -9,7 +9,7 @@ Array of weights on nodes of spline.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double[] Weights {get; set;}

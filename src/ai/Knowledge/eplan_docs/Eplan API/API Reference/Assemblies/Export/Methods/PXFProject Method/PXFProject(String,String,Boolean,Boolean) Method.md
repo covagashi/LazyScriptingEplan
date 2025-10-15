@@ -9,7 +9,7 @@ Exports a project in PXF format.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void PXFProject( 

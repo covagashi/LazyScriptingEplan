@@ -9,7 +9,7 @@ Returns connections which start or end at this connection point.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Connection[] Connections {get;}

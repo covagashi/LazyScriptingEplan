@@ -9,7 +9,7 @@ Get the identifocation of the User. This is the abbreviation of the name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Identification {get;}

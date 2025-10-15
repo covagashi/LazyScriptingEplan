@@ -9,7 +9,7 @@ Cut-out: Diameter of the hole # 36006.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_OPENING_DIAMETER {get; set;}

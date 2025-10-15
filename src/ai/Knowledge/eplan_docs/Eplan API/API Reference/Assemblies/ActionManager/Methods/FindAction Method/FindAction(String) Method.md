@@ -9,7 +9,7 @@ This function searches for an action registered in the system.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Action FindAction( 

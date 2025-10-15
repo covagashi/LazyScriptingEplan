@@ -9,7 +9,7 @@ Complete structure identifier with preceding sign # 1003.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue LOCATION_FULLNAME_WITHPREFIX {get; set;}

@@ -9,7 +9,7 @@ Identificators of properties owned by Text class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Text : System.Enum

@@ -9,7 +9,7 @@ Default constructor. Creates Filter that matches all [Page](Eplan.EplApi.DataMod
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PagesFilter()

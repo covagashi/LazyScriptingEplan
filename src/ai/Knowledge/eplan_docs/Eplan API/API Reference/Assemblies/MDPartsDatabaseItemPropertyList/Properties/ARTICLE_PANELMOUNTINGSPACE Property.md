@@ -9,7 +9,7 @@ Mounting panel: Mounting space # 22078.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PANELMOUNTINGSPACE {get; set;}

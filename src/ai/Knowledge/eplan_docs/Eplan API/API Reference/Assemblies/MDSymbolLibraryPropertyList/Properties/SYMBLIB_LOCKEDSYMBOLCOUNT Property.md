@@ -9,7 +9,7 @@ Number of locked symbols # 15016.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMBLIB_LOCKEDSYMBOLCOUNT {get; set;}

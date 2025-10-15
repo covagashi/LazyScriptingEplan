@@ -9,7 +9,7 @@ Pair index # 31050.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_CABLEWIRE_PAIRINDEX {get; set;}

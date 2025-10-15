@@ -9,7 +9,7 @@ BACnet: Product function # 26539.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_PRODUCT_FUNCTION_WITH_BACNET( 

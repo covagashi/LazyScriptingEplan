@@ -9,7 +9,7 @@ Cables: Voltage # 20044.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLEVOLTAGE {get; set;}

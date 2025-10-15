@@ -9,7 +9,7 @@ Type of project To change this property project will be reopened temporarily in 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project.ProjectType TypeOfProject {get; set;}

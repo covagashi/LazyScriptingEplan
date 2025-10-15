@@ -9,7 +9,7 @@ PLC device: Data length (outputs) # 20573.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PLCGROUP_DATALENGTH_OUTPUTS {get; set;}

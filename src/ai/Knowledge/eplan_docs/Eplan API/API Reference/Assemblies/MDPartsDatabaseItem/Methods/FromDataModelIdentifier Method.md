@@ -9,7 +9,7 @@ Returns object found by its data model identifier.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static MDPartsDatabaseItem FromDataModelIdentifier( 

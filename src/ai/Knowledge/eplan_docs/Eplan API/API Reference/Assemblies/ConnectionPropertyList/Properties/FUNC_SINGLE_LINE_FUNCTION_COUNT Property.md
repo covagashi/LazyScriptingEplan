@@ -9,7 +9,7 @@ Number of functions # 20110.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_SINGLE_LINE_FUNCTION_COUNT {get; set;}

@@ -9,7 +9,7 @@ Updates start and end position of a segment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void UpdateTopologySegment( 

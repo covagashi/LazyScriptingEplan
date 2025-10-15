@@ -9,7 +9,7 @@ Machining # 36004.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_ISFORMECHANICALPROCESSING {get; set;}

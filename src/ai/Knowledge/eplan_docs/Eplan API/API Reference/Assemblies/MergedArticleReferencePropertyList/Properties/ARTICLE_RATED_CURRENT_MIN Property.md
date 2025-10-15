@@ -9,7 +9,7 @@ Nominal current, min. # 26502.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_RATED_CURRENT_MIN {get; set;}

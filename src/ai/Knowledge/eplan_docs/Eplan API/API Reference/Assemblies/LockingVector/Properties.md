@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [Enabled](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LockingVector~Enabled.html) | Returns true if locking mechanism is enabled in this version. |
 | Public Property | [LockingStepCount](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.LockingVector~LockingStepCount.html) | Returns the number of active LockingSteps. This is not the length of the vector, because the locking-operations are stored(represented) there (not the LockingSteps). |
 
-[Top](#top)
+

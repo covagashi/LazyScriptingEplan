@@ -9,7 +9,7 @@ Gets internal AutoLocking flag. When it's true AutoLocking is active.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool GetAutoLockingState()

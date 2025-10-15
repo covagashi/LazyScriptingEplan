@@ -9,7 +9,7 @@ Clears all route points of connection.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ClearRouteAndNodes()

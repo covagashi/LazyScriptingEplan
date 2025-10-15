@@ -9,7 +9,7 @@ Height # 22012.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_HEIGHT {get; set;}

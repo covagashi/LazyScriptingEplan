@@ -9,7 +9,7 @@ Number of symbol variant.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int SymbolVariantNr {get; set;}

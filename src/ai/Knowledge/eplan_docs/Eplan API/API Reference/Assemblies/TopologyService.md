@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class TopologyService
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [TopologyService Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.TopologyService~_ctor.html) | Default constructor |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -41,4 +41,4 @@ Public Methods
 | Public Method | [UpdateSegmentsFilling](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.TopologyService~UpdateSegmentsFilling.html) | Overloaded. Calculates and sets value of property CABLINGSEGMENT\_FILLING for all segments in project. |
 | Public Method | [UpdateTopologySegment](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.TopologyService~UpdateTopologySegment.html) | Updates start and end position of a segment. |
 
-[Top](#top)
+

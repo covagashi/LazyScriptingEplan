@@ -9,7 +9,7 @@ Identificators of properties owned by ViewPlacement class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.ViewPlacement : System.Enum

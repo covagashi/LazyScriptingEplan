@@ -9,7 +9,7 @@ Returns or sets the complete filename of the current translate database or conne
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string TranslateDatabase {get; set;}

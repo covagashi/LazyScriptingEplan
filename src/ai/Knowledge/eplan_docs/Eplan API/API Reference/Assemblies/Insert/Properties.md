@@ -15,4 +15,4 @@ Public Properties
 | Public Property | [ArePlanningObjectsStructureMerged](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Insert~ArePlanningObjectsStructureMerged.html) | Indicates whether planning objects structure will be merged with existing nodes or renumbered and added. |
 | Public Property | [PlanningSegment](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Insert~PlanningSegment.html) | Determines the planning segment to which all function inserted from window macro on page will be assign. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Stores back macro placeholder value sets to planning object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Store()

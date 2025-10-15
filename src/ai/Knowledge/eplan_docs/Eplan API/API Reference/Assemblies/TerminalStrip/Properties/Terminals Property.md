@@ -9,7 +9,7 @@ Returns all [Terminal](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.EObjects.T
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Terminal[] Terminals {get;}

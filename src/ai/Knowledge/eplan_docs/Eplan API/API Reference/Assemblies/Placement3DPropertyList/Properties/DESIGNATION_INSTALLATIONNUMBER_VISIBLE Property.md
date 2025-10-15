@@ -9,7 +9,7 @@ Higher-level function number (visible) # 1729.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_INSTALLATIONNUMBER_VISIBLE {get; set;}

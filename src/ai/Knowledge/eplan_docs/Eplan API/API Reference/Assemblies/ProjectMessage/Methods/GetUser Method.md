@@ -9,7 +9,7 @@ Returns the computer name of the user, who has been created the message
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetUser()

@@ -9,7 +9,7 @@ Flow rate # 26634.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_VOLUME_FLOW_HEATING_M3_H( 

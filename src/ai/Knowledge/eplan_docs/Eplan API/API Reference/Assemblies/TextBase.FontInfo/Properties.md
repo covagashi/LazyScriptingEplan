@@ -17,4 +17,4 @@ Public Properties
 | Public Property | [Strikeout](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextBase+FontInfo~Strikeout.html) | Gets whether font is strikeout or not. |
 | Public Property | [Underline](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.TextBase+FontInfo~Underline.html) | Gets whether font is underlined or not. |
 
-[Top](#top)
+

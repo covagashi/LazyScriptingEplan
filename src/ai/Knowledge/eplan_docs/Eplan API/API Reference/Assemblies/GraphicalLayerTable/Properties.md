@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [Layer](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayerTable~Layer.html) | Overloaded. Returns one the project's layer as GraphicalLayer object. If specified layer not exist, null is returned. |
 | Public Property | [Layers](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayerTable~Layers.html) | Returns an array of all existing project's layers. |
 
-[Top](#top)
+

@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDConnectionPointPosition : MDPartsDatabaseItemChildData
@@ -53,7 +53,7 @@ Public Properties
 | Public Property | [Z](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionPointPosition~Z.html) | The Z-position of the connection point |
 | Public Property | [ZVector](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionPointPosition~ZVector.html) | The Z-vector of the connection point |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -61,4 +61,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose()](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData~Dispose().html) | Destructor for deterministic finalization of MDConnectionPointPosition object. (Inherited from [Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemChildData.html)) |
 
-[Top](#top)
+

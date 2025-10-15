@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public sealed class Pin : PinBase
@@ -58,7 +58,7 @@ Public Properties
 | Public Property | [Type](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin~Type.html) | Assigns a ConnPointType to the Pin. |
 | Public Property | [TypeOfPort](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin~TypeOfPort.html) | Assigns a PortType to the Pin. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -69,7 +69,7 @@ Public Methods
 | Public Method | [GetHashCode](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin~GetHashCode.html) | Overridden. Serves as the default hash function. |
 | Public Method | [ToString](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin~ToString.html) | Returns a string that represents the current object. |
 
-[Top](#top)
+
 
 Public Operators
 
@@ -77,4 +77,4 @@ Public Operators
 | --- | --- |
 | public Operator [Equality](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin~op_Equality.html) | .NET operator for comparing two Pin objects. Comparison is made by comparing each of Pin members instead of internal object id. |
 
-[Top](#top)
+

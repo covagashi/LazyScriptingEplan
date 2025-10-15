@@ -9,7 +9,7 @@ Model view: Do not automatically rotate texts from layout space # 36525.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_TEXTDIRECTION_LIKE_IN_3D {get; set;}

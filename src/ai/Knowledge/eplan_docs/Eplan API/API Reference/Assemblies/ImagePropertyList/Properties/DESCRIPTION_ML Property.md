@@ -9,7 +9,7 @@ Image file: Description # 19306.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESCRIPTION_ML {get; set;}

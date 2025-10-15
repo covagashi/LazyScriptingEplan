@@ -9,7 +9,7 @@ Type of seal (EX) # 26014.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TYPE_OF_SEAL_EX {get; set;}

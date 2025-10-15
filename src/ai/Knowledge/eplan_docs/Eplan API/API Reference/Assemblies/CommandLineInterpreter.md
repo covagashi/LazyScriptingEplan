@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [ClassInterface(ClassInterfaceType.None)]
@@ -56,7 +56,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [CommandLineInterpreter Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.CommandLineInterpreter~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -65,4 +65,4 @@ Public Methods
 | Public Method | [Execute](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.CommandLineInterpreter~Execute.html) | Overloaded. Execution of a command |
 | Public Method | [IsExecutable](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.CommandLineInterpreter~IsExecutable.html) | Checks whether the execution of an expression is possible.  This is only the case when the corresponding action is available. |
 
-[Top](#top)
+

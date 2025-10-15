@@ -9,7 +9,7 @@ Gets property id value as [Properties.PlaceHolder](Eplan.EplApi.DataModelu~Eplan
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.PlaceHolder AsPlaceHolder {get;}

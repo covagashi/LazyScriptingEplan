@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [Name](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.ActionParameterProperties~Name.html) | Name of a parameter. |
 
-[Top](#top)
+

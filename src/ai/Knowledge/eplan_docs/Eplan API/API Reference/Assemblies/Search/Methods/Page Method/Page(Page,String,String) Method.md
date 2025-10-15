@@ -9,7 +9,7 @@ Searches on the specified page for a search string. The search settings will inf
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Page( 

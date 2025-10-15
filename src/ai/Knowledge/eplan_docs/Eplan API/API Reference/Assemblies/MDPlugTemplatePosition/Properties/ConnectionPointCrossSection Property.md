@@ -9,7 +9,7 @@ The connection point cross-section of the plug template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConnectionPointCrossSection {get; set;}

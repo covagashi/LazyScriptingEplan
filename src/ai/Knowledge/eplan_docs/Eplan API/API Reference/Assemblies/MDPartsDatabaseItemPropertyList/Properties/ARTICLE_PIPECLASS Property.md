@@ -9,7 +9,7 @@ Pipe class # 22224.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PIPECLASS {get; set;}

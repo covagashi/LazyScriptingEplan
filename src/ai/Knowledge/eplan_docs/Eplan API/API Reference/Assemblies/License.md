@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class License
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [License Constructor](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.License~_ctor.html) |  |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,7 +36,7 @@ Public Properties
 | Public Property | [DongleNumber](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.License~DongleNumber.html) | Get the dongle number |
 | Public Property | [Type](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.License~Type.html) | Gets license type: local, remote (network) or borrowed. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -47,4 +47,4 @@ Public Methods
 | Public Method | [HasOption](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.License~HasOption.html) | Is used to determine whether a license for this option exists in the system and if it is available. |
 | Public Method | [LockOption](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.License~LockOption.html) | Assigns a license to an option on the system, i.e., a license for this option is deducted. If all available licenses for this option are already in use, the function fails. An option is used until the program is exited. |
 
-[Top](#top)
+

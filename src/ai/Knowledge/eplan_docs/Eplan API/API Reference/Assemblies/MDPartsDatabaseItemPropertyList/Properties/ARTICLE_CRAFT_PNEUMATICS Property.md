@@ -9,7 +9,7 @@ Trade 'Pneumatics' # 22135.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CRAFT_PNEUMATICS {get; set;}

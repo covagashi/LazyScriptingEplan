@@ -9,7 +9,7 @@ Removes the given module position from the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveModulePosition( 

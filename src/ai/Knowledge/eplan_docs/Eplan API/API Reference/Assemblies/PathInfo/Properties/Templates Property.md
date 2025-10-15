@@ -9,7 +9,7 @@ Returns default Templates directory.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Templates {get;}

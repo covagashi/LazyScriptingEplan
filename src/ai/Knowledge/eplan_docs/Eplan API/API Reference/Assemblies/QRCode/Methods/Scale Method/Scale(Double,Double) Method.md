@@ -9,7 +9,7 @@ Scales the placement (or group of placements) by the specified factors in X and 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override void Scale( 

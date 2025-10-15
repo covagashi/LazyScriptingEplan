@@ -9,7 +9,7 @@ Gets custom proxy connection configuration.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 IdentityClientResponse GetProxySettings( 

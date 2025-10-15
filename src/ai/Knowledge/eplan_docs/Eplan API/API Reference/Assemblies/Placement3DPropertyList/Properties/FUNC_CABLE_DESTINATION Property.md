@@ -9,7 +9,7 @@ Cables: Target # 20377.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_DESTINATION {get; set;}

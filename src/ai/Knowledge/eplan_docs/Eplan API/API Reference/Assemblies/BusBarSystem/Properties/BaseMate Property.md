@@ -9,7 +9,7 @@ Returns default target mate used to place bus bar which will be located on the t
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public LineMate BaseMate {get;}

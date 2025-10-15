@@ -9,7 +9,7 @@ Certification: UL Category Control Number # 22368.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CERTIFICATE_UL_CNN {get; set;}

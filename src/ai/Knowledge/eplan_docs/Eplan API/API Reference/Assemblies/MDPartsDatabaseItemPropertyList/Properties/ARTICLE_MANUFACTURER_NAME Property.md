@@ -9,7 +9,7 @@ Manufacturer name # 22222.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MANUFACTURER_NAME {get; set;}

@@ -17,4 +17,4 @@ Public Properties
 | Public Property | [X](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartLockedMountingAreaPosition~X.html) | X position of the locked mounting area |
 | Public Property | [Y](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartLockedMountingAreaPosition~Y.html) | Y position of the locked mounting area |
 
-[Top](#top)
+

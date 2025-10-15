@@ -9,7 +9,7 @@ Automatically generate cables in the given project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateAutoCable( 

@@ -9,7 +9,7 @@ Removes the given locked mounting area position from the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveLockedMountingAreaPosition( 

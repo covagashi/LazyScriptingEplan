@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PropertyConfiguration
@@ -28,7 +28,7 @@ Public Properties
 | Public Property | [Id](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PropertyConfiguration~Id.html) | Returns AnyPropertyId. |
 | Public Property | [PresetValue](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PropertyConfiguration~PresetValue.html) | The value that is assigned to this property by default. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -37,4 +37,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PropertyConfiguration~Dispose().html) | Destructor for deterministic finalization of PropertyConfiguration object. |
 | Public Method | [Remove](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Planning.PropertyConfiguration~Remove.html) | Removes object from segment definition. |
 
-[Top](#top)
+

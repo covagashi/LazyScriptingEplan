@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [CoordinatesRelative](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.PlacementArea~CoordinatesRelative.html) | Gets placement area relative coordinates. |
 | Public Property | [RelativeTransformation](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.PlacementArea~RelativeTransformation.html) | Returns relative transformation matrix |
 
-[Top](#top)
+

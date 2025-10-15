@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Item")]
@@ -31,7 +31,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDFunctionTemplatePosition.MDFunctionTemplatePositionPropertyList Constructor](topic1464.html) |  |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -84,7 +84,7 @@ Public Properties
 | Public Property | [NonEmptyIds](topic1518.html) | Retrieves all non-empty property ids |
 | Public Property | [POTENTIAL\_TYPE](topic1519.html) | Potential type # 31006. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -93,4 +93,4 @@ Public Methods
 | Public Method | [GetProperty](topic1465.html) | Overloaded. Gets internal property by id and index |
 | Public Method | [SetProperty](topic1468.html) | Overloaded. Sets internal property by id and index |
 
-[Top](#top)
+

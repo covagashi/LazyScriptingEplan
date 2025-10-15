@@ -9,7 +9,7 @@ Function definition # 20026.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_COMPONENTTYPE {get; set;}

@@ -9,7 +9,7 @@ Returns the count of the Article.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 uint nCount {get; set;}

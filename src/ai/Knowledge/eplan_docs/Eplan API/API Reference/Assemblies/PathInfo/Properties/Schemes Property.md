@@ -9,7 +9,7 @@ Returns default Schemes directory.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Schemes {get;}

@@ -9,7 +9,7 @@ Part of the structure identifier without separators stored in the object identif
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_OBJECTCODE_STRUCTUREPARTWITHOUTPREFIX( 

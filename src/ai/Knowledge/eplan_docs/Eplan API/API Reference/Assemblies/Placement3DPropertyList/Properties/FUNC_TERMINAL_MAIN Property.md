@@ -9,7 +9,7 @@ Main terminal # 20220.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_MAIN {get; set;}

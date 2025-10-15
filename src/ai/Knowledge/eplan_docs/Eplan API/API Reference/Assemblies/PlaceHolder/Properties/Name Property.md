@@ -9,7 +9,7 @@ Gets/Sets the name of the placeholder.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual string Name {get; set;}

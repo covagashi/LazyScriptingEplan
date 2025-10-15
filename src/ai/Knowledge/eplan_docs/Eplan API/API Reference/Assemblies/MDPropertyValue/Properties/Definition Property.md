@@ -10,7 +10,7 @@ The information includes: name of the property, it's data type, whether it is in
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyDefinition Definition {get;}

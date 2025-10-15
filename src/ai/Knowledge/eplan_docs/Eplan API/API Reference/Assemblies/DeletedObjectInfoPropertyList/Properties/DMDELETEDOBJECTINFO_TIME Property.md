@@ -9,7 +9,7 @@ Delete date # 36603.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMDELETEDOBJECTINFO_TIME {get; set;}

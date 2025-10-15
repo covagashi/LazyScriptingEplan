@@ -9,7 +9,7 @@ Last editor / Modification date (accessory list) # 22958.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ACCESSORYLIST_LASTCHANGE {get; set;}

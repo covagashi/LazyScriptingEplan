@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [CanParse](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ParserParameter~CanParse.html) | Parsing can start when the unitid is not empty |
 | Public Method | [Dispose](Eplan.EplApi.Baseu~Eplan.EplApi.Base.ParserParameter~Dispose().html) | Destructor for deterministic finalization of ParserParameter object. |
 
-[Top](#top)
+

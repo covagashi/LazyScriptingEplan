@@ -9,7 +9,7 @@ Sets the corner arc of one vertex of a poly line
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetBulgeAt( 

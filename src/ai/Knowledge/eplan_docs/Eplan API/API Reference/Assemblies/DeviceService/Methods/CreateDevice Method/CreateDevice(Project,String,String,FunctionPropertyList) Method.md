@@ -9,7 +9,7 @@ Creates new terminals for a new or existing DT according to a particular numberi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CreateTerminalDevice( 

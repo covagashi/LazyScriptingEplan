@@ -9,7 +9,7 @@ Returns true, if the article reference contains to an article placement
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool BelongsToArticlePlacement {get;}

@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [GetEnumerator](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection~GetEnumerator.html) | Returns an enumerator that can iterate through a collection. |
 | Public Method | [GetSysMsgEnumerator](Eplan.EplApi.Baseu~Eplan.EplApi.Base.SysMessagesCollection~GetSysMsgEnumerator.html) | Returns a typed enumerator that can iterate through a collection. |
 
-[Top](#top)
+

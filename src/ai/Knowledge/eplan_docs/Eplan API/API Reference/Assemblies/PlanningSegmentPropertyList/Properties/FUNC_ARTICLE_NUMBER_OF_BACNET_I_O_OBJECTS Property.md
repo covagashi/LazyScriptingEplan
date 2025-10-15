@@ -9,7 +9,7 @@ BACnet: Number of hardware interfaces # 26215.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_NUMBER_OF_HW_INTERFACES_BACNET( 

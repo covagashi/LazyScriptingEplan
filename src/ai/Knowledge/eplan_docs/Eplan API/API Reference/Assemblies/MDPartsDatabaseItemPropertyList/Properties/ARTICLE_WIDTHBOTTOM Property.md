@@ -9,7 +9,7 @@ Width bottom # 22199.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_WIDTHBOTTOM {get; set;}

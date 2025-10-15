@@ -9,7 +9,7 @@ Associated revision name (further) # 36609.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMDELETEDOBJECTINFO_PROJECTREVISION_NAME_HIST( 

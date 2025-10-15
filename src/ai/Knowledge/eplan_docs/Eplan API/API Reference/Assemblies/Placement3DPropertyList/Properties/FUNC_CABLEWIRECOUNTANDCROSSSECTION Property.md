@@ -9,7 +9,7 @@ Cable / Conduit: Number of connections and cross-section / diameter # 20053.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLEWIRECOUNTANDCROSSSECTION {get; set;}

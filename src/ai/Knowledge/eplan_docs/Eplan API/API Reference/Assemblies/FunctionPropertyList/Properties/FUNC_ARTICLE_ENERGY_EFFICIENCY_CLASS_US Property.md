@@ -9,7 +9,7 @@ Energy efficiency class US # 26308.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_ENERGY_EFFICIENCY_CLASS_US( 

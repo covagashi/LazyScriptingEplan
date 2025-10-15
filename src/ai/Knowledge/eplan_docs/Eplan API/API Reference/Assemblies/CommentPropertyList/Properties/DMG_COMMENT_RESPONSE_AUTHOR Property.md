@@ -9,7 +9,7 @@ Author: Reply # 19503.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_COMMENT_RESPONSE_AUTHOR( 

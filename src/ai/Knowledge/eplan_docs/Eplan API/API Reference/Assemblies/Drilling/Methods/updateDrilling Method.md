@@ -9,7 +9,7 @@ Updates the drilling (especially his height).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void updateDrilling()

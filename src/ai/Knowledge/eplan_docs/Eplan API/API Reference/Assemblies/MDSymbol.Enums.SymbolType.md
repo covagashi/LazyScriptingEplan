@@ -9,7 +9,7 @@ This are the different types of a Symobol
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MDSymbol.Enums.SymbolType : System.Enum

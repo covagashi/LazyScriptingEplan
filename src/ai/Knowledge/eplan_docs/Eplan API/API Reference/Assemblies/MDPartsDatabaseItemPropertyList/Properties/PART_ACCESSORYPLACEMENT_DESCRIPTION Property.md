@@ -9,7 +9,7 @@ Description (accessory placement) # 22974.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ACCESSORYPLACEMENT_DESCRIPTION {get; set;}

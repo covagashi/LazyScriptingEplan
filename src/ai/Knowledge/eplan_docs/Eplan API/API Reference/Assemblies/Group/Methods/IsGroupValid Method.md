@@ -9,7 +9,7 @@ Returns true, if group is valid if not, the group should be dissolved
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsGroupValid()

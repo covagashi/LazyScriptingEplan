@@ -9,7 +9,7 @@ Sealing material # 26067.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SEALING_MATERIAL {get; set;}

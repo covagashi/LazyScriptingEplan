@@ -14,4 +14,4 @@ Public Properties
 | Property | [partNumber](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IArticleInfo~partNumber.html) | Returns the part number of the Article. |
 | Property | [partVariant](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.IArticleInfo~partVariant.html) | Returns the variant number of the Article. |
 
-[Top](#top)
+

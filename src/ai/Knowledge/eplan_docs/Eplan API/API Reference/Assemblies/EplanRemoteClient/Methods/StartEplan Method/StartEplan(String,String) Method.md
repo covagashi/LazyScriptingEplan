@@ -9,7 +9,7 @@ Starts an Eplan instance with arguments.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EplanServerData StartEplan( 

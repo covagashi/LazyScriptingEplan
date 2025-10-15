@@ -9,7 +9,7 @@ Method for finding [OptionGroup](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public OptionGroup GetOptionGroupByName( 

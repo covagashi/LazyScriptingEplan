@@ -9,7 +9,7 @@ Trade 'Cooling lubricant' # 22262.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CRAFT_COOLINGLUBRICANT {get; set;}

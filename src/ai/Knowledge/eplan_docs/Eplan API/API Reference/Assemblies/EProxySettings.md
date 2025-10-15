@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [NullableContext(1)]
@@ -35,7 +35,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [EProxySettings Constructor](Eplan.IdentityClient.Types~Eplan.IdentityClient.EProxySettings~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -51,4 +51,4 @@ Public Properties
 | Public Property | [User](Eplan.IdentityClient.Types~Eplan.IdentityClient.EProxySettings~User.html) | User name. Default = empty. |
 | Public Property | [UseSystemProxy](Eplan.IdentityClient.Types~Eplan.IdentityClient.EProxySettings~UseSystemProxy.html) | Indicates if system proxy is used. Default = true. |
 
-[Top](#top)
+

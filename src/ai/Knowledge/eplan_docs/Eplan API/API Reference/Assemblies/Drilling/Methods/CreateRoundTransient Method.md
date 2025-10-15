@@ -9,7 +9,7 @@ Creates transient unplaced new round drilling.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Drilling CreateRoundTransient( 

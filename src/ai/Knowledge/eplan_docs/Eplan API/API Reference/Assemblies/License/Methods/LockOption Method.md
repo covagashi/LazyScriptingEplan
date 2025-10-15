@@ -9,7 +9,7 @@ Assigns a license to an option on the system, i.e., a license for this option is
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool LockOption( 

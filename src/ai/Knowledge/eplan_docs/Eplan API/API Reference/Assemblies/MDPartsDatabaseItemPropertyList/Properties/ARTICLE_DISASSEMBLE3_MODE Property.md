@@ -9,7 +9,7 @@ Break up in summarized parts list (manufacturing data) # 22417.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DISASSEMBLE3_MODE {get; set;}

@@ -9,7 +9,7 @@ Eplan server Name
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ServerName {get; set;}

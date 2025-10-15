@@ -9,7 +9,7 @@ Placements in this context.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Placement[] Placements {get; set;}

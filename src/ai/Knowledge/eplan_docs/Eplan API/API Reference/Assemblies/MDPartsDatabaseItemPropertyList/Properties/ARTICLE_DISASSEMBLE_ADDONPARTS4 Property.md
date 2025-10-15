@@ -9,7 +9,7 @@ Include supplemental parts (parts list / manufacturing data) # 22420.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_DISASSEMBLE_ADDONPARTS4 {get; set;}

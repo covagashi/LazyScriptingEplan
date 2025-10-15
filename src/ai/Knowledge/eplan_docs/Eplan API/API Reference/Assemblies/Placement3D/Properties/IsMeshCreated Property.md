@@ -9,7 +9,7 @@ Returns `true` if a mesh is created for this objects and assigned for it.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsMeshCreated {get;}

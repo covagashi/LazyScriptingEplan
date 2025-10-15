@@ -9,7 +9,7 @@ The connection dimension of the plug template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ConnectionDimension {get; set;}

@@ -9,7 +9,7 @@ Contains possible usage of a user-defined property definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum UserDefinedPropertyDefinition.Enums.ClientType : System.Enum

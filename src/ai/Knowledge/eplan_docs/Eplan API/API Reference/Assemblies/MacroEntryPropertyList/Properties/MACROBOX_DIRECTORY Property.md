@@ -9,7 +9,7 @@ Macro: Directory # 23015.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROBOX_DIRECTORY {get; set;}

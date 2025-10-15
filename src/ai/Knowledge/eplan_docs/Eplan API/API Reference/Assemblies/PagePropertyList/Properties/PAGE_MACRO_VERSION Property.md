@@ -9,7 +9,7 @@ Macro: Version # 11911.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_MACRO_VERSION {get; set;}

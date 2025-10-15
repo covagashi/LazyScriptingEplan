@@ -9,7 +9,7 @@ Identificators of properties owned by Function3D class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Function3D : System.Enum

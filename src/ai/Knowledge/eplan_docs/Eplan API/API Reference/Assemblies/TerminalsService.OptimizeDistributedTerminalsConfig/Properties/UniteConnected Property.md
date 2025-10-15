@@ -9,7 +9,7 @@ If TRUE, connected distributed terminals will be sorted on the strip, so that th
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool UniteConnected {get; set;}

@@ -9,7 +9,7 @@ Performance description, standardized: Item number (device, utility, service) # 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_POSITION_NUMBER_STLB {get; set;}

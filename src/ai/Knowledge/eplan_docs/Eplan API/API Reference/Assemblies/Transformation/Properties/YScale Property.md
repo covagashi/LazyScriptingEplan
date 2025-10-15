@@ -9,7 +9,7 @@ Set scaling in y-direction
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double YScale {get; set;}

@@ -9,7 +9,7 @@ Number # 16002.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_NR {get; set;}

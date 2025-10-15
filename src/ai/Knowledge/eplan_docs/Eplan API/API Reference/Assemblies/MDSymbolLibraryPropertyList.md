@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [DefaultMember("Property")]
@@ -37,7 +37,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [MDSymbolLibraryPropertyList Constructor](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolLibraryPropertyList~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -79,7 +79,7 @@ Public Properties
 | Public Property | [SYMBLIB\_VERSION](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolLibraryPropertyList~SYMBLIB_VERSION().html) | Version # 15012. |
 | Public Property | [SYMBOLLIBRARY\_REMOVED\_VARIANT](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolLibraryPropertyList~SYMBOLLIBRARY_REMOVED_VARIANT().html) | Compressed symbol library # 15031. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -88,4 +88,4 @@ Public Methods
 | Public Method | [Dispose()](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList~Dispose().html) | Destructor for deterministic finalization of MDSymbolLibraryPropertyList object. (Inherited from [Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList.html)) |
 | Public Method | [Exists](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolLibraryPropertyList~Exists.html) | Overloaded. Checks property existence for used obiect. |
 
-[Top](#top)
+

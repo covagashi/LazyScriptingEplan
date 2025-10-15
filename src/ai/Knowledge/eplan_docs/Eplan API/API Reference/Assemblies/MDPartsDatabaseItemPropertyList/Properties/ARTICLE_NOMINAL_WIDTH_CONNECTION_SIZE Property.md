@@ -9,7 +9,7 @@ Nominal size / connection size # 26514.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NOMINAL_WIDTH_CONNECTION_SIZE {get; set;}

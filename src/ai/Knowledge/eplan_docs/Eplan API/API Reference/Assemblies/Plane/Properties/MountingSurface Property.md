@@ -9,7 +9,7 @@ Size of mounting surface beginning relatively to the origin of plane. (x == widt
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD MountingSurface {get; set;}

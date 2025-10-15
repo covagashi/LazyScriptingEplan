@@ -9,7 +9,7 @@ Place of installation # 10032.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_LOCATIONOFINSTALLATION {get; set;}

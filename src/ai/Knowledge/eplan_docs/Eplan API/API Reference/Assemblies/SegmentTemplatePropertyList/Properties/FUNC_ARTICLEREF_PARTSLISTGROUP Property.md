@@ -9,7 +9,7 @@ Topology: Generated single-line # 20343.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTIONCABLING_SINGLELINE_CREATED {get; set;}

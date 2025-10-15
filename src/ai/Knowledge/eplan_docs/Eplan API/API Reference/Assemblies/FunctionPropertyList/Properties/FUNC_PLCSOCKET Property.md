@@ -9,7 +9,7 @@ Position (slot / module) # 20411.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCSOCKET {get; set;}

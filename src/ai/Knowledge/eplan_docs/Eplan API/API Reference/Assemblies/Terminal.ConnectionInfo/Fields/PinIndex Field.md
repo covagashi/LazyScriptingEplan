@@ -9,7 +9,7 @@ Index of pin to which cable is connected.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short PinIndex

@@ -9,7 +9,7 @@ The level of terminal template
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Level {get; set;}

@@ -9,7 +9,7 @@ Get the level count this progress supports.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 int GetLevelCount()

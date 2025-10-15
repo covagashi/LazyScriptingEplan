@@ -9,7 +9,7 @@ Installation site (single component) # 1428.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_PLACEOFINSTALLATION_PART {get; set;}

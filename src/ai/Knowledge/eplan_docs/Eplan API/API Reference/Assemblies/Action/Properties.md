@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [ModuleName](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action~ModuleName.html) | Name of the module in which this action is implemented. |
 | Public Property | [Name](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.Action~Name.html) | Name used to identify this action in the system. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Returns `true` if subproject represened by this object can be exported.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsFileOffPossible {get;}

@@ -9,7 +9,7 @@ User-defined structure (sub-identifier 5) # 1605.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_USERDEFINED_SUB5 {get; set;}

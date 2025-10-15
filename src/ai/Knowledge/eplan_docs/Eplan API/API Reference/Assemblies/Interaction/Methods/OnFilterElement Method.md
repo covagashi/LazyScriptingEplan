@@ -9,7 +9,7 @@ Is called by framework to determine if oObject should be included in selection o
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool OnFilterElement( 

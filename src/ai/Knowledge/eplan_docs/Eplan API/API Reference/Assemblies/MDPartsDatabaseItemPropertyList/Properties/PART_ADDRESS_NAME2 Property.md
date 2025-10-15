@@ -9,7 +9,7 @@ Name 2 # 22911.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_ADDRESS_NAME2 {get; set;}

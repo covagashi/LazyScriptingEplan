@@ -9,7 +9,7 @@ Default constructor. Should never be used. Always throws NotImplementedException
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MacroBox()

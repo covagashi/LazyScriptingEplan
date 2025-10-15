@@ -9,7 +9,7 @@ Gets description in multiple languages
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual MultiLangString Description {get; set;}

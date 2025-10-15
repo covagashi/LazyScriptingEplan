@@ -17,4 +17,4 @@ Public Methods
 | Public Method | [ExecuteInMainThreadSync](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Internal.EplanMainThreadDispatcher~ExecuteInMainThreadSync.html) | Execute this work in a synchronous main thread. |
 | Public Methodstatic (Shared in Visual Basic) | [GetMainThreadDispatcher](Eplan.EplApi.Baseu~Eplan.EplApi.Base.Internal.EplanMainThreadDispatcher~GetMainThreadDispatcher.html) | Allows to use the dispatcher to work on synchronous and asynchronous threads. |
 
-[Top](#top)
+

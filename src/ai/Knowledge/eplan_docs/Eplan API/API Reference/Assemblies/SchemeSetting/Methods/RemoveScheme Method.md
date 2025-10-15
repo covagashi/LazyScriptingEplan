@@ -9,7 +9,7 @@ Remove a new scheme.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveScheme( 

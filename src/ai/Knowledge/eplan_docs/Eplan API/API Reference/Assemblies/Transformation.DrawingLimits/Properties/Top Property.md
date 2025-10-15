@@ -9,7 +9,7 @@ Top
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Top {get;}

@@ -9,7 +9,7 @@ Active power (uninterruptible power supply), max. # 26647.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_ACTIVE_POWER_MAX_UPS {get; set;}

@@ -9,7 +9,7 @@ Project's property which return full project-link file name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ProjectLinkFilePath {get;}

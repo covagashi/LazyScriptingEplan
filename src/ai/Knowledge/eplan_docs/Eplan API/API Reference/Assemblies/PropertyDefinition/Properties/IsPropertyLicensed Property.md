@@ -9,7 +9,7 @@ Allows to check if a given property is licensed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsPropertyLicensed {get;}

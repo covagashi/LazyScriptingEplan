@@ -9,7 +9,7 @@ Determines whether the specified MDPartsMessage is equal to the current MDPartsM
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override bool Equals( 

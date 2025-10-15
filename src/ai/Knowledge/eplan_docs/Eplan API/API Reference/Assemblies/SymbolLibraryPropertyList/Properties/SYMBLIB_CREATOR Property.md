@@ -9,7 +9,7 @@ Creator # 15020.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMBLIB_CREATOR {get; set;}

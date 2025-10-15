@@ -10,7 +10,7 @@ Offline MDPropertyValue objects don't have descriptors because they point to val
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAnyPropertyId Id {get;}

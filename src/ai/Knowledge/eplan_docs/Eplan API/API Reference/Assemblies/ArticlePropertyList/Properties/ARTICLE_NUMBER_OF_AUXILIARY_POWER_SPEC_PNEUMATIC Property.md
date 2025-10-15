@@ -9,7 +9,7 @@ Number of auxiliary powers (specifically pneumatic) # 26069.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_NUMBER_OF_AUXILIARY_POWER_SPEC_PNEUMATIC {get; set;}

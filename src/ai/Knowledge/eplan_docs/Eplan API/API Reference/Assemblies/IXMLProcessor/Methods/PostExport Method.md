@@ -9,7 +9,7 @@ Is called after export has been completed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool PostExport()

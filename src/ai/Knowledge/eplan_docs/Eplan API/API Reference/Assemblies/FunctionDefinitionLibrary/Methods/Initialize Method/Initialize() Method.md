@@ -9,7 +9,7 @@ For internal use. Opens the standard function definition library from system mas
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Initialize()

@@ -9,7 +9,7 @@ Contact image margin (in path) # 12060.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_CONTACTIMAGE_OFFSET {get; set;}

@@ -31,4 +31,4 @@ Public Properties
 | Public Property | [TopLevelObjects3D](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.WindowMacro~TopLevelObjects3D.html) | Returns all Eplan.EplApi.DataModel.Placement3D, with no parent. |
 | Public Property | [Variant](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.WindowMacro~Variant.html) | The used variant. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Merges one layer with another. Note: Only custom layer can be merged.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool MergeLayers( 

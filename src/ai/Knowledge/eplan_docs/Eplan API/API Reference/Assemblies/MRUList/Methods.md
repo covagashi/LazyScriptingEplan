@@ -18,4 +18,4 @@ Public Methods
 | Public Method | [SetProject](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.MRUList~SetProject.html) | Sets project. |
 | Public Method | [UpdateMruList](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.MRUList~UpdateMruList.html) | Updates MRU list. |
 
-[Top](#top)
+

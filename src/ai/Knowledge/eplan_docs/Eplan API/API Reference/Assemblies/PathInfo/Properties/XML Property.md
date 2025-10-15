@@ -9,7 +9,7 @@ Returns default XML directory.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string XML {get;}

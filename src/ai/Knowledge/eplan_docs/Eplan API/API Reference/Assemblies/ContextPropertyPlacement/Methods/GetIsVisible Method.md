@@ -9,7 +9,7 @@ Returns the property placement visibility in symbol editor, for the given scheme
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool GetIsVisible( 

@@ -9,7 +9,7 @@ Property to get or set description of the button, multilanguage. If set it is us
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString MultiLangDescription {get; set;}

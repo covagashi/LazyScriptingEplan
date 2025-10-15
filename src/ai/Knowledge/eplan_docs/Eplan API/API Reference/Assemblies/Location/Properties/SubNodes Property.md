@@ -9,7 +9,7 @@ Gets all child locations in the same hierarchy (e.g. for +A.A.A it may be: +A.A.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Location[] SubNodes {get;}

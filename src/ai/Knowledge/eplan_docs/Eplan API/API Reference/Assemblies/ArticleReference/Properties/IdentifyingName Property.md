@@ -9,7 +9,7 @@ Gets the identifying device tag of the parent function(property ArticleReference
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string IdentifyingName {get;}

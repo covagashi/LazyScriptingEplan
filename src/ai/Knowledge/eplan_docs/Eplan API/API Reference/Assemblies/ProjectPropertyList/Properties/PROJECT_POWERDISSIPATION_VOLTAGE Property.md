@@ -9,7 +9,7 @@ Thermal design: Voltage # 10310.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJECT_POWERDISSIPATION_VOLTAGE {get; set;}

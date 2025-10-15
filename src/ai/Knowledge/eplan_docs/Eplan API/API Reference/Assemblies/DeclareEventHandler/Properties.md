@@ -13,4 +13,4 @@ Public Properties
 | Public Property | [Name](Eplan.EplApi.AFu~Eplan.EplApi.Scripting.DeclareEventHandler~Name.html) |  |
 | Public Property | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
+

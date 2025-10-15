@@ -9,7 +9,7 @@ Sets the value of a setting. The index under which setting will be written is ev
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetStringSetting( 

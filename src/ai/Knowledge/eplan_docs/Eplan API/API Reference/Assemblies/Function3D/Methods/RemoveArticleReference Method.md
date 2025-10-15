@@ -9,7 +9,7 @@ Removes the ArticleReference from the Function.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void RemoveArticleReference( 

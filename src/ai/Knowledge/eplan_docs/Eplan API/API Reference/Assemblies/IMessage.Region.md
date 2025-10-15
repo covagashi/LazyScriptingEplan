@@ -9,7 +9,7 @@ Predefined regions for project messages; every project message must be assigned 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum IMessage.Region : System.Enum

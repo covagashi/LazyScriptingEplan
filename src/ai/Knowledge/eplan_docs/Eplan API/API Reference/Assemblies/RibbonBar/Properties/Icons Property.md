@@ -9,7 +9,7 @@ Returns icons of the ribbon bar
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonIcon[] Icons {get;}

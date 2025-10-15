@@ -24,4 +24,4 @@ Public Methods
 | Public Method | [ToString](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyValue~ToString.html) | Overloaded. Returns string value of this property. When type of property is MultiLangString then only the specified language is returned. In case of a transient PropertyValue object, the stored value is returned without any cast. When property can not be read, `default_value` is returned instead of throwing an `EmptyPropertyException` . |
 | Public Method | [ToTime](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyValue~ToTime.html) | Used in conversion of the PropertyValue object to `time`. |
 
-[Top](#top)
+

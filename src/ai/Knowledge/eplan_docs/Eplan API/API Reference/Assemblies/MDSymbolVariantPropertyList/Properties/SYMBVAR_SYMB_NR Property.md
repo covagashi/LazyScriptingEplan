@@ -9,7 +9,7 @@ Symbol number # 16904.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMBVAR_SYMB_NR {get; set;}

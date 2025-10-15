@@ -9,7 +9,7 @@ Connection cable: Cross-section # 26135.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CROSS_SECTION_OF_THE_CONNECTION_CABLE {get; set;}

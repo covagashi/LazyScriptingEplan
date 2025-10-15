@@ -9,7 +9,7 @@ Transport capacity of the operating fluid # 26326.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_PUMPING_CAPACITY_OF_THE_OPERATING_LIQUID {get; set;}

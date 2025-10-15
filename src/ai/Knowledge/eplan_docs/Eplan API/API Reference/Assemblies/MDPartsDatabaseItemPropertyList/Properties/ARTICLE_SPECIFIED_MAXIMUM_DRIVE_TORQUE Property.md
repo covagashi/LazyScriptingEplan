@@ -9,7 +9,7 @@ Drive torque (specified), max. # 26570.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SPECIFIED_MAXIMUM_DRIVE_TORQUE {get; set;}

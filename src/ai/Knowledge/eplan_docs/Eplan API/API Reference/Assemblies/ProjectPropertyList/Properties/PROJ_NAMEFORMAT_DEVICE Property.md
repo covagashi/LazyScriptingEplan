@@ -9,7 +9,7 @@ Naming format for devices # 10075.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_NAMEFORMAT_DEVICE {get; set;}

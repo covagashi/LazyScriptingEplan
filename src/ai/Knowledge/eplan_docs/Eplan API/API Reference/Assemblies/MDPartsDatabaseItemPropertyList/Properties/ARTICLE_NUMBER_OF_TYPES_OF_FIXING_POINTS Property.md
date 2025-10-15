@@ -9,7 +9,7 @@ Number of attachment point types # 26075.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_NUMBER_OF_TYPES_OF_FIXING_POINTS {get; set;}

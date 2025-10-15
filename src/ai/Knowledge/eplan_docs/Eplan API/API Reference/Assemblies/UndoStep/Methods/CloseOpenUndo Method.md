@@ -9,7 +9,7 @@ Close and open Undo protocol. Call this method to mark step in Undo action list.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CloseOpenUndo()

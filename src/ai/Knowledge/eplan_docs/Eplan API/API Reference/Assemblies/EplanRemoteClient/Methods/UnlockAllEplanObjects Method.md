@@ -9,7 +9,7 @@ Unlock all objects in given project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EplanResponse UnlockAllEplanObjects( 

@@ -9,7 +9,7 @@ DT: Supplementary field 2 # 20157.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DT_SUPPLEMENTARYFIELD02 {get; set;}

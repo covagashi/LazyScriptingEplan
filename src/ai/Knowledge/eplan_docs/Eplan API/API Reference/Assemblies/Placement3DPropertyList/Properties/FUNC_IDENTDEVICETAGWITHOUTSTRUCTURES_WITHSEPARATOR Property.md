@@ -9,7 +9,7 @@ DT (identifying, without project structures, with preceding sign) # 20215.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_IDENTDEVICETAGWITHOUTSTRUCTURES_WITHSEPARATOR {get; set;}

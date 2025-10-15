@@ -9,7 +9,7 @@ Returns set of local templates assigned to this object or to its segment templat
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] LocalTemplates {get;}

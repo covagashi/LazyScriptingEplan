@@ -9,7 +9,7 @@ Removes a net connection point and connection
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveConnectionPoint( 

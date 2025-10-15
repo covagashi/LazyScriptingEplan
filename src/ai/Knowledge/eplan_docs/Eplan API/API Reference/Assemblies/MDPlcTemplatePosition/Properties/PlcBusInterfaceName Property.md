@@ -9,7 +9,7 @@ The PLC bus interface name
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PlcBusInterfaceName {get; set;}

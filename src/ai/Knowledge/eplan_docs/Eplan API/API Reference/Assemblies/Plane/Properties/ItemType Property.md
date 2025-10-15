@@ -9,7 +9,7 @@ Item type of a Plane.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ItemType ItemType {get; set;}

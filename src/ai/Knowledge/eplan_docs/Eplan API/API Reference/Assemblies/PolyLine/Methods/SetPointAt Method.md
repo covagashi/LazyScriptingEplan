@@ -9,7 +9,7 @@ Sets one vertex of a polyline If the index of this point does not yet exist it w
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetPointAt( 

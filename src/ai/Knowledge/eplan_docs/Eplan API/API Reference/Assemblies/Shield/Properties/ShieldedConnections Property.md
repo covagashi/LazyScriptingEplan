@@ -9,7 +9,7 @@ Returns collection of shielded connections.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Connection[] ShieldedConnections {get;}

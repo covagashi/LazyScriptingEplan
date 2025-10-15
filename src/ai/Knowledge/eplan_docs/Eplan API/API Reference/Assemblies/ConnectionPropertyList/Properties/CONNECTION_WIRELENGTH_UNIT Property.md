@@ -9,7 +9,7 @@ Connection: Unit of length # 31001.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_WIRELENGTH_UNIT {get; set;}

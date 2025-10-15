@@ -9,7 +9,7 @@ constructor with description of object type and variant (unused now).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public IncorrectSymbolTypeException( 

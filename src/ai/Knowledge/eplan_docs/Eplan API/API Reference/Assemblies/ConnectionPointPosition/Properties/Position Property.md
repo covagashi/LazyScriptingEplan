@@ -9,7 +9,7 @@ Position of the connection point in GED.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D Position {get; set;}

@@ -9,7 +9,7 @@ Connection point logic: Number of saddle jumpers allowed # 20325.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_LOGDEF_BRIDGECOUNT( 

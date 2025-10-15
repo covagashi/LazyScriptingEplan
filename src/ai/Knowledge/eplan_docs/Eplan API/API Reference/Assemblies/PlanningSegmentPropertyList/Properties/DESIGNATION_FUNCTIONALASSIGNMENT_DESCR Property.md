@@ -9,7 +9,7 @@ Functional assignment (leading identifiers) # 1322.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FUNCTIONALASSIGNMENT_LEADINGPARTS( 

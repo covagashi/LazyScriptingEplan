@@ -9,7 +9,7 @@ AutomationML: Plant # 10953.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJECT_PRODUCTION_LINE {get; set;}

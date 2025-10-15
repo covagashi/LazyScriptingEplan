@@ -9,7 +9,7 @@ Modification note # 16024.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_MODIFICATIONCOMMENT {get; set;}

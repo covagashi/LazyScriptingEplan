@@ -9,7 +9,7 @@ Start recording changes. If already started, has no effect.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Start()

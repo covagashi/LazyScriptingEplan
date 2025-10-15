@@ -9,7 +9,7 @@ Removes the contents.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Clear()

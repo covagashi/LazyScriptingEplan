@@ -9,7 +9,7 @@ Number of cells in Y direction
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int LengthY {get;}

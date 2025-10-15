@@ -9,7 +9,7 @@ Returns the part number of the referenced part (if type is not AccessoryList).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get; set;}

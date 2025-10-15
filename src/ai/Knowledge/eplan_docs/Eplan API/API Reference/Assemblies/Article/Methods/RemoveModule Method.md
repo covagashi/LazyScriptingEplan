@@ -9,7 +9,7 @@ Removes module from article.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveModule( 

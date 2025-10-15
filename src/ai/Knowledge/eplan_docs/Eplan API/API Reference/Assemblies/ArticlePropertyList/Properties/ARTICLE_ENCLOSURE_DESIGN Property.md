@@ -9,7 +9,7 @@ Type of construction # 26024.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_ENCLOSURE_DESIGN {get; set;}

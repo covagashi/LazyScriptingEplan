@@ -9,7 +9,7 @@ Returns internal designation of this pin.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Designation {get;}

@@ -9,7 +9,7 @@ Copies the elements of the `MDPartsDatabaseMessages` to an Array, starting at a 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void CopyTo( 

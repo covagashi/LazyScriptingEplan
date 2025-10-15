@@ -9,7 +9,7 @@ Returns an array of item types valid for this Function3D.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ItemType[] GetValidItemTypes()

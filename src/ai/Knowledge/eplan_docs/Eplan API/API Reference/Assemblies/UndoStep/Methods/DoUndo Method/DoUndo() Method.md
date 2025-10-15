@@ -9,7 +9,7 @@ Make Undo action - reverse all operations up to last [CloseOpenUndo](Eplan.EplAp
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DoUndo()

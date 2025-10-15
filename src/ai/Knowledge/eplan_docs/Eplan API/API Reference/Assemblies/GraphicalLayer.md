@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class GraphicalLayer
@@ -32,7 +32,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [GraphicalLayer Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayer~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -59,7 +59,7 @@ Public Properties
 | Public Property | [TextRotation](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayer~TextRotation.html) | Layer's rotation of texts |
 | Public Property | [Transparency](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayer~Transparency.html) | Specifies transparency of layer as double with a value between 0.0 and 1.0 |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -71,7 +71,7 @@ Public Methods
 | Public Method | [GetHashCode](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayer~GetHashCode.html) | Serves as the default hash function. |
 | Public Method | [Store](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayer~Store.html) | Stores modified layer's properties into project. |
 
-[Top](#top)
+
 
 Public Operators
 
@@ -79,4 +79,4 @@ Public Operators
 | --- | --- |
 | public Operator [Equality](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.GraphicalLayer~op_Equality.html) | .NET operator for comparing two GraphicalLayers. Comparision is made by comparing each of GraphicalLayers members instead of internal object id. |
 
-[Top](#top)
+

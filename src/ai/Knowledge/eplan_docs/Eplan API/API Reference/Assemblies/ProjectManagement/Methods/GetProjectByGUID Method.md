@@ -9,7 +9,7 @@ Method for searching a project by a given project ID from the project management
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool GetProjectByGUID( 

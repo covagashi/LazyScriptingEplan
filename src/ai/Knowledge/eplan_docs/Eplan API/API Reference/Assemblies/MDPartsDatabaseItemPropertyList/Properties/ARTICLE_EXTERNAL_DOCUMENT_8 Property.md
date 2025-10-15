@@ -9,7 +9,7 @@ External document 8 # 22239.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_EXTERNAL_DOCUMENT_8 {get; set;}

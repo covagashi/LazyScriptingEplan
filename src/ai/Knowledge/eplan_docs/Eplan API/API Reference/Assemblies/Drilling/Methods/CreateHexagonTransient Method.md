@@ -9,7 +9,7 @@ Creates new transient hexagon drilling.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Drilling CreateHexagonTransient( 

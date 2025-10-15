@@ -9,7 +9,7 @@ Generates 3d macros from step files.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool GenerateMacrosFrom3DData( 

@@ -9,7 +9,7 @@ Finger width # 22285.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TAB_WIDTH {get; set;}

@@ -9,7 +9,7 @@ Format of full DT: Plug definition # 10643.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_FULLDTFORMAT_CONNECTOR_DEF_TEXT {get; set;}

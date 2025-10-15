@@ -9,7 +9,7 @@ The 'Transparent' flag of the Option.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsTransparent {get; set;}

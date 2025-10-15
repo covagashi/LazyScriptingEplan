@@ -9,7 +9,7 @@ Returns the start [Pin](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin.html)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Pin StartPin {get;}

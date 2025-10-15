@@ -9,7 +9,7 @@ Opens a symbol library from system masterdata pool. Note: if this method returns
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Initialize( 

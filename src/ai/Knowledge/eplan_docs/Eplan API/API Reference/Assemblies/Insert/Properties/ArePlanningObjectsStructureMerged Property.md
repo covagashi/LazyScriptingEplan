@@ -9,7 +9,7 @@ Indicates whether planning objects structure will be merged with existing nodes 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ArePlanningObjectsStructureMerged {get; set;}

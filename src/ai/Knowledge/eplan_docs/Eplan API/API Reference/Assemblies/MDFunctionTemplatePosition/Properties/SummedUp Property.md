@@ -9,7 +9,7 @@ Returns TRUE if the function template is part of an assembly or module and is su
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SummedUp {get;}

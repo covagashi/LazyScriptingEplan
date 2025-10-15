@@ -9,7 +9,7 @@ Default property arrangement for variant B (alternative) # 16034.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue SYMB_DEFAULT_ALTERNATIVE_PROPERTYSET_B {get; set;}

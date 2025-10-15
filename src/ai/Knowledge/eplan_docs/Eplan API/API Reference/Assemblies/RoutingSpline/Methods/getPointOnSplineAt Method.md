@@ -9,7 +9,7 @@ Gets the point of spline at a relative position.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ValueType getPointOnSplineAt( 

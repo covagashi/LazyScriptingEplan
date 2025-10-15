@@ -9,7 +9,7 @@ Makes 3d connections visible in opened 3d graphic editor view.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ShowConnections( 

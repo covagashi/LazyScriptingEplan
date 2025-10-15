@@ -9,7 +9,7 @@ Format of displayed DT: Terminal # 10622.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_DTFORMAT_TERMINAL {get; set;}

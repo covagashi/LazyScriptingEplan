@@ -9,7 +9,7 @@ PLC subdevice 10: Position (slot / module) # 20542.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCDEVICENUMBER_10 {get; set;}

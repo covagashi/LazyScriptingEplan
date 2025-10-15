@@ -9,7 +9,7 @@ Creates SegmentTemplate object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

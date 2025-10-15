@@ -9,7 +9,7 @@ Connection point logic: Allow identical connection point designation # 20372.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_LOGDEF_ALLOW_SAME_DESIGNATION( 

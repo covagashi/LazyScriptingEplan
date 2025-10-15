@@ -9,7 +9,7 @@ Starts a check run for the given project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void VerifyProject( 

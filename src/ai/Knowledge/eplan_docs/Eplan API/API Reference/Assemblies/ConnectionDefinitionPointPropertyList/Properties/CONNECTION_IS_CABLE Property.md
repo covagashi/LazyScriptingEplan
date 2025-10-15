@@ -9,7 +9,7 @@ Cable connection # 31058.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_IS_CABLE {get; set;}

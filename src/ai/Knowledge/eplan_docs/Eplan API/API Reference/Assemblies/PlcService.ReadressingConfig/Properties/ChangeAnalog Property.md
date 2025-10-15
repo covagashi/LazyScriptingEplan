@@ -9,7 +9,7 @@ If true, analog addresses will be changed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ChangeAnalog {get; set;}

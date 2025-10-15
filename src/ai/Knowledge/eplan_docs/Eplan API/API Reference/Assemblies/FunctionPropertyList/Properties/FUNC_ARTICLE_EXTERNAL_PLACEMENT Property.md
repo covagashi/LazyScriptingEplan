@@ -9,7 +9,7 @@ External placement # 20917.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_EXTERNAL_PLACEMENT( 

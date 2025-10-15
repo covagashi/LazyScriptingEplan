@@ -9,7 +9,7 @@ Add a new accessory list position to the part. That accessory list position is a
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAccessoryListPosition AddAccessoryListPosition()

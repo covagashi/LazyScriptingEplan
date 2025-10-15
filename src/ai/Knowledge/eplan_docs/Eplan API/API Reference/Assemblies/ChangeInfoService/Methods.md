@@ -18,4 +18,4 @@ Public Methods
 | Public Method | [SetConnectionDirtyActive](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ChangeInfoService~SetConnectionDirtyActive.html) | Activate or deactivate connection dirty bit handling. Helper will switch mode automatically back due to destruction. |
 | Public Method | [SetObj2PageActive](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.ChangeInfoService~SetObj2PageActive.html) | Activate or deactivate change info handling if object belongs to page. Helper will switch mode automatically back due to destruction. |
 
-[Top](#top)
+

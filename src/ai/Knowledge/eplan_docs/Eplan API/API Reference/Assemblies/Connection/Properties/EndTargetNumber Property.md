@@ -9,7 +9,7 @@ Target number of end function (1,2,3...)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short EndTargetNumber {get; set;}

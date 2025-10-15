@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class PropertyDefinition
@@ -28,7 +28,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [PropertyDefinition Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition~_ctor(AnyPropertyId).html) | Constructor |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -47,7 +47,7 @@ Public Properties
 | Public Property | [Type](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition~Type.html) | Returns information about the type of the property. |
 | Public Property | [UpperBound](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition~UpperBound.html) | Returns the maximum value of a property specified in the property definition. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -56,4 +56,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition~Dispose().html) | Destructor for deterministic finalization of PropertyDefinition object. |
 | Public Method | [ValidateValue](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PropertyDefinition~ValidateValue.html) | Returns the display string used for a given property value. Validates whether the value meets the requirements of the property definition. |
 
-[Top](#top)
+

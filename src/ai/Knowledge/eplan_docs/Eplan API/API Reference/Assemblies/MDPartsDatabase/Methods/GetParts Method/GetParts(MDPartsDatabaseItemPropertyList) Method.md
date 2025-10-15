@@ -9,7 +9,7 @@ Gets parts that are stored in the parts database, filtered by given filter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPart[] GetParts( 

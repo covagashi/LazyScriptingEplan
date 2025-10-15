@@ -9,7 +9,7 @@ Cut-out: Nominal diameter of the threaded hole # 36007.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_OPENING_NOMINAL_DIAMETER {get; set;}

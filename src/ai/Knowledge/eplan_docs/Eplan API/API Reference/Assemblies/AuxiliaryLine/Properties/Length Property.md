@@ -9,7 +9,7 @@ Length of AuxiliaryLine.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Length {get;}

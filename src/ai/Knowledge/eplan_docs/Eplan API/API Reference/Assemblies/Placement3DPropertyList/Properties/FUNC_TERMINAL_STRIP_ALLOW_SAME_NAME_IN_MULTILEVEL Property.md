@@ -9,7 +9,7 @@ Terminal strips: Allow same designations within multi-level terminals # 20290.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_STRIP_ALLOW_SAME_NAME_IN_MULTILEVEL {get; set;}

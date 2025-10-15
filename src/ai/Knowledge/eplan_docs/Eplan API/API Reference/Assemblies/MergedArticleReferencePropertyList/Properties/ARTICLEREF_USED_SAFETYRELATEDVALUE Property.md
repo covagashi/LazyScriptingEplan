@@ -9,7 +9,7 @@ Safety-related values: Use case in use # 40345.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_USED_SAFETYRELATEDVALUE {get; set;}

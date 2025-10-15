@@ -9,7 +9,7 @@ Set routing symbol for netbased wiring
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum NetDefinitionPoint.NetbasedRoutingSymbols : System.Enum

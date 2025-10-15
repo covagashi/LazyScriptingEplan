@@ -9,7 +9,7 @@ Initializes Eplan IdentityClient
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 IdentityClientResponse InitIdentityClient( 

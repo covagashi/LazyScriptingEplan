@@ -9,7 +9,7 @@ Piping name # 31157.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_PIPENAME {get; set;}

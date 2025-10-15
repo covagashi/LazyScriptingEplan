@@ -9,7 +9,7 @@
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new PlaceHolder3DPropertyList Properties {get;}

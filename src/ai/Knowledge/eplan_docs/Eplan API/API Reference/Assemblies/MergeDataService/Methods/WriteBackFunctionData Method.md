@@ -9,7 +9,7 @@ Writes back the data of merged functions to whose corresponding functions
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static void WriteBackFunctionData( 

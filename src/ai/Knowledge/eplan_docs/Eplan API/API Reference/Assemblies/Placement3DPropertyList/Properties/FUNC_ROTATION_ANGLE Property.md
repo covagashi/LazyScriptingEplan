@@ -9,7 +9,7 @@ Torsion angle # 20869.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ROTATION_ANGLE {get; set;}

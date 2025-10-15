@@ -9,7 +9,7 @@ Certification: ATEX identifier # 22270.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CERTIFICATE_ATEX {get; set;}

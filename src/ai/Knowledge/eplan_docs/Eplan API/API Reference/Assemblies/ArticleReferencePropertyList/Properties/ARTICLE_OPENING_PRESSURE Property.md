@@ -9,7 +9,7 @@ Opening pressure # 26522.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_OPENING_PRESSURE {get; set;}

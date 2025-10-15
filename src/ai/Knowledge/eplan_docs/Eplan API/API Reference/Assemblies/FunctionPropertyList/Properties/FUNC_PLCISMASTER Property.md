@@ -9,7 +9,7 @@ Logical network: Bus port is master # 20310.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCISMASTER {get; set;}

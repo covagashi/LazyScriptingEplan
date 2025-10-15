@@ -9,7 +9,7 @@ Location designation (leading identifiers) # 1222.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_LOCATION_LEADINGPARTS( 

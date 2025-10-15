@@ -9,7 +9,7 @@ Activate or deactivate change info handling. Helper will switch mode automatical
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetActive( 

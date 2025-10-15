@@ -9,7 +9,7 @@ Returns set of templates from articles assigned to this object or to its segment
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] TemplatesFromArticles {get;}

@@ -9,7 +9,7 @@ Cables: Number of free connections # 35101.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CABLE_COUNTOFFREEWIRES {get; set;}

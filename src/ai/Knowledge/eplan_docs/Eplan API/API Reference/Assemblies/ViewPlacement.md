@@ -17,7 +17,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ViewPlacement : Eplan.EplApi.DataModel.Group, Eplan.EplApi.DataModel.IPlacementsContainer
@@ -30,7 +30,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ViewPlacement Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.ViewPlacement~_ctor().html) | Default constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -74,7 +74,7 @@ Public Properties
 | Public Property | [ViewScale](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.ViewPlacement~ViewScale.html) | Type of scaling used to display objects in ViewPlacement. |
 | Public Property | [ViewStyle](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.ViewPlacement~ViewStyle.html) | Determines way how objects are display in ViewPlacement. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -104,4 +104,4 @@ Public Methods
 | Public Method | [UnGroup](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Group~UnGroup.html) | Overloaded. Remove [Eplan.EplApi.DataModel.Placement](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Placement.html)s only from a group. (Inherited from [Eplan.EplApi.DataModel.Group](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Group.html)) |
 | Public Method | [Update](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.ViewPlacement~Update.html) | Updates contents of ViewPlacement. |
 
-[Top](#top)
+

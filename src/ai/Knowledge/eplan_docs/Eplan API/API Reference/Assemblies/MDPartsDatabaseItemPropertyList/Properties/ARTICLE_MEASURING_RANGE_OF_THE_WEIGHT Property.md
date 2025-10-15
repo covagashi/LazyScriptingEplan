@@ -9,7 +9,7 @@ Measuring range: Weight # 26125.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_MEASURING_RANGE_OF_THE_WEIGHT {get; set;}

@@ -9,7 +9,7 @@ Safety-related values: MTTFD # 40333.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SAFETYRELATED_MTTFD {get; set;}

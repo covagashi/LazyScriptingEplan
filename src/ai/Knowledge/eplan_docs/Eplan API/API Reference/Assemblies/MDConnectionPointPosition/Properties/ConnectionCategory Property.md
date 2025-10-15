@@ -9,7 +9,7 @@ Connection category
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDConnectionCategory ConnectionCategory {get; set;}

@@ -9,7 +9,7 @@ Adds a mate to a group
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddMate( 

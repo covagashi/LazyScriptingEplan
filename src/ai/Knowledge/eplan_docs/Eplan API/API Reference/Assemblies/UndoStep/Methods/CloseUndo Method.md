@@ -9,7 +9,7 @@ Close Undo protocol. After call this method Undo action is not possible.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CloseUndo()

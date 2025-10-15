@@ -9,7 +9,7 @@ Connection point designation 3 # 20226.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CONNECTIONDESIGNATION3 {get; set;}

@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext~Dispose().html) | Destructor for deterministic finalization of FileSelectDecisionContext object. |
 | Public Method | [GetFiles](Eplan.EplApi.Baseu~Eplan.EplApi.Base.FileSelectDecisionContext~GetFiles.html) | Get all the files the user has selected in the decider dialog. |
 
-[Top](#top)
+

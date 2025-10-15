@@ -9,7 +9,7 @@ Evaluate the visible names from the full names for all placed 3D functions in in
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool EvaluateAndSetAllVisibleNames()

@@ -9,7 +9,7 @@ Device class # 26366.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_UNIT_CLASS {get; set;}

@@ -9,7 +9,7 @@ Gets enumertator in collection of MacroPlaceholderValueSets. The same as GetEnum
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual IEnumerator GetEnumerator2()

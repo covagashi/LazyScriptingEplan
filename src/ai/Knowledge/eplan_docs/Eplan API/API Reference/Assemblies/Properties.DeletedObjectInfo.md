@@ -9,7 +9,7 @@ Identificators of properties owned by DeletedObjectInfo class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.DeletedObjectInfo : System.Enum

@@ -9,7 +9,7 @@ Determines if StorableObject is correct database object and is not deleted.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsValid {get;}

@@ -9,7 +9,7 @@ Cut off given object at a given position. Page with object needs to be the curre
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public GraphicalPlacement[] CutOff( 

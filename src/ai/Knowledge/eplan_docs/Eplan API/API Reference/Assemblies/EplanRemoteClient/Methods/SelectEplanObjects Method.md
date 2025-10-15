@@ -9,7 +9,7 @@ Selects objects in GED
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public EplanResponse SelectEplanObjects( 

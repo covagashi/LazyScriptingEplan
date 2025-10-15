@@ -9,7 +9,7 @@ Determines all set languages.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int GetAllLanguages( 

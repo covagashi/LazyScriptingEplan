@@ -9,7 +9,7 @@ Eplan full path
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string EplanPath {get; set;}

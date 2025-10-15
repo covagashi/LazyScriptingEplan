@@ -9,7 +9,7 @@ Gets or sets the location of this object relative to the parent.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD RelativeLocation {get; set;}

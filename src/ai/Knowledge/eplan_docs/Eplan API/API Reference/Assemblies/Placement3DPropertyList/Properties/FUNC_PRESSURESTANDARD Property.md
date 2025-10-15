@@ -9,7 +9,7 @@ Pressure level # 20330.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PRESSURESTANDARD {get; set;}

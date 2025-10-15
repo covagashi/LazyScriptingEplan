@@ -9,7 +9,7 @@ Gets the name of the product-top-group
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static string GetProductTopGroupName( 

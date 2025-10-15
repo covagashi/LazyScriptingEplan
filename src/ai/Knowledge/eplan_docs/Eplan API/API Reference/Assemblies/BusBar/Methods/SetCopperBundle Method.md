@@ -9,7 +9,7 @@ Sets parent copper bundle.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetCopperBundle( 

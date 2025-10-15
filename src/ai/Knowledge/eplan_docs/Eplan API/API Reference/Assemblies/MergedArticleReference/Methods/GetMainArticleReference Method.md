@@ -9,7 +9,7 @@ Returns the main ArticleReference object included in this compound.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ArticleReference GetMainArticleReference()

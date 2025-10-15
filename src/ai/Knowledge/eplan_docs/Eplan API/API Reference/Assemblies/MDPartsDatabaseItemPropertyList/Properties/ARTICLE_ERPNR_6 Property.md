@@ -9,7 +9,7 @@ ERP / PDM number 6 # 22375.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ERPNR_6 {get; set;}

@@ -9,7 +9,7 @@ Set one object with a name
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Set( 

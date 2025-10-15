@@ -9,7 +9,7 @@ Project's property which gives information if the project is opened exclusive
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsExclusive {get;}

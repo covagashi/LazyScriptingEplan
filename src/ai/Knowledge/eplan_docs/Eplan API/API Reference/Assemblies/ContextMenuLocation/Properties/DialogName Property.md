@@ -9,7 +9,7 @@ Get or Set the Dialog Name the Context menu is located in
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DialogName {get; set;}

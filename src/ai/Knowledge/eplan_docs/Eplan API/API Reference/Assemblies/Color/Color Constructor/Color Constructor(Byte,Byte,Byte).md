@@ -9,7 +9,7 @@ constructor Red channel value of color (0-255).Green channel value of color (0-2
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Color( 

@@ -9,7 +9,7 @@ Generates PLC schematic pages.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Page[] GenerateSchematic( 

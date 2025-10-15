@@ -9,7 +9,7 @@ Fluid / process engineering Wall thickness of the connection # 22275.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_FLUID_WALLTHICKNESS {get; set;}

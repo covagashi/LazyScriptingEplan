@@ -9,7 +9,7 @@ Exchange source and target # 31013.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_SWAP_SRC_DEST {get; set;}

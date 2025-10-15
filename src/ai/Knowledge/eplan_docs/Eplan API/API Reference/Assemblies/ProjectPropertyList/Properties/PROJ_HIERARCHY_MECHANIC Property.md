@@ -9,7 +9,7 @@ Structure format for mechanical devices # 10085.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_HIERARCHY_MECHANIC {get; set;}

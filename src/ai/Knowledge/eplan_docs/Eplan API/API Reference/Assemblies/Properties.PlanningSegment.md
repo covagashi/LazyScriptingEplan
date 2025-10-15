@@ -9,7 +9,7 @@ Identificators of properties owned by PlanningSegment class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.PlanningSegment : System.Enum

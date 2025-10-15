@@ -9,7 +9,7 @@ Rated apparent power # 26234.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_RATED_APPARENT_POWER {get; set;}

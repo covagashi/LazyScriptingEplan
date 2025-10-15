@@ -9,7 +9,7 @@ Object was transferred during part migration # 36100.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_OUTDATED {get; set;}

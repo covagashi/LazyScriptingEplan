@@ -9,7 +9,7 @@ Date and time when PDF comment was created by the author.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DateTime CreationDate {get;}

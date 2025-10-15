@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ConnectionPointPosition
@@ -64,7 +64,7 @@ Public Properties
 | Public Property | [ZPosition](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPointPosition~ZPosition.html) | The Z-position of the connection point |
 | Public Property | [ZVector](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPointPosition~ZVector.html) | The Z-vector of the connection point |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -73,4 +73,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPointPosition~Dispose().html) | Destructor for deterministic finalization of ConnectionPointPosition object. |
 | Public Method | [StoreToObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ConnectionPointPosition~StoreToObject.html) | Stores data from connection point position. |
 
-[Top](#top)
+

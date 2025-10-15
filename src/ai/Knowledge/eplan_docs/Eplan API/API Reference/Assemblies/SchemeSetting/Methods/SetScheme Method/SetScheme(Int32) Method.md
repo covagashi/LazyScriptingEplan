@@ -9,7 +9,7 @@ Sets a scheme by its number (LastUsed remains unchanged!)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetScheme( 

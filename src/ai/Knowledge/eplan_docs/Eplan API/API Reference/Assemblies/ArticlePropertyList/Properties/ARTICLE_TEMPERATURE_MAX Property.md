@@ -9,7 +9,7 @@ Temperature, max. # 26607.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TEMPERATURE_MAX {get; set;}

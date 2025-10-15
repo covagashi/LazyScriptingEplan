@@ -9,7 +9,7 @@ Gets/Sets active working section scheme for current user.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ActiveScheme {get; set;}

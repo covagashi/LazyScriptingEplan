@@ -9,7 +9,7 @@ Checks, if the point is inside logical area of the symbol. Returns true, if the 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override bool IsPointInsideLogicalArea( 

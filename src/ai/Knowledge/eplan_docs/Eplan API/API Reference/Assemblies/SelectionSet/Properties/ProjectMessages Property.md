@@ -9,7 +9,7 @@ Gets all selection project's messages.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ProjectMessage[] ProjectMessages {get;}

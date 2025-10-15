@@ -9,7 +9,7 @@ Function to which connection is assigned.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolReference Function

@@ -9,7 +9,7 @@ Returns the part number of the Article.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 string partNumber {get; set;}

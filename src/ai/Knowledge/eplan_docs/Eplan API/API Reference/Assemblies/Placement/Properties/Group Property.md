@@ -9,7 +9,7 @@ Returns a group that the Placement object belongs to. If the Placement object do
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Group Group {get;}

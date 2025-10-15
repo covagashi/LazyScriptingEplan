@@ -9,7 +9,7 @@ Terminal strips: Number of general terminals # 35002.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue TERMINALSTRIP_COUNTOFCOMMON {get; set;}

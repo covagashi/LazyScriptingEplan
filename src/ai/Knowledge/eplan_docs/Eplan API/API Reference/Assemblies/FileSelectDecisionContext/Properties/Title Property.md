@@ -9,7 +9,7 @@ The title for the decider.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Title {get; set;}

@@ -9,7 +9,7 @@ Associated connections: Remark # 31034.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CDP_CON_NOTE {get; set;}

@@ -9,7 +9,7 @@ External document: File / hyperlink # 22280.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_EXTERNAL_DOCUMENT_URL( 

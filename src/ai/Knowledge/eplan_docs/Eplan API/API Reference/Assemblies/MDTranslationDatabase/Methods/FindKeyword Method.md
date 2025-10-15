@@ -9,7 +9,7 @@ Finds keyword.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool FindKeyword( 

@@ -9,7 +9,7 @@ Project's property which return full project name, without an extension.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ProjectFullName {get;}

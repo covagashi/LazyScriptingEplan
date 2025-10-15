@@ -9,7 +9,7 @@ BACnet: Total number of objects # 26211.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_TOTAL_NUMBER_OF_BACNET_OBJECTS( 

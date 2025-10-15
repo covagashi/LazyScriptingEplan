@@ -10,7 +10,7 @@ This is only the case when the corresponding action is available.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsExecutable( 

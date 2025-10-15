@@ -9,7 +9,7 @@ Gets/Sets an array of segments that the symbol's logical area may consist of.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override SymbolReference.Segment[] LogicalAreaSegments {set;}

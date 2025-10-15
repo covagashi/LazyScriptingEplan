@@ -9,7 +9,7 @@ Actual power (pneumatic), max. # 26389.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ACTUAL_OUTPUT_PNEUMATIC_MAX {get; set;}

@@ -9,7 +9,7 @@ Type of sealing # 26013.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_TYPE_OF_SEALING {get; set;}

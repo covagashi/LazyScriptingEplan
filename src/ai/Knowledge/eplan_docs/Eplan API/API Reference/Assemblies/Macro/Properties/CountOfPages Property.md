@@ -9,7 +9,7 @@ Get the count of Pages in this macro
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public uint CountOfPages {get;}

@@ -12,4 +12,4 @@ Public Events
 | --- | --- | --- |
 | Public Event | [NameEvent](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventHandler~NameEvent_EV.html) | This event is raised whenever an event with the desired name occurs in Eplan. |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Routing direction source # 31114.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_ROUTING_DIRECTION_SOURCE {get; set;}

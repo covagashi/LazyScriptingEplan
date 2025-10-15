@@ -9,7 +9,7 @@ Creator: Description # 10247.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATORNOTE {get; set;}

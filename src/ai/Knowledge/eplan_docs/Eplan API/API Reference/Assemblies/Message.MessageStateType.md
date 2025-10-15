@@ -9,7 +9,7 @@ Message state types
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Message.MessageStateType : System.Enum

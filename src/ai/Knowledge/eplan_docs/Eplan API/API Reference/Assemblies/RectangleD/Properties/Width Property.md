@@ -9,7 +9,7 @@ Returns width of the rectangle.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Width {get;}

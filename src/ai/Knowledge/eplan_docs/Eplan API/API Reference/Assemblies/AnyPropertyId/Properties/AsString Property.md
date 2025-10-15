@@ -9,7 +9,7 @@ When AnyPropertyId was created from user-defined property identifying name AsStr
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string AsString {get;}

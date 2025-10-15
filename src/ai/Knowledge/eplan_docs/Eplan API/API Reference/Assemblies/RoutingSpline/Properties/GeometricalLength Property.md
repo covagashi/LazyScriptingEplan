@@ -9,7 +9,7 @@ Geometrical length of routing segment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override double GeometricalLength {get;}

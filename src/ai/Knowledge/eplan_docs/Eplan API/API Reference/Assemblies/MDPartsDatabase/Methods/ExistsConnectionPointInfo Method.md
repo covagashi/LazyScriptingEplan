@@ -9,7 +9,7 @@ Checks if a connection point info with the given name exists.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExistsConnectionPointInfo( 

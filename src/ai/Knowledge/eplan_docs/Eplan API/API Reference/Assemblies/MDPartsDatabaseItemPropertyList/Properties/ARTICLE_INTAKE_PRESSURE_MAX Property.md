@@ -9,7 +9,7 @@ Intake pressure, max. # 26004.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_INTAKE_PRESSURE_MAX {get; set;}

@@ -9,7 +9,7 @@ Returns whether strings are saved in the MultiLanguageString.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ContainsData()

@@ -9,7 +9,7 @@ Gets property id value as [Properties.Line](Eplan.EplApi.DataModelu~Eplan.EplApi
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.Line AsLine {get;}

@@ -9,7 +9,7 @@ Identificators of properties owned by StorableObject class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.StorableObject : System.Enum

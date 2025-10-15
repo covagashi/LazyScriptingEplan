@@ -9,7 +9,7 @@ User-defined structure (sub-identifier, complete) # 1621.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLSUBUSERDEFINED {get; set;}

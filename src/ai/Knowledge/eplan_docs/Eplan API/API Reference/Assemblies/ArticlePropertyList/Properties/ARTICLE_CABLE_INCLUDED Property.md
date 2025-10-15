@@ -9,7 +9,7 @@ Cables included # 26044.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CABLE_INCLUDED {get; set;}

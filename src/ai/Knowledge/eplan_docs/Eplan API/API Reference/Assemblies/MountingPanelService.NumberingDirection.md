@@ -9,7 +9,7 @@ Numbering direction
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MountingPanelService.NumberingDirection : System.Enum

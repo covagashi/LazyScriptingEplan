@@ -9,7 +9,7 @@ Removes placement from the page. Object becomes not-placed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void RemoveFromPage()

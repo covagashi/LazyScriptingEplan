@@ -9,7 +9,7 @@ Name (visible) # 20002.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_VISIBLENAME {get; set;}

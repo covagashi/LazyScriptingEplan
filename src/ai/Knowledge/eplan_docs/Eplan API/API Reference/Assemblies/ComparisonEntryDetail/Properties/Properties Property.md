@@ -9,7 +9,7 @@ EPLAN properties of the ComparisonEntryDetail object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new StorableObjectPropertyList Properties {get;}

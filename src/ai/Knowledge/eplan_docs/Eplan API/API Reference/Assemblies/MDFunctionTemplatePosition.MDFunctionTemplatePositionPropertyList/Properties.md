@@ -57,4 +57,4 @@ Public Properties
 | Public Property | [NonEmptyIds](topic1518.html) | Retrieves all non-empty property ids |
 | Public Property | [POTENTIAL\_TYPE](topic1519.html) | Potential type # 31006. |
 
-[Top](#top)
+

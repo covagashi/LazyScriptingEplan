@@ -9,7 +9,7 @@ Returns [Eplan.EplApi.DataModel.EObjects.Terminal](Eplan.EplApi.DataModelu~Eplan
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Terminal[] GetTerminalsWithCF( 

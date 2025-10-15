@@ -9,7 +9,7 @@ Gets or sets object's graphical layer. If object is not assigned to a project (P
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual GraphicalLayer Layer {get; set;}

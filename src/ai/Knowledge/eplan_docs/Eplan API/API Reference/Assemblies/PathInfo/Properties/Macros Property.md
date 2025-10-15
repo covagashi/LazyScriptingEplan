@@ -9,7 +9,7 @@ Returns default Macros directory.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Macros {get;}

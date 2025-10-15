@@ -9,7 +9,7 @@ Interface declaration for an action. When an action is to be registered for an a
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [Guid("83FAA39E-2215-3984-982F-29FFB4B3F5F2")]
@@ -79,4 +79,4 @@ Public Methods
 | Method | [GetActionProperties](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAction~GetActionProperties.html) | Returns descriptive data for the action. For documentation purposes only. |
 | Method | [OnRegister](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAction~OnRegister.html) | The action can be registered under a name determined by the action and an overload level. |
 
-[Top](#top)
+

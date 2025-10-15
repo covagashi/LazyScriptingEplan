@@ -9,7 +9,7 @@ Severity of the error
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MessageLevel : System.Enum

@@ -9,7 +9,7 @@ Identificators of properties owned by Cable class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Cable : System.Enum

@@ -9,7 +9,7 @@ Returns a Group3D object that the Placement3D object belongs to. If the Placemen
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Group3D Group3D {get;}

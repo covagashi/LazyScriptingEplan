@@ -9,7 +9,7 @@ Part number that the distributed main terminal with 'SH' potential will get. If 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string PartNumberTerminalSH {get; set;}

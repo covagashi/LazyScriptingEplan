@@ -9,7 +9,7 @@ Initializes new connection category with internal number
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDConnectionCategory( 

@@ -9,7 +9,7 @@ DT (subordinate): Column # 20172.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DT2_COLUMN {get; set;}

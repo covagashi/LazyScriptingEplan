@@ -9,7 +9,7 @@ Gets/Sets the value of a variable for a record.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 string Value( 

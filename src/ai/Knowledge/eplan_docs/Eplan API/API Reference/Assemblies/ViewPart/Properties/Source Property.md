@@ -9,7 +9,7 @@ Object which is being represented by this ViewPart.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement3D Source {get;}

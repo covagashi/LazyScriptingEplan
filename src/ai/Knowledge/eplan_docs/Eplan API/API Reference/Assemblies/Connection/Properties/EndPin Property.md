@@ -9,7 +9,7 @@ Returns the end [Pin](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Pin.html) o
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual Pin EndPin {get;}

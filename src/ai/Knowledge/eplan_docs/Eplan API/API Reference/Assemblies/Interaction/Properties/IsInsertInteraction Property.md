@@ -9,7 +9,7 @@ Returns `true`, if interaction is used to insert one ore more placements on page
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool IsInsertInteraction {get;}

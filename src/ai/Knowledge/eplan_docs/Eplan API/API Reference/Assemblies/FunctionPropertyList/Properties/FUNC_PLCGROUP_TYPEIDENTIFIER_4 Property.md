@@ -9,7 +9,7 @@ PLC subdevice 4: PLC type designation # 20584.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_TYPEIDENTIFIER_4 {get; set;}

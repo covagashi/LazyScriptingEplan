@@ -9,7 +9,7 @@ Exports Harness data.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ExportData( 

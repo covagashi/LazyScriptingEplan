@@ -9,7 +9,7 @@ Creates a new database transaction.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartsDatabaseTransaction CreateTransaction()

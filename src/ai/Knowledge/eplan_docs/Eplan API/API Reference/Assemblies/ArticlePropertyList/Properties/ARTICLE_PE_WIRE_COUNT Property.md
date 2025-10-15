@@ -9,7 +9,7 @@ Number of PE conductors # 22123.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PE_WIRE_COUNT {get; set;}

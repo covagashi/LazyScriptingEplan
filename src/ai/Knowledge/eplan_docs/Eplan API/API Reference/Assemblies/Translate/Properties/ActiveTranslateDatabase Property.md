@@ -9,7 +9,7 @@ Returns or sets the type of current translate database. Possible values are Data
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Translate.DatabaseType ActiveTranslateDatabase {get; set;}

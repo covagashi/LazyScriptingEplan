@@ -51,4 +51,4 @@ Public Properties
 | Public Property | [UseLocalPropertyPlacements](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference~UseLocalPropertyPlacements.html) | Return true if the instance uses the local property instances, otherwise it uses the ones of the variant. (Inherited from [Eplan.EplApi.DataModel.SymbolReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference.html)) |
 | Public Property | [Variant](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MacroBox~Variant.html) | Variant |
 
-[Top](#top)
+

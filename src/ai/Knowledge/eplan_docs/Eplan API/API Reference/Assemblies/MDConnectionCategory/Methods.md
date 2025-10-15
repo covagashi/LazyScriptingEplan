@@ -15,4 +15,4 @@ Public Methods
 | Public Method | [Remove](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionCategory~Remove.html) | Removes user-defined category |
 | Public Method | [ToString](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDConnectionCategory~ToString.html) | Returns a string that represents the current object. |
 
-[Top](#top)
+

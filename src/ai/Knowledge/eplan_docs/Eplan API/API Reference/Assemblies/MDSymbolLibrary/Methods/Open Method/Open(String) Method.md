@@ -9,7 +9,7 @@ Opens an existing symbol library for exclusive access.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static MDSymbolLibrary Open( 

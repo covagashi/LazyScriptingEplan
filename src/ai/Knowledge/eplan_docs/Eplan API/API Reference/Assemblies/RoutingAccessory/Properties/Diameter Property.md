@@ -9,7 +9,7 @@ Gets and sets diameter of this object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual double Diameter {get; set;}

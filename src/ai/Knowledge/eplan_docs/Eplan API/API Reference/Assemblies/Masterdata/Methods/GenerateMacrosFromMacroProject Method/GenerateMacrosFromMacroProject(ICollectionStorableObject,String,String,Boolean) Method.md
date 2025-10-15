@@ -9,7 +9,7 @@ Generate macros from collection of objects with macro definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void GenerateMacrosFromMacroProject( 

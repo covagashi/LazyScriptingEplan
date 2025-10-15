@@ -9,7 +9,7 @@ Returns [Eplan.EplApi.DataModel.EObjects.PlugStrip](Eplan.EplApi.DataModelu~Epla
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PlugStrip[] GetPlugStripsWithFilterScheme( 

@@ -9,7 +9,7 @@ Gets/Sets the value of the dimension circle.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DimensionText {get; set;}

@@ -9,7 +9,7 @@ Function exists with 'Multi-line' representation type # 20470.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ISPLACEDIN_CIRCUIT {get; set;}

@@ -9,7 +9,7 @@ Generates list of unused or deleted connection from project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool GenerateListOfUnusedConnections( 

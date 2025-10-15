@@ -9,7 +9,7 @@ Exports manufacturing data for wire fabrication machines.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExportProductionWiring( 

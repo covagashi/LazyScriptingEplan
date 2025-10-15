@@ -9,7 +9,7 @@ Overhang: Cover right # 22176.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_TOPPANELPROJECTIONRIGHT {get; set;}

@@ -9,7 +9,7 @@ Mounting clearance Width: Right # 22153.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SPACING_RIGHT {get; set;}

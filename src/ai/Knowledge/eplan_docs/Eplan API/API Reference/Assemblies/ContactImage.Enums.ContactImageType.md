@@ -9,7 +9,7 @@ Enum describes all possibilities where contact image can be displayed.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum ContactImage.Enums.ContactImageType : System.Enum

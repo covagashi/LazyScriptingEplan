@@ -9,7 +9,7 @@ Returns the Z position of the referenced door.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Z {get; set;}

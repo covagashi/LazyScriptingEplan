@@ -9,7 +9,7 @@ Cable reel # 26393.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CABLE_WINDER {get; set;}

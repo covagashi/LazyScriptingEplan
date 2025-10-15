@@ -9,7 +9,7 @@ Svg content of custom icons.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SvgContent {get; set;}

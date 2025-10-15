@@ -9,7 +9,7 @@ Ohmic resistance # 26132.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_OHMIC_RESISTANCE {get; set;}

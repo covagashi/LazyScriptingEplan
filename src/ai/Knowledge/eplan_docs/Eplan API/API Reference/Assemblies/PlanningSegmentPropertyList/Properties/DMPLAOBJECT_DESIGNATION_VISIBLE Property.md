@@ -9,7 +9,7 @@ Designation (visible) # 44065.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_DESIGNATION_VISIBLE {get; set;}

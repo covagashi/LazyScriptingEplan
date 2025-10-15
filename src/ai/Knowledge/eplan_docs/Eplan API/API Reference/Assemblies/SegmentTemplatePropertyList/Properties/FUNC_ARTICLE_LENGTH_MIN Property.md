@@ -9,7 +9,7 @@ Length, min. # 26416.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_LENGTH_MIN( 

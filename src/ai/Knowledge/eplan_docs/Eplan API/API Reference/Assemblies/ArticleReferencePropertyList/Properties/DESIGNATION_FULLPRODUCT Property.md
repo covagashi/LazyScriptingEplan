@@ -9,7 +9,7 @@ Product # 1820.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLPRODUCT {get; set;}

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDSymbolConnectionPoint
@@ -28,7 +28,7 @@ Public Properties
 | Public Property | [Direction](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolConnectionPoint~Direction.html) | Returns the direction of the connection point. |
 | Public Property | [Location](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolConnectionPoint~Location.html) | Returns the location of the connection point. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -36,4 +36,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Remove](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolConnectionPoint~Remove.html) | Removes the connection point from the symbol variant. |
 
-[Top](#top)
+

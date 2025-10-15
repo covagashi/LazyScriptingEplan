@@ -9,7 +9,7 @@ DT (identifying) # 20005.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_IDENTDEVICETAG {get; set;}

@@ -9,7 +9,7 @@ Performance description, standardized: Performance group item number # 26431.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_POWER_GROUP_ITEM_NUMBER_LGPOSNR {get; set;}

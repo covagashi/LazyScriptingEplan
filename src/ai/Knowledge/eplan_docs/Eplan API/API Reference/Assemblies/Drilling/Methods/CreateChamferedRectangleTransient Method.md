@@ -9,7 +9,7 @@ Creates new transient chamfer rectangle drilling.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Drilling CreateChamferedRectangleTransient( 

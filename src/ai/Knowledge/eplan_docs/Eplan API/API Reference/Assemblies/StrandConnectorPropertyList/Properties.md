@@ -44,4 +44,4 @@ Public Properties
 | Public Property | [STRANDCONNECTOR\_DESIGNATION](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StrandConnectorPropertyList~STRANDCONNECTOR_DESIGNATION().html) | Bundle: Connection point designation # 19070. |
 | Public Property | [WRITEPROTECTED\_AUTOMATIC](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementPropertyList~WRITEPROTECTED_AUTOMATIC().html) | Overloaded. Change protection (hierarchical) # 3015. (Inherited from [Eplan.EplApi.DataModel.PlacementPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PlacementPropertyList.html)) |
 
-[Top](#top)
+

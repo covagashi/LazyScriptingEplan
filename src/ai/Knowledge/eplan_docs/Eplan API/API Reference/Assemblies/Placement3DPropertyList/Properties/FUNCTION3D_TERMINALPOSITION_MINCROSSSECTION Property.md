@@ -9,7 +9,7 @@ Connection point pattern: Min. cross-section # 36062.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_TERMINALPOSITION_MINCROSSSECTION( 

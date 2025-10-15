@@ -20,4 +20,4 @@ Public Methods
 | Public Method | [GenerateProject](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Reports~GenerateProject.html) | Overloaded. Generate project reports. |
 | Public Method | [Update](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Reports~Update.html) | Overloaded. Updates dynamic formular or embedded report represented by [Eplan.EplApi.DataModel.ReportBlockReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ReportBlockReference.html). |
 
-[Top](#top)
+

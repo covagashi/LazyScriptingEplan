@@ -9,7 +9,7 @@ Name of target connection point (full) # 20048.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_FULLCONNECTIONDESTINATIONNAME( 

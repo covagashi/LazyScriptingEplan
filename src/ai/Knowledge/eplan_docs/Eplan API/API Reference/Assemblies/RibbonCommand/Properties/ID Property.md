@@ -9,7 +9,7 @@ Returns ID of the command
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public uint ID {get;}

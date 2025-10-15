@@ -9,7 +9,7 @@ Offset of bus bar holder placements relative to start point of bus bar.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual double BusBarHoldersPlacementOffset {get;}

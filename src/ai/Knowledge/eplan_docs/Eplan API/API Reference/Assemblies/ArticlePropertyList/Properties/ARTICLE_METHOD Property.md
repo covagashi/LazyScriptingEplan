@@ -9,7 +9,7 @@ Method # 26051.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_METHOD {get; set;}

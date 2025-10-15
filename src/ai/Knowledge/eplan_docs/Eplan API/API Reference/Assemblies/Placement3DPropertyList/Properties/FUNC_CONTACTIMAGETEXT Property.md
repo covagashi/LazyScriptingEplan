@@ -9,7 +9,7 @@ Revision: Contact image text (for property comparison) # 20199.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CONTACTIMAGETEXT {get; set;}

@@ -9,7 +9,7 @@ Returns placed representation of this planning segment.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SegmentPlacement SegmentPlacement {get;}

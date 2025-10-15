@@ -9,7 +9,7 @@ Adds a string in the requested language.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddString( 

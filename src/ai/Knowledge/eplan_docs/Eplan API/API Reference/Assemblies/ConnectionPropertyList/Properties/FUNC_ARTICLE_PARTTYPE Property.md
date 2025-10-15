@@ -9,7 +9,7 @@ Record type # 20103.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_PARTTYPE( 

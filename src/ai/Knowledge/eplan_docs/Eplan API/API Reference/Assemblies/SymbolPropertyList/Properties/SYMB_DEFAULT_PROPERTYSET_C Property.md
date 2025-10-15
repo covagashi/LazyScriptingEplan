@@ -9,7 +9,7 @@ Default property arrangement for variant C # 16006.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMB_DEFAULT_PROPERTYSET_C {get; set;}

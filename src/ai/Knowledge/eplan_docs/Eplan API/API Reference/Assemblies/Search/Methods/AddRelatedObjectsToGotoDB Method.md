@@ -9,7 +9,7 @@ Adds cross-referenced objects to the goto results list.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void AddRelatedObjectsToGotoDB( 

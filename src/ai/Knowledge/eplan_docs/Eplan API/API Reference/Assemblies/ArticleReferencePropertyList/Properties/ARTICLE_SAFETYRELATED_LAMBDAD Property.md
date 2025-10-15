@@ -9,7 +9,7 @@ Safety-related values: Lambda-D # 40334.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SAFETYRELATED_LAMBDAD {get; set;}

@@ -9,7 +9,7 @@ Returns upper right back absolute coordinate
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD3D UpperRightBackAbsolute {get;}

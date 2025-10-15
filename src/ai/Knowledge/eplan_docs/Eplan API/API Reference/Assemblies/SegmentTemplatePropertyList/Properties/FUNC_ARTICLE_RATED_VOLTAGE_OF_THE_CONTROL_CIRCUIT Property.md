@@ -9,7 +9,7 @@ Nominal voltage (load circuit) # 26495.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_RATED_VOLTAGE_OF_THE_LOAD_CIRCUIT( 

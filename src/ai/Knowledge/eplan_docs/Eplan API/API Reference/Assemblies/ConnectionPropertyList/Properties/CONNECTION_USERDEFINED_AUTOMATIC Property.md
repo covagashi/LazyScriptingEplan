@@ -9,7 +9,7 @@ User-defined structure: Main identifier (automatic) # 31110.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_USERDEFINED_AUTOMATIC {get; set;}

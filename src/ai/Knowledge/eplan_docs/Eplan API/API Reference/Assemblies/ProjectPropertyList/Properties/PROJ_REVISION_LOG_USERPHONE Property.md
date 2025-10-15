@@ -9,7 +9,7 @@ User: Phone number (change tracking) # 10192.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_REVISION_LOG_USERPHONE( 

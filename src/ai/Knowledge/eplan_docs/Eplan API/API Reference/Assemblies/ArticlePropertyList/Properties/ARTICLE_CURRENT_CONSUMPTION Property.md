@@ -9,7 +9,7 @@ Current consumption # 26595.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CURRENT_CONSUMPTION {get; set;}

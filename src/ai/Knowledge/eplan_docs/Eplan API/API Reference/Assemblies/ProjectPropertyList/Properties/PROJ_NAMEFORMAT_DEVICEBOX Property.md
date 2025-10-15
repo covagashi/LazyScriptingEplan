@@ -9,7 +9,7 @@ Naming format for black boxes # 10076.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_NAMEFORMAT_DEVICEBOX {get; set;}

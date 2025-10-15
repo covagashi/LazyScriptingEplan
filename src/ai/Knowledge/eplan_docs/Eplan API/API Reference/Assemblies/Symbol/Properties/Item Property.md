@@ -9,7 +9,7 @@ Index operator to looking for SymbolVariant from given index.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolVariant this[ 

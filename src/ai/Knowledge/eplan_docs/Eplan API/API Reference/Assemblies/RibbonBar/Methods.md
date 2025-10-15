@@ -22,4 +22,4 @@ Public Methods
 | Public Method | [RemoveIcon](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBar~RemoveIcon.html) | Removes custom icon from the ribbon bar |
 | Public Method | [UnregisterCommand](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonBar~UnregisterCommand.html) | Overloaded. Removes a command from the ribbon. If the ribbon doesn't exist yet, the command will be removed after the system start is finished |
 
-[Top](#top)
+

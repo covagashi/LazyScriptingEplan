@@ -9,7 +9,7 @@ Gets property id value as [Properties.PotentialDefinition](Eplan.EplApi.DataMode
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.PotentialDefinition AsPotentialDefinition {get;}

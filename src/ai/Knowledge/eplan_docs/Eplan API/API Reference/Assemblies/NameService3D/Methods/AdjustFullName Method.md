@@ -9,7 +9,7 @@ Evaluates for a given Function3D the full name from the visible name and sets th
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AdjustFullName( 

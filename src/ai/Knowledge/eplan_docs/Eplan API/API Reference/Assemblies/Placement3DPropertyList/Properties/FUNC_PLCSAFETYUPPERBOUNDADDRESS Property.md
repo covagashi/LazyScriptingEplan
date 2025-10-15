@@ -9,7 +9,7 @@ Safety address: Upper value # 20616.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCSAFETYUPPERBOUNDADDRESS {get; set;}

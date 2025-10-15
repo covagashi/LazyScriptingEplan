@@ -9,7 +9,7 @@ Connection dimension (all) # 20375.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNC_ALLCONNECTIONDIMENSIONS {get; set;}

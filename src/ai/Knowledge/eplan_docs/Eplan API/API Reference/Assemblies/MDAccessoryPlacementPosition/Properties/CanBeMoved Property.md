@@ -9,7 +9,7 @@ Activate this option if the part placed via this installation variant can be mov
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CanBeMoved {get; set;}

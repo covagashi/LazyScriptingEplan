@@ -9,7 +9,7 @@ Bundle: Connection point data # 19072.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue STRANDCONNECTOR_DATA_AUTOMATIC {get; set;}

@@ -9,7 +9,7 @@ Number of analog PLC outputs # 44082.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_SEGMENT_ANALOG_PLCOUTPUT_COUNT {get; set;}

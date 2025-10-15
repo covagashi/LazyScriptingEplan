@@ -9,7 +9,7 @@ Structure identifier (Segment) # 44032.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_ALLSTRUCTUREPARTS {get; set;}

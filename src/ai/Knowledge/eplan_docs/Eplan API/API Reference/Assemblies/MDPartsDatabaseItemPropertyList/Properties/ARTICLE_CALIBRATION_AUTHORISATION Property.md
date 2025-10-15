@@ -9,7 +9,7 @@ Calibration approval # 26034.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CALIBRATION_AUTHORISATION {get; set;}

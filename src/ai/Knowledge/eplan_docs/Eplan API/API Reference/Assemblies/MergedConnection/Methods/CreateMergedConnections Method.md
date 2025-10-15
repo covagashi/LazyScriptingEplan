@@ -9,7 +9,7 @@ Returns an array of MergedConnection objects created from the connections passed
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static MergedConnection[] CreateMergedConnections( 

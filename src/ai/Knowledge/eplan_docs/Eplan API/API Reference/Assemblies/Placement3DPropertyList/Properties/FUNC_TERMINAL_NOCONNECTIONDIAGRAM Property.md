@@ -9,7 +9,7 @@ No output to terminal-connection / pin-connection diagram # 20853.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_NOCONNECTIONDIAGRAM {get; set;}

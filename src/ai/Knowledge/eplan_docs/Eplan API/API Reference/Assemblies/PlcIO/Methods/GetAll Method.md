@@ -9,7 +9,7 @@ Returns an array of all PLCIOEntries existing in the project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static PlcIO[] GetAll( 

@@ -9,7 +9,7 @@ Tries to lock current device (which can refer to several objects, such as all fu
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void LockDevice( 

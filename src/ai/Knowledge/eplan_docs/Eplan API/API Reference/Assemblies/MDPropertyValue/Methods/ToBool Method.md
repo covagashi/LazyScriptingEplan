@@ -9,7 +9,7 @@ Converts this MDPropertyValue object to `System::Boolean`.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ToBool()

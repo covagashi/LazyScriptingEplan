@@ -9,7 +9,7 @@ Returns Line's width.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Width {get; set;}

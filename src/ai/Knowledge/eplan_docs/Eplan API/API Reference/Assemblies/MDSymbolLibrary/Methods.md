@@ -18,4 +18,4 @@ Public Methods
 | Public Methodstatic (Shared in Visual Basic) | [Open](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolLibrary~Open.html) | Overloaded. Opens an existing symbol library. |
 | Public Method | [Remove](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolLibrary~Remove.html) | Removes the symbol library. |
 
-[Top](#top)
+

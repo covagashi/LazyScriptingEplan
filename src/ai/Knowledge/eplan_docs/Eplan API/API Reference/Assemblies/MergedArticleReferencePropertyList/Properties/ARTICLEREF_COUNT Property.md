@@ -9,7 +9,7 @@ Number of units / quantity # 20482.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_COUNT {get; set;}

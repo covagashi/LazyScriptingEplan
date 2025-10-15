@@ -9,7 +9,7 @@ plug contact at start of wire # 21026.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue CONNECTION_WIRE_START {get; set;}

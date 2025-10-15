@@ -9,7 +9,7 @@ Min. tightening torque # 36095.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_TERMINALPOSITION_MINTIGHTENINGTORQUE( 

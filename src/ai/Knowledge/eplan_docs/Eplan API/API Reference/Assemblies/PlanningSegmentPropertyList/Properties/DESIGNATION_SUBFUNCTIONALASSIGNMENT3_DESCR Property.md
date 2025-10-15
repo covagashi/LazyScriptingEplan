@@ -9,7 +9,7 @@ Functional assignment (sub-identifier 4) # 1304.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBFUNCTIONALASSIGNMENT4 {get; set;}

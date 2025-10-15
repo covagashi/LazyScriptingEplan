@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ArticleReferencesFilter : AbstractDMObjectFilter
@@ -74,7 +74,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ArticleReferencesFilter Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReferencesFilter~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -82,7 +82,7 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [PartNr](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReferencesFilter~PartNr.html) | Gets/Sets the part number that was set to this filter. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -92,4 +92,4 @@ Public Methods
 | Public Method | [ResetFilter](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReferencesFilter~ResetFilter.html) | Overridden. Resets the filter. Filter matches all [ArticleReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference.html)s then. |
 | Public Method | [SetFilteredPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReferencesFilter~SetFilteredPropertyList.html) | Sets the [ArticleReferencePropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReferencePropertyList.html) that [ArticleReference](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.ArticleReference.html)s matching the filter must have. |
 
-[Top](#top)
+

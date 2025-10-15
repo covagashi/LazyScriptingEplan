@@ -9,7 +9,7 @@ Creator / Creation date # 22902.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue PART_CREATE {get; set;}

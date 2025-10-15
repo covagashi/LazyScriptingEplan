@@ -9,7 +9,7 @@ Symbol library # 16905.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMBVAR_SYMBLIB_NAME {get; set;}

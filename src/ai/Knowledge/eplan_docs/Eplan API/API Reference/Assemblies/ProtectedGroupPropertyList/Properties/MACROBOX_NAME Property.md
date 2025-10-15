@@ -9,7 +9,7 @@ Macro: Name # 23009.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue MACROBOX_NAME {get; set;}

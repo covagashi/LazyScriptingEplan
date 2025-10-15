@@ -9,7 +9,7 @@ Specifies if layer is used for 3D graphics It is not allowed to change this prop
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Is3D {get; set;}

@@ -9,7 +9,7 @@ Create new routing segment in P8 project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateTransient( 

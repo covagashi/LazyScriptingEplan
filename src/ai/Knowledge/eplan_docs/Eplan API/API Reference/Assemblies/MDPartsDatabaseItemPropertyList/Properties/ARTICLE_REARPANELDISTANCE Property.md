@@ -9,7 +9,7 @@ Distance rear panel # 22173.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_REARPANELDISTANCE {get; set;}

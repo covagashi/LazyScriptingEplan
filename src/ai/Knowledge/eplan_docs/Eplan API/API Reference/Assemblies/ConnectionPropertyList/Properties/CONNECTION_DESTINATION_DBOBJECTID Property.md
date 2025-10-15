@@ -9,7 +9,7 @@ Object identification: Target # 31161.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_DESTINATION_DBOBJECTID {get; set;}

@@ -9,7 +9,7 @@ Initializes the MergedFunction object to cover the functions passed in the array
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

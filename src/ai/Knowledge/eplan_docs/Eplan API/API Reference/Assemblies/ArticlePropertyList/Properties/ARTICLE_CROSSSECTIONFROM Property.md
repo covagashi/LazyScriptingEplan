@@ -9,7 +9,7 @@ Terminals: Cross-section from # 22084.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CROSSSECTIONFROM {get; set;}

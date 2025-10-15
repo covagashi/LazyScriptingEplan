@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [SymbolMacro](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Insert3D~SymbolMacro.html) | Places objects from symbol macro into layout space. |
 | Public Method | [WindowMacro](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.Insert3D~WindowMacro.html) | Overloaded. Places a window macro with snapping source mate to a target mate from another object. |
 
-[Top](#top)
+

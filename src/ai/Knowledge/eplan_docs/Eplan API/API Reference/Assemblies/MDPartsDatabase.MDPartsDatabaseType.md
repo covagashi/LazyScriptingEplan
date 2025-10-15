@@ -9,7 +9,7 @@ Type of parts database
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum MDPartsDatabase.MDPartsDatabaseType : System.Enum

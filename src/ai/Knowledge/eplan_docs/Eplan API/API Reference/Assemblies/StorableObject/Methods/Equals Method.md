@@ -9,7 +9,7 @@ Operator of comparison implementation. Checks if two StorableObjects refer to th
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override bool Equals( 

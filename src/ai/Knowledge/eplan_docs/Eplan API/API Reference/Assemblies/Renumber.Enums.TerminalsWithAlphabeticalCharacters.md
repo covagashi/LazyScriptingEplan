@@ -9,7 +9,7 @@ Parameter enum how terminals or pins with alphabetical elements in the designati
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Renumber.Enums.TerminalsWithAlphabeticalCharacters : System.Enum

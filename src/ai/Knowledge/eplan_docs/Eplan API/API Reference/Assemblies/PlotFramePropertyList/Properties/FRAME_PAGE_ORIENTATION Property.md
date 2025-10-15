@@ -9,7 +9,7 @@ Page orientation / paper format # 12016.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FRAME_PAGE_ORIENTATION {get; set;}

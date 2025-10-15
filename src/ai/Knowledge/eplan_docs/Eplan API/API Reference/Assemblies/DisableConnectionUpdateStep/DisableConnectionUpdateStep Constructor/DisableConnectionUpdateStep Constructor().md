@@ -9,7 +9,7 @@ Do disable.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DisableConnectionUpdateStep()

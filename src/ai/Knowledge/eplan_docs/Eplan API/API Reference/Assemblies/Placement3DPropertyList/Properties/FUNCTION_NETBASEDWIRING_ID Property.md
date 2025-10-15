@@ -9,7 +9,7 @@ ID for net-based connections # 20218.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION_NETBASEDWIRING_ID( 

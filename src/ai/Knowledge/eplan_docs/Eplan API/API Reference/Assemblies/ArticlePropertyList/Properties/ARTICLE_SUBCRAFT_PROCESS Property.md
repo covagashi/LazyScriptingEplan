@@ -9,7 +9,7 @@ Subtrade 'Process engineering' # 22197.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SUBCRAFT_PROCESS( 

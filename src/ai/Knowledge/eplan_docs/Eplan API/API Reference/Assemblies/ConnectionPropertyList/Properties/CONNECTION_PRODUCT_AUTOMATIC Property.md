@@ -9,7 +9,7 @@ Product: Main identifier (automatic) # 31133.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_PRODUCT_AUTOMATIC {get; set;}

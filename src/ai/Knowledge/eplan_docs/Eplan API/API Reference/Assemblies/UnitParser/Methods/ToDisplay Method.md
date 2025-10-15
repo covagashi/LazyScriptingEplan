@@ -9,7 +9,7 @@ Convert the value to a new unit (of parameterForConversion) of this group and ma
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ToDisplay( 

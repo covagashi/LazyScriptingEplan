@@ -9,7 +9,7 @@ Parsing of function name with additional properties.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void ParseNameAndProps( 

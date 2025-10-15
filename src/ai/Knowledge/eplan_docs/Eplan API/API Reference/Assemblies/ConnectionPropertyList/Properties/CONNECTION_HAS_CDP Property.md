@@ -9,7 +9,7 @@ Connection definition point exists # 31089.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_HAS_CDP {get; set;}

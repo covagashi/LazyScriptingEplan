@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Public Property | [MessageState](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Message~MessageState.html) | The MessageState determines the actual adjusted check type |
 
-[Top](#top)
+

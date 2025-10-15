@@ -9,7 +9,7 @@ Array with identifying names of segment definitions.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string[] ValidParents {get; set;}

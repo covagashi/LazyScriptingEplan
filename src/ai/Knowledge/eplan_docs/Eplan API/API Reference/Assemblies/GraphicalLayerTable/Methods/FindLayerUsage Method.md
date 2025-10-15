@@ -9,7 +9,7 @@ Get all objects from layer.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] FindLayerUsage( 

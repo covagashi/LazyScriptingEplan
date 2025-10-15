@@ -9,7 +9,7 @@ Nominal flow rate (intake side) # 26509.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_NOMINAL_VOLUME_FLOW_OF_THE_SUCTION_SIDE( 

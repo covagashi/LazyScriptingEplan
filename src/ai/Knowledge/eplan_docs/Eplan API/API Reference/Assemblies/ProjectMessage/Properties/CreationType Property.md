@@ -9,7 +9,7 @@ Shows the method by which the message was created.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public IMessage.ProjectMessageCreationType CreationType {get;}

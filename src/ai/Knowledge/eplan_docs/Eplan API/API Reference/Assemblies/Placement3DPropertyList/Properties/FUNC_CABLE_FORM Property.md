@@ -9,7 +9,7 @@ Cable diagram form # 20083.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_FORM {get; set;}

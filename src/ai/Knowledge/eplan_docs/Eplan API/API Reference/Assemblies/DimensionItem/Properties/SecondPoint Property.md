@@ -9,7 +9,7 @@ Gets or sets the second point of the DimensionItem.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD SecondPoint {get; set;}

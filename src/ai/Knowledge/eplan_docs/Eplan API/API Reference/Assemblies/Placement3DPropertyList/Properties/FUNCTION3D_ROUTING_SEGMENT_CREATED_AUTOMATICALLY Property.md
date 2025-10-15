@@ -9,7 +9,7 @@ Routing path / Curve: Automatically generated # 36030.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_ROUTING_SEGMENT_CREATED_AUTOMATICALLY {get; set;}

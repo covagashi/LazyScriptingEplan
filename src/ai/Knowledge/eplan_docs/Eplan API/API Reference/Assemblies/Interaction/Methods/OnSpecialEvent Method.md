@@ -9,7 +9,7 @@ Special event has occurred. Usually caused by user input.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual RequestCode OnSpecialEvent( 

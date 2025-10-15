@@ -9,7 +9,7 @@ Gets the project of an object id string. This is the project the object belongs 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Project GetProjectByObjectId( 

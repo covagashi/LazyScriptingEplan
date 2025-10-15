@@ -12,4 +12,4 @@ Public Events
 | --- | --- | --- |
 | Event | [EplanCloudResourceDeprecationEvent](topic1734.html) | Event raised when an Eplan Cloud resource is deprecated |
 
-[Top](#top)
+

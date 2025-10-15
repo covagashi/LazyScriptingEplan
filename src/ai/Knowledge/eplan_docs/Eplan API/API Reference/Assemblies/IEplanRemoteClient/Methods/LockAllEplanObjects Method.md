@@ -9,7 +9,7 @@ Lock all objects in given project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 EplanResponse LockAllEplanObjects( 

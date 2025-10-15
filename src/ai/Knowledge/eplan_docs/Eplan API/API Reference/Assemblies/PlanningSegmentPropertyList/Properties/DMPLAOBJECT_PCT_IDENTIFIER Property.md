@@ -9,7 +9,7 @@ Technical facility # 44035.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_PCT_IDENTIFIER {get; set;}

@@ -9,7 +9,7 @@ Assigns a page to a given project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetProject( 

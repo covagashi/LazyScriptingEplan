@@ -9,7 +9,7 @@ Returns flag, if this function can give connection designations to other functio
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool CanGiveConnDesignationsToOtherFunctions {get;}

@@ -9,7 +9,7 @@ Deleted object: Revision description (change tracking) # 36615.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMDELETEDOBJECTINFO_REVISION_LOG_DESCRIPTION {get; set;}

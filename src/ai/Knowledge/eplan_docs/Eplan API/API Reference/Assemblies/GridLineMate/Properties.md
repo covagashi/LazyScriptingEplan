@@ -26,4 +26,4 @@ Public Properties
 | Public Property | [StartPoint](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.LineMate~StartPoint.html) | Beginning of LineMate. Coordinate is relative if Placement is not defined, otherwise it is absolute. (Inherited from [Eplan.EplApi.DataModel.E3D.LineMate](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.LineMate.html)) |
 | Public Property | [Transformation](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate~Transformation.html) | Position and rotation relative to the parent placement represented by transformation matrix. (Inherited from [Eplan.EplApi.DataModel.E3D.Mate](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.Mate.html)) |
 
-[Top](#top)
+

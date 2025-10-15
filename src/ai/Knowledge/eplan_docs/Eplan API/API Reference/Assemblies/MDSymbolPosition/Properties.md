@@ -15,4 +15,4 @@ Public Properties
 | Public Property | [SymbolNumber](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolPosition~SymbolNumber.html) | Number identifying symbol in the symbol library. |
 | Public Property | [SymbolVariantNr](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolPosition~SymbolVariantNr.html) | Number of symbol variant. |
 
-[Top](#top)
+

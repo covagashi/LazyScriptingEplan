@@ -9,7 +9,7 @@ Routing path / Curve: Cross-section # 36029.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_ROUTING_SEGMENT_CROSSSECTION {get; set;}

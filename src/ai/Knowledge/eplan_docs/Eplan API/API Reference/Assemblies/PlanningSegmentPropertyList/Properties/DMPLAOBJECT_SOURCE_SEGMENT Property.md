@@ -9,7 +9,7 @@ Source segment # 44070.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMPLAOBJECT_SOURCE_SEGMENT {get; set;}

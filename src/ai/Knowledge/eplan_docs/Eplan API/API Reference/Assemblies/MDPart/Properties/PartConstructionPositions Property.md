@@ -9,7 +9,7 @@ Get all part construction panel positions of the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartPartConstructionPosition[] PartConstructionPositions {get;}

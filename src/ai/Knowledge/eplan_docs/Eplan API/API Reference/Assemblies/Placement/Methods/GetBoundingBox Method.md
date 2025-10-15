@@ -9,7 +9,7 @@ Placement bounding box. Bounding box is a rectangle which contain this placement
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual PointD[] GetBoundingBox()

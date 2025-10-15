@@ -9,7 +9,7 @@ Sets bending radius at specific bending point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetBendingRadiusAt( 

@@ -9,7 +9,7 @@ Item number # 20464.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_POSNR( 

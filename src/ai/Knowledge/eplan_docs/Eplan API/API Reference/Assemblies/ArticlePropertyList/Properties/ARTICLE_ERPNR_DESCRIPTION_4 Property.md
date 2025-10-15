@@ -9,7 +9,7 @@ ERP / PDM number 4: Description # 22384.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_ERPNR_DESCRIPTION_4 {get; set;}

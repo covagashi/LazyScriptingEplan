@@ -9,7 +9,7 @@ Safety-related values: B10 D # 40339.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SAFETYRELATED_B10D {get; set;}

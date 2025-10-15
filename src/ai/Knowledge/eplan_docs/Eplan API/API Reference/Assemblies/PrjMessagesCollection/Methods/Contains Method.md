@@ -9,7 +9,7 @@ Determines whether the `PrjMessagesCollection` contains a specific value.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool Contains( 

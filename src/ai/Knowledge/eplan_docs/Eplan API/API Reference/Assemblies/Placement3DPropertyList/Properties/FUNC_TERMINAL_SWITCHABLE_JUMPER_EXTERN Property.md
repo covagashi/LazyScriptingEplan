@@ -9,7 +9,7 @@ Switching jumper (external) # 20292.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_TERMINAL_SWITCHABLE_JUMPER_EXTERN {get; set;}

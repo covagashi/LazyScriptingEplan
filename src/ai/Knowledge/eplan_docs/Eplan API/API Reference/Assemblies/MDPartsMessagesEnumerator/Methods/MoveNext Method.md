@@ -9,7 +9,7 @@ Advances the enumerator to the next element of [Eplan::EplApi::MasterData:](Epla
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual bool MoveNext()

@@ -9,7 +9,7 @@ Alignment box type
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum TextBase.AlignmentBoxType : System.Enum

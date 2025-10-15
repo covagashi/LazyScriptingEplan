@@ -9,7 +9,7 @@ Synchronization from 'overview' data onto 'single-line' and 'multi-line' data.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void OverviewToMultilineAndSingleline( 

@@ -9,7 +9,7 @@ Creator: P.O. box # 10236.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CREATORPOBOX {get; set;}

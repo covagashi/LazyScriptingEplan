@@ -9,7 +9,7 @@ Project status # 10303.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_PROJECTSTATUS {get; set;}

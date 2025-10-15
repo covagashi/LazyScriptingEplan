@@ -12,4 +12,4 @@ Public Properties
 | --- | --- | --- |
 | Property | [InterfaceName](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IInterface~InterfaceName.html) | This name is used to register the type as an interface. |
 
-[Top](#top)
+

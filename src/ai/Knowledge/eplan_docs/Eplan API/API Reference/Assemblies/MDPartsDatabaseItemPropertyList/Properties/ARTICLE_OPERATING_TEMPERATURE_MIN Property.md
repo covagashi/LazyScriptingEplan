@@ -9,7 +9,7 @@ Operating temperature, min. # 26241.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_OPERATING_TEMPERATURE_MIN {get; set;}

@@ -9,7 +9,7 @@ Installation site (leading identifiers) # 1422.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_PLACEOFINSTALLATION_LEADINGPARTS( 

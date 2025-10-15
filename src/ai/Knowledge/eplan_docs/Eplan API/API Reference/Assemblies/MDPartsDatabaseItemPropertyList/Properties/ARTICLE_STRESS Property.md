@@ -9,7 +9,7 @@ Stress # 22143.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_STRESS {get; set;}

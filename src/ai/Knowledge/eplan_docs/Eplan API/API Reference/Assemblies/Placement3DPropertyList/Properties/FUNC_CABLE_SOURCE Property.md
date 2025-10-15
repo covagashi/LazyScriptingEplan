@@ -9,7 +9,7 @@ Cables: Source # 20376.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_SOURCE {get; set;}

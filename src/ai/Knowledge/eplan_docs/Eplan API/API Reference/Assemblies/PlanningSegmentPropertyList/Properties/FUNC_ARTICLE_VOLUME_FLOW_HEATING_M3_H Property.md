@@ -9,7 +9,7 @@ Weight (in kg/1000 m) # 26375.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_WEIGHT_KG_1000_M( 

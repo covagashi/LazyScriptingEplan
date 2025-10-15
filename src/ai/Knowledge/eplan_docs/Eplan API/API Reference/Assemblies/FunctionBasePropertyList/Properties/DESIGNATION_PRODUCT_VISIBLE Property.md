@@ -9,7 +9,7 @@ Product (visible) # 1829.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_PRODUCT_VISIBLE {get; set;}

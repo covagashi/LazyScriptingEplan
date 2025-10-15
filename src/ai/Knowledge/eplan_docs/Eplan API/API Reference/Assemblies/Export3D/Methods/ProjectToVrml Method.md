@@ -9,7 +9,7 @@ Exports all installation spaces from project into files in VRML format.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ProjectToVrml( 

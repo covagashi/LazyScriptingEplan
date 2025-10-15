@@ -9,7 +9,7 @@ Operator of comparison implementation. Checks if two StorableObjects refer to di
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool operator !=( 

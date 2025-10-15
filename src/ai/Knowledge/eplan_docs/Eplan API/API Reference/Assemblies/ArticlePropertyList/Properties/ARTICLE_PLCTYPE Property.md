@@ -9,7 +9,7 @@ PLC type designation # 22105.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_PLCTYPE {get; set;}

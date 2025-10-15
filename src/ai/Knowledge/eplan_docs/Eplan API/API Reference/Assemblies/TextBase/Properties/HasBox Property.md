@@ -9,7 +9,7 @@ Returns true if the Text has an alignment box. In GUI it's 'Activate alignment b
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool HasBox {get; set;}

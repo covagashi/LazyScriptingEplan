@@ -9,7 +9,7 @@ Creates a MacroBox object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

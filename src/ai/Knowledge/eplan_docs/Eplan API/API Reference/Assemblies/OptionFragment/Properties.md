@@ -24,4 +24,4 @@ Public Properties
 | Public Property | [StorableObjects](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.OptionFragment~StorableObjects.html) | Returns all objects contained in the OptionFragment. |
 | Public Property | [TypeIdentifier](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject~TypeIdentifier.html) | Returns the type of the object as number. (Inherited from [Eplan.EplApi.DataModel.StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.StorableObject.html)) |
 
-[Top](#top)
+

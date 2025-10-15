@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class ComHelper
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [ComHelper Constructor](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.ComHelper~_ctor.html) | initialize the DCOM security |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -35,4 +35,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [InitializeComSecurity](Eplan.EplApi.Starteru~Eplan.EplApi.Starter.ComHelper~InitializeComSecurity.html) | initialize the DCOM security which needed to connect to license manager (ELM). |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Get all Assembly positions of the part.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPartAssemblyPosition[] AssemblyPositions {get;}

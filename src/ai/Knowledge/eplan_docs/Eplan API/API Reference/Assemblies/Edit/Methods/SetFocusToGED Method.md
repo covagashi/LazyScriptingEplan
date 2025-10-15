@@ -9,7 +9,7 @@ Sets focus to GED frame.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SetFocusToGED()

@@ -9,7 +9,7 @@ This function of the script is registered as an event handler in the system.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DeclareEventHandler( 

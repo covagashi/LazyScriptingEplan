@@ -9,7 +9,7 @@ Installation site (visible) # 1429.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_PLACEOFINSTALLATION_VISIBLE {get; set;}

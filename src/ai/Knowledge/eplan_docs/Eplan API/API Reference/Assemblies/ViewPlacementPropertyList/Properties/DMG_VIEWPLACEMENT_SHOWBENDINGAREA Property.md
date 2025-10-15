@@ -9,7 +9,7 @@ Show bending extents # 36521.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_SHOWBENDINGAREA {get; set;}

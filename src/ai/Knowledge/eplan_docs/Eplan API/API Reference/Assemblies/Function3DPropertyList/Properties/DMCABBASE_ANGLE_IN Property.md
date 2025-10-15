@@ -9,7 +9,7 @@ Thermal design: Intake angle # 36461.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMCABBASE_ANGLE_IN {get; set;}

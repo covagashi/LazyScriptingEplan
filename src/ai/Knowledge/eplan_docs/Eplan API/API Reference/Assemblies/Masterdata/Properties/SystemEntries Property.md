@@ -9,7 +9,7 @@ Returns the file names of all master data in the system master data pool.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StringCollection SystemEntries {get;}

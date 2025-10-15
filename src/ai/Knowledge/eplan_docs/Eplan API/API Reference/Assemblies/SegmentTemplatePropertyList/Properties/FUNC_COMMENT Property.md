@@ -9,7 +9,7 @@ Remark # 20045.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_COMMENT {get; set;}

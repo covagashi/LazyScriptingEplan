@@ -9,7 +9,7 @@ Returns the short name of the address. This short name combined with the Type of
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string ShortName {get; set;}

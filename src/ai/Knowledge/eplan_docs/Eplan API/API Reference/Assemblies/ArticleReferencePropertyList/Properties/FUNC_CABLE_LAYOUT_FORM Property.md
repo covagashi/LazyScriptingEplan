@@ -9,7 +9,7 @@ Cable assignment diagram form # 20092.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_LAYOUT_FORM {get; set;}

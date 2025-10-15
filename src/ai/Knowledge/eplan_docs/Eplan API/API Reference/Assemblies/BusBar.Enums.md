@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class BusBar.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [BusBar.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.E3D.BusBar+Enums~_ctor.html) |  |
 
-[Top](#top)
+

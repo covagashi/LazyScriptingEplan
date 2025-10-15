@@ -9,7 +9,7 @@ Reason for revision change (change tracking) # 11073.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_REVISION_LOG_CHANGE( 

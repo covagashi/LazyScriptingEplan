@@ -9,7 +9,7 @@ Sets the user.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SetUser( 

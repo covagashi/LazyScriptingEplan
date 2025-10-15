@@ -9,7 +9,7 @@ Actual total flow rate, min. # 26113.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ACTUAL_TOTAL_VOLUME_FLOW_MIN {get; set;}

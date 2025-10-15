@@ -9,7 +9,7 @@ Project part # 20495.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLEREF_PROJECTARTICLE {get; set;}

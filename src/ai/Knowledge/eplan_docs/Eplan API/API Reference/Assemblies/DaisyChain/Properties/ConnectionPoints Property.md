@@ -9,7 +9,7 @@ Returns connection points belonging to the current daisy chain
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public NetDefinitionPoint.NetConnectionPoint[] ConnectionPoints {get;}

@@ -9,7 +9,7 @@ Specifies language for text when property LanguageMode value is set to LangModeF
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ISOCode.Language FixedLanguage {get; set;}

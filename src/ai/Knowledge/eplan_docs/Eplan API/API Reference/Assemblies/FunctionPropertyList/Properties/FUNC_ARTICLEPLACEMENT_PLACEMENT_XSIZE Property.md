@@ -9,7 +9,7 @@ X extension of part # 20458.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLEPLACEMENT_PLACEMENT_XSIZE {get; set;}

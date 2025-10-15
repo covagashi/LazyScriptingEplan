@@ -9,7 +9,7 @@ Creates a new logging revision of the source project. If the source project is a
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateRevision( 

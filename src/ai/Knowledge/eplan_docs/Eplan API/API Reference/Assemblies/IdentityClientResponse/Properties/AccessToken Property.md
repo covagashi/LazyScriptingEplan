@@ -9,7 +9,7 @@ Access token value.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string AccessToken {get; set;}

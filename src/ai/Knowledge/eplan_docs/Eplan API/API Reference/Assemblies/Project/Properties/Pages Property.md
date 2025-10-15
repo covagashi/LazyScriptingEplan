@@ -9,7 +9,7 @@ Project's property which return array of Pages placed in project. When the proje
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Page[] Pages {get;}

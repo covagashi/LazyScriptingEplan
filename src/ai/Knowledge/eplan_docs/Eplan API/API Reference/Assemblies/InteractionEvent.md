@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class InteractionEvent
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [InteractionEvent Constructor](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionEvent~_ctor(InteractionEvent).html) | Copy constructor. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,7 +36,7 @@ Public Properties
 | Public Property | [Name](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionEvent~Name.html) | Name of InsertionPoint that was snapped. |
 | Public Property | [Position](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionEvent~Position.html) |  |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -44,7 +44,7 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionEvent~Dispose().html) | Destructor for deterministic finalization of InteractionEvent object. |
 
-[Top](#top)
+
 
 Public Operators
 
@@ -52,4 +52,4 @@ Public Operators
 | --- | --- |
 | public Operator [Assign](Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.InteractionEvent~op_Assign.html) | Assignment operator. |
 
-[Top](#top)
+

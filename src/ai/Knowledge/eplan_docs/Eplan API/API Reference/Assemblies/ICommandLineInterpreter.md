@@ -9,7 +9,7 @@ For internal use only. A fixed interface ID is specified which is used to genera
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [Guid("68175996-AC53-3881-81F4-3C1A25B897C9")]

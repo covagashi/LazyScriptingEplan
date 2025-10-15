@@ -9,7 +9,7 @@ Connection point pattern: Level # 36069.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_TERMINALPOSITION_LEVEL( 

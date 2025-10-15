@@ -9,7 +9,7 @@ Sets `int` value in PropertyValue object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue Set( 

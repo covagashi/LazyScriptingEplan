@@ -9,7 +9,7 @@ Default value that specifies the connection point type of the connections, e.g.,
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ConnectionCategory ConnectionCategory {get; set;}

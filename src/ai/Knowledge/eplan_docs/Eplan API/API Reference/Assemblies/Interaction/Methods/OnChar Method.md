@@ -9,7 +9,7 @@ Is called after keyboard inputs by the user.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual RequestCode OnChar( 

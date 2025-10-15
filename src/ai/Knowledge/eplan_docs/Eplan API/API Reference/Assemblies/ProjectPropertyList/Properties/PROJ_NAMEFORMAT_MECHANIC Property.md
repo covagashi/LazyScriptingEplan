@@ -9,7 +9,7 @@ Naming format for mechanical devices # 10086.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_NAMEFORMAT_MECHANIC {get; set;}

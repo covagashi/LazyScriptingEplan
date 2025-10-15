@@ -9,7 +9,7 @@ Select part from the current parts database
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ShowPartSelectionDialog( 

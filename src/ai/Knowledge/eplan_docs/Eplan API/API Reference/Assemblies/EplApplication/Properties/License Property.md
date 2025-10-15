@@ -9,7 +9,7 @@ Gets application's license variant as string.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string License {get;}

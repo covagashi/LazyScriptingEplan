@@ -9,7 +9,7 @@ Method for adding a project language. It adds the language to the set of possibl
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AddProjectLanguage( 

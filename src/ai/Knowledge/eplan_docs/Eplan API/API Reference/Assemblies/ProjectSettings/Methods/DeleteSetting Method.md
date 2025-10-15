@@ -9,7 +9,7 @@ Resets a setting to the value from the default settings. If the setting has no d
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void DeleteSetting( 

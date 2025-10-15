@@ -9,7 +9,7 @@ Returns the list of the languages currently saved in this [MultiLangString](Epla
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int GetLanguageList( 

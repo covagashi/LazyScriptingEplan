@@ -9,7 +9,7 @@ Date and time # 19505.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_COMMENT_RESPONSE_DATETIME( 

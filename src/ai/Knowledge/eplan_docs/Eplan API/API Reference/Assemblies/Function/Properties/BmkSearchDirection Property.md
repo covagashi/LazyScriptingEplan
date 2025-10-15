@@ -9,7 +9,7 @@ The property gives the search direction of the full device tag, when the visible
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function.Enums.SearchDirection BmkSearchDirection {get;}

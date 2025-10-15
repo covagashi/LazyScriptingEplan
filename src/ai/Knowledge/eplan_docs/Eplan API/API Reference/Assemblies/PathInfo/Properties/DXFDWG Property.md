@@ -9,7 +9,7 @@ Returns default project DXF DWG directory.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string DXFDWG {get;}

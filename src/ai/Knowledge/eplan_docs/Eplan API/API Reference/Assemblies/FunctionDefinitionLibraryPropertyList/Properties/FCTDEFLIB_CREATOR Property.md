@@ -9,7 +9,7 @@ Creator # 15503.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FCTDEFLIB_CREATOR {get; set;}

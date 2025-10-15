@@ -15,7 +15,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class MDSymbolVariant : PropertiesAndHandleObject
@@ -32,7 +32,7 @@ Public Properties
 | Public Property | [PropertyPlacements](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolVariant~PropertyPlacements.html) | A read only list of all PropertyPlacements from the variant. |
 | Public Property | [SymbolConnectionPoints](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolVariant~SymbolConnectionPoints.html) | A read only list of all MDSymbolConnectionPoints from the variant. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -42,4 +42,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObject~Dispose().html) | Destructor for deterministic finalization of PropertiesAndHandleObject object. (Inherited from [Eplan.EplApi.MasterData.PropertiesAndHandleObject](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObject.html)) |
 | Public Method | [Remove](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolVariant~Remove.html) | Removes the symbol variant from the symbol. |
 
-[Top](#top)
+

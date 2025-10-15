@@ -9,7 +9,7 @@ Function definition: Group # 20116.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_GROUP {get; set;}

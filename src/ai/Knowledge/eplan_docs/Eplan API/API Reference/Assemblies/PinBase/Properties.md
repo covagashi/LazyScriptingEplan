@@ -15,4 +15,4 @@ Public Properties
 | Public Property | [Location](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase~Location.html) | Gets the connection point's position relative to the symbol's insertion point. |
 | Public Property | [Parent](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.PinBase~Parent.html) | Returns the symbol reference that the logical conn. point represented by this object belongs to. |
 
-[Top](#top)
+

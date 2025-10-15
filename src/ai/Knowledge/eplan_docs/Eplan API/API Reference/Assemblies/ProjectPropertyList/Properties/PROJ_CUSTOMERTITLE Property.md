@@ -9,7 +9,7 @@ Customer: Title # 10101.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_CUSTOMERTITLE {get; set;}

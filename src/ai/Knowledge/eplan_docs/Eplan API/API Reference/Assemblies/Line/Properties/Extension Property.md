@@ -9,7 +9,7 @@ Returns if Line has an extension.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool Extension {get; set;}

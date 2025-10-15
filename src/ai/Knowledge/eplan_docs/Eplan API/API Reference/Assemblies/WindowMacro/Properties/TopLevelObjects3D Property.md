@@ -9,7 +9,7 @@ Returns all Eplan.EplApi.DataModel.Placement3D, with no parent.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Placement3D[] TopLevelObjects3D {get;}

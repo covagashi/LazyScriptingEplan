@@ -9,7 +9,7 @@ Identificators of properties owned by Article class.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum Properties.Article : System.Enum

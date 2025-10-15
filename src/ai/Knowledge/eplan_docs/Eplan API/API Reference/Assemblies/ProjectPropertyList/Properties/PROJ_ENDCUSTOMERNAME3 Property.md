@@ -9,7 +9,7 @@ End customer: Name 3 # 10134.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ENDCUSTOMERNAME3 {get; set;}

@@ -9,7 +9,7 @@ Opens the page with the name passed to strPageName.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Page OpenPageWithName( 

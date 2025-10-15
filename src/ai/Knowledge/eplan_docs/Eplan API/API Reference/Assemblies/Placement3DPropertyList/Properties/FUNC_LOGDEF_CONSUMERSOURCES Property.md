@@ -9,7 +9,7 @@ Connection point logic: Consumer / source to # 20327.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_LOGDEF_CONSUMERSOURCES( 

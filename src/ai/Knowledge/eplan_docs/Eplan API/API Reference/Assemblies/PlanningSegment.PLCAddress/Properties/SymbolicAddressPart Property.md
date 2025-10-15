@@ -9,7 +9,7 @@ Symbolic address (single component).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string SymbolicAddressPart {get; set;}

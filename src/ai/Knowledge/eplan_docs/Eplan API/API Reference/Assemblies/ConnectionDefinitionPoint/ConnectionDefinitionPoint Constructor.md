@@ -9,7 +9,7 @@ Constructor. Creates transient ConnectionDefinitionPoint.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ConnectionDefinitionPoint()

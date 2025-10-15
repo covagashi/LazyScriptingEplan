@@ -9,7 +9,7 @@ Block property: Format (device connection point) # 10611.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_DEVICE_END_TERMINAL( 

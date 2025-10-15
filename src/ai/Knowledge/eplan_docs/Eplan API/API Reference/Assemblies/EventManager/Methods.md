@@ -12,4 +12,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Send](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.EventManager~Send.html) | Sends an event to the system. |
 
-[Top](#top)
+

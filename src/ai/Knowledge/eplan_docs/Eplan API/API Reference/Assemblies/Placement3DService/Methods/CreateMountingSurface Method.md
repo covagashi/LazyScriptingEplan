@@ -9,7 +9,7 @@ Creates mounting surface for the face identified by points and normal vector.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Plane CreateMountingSurface( 

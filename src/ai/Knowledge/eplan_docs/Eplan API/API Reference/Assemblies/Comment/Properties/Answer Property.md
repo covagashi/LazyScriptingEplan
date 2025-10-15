@@ -9,7 +9,7 @@ All answers given to this comment combined into one text.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Answer {get;}

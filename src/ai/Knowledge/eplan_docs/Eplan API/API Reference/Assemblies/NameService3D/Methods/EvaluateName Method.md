@@ -9,7 +9,7 @@ Method evaluates the full name for a Function3D by using the visible device tag 
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public UniversalPropertyList EvaluateName( 

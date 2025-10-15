@@ -9,7 +9,7 @@ Type of administration # 31075.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_TYPE {get; set;}

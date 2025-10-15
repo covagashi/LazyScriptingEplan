@@ -9,7 +9,7 @@ The B10 (average count of cycles until 10% of the devices are failed)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double B10 {get; set;}

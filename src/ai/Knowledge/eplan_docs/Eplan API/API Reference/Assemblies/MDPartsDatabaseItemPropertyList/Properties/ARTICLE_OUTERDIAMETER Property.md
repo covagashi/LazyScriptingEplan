@@ -9,7 +9,7 @@ Outside diameter # 22065.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_OUTERDIAMETER {get; set;}

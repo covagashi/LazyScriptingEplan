@@ -9,7 +9,7 @@ Name of function filter scheme.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string FunctionFilterSchemaName {get; set;}

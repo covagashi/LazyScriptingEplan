@@ -9,7 +9,7 @@ Block property: Format (terminal strip definition) # 10601.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_TERMINAL_DEF_TEXT( 

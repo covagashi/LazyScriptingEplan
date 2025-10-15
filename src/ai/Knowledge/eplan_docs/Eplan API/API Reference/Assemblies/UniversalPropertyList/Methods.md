@@ -15,4 +15,4 @@ Public Methods
 | Public Method | [Exists](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList~Exists.html) | Overloaded. Checks property existence for used object. |
 | Public Method | [getPropList](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.UniversalPropertyList~getPropList.html) | Internal method. |
 
-[Top](#top)
+

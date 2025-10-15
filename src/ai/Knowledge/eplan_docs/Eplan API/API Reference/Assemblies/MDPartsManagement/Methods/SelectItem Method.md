@@ -9,7 +9,7 @@ Selects the given item in the parts management dialog.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool SelectItem( 

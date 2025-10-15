@@ -9,7 +9,7 @@ Returns lower left corner's coordinates.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD LowerLeftCorner {get;}

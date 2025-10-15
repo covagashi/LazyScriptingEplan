@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class RibbonIcon
@@ -27,7 +27,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [RibbonIcon Constructor](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonIcon~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -37,7 +37,7 @@ Public Properties
 | Public Property | [Index](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonIcon~Index.html) |  |
 | Public Property | [SvgContent](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonIcon~SvgContent.html) | Svg content of custom icons. |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -45,4 +45,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Dispose](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonIcon~Dispose().html) | Destructor for deterministic finalization of MainRibbon object. |
 
-[Top](#top)
+

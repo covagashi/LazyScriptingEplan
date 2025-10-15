@@ -9,7 +9,7 @@ Distributed terminal # 20280.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DISTRIBUTED_TERMINAL {get; set;}

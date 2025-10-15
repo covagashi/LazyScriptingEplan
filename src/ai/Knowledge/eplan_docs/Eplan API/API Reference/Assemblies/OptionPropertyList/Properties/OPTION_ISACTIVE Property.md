@@ -9,7 +9,7 @@ Project option active # 23103.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue OPTION_ISACTIVE {get; set;}

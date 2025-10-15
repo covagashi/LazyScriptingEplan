@@ -9,7 +9,7 @@ Destructor for deterministic finalization of MacroPlaceHolderValueSetsClass obje
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Dispose()

@@ -9,7 +9,7 @@ Internal representation of connection category (as a long value)
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int AsLong {get;}

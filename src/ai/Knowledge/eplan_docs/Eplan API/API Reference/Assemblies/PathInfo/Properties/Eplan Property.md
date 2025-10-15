@@ -9,7 +9,7 @@ Returns EPLAN directory
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Eplan {get;}

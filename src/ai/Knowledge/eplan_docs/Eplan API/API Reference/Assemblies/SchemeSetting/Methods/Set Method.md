@@ -9,7 +9,7 @@ Setup internal members
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Set()

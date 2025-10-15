@@ -9,7 +9,7 @@ Gets or sets the offset from the second dimension, meaning the distance of the s
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double OffsetFromSecondExtensionLine {get; set;}

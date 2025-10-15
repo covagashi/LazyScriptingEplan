@@ -9,7 +9,7 @@ Gets or sets the presicion of DimensionItem.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public DimensionItem.Enums.DimensionPrecision DimensionPrecision {get; set;}

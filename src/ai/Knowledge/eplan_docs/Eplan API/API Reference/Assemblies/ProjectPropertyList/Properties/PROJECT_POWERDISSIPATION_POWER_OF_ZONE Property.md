@@ -9,7 +9,7 @@ Thermal design: Total power dissipation for air-conditioning field # 10313.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJECT_POWERDISSIPATION_POWER_OF_ZONE( 

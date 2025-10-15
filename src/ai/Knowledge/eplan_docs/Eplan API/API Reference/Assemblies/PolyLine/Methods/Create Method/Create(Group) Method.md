@@ -9,7 +9,7 @@ Creates a PolyLine object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static PolyLine Create( 

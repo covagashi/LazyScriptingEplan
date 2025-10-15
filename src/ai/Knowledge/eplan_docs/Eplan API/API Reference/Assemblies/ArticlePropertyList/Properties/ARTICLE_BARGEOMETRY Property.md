@@ -9,7 +9,7 @@ Busbars: Profile geometry D x H (only Eplan Cabinet) # 22200.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_BARGEOMETRY {get; set;}

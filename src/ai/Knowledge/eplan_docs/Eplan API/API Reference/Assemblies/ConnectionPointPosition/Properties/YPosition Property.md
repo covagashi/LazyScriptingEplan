@@ -9,7 +9,7 @@ The Y-position of the connection point
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double YPosition {get; set;}

@@ -9,7 +9,7 @@ Start position in Y direction
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double StartPositionY {get;}

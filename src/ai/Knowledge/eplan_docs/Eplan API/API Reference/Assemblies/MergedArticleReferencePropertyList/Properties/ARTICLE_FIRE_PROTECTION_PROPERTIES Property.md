@@ -9,7 +9,7 @@ Fire protection properties # 26243.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_FIRE_PROTECTION_PROPERTIES {get; set;}

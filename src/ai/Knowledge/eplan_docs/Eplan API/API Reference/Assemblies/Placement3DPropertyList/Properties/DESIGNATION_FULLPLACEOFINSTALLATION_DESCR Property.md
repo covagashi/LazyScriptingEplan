@@ -9,7 +9,7 @@ Installation site: Description # 1450.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_FULLPLACEOFINSTALLATION_DESCR {get; set;}

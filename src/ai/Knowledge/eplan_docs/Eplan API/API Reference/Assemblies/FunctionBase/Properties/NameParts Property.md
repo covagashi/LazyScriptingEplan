@@ -9,7 +9,7 @@ Name of the Function.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual FunctionBasePropertyList NameParts {get; set;}

@@ -9,7 +9,7 @@ Plug-in connector (connection 1) # 26576.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_PLUG_CONNECTOR_CONNECTION_1( 

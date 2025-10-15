@@ -9,7 +9,7 @@ Terminal strips: Total number of objects on terminal strip # 35001.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue TERMINAL_COUNTOFINTERNALOBJECTS {get; set;}

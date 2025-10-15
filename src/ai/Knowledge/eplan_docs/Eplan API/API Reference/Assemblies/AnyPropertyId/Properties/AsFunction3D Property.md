@@ -9,7 +9,7 @@ Gets property id value as [Properties.Function3D](Eplan.EplApi.DataModelu~Eplan.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Properties.Function3D AsFunction3D {get;}

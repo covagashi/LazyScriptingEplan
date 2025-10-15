@@ -9,7 +9,7 @@ Defined working section (from change tracking) # 10195.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_REVISION_LOG_EDITINGAREA( 

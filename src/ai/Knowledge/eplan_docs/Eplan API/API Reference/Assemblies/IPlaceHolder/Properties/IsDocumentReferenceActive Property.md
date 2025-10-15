@@ -9,7 +9,7 @@ Activates the properties of the page/installation space for the place holder obj
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool IsDocumentReferenceActive {get; set;}

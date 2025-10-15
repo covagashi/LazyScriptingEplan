@@ -9,7 +9,7 @@ Certification: UL File Number # 22049.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_CERTIFICATE_UL {get; set;}

@@ -9,7 +9,7 @@ Gets Eplan cloud user profile information in a JSON format.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 Task<string> GetUserProfileAsJson()

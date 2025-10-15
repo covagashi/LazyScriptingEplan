@@ -9,7 +9,7 @@ Returns an array of [StorableObject](Eplan.EplApi.DataModelu~Eplan.EplApi.DataMo
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public StorableObject[] MergedObjects {get;}

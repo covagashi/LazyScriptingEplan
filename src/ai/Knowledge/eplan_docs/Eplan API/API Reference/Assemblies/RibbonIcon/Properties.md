@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [Index](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonIcon~Index.html) |  |
 | Public Property | [SvgContent](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonIcon~SvgContent.html) | Svg content of custom icons. |
 
-[Top](#top)
+

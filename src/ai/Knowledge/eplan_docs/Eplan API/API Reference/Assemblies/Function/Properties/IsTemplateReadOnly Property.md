@@ -9,7 +9,7 @@ Determines whether changes made on this template will be stored after UpdateLoca
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool IsTemplateReadOnly {get;}

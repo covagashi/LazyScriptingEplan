@@ -9,7 +9,7 @@ distance from MountingPlate to busbars.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double BarToMountingPlateDistance {get;}

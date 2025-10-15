@@ -9,7 +9,7 @@ This constructor initialize symbol library using %%.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolLibrary( 

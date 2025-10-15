@@ -46,4 +46,4 @@ Public Properties
 | Public Property | [SYMBLIB\_VERSION](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolLibraryPropertyList~SYMBLIB_VERSION().html) | Version # 15012. |
 | Public Property | [SYMBOLLIBRARY\_REMOVED\_VARIANT](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDSymbolLibraryPropertyList~SYMBOLLIBRARY_REMOVED_VARIANT().html) | Compressed symbol library # 15031. |
 
-[Top](#top)
+

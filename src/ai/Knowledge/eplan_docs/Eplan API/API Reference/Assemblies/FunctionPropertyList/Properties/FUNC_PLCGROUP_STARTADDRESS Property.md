@@ -9,7 +9,7 @@ Start address of PLC card # 20419.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCGROUP_STARTADDRESS {get; set;}

@@ -9,7 +9,7 @@ Should be used by ProjectManager only!
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PathInfo()

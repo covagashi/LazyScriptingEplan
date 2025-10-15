@@ -9,7 +9,7 @@ Retention volume # 26221.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_COLLECTION_VOLUME {get; set;}

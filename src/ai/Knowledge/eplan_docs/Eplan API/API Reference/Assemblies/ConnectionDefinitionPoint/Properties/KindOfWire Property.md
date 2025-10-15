@@ -9,7 +9,7 @@ Returns kind of wire.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Connection.Enums.KindOfWire KindOfWire {get;}

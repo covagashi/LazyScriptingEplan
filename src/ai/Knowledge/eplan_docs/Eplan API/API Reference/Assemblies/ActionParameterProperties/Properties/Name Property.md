@@ -9,7 +9,7 @@ Name of a parameter.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Name {get;}

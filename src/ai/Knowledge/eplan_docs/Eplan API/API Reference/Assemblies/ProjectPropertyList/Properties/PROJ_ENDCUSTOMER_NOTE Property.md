@@ -9,7 +9,7 @@ End customer: Description # 10147.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_ENDCUSTOMER_NOTE {get; set;}

@@ -9,7 +9,7 @@ Switching capacity # 26546.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_SWITCHING_CAPACITY( 

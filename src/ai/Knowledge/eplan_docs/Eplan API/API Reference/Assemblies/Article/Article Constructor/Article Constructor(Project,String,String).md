@@ -9,7 +9,7 @@ Constructor. Creates a Article in Project with the specified strPartnr and strVa
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Article( 

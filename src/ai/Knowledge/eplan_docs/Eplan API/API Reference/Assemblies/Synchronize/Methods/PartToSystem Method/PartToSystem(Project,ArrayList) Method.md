@@ -9,7 +9,7 @@ Synchronizes the specified parts into the parts master database. Updates parts d
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void PartToSystem( 

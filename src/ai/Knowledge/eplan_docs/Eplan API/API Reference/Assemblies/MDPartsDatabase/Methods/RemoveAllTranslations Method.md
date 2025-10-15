@@ -9,7 +9,7 @@ Removes all the translations form parts database
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void RemoveAllTranslations()

@@ -9,7 +9,7 @@ No output to cable diagram # 20085.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CABLE_NODIAGRAM {get; set;}

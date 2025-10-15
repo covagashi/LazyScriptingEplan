@@ -14,4 +14,4 @@ Public Methods
 | Public Method | [Dispose](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.TerminalsService~Dispose().html) | Destructor |
 | Public Method | [OptimizeDistributedTerminals](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.TerminalsService~OptimizeDistributedTerminals.html) | Overloaded. Optimize all distributed terminals of all terminal strips in the project |
 
-[Top](#top)
+

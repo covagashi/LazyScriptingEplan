@@ -9,7 +9,7 @@ Returns the last used scheme name (node LastUsed).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetLastUsed()

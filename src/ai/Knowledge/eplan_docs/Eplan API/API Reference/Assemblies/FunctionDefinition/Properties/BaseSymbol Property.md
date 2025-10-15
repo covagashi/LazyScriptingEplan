@@ -9,7 +9,7 @@ Gets the best fitting SymbolVariant for this FunctionDefinition. This SymbolVari
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolVariant BaseSymbol {get;}

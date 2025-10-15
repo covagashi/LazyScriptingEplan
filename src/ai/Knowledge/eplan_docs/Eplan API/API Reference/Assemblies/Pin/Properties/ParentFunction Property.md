@@ -9,7 +9,7 @@ Returns a function that this connection point belongs to.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Function ParentFunction {get;}

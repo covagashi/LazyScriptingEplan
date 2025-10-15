@@ -9,7 +9,7 @@ Copy collection to an array
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void CopyTo( 

@@ -9,7 +9,7 @@ Channel designation (automatic) # 20428.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCHANNEL_DESIGNATION_AUTOMATIC {get; set;}

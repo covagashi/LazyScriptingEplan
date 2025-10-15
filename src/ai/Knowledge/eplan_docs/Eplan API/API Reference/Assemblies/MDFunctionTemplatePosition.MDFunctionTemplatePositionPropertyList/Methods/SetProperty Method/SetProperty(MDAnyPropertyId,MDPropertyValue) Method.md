@@ -9,7 +9,7 @@ Sets internal property by id
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetProperty( 

@@ -9,7 +9,7 @@ UnitGroup of this property definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public UserDefinedPropertyDefinition.Enums.UnitGroup UnitGroup {get; set;}

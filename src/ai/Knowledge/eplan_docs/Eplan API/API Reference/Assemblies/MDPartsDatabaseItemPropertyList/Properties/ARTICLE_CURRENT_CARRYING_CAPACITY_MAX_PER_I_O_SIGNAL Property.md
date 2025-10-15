@@ -9,7 +9,7 @@ Current carrying capacity (per I/O signal), max. # 26155.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_CURRENT_CARRYING_CAPACITY_MAX_PER_I_O_SIGNAL {get; set;}

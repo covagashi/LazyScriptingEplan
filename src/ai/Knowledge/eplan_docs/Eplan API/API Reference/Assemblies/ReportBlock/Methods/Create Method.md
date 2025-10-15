@@ -9,7 +9,7 @@ Create a new transient ReportBlock object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void Create( 

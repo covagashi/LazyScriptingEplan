@@ -9,7 +9,7 @@ Block property # 11090.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PAGE_BLOCK_VALUE( 

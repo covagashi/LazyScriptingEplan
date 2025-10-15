@@ -9,7 +9,7 @@ Function for placing connection definition points (CDPs).
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void PlaceConnectionDefinitionPoints( 

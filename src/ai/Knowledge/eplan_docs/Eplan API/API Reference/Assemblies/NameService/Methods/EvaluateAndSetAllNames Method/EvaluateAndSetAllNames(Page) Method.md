@@ -9,7 +9,7 @@ Sets the page and evaluates the full name for all placed functions and interrupt
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool EvaluateAndSetAllNames( 

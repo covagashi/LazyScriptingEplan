@@ -9,7 +9,7 @@ Default constructor. Creates Filter that matches all [Connection](Eplan.EplApi.D
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ConnectionsFilter()

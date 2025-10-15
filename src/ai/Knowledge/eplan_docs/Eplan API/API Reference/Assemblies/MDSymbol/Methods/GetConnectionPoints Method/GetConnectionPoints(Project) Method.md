@@ -9,7 +9,7 @@ Returns an array of connection points defined in the symbol's function definitio
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public Pin[] GetConnectionPoints( 

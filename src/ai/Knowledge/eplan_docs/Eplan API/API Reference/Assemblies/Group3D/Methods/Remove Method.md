@@ -9,7 +9,7 @@ Removes the 3D group and all grouped [Placement3D](Eplan.EplApi.DataModelu~Eplan
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual void Remove()

@@ -9,7 +9,7 @@ Thermal design: Min. external temperature # 36050.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNCTION3D_POWERDISSIPATION_CABINET_MIN_OUT_TEMP {get; set;}

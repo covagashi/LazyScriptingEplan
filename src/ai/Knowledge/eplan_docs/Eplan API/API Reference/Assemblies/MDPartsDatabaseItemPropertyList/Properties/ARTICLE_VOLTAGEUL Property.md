@@ -9,7 +9,7 @@ Terminals: Voltage UL # 22091.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_VOLTAGEUL {get; set;}

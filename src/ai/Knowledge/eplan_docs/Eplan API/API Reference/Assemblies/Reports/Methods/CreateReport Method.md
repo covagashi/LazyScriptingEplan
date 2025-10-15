@@ -9,7 +9,7 @@ Creates report pages. Only one report for one device can exist in a project, the
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool CreateReport( 

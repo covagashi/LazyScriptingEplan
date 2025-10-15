@@ -9,7 +9,7 @@ Block property: Format (PLC connection point) # 10606.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_BLOCKFORMAT_PLC_TERMINAL( 

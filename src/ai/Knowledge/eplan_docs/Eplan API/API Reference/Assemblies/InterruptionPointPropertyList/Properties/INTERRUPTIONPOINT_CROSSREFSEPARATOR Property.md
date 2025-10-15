@@ -9,7 +9,7 @@ Separator between interruption point and cross-reference # 24350.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INTERRUPTIONPOINT_CROSSREFSEPARATOR {get; set;}

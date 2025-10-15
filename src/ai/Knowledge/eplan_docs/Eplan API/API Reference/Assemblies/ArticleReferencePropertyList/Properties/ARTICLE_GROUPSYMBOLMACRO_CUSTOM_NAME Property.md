@@ -9,7 +9,7 @@ Schematic macro: Name for company standard # 22880.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_GROUPSYMBOLMACRO_CUSTOM_NAME( 

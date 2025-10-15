@@ -9,7 +9,7 @@ Called by EPLAN when a specific object is to be checked. Implements the "check."
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void Execute( 

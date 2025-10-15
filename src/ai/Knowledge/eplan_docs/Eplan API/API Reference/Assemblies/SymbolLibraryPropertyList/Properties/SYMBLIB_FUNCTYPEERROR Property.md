@@ -9,7 +9,7 @@ Error: Representation type # 15103.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue SYMBLIB_FUNCTYPEERROR( 

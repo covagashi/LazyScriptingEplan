@@ -9,7 +9,7 @@ Function exists with 'Functional' representation type # 20286.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ISPLACEDIN_FUNCTIONAL {get; set;}

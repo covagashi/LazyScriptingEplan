@@ -9,7 +9,7 @@ Model view: Name of the report template # 36512.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DMG_VIEWPLACEMENT_TEMPLATE_NAME {get; set;}

@@ -9,7 +9,7 @@ Rated breaking capacity (DC) # 26591.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ULTIMATE_BREAKING_CAPACITY_DC {get; set;}

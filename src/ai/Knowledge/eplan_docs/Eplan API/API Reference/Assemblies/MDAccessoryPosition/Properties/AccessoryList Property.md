@@ -9,7 +9,7 @@ Returns the referenced AccessoryList if type is AccessoryList
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDAccessoryList AccessoryList {get; set;}

@@ -9,7 +9,7 @@ Description for this property definition.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MultiLangString Description {get; set;}

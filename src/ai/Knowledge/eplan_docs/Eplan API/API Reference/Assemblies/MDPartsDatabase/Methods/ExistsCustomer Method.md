@@ -9,7 +9,7 @@ Checks if a customer info with the given short name exists.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool ExistsCustomer( 

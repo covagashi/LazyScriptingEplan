@@ -18,4 +18,4 @@ Public Methods
 | Public Method | [GetEnumerator2](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass~GetEnumerator2.html) |  |
 | Public Method | [Remove](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.Graphics.PlaceHolder+ValueSetsClass~Remove.html) | Removes a value set |
 
-[Top](#top)
+

@@ -9,7 +9,7 @@ Count of Variables.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 uint NumberOfVariables {get;}

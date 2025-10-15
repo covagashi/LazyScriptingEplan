@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 [ComVisible(true)]
@@ -31,7 +31,7 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [EplanServerData Constructor](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanServerData~_ctor.html) | Overloaded. |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -46,7 +46,7 @@ Public Properties
 | Public Property | [ServerName](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanServerData~ServerName.html) | Eplan server Name |
 | Public Property | [ServerPort](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanServerData~ServerPort.html) | Eplan server port |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -54,4 +54,4 @@ Public Methods
 | --- | --- | --- |
 | Public Method | [Clear](Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanServerData~Clear.html) | Clear |
 
-[Top](#top)
+

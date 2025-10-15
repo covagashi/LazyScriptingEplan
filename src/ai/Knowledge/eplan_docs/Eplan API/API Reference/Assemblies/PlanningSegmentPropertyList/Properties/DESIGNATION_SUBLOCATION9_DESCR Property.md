@@ -9,7 +9,7 @@ Location designation (sub-identifier 9): Description # 1239.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_SUBLOCATION9_DESCR {get; set;}

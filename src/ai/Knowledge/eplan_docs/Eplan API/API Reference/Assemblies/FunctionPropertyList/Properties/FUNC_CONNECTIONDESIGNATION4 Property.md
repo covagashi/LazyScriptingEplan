@@ -9,7 +9,7 @@ Connection point designation 4 # 20227.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_CONNECTIONDESIGNATION4 {get; set;}

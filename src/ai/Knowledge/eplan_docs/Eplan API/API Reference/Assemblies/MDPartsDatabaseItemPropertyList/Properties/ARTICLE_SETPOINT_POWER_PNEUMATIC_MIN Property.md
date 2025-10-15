@@ -9,7 +9,7 @@ Target power (pneumatic), min. # 26147.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_SETPOINT_POWER_PNEUMATIC_MIN {get; set;}

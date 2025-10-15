@@ -9,7 +9,7 @@ Nominal cooling capacity (L35W10 400 l/h) # 26131.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_NOMINAL_COOLING_PERFORMANCE_L35W10_400L_H {get; set;}

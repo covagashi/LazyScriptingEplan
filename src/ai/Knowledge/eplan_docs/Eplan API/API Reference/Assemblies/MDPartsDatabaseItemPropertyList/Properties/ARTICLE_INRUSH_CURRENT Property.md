@@ -9,7 +9,7 @@ Inrush current # 26295.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_INRUSH_CURRENT {get; set;}

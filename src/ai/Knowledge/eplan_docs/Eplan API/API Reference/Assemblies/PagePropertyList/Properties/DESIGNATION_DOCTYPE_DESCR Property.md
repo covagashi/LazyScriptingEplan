@@ -9,7 +9,7 @@ Document type (main identifier): Description # 1530.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_DOCTYPE_DESCR {get; set;}

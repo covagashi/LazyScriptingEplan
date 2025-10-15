@@ -9,7 +9,7 @@ Creates new octagon drilling in project.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static Drilling CreateOctagon( 

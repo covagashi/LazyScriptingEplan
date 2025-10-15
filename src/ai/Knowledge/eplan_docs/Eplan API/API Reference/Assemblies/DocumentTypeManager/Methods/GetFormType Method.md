@@ -9,7 +9,7 @@ Gets form document type for a specific page document type.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static DocumentTypeManager.DocumentType GetFormType( 

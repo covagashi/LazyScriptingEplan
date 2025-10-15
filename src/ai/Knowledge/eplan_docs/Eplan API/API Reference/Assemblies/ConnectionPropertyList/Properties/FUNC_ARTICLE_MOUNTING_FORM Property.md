@@ -9,7 +9,7 @@ Mounting configuration # 26274.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_MOUNTING_FORM( 

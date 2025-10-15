@@ -9,7 +9,7 @@ Get/Set article library currency 1
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Currency_1 {get; set;}

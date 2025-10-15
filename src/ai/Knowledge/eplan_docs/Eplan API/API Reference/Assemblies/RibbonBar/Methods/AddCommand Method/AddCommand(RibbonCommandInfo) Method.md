@@ -9,7 +9,7 @@ Adds command to the ribbon
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public RibbonCommand AddCommand( 

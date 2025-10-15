@@ -9,7 +9,7 @@ Determines if placed symbols on a page are always treated as graphics.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool ArePlacedSymbolAlwaysTreatedAsGraphics( 

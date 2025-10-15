@@ -9,7 +9,7 @@ Deletes a variable.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 void DeleteVariable( 

@@ -9,7 +9,7 @@ Schematic macro: NFPA mm # 22871.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_GROUPSYMBOLMACRO_NFPA_MM {get; set;}

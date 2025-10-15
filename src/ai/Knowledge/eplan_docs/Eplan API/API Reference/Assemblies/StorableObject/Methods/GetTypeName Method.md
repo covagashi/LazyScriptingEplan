@@ -9,7 +9,7 @@ Returns object type name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string GetTypeName()

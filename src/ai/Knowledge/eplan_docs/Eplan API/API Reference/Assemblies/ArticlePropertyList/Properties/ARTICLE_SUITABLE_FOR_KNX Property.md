@@ -9,7 +9,7 @@ Suitable for KNX # 26043.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_SUITABLE_FOR_KNX {get; set;}

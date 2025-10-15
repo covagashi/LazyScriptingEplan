@@ -9,7 +9,7 @@ Real address of PLC address.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public string Address {get; set;}

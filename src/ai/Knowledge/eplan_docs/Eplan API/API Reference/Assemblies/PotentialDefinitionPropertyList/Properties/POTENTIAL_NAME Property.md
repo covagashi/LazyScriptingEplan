@@ -9,7 +9,7 @@ Name of potential # 33000.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue POTENTIAL_NAME {get; set;}

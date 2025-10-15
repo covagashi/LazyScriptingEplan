@@ -9,7 +9,7 @@ Manage unplaced auxiliary functions at the main function # 20476.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_MANAGE_FUNCTIONS {get; set;}

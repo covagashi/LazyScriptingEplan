@@ -9,7 +9,7 @@ Sets the size of a shielding using the coordinates of the two opposite corners
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetArea( 

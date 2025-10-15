@@ -9,7 +9,7 @@ Returns this object created from the string identifier for the databaseid newDbI
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool TryParseIdentifier( 

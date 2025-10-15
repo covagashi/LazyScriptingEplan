@@ -9,7 +9,7 @@ The angle of the referenced mounting panel.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public double Angle {get; set;}

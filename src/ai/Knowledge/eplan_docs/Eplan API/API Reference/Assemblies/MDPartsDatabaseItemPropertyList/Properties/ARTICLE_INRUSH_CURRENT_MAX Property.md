@@ -9,7 +9,7 @@ Inrush current, max. # 26098.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_INRUSH_CURRENT_MAX {get; set;}

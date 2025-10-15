@@ -9,7 +9,7 @@ Determines if a page is only for evaluation.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static bool IsEvaluationPage( 

@@ -9,7 +9,7 @@ Creates transient PlanningSegment object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public static PlanningSegment CreateTransient( 

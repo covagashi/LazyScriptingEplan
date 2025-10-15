@@ -9,7 +9,7 @@ Actual volume flow: Accuracy # 26360.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_ACCURACY_FOR_OPERATING_VOLUME_FLOW_RATE {get; set;}

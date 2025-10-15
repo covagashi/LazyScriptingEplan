@@ -15,4 +15,4 @@ Public Methods
 | Method | [SetSynchronizationMode](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.IRemotingSynchronizer~SetSynchronizationMode.html) |  |
 | Method | [SetTemporarySynchronizationMode](Eplan.EplApi.AFu~Eplan.EplApi.RemoteServer.IRemotingSynchronizer~SetTemporarySynchronizationMode.html) |  |
 
-[Top](#top)
+

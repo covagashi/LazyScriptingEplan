@@ -9,7 +9,7 @@ Connection point cross-section / diameter (all, depending on DT adoption) # 2029
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DEPENDEDALLCONNECTIONCROSSSECTIONS {get; set;}

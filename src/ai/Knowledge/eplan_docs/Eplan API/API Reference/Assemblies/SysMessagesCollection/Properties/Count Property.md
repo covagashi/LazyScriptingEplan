@@ -9,7 +9,7 @@ Gets the number of elements contained in the `SysMessagesCollection`.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual int Count {get;}

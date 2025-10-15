@@ -9,7 +9,7 @@ Creates a Function. It is not placed on any [Eplan.EplApi.DataModel.Page](Eplan.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public override void Create( 

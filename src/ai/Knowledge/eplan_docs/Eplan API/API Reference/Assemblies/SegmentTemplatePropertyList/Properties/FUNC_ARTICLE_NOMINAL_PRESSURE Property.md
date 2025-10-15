@@ -9,7 +9,7 @@ Pressure range # 26473.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_NOMINAL_PRESSURE_RANGE( 

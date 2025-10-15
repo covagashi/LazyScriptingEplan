@@ -9,7 +9,7 @@ DT (subordinate, without project structures, with preceding sign) # 20212.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DEVICETAG_NESTED_WITHSEPARATOR {get; set;}

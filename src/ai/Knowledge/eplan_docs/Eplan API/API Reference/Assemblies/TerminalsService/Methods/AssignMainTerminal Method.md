@@ -9,7 +9,7 @@ Converts auxiliary terminal into main terminal.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public bool AssignMainTerminal( 

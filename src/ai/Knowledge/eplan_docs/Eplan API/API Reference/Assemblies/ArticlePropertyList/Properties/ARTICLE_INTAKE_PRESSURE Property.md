@@ -9,7 +9,7 @@ Intake pressure # 26003.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_INTAKE_PRESSURE {get; set;}

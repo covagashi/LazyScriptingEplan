@@ -9,7 +9,7 @@ Number of additional settings existing under the specified setting name.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public int CountSetting( 

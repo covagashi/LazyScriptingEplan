@@ -9,7 +9,7 @@ Creates embedded report.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ReportBlockReference CreateEmbeddedReport( 

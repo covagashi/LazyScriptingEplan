@@ -9,7 +9,7 @@ Contact / coil index # 20047.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue FUNC_COILINDEX {get; set;}

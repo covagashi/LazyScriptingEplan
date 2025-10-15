@@ -9,7 +9,7 @@ Document type (leading identifiers) # 1522.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue DESIGNATION_DOCTYPE_LEADINGPARTS( 

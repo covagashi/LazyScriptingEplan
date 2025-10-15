@@ -9,7 +9,7 @@ Returns the values of all variables in the nIndex-th PlaceHolder of a Macro vari
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public virtual StringCollection GetValues( 

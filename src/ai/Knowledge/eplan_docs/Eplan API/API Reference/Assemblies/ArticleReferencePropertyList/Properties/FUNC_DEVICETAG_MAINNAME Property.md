@@ -9,7 +9,7 @@ Superior product aspect incl. name supplement # 20335.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_DEVICETAG_MAINNAME {get; set;}

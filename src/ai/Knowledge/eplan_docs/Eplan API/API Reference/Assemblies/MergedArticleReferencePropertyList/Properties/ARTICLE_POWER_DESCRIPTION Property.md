@@ -9,7 +9,7 @@ Performance description (item, device) # 26427.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_POWER_DESCRIPTION {get; set;}

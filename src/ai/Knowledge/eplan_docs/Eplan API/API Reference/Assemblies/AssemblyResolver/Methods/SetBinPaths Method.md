@@ -9,7 +9,7 @@ Set the bin paths.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetBinPaths( 

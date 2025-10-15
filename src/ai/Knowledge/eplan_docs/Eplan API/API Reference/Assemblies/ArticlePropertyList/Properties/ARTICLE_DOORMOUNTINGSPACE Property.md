@@ -9,7 +9,7 @@ Door: Mounting space # 22079.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DOORMOUNTINGSPACE {get; set;}

@@ -15,4 +15,4 @@ Public Properties
 | Public Property | [Name](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommandGroup~Name.html) | Returns name of the command group |
 | Public Property | [Parent](Eplan.EplApi.Guiu~Eplan.EplApi.Gui.RibbonCommandGroup~Parent.html) | Returns ribbon tab that the command group belongs to |
 
-[Top](#top)
+

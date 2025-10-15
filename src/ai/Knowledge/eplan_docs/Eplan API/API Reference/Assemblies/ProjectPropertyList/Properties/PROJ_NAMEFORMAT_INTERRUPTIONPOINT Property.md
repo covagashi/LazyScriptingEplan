@@ -9,7 +9,7 @@ Naming format for interruption points # 10071.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PROJ_NAMEFORMAT_INTERRUPTIONPOINT {get; set;}

@@ -9,7 +9,7 @@ Wire harness name # 31143.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue HARNESS_NAME {get; set;}

@@ -9,7 +9,7 @@ Replacement part: Date # 26320.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDPropertyValue ARTICLE_REPLACEMENT_PART_DATE {get; set;}

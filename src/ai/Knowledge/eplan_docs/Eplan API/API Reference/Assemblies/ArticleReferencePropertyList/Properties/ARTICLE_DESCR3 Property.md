@@ -9,7 +9,7 @@ Part: Designation 3 # 22006.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue ARTICLE_DESCR3 {get; set;}

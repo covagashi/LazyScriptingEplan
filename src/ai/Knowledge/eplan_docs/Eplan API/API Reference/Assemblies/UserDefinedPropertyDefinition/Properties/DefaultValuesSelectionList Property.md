@@ -9,7 +9,7 @@ Gets/Sets list of default values for selection list.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public IList<MultiLangString> DefaultValuesSelectionList {get; set;}

@@ -14,7 +14,7 @@ Inheritance Hierarchy
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public class WindowMacro.Enums
@@ -27,4 +27,4 @@ Public Constructors
 | --- | --- | --- |
 | Public Constructor | [WindowMacro.Enums Constructor](Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.MasterData.WindowMacro+Enums~_ctor.html) |  |
 
-[Top](#top)
+

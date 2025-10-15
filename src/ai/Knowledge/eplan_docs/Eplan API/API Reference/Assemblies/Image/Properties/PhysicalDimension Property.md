@@ -9,7 +9,7 @@ Returns size of the bitmap in points.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointD PhysicalDimension {get;}

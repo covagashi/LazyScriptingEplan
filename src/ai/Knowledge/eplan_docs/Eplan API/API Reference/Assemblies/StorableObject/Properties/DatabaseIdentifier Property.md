@@ -9,7 +9,7 @@ Returns the project as number. The number is unique for all open projects in one
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public uint DatabaseIdentifier {get;}

@@ -9,7 +9,7 @@ Called by the framework if the user interface was initialized and the add-in can
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool OnInitGui()

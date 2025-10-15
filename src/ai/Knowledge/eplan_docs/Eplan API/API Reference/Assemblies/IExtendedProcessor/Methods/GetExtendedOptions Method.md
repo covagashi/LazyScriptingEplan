@@ -9,7 +9,7 @@ Function for extended Options. Set the parameters in the context
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 bool GetExtendedOptions( 

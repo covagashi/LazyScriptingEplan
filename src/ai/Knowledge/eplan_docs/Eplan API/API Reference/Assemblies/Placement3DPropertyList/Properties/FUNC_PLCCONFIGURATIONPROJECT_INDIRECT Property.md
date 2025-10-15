@@ -9,7 +9,7 @@ Configuration project (indirect) # 20108.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_PLCCONFIGURATIONPROJECT_INDIRECT {get; set;}

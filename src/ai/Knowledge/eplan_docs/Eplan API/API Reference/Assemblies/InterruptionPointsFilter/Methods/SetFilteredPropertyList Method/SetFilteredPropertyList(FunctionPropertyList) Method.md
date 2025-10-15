@@ -9,7 +9,7 @@ Sets the [InterruptionPointPropertyList](Eplan.EplApi.DataModelu~Eplan.EplApi.Da
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void SetFilteredPropertyList( 

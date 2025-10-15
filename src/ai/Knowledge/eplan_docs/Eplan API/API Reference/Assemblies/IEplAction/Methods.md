@@ -14,4 +14,4 @@ Public Methods
 | Method | [GetActionProperties](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAction~GetActionProperties.html) | Returns descriptive data for the action. For documentation purposes only. |
 | Method | [OnRegister](Eplan.EplApi.AFu~Eplan.EplApi.ApplicationFramework.IEplAction~OnRegister.html) | The action can be registered under a name determined by the action and an overload level. |
 
-[Top](#top)
+

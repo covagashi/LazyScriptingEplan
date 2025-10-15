@@ -9,7 +9,7 @@ Should be used internal only
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ArcPropertyList( 

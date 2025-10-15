@@ -13,4 +13,4 @@ Public Methods
 | Public Method | [GetEPoint](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD~GetEPoint.html) | \internal |
 | Public Method | [SetEPoint](Eplan.EplApi.Baseu~Eplan.EplApi.Base.PointD~SetEPoint.html) |  |
 
-[Top](#top)
+

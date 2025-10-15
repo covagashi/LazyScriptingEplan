@@ -9,7 +9,7 @@ Source # 31019.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_SOURCE {get; set;}

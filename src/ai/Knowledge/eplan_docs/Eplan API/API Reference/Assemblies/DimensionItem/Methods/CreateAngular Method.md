@@ -9,7 +9,7 @@ Creates an angular DimensionItem on the given page.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public void CreateAngular( 

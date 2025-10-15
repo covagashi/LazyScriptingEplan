@@ -9,7 +9,7 @@ Cross-reference display # 20021.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_SUPPRESSCROSSREFERENCE {get; set;}

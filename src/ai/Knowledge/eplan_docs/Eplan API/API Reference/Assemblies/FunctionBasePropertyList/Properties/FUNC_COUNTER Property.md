@@ -9,7 +9,7 @@ DT: Counter # 20014.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_COUNTER {get; set;}

@@ -9,7 +9,7 @@ Creates embedded report. This method starts an interaction so the report is atta
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public ReportBlockReference CreateEmbeddedReport( 

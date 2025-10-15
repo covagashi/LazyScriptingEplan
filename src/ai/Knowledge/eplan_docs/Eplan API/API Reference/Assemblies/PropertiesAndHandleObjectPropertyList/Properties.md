@@ -14,4 +14,4 @@ Public Properties
 | Public Property | [Parent](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList~Parent.html) | PropertiesAndHandleObject to which this property list is connected. |
 | Public Property | [Property](Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.PropertiesAndHandleObjectPropertyList~Property.html) | Overloaded. Method used by operator[] in order to access indexed properties by MDAnyPropertyId. |
 
-[Top](#top)
+

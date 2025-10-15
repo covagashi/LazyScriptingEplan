@@ -9,7 +9,7 @@ Connection: Length # 31000.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue CONNECTION_WIRELENGTH_VALUE {get; set;}

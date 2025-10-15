@@ -9,7 +9,7 @@ An array of [SymbolReference.GraphicalConnection](Eplan.EplApi.DataModelu~Eplan.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public SymbolReference.GraphicalConnection[] GraphicalConnections {get;}

@@ -9,7 +9,7 @@ Piping: Exchange source and target # 33301.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue PIPELINE_CHANGE_SOURCE_TARGET {get; set;}

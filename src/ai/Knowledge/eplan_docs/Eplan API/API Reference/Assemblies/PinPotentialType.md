@@ -9,7 +9,7 @@ Enumeration of Pin's potential types
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public enum PinPotentialType : System.Enum

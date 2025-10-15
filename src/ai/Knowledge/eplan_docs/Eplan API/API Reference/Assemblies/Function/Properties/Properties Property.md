@@ -9,7 +9,7 @@ EPLAN properties of the Function object.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public new FunctionPropertyList Properties {get;}

@@ -9,7 +9,7 @@ Automatically generated # 36456.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue INSTALLATIONSPACE_AUTO_CREATED_INFO {get; set;}

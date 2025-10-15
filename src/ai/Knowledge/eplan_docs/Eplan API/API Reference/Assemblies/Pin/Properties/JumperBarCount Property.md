@@ -9,7 +9,7 @@ Assigns the maximum number of JumperBars on the Pin.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public short JumperBarCount {get; set;}

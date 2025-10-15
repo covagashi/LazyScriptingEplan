@@ -9,7 +9,7 @@ Fill volume # 26347.
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PropertyValue FUNC_ARTICLE_FILLING_VOLUME( 

@@ -9,7 +9,7 @@ Find source mate by name. Mate namePlacement options
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public PointMate FindSourceMate( 

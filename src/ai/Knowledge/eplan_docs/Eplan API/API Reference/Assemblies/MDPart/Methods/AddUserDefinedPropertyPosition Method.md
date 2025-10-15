@@ -9,7 +9,7 @@ Adds a new UserDefinedPropertyPosition object to the part. It is added to the en
 Syntax
 
 **C#**
-**C++/CLI**
+
 
 
 public MDUserDefinedPropertyPosition AddUserDefinedPropertyPosition( 
