@@ -1,0 +1,36 @@
+# ARTICLE_CPMS_GUID Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemPropertyList~ARTICLE_CPMS_GUID().html
+
+---
+
+Unique external part ID # 22984.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public MDPropertyValue ARTICLE_CPMS_GUID {get; set;}
+```
+```
+
+```
+```
+public:
+
+property MDPropertyValue^ ARTICLE_CPMS_GUID {
+
+   MDPropertyValue^ get();
+
+   void set (    MDPropertyValue^ value);
+
+}
+```
+```
+
+#### Property Value
+
+Returns property value of type System.String.

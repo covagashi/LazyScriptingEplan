@@ -1,0 +1,66 @@
+# ARTICLE_CONNECTION_WIRECROSSSECTION_UNIT Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/topic1540.html
+
+---
+
+Connection: Unit for connection cross-section / diameter # 22255.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public MDPropertyValue ARTICLE_CONNECTION_WIRECROSSSECTION_UNIT {get; set;}
+```
+```
+
+```
+```
+public:
+
+property MDPropertyValue^ ARTICLE_CONNECTION_WIRECROSSSECTION_UNIT {
+
+   MDPropertyValue^ get();
+
+   void set (    MDPropertyValue^ value);
+
+}
+```
+```
+
+#### Property Value
+
+Returns property value of type System.Int64.
+
+Remarks
+
+Property of a part variant. Units of the connection cross-section or diameter. Possible values are:
+
+0 = As in project
+
+1 = mmÂ²
+
+2 = sqmm
+
+3 = AWG
+
+4 = mm
+
+5 = KCM
+
+6 = MCM
+
+7 = Zoll
+
+8 = "
+
+9 = inch
+
+10 = Âµm
+
+11 = kcmil
+
+12 = ÂµmÂ².

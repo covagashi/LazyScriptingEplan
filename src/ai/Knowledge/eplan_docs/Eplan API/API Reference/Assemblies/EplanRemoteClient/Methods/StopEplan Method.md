@@ -1,0 +1,30 @@
+# StopEplan Method
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanRemoteClient~StopEplan.html
+
+---
+
+Stops the Eplan instance which is connected to the current client.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public bool StopEplan()
+```
+```
+
+```
+```
+public:
+
+bool StopEplan();
+```
+```
+
+#### Return Value
+
+returns true if the connected Eplan instance could be shutdown otherwise false.

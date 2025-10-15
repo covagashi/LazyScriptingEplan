@@ -1,0 +1,30 @@
+# UpperRight Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.Baseu~Eplan.EplApi.Base.RectangleD~UpperRight.html
+
+---
+
+Returns upper right corner of the rectangle.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PointD UpperRight {get;}
+```
+```
+
+```
+```
+public:
+
+property PointD UpperRight {
+
+   PointD get();
+
+}
+```
+```

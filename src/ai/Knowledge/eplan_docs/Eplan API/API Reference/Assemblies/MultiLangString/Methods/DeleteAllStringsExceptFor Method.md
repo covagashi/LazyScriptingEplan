@@ -1,0 +1,39 @@
+# DeleteAllStringsExceptFor Method
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString~DeleteAllStringsExceptFor.html
+
+---
+
+Removes unused translations.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public void DeleteAllStringsExceptFor( 
+
+   ref LanguageList goodLanguages
+
+)
+```
+```
+
+```
+```
+public:
+
+void DeleteAllStringsExceptFor( 
+
+   LanguageList^% goodLanguages
+
+)
+```
+```
+
+#### Parameters
+
+*goodLanguages*
+:   Languages that are to be kept in the string.

@@ -1,0 +1,32 @@
+# ServerName Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.RemoteClientu~Eplan.EplApi.RemoteClient.EplanServerData~ServerName.html
+
+---
+
+Eplan server Name
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public string ServerName {get; set;}
+```
+```
+
+```
+```
+public:
+
+property String^ ServerName {
+
+   String^ get();
+
+   void set (    String^ value);
+
+}
+```
+```

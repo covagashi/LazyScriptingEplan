@@ -1,0 +1,39 @@
+# IdentityClientResponse Constructor(IdentityClientResponse)
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.IdentityClient.Types~Eplan.IdentityClient.IdentityClientResponse~_ctor(IdentityClientResponse).html
+
+---
+
+IdentityClientResponse constructor sets response data from existing object.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public IdentityClientResponse( 
+
+   IdentityClientResponse data
+
+)
+```
+```
+
+```
+```
+public:
+
+IdentityClientResponse( 
+
+   IdentityClientResponse^ data
+
+)
+```
+```
+
+#### Parameters
+
+*data*
+:   IdentityClientResponse object with data to be set.

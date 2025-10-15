@@ -1,0 +1,30 @@
+# CreationType Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.ProjectMessage~CreationType.html
+
+---
+
+Shows the method by which the message was created.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public IMessage.ProjectMessageCreationType CreationType {get;}
+```
+```
+
+```
+```
+public:
+
+property IMessage.ProjectMessageCreationType CreationType {
+
+   IMessage.ProjectMessageCreationType get();
+
+}
+```
+```

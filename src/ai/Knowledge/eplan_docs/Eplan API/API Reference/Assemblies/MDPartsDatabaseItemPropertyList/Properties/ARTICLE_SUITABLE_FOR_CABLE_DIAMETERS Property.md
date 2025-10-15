@@ -1,0 +1,40 @@
+# ARTICLE_SUITABLE_FOR_CABLE_DIAMETERS Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/topic1685.html
+
+---
+
+Suitable for cable diameter # 26350.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public MDPropertyValue ARTICLE_SUITABLE_FOR_CABLE_DIAMETERS {get; set;}
+```
+```
+
+```
+```
+public:
+
+property MDPropertyValue^ ARTICLE_SUITABLE_FOR_CABLE_DIAMETERS {
+
+   MDPropertyValue^ get();
+
+   void set (    MDPropertyValue^ value);
+
+}
+```
+```
+
+#### Property Value
+
+Returns property value of type [Eplan.EplApi.Base.MultiLangString](Eplan.EplApi.Baseu~Eplan.EplApi.Base.MultiLangString.html).
+
+Remarks
+
+Possible cable diameters for which a specific product or component is suitable.

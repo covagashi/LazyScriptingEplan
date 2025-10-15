@@ -1,0 +1,36 @@
+# ARTICLE_SPACING_FRONT Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.MasterDatau~Eplan.EplApi.MasterData.MDPartsDatabaseItemPropertyList~ARTICLE_SPACING_FRONT().html
+
+---
+
+Mounting clearance Depth: Front # 22156.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public MDPropertyValue ARTICLE_SPACING_FRONT {get; set;}
+```
+```
+
+```
+```
+public:
+
+property MDPropertyValue^ ARTICLE_SPACING_FRONT {
+
+   MDPropertyValue^ get();
+
+   void set (    MDPropertyValue^ value);
+
+}
+```
+```
+
+#### Property Value
+
+Returns property value of type System.Double.

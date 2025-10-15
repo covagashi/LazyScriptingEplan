@@ -1,0 +1,52 @@
+# HarnessService
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.HarnessService.html
+
+---
+
+Class providing harness functionalities such as import or export.
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   **Eplan.EplApi.HEServices.HarnessService**
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public class HarnessService
+```
+```
+
+```
+```
+public ref class HarnessService
+```
+```
+
+
+
+Public Constructors
+
+|  | Name | Description |
+| --- | --- | --- |
+| Public Constructor | [HarnessService Constructor](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.HarnessService~_ctor.html) | Default constructor |
+
+[Top](#top)
+
+
+
+
+Public Methods
+
+|  | Name | Description |
+| --- | --- | --- |
+| Public Method | [Dispose](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.HarnessService~Dispose().html) | Destructor |
+| Public Method | [ExportData](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.HarnessService~ExportData.html) | Overloaded. Exports Harness data. |
+| Public Method | [ImportData](Eplan.EplApi.HEServicesu~Eplan.EplApi.HEServices.HarnessService~ImportData.html) | Overloaded. Imports Harness data from a file. |
+
+[Top](#top)

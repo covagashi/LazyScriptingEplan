@@ -1,0 +1,30 @@
+# EndConnectionPoint Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.DataModelu~Eplan.EplApi.DataModel.SymbolReference+GraphicalConnection~EndConnectionPoint.html
+
+---
+
+Returns the connection's end connection point.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public PinBase EndConnectionPoint {get;}
+```
+```
+
+```
+```
+public:
+
+property PinBase^ EndConnectionPoint {
+
+   PinBase^ get();
+
+}
+```
+```

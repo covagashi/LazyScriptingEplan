@@ -1,0 +1,30 @@
+# IsReadOnly Property
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/Eplan.EplApi.EServicesu~Eplan.EplApi.EServices.Ged.Interaction~IsReadOnly.html
+
+---
+
+Returns `true`, if function does not change the project database.
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+public virtual bool IsReadOnly {get;}
+```
+```
+
+```
+```
+public:
+
+virtual property bool IsReadOnly {
+
+   bool get();
+
+}
+```
+```

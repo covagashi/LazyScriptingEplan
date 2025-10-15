@@ -1,0 +1,48 @@
+# Execute(RemotingCallingContext,RemotingCallingContext,_SynchronizationMode) Method
+
+**Source URL:** https://www.eplan.help/en-us/Infoportal/Content/api/2026/topic1.html
+
+---
+
+Syntax
+
+- [C#](#i-syntax-CS)
+- [C++/CLI](#i-syntax-CPP2005)
+
+```
+```
+_kResponse Execute( 
+
+   RemotingCallingContext pRemotingDataIn,
+
+   ref RemotingCallingContext pRemotingDataOut,
+
+   _SynchronizationMode nMode
+
+)
+```
+```
+
+```
+```
+_kResponse Execute( 
+
+   RemotingCallingContext^ pRemotingDataIn,
+
+   RemotingCallingContext^% pRemotingDataOut,
+
+   _SynchronizationMode nMode
+
+)
+```
+```
+
+#### Parameters
+
+*pRemotingDataIn*
+
+
+*pRemotingDataOut*
+
+
+*nMode*
