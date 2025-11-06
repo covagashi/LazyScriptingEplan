@@ -2,11 +2,11 @@
 
 **Multi-agent system for EPLAN scripting automation using natural language.** Built with Google's Agent Development Kit and powered by an advanced RAG system.
 
-> ⚠️ **Status**: Under active development
+> ⚠️ **Status**: stand-by
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 ### 🤖 Multi-Agent Architecture
 - **Natural Language Interface** - Describe what you want, get working code
@@ -15,7 +15,7 @@
 - **Validation & Security** - Automatic syntax and security checks
 - **Direct Execution** - Run scripts via EPLAN Remoting
 
-### 🔍 Advanced RAG System
+### 🔍 RAG System
 - **Plug & Play** - Works immediately without setup
 - **Hybrid Search** - BM25 keyword + optional vector search + Cross-Encoder re-ranking
 - **Smart Chunking** - Handles long documents with overlap
@@ -25,7 +25,7 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -86,7 +86,7 @@ results = doc_rag.search_documentation("Action.Execute method", top_k=5)
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -136,19 +136,19 @@ results = doc_rag.search_documentation("Action.Execute method", top_k=5)
 
 ### Search Modes
 
-#### 1. BM25-Only Mode (Default) ✅
+#### 1. BM25-Only Mode (Default) 
 - Works immediately, zero setup
 - Keyword-based search
 - 100% offline
 - Fast: 5ms per query
 
-#### 2. Hybrid Mode (Optional) ⭐
+#### 2. Hybrid Mode (Optional) 
 - BM25 + Vector embeddings (FAISS)
 - Semantic understanding
 - 10-15% better results
 - Requires one-time model download
 
-#### 3. Hybrid + Re-ranking Mode (Advanced) 🎯
+#### 3. Hybrid + Re-ranking Mode (Advanced) 
 - Hybrid search + Cross-Encoder re-ranking
 - Maximum precision for complex queries
 - 15-25% better results than hybrid alone
@@ -310,4 +310,4 @@ def your_custom_tool(param: str) -> str:
 
 ---
 
-**Ready to use!** The system works immediately with BM25 search. Optional upgrades available for enhanced performance.
+
